@@ -15,7 +15,7 @@ final class DuelUITests:XCTestCase {
         for i in 0..<7 {
             let option=app.buttons["answer-3"]
             XCTAssertTrue(option.waitForExistence(timeout:8))
-            app.swipeUp()
+            if i==0 {for n in 0..<4 {XCTAssertTrue(app.buttons["answer-\(n)"].isHittable,"Every answer must be visible without scrolling")}}
             if i==0 {capture("Question")}
             if option.isEnabled {option.tap()}
             let next=app.buttons["advanceQuestion"]

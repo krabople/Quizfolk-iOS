@@ -18,38 +18,38 @@ struct GameView:View {
         .onChange(of:phase){_,new in if new == .active && !game.revealed && game.current != nil { /* ContinuousClock includes time away; the timer enforces expiry on resume. */ }}
     }
     private var play:some View {
-        ScrollView {
-            VStack(spacing:20) {
-                HStack(alignment:.top) {
+        GeometryReader { geometry in
+            VStack(spacing:10) {
+                HStack(alignment:.center) {
                     player(store.name,score:game.score,icon:"person.fill",color:game.topic.tint)
-                    VStack(spacing:7){Text("VS").font(.system(size:14,weight:.black));Text(game.online && game.kind=="human" ? "RECORDED RUN":"BOT DUEL").font(.system(size:8,weight:.bold)).tracking(1)}.foregroundStyle(.secondary).padding(.top,18)
+                    VStack(spacing:5){Text("VS").font(.system(size:13,weight:.black));Text(game.online && game.kind=="human" ? "RECORDED RUN":"BOT DUEL").font(.system(size:7,weight:.bold)).tracking(1)}.foregroundStyle(.secondary).frame(width:72)
                     player(game.opponent,score:game.opponentScore,icon:game.kind=="human" ? "person.fill":"cpu.fill",color:.coral)
-                }
+                }.frame(height:52)
                 HStack(spacing:7){ForEach(0..<7){i in Capsule().fill(i<game.round ? game.topic.tint:(i==game.round ? Color.coral:Color.gray.opacity(0.15))).frame(height:5)}}
                 HStack{Text(game.round==6 ? "FINAL ROUND · DOUBLE POINTS":"ROUND \(game.round+1) OF 7").font(.system(size:11,weight:.heavy)).tracking(1);Spacer();Label(String(format:"%.1fs",game.remaining),systemImage:"timer").font(.system(.subheadline,design:.monospaced)).foregroundStyle(game.remaining<3 ? Color.coral:Color.ink)}
                 if let q=game.current {
                     Text(q.difficulty.uppercased()).font(.system(size:10,weight:.bold)).tracking(2).foregroundStyle(game.topic.tint)
-                    Text(q.prompt).font(.system(size:25,weight:.bold,design:.rounded)).multilineTextAlignment(.center).frame(maxWidth:.infinity,minHeight:145)
-                    VStack(spacing:10) {ForEach(q.answers.indices,id:\.self){i in answer(q,index:i)}}
+                    Text(q.prompt).font(.system(size:24,weight:.bold,design:.rounded)).multilineTextAlignment(.center).lineLimit(8).minimumScaleFactor(0.55).frame(maxWidth:.infinity,maxHeight:.infinity).layoutPriority(1)
+                    VStack(spacing:8) {ForEach(q.answers.indices,id:\.self){i in answer(q,index:i)}}.frame(height:geometry.size.height * (game.revealed ? 0.38:0.47))
                     if game.revealed {
-                        Text(game.lastPoints>0 ? "+\(game.lastPoints) points · Nicely done!":(game.selected == -1 ? "Time’s up. You’ve got the next one.":"One to remember for next time.")).font(.headline).foregroundStyle(game.lastPoints>0 ? game.topic.tint:Color.coral).multilineTextAlignment(.center)
+                        Text(game.lastPoints>0 ? "+\(game.lastPoints) points · Nicely done!":(game.selected == -1 ? "Time’s up. You’ve got the next one.":"One to remember for next time.")).font(.system(size:14,weight:.semibold)).foregroundStyle(game.lastPoints>0 ? game.topic.tint:Color.coral).multilineTextAlignment(.center).lineLimit(2).minimumScaleFactor(0.8)
                         Button(game.round==6 ? "See results":"Next question"){Task{await game.next()}}.buttonStyle(PrimaryButton(color:game.topic.tint)).accessibilityIdentifier("advanceQuestion")
                     }
-                } else if game.busy {ProgressView("Finding your duel…").padding(70)}
+                } else if game.busy {ProgressView("Finding your duel…").frame(maxWidth:.infinity,maxHeight:.infinity)}
                 if let error=game.error {Text(error).font(.subheadline).foregroundStyle(.red);Button("Try again"){Task{await game.retry()}}.buttonStyle(.bordered)}
                 if game.busy && game.current != nil {ProgressView()}
                 Text("\(game.current?.source ?? "Open trivia contributors") · CC BY-SA 4.0").font(.system(size:9)).foregroundStyle(.secondary)
-            }.padding(22)
+            }.padding(.horizontal,20).padding(.vertical,12)
         }
     }
     private func player(_ name:String,score:Int,icon:String,color:Color)->some View {
-        VStack(spacing:9){Image(systemName:icon).font(.title2).foregroundStyle(color).frame(width:56,height:56).background(color.opacity(0.12),in:Circle());Text(name).font(.system(size:12,weight:.semibold)).lineLimit(2).multilineTextAlignment(.center);Text("\(score)").font(.system(size:30,weight:.bold,design:.rounded))}.frame(maxWidth:.infinity)
+        HStack(spacing:8){Image(systemName:icon).font(.system(size:16)).foregroundStyle(color).frame(width:34,height:34).background(color.opacity(0.12),in:Circle());VStack(alignment:.leading,spacing:2){Text(name).font(.system(size:11,weight:.semibold)).lineLimit(1).minimumScaleFactor(0.7);Text("\(score)").font(.system(size:25,weight:.bold,design:.rounded))}}.frame(maxWidth:.infinity)
     }
     private func answer(_ q:Question,index:Int)->some View {
         let correct=game.revealed && index==q.correctIndex
         let wrong=game.revealed && game.selected==index && !correct
         return Button{Task{await game.answer(index)}}label:{
-            HStack(spacing:12){Text(String(UnicodeScalar(65+index)!)).font(.system(size:12,weight:.bold)).frame(width:28,height:28).background(Color.ink.opacity(0.06),in:Circle());Text(q.answers[index]).font(.system(size:16,weight:.semibold)).multilineTextAlignment(.leading);Spacer();if correct {Image(systemName:"checkmark.circle.fill").foregroundStyle(.green)} else if wrong {Image(systemName:"xmark.circle.fill").foregroundStyle(.red)}}.foregroundStyle(Color.ink).padding(16).frame(maxWidth:.infinity,minHeight:66).background(correct ? Color.green.opacity(0.12):(wrong ? Color.red.opacity(0.1):.white),in:RoundedRectangle(cornerRadius:14)).overlay{RoundedRectangle(cornerRadius:14).stroke(correct ? Color.green:(wrong ? Color.red:.clear),lineWidth:2)}
+            HStack(spacing:10){Text(String(UnicodeScalar(65+index)!)).font(.system(size:12,weight:.bold)).frame(width:28,height:28).background(Color.ink.opacity(0.06),in:Circle());Text(q.answers[index]).font(.system(size:16,weight:.semibold)).multilineTextAlignment(.leading).lineLimit(4).minimumScaleFactor(0.65).frame(maxWidth:.infinity,alignment:.leading);if correct {Image(systemName:"checkmark.circle.fill").foregroundStyle(.green)} else if wrong {Image(systemName:"xmark.circle.fill").foregroundStyle(.red)}}.foregroundStyle(Color.ink).padding(.horizontal,12).padding(.vertical,8).frame(maxWidth:.infinity,maxHeight:.infinity).background(correct ? Color.green.opacity(0.12):(wrong ? Color.red.opacity(0.1):.white),in:RoundedRectangle(cornerRadius:14)).overlay{RoundedRectangle(cornerRadius:14).stroke(correct ? Color.green:(wrong ? Color.red:.clear),lineWidth:2)}
         }.buttonStyle(.plain).disabled(game.revealed || game.busy || game.error != nil).accessibilityIdentifier("answer-\(index)")
     }
     private var result:some View {

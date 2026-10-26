@@ -58,7 +58,7 @@ import Security
         parts.queryItems=(parts.queryItems ?? [])+[URLQueryItem(name:"r",value:route)]+query
         guard let url=parts.url else {throw APIError.message("Invalid API URL")}
         var req=URLRequest(url:url);req.timeoutInterval=20
-        if let token {req.setValue("Bearer \(token)",forHTTPHeaderField:"Authorization")}
+        if let token,UserDefaults.standard.string(forKey:"tokenEndpoint")==apiURL {req.setValue("Bearer \(token)",forHTTPHeaderField:"Authorization")}
         if let body {req.httpMethod="POST";req.setValue("application/json",forHTTPHeaderField:"Content-Type");req.httpBody=try JSONSerialization.data(withJSONObject:body)}
         let (data,response)=try await URLSession.shared.data(for:req)
         guard let http=response as? HTTPURLResponse,(200..<300).contains(http.statusCode) else {
