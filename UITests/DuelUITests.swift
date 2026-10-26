@@ -7,8 +7,7 @@ final class DuelUITests:XCTestCase {
         XCTAssertTrue(search.waitForExistence(timeout:10))
         capture("Discover")
         search.tap();search.typeText("Geography")
-        let topic=app.buttons["topic-22"].exists ? app.buttons["topic-22"]:app.otherElements["topic-22"]
-        let link=app.descendants(matching:.any)["topic-22"].firstMatch
+        let link=app.descendants(matching:.any).matching(identifier:"topic-22").firstMatch
         XCTAssertTrue(link.waitForExistence(timeout:5));link.tap()
         app.swipeUp()
         let practice=app.buttons["Practise against a bot"]
