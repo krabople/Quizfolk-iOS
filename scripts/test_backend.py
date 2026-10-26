@@ -1,6 +1,6 @@
 """End-to-end contract tests against an isolated local PHP server, never production."""
-import json,urllib.request,urllib.error,pathlib,sqlite3,time
-BASE='http://127.0.0.1:8766/index.php?r='
+import json,urllib.request,urllib.error,pathlib,sqlite3,time,os
+BASE=os.environ.get('QUIZFOLK_TEST_URL','http://127.0.0.1:8770/index.php?r=')
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 BANK={q['id']:q for q in json.loads((ROOT/'data/questions.json').read_text(encoding='utf-8'))}
 STATE=ROOT/'backend/private/quizfolk.sqlite'
@@ -9,7 +9,7 @@ def req(route,body=None,token=None,status=200):
  if token:headers['Authorization']='Bearer '+token
  r=urllib.request.Request(BASE+route,data=None if body is None else json.dumps(body).encode(),headers=headers)
  try:
-  with urllib.request.urlopen(r) as v:code=v.status; data=json.load(v)
+  with urllib.request.urlopen(r,timeout=15) as v:code=v.status; data=json.load(v)
  except urllib.error.HTTPError as e:code=e.code;data=json.load(e)
  assert code==status,(route,code,data)
  return data
