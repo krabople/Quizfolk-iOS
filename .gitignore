@@ -1,0 +1,12 @@
+.DS_Store
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+backend/private/
+backend/config.php
+*.p12
+*.mobileprovision
+*.key
+.env
+*.log

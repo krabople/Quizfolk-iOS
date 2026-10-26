@@ -1,0 +1,53 @@
+name: iOS build and tests
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: ios-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: macos-15
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate Xcode project
+        run: |
+          brew install xcodegen
+          xcodegen generate
+      - name: Validate question bank
+        run: python3 scripts/validate_bank.py
+      - name: Select available iPhone simulator
+        run: |
+          DEVICE=$(xcrun simctl list devices available -j | python3 -c 'import json,sys; d=json.load(sys.stdin); print(next(x["udid"] for k,v in d["devices"].items() if "iOS" in k for x in v if x["name"].startswith("iPhone")))')
+          echo "SIMULATOR_ID=$DEVICE" >> "$GITHUB_ENV"
+      - name: Build and run unit tests
+        run: |
+          set -o pipefail
+          xcodebuild -project Quizfolk.xcodeproj -scheme Quizfolk -destination "platform=iOS Simulator,id=$SIMULATOR_ID" -derivedDataPath build -resultBundlePath build/TestResults.xcresult CODE_SIGNING_ALLOWED=NO test | tee build-output.log
+      - name: Capture simulator screenshot
+        run: |
+          xcrun simctl boot "$SIMULATOR_ID" || true
+          xcrun simctl bootstatus "$SIMULATOR_ID" -b
+          xcrun simctl install "$SIMULATOR_ID" build/Build/Products/Debug-iphonesimulator/Quizfolk.app
+          xcrun simctl launch "$SIMULATOR_ID" com.quizfolk.ios
+          sleep 3
+          xcrun simctl io "$SIMULATOR_ID" screenshot build/Quizfolk.png
+      - name: Build unsigned device archive
+        run: xcodebuild -project Quizfolk.xcodeproj -scheme Quizfolk -destination 'generic/platform=iOS' -archivePath build/Quizfolk.xcarchive CODE_SIGNING_ALLOWED=NO archive
+      - name: Upload simulator app, unsigned archive and test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Quizfolk-iOS
+          retention-days: 14
+          path: |
+            build/Build/Products/Debug-iphonesimulator/Quizfolk.app
+            build/Quizfolk.xcarchive
+            build/TestResults.xcresult
+            build/Quizfolk.png
+            build-output.log
