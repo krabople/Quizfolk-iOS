@@ -1,7 +1,7 @@
 import Foundation
 import SwiftUI
 
-struct PublicQuestion:Decodable {let id:String;let prompt:String;let answers:[String];let difficulty:String}
+struct PublicQuestion:Decodable {let id:String;let prompt:String;let answers:[String];let difficulty:String;let source:String?;let sourceURL:String?}
 struct StartReply:Decodable {let id:String;let kind:String;let opponent:String}
 struct RoundReply:Decodable {let round:Int;let question:PublicQuestion;let remaining:Double}
 struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPoints:Int;let finished:Bool;let score:Int;let opponentScore:Int}
@@ -50,7 +50,7 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
     private func getOnlineRound() async throws {
         let reply:RoundReply=try await store.request("round",body:["match":matchID])
         round=reply.round
-        current=Question(id:reply.question.id,categoryID:topic.id,difficulty:reply.question.difficulty,prompt:reply.question.prompt,answers:reply.question.answers,correctIndex:-1)
+        current=Question(id:reply.question.id,categoryID:topic.id,difficulty:reply.question.difficulty,prompt:reply.question.prompt,answers:reply.question.answers,correctIndex:-1,source:reply.question.source,sourceURL:reply.question.sourceURL)
         startTimer(seconds:reply.remaining)
     }
     private func startTimer(seconds:Double) {
@@ -83,10 +83,10 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
                 correct=r.correctIndex;points=r.points;other=r.opponentPoints
             } else {
                 correct=q.correctIndex;points=Scoring.points(correct:index==correct,elapsed:elapsed,round:round)
-                let chance=q.difficulty=="easy" ? 0.83 : (q.difficulty=="medium" ? 0.65:0.45)
+                let chance=q.difficulty=="easy" ? 0.83 : (q.difficulty=="hard" ? 0.45:0.65)
                 other=Scoring.points(correct:Double.random(in:0...1)<chance,elapsed:Double.random(in:1.2...9.8),round:round)
             }
-            let revealedQ=Question(id:q.id,categoryID:q.categoryID,difficulty:q.difficulty,prompt:q.prompt,answers:q.answers,correctIndex:correct)
+            let revealedQ=Question(id:q.id,categoryID:q.categoryID,difficulty:q.difficulty,prompt:q.prompt,answers:q.answers,correctIndex:correct,source:q.source,sourceURL:q.sourceURL)
             current=revealedQ;lastPoints=points;score+=points;opponentScore+=other
             rounds.append(PlayedRound(question:revealedQ,selected:index,elapsed:elapsed,points:points,opponentPoints:other))
             revealed=true;pendingAnswer=nil

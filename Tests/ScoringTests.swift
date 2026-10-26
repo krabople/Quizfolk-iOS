@@ -15,8 +15,8 @@ final class ScoringTests:XCTestCase {
     @MainActor func testBundleBank() throws {
         let q:[Question]=try QuizStore.resource("questions")
         let topics:[Topic]=try QuizStore.resource("categories")
-        XCTAssertGreaterThanOrEqual(q.count,4000)
-        XCTAssertEqual(topics.count,24)
+        XCTAssertGreaterThanOrEqual(q.count,45000)
+        XCTAssertEqual(topics.count,30)
         XCTAssertEqual(Set(q.map{$0.id}).count,q.count)
         for topic in topics {XCTAssertEqual(q.filter{$0.categoryID==topic.id}.count,topic.questionCount)}
         for item in q {let s=item.shuffled();XCTAssertEqual(Set(s.answers).count,4);XCTAssertEqual(s.answers[s.correctIndex],item.answers[item.correctIndex])}

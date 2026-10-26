@@ -79,8 +79,8 @@ try {
     }
     if($route==='match') {
         $topic=(string)($body['topic'] ?? '');
-        $all=json_decode(file_get_contents(dirname(__DIR__,2).'/data/questions.json'),true,512,JSON_THROW_ON_ERROR);
-        $bank=array_values(array_filter($all,fn($q)=>$q['categoryID']===$topic));
+        $questionDB=new PDO('sqlite:'.dirname(__DIR__,2).'/data/question-bank.sqlite',null,null,[PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION,PDO::ATTR_DEFAULT_FETCH_MODE=>PDO::FETCH_ASSOC]);
+        $bank=array_map(fn($row)=>json_decode($row['payload'],true,512,JSON_THROW_ON_ERROR),sql($questionDB,'SELECT payload FROM questions WHERE category_id=?',[$topic])->fetchAll());
         if(count($bank)<7) fail('Unknown topic');
         $db->exec('BEGIN IMMEDIATE');
         $active=sql($db,'SELECT COUNT(*) n FROM matches WHERE player_id=? AND created>?',[$pid,time()-3600])->fetch();
@@ -93,7 +93,7 @@ try {
             $previous=sql($db,'SELECT packet FROM matches WHERE player_id=? AND topic=? ORDER BY created DESC LIMIT 100',[$pid,$topic])->fetchAll();$seen=[];
             foreach($previous as $old)foreach(json_decode($old['packet'],true) as $q)$seen[$q['id']]=true;
             shuffle($bank);usort($bank,fn($a,$b)=>(int)isset($seen[$a['id']])<=>(int)isset($seen[$b['id']]));$packet=array_slice($bank,0,7);$other=[];
-            foreach($packet as $i=>&$q){$indices=[0,1,2,3];shuffle($indices);$answers=array_map(fn($n)=>$q['answers'][$n],$indices);$q['correctIndex']=array_search($q['correctIndex'],$indices,true);$q['answers']=$answers;$chance=match($q['difficulty']){'easy'=>83,'medium'=>65,default=>45};$other[]=points(random_int(1,100)<=$chance,random_int(1200,9800)/1000,$i);}unset($q);
+            foreach($packet as $i=>&$q){$indices=[0,1,2,3];shuffle($indices);$answers=array_map(fn($n)=>$q['answers'][$n],$indices);$q['correctIndex']=array_search($q['correctIndex'],$indices,true);$q['answers']=$answers;$chance=match($q['difficulty']){'easy'=>83,'hard'=>45,default=>65};$other[]=points(random_int(1,100)<=$chance,random_int(1200,9800)/1000,$i);}unset($q);
             $kind='bot';$opponent='Pip · Bot';
         }
         $id=bin2hex(random_bytes(12));
@@ -114,7 +114,7 @@ try {
         if($route==='round') {
             $started=$m['started']===null ? microtime(true):(float)$m['started'];
             if($m['started']===null)sql($db,'UPDATE matches SET started=? WHERE id=?',[$started,$id]);
-            $db->exec('COMMIT');out(['round'=>$round,'question'=>['id'=>$q['id'],'prompt'=>$q['prompt'],'answers'=>$q['answers'],'difficulty'=>$q['difficulty']],'remaining'=>max(0,10-(microtime(true)-$started))]);
+            $db->exec('COMMIT');out(['round'=>$round,'question'=>['id'=>$q['id'],'prompt'=>$q['prompt'],'answers'=>$q['answers'],'difficulty'=>$q['difficulty'],'source'=>$q['source'] ?? 'Open Trivia Database','sourceURL'=>$q['sourceURL'] ?? 'https://opentdb.com/'],'remaining'=>max(0,10-(microtime(true)-$started))]);
         }
         if($m['started']===null || !isset($body['round']) || $body['round']!==$round || !isset($body['answer']) || !is_int($body['answer']) || $body['answer']<-1 || $body['answer']>3) fail('Invalid round or answer',409);
         $elapsed=microtime(true)-(float)$m['started'];$correct=$body['answer']===$q['correctIndex'];$score=points($correct,$elapsed,$round);

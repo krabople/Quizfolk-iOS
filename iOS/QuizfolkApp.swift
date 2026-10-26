@@ -97,11 +97,11 @@ struct TopicTile:View {
                 if favourite {Image(systemName:"heart.fill").font(.caption).foregroundStyle(.white.opacity(0.85))}
             }
             VStack(alignment:.leading,spacing:5) {
-                Text(topic.name).font(.system(size:17,weight:.bold,design:.rounded)).lineLimit(2).minimumScaleFactor(0.85)
+                Text(topic.name).font(.system(size:17,weight:.bold,design:.rounded)).lineLimit(2).minimumScaleFactor(0.85).frame(height:42,alignment:.topLeading)
                 Text("\(topic.questionCount) questions · Lv. \(level)").font(.system(size:10,weight:.medium)).opacity(0.9)
             }
             Capsule().fill(.white.opacity(0.22)).frame(height:3).overlay(alignment:.leading){Capsule().fill(.white.opacity(0.8)).frame(width:CGFloat(min(110,level*9)),height:3)}
-        }.foregroundStyle(.white).padding(17).frame(maxWidth:.infinity,minHeight:168,alignment:.topLeading).background(topic.tint,in:RoundedRectangle(cornerRadius:18))
+        }.foregroundStyle(.white).padding(17).frame(maxWidth:.infinity).frame(height:190,alignment:.topLeading).background(topic.tint,in:RoundedRectangle(cornerRadius:18))
         .accessibilityElement(children:.combine)
     }
 }

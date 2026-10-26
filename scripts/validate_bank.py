@@ -2,7 +2,7 @@ import pathlib,json,collections
 p=pathlib.Path(__file__).resolve().parents[1]/'data'
 q=json.loads((p/'questions.json').read_text(encoding='utf-8'))
 c=json.loads((p/'categories.json').read_text(encoding='utf-8'))
-assert len(q)>=4000
+assert len(q)>=45000
 assert len({x['id'] for x in q})==len(q)
 assert len({x['prompt'].casefold() for x in q})==len(q)
 counts=collections.Counter(x['categoryID'] for x in q)

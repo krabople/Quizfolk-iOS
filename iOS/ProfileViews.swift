@@ -23,7 +23,7 @@ struct MatchDetailView:View {
             Section("\(match.score) – \(match.opponentScore) vs \(match.opponent)") {
                 ForEach(Array(match.rounds.enumerated()),id:\.element.id){i,r in VStack(alignment:.leading,spacing:8){Text("\(i+1). \(r.question.prompt)").font(.headline);Text("Correct: \(r.question.answers[r.question.correctIndex])");Text("Your answer: \(r.selected>=0 && r.selected<4 ? r.question.answers[r.selected]:"Timed out")").foregroundStyle(.secondary);Text("\(r.points) points · \(r.elapsed, specifier:"%.1f") seconds").font(.caption)}}
             }
-            Section {Link("Question source · Open Trivia Database",destination:URL(string:"https://opentdb.com/")!);Link("Question licence · CC BY-SA 4.0",destination:URL(string:"https://creativecommons.org/licenses/by-sa/4.0/")!)}
+            Section {Link("Question source · Open Trivia Database",destination:URL(string:"https://opentdb.com/")!);Link("Question source · OpenTriviaQA contributors",destination:URL(string:"https://github.com/uberspot/OpenTriviaQA")!);Link("Question licence · CC BY-SA 4.0",destination:URL(string:"https://creativecommons.org/licenses/by-sa/4.0/")!)}
         }.navigationTitle("Duel review")
     }
 }

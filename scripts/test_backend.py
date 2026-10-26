@@ -27,7 +27,7 @@ for i in range(7):
  assert r['round']==i and 'correctIndex' not in q
  again=req('round',{'match':m['id']},a)
  assert again['question']==q and again['remaining']<=r['remaining']
- right=q['answers'].index(BANK[q['id']]['answers'][0])
+ item=BANK[q['id']];right=q['answers'].index(item['answers'][item['correctIndex']])
  if i==1:
   with sqlite3.connect(STATE) as db:db.execute('UPDATE matches SET started=? WHERE id=?',(time.time()-11,m['id']))
  result=req('answer',{'match':m['id'],'round':i,'answer':right,'elapsed':0},a)

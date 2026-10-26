@@ -38,7 +38,7 @@ struct GameView:View {
                 } else if game.busy {ProgressView("Finding your duel…").padding(70)}
                 if let error=game.error {Text(error).font(.subheadline).foregroundStyle(.red);Button("Try again"){Task{await game.retry()}}.buttonStyle(.bordered)}
                 if game.busy && game.current != nil {ProgressView()}
-                Text("Questions: Open Trivia Database · CC BY-SA 4.0").font(.system(size:9)).foregroundStyle(.secondary)
+                Text("\(game.current?.source ?? "Open trivia contributors") · CC BY-SA 4.0").font(.system(size:9)).foregroundStyle(.secondary)
             }.padding(22)
         }
     }

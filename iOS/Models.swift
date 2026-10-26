@@ -17,10 +17,12 @@ struct Question: Codable, Identifiable {
     let prompt: String
     let answers: [String]
     let correctIndex: Int
+    var source: String? = nil
+    var sourceURL: String? = nil
     func shuffled() -> Question {
         let indices = Array(answers.indices).shuffled()
         return Question(id:id, categoryID:categoryID, difficulty:difficulty, prompt:prompt,
-                        answers:indices.map { answers[$0] }, correctIndex:indices.firstIndex(of:correctIndex)!)
+                        answers:indices.map { answers[$0] }, correctIndex:indices.firstIndex(of:correctIndex)!,source:source,sourceURL:sourceURL)
     }
 }
 struct PlayedRound: Codable, Identifiable {

@@ -20,11 +20,17 @@ This is asynchronous competition against recorded performances; it is not a pend
 
 ## Question bank and limits
 
-The initial snapshot contains **4,018 distinct four-answer questions across 24 categories**, imported from 4,738 source records. 717 true/false questions and 3 duplicates were excluded. Every included record has a stable ID, source, licence and an `imported_unreviewed` label. HTML entities were decoded. The importer validates structure, not factual accuracy. No claim is made that the bank is fully fact-checked or comparable in size to QuizUp’s historical hundreds of thousands of questions.
+The shipped bank contains **45,581 unique four-answer questions across 30 categories**. It combines 4,016 structurally accepted Open Trivia Database records with 41,565 accepted OpenTriviaQA records. The initial OpenTDB import had 4,018 records; two position-dependent answer records were excluded during expansion. No answers or distractors were invented to inflate the totals.
 
-The category sizes are intentionally visible in the app and [data/import-report.json](data/import-report.json). Video Games has 945 questions; Gadgets has only 28. The smaller categories need editorial expansion before a broad launch. Avoid manufacturing four-answer trivia by merely expanding true/false prompts or generating unverified distractors.
+OpenTriviaQA import checks excluded 6,913 non-four-option or malformed records, 161 time/context-dependent prompts, 634 length/encoding failures, 417 duplicate prompts and 26 records with answer-position dependencies. Every shipped record has a stable ID, source, source URL, licence, and `imported_unreviewed` status. These are structural checks, not independent fact-checking. Source records without difficulty labels appear as Mixed rather than an invented difficulty rating.
 
-Source snapshot: [lipschultz/open-trivia-dataset](https://github.com/lipschultz/open-trivia-dataset), commit `77d8e3cb5c8e264d50220eee75cfe08d233b1910`. Underlying source: [Open Trivia Database](https://opentdb.com/), whose [API documentation](https://opentdb.com/api_config.php) publishes the data under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Attribution and licence links are present inside the app. The adapted question data is distributed under the same licence; this statement does not apply that licence to the original app code.
+Actual category sizes are in `data/import-report.json` and in the app. General Knowledge has 10,175 questions; Music 4,851; Film 3,780; Sport 2,501. Specialist categories are smaller: Comics has 70 and Gadgets 72. Questions need editorial review before a broad public launch, particularly historical or ambiguous community submissions. This is not a copy of QuizUp's proprietary historical question library.
+
+Sources and licences:
+
+- [Open Trivia Database](https://opentdb.com/) via [the Open Trivia Dataset snapshot](https://github.com/lipschultz/open-trivia-dataset), commit `77d8e3cb5c8e264d50220eee75cfe08d233b1910`. Its [API documentation](https://opentdb.com/api_config.php) publishes the data under CC BY-SA 4.0.
+- [OpenTriviaQA contributors](https://github.com/uberspot/OpenTriviaQA), commit `dcc1cdf36c2985ed5c849d1f2265c5041ffcdfb9`, whose repository declares CC BY-SA 4.0.
+- The adapted question bank is distributed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). A licence copy is included. Source and licence attribution appear inside the app and in the data. This does not apply the data licence to the original app code.
 
 ## Hosting choice
 

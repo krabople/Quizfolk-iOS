@@ -4,7 +4,7 @@ A native SwiftUI trivia app inspired by the original QuizUp: follow topics, play
 
 ## Included
 
-- 4,018 bundled four-option questions across 24 categories. Actual per-topic counts appear in the app and `data/import-report.json`.
+- 45,581 bundled four-option questions across 30 categories. Actual per-topic counts appear in the app and `data/import-report.json`.
 - Offline bot practice with persistent history, local XP, per-topic levels and accuracy.
 - A PHP + SQLite backend for asynchronous duels against recorded human runs, with bot fallback when no run is available.
 - Server-owned online deadlines and scoring, authenticated match ownership, replay-safe answer submissions, name-based player cards, weekly and all-time filtered leaderboards, question reports and account deletion.
@@ -41,7 +41,7 @@ home/
   quizfolk-service/
     backend/public/index.php
     backend/private/             # created by PHP; never web accessible
-    data/questions.json
+    data/question-bank.sqlite
     data/categories.json
   public_html/
     quizfolk-api/
@@ -58,7 +58,7 @@ require dirname(__DIR__, 2).'/quizfolk-service/backend/public/index.php';
 
 Leave the website’s root index, rewrite rules, DNS, WordPress files and database untouched. In production, back up `backend/private/quizfolk.sqlite` consistently (SQLite backup API or `VACUUM INTO`; copying only the DB while WAL writes are active is insufficient). Monitor disk usage and load. Shared hosting still shares CPU and I/O with the website even though the files and data are separate. Rate limits help but are not a substitute for load testing or abuse protection.
 
-Endpoints use the `r` query parameter: `health`, `categories`, `register`, `profile`, `match`, `round`, `answer`, `leaderboard`, `report`, and `delete-account`. Mutations require POST JSON; player endpoints require `Authorization: Bearer ...`. Only registration returns the account key. The API sends no answer key before submission. Report handling currently stores reports for later editorial review; it does not automatically unpublish a question.
+Endpoints use the `r` query parameter: `health`, `categories`, `register`, `profile`, `update-profile`, `match`, `round`, `answer`, `leaderboard`, `report`, and `delete-account`. Mutations require POST JSON; player endpoints require `Authorization: Bearer ...`. Only registration returns the account key. The API sends no answer key before submission. Report handling currently stores reports for later editorial review; it does not automatically unpublish a question.
 
 ## Verification
 
@@ -78,6 +78,10 @@ The signed workflow requires `APPLE_TEAM_ID`, `ASC_KEY_ID`, `ASC_ISSUER_ID`, `AS
 
 ## Research, question quality and licence
 
-See [RESEARCH.md](RESEARCH.md) for historical sources, product decisions and remaining release work. The bank is structurally validated community content, not independently fact-checked. Smaller topics have as few as 28 questions and need expansion before a wide public launch. It is not a complete clone of QuizUp’s historical content library.
+See [RESEARCH.md](RESEARCH.md) for historical sources, product decisions and remaining release work. The bank is structurally validated community content, not independently fact-checked. Category sizes range from 70 to 10,175 questions; the smaller specialist categories still merit further expansion. It is not a complete clone of QuizUp’s historical content library.
 
-Question data: [Open Trivia Database](https://opentdb.com/), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). See [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt). The original Quizfolk app code and assets contain no QuizUp source code, logo or proprietary question collection.
+Question data: [Open Trivia Database](https://opentdb.com/) and [OpenTriviaQA contributors](https://github.com/uberspot/OpenTriviaQA), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). See [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt). The original Quizfolk app code and assets contain no QuizUp source code, logo or proprietary question collection.
+
+## Rebuilding the expanded bank
+
+Run `python3 scripts/import_bank.py /path/to/opentdb/all_questions.json`, followed by `python3 scripts/import_extended_bank.py /path/to/OpenTriviaQA`. The second importer rejects malformed answers, duplicates, time/context-dependent prompts, excessively long text and position-dependent answers. Source question difficulty is shown as Mixed where no difficulty was supplied. The server reads only the selected category through an indexed SQLite query, rather than decoding the entire 19 MB JSON bank for each match.

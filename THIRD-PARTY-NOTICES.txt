@@ -16,3 +16,13 @@ No endorsement by Open Trivia Database or QuizUp is implied.
 The Quizfolk app name, icon, screen layouts and source code are original to
 this project. No QuizUp logo, source code, proprietary questions or assets
 are included.
+
+ADDITIONAL QUESTION DATA
+
+OpenTriviaQA contributors, https://github.com/uberspot/OpenTriviaQA
+Commit: dcc1cdf36c2985ed5c849d1f2265c5041ffcdfb9
+Licence: CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/
+Changes: parsed text records to JSON/SQLite; normalised HTML entities; removed
+duplicates and malformed, context-dependent, overlong or position-dependent
+records; classified topics; marked unrated difficulty as Mixed; shuffled
+answer order in play. No endorsement is implied.
