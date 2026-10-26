@@ -51,7 +51,7 @@ try {
     if(!$player) fail('Player key is invalid',401);
     $pid=$player['id'];
     if($route==='delete-account') {
-        $db->beginTransaction();sql($db,'DELETE FROM reports WHERE player_id=?',[$pid]);sql($db,'DELETE FROM players WHERE id=?',[$pid]);$db->commit();out(['ok'=>true]);
+        $db->beginTransaction();sql($db,'UPDATE matches SET opponent="Former player",opponent_match=NULL WHERE opponent_match IN (SELECT id FROM matches WHERE player_id=?)',[$pid]);sql($db,'DELETE FROM reports WHERE player_id=?',[$pid]);sql($db,'DELETE FROM players WHERE id=?',[$pid]);$db->commit();out(['ok'=>true]);
     }
     if($route==='profile') {
         $m=sql($db,'SELECT COUNT(*) matches,COALESCE(SUM(score>opponent_score),0) wins,COALESCE(SUM(score),0) xp FROM matches WHERE player_id=? AND completed IS NOT NULL',[$pid])->fetch();

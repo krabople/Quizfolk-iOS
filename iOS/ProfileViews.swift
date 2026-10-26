@@ -55,6 +55,7 @@ struct LeagueView:View {
 struct ProfileView:View {
     @EnvironmentObject var store:QuizStore
     @State private var saved=false
+    @State private var deleteAccount=false
     var correct:Int {store.history.flatMap{$0.rounds}.filter{$0.selected==$0.question.correctIndex}.count}
     var total:Int {store.history.flatMap{$0.rounds}.count}
     var wins:Int {store.history.filter{$0.won}.count}
@@ -72,7 +73,7 @@ struct ProfileView:View {
                     VStack(alignment:.leading,spacing:8){Text("Made for curious people").font(.headline);Text("Quizfolk is an independent app inspired by classic topic-based trivia. It is not affiliated with QuizUp. Questions are community-contributed and may contain errors. Use the review screen to check the correct answer.").font(.caption).foregroundStyle(.secondary);Link("Open Trivia Database · Question source",destination:URL(string:"https://opentdb.com/")!);Link("CC BY-SA 4.0 · Question data licence",destination:URL(string:"https://creativecommons.org/licenses/by-sa/4.0/")!)}.font(.caption).frame(maxWidth:.infinity,alignment:.leading)
                 }.padding(.horizontal,22).padding(.bottom,25)
             }.background(Color.canvas).toolbar(.hidden,for:.navigationBar)
-        }
+        }.confirmationDialog("Delete your online player account and server match history? Your local practice history will remain on this device.",isPresented:$deleteAccount,titleVisibility:.visible){Button("Delete online account",role:.destructive){Task{await store.deleteAccount();saved=false}}}
     }
     private var settings:some View {
         VStack(alignment:.leading,spacing:12) {
@@ -84,6 +85,7 @@ struct ProfileView:View {
             Button("Save and connect"){store.saveSettings();Task{await store.connect();saved=store.onlineError==nil}}.buttonStyle(PrimaryButton())
             if saved,let p=store.profile {Text("Connected · \(p.matches) online duels · \(p.xp) XP").font(.caption).foregroundStyle(.green)}
             if let error=store.onlineError {Text(error).font(.caption).foregroundStyle(.red)}
+            if store.profile != nil {Button("Delete online account",role:.destructive){deleteAccount=true}.font(.caption)}
         }.padding(18).background(.white,in:RoundedRectangle(cornerRadius:17))
     }
     private func metric(_ value:String,_ label:String)->some View {VStack(spacing:5){Text(value).font(.system(size:25,weight:.bold,design:.rounded));Text(label).font(.caption).foregroundStyle(.secondary)}.frame(maxWidth:.infinity)}

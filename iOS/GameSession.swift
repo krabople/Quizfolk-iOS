@@ -35,6 +35,7 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
         busy=true;error=nil
         do {
             if online {
+                if store.profile==nil {await store.connect();if let message=store.onlineError {throw APIError.message(message)}}
                 let r:StartReply=try await store.request("match",body:["topic":topic.id])
                 matchID=r.id;opponent=r.opponent;kind=r.kind
                 try await getOnlineRound()

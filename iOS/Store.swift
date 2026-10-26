@@ -8,7 +8,7 @@ import Security
     @Published var favourites: Set<String> = []
     @Published var history: [MatchRecord] = []
     @Published var name = "Quiz explorer"
-    @Published var apiURL = ""
+    @Published var apiURL = "https://www.ways2earn.com/quizfolk-api/index.php"
     @Published var loadError: String?
     @Published var onlineError: String?
     @Published var profile: OnlineProfile?
@@ -21,9 +21,9 @@ import Security
         } catch { loadError = "The question bank could not be loaded: \(error.localizedDescription)" }
         favourites = Set(UserDefaults.standard.stringArray(forKey:"favourites") ?? [])
         name = UserDefaults.standard.string(forKey:"name") ?? "Quiz explorer"
-        apiURL = UserDefaults.standard.string(forKey:"apiURL") ?? ""
+        apiURL = UserDefaults.standard.string(forKey:"apiURL") ?? "https://www.ways2earn.com/quizfolk-api/index.php"
         if let data = UserDefaults.standard.data(forKey:"history"), let saved = try? JSONDecoder().decode([MatchRecord].self,from:data) { history=saved }
-        token = Keychain.read()
+        if UserDefaults.standard.string(forKey:"tokenEndpoint")==apiURL { token = Keychain.read() }
     }
     static func resource<T:Decodable>(_ name:String) throws -> T {
         guard let url=Bundle.main.url(forResource:name,withExtension:"json") else { throw CocoaError(.fileNoSuchFile) }
@@ -69,13 +69,23 @@ import Security
     }
     func connect() async {
         saveSettings();onlineError=nil
+        if UserDefaults.standard.string(forKey:"tokenEndpoint") != apiURL {token=nil;profile=nil}
         do {
             if token==nil {
                 let auth:AuthReply=try await request("register",body:["name":name])
                 guard Keychain.save(auth.token) else {throw APIError.message("Could not securely save your account key.")}
                 token=auth.token
+                UserDefaults.standard.set(apiURL,forKey:"tokenEndpoint")
             }
             profile=try await request("profile")
+        } catch {onlineError=error.localizedDescription}
+    }
+    func deleteAccount() async {
+        onlineError=nil
+        do {
+            let _:OKReply=try await request("delete-account",body:[:])
+            Keychain.delete();token=nil;profile=nil;board=[]
+            UserDefaults.standard.removeObject(forKey:"tokenEndpoint")
         } catch {onlineError=error.localizedDescription}
     }
     func loadBoard(topicID:String?=nil,weekly:Bool=true) async {
@@ -90,6 +100,7 @@ enum APIError: LocalizedError {
     var errorDescription:String? {if case .message(let s)=self{return s};return nil}
 }
 struct Failure:Decodable {let error:String}
+struct OKReply:Decodable {let ok:Bool}
 struct AuthReply:Decodable {let token:String}
 struct OnlineProfile:Decodable {let name:String;let matches:Int;let wins:Int;let xp:Int;let correct:Int;let answered:Int}
 struct BoardEntry:Decodable,Identifiable {let id:String;let name:String;let xp:Int;let matches:Int}
@@ -109,4 +120,5 @@ enum Keychain {
         if status==errSecItemNotFound {return SecItemAdd(q.merging(attrs){_,new in new} as CFDictionary,nil)==errSecSuccess}
         return status==errSecSuccess
     }
+    static func delete() {SecItemDelete([kSecClass as String:kSecClassGenericPassword,kSecAttrService as String:service,kSecAttrAccount as String:"token"] as CFDictionary)}
 }
