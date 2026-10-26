@@ -71,6 +71,7 @@ struct ProfileView:View {
                     VStack(alignment:.leading,spacing:14){Text("Your topic journey").font(.headline);ForEach(store.topics.filter{store.favourites.contains($0.id) || store.level($0)>1}){topic in HStack{Text(topic.emoji);Text(topic.name).font(.subheadline);Spacer();Text("Lv. \(store.level(topic))").font(.caption).bold().foregroundStyle(topic.tint)}}}.frame(maxWidth:.infinity,alignment:.leading)
                     settings
                     VStack(alignment:.leading,spacing:8){Text("Made for curious people").font(.headline);Text("Quizfolk is an independent app inspired by classic topic-based trivia. It is not affiliated with QuizUp. Questions are community-contributed and may contain errors. Use the review screen to check the correct answer.").font(.caption).foregroundStyle(.secondary);Link("Open Trivia Database · Question source",destination:URL(string:"https://opentdb.com/")!);Link("CC BY-SA 4.0 · Question data licence",destination:URL(string:"https://creativecommons.org/licenses/by-sa/4.0/")!)}.font(.caption).frame(maxWidth:.infinity,alignment:.leading)
+                    Link("Privacy policy",destination:URL(string:"https://www.ways2earn.com/quizfolk-api/privacy.html")!).font(.caption)
                 }.padding(.horizontal,22).padding(.bottom,25)
             }.background(Color.canvas).toolbar(.hidden,for:.navigationBar)
         }.confirmationDialog("Delete your online player account and server match history? Your local practice history will remain on this device.",isPresented:$deleteAccount,titleVisibility:.visible){Button("Delete online account",role:.destructive){Task{await store.deleteAccount();saved=false}}}
@@ -79,10 +80,12 @@ struct ProfileView:View {
         VStack(alignment:.leading,spacing:12) {
             Text("Your player card").font(.headline)
             TextField("Display name",text:$store.name).textFieldStyle(.roundedBorder).textContentType(.nickname)
-            Text("Quiz server").font(.headline).padding(.top,7)
-            TextField("https://quiz.example.com/index.php",text:$store.apiURL).textFieldStyle(.roundedBorder).textInputAutocapitalization(.never).autocorrectionDisabled().keyboardType(.URL)
-            Text("Offline practice works immediately. Online duels and leagues use your separately deployed server. Your account key is stored securely in Keychain on this device; account recovery is not yet available.").font(.caption).foregroundStyle(.secondary)
-            Button("Save and connect"){store.saveSettings();Task{await store.connect();saved=store.onlineError==nil}}.buttonStyle(PrimaryButton())
+            Text("Your name appears in online duels and leagues. Your player account stays on this iPhone; cross-device account recovery is not available yet.").font(.caption).foregroundStyle(.secondary)
+            Button("Save player card"){store.saveSettings();Task{await store.connect();saved=store.onlineError==nil}}.buttonStyle(PrimaryButton())
+            DisclosureGroup("Advanced connection settings") {
+                TextField("HTTPS service address",text:$store.apiURL).textFieldStyle(.roundedBorder).textInputAutocapitalization(.never).autocorrectionDisabled().keyboardType(.URL)
+                Text("Only change this if you run your own quiz service. Changing the address creates a separate player account.").font(.caption).foregroundStyle(.secondary)
+            }.font(.caption)
             if saved,let p=store.profile {Text("Connected · \(p.matches) online duels · \(p.xp) XP").font(.caption).foregroundStyle(.green)}
             if let error=store.onlineError {Text(error).font(.caption).foregroundStyle(.red)}
             if store.profile != nil {Button("Delete online account",role:.destructive){deleteAccount=true}.font(.caption)}

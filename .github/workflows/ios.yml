@@ -2,13 +2,14 @@ name: iOS build and tests
 on:
   push:
     branches: [main]
+    paths: ['iOS/**', 'Tests/**', 'UITests/**', 'data/**', 'project.yml', '.github/workflows/ios.yml', 'scripts/validate_bank.py']
   pull_request:
   workflow_dispatch:
 permissions:
   contents: read
 concurrency:
   group: ios-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 jobs:
   build:
     runs-on: macos-15
@@ -44,6 +45,12 @@ jobs:
           xcrun simctl launch "$SIMULATOR_ID" com.quizfolk.ios
           sleep 3
           xcrun simctl io "$SIMULATOR_ID" screenshot build/Quizfolk.png
+      - name: Export UI test screenshots
+        if: always()
+        run: |
+          if [ -d build/TestResults.xcresult ]; then
+            xcrun xcresulttool export attachments --path build/TestResults.xcresult --output-path build/UITestScreenshots || true
+          fi
       - name: Build unsigned device archive
         run: xcodebuild -project Quizfolk.xcodeproj -scheme Quizfolk -destination 'generic/platform=iOS' -archivePath build/Quizfolk.xcarchive CODE_SIGNING_ALLOWED=NO archive
       - name: Upload simulator app, unsigned archive and test results
@@ -57,4 +64,5 @@ jobs:
             build/Quizfolk.xcarchive
             build/TestResults.xcresult
             build/Quizfolk.png
+            build/UITestScreenshots
             build-output.log

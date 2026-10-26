@@ -77,6 +77,7 @@ import Security
                 token=auth.token
                 UserDefaults.standard.set(apiURL,forKey:"tokenEndpoint")
             }
+            let _:OKReply=try await request("update-profile",body:["name":name])
             profile=try await request("profile")
         } catch {onlineError=error.localizedDescription}
     }

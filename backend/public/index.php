@@ -50,6 +50,12 @@ try {
     $player=sql($db,'SELECT * FROM players WHERE token_hash=?',[hash('sha256',$hit[1])])->fetch();
     if(!$player) fail('Player key is invalid',401);
     $pid=$player['id'];
+    if($route==='update-profile') {
+        $name=trim((string)($body['name'] ?? ''));
+        if($name==='' || strlen($name)>96 || preg_match('/[\x00-\x1F\x7F]/u',$name)) fail('Use a display name of 1–24 characters');
+        sql($db,'UPDATE players SET name=? WHERE id=?',[$name,$pid]);
+        out(['ok'=>true]);
+    }
     if($route==='delete-account') {
         $db->beginTransaction();sql($db,'UPDATE matches SET opponent="Former player",opponent_match=NULL WHERE opponent_match IN (SELECT id FROM matches WHERE player_id=?)',[$pid]);sql($db,'DELETE FROM reports WHERE player_id=?',[$pid]);sql($db,'DELETE FROM players WHERE id=?',[$pid]);$db->commit();out(['ok'=>true]);
     }

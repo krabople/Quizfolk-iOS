@@ -1,0 +1,24 @@
+name: Backend contract tests
+on:
+  push:
+    branches: [main]
+    paths: ['backend/**', 'scripts/test_backend.py', 'data/**', '.github/workflows/backend.yml']
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify question bank and PHP syntax
+        run: |
+          python3 scripts/validate_bank.py
+          php -l backend/public/index.php
+      - name: Run isolated API contract tests
+        run: |
+          php -S 127.0.0.1:8770 -t backend/public > /tmp/quizfolk-php.log 2>&1 &
+          for i in $(seq 1 20); do curl -sf 'http://127.0.0.1:8770/index.php?r=health' && break || sleep 1; done
+          python3 scripts/test_backend.py

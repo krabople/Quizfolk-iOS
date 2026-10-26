@@ -16,6 +16,8 @@ def req(route,body=None,token=None,status=200):
 a=req('register',{'name':'Contract tester A'},status=201)['token']
 b=req('register',{'name':'Contract tester B'},status=201)['token']
 req('profile',status=401)
+req('update-profile',{'name':'Updated tester A'},a)
+assert req('profile',token=a)['name']=='Updated tester A'
 m=req('match',{'topic':'22'},a,201)
 assert m['kind']=='bot'
 req('round',{'match':m['id']},b,404)
