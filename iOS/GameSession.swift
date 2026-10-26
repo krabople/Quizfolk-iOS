@@ -90,7 +90,7 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
             rounds.append(PlayedRound(question:revealedQ,selected:index,elapsed:elapsed,points:points,opponentPoints:other))
             revealed=true;pendingAnswer=nil
             UIImpactFeedbackGenerator(style:.light).impactOccurred()
-        } catch {error=error.localizedDescription}
+        } catch {self.error=error.localizedDescription}
         busy=false
     }
     func retry() async {
@@ -107,7 +107,7 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
             return
         }
         selected=nil;revealed=false;round+=1
-        if online {busy=true;do {try await getOnlineRound()} catch{error=error.localizedDescription};busy=false}
+        if online {busy=true;do {try await getOnlineRound()} catch{self.error=error.localizedDescription};busy=false}
         else {current=packet[round];startTimer(seconds:10)}
     }
     func stop() {timer?.cancel()}

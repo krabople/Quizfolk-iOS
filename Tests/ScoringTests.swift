@@ -12,7 +12,7 @@ final class ScoringTests:XCTestCase {
         XCTAssertEqual(Scoring.points(correct:true,elapsed:.nan,round:0),0)
         XCTAssertEqual((0..<7).reduce(0){$0+Scoring.points(correct:true,elapsed:0,round:$1)},160)
     }
-    func testBundleBank() throws {
+    @MainActor func testBundleBank() throws {
         let q:[Question]=try QuizStore.resource("questions")
         let topics:[Topic]=try QuizStore.resource("categories")
         XCTAssertGreaterThanOrEqual(q.count,4000)
