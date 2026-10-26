@@ -33,7 +33,7 @@ struct GameView:View {
                     VStack(spacing:10) {ForEach(q.answers.indices,id:\.self){i in answer(q,index:i)}}
                     if game.revealed {
                         Text(game.lastPoints>0 ? "+\(game.lastPoints) points · Nicely done!":(game.selected == -1 ? "Time’s up. You’ve got the next one.":"One to remember for next time.")).font(.headline).foregroundStyle(game.lastPoints>0 ? game.topic.tint:Color.coral).multilineTextAlignment(.center)
-                        Button(game.round==6 ? "See results":"Next question"){Task{await game.next()}}.buttonStyle(PrimaryButton(color:game.topic.tint))
+                        Button(game.round==6 ? "See results":"Next question"){Task{await game.next()}}.buttonStyle(PrimaryButton(color:game.topic.tint)).accessibilityIdentifier("advanceQuestion")
                     }
                 } else if game.busy {ProgressView("Finding your duel…").padding(70)}
                 if let error=game.error {Text(error).font(.subheadline).foregroundStyle(.red);Button("Try again"){Task{await game.retry()}}.buttonStyle(.bordered)}
@@ -50,7 +50,7 @@ struct GameView:View {
         let wrong=game.revealed && game.selected==index && !correct
         return Button{Task{await game.answer(index)}}label:{
             HStack(spacing:12){Text(String(UnicodeScalar(65+index)!)).font(.system(size:12,weight:.bold)).frame(width:28,height:28).background(Color.ink.opacity(0.06),in:Circle());Text(q.answers[index]).font(.system(size:16,weight:.semibold)).multilineTextAlignment(.leading);Spacer();if correct {Image(systemName:"checkmark.circle.fill").foregroundStyle(.green)} else if wrong {Image(systemName:"xmark.circle.fill").foregroundStyle(.red)}}.foregroundStyle(Color.ink).padding(16).frame(maxWidth:.infinity,minHeight:66).background(correct ? Color.green.opacity(0.12):(wrong ? Color.red.opacity(0.1):.white),in:RoundedRectangle(cornerRadius:14)).overlay{RoundedRectangle(cornerRadius:14).stroke(correct ? Color.green:(wrong ? Color.red:.clear),lineWidth:2)}
-        }.buttonStyle(.plain).disabled(game.revealed || game.busy || game.error != nil)
+        }.buttonStyle(.plain).disabled(game.revealed || game.busy || game.error != nil).accessibilityIdentifier("answer-\(index)")
     }
     private var result:some View {
         ScrollView {

@@ -22,10 +22,12 @@ targets:
   Quizfolk:
     type: application
     platform: iOS
-    sources: [iOS]
-    resources:
-      - data/categories.json
-      - data/questions.json
+    sources:
+      - path: iOS
+      - path: data/categories.json
+        buildPhase: resources
+      - path: data/questions.json
+        buildPhase: resources
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.quizfolk.ios
@@ -37,10 +39,16 @@ targets:
     sources: [Tests]
     dependencies:
       - target: Quizfolk
+  QuizfolkUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [UITests]
+    dependencies:
+      - target: Quizfolk
 schemes:
   Quizfolk:
     build:
       targets:
         Quizfolk: all
     test:
-      targets: [QuizfolkTests]
+      targets: [QuizfolkTests, QuizfolkUITests]

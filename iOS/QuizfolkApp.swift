@@ -63,7 +63,7 @@ struct DiscoverView:View {
                     Text("\(visible.count) topics").font(.caption).foregroundStyle(.secondary)
                 }.padding(.horizontal,22)
                 LazyVGrid(columns:[GridItem(.flexible(),spacing:12),GridItem(.flexible(),spacing:12)],spacing:12) {
-                    ForEach(visible){topic in NavigationLink{TopicView(topic:topic)}label:{TopicTile(topic:topic,level:store.level(topic),favourite:store.favourites.contains(topic.id))}.buttonStyle(.plain)}
+                    ForEach(visible){topic in NavigationLink{TopicView(topic:topic)}label:{TopicTile(topic:topic,level:store.level(topic),favourite:store.favourites.contains(topic.id))}.buttonStyle(.plain).accessibilityIdentifier("topic-\(topic.id)")}
                 }.padding(.horizontal,22).padding(.vertical,12)
                 if visible.isEmpty {ContentUnavailableView("No topics found",systemImage:"magnifyingglass",description:Text("Try another search or choose some interests."))}
                 Text("\(store.questions.count.formatted()) questions. So many ways to shine.").font(.caption).foregroundStyle(.secondary).padding(.bottom,20)

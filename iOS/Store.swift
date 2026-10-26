@@ -90,6 +90,7 @@ import Security
     }
     func loadBoard(topicID:String?=nil,weekly:Bool=true) async {
         onlineError=nil
+        if profile==nil {await connect();if onlineError != nil {return}}
         do { let response:BoardReply=try await request("leaderboard",query:[URLQueryItem(name:"topic",value:topicID ?? ""),URLQueryItem(name:"period",value:weekly ? "week":"all")])
             board=response.entries
         } catch {onlineError=error.localizedDescription}
