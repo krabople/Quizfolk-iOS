@@ -61,7 +61,7 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
                 guard !Task.isCancelled,let self,let start=self.start,!self.revealed else {return}
                 let elapsed=Self.seconds(start.duration(to:.now))
                 self.remaining=max(0,allowance-elapsed)
-                if self.remaining<=0 {await self.answer(-1);return}
+                if self.remaining<=0 {Task {await self.answer(-1)};return}
             }
         }
     }
