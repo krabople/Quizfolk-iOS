@@ -1,0 +1,18 @@
+QUESTION DATA
+
+Open Trivia Database, https://opentdb.com/
+Community-contributed questions. Licensed CC BY-SA 4.0:
+https://creativecommons.org/licenses/by-sa/4.0/
+
+Snapshot retrieved through https://github.com/lipschultz/open-trivia-dataset
+Commit: 77d8e3cb5c8e264d50220eee75cfe08d233b1910
+
+Changes: HTML entity decoding, duplicate removal, exclusion of true/false
+records, stable identifiers, category metadata, structural validation,
+normalised JSON and SQLite representation, and shuffled answer order in play.
+The adapted question bank is distributed under CC BY-SA 4.0.
+No endorsement by Open Trivia Database or QuizUp is implied.
+
+The Quizfolk app name, icon, screen layouts and source code are original to
+this project. No QuizUp logo, source code, proprietary questions or assets
+are included.

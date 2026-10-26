@@ -20,6 +20,11 @@ jobs:
       ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
       APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
     steps:
+      - name: Select current App Store SDK
+        run: |
+          XCODE_APP=$(python3 -c 'import glob,re; a=[(tuple(map(int,re.search(r"Xcode_([\d.]+)\.app$",p).group(1).split("."))),p) for p in glob.glob("/Applications/Xcode_*.app") if re.search(r"Xcode_([\d.]+)\.app$",p)]; a=[x for x in a if x[0][0]>=26]; assert a,"Xcode 26+ required"; print(max(a)[1])')
+          sudo xcode-select -s "$XCODE_APP/Contents/Developer"
+          xcodebuild -version
       - uses: actions/checkout@v4
         with:
           repository: krabople/Quizfolk-iOS

@@ -14,6 +14,11 @@ jobs:
     runs-on: macos-15
     timeout-minutes: 30
     steps:
+      - name: Select current iOS SDK
+        run: |
+          XCODE_APP=$(python3 -c 'import glob,re; a=[(tuple(map(int,re.search(r"Xcode_([\d.]+)\.app$",p).group(1).split("."))),p) for p in glob.glob("/Applications/Xcode_*.app") if re.search(r"Xcode_([\d.]+)\.app$",p)]; a=[x for x in a if x[0][0]>=26]; assert a,"Xcode 26+ required"; print(max(a)[1])')
+          sudo xcode-select -s "$XCODE_APP/Contents/Developer"
+          xcodebuild -version
       - uses: actions/checkout@v4
       - name: Generate Xcode project
         run: |
@@ -25,10 +30,12 @@ jobs:
         run: |
           DEVICE=$(xcrun simctl list devices available -j | python3 -c 'import json,sys; d=json.load(sys.stdin); print(next(x["udid"] for k,v in d["devices"].items() if "iOS" in k for x in v if x["name"].startswith("iPhone")))')
           echo "SIMULATOR_ID=$DEVICE" >> "$GITHUB_ENV"
+          xcrun simctl boot "$DEVICE" || true
+          xcrun simctl bootstatus "$DEVICE" -b
       - name: Build and run unit tests
         run: |
           set -o pipefail
-          xcodebuild -project Quizfolk.xcodeproj -scheme Quizfolk -destination "platform=iOS Simulator,id=$SIMULATOR_ID" -derivedDataPath build -resultBundlePath build/TestResults.xcresult CODE_SIGNING_ALLOWED=NO test | tee build-output.log
+          xcodebuild -project Quizfolk.xcodeproj -scheme Quizfolk -destination "platform=iOS Simulator,id=$SIMULATOR_ID" -parallel-testing-enabled NO -maximum-test-execution-time-allowance 120 -derivedDataPath build -resultBundlePath build/TestResults.xcresult CODE_SIGNING_ALLOWED=NO test | tee build-output.log
       - name: Capture simulator screenshot
         run: |
           xcrun simctl boot "$SIMULATOR_ID" || true

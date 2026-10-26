@@ -29,6 +29,7 @@ targets:
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.quizfolk.ios
+        TARGETED_DEVICE_FAMILY: '1'
         INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.trivia-games
   QuizfolkTests:
     type: bundle.unit-test
