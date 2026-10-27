@@ -1,6 +1,6 @@
 # Question audit, 27 October 2026
 
-All 45,581 imported records have one entry in question-ledger.jsonl. Retained: 24,834. Held: 20,747. The ledger records original/suggested category, heuristic scores, reasons and action. Quarantined records are not bundled or served. data/audit-report.json hashes the active bank and records counts.
+All 45,581 imported records have one entry in question-ledger.jsonl. Retained: 24,833. Held: 20,748. The ledger records original/suggested category, heuristic scores, reasons and action. Quarantined records are not bundled or served. data/audit-report.json hashes the active bank and records counts.
 
 Method: local all-MiniLM-L6-v2 sentence embeddings, cosine comparison with 30 topic descriptions, and explicit wording/context/temporal/readability rules. Model: Xenova/all-MiniLM-L6-v2, pinned revision 751bff37182d3f1213fa05d7196b954e230abad9, tokenizer.json and onnx/model_quantized.onnx. No player data was used or transmitted. Similarity is not a probability or a factual check. Conservative thresholds deliberately hold some legitimate records for later editorial review. Human sample review covered every category; corrections and explicit holds are marked manualReview. The factorial answer was checked by mathematical derivation. Other retained records are not individually fact-verified.
 

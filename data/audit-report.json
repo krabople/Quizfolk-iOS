@@ -1,10 +1,10 @@
 {
   "screened": 45581,
-  "retained": 24834,
-  "quarantined": 20747,
+  "retained": 24833,
+  "quarantined": 20748,
   "actions": {
-    "quarantined": 20747,
-    "retained": 24828,
+    "quarantined": 20748,
+    "retained": 24827,
     "recategorised": 5,
     "rewritten": 1
   },
@@ -47,7 +47,7 @@
     "Mathematics": 124,
     "Mythology": 133,
     "Sport": 1212,
-    "Geography": 1354,
+    "Geography": 1353,
     "History": 762,
     "Politics": 518,
     "Art": 112,
@@ -66,6 +66,6 @@
     "Food & Drink": 256
   },
   "method": "Local MiniLM semantic similarity plus explicit context, time-dependence, mathematical notation and readability rules. Scores are heuristic similarities, not probabilities. Every source record has a ledger entry. This is not 45,581 individual human factual reviews.",
-  "activeBankSHA256": "79fa67f6930fd1391adc498e65806ac5686c178f37b332e8ae9a95a6a7cd097f",
+  "activeBankSHA256": "e411f8cfd140d67343f4ba4f6ccb60b9bb2287da1da7ea83f1b061472e5cf1e7",
   "manualReviewScope": "Sample wording/topic review across all 30 categories; specific corrections and holds recorded. This does not establish factual correctness of every retained item."
 }

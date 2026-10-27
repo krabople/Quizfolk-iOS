@@ -20,7 +20,7 @@ This is asynchronous competition against recorded performances; it is not a pend
 
 ## Question bank and limits
 
-The shipped bank contains **24,834 screened four-answer questions across 30 categories**. The original 45,581-record import remains traceable through Git history and the audit ledger. The 27 October audit held 20,747 uncertain records out of play; these are retained in `audit/quarantined-questions.json`, outside the app and serving database. No generated distractors were added to inflate the count.
+The shipped bank contains **24,833 screened four-answer questions across 30 categories**. The original 45,581-record import remains traceable through Git history and the audit ledger. The 27 October audit held 20,748 uncertain records out of play; these are retained in `audit/quarantined-questions.json`, outside the app and serving database. No generated distractors were added to inflate the count.
 
 Every original record received automated structure, context, temporal wording, reading length, answer dependency and semantic topic-fit checks. Samples from every category were read for wording and topic fit; specific manual changes are marked in the ledger. This is **not an individual human factual verification of all 45,581 records**. Semantic similarity is a conservative screening aid, not a correctness guarantee. A later editorial pass is still needed. Actual active category counts are in `data/audit-report.json` and in the app. The importer is a raw-source staging tool; its output must not replace the screened serving bank without a new audit.
 

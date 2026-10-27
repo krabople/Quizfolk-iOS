@@ -52,8 +52,16 @@ final class DuelUITests:XCTestCase {
         picker.tap()
         let cancel=app.buttons["Cancel"]
         XCTAssertTrue(cancel.waitForExistence(timeout:8))
+        let labelled=app.images.matching(NSPredicate(format:"label BEGINSWITH 'Photo'")).firstMatch
+        let cell=app.collectionViews.cells.firstMatch
+        let image=labelled.waitForExistence(timeout:15) ? labelled:cell
+        XCTAssertTrue(image.waitForExistence(timeout:15),app.debugDescription)
         capture("PhotoPicker")
-        cancel.tap()
+        image.tap()
+        XCTAssertTrue(app.staticTexts["Your player picture"].waitForExistence(timeout:15))
+        XCTAssertTrue(app.buttons["Use this picture"].isHittable)
+        capture("PicturePreview")
+        app.buttons["Cancel"].tap()
         XCTAssertTrue(picker.waitForExistence(timeout:5))
     }
     @MainActor private func capture(_ name:String) {let a=XCTAttachment(screenshot:XCUIApplication().screenshot());a.name=name;a.lifetime = .keepAlways;add(a)}

@@ -4,7 +4,7 @@ A native SwiftUI trivia app inspired by the original QuizUp: follow topics, play
 
 ## Included
 
-- 24,834 screened, bundled four-option questions across 30 categories. Actual per-topic counts appear in the app and `data/audit-report.json`.
+- 24,833 screened, bundled four-option questions across 30 categories. Actual per-topic counts appear in the app and `data/audit-report.json`.
 - Offline bot practice with persistent history, local XP, per-topic levels and accuracy.
 - A PHP + SQLite backend for asynchronous duels against recorded human runs, with bot fallback when no run is available.
 - Server-owned online deadlines and scoring, authenticated match ownership, replay-safe answer submissions, name-based player cards, monthly and all-time filtered leaderboards, question reports and account deletion.
@@ -88,4 +88,4 @@ Run `python3 scripts/import_bank.py /path/to/opentdb/all_questions.json`, follow
 
 ## October 27 revision
 
-Topic-specific monthly/all-time XP leagues, reserved unique player names, profile photo selection and removal, animated matchup countdown and winner screen, prominent timer and correct/incorrect progress markers. See `RESEARCH.md` for the historical QuizUp scoring evidence and `audit/README.md` for question review scope. The screened bank has 24,834 active records; 20,747 uncertain source records are quarantined. Screening is not a guarantee of factual correctness.
+Topic-specific monthly/all-time XP leagues, reserved unique player names, profile photo selection and removal, animated matchup countdown and winner screen, prominent timer and correct/incorrect progress markers. See `RESEARCH.md` for the historical QuizUp scoring evidence and `audit/README.md` for question review scope. The screened bank has 24,833 active records; 20,748 uncertain source records are quarantined. Screening is not a guarantee of factual correctness.

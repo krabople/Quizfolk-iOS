@@ -33,6 +33,7 @@ jobs:
           echo "SIMULATOR_ID=$DEVICE" >> "$GITHUB_ENV"
           xcrun simctl boot "$DEVICE" || true
           xcrun simctl bootstatus "$DEVICE" -b
+          xcrun simctl addmedia "$DEVICE" scripts/test-avatar.jpg
       - name: Build and run unit tests
         run: |
           set -o pipefail

@@ -61,7 +61,7 @@ struct GameView:View {
   ZStack {
    Circle().stroke(.white.opacity(0.18),lineWidth:6)
    Circle().trim(from:0,to:max(0,min(1,game.remaining/10))).stroke(game.remaining<=3 ? Color.coral:Color(hex:"FFD494"),style:StrokeStyle(lineWidth:6,lineCap:.round)).rotationEffect(.degrees(-90))
-   VStack(spacing:-2){Text(String(format:"%.1f",game.remaining)).font(.system(size:game.revealed ? 19:29,weight:.black,design:.rounded)).monospacedDigit();Text("SECONDS").font(.system(size:8,weight:.heavy)).tracking(1)}
+   VStack(spacing:-2){Text(String(format:"%.1f",game.remaining)).font(.system(size:game.revealed ? 19:29,weight:.black,design:.rounded)).monospacedDigit();if !game.revealed {Text("SECONDS").font(.system(size:8,weight:.heavy)).tracking(1)}}
   }.frame(width:game.revealed ? 46:74,height:game.revealed ? 46:74).accessibilityElement(children:.ignore).accessibilityLabel("\(String(format:"%.1f",game.remaining)) seconds remaining").accessibilityIdentifier("roundTimer")
  }
  private func roundMarker(_ i:Int)->some View {
@@ -78,7 +78,7 @@ struct GameView:View {
   let wrong=game.revealed && game.selected==index && !correct
   return Button{Task{await game.answer(index)}}label:{
    HStack(spacing:12){Text(String(UnicodeScalar(65+index)!)).font(.system(size:14,weight:.black)).frame(width:31,height:31).background(Color.ink.opacity(0.08),in:Circle());Text(q.answers[index]).font(.system(size:18,weight:.semibold)).multilineTextAlignment(.leading).lineLimit(4).minimumScaleFactor(0.65).frame(maxWidth:.infinity,alignment:.leading);if correct {Image(systemName:"checkmark.circle.fill").foregroundStyle(.green)} else if wrong {Image(systemName:"xmark.circle.fill").foregroundStyle(.red)}}.foregroundStyle(Color.ink).padding(.horizontal,13).padding(.vertical,8).frame(maxWidth:.infinity,maxHeight:.infinity).background(correct ? Color(hex:"CCF3D7"):(wrong ? Color(hex:"FFDED7"):.white),in:RoundedRectangle(cornerRadius:17)).overlay{RoundedRectangle(cornerRadius:17).stroke(correct ? Color.green:(wrong ? Color.coral:.clear),lineWidth:3)}
-  }.buttonStyle(.plain).disabled(game.revealed || game.busy || game.error != nil).accessibilityIdentifier("answer-\(index)")
+  }.buttonStyle(AnswerButtonStyle()).disabled(game.revealed || game.busy || game.error != nil).accessibilityIdentifier("answer-\(index)")
  }
  private var result:some View {
   let won=game.score>game.opponentScore
@@ -107,4 +107,8 @@ struct VictoryConfetti:View {
  var body:some View {
   GeometryReader {g in ForEach(0..<28){i in RoundedRectangle(cornerRadius:2).fill([Color.coral,Color(hex:"FFD494"),Color.white,Color.green][i%4]).frame(width:7,height:12).rotationEffect(.degrees(fall ? Double(i*47):0)).position(x:g.size.width*CGFloat((i*37)%100)/100,y:fall ? g.size.height+40:-40-CGFloat(i%6)*20).opacity(fall ? 0:1).animation(.easeIn(duration:2.2).delay(Double(i%7)*0.07),value:fall)}}.frame(height:500).onAppear{fall=true}.accessibilityHidden(true)
  }
+}
+
+struct AnswerButtonStyle:ButtonStyle {
+ func makeBody(configuration:Configuration)->some View {configuration.label.scaleEffect(configuration.isPressed ? 0.98:1)}
 }
