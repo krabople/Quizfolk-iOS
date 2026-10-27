@@ -42,7 +42,6 @@ jobs:
         run: |
           xcrun simctl boot "$SIMULATOR_ID" || true
           xcrun simctl bootstatus "$SIMULATOR_ID" -b
-          xcrun simctl install "$SIMULATOR_ID" build/Build/Products/Debug-iphonesimulator/Quizfolk.app
           xcrun simctl launch "$SIMULATOR_ID" com.quizfolk.ios
           sleep 3
           xcrun simctl io "$SIMULATOR_ID" screenshot build/Quizfolk.png
