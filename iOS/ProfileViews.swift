@@ -30,12 +30,14 @@ struct MatchDetailView:View {
 }
 struct LeagueView:View {
     @EnvironmentObject var store:QuizStore
+    @Environment(\.dismiss) private var dismiss
     var initialTopicID:String? = nil
     @State private var topicID="9"
     @State private var monthly=true
     var body:some View {
         NavigationStack {
             ScrollView {
+                if initialTopicID != nil {HStack{Button{dismiss()}label:{Label("Back to topic",systemImage:"chevron.left")};Spacer()}.padding(.horizontal,22).padding(.top,12)}
                 BrandHeader(title:"Make a name.",subtitle:"Your knowledge deserves a little glory.")
                 VStack(spacing:18) {
                     Image(systemName:"trophy.fill").font(.system(size:56)).foregroundStyle(Color(hex:"DCA83D")).padding(.top,10)

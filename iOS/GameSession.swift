@@ -25,12 +25,14 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
     @Published var showIntro=true
     @Published var prepared=false
     @Published var introCount=3
+    @Published var introCounting=false
     @Published var rounds:[PlayedRound]=[]
     @Published var lastPoints=0
     @Published var revealed=false
     private var matchID=""
     private var start:ContinuousClock.Instant?
     private var timer:Task<Void,Never>?
+    private var closed=false
     private var pendingAnswer:Int?
     private var pendingElapsed=0.0
     private var store:QuizStore
@@ -51,15 +53,16 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
         busy=false
     }
     func countdownAndStart() async {
-        guard prepared,showIntro else {return}
+        guard prepared,showIntro,!introCounting,!busy else {return}
+        introCounting=true;defer{introCounting=false}
         for n in (1...3).reversed() {
-            guard !Task.isCancelled,showIntro else {return};introCount=n
+            guard !Task.isCancelled,!closed,showIntro else {return};introCount=n
             do {try await Task.sleep(for:.seconds(1))} catch {return}
         }
         if !Task.isCancelled {await startPlaying()}
     }
     func startPlaying() async {
-        guard showIntro,prepared,!busy else {return}
+        guard !closed,showIntro,prepared,!busy else {return}
         busy=true;error=nil
         do {
             if online {try await getOnlineRound()}
@@ -133,5 +136,5 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
         if online {busy=true;do {try await getOnlineRound()} catch{self.error=error.localizedDescription};busy=false}
         else {current=packet[round];startTimer(seconds:10)}
     }
-    func stop() {timer?.cancel()}
+    func stop() {closed=true;timer?.cancel()}
 }

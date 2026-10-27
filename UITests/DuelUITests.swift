@@ -12,8 +12,10 @@ final class DuelUITests:XCTestCase {
         app.swipeUp()
         let practice=app.buttons["Practise against a bot"]
         XCTAssertTrue(practice.waitForExistence(timeout:5));practice.tap()
-        XCTAssertTrue(app.otherElements["matchupTitle"].waitForExistence(timeout:5))
+        XCTAssertTrue(app.descendants(matching:.any).matching(identifier:"matchupTitle").firstMatch.waitForExistence(timeout:5))
         capture("Matchup")
+        XCTAssertFalse(app.buttons["answer-0"].exists)
+        app.buttons["Start duel"].tap()
         for i in 0..<7 {
             let option=app.buttons["answer-3"]
             XCTAssertTrue(option.waitForExistence(timeout:8))
@@ -22,7 +24,13 @@ final class DuelUITests:XCTestCase {
             if option.isEnabled {option.tap()}
             let next=app.buttons["advanceQuestion"]
             if !next.isHittable {app.swipeUp()}
-            XCTAssertTrue(next.waitForExistence(timeout:12));next.tap()
+            XCTAssertTrue(next.waitForExistence(timeout:12))
+            if i==0 {
+                let marker=app.descendants(matching:.any).matching(identifier:"roundMarker-0").firstMatch
+                XCTAssertTrue(marker.label.contains(": correct") || marker.label.contains(": incorrect"))
+                capture("AnswerReview")
+            }
+            next.tap()
         }
         let back=app.buttons["Back to topics"]
         if !back.isHittable {app.swipeUp();app.swipeUp()}
@@ -31,6 +39,22 @@ final class DuelUITests:XCTestCase {
         app.tabBars.buttons["Matches"].tap()
         XCTAssertTrue(app.staticTexts["Offline practice"].waitForExistence(timeout:5))
         capture("History")
+    }
+    @MainActor func testProfilePhotoPicker() {
+        let app=XCUIApplication();app.launch()
+        if app.buttons["Done"].waitForExistence(timeout:3) {app.buttons["Done"].tap()}
+        app.tabBars.buttons["You"].tap()
+        let picker=app.buttons["changeProfilePicture"]
+        XCTAssertTrue(picker.waitForExistence(timeout:8))
+        expectation(for:NSPredicate(format:"enabled == true"),evaluatedWith:picker)
+        waitForExpectations(timeout:25)
+        capture("PlayerCard")
+        picker.tap()
+        let cancel=app.buttons["Cancel"]
+        XCTAssertTrue(cancel.waitForExistence(timeout:8))
+        capture("PhotoPicker")
+        cancel.tap()
+        XCTAssertTrue(picker.waitForExistence(timeout:5))
     }
     @MainActor private func capture(_ name:String) {let a=XCTAttachment(screenshot:XCUIApplication().screenshot());a.name=name;a.lifetime = .keepAlways;add(a)}
 }
