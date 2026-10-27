@@ -64,7 +64,7 @@ struct GameView:View {
  }
  private func roundMarker(_ i:Int)->some View {
   let complete=i<game.rounds.count
-  let right=complete && game.rounds[i].selected==game.rounds[i].question.correctIndex
+  let right=complete && game.rounds[i].points>0
   let state=complete ? (right ? "correct":"incorrect"):(i==game.round ? "current":"upcoming")
   return ZStack {Capsule().fill(complete ? (right ? Color.green:Color.coral):(i==game.round ? Color(hex:"FFD494"):.white.opacity(0.17)));if complete {Image(systemName:right ? "checkmark":"xmark").font(.system(size:8,weight:.black)).foregroundStyle(.white)}}.frame(height:13).accessibilityLabel("Round \(i+1): \(state)").accessibilityIdentifier("roundMarker-\(i)")
  }
@@ -89,9 +89,9 @@ struct GameView:View {
     HStack(alignment:.top,spacing:14){podium(store.name,avatar:store.avatar,score:game.score,winner:won,bot:false);Text("–").font(.system(size:36,weight:.bold)).padding(.top,60);podium(game.opponent,avatar:game.opponentAvatar,score:game.opponentScore,winner:!won && !tied,bot:game.kind != "human")}
     VStack(spacing:8){Text("+\(Scoring.experience(score:game.score,opponentScore:game.opponentScore)) TOPIC XP").font(.system(size:25,weight:.black,design:.rounded));Text("\(game.score) score + 40 finish + \(bonus) \(tied ? "draw":"win") bonus").font(.caption);Text(game.online ? "Added to your \(game.topic.name) league":"Offline practice · local XP only").font(.caption).opacity(0.7)}.padding(16).frame(maxWidth:.infinity).background(.white.opacity(0.1),in:RoundedRectangle(cornerRadius:18))
     Button("Back to topics"){dismiss()}.buttonStyle(PrimaryButton(color:.coral))
-    Text("\(game.rounds.filter{$0.selected==$0.question.correctIndex}.count) OF 7 CORRECT · DUEL REVIEW").font(.system(size:11,weight:.heavy)).tracking(1).padding(.top,10)
+    Text("\(game.rounds.filter{$0.points>0}.count) OF 7 CORRECT · DUEL REVIEW").font(.system(size:11,weight:.heavy)).tracking(1).padding(.top,10)
     ForEach(Array(game.rounds.enumerated()),id:\.element.id){index,r in
-     VStack(alignment:.leading,spacing:8){HStack{Image(systemName:r.selected==r.question.correctIndex ? "checkmark.circle.fill":"xmark.circle.fill").foregroundStyle(r.selected==r.question.correctIndex ? Color.green:Color.coral);Text("QUESTION \(index+1)").font(.system(size:10,weight:.heavy));Spacer();Text("+\(r.points)").bold()};Text(r.question.prompt).font(.subheadline.bold());Text("Answer: \(r.question.answers[r.question.correctIndex])").font(.caption)}.padding(16).frame(maxWidth:.infinity,alignment:.leading).foregroundStyle(Color.ink).background(.white,in:RoundedRectangle(cornerRadius:16))
+     VStack(alignment:.leading,spacing:8){HStack{Image(systemName:r.points>0 ? "checkmark.circle.fill":"xmark.circle.fill").foregroundStyle(r.points>0 ? Color.green:Color.coral);Text("QUESTION \(index+1)").font(.system(size:10,weight:.heavy));Spacer();Text("+\(r.points)").bold()};Text(r.question.prompt).font(.subheadline.bold());Text("Answer: \(r.question.answers[r.question.correctIndex])").font(.caption)}.padding(16).frame(maxWidth:.infinity,alignment:.leading).foregroundStyle(Color.ink).background(.white,in:RoundedRectangle(cornerRadius:16))
     }
    }.padding(22)
   }.overlay(alignment:.top){if !reduceMotion {VictoryConfetti().allowsHitTesting(false)}}

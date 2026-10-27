@@ -18,6 +18,7 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
     @Published var opponentScore=0
     @Published var opponent="Pip · Bot"
     @Published var kind="bot"
+    @Published var opponentAvatar:String?
     @Published var busy=false
     @Published var error:String?
     @Published var finished=false

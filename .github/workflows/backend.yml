@@ -17,6 +17,7 @@ jobs:
         run: |
           python3 scripts/validate_bank.py
           php -l backend/public/index.php
+          php scripts/test_migration.php
       - name: Run isolated API contract tests
         run: |
           php -S 127.0.0.1:8770 -t backend/public > /tmp/quizfolk-php.log 2>&1 &

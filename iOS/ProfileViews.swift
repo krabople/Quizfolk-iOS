@@ -63,7 +63,7 @@ struct ProfileView:View {
     @State private var pendingPicture:Data?
     @State private var pictureError:String?
     @State private var showPicturePreview=false
-    var correct:Int {store.history.flatMap{$0.rounds}.filter{$0.selected==$0.question.correctIndex}.count}
+    var correct:Int {store.history.flatMap{$0.rounds}.filter{$0.points>0}.count}
     var total:Int {store.history.flatMap{$0.rounds}.count}
     var wins:Int {store.history.filter{$0.won}.count}
     var body:some View {
