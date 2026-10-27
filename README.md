@@ -1,13 +1,13 @@
 # Quizfolk for iPhone
 
-A native SwiftUI trivia app inspired by the original QuizUp: follow topics, play seven-round timed duels, earn speed bonuses, practise against a labelled bot, review answers, track topic levels, and compete in weekly or all-time leagues.
+A native SwiftUI trivia app inspired by the original QuizUp: follow topics, play seven-round timed duels, earn speed bonuses, practise against a labelled bot, review answers, track topic levels, and compete in monthly or all-time leagues.
 
 ## Included
 
-- 45,581 bundled four-option questions across 30 categories. Actual per-topic counts appear in the app and `data/import-report.json`.
+- 24,834 screened, bundled four-option questions across 30 categories. Actual per-topic counts appear in the app and `data/audit-report.json`.
 - Offline bot practice with persistent history, local XP, per-topic levels and accuracy.
 - A PHP + SQLite backend for asynchronous duels against recorded human runs, with bot fallback when no run is available.
-- Server-owned online deadlines and scoring, authenticated match ownership, replay-safe answer submissions, name-based player cards, weekly and all-time filtered leaderboards, question reports and account deletion.
+- Server-owned online deadlines and scoring, authenticated match ownership, replay-safe answer submissions, name-based player cards, monthly and all-time filtered leaderboards, question reports and account deletion.
 - GitHub Actions for simulator tests, device archives, screenshots and signed TestFlight upload.
 
 ## Open in Xcode
@@ -85,3 +85,7 @@ Question data: [Open Trivia Database](https://opentdb.com/) and [OpenTriviaQA co
 ## Rebuilding the expanded bank
 
 Run `python3 scripts/import_bank.py /path/to/opentdb/all_questions.json`, followed by `python3 scripts/import_extended_bank.py /path/to/OpenTriviaQA`. The second importer rejects malformed answers, duplicates, time/context-dependent prompts, excessively long text and position-dependent answers. Source question difficulty is shown as Mixed where no difficulty was supplied. The server reads only the selected category through an indexed SQLite query, rather than decoding the entire 19 MB JSON bank for each match.
+
+## October 27 revision
+
+Topic-specific monthly/all-time XP leagues, reserved unique player names, profile photo selection and removal, animated matchup countdown and winner screen, prominent timer and correct/incorrect progress markers. See `RESEARCH.md` for the historical QuizUp scoring evidence and `audit/README.md` for question review scope. The screened bank has 24,834 active records; 20,747 uncertain source records are quarantined. Screening is not a guarantee of factual correctness.

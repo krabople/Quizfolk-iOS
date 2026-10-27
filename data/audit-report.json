@@ -1,0 +1,71 @@
+{
+  "screened": 45581,
+  "retained": 24834,
+  "quarantined": 20747,
+  "actions": {
+    "quarantined": 20747,
+    "retained": 24828,
+    "recategorised": 5,
+    "rewritten": 1
+  },
+  "quarantineReasons": {
+    "uncertain_specialist_category_fit": 12447,
+    "semantic_category_mismatch_requires_review": 6830,
+    "low_semantic_clarity": 3233,
+    "incomplete_question_context": 264,
+    "insufficient_standalone_wording": 129,
+    "unbounded_time_dependency": 8,
+    "missing_media_or_external_context": 308,
+    "answer_position_dependency": 2099,
+    "too_much_reading_for_ten_seconds": 1697,
+    "present_tense_fact_without_date": 23,
+    "missing_quotation": 7
+  },
+  "moves": [
+    {
+      "from": "37",
+      "to": "19",
+      "count": 1
+    },
+    {
+      "from": "35",
+      "to": "19",
+      "count": 1
+    }
+  ],
+  "categories": {
+    "General Knowledge": 5592,
+    "Books": 719,
+    "Film": 2389,
+    "Music": 3515,
+    "Stage & Musicals": 176,
+    "Television": 2712,
+    "Video Games": 750,
+    "Board Games": 92,
+    "Science & Nature": 512,
+    "Computers": 133,
+    "Mathematics": 124,
+    "Mythology": 133,
+    "Sport": 1212,
+    "Geography": 1354,
+    "History": 762,
+    "Politics": 518,
+    "Art": 112,
+    "Celebrities": 1368,
+    "Animals": 753,
+    "Vehicles": 177,
+    "Comics": 53,
+    "Gadgets": 32,
+    "Anime & Manga": 163,
+    "Cartoons": 342,
+    "Brain Teasers": 26,
+    "Hobbies": 54,
+    "Language & Culture": 250,
+    "World Religions": 197,
+    "Family Trivia": 358,
+    "Food & Drink": 256
+  },
+  "method": "Local MiniLM semantic similarity plus explicit context, time-dependence, mathematical notation and readability rules. Scores are heuristic similarities, not probabilities. Every source record has a ledger entry. This is not 45,581 individual human factual reviews.",
+  "activeBankSHA256": "79fa67f6930fd1391adc498e65806ac5686c178f37b332e8ae9a95a6a7cd097f",
+  "manualReviewScope": "Sample wording/topic review across all 30 categories; specific corrections and holds recorded. This does not establish factual correctness of every retained item."
+}

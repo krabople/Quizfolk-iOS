@@ -10,6 +10,8 @@ function out(array $data,int $status=200):never {http_response_code($status);ech
 function fail(string $message,int $status=400):never {out(['error'=>$message],$status);}
 function points(bool $correct,float $elapsed,int $round):int {return !$correct || $elapsed<0 || $elapsed>=10 ? 0:(20-(int)floor($elapsed))*($round===6 ? 2:1);}
 function sql(PDO $db,string $query,array $args=[]):PDOStatement {$s=$db->prepare($query);$s->execute($args);return $s;}
+require dirname(__DIR__).'/names.php';
+function earned_xp(int $score,int $other):int {return $score+40+($score>$other ? 100:($score===$other ? 50:0));}
 try {
     $configFile=dirname(__DIR__).'/config.php';
     $config=is_file($configFile) ? require $configFile:[];
@@ -23,13 +25,15 @@ try {
       CREATE INDEX IF NOT EXISTS match_replay ON matches(topic,completed);
       CREATE TABLE IF NOT EXISTS limits(bucket TEXT PRIMARY KEY,window INTEGER NOT NULL,count INTEGER NOT NULL);
       CREATE TABLE IF NOT EXISTS reports(id TEXT PRIMARY KEY,player_id TEXT NOT NULL,question_id TEXT NOT NULL,reason TEXT NOT NULL,created INTEGER NOT NULL);');
+    ensure_unique_names($db);
+    ensure_avatar_column($db);
     $route=(string)($_GET['r'] ?? 'health');$method=$_SERVER['REQUEST_METHOD'];
-    if((int)($_SERVER['CONTENT_LENGTH'] ?? 0)>8192) fail('Request is too large',413);
+    if((int)($_SERVER['CONTENT_LENGTH'] ?? 0)>24576) fail('Request is too large',413);
     $raw=file_get_contents('php://input');$body=$raw==='' ? []:json_decode($raw,true,32,JSON_THROW_ON_ERROR);
     if(!is_array($body)) fail('Expected a JSON object');
     $readRoutes=['health','categories','profile','leaderboard'];
     if(!in_array($route,$readRoutes,true) && $method!=='POST') fail('Use POST',405);
-    if($route==='health') out(['ok'=>true,'version'=>'0.1.0']);
+    if($route==='health') out(['ok'=>true,'version'=>'0.2.0']);
     if($route==='categories') out(['categories'=>json_decode(file_get_contents(dirname(__DIR__,2).'/data/categories.json'),true,512,JSON_THROW_ON_ERROR)]);
     $ipHash=hash('sha256',(string)($_SERVER['REMOTE_ADDR'] ?? 'unknown'));
     $bucket=($route==='register' ? 'register:':'request:').$ipHash;
@@ -39,11 +43,14 @@ try {
     if((int)$limit['count']>$maximum) fail('Please try again later',429);
     sql($db,'DELETE FROM limits WHERE window<?',[$window-24]);
     if($route==='register') {
-        $name=trim((string)($body['name'] ?? 'Quiz explorer'));
-        if($name==='' || strlen($name)>96 || preg_match('/[\x00-\x1F\x7F]/u',$name)) fail('Use a display name of 1–24 characters');
+        $auto=!empty($body['automaticName']) || empty($body['name']) || ($body['name'] ?? '')==='Quiz explorer';
+        $name=$auto ? automatic_name():clean_name((string)$body['name']);
         $id=bin2hex(random_bytes(12));$token=bin2hex(random_bytes(32));
-        sql($db,'INSERT INTO players VALUES(?,?,?,?)',[$id,hash('sha256',$token),$name,time()]);
-        out(['token'=>$token],201);
+        for($attempt=0;$attempt<8;$attempt++) {
+            try {sql($db,'INSERT INTO players(id,token_hash,name,created,name_key) VALUES(?,?,?,?,?)',[$id,hash('sha256',$token),$name,time(),name_key($name)]);out(['token'=>$token,'name'=>$name],201);}
+            catch(PDOException $e){if($e->getCode()!=='23000')throw $e;if(!$auto)fail('That player name is already in use. Please choose another.',409);$name=automatic_name();}
+        }
+        fail('Could not reserve a player name. Please try again.',503);
     }
     $auth=$_SERVER['HTTP_AUTHORIZATION'] ?? $_SERVER['REDIRECT_HTTP_AUTHORIZATION'] ?? '';
     if(!preg_match('/^Bearer ([a-f0-9]{64})$/D',$auth,$hit)) fail('Connect your player account first',401);
@@ -51,26 +58,48 @@ try {
     if(!$player) fail('Player key is invalid',401);
     $pid=$player['id'];
     if($route==='update-profile') {
-        $name=trim((string)($body['name'] ?? ''));
-        if($name==='' || strlen($name)>96 || preg_match('/[\x00-\x1F\x7F]/u',$name)) fail('Use a display name of 1–24 characters');
-        sql($db,'UPDATE players SET name=? WHERE id=?',[$name,$pid]);
-        out(['ok'=>true]);
+        if(($_SERVER['HTTP_X_QUIZFOLK_CLIENT'] ?? '')!=='2' && ($body['name'] ?? '')==='Quiz explorer')out(['ok'=>true,'name'=>$player['name']]);
+        $name=clean_name((string)($body['name'] ?? ''));
+        try {sql($db,'UPDATE players SET name=?,name_key=? WHERE id=?',[$name,name_key($name),$pid]);}
+        catch(PDOException $e){if($e->getCode()==='23000')fail('That player name is already in use. Please choose another.',409);throw $e;}
+        sql($db,'UPDATE matches SET opponent=? WHERE opponent_match IN (SELECT id FROM matches WHERE player_id=?)',[$name,$pid]);
+        out(['ok'=>true,'name'=>$name]);
+    }
+    if($route==='update-avatar') {
+        $avatar=$body['avatar'] ?? null;
+        if($avatar!==null) {
+            if(!is_string($avatar) || strlen($avatar)>22000)fail('Choose a smaller profile picture.');
+            $bytes=base64_decode($avatar,true);$info=$bytes===false ? false:@getimagesizefromstring($bytes);
+            if(!$info || $info['mime']!=='image/jpeg' || $info[0]>256 || $info[1]>256 || $info[0]<32 || $info[1]<32 || strlen($bytes)>16384)fail('Use a JPEG profile picture between 32 and 256 pixels.');
+            // Decode and re-encode when GD is available; the app also strips metadata.
+            if(function_exists('imagecreatefromstring')) {
+                $image=@imagecreatefromstring($bytes);if(!$image)fail('This picture could not be opened.');
+                ob_start();imagejpeg($image,null,82);$bytes=ob_get_clean();imagedestroy($image);
+                if(strlen($bytes)>16384)fail('Choose a smaller profile picture.');
+            }
+            $avatar=base64_encode($bytes);
+        }
+        sql($db,'UPDATE players SET avatar=? WHERE id=?',[$avatar,$pid]);out(['ok'=>true]);
     }
     if($route==='delete-account') {
         $db->beginTransaction();sql($db,'UPDATE matches SET opponent="Former player",opponent_match=NULL WHERE opponent_match IN (SELECT id FROM matches WHERE player_id=?)',[$pid]);sql($db,'DELETE FROM reports WHERE player_id=?',[$pid]);sql($db,'DELETE FROM players WHERE id=?',[$pid]);$db->commit();out(['ok'=>true]);
     }
     if($route==='profile') {
-        $m=sql($db,'SELECT COUNT(*) matches,COALESCE(SUM(score>opponent_score),0) wins,COALESCE(SUM(score),0) xp FROM matches WHERE player_id=? AND completed IS NOT NULL',[$pid])->fetch();
+        $m=sql($db,'SELECT COUNT(*) matches,COALESCE(SUM(score>opponent_score),0) wins,COALESCE(SUM(score+40+CASE WHEN score>opponent_score THEN 100 WHEN score=opponent_score THEN 50 ELSE 0 END),0) xp FROM matches WHERE player_id=? AND completed IS NOT NULL',[$pid])->fetch();
         $answers=sql($db,'SELECT answers FROM matches WHERE player_id=? AND completed IS NOT NULL',[$pid])->fetchAll();$correct=0;$answered=0;
         foreach($answers as $a) foreach(json_decode($a['answers'],true) as $r){$answered++;if($r['correct'])$correct++;}
-        out(['name'=>$player['name'],'matches'=>(int)$m['matches'],'wins'=>(int)$m['wins'],'xp'=>(int)$m['xp'],'correct'=>$correct,'answered'=>$answered]);
+        out(['name'=>$player['name'],'avatar'=>$player['avatar'],'matches'=>(int)$m['matches'],'wins'=>(int)$m['wins'],'xp'=>(int)$m['xp'],'correct'=>$correct,'answered'=>$answered]);
     }
     if($route==='leaderboard') {
         $where='m.completed IS NOT NULL';$args=[];
-        if(($_GET['period'] ?? 'week')==='week') {$where.=' AND m.completed>=?';$args[]=strtotime('monday this week 00:00 UTC');}
+        $topic=(string)($_GET['topic'] ?? '');
+        $topics=json_decode(file_get_contents(dirname(__DIR__,2).'/data/categories.json'),true,512,JSON_THROW_ON_ERROR);
+        if(!in_array($topic,array_column($topics,'id'),true))fail('Choose a topic to view its league table.');
+        if(($_GET['period'] ?? 'month')==='month') {$where.=' AND m.completed>=?';$args[]=strtotime(gmdate('Y-m-01').' 00:00 UTC');}
+        if(($_GET['period'] ?? 'month')==='week') {$where.=' AND m.completed>=?';$args[]=strtotime('monday this week 00:00 UTC');}
         if(!empty($_GET['topic'])) {$where.=' AND m.topic=?';$args[]=(string)$_GET['topic'];}
-        $rows=sql($db,'SELECT p.id,p.name,SUM(m.score) xp,COUNT(*) matches FROM matches m JOIN players p ON p.id=m.player_id WHERE '.$where.' GROUP BY p.id,p.name ORDER BY xp DESC,matches ASC,p.id ASC LIMIT 100',$args)->fetchAll();
-        out(['entries'=>array_map(fn($r)=>['id'=>$r['id'],'name'=>$r['name'],'xp'=>(int)$r['xp'],'matches'=>(int)$r['matches']],$rows)]);
+        $rows=sql($db,'SELECT p.id,p.name,p.avatar,SUM(m.score+40+CASE WHEN m.score>m.opponent_score THEN 100 WHEN m.score=m.opponent_score THEN 50 ELSE 0 END) xp,COUNT(*) matches FROM matches m JOIN players p ON p.id=m.player_id WHERE '.$where.' GROUP BY p.id,p.name ORDER BY xp DESC,matches ASC,p.id ASC LIMIT 100',$args)->fetchAll();
+        out(['entries'=>array_map(fn($r)=>['id'=>$r['id'],'name'=>$r['name'],'avatar'=>$r['avatar'],'xp'=>(int)$r['xp'],'matches'=>(int)$r['matches']],$rows)]);
     }
     if($route==='report') {
         $reason=trim((string)($body['reason'] ?? ''));$qid=(string)($body['question'] ?? '');
@@ -85,7 +114,7 @@ try {
         $db->exec('BEGIN IMMEDIATE');
         $active=sql($db,'SELECT COUNT(*) n FROM matches WHERE player_id=? AND created>?',[$pid,time()-3600])->fetch();
         if((int)$active['n']>=30) fail('You have reached the hourly duel limit',429);
-        $replay=sql($db,'SELECT m.*,p.name FROM matches m JOIN players p ON p.id=m.player_id WHERE m.topic=? AND m.player_id<>? AND m.completed>? AND NOT EXISTS(SELECT 1 FROM matches used WHERE used.player_id=? AND used.opponent_match=m.id) ORDER BY m.completed DESC LIMIT 1',[$topic,$pid,time()-2592000,$pid])->fetch();
+        $replay=sql($db,'SELECT m.*,p.name,p.avatar FROM matches m JOIN players p ON p.id=m.player_id WHERE m.topic=? AND m.player_id<>? AND m.completed>? AND m.created>=? AND NOT EXISTS(SELECT 1 FROM matches used WHERE used.player_id=? AND used.opponent_match=m.id) ORDER BY m.completed DESC LIMIT 1',[$topic,$pid,time()-2592000,(int)($config['minimum_replay_created'] ?? 0),$pid])->fetch();
         if($replay) {
             $packet=json_decode($replay['packet'],true);$other=array_column(json_decode($replay['answers'],true),'points');$kind='human';$opponent=$replay['name'];
         } else {
@@ -98,12 +127,13 @@ try {
         }
         $id=bin2hex(random_bytes(12));
         sql($db,'INSERT INTO matches(id,player_id,topic,kind,opponent,opponent_match,packet,opponent_points,created) VALUES(?,?,?,?,?,?,?,?,?)',[$id,$pid,$topic,$kind,$opponent,$replay ? $replay['id']:null,json_encode($packet,JSON_UNESCAPED_UNICODE),json_encode($other),time()]);
-        $db->exec('COMMIT');out(['id'=>$id,'kind'=>$kind,'opponent'=>$opponent],201);
+        $db->exec('COMMIT');out(['id'=>$id,'kind'=>$kind,'opponent'=>$opponent,'opponentAvatar'=>$replay ? $replay['avatar']:null],201);
     }
     if($route==='round' || $route==='answer') {
         $id=(string)($body['match'] ?? '');$db->exec('BEGIN IMMEDIATE');
         $m=sql($db,'SELECT * FROM matches WHERE id=? AND player_id=?',[$id,$pid])->fetch();
         if(!$m) fail('Match not found',404);
+        if((int)$m['created']<(int)($config['minimum_replay_created'] ?? 0)) fail('The question bank has been updated. Please start a new duel.',410);
         if((int)$m['created']<time()-86400) fail('This duel has expired',410);
         $packet=json_decode($m['packet'],true);$answers=json_decode($m['answers'],true);$op=json_decode($m['opponent_points'],true);$round=count($answers);
         if($route==='answer' && isset($body['round']) && is_int($body['round']) && $body['round']<$round && $body['round']>=0) {

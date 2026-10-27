@@ -44,8 +44,10 @@ struct MatchRecord: Codable, Identifiable {
     let rounds: [PlayedRound]
     var won: Bool { score > opponentScore }
     var tied: Bool { score == opponentScore }
+    var xp: Int { Scoring.experience(score:score,opponentScore:opponentScore) }
 }
 enum Scoring {
+    static func experience(score:Int,opponentScore:Int)->Int {score+40+(score>opponentScore ? 100:(score==opponentScore ? 50:0))}
     static func points(correct: Bool, elapsed: Double, round: Int) -> Int {
         guard correct, elapsed >= 0, elapsed < 10, elapsed.isFinite else { return 0 }
         return (20 - Int(floor(elapsed))) * (round == 6 ? 2 : 1)

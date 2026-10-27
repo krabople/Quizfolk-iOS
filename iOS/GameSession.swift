@@ -2,7 +2,7 @@ import Foundation
 import SwiftUI
 
 struct PublicQuestion:Decodable {let id:String;let prompt:String;let answers:[String];let difficulty:String;let source:String?;let sourceURL:String?}
-struct StartReply:Decodable {let id:String;let kind:String;let opponent:String}
+struct StartReply:Decodable {let id:String;let kind:String;let opponent:String;let opponentAvatar:String?}
 struct RoundReply:Decodable {let round:Int;let question:PublicQuestion;let remaining:Double}
 struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPoints:Int;let finished:Bool;let score:Int;let opponentScore:Int}
 @MainActor final class GameSession:ObservableObject,Identifiable {
@@ -21,6 +21,9 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
     @Published var busy=false
     @Published var error:String?
     @Published var finished=false
+    @Published var showIntro=true
+    @Published var prepared=false
+    @Published var introCount=3
     @Published var rounds:[PlayedRound]=[]
     @Published var lastPoints=0
     @Published var revealed=false
@@ -37,13 +40,30 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
             if online {
                 if store.profile==nil {await store.connect();if let message=store.onlineError {throw APIError.message(message)}}
                 let r:StartReply=try await store.request("match",body:["topic":topic.id])
-                matchID=r.id;opponent=r.opponent;kind=r.kind
-                try await getOnlineRound()
+                matchID=r.id;opponent=r.opponent;opponentAvatar=r.opponentAvatar;kind=r.kind
             } else {
                 packet=store.packet(topic)
                 guard packet.count==7 else {throw APIError.message("This topic needs at least seven questions.")}
-                current=packet[0];startTimer(seconds:10)
             }
+            prepared=true
+        } catch {self.error=error.localizedDescription}
+        busy=false
+    }
+    func countdownAndStart() async {
+        guard prepared,showIntro else {return}
+        for n in (1...3).reversed() {
+            guard !Task.isCancelled,showIntro else {return};introCount=n
+            do {try await Task.sleep(for:.seconds(1))} catch {return}
+        }
+        if !Task.isCancelled {await startPlaying()}
+    }
+    func startPlaying() async {
+        guard showIntro,prepared,!busy else {return}
+        busy=true;error=nil
+        do {
+            if online {try await getOnlineRound()}
+            else {current=packet[0];startTimer(seconds:10)}
+            showIntro=false
         } catch {self.error=error.localizedDescription}
         busy=false
     }
@@ -95,6 +115,7 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
         busy=false
     }
     func retry() async {
+        if showIntro {if prepared {await startPlaying()} else {await begin()};return}
         if let index=pendingAnswer,let q=current {busy=true;await submit(q:q,index:index,elapsed:pendingElapsed)}
         else if matchID.isEmpty {await begin()}
         else {busy=true;do {try await getOnlineRound();error=nil} catch{self.error=error.localizedDescription};busy=false}

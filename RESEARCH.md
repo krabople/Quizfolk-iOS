@@ -20,11 +20,11 @@ This is asynchronous competition against recorded performances; it is not a pend
 
 ## Question bank and limits
 
-The shipped bank contains **45,581 unique four-answer questions across 30 categories**. It combines 4,016 structurally accepted Open Trivia Database records with 41,565 accepted OpenTriviaQA records. The initial OpenTDB import had 4,018 records; two position-dependent answer records were excluded during expansion. No answers or distractors were invented to inflate the totals.
+The shipped bank contains **24,834 screened four-answer questions across 30 categories**. The original 45,581-record import remains traceable through Git history and the audit ledger. The 27 October audit held 20,747 uncertain records out of play; these are retained in `audit/quarantined-questions.json`, outside the app and serving database. No generated distractors were added to inflate the count.
 
-OpenTriviaQA import checks excluded 6,913 non-four-option or malformed records, 161 time/context-dependent prompts, 634 length/encoding failures, 417 duplicate prompts and 26 records with answer-position dependencies. Every shipped record has a stable ID, source, source URL, licence, and `imported_unreviewed` status. These are structural checks, not independent fact-checking. Source records without difficulty labels appear as Mixed rather than an invented difficulty rating.
+Every original record received automated structure, context, temporal wording, reading length, answer dependency and semantic topic-fit checks. Samples from every category were read for wording and topic fit; specific manual changes are marked in the ledger. This is **not an individual human factual verification of all 45,581 records**. Semantic similarity is a conservative screening aid, not a correctness guarantee. A later editorial pass is still needed. Actual active category counts are in `data/audit-report.json` and in the app. The importer is a raw-source staging tool; its output must not replace the screened serving bank without a new audit.
 
-Actual category sizes are in `data/import-report.json` and in the app. General Knowledge has 10,175 questions; Music 4,851; Film 3,780; Sport 2,501. Specialist categories are smaller: Comics has 70 and Gadgets 72. Questions need editorial review before a broad public launch, particularly historical or ambiguous community submissions. This is not a copy of QuizUp's proprietary historical question library.
+The reported “Calculate 6!” question was rewritten to explain factorial notation, independently calculated as 720, and moved to Mathematics. Records requiring absent images, missing sequences, ambiguous answer references or questionable topic assignment were held instead of guessed at.
 
 Sources and licences:
 
@@ -43,3 +43,11 @@ GitHub documents free standard hosted runners for public repositories in its [ru
 ## Before a public App Store launch
 
 This initial TestFlight build needs wider device testing, editorial question review, expansion of small categories, account recovery, name/report moderation, operational backups, and load testing. The server checks question deadlines and calculates all online points; public question data, rooted devices and automated answer tools mean this is not a cheat-proof competitive platform. Offline practice never submits scores to the online leagues. Online bot duels count towards human players’ XP, but bots are not leaderboard accounts.
+
+## Original QuizUp topic leagues and XP (27 October follow-up)
+
+A contemporary player's [2014 GameBlast review](https://www.gameblast.com.br/2014/08/quizup-android-ios.html) describes XP consisting of match points and bonuses, and topic rankings that renewed monthly. The creator of a [historical QuizUp leaderboard recorder](https://hellession.com/projects.html) also describes monthly leaderboard history. This supports a monthly, topic-specific XP table rather than one cross-topic sum of raw match points.
+
+An original results screenshot reproduced in [this research thesis](https://ela.kpi.ua/bitstreams/ee69a21c-d9e1-48be-b7c3-8e51235cd6c8/download) shows match score 70 + finish bonus 40 + victory bonus 100 = total XP 210. [A contemporary player's account](https://karlcrockets10.wordpress.com/category/german/) describes the 50 XP draw bonus. Quizfolk therefore awards score + 40 finish + 100 win / 50 draw / 0 loss, with separate monthly and all-time XP tables for every topic. Month boundaries use UTC. Historical completed duels are recalculated with these bonuses rather than losing player history. Paid XP multipliers are excluded. The app's simple level thresholds are its own design; the research does not establish an exact historical QuizUp level curve.
+
+Player names are reserved by a case-folded unique database index. Existing collisions are resolved during a transactional migration, retaining player keys and history; a consistent private SQLite snapshot is taken first. Pictures use Apple's photo picker, are centre-cropped to 128 square pixels and re-encoded as JPEG without original metadata. The authenticated service stores at most 16 KiB per picture and supplies it on player cards, topic leagues and recorded-opponent introductions. Removing a picture clears the server copy. The main website is outside the deployed app paths.

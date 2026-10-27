@@ -12,11 +12,13 @@ final class DuelUITests:XCTestCase {
         app.swipeUp()
         let practice=app.buttons["Practise against a bot"]
         XCTAssertTrue(practice.waitForExistence(timeout:5));practice.tap()
+        XCTAssertTrue(app.otherElements["matchupTitle"].waitForExistence(timeout:5))
+        capture("Matchup")
         for i in 0..<7 {
             let option=app.buttons["answer-3"]
             XCTAssertTrue(option.waitForExistence(timeout:8))
             if i==0 {for n in 0..<4 {XCTAssertTrue(app.buttons["answer-\(n)"].isHittable,"Every answer must be visible without scrolling")}}
-            if i==0 {capture("Question")}
+            if i==0 {XCTAssertTrue(app.otherElements["roundTimer"].exists);capture("Question")}
             if option.isEnabled {option.tap()}
             let next=app.buttons["advanceQuestion"]
             if !next.isHittable {app.swipeUp()}

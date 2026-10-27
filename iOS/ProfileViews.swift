@@ -1,4 +1,5 @@
 import SwiftUI
+import PhotosUI
 
 struct HistoryView:View {
     @EnvironmentObject var store:QuizStore
@@ -29,33 +30,39 @@ struct MatchDetailView:View {
 }
 struct LeagueView:View {
     @EnvironmentObject var store:QuizStore
-    @State private var topicID=""
-    @State private var weekly=true
+    var initialTopicID:String? = nil
+    @State private var topicID="9"
+    @State private var monthly=true
     var body:some View {
         NavigationStack {
             ScrollView {
                 BrandHeader(title:"Make a name.",subtitle:"Your knowledge deserves a little glory.")
                 VStack(spacing:18) {
                     Image(systemName:"trophy.fill").font(.system(size:56)).foregroundStyle(Color(hex:"DCA83D")).padding(.top,10)
-                    Text("The knowledge league").font(.system(size:24,weight:.bold,design:.rounded))
-                    Picker("Period",selection:$weekly){Text("This week").tag(true);Text("All time").tag(false)}.pickerStyle(.segmented)
-                    Picker("Topic",selection:$topicID){Text("All topics").tag("");ForEach(store.topics){Text($0.name).tag($0.id)}}.tint(.ink)
+                    Text("\(store.topics.first{$0.id==topicID}?.emoji ?? "🏆") \(store.topics.first{$0.id==topicID}?.name ?? "Topic") league").font(.system(size:24,weight:.bold,design:.rounded))
+                    Picker("Period",selection:$monthly){Text("This month").tag(true);Text("All time").tag(false)}.pickerStyle(.segmented)
+                    Picker("Topic",selection:$topicID){ForEach(store.topics){Text($0.name).tag($0.id)}}.tint(.ink).accessibilityIdentifier("leagueTopic")
                     if store.apiURL.isEmpty {ContentUnavailableView("Leagues need a connection",systemImage:"network",description:Text("Add your quiz server in You to join the real player leaderboards. Offline practice stays on this device."))}
                     else if store.board.isEmpty {Text("No completed duels yet. Play an online duel to set the pace.").foregroundStyle(.secondary).multilineTextAlignment(.center)}
-                    ForEach(Array(store.board.enumerated()),id:\.element.id){index,row in HStack(spacing:14){Text("\(index+1)").font(.system(size:20,weight:.bold,design:.rounded)).foregroundStyle(index<3 ? Color(hex:"C28D2F"):Color.ink).frame(width:30);VStack(alignment:.leading){Text(row.name).font(.headline);Text("\(row.matches) duels").font(.caption).foregroundStyle(.secondary)};Spacer();Text("\(row.xp) XP").font(.headline)}.padding(17).background(.white,in:RoundedRectangle(cornerRadius:14))}
+                    ForEach(Array(store.board.enumerated()),id:\.element.id){index,row in HStack(spacing:14){Text("\(index+1)").font(.system(size:20,weight:.bold,design:.rounded)).foregroundStyle(index<3 ? Color(hex:"C28D2F"):Color.ink).frame(width:30);PlayerPortrait(name:row.name,avatar:row.avatar,size:34);VStack(alignment:.leading){Text(row.name).font(.headline);Text("\(row.matches) duels").font(.caption).foregroundStyle(.secondary)};Spacer();Text("\(row.xp) XP").font(.headline)}.padding(17).background(.white,in:RoundedRectangle(cornerRadius:14))}
                     if let error=store.onlineError {Text(error).font(.caption).foregroundStyle(.red)}
-                    Text("Weekly leagues reset Monday at 00:00 UTC. Only completed online duels count. Bots never appear on the board.").font(.caption).foregroundStyle(.secondary).multilineTextAlignment(.center)
+                    Text("Every topic has its own league. Monthly tables reset on the first day at 00:00 UTC. Topic XP = match score + 40 for finishing + 100 for a win or 50 for a draw. No paid multipliers. Offline practice does not enter the league.").font(.caption).foregroundStyle(.secondary).multilineTextAlignment(.center)
                     Button("Refresh league"){Task{await refresh()}}.buttonStyle(.bordered).disabled(store.apiURL.isEmpty)
                 }.padding(.horizontal,22)
             }.background(Color.canvas).toolbar(.hidden,for:.navigationBar)
-        }.task{await refresh()}.onChange(of:topicID){_,_ in Task{await refresh()}}.onChange(of:weekly){_,_ in Task{await refresh()}}
+        }.task{if let selected=initialTopicID {topicID=selected};await refresh()}.onChange(of:topicID){_,_ in Task{await refresh()}}.onChange(of:monthly){_,_ in Task{await refresh()}}
     }
-    private func refresh()async {if !store.apiURL.isEmpty {await store.loadBoard(topicID:topicID,weekly:weekly)}}
+    private func refresh()async {if !store.apiURL.isEmpty {await store.loadBoard(topicID:topicID,monthly:monthly)}}
 }
 struct ProfileView:View {
     @EnvironmentObject var store:QuizStore
     @State private var saved=false
     @State private var deleteAccount=false
+    @State private var draftName=""
+    @State private var selectedPhoto:PhotosPickerItem?
+    @State private var pendingPicture:Data?
+    @State private var pictureError:String?
+    @State private var showPicturePreview=false
     var correct:Int {store.history.flatMap{$0.rounds}.filter{$0.selected==$0.question.correctIndex}.count}
     var total:Int {store.history.flatMap{$0.rounds}.count}
     var wins:Int {store.history.filter{$0.won}.count}
@@ -64,7 +71,11 @@ struct ProfileView:View {
             ScrollView {
                 BrandHeader(title:"A curious mind.",subtitle:"Look how far your knowledge takes you.")
                 VStack(spacing:18) {
-                    Image(systemName:"person.fill").font(.system(size:42)).foregroundStyle(Color.coral).frame(width:100,height:100).background(Color.coral.opacity(0.1),in:Circle())
+                    PlayerPortrait(name:store.name,avatar:store.avatar,size:100)
+                    PhotosPicker(selection:$selectedPhoto,matching:.images,photoLibrary:.shared()){Label("Change profile picture",systemImage:"photo")}
+                        .disabled(store.profileBusy).accessibilityIdentifier("changeProfilePicture")
+                    if store.avatar != nil {Button("Remove profile picture",role:.destructive){Task{await store.changeAvatar(nil)}}.font(.caption).disabled(store.profileBusy)}
+                    if let pictureError {Text(pictureError).font(.caption).foregroundStyle(.red)}
                     Text(store.name).font(.system(size:25,weight:.bold,design:.rounded))
                     Text("LEVEL \(1+store.xp/500) · \(store.xp.formatted()) LOCAL XP").font(.system(size:11,weight:.heavy)).tracking(1).foregroundStyle(.secondary)
                     HStack{metric("\(store.history.count)","Duels");metric("\(wins)","Wins");metric(total==0 ? "—":"\(Int(Double(correct)/Double(total)*100))%","Accuracy")}.padding(.vertical,18).background(.white,in:RoundedRectangle(cornerRadius:17))
@@ -74,14 +85,18 @@ struct ProfileView:View {
                     Link("Privacy policy",destination:URL(string:"https://www.ways2earn.com/quizfolk-api/privacy.html")!).font(.caption)
                 }.padding(.horizontal,22).padding(.bottom,25)
             }.background(Color.canvas).toolbar(.hidden,for:.navigationBar)
-        }.confirmationDialog("Delete your online player account and server match history? Your local practice history will remain on this device.",isPresented:$deleteAccount,titleVisibility:.visible){Button("Delete online account",role:.destructive){Task{await store.deleteAccount();saved=false}}}
+        }.onAppear{draftName=store.name}.onChange(of:store.name){old,value in if draftName==old {draftName=value}}
+        .onChange(of:selectedPhoto){_,item in Task{do {guard let data=try await item?.loadTransferable(type:Data.self) else {return};pendingPicture=try ProfilePicture.make(data);pictureError=nil;showPicturePreview=true} catch {pictureError=error.localizedDescription};selectedPhoto=nil}}
+        .sheet(isPresented:$showPicturePreview){NavigationStack{VStack(spacing:24){Text("Your player picture").font(.title2.bold());PlayerPortrait(name:store.name,avatar:pendingPicture?.base64EncodedString(),size:200);Text("This square crop will appear on your player card, in duels and in leagues. Photo location and other metadata are removed.").font(.subheadline).multilineTextAlignment(.center);Button("Use this picture"){showPicturePreview=false;Task{await store.changeAvatar(pendingPicture)}}.buttonStyle(PrimaryButton());Button("Cancel"){showPicturePreview=false}}.padding(28)}}
+        .confirmationDialog("Delete your online player account and server match history? Your local practice history will remain on this device.",isPresented:$deleteAccount,titleVisibility:.visible){Button("Delete online account",role:.destructive){Task{await store.deleteAccount();saved=false}}}
     }
     private var settings:some View {
         VStack(alignment:.leading,spacing:12) {
             Text("Your player card").font(.headline)
-            TextField("Display name",text:$store.name).textFieldStyle(.roundedBorder).textContentType(.nickname)
+            TextField("Display name",text:$draftName).textFieldStyle(.roundedBorder).textContentType(.nickname).autocorrectionDisabled().accessibilityIdentifier("playerName")
+            Text("Player names are unique. Capitalisation and repeated spaces do not create a different name. Your current name is kept if a new one is taken.").font(.caption).foregroundStyle(.secondary)
             Text("Your name appears in online duels and leagues. Your player account stays on this iPhone; cross-device account recovery is not available yet.").font(.caption).foregroundStyle(.secondary)
-            Button("Save player card"){store.saveSettings();Task{await store.connect();saved=store.onlineError==nil}}.buttonStyle(PrimaryButton())
+            Button("Save player card"){store.saveSettings();Task{await store.changeName(to:draftName);saved=store.onlineError==nil;if saved {draftName=store.name}}}.buttonStyle(PrimaryButton()).disabled(store.profileBusy)
             DisclosureGroup("Advanced connection settings") {
                 TextField("HTTPS service address",text:$store.apiURL).textFieldStyle(.roundedBorder).textInputAutocapitalization(.never).autocorrectionDisabled().keyboardType(.URL)
                 Text("Only change this if you run your own quiz service. Changing the address creates a separate player account.").font(.caption).foregroundStyle(.secondary)

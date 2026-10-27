@@ -17,6 +17,7 @@ struct RootView:View {
             ProfileView().tabItem{Label("You",systemImage:"person.crop.circle.fill")}.tag(3)
         }.tint(.coral)
         .onAppear{if !didChoose {interests=true}}
+        .task {await store.connect()}
         .sheet(isPresented:$interests,onDismiss:{didChoose=true}){InterestsView()}
         .alert("Question bank unavailable",isPresented:Binding(get:{store.loadError != nil},set:{_ in store.loadError=nil})){Button("OK",role:.cancel){}}message:{Text(store.loadError ?? "")}
     }
@@ -32,7 +33,7 @@ struct BrandHeader:View {
                 Text(subtitle).font(.subheadline).foregroundStyle(.secondary)
             }
             Spacer()
-            Image(systemName:"sparkle").font(.system(size:29)).foregroundStyle(Color.coral).padding(13).background(Color.coral.opacity(0.09),in:Circle())
+            Image("BrandMark").resizable().scaledToFit().frame(width:54,height:54).clipShape(RoundedRectangle(cornerRadius:14)).accessibilityLabel("Quizfolk logo")
         }.padding(.horizontal,22).padding(.top,16).padding(.bottom,14)
     }
 }
@@ -137,6 +138,7 @@ struct TopicView:View {
                 Text(topic.name).font(.system(size:34,weight:.bold,design:.rounded)).multilineTextAlignment(.center)
                 Text("\(topic.questionCount) questions · Level \(store.level(topic))").foregroundStyle(.secondary)
                 Button{store.toggle(topic)}label:{Label(store.favourites.contains(topic.id) ? "Following":"Follow topic",systemImage:store.favourites.contains(topic.id) ? "heart.fill":"heart")}.tint(topic.tint)
+                NavigationLink{LeagueView(initialTopicID:topic.id)}label:{Label("View \(topic.name) league",systemImage:"trophy.fill")}.tint(topic.tint)
                 HStack(spacing:0){stat("7","questions");stat("10s","per question");stat("2×","final round")}.padding(.vertical,20).background(.white,in:RoundedRectangle(cornerRadius:18))
                 VStack(alignment:.leading,spacing:9) {
                     Label("A proper duel. On your schedule.",systemImage:"bolt.horizontal.fill").font(.headline)
