@@ -4,6 +4,7 @@ import argparse
 parser=argparse.ArgumentParser();parser.add_argument('--source-bank',type=pathlib.Path,required=True);parser.add_argument('--work',type=pathlib.Path,required=True);args=parser.parse_args();work=args.work;sys.path.insert(0,str(work/'audit-libs'))
 import numpy as np,onnxruntime as ort
 from tokenizers import Tokenizer
+from time_rules import temporal_hold
 a=r;data=a/'data';bank=json.loads(args.source_bank.read_text(encoding='utf-8'));cats=json.loads((data/'categories.json').read_text(encoding='utf-8'))
 vectors=np.load(work/'question-embeddings.npy');assert len(vectors)==len(bank)
 desc={
@@ -75,6 +76,7 @@ for n,original in enumerate(bank):
  # Broad topics can legitimately cover several domains; narrow topics need evidence of fit.
  if old not in ('9','37') and current<0.18:hold.append('uncertain_specialist_category_fit')
  if bestScore<0.16:hold.append('low_semantic_clarity')
+ hold.extend(temporal_hold(s,old))
  entry={'id':q['id'],'prompt':original['prompt'],'originalTopic':old,'suggestedTopic':new,'categorySimilarity':round(current,4),'bestSimilarity':round(bestScore,4),'bestSemanticTopic':best,'checks':['structure','standalone_wording','reading_length','media_context','temporal_context','answer_dependencies','topic_semantics'],'reasons':sorted(set(why+hold)),'action':'quarantined' if hold else ('rewritten' if manual else ('recategorised' if new!=old else 'retained')),'reviewMethod':'per-record automated semantic and language audit','verifiedByDerivation':manual,'manualReview':q['id']=='66b6a0317332fa97167e'}
  ledger.append(entry)
  if hold:held.append(original);reasons.update(set(hold));continue
