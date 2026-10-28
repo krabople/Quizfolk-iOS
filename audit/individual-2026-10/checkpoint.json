@@ -1,0 +1,79 @@
+{
+  "updatedUTC": "2026-10-28T20:35:34.247313+00:00",
+  "state": "individual_review_in_progress",
+  "usageLimit": {
+    "stopAtUsedPercent": 90,
+    "lastObservedUsedPercent": 87,
+    "instruction": "Stop all work and subagents when remaining account usage reaches 10%; do not silently continue."
+  },
+  "progress": {
+    "input": 24541,
+    "reviewed": 9443,
+    "remaining": 15098,
+    "decisions": {
+      "keep": 2512,
+      "edit": 5488,
+      "reject": 1443
+    },
+    "remainingByCategory": {
+      "10": 124,
+      "11": 2059,
+      "12": 3360,
+      "14": 2604,
+      "21": 683,
+      "26": 1094,
+      "9": 5174
+    },
+    "errors": [],
+    "complete": false
+  },
+  "inputPolicy": "Frozen input.json must not be mutated. Each question and all four answers require an individual sense, unique-answer, grammar and topic decision. No automated blanket acceptance or rejection.",
+  "publication": "Candidate additions and review decisions have NOT been applied to playable JSON or SQLite. Do not claim that the full audit is complete. The apply command refuses incomplete coverage or fewer than 150 accepted questions per topic.",
+  "lastKnownTestFlight": {
+    "version": "0.2.0",
+    "build": 12,
+    "newBuildUploaded": false
+  },
+  "runtimeChanges": {
+    "implementedButNotReleased": [
+      "Coin-only economy; paid tournaments; bounded Daily Trail coin earnings; top-three coin and portrait-badge prizes; acknowledged late-login prize popup",
+      "Three daily tournaments, insufficient-balance admission alert, prominent popup and People-screen star removal",
+      "Prompt-and-ID duplicate protection for duels, offline packets, tournament runs and legacy resumes"
+    ],
+    "validatedCodeCommits": [
+      "c3ba442d6c547765590189585c0d92202c2abd27",
+      "1211a69d9ee836a428449bbeb0ed646f85f27fa5"
+    ],
+    "backendCI": "https://github.com/krabople/Quizfolk-iOS/actions/runs/40744870567",
+    "iOSCI": "https://github.com/krabople/Quizfolk-iOS/actions/runs/40744870060",
+    "dedupLimit": "Equivalent normalised prompts under different IDs are excluded; semantic paraphrases also require editorial removal."
+  },
+  "powerUpResearch": {
+    "multiplayerAvailability": "Confirmed in 2019, 2020 and 2021 recordings of original QuizUp.",
+    "observed": "Fifty Fifty, Double Choice and Right Answer; free counters; observed one-gem Fifty Fifty and 25-gem Right Answer prices in particular recordings. Visible menu does not pause timer.",
+    "unverified": [
+      "Activation auto-submit versus highlight",
+      "Double Choice first-wrong and timer handling",
+      "Whether purchasing pauses time",
+      "Per-question or per-round limits",
+      "Double Choice paid price"
+    ],
+    "record": "docs/QUIZUP-RESEARCH.md",
+    "answerPowerUpsImplemented": false
+  },
+  "resumeSequence": [
+    "Inspect current usage and honour the 10% stop instruction before continuing.",
+    "Run audit/individual_review.py status and continue only unreviewed frozen IDs; preserve completed partial ledgers.",
+    "Complete cross-category duplicate and wording checks and ensure at least 150 accepted questions in every topic.",
+    "Only then run individual_review.py apply to regenerate both playable database copies and counts.",
+    "Validate changed bank and run appropriate backend and iOS checks.",
+    "Back up only the isolated Quizfolk backend and deploy questions.php plus economy.php with the other required backend/data files; never overwrite the player database or main ways2earn website.",
+    "Use the existing quizfolk-testflight.yml signing workflow in krabople/ways2earn-ios, verify the resulting IPA and assign the processed build to the existing TestFlight group."
+  ],
+  "userCorrections": [
+    "Keep the original age riddle wording and answer 28 for question 4202b9e4198385ec16e8; the user withdrew their objection.",
+    "No tickets and no free-entry tournaments.",
+    "Do not ask routine permission questions; existing broad authorization remains in force."
+  ],
+  "helperLocation": "Individual review editing helpers are in the parent workspace work directory, outside this repository; the authoritative decisions are the tracked JSONL files."
+}
