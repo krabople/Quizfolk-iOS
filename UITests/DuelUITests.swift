@@ -1,7 +1,7 @@
 import XCTest
 final class DuelUITests:XCTestCase {
     @MainActor func testOfflineDuelAndHistory() {
-        let app=XCUIApplication();app.launch()
+        let app=XCUIApplication();app.launchArguments=["--ui-testing"];app.launch()
         if app.buttons["Done"].waitForExistence(timeout:8) {app.buttons["Done"].tap()}
         let search=app.textFields["Search categories"]
         XCTAssertTrue(search.waitForExistence(timeout:10))
@@ -34,14 +34,14 @@ final class DuelUITests:XCTestCase {
         }
         let back=app.buttons["Back to topics"]
         if !back.isHittable {app.swipeUp();app.swipeUp()}
-        XCTAssertTrue(back.waitForExistence(timeout:8));capture("Result");back.tap()
+        XCTAssertTrue(back.waitForExistence(timeout:8));capture("Result");app.buttons["Leave match"].tap();XCTAssertFalse(app.buttons["Leave duel"].exists)
         app.navigationBars.buttons.element(boundBy:0).tap()
-        app.tabBars.buttons["Matches"].tap()
+        app.tabBars.buttons["Duels"].tap();app.buttons["Device history"].tap()
         XCTAssertTrue(app.staticTexts["Offline practice"].waitForExistence(timeout:5))
         capture("History")
     }
     @MainActor func testProfilePhotoPicker() {
-        let app=XCUIApplication();app.launch()
+        let app=XCUIApplication();app.launchArguments=["--ui-testing"];app.launch()
         if app.buttons["Done"].waitForExistence(timeout:3) {app.buttons["Done"].tap()}
         app.tabBars.buttons["You"].tap()
         let picker=app.buttons["changeProfilePicture"]
@@ -61,6 +61,21 @@ final class DuelUITests:XCTestCase {
         capture("PicturePreview")
         app.buttons["Cancel"].tap()
         XCTAssertTrue(picker.waitForExistence(timeout:5))
+    }
+    @MainActor func testPeopleProfilesAndChallengeComposer() {
+        let app=XCUIApplication();app.launchArguments=["--ui-testing"];app.launch()
+        if app.buttons["Done"].waitForExistence(timeout:3){app.buttons["Done"].tap()}
+        app.tabBars.buttons["People"].tap()
+        XCTAssertTrue(app.textFields["playerSearch"].waitForExistence(timeout:8))
+        let card=app.descendants(matching:.any).matching(identifier:"player-test-rival").firstMatch
+        XCTAssertTrue(card.waitForExistence(timeout:8));capture("People");card.tap()
+        XCTAssertTrue(app.buttons["followPlayer"].waitForExistence(timeout:8));app.buttons["followPlayer"].tap()
+        XCTAssertTrue(app.buttons["Following"].waitForExistence(timeout:5))
+        XCTAssertTrue(app.descendants(matching:.any).matching(identifier:"headToHead").firstMatch.exists)
+        capture("RivalProfile")
+        app.buttons["challengePlayer"].tap()
+        XCTAssertTrue(app.buttons["sendChallenge"].waitForExistence(timeout:5));capture("ChallengeComposer")
+        app.buttons["Cancel"].tap()
     }
     @MainActor private func capture(_ name:String) {let a=XCTAttachment(screenshot:XCUIApplication().screenshot());a.name=name;a.lifetime = .keepAlways;add(a)}
 }

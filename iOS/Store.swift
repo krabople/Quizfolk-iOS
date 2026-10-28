@@ -15,9 +15,23 @@ import Security
     @Published var board: [BoardEntry] = []
     @Published var profileBusy=false
     @Published var avatar:String?
+    @Published var people:[PlayerCard]=[]
+    @Published var challenges:[ChallengeCard]=[]
+    @Published var activity:[FriendActivity]=[]
+    @Published var ownCard:PlayerCard?
+    @Published var socialError:String?
+    var testFollowing=false
+    var isUITesting:Bool {
+        #if DEBUG
+        return ProcessInfo.processInfo.arguments.contains("--ui-testing") || ProcessInfo.processInfo.environment["XCTestConfigurationFilePath"] != nil
+        #else
+        return false
+        #endif
+    }
     private var token: String?
     private var connectionTask:Task<Void,Never>?
     private var boardRequest=UUID()
+    var peopleRequest=UUID()
     init() {
         do {
             topics = try Self.resource("categories")
@@ -38,6 +52,7 @@ import Security
     func toggle(_ topic:Topic) {
         if favourites.contains(topic.id) { favourites.remove(topic.id) } else { favourites.insert(topic.id) }
         UserDefaults.standard.set(Array(favourites),forKey:"favourites")
+        if profile?.socialVersion==1 && !isUITesting {Task{try? await saveSocial(interests:Array(favourites))}}
     }
     func saveSettings() {
         UserDefaults.standard.set(apiURL,forKey:"apiURL")
@@ -52,16 +67,22 @@ import Security
     func save(_ match:MatchRecord) {
         guard !history.contains(where:{$0.id==match.id}) else {return}
         history.insert(match,at:0)
-        if let data=try? JSONEncoder().encode(history) { UserDefaults.standard.set(data,forKey:"history") }
+        persistHistory()
     }
+    func persistHistory() {if let data=try? JSONEncoder().encode(history){UserDefaults.standard.set(data,forKey:"history")}}
     var xp:Int { history.reduce(0){$0+$1.xp} }
-    func level(_ topic:Topic)->Int { 1+history.filter{$0.topicID==topic.id}.reduce(0){$0+$1.xp}/300 }
+    func topicXP(_ topic:Topic)->Int {
+        if let ownCard {return ownCard.topics.first{$0.topicID==topic.id}?.xp ?? 0}
+        return history.filter{$0.topicID==topic.id && $0.kind != "practice"}.reduce(0){$0+$1.xp}
+    }
+    func level(_ topic:Topic)->Int {1+topicXP(topic)/300}
     func request<T:Decodable>(_ route:String,body:[String:Any]?=nil,query:[URLQueryItem]=[]) async throws -> T {
+        if isUITesting {throw APIError.message("UI test network is disabled.")}
         guard var parts=URLComponents(string:apiURL),parts.scheme=="https",parts.host != nil else {throw APIError.message("Enter the deployed HTTPS API URL in your profile first.")}
         parts.queryItems=(parts.queryItems ?? [])+[URLQueryItem(name:"r",value:route)]+query
         guard let url=parts.url else {throw APIError.message("Invalid API URL")}
         var req=URLRequest(url:url);req.timeoutInterval=20
-        req.setValue("2",forHTTPHeaderField:"X-Quizfolk-Client")
+        req.setValue("3",forHTTPHeaderField:"X-Quizfolk-Client")
         if let token,UserDefaults.standard.string(forKey:"tokenEndpoint")==apiURL {req.setValue("Bearer \(token)",forHTTPHeaderField:"Authorization")}
         if let body {req.httpMethod="POST";req.setValue("application/json",forHTTPHeaderField:"Content-Type");req.httpBody=try JSONSerialization.data(withJSONObject:body)}
         let (data,response)=try await URLSession.shared.data(for:req)
@@ -72,6 +93,7 @@ import Security
         return try JSONDecoder().decode(T.self,from:data)
     }
     func connect() async {
+        if isUITesting {name="UI Player";profile=OnlineProfile(id:"test-self",socialVersion:1,name:name,avatar:nil,matches:0,wins:0,xp:0,correct:0,answered:0);ownCard=Self.testCard(following:false,own:true);return}
         if let running=connectionTask {await running.value;return}
         let running=Task {await self.performConnect()};connectionTask=running
         await running.value;connectionTask=nil
@@ -91,6 +113,10 @@ import Security
             avatar=profile?.avatar
             UserDefaults.standard.set(avatar,forKey:"avatar")
             if let actual=profile?.name {name=actual;UserDefaults.standard.set(name,forKey:"name")}
+            if profile?.socialVersion==1 {
+                let _:OKReply=try await request("social-settings",body:["interests":Array(favourites)])
+                ownCard=try await request("player")
+            }
         } catch {onlineError=error.localizedDescription}
     }
     func changeName(to requested:String) async {
@@ -118,15 +144,15 @@ import Security
         onlineError=nil
         do {
             let _:OKReply=try await request("delete-account",body:[:])
-            Keychain.delete();token=nil;profile=nil;board=[];avatar=nil
+            Keychain.delete();token=nil;profile=nil;board=[];avatar=nil;ownCard=nil;people=[];challenges=[];activity=[]
             UserDefaults.standard.removeObject(forKey:"tokenEndpoint");UserDefaults.standard.removeObject(forKey:"avatar")
         } catch {onlineError=error.localizedDescription}
     }
-    func loadBoard(topicID:String,monthly:Bool=true) async {
+    func loadBoard(topicID:String,monthly:Bool=true,friendsOnly:Bool=false) async {
         let requestID=UUID();boardRequest=requestID;board=[]
         onlineError=nil
         if profile==nil {await connect();if onlineError != nil {return}}
-        do { let response:BoardReply=try await request("leaderboard",query:[URLQueryItem(name:"topic",value:topicID),URLQueryItem(name:"period",value:monthly ? "month":"all")])
+        do { let response:BoardReply=try await request("leaderboard",query:[URLQueryItem(name:"topic",value:topicID),URLQueryItem(name:"period",value:monthly ? "month":"all"),URLQueryItem(name:"scope",value:friendsOnly ? "following":"all")])
             if boardRequest==requestID {board=response.entries}
         } catch {onlineError=error.localizedDescription}
     }
@@ -139,7 +165,7 @@ struct Failure:Decodable {let error:String}
 struct OKReply:Decodable {let ok:Bool}
 struct NameReply:Decodable {let ok:Bool;let name:String}
 struct AuthReply:Decodable {let token:String}
-struct OnlineProfile:Decodable {let name:String;let avatar:String?;let matches:Int;let wins:Int;let xp:Int;let correct:Int;let answered:Int}
+struct OnlineProfile:Decodable {var id:String? = nil;var socialVersion:Int? = nil;let name:String;let avatar:String?;let matches:Int;let wins:Int;let xp:Int;let correct:Int;let answered:Int}
 struct BoardEntry:Decodable,Identifiable {let id:String;let name:String;let avatar:String?;let xp:Int;let matches:Int}
 struct BoardReply:Decodable {let entries:[BoardEntry]}
 enum Keychain {

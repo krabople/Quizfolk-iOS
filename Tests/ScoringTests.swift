@@ -27,6 +27,29 @@ final class ScoringTests:XCTestCase {
         XCTAssertLessThanOrEqual(output.count,16384)
         XCTAssertThrowsError(try ProfilePicture.make(Data("not an image".utf8)))
     }
+    @MainActor func testLevelsAreIndependentByTopic() async {
+        let store=QuizStore();await store.connect()
+        let geo=store.topics.first{$0.id=="22"}!,science=store.topics.first{$0.id=="17"}!
+        XCTAssertEqual(store.level(geo),3)
+        XCTAssertEqual(store.level(science),1)
+    }
+    @MainActor func testReadingDoesNotUseAnswerTime() async throws {
+        let store=QuizStore();let game=GameSession(topic:store.topics[0],store:store,online:false)
+        defer{game.stop()}
+        await game.begin();await game.startPlaying()
+        XCTAssertTrue(game.reading);XCTAssertEqual(game.remaining,10)
+        await game.answer(0);XCTAssertTrue(game.rounds.isEmpty)
+        try await Task.sleep(for:.milliseconds(2200))
+        XCTAssertFalse(game.reading);XCTAssertGreaterThan(game.remaining,9)
+        await game.answer(game.current!.correctIndex)
+        XCTAssertEqual(game.lastPoints,20)
+    }
+    @MainActor func testPendingChallengeHasNoPrematureWinOrXP() {
+        let q=Question(id:"sample",categoryID:"22",difficulty:"easy",prompt:"Sample?",answers:["A","B","C","D"],correctIndex:0)
+        let r=PlayedRound(question:q,selected:0,elapsed:1,points:19,opponentPoints:0)
+        let m=MatchRecord(id:"waiting",topicID:"22",date:Date(),score:100,opponentScore:0,opponent:"Rival",kind:"challenge",rounds:[r],duelID:"duel",pending:true,opponentID:"rival")
+        XCTAssertEqual(m.xp,0);XCTAssertFalse(m.won);XCTAssertFalse(m.tied)
+    }
     @MainActor func testBundleBank() throws {
         let q:[Question]=try QuizStore.resource("questions")
         let topics:[Topic]=try QuizStore.resource("categories")

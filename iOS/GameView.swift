@@ -7,14 +7,29 @@ struct GameView:View {
  @Environment(\.accessibilityReduceMotion) var reduceMotion
  @State private var leave=false
  @State private var entered=false
+ @State private var rematch=false
  var body:some View {
   NavigationStack {
-   Group {if game.finished {result} else if game.showIntro {intro} else {play}}
+   Group {if game.finished {if game.awaitingOpponent {pendingResult}else{result}} else if game.searching || (!game.prepared && game.online) {searchScreen} else if game.showIntro {intro} else {play}}
     .foregroundStyle(.white).background(LinearGradient(colors:[Color(hex:"102640"),game.topic.tint,Color(hex:"123452")],startPoint:.topLeading,endPoint:.bottomTrailing).ignoresSafeArea())
     .toolbarBackground(Color(hex:"102640"),for:.navigationBar).toolbarBackground(.visible,for:.navigationBar).toolbarColorScheme(.dark,for:.navigationBar).navigationBarTitleDisplayMode(.inline)
-    .toolbar {ToolbarItem(placement:.topBarLeading){Button{leave=true}label:{Image(systemName:"xmark")}.accessibilityLabel("Leave match")};ToolbarItem(placement:.principal){Text(game.topic.name).font(.headline)}}
+    .toolbar {ToolbarItem(placement:.topBarLeading){Button{if game.canCloseWithoutWarning{dismiss()}else{leave=true}}label:{Image(systemName:"xmark")}.accessibilityLabel("Leave match")};ToolbarItem(placement:.principal){Text(game.topic.name).font(.headline)}}
     .confirmationDialog("Leave this duel? An unfinished duel earns no XP.",isPresented:$leave,titleVisibility:.visible){Button("Leave duel",role:.destructive){game.stop();dismiss()}}
   }.preferredColorScheme(.dark).task{await game.begin()}.onDisappear{game.stop()}
+   .sheet(isPresented:$rematch){if let id=game.opponentID{ChallengeComposer(playerID:id,name:game.opponent,initialTopic:game.topic.id)}}
+ }
+ private var searchScreen:some View {
+  VStack(spacing:25){Spacer();Image(systemName:"person.2.wave.2.fill").font(.system(size:70)).foregroundStyle(Color(hex:"FFD494"));Text("Finding a human rival").font(.system(size:28,weight:.bold,design:.rounded));Text(game.searchMessage).multilineTextAlignment(.center);if game.error==nil {ProgressView().tint(.white)};Text("We check other searchers and recorded human runs before a bot is offered.").font(.subheadline).multilineTextAlignment(.center).opacity(0.75);if let error=game.error{Text(error).font(.caption);Button("Try again"){Task{await game.retry()}}.buttonStyle(PrimaryButton())};Spacer()}.padding(28).accessibilityIdentifier("humanSearch")
+ }
+ private var pendingResult:some View {
+  ScrollView{VStack(spacing:22){Image(systemName:"hourglass.circle.fill").font(.system(size:70)).foregroundStyle(Color(hex:"FFD494")).padding(.top,25);Text("YOUR RUN IS SAVED").font(.system(size:28,weight:.black,design:.rounded));Text("\(game.score) points").font(.system(size:45,weight:.heavy,design:.rounded));Text("Waiting for \(game.opponent)").font(.title3.bold());Text("They can accept and play the same seven questions later. The winner, topic XP and your head-to-head tally update when both of you have finished.").font(.body).multilineTextAlignment(.center);Button(game.busy ? "Checking…":"Check result"){Task{await game.refreshResult()}}.buttonStyle(PrimaryButton()).disabled(game.busy);rivalActions;Button("Back to topics"){dismiss()}.buttonStyle(.bordered);if let error=game.error {Text(error).font(.caption)}}.padding(26)}.accessibilityIdentifier("pendingChallengeResult")
+ }
+ @ViewBuilder private var rivalActions:some View {
+  if let id=game.opponentID {
+   RivalRecordView(playerID:id,name:game.opponent)
+   NavigationLink("View \(game.opponent)’s player card"){PublicPlayerView(playerID:id)}.font(.subheadline.bold())
+   if !game.awaitingOpponent {Button("Challenge again"){rematch=true}.buttonStyle(.bordered)}
+  }
  }
  private var intro:some View {
   VStack(spacing:26) {
@@ -23,10 +38,10 @@ struct GameView:View {
    HStack(alignment:.top,spacing:12) {
     contestant(store.name,avatar:store.avatar,bot:false).offset(x:entered ? 0:-170)
     Text("VS").font(.system(size:25,weight:.black,design:.rounded)).foregroundStyle(Color(hex:"FFD494")).padding(.top,26)
-    contestant(game.opponent,avatar:game.opponentAvatar,bot:game.kind != "human").offset(x:entered ? 0:170)
+    contestant(game.opponent,avatar:game.opponentAvatar,bot:!game.isHuman).offset(x:entered ? 0:170)
    }.accessibilityElement(children:.combine).accessibilityLabel("\(store.name) versus \(game.opponent)").accessibilityIdentifier("matchupTitle")
    Text(game.topic.emoji+" "+game.topic.name).font(.title3.bold())
-   Text(game.online && game.kind=="human" ? "A recorded human run.\nSame seven questions. Your own pace.":"Seven questions. A friendly bot.\nSpeed and knowledge decide the winner.").font(.subheadline).multilineTextAlignment(.center).opacity(0.8)
+   Text(game.kind=="challenge" ? "A human challenge. Play now or later.\nThe result settles when both runs finish.":(game.isHuman ? "A recorded human run.\nSame seven questions. Your own pace.":(game.online ? "No human was found after searching.\nA clearly labelled bot is ready to play.":"Seven questions. A friendly bot.\nSpeed and knowledge decide the winner."))).font(.subheadline).multilineTextAlignment(.center).opacity(0.8)
    Spacer(minLength:0)
    if game.prepared {if game.introCounting {Text("\(game.introCount)").font(.system(size:58,weight:.heavy,design:.rounded)).contentTransition(.numericText())} else {Text("Ready for your duel?").font(.headline)};Button(game.introCounting ? "Get ready…":"Start duel"){Task{await game.countdownAndStart()}}.buttonStyle(PrimaryButton(color:.coral)).disabled(game.busy || game.introCounting)}
    else if game.busy {ProgressView("Preparing your duel…").tint(.white)}
@@ -39,12 +54,14 @@ struct GameView:View {
  private var play:some View {
   GeometryReader {geometry in
    VStack(spacing:game.revealed ? 5:9) {
-    HStack {player(store.name,avatar:store.avatar,score:game.score,bot:false);Text("VS").font(.system(size:12,weight:.black)).opacity(0.6);player(game.opponent,avatar:game.opponentAvatar,score:game.opponentScore,bot:game.kind != "human")}.frame(height:game.revealed ? 42:48)
+    HStack {player(store.name,avatar:store.avatar,score:game.score,bot:false);Text("VS").font(.system(size:12,weight:.black)).opacity(0.6);player(game.opponent,avatar:game.opponentAvatar,score:game.duelID != nil && game.awaitingOpponent ? nil:game.opponentScore,bot:!game.isHuman)}.frame(height:game.revealed ? 42:48)
     HStack(spacing:6){ForEach(0..<7){i in roundMarker(i)}}
-    HStack {VStack(alignment:.leading,spacing:5){Text(game.round==6 ? "FINAL ROUND":"ROUND \(game.round+1) OF 7").font(.system(size:12,weight:.black)).tracking(1);Text(game.round==6 ? "DOUBLE POINTS":"FASTER = MORE POINTS").font(.system(size:9,weight:.bold)).foregroundStyle(Color(hex:"FFD494"))};Spacer();timer}.frame(height:game.revealed ? 50:78)
+    HStack {VStack(alignment:.leading,spacing:5){Text(game.round==6 ? "FINAL ROUND":"ROUND \(game.round+1) OF 7").font(.system(size:12,weight:.black)).tracking(1);Text(game.round==6 ? "DOUBLE POINTS":"FASTER = MORE POINTS").font(.system(size:9,weight:.bold)).foregroundStyle(Color(hex:"FFD494"))};Spacer();if game.reading {Image(systemName:"book.fill").font(.system(size:35)).foregroundStyle(Color(hex:"FFD494")).frame(width:74,height:74)}else{timer}}.frame(height:game.revealed ? 50:78)
     if let q=game.current {
      Text(q.prompt).font(.system(size:game.revealed ? 22:25,weight:.bold,design:.rounded)).multilineTextAlignment(.center).lineLimit(7).minimumScaleFactor(0.65).frame(maxWidth:.infinity,maxHeight:.infinity).layoutPriority(1)
+     if game.reading {Text("Read the question · answers appear in a moment").font(.subheadline.bold()).multilineTextAlignment(.center).accessibilityIdentifier("readingPhase");Spacer(minLength:40)} else {
      VStack(spacing:9){ForEach(q.answers.indices,id:\.self){i in answer(q,index:i)}}.frame(height:geometry.size.height*(game.revealed ? 0.34:(geometry.size.height<650 ? 0.44:0.50)))
+     }
      if game.revealed {
       HStack(spacing:12) {
        Text(game.lastPoints>0 ? "+\(game.lastPoints) points · Correct!":(game.selected == -1 ? "Time’s up!":"Answer highlighted")).font(.system(size:13,weight:.semibold)).lineLimit(2).frame(maxWidth:.infinity,alignment:.leading)
@@ -70,8 +87,8 @@ struct GameView:View {
   let state=complete ? (right ? "correct":"incorrect"):(i==game.round ? "current":"upcoming")
   return ZStack {Capsule().fill(complete ? (right ? Color.green:Color.coral):(i==game.round ? Color(hex:"FFD494"):.white.opacity(0.17)));if complete {Image(systemName:right ? "checkmark":"xmark").font(.system(size:8,weight:.black)).foregroundStyle(.white)}}.frame(height:13).accessibilityLabel("Round \(i+1): \(state)").accessibilityIdentifier("roundMarker-\(i)")
  }
- private func player(_ name:String,avatar:String?,score:Int,bot:Bool)->some View {
-  HStack(spacing:8){PlayerPortrait(name:name,avatar:avatar,bot:bot,size:34);VStack(alignment:.leading,spacing:0){Text(name).font(.system(size:10,weight:.semibold)).lineLimit(1).minimumScaleFactor(0.6);Text("\(score)").font(.system(size:25,weight:.bold,design:.rounded))}}.frame(maxWidth:.infinity,alignment:.leading)
+ private func player(_ name:String,avatar:String?,score:Int?,bot:Bool)->some View {
+  HStack(spacing:8){PlayerPortrait(name:name,avatar:avatar,bot:bot,size:34);VStack(alignment:.leading,spacing:0){Text(name).font(.system(size:10,weight:.semibold)).lineLimit(1).minimumScaleFactor(0.6);Text(score.map{String($0)} ?? "—").font(.system(size:25,weight:.bold,design:.rounded))}}.frame(maxWidth:.infinity,alignment:.leading)
  }
  private func answer(_ q:Question,index:Int)->some View {
   let correct=game.revealed && index==q.correctIndex
@@ -88,8 +105,9 @@ struct GameView:View {
    VStack(spacing:18) {
     Image(systemName:tied ? "equal.circle.fill":"trophy.fill").font(.system(size:68)).foregroundStyle(Color(hex:"FFD494")).symbolEffect(.bounce,value:game.finished).padding(.top,20)
     Text(tied ? "IT’S A DRAW":(won ? "YOU WIN!":"\(game.opponent.uppercased()) WINS!")).font(.system(size:31,weight:.black,design:.rounded)).multilineTextAlignment(.center).accessibilityIdentifier("winnerAnnouncement")
-    HStack(alignment:.top,spacing:14){podium(store.name,avatar:store.avatar,score:game.score,winner:won,bot:false);Text("–").font(.system(size:36,weight:.bold)).padding(.top,60);podium(game.opponent,avatar:game.opponentAvatar,score:game.opponentScore,winner:!won && !tied,bot:game.kind != "human")}
+    HStack(alignment:.top,spacing:14){podium(store.name,avatar:store.avatar,score:game.score,winner:won,bot:false);Text("–").font(.system(size:36,weight:.bold)).padding(.top,60);podium(game.opponent,avatar:game.opponentAvatar,score:game.opponentScore,winner:!won && !tied,bot:!game.isHuman)}
     VStack(spacing:8){Text("+\(Scoring.experience(score:game.score,opponentScore:game.opponentScore)) TOPIC XP").font(.system(size:25,weight:.black,design:.rounded));Text("\(game.score) score + 40 finish + \(bonus) \(tied ? "draw":"win") bonus").font(.caption);Text(game.online ? "Added to your \(game.topic.name) league":"Offline practice · local XP only").font(.caption).opacity(0.7)}.padding(16).frame(maxWidth:.infinity).background(.white.opacity(0.1),in:RoundedRectangle(cornerRadius:18))
+    rivalActions
     Button("Back to topics"){dismiss()}.buttonStyle(PrimaryButton(color:.coral))
     Text("\(game.rounds.filter{$0.points>0}.count) OF 7 CORRECT · DUEL REVIEW").font(.system(size:11,weight:.heavy)).tracking(1).padding(.top,10)
     ForEach(Array(game.rounds.enumerated()),id:\.element.id){index,r in
@@ -111,4 +129,11 @@ struct VictoryConfetti:View {
 
 struct AnswerButtonStyle:ButtonStyle {
  func makeBody(configuration:Configuration)->some View {configuration.label.scaleEffect(configuration.isPressed ? 0.98:1)}
+}
+
+struct RivalRecordView:View {
+ @EnvironmentObject var store:QuizStore
+ let playerID:String;let name:String
+ @State private var tally:HeadToHead?
+ var body:some View {Group{if let tally{HeadToHeadView(name:name,tally:tally).foregroundStyle(Color.ink).background(.white,in:RoundedRectangle(cornerRadius:18))}}.task{if let c=try? await store.playerCard(playerID){tally=c.headToHead}}}
 }

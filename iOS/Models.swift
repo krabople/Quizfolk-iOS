@@ -42,9 +42,12 @@ struct MatchRecord: Codable, Identifiable {
     let opponent: String
     let kind: String
     let rounds: [PlayedRound]
-    var won: Bool { score > opponentScore }
-    var tied: Bool { score == opponentScore }
-    var xp: Int { Scoring.experience(score:score,opponentScore:opponentScore) }
+    var duelID:String? = nil
+    var pending:Bool? = nil
+    var opponentID:String? = nil
+    var won: Bool { pending != true && score > opponentScore }
+    var tied: Bool { pending != true && score == opponentScore }
+    var xp: Int { pending == true ? 0:Scoring.experience(score:score,opponentScore:opponentScore) }
 }
 enum Scoring {
     static func experience(score:Int,opponentScore:Int)->Int {score+40+(score>opponentScore ? 100:(score==opponentScore ? 50:0))}

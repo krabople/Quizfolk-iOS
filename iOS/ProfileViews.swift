@@ -10,7 +10,7 @@ struct HistoryView:View {
                 if store.history.isEmpty {ContentUnavailableView("Your first rival is waiting",systemImage:"bolt.horizontal.circle",description:Text("Pick a topic in Discover and play your first duel."))}
                 LazyVStack(spacing:12){ForEach(store.history){match in
                     NavigationLink{MatchDetailView(match:match)}label:{
-                        HStack(spacing:13){Text(store.topics.first{$0.id==match.topicID}?.emoji ?? "🧠").font(.largeTitle);VStack(alignment:.leading,spacing:5){Text(store.topics.first{$0.id==match.topicID}?.name ?? "Trivia").font(.headline);Text("vs \(match.opponent)").font(.caption).foregroundStyle(.secondary);Text(match.kind=="human" ? "Recorded human run":(match.kind=="practice" ? "Offline practice":"Bot duel")).font(.system(size:10)).foregroundStyle(.secondary)};Spacer();VStack(alignment:.trailing,spacing:5){Text("\(match.score)–\(match.opponentScore)").font(.headline);Text(match.tied ? "DRAW":(match.won ? "WON":"LOST")).font(.system(size:10,weight:.heavy)).foregroundStyle(match.won ? .green:Color.coral);Text(match.date,style:.date).font(.system(size:9)).foregroundStyle(.secondary)}}.padding(16).background(.white,in:RoundedRectangle(cornerRadius:16)).foregroundStyle(Color.ink)
+                        HStack(spacing:13){Text(store.topics.first{$0.id==match.topicID}?.emoji ?? "🧠").font(.largeTitle);VStack(alignment:.leading,spacing:5){Text(store.topics.first{$0.id==match.topicID}?.name ?? "Trivia").font(.headline);Text("vs \(match.opponent)").font(.caption).foregroundStyle(.secondary);Text(match.kind=="challenge" ? "Asynchronous challenge":(match.kind=="human" ? "Recorded human run":(match.kind=="practice" ? "Offline practice":"Bot duel"))).font(.system(size:10)).foregroundStyle(.secondary)};Spacer();VStack(alignment:.trailing,spacing:5){Text("\(match.score)–\(match.opponentScore)").font(.headline);Text(match.pending==true ? "WAITING":(match.tied ? "DRAW":(match.won ? "WON":"LOST"))).font(.system(size:10,weight:.heavy)).foregroundStyle(match.won ? .green:Color.coral);Text(match.date,style:.date).font(.system(size:9)).foregroundStyle(.secondary)}}.padding(16).background(.white,in:RoundedRectangle(cornerRadius:16)).foregroundStyle(Color.ink)
                     }.buttonStyle(.plain)
                 }}.padding(.horizontal,22)
             }.background(Color.canvas).toolbar(.hidden,for:.navigationBar)
@@ -21,40 +21,12 @@ struct MatchDetailView:View {
     let match:MatchRecord
     var body:some View {
         List {
-            Section("\(match.score) – \(match.opponentScore) vs \(match.opponent)") {
+            Section(match.pending==true ? "\(match.score) points · waiting for \(match.opponent)":"\(match.score) – \(match.opponentScore) vs \(match.opponent)") {
                 ForEach(Array(match.rounds.enumerated()),id:\.element.id){i,r in VStack(alignment:.leading,spacing:8){Text("\(i+1). \(r.question.prompt)").font(.headline);Text("Correct: \(r.question.answers[r.question.correctIndex])");Text("Your answer: \(r.selected>=0 && r.selected<4 ? r.question.answers[r.selected]:"Timed out")").foregroundStyle(.secondary);Text("\(r.points) points · \(r.elapsed, specifier:"%.1f") seconds").font(.caption)}}
             }
             Section {Link("Question source · Open Trivia Database",destination:URL(string:"https://opentdb.com/")!);Link("Question source · OpenTriviaQA contributors",destination:URL(string:"https://github.com/uberspot/OpenTriviaQA")!);Link("Question licence · CC BY-SA 4.0",destination:URL(string:"https://creativecommons.org/licenses/by-sa/4.0/")!)}
         }.navigationTitle("Duel review")
     }
-}
-struct LeagueView:View {
-    @EnvironmentObject var store:QuizStore
-    @Environment(\.dismiss) private var dismiss
-    var initialTopicID:String? = nil
-    @State private var topicID="9"
-    @State private var monthly=true
-    var body:some View {
-        NavigationStack {
-            ScrollView {
-                if initialTopicID != nil {HStack{Button{dismiss()}label:{Label("Back to topic",systemImage:"chevron.left")};Spacer()}.padding(.horizontal,22).padding(.top,12)}
-                BrandHeader(title:"Make a name.",subtitle:"Your knowledge deserves a little glory.")
-                VStack(spacing:18) {
-                    Image(systemName:"trophy.fill").font(.system(size:56)).foregroundStyle(Color(hex:"DCA83D")).padding(.top,10)
-                    Text("\(store.topics.first{$0.id==topicID}?.emoji ?? "🏆") \(store.topics.first{$0.id==topicID}?.name ?? "Topic") league").font(.system(size:24,weight:.bold,design:.rounded))
-                    Picker("Period",selection:$monthly){Text("This month").tag(true);Text("All time").tag(false)}.pickerStyle(.segmented)
-                    Picker("Topic",selection:$topicID){ForEach(store.topics){Text($0.name).tag($0.id)}}.tint(.ink).accessibilityIdentifier("leagueTopic")
-                    if store.apiURL.isEmpty {ContentUnavailableView("Leagues need a connection",systemImage:"network",description:Text("Add your quiz server in You to join the real player leaderboards. Offline practice stays on this device."))}
-                    else if store.board.isEmpty {Text("No completed duels yet. Play an online duel to set the pace.").foregroundStyle(.secondary).multilineTextAlignment(.center)}
-                    ForEach(Array(store.board.enumerated()),id:\.element.id){index,row in HStack(spacing:14){Text("\(index+1)").font(.system(size:20,weight:.bold,design:.rounded)).foregroundStyle(index<3 ? Color(hex:"C28D2F"):Color.ink).frame(width:30);PlayerPortrait(name:row.name,avatar:row.avatar,size:34);VStack(alignment:.leading){Text(row.name).font(.headline);Text("\(row.matches) duels").font(.caption).foregroundStyle(.secondary)};Spacer();Text("\(row.xp) XP").font(.headline)}.padding(17).background(.white,in:RoundedRectangle(cornerRadius:14))}
-                    if let error=store.onlineError {Text(error).font(.caption).foregroundStyle(.red)}
-                    Text("Every topic has its own league. Monthly tables reset on the first day at 00:00 UTC. Topic XP = match score + 40 for finishing + 100 for a win or 50 for a draw. No paid multipliers. Offline practice does not enter the league.").font(.caption).foregroundStyle(.secondary).multilineTextAlignment(.center)
-                    Button("Refresh league"){Task{await refresh()}}.buttonStyle(.bordered).disabled(store.apiURL.isEmpty)
-                }.padding(.horizontal,22)
-            }.background(Color.canvas).toolbar(.hidden,for:.navigationBar)
-        }.task{if let selected=initialTopicID {topicID=selected};await refresh()}.onChange(of:topicID){_,_ in Task{await refresh()}}.onChange(of:monthly){_,_ in Task{await refresh()}}
-    }
-    private func refresh()async {if !store.apiURL.isEmpty {await store.loadBoard(topicID:topicID,monthly:monthly)}}
 }
 struct ProfileView:View {
     @EnvironmentObject var store:QuizStore
@@ -79,9 +51,10 @@ struct ProfileView:View {
                     if store.avatar != nil {Button("Remove profile picture",role:.destructive){Task{await store.changeAvatar(nil)}}.font(.caption).disabled(store.profileBusy)}
                     if let pictureError {Text(pictureError).font(.caption).foregroundStyle(.red)}
                     Text(store.name).font(.system(size:25,weight:.bold,design:.rounded))
-                    Text("LEVEL \(1+store.xp/500) · \(store.xp.formatted()) LOCAL XP").font(.system(size:11,weight:.heavy)).tracking(1).foregroundStyle(.secondary)
+                    Text("A DIFFERENT LEVEL IN EVERY TOPIC").font(.system(size:11,weight:.heavy)).tracking(1).foregroundStyle(.secondary)
+                    if let id=store.profile?.id{NavigationLink("Your public card, titles & achievements"){PublicPlayerView(playerID:id)}}
                     HStack{metric("\(store.history.count)","Duels");metric("\(wins)","Wins");metric(total==0 ? "—":"\(Int(Double(correct)/Double(total)*100))%","Accuracy")}.padding(.vertical,18).background(.white,in:RoundedRectangle(cornerRadius:17))
-                    VStack(alignment:.leading,spacing:14){Text("Your topic journey").font(.headline);ForEach(store.topics.filter{store.favourites.contains($0.id) || store.level($0)>1}){topic in HStack{Text(topic.emoji);Text(topic.name).font(.subheadline);Spacer();Text("Lv. \(store.level(topic))").font(.caption).bold().foregroundStyle(topic.tint)}}}.frame(maxWidth:.infinity,alignment:.leading)
+                    VStack(alignment:.leading,spacing:14){Text("Your topic journey").font(.headline);ForEach(store.topics.filter{store.favourites.contains($0.id) || store.topicXP($0)>0}){topic in VStack(alignment:.leading,spacing:8){Text(topic.emoji+" "+topic.name).font(.subheadline.bold());TopicLevelProgress(topic:topic,xp:store.topicXP(topic))}}}.frame(maxWidth:.infinity,alignment:.leading)
                     settings
                     VStack(alignment:.leading,spacing:8){Text("Made for curious people").font(.headline);Text("Quizfolk is an independent app inspired by classic topic-based trivia. It is not affiliated with QuizUp. Questions are community-contributed and may contain errors. Use the review screen to check the correct answer.").font(.caption).foregroundStyle(.secondary);Link("Open Trivia Database · Question source",destination:URL(string:"https://opentdb.com/")!);Link("CC BY-SA 4.0 · Question data licence",destination:URL(string:"https://creativecommons.org/licenses/by-sa/4.0/")!)}.font(.caption).frame(maxWidth:.infinity,alignment:.leading)
                     Link("Privacy policy",destination:URL(string:"https://www.ways2earn.com/quizfolk-api/privacy.html")!).font(.caption)
