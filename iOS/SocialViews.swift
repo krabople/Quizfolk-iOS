@@ -50,7 +50,17 @@ struct BlockedPlayersView:View {
  @Environment(\.dismiss) var dismiss
  @State private var error:String?
  var body:some View {
-  NavigationStack{List{ForEach(store.people){p in HStack{Text(p.name);Spacer();Button("Unblock"){Task{do{try await store.blockPlayer(p.id,enabled:false);await store.loadPeople(mode:"blocked")}catch{self.error=error.localizedDescription}}}};if let error {Text(error).foregroundStyle(.red)}}.navigationTitle("Blocked players").toolbar{ToolbarItem(placement:.topBarTrailing){Button("Done"){dismiss()}}}}.task{await store.loadPeople(mode:"blocked")}
+  NavigationStack {
+   List {
+    ForEach(store.people) { p in
+     HStack {
+      Text(p.name);Spacer()
+      Button("Unblock") {Task {do {try await store.blockPlayer(p.id,enabled:false);await store.loadPeople(mode:"blocked")} catch {self.error=error.localizedDescription}}}
+     }
+    }
+    if let error {Text(error).foregroundStyle(.red)}
+   }.navigationTitle("Blocked players").toolbar {ToolbarItem(placement:.topBarTrailing){Button("Done"){dismiss()}}}
+  }.task{await store.loadPeople(mode:"blocked")}
  }
 }
 struct PublicPlayerView:View {
@@ -89,7 +99,19 @@ struct PublicPlayerView:View {
  }
  private func stat(_ value:String,_ label:String)->some View {VStack{Text(value).font(.system(size:25,weight:.bold,design:.rounded));Text(label).font(.caption).foregroundStyle(.secondary)}.frame(maxWidth:.infinity)}
  private func interestSection(_ c:PlayerCard)->some View {
-  VStack(alignment:.leading,spacing:10){Text("Shared interests & favourite topics").font(.title3.bold());if c.interests.isEmpty {Text("No topics followed yet.").font(.caption).foregroundStyle(.secondary)};ForEach(store.topics.filter{c.interests.contains($0.id)}){topic in NavigationLink{TopicView(topic:topic)}label:{HStack{Text(topic.emoji);Text(topic.name);Spacer();if c.sharedTopics.contains(topic.id){Text("Shared").font(.caption).foregroundStyle(topic.tint)};Image(systemName:"chevron.right").font(.caption)}.font(.subheadline).foregroundStyle(Color.ink)}}.padding(18).frame(maxWidth:.infinity,alignment:.leading).background(.white,in:RoundedRectangle(cornerRadius:18))
+  VStack(alignment:.leading,spacing:10) {
+   Text("Shared interests & favourite topics").font(.title3.bold())
+   if c.interests.isEmpty {Text("No topics followed yet.").font(.caption).foregroundStyle(.secondary)}
+   ForEach(store.topics.filter{c.interests.contains($0.id)}) {topic in
+    NavigationLink {TopicView(topic:topic)} label: {
+     HStack {
+      Text(topic.emoji);Text(topic.name);Spacer()
+      if c.sharedTopics.contains(topic.id){Text("Shared").font(.caption).foregroundStyle(topic.tint)}
+      Image(systemName:"chevron.right").font(.caption)
+     }.font(.subheadline).foregroundStyle(Color.ink)
+    }
+   }
+  }.padding(18).frame(maxWidth:.infinity,alignment:.leading).background(.white,in:RoundedRectangle(cornerRadius:18))
  }
  private func badgeSection(_ badges:[PlayerBadge])->some View {
   VStack(alignment:.leading,spacing:15){Text("Achievements").font(.title3.bold());ForEach(badges){b in HStack(spacing:13){Image(systemName:b.symbol).foregroundStyle(b.earned ? Color(hex:"D49A31"):.gray).frame(width:28);Text(b.name).font(.subheadline);Spacer();Text(b.earned ? "Earned":"Locked").font(.caption).foregroundStyle(.secondary)}}}.padding(18).background(.white,in:RoundedRectangle(cornerRadius:18))
