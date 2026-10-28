@@ -1,0 +1,2702 @@
+[
+  {
+    "id": "697cdd347317fa560aac",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which fictional city is Batman best known for protecting?",
+    "answers": [
+      "Central City",
+      "Coast City",
+      "Gotham City",
+      "Metropolis"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/batman",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "1af47871f2a24cdcdc0f",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Who is the Wayne family’s butler and Bruce Wayne’s trusted ally?",
+    "answers": [
+      "Perry White",
+      "Jonathan Kent",
+      "Silas Stone",
+      "Alfred Pennyworth"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/batman",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "cad7fcdaaa4140139109",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Where is Batman’s traditional Batcave headquarters located?",
+    "answers": [
+      "Beneath Wayne Manor",
+      "Beneath the Daily Planet",
+      "Inside the Fortress of Solitude",
+      "Inside the Hall of Doom"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/batman",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "e1eb4611e49fe0c0a993",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Gotham police commissioner is closely associated with using the Bat-Signal?",
+    "answers": [
+      "Lucius Fox",
+      "Harvey Dent",
+      "James Gordon",
+      "Perry White"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/batman",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "7d3e4552c27a34ee0387",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "In which comic-book issue did Batman first appear?",
+    "answers": [
+      "Whiz Comics #2",
+      "Detective Comics #27",
+      "Action Comics #1",
+      "Flash Comics #1"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/batman",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "282f33c233eae08f496e",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which fictional city is Superman’s main base of operations?",
+    "answers": [
+      "Star City",
+      "Keystone City",
+      "Metropolis",
+      "Gotham City"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/superman",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "a13cc83bc3d4b1d30559",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "In which small town was Clark Kent raised?",
+    "answers": [
+      "Duckburg",
+      "Bedrock",
+      "Smallville",
+      "Riverdale"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/superman",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "4524442f973d74bc6a10",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "In the usual Superman origin, Smallville is in which US state?",
+    "answers": [
+      "Kansas",
+      "Florida",
+      "Alaska",
+      "Oregon"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/superman",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "cc457dea5b45c8a610c3",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is Clark Kent’s profession in the classic Superman stories?",
+    "answers": [
+      "Reporter",
+      "Surgeon",
+      "Airline pilot",
+      "Architect"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/superman",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "e59dc470dd670ccaa703",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which DC superhero is nicknamed the Man of Steel?",
+    "answers": [
+      "Green Arrow",
+      "The Flash",
+      "Superman",
+      "Aquaman"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/superman",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "53c3f92bc3868b04a179",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is the island home of Wonder Woman’s Amazon people?",
+    "answers": [
+      "Atlantis",
+      "Latveria",
+      "Wakanda",
+      "Themyscira"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/wonder-woman",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "64e864d07401981408fe",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which civilian name is associated with Wonder Woman?",
+    "answers": [
+      "Dinah Lance",
+      "Barbara Gordon",
+      "Diana Prince",
+      "Selina Kyle"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/wonder-woman",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "19559648316ac0fa5020",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Wonder Woman belongs to which legendary warrior people?",
+    "answers": [
+      "The Atlanteans",
+      "The Kryptonians",
+      "The New Gods",
+      "The Amazons"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/wonder-woman",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "b2eedec239ace53fe6e6",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "What energy field is the source of the Flash’s super-speed?",
+    "answers": [
+      "The Microverse",
+      "The Speed Force",
+      "The Green",
+      "The Emotional Spectrum"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/the-flash",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "d8bcf11dfd6b12bb7b90",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Who was the original Flash introduced in Flash Comics #1 in 1940?",
+    "answers": [
+      "Barry Allen",
+      "Wally West",
+      "Bart Allen",
+      "Jay Garrick"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/the-flash",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "5f9dc49da538765586f9",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "What is Barry Allen’s civilian profession in the comics?",
+    "answers": [
+      "Lighthouse keeper",
+      "Circus acrobat",
+      "Test pilot",
+      "Forensic scientist"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/the-flash",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "c5477feab563498dd8f9",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Which former Kid Flash took over as the Flash after Barry Allen was presumed dead?",
+    "answers": [
+      "Wally West",
+      "Dick Grayson",
+      "Roy Harper",
+      "Billy Batson"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/the-flash",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "f948cdd541cc99064a81",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "What was Hal Jordan’s profession before becoming a Green Lantern?",
+    "answers": [
+      "District attorney",
+      "Test pilot",
+      "Newspaper editor",
+      "Marine biologist"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/green-lantern",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "b3cd9b0a0f81795d6fff",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Which dying Green Lantern passed his power ring to Hal Jordan?",
+    "answers": [
+      "Tomar-Re",
+      "Abin Sur",
+      "Sinestro",
+      "Kilowog"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/green-lantern",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "5a9167649fab3a4583dd",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "In DC’s emotional spectrum, what powers the green light used by the Green Lantern Corps?",
+    "answers": [
+      "Fear",
+      "Rage",
+      "Avarice",
+      "Willpower"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/green-lantern",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "d49d91b8e9ac3e31d73c",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What does a Green Lantern typically use to create solid constructs of light?",
+    "answers": [
+      "A magic lasso",
+      "A sonic whistle",
+      "A trident",
+      "A power ring"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/green-lantern",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "0694f8b19f9bb20df566",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which DC superhero is also known as Arthur Curry?",
+    "answers": [
+      "Aquaman",
+      "Green Arrow",
+      "Hawkman",
+      "Cyborg"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/aquaman",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "ca1ff250bbe625f5eb4f",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which underwater kingdom is Aquaman associated with ruling?",
+    "answers": [
+      "Atlantis",
+      "Themyscira",
+      "Krypton",
+      "Apokolips"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/aquaman",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "57d23fdfeef1ebf0eb87",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "In Aquaman’s familiar origin, what job does his human father have?",
+    "answers": [
+      "Circus performer",
+      "Newspaper editor",
+      "Airline pilot",
+      "Lighthouse keeper"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/aquaman",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "68110f42b6855e357347",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Which DC superhero is J’onn J’onzz?",
+    "answers": [
+      "Black Lightning",
+      "Captain Atom",
+      "Martian Manhunter",
+      "Mister Miracle"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/martian-manhunter",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "363bb5df6d610a814752",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Which element is traditionally associated with Martian Manhunter’s greatest fear and weakness?",
+    "answers": [
+      "Ice",
+      "Fire",
+      "Salt",
+      "Copper"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/martian-manhunter",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "6a302b3696a28c381d70",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is the civilian name of the DC superhero Cyborg?",
+    "answers": [
+      "Ray Palmer",
+      "Oliver Queen",
+      "Victor Stone",
+      "Victor Fries"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/cyborg",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "c31a1773b04af144061d",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Which scientist rebuilt his son Victor as Cyborg after a devastating accident?",
+    "answers": [
+      "Silas Stone",
+      "Thomas Wayne",
+      "Ray Palmer",
+      "Ted Kord"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/cyborg",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "726aa5bad549598d55de",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Before the accident that made him Cyborg, Victor Stone hoped to become a professional in which sport?",
+    "answers": [
+      "Ice hockey",
+      "American football",
+      "Cricket",
+      "Tennis"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/cyborg",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "e0c4b285e8c2ad6e4bda",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which DC hero uses the civilian name Oliver Queen?",
+    "answers": [
+      "The Flash",
+      "The Atom",
+      "Green Arrow",
+      "Green Lantern"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/green-arrow",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "1ced63f16cd4611751e2",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Where did Oliver Queen hone his survival and archery skills in Green Arrow’s classic origin?",
+    "answers": [
+      "At the Daily Planet",
+      "In Atlantis",
+      "On the planet Oa",
+      "On a deserted island"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/green-arrow",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "7e89dfb7b524d9986b4b",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What type of power is Black Canary’s Canary Cry?",
+    "answers": [
+      "A magnetic pulse",
+      "A powerful sonic scream",
+      "A burst of freezing breath",
+      "A beam of heat vision"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/black-canary",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "c9f0181ec906741ba21d",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Which superhero identity is used by Dinah Lance?",
+    "answers": [
+      "Black Canary",
+      "Poison Ivy",
+      "Catwoman",
+      "Supergirl"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/black-canary",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "1ee100f31684b8e8c0a5",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which DC character is also known as Selina Kyle?",
+    "answers": [
+      "Harley Quinn",
+      "Batgirl",
+      "Huntress",
+      "Catwoman"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/catwoman",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "4d2d42c521757bec5d64",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Which criminal speciality is Catwoman particularly known for?",
+    "answers": [
+      "Stealing jewels",
+      "Counterfeiting banknotes",
+      "Smuggling nuclear fuel",
+      "Rigging sporting contests"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/catwoman",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "946047b5218879006997",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "What was Harley Quinn’s name before she adopted her costumed identity?",
+    "answers": [
+      "Pamela Isley",
+      "Helena Bertinelli",
+      "Kate Kane",
+      "Harleen Quinzel"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/harley-quinn",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "494f1084e0cc8c92b846",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "At which institution did Harleen Quinzel meet the Joker while working in mental health care?",
+    "answers": [
+      "Arkham Asylum",
+      "Belle Reve prison",
+      "S.T.A.R. Labs",
+      "The Daily Planet"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/harley-quinn",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "4a565c88e2d45494cd58",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Which DC character first appeared in Batman: The Animated Series before becoming a major comics character?",
+    "answers": [
+      "Harley Quinn",
+      "Catwoman",
+      "Poison Ivy",
+      "Two-Face"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/harley-quinn",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "1d490e9fb62641190cde",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Batman villain uses the name Edward Nygma?",
+    "answers": [
+      "The Penguin",
+      "Scarecrow",
+      "Two-Face",
+      "The Riddler"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/riddler",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "1319d048029506672762",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Batman villain compulsively leaves puzzles and clues connected to his crimes?",
+    "answers": [
+      "Killer Croc",
+      "Bane",
+      "Man-Bat",
+      "The Riddler"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/riddler",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "1beab88796b5f5a61f35",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Gotham villain was formerly the district attorney Harvey Dent?",
+    "answers": [
+      "The Joker",
+      "Black Mask",
+      "Hush",
+      "Two-Face"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/two-face",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "43fc64804923cf648d09",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What does Two-Face famously toss to decide between two courses of action?",
+    "answers": [
+      "A coin",
+      "A playing card",
+      "A horseshoe",
+      "A key"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/two-face",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "c4a281db831bdaeb789a",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What kind of living things can Poison Ivy directly control with her signature power?",
+    "answers": [
+      "Plants",
+      "Birds",
+      "Reptiles",
+      "Fish"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/poison-ivy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "afa4648025c61ac1435a",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which corporation is associated with Superman’s adversary Lex Luthor?",
+    "answers": [
+      "Queen Industries",
+      "Stark Industries",
+      "LexCorp",
+      "Wayne Enterprises"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/lex-luthor",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "51ea56a06f2eebfba8e3",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Which elected office has Lex Luthor held in DC Comics?",
+    "answers": [
+      "Prime Minister of Canada",
+      "President of France",
+      "Chancellor of Germany",
+      "President of the United States"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/lex-luthor",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "fa5bd8d5ffb70a4131c5",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which boy transforms into the superhero Shazam?",
+    "answers": [
+      "Roy Harper",
+      "Billy Batson",
+      "Tim Drake",
+      "Jimmy Olsen"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/shazam",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "9125f5a62a012f0e41b7",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What word does Billy Batson say to transform into his superpowered adult form?",
+    "answers": [
+      "Excelsior",
+      "Kimota",
+      "Imperius",
+      "Shazam"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/shazam",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "b60d3fd0f28cb169c949",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Where does Billy Batson meet the wizard who grants him his powers?",
+    "answers": [
+      "The Batcave",
+      "The Rock of Eternity",
+      "The Phantom Zone",
+      "The Fortress of Solitude"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/shazam",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "c9c31373beb1ef62f84a",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "What was Dick Grayson’s family’s profession before he became Batman’s partner?",
+    "answers": [
+      "Circus acrobats",
+      "Lighthouse keepers",
+      "Newspaper reporters",
+      "Airline pilots"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/nightwing",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "20c447c02516e58e44df",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Barbara Gordon is the daughter of which Gotham police commissioner?",
+    "answers": [
+      "Renee Montoya",
+      "Crispus Allen",
+      "James Gordon",
+      "Harvey Bullock"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/batgirl",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "c3de0a1a2c0178eed01f",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Which team is Barbara Gordon closely associated with founding?",
+    "answers": [
+      "Birds of Prey",
+      "Suicide Squad",
+      "Legion of Doom",
+      "Secret Six"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/batgirl",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "99d9e65d767599b3f9d9",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "In Spider-Man’s original comic-book origin, what gives Peter Parker his powers?",
+    "answers": [
+      "A magical amulet",
+      "A super-soldier injection",
+      "A lightning strike",
+      "A radioactive spider bite"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/characters/spider-man-peter-parker/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "4477628bda4054e01a6a",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which aunt raises Peter Parker in the Spider-Man comics?",
+    "answers": [
+      "May Parker",
+      "Aunt Petunia",
+      "Aunt Marge",
+      "Aunt Agatha"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/characters/spider-man-peter-parker/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "06f5722e4f7d2a1ee338",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Whose murder motivates Peter Parker to use his powers responsibly?",
+    "answers": [
+      "His uncle Ben’s",
+      "His brother Harry’s",
+      "His father-in-law George’s",
+      "His cousin Eddie’s"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/characters/spider-man-peter-parker/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "334b632cb9d157b7b2b2",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "In the original Spider-Man comics, how does Peter Parker produce the webbing he shoots?",
+    "answers": [
+      "With a device supplied by the police",
+      "With mechanical web-shooters he built",
+      "With a magic ring",
+      "With natural glands in his palms"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/characters/spider-man-peter-parker/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "94741fce68a8fdf3e63d",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Which Green Goblin victim was Peter Parker’s girlfriend?",
+    "answers": [
+      "Sue Storm",
+      "Janet van Dyne",
+      "Jessica Jones",
+      "Gwen Stacy"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/characters/spider-man-peter-parker/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "5e0988d3c936c76565d4",
+    "categoryID": "29",
+    "difficulty": "hard",
+    "prompt": "Which figure erases Peter Parker and Mary Jane’s marriage in the One More Day storyline?",
+    "answers": [
+      "Galactus",
+      "Dormammu",
+      "Apocalypse",
+      "Mephisto"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/characters/spider-man-peter-parker/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "840f5e33b421fa4351d4",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which inventor is the original Iron Man?",
+    "answers": [
+      "Tony Stark",
+      "Reed Richards",
+      "Hank Pym",
+      "Bruce Banner"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/characters/iron-man-tony-stark/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "fc8261972677b06729c9",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Who helps Tony Stark build his first suit of armour while they are prisoners?",
+    "answers": [
+      "Justin Hammer",
+      "Yinsen",
+      "Happy Hogan",
+      "Edwin Jarvis"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/characters/iron-man-tony-stark/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "799b63f6d522f327f7ce",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is the name of Iron Man’s large armour designed to fight the Hulk?",
+    "answers": [
+      "Crimson Dynamo",
+      "Hulkbuster",
+      "Silver Samurai",
+      "Destroyer"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/characters/iron-man-tony-stark/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "abe1c0ab86da9920b353",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Iron Man’s repulsor rays are typically fired from which part of his armour?",
+    "answers": [
+      "The back of his helmet",
+      "The hinges of his knees",
+      "The palms of his gauntlets",
+      "The soles of his boots"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/characters/iron-man-tony-stark/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "428797d8fe3cc61c83eb",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "What is the name of the powerful beam weapon mounted in Iron Man’s chest?",
+    "answers": [
+      "The unibeam",
+      "The optic blast",
+      "The sonic scream",
+      "The hex bolt"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/characters/iron-man-tony-stark/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "c09c87f2d2c3602b30cb",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Which young inventor uses the superhero name Ironheart?",
+    "answers": [
+      "Riri Williams",
+      "Kate Bishop",
+      "Kamala Khan",
+      "Cassie Lang"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/characters/iron-man-tony-stark/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "2b0464b46ff09de7ae42",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Who is T’Challa’s father in the Black Panther comics?",
+    "answers": [
+      "M’Baku",
+      "Erik Killmonger",
+      "T’Chaka",
+      "N’Jobu"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/articles/comics/the-villains-of-black-panther",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "9e30adc89a624ab6e912",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which nation is the home of T’Challa, the Black Panther?",
+    "answers": [
+      "Latveria",
+      "Genosha",
+      "Madripoor",
+      "Wakanda"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/articles/comics/rise-of-the-black-panther-uneasy-lies-the-head",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "8ef1689e170ec56dd5ac",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "What is the name of T’Challa’s sister, who has also been Black Panther?",
+    "answers": [
+      "Shuri",
+      "Okoye",
+      "Nakia",
+      "Ramonda"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/articles/comics/white-wolf-hunter-black-panther-brother-explained",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "ea19d3e0d723fe3c5570",
+    "categoryID": "29",
+    "difficulty": "hard",
+    "prompt": "In the Black Panther comics, what title is used by T’Challa’s adoptive brother Hunter?",
+    "answers": [
+      "Moon Knight",
+      "Silver Sable",
+      "White Wolf",
+      "White Tiger"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/articles/comics/white-wolf-hunter-black-panther-brother-explained",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "b036e65828c7ac42abb1",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "In Peanuts, what is Charlie Brown’s father’s occupation?",
+    "answers": [
+      "Mechanic",
+      "Barber",
+      "Dentist",
+      "Baker"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.peanuts.com/about/charlie-brown",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "b755b390eaea39b64722",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What pattern is most associated with Charlie Brown’s shirt?",
+    "answers": [
+      "Blue checks",
+      "A black zigzag",
+      "Red polka dots",
+      "A white star"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.peanuts.com/about/charlie-brown",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "6cb608b29cdf658c4148",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "In Peanuts, Charlie Brown manages a team in which sport?",
+    "answers": [
+      "Basketball",
+      "Rugby",
+      "Baseball",
+      "Ice hockey"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.peanuts.com/about/charlie-brown",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "f44e29f07df6022c2809",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What breed of dog is Snoopy?",
+    "answers": [
+      "Dachshund",
+      "Beagle",
+      "Dalmatian",
+      "Poodle"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.peanuts.com/about/snoopy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "bbb2913b11c0a7e17af5",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What name does Snoopy use for his cool, sunglasses-wearing college persona?",
+    "answers": [
+      "Joe Camel",
+      "Joe Cool",
+      "Joe Friday",
+      "Joe Bloggs"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.peanuts.com/about/snoopy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "812edfb0c3318174e4bc",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which aviator does Snoopy imagine battling as the World War I Flying Ace?",
+    "answers": [
+      "The Red Baron",
+      "Amelia Earhart",
+      "Charles Lindbergh",
+      "Louis Blériot"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.peanuts.com/about/snoopy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "3e28994ec8ba0be41a50",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Where does Snoopy famously lie down to sleep?",
+    "answers": [
+      "Under Lucy’s piano",
+      "On the roof of his doghouse",
+      "In Charlie Brown’s school desk",
+      "Inside a birdcage"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.peanuts.com/about/snoopy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "dbfb5fd7193bf047a94a",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which object is Linus especially attached to in Peanuts?",
+    "answers": [
+      "A wooden sword",
+      "A red bicycle",
+      "A toy trumpet",
+      "His security blanket"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.peanuts.com/about/linus",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "63786dae1288d6cf4351",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which figure does Linus hope will visit a pumpkin patch at Halloween?",
+    "answers": [
+      "Jack Frost",
+      "The Easter Bunny",
+      "The Great Pumpkin",
+      "The Sandman"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.peanuts.com/about/linus",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "ba953277708146f930a2",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "How much does Lucy usually charge for advice at her psychiatric booth?",
+    "answers": [
+      "Ten dollars",
+      "Five cents",
+      "One dollar",
+      "Twenty-five cents"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.peanuts.com/about/lucy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "e0d6a931e2aed2eb5ea8",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which piano-playing Peanuts character is Lucy in love with?",
+    "answers": [
+      "Linus",
+      "Franklin",
+      "Schroeder",
+      "Charlie Brown"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.peanuts.com/about/lucy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "977f269029bdc5a85d84",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Which pair are Lucy’s younger brothers in Peanuts?",
+    "answers": [
+      "Charlie Brown and Linus",
+      "Schroeder and Franklin",
+      "Rerun and Schroeder",
+      "Linus and Rerun"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.peanuts.com/about/lucy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "0b348e165f14eae36b32",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which musical instrument does Schroeder play in Peanuts?",
+    "answers": [
+      "Piano",
+      "Violin",
+      "Trumpet",
+      "Clarinet"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.peanuts.com/about/schroeder",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "db7463b5bfe5a5f9bf72",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Which composer does Schroeder particularly idolise?",
+    "answers": [
+      "Wolfgang Amadeus Mozart",
+      "Johann Sebastian Bach",
+      "Frédéric Chopin",
+      "Ludwig van Beethoven"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.peanuts.com/about/schroeder",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "c1ff6138c6451b997383",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is the name of Snoopy’s small yellow bird friend?",
+    "answers": [
+      "Woodstock",
+      "Tweety",
+      "Zazu",
+      "Iago"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.peanuts.com/about/woodstock",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "69f952c5d6ba204cee65",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Woodstock’s name in Peanuts was inspired by what?",
+    "answers": [
+      "A brand of typewriter",
+      "A baseball stadium",
+      "A music festival",
+      "A US president"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.peanuts.com/about/woodstock",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "55f04acfdc374a09358e",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is Sally Brown’s relationship to Charlie Brown?",
+    "answers": [
+      "She is his cousin",
+      "She is his older sister",
+      "She is his niece",
+      "She is his younger sister"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.peanuts.com/about/sally",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "ab109dd7717d8b11d2cb",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Whom does Sally call her Sweet Babboo in Peanuts?",
+    "answers": [
+      "Franklin",
+      "Pigpen",
+      "Linus",
+      "Schroeder"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.peanuts.com/about/sally",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "1afaa2900fdd0eb5af7b",
+    "categoryID": "29",
+    "difficulty": "hard",
+    "prompt": "What is Peppermint Patty’s full name?",
+    "answers": [
+      "Patricia Brown",
+      "Patricia van Pelt",
+      "Patricia Franklin",
+      "Patricia Reichardt"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.peanuts.com/about/peppermint-patty",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "a7095cb17f9beeff5fc3",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "What does Marcie habitually call Peppermint Patty?",
+    "answers": [
+      "Professor",
+      "Madam",
+      "Sir",
+      "Captain"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.peanuts.com/about/marcie",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "7a09c2ffc295a548e0d6",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Which of Snoopy’s brothers lives near Needles, California?",
+    "answers": [
+      "Marbles",
+      "Spike",
+      "Olaf",
+      "Andy"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.peanuts.com/faqs",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "53c5a5dd6504bf90d22e",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "What is the name of Snoopy’s sister?",
+    "answers": [
+      "Sally",
+      "Frieda",
+      "Marcie",
+      "Belle"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.peanuts.com/faqs",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "fd7cd667d1f0fc423234",
+    "categoryID": "29",
+    "difficulty": "hard",
+    "prompt": "At which puppy farm were Snoopy and his siblings born?",
+    "answers": [
+      "Sunny Meadow Puppy Farm",
+      "Daisy Hill Puppy Farm",
+      "Maple Grove Puppy Farm",
+      "Willow Creek Puppy Farm"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.peanuts.com/faqs",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "ca1de2622feef7107961",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is Tintin’s profession?",
+    "answers": [
+      "Reporter",
+      "Sea captain",
+      "Opera singer",
+      "Professor"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.tintin.com/en/characters/tintin",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "52a292ee7823b5ec1982",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What distinctive hairstyle is Tintin known for?",
+    "answers": [
+      "A long ponytail",
+      "A shaved head",
+      "Shoulder-length curls",
+      "An upright quiff"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.tintin.com/en/characters/tintin",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "c9474314439692786126",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "In the English Tintin books, what is Tintin’s dog called?",
+    "answers": [
+      "Snowy",
+      "Snoopy",
+      "Dogmatix",
+      "Odie"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.tintin.com/en/characters/snowy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "2530ff4fd1fe657bf905",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "What breed is Tintin’s dog Snowy?",
+    "answers": [
+      "Greyhound",
+      "Pug",
+      "Fox terrier",
+      "Beagle"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.tintin.com/en/characters/snowy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "4d7616e05ae63a5c72e4",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "What is Snowy’s name in the original French Tintin books?",
+    "answers": [
+      "Milou",
+      "Idéfix",
+      "Rantanplan",
+      "Spirou"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.tintin.com/en/characters/snowy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "81ad143b30513835b164",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "What is Captain Haddock’s first name?",
+    "answers": [
+      "Archibald",
+      "Cuthbert",
+      "Francis",
+      "Roberto"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.tintin.com/en/characters/captain-haddock",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "e969ad4a6c041a846443",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "What is Captain Haddock’s country house called in English?",
+    "answers": [
+      "Toad Hall",
+      "Thornfield Hall",
+      "Marlinspike Hall",
+      "Baskerville Hall"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.tintin.com/en/characters/captain-haddock",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "31b8b9ab21ce43d5ff24",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "In the English Tintin books, what is Professor Calculus’s first name?",
+    "answers": [
+      "Augustus",
+      "Cuthbert",
+      "Archibald",
+      "Alphonse"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.tintin.com/en/characters/professor-calculus",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "6f74451582b6456a05ad",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Professor Calculus’s small submarine in Red Rackham’s Treasure is shaped like what?",
+    "answers": [
+      "A turtle",
+      "A dolphin",
+      "A shark",
+      "A whale"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.tintin.com/en/characters/professor-calculus",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "cc7bec36bfc419aeea4d",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Which object does Professor Calculus use for dowsing?",
+    "answers": [
+      "A pendulum",
+      "A sextant",
+      "A telescope",
+      "A stopwatch"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.tintin.com/en/characters/professor-calculus",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "1eab8d6151100fb76d52",
+    "categoryID": "29",
+    "difficulty": "hard",
+    "prompt": "In French, Professor Calculus is called Tournesol. What does tournesol mean?",
+    "answers": [
+      "Dandelion",
+      "Buttercup",
+      "Daisy",
+      "Sunflower"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.tintin.com/en/characters/professor-calculus",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "bb40f912b9db173ae46c",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is Bianca Castafiore’s profession in the Tintin adventures?",
+    "answers": [
+      "Ballet dancer",
+      "Opera singer",
+      "Newspaper editor",
+      "Archaeologist"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.tintin.com/en/characters/bianca-castafiore",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "8149c4bb6d8cf134a672",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Which member of Tintin’s cast is known as the Milanese Nightingale?",
+    "answers": [
+      "Bianca Castafiore",
+      "Professor Calculus",
+      "Captain Haddock",
+      "Jolyon Wagg"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.tintin.com/en/characters/bianca-castafiore",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "9b80536350b124933819",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What work do Thomson and Thompson do in the Tintin stories?",
+    "answers": [
+      "They are opera singers",
+      "They are sea captains",
+      "They are newspaper editors",
+      "They are police detectives"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.tintin.com/en/characters/thomson-and-thompson",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "5348a330f64305fbbc91",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Which detail distinguishes Thomson’s face from Thompson’s in Tintin?",
+    "answers": [
+      "The colour of his eyes",
+      "A large scar on his cheek",
+      "The shape of his ears",
+      "The shape of his moustache"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.tintin.com/en/characters/thomson-and-thompson",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "6f7a150819cbd2e5492f",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What exposure gives the original Fantastic Four their powers?",
+    "answers": [
+      "A magic potion",
+      "A chemical spill",
+      "Cosmic rays",
+      "A spider bite"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/teams-and-groups/fantastic-four/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "d834af40ab721bdb778a",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Fantastic Four member is Ben Grimm?",
+    "answers": [
+      "Mister Fantastic",
+      "The Human Torch",
+      "The Invisible Woman",
+      "The Thing"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/teams-and-groups/fantastic-four/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "557ead23ceeaf4d49937",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is Mister Fantastic’s best-known superpower?",
+    "answers": [
+      "Turning his body into fire",
+      "Becoming invisible",
+      "Transforming into living rock",
+      "Stretching his body"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/teams-and-groups/fantastic-four/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "4acefdbeca265ae7a0b7",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which two founding Fantastic Four members are siblings?",
+    "answers": [
+      "Sue and Johnny Storm",
+      "Reed Richards and Ben Grimm",
+      "Sue Storm and Ben Grimm",
+      "Johnny Storm and Reed Richards"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/teams-and-groups/fantastic-four/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "19744dc167aa84d94388",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Which New York building is the Fantastic Four’s classic headquarters?",
+    "answers": [
+      "The Daily Planet building",
+      "Wayne Tower",
+      "The Empire State Building",
+      "The Baxter Building"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/teams-and-groups/fantastic-four/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "3bdf89f2bcd4d8a0d59b",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Which underground ruler do the Fantastic Four fight in their first issue?",
+    "answers": [
+      "Annihilus",
+      "Mole Man",
+      "Doctor Doom",
+      "Galactus"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/teams-and-groups/fantastic-four/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "64864a64670111eec3ab",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is the name of Thor’s enchanted hammer?",
+    "answers": [
+      "Hofund",
+      "Jarnbjorn",
+      "Mjolnir",
+      "Gungnir"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/comics/discover/181/who-has-wielded-thors-hammer",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "4087c3f36f2f767f8209",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Which doctor transforms into Thor in Journey into Mystery #83?",
+    "answers": [
+      "Donald Blake",
+      "Stephen Strange",
+      "Leonard Samson",
+      "Otto Octavius"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/comics/discover/181/who-has-wielded-thors-hammer",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "3305a557949ad1996cdd",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Which Korbinite hero proves worthy of lifting Mjolnir?",
+    "answers": [
+      "Drax the Destroyer",
+      "Beta Ray Bill",
+      "Ronan the Accuser",
+      "Silver Surfer"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/comics/discover/181/who-has-wielded-thors-hammer",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "cbad70f8d45d3bbc8e6c",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which scientist is the original Hulk?",
+    "answers": [
+      "Bruce Banner",
+      "Reed Richards",
+      "Hank Pym",
+      "Curt Connors"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/comics/guides/840/hulk-lega",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "43b995214c483f24d830",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What type of radiation is central to Bruce Banner’s transformation into the Hulk?",
+    "answers": [
+      "Gamma radiation",
+      "Microwave radiation",
+      "Infrared radiation",
+      "Radio waves"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/comics/guides/840/hulk-lega",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "f56c7a48c2a8f2d76f64",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What name does Scott Summers use as an X-Man?",
+    "answers": [
+      "Angel",
+      "Cyclops",
+      "Havok",
+      "Iceman"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/teams-and-groups/x-men/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "4ffc97d9c2ec9b195445",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Which X-Man is Kurt Wagner?",
+    "answers": [
+      "Nightcrawler",
+      "Colossus",
+      "Beast",
+      "Gambit"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/teams-and-groups/x-men/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "17040fb7a21b3bb6e2fb",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "What was Jean Grey’s original superhero name when the X-Men debuted?",
+    "answers": [
+      "Phoenix",
+      "Storm",
+      "Rogue",
+      "Marvel Girl"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/teams-and-groups/x-men/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "e6f8d8dbfe9148ed20b5",
+    "categoryID": "29",
+    "difficulty": "hard",
+    "prompt": "Which mutant island captures the original X-Men before the international rescue team is formed?",
+    "answers": [
+      "Utopia",
+      "Muir Island",
+      "Krakoa",
+      "Genosha"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/teams-and-groups/x-men/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "d79651b808ed083237f1",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "What superhero name is used by Scott Summers’s brother Alex?",
+    "answers": [
+      "Cable",
+      "Bishop",
+      "Banshee",
+      "Havok"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/teams-and-groups/x-men/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "36324607a2111b32b4b3",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "What is Storm’s birth name?",
+    "answers": [
+      "Illyana Rasputin",
+      "Ororo Munroe",
+      "Jean Grey",
+      "Emma Frost"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/characters/storm/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "14c21c13fe5efcdc154f",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which natural phenomena does the X-Man Storm chiefly control?",
+    "answers": [
+      "Magnetic fields",
+      "Plant growth",
+      "The tides only",
+      "The weather"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/characters/storm/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "32957d869f0dc940eb82",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Cyclops’s eye beams are usually described as what kind of attack?",
+    "answers": [
+      "Hypnotic light",
+      "Concussive force blasts",
+      "Freezing beams",
+      "Acid jets"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/articles/comics/cyclops-x-men-powers-and-origin-story-explained",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "909394deef319b330873",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "What material is used in Cyclops’s special lenses to contain his optic blasts?",
+    "answers": [
+      "Sapphire glass",
+      "Obsidian",
+      "Amber",
+      "Ruby quartz"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/articles/comics/cyclops-x-men-powers-and-origin-story-explained",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "7ffa56ff9561b2bb5338",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Before learning the mystic arts, Stephen Strange worked as what?",
+    "answers": [
+      "An archaeologist",
+      "A surgeon",
+      "An airline pilot",
+      "A lawyer"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/comics/issue/16911/slug",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "382790d50585c251a55d",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Who is Stephen Strange’s principal teacher in his classic origin?",
+    "answers": [
+      "The Watcher",
+      "The Ancient One",
+      "The Grandmaster",
+      "The Collector"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/comics/issue/16911/slug",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "7920233ed8197602bbbf",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Which villain’s scheme brings the original Avengers together in Avengers #1?",
+    "answers": [
+      "Doctor Doom",
+      "Loki",
+      "Ultron",
+      "Thanos"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/teams-and-groups/avengers/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "7fdd45ab3e7f157f808c",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is the civilian name of She-Hulk?",
+    "answers": [
+      "Janet van Dyne",
+      "Jennifer Walters",
+      "Jessica Drew",
+      "Jessica Jones"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/teams-and-groups/avengers/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "b368fce63ce2c2a1184f",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Marvel hero is Carol Danvers best known as?",
+    "answers": [
+      "Mockingbird",
+      "Captain Marvel",
+      "Scarlet Witch",
+      "Invisible Woman"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/teams-and-groups/avengers/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "2b6527e427557f7ccc9d",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Marvel heroine uses the name Wanda Maximoff?",
+    "answers": [
+      "Wasp",
+      "Spider-Woman",
+      "Scarlet Witch",
+      "Black Widow"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.marvel.com/teams-and-groups/avengers/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "7addce1bbc1df8d6c3ba",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Who created the Garfield comic strip?",
+    "answers": [
+      "Gary Larson",
+      "Jim Davis",
+      "Charles M. Schulz",
+      "Bill Watterson"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://syndication.andrewsmcmeel.com/features/garfield",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "fe967f6e1a43062a2f9e",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Who owns Garfield and Odie?",
+    "answers": [
+      "Dagwood Bumstead",
+      "Jon Arbuckle",
+      "Charlie Brown",
+      "Dennis Mitchell"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://syndication.andrewsmcmeel.com/features/garfield",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "4aba37a84d191936fdb9",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which food is Garfield particularly famous for loving?",
+    "answers": [
+      "Lasagne",
+      "Sushi",
+      "Porridge",
+      "Couscous"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://syndication.andrewsmcmeel.com/features/garfield",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "08f90b55f26c5ec2368e",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which weekday does Garfield famously dislike?",
+    "answers": [
+      "Monday",
+      "Wednesday",
+      "Friday",
+      "Sunday"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://syndication.andrewsmcmeel.com/features/garfield",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "b28db3892737e6e64668",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is Garfield’s teddy bear called?",
+    "answers": [
+      "Fozzie",
+      "Pooky",
+      "Paddington",
+      "Rupert"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://syndication.andrewsmcmeel.com/features/garfield",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "1a4fd4ded0921dafc442",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "What is Liz’s profession in the Garfield comic strip?",
+    "answers": [
+      "Journalist",
+      "Florist",
+      "Architect",
+      "Veterinarian"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://syndication.andrewsmcmeel.com/features/garfield",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "ca5a972802472e2293f6",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What kind of animal is Odie in Garfield?",
+    "answers": [
+      "A dog",
+      "A rabbit",
+      "A mouse",
+      "A ferret"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://syndication.andrewsmcmeel.com/features/garfield",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "8f51d771b12b2b3beb38",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "What is unusual about the way Zatanna usually says her spells?",
+    "answers": [
+      "She says the words backwards",
+      "She sings them in Latin",
+      "She whispers them into a mirror",
+      "She writes them without speaking"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/zatanna",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "2c17ca53c9503a3eceaf",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "What performance career is Zatanna associated with?",
+    "answers": [
+      "Opera singing",
+      "Stand-up comedy",
+      "Stage magic",
+      "Ballet dancing"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/zatanna",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "9708d21eb6ae8f9c404d",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Which Teen Titan is also known as Rachel Roth?",
+    "answers": [
+      "Starfire",
+      "Donna Troy",
+      "Terra",
+      "Raven"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/raven",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "ecce4dd680ca4f0db807",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Which planet is Starfire originally from?",
+    "answers": [
+      "Mars",
+      "Thanagar",
+      "Tamaran",
+      "Krypton"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/starfire",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "f105826fdd84b4b185d2",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Which Teen Titan has the name Koriand’r?",
+    "answers": [
+      "Bumblebee",
+      "Starfire",
+      "Raven",
+      "Terra"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/starfire",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "d1ac9851389810505ec4",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "What is Beast Boy’s civilian name?",
+    "answers": [
+      "Victor Stone",
+      "Dick Grayson",
+      "Wally West",
+      "Garfield Logan"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/beast-boy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "61ffdf24c7d439d4344e",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What colour do Beast Boy’s animal forms traditionally retain?",
+    "answers": [
+      "Orange",
+      "Purple",
+      "Green",
+      "Blue"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/beast-boy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "07565c0bb974fd8edfba",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Which planet does Darkseid rule?",
+    "answers": [
+      "Apokolips",
+      "New Genesis",
+      "Krypton",
+      "Oa"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/darkseid",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "b37d66184aa597a2924e",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "What formula does Darkseid seek to control the free will of other beings?",
+    "answers": [
+      "The Lazarus Formula",
+      "The Anti-Life Equation",
+      "The Speed Formula",
+      "The Cosmic Cube"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/darkseid",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "7a317c7f888397a55558",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Which substance gives Bane his enhanced strength in his classic comic-book appearances?",
+    "answers": [
+      "Promethium",
+      "Venom",
+      "Kryptonite",
+      "Miraclo"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/bane",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "b8d6739302f78c34eb80",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "On which fictional island was Bane raised in prison?",
+    "answers": [
+      "Dinosaur Island",
+      "Santa Prisca",
+      "Corto Maltese",
+      "Themyscira"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/bane",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  },
+  {
+    "id": "ee9c7f32bf806f4f15f7",
+    "categoryID": "29",
+    "difficulty": "medium",
+    "prompt": "Which creature battles Superman to an apparent mutual death in The Death of Superman?",
+    "answers": [
+      "Brainiac",
+      "Mongul",
+      "Doomsday",
+      "Darkseid"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original questions; publisher reference",
+    "sourceURL": "https://www.dc.com/characters/doomsday",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "candidate",
+    "auditVersion": "2026-10-expansion-v1"
+  }
+]

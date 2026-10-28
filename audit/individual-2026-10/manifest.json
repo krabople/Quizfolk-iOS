@@ -1,0 +1,15 @@
+{
+  "originalCount": 22994,
+  "addedCandidates": 1547,
+  "inputCount": 24541,
+  "inputSHA256": "3092f5256a69e3d8367076f89a985c21f950bcc05ddd9d8c052ba2174131eff3",
+  "candidateFiles": [
+    "data/candidates/arts-beliefs-expansion.json",
+    "data/candidates/comics-expansion.json",
+    "data/candidates/logic-expansion.json",
+    "data/candidates/logic-followup-expansion.json",
+    "data/candidates/research-followup-expansion.json",
+    "data/candidates/topics-expansion.json"
+  ],
+  "method": "Individual editorial judgments with per-question rationale. Automated code only checks coverage, schema and consistency."
+}

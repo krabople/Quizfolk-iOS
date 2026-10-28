@@ -1,0 +1,5402 @@
+[
+  {
+    "id": "024ad6495d09aab929c0",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "One box contains only apples, one only pears, and one both. Their labels Apples, Pears and Mixed are all wrong. From which labelled box should you draw one fruit to identify all three boxes?",
+    "answers": [
+      "The box labelled Mixed",
+      "The box labelled Apples",
+      "The box labelled Pears",
+      "Any box works"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "6169480098aafb8b5b6d",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "Nine coins look identical. Exactly one is heavier than the others. Using a balance scale, what is the minimum number of weighings needed to guarantee finding it?",
+    "answers": [
+      "1",
+      "3",
+      "4",
+      "2"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "5a9a6f2db39b7fa675fb",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "Eight identical-looking coins include one known to be lighter. What is the minimum number of balance-scale weighings needed to guarantee identifying it?",
+    "answers": [
+      "3",
+      "8",
+      "2",
+      "1"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "1c0a92e7850243ccda27",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A drawer holds many red, blue and green socks. What is the minimum number you must draw without looking to guarantee two socks of the same colour?",
+    "answers": [
+      "6",
+      "4",
+      "2",
+      "3"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "3d6b4b44bf01aea576dc",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A bag contains two red marbles, four blue marbles and one yellow marble. Without replacing any draws, how many must you draw to guarantee at least one blue marble?",
+    "answers": [
+      "4",
+      "2",
+      "3",
+      "5"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "2ddfc29401eb0f53d007",
+    "categoryID": "33",
+    "difficulty": "hard",
+    "prompt": "Cards numbered 1 to 10 are drawn without replacement. What is the minimum number of draws needed to guarantee two consecutive numbers?",
+    "answers": [
+      "3",
+      "5",
+      "10",
+      "6"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "1a79535c20e13d32557b",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "What is the minimum number of people needed to guarantee that at least two have birthdays in the same calendar month?",
+    "answers": [
+      "24",
+      "2",
+      "13",
+      "12"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "82d3f8f5115cca9c1a68",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Six people each shake hands with every other person exactly once. How many handshakes occur?",
+    "answers": [
+      "30",
+      "15",
+      "6",
+      "12"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "2a4a5545ef5aba2be4d4",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Seven teams play one match against each other team. How many matches are played in total?",
+    "answers": [
+      "21",
+      "14",
+      "28",
+      "42"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "c9031365865a12c556e8",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A lamp starts off. Three people each press its switch once, and every press reverses its state. What is its final state?",
+    "answers": [
+      "Off",
+      "It depends on who presses first",
+      "It cannot be determined",
+      "On"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "88d3f89b50442f3af173",
+    "categoryID": "33",
+    "difficulty": "hard",
+    "prompt": "Lockers 1 to 10 start closed. Person n reverses the open-or-closed state of every locker whose number is a multiple of n, for n = 1 to 10. Which lockers finish open?",
+    "answers": [
+      "1, 3, 5, 7 and 9",
+      "Only 10",
+      "1, 4 and 9",
+      "2, 4, 6, 8 and 10"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "d18e35823cda9c49a162",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "Ava and Ben each either always tell the truth or always lie. Ava says, 'We are both liars.' What must be true?",
+    "answers": [
+      "Ava tells the truth and Ben lies",
+      "Ava lies and Ben tells the truth",
+      "Both tell the truth",
+      "Both lie"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "ee539b42d756668bb884",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A coin is in box A, B or C. The labels say: A, 'The coin is in A'; B, 'The coin is in A'; C, 'The coin is in B'. Exactly one label is true. Where is the coin?",
+    "answers": [
+      "Box B",
+      "Box A",
+      "Box C",
+      "Any of the three boxes"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "4b415c86b5605bec3b7e",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A garden closes whenever it rains. The garden is open now. What can you conclude?",
+    "answers": [
+      "It will not rain tomorrow",
+      "It is raining now",
+      "The garden never closes",
+      "It is not raining now"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "3bc63229b120f2f652c6",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "All doves are birds. Some birds can swim. Which statement must follow from these two facts alone?",
+    "answers": [
+      "No dove can swim",
+      "Every bird is a dove",
+      "Every dove is a bird",
+      "Every dove can swim"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "4c0e03d74c8c6b8121f0",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A club has 20 members. Twelve play chess, nine play tennis and five play both. How many play neither?",
+    "answers": [
+      "16",
+      "4",
+      "1",
+      "5"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "de1f00a755ea1631a026",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "In a queue of four, Ana is ahead of Bo, Bo is ahead of Cy, and Cy is ahead of Dee. Who is third?",
+    "answers": [
+      "Cy",
+      "Ana",
+      "Bo",
+      "Dee"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "7f13d84baa838d072ae0",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Four runners are in a race with no lapped runners. You pass the runner currently in second place. What place are you in immediately afterwards?",
+    "answers": [
+      "First",
+      "Third",
+      "Fourth",
+      "Second"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "be7f62c504149b63779f",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Mia is twice as old as Leo. Their ages add up to 27 years. How old is Mia?",
+    "answers": [
+      "13.5 years",
+      "24 years",
+      "18 years",
+      "9 years"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "04985ceda3c2cc1397da",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A mother is 30 and her daughter is 10. In how many years will the mother be twice her daughter's age?",
+    "answers": [
+      "20 years",
+      "10 years",
+      "5 years",
+      "15 years"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "685230f4e1378a8a754c",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A café offers three breads and two fillings. Each sandwich uses exactly one bread and one filling. How many different combinations are possible?",
+    "answers": [
+      "6",
+      "5",
+      "3",
+      "9"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "017653b2173f368d7af7",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "You walk 3 metres east and then 4 metres north. How far are you from your starting point in a straight line?",
+    "answers": [
+      "7 metres",
+      "1 metre",
+      "12 metres",
+      "5 metres"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "4813d798d995fcdeb156",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "You face north, turn right, then turn left twice. Every turn is 90°. Which direction do you face?",
+    "answers": [
+      "East",
+      "South",
+      "West",
+      "North"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "bd7c70374c348572528a",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A cube has red opposite blue, green opposite yellow, and black opposite white. If red is on top, which colour is on the bottom?",
+    "answers": [
+      "White",
+      "Blue",
+      "Green",
+      "Black"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "f7989ed12c3115c551f1",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A sheet is folded in half three times, making eight overlapping layers. One hole is punched through all layers away from every fold and edge. How many holes appear when it is unfolded?",
+    "answers": [
+      "8",
+      "3",
+      "4",
+      "6"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "b8561482d8494f6b3aab",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A code replaces each letter with the next letter of the English alphabet, with Z becoming A. How is CAT written?",
+    "answers": [
+      "DBT",
+      "CAV",
+      "ECV",
+      "DBU"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "2e884cd30fcf088efaa5",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A code replaces each letter with the previous letter of the English alphabet, with A becoming Z. What does DOG become?",
+    "answers": [
+      "CNG",
+      "COF",
+      "CNF",
+      "EPH"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "3682c73f00adeefb8114",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Today is Monday. What day of the week will it be 100 days from today?",
+    "answers": [
+      "Sunday",
+      "Wednesday",
+      "Tuesday",
+      "Thursday"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "2b9c931fcc4befa546ff",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "Two alarms ring together now. One rings every 6 minutes and the other every 8 minutes. After how many minutes will they next ring together?",
+    "answers": [
+      "24",
+      "12",
+      "14",
+      "48"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "504214c3a284fef181e3",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A clock takes 3 seconds from its first strike to its fourth strike, with equally spaced strikes. How long does it take from its first strike to its eighth?",
+    "answers": [
+      "6 seconds",
+      "8 seconds",
+      "12 seconds",
+      "7 seconds"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "04984646f16a599910ef",
+    "categoryID": "33",
+    "difficulty": "hard",
+    "prompt": "Each of two ropes takes 60 minutes to burn completely, at an uneven rate. You light both ends of one rope and one end of the other together. When the first rope finishes, you light the other's remaining end. When does it finish?",
+    "answers": [
+      "60 minutes after the start",
+      "90 minutes after the start",
+      "45 minutes after the start",
+      "30 minutes after the start"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "cc9b3babd39df04396de",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Fence posts stand at both ends of a straight 100-metre fence and every 10 metres between them. How many posts are needed?",
+    "answers": [
+      "12",
+      "11",
+      "9",
+      "10"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "07932eb2ec74f37d6f9b",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A snail is at the bottom of a 10-metre wall. Each day it climbs 3 metres; each night before reaching the top it slips 2 metres. On which day does it first reach the top?",
+    "answers": [
+      "Day 8",
+      "Day 7",
+      "Day 10",
+      "Day 12"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "d596f1d10ceeeb9d1f39",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A straight rope is cut at three different places. No pieces are stacked or folded. How many pieces result?",
+    "answers": [
+      "3",
+      "6",
+      "8",
+      "4"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "909d1234ebcee596698d",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A saw takes 5 seconds per cut. A log must become six pieces, with no stacking and no time spent moving it. How long do the cuts take?",
+    "answers": [
+      "30 seconds",
+      "35 seconds",
+      "25 seconds",
+      "20 seconds"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "c8b25ab22a057779f7b6",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "Three adults must cross a river in a boat that holds at most two adults. Anyone can row. What is the minimum number of one-way crossings needed to get everyone and the boat across?",
+    "answers": [
+      "5",
+      "3",
+      "2",
+      "4"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "6cb1d3520cec2c156e9c",
+    "categoryID": "33",
+    "difficulty": "hard",
+    "prompt": "Four people take 1, 2, 5 and 10 minutes to cross a bridge. All start on one side. Every crossing needs their shared torch and carries at most two people, at the slower person's speed. What is the fastest total time to get everyone across?",
+    "answers": [
+      "17 minutes",
+      "15 minutes",
+      "19 minutes",
+      "20 minutes"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "ada65461cadc6fa798ba",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Pile A has 10 counters and pile B has 4. How many counters must move from A to B to make the piles equal?",
+    "answers": [
+      "2",
+      "4",
+      "6",
+      "3"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "06b4b86a414596f7f753",
+    "categoryID": "33",
+    "difficulty": "hard",
+    "prompt": "A counter starts at 1. Each move either adds 1 or doubles its value. What is the minimum number of moves needed to reach 15?",
+    "answers": [
+      "5",
+      "7",
+      "6",
+      "4"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "f8916df4d5d444b20bf6",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A bag has five red balls and five blue balls. You draw without replacement. What is the minimum number of draws needed to guarantee three balls of one colour?",
+    "answers": [
+      "6",
+      "5",
+      "3",
+      "4"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "2a3a31727b7d0768a2f4",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "Six equal cups stand in a row: three full, then three empty. You may lift one cup, pour all its contents into another, then return it to its place. Which cup should you lift to make full and empty cups alternate?",
+    "answers": [
+      "The second cup",
+      "The first cup",
+      "The third cup",
+      "The fifth cup"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "10e45817c8563b00af3e",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A red book is immediately left of a blue book. A green book is immediately right of the blue book. The three books are the only ones on a shelf. Which book is in the middle?",
+    "answers": [
+      "Red",
+      "Green",
+      "The order cannot be determined",
+      "Blue"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "79dd968cfb1b1946f321",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Ali, Bea and Cal each choose a different pet: a cat, a dog or a fish. Ali does not choose the cat or fish. Bea does not choose the cat. Who chooses the cat?",
+    "answers": [
+      "Bea",
+      "Either Ali or Bea",
+      "Cal",
+      "Ali"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "fd7a4b61144b299502a6",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A two-digit number has digits that add to 9. Its tens digit is twice its units digit. What is the number?",
+    "answers": [
+      "54",
+      "63",
+      "36",
+      "72"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "9529c633aee082304a65",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A three-digit code uses 2, 5 and 8 exactly once. The 8 is not first, the 2 is not last, and the 5 is between the other digits. What is the code?",
+    "answers": [
+      "258",
+      "852",
+      "285",
+      "528"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "db313a868fd33ba8d6cc",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Nora is taller than Oli. Oli is taller than Paz. Quin is shorter than Paz. Who is tallest?",
+    "answers": [
+      "Oli",
+      "Paz",
+      "Quin",
+      "Nora"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "0af4959fbae536ee462c",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Five people stand in a line. Eva is exactly in the middle. Two people stand ahead of her. How many stand behind her?",
+    "answers": [
+      "3",
+      "4",
+      "2",
+      "1"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "ca57f8fea305f0fa0e43",
+    "categoryID": "33",
+    "difficulty": "hard",
+    "prompt": "A statement says, 'Exactly one of these two statements is true.' The second statement says, 'The first statement is false.' Which statement is true?",
+    "answers": [
+      "Neither",
+      "Only the first",
+      "Only the second",
+      "Both"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "087102165a2cfe986da8",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A box contains only red and blue counters. It has at least one of each. Which statement must be false?",
+    "answers": [
+      "All counters are red",
+      "Some counters are red",
+      "Some counters are blue",
+      "At least two counters are present"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "e419379fdc70e229b0b6",
+    "categoryID": "33",
+    "difficulty": "hard",
+    "prompt": "Three cold, unlit lamps have separate switches outside a room. Lit lamps warm up and stay warm briefly after switch-off. You may enter only once, immediately after using the switches. Which plan identifies their connections?",
+    "answers": [
+      "Switch all three on",
+      "Switch all three off without lighting them",
+      "Switch two on together and leave them on",
+      "Leave one on, warm then switch off another, and leave the third untouched"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "3a7d734e6fb534bd52c3",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A route map has roads AB, BC, CD and DA, with no other roads. Starting at A, can you travel every road exactly once and return to A?",
+    "answers": [
+      "No, because there are four roads",
+      "No, because A has two roads",
+      "Yes: A–B–C–D–A",
+      "Yes: A–B–A–D–A"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "d39293403da9150172fd",
+    "categoryID": "33",
+    "difficulty": "hard",
+    "prompt": "An 8-by-8 chessboard has two opposite corner squares removed. Each domino covers two edge-adjacent squares. Can 31 dominoes cover the remaining board without overlap?",
+    "answers": [
+      "No: 62 is an odd number",
+      "No: the remaining colours are unbalanced",
+      "Yes: 31 dominoes always cover 62 squares",
+      "Yes: start from the middle"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "dcb033dd887c115dfa90",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A token moves one square horizontally or vertically on a checkerboard. Starting on a black square, which colour will it occupy after exactly seven moves?",
+    "answers": [
+      "White",
+      "Black",
+      "Either colour",
+      "It depends on which directions it moved"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "99b28e71e7e5603fef7a",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "You add three odd whole numbers. What must the result be?",
+    "answers": [
+      "Even",
+      "A multiple of 3",
+      "A prime number",
+      "Odd"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "6609c03c17107119e28d",
+    "categoryID": "33",
+    "difficulty": "hard",
+    "prompt": "Two buckets hold 10 litres each: water in one, juice in the other. Transfer 1 litre of water into the juice, mix, then transfer 1 litre back. Assume volumes add exactly. How do the final amounts of foreign liquid compare?",
+    "answers": [
+      "More juice is in the water",
+      "Neither bucket contains foreign liquid",
+      "Water in the juice equals juice in the water",
+      "More water is in the juice"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "179ad7a948e9446e1117",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "You fill a 5-litre jug and pour into an empty 3-litre jug until it is full. You empty the smaller jug, transfer the remaining water into it, refill the larger jug, then top up the smaller jug. How much remains in the larger jug?",
+    "answers": [
+      "3 litres",
+      "4 litres",
+      "1 litre",
+      "2 litres"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "a61149355657450b5563",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "What is the maximum number of pieces a flat circular pizza can become after three straight cuts, without moving or stacking the pieces?",
+    "answers": [
+      "7",
+      "6",
+      "8",
+      "9"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "b2e011c794022d8f069b",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Eight rows of counters form a triangle. The first row has one counter, and each later row has one more than the previous row. How many counters are there?",
+    "answers": [
+      "28",
+      "40",
+      "64",
+      "36"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "c86a17c06e4cd5917ada",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "The numbers 1 to 20 are printed once each. How many times is the digit 1 printed?",
+    "answers": [
+      "11",
+      "20",
+      "12",
+      "10"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "45ffd169272b20979d85",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A two-digit number is 27 more than the number formed by reversing its digits. The digits add to 11. What is the original number?",
+    "answers": [
+      "65",
+      "74",
+      "47",
+      "83"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "f99dee76597ccb62d191",
+    "categoryID": "33",
+    "difficulty": "hard",
+    "prompt": "Four cards show A, D, 4 and 7. Each has a letter on one side and a number on the other. What is the smallest set of cards to turn over to test 'Every vowel has an even number on its reverse'?",
+    "answers": [
+      "A and 7",
+      "A and 4",
+      "D and 4",
+      "All four cards"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "59db90e573e02b642850",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Every passenger on a particular train has a ticket. Jo has a ticket. What can you conclude from those facts alone?",
+    "answers": [
+      "Jo must be on that train",
+      "Jo cannot be on that train",
+      "Every ticket holder is on that train",
+      "Jo may or may not be on that train"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "5377ae865bb67662e211",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A clock loses 6 minutes during every real hour. It is correct at midnight. What time does it display when the real time is 10:00 that morning?",
+    "answers": [
+      "10:06",
+      "11:00",
+      "09:00",
+      "09:06"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "e34a0abbd18e7e00d560",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "In a 31-day month whose first day is a Monday, which days of the week occur five times?",
+    "answers": [
+      "All seven weekdays",
+      "Monday, Tuesday and Wednesday",
+      "Friday, Saturday and Sunday",
+      "Only Monday"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "4ab4690cf20e9de28cb7",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "The day after tomorrow is Friday. What day was yesterday?",
+    "answers": [
+      "Tuesday",
+      "Monday",
+      "Wednesday",
+      "Thursday"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "6dff7ae747ef025051c7",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "Two trains start 90 kilometres apart and travel towards each other at 40 and 50 kilometres per hour. A bird flies between them at 60 kilometres per hour until they meet. How far does the bird travel?",
+    "answers": [
+      "90 kilometres",
+      "120 kilometres",
+      "150 kilometres",
+      "60 kilometres"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "93d41185576a1cdbb1d7",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A car travels one kilometre at 30 kilometres per hour and the next kilometre at 60 kilometres per hour. What is its average speed over both kilometres?",
+    "answers": [
+      "50 kilometres per hour",
+      "90 kilometres per hour",
+      "40 kilometres per hour",
+      "45 kilometres per hour"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "fda251ac20a955bdaf0a",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "Two runners complete laps in 4 and 6 minutes, starting together and running in the same direction. After how many minutes does the faster runner first catch the slower runner from behind?",
+    "answers": [
+      "24",
+      "12",
+      "2",
+      "6"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "ff7c6a6296c98b0e33ef",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A machine doubles the number of counters each minute. A box is full after 10 minutes. When was it half full?",
+    "answers": [
+      "After 9 minutes",
+      "After 5 minutes",
+      "After 8 minutes",
+      "After 2 minutes"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "78b26ef768ce5b3ac880",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A pond's covered area doubles each day. It is completely covered on day 20. On which day was it one-quarter covered?",
+    "answers": [
+      "Day 5",
+      "Day 10",
+      "Day 19",
+      "Day 18"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "0ee0025826c0f4366273",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A ladder has 12 rungs. You stand on the fourth rung from the bottom. Counting the top rung as first, which rung are you on from the top?",
+    "answers": [
+      "Tenth",
+      "Fourth",
+      "Ninth",
+      "Eighth"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "fb62edec78d4ebe991f9",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "Sam has 8 coins, all worth either 10p or 20p. Together they are worth £1.20. How many are 20p coins?",
+    "answers": [
+      "6",
+      "4",
+      "2",
+      "3"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "215d0303fea4f3bfe6ab",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A shop sells pencils for 20p and pens for 50p. You buy five items for £1.60. How many pens do you buy?",
+    "answers": [
+      "2",
+      "1",
+      "3",
+      "4"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "8b728f8efbd924b551d6",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Three friends split a £12 taxi fare equally. One pays the driver the full amount. How much should each of the other two give that friend?",
+    "answers": [
+      "£3",
+      "£6",
+      "£8",
+      "£4"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "ee7962a5519cb5bec686",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A drawer has four left gloves and four right gloves, all the same size and colour. What is the minimum number of gloves you must draw unseen to guarantee a wearable pair?",
+    "answers": [
+      "4",
+      "8",
+      "5",
+      "2"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "52f9c1d23defa65bae00",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A room contains four people. Each person can see every other person. How many other people can each person see?",
+    "answers": [
+      "12",
+      "3",
+      "4",
+      "6"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "75f1ce182504a327fd2a",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Three consecutive whole numbers add to 42. What is the middle number?",
+    "answers": [
+      "14",
+      "13",
+      "15",
+      "21"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "089cf97822176fbe0f89",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "Four consecutive odd whole numbers add to 48. What is the largest?",
+    "answers": [
+      "11",
+      "13",
+      "17",
+      "15"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "2e8222f507013498ce79",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A number is between 20 and 30, is divisible by 3 and leaves a remainder of 1 when divided by 5. What is it?",
+    "answers": [
+      "26",
+      "27",
+      "21",
+      "24"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "017b19c90cc39c8bc7fb",
+    "categoryID": "33",
+    "difficulty": "hard",
+    "prompt": "A code contains three different digits. Clue 1: 123 has no correct digit. Clue 2: 456 has all three correct digits in the wrong positions. Clue 3: the middle digit is 4. Which code fits?",
+    "answers": [
+      "465",
+      "645",
+      "546",
+      "654"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "575e3d25b8ffd319ba25",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "You have a 2-minute timer and a 5-minute timer. Both start together. When the 2-minute timer finishes, you restart it once. How long after its second finish does the 5-minute timer finish?",
+    "answers": [
+      "1 minute",
+      "2 minutes",
+      "3 minutes",
+      "4 minutes"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "64ef9657c4aba50a87eb",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A train has six carriages. The café carriage is third from the front. Which is it from the back?",
+    "answers": [
+      "Third",
+      "Fifth",
+      "Sixth",
+      "Fourth"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "63f7d5a58930c5704f31",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A lift carries at most 300 kilograms. Four boxes weigh 140, 140, 80 and 80 kilograms. What is the minimum number of upward trips needed to move them all, with no people in the lift?",
+    "answers": [
+      "3",
+      "4",
+      "2",
+      "1"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "6bcccf7d8d7c63d8dde7",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Six friends each send one postcard to every other friend. How many postcards are sent?",
+    "answers": [
+      "36",
+      "30",
+      "6",
+      "15"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "01e8279a893b2ccd6891",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A number is doubled, then 6 is added, giving 20. What was the original number?",
+    "answers": [
+      "7",
+      "10",
+      "13",
+      "14"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "83a4e3227b93958c3932",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A square garden has a gate at each corner and halfway along each side. How many different gates are there?",
+    "answers": [
+      "4",
+      "6",
+      "12",
+      "8"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "6bd30d0e9afa522239c3",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A round table has eight equally spaced seats numbered in order. Which seat is directly opposite seat 2?",
+    "answers": [
+      "Seat 5",
+      "Seat 8",
+      "Seat 6",
+      "Seat 4"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "36709b80d0d3a26fa998",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Two people play five games of chess against each other, with no draws. Lee wins three. How many does Mo win?",
+    "answers": [
+      "5",
+      "2",
+      "1",
+      "3"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "d19e9f7ca1e863e5145a",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A box holds 12 balls. Half are red. Of the balls that are not red, one-third are blue and the rest are green. How many are green?",
+    "answers": [
+      "4",
+      "2",
+      "3",
+      "6"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "b34aa3d0bc41fcf48890",
+    "categoryID": "33",
+    "difficulty": "hard",
+    "prompt": "An event needs one chair per guest. With four guests at each table, there are two guests left over. With five at each of the same tables, there are two empty places. How many tables are there?",
+    "answers": [
+      "2",
+      "3",
+      "6",
+      "4"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "4554d9326885d6aeee07",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A jar contains only £1 and £2 coins. It contains 10 coins worth £16 in total. How many £1 coins are there?",
+    "answers": [
+      "6",
+      "8",
+      "4",
+      "3"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "ac0ead981e3060e18a8a",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A ribbon is 18 centimetres long. Its three cut pieces, ordered shortest to longest, differ by 2 centimetres between neighbours. How long is the longest piece?",
+    "answers": [
+      "10 centimetres",
+      "8 centimetres",
+      "6 centimetres",
+      "7 centimetres"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "e34a740a215b37a0d191",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Three boxes weigh 2, 3 and 5 kilograms. Without opening them, you put all three on two sides of a balance. Which arrangement balances exactly?",
+    "answers": [
+      "The 5-kilogram box against the other two",
+      "The 3-kilogram box against the other two",
+      "The 2-kilogram box against the other two",
+      "All three on the same side"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "f9075eb2d95914d1f634",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A sequence starts at 2. Each next term is twice the previous term plus 1. What is the fourth term?",
+    "answers": [
+      "15",
+      "17",
+      "47",
+      "23"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "2a895f84c99d90beba08",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A sequence starts at 20 and repeatedly subtracts 3. Which is the first negative term?",
+    "answers": [
+      "−3",
+      "2",
+      "−1",
+      "0"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "ccfbba1229ff12cdd8c5",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "Cards numbered 1, 2, 3 and 4 are placed in a row. The 4 is at the right end, the 1 is immediately left of the 3, and the 2 is not at the left end. What is the order?",
+    "answers": [
+      "3, 1, 2, 4",
+      "1, 3, 2, 4",
+      "2, 1, 3, 4",
+      "1, 2, 3, 4"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "1ca7f9dbbe06d56050c5",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Five lamps start off. You reverse the on-or-off state of lamps 1, 3 and 5, then of lamps 2, 3 and 4. Which lamps are on at the end?",
+    "answers": [
+      "1, 2, 4 and 5",
+      "Only 3",
+      "All five",
+      "1, 3 and 5"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "07f07736bf10d2099aaa",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A signpost has four arrows: north, east, south and west. The whole signpost is turned clockwise through a quarter-turn. Where does the arrow originally pointing north now point?",
+    "answers": [
+      "South",
+      "West",
+      "North",
+      "East"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "e2b114558bb8bf6bbeb4",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "There are 15 people in a queue. Jo is sixth from the front. How many people are behind Jo?",
+    "answers": [
+      "10",
+      "11",
+      "9",
+      "8"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "13eac9dd58cc49ec605f",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Two identical taps together fill a tank in 6 minutes. Each tap runs at a constant rate and they do not affect each other. How long would one tap take alone?",
+    "answers": [
+      "18 minutes",
+      "12 minutes",
+      "3 minutes",
+      "6 minutes"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "3543d5ae2284ba5aa944",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A balance holds three identical blocks on one side and one identical block plus 8 kilograms on the other. It balances. How much does each block weigh?",
+    "answers": [
+      "4 kilograms",
+      "2 kilograms",
+      "6 kilograms",
+      "8 kilograms"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "2f59fb44dd2b58bff66e",
+    "categoryID": "33",
+    "difficulty": "hard",
+    "prompt": "All children in a family have the same two parents. A boy has as many brothers as sisters. His sister has twice as many brothers as sisters. How many boys and girls are there?",
+    "answers": [
+      "3 boys and 3 girls",
+      "3 boys and 2 girls",
+      "4 boys and 2 girls",
+      "4 boys and 3 girls"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "3d0def72961a2c8714d0",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Ada's mother has a sister named Bea. How is Bea related to Ada?",
+    "answers": [
+      "Niece",
+      "Grandmother",
+      "Aunt",
+      "Sister"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "fb01b6ed014a4d5e8c2f",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Niko's father and Rosa's mother are siblings. Niko and Rosa are their children. How are Niko and Rosa related?",
+    "answers": [
+      "Grandparent and grandchild",
+      "First cousins",
+      "Siblings",
+      "Aunt and nephew"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "af3e1eb49df8b3627168",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Leah is Max's mother, Max is Noor's father, and Noor is Oli's mother. What is Leah's relationship to Oli?",
+    "answers": [
+      "Great-grandmother",
+      "Grandmother",
+      "Mother",
+      "Aunt"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "5c856b4ef2274e30f405",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A girl has two sisters and one brother. Assuming these are all the children in her family, how many children are there?",
+    "answers": [
+      "3",
+      "5",
+      "6",
+      "4"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "b2140ecb7fb914785415",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Two adults and their two children each need a separate ticket. One adult has bought three tickets. How many more tickets must the group buy?",
+    "answers": [
+      "2",
+      "3",
+      "1",
+      "0"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "bea5df9702fc7ae5759e",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Buses leave at 09:00 and every 15 minutes afterwards. You arrive at 09:37. How long must you wait for the next bus?",
+    "answers": [
+      "15 minutes",
+      "8 minutes",
+      "7 minutes",
+      "13 minutes"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "0aab82232cdb8cb08547",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "Task A takes 3 minutes and task B takes 2 minutes. They can run at the same time. Task C takes 5 minutes and can start only after both finish. What is the shortest total time?",
+    "answers": [
+      "8 minutes",
+      "5 minutes",
+      "7 minutes",
+      "10 minutes"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "dc79e2a32f8547d6eb16",
+    "categoryID": "33",
+    "difficulty": "hard",
+    "prompt": "A cook must toast three slices using a pan that holds two slices. Each side takes one minute, and slices can be swapped instantly. What is the shortest time to toast both sides of all three?",
+    "answers": [
+      "2 minutes",
+      "4 minutes",
+      "6 minutes",
+      "3 minutes"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "ba0095cc7a17b207aa79",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "Four cards bear the numbers 1, 2, 3 and 4. You choose two different cards. How many different sums can you obtain?",
+    "answers": [
+      "6",
+      "8",
+      "5",
+      "4"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "a4351efb0016db1cc546",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "You have one 1p, one 2p and one 5p coin. How many different positive amounts can you make using any subset, with each coin used at most once?",
+    "answers": [
+      "8",
+      "7",
+      "3",
+      "6"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "4f264a20c0ccc0b2c084",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Five distinct books sit on a shelf. You swap the first and last books, then swap the new first book with the middle book. Where is the original last book now?",
+    "answers": [
+      "In the middle",
+      "At the first position",
+      "At the last position",
+      "At the second position"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "2dccbecbdc9ea1edfd23",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Three cups stand in order: red, blue, green. You move the leftmost cup to the right end twice, preserving the others' order. What is the final order?",
+    "answers": [
+      "Blue, green, red",
+      "Red, green, blue",
+      "Green, blue, red",
+      "Green, red, blue"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "b6d19d0651b5dfaa1d39",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A wheel has six equally spaced markers numbered 1 to 6 clockwise. A pointer starts at 5 and moves three markers clockwise. Where does it stop?",
+    "answers": [
+      "3",
+      "6",
+      "2",
+      "1"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "4e75859e5e6f47e32c2a",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A rule transforms a pair (a, b) into (b, a + b). Starting from (1, 2), what pair appears after two transformations?",
+    "answers": [
+      "(5, 8)",
+      "(3, 5)",
+      "(2, 3)",
+      "(3, 4)"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "e5ce0944cb3cfb4c3cd2",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A code writes each word backwards but leaves the words in their original order. How does 'RED FOX' appear?",
+    "answers": [
+      "DER XOF",
+      "XOF DER",
+      "DER FOX",
+      "RED XOF"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "2ab31f434f7d9ce06c95",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "The code assigns A = 1, B = 2 and so on to Z = 26. A word's score is the sum of its letters. What is the score of CAB?",
+    "answers": [
+      "5",
+      "7",
+      "9",
+      "6"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "7df95132bc45f0fa6784",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A two-character password has A or B first, then 1, 2 or 3. How many passwords fit this rule?",
+    "answers": [
+      "8",
+      "9",
+      "6",
+      "5"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "b4be5e9297f7e683bb1c",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A shop's display starts with the letters A, B, C and D in that order. It swaps adjacent pairs: first with second, and third with fourth. What is the resulting order?",
+    "answers": [
+      "A, C, B, D",
+      "B, A, D, C",
+      "D, C, B, A",
+      "B, C, D, A"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "7e2a585ffcf8830215a0",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A robot follows commands F = move one square forward, R = turn right 90°, and L = turn left 90°. Starting facing north, it follows F, R, F, L. Which way does it face?",
+    "answers": [
+      "North",
+      "East",
+      "South",
+      "West"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "5fb0d77617968ef9590a",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A robot starts at (0, 0). It moves 2 units east, 3 north, 1 west and 1 south. What is its final position, taking east and north as positive?",
+    "answers": [
+      "(3, 4)",
+      "(2, 3)",
+      "(−1, 2)",
+      "(1, 2)"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "45527683d39de4d3b1db",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A maze has paths A–B, A–C, B–D, C–D and D–E. You cannot reuse a path. What is the shortest number of paths needed to travel from A to E?",
+    "answers": [
+      "4",
+      "5",
+      "3",
+      "2"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "041315d85f297e269eda",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A drawer contains ten numbered keys, only one of which opens a lock. You remember every failed key and never retry it. How many trials are needed in the worst case, counting the successful trial?",
+    "answers": [
+      "11",
+      "10",
+      "1",
+      "9"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "8056a3a1411d38e8ce33",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Two bags contain three coins each. Bag A has three gold coins; bag B has two gold coins and one silver coin. You find a silver coin after choosing a bag. Which bag did you choose?",
+    "answers": [
+      "Bag B",
+      "Bag A",
+      "Either bag",
+      "Neither bag"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "aa0a30fd5c5b6a56574b",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Three books occupy different shelves. History is above science, and science is above art. Which relative order is possible, from top to bottom?",
+    "answers": [
+      "Science, history, art",
+      "Art, science, history",
+      "History, art, science",
+      "History, science, art"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "0883e5965db77252f1a5",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Three runners finish without ties. A finishes before B, and C finishes after B. Which finishing order is possible?",
+    "answers": [
+      "A, C, B",
+      "C, B, A",
+      "A, B, C",
+      "B, A, C"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "519b8086d0cbccd00719",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A lift starts on floor 2, goes up 5 floors, down 3, then up 1. If floors have consecutive integer numbers, where does it stop?",
+    "answers": [
+      "Floor 7",
+      "Floor 5",
+      "Floor 4",
+      "Floor 6"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "be6b7937dee437d74b76",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A queue is arranged alphabetically by surname. The surnames are Hall, Hart, Hale and Hardy. Which is first?",
+    "answers": [
+      "Hale",
+      "Hall",
+      "Hardy",
+      "Hart"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "05652b9a22597ad9f6ce",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A bag holds balls numbered 1 to 6. You draw two without replacement. What is the largest possible difference between their numbers?",
+    "answers": [
+      "4",
+      "6",
+      "7",
+      "5"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "422bb6e05bd24d04ffd9",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "You must choose three different numbers from 1, 2, 3, 4 and 5. What is the smallest possible sum?",
+    "answers": [
+      "5",
+      "9",
+      "6",
+      "3"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "fdec30494644bb0285a0",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A tower uses red, blue and green blocks exactly once each. Red cannot be on top, and blue must be below green. Which order works, from top to bottom?",
+    "answers": [
+      "Blue, red, green",
+      "Green, blue, red",
+      "Blue, green, red",
+      "Red, green, blue"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "7c5a9af4abf9b7f3db5c",
+    "categoryID": "33",
+    "difficulty": "hard",
+    "prompt": "A game starts with 7 stones. Two players alternate taking 1 or 2 stones, and whoever takes the last stone wins. With perfect play, how many should the first player take to force a win?",
+    "answers": [
+      "1",
+      "2",
+      "Either 1 or 2 works",
+      "The first player cannot force a win"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "a57ed575e1d34fa58fdc",
+    "categoryID": "33",
+    "difficulty": "hard",
+    "prompt": "There are 10 stones. Players alternately remove 1, 2 or 3 stones; taking the last wins. How many stones should the first player remove to force a win?",
+    "answers": [
+      "1",
+      "3",
+      "Any allowed number",
+      "2"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "1e8df58f144c901743bf",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Two people each choose a whole number from 1 to 5. Their numbers differ by 4. What must their sum be?",
+    "answers": [
+      "5",
+      "9",
+      "6",
+      "4"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "70bcda6320521d14d568",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A bag contains 4 green and 6 yellow tokens. You remove all the green tokens and half of the yellow tokens. How many remain?",
+    "answers": [
+      "7",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "67c35c67ef6598b92c70",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A seven-letter code is a palindrome: it reads the same forwards and backwards. It begins ABC. What are its last three letters?",
+    "answers": [
+      "CBA",
+      "ABC",
+      "BAC",
+      "CAB"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "6213ef9635068bfa8eb0",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A four-digit code reads the same forwards and backwards. Its first digit is 3 and its second digit is 8. What is the code?",
+    "answers": [
+      "3838",
+      "3388",
+      "8338",
+      "3883"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "53bb70d0f0da1b7af3c7",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Reverse the letters of PLANT, then move the first letter of that reversed word to its end. Which letter is now in the middle?",
+    "answers": [
+      "A",
+      "N",
+      "L",
+      "P"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "13f78c7341c67aa0c834",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A list is ordered from shortest to longest: pin, kite, apple, banana. Using the same rule, where should pear go if equal lengths may be placed together?",
+    "answers": [
+      "After banana",
+      "Beside kite",
+      "Before pin",
+      "Beside apple"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "2e95f16ff33c584cfe2f",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A word ladder changes exactly one letter at each step without changing word length. Which move obeys the rule?",
+    "answers": [
+      "CAT → COT",
+      "CAT → DOG",
+      "CAT → CART",
+      "CAT → COAT"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "7d546bd5ff78f02f0e0b",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A secret number is greater than 30 and less than 40. It is even, and its digits add to 9. What is it?",
+    "answers": [
+      "34",
+      "38",
+      "39",
+      "36"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "39f09dac11ba51af618a",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A lock code has three digits. The first is 2 more than the second, the third is twice the second, and the digits sum to 14. What is the code?",
+    "answers": [
+      "635",
+      "524",
+      "536",
+      "426"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "dd56855a330ef655856b",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A parcel is lighter than 5 kilograms but heavier than 3 kilograms. Its weight in kilograms is a whole number. What does it weigh?",
+    "answers": [
+      "6 kilograms",
+      "4 kilograms",
+      "3 kilograms",
+      "5 kilograms"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "b2dcfcd9c7dfadf56cee",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A code uses the digits 1, 2 and 3 exactly once. It must be odd and greater than 300. Which code fits?",
+    "answers": [
+      "321",
+      "312",
+      "231",
+      "132"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "6bf453139634ac40ab88",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A number is divisible by both 4 and 6. Which of these could it be?",
+    "answers": [
+      "18",
+      "20",
+      "30",
+      "36"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "ca64063e04cf311fbdc8",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "An empty balance has identical pans. You put 4 identical cubes on the left and 2 cubes plus a 6-kilogram weight on the right. What cube weight balances it?",
+    "answers": [
+      "4 kilograms",
+      "6 kilograms",
+      "3 kilograms",
+      "2 kilograms"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "6a0c0b5fd2d35a0ca827",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A shelf has room for exactly 12 books. Four are removed from a full shelf, then three are added. How many spaces are empty?",
+    "answers": [
+      "11",
+      "1",
+      "3",
+      "5"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "b14bf789a19744d0b316",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "In a row of 9 seats, seat numbers increase from left to right. Kim sits in seat 4 and moves three seats to the right, then two to the left. What is Kim's final seat?",
+    "answers": [
+      "Seat 5",
+      "Seat 3",
+      "Seat 6",
+      "Seat 7"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "dccd5a7ebcee21748712",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A rule says that a red token must be followed immediately by a blue token. Which row obeys the rule everywhere?",
+    "answers": [
+      "Red, red, blue, blue",
+      "Blue, red, blue, red",
+      "Blue, blue, red, red",
+      "Red, blue, red, blue"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "f18166afe56f919a9bad",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A hidden counter is red, blue or green. Mina says it is red; Leo says it is blue; Nia says it is not red. Exactly two statements are true. What colour is it?",
+    "answers": [
+      "Green",
+      "Its colour cannot be determined",
+      "Blue",
+      "Red"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "43a500941d3625d70a6d",
+    "categoryID": "33",
+    "difficulty": "hard",
+    "prompt": "Exactly one of Ana, Ben and Cy broke a vase. Ana says, 'Ben or Cy did it.' Ben says, 'Ana did it.' Cy says, 'Ben did not do it.' Exactly one statement is true. Who broke the vase?",
+    "answers": [
+      "It cannot be determined",
+      "Ben",
+      "Ana",
+      "Cy"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "16977674f8be72299fa9",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A number must satisfy exactly two of these claims: it is even, it is less than 10, it is a perfect square. Which option qualifies?",
+    "answers": [
+      "6",
+      "12",
+      "25",
+      "49"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "57714525fbdf21573b06",
+    "categoryID": "33",
+    "difficulty": "hard",
+    "prompt": "Three people stand in line wearing hats drawn from 3 red and 2 blue hats. All know the supply and reason correctly. The back person sees both hats ahead but cannot deduce their own colour. The middle person sees blue ahead. What colour is the middle person's hat?",
+    "answers": [
+      "Blue",
+      "Either colour",
+      "There is not enough information",
+      "Red"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "78b00f85b046d94e718f",
+    "categoryID": "33",
+    "difficulty": "hard",
+    "prompt": "One door is safe; the other is a dead end. Of two guards, one always lies and one always tells the truth. Both know the destinations and which guard lies. You ask either which door the other would call safe. What should you do?",
+    "answers": [
+      "Choose either door at random",
+      "Both doors must be safe",
+      "Choose the other door",
+      "Choose the indicated door"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "ae1aafd7e86c41d35bc1",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "All round tokens are blue, and no blue token is wooden. What must be true?",
+    "answers": [
+      "No token is round",
+      "No round token is wooden",
+      "Every wooden token is round",
+      "Every blue token is round"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "6b8a99574f189a57fcb4",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "Some hikers are painters. All painters are readers. Which statement must follow?",
+    "answers": [
+      "Some hikers are readers",
+      "All hikers are readers",
+      "All readers are painters",
+      "No hikers are readers"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "1b719edb9d976b1cf242",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "No musicians in a club are beginners. Some club members are musicians. Which statement must be true?",
+    "answers": [
+      "Every club member is a beginner",
+      "No club member is a beginner",
+      "Every non-beginner is a musician",
+      "Some club members are not beginners"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "4f01630927ee3b5966ae",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "If a switch is on, a lamp is lit. The lamp is lit. Which conclusion is justified without any other facts?",
+    "answers": [
+      "The switch must be off",
+      "The stated rule must be false",
+      "The switch may be on or off",
+      "The switch must be on"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "b281a29d74572e69a18f",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A rule says a parcel is accepted if and only if it weighs less than 2 kilograms. A parcel is rejected. What must be true about its weight?",
+    "answers": [
+      "It is more than 3 kilograms",
+      "It is at least 2 kilograms",
+      "It is less than 2 kilograms",
+      "It is exactly 2 kilograms"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "fa4eca3d7a1920dc5ac8",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A red card earns 2 points and a blue card earns 5 points. You draw exactly three cards, and your total is odd. What must be true?",
+    "answers": [
+      "You drew an odd number of blue cards",
+      "You drew no blue cards",
+      "You drew exactly two blue cards",
+      "All three cards were red"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "fd204cab750fdeb50961",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "You start with 8 counters. Every move adds or removes exactly 2 counters. Which total is impossible to reach?",
+    "answers": [
+      "0",
+      "6",
+      "14",
+      "11"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "d1279ab98e716da3b19c",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A coin starts heads up. You flip it over exactly once for every odd number from 1 to 9 inclusive. Which side finishes up?",
+    "answers": [
+      "Either side",
+      "It depends on the coin's weight",
+      "Tails",
+      "Heads"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "c33316411f74088be407",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A row contains 8 coins, all heads up. Each move turns over exactly two different coins. Can you finish with exactly one coin tails up?",
+    "answers": [
+      "No, because no coins can ever show tails",
+      "No, because the number of tails stays even",
+      "Yes, in one move",
+      "Yes, by turning over the same pair twice"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "fc5ac57302cb4594ad56",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Five boxes hold an odd number of marbles each. Can their combined total be 30?",
+    "answers": [
+      "No, because five odd counts have an odd sum",
+      "Yes, if all five counts are equal",
+      "Yes, if one box holds just one marble",
+      "No, because 30 is prime"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "aa35d73cd3a352ff42fd",
+    "categoryID": "33",
+    "difficulty": "hard",
+    "prompt": "A path visits every square of a 3-by-3 checkerboard exactly once, moving only across shared edges. Could it start and end on opposite colours?",
+    "answers": [
+      "Yes: every move changes colour",
+      "Yes: the centre allows a colour to be skipped",
+      "No: every move keeps the same colour",
+      "No: nine visited squares require the same start and end colour"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "7c353a3b5481638037b9",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A drawer has seven red, seven blue and seven green beads. What is the minimum number of beads you must draw unseen to guarantee that at least four share a colour?",
+    "answers": [
+      "9",
+      "12",
+      "10",
+      "4"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "3e972d083f5e2b225104",
+    "categoryID": "33",
+    "difficulty": "hard",
+    "prompt": "A box holds cards numbered 1 to 12. What is the minimum number of cards you must draw without replacement to guarantee two numbers whose sum is 13?",
+    "answers": [
+      "12",
+      "7",
+      "6",
+      "8"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "99709459c8115674b2f7",
+    "categoryID": "33",
+    "difficulty": "hard",
+    "prompt": "You choose five different numbers from 1 to 8. Must at least two chosen numbers differ by 4?",
+    "answers": [
+      "Yes, because the numbers form four such pairs",
+      "No, if all chosen numbers are odd",
+      "No, if 8 is not chosen",
+      "Yes, because every pair differs by 4"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "7727029a0c4eef8fc87f",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "Thirteen books are placed on four shelves. What is the smallest possible number of books on the fullest shelf?",
+    "answers": [
+      "3",
+      "5",
+      "13",
+      "4"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "0ca747b4d4fb5b4a7b06",
+    "categoryID": "33",
+    "difficulty": "hard",
+    "prompt": "Seven people each vote for Monday, Tuesday or Wednesday. What is the lowest possible number of votes received by the most popular day?",
+    "answers": [
+      "4",
+      "7",
+      "3",
+      "2"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "cc49c94baa7765c1891b",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A warehouse labels 20 boxes using A, B, C or D. What is the lowest possible number of boxes carrying the most common label?",
+    "answers": [
+      "10",
+      "5",
+      "4",
+      "6"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "f0708c26f87b5a2e9c1a",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A 4-by-4 grid has one token in every square. You remove all tokens in the top row and left column. How many tokens remain?",
+    "answers": [
+      "9",
+      "8",
+      "7",
+      "12"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "5a03af3676a13cf723a8",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A 5-by-5 grid is made of square tiles. How many tiles touch its outer boundary?",
+    "answers": [
+      "20",
+      "12",
+      "25",
+      "16"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "fb1e3ba518baf74d13d8",
+    "categoryID": "33",
+    "difficulty": "hard",
+    "prompt": "Six towns are connected in a ring, with one road between each neighbouring pair and no other roads. What is the greatest shortest-path distance between two towns, measured in roads?",
+    "answers": [
+      "4 roads",
+      "5 roads",
+      "3 roads",
+      "2 roads"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "4cd92ed0a868783722b8",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "There are 5 stepping stones between two riverbanks. You step on every stone exactly once in order from one bank to the other. How many jumps do you make, including leaving and reaching the banks?",
+    "answers": [
+      "7",
+      "6",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "225ee5916bbf8e0f4965",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A necklace forms a closed loop of 12 beads. You cut the string once between two beads and straighten it without losing beads. How many beads are at the two ends combined?",
+    "answers": [
+      "2",
+      "1",
+      "12",
+      "24"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "f14483b652d332e29927",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A paper strip is marked at 1, 2, 3 and 4 centimetres from one end and is 5 centimetres long. You cut at all four marks. How many pieces are exactly 1 centimetre long?",
+    "answers": [
+      "4",
+      "3",
+      "6",
+      "5"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "d47a34ab3ca6c8f60345",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A meeting room has 3 doors. You enter through one door and must leave through a different one. How many ordered entrance-and-exit choices are possible?",
+    "answers": [
+      "4",
+      "9",
+      "6",
+      "3"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "2f17fd16d0313ffb7b9b",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "Four people each need a different coloured badge. There are exactly four available colours. How many ways can the badges be assigned?",
+    "answers": [
+      "16",
+      "24",
+      "4",
+      "12"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "b99886af09d3340a6cce",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "Three distinct books must stand in a row, but the red and blue books must be next to each other. How many arrangements are possible?",
+    "answers": [
+      "4",
+      "2",
+      "3",
+      "6"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "890ebd31cf83b60851e0",
+    "categoryID": "33",
+    "difficulty": "hard",
+    "prompt": "You place the numbers 1, 2 and 3 in three boxes, using each once. Exactly one box must contain the number matching its position. How many arrangements satisfy this?",
+    "answers": [
+      "1",
+      "2",
+      "6",
+      "3"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "1bef5f0366b14e9ea65e",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "Three letters A, B and C are arranged in a row. How many orders put A somewhere before B?",
+    "answers": [
+      "4",
+      "6",
+      "3",
+      "2"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "6b4b4c31d6aa4291e890",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A route from A to B offers two roads, and from B to C offers three roads. One additional road goes directly from A to C. How many routes from A to C use either the direct road or go through B once?",
+    "answers": [
+      "8",
+      "7",
+      "5",
+      "6"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "4a72bdb06c7b92df4f70",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A lock uses two different digits chosen from 1, 2, 3 and 4. Order matters. How many possible codes are there?",
+    "answers": [
+      "12",
+      "6",
+      "8",
+      "16"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "5cd50661dbb06f1615cb",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A person has two hats, three shirts and two pairs of trousers. How many outfits use one of each item, with every combination allowed?",
+    "answers": [
+      "7",
+      "8",
+      "10",
+      "12"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "8581f8d0ffd12d663d9c",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "Four people are paired into two teams of two. The order of the teams does not matter. How many different pairings are possible?",
+    "answers": [
+      "4",
+      "6",
+      "3",
+      "2"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "a9caeaab337190bc8a62",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "Five distinct points lie on a circle. A straight line segment joins every pair. How many segments are drawn?",
+    "answers": [
+      "20",
+      "10",
+      "5",
+      "15"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "1c28e8a8022d2ab2062b",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Three coins are tossed. How many different ordered sequences of heads and tails are possible?",
+    "answers": [
+      "8",
+      "3",
+      "6",
+      "9"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "dd751048fa1bc2ee94c0",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A keypad has buttons A, B and C. You press two buttons in order, allowing the same button twice. How many possible sequences are there?",
+    "answers": [
+      "3",
+      "6",
+      "8",
+      "9"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "75dc3e600afe0f3bb3da",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "Eight people sit around a circular table. Each shakes hands only with their two immediate neighbours, and each handshake happens once. How many handshakes occur?",
+    "answers": [
+      "16",
+      "28",
+      "8",
+      "4"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "35aefb263ab0b1c896d5",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A triangle is divided by joining the midpoint of each side to the other two midpoints. How many smaller triangular regions are formed?",
+    "answers": [
+      "6",
+      "4",
+      "3",
+      "5"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "9b5d39d6b96023bc8301",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Two straight lines cross at one point inside a circular sheet. Into how many regions do they divide the sheet?",
+    "answers": [
+      "4",
+      "2",
+      "3",
+      "5"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "0dff8073104ac5a8b35e",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "Three distinct straight lines cross at the same point inside a circular sheet. How many regions do they create?",
+    "answers": [
+      "4",
+      "7",
+      "8",
+      "6"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "c4f617e45b9459f26115",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A square is drawn with both diagonals. How many triangular regions, without combining neighbouring regions, are inside it?",
+    "answers": [
+      "6",
+      "8",
+      "4",
+      "2"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "205f29dc4f50d1915ee0",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A grid has 2 rows and 3 columns of squares. How many different individual squares have at least one edge on the grid's outside boundary?",
+    "answers": [
+      "8",
+      "6",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "41a2e27b383c4577acb5",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A square grid has 3 rows and 3 columns. How many different 2-by-2 blocks of squares fit entirely inside it?",
+    "answers": [
+      "4",
+      "1",
+      "3",
+      "9"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "091355a583ba8be70e52",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A token starts at the bottom-left corner of a 2-by-2 square grid. It travels along grid lines to the top-right corner using only up or right moves. How many shortest routes are there?",
+    "answers": [
+      "4",
+      "8",
+      "12",
+      "6"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "778b41bade755734faef",
+    "categoryID": "33",
+    "difficulty": "medium",
+    "prompt": "A rectangle has four corners. You cut off one corner with a straight cut joining points inside the two sides meeting there. How many corners does the remaining larger piece have?",
+    "answers": [
+      "4",
+      "6",
+      "5",
+      "3"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "bcc197bba587a17e0f9c",
+    "categoryID": "33",
+    "difficulty": "hard",
+    "prompt": "A cube has six faces. You paint all faces, then cut it into 27 equal small cubes in a 3-by-3-by-3 arrangement. How many small cubes have paint on exactly three faces?",
+    "answers": [
+      "27",
+      "8",
+      "6",
+      "12"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "082e350da52a654845f7",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Using the usual order of operations, what is 18 + 6 × 4?",
+    "answers": [
+      "42",
+      "96",
+      "72",
+      "30"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "021e95ec008776245b62",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is (18 + 6) ÷ 4?",
+    "answers": [
+      "19.5",
+      "24",
+      "96",
+      "6"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "da4eb94d9d3ca4f13cf6",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is −7 + 12?",
+    "answers": [
+      "19",
+      "−19",
+      "5",
+      "−5"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "75f2c362b1ca89ba834f",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is (−4) × (−6)?",
+    "answers": [
+      "−10",
+      "24",
+      "−24",
+      "10"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "c681d0cefcdb86b30b0d",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is 3/4 + 1/6 in simplest form?",
+    "answers": [
+      "11/12",
+      "1/2",
+      "2/5",
+      "5/6"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "5f5030ce540882d942bf",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is 5/6 − 1/4 in simplest form?",
+    "answers": [
+      "4/2",
+      "2/3",
+      "1/2",
+      "7/12"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "8a54b9d37cbd26752bba",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is 2/3 × 9/10 in simplest form?",
+    "answers": [
+      "2/5",
+      "3/10",
+      "3/5",
+      "11/13"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "d34d4bc448093ab0cb3a",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "What is 3/5 ÷ 9/10 in simplest form?",
+    "answers": [
+      "1/6",
+      "2/3",
+      "27/50",
+      "3/2"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "9e787dd9957d7f43b94d",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Which fraction equals 0.375?",
+    "answers": [
+      "3/8",
+      "3/5",
+      "3/4",
+      "5/8"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "04ed2fed82bb765e2c9d",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is 7/8 written as a decimal?",
+    "answers": [
+      "0.78",
+      "0.87",
+      "0.625",
+      "0.875"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "b92efa62ba8b296ba63a",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is 15% of 240?",
+    "answers": [
+      "30",
+      "40",
+      "36",
+      "24"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "ea4c4f69aa8f62afb06a",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "A price of £80 rises by 25%. What is the new price?",
+    "answers": [
+      "£120",
+      "£100",
+      "£85",
+      "£105"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "1a665b95648ffc77fd98",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "A £120 price is reduced by 25%. What is the reduced price?",
+    "answers": [
+      "£90",
+      "£95",
+      "£100",
+      "£30"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "eafcecf4b1b46f2bd794",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "A pass rate rises from 20% to 30%. By how many percentage points does it rise?",
+    "answers": [
+      "50 percentage points",
+      "5 percentage points",
+      "1.5 percentage points",
+      "10 percentage points"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "febed9cfe9a43203882c",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "A sum of £64 is divided in the ratio 3:5. What is the smaller share?",
+    "answers": [
+      "£16",
+      "£40",
+      "£24",
+      "£32"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "9f5bd4fdba3592762b0e",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is the greatest common divisor of 18 and 30?",
+    "answers": [
+      "12",
+      "6",
+      "3",
+      "9"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "67f21cd7332a087d992e",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is the least common multiple of 8 and 12?",
+    "answers": [
+      "24",
+      "4",
+      "48",
+      "96"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "6cc0d239f9d0ec18a8f8",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Which of these numbers is prime?",
+    "answers": [
+      "21",
+      "27",
+      "35",
+      "29"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "018c4208aa8b8ca2df8a",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "What is the prime factorisation of 84?",
+    "answers": [
+      "2² × 3² × 7",
+      "2 × 6 × 7",
+      "2² × 3 × 7",
+      "2 × 3 × 7"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "03f2b8ada7542e274e5f",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is the remainder when 47 is divided by 6?",
+    "answers": [
+      "7",
+      "5",
+      "1",
+      "6"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "b9412c673ca7d9ab3c1c",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is 2 raised to the fifth power?",
+    "answers": [
+      "32",
+      "10",
+      "16",
+      "25"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "f7cd333b16d9a243a034",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is the positive square root of 144?",
+    "answers": [
+      "−12",
+      "72",
+      "14",
+      "12"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "6f2d09ac006de67735db",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is the cube root of −125?",
+    "answers": [
+      "−25",
+      "25",
+      "−5",
+      "5"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "8ab1654fd1ce246b4fd2",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is 5 factorial, meaning 5 × 4 × 3 × 2 × 1?",
+    "answers": [
+      "125",
+      "120",
+      "25",
+      "60"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "2e9db7f8439ff5ec8e71",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "In the equation 3x + 7 = 22, what is x?",
+    "answers": [
+      "5",
+      "3",
+      "7",
+      "15"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "83f2a0356369ef011a55",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Solve 2(x − 3) = 14. What is x?",
+    "answers": [
+      "4",
+      "7",
+      "11",
+      "10"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "87017b3131441781aeea",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "If x + y = 11 and x − y = 3, what is x?",
+    "answers": [
+      "8",
+      "14",
+      "7",
+      "4"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "1e7c9d36a6b0267f8321",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Which option lists all the real solutions of x² = 49?",
+    "answers": [
+      "−49 and 49",
+      "−7 and 7",
+      "Only 7",
+      "Only −7"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "65fc73462453f1b576d1",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "What are the roots of x² − 5x + 6 = 0?",
+    "answers": [
+      "2 and 3",
+      "−2 and −3",
+      "1 and 6",
+      "−1 and −6"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "f3e699d926701ca9c6e9",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "What is the discriminant b² − 4ac for x² + 2x + 5 = 0?",
+    "answers": [
+      "16",
+      "−6",
+      "24",
+      "−16"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "058ace6b8e389e88e600",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "For a real number x, solve 4x < 20. Which condition is equivalent?",
+    "answers": [
+      "x < 16",
+      "x ≤ 5",
+      "x < 5",
+      "x > 5"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "84204b7f381f2fd5e3cd",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "For a real number x, solve −2x > 6. Which condition is equivalent?",
+    "answers": [
+      "x > 3",
+      "x < −3",
+      "x > −3",
+      "x < 3"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "5503070905abe4cd0e77",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is the absolute value of −13?",
+    "answers": [
+      "13",
+      "−13",
+      "0",
+      "26"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "da455d1f62cd3d025f25",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "What is the slope of the line through (1, 2) and (3, 8)?",
+    "answers": [
+      "2",
+      "6",
+      "1/3",
+      "3"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "2382945b32c275eaa6ed",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Where does the line y = 2x + 5 cross the y-axis?",
+    "answers": [
+      "(0, 2)",
+      "(2, 5)",
+      "(0, 5)",
+      "(5, 0)"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "f3dbfb050eeca675ef7f",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "What is the midpoint of the segment joining (2, 4) and (8, 10)?",
+    "answers": [
+      "(3, 3)",
+      "(5, 7)",
+      "(6, 6)",
+      "(10, 14)"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "b396fa49fa80b45237bc",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "What is the distance between (0, 0) and (6, 8) in the coordinate plane?",
+    "answers": [
+      "10",
+      "14",
+      "2",
+      "48"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "e320574e84655fa4ff48",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "A rectangle is 7 centimetres long and 4 centimetres wide. What is its perimeter?",
+    "answers": [
+      "28 centimetres",
+      "11 centimetres",
+      "14 centimetres",
+      "22 centimetres"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "5bd554cb6dad5e086076",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "A triangle has a base of 10 centimetres and a perpendicular height of 6 centimetres. What is its area?",
+    "answers": [
+      "16 square centimetres",
+      "32 square centimetres",
+      "30 square centimetres",
+      "60 square centimetres"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "ae5fcebb81adf6195b1a",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "A circle has radius 5 centimetres. What is its circumference in terms of π?",
+    "answers": [
+      "50π centimetres",
+      "10π centimetres",
+      "5π centimetres",
+      "25π centimetres"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "ae1e54faf9dfa6bf0664",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "A circle has radius 3 metres. What is its area in terms of π?",
+    "answers": [
+      "9π square metres",
+      "6π square metres",
+      "3π square metres",
+      "18π square metres"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "b9d3ef45298939ca87fa",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "A cube has side length 4 centimetres. What is its volume?",
+    "answers": [
+      "16 cubic centimetres",
+      "48 cubic centimetres",
+      "96 cubic centimetres",
+      "64 cubic centimetres"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "987b681c1314c3734c34",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "A cuboid measures 2 metres by 3 metres by 5 metres. What is its volume?",
+    "answers": [
+      "20 cubic metres",
+      "62 cubic metres",
+      "30 cubic metres",
+      "10 cubic metres"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "fa46d923776fa17f98c2",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "A right-angled triangle has shorter sides of 5 and 12 centimetres. What is the hypotenuse length?",
+    "answers": [
+      "60 centimetres",
+      "13 centimetres",
+      "17 centimetres",
+      "7 centimetres"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "bbfc53f7732df5d3f82a",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Two angles of a Euclidean triangle are 35° and 65°. What is the third angle?",
+    "answers": [
+      "80°",
+      "100°",
+      "90°",
+      "70°"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "42504fbed6591a8a6287",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "What is each interior angle of a regular hexagon?",
+    "answers": [
+      "60°",
+      "108°",
+      "135°",
+      "120°"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "762cab3ce5664bea98fb",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "How many sides does a simple polygon in Euclidean geometry have if its interior angles sum to 900°?",
+    "answers": [
+      "6",
+      "8",
+      "7",
+      "5"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "560d5634e41c93249a96",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "An angle measures 30°. What is its complement?",
+    "answers": [
+      "90°",
+      "60°",
+      "150°",
+      "330°"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "8bd7b94392dcdcb6bd19",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is the mean of 4, 6, 8 and 10?",
+    "answers": [
+      "7",
+      "6",
+      "8",
+      "28"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "4b5184eefabc7bbcbd9b",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is the median of 9, 2, 5, 1 and 7?",
+    "answers": [
+      "2",
+      "7",
+      "4.8",
+      "5"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "760185f8ac70f6a58065",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is the median of 2, 4, 9 and 11?",
+    "answers": [
+      "4",
+      "9",
+      "6.5",
+      "6"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "b27ecb7fb36576e2b91a",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is the mode of 2, 3, 3, 4 and 5?",
+    "answers": [
+      "5",
+      "3",
+      "2",
+      "4"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "a7151ea8abb2508bc5ba",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is the range of the data 12, 4, 18 and 7?",
+    "answers": [
+      "14",
+      "18",
+      "4",
+      "11"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "f29eff8eebb6b5e3566a",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "The population consists of the two values 1 and 3. What is its population variance?",
+    "answers": [
+      "2",
+      "0",
+      "4",
+      "1"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "a912bcdc8817205567b2",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "A fair six-sided die is numbered 1 to 6. What is the probability of rolling an even number?",
+    "answers": [
+      "1/6",
+      "2/3",
+      "1/2",
+      "1/3"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "e12d156c42682414dca7",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Two fair coins are tossed independently. What is the probability of getting exactly one head?",
+    "answers": [
+      "1",
+      "1/2",
+      "1/4",
+      "3/4"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "0d9a487e7218d9838f0b",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "A bag contains three red balls and two blue balls. Two balls are drawn at random without replacement. What is the probability that both are red?",
+    "answers": [
+      "3/10",
+      "9/25",
+      "2/5",
+      "1/5"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "d709b5a3db779a65a4f8",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "A fair six-sided die is rolled twice independently. What is the probability of rolling a 6 both times?",
+    "answers": [
+      "1/6",
+      "1/12",
+      "1/3",
+      "1/36"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "149b36fd4f123425f5a7",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "What is the expected value of one roll of a fair die numbered 1 to 6?",
+    "answers": [
+      "4",
+      "6",
+      "3.5",
+      "3"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "024755858a06e1a3a573",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "A fair die numbered 1 to 6 is rolled twice independently. What is the probability of at least one 6?",
+    "answers": [
+      "25/36",
+      "11/36",
+      "1/3",
+      "1/6"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "250bc6343c70417f9fdc",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "Independent events A and B have probabilities 1/2 and 1/5. What is the probability that at least one occurs?",
+    "answers": [
+      "3/5",
+      "7/10",
+      "1/10",
+      "2/5"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "828fec4b64084151e71d",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "If A = {1, 2, 3} and B = {3, 4}, what is their union?",
+    "answers": [
+      "{3}",
+      "{1, 2}",
+      "{1, 2, 4}",
+      "{1, 2, 3, 4}"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "3f3bda66beb711c5ffd9",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "If A = {2, 4, 6, 8} and B = {1, 4, 7, 8}, what is their intersection?",
+    "answers": [
+      "{2, 6}",
+      "{1, 7}",
+      "{4, 8}",
+      "{1, 2, 4, 6, 7, 8}"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "33d1f2adfe027b629b1c",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "The universal set is {1, 2, 3, 4, 5}. If A = {2, 4}, what is the complement of A?",
+    "answers": [
+      "The empty set",
+      "{1, 3, 5}",
+      "{2, 4}",
+      "{1, 2, 3, 4, 5}"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "b22e5301064805bd8832",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "How many subsets, including the empty set and the full set, does a set of three distinct elements have?",
+    "answers": [
+      "8",
+      "3",
+      "6",
+      "9"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "51a7ef1e037ea57b0732",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "An arithmetic sequence starts at 5 and increases by 3 each term. What is its tenth term?",
+    "answers": [
+      "30",
+      "35",
+      "27",
+      "32"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "aeb54eef276549bb5d14",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "A geometric sequence starts at 2 and multiplies by 3 each term. What is its fourth term?",
+    "answers": [
+      "24",
+      "162",
+      "54",
+      "18"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "c8a56c5fa1db427f0a1c",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is the sum of all whole numbers from 1 to 20 inclusive?",
+    "answers": [
+      "420",
+      "210",
+      "200",
+      "190"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "ca8cfcbd99c2c2ba5d7f",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is 1 + 2 + 4 + 8 + 16?",
+    "answers": [
+      "31",
+      "30",
+      "32",
+      "16"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "146d1f7bea585266ddad",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "What is log₂(32), the power to which 2 must be raised to obtain 32?",
+    "answers": [
+      "4",
+      "6",
+      "16",
+      "5"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "2bb2f5dd54fe42a4224e",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "What is log₁₀(0.01), the power to which 10 must be raised to obtain 0.01?",
+    "answers": [
+      "−1",
+      "0.01",
+      "−2",
+      "2"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "6e86227a1809d32cdf10",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "Which is the standard scientific notation for 0.00042?",
+    "answers": [
+      "0.42 × 10⁻³",
+      "4.2 × 10⁻⁴",
+      "4.2 × 10⁴",
+      "42 × 10⁻⁵"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "00d9aab1c1e2f4eada83",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What number is represented by 3.6 × 10³?",
+    "answers": [
+      "3600",
+      "360",
+      "36",
+      "0.0036"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "9392f10285bc9f261e52",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Round 12.746 to two decimal places.",
+    "answers": [
+      "12.74",
+      "12.70",
+      "12.8",
+      "12.75"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "66887c4957fc0ebc9e44",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "How many centimetres equal 2.5 metres?",
+    "answers": [
+      "2500",
+      "0.25",
+      "250",
+      "25"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "29d37c04d5f99e7afb46",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "How many square centimetres equal 1 square metre?",
+    "answers": [
+      "1,000,000",
+      "10,000",
+      "100",
+      "1,000"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "baaf2871a23c69669eaa",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "What is 90 kilometres per hour in metres per second?",
+    "answers": [
+      "25",
+      "15",
+      "30",
+      "90"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "c412552e0c296e65e5c1",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "What is the binary number 10110 written in base ten?",
+    "answers": [
+      "20",
+      "26",
+      "30",
+      "22"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "98476bf33fea4545a5f7",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "In hexadecimal, which decimal value does the digit A represent?",
+    "answers": [
+      "12",
+      "16",
+      "10",
+      "11"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "8e5bbf2bd13afb6225cb",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "What is the remainder when 1000 is divided by 7?",
+    "answers": [
+      "7",
+      "6",
+      "1",
+      "5"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "8f026185256ec7857530",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "What is the last decimal digit of 7⁴?",
+    "answers": [
+      "1",
+      "3",
+      "7",
+      "9"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "c68b7686331a0916aeea",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "What is the vertex of the parabola y = (x − 3)² + 2?",
+    "answers": [
+      "(−3, 2)",
+      "(3, −2)",
+      "(2, 3)",
+      "(3, 2)"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "22ce51fd50d1bf137ea1",
+    "categoryID": "19",
+    "difficulty": "hard",
+    "prompt": "What is the derivative of f(x) = x³?",
+    "answers": [
+      "3x",
+      "x⁴/4",
+      "3x²",
+      "x²"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "30196fe56ff92a92b71b",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "What is the derivative of the constant function f(x) = 7?",
+    "answers": [
+      "7x",
+      "0",
+      "1",
+      "7"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "8715a46a26a176d6ed27",
+    "categoryID": "19",
+    "difficulty": "hard",
+    "prompt": "What is the definite integral of f(x) = x from x = 0 to x = 2?",
+    "answers": [
+      "2",
+      "1",
+      "4",
+      "0"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "8823d81153e6d04b40ee",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is the area under y = 3 between x = 0 and x = 4, above the x-axis?",
+    "answers": [
+      "7 square units",
+      "3 square units",
+      "4 square units",
+      "12 square units"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "43342783e9ed233f6cc4",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "As the positive integer n grows without bound, what does 1 + 1/n approach?",
+    "answers": [
+      "2",
+      "Infinity",
+      "1",
+      "0"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "d580f45d89210a966e5d",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "What is sin 30°?",
+    "answers": [
+      "0",
+      "1/2",
+      "√3/2",
+      "1"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "27a7a0885ff3fb71c612",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is cos 0°?",
+    "answers": [
+      "1",
+      "0",
+      "−1",
+      "1/2"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "697702c1e680ea8af70c",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "What is tan 45°?",
+    "answers": [
+      "0",
+      "1/2",
+      "√3",
+      "1"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "378002beecc38ca9f941",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "How many radians equal 180°?",
+    "answers": [
+      "π/2",
+      "180π",
+      "π",
+      "2π"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "71c5905e988a5b0313bb",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "The imaginary unit i is defined by i² = −1. What is i⁴?",
+    "answers": [
+      "−i",
+      "1",
+      "−1",
+      "i"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "7fa292bf1caa9c9042ae",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "What is (3 + 2i) + (4 − 5i), where i² = −1?",
+    "answers": [
+      "7 − 3i",
+      "7 + 7i",
+      "−1 − 3i",
+      "12 − 10i"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "ca0bf48b8f0545a2e740",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "What is the modulus of the complex number 3 + 4i?",
+    "answers": [
+      "7",
+      "1",
+      "25",
+      "5"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "2a03ab2692b69abeb354",
+    "categoryID": "19",
+    "difficulty": "hard",
+    "prompt": "What is the determinant of the 2-by-2 matrix with rows (2, 3) and (1, 4)?",
+    "answers": [
+      "8",
+      "6",
+      "5",
+      "11"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "ab7acf76093927654194",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "For f(x) = 2x + 1, what is f(4)?",
+    "answers": [
+      "10",
+      "9",
+      "8",
+      "5"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "1475b1cf28989287fee1",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "If f(x) = x + 2 and g(x) = 3x, what is f(g(4))?",
+    "answers": [
+      "14",
+      "18",
+      "12",
+      "9"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "edc2d66867a0335e6d9b",
+    "categoryID": "19",
+    "difficulty": "hard",
+    "prompt": "If f(x) = 3x − 6, which formula gives its inverse function?",
+    "answers": [
+      "f⁻¹(x) = 3x + 6",
+      "f⁻¹(x) = (x − 6)/3",
+      "f⁻¹(x) = 1/(3x − 6)",
+      "f⁻¹(x) = x/3 + 2"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "ab1f7409731dc4310857",
+    "categoryID": "19",
+    "difficulty": "medium",
+    "prompt": "A quantity grows by 10% and then falls by 10%. Compared with its starting value, where does it finish?",
+    "answers": [
+      "1% higher",
+      "10% lower",
+      "1% lower",
+      "Unchanged"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  },
+  {
+    "id": "13e5ce6aba4a65452650",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "A square's side length is doubled. By what factor does its area increase?",
+    "answers": [
+      "8",
+      "4",
+      "2",
+      "3"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed_candidate",
+    "auditVersion": "2026-10-28-individual"
+  }
+]
