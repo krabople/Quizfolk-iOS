@@ -1,5 +1,6 @@
 <?php
 declare(strict_types=1);
+require_once __DIR__.'/questions.php';
 
 function social_schema(PDO $db):void {
     $columns=array_column($db->query('PRAGMA table_info(matches)')->fetchAll(),'name');if(in_array('duel_id',$columns,true) && in_array('preview_started',$columns,true))return;
@@ -52,15 +53,17 @@ function player_summary(PDO $db,string $viewer,array $p):array {
     $interest=json_decode($pref['interests'],true);$shared=array_values(array_intersect($interest,json_decode($mine['interests'],true)));
     return ['id'=>$p['id'],'name'=>$p['name'],'avatar'=>$p['avatar'],'displayBadge'=>display_badge($db,$p['id']),'title'=>$title,'interests'=>$interest,'sharedTopics'=>$shared,'following'=>(bool)sql($db,'SELECT 1 FROM follows WHERE player_id=? AND target_id=?',[$viewer,$p['id']])->fetch(),'followers'=>(int)sql($db,'SELECT COUNT(*) FROM follows WHERE target_id=?',[$p['id']])->fetchColumn(),'followingCount'=>(int)sql($db,'SELECT COUNT(*) FROM follows WHERE player_id=?',[$p['id']])->fetchColumn(),'canChallenge'=>$viewer!==$p['id'] && (bool)$pref['challenges_open'],'stats'=>$stats,'topics'=>$topics,'titles'=>$titles,'selectedTitle'=>$pref['title_id'],'discoverable'=>(bool)$pref['discoverable'],'challengesOpen'=>(bool)$pref['challenges_open']];
 }
-function fresh_packet(PDO $db,string $pid,string $topic):array {
-    $qdb=new PDO('sqlite:'.dirname(__DIR__).'/data/question-bank.sqlite',null,null,[PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION,PDO::ATTR_DEFAULT_FETCH_MODE=>PDO::FETCH_ASSOC]);
-    $bank=array_map(fn($r)=>json_decode($r['payload'],true),sql($qdb,'SELECT payload FROM questions WHERE category_id=?',[$topic])->fetchAll());if(count($bank)<7)fail('Unknown topic');
+function fresh_packet(PDO $db,string $pid,string $topic,?PDO $qdb=null):array {
+    $qdb ??= new PDO('sqlite:'.dirname(__DIR__).'/data/question-bank.sqlite',null,null,[PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION,PDO::ATTR_DEFAULT_FETCH_MODE=>PDO::FETCH_ASSOC]);
+    $bank=array_map(fn($r)=>json_decode($r['payload'],true),sql($qdb,'SELECT payload FROM questions WHERE category_id=?',[$topic])->fetchAll());
     $seen=tournament_seen_ids($db,$pid,$topic);
-    shuffle($bank);usort($bank,fn($a,$b)=>(int)isset($seen[$a['id']])<=>(int)isset($seen[$b['id']]));$packet=array_slice($bank,0,7);
+    $packet=array_slice(question_deck($bank,$seen),0,7);
+    if(count($packet)<7)fail('This topic needs at least seven different questions. Please choose another topic.',410);
     foreach($packet as &$q){$i=[0,1,2,3];shuffle($i);$q['answers']=array_map(fn($n)=>$q['answers'][$n],$i);$q['correctIndex']=array_search($q['correctIndex'],$i,true);}unset($q);return $packet;
 }
 function match_limit(PDO $db,string $pid):void {if((int)sql($db,'SELECT COUNT(*) FROM matches WHERE player_id=? AND created>?',[$pid,time()-3600])->fetchColumn()>=30)fail('You have reached the hourly duel limit',429);}
 function insert_match(PDO $db,string $pid,string $topic,string $kind,string $opponent,?string $otherID,array $packet,array $points,?string $duelID=null,?string $replayID=null):string {
+    if(count($packet)!==7 || count(unique_questions($packet))!==7)fail('This duel does not have seven different questions. Please start a new duel.',410);
     match_limit($db,$pid);$id=bin2hex(random_bytes(12));sql($db,'INSERT INTO matches(id,player_id,topic,kind,opponent,opponent_id,duel_id,opponent_match,packet,opponent_points,created) VALUES(?,?,?,?,?,?,?,?,?,?,?)',[$id,$pid,$topic,$kind,$opponent,$otherID,$duelID,$replayID,json_encode($packet,JSON_UNESCAPED_UNICODE),json_encode($points),time()]);return $id;
 }
 function start_info(PDO $db,array $m):array {
@@ -77,7 +80,7 @@ function replay_candidate(PDO $db,string $pid,string $topic,array $config):array
 // Stored duels retain their history, but corrected/withdrawn questions must not
 // return through an old replay. Answer shuffling alone is not a content change.
 function packet_is_current(array $packet,?PDO $bank=null):bool {
-    if(!$packet)return false;
+    if(!$packet || count(unique_questions($packet))!==count($packet))return false;
     $bank ??= new PDO('sqlite:'.dirname(__DIR__).'/data/question-bank.sqlite',null,null,[PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION]);
     foreach($packet as $old) {
         $current=json_decode((string)sql($bank,'SELECT payload FROM questions WHERE id=?',[$old['id'] ?? ''])->fetchColumn(),true);

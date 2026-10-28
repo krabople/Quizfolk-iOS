@@ -19,6 +19,7 @@ jobs:
           php -l backend/public/index.php
           php scripts/test_migration.php
           php scripts/test_bank_revisions.php
+          php scripts/test_question_dedup.php
           php scripts/test_tournament_schedule.php
           php scripts/test_economy.php
       - name: Run isolated API contract tests

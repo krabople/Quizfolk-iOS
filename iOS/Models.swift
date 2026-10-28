@@ -19,6 +19,13 @@ struct Question: Codable, Identifiable {
     let correctIndex: Int
     var source: String? = nil
     var sourceURL: String? = nil
+    var promptKey: String {
+        var key=prompt.precomposedStringWithCompatibilityMapping.folding(options:.caseInsensitive,locale:Locale(identifier:"en_US_POSIX"))
+        for (from,to) in [("‘","'"),("’","'"),("“","\""),("”","\"")] {key=key.replacingOccurrences(of:from,with:to)}
+        key=key.replacingOccurrences(of:#"[\p{Z}\p{C}\s]+"#,with:" ",options:.regularExpression).trimmingCharacters(in:.whitespacesAndNewlines)
+        key=key.replacingOccurrences(of:#"\?+$"#,with:"",options:.regularExpression)
+        return key.replacingOccurrences(of:#"(?<=\p{L})[.!]+$"#,with:"",options:.regularExpression)
+    }
     func shuffled() -> Question {
         let indices = Array(answers.indices).shuffled()
         return Question(id:id, categoryID:categoryID, difficulty:difficulty, prompt:prompt,

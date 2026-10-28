@@ -51,6 +51,7 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
     private var store:QuizStore
     init(topic:Topic,store:QuizStore,online:Bool,match:StartReply?=nil) {self.topic=topic;self.store=store;self.online=online;self.suppliedMatch=match;self.searching=online && match==nil}
     func begin() async {
+        guard !prepared,!busy else {return}
         busy=true;error=nil;defer{busy=false;searching=false}
         do {
             if online {
@@ -70,7 +71,7 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
                 }
             } else {
                 packet=store.packet(topic)
-                guard packet.count==7 else {throw APIError.message("This topic needs at least seven questions.")}
+                guard packet.count==7 else {throw APIError.message("This topic needs at least seven different questions. Please choose another topic.")}
             }
             prepared=true
         } catch {self.error=error.localizedDescription}

@@ -65,11 +65,19 @@ import Security
         UserDefaults.standard.set(apiURL,forKey:"apiURL")
     }
     func packet(_ topic:Topic) -> [Question] {
-        let seen=Set(history.filter{$0.topicID==topic.id}.flatMap{$0.rounds.map{$0.question.id}})
+        let played=history.filter{$0.topicID==topic.id}.flatMap{$0.rounds.map{$0.question}}
+        let seen=Set(played.map{$0.id}),seenPrompts=Set(played.map{$0.promptKey})
         let bank=questions.filter{$0.categoryID==topic.id}
-        let fresh=bank.filter{!seen.contains($0.id)}.shuffled()
-        let extra=bank.filter{seen.contains($0.id)}.shuffled()
-        return Array((fresh+extra).prefix(7)).map{$0.shuffled()}
+        let fresh=bank.filter{!seen.contains($0.id) && !seenPrompts.contains($0.promptKey)}.shuffled()
+        let extra=bank.filter{seen.contains($0.id) || seenPrompts.contains($0.promptKey)}.shuffled()
+        var ids=Set<String>(),prompts=Set<String>(),result:[Question]=[]
+        for question in fresh+extra {
+            let key=question.promptKey
+            guard !key.isEmpty,!ids.contains(question.id),!prompts.contains(key) else {continue}
+            ids.insert(question.id);prompts.insert(key);result.append(question.shuffled())
+            if result.count==7 {break}
+        }
+        return result
     }
     func save(_ match:MatchRecord) {
         guard !history.contains(where:{$0.id==match.id}) else {return}

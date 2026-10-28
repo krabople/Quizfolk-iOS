@@ -1,5 +1,6 @@
 <?php
 declare(strict_types=1);
+require_once __DIR__.'/questions.php';
 
 // Survival tournaments use their own runs. They can never become duel replays,
 // fabricated head-to-head wins, or an overall player level.
@@ -13,6 +14,10 @@ function tournament_schema(PDO $db):void {
       CREATE TABLE IF NOT EXISTS tournament_daily_schedule(day INTEGER PRIMARY KEY,event_ids TEXT NOT NULL);
       CREATE TABLE IF NOT EXISTS question_seen(player_id TEXT REFERENCES players(id) ON DELETE CASCADE,question_id TEXT NOT NULL,topic TEXT NOT NULL,PRIMARY KEY(player_id,question_id));
       CREATE TABLE IF NOT EXISTS tournament_legacy_prize_floor(event_id TEXT PRIMARY KEY REFERENCES tournament_events(id),coins INTEGER NOT NULL);');
+    if(!in_array('question_keys',array_column($db->query('PRAGMA table_info(tournament_runs)')->fetchAll(),'name'),true)) {
+        try {$db->exec('ALTER TABLE tournament_runs ADD COLUMN question_keys TEXT NOT NULL DEFAULT "{}"');}
+        catch(PDOException $e) {if(!in_array('question_keys',array_column($db->query('PRAGMA table_info(tournament_runs)')->fetchAll(),'name'),true))throw $e;}
+    }
 }
 function tournament_credit(PDO $db,string $pid,string $ref,int $coins,int $tickets):void {
     sql($db,'INSERT OR IGNORE INTO tournament_wallet VALUES(?,0,0)',[$pid]);
@@ -111,22 +116,39 @@ function tournament_card(PDO $db,string $pid,array $e):array {
     $place=sql($db,'SELECT rank,reward FROM tournament_places WHERE event_id=? AND player_id=?',[$e['id'],$pid])->fetch();
     return ['id'=>$e['id'],'topicID'=>$e['topic'],'kind'=>$e['kind'],'starts'=>(int)$e['starts'],'ends'=>(int)$e['ends'],'coins'=>(int)$e['coins'],'tickets'=>0,'closed'=>(bool)$e['settled'],'featured'=>tournament_featured($db,$e),'prizePool'=>tournament_prize_pool($db,$e['id']),'best'=>(int)$best['score'],'streak'=>(int)$best['streak'],'attempts'=>(int)$best['attempts'],'players'=>(int)sql($db,'SELECT COUNT(DISTINCT player_id) FROM tournament_runs WHERE event_id=?',[$e['id']])->fetchColumn(),'activeRun'=>$active ?: null,'rank'=>$place ? (int)$place['rank']:null,'reward'=>$place ? (int)$place['reward']:0];
 }
-function tournament_question(PDO $db,array &$r):?array {
-    $deck=json_decode($r['deck'],true);$turn=(int)$r['turn'];$id=$deck[$turn] ?? null;
-    $qdb=new PDO('sqlite:'.dirname(__DIR__).'/data/question-bank.sqlite',null,null,[PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION]);
+function tournament_question(PDO $db,array &$r,?PDO $qdb=null):?array {
+    $deck=json_decode($r['deck'],true);$turn=(int)$r['turn'];$oldID=$deck[$turn] ?? null;
+    $keys=json_decode($r['question_keys'] ?? '{}',true);$oldKeys=$keys;
+    $qdb ??= new PDO('sqlite:'.dirname(__DIR__).'/data/question-bank.sqlite',null,null,[PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION]);
     $topic=(string)sql($db,'SELECT topic FROM tournament_events WHERE id=?',[$r['event_id']])->fetchColumn();
-    $q=$id ? json_decode((string)sql($qdb,'SELECT payload FROM questions WHERE id=? AND category_id=?',[$id,$topic])->fetchColumn(),true):null;
-    if(!$q) {
-        // Editorial removals must not strand a paid run. Keep the answered prefix
-        // and score, discard only unavailable future IDs, then continue normally.
-        $valid=array_fill_keys(sql($qdb,'SELECT id FROM questions WHERE category_id=?',[$topic])->fetchAll(PDO::FETCH_COLUMN),true);
-        $pending=array_values(array_filter(array_slice($deck,$turn),fn($qid)=>isset($valid[$qid])));
-        $deck=array_merge(array_slice($deck,0,$turn),$pending);$r['deck']=json_encode($deck);$r['preview']=null;$r['started']=null;
-        if(!$pending)$r['state']='cleared';
-        sql($db,'UPDATE tournament_runs SET deck=?,preview=NULL,started=NULL,state=? WHERE id=?',[$r['deck'],$r['state'],$r['id']]);
-        if(!$pending)return null;
-        $id=$pending[0];$q=json_decode((string)sql($qdb,'SELECT payload FROM questions WHERE id=?',[$id])->fetchColumn(),true);
+    $bank=[];foreach(sql($qdb,'SELECT payload FROM questions WHERE category_id=?',[$topic])->fetchAll(PDO::FETCH_COLUMN) as $payload){$item=json_decode($payload,true);$bank[$item['id']]=$item;}
+    $usedIDs=[];$usedPrompts=[];$unknownPast=false;
+    foreach(array_slice($deck,0,$turn) as $qid) {
+        $key=$keys[$qid] ?? (isset($bank[$qid]) ? question_prompt_key($bank[$qid]['prompt']):null);
+        if($key===null){$unknownPast=true;break;}
+        $keys[$qid]=$key;$usedIDs[$qid]=true;$usedPrompts[$key]=true;
     }
+    // Keep the paid run's order, answered prefix and score. Remove duplicate or
+    // withdrawn future content. Never refill or reshuffle an exhausted run.
+    // A legacy answered ID withdrawn before keys were saved cannot be verified;
+    // end that run with its earned score rather than risk showing it again.
+    $pending=[];
+    if(!$unknownPast)foreach(array_slice($deck,$turn) as $qid) {
+        if(!isset($bank[$qid]))continue;
+        $key=question_prompt_key($bank[$qid]['prompt']);
+        if($key==='' || isset($usedIDs[$qid]) || isset($usedPrompts[$key]))continue;
+        $usedIDs[$qid]=true;$usedPrompts[$key]=true;$keys[$qid]=$key;$pending[]=$qid;
+    }
+    $id=$pending[0] ?? null;$nextDeck=json_encode(array_merge(array_slice($deck,0,$turn),$pending));
+    $currentChanged=$oldID!==$id || ($id!==null && isset($oldKeys[$id]) && $oldKeys[$id]!==$keys[$id]);
+    if($nextDeck!==$r['deck'] || $keys!==$oldKeys) {
+        $r['deck']=$nextDeck;$r['question_keys']=json_encode($keys);
+        if($currentChanged){$r['preview']=null;$r['started']=null;}
+        if($id===null)$r['state']='cleared';
+        sql($db,'UPDATE tournament_runs SET deck=?,question_keys=?,preview=?,started=?,state=? WHERE id=?',[$r['deck'],$r['question_keys'],$r['preview'],$r['started'],$r['state'],$r['id']]);
+    }
+    if($id===null){$r['state']='cleared';sql($db,'UPDATE tournament_runs SET state="cleared",preview=NULL,started=NULL WHERE id=?',[$r['id']]);return null;}
+    $r['_questionChanged']=$currentChanged;$q=$bank[$id];
     $order=[0,1,2,3];usort($order,fn($a,$b)=>strcmp(hash('sha256',$r['id'].$id.$a),hash('sha256',$r['id'].$id.$b)));$correct=$q['correctIndex'];$a=$q['answers'];$q['answers']=array_map(fn($i)=>$a[$i],$order);$q['correctIndex']=array_search($correct,$order,true);return $q;
 }
 function tournament_run_reply(array $r):array {return ['id'=>$r['id'],'eventID'=>$r['event_id'],'score'=>(int)$r['score'],'streak'=>(int)$r['streak'],'turn'=>(int)$r['turn'],'state'=>$r['state']];}
@@ -154,20 +176,20 @@ function tournament_routes(string $route,PDO $db,string $pid,array $body):void {
         if((int)sql($db,'SELECT COUNT(*) FROM tournament_runs WHERE player_id=? AND created>?',[$pid,time()-3600])->fetchColumn()>=30)fail('Please wait before starting another tournament run',429);
         $w=tournament_wallet($db,$pid);
         if($w['coins']<(int)$e['coins'])fail('Not enough coins. This entry costs '.$e['coins'].' coins and your balance is '.$w['coins'].'. Open Earn coins to complete your Daily Trail.',409);
-        $qdb=new PDO('sqlite:'.dirname(__DIR__).'/data/question-bank.sqlite');$ids=sql($qdb,'SELECT id FROM questions WHERE category_id=?',[$e['topic']])->fetchAll(PDO::FETCH_COLUMN);if(!$ids)fail('This topic is unavailable',410);
-        $seen=tournament_seen_ids($db,$pid,$e['topic']);$fresh=[];$repeated=[];
-        foreach($ids as $qid){if(isset($seen[$qid]))$repeated[]=$qid;else $fresh[]=$qid;}
-        shuffle($fresh);shuffle($repeated);$ids=array_merge($fresh,$repeated);
-        $id=bin2hex(random_bytes(12));sql($db,'INSERT INTO tournament_runs(id,event_id,player_id,request_key,deck,created) VALUES(?,?,?,?,?,?)',[$id,$event,$pid,$key,json_encode($ids),time()]);
+        $qdb=new PDO('sqlite:'.dirname(__DIR__).'/data/question-bank.sqlite');
+        $bank=array_map(fn($payload)=>json_decode($payload,true),sql($qdb,'SELECT payload FROM questions WHERE category_id=?',[$e['topic']])->fetchAll(PDO::FETCH_COLUMN));
+        $deck=question_deck($bank,tournament_seen_ids($db,$pid,$e['topic']));if(!$deck)fail('This topic is unavailable',410);
+        $ids=array_column($deck,'id');$keys=[];foreach($deck as $q)$keys[$q['id']]=question_prompt_key($q['prompt']);
+        $id=bin2hex(random_bytes(12));sql($db,'INSERT INTO tournament_runs(id,event_id,player_id,request_key,deck,question_keys,created) VALUES(?,?,?,?,?,?,?)',[$id,$event,$pid,$key,json_encode($ids),json_encode($keys),time()]);
         tournament_credit($db,$pid,'entry:'.$id,-(int)$e['coins'],-(int)$e['tickets']);$r=sql($db,'SELECT * FROM tournament_runs WHERE id=?',[$id])->fetch();$db->exec('COMMIT');out(tournament_run_reply($r),201);
     }
     $id=(string)($body['run'] ?? '');$r=sql($db,'SELECT * FROM tournament_runs WHERE id=? AND player_id=?',[$id,$pid])->fetch();if(!$r)fail('Tournament run not found',404);
     if($route==='tournament-end') {if($r['state']==='playing'){sql($db,'UPDATE tournament_runs SET state="ended",started=NULL,preview=NULL WHERE id=?',[$id]);$r['state']='ended';}$db->exec('COMMIT');out(tournament_run_reply($r));}
     if($route==='tournament-answer' && isset($body['turn']) && is_int($body['turn']) && $body['turn']===(int)$r['turn']-1 && $r['last_reply']){$cached=json_decode($r['last_reply'],true);$db->exec('COMMIT');out($cached);}
     if($r['state']!=='playing'){$db->exec('COMMIT');out(tournament_run_reply($r));}
-    $previousDeck=$r['deck'];$q=tournament_question($db,$r);
+    $q=tournament_question($db,$r);
     if(!$q){$db->exec('COMMIT');out(tournament_run_reply($r));}
-    if($route==='tournament-answer' && ($r['deck']!==$previousDeck || ($r['started']===null && $r['preview']===null && ($body['turn'] ?? null)===(int)$r['turn']))){$db->exec('COMMIT');out(tournament_run_reply($r)+['questionChanged'=>true]);}
+    if($route==='tournament-answer' && (!empty($r['_questionChanged']) || ($r['started']===null && $r['preview']===null && ($body['turn'] ?? null)===(int)$r['turn']))){$db->exec('COMMIT');out(tournament_run_reply($r)+['questionChanged'=>true]);}
     if($route==='tournament-round' || $route==='tournament-reveal') {
         sql($db,'INSERT OR IGNORE INTO question_seen VALUES(?,?,?)',[$pid,$q['id'],$q['categoryID']]);
         $preview=$r['preview']===null ? microtime(true):(float)$r['preview'];$left=max(0,2-(microtime(true)-$preview));$reading=$r['started']===null && ($route==='tournament-round' || $left>0);
