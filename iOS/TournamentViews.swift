@@ -5,7 +5,6 @@ struct TournamentsView:View {
  @State private var list:TournamentList?
  @State private var error:String?
  @State private var section="daily"
- @State private var busy=false
  var body:some View {
   NavigationStack {
    ScrollView {
@@ -15,9 +14,11 @@ struct TournamentsView:View {
       walletView(list.wallet)
       Text("Build the biggest score before your first wrong answer or timeout. Faster correct answers earn more points. Your best run counts.").font(.subheadline).foregroundStyle(.secondary)
       Picker("Tournament section",selection:$section) {
-       Text("Daily").tag("daily");Text("Weekly").tag("weekly");Text("My results").tag("results")
+       Text("Daily").tag("daily");Text("Weekly").tag("weekly");Text("My entries").tag("results")
       }.pickerStyle(.segmented)
-      let visible=list.events.filter{section=="results" ? $0.closed:$0.kind==section && !$0.closed}
+      let visible=list.events.filter{section=="results" ? $0.attempts>0:$0.kind==section && !$0.closed && $0.isFeatured}
+      if section=="daily" {Text("Three topics each day · 25, 50 and 75 coins to enter").font(.caption).foregroundStyle(.secondary)}
+      if section=="results" {Text("Resume your runs and see results from every tournament you entered.").font(.caption).foregroundStyle(.secondary)}
       if visible.isEmpty {ContentUnavailableView(section=="results" ? "Your next trophy awaits":"New tournaments soon",systemImage:"trophy",description:Text("Daily topics rotate at midnight UTC. Weekly tournaments close on Monday at midnight UTC."))}
       ForEach(visible) {event in
        if let topic=store.topics.first(where:{$0.id==event.topicID}) {
@@ -32,11 +33,8 @@ struct TournamentsView:View {
  }
  private func walletView(_ w:TournamentWallet)->some View {
   VStack(spacing:12) {
-   HStack {Label("\(w.coins) coins",systemImage:"circle.fill");Spacer();Label("\(w.tickets) tickets",systemImage:"ticket.fill")}.font(.headline).foregroundStyle(Color.ink)
-   Button(w.dailyClaimed ? "Daily supply collected":"Collect free daily supply · 50 coins + 2 tickets") {
-    Task {busy=true;defer{busy=false};do{let _:TournamentWallet=try await store.request("tournament-daily",body:[:]);await reload()}catch{self.error=error.localizedDescription}}
-   }.font(.caption.bold()).disabled(w.dailyClaimed || busy || store.isUITesting)
-   Text("Coins and tickets are free game credits. Daily free-entry tournaments are always available.").font(.caption2).foregroundStyle(.secondary)
+   HStack {Label("\(w.coins) coins",systemImage:"circle.fill").font(.title2.bold());Spacer();NavigationLink("Earn coins"){CoinTrailView()}.font(.headline)}.foregroundStyle(Color.ink)
+   Text("Complete your Daily Trail to earn coins, then put them towards a tournament entry.").font(.caption).foregroundStyle(.secondary)
   }.padding(17).background(.white,in:RoundedRectangle(cornerRadius:17))
  }
  private func reload()async {do{list=try await store.tournamentList();error=nil}catch{self.error=error.localizedDescription}}
@@ -49,7 +47,7 @@ struct TournamentTile:View {
    Text(topic.emoji).font(.system(size:34)).frame(width:64,height:64).background(topic.tint.opacity(0.13),in:RoundedRectangle(cornerRadius:16))
    VStack(alignment:.leading,spacing:6) {
     Text(topic.name).font(.headline)
-    Text(event.closed ? "Finished · Best \(event.best) points":event.entryLabel+" · \(event.players) players").font(.caption).foregroundStyle(.secondary)
+    Text(event.closed ? "Finished · Best \(event.best) points":event.entryLabel+" · \(event.players) player\(event.players==1 ? "":"s")").font(.caption).foregroundStyle(.secondary)
     if event.closed {if let rank=event.rank {Text("Final place #\(rank) · \(event.reward) prize coins").font(.caption.bold()).foregroundStyle(topic.tint)}}
     else {HStack(spacing:4){Text("Ends in");Text(Date(timeIntervalSince1970:event.ends),style:.relative)}.font(.caption.bold()).foregroundStyle(topic.tint)}
    }
@@ -63,7 +61,9 @@ struct TournamentDetailView:View {
  let event:TournamentEvent;let topic:Topic
  @State private var board:TournamentBoard?
  @State private var error:String?
- @State private var confirmEntry=false
+ @State private var entryNotice:EntryNotice?
+ @State private var entryBusy=false
+ @State private var entryRequestID=UUID().uuidString
  @State private var session:TournamentSession?
  private var current:TournamentEvent {board?.event ?? event}
  var body:some View {
@@ -75,12 +75,17 @@ struct TournamentDetailView:View {
     if !current.closed {HStack{Text("Closes");Text(Date(timeIntervalSince1970:current.ends),style:.date);Text(Date(timeIntervalSince1970:current.ends),style:.time)}.font(.caption)}
     HStack {summary("\(current.best)","Your best points");summary("\(current.players)","Players");summary("\(current.attempts)","Your attempts")}.padding(18).background(.white,in:RoundedRectangle(cornerRadius:18))
     if !current.closed {
-     if let wallet=board?.wallet {Text("Your balance: \(wallet.coins) coins · \(wallet.tickets) tickets").font(.caption).foregroundStyle(.secondary)}
-     Button(current.activeRun==nil ? "Enter · \(current.entryLabel)":"Resume your run · already entered") {
-      if current.activeRun != nil || (current.coins==0 && current.tickets==0){start()}else{confirmEntry=true}
-     }.buttonStyle(PrimaryButton(color:topic.tint)).accessibilityIdentifier("enterTournament")
+     if let wallet=board?.wallet {Text("Your balance: \(wallet.coins) coins").font(.caption).foregroundStyle(.secondary)}
+     if current.isFeatured || current.activeRun != nil {
+      Button(entryBusy ? "Checking entry…":(current.activeRun==nil ? "Enter · \(current.entryLabel)":"Resume your run · already entered")) {
+       Task{await prepareEntry()}
+      }.buttonStyle(PrimaryButton(color:topic.tint)).disabled(entryBusy).accessibilityIdentifier("enterTournament")
+     } else {
+      Text("New entries are closed for this earlier tournament. Your score is kept until the tournament ends.").font(.subheadline).multilineTextAlignment(.center)
+     }
     }
     rules
+    if let pool=current.prizePool {Label("\(pool) coins in the prize pool",systemImage:"trophy").font(.headline).foregroundStyle(topic.tint)}
     VStack(alignment:.leading,spacing:15) {
      HStack {Text(current.closed ? "Final standings":"Tournament standings").font(.title3.bold());Spacer();Button{Task{await reload()}}label:{Image(systemName:"arrow.clockwise")}.accessibilityLabel("Refresh tournament standings")}
      Text("Best score counts · equal scores share a place").font(.caption).foregroundStyle(.secondary)
@@ -103,9 +108,12 @@ struct TournamentDetailView:View {
    }.padding(22)
   }.background(Color.canvas).foregroundStyle(Color.ink).navigationTitle("Tournament").navigationBarTitleDisplayMode(.inline).toolbar(.visible,for:.navigationBar)
    .task{await reload()}.refreshable{await reload()}
-   .confirmationDialog("Enter for \(current.entryLabel)?",isPresented:$confirmEntry,titleVisibility:.visible) {
-    Button("Enter · \(current.entryLabel)"){start()};Button("Cancel",role:.cancel){}
-   } message: {Text("This cost applies to each new attempt. Resuming the same run costs nothing. Your best score counts.")}
+   .alert(item:$entryNotice) {notice in
+    if notice.confirmation {
+     return Alert(title:Text(notice.title),message:Text(notice.message),primaryButton:.default(Text("Enter · \(current.entryLabel)")){Task{await start()}},secondaryButton:.cancel())
+    }
+    return Alert(title:Text(notice.title),message:Text(notice.message),dismissButton:.default(Text("OK")))
+   }
    .fullScreenCover(item:$session,onDismiss:{Task{await reload()}}){TournamentPlayView(game:$0).environmentObject(store)}
  }
  private var rules:some View {
@@ -113,12 +121,49 @@ struct TournamentDetailView:View {
    Text("How this tournament works").font(.headline)
    Text("Keep answering in \(topic.name) until your first wrong answer or timeout. Read each question for 2 seconds, then choose from four answers within 10 seconds. Correct answers earn 11–20 points for speed; every question has the same value. Your score is the total points in that run.")
    Text("Try again for the displayed entry cost. Only your best run counts; attempts do not add together. Every question in a run is different. If you clear the entire topic bank, that completes your run.")
-   Text("The leaderboard closes at the stated time. Earned points are kept if you end a run early or the event closes. Top places win 500 / 250 / 100 coins and a profile trophy. Equal scores share the same place and prize. At least two players and a positive score are needed for a prize; with fewer than two players, entry credits are refunded.")
+   Text("The leaderboard closes at the stated time. Earned points are kept if you end a run early or the event closes. The top three places receive coins and a profile badge.")
+   Text("Entry coins form the prize pool. With three or more players, first place receives 50%, second 30% and third 20%. With two players, the split is 60% and 40%; a sole entrant receives the whole pool. Tied players share the prizes for the places they occupy, rounded down to whole coins.")
    Text("You compete against other players’ scores on your own schedule. Tournament points are separate from duel XP and topic levels.")
   }.font(.caption).foregroundStyle(.secondary).padding(18).background(.white,in:RoundedRectangle(cornerRadius:18)).accessibilityIdentifier("tournamentRules")
  }
  private func summary(_ value:String,_ label:String)->some View {VStack(spacing:5){Text(value).font(.system(size:24,weight:.heavy,design:.rounded));Text(label).font(.caption2).foregroundStyle(.secondary)}.frame(maxWidth:.infinity)}
- private func start(){session=TournamentSession(event:current,topic:topic,store:store)}
+ private struct EntryNotice:Identifiable {
+  let id=UUID();let title:String;let message:String;var confirmation=false
+ }
+ private func prepareEntry()async {
+  guard !entryBusy else{return}
+  entryBusy=true;defer{entryBusy=false}
+  do {
+   let fresh=try await store.tournamentBoard(event.id)
+   board=fresh;error=nil
+   guard !fresh.event.closed else {
+    entryNotice=EntryNotice(title:"Tournament finished",message:"Entries have closed. Choose one of today’s tournaments.");return
+   }
+   if let problem=fresh.wallet.entryProblem(for:fresh.event) {
+    entryNotice=EntryNotice(title:problem.title,message:problem.message);return
+   }
+   if fresh.event.activeRun != nil {
+    await start()
+   } else {
+    entryNotice=EntryNotice(title:"Enter for \(fresh.event.entryLabel)?",message:"This entry costs \(fresh.event.entryLabel). Each new attempt has the same cost. Resuming this run is free, and only your best score counts.",confirmation:true)
+   }
+  } catch {
+   entryNotice=EntryNotice(title:"Couldn’t check your entry",message:error.localizedDescription)
+  }
+ }
+ private func start()async {
+  entryBusy=true;defer{entryBusy=false}
+  do {
+   // Admission happens here, before opening the game. The server checks the
+   // latest balance atomically and reuses this key if a network request retries.
+   let admitted:TournamentRunReply=try await store.request("tournament-enter",body:["event":event.id,"requestID":entryRequestID])
+   session=TournamentSession(event:current,topic:topic,store:store,admittedRun:admitted)
+   entryRequestID=UUID().uuidString
+  } catch {
+   entryNotice=EntryNotice(title:"Couldn’t enter tournament",message:error.localizedDescription)
+   await reload()
+  }
+ }
  private func reload()async {do{board=try await store.tournamentBoard(event.id);error=nil}catch{self.error=error.localizedDescription}}
 }
 
@@ -148,7 +193,7 @@ struct TournamentPlayView:View {
    VStack(spacing:16) {
     HStack {
      VStack(alignment:.leading,spacing:5){Text("SURVIVAL TOURNAMENT").font(.system(size:10,weight:.black)).tracking(1);Text("\(game.score) points").font(.system(size:30,weight:.heavy,design:.rounded));Text("\(game.streak) correct in a row").font(.caption)}
-     Spacer();timer
+     Spacer();if game.question != nil {timer}
     }
     if let question=game.question {
      Text(question.prompt).font(.system(size:25,weight:.bold,design:.rounded)).multilineTextAlignment(.center).lineLimit(7).minimumScaleFactor(0.6).frame(maxWidth:.infinity,maxHeight:.infinity)
@@ -164,7 +209,12 @@ struct TournamentPlayView:View {
       }
      }
      Text("\(question.source ?? "Open trivia contributors") · CC BY-SA 4.0").font(.system(size:8)).opacity(0.65).lineLimit(1)
-    } else {Spacer();ProgressView("Preparing your run…").tint(.white);Spacer()}
+    } else {
+     Spacer()
+     if game.error==nil {ProgressView("Preparing your run…").tint(.white)}
+     else {Label("Your run couldn’t load",systemImage:"exclamationmark.circle").font(.headline)}
+     Spacer()
+    }
     if let error=game.error {Text(error).font(.caption);Button("Try again"){Task{await game.retry()}}.buttonStyle(.bordered)}
    }.padding(20)
   }

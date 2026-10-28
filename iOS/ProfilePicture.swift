@@ -7,11 +7,14 @@ struct PlayerPortrait:View {
     var avatar:String? = nil
     var bot=false
     var size:CGFloat=68
+    var badge:TournamentPrize?=nil
     var body:some View {
         Group {
             if let avatar,let data=Data(base64Encoded:avatar),let image=UIImage(data:data) {Image(uiImage:image).resizable().scaledToFill()}
             else {ZStack{Circle().fill(Color.coral);Image(systemName:bot ? "cpu.fill":"person.fill").font(.system(size:size*0.42,weight:.bold)).foregroundStyle(.white)}}
-        }.frame(width:size,height:size).clipShape(Circle()).overlay(Circle().stroke(.white.opacity(0.8),lineWidth:3)).accessibilityLabel("\(name) profile picture")
+        }.frame(width:size,height:size).clipShape(Circle()).overlay(Circle().stroke(.white.opacity(0.8),lineWidth:3))
+            .overlay(alignment:.bottomTrailing){if let badge {TournamentMedal(prize:badge,size:max(22,size*0.32)).offset(x:3,y:3)}}
+            .accessibilityLabel("\(name) profile picture\(badge.map{", tournament \($0.placing) badge"} ?? "")")
     }
 }
 enum ProfilePicture {

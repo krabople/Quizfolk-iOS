@@ -26,8 +26,9 @@ import SwiftUI
  @Published var busy=false
  @Published var error:String?
  var hasStarted:Bool {runID != nil}
- init(event:TournamentEvent,topic:Topic,store:QuizStore) {
+ init(event:TournamentEvent,topic:Topic,store:QuizStore,admittedRun:TournamentRunReply?=nil) {
   self.event=event;self.topic=topic;self.store=store;runID=event.activeRun
+  if let admittedRun {runID=admittedRun.id;apply(admittedRun)}
  }
  func begin() async {
   guard !closed,!busy else{return}
@@ -89,6 +90,7 @@ import SwiftUI
   busy=true;defer{busy=false};error=nil
   do {
    let r:TournamentRunReply=try await store.request("tournament-answer",body:["run":runID,"turn":turn,"answer":pendingAnswer])
+   if r.questionChanged==true {self.pendingAnswer=nil;try await loadRound();return}
    apply(r);correctIndex=r.correctIndex;lastPoints=r.points ?? 0;revealed=true;reading=false;self.pendingAnswer=nil
    if r.correctIndex==nil && runEnded {showResult=true}
   } catch {self.error=error.localizedDescription}

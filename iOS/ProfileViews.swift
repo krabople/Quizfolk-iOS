@@ -45,12 +45,13 @@ struct ProfileView:View {
             ScrollView {
                 BrandHeader(title:"A curious mind.",subtitle:"Look how far your knowledge takes you.")
                 VStack(spacing:18) {
-                    PlayerPortrait(name:store.name,avatar:store.avatar,size:100)
+                    PlayerPortrait(name:store.name,avatar:store.avatar,size:100,badge:store.ownCard?.displayBadge)
                     PhotosPicker(selection:$selectedPhoto,matching:.images,photoLibrary:.shared()){Label("Change profile picture",systemImage:"photo")}
                         .disabled(store.profileBusy).accessibilityIdentifier("changeProfilePicture")
                     if store.avatar != nil {Button("Remove profile picture",role:.destructive){Task{await store.changeAvatar(nil)}}.font(.caption).disabled(store.profileBusy)}
                     if let pictureError {Text(pictureError).font(.caption).foregroundStyle(.red)}
                     Text(store.name).font(.system(size:25,weight:.bold,design:.rounded))
+                    HStack{NavigationLink("Earn coins"){CoinTrailView()};Spacer();NavigationLink("Tournament badges"){TournamentBadgePicker()}}.font(.subheadline)
                     Text("A DIFFERENT LEVEL IN EVERY TOPIC").font(.system(size:11,weight:.heavy)).tracking(1).foregroundStyle(.secondary)
                     if let id=store.profile?.id{NavigationLink("Your public card, titles & achievements"){PublicPlayerView(playerID:id)}}
                     HStack{metric("\(store.history.count)","Duels");metric("\(wins)","Wins");metric(total==0 ? "—":"\(Int(Double(correct)/Double(total)*100))%","Accuracy")}.padding(.vertical,18).background(.white,in:RoundedRectangle(cornerRadius:17))

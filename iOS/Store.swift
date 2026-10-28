@@ -20,6 +20,10 @@ import Security
     @Published var activity:[FriendActivity]=[]
     @Published var ownCard:PlayerCard?
     @Published var socialError:String?
+    @Published var pendingPrizes:[TournamentPrize]=[]
+    @Published var earnedPrizes:[TournamentPrize]=[]
+    var prizesLoading=false
+    var testPrizeAcknowledged=false
     var testFollowing=false
     #if DEBUG
     var testResponse:((String,[String:Any]?) async throws -> Data)?
@@ -107,7 +111,7 @@ import Security
     private func performConnect() async {
         profileBusy=true;defer{profileBusy=false}
         saveSettings();onlineError=nil
-        if UserDefaults.standard.string(forKey:"tokenEndpoint") != apiURL {token=nil;profile=nil;avatar=nil;UserDefaults.standard.removeObject(forKey:"avatar")}
+        if UserDefaults.standard.string(forKey:"tokenEndpoint") != apiURL {token=nil;profile=nil;avatar=nil;ownCard=nil;pendingPrizes=[];earnedPrizes=[];UserDefaults.standard.removeObject(forKey:"avatar")}
         do {
             if token==nil {
                 let auth:AuthReply=try await request("register",body:["name":name,"automaticName":name.hasPrefix("Explorer-")])
@@ -150,7 +154,7 @@ import Security
         onlineError=nil
         do {
             let _:OKReply=try await request("delete-account",body:[:])
-            Keychain.delete();token=nil;profile=nil;board=[];avatar=nil;ownCard=nil;people=[];challenges=[];activity=[]
+            Keychain.delete();token=nil;profile=nil;board=[];avatar=nil;ownCard=nil;people=[];challenges=[];activity=[];pendingPrizes=[];earnedPrizes=[]
             UserDefaults.standard.removeObject(forKey:"tokenEndpoint");UserDefaults.standard.removeObject(forKey:"avatar")
         } catch {onlineError=error.localizedDescription}
     }

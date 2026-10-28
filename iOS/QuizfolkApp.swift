@@ -19,8 +19,10 @@ struct RootView:View {
             ProfileView().tabItem{Label("You",systemImage:"person.crop.circle.fill")}.tag(3)
         }.tint(.coral)
         .onAppear{if !didChoose {interests=true}}
-        .task {await store.connect();await store.refreshSocial()}
-        .onChange(of:scenePhase){_,phase in if phase == .active {Task{await store.refreshSocial()}}}
+        .accessibilityHidden(!interests && !store.pendingPrizes.isEmpty)
+        .overlay{if !interests,let prize=store.pendingPrizes.first {TournamentPrizePopup(prize:prize).id(prize.id)}}
+        .task {await store.connect();await store.refreshSocial();await store.loadPrizes()}
+        .onChange(of:scenePhase){_,phase in if phase == .active {Task{await store.refreshSocial();await store.loadPrizes()}}}
         .sheet(isPresented:$interests,onDismiss:{didChoose=true}){InterestsView()}
         .alert("Question bank unavailable",isPresented:Binding(get:{store.loadError != nil},set:{_ in store.loadError=nil})){Button("OK",role:.cancel){}}message:{Text(store.loadError ?? "")}
     }

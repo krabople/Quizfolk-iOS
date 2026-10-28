@@ -2,7 +2,7 @@ name: Backend contract tests
 on:
   push:
     branches: [main]
-    paths: ['backend/**', 'scripts/test_backend.py', 'scripts/test_social.py', 'scripts/test_tournaments.py', 'data/**', '.github/workflows/backend.yml']
+    paths: ['backend/**', 'scripts/test_*.py', 'scripts/test_*.php', 'data/**', '.github/workflows/backend.yml']
   pull_request:
   workflow_dispatch:
 permissions:
@@ -18,6 +18,9 @@ jobs:
           python3 scripts/validate_bank.py
           php -l backend/public/index.php
           php scripts/test_migration.php
+          php scripts/test_bank_revisions.php
+          php scripts/test_tournament_schedule.php
+          php scripts/test_economy.php
       - name: Run isolated API contract tests
         run: |
           php -S 127.0.0.1:8770 -t backend/public > /tmp/quizfolk-php.log 2>&1 &
@@ -25,3 +28,4 @@ jobs:
           python3 scripts/test_backend.py
           python3 scripts/test_social.py
           python3 scripts/test_tournaments.py
+          python3 scripts/test_economy.py

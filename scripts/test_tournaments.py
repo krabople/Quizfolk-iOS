@@ -15,16 +15,30 @@ def req(route,body=None,token=None,status=200):
 a=req('register',{'name':'Tournament Alice'},status=201)['token']
 b=req('register',{'name':'Tournament Bob'},status=201)['token']
 aid=req('profile',token=a)['id'];bid=req('profile',token=b)['id']
-listing=req('tournaments',token=a);assert len(listing['events'])>=9
-assert listing['wallet']=={'coins':100,'tickets':3,'dailyClaimed':False}
-daily=req('tournament-daily',{},a);assert daily=={'coins':150,'tickets':5,'dailyClaimed':True}
-assert req('tournament-daily',{},a)==daily
+listing=req('tournaments',token=a)
+assert len([e for e in listing['events'] if e['kind']=='daily' and e['featured']])==3
+assert len([e for e in listing['events'] if e['kind']=='weekly'])==3
+assert listing['wallet']=={'coins':100,'tickets':0,'dailyClaimed':False}
+assert sorted(e['coins'] for e in listing['events'] if e['kind']=='daily')==[25,50,75]
+assert all(e['coins']==100 for e in listing['events'] if e['kind']=='weekly')
+assert all(e['tickets']==0 for e in listing['events'])
+assert 'Daily Trail' in req('tournament-daily',{},a,409)['error']
+assert req('tournaments',token=a)['wallet']==listing['wallet']
 event=next(e for e in listing['events'] if e['coins']==25)
+# Rejected admission cannot create a run or deduct credits. The client can show
+# this failure while still on the details page, including a stale-balance race.
+with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_wallet SET coins=0 WHERE player_id=?',(aid,))
+failure=req('tournament-enter',{'event':event['id'],'requestID':str(uuid.uuid4())},a,409)
+assert 'Not enough coins' in failure['error']
+with sqlite3.connect(STATE) as db:
+ assert db.execute('SELECT COUNT(*) FROM tournament_runs WHERE player_id=?',(aid,)).fetchone()[0]==0
+ assert db.execute('SELECT coins FROM tournament_wallet WHERE player_id=?',(aid,)).fetchone()[0]==0
+ db.execute('UPDATE tournament_wallet SET coins=100 WHERE player_id=?',(aid,))
 key=str(uuid.uuid4());body={'event':event['id'],'requestID':key}
 run=req('tournament-enter',body,a,201);assert run['score']==0 and run['streak']==0
 assert req('tournament-enter',body,a)['id']==run['id']
 assert req('tournament-enter',{'event':event['id'],'requestID':str(uuid.uuid4())},a)['id']==run['id']
-assert req('tournaments',token=a)['wallet']['coins']==125
+assert req('tournaments',token=a)['wallet']['coins']==75
 req('tournament-round',{'run':run['id']},b,404)
 seen=set()
 def answer(token,run_id,turn,right=True,elapsed=0.1):
@@ -52,12 +66,17 @@ assert result['score']==340 and result['streak']==17 and result['state']=='finis
 assert req('tournament-round',{'run':run['id']},a)['state']=='finished'
 # A timeout on a correct choice ends the run; it cannot earn points.
 retry=req('tournament-enter',{'event':event['id'],'requestID':str(uuid.uuid4())},a,201)
+with sqlite3.connect(STATE) as db:
+ deck=json.loads(db.execute('SELECT deck FROM tournament_runs WHERE id=?',(retry['id'],)).fetchone()[0])
+ previously_seen={row[0] for row in db.execute('SELECT question_id FROM question_seen WHERE player_id=?',(aid,))}
+ assert set(deck[-len(previously_seen):])==previously_seen
+ assert not set(deck[:-len(previously_seen)]).intersection(previously_seen)
 result,_=answer(a,retry['id'],0,True,11)
 assert result['score']==0 and result['streak']==0 and result['state']=='finished'
 board=req('tournament-board&event='+event['id'],token=a)
 assert board['event']['best']==340 and board['event']['attempts']==2
 assert board['entries'][0]['score']==340 and board['entries'][0]['rank']==1
-assert board['wallet']['coins']==100
+assert board['wallet']['coins']==50
 # Another human can play later, independently. Best scores are compared, never summed.
 other=req('tournament-enter',{'event':event['id'],'requestID':str(uuid.uuid4())},b,201)
 result,_=answer(b,other['id'],0,True,4.1);assert result['points']==16
@@ -66,34 +85,53 @@ assert req('profile',token=a)['xp']==0
 assert req('player&id='+bid,token=a)['headToHead']['games']==0
 with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_events SET ends=? WHERE id=?',(time.time()-1,event['id']))
 board=req('tournament-board&event='+event['id'],token=a)
-assert board['event']['closed'] and board['event']['reward']==500 and board['wallet']['coins']==600
-assert req('tournament-board&event='+event['id'],token=a)['wallet']['coins']==600
-assert req('tournament-board&event='+event['id'],token=b)['event']['reward']==250
+assert board['event']['closed'] and board['event']['reward']==45 and board['wallet']['coins']==95
+assert board['event']['prizePool']==75
+assert req('tournament-board&event='+event['id'],token=a)['wallet']['coins']==95
+assert req('tournament-board&event='+event['id'],token=b)['event']['reward']==30
 trophies=[x for x in req('player',token=a)['badges'] if x['id'].startswith('tournament:')]
 assert trophies and trophies[0]['earned'] and '#1' in trophies[0]['name']
 req('tournament-enter',{'event':event['id'],'requestID':str(uuid.uuid4())},a,410)
 # Equal scores share place and prize; an abandoned run keeps its already-earned score.
-free=next(e for e in listing['events'] if not e['coins'] and not e['tickets'])
+second=next(e for e in listing['events'] if e['coins']==50)
 for token in [a,b]:
- r=req('tournament-enter',{'event':free['id'],'requestID':str(uuid.uuid4())},token,201)
+ r=req('tournament-enter',{'event':second['id'],'requestID':str(uuid.uuid4())},token,201)
  answer(token,r['id'],0)
+ if token==a:
+  with sqlite3.connect(STATE) as db:
+   deck=json.loads(db.execute('SELECT deck FROM tournament_runs WHERE id=?',(r['id'],)).fetchone()[0])
+   db.execute('UPDATE tournament_runs SET deck=? WHERE id=?',(json.dumps([deck[0],'removed-question',deck[2]]),r['id']))
+  repaired=req('tournament-round',{'run':r['id']},a)
+  assert repaired['question']['id']==deck[2] and repaired['turn']==1 and repaired['score']==20 and repaired['phase']=='reading'
+  # A question removed after display restarts the reading phase without charging
+  # a wrong answer or losing the earned prefix.
+  with sqlite3.connect(STATE) as db:
+   db.execute('UPDATE tournament_runs SET deck=?,started=?,preview=? WHERE id=?',(json.dumps([deck[0],'removed-during-answer',deck[3]]),time.time(),time.time()-3,r['id']))
+  changed=req('tournament-answer',{'run':r['id'],'turn':1,'answer':0},a)
+  assert changed['questionChanged'] and changed['score']==20 and changed['turn']==1
+  assert req('tournament-answer',{'run':r['id'],'turn':1,'answer':0},a)==changed
+  with sqlite3.connect(STATE) as db:
+   db.execute('UPDATE tournament_runs SET deck=? WHERE id=?',(json.dumps([deck[0],'last-removed-question']),r['id']))
+  completed=req('tournament-round',{'run':r['id']},a)
+  assert completed['state']=='cleared' and completed['score']==20 and completed['streak']==1
  ended=req('tournament-end',{'run':r['id']},token);assert ended['score']==20
  assert req('tournament-end',{'run':r['id']},token)==ended
-with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_events SET ends=? WHERE id=?',(time.time()-1,free['id']))
-rows=req('tournament-board&event='+free['id'],token=a)['entries']
-assert len(rows)==2 and all(r['rank']==1 and r['reward']==500 for r in rows)
-# Sparse fields do not fabricate players or winners: refund entry fees exactly once.
-sparse=next(e for e in listing['events'] if e['tickets']==1)
-before=req('tournaments',token=a)['wallet']['tickets']
+with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_events SET ends=? WHERE id=?',(time.time()-1,second['id']))
+rows=req('tournament-board&event='+second['id'],token=a)['entries']
+assert len(rows)==2 and all(r['rank']==1 and r['reward']==50 for r in rows)
+# A sole entrant still receives first place and the actual entry pool once.
+sparse=next(e for e in listing['events'] if e['coins']==75)
+before=req('tournaments',token=a)['wallet']['coins']
 r=req('tournament-enter',{'event':sparse['id'],'requestID':str(uuid.uuid4())},a,201)
-assert req('tournaments',token=a)['wallet']['tickets']==before-1
+assert req('tournaments',token=a)['wallet']['coins']==before-75
 with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_events SET ends=? WHERE id=?',(time.time()-1,sparse['id']))
 s=req('tournament-board&event='+sparse['id'],token=a)
-assert s['wallet']['tickets']==before and s['event']['reward']==0
+assert s['wallet']['coins']==before and s['event']['reward']==75 and s['event']['rank']==1
 assert req('tournament-round',{'run':r['id']},a)['state']=='closed'
-assert req('tournament-board&event='+sparse['id'],token=a)['wallet']['tickets']==before
+assert req('tournament-board&event='+sparse['id'],token=a)['wallet']['coins']==before
 for token in [a,b]:req('delete-account',{},token)
 with sqlite3.connect(STATE) as db:
  assert db.execute('SELECT COUNT(*) FROM tournament_runs WHERE player_id IN (?,?)',(aid,bid)).fetchone()[0]==0
  assert db.execute('SELECT COUNT(*) FROM tournament_ledger WHERE player_id IN (?,?)',(aid,bid)).fetchone()[0]==0
-print('PASS: survival beyond seven questions, speed points, first-miss and timeout elimination, hidden answers, reading phase, no repeated questions, atomic/idempotent credits and entry, private runs, best-only rankings, asynchronous players, tied prizes, one-time settlement, sparse-field refunds, no duel XP or fake head-to-head wins, and deletion')
+ assert db.execute('SELECT COUNT(*) FROM question_seen WHERE player_id IN (?,?)',(aid,bid)).fetchone()[0]==0
+print('PASS: three paid daily topics, coins-only entry, balance checks, survival beyond seven questions, speed points, first-miss and timeout elimination, hidden answers, reading phase, fresh-before-seen questions, removed-question recovery, atomic/idempotent credits and entry, private runs, best-only rankings, asynchronous players, tied entry-pool prizes, one-time settlement, sole-player prizes, no duel XP or fake head-to-head wins, and deletion')

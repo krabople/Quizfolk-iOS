@@ -2,6 +2,22 @@ import XCTest
 @testable import Quizfolk
 
 @MainActor final class TournamentTests:XCTestCase {
+ func testAdmittedRunLoadsWithoutChargingAnotherEntry() async throws {
+  let store=QuizStore();let fixture=TournamentFixture()
+  store.testResponse={route,body in try await fixture.response(route,body)}
+  let admitted:TournamentRunReply=try await store.request("tournament-enter",body:["event":"test-event","requestID":UUID().uuidString])
+  let game=TournamentSession(event:QuizStore.testTournamentList().events[0],topic:store.topics[0],store:store,admittedRun:admitted)
+  defer{game.stop()};await game.begin()
+  XCTAssertEqual(fixture.entries,1);XCTAssertNotNil(game.question);XCTAssertNil(game.error)
+ }
+ func testEntryBalanceChecksCoinsAndAlreadyPaidResume() throws {
+  let event=QuizStore.testTournamentList().events[0]
+  let wallet=TournamentWallet(coins:0,tickets:0,dailyClaimed:true)
+  XCTAssertEqual(wallet.entryProblem(for:event)?.title,"Not enough coins")
+  let resume=TournamentEvent(id:"resume",topicID:"22",kind:"daily",starts:0,ends:100,coins:25,tickets:0,closed:false,best:0,streak:0,attempts:1,players:1,activeRun:"paid-run",rank:nil,reward:0)
+  XCTAssertNil(wallet.entryProblem(for:resume))
+  XCTAssertNil(TournamentWallet(coins:25,tickets:0,dailyClaimed:true).entryProblem(for:event))
+ }
  func testRunContinuesBeyondSevenAndStopsOnFirstWrongAnswer() async throws {
   let store=QuizStore();let fixture=TournamentFixture()
   store.testResponse={route,body in try await fixture.response(route,body)}
@@ -38,6 +54,7 @@ import XCTest
 @MainActor private final class TournamentFixture {
  var remaining=10.0
  var submissions=0
+ var entries=0
  private var turn=0
  private var score=0
  private var streak=0
@@ -48,7 +65,7 @@ import XCTest
   try Task.checkCancellation()
   var r:[String:Any]=["id":"fixture-run","eventID":"test-event","score":score,"streak":streak,"turn":turn,"state":state]
   switch route {
-  case "tournament-enter":break
+  case "tournament-enter":entries+=1
   case "tournament-round":
    r["question"]=["id":"q-\(turn)","prompt":"Fixture question \(turn)?","answers":["Correct","Wrong","Other","Another"],"difficulty":"easy"]
    r["remaining"]=remaining;r["readingRemaining"]=0;r["phase"]="answer"

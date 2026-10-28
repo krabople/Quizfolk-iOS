@@ -93,5 +93,76 @@ final class DuelUITests:XCTestCase {
         XCTAssertTrue(app.descendants(matching:.any).matching(identifier:"tournamentRules").firstMatch.exists)
         capture("TournamentRules")
     }
+    @MainActor func testTournamentEntryUsesCentralConfirmation() {
+        let app=XCUIApplication();app.launchArguments=["--ui-testing"];app.launch()
+        if app.buttons["Done"].waitForExistence(timeout:3){app.buttons["Done"].tap()}
+        app.tabBars.buttons["Tournaments"].tap()
+        let event=app.descendants(matching:.any).matching(identifier:"tournament-test-event").firstMatch
+        XCTAssertTrue(event.waitForExistence(timeout:5));event.tap()
+        XCTAssertTrue(app.buttons["enterTournament"].waitForExistence(timeout:5));app.buttons["enterTournament"].tap()
+        let alert=app.alerts["Enter for 25 coins?"]
+        XCTAssertTrue(alert.waitForExistence(timeout:5));XCTAssertTrue(alert.buttons["Cancel"].exists)
+        capture("TournamentEntryConfirmation");alert.buttons["Cancel"].tap()
+        XCTAssertTrue(app.buttons["enterTournament"].exists)
+    }
+    @MainActor func testInsufficientCoinsStaysOnTournamentDetails() {
+        let app=XCUIApplication();app.launchArguments=["--ui-testing","--ui-testing-empty-wallet"];app.launch()
+        if app.buttons["Done"].waitForExistence(timeout:3){app.buttons["Done"].tap()}
+        app.tabBars.buttons["Tournaments"].tap()
+        let event=app.descendants(matching:.any).matching(identifier:"tournament-test-event").firstMatch
+        XCTAssertTrue(event.waitForExistence(timeout:5));event.tap()
+        XCTAssertTrue(app.buttons["enterTournament"].waitForExistence(timeout:5));app.buttons["enterTournament"].tap()
+        let alert=app.alerts["Not enough coins"]
+        XCTAssertTrue(alert.waitForExistence(timeout:5));capture("TournamentInsufficientCoins")
+        XCTAssertFalse(app.staticTexts["Preparing your run…"].exists)
+        alert.buttons["OK"].tap();XCTAssertTrue(app.buttons["enterTournament"].exists)
+        XCTAssertFalse(app.buttons["Close tournament run"].exists)
+    }
+    @MainActor func testTournamentCongratulationsAcknowledgedOnce() {
+        let app=launchWithPrize()
+        XCTAssertTrue(app.staticTexts["Congratulations!"].waitForExistence(timeout:8))
+        XCTAssertTrue(app.staticTexts["You finished in 1st place"].exists)
+        XCTAssertTrue(app.staticTexts["+75 coins"].exists);capture("TournamentCongratulations")
+        app.buttons["Continue"].tap()
+        XCTAssertTrue(app.tabBars.buttons["You"].waitForExistence(timeout:5))
+        app.tabBars.buttons["You"].tap()
+        XCTAssertFalse(app.descendants(matching:.any).matching(NSPredicate(format:"label CONTAINS 'profile picture, tournament'")).firstMatch.exists)
+        XCUIDevice.shared.press(.home);app.activate()
+        XCTAssertTrue(app.buttons["changeProfilePicture"].waitForExistence(timeout:8))
+        XCTAssertFalse(app.staticTexts["Congratulations!"].exists,"Acknowledged prizes must not reopen after returning to the app")
+        app.buttons["Tournament badges"].tap()
+        XCTAssertTrue(app.buttons.matching(NSPredicate(format:"label CONTAINS 'Geography · 1st place'")).firstMatch.waitForExistence(timeout:5))
+    }
+    @MainActor func testWearTournamentBadgeAndRemoveIt() {
+        let app=launchWithPrize()
+        XCTAssertTrue(app.buttons["Wear this badge"].waitForExistence(timeout:8));app.buttons["Wear this badge"].tap()
+        XCTAssertTrue(app.tabBars.buttons["You"].waitForExistence(timeout:5));app.tabBars.buttons["You"].tap()
+        let portrait=app.descendants(matching:.any).matching(identifier:"UI Player profile picture, tournament 1st place badge").firstMatch
+        XCTAssertTrue(portrait.waitForExistence(timeout:5));capture("TournamentBadgeOnProfile")
+        app.buttons["Tournament badges"].tap()
+        XCTAssertTrue(app.buttons["No tournament badge"].waitForExistence(timeout:5));app.buttons["No tournament badge"].tap()
+        app.navigationBars.buttons.element(boundBy:0).tap()
+        XCTAssertTrue(app.buttons["changeProfilePicture"].waitForExistence(timeout:5));XCTAssertFalse(portrait.exists)
+    }
+    @MainActor func testCoinTrailShowsProgressAndUnusedTopics() {
+        let app=XCUIApplication();app.launchArguments=["--ui-testing"];app.launch()
+        if app.buttons["Done"].waitForExistence(timeout:3){app.buttons["Done"].tap()}
+        app.tabBars.buttons["You"].tap();app.buttons["Earn coins"].tap()
+        XCTAssertTrue(app.navigationBars["Daily Trail"].waitForExistence(timeout:5))
+        XCTAssertTrue(app.staticTexts["110 coins"].waitForExistence(timeout:5))
+        XCTAssertTrue(app.staticTexts["10 / 45 earned today"].exists)
+        XCTAssertTrue(app.staticTexts["10 coins earned"].exists)
+        XCTAssertTrue(app.staticTexts["2 of 5 daily trails · earn 50 bonus coins"].exists);capture("DailyCoinTrail")
+        XCTAssertFalse(app.buttons["Geography"].exists,"A topic already credited today must not be offered again")
+        app.swipeUp()
+        let next=app.buttons.matching(NSPredicate(format:"label CONTAINS 'General Knowledge'")).firstMatch
+        XCTAssertTrue(next.waitForExistence(timeout:5));next.tap()
+        XCTAssertTrue(app.buttons["League"].waitForExistence(timeout:5))
+    }
+    @MainActor private func launchWithPrize()->XCUIApplication {
+        let app=XCUIApplication();app.launchArguments=["--ui-testing","--prize-popup"];app.launch()
+        if app.buttons["Done"].waitForExistence(timeout:3){app.buttons["Done"].tap()}
+        return app
+    }
     @MainActor private func capture(_ name:String) {let a=XCTAttachment(screenshot:XCUIApplication().screenshot());a.name=name;a.lifetime = .keepAlways;add(a)}
 }

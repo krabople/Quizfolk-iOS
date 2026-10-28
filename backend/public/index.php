@@ -13,6 +13,7 @@ function sql(PDO $db,string $query,array $args=[]):PDOStatement {$s=$db->prepare
 require dirname(__DIR__).'/names.php';
 require dirname(__DIR__).'/social.php';
 require dirname(__DIR__).'/tournaments.php';
+require dirname(__DIR__).'/economy.php';
 function earned_xp(int $score,int $other):int {return $score+40+($score>$other ? 100:($score===$other ? 50:0));}
 try {
     $configFile=dirname(__DIR__).'/config.php';
@@ -30,12 +31,13 @@ try {
     ensure_unique_names($db);
     ensure_avatar_column($db);
     social_schema($db);
+    economy_schema($db);
     tournament_schema($db);
     $route=(string)($_GET['r'] ?? 'health');$method=$_SERVER['REQUEST_METHOD'];
     if((int)($_SERVER['CONTENT_LENGTH'] ?? 0)>24576) fail('Request is too large',413);
     $raw=file_get_contents('php://input');$body=$raw==='' ? []:json_decode($raw,true,32,JSON_THROW_ON_ERROR);
     if(!is_array($body)) fail('Expected a JSON object');
-    $readRoutes=['health','categories','profile','leaderboard','people','player','duels','activity','tournaments','tournament-board'];
+    $readRoutes=['health','categories','profile','leaderboard','people','player','duels','activity','tournaments','tournament-board','coins','prizes'];
     if(!in_array($route,$readRoutes,true) && $method!=='POST') fail('Use POST',405);
     if($route==='health') out(['ok'=>true,'version'=>'0.3.0']);
     if($route==='categories') out(['categories'=>json_decode(file_get_contents(dirname(__DIR__,2).'/data/categories.json'),true,512,JSON_THROW_ON_ERROR)]);
@@ -61,6 +63,7 @@ try {
     $player=sql($db,'SELECT * FROM players WHERE token_hash=?',[hash('sha256',$hit[1])])->fetch();
     if(!$player) fail('Player key is invalid',401);
     $pid=$player['id'];
+    economy_routes($route,$db,$pid,$body);
     tournament_routes($route,$db,$pid,$body);
     social_routes($route,$db,$pid,$player,$body,$config);
     if($route==='update-profile') {
@@ -124,6 +127,7 @@ try {
         if($m['duel_id']) {$duel=sql($db,'SELECT * FROM duels WHERE id=?',[$m['duel_id']])->fetch();if(!$duel || !in_array($duel['status'],['invited','accepted','complete'],true))fail('This challenge is no longer available',410);}
         if((int)$m['created']<time()-($m['duel_id'] ? 1209600:86400)) fail('This duel has expired',410);
         $packet=json_decode($m['packet'],true);$answers=json_decode($m['answers'],true);$op=json_decode($m['opponent_points'],true);$round=count($answers);
+        if($round<7 && !packet_is_current($packet))fail('A question in this duel has been corrected or withdrawn. Please start a new duel. Your completed results are kept.',410);
         if($route==='answer' && isset($body['round']) && is_int($body['round']) && $body['round']<$round && $body['round']>=0) {
             $i=$body['round'];$r=$answers[$i];$db->exec('COMMIT');out(['points'=>$r['points'],'correctIndex'=>$packet[$i]['correctIndex'],'opponentPoints'=>$op[$i],'finished'=>$round===7,'score'=>(int)$m['score'],'opponentScore'=>(int)$m['opponent_score'],'pending'=>$m['duel_id']!==null && $m['completed']===null]);
         }
@@ -145,6 +149,10 @@ try {
         $answers[]=['selected'=>$body['answer'],'elapsed'=>$elapsed,'correct'=>$correct && $elapsed<10,'points'=>$score];
         $total=(int)$m['score']+$score;$opTotal=(int)$m['opponent_score']+$op[$round];$finished=count($answers)===7;
         sql($db,'UPDATE matches SET answers=?,started=NULL,preview_started=NULL,score=?,opponent_score=?,completed=? WHERE id=?',[json_encode($answers),$total,$opTotal,$finished && !$m['duel_id'] ? time():null,$id]);
+        if($finished) {
+            sql($db,'UPDATE matches SET own_finished=COALESCE(own_finished,?) WHERE id=?',[time(),$id]);
+            coin_trail_award($db,sql($db,'SELECT * FROM matches WHERE id=?',[$id])->fetch());
+        }
         if($m['duel_id'] && $finished)settle_duel($db,$m['duel_id']);
         $latest=sql($db,'SELECT * FROM matches WHERE id=?',[$id])->fetch();$opTotal=(int)$latest['opponent_score'];$op=json_decode($latest['opponent_points'],true);$pending=$m['duel_id']!==null && $latest['completed']===null;
         $db->exec('COMMIT');

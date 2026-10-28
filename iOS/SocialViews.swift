@@ -10,7 +10,7 @@ struct TopicLevelProgress:View {
 struct PlayerRow:View {
  let card:PlayerCard
  var body:some View {
-  HStack(spacing:12){PlayerPortrait(name:card.name,avatar:card.avatar,size:48);VStack(alignment:.leading,spacing:4){Text(card.name).font(.headline);Text(card.title).font(.caption).foregroundStyle(Color.coral);Text(card.sharedTopics.isEmpty ? "\(card.stats.matches) completed duels":"\(card.sharedTopics.count) shared interests · \(card.stats.matches) duels").font(.caption).foregroundStyle(.secondary)};Spacer();Image(systemName:"chevron.right").font(.caption).foregroundStyle(.secondary)}.foregroundStyle(Color.ink).padding(15).background(.white,in:RoundedRectangle(cornerRadius:16))
+  HStack(spacing:12){PlayerPortrait(name:card.name,avatar:card.avatar,size:48,badge:card.displayBadge);VStack(alignment:.leading,spacing:4){Text(card.name).font(.headline);Text(card.title).font(.caption).foregroundStyle(Color.coral);Text(card.sharedTopics.isEmpty ? "\(card.stats.matches) completed duels":"\(card.sharedTopics.count) shared interests · \(card.stats.matches) duels").font(.caption).foregroundStyle(.secondary)};Spacer();Image(systemName:"chevron.right").font(.caption).foregroundStyle(.secondary)}.foregroundStyle(Color.ink).padding(15).background(.white,in:RoundedRectangle(cornerRadius:16))
  }
 }
 struct PeopleView:View {
@@ -40,7 +40,7 @@ struct PeopleView:View {
    .sheet(isPresented:$blockedSheet,onDismiss:{Task{await reload()}}){BlockedPlayersView()}
  }
  @ViewBuilder private var activityContent:some View {
-  if store.activity.isEmpty {ContentUnavailableView("A little friendly competition",systemImage:"sparkles",description:Text("Follow players to see their completed duels here. Pull down to refresh."))}
+  if store.activity.isEmpty {ContentUnavailableView("A little friendly competition",systemImage:"person.2",description:Text("Follow players to see their completed duels here. Pull down to refresh."))}
   ForEach(store.activity){event in NavigationLink{PublicPlayerView(playerID:event.playerID)}label:{HStack(spacing:12){PlayerPortrait(name:event.name,avatar:event.avatar,size:42);VStack(alignment:.leading,spacing:5){Text(event.name).font(.headline);Text("\(event.draw ? "Drew":(event.won ? "Won":"Played")) in \(store.topics.first{$0.id==event.topicID}?.name ?? "Trivia") · \(event.score) points").font(.caption);Text(Date(timeIntervalSince1970:event.date),style:.relative).font(.caption2).foregroundStyle(.secondary)};Spacer()}.foregroundStyle(Color.ink).padding(15).background(.white,in:RoundedRectangle(cornerRadius:16))}.buttonStyle(.plain)}
  }
  private func reload() async {loading=true;defer{loading=false};if mode=="activity" {await store.refreshSocial()}else{await store.loadPeople(query:query,mode:mode)}}
@@ -74,7 +74,7 @@ struct PublicPlayerView:View {
   ScrollView {
    if let card {
     VStack(spacing:19) {
-     PlayerPortrait(name:card.name,avatar:card.avatar,size:100).padding(.top,20)
+     PlayerPortrait(name:card.name,avatar:card.avatar,size:100,badge:card.displayBadge).padding(.top,20)
      Text(card.name).font(.system(size:29,weight:.bold,design:.rounded)).multilineTextAlignment(.center)
      Text(card.title).font(.headline).foregroundStyle(Color.coral)
      HStack{stat("\(card.stats.matches)","Duels");stat("\(card.stats.wins)","Wins");stat(card.stats.answered==0 ? "—":"\(card.stats.correct*100/card.stats.answered)%","Accuracy")}.padding(18).background(.white,in:RoundedRectangle(cornerRadius:18))

@@ -10,6 +10,7 @@ struct PlayerCard:Decodable,Identifiable {
  let following:Bool;let followers:Int;let followingCount:Int;let canChallenge:Bool
  let stats:PlayerStats;let topics:[TopicProgress];let titles:[EarnedTitle];let selectedTitle:String
  let discoverable:Bool;let challengesOpen:Bool;let headToHead:HeadToHead?;let badges:[PlayerBadge]?
+ var displayBadge:TournamentPrize?=nil
 }
 struct PeopleReply:Decodable {let players:[PlayerCard]}
 struct ChallengeCard:Decodable,Identifiable {

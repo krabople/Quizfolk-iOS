@@ -50,12 +50,12 @@ function earned_titles(array $topics):array {
 function player_summary(PDO $db,string $viewer,array $p):array {
     $pref=settings($db,$p['id']);$mine=settings($db,$viewer);$stats=online_stats($db,$p['id']);$topics=topic_stats($db,$p['id']);$titles=earned_titles($topics);$title='Newcomer';foreach($titles as $t)if($t['id']===$pref['title_id'])$title=$t['name'];
     $interest=json_decode($pref['interests'],true);$shared=array_values(array_intersect($interest,json_decode($mine['interests'],true)));
-    return ['id'=>$p['id'],'name'=>$p['name'],'avatar'=>$p['avatar'],'title'=>$title,'interests'=>$interest,'sharedTopics'=>$shared,'following'=>(bool)sql($db,'SELECT 1 FROM follows WHERE player_id=? AND target_id=?',[$viewer,$p['id']])->fetch(),'followers'=>(int)sql($db,'SELECT COUNT(*) FROM follows WHERE target_id=?',[$p['id']])->fetchColumn(),'followingCount'=>(int)sql($db,'SELECT COUNT(*) FROM follows WHERE player_id=?',[$p['id']])->fetchColumn(),'canChallenge'=>$viewer!==$p['id'] && (bool)$pref['challenges_open'],'stats'=>$stats,'topics'=>$topics,'titles'=>$titles,'selectedTitle'=>$pref['title_id'],'discoverable'=>(bool)$pref['discoverable'],'challengesOpen'=>(bool)$pref['challenges_open']];
+    return ['id'=>$p['id'],'name'=>$p['name'],'avatar'=>$p['avatar'],'displayBadge'=>display_badge($db,$p['id']),'title'=>$title,'interests'=>$interest,'sharedTopics'=>$shared,'following'=>(bool)sql($db,'SELECT 1 FROM follows WHERE player_id=? AND target_id=?',[$viewer,$p['id']])->fetch(),'followers'=>(int)sql($db,'SELECT COUNT(*) FROM follows WHERE target_id=?',[$p['id']])->fetchColumn(),'followingCount'=>(int)sql($db,'SELECT COUNT(*) FROM follows WHERE player_id=?',[$p['id']])->fetchColumn(),'canChallenge'=>$viewer!==$p['id'] && (bool)$pref['challenges_open'],'stats'=>$stats,'topics'=>$topics,'titles'=>$titles,'selectedTitle'=>$pref['title_id'],'discoverable'=>(bool)$pref['discoverable'],'challengesOpen'=>(bool)$pref['challenges_open']];
 }
 function fresh_packet(PDO $db,string $pid,string $topic):array {
     $qdb=new PDO('sqlite:'.dirname(__DIR__).'/data/question-bank.sqlite',null,null,[PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION,PDO::ATTR_DEFAULT_FETCH_MODE=>PDO::FETCH_ASSOC]);
     $bank=array_map(fn($r)=>json_decode($r['payload'],true),sql($qdb,'SELECT payload FROM questions WHERE category_id=?',[$topic])->fetchAll());if(count($bank)<7)fail('Unknown topic');
-    $seen=[];foreach(sql($db,'SELECT packet FROM matches WHERE player_id=? AND topic=? ORDER BY created DESC LIMIT 100',[$pid,$topic])->fetchAll() as $old)foreach(json_decode($old['packet'],true) as $q)$seen[$q['id']]=true;
+    $seen=tournament_seen_ids($db,$pid,$topic);
     shuffle($bank);usort($bank,fn($a,$b)=>(int)isset($seen[$a['id']])<=>(int)isset($seen[$b['id']]));$packet=array_slice($bank,0,7);
     foreach($packet as &$q){$i=[0,1,2,3];shuffle($i);$q['answers']=array_map(fn($n)=>$q['answers'][$n],$i);$q['correctIndex']=array_search($q['correctIndex'],$i,true);}unset($q);return $packet;
 }
@@ -70,7 +70,23 @@ function start_info(PDO $db,array $m):array {
     return ['id'=>$m['id'],'kind'=>$m['kind'],'opponent'=>$p ? $p['name']:$m['opponent'],'opponentID'=>$p ? $p['id']:null,'opponentAvatar'=>$p ? $p['avatar']:null,'duelID'=>$m['duel_id'],'pending'=>$m['duel_id']!==null && $m['completed']===null,'played'=>$played,'score'=>(int)$m['score'],'opponentScore'=>(int)$m['opponent_score']];
 }
 function replay_candidate(PDO $db,string $pid,string $topic,array $config):array|false {
-    return sql($db,'SELECT m.*,p.name,p.avatar FROM matches m JOIN players p ON p.id=m.player_id WHERE m.topic=? AND m.player_id<>? AND m.completed>? AND m.created>=? AND NOT EXISTS(SELECT 1 FROM matches used WHERE used.player_id=? AND used.opponent_match=m.id) AND NOT EXISTS(SELECT 1 FROM blocks b WHERE (b.player_id=? AND b.target_id=p.id) OR (b.player_id=p.id AND b.target_id=?)) ORDER BY m.completed DESC LIMIT 1',[$topic,$pid,time()-2592000,(int)($config['minimum_replay_created'] ?? 0),$pid,$pid,$pid])->fetch();
+    $candidates=sql($db,'SELECT m.*,p.name,p.avatar FROM matches m JOIN players p ON p.id=m.player_id WHERE m.topic=? AND m.player_id<>? AND m.completed>? AND m.created>=? AND NOT EXISTS(SELECT 1 FROM matches used WHERE used.player_id=? AND used.opponent_match=m.id) AND NOT EXISTS(SELECT 1 FROM blocks b WHERE (b.player_id=? AND b.target_id=p.id) OR (b.player_id=p.id AND b.target_id=?)) ORDER BY m.completed DESC LIMIT 50',[$topic,$pid,time()-2592000,(int)($config['minimum_replay_created'] ?? 0),$pid,$pid,$pid])->fetchAll();
+    foreach($candidates as $candidate)if(packet_is_current(json_decode($candidate['packet'],true)))return $candidate;
+    return false;
+}
+// Stored duels retain their history, but corrected/withdrawn questions must not
+// return through an old replay. Answer shuffling alone is not a content change.
+function packet_is_current(array $packet,?PDO $bank=null):bool {
+    if(!$packet)return false;
+    $bank ??= new PDO('sqlite:'.dirname(__DIR__).'/data/question-bank.sqlite',null,null,[PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION]);
+    foreach($packet as $old) {
+        $current=json_decode((string)sql($bank,'SELECT payload FROM questions WHERE id=?',[$old['id'] ?? ''])->fetchColumn(),true);
+        if(!$current || ($old['prompt'] ?? null)!==$current['prompt'] || ($old['categoryID'] ?? null)!==$current['categoryID'])return false;
+        $oldChoices=$old['answers'] ?? [];$currentChoices=$current['answers'];
+        if(($oldChoices[$old['correctIndex'] ?? -1] ?? null)!==$currentChoices[$current['correctIndex']])return false;
+        sort($oldChoices);sort($currentChoices);if($oldChoices!==$currentChoices)return false;
+    }
+    return true;
 }
 function create_random_match(PDO $db,string $pid,string $topic,array $config,bool $humanOnly=false):?array {
     $replay=replay_candidate($db,$pid,$topic,$config);
@@ -133,7 +149,7 @@ function social_routes(string $route,PDO $db,string $pid,array $player,array $bo
         $card['headToHead']=$h;
         $st=$card['stats'];$card['badges']=[['id'=>'first','name'=>'First duel','symbol'=>'bolt.fill','earned'=>$st['matches']>=1],['id'=>'winner','name'=>'First victory','symbol'=>'trophy.fill','earned'=>$st['wins']>=1],['id'=>'perfect','name'=>'Seven of seven','symbol'=>'checkmark.seal.fill','earned'=>$st['perfect']>=1],['id'=>'ten','name'=>'Tenacious','symbol'=>'flame.fill','earned'=>$st['matches']>=10],['id'=>'explorer','name'=>'Topic explorer','symbol'=>'globe','earned'=>count($card['topics'])>=5]];
         $topicNames=array_column(json_decode(file_get_contents(dirname(__DIR__).'/data/categories.json'),true),'name','id');
-        foreach(sql($db,'SELECT p.event_id,p.rank,e.topic,e.starts FROM tournament_places p JOIN tournament_events e ON e.id=p.event_id WHERE p.player_id=? AND p.reward>0 ORDER BY e.ends DESC LIMIT 20',[$id])->fetchAll() as $trophy) {
+        foreach(sql($db,'SELECT p.event_id,p.rank,e.topic,e.starts FROM tournament_places p JOIN tournament_events e ON e.id=p.event_id WHERE p.player_id=? AND p.rank BETWEEN 1 AND 3 ORDER BY e.ends DESC LIMIT 20',[$id])->fetchAll() as $trophy) {
             $card['badges'][]=['id'=>'tournament:'.$trophy['event_id'],'name'=>($topicNames[$trophy['topic']] ?? 'Tournament').' · #'.$trophy['rank'].' · '.gmdate('j M Y',(int)$trophy['starts']),'symbol'=>'trophy.fill','earned'=>true];
         }
         out($card);
