@@ -5,8 +5,8 @@ A native SwiftUI trivia app inspired by the original QuizUp: follow topics, play
 ## Included
 
 - 22,994 screened, bundled four-option questions across 30 categories. Actual per-topic counts appear in the app and `data/audit-report.json`.
-- Offline bot practice with persistent history, local XP, per-topic levels and accuracy.
-- A PHP + SQLite backend for asynchronous duels against recorded human runs, with bot fallback when no run is available.
+- Offline bot practice with persistent history and accuracy; practice stays out of online XP and topic levels.
+- A PHP + SQLite backend for asynchronous direct challenges, human-first search, follows, player discovery and recorded human runs, with a six-second bot fallback.
 - Server-owned online deadlines and scoring, authenticated match ownership, replay-safe answer submissions, name-based player cards, monthly and all-time filtered leaderboards, question reports and account deletion.
 - GitHub Actions for simulator tests, device archives, screenshots and signed TestFlight upload.
 
@@ -24,9 +24,11 @@ Select your Apple team to run on a physical device. Offline practice needs no ba
 
 ## Multiplayer model
 
+Direct challenges let the sender finish immediately and the recipient accept later. Both get the same seven questions with independent clocks. The winner, topic XP and head-to-head tally settle once both finish. Invitations last 14 days. People supports name search, player cards, follows, shared interests, titles and blocking. Queued human searchers can also be paired this way.
+
 Players do not need to be connected at the same time. A completed run supplies the opponent performance for a subsequent player on exactly the same questions and answer order. The later match labels the opponent **Recorded run**. If no eligible human run exists, **Pip · Bot** supplies an independent, precomputed performance. This does not create pending friend invitations or change the original player’s result later.
 
-Online scores are calculated by the server from its own question start time. A correct answer before the 10-second deadline earns `20 - floor(elapsedSeconds)`. The seventh question doubles that. Wrong, late and missing answers score zero. The maximum is 160. Network transit counts against the online deadline; the client cannot submit its own elapsed time or score.
+The question appears alone for two seconds before answers and the countdown. Online scores use the server's answer-choice reveal time. A correct answer before the 10-second deadline earns `20 - floor(elapsedSeconds)`. The seventh question doubles that. Wrong, late and missing answers score zero. The maximum is 160. Network transit counts against the online deadline; the client cannot submit its own elapsed time or score.
 
 The account uses a random bearer key held in iOS Keychain. There is no password, cross-device sign-in or account recovery in this first version. Local stats and practice remain device-local. Online account deletion removes the player’s server history and anonymises references in other players’ recorded matches. Offline practice never enters the server league. Online bot duels do award XP to the human player; no bot account appears on the board.
 
@@ -40,6 +42,10 @@ Recommended tree:
 home/
   quizfolk-service/
     backend/public/index.php
+    backend/social.php
+    backend/tournaments.php
+    backend/names.php
+    backend/name-fold.json
     backend/private/             # created by PHP; never web accessible
     data/question-bank.sqlite
     data/categories.json
@@ -68,6 +74,8 @@ php -l backend/public/index.php
 php -S 127.0.0.1:8770 -t backend/public
 # In a second terminal, on an isolated local test database only:
 python3 scripts/test_backend.py
+python3 scripts/test_social.py
+python3 scripts/test_tournaments.py
 ```
 
 The backend test creates two disposable players in the local service, exercises a full bot run and a human replay, verifies timing/idempotence/ownership/league filtering, then removes those two accounts. It requires a local SQLite file at `backend/private/quizfolk.sqlite` and must not be pointed at production.
@@ -78,7 +86,11 @@ The signed workflow requires `APPLE_TEAM_ID`, `ASC_KEY_ID`, `ASC_ISSUER_ID`, `AS
 
 ## Research, question quality and licence
 
-See [RESEARCH.md](RESEARCH.md) for historical sources, product decisions and remaining release work. The bank is structurally validated community content, not independently fact-checked. Category sizes range from 70 to 10,175 questions; the smaller specialist categories still merit further expansion. It is not a complete clone of QuizUp’s historical content library.
+The October 28 social and survival revision is documented in [docs/QUIZUP-RESEARCH.md](docs/QUIZUP-RESEARCH.md), including sources and deliberate differences from the historical app. Leagues now live inside topic pages, with visible period and following controls. Levels are independent by topic, finished duels close without an unfinished warning, and every question has a reading phase before the timer starts.
+
+The dedicated Tournaments tab has rotating daily and weekly topic events. Earn speed points until the first wrong answer or timeout; there is no seven-question limit. Only the best run counts per event. Entry uses free coins or tickets with a daily supply. Actual players compete asynchronously; top places receive coins and profile trophies after closure, and sparse fields refund entry fees. Tournament points are separate from duel XP. No payment, advertising or real-time server is involved.
+
+See [RESEARCH.md](RESEARCH.md) for historical sources, product decisions and remaining release work. The bank is structurally validated community content, not independently fact-checked. Category sizes range from 17 to 5,174 questions; the smaller specialist categories still merit further expansion. It is not a complete clone of QuizUp’s historical content library.
 
 Question data: [Open Trivia Database](https://opentdb.com/) and [OpenTriviaQA contributors](https://github.com/uberspot/OpenTriviaQA), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). See [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt). The original Quizfolk app code and assets contain no QuizUp source code, logo or proprietary question collection.
 
