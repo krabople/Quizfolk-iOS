@@ -187,7 +187,7 @@ struct TournamentPlayView:View {
  private var result:some View {
   ScrollView {
    VStack(spacing:23) {
-    Image(systemName:"flame.fill").font(.system(size:78)).foregroundStyle(Color(hex:"FFD494")).symbolEffect(.bounce,value:game.showResult).padding(.top,35)
+    Image(systemName:"flame.fill").font(.system(size:78)).foregroundStyle(Color(hex:"FFD494")).symbolEffect(.bounce,value:reduceMotion ? false:game.showResult).padding(.top,35)
     Text(game.score>game.event.best ? "NEW PERSONAL BEST":"RUN COMPLETE").font(.system(size:26,weight:.black,design:.rounded))
     Text("\(game.score)").font(.system(size:82,weight:.black,design:.rounded)).contentTransition(.numericText())
     Text("TOURNAMENT POINTS").font(.caption.bold()).tracking(2)
