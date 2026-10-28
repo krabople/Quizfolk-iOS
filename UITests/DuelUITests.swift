@@ -77,5 +77,21 @@ final class DuelUITests:XCTestCase {
         XCTAssertTrue(app.buttons["sendChallenge"].waitForExistence(timeout:5));capture("ChallengeComposer")
         app.buttons["Cancel"].tap()
     }
+    @MainActor func testTopicLeagueAndTournamentNavigation() {
+        let app=XCUIApplication();app.launchArguments=["--ui-testing"];app.launch()
+        if app.buttons["Done"].waitForExistence(timeout:3){app.buttons["Done"].tap()}
+        app.textFields["Search categories"].tap();app.textFields["Search categories"].typeText("Geography")
+        let topic=app.descendants(matching:.any).matching(identifier:"topic-22").firstMatch
+        XCTAssertTrue(topic.waitForExistence(timeout:5));topic.tap()
+        XCTAssertTrue(app.buttons["League"].waitForExistence(timeout:5));app.buttons["League"].tap()
+        XCTAssertTrue(app.buttons["This month"].waitForExistence(timeout:5))
+        XCTAssertTrue(app.buttons["All time"].exists);capture("TopicLeague")
+        app.tabBars.buttons["Tournaments"].tap()
+        let event=app.descendants(matching:.any).matching(identifier:"tournament-test-event").firstMatch
+        XCTAssertTrue(event.waitForExistence(timeout:5));capture("Tournaments");event.tap()
+        XCTAssertTrue(app.buttons["enterTournament"].waitForExistence(timeout:5))
+        XCTAssertTrue(app.descendants(matching:.any).matching(identifier:"tournamentRules").firstMatch.exists)
+        capture("TournamentRules")
+    }
     @MainActor private func capture(_ name:String) {let a=XCTAttachment(screenshot:XCUIApplication().screenshot());a.name=name;a.lifetime = .keepAlways;add(a)}
 }

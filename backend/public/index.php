@@ -12,6 +12,7 @@ function points(bool $correct,float $elapsed,int $round):int {return !$correct |
 function sql(PDO $db,string $query,array $args=[]):PDOStatement {$s=$db->prepare($query);$s->execute($args);return $s;}
 require dirname(__DIR__).'/names.php';
 require dirname(__DIR__).'/social.php';
+require dirname(__DIR__).'/tournaments.php';
 function earned_xp(int $score,int $other):int {return $score+40+($score>$other ? 100:($score===$other ? 50:0));}
 try {
     $configFile=dirname(__DIR__).'/config.php';
@@ -29,11 +30,12 @@ try {
     ensure_unique_names($db);
     ensure_avatar_column($db);
     social_schema($db);
+    tournament_schema($db);
     $route=(string)($_GET['r'] ?? 'health');$method=$_SERVER['REQUEST_METHOD'];
     if((int)($_SERVER['CONTENT_LENGTH'] ?? 0)>24576) fail('Request is too large',413);
     $raw=file_get_contents('php://input');$body=$raw==='' ? []:json_decode($raw,true,32,JSON_THROW_ON_ERROR);
     if(!is_array($body)) fail('Expected a JSON object');
-    $readRoutes=['health','categories','profile','leaderboard','people','player','duels','activity'];
+    $readRoutes=['health','categories','profile','leaderboard','people','player','duels','activity','tournaments','tournament-board'];
     if(!in_array($route,$readRoutes,true) && $method!=='POST') fail('Use POST',405);
     if($route==='health') out(['ok'=>true,'version'=>'0.3.0']);
     if($route==='categories') out(['categories'=>json_decode(file_get_contents(dirname(__DIR__,2).'/data/categories.json'),true,512,JSON_THROW_ON_ERROR)]);
@@ -59,6 +61,7 @@ try {
     $player=sql($db,'SELECT * FROM players WHERE token_hash=?',[hash('sha256',$hit[1])])->fetch();
     if(!$player) fail('Player key is invalid',401);
     $pid=$player['id'];
+    tournament_routes($route,$db,$pid,$body);
     social_routes($route,$db,$pid,$player,$body,$config);
     if($route==='update-profile') {
         if(!in_array(($_SERVER['HTTP_X_QUIZFOLK_CLIENT'] ?? ''),['2','3'],true) && ($body['name'] ?? '')==='Quiz explorer')out(['ok'=>true,'name'=>$player['name']]);

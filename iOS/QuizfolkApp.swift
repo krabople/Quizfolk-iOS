@@ -14,6 +14,7 @@ struct RootView:View {
         TabView(selection:$tab) {
             DiscoverView().tabItem{Label("Discover",systemImage:"square.grid.2x2.fill")}.tag(0)
             DuelsView().tabItem{Label("Duels",systemImage:"bolt.horizontal.fill")}.tag(1)
+            TournamentsView().tabItem{Label("Tournaments",systemImage:"trophy.fill")}.tag(2)
             PeopleView().tabItem{Label("People",systemImage:"person.2.fill")}.tag(4)
             ProfileView().tabItem{Label("You",systemImage:"person.crop.circle.fill")}.tag(3)
         }.tint(.coral)
