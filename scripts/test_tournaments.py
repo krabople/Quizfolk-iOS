@@ -69,6 +69,8 @@ board=req('tournament-board&event='+event['id'],token=a)
 assert board['event']['closed'] and board['event']['reward']==500 and board['wallet']['coins']==600
 assert req('tournament-board&event='+event['id'],token=a)['wallet']['coins']==600
 assert req('tournament-board&event='+event['id'],token=b)['event']['reward']==250
+trophies=[x for x in req('player',token=a)['badges'] if x['id'].startswith('tournament:')]
+assert trophies and trophies[0]['earned'] and '#1' in trophies[0]['name']
 req('tournament-enter',{'event':event['id'],'requestID':str(uuid.uuid4())},a,410)
 # Equal scores share place and prize; an abandoned run keeps its already-earned score.
 free=next(e for e in listing['events'] if not e['coins'] and not e['tickets'])
