@@ -135,7 +135,7 @@ struct TournamentPlayView:View {
     else {play}
    }.foregroundStyle(.white).background(LinearGradient(colors:[Color(hex:"102640"),game.topic.tint,Color(hex:"123452")],startPoint:.topLeading,endPoint:.bottomTrailing).ignoresSafeArea())
     .navigationTitle(game.topic.name).navigationBarTitleDisplayMode(.inline).toolbarColorScheme(.dark,for:.navigationBar)
-    .toolbar {ToolbarItem(placement:.topBarLeading){Button{if game.runEnded || !game.hasStarted{dismiss()}else{leave=true}}label:{Image(systemName:"xmark")}.accessibilityLabel("Close tournament run")}}
+    .toolbar {ToolbarItem(placement:.topBarLeading){Button{if game.runEnded || !game.hasStarted{dismiss()}else{leave=true}}label:{Image(systemName:"xmark")}.disabled(game.busy).accessibilityLabel("Close tournament run")}}
     .confirmationDialog("End this run and keep your current score?",isPresented:$leave,titleVisibility:.visible) {
      Button("End run & save score",role:.destructive){Task{if await game.end(){dismiss()}}}
      Button("Keep playing",role:.cancel){}

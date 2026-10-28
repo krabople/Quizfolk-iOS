@@ -21,6 +21,9 @@ import Security
     @Published var ownCard:PlayerCard?
     @Published var socialError:String?
     var testFollowing=false
+    #if DEBUG
+    var testResponse:((String,[String:Any]?) async throws -> Data)?
+    #endif
     var isUITesting:Bool {
         #if DEBUG
         return ProcessInfo.processInfo.arguments.contains("--ui-testing") || ProcessInfo.processInfo.environment["XCTestConfigurationFilePath"] != nil
@@ -77,6 +80,9 @@ import Security
     }
     func level(_ topic:Topic)->Int {1+topicXP(topic)/300}
     func request<T:Decodable>(_ route:String,body:[String:Any]?=nil,query:[URLQueryItem]=[]) async throws -> T {
+        #if DEBUG
+        if let testResponse {return try JSONDecoder().decode(T.self,from:await testResponse(route,body))}
+        #endif
         if isUITesting {throw APIError.message("UI test network is disabled.")}
         guard var parts=URLComponents(string:apiURL),parts.scheme=="https",parts.host != nil else {throw APIError.message("Enter the deployed HTTPS API URL in your profile first.")}
         parts.queryItems=(parts.queryItems ?? [])+[URLQueryItem(name:"r",value:route)]+query

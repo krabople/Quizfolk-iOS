@@ -75,7 +75,7 @@ import SwiftUI
     guard let self,!self.closed,!self.revealed else{return}
     let d=start.duration(to:.now);let elapsed=Double(d.components.seconds)+Double(d.components.attoseconds)/1e18
     self.remaining=max(0,seconds-elapsed)
-    if self.remaining<=0 {await self.answer(-1);return}
+    if self.remaining<=0 {Task{await self.answer(-1)};return}
    }
   }
  }
