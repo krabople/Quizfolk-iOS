@@ -1,19 +1,18 @@
 {
   "input": 24541,
-  "reviewed": 10957,
-  "remaining": 13584,
+  "reviewed": 12650,
+  "remaining": 11891,
   "decisions": {
-    "keep": 2624,
-    "edit": 6727,
-    "reject": 1606
+    "keep": 2719,
+    "edit": 8182,
+    "reject": 1749
   },
   "remainingByCategory": {
-    "11": 1829,
+    "11": 1509,
     "12": 3360,
-    "14": 2604,
-    "21": 223,
-    "26": 694,
-    "9": 4874
+    "14": 2254,
+    "26": 244,
+    "9": 4524
   },
   "errors": [],
   "complete": false

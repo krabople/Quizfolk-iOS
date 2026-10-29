@@ -1,27 +1,26 @@
 {
-  "updatedUTC": "2026-10-29T21:59:05.477236+00:00",
+  "updatedUTC": "2026-10-29T23:18:22.451367+00:00",
   "state": "individual_review_in_progress",
   "usageLimit": {
     "stopAtUsedPercent": 90,
-    "lastObservedUsedPercent": 49,
+    "lastObservedUsedPercent": 54,
     "instruction": "Stop all work and subagents when remaining account usage reaches 10%; do not silently continue."
   },
   "progress": {
     "input": 24541,
-    "reviewed": 10957,
-    "remaining": 13584,
+    "reviewed": 12650,
+    "remaining": 11891,
     "decisions": {
-      "keep": 2624,
-      "edit": 6727,
-      "reject": 1606
+      "keep": 2719,
+      "edit": 8182,
+      "reject": 1749
     },
     "remainingByCategory": {
-      "11": 1829,
+      "11": 1509,
       "12": 3360,
-      "14": 2604,
-      "21": 223,
-      "26": 694,
-      "9": 4874
+      "14": 2254,
+      "26": 244,
+      "9": 4524
     },
     "errors": [],
     "complete": false
@@ -76,9 +75,11 @@
   ],
   "helperLocation": "Individual review editing helpers are in the parent workspace work directory, outside this repository; the authoritative decisions are the tracked JSONL files.",
   "nextUnreadOriginalCategoryIndex": {
-    "Celebrities": 576,
+    "General Knowledge": 651,
+    "Film": 751,
     "Music": 1,
-    "Television": 1
+    "Television": 351,
+    "Celebrities": 1026
   },
   "latestUserAnswer": "Same question ID and equivalent normalised prompt cannot repeat within a match. Implementation and backend/iOS CI pass, but it is not yet in a new TestFlight release. Semantic paraphrases also need editorial review.",
   "reviewAssignments": {
