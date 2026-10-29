@@ -1,28 +1,27 @@
 {
-  "updatedUTC": "2026-10-28T20:35:34.247313+00:00",
+  "updatedUTC": "2026-10-29T21:59:05.477236+00:00",
   "state": "individual_review_in_progress",
   "usageLimit": {
     "stopAtUsedPercent": 90,
-    "lastObservedUsedPercent": 87,
+    "lastObservedUsedPercent": 49,
     "instruction": "Stop all work and subagents when remaining account usage reaches 10%; do not silently continue."
   },
   "progress": {
     "input": 24541,
-    "reviewed": 9443,
-    "remaining": 15098,
+    "reviewed": 10957,
+    "remaining": 13584,
     "decisions": {
-      "keep": 2512,
-      "edit": 5488,
-      "reject": 1443
+      "keep": 2624,
+      "edit": 6727,
+      "reject": 1606
     },
     "remainingByCategory": {
-      "10": 124,
-      "11": 2059,
+      "11": 1829,
       "12": 3360,
       "14": 2604,
-      "21": 683,
-      "26": 1094,
-      "9": 5174
+      "21": 223,
+      "26": 694,
+      "9": 4874
     },
     "errors": [],
     "complete": false
@@ -75,5 +74,17 @@
     "No tickets and no free-entry tournaments.",
     "Do not ask routine permission questions; existing broad authorization remains in force."
   ],
-  "helperLocation": "Individual review editing helpers are in the parent workspace work directory, outside this repository; the authoritative decisions are the tracked JSONL files."
+  "helperLocation": "Individual review editing helpers are in the parent workspace work directory, outside this repository; the authoritative decisions are the tracked JSONL files.",
+  "nextUnreadOriginalCategoryIndex": {
+    "Celebrities": 576,
+    "Music": 1,
+    "Television": 1
+  },
+  "latestUserAnswer": "Same question ID and equivalent normalised prompt cannot repeat within a match. Implementation and backend/iOS CI pass, but it is not yet in a new TestFlight release. Semantic paraphrases also need editorial review.",
+  "reviewAssignments": {
+    "Film": "expand_logic continues existing partial ledger",
+    "Sport and then Television": "tournament_fixes continues existing partial ledger",
+    "General Knowledge": "expand_topics continues existing partial ledger",
+    "Celebrities and then Music": "root continues existing partial ledger"
+  }
 }
