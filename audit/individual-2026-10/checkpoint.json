@@ -1,26 +1,25 @@
 {
-  "updatedUTC": "2026-10-29T23:18:22.451367+00:00",
+  "updatedUTC": "2026-10-29T23:55:29.237782+00:00",
   "state": "individual_review_in_progress",
   "usageLimit": {
     "stopAtUsedPercent": 90,
-    "lastObservedUsedPercent": 54,
+    "lastObservedUsedPercent": 59,
     "instruction": "Stop all work and subagents when remaining account usage reaches 10%; do not silently continue."
   },
   "progress": {
     "input": 24541,
-    "reviewed": 12650,
-    "remaining": 11891,
+    "reviewed": 14234,
+    "remaining": 10307,
     "decisions": {
-      "keep": 2719,
-      "edit": 8182,
-      "reject": 1749
+      "keep": 2804,
+      "edit": 9570,
+      "reject": 1860
     },
     "remainingByCategory": {
-      "11": 1509,
+      "11": 1069,
       "12": 3360,
-      "14": 2254,
-      "26": 244,
-      "9": 4524
+      "14": 1654,
+      "9": 4224
     },
     "errors": [],
     "complete": false
@@ -75,13 +74,13 @@
   ],
   "helperLocation": "Individual review editing helpers are in the parent workspace work directory, outside this repository; the authoritative decisions are the tracked JSONL files.",
   "nextUnreadOriginalCategoryIndex": {
-    "General Knowledge": 651,
-    "Film": 751,
+    "General Knowledge": 951,
+    "Film": 1191,
     "Music": 1,
-    "Television": 351,
-    "Celebrities": 1026
+    "Television": 951,
+    "Celebrities": "complete"
   },
-  "latestUserAnswer": "Same question ID and equivalent normalised prompt cannot repeat within a match. Implementation and backend/iOS CI pass, but it is not yet in a new TestFlight release. Semantic paraphrases also need editorial review.",
+  "latestUserAnswer": "Latest saved review snapshot: 10,307 questions remain; 14,234 of 24,541 reviewed. Continue the existing exhaustive audit and stop at 90% used.",
   "reviewAssignments": {
     "Film": "expand_logic continues existing partial ledger",
     "Sport and then Television": "tournament_fixes continues existing partial ledger",
