@@ -1,11 +1,17 @@
-# Question audit, 27 October 2026
+# Question review
 
-All 45,581 imported records have one entry in question-ledger.jsonl. Retained: 22,994. Held: 22,587. The ledger records original/suggested category, heuristic scores, reasons and action. Quarantined records are not bundled or served. data/audit-report.json hashes the active bank and records counts.
+The individual review completed on 30 October 2026 covers all 24,541 frozen expanded candidates in `individual-2026-10/input.json`. Each prompt and its four choices has a separate decision addressing meaning, the uniquely correct answer, grammar and category. The final decisions retain 3,137 unchanged questions, edit 18,530 and reject 2,874. The resulting JSON and SQLite banks contain 21,667 questions across 30 categories, with a minimum of 176 per category.
+
+`individual-2026-10/completion.json` records complete coverage and the published bank hash. The decision ledgers bind each judgment to its original question hash. Identified cross-category duplicates were individually reconciled; the final accepted bank has no identical normalised prompts. `scripts/validate_bank.py` checks the actual bank against every accepted decision, its hash, its four-answer structure and the 150-question minimum. The earlier automated-screen records below remain historical evidence.
+
+## Earlier automated screen, 27 October 2026
+
+All 45,581 imported records have one entry in question-ledger.jsonl. That screen retained 22,994 and held 22,587. The ledger records original/suggested category, heuristic scores, reasons and action. Quarantined records are not bundled or served. data/audit-report.json records that earlier bank's counts and hash; the current bank is described above.
 
 Method: local all-MiniLM-L6-v2 sentence embeddings, cosine comparison with 30 topic descriptions, and explicit wording/context/temporal/readability rules. Model: Xenova/all-MiniLM-L6-v2, pinned revision 751bff37182d3f1213fa05d7196b954e230abad9, tokenizer.json and onnx/model_quantized.onnx. No player data was used or transmitted. Similarity is not a probability or a factual check. Conservative thresholds deliberately hold some legitimate records for later editorial review. Human sample review covered every category; corrections and explicit holds are marked manualReview. The factorial answer was checked by mathematical derivation. Other retained records are not individually fact-verified.
 
 To reproduce automatic proposals, install numpy, tokenizers and onnxruntime from their normal package registries. Download the pinned model into WORK/audit-model. Obtain the original questions.json from commit 0a19732 using Git. Run python audit/embed_bank.py --source-bank ORIGINAL.json --work WORK, then python audit/semantic_audit.py with the same arguments. The final ledger also contains the subsequent manual sample decisions, so automatic proposals alone do not recreate those decisions. Preserve the final ledger as the release record. Future editorial decisions should record sources and a reviewer, then regenerate active JSON, SQLite payloads, counts and hash together.
 
-These checks improve wording and category fit but do not complete an exhaustive human factual review. Public release still needs editorial review, especially obscure or historically changing claims. The two source repositories, licences and pinned snapshots are listed in RESEARCH.md. Source question text and adaptations remain CC BY-SA 4.0.
+Those automated checks alone did not complete an individual factual review. The subsequent individual review of the expanded serving candidates is described above. The two source repositories, licences and pinned snapshots are listed in RESEARCH.md. Source question text and adaptations remain CC BY-SA 4.0.
 
 The additional temporal screen in audit/time_rules.py holds undated superlatives, records, changing quantities and personal/demographic claims for editorial review. It intentionally holds some valid stable facts as well. The population question exposed in screenshot review was held with its census source recorded in the ledger.

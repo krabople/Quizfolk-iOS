@@ -4,7 +4,7 @@ A native SwiftUI trivia app inspired by the original QuizUp: follow topics, play
 
 ## Included
 
-- 22,994 screened, bundled four-option questions across 30 categories. Actual per-topic counts appear in the app and `data/audit-report.json`.
+- 21,667 individually reviewed, bundled four-option questions across 30 categories, with at least 176 in every topic. Per-topic counts appear in the app and `data/categories.json`; the review result is in `audit/individual-2026-10/completion.json`.
 - Offline bot practice with persistent history and accuracy; practice stays out of online XP and topic levels.
 - A PHP + SQLite backend for asynchronous direct challenges, human-first search, follows, player discovery and recorded human runs, with a six-second bot fallback.
 - Server-owned online deadlines and scoring, authenticated match ownership, replay-safe answer submissions, name-based player cards, monthly and all-time filtered leaderboards, question reports and account deletion.
@@ -100,6 +100,6 @@ Run `python3 scripts/import_bank.py /path/to/opentdb/all_questions.json`, follow
 
 ## October 27 revision
 
-Topic-specific monthly/all-time XP leagues, reserved unique player names, profile photo selection and removal, animated matchup countdown and winner screen, prominent timer and correct/incorrect progress markers. See `RESEARCH.md` for the historical QuizUp scoring evidence and `audit/README.md` for question review scope. The screened bank has 22,994 active records; 22,587 uncertain source records are quarantined. Screening is not a guarantee of factual correctness.
+Topic-specific monthly/all-time XP leagues, reserved unique player names, profile photo selection and removal, animated matchup countdown and winner screen, prominent timer and correct/incorrect progress markers. See `RESEARCH.md` for the historical QuizUp scoring evidence and `audit/README.md` for question review scope. The individual pass reviewed all 24,541 expanded candidates: 18,530 edited, 3,137 kept and 2,874 excluded, leaving 21,667 active questions. Every decision records separate meaning, answer, grammar and category judgments.
 
 The additional temporal screen in audit/time_rules.py holds undated superlatives, records, changing quantities and personal/demographic claims for editorial review. It intentionally holds some valid stable facts as well. The population question exposed in screenshot review was held with its census source recorded in the ledger.

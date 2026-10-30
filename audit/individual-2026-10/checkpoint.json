@@ -1,25 +1,23 @@
 {
-  "updatedUTC": "2026-10-30T07:32:08.548120+00:00",
+  "updatedUTC": "2026-10-30T07:50:05.757239+00:00",
   "state": "individual_review_in_progress",
   "usageLimit": {
     "stopAtUsedPercent": 90,
-    "lastObservedUsedPercent": 87,
+    "lastObservedUsedPercent": 89,
     "instruction": "Stop all work and subagents when remaining account usage reaches 10%; do not silently continue."
   },
   "progress": {
     "input": 24541,
-    "reviewed": 24092,
-    "remaining": 449,
+    "reviewed": 24541,
+    "remaining": 0,
     "decisions": {
       "keep": 3137,
-      "edit": 18183,
-      "reject": 2772
+      "edit": 18530,
+      "reject": 2874
     },
-    "remainingByCategory": {
-      "9": 449
-    },
+    "remainingByCategory": {},
     "errors": [],
-    "complete": false
+    "complete": true
   },
   "inputPolicy": "Frozen input.json must not be mutated. Each question and all four answers require an individual sense, unique-answer, grammar and topic decision. No automated blanket acceptance or rejection.",
   "publication": "Candidate additions and review decisions have NOT been applied to playable JSON or SQLite. Do not claim that the full audit is complete. The apply command refuses incomplete coverage or fewer than 150 accepted questions per topic.",
@@ -71,13 +69,13 @@
   ],
   "helperLocation": "Individual review editing helpers are in the parent workspace work directory, outside this repository; the authoritative decisions are the tracked JSONL files.",
   "nextUnreadOriginalCategoryIndex": {
-    "General Knowledge": 4301,
+    "General Knowledge": "complete",
     "Film": "complete",
     "Music": "complete",
     "Television": "complete",
     "Celebrities": "complete"
   },
-  "latestUserAnswer": "Latest saved review snapshot: 449 questions remain; 24,092 of 24,541 reviewed. Continue the existing exhaustive audit and stop at 90% used.",
+  "latestUserAnswer": "Latest saved review snapshot: 0 questions remain; 24,541 of 24,541 reviewed. Continue the existing exhaustive audit and stop at 90% used.",
   "reviewAssignments": {
     "Film": "expand_logic continues existing partial ledger",
     "Sport and then Television": "tournament_fixes continues existing partial ledger",

@@ -1,0 +1,15 @@
+{
+  "input": 24541,
+  "reviewed": 24541,
+  "remaining": 0,
+  "decisions": {
+    "keep": 3137,
+    "edit": 18530,
+    "reject": 2874
+  },
+  "remainingByCategory": {},
+  "errors": [],
+  "complete": true,
+  "publishedCount": 21667,
+  "publishedSHA256": "19c37b11b90d1c52feb2bc5d42d497fe1543e8b2643297434e85ec6804b36df1"
+}
