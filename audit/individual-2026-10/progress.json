@@ -1,17 +1,17 @@
 {
   "input": 24541,
-  "reviewed": 17094,
-  "remaining": 7447,
+  "reviewed": 18334,
+  "remaining": 6207,
   "decisions": {
-    "keep": 3004,
-    "edit": 12025,
-    "reject": 2065
+    "keep": 3054,
+    "edit": 13081,
+    "reject": 2199
   },
   "remainingByCategory": {
-    "11": 309,
-    "12": 2910,
-    "14": 704,
-    "9": 3524
+    "11": 69,
+    "12": 2660,
+    "14": 254,
+    "9": 3224
   },
   "errors": [],
   "complete": false
