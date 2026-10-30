@@ -1,15 +1,14 @@
 {
   "input": 24541,
-  "reviewed": 19317,
-  "remaining": 5224,
+  "reviewed": 24092,
+  "remaining": 449,
   "decisions": {
-    "keep": 3087,
-    "edit": 13953,
-    "reject": 2277
+    "keep": 3137,
+    "edit": 18183,
+    "reject": 2772
   },
   "remainingByCategory": {
-    "12": 2250,
-    "9": 2974
+    "9": 449
   },
   "errors": [],
   "complete": false
