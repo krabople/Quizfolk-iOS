@@ -1,25 +1,25 @@
 {
-  "updatedUTC": "2026-10-30T00:22:02.393536+00:00",
+  "updatedUTC": "2026-10-30T01:02:24.843894+00:00",
   "state": "individual_review_in_progress",
   "usageLimit": {
     "stopAtUsedPercent": 90,
-    "lastObservedUsedPercent": 62,
+    "lastObservedUsedPercent": 68,
     "instruction": "Stop all work and subagents when remaining account usage reaches 10%; do not silently continue."
   },
   "progress": {
     "input": 24541,
-    "reviewed": 15314,
-    "remaining": 9227,
+    "reviewed": 17094,
+    "remaining": 7447,
     "decisions": {
-      "keep": 2909,
-      "edit": 10485,
-      "reject": 1920
+      "keep": 3004,
+      "edit": 12025,
+      "reject": 2065
     },
     "remainingByCategory": {
-      "11": 789,
-      "12": 3160,
-      "14": 1254,
-      "9": 4024
+      "11": 309,
+      "12": 2910,
+      "14": 704,
+      "9": 3524
     },
     "errors": [],
     "complete": false
@@ -74,13 +74,13 @@
   ],
   "helperLocation": "Individual review editing helpers are in the parent workspace work directory, outside this repository; the authoritative decisions are the tracked JSONL files.",
   "nextUnreadOriginalCategoryIndex": {
-    "General Knowledge": 1151,
-    "Film": 1471,
-    "Music": 201,
-    "Television": 1351,
+    "General Knowledge": 1651,
+    "Film": 1951,
+    "Music": 451,
+    "Television": 1901,
     "Celebrities": "complete"
   },
-  "latestUserAnswer": "Latest saved review snapshot: 9,227 questions remain; 15,314 of 24,541 reviewed. Continue the existing exhaustive audit and stop at 90% used.",
+  "latestUserAnswer": "Latest saved review snapshot: 7,447 questions remain; 17,094 of 24,541 reviewed. Continue the existing exhaustive audit and stop at 90% used.",
   "reviewAssignments": {
     "Film": "expand_logic continues existing partial ledger",
     "Sport and then Television": "tournament_fixes continues existing partial ledger",
