@@ -58,7 +58,10 @@ final class DuelUITests:XCTestCase {
         let cancel=app.buttons["Cancel"]
         XCTAssertTrue(cancel.waitForExistence(timeout:8))
         let image=app.images.matching(NSPredicate(format:"label BEGINSWITH 'Photo,'")).firstMatch
-        XCTAssertTrue(image.waitForExistence(timeout:30),app.debugDescription)
+        // The simulator's Photos service can take more than 30 seconds to
+        // initialise after importing its first image. Still require selection
+        // and the actual preview; a slow system picker is not an app failure.
+        XCTAssertTrue(image.waitForExistence(timeout:60),app.debugDescription)
         capture("PhotoPicker")
         image.tap()
         XCTAssertTrue(app.staticTexts["Your player picture"].waitForExistence(timeout:15))
@@ -66,6 +69,21 @@ final class DuelUITests:XCTestCase {
         capture("PicturePreview")
         app.buttons["Cancel"].tap()
         XCTAssertTrue(picker.waitForExistence(timeout:5))
+    }
+    @MainActor func testFreeFriendsTournamentSetting() {
+        let app=XCUIApplication();app.launchArguments=["--ui-testing"];app.launch()
+        if app.buttons["Done"].waitForExistence(timeout:3){app.buttons["Done"].tap()}
+        app.tabBars.buttons["Tournaments"].tap()
+        let friends=app.buttons["friendsTournaments"]
+        XCTAssertTrue(friends.waitForExistence(timeout:8));friends.tap()
+        let composer=app.buttons["Create or join a tournament"]
+        XCTAssertTrue(composer.waitForExistence(timeout:8));composer.tap()
+        let prizes=app.switches["partyPrizes"]
+        XCTAssertTrue(prizes.waitForExistence(timeout:8));prizes.tap()
+        XCTAssertTrue(app.staticTexts["Free entry · no coins, badges or tournament prizes"].exists)
+        XCTAssertTrue(app.buttons["Create free · no prizes"].exists)
+        capture("FreeFriendsTournamentSettings")
+        app.buttons["Done"].tap()
     }
     @MainActor func testPeopleProfilesAndChallengeComposer() {
         let app=XCUIApplication();app.launchArguments=["--ui-testing"];app.launch()

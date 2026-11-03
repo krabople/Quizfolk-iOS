@@ -66,7 +66,7 @@ struct FriendsTournamentComposer:View {
       TextField("Tournament name",text:$name)
       Stepper("\(cycles) cycle\(cycles==1 ? "":"s") · \(cycles*2) duels per pair",value:$cycles,in:1...3)
       Picker("Time to finish",selection:$days){ForEach([1,3,7,14],id:\.self){n in Text("\(n) day\(n==1 ? "":"s")").tag(n)}}
-      Toggle("Coin entry and podium prizes",isOn:$prizes)
+      Toggle("Coin entry and podium prizes",isOn:$prizes).accessibilityIdentifier("partyPrizes")
       Text(prizes ? "10 coins per person · coin and badge prizes":"Free entry · no coins, badges or tournament prizes").font(.caption).foregroundStyle(.secondary)
       Toggle("Allow power-ups",isOn:$powers)
      }
