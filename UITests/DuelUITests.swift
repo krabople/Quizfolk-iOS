@@ -79,8 +79,12 @@ final class DuelUITests:XCTestCase {
         let composer=app.buttons["Create or join a tournament"]
         XCTAssertTrue(composer.waitForExistence(timeout:8));composer.tap()
         let prizes=app.switches["partyPrizes"]
-        XCTAssertTrue(prizes.waitForExistence(timeout:8));prizes.tap()
-        XCTAssertTrue(app.staticTexts["Free entry · no coins, badges or tournament prizes"].exists)
+        XCTAssertTrue(prizes.waitForExistence(timeout:8))
+        // SwiftUI exposes both the labelled row and the trailing UISwitch.
+        // Tapping the row's centre hits its label; target the actual control.
+        let control=prizes.switches.firstMatch
+        XCTAssertTrue(control.waitForExistence(timeout:5));control.tap()
+        XCTAssertTrue(app.staticTexts["Free entry · no coins, badges or tournament prizes"].waitForExistence(timeout:5))
         capture("FreeFriendsTournamentSettings")
         let create=app.buttons["Create free · no prizes"]
         for _ in 0..<3 {if create.exists{break};app.swipeUp()}

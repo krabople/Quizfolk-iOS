@@ -55,7 +55,13 @@ final class ScoringTests:XCTestCase {
         let game=GameSession(topic:mixed,store:store,online:false)
         defer{game.stop()};await game.begin();await game.startPlaying()
         await game.usePower(.right);XCTAssertFalse(game.power.used)
-        try await Task.sleep(for:.milliseconds(3200))
+        // The reading task and this test share MainActor. Await the phase
+        // change rather than assuming both tasks were scheduled together.
+        let readingDeadline=ContinuousClock.now.advanced(by:.seconds(6))
+        while game.reading && ContinuousClock.now<readingDeadline {
+            try await Task.sleep(for:.milliseconds(50))
+        }
+        XCTAssertFalse(game.reading,"The reading phase must reveal the answers")
         await game.usePower(.double);XCTAssertTrue(game.power.used)
         let q=try XCTUnwrap(game.current),wrong=(q.correctIndex+1)%4
         await game.answer(wrong)
