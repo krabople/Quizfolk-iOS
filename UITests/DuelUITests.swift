@@ -81,8 +81,10 @@ final class DuelUITests:XCTestCase {
         let prizes=app.switches["partyPrizes"]
         XCTAssertTrue(prizes.waitForExistence(timeout:8));prizes.tap()
         XCTAssertTrue(app.staticTexts["Free entry · no coins, badges or tournament prizes"].exists)
-        XCTAssertTrue(app.buttons["Create free · no prizes"].exists)
         capture("FreeFriendsTournamentSettings")
+        let create=app.buttons["Create free · no prizes"]
+        for _ in 0..<3 {if create.exists{break};app.swipeUp()}
+        XCTAssertTrue(create.waitForExistence(timeout:5))
         app.buttons["Done"].tap()
     }
     @MainActor func testPeopleProfilesAndChallengeComposer() {

@@ -15,6 +15,8 @@ jobs:
   testflight:
     runs-on: macos-15
     timeout-minutes: 40
+    outputs:
+      source_commit: ${{ steps.source.outputs.sha }}
     env:
       ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
       ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
@@ -29,6 +31,9 @@ jobs:
         with:
           repository: krabople/Quizfolk-iOS
           ref: main
+      - name: Record the exact source revision
+        id: source
+        run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
       - name: Generate project
         run: |
           brew install xcodegen
@@ -82,3 +87,28 @@ jobs:
         run: |
           security delete-keychain "$RUNNER_TEMP/quizfolk.keychain-db" || true
           rm -f "$RUNNER_TEMP/distribution.p12" "$HOME/.appstoreconnect/private_keys/AuthKey_${ASC_KEY_ID}.p8"
+  verify_testflight:
+    needs: testflight
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+      ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+      ASC_API_KEY_BASE64: ${{ secrets.ASC_API_KEY_BASE64 }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: krabople/Quizfolk-iOS
+          ref: ${{ needs.testflight.outputs.source_commit }}
+      - name: Wait for Apple processing and verify the existing testing group
+        run: |
+          python3 -m venv "$RUNNER_TEMP/testflight-env"
+          "$RUNNER_TEMP/testflight-env/bin/pip" -q install PyJWT cryptography
+          "$RUNNER_TEMP/testflight-env/bin/python" scripts/apple_testflight.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: Quizfolk-TestFlight-verification
+          path: testflight-report.json
+          if-no-files-found: warn
+          retention-days: 14
