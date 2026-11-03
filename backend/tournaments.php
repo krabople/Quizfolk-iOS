@@ -37,8 +37,8 @@ function tournament_seed(PDO $db):void {
     $topics=json_decode(file_get_contents(dirname(__DIR__).'/data/categories.json'),true);$n=count($topics);$day=(int)floor(time()/86400);$start=$day*86400;
     // Preserve a small promised prize for already-entered free legacy events.
     // New tournaments always have entry coins and never receive this subsidy.
-    sql($db,'INSERT OR IGNORE INTO tournament_legacy_prize_floor SELECT id,25 FROM tournament_events e WHERE settled=0 AND coins=0 AND tickets=0 AND EXISTS(SELECT 1 FROM tournament_runs r WHERE r.event_id=e.id)');
-    $db->exec('UPDATE tournament_events SET coins=CASE WHEN kind="weekly" THEN 100 WHEN coins+tickets*25<25 THEN 25 ELSE coins+tickets*25 END,tickets=0 WHERE settled=0');
+    sql($db,'INSERT OR IGNORE INTO tournament_legacy_prize_floor SELECT id,25 FROM tournament_events e WHERE kind IN ("daily","weekly") AND settled=0 AND coins=0 AND tickets=0 AND EXISTS(SELECT 1 FROM tournament_runs r WHERE r.event_id=e.id)');
+    $db->exec('UPDATE tournament_events SET coins=CASE WHEN kind="weekly" THEN 100 WHEN coins+tickets*25<25 THEN 25 ELSE coins+tickets*25 END,tickets=0 WHERE kind IN ("daily","weekly") AND settled=0');
     if(!sql($db,'SELECT 1 FROM tournament_daily_schedule WHERE day=?',[$start])->fetch()) {
         $featured=[];
         for($i=0;$i<3;$i++) {
@@ -103,6 +103,7 @@ function tournament_settle(PDO $db):void {
         sql($db,'UPDATE tournament_runs SET state="closed",preview=NULL,started=NULL WHERE event_id=? AND state="playing"',[$e['id']]);
         if($e['kind']==='party')party_sync($db,$e['id']);
         $fresh=sql($db,'SELECT settled FROM tournament_events WHERE id=?',[$e['id']])->fetch();if($fresh['settled'])continue;
+        if($e['kind']==='party' && (int)$e['coins']===0){sql($db,'UPDATE tournament_events SET settled=1 WHERE id=?',[$e['id']]);continue;}
         $rows=tournament_standings($db,$e['id']);$pool=tournament_prize_pool($db,$e['id']);
         foreach($rows as $r) {
             $reward=tournament_prize($pool,$rows,(int)$r['rank']);

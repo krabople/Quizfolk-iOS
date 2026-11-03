@@ -108,10 +108,9 @@ The additional temporal screen in audit/time_rules.py holds undated superlatives
 ## Friends tournaments and quiz controls (3 November 2026)
 
 Private code-only round robins support 2–8 members, one to three home/away
-cycles, a 1/3/7/14-day deadline and optional power-ups. Every member pays 10
-coins on joining. Unstarted lobbies refund after 24 hours or host cancellation.
+cycles, a 1/3/7/14-day deadline and optional power-ups. The host chooses free entry without prizes, or a 10-coin entry per member. Unstarted lobbies refund after 24 hours or host cancellation.
 Each pair plays both home topics in every cycle. Win/draw/loss awards 3/1/0
-league points; tied points share a place. Only completed duels count. Entry
+league points; tied points share a place. Only completed duels count. Paid entry
 pools award podium coins and profile badges using the existing prize system.
 The board and fixtures require membership; public survival boards reject
 private events. Settings and membership lock at the start. No live server is

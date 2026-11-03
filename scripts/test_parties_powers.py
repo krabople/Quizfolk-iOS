@@ -124,4 +124,27 @@ with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_wallet SET coins
 req('power',{'match':empty['id'],'turn':0,'type':'fifty'},c,409)
 with sqlite3.connect(STATE) as db:assert db.execute('SELECT COUNT(*) FROM power_uses WHERE context=?',('match:'+empty['id'],)).fetchone()[0]==0
 assert wallet(c)==0
+# Free private events stay free when public schedules migrate, admit a player
+# with no coins, and produce neither a coin prize nor a tournament badge.
+before=wallet(b)
+free=req('party-create',{'requestID':str(uuid.uuid4()),'name':'Just for fun','topic':'22','cycles':1,'days':1,'powers':False,'entryCoins':0},b,201)
+assert free['entryCoins']==0 and wallet(b)==before
+quote=req('party-preview',{'code':free['code']},c);assert quote['entryCoins']==0 and not quote['alreadyMember']
+req('party-join',{'code':free['code'],'topic':'17','expectedEntryCoins':10},c,409)
+req('party-join',{'code':free['code'],'topic':'17','expectedEntryCoins':0},c)
+req('tournaments',token=c);req('coins',token=c) # Public migration must not change a private fee.
+assert req('party-board&id='+free['id'],token=c)['party']['entryCoins']==0 and wallet(c)==0
+req('party-start',{'party':free['id']},b)
+with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_events SET ends=? WHERE id=?',(int(time.time())-1,free['id']))
+req('prizes',token=b);req('party-board&id='+free['id'],token=c)
+with sqlite3.connect(STATE) as db:
+ assert db.execute('SELECT COUNT(*) FROM tournament_places WHERE event_id=?',(free['id'],)).fetchone()[0]==0
+ assert db.execute('SELECT COUNT(*) FROM tournament_legacy_prize_floor WHERE event_id=?',(free['id'],)).fetchone()[0]==0
+assert wallet(c)==0 and wallet(b)==before
+cancel=req('party-create',{'requestID':str(uuid.uuid4()),'name':'Cancel free','topic':'22','cycles':1,'days':1,'powers':False,'entryCoins':0},b,201)
+req('party-join',{'code':cancel['code'],'topic':'17'},c)
+req('party-cancel',{'party':cancel['id']},b)
+assert wallet(c)==0 and wallet(b)==before
+paid=min(req('tournaments',token=c)['events'],key=lambda x:x['coins'])
+req('tournament-enter',{'event':paid['id'],'requestID':str(uuid.uuid4())},c,409)
 print('PASS: private round-robin permissions, home/away cycles, results, prizes, refunds, mixed packets and atomic bounded power-ups')

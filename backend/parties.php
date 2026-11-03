@@ -14,7 +14,10 @@ function party_require(PDO $db,string $pid,string $id):array {
 }
 function party_cancel(PDO $db,array $p):void {
     if($p['status']!=='lobby')return;
-    foreach(sql($db,'SELECT * FROM party_members WHERE party_id=?',[$p['id']])->fetchAll() as $m)tournament_credit($db,$m['player_id'],'party-refund:'.$m['run_id'],10,0);
+    foreach(sql($db,'SELECT * FROM party_members WHERE party_id=?',[$p['id']])->fetchAll() as $m) {
+        $paid=max(0,-(int)sql($db,'SELECT coins FROM tournament_ledger WHERE player_id=? AND reference=?',[$m['player_id'],'entry:'.$m['run_id']])->fetchColumn());
+        tournament_credit($db,$m['player_id'],'party-refund:'.$m['run_id'],$paid,0);
+    }
     sql($db,'UPDATE parties SET status="cancelled" WHERE id=?',[$p['id']]);
     sql($db,'UPDATE tournament_events SET settled=1,ends=? WHERE id=?',[time(),$p['id']]);
 }
@@ -49,13 +52,14 @@ function party_sync_duel(PDO $db,string $duel):void {
     $id=sql($db,'SELECT party_id FROM party_fixtures WHERE duel_id=?',[$duel])->fetchColumn();if($id){party_sync($db,$id);tournament_settle($db);}
 }
 function party_card(PDO $db,string $pid,array $p):array {
-    return ['id'=>$p['id'],'name'=>$p['name'],'code'=>$p['code'],'hostID'=>$p['host'],'status'=>$p['status'],'cycles'=>(int)$p['cycles'],'days'=>(int)$p['days'],'powers'=>(bool)$p['powers'],'ends'=>(int)$p['ends'],'members'=>(int)sql($db,'SELECT COUNT(*) FROM party_members WHERE party_id=?',[$p['id']])->fetchColumn(),'entryCoins'=>10];
+    return ['id'=>$p['id'],'name'=>$p['name'],'code'=>$p['code'],'hostID'=>$p['host'],'status'=>$p['status'],'cycles'=>(int)$p['cycles'],'days'=>(int)$p['days'],'powers'=>(bool)$p['powers'],'ends'=>(int)$p['ends'],'members'=>(int)sql($db,'SELECT COUNT(*) FROM party_members WHERE party_id=?',[$p['id']])->fetchColumn(),'entryCoins'=>(int)sql($db,'SELECT coins FROM tournament_events WHERE id=?',[$p['id']])->fetchColumn()];
 }
 function party_add_member(PDO $db,string $id,string $pid,string $topic):void {
     if(!in_array($topic,array_column(play_topics(),'id'),true))fail('Choose a valid home topic.');
-    if(tournament_wallet($db,$pid)['coins']<10)fail('Not enough coins. Joining costs 10 coins.',409);
+    $price=(int)sql($db,'SELECT coins FROM tournament_events WHERE id=?',[$id])->fetchColumn();
+    if(tournament_wallet($db,$pid)['coins']<$price)fail('Not enough coins. Joining costs '.$price.' coins.',409);
     $run=bin2hex(random_bytes(12));sql($db,'INSERT INTO tournament_runs(id,event_id,player_id,request_key,deck,state,created) VALUES(?,?,?,?,?,?,?)',[$run,$id,$pid,'party:'.$id.':'.$pid,'[]','party',time()]);
-    tournament_credit($db,$pid,'entry:'.$run,-10,0);sql($db,'INSERT INTO party_members VALUES(?,?,?,?)',[$id,$pid,$topic,$run]);
+    tournament_credit($db,$pid,'entry:'.$run,-$price,0);sql($db,'INSERT INTO party_members VALUES(?,?,?,?)',[$id,$pid,$topic,$run]);
 }
 function party_routes(string $route,PDO $db,string $pid,array $body):void {
     if(!str_starts_with($route,'party-') && $route!=='parties')return;
@@ -70,22 +74,28 @@ function party_routes(string $route,PDO $db,string $pid,array $body):void {
         $key=(string)($body['requestID'] ?? '');if(!preg_match('/^[A-Za-z0-9-]{16,64}$/D',$key))fail('A request identifier is required.');
         $old=sql($db,'SELECT p.*,e.ends FROM parties p JOIN tournament_events e ON e.id=p.id WHERE p.request_key=?',[$pid.':'.$key])->fetch();
         if($old){$card=party_card($db,$pid,$old);$db->exec('COMMIT');out($card,201);}
-        $name=trim((string)($body['name'] ?? ''));$cycles=$body['cycles'] ?? 1;$days=$body['days'] ?? 7;$powers=$body['powers'] ?? false;
+        $name=trim((string)($body['name'] ?? ''));$cycles=$body['cycles'] ?? 1;$days=$body['days'] ?? 7;$powers=$body['powers'] ?? false;$entry=$body['entryCoins'] ?? 10;
         if(strlen($name)<2 || strlen($name)>60 || preg_match('/[\p{C}]/u',$name))fail('Use a tournament name of 2–60 characters.');
-        if(!is_int($cycles) || $cycles<1 || $cycles>3 || !in_array($days,[1,3,7,14],true) || !is_bool($powers))fail('Choose valid tournament settings.');
+        if(!is_int($cycles) || $cycles<1 || $cycles>3 || !in_array($days,[1,3,7,14],true) || !is_bool($powers) || !in_array($entry,[0,10],true))fail('Choose valid tournament settings.');
         if((int)sql($db,'SELECT COUNT(*) FROM parties WHERE host=? AND created>?',[$pid,time()-86400])->fetchColumn()>=3)fail('You can host up to three friends tournaments a day.',429);
         $id=bin2hex(random_bytes(12));$code=strtoupper(bin2hex(random_bytes(6)));$end=time()+86400;
-        sql($db,'INSERT INTO tournament_events VALUES(?,?,?,?,?,?,?,0)',[$id,'mixed','party',time(),$end,10,0]);
+        sql($db,'INSERT INTO tournament_events VALUES(?,?,?,?,?,?,?,0)',[$id,'mixed','party',time(),$end,$entry,0]);
         sql($db,'INSERT INTO parties VALUES(?,?,?,?,?,?,?,?,?,?)',[$id,$pid,$code,$name,$cycles,$days,(int)$powers,'lobby',time(),$pid.':'.$key]);
         party_add_member($db,$id,$pid,(string)($body['topic'] ?? ''));
         $p=party_require($db,$pid,$id);$card=party_card($db,$pid,$p);$db->exec('COMMIT');out($card,201);
     }
-    if($route==='party-join') {
+    if($route==='party-join' || $route==='party-preview') {
         $bucket='party-join:'.$pid;$window=(int)floor(time()/3600);
         sql($db,'INSERT INTO limits VALUES(?,?,1) ON CONFLICT(bucket) DO UPDATE SET count=CASE WHEN window=excluded.window THEN count+1 ELSE 1 END,window=excluded.window',[$bucket,$window]);
         if((int)sql($db,'SELECT count FROM limits WHERE bucket=?',[$bucket])->fetchColumn()>20){$db->exec('COMMIT');fail('Please wait before trying more invitation codes.',429);}
         $code=strtoupper(preg_replace('/[\s-]+/','',(string)($body['code'] ?? '')));
         $p=sql($db,'SELECT p.*,e.ends FROM parties p JOIN tournament_events e ON e.id=p.id WHERE code=?',[$code])->fetch();if(!$p) {$db->exec('COMMIT');fail('Invitation code not found.',404);}
+        $entry=(int)sql($db,'SELECT coins FROM tournament_events WHERE id=?',[$p['id']])->fetchColumn();
+        $member=(bool)sql($db,'SELECT 1 FROM party_members WHERE party_id=? AND player_id=?',[$p['id'],$pid])->fetch();
+        if($route==='party-preview') {
+            $reply=['name'=>$p['name'],'entryCoins'=>$entry,'status'=>$p['status'],'alreadyMember'=>$member];$db->exec('COMMIT');out($reply);
+        }
+        if(isset($body['expectedEntryCoins']) && $body['expectedEntryCoins']!==$entry)fail('The entry option has changed. Check the invitation again.',409);
         if(!sql($db,'SELECT 1 FROM party_members WHERE party_id=? AND player_id=?',[$p['id'],$pid])->fetch()) {
             if($p['status']!=='lobby' || (int)$p['ends']<=time())fail('This tournament is no longer accepting players.',409);
             $members=sql($db,'SELECT player_id FROM party_members WHERE party_id=?',[$p['id']])->fetchAll();if(count($members)>=8)fail('This tournament is full (eight players).',409);

@@ -4,6 +4,7 @@ struct FriendsTournament:Decodable,Identifiable,Hashable {
  let id:String;let name:String;let code:String;let hostID:String;let status:String
  let cycles:Int;let days:Int;let powers:Bool;let ends:Double;let members:Int;let entryCoins:Int
 }
+struct FriendsInvitation:Decodable {let name:String;let entryCoins:Int;let status:String;let alreadyMember:Bool}
 struct FriendsTournamentList:Decodable {let parties:[FriendsTournament]}
 struct FriendsStanding:Decodable,Identifiable {
  let id:String;let name:String;let avatar:String?;let topicID:String
@@ -24,7 +25,7 @@ struct FriendsTournamentsView:View {
    VStack(alignment:.leading,spacing:20) {
     Text("Home topic. Away topic. Bragging rights.").font(.system(size:27,weight:.bold,design:.rounded))
     Text("A private round-robin for 2–8 friends. Each pair plays one duel in each person’s home topic per cycle. Play together at a party or catch up later.").foregroundStyle(.secondary)
-    Button("Create or join · 10 coins each"){composer=true}.buttonStyle(PrimaryButton(color:.ink))
+    Button("Create or join a tournament"){composer=true}.buttonStyle(PrimaryButton(color:.ink))
     Text("Your friends tournaments").font(.title3.bold())
     ForEach(rooms){room in NavigationLink{FriendsTournamentView(room:room)}label:{VStack(alignment:.leading,spacing:8){Text(room.name).font(.headline);Text("\(room.members) players · \(room.status.capitalized)").font(.caption).foregroundStyle(.secondary)}.frame(maxWidth:.infinity,alignment:.leading).padding(18).background(.white,in:RoundedRectangle(cornerRadius:16))}.buttonStyle(.plain)}
     if rooms.isEmpty,error==nil {Text("Create a tournament and share its invitation code with your friends.").font(.subheadline).foregroundStyle(.secondary)}
@@ -50,6 +51,8 @@ struct FriendsTournamentComposer:View {
  @State private var cycles=1
  @State private var days=7
  @State private var powers=false
+ @State private var prizes=true
+ @State private var invitation:FriendsInvitation?
  @State private var busy=false
  @State private var error:String?
  @State private var requestID=UUID().uuidString
@@ -63,26 +66,34 @@ struct FriendsTournamentComposer:View {
       TextField("Tournament name",text:$name)
       Stepper("\(cycles) cycle\(cycles==1 ? "":"s") · \(cycles*2) duels per pair",value:$cycles,in:1...3)
       Picker("Time to finish",selection:$days){ForEach([1,3,7,14],id:\.self){n in Text("\(n) day\(n==1 ? "":"s")").tag(n)}}
+      Toggle("Coin entry and podium prizes",isOn:$prizes)
+      Text(prizes ? "10 coins per person · coin and badge prizes":"Free entry · no coins, badges or tournament prizes").font(.caption).foregroundStyle(.secondary)
       Toggle("Allow power-ups",isOn:$powers)
      }
      Picker("My home topic",selection:$topic){ForEach(store.topics){t in Text(t.emoji+" "+t.name).tag(t.id)}}
     }
+    if joining,let invitation {Section("Invitation details"){Text(invitation.name).font(.headline);Text(invitation.alreadyMember ? "You already joined · no further charge":(invitation.entryCoins==0 ? "Free entry · no prizes":"Entry: \(invitation.entryCoins) coins · coin and badge prizes"));if invitation.status != "lobby" && !invitation.alreadyMember {Text("Entries have closed").foregroundStyle(.secondary)}}}
     Section {
-     Text("Entry costs 10 coins per person, charged when you create or join. The host starts once everyone has joined and picked a topic. Topics and settings then lock.")
+     Text("The host chooses free entry without prizes, or a 10-coin entry with podium prizes. Any entry fee is charged when you create or join. The host starts once everyone has joined and picked a topic. Topics and settings then lock.")
      Text("Win = 3 league points; draw = 1. Equal league points share a place. Both players get the same seven questions and their own clocks. Unfinished duels earn no league points.")
-     Text("The entry pool awards coins and profile badges to the top three places. Two players share 60% / 40%; three or more share 50% / 30% / 20%. Tied places share those prizes.")
+     Text("For a paid tournament, the entry pool awards coins and profile badges to the top three places. Two players share 60% / 40%; three or more share 50% / 30% / 20%. Tied places share those prizes.")
      Text("Only members can see the board. An unstarted lobby expires after 24 hours and refunds every entry. The host can also cancel before starting.")
     }.font(.caption).foregroundStyle(.secondary)
     if let error {Section{Text(error).foregroundStyle(.red)}}
-    Section{Button(busy ? "Checking…":(joining ? "Join · 10 coins":"Create · 10 coins")){Task{await submit()}}.disabled(busy || (joining && code.isEmpty) || (!joining && name.trimmingCharacters(in:.whitespaces).count<2))}
+    Section{Button(busy ? "Checking…":actionTitle){Task{await submit()}}.disabled(busy || (joining && code.isEmpty) || (!joining && name.trimmingCharacters(in:.whitespaces).count<2) || (joining && invitation != nil && invitation?.alreadyMember==false && invitation?.status != "lobby"))}
    }.navigationTitle("Play with friends").toolbar{ToolbarItem(placement:.topBarTrailing){Button("Done"){dismiss()}}}
-  }
+  }.onChange(of:code){_,_ in invitation=nil}
+ }
+ private var actionTitle:String {
+  if joining {guard let invitation else{return "Check invitation"};return invitation.alreadyMember ? "Open tournament":(invitation.entryCoins==0 ? "Join free":"Join · \(invitation.entryCoins) coins")}
+  return prizes ? "Create · 10 coins":"Create free · no prizes"
  }
  private func submit()async {
   busy=true;defer{busy=false};error=nil
   if store.profile==nil{await store.connect()}
   do {
-   let _:FriendsTournament=try await store.request(joining ? "party-join":"party-create",body:joining ? ["code":code,"topic":topic]:["name":name,"topic":topic,"cycles":cycles,"days":days,"powers":powers,"requestID":requestID])
+   if joining,invitation==nil {invitation=try await store.request("party-preview",body:["code":code]);return}
+   let _:FriendsTournament=try await store.request(joining ? "party-join":"party-create",body:joining ? ["code":code,"topic":topic,"expectedEntryCoins":invitation?.entryCoins ?? 0]:["name":name,"entryCoins":prizes ? 10:0,"topic":topic,"cycles":cycles,"days":days,"powers":powers,"requestID":requestID])
    dismiss()
   }catch{self.error=error.localizedDescription}
  }
@@ -105,12 +116,12 @@ struct FriendsTournamentView:View {
     Text("Private · \(current.members) players · \(current.status.capitalized)").font(.subheadline).foregroundStyle(.secondary)
     if current.status=="lobby" {
      HStack{Text(current.code).font(.system(.title3,design:.monospaced).bold()).textSelection(.enabled);Spacer();ShareLink(item:"Join my Quizfolk friends tournament: \(current.name). Invitation code: \(current.code)"){Label("Invite",systemImage:"square.and.arrow.up")}}
-     Text("Share the code, then wait for everyone to join. Joining costs 10 coins. Your lobby closes in 24 hours if it isn’t started.").font(.caption).foregroundStyle(.secondary)
+     Text(current.entryCoins==0 ? "Share the code and wait for your friends. Entry is free, with no tournament prizes. Your lobby closes in 24 hours if it isn’t started.":"Share the code and wait for your friends. Joining costs \(current.entryCoins) coins. Your lobby closes in 24 hours if it isn’t started.").font(.caption).foregroundStyle(.secondary)
      Picker("My home topic",selection:$topic){ForEach(store.topics){t in Text(t.emoji+" "+t.name).tag(t.id)}}
      Button("Save home topic"){Task{await changeTopic()}}.disabled(busy)
      if board?.selfID==current.hostID {
       Button("Start tournament · lock players and topics"){Task{await command("party-start")}}.buttonStyle(PrimaryButton()).disabled(busy || current.members<2)
-      Button("Cancel and refund all entries",role:.destructive){cancel=true}.disabled(busy)
+      Button(current.entryCoins==0 ? "Cancel tournament":"Cancel and refund all entries",role:.destructive){cancel=true}.disabled(busy)
      } else {Text("The host will start when everyone is ready.").font(.subheadline)}
     } else if current.status=="playing" {
      HStack{Text("Finish by");Text(Date(timeIntervalSince1970:current.ends),style:.date);Text(Date(timeIntervalSince1970:current.ends),style:.time)}.font(.caption)
@@ -120,14 +131,14 @@ struct FriendsTournamentView:View {
      Text("Your matches").font(.title3.bold())
      ForEach(board.fixtures.filter{$0.a==board.selfID || $0.b==board.selfID}){f in fixture(f,board:board)}
     }
-    VStack(alignment:.leading,spacing:8){Text("How this tournament works").font(.headline);Text("Each pair plays \(current.cycles*2) duels: both home topics in every cycle. Win 3 points, draw 1. Ties share a place. The board updates after both players finish. Unfinished matches score zero at the deadline.");Text(current.powers ? "One coin-funded power-up per duel is allowed.":"Power-ups are switched off for everyone.");Text("The entry pool pays the top three places and awards profile badges. Results appear when all duels finish or the deadline arrives.")}.font(.caption).foregroundStyle(.secondary)
+    VStack(alignment:.leading,spacing:8){Text("How this tournament works").font(.headline);Text("Each pair plays \(current.cycles*2) duels: both home topics in every cycle. Win 3 points, draw 1. Ties share a place. The board updates after both players finish. Unfinished matches score zero at the deadline.");Text(current.powers ? "One coin-funded power-up per duel is allowed.":"Power-ups are switched off for everyone.");Text(current.entryCoins==0 ? "Free tournament · no coin prizes or profile badges. Results appear when all duels finish or the deadline arrives.":"The entry pool pays the top three places and awards profile badges. Results appear when all duels finish or the deadline arrives.")}.font(.caption).foregroundStyle(.secondary)
     if let error {Text(error).font(.caption).foregroundStyle(.red)}
     Button("Refresh"){Task{await reload()}}.disabled(busy)
    }.padding(22)
   }.background(Color.canvas).foregroundStyle(Color.ink).navigationTitle("Friends tournament").navigationBarTitleDisplayMode(.inline)
    .task{await reload()}.refreshable{await reload()}
    .fullScreenCover(item:$game,onDismiss:{Task{await reload();await store.loadPrizes()}}){g in GameView(game:g).environmentObject(store)}
-   .confirmationDialog("Cancel this lobby and refund everyone’s 10 coins?",isPresented:$cancel,titleVisibility:.visible){Button("Cancel tournament",role:.destructive){Task{await command("party-cancel")}}}
+   .confirmationDialog(current.entryCoins==0 ? "Cancel this free tournament?":"Cancel this lobby and refund everyone’s entry coins?",isPresented:$cancel,titleVisibility:.visible){Button("Cancel tournament",role:.destructive){Task{await command("party-cancel")}}}
  }
  private var standings:some View {
   VStack(alignment:.leading,spacing:12) {
