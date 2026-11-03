@@ -36,6 +36,7 @@ q=reveal(a,m['id'])['question'];n=right(q);coins=wallet(a)
 p=req('power',{'match':m['id'],'turn':0,'type':'fifty'},a)
 assert len(p['power']['hidden'])==2 and n not in p['power']['hidden'] and p['coins']==coins-5
 assert req('power',{'match':m['id'],'turn':0,'type':'fifty'},a)['coins']==coins-5
+assert req('reveal',{'match':m['id']},a)['power']['hidden']==p['power']['hidden']
 req('power',{'match':m['id'],'turn':0,'type':'right'},a,409)
 req('power',{'match':m['id'],'turn':0,'type':'fifty'},b,404)
 req('answer',{'match':m['id'],'round':0,'answer':n},a)
@@ -88,4 +89,34 @@ req('party-cancel',{'party':r['id']},a,409);assert wallet(a)==before
 r=req('party-create',{'requestID':str(uuid.uuid4()),'name':'Expire lobby','topic':'22','cycles':1,'days':1,'powers':True},a,201)
 with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_events SET ends=? WHERE id=?',(int(time.time())-1,r['id']))
 req('prizes',token=a);assert wallet(a)==before
+# Three players each host a leg against every opponent; identical home topics
+# still yield two fixtures, rather than silently losing a home or away match.
+three=req('party-create',{'requestID':str(uuid.uuid4()),'name':'Three friends','topic':'22','cycles':1,'days':1,'powers':True},c,201)
+for token in [a,b]:req('party-join',{'code':three['code'],'topic':'22'},token)
+req('party-start',{'party':three['id']},c)
+fixtures=req('party-board&id='+three['id'],token=c)['fixtures']
+assert len(fixtures)==6
+assert len({tuple(sorted([f['a'],f['b']])) for f in fixtures})==3
+for player in [aid,bid,cid]:assert sum(f['homeID']==player for f in fixtures)==2
+with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_events SET ends=? WHERE id=?',(int(time.time())-1,three['id']))
+assert req('party-board&id='+three['id'],token=c)['party']['status']=='complete'
+req('party-play',{'party':three['id'],'fixture':fixtures[0]['id']},c,404 if cid not in [fixtures[0]['a'],fixtures[0]['b']] else 410)
+# Survival Double Choice grants exactly one extra pick, not an extra life after
+# a second wrong answer; it cannot reset the run’s clock or score a retry.
+event=min(req('tournaments',token=a)['events'],key=lambda x:x['coins'])
+run=req('tournament-enter',{'event':event['id'],'requestID':str(uuid.uuid4())},a,201)
+r=req('tournament-round',{'run':run['id']},a);assert r['question']['answers']==[] and r['readingRemaining']>2.8
+with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_runs SET preview=? WHERE id=?',(time.time()-4,run['id']))
+q=req('tournament-reveal',{'run':run['id']},a)['question'];n=right(q)
+req('tournament-power',{'run':run['id'],'turn':0,'type':'double'},a)
+r=req('tournament-answer',{'run':run['id'],'turn':0,'answer':(n+1)%4},a)
+assert r['retry'] and r['turn']==0 and r['state']=='playing'
+r=req('tournament-answer',{'run':run['id'],'turn':0,'answer':(n+2)%4},a)
+assert r['state']=='finished' and r['turn']==1 and r['score']==0
+# Insufficient balance never creates a use record or a partial debit.
+empty=req('match',{'topic':'17'},c,201);reveal(c,empty['id'])
+with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_wallet SET coins=0 WHERE player_id=?',(cid,))
+req('power',{'match':empty['id'],'turn':0,'type':'fifty'},c,409)
+with sqlite3.connect(STATE) as db:assert db.execute('SELECT COUNT(*) FROM power_uses WHERE context=?',('match:'+empty['id'],)).fetchone()[0]==0
+assert wallet(c)==0
 print('PASS: private round-robin permissions, home/away cycles, results, prizes, refunds, mixed packets and atomic bounded power-ups')

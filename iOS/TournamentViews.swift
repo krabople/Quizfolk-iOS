@@ -191,7 +191,7 @@ struct TournamentPlayView:View {
  }
  private var play:some View {
   GeometryReader {geo in
-   VStack(spacing:16) {
+   VStack(spacing:10) {
     HStack {
      VStack(alignment:.leading,spacing:5){Text("SURVIVAL TOURNAMENT").font(.system(size:10,weight:.black)).tracking(1);Text("\(game.score) points").font(.system(size:30,weight:.heavy,design:.rounded));Text("\(game.streak) correct in a row").font(.caption)}
      Spacer();if game.question != nil {timer}
@@ -199,8 +199,8 @@ struct TournamentPlayView:View {
     if let question=game.question {
      Text(question.prompt).font(.system(size:25,weight:.bold,design:.rounded)).multilineTextAlignment(.center).lineLimit(7).minimumScaleFactor(0.6).frame(maxWidth:.infinity,maxHeight:.infinity)
      if game.reading {Text("Read the question · 3 seconds").font(.subheadline.bold()).multilineTextAlignment(.center).transition(.opacity)}
-     LazyVGrid(columns:[GridItem(.flexible(),spacing:9),GridItem(.flexible(),spacing:9)],spacing:9){ForEach(question.answers.indices,id:\.self){i in answer(question.answers[i],index:i).frame(height:max(80,(geo.size.height*0.44-9)/2))}}
-      .frame(height:game.reading ? 0:geo.size.height*0.44).opacity(game.reading ? 0:1).clipped().accessibilityHidden(game.reading)
+     LazyVGrid(columns:[GridItem(.flexible(),spacing:9),GridItem(.flexible(),spacing:9)],spacing:9){ForEach(question.answers.indices,id:\.self){i in answer(question.answers[i],index:i).frame(height:max(80,(geo.size.height*0.38-9)/2))}}
+      .frame(height:game.reading ? 0:geo.size.height*0.38).opacity(game.reading ? 0:1).clipped().accessibilityHidden(game.reading)
      PowerTray(power:game.power,enabled:!game.reading && !game.revealed && !game.busy){choice in Task{await game.usePower(choice)}}
      if let message=game.powerError {Text(message).font(.caption2).foregroundStyle(Color(hex:"FFD494"))}
      if game.revealed {
@@ -218,7 +218,7 @@ struct TournamentPlayView:View {
      Spacer()
     }
     if let error=game.error {Text(error).font(.caption);Button("Try again"){Task{await game.retry()}}.buttonStyle(.bordered)}
-   }.padding(20).animation(reduceMotion ? nil:.easeInOut(duration:0.45),value:game.reading)
+   }.padding(18).animation(reduceMotion ? nil:.easeInOut(duration:0.45),value:game.reading)
   }
  }
  private var timer:some View {

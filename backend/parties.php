@@ -116,10 +116,11 @@ function party_routes(string $route,PDO $db,string $pid,array $body):void {
         sql($db,'UPDATE parties SET status="playing" WHERE id=?',[$id]);sql($db,'UPDATE tournament_events SET starts=?,ends=? WHERE id=?',[time(),time()+(int)$p['days']*86400,$id]);$db->exec('COMMIT');out(['ok'=>true]);
     }
     if($route==='party-play') {
-        if($p['status']!=='playing')fail('This tournament is not open for matches.',409);
+        if(!in_array($p['status'],['playing','complete'],true))fail('This tournament is not open for matches.',409);
         $f=sql($db,'SELECT * FROM party_fixtures WHERE id=? AND party_id=? AND (a=? OR b=?)',[(string)($body['fixture'] ?? ''),$id,$pid,$pid])->fetch();if(!$f)fail('Match not found',404);
         $other=$f['a']===$pid?$f['b']:$f['a'];visible_player($db,$pid,$other);
         if(!$f['duel_id']) {
+            if($p['status']!=='playing')fail('This match was not played before the deadline.',410);
             $a=visible_player($db,$pid,$f['a']);$b=visible_player($db,$pid,$f['b']);$packet=fresh_packet($db,$f['a'],$f['topic']);$duel=bin2hex(random_bytes(12));
             $am=insert_match($db,$a['id'],$f['topic'],'party',$b['name'],$b['id'],$packet,array_fill(0,7,0),$duel,null,true);
             $bm=insert_match($db,$b['id'],$f['topic'],'party',$a['name'],$a['id'],$packet,array_fill(0,7,0),$duel,null,true);

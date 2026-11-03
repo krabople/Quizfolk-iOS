@@ -80,6 +80,7 @@ struct FriendsTournamentComposer:View {
  }
  private func submit()async {
   busy=true;defer{busy=false};error=nil
+  if store.profile==nil{await store.connect()}
   do {
    let _:FriendsTournament=try await store.request(joining ? "party-join":"party-create",body:joining ? ["code":code,"topic":topic]:["name":name,"topic":topic,"cycles":cycles,"days":days,"powers":powers,"requestID":requestID])
    dismiss()
@@ -141,7 +142,7 @@ struct FriendsTournamentView:View {
   let other=f.a==board.selfID ? f.b:f.a
   let name=board.standings.first{$0.id==other}?.name ?? "Former player"
   return VStack(alignment:.leading,spacing:7){Text("vs \(name)").font(.headline);Text("\(topicName(f.topicID)) · Cycle \(f.cycle) · \(f.homeID==board.selfID ? "Your home topic":"Their home topic")").font(.caption).foregroundStyle(.secondary)
-   if current.status=="playing" {Button(f.status=="complete" ? "View result":(f.ownFinished ? "Run saved · check result":"Play duel")){Task{await play(f)}}.disabled(busy)}else{Text(f.status=="complete" ? "Complete":"Unfinished · no league points").font(.caption)}
+   if current.status=="playing" || f.status=="complete" {Button(f.status=="complete" ? "View result":(f.ownFinished ? "Run saved · check result":"Play duel")){Task{await play(f)}}.disabled(busy)}else{Text("Unfinished · no league points").font(.caption)}
   }.frame(maxWidth:.infinity,alignment:.leading).padding(16).background(.white,in:RoundedRectangle(cornerRadius:15))
  }
  private func topicName(_ id:String)->String {store.topics.first{$0.id==id}?.name ?? "Topic"}

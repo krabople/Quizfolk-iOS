@@ -53,16 +53,15 @@ struct GameView:View {
  }
  private var play:some View {
   GeometryReader {geometry in
-   VStack(spacing:game.revealed ? 5:9) {
+   VStack(spacing:game.revealed ? 5:7) {
     HStack {player(store.name,avatar:store.avatar,score:game.score,bot:false);Text("VS").font(.system(size:12,weight:.black)).opacity(0.6);player(game.opponent,avatar:game.opponentAvatar,score:game.duelID != nil && game.awaitingOpponent ? nil:game.opponentScore,bot:!game.isHuman)}.frame(height:game.revealed ? 42:48)
     DuelProgressView(ownName:store.name,opponent:game.opponent,rounds:game.rounds,opponentAnswered:game.opponentAnswered,recorded:game.kind=="human")
-    Text("Answered questions · saved progress").font(.system(size:8)).opacity(0.65)
-    HStack {VStack(alignment:.leading,spacing:5){Text(game.round==6 ? "FINAL ROUND":"ROUND \(game.round+1) OF 7").font(.system(size:12,weight:.black)).tracking(1);Text(game.round==6 ? "DOUBLE POINTS":"FASTER = MORE POINTS").font(.system(size:9,weight:.bold)).foregroundStyle(Color(hex:"FFD494"))};Spacer();if game.reading {Image(systemName:"book.fill").font(.system(size:35)).foregroundStyle(Color(hex:"FFD494")).frame(width:74,height:74)}else{timer}}.frame(height:game.revealed ? 50:78)
+    HStack {VStack(alignment:.leading,spacing:5){Text(game.round==6 ? "FINAL ROUND":"ROUND \(game.round+1) OF 7").font(.system(size:12,weight:.black)).tracking(1);Text(game.round==6 ? "DOUBLE POINTS":"FASTER = MORE POINTS").font(.system(size:9,weight:.bold)).foregroundStyle(Color(hex:"FFD494"))};Spacer();if game.reading {Image(systemName:"book.fill").font(.system(size:35)).foregroundStyle(Color(hex:"FFD494")).frame(width:74,height:74)}else{timer}}.frame(height:game.revealed ? 50:60)
     if let q=game.current {
      Text(q.prompt).font(.system(size:25,weight:.bold,design:.rounded)).multilineTextAlignment(.center).lineLimit(7).minimumScaleFactor(0.6).frame(maxWidth:.infinity,maxHeight:.infinity).layoutPriority(1)
      if game.reading {Text("Read the question · 3 seconds").font(.subheadline.bold()).multilineTextAlignment(.center).accessibilityIdentifier("readingPhase").transition(.opacity)}
-     LazyVGrid(columns:[GridItem(.flexible(),spacing:9),GridItem(.flexible(),spacing:9)],spacing:9){ForEach(q.answers.indices,id:\.self){i in answer(q,index:i).frame(height:max(80,(geometry.size.height*(game.revealed ? 0.34:0.42)-9)/2))}}
-      .frame(height:game.reading ? 0:geometry.size.height*(game.revealed ? 0.34:0.42)).opacity(game.reading ? 0:1).clipped().accessibilityHidden(game.reading)
+     LazyVGrid(columns:[GridItem(.flexible(),spacing:9),GridItem(.flexible(),spacing:9)],spacing:9){ForEach(q.answers.indices,id:\.self){i in answer(q,index:i).frame(height:max(80,(geometry.size.height*(game.revealed ? 0.32:0.38)-9)/2))}}
+      .frame(height:game.reading ? 0:geometry.size.height*(game.revealed ? 0.32:0.38)).opacity(game.reading ? 0:1).clipped().accessibilityHidden(game.reading)
      PowerTray(power:game.power,enabled:!game.reading && !game.revealed && !game.busy,practice:!game.online,allowed:game.powerAllowed){choice in Task{await game.usePower(choice)}}
      if let message=game.powerError {Text(message).font(.caption2).foregroundStyle(Color(hex:"FFD494"))}
      if game.revealed {
@@ -74,15 +73,15 @@ struct GameView:View {
     } else {Spacer();ProgressView("Loading question…").tint(.white);Spacer()}
     if let error=game.error {Text(error).font(.caption);Button("Try again"){Task{await game.retry()}}.buttonStyle(.bordered)}
     Text("\(game.current?.source ?? "Open trivia contributors") · CC BY-SA 4.0").font(.system(size:8)).opacity(0.65).lineLimit(1)
-   }.padding(.horizontal,18).padding(.vertical,10).animation(reduceMotion ? nil:.easeInOut(duration:0.45),value:game.reading)
+   }.padding(.horizontal,18).padding(.vertical,8).animation(reduceMotion ? nil:.easeInOut(duration:0.45),value:game.reading)
   }
  }
  private var timer:some View {
   ZStack {
    Circle().stroke(.white.opacity(0.18),lineWidth:6)
    Circle().trim(from:0,to:max(0,min(1,game.remaining/10))).stroke(game.remaining<=3 ? Color.coral:Color(hex:"FFD494"),style:StrokeStyle(lineWidth:6,lineCap:.round)).rotationEffect(.degrees(-90))
-   VStack(spacing:-2){Text(String(format:"%.1f",game.remaining)).font(.system(size:game.revealed ? 19:29,weight:.black,design:.rounded)).monospacedDigit();if !game.revealed {Text("SECONDS").font(.system(size:8,weight:.heavy)).tracking(1)}}
-  }.frame(width:game.revealed ? 46:74,height:game.revealed ? 46:74).accessibilityElement(children:.ignore).accessibilityLabel("\(String(format:"%.1f",game.remaining)) seconds remaining").accessibilityIdentifier("roundTimer")
+   VStack(spacing:-2){Text(String(format:"%.1f",game.remaining)).font(.system(size:game.revealed ? 19:25,weight:.black,design:.rounded)).monospacedDigit();if !game.revealed {Text("SECONDS").font(.system(size:8,weight:.heavy)).tracking(1)}}
+  }.frame(width:game.revealed ? 46:60,height:game.revealed ? 46:60).accessibilityElement(children:.ignore).accessibilityLabel("\(String(format:"%.1f",game.remaining)) seconds remaining").accessibilityIdentifier("roundTimer")
  }
  private func roundMarker(_ i:Int)->some View {
   let complete=i<game.rounds.count

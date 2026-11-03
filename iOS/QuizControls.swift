@@ -5,7 +5,7 @@ struct PowerState:Decodable {
  var type:String?=nil
  var hidden:[Int]=[]
  var highlight:Int?=nil
- func nextQuestion()->PowerState {PowerState(used:used,type:type)}
+ func nextQuestion()->PowerState {PowerState(used:used)}
 }
 struct PowerReply:Decodable {let power:PowerState;let remaining:Double;let coins:Int}
 struct MatchProgress:Decodable {let ownAnswered:Int;let opponentAnswered:Int}
