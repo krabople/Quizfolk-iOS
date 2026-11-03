@@ -199,7 +199,7 @@ struct TournamentPlayView:View {
     if let question=game.question {
      Text(question.prompt).font(.system(size:25,weight:.bold,design:.rounded)).multilineTextAlignment(.center).lineLimit(7).minimumScaleFactor(0.6).frame(maxWidth:.infinity,maxHeight:.infinity)
      if game.reading {Text("Read the question · 3 seconds").font(.subheadline.bold()).multilineTextAlignment(.center).transition(.opacity)}
-     LazyVGrid(columns:[GridItem(.flexible(),spacing:9),GridItem(.flexible(),spacing:9)],spacing:9){ForEach(question.answers.indices,id:\.self){i in answer(question.answers[i],index:i).frame(height:max(80,(geo.size.height*0.38-9)/2))}}
+     LazyVGrid(columns:[GridItem(.flexible(),spacing:9),GridItem(.flexible(),spacing:9)],spacing:9){if !game.reading {ForEach(question.answers.indices,id:\.self){i in answer(question.answers[i],index:i).frame(height:max(80,(geo.size.height*0.38-9)/2))}}}
       .frame(height:game.reading ? 0:geo.size.height*0.38).opacity(game.reading ? 0:1).clipped().accessibilityHidden(game.reading)
      PowerTray(power:game.power,enabled:!game.reading && !game.revealed && !game.busy){choice in Task{await game.usePower(choice)}}
      if let message=game.powerError {Text(message).font(.caption2).foregroundStyle(Color(hex:"FFD494"))}

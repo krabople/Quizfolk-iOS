@@ -60,7 +60,7 @@ struct GameView:View {
     if let q=game.current {
      Text(q.prompt).font(.system(size:25,weight:.bold,design:.rounded)).multilineTextAlignment(.center).lineLimit(7).minimumScaleFactor(0.6).frame(maxWidth:.infinity,maxHeight:.infinity).layoutPriority(1)
      if game.reading {Text("Read the question · 3 seconds").font(.subheadline.bold()).multilineTextAlignment(.center).accessibilityIdentifier("readingPhase").transition(.opacity)}
-     LazyVGrid(columns:[GridItem(.flexible(),spacing:9),GridItem(.flexible(),spacing:9)],spacing:9){ForEach(q.answers.indices,id:\.self){i in answer(q,index:i).frame(height:max(80,(geometry.size.height*(game.revealed ? 0.32:0.38)-9)/2))}}
+     LazyVGrid(columns:[GridItem(.flexible(),spacing:9),GridItem(.flexible(),spacing:9)],spacing:9){if !game.reading {ForEach(q.answers.indices,id:\.self){i in answer(q,index:i).frame(height:max(80,(geometry.size.height*(game.revealed ? 0.32:0.38)-9)/2))}}}
       .frame(height:game.reading ? 0:geometry.size.height*(game.revealed ? 0.32:0.38)).opacity(game.reading ? 0:1).clipped().accessibilityHidden(game.reading)
      PowerTray(power:game.power,enabled:!game.reading && !game.revealed && !game.busy,practice:!game.online,allowed:game.powerAllowed){choice in Task{await game.usePower(choice)}}
      if let message=game.powerError {Text(message).font(.caption2).foregroundStyle(Color(hex:"FFD494"))}
