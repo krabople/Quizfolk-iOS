@@ -40,9 +40,30 @@ final class ScoringTests:XCTestCase {
         XCTAssertTrue(game.reading);XCTAssertEqual(game.remaining,10)
         await game.answer(0);XCTAssertTrue(game.rounds.isEmpty)
         try await Task.sleep(for:.milliseconds(2200))
+        XCTAssertTrue(game.reading,"The complete three-second reading period must be respected")
+        try await Task.sleep(for:.milliseconds(1000))
         XCTAssertFalse(game.reading);XCTAssertGreaterThan(game.remaining,9)
         await game.answer(game.current!.correctIndex)
         XCTAssertEqual(game.lastPoints,20)
+    }
+    @MainActor func testMixedDeckBalancesCategoriesAndDoubleChoiceHasOneUse() async throws {
+        let store=QuizStore(),mixed=Topic.mixed(count:store.questions.count)
+        let packet=store.packet(mixed)
+        XCTAssertEqual(packet.count,7)
+        XCTAssertEqual(Set(packet.map{$0.categoryID}).count,7)
+        XCTAssertEqual(Set(packet.map{$0.promptKey}).count,7)
+        let game=GameSession(topic:mixed,store:store,online:false)
+        defer{game.stop()};await game.begin();await game.startPlaying()
+        await game.usePower(.right);XCTAssertFalse(game.power.used)
+        try await Task.sleep(for:.milliseconds(3200))
+        await game.usePower(.double);XCTAssertTrue(game.power.used)
+        let q=try XCTUnwrap(game.current),wrong=(q.correctIndex+1)%4
+        await game.answer(wrong)
+        XCTAssertFalse(game.revealed);XCTAssertTrue(game.rounds.isEmpty)
+        XCTAssertEqual(game.power.hidden,[wrong])
+        await game.usePower(.right);XCTAssertEqual(game.power.type,"double")
+        await game.answer(q.correctIndex)
+        XCTAssertEqual(game.rounds.count,1);XCTAssertGreaterThan(game.lastPoints,0)
     }
     @MainActor func testPendingChallengeHasNoPrematureWinOrXP() {
         let q=Question(id:"sample",categoryID:"22",difficulty:"easy",prompt:"Sample?",answers:["A","B","C","D"],correctIndex:0)

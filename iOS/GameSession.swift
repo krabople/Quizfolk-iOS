@@ -2,9 +2,9 @@ import Foundation
 import SwiftUI
 
 struct PublicQuestion:Decodable {let id:String;let prompt:String;let answers:[String];let difficulty:String;let source:String?;let sourceURL:String?}
-struct StartReply:Decodable {let id:String;let kind:String;let opponent:String;let opponentAvatar:String?;var opponentID:String?=nil;var duelID:String?=nil;var played:[PlayedRound]?=nil;var score:Int?=nil;var opponentScore:Int?=nil;var pending:Bool?=nil}
-struct RoundReply:Decodable {let round:Int;let question:PublicQuestion;let remaining:Double;let readingRemaining:Double?;let phase:String?}
-struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPoints:Int;let finished:Bool;let score:Int;let opponentScore:Int;let pending:Bool?}
+struct StartReply:Decodable {let id:String;let kind:String;let opponent:String;let opponentAvatar:String?;var opponentID:String?=nil;var duelID:String?=nil;var played:[PlayedRound]?=nil;var score:Int?=nil;var opponentScore:Int?=nil;var pending:Bool?=nil;var powerAllowed:Bool?=nil}
+struct RoundReply:Decodable {let round:Int;let question:PublicQuestion;let remaining:Double;let readingRemaining:Double?;let phase:String?;var power:PowerState?=nil}
+struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPoints:Int;let finished:Bool;let score:Int;let opponentScore:Int;let pending:Bool?;var retry:Bool?=nil;var remaining:Double?=nil;var power:PowerState?=nil}
 @MainActor final class GameSession:ObservableObject,Identifiable {
     let id=UUID()
     let topic:Topic
@@ -23,6 +23,11 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
     @Published var duelID:String?
     @Published var awaitingOpponent=false
     @Published var reading=false
+    @Published var power=PowerState()
+    @Published var powerAllowed=true
+    @Published var powerError:String?
+    @Published var opponentAnswered=0
+    private var progressTask:Task<Void,Never>?
     @Published var searching=false
     @Published var searchMessage="Looking for players in this topic…"
     private let searchRequestID=UUID().uuidString
@@ -78,7 +83,7 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
         busy=false
     }
     private func apply(_ r:StartReply) {
-        matchID=r.id;opponent=r.opponent;opponentAvatar=r.opponentAvatar;kind=r.kind;opponentID=r.opponentID;duelID=r.duelID
+        powerAllowed=r.powerAllowed ?? true;opponentAnswered=r.kind=="human" ? 7:0;matchID=r.id;opponent=r.opponent;opponentAvatar=r.opponentAvatar;kind=r.kind;opponentID=r.opponentID;duelID=r.duelID
         rounds=r.played ?? [];score=r.score ?? 0;opponentScore=r.opponentScore ?? 0;awaitingOpponent=r.pending ?? false
         if rounds.count==7 {round=6;current=rounds.last?.question;revealed=true;finished=true;saveResult()}
         else {round=rounds.count}
@@ -106,6 +111,9 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
             if online {try await getOnlineRound()}
             else {beginOfflineReading(packet[0])}
             showIntro=false
+            if online {progressTask=Task{[weak self] in
+                while !Task.isCancelled {guard let self,!self.closed,!self.finished else{return};await self.refreshProgress();do{try await Task.sleep(for:.seconds(8))}catch{return}}
+            }}
         } catch {self.error=error.localizedDescription}
         busy=false
     }
@@ -113,14 +121,14 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
         let reply:RoundReply=try await store.request("round",body:["match":matchID]);applyQuestion(reply)
     }
     private func applyQuestion(_ reply:RoundReply) {
-        round=reply.round
+        round=reply.round;power=reply.power ?? power.nextQuestion();powerError=nil
         current=Question(id:reply.question.id,categoryID:topic.id,difficulty:reply.question.difficulty,prompt:reply.question.prompt,answers:reply.question.answers,correctIndex:-1,source:reply.question.source,sourceURL:reply.question.sourceURL)
         if reply.phase=="reading" {
             timer?.cancel();reading=true;remaining=10;readingTask?.cancel()
             readingTask=Task{[weak self] in
                 guard let self else{return}
                 do {
-                    try await Task.sleep(for:.seconds(max(0,reply.readingRemaining ?? 2)))
+                    try await Task.sleep(for:.seconds(max(0,reply.readingRemaining ?? 3)))
                     guard !self.closed,!Task.isCancelled else{return}
                     let shown:RoundReply=try await self.store.request("reveal",body:["match":self.matchID])
                     guard !self.closed,!Task.isCancelled else{return};self.applyQuestion(shown)
@@ -129,9 +137,9 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
         } else {reading=false;startTimer(seconds:reply.remaining)}
     }
     private func beginOfflineReading(_ q:Question) {
-        timer?.cancel();readingTask?.cancel();current=q;reading=true;remaining=10
+        timer?.cancel();readingTask?.cancel();power=power.nextQuestion();powerError=nil;current=q;reading=true;remaining=10
         readingTask=Task{[weak self] in
-            do{try await Task.sleep(for:.seconds(2))}catch{return}
+            do{try await Task.sleep(for:.seconds(3))}catch{return}
             guard let self,!self.closed,!Task.isCancelled else{return};self.reading=false;self.startTimer(seconds:10)
         }
     }
@@ -152,7 +160,7 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
     func answer(_ index:Int) async {
         guard !reading,!revealed,!busy,let q=current else {return}
         timer?.cancel();busy=true;selected=index;pendingAnswer=index
-        let elapsed=start.map{Self.seconds($0.duration(to:.now))} ?? 10
+        let elapsed=max(0,10-remaining)
         pendingElapsed=elapsed
         await submit(q:q,index:index,elapsed:elapsed)
     }
@@ -162,8 +170,14 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
             let correct:Int;let points:Int;let other:Int
             if online {
                 let r:AnswerReply=try await store.request("answer",body:["match":matchID,"round":round,"answer":index])
+                if r.retry==true {
+                    power=r.power ?? power;selected=nil;pendingAnswer=nil;startTimer(seconds:r.remaining ?? remaining);busy=false;return
+                }
                 correct=r.correctIndex;points=r.points;other=r.opponentPoints;opponentScore=r.opponentScore-other;awaitingOpponent=r.pending ?? false
             } else {
+                if power.type=="double",power.hidden.isEmpty,index>=0,index != q.correctIndex,remaining>0 {
+                    power.hidden=[index];selected=nil;pendingAnswer=nil;startTimer(seconds:remaining);busy=false;return
+                }
                 correct=q.correctIndex;points=Scoring.points(correct:index==correct,elapsed:elapsed,round:round)
                 let chance=q.difficulty=="easy" ? 0.83 : (q.difficulty=="hard" ? 0.45:0.65)
                 other=Scoring.points(correct:Double.random(in:0...1)<chance,elapsed:Double.random(in:1.2...9.8),round:round)
@@ -171,11 +185,29 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
             let revealedQ=Question(id:q.id,categoryID:q.categoryID,difficulty:q.difficulty,prompt:q.prompt,answers:q.answers,correctIndex:correct,source:q.source,sourceURL:q.sourceURL)
             current=revealedQ;lastPoints=points;score+=points;opponentScore+=other
             rounds.append(PlayedRound(question:revealedQ,selected:index,elapsed:elapsed,points:points,opponentPoints:other))
-            revealed=true;pendingAnswer=nil
+            revealed=true;pendingAnswer=nil;if !online || kind=="bot"{opponentAnswered=rounds.count}
             if rounds.count==7 {saveResult()}
             UIImpactFeedbackGenerator(style:.light).impactOccurred()
         } catch {self.error=error.localizedDescription}
         busy=false
+    }
+    private func refreshProgress() async {
+        if let r:MatchProgress=try? await store.request("match-progress",body:["match":matchID]){opponentAnswered=r.opponentAnswered}
+    }
+    func usePower(_ choice:QuizPower) async {
+        guard !reading,!revealed,!busy,!power.used,powerAllowed,remaining>0,let q=current else{return}
+        busy=true;powerError=nil
+        do {
+            if online {
+                let r:PowerReply=try await store.request("power",body:["match":matchID,"turn":round,"type":choice.rawValue]);power=r.power;startTimer(seconds:r.remaining)
+            } else {
+                power=PowerState(used:true,type:choice.rawValue)
+                if choice == .fifty {power.hidden=Array(q.answers.indices.filter{$0 != q.correctIndex}.shuffled().prefix(2))}
+                if choice == .right {power.highlight=q.correctIndex}
+            }
+        } catch {powerError=error.localizedDescription}
+        busy=false
+        if remaining<=0{await answer(-1)}
     }
     func retry() async {
         if showIntro {if prepared {await startPlaying()} else {await begin()};return}
@@ -195,5 +227,5 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
         if online {busy=true;do {try await getOnlineRound()} catch{self.error=error.localizedDescription};busy=false}
         else {beginOfflineReading(packet[round])}
     }
-    func stop() {closed=true;timer?.cancel();readingTask?.cancel();if let searchID {Task{let _:OKReply?=try? await store.request("cancel-search",body:["searchID":searchID])}}}
+    func stop() {closed=true;progressTask?.cancel();timer?.cancel();readingTask?.cancel();if let searchID {Task{let _:OKReply?=try? await store.request("cancel-search",body:["searchID":searchID])}}}
 }

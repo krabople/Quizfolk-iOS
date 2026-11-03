@@ -1,6 +1,10 @@
 <?php
 declare(strict_types=1);
 
+function play_topics():array {
+    $topics=json_decode(file_get_contents(dirname(__DIR__).'/data/categories.json'),true);
+    $topics[]=['id'=>'mixed','name'=>'Mixed topics','symbol'=>'shuffle','color'=>'7253A4','emoji'=>'🎨','questionCount'=>array_sum(array_column($topics,'questionCount'))];return $topics;
+}
 // Formatting differences and separate source IDs do not make a new question.
 // Fold case, quote typography, repeated spacing and terminal prose punctuation.
 // Preserve internal punctuation, word boundaries and numerical notation: 1.2,

@@ -19,7 +19,12 @@ final class DuelUITests:XCTestCase {
         for i in 0..<7 {
             let option=app.buttons["answer-3"]
             XCTAssertTrue(option.waitForExistence(timeout:8))
-            if i==0 {for n in 0..<4 {XCTAssertTrue(app.buttons["answer-\(n)"].isHittable,"Every answer must be visible without scrolling")}}
+            if i==0 {
+                for n in 0..<4 {XCTAssertTrue(app.buttons["answer-\(n)"].isHittable,"Every answer must be visible without scrolling")}
+                XCTAssertEqual(app.buttons["answer-0"].frame.minY,app.buttons["answer-1"].frame.minY,accuracy:3)
+                XCTAssertGreaterThan(app.buttons["answer-2"].frame.minY,app.buttons["answer-0"].frame.minY)
+                XCTAssertTrue(app.descendants(matching:.any).matching(identifier:"duelProgress").firstMatch.exists)
+            }
             if i==0 {XCTAssertTrue(app.otherElements["roundTimer"].exists);capture("Question")}
             if option.isEnabled {option.tap()}
             let next=app.buttons["advanceQuestion"]

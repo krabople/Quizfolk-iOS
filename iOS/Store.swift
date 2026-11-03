@@ -43,6 +43,7 @@ import Security
         do {
             topics = try Self.resource("categories")
             questions = try Self.resource("questions")
+            topics.append(.mixed(count:questions.count))
         } catch { loadError = "The question bank could not be loaded: \(error.localizedDescription)" }
         favourites = Set(UserDefaults.standard.stringArray(forKey:"favourites") ?? [])
         name = UserDefaults.standard.string(forKey:"name") ?? name
@@ -65,13 +66,18 @@ import Security
         UserDefaults.standard.set(apiURL,forKey:"apiURL")
     }
     func packet(_ topic:Topic) -> [Question] {
-        let played=history.filter{$0.topicID==topic.id}.flatMap{$0.rounds.map{$0.question}}
+        let played=history.filter{topic.id=="mixed" || $0.topicID==topic.id}.flatMap{$0.rounds.map{$0.question}}
         let seen=Set(played.map{$0.id}),seenPrompts=Set(played.map{$0.promptKey})
-        let bank=questions.filter{$0.categoryID==topic.id}
+        let bank=questions.filter{topic.id=="mixed" || $0.categoryID==topic.id}
         let fresh=bank.filter{!seen.contains($0.id) && !seenPrompts.contains($0.promptKey)}.shuffled()
         let extra=bank.filter{seen.contains($0.id) || seenPrompts.contains($0.promptKey)}.shuffled()
         var ids=Set<String>(),prompts=Set<String>(),result:[Question]=[]
-        for question in fresh+extra {
+        var deck=fresh+extra
+        if topic.id=="mixed" {
+            let groups=Dictionary(grouping:deck,by:{$0.categoryID})
+            deck=groups.keys.shuffled().compactMap{groups[$0]?.first}
+        }
+        for question in deck {
             let key=question.promptKey
             guard !key.isEmpty,!ids.contains(question.id),!prompts.contains(key) else {continue}
             ids.insert(question.id);prompts.insert(key);result.append(question.shuffled())

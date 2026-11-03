@@ -8,6 +8,7 @@ struct Topic: Codable, Identifiable, Hashable {
     let color: String
     let emoji: String
     let questionCount: Int
+    static func mixed(count:Int)->Topic {Topic(id:"mixed",name:"Mixed topics",symbol:"shuffle",color:"7253A4",emoji:"🎨",questionCount:count)}
     var tint: Color { Color(hex: color) }
 }
 struct Question: Codable, Identifiable {

@@ -103,3 +103,34 @@ Run `python3 scripts/import_bank.py /path/to/opentdb/all_questions.json`, follow
 Topic-specific monthly/all-time XP leagues, reserved unique player names, profile photo selection and removal, animated matchup countdown and winner screen, prominent timer and correct/incorrect progress markers. See `RESEARCH.md` for the historical QuizUp scoring evidence and `audit/README.md` for question review scope. The individual pass reviewed all 24,541 expanded candidates: 18,530 edited, 3,137 kept and 2,874 excluded, leaving 21,667 active questions. Every decision records separate meaning, answer, grammar and category judgments.
 
 The additional temporal screen in audit/time_rules.py holds undated superlatives, records, changing quantities and personal/demographic claims for editorial review. It intentionally holds some valid stable facts as well. The population question exposed in screenshot review was held with its census source recorded in the ledger.
+
+
+## Friends tournaments and quiz controls (3 November 2026)
+
+Private code-only round robins support 2–8 members, one to three home/away
+cycles, a 1/3/7/14-day deadline and optional power-ups. Every member pays 10
+coins on joining. Unstarted lobbies refund after 24 hours or host cancellation.
+Each pair plays both home topics in every cycle. Win/draw/loss awards 3/1/0
+league points; tied points share a place. Only completed duels count. Entry
+pools award podium coins and profile badges using the existing prize system.
+The board and fixtures require membership; public survival boards reject
+private events. Settings and membership lock at the start. No live server is
+needed. All matches retain the existing asynchronous seven-question rules.
+
+Mixed topics is a virtual category over the reviewed bank, sampling seven
+different categories per duel. Random topic chooses one of the 30 base topics.
+The bank itself remains 21,667 individually reviewed questions.
+
+Questions have a three-second reading period followed by the answer clock.
+Two-by-two answer tiles slide into place with reduced-motion support. Progress
+shows saved answer counts for each player; asynchronous rivals are not shown
+as if they were live. One power-up per duel/survival run is enforced by the
+server: Fifty Fifty (5 coins), Double Choice (10), Right Answer (25). The clock
+keeps running. These tariffs and the cap are Quizfolk rules, not established
+historical QuizUp constants. See docs/QUIZUP-RESEARCH.md.
+
+Deploy backend/powers.php and backend/parties.php alongside the other service
+files. Do not overwrite backend/private/quizfolk.sqlite. The new tables are
+additive and created automatically. Run `python3 scripts/run_contracts.py`
+against a clean checkout for all isolated HTTP tests. A matching iOS release
+and backend deployment are both required before these features are live.

@@ -2,7 +2,7 @@ name: Backend contract tests
 on:
   push:
     branches: [main]
-    paths: ['backend/**', 'scripts/test_*.py', 'scripts/test_*.php', 'data/**', '.github/workflows/backend.yml']
+    paths: ['backend/**', 'scripts/test_*.py', 'scripts/test_*.php', 'scripts/run_contracts.py', 'data/**', '.github/workflows/backend.yml']
   pull_request:
   workflow_dispatch:
 permissions:
@@ -24,9 +24,4 @@ jobs:
           php scripts/test_economy.php
       - name: Run isolated API contract tests
         run: |
-          php -S 127.0.0.1:8770 -t backend/public > /tmp/quizfolk-php.log 2>&1 &
-          for i in $(seq 1 20); do curl -sf 'http://127.0.0.1:8770/index.php?r=health' && break || sleep 1; done
-          python3 scripts/test_backend.py
-          python3 scripts/test_social.py
-          python3 scripts/test_tournaments.py
-          python3 scripts/test_economy.py
+          python3 scripts/run_contracts.py

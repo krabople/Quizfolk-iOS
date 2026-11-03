@@ -8,6 +8,7 @@ struct TournamentPrize:Decodable,Identifiable,Equatable {
     let coins:Int
     let date:Double
     let score:Int
+    var eventName:String?=nil
     var placing:String {rank == 1 ? "1st place" : (rank == 2 ? "2nd place" : "3rd place")}
     var colour:Color {Color(hex:rank == 1 ? "C8952C" : (rank == 2 ? "7C8DA3" : "B66F47"))}
 }
@@ -82,7 +83,7 @@ struct TournamentPrizePopup:View {
     @State private var appeared=false
     @State private var busy=false
     @State private var error:String?
-    private var topicName:String {store.topics.first{$0.id==prize.topicID}?.name ?? "Trivia"}
+    private var topicName:String {prize.eventName ?? store.topics.first{$0.id==prize.topicID}?.name ?? "Trivia"}
     var body:some View {
         ZStack {
             Color.black.opacity(0.55).ignoresSafeArea()
@@ -90,7 +91,7 @@ struct TournamentPrizePopup:View {
                 TournamentMedal(prize:prize,size:88).scaleEffect(appeared ? 1:0.6)
                 Text("Congratulations!").font(.system(size:30,weight:.bold,design:.rounded))
                 Text("You finished in \(prize.placing)").font(.title3.bold())
-                Text("\(topicName) · \(prize.kind.capitalized) tournament").multilineTextAlignment(.center)
+                Text("\(topicName) · \(prize.kind=="party" ? "Friends":prize.kind.capitalized) tournament").multilineTextAlignment(.center)
                 Text(Date(timeIntervalSince1970:prize.date),style:.date).font(.caption).foregroundStyle(.secondary)
                 Text("+\(prize.coins) coins").font(.system(size:36,weight:.black,design:.rounded)).foregroundStyle(prize.colour)
                 Text("Your coins are in your balance. Your tournament badge is yours to keep.").font(.subheadline).multilineTextAlignment(.center).foregroundStyle(.secondary)

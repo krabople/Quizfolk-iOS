@@ -14,6 +14,8 @@ require dirname(__DIR__).'/names.php';
 require dirname(__DIR__).'/social.php';
 require dirname(__DIR__).'/tournaments.php';
 require dirname(__DIR__).'/economy.php';
+require dirname(__DIR__).'/powers.php';
+require dirname(__DIR__).'/parties.php';
 function earned_xp(int $score,int $other):int {return $score+40+($score>$other ? 100:($score===$other ? 50:0));}
 try {
     $configFile=dirname(__DIR__).'/config.php';
@@ -33,14 +35,16 @@ try {
     social_schema($db);
     economy_schema($db);
     tournament_schema($db);
+    power_schema($db);
+    party_schema($db);
     $route=(string)($_GET['r'] ?? 'health');$method=$_SERVER['REQUEST_METHOD'];
     if((int)($_SERVER['CONTENT_LENGTH'] ?? 0)>24576) fail('Request is too large',413);
     $raw=file_get_contents('php://input');$body=$raw==='' ? []:json_decode($raw,true,32,JSON_THROW_ON_ERROR);
     if(!is_array($body)) fail('Expected a JSON object');
-    $readRoutes=['health','categories','profile','leaderboard','people','player','duels','activity','tournaments','tournament-board','coins','prizes'];
+    $readRoutes=['health','categories','profile','leaderboard','people','player','duels','activity','tournaments','tournament-board','coins','prizes','parties','party-board'];
     if(!in_array($route,$readRoutes,true) && $method!=='POST') fail('Use POST',405);
     if($route==='health') out(['ok'=>true,'version'=>'0.3.0']);
-    if($route==='categories') out(['categories'=>json_decode(file_get_contents(dirname(__DIR__,2).'/data/categories.json'),true,512,JSON_THROW_ON_ERROR)]);
+    if($route==='categories') out(['categories'=>play_topics()]);
     $ipHash=hash('sha256',(string)($_SERVER['REMOTE_ADDR'] ?? 'unknown'));
     $bucket=($route==='register' ? 'register:':'request:').$ipHash;
     $window=(int)floor(time()/3600);$maximum=$route==='register' ? 10:3000;
@@ -63,6 +67,7 @@ try {
     $player=sql($db,'SELECT * FROM players WHERE token_hash=?',[hash('sha256',$hit[1])])->fetch();
     if(!$player) fail('Player key is invalid',401);
     $pid=$player['id'];
+    party_routes($route,$db,$pid,$body);
     economy_routes($route,$db,$pid,$body);
     tournament_routes($route,$db,$pid,$body);
     social_routes($route,$db,$pid,$player,$body,$config);
@@ -103,7 +108,7 @@ try {
         $where='m.completed IS NOT NULL AND NOT EXISTS(SELECT 1 FROM blocks b WHERE (b.player_id=? AND b.target_id=m.player_id) OR (b.player_id=m.player_id AND b.target_id=?))';$args=[$pid,$pid];
         if(($_GET['scope'] ?? '')==='following'){$where.=' AND (m.player_id=? OR EXISTS(SELECT 1 FROM follows f WHERE f.player_id=? AND f.target_id=m.player_id))';$args[]=$pid;$args[]=$pid;}
         $topic=(string)($_GET['topic'] ?? '');
-        $topics=json_decode(file_get_contents(dirname(__DIR__,2).'/data/categories.json'),true,512,JSON_THROW_ON_ERROR);
+        $topics=play_topics();
         if(!in_array($topic,array_column($topics,'id'),true))fail('Choose a topic to view its league table.');
         if(($_GET['period'] ?? 'month')==='month') {$where.=' AND m.completed>=?';$args[]=strtotime(gmdate('Y-m-01').' 00:00 UTC');}
         if(($_GET['period'] ?? 'month')==='week') {$where.=' AND m.completed>=?';$args[]=strtotime('monday this week 00:00 UTC');}
@@ -119,7 +124,7 @@ try {
     if($route==='match') {
         $db->exec('BEGIN IMMEDIATE');$reply=create_random_match($db,$pid,(string)($body['topic'] ?? ''),$config);$db->exec('COMMIT');out($reply,201);
     }
-    if($route==='round' || $route==='reveal' || $route==='answer') {
+    if($route==='round' || $route==='reveal' || $route==='answer' || $route==='power' || $route==='match-progress') {
         $id=(string)($body['match'] ?? '');$db->exec('BEGIN IMMEDIATE');
         $m=sql($db,'SELECT * FROM matches WHERE id=? AND player_id=?',[$id,$pid])->fetch();
         if(!$m) fail('Match not found',404);
@@ -131,21 +136,34 @@ try {
         if($route==='answer' && isset($body['round']) && is_int($body['round']) && $body['round']<$round && $body['round']>=0) {
             $i=$body['round'];$r=$answers[$i];$db->exec('COMMIT');out(['points'=>$r['points'],'correctIndex'=>$packet[$i]['correctIndex'],'opponentPoints'=>$op[$i],'finished'=>$round===7,'score'=>(int)$m['score'],'opponentScore'=>(int)$m['opponent_score'],'pending'=>$m['duel_id']!==null && $m['completed']===null]);
         }
+        if($route==='match-progress') {
+            $other=$m['duel_id'] ? sql($db,'SELECT answers FROM matches WHERE duel_id=? AND player_id<>?',[$m['duel_id'],$pid])->fetch():false;
+            $count=$other?count(json_decode($other['answers'],true)):($m['kind']==='human'?7:$round);
+            $db->exec('COMMIT');out(['ownAnswered'=>$round,'opponentAnswered'=>$count]);
+        }
         if($round>=7) fail('Match is complete',409);
-        $q=$packet[$round];
+        $q=$packet[$round];$context='match:'.$id;
+        if($route==='power') {
+            $party=$m['duel_id'] ? sql($db,'SELECT p.powers FROM party_fixtures f JOIN parties p ON p.id=f.party_id WHERE f.duel_id=?',[$m['duel_id']])->fetch():false;
+            $reply=power_activate($db,$pid,$context,$round,$q,$m['started']===null?null:(float)$m['started'],$body,!$party || (bool)$party['powers']);$db->exec('COMMIT');out($reply);
+        }
         if($route==='round' || $route==='reveal') {
             $reading=($_SERVER['HTTP_X_QUIZFOLK_CLIENT'] ?? '')==='3';$preview=$m['preview_started']===null ? microtime(true):(float)$m['preview_started'];
             if($reading && $m['started']===null) {
                 if($m['preview_started']===null)sql($db,'UPDATE matches SET preview_started=? WHERE id=?',[$preview,$id]);
-                $left=max(0,2-(microtime(true)-$preview));
+                $left=max(0,3-(microtime(true)-$preview));
                 if($route==='round' || $left>0) {$db->exec('COMMIT');out(['round'=>$round,'question'=>['id'=>$q['id'],'prompt'=>$q['prompt'],'answers'=>[],'difficulty'=>$q['difficulty'],'source'=>$q['source'] ?? 'Open trivia contributors','sourceURL'=>$q['sourceURL'] ?? null],'remaining'=>10,'readingRemaining'=>$left,'phase'=>'reading']);}
             }
             $started=$m['started']===null ? microtime(true):(float)$m['started'];
             if($m['started']===null)sql($db,'UPDATE matches SET started=? WHERE id=?',[$started,$id]);
-            $db->exec('COMMIT');out(['round'=>$round,'question'=>['id'=>$q['id'],'prompt'=>$q['prompt'],'answers'=>$q['answers'],'difficulty'=>$q['difficulty'],'source'=>$q['source'] ?? 'Open Trivia Database','sourceURL'=>$q['sourceURL'] ?? 'https://opentdb.com/'],'remaining'=>max(0,10-(microtime(true)-$started)),'readingRemaining'=>0,'phase'=>'answer']);
+            $db->exec('COMMIT');out(['round'=>$round,'question'=>['id'=>$q['id'],'prompt'=>$q['prompt'],'answers'=>$q['answers'],'difficulty'=>$q['difficulty'],'source'=>$q['source'] ?? 'Open Trivia Database','sourceURL'=>$q['sourceURL'] ?? 'https://opentdb.com/'],'remaining'=>max(0,10-(microtime(true)-$started)),'readingRemaining'=>0,'phase'=>'answer','power'=>power_state($db,$context,$round,$q)]);
         }
         if($m['started']===null || !isset($body['round']) || $body['round']!==$round || !isset($body['answer']) || !is_int($body['answer']) || $body['answer']<-1 || $body['answer']>3) fail('Invalid round or answer',409);
-        $elapsed=microtime(true)-(float)$m['started'];$correct=$body['answer']===$q['correctIndex'];$score=points($correct,$elapsed,$round);
+        $elapsed=microtime(true)-(float)$m['started'];
+        if(power_second_chance($db,$context,$round,$body['answer'],$q['correctIndex'],$elapsed,$q)) {
+            $reply=['points'=>0,'correctIndex'=>-1,'opponentPoints'=>0,'finished'=>false,'score'=>(int)$m['score'],'opponentScore'=>(int)$m['opponent_score'],'pending'=>$m['duel_id']!==null,'retry'=>true,'remaining'=>max(0,10-$elapsed),'power'=>power_state($db,$context,$round,$q)];$db->exec('COMMIT');out($reply);
+        }
+        $correct=$body['answer']===$q['correctIndex'];$score=points($correct,$elapsed,$round);
         $answers[]=['selected'=>$body['answer'],'elapsed'=>$elapsed,'correct'=>$correct && $elapsed<10,'points'=>$score];
         $total=(int)$m['score']+$score;$opTotal=(int)$m['opponent_score']+$op[$round];$finished=count($answers)===7;
         sql($db,'UPDATE matches SET answers=?,started=NULL,preview_started=NULL,score=?,opponent_score=?,completed=? WHERE id=?',[json_encode($answers),$total,$opTotal,$finished && !$m['duel_id'] ? time():null,$id]);
@@ -153,7 +171,7 @@ try {
             sql($db,'UPDATE matches SET own_finished=COALESCE(own_finished,?) WHERE id=?',[time(),$id]);
             coin_trail_award($db,sql($db,'SELECT * FROM matches WHERE id=?',[$id])->fetch());
         }
-        if($m['duel_id'] && $finished)settle_duel($db,$m['duel_id']);
+        if($m['duel_id'] && $finished){settle_duel($db,$m['duel_id']);party_sync_duel($db,$m['duel_id']);}
         $latest=sql($db,'SELECT * FROM matches WHERE id=?',[$id])->fetch();$opTotal=(int)$latest['opponent_score'];$op=json_decode($latest['opponent_points'],true);$pending=$m['duel_id']!==null && $latest['completed']===null;
         $db->exec('COMMIT');
         out(['points'=>$score,'correctIndex'=>$q['correctIndex'],'opponentPoints'=>$op[$round],'finished'=>$finished,'score'=>$total,'opponentScore'=>$opTotal,'pending'=>$pending]);

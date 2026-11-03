@@ -17,6 +17,8 @@ import SwiftUI
  @Published var streak=0
  @Published var remaining=10.0
  @Published var reading=false
+ @Published var power=PowerState()
+ @Published var powerError:String?
  @Published var revealed=false
  @Published var selected:Int?
  @Published var correctIndex:Int?
@@ -52,13 +54,13 @@ import SwiftUI
   selected=nil;correctIndex=nil;revealed=false;showQuestion(r)
  }
  private func showQuestion(_ r:TournamentRunReply) {
-  question=r.question;remaining=r.remaining ?? 10;reading=r.phase=="reading"
+  power=r.power ?? power.nextQuestion();powerError=nil;question=r.question;remaining=r.remaining ?? 10;reading=r.phase=="reading"
   if reading {
    timer?.cancel();readingTask?.cancel()
    readingTask=Task {[weak self] in
     guard let self,let runID=self.runID else{return}
     do {
-     try await Task.sleep(for:.seconds(max(0,r.readingRemaining ?? 2)))
+     try await Task.sleep(for:.seconds(max(0,r.readingRemaining ?? 3)))
      guard !self.closed,!Task.isCancelled else{return}
      let next:TournamentRunReply=try await self.store.request("tournament-reveal",body:["run":runID])
      guard !self.closed,!Task.isCancelled else{return}
@@ -91,9 +93,18 @@ import SwiftUI
   do {
    let r:TournamentRunReply=try await store.request("tournament-answer",body:["run":runID,"turn":turn,"answer":pendingAnswer])
    if r.questionChanged==true {self.pendingAnswer=nil;try await loadRound();return}
+   if r.retry==true {power=r.power ?? power;selected=nil;self.pendingAnswer=nil;startTimer(r.remaining ?? remaining);return}
    apply(r);correctIndex=r.correctIndex;lastPoints=r.points ?? 0;revealed=true;reading=false;self.pendingAnswer=nil
    if r.correctIndex==nil && runEnded {showResult=true}
   } catch {self.error=error.localizedDescription}
+ }
+ func usePower(_ choice:QuizPower) async {
+  guard !busy,!reading,!revealed,!runEnded,!power.used,let runID else{return}
+  busy=true;powerError=nil
+  do {
+   let r:PowerReply=try await store.request("tournament-power",body:["run":runID,"turn":turn,"type":choice.rawValue]);power=r.power;startTimer(r.remaining)
+  }catch{powerError=error.localizedDescription}
+  busy=false;if remaining<=0{await answer(-1)}
  }
  func next() async {
   if runEnded {showResult=true;return}

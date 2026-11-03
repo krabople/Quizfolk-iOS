@@ -28,6 +28,8 @@ struct TournamentRunReply:Decodable {
  let question:PublicQuestion?;let remaining:Double?;let readingRemaining:Double?;let phase:String?
  let correctIndex:Int?;let points:Int?;let correct:Bool?
  var questionChanged:Bool?=nil
+ var power:PowerState?=nil
+ var retry:Bool?=nil
 }
 
 extension QuizStore {

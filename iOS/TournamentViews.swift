@@ -10,6 +10,7 @@ struct TournamentsView:View {
    ScrollView {
     BrandHeader(title:"Keep your streak alive.",subtitle:"One wrong answer. One final score.")
     VStack(spacing:18) {
+     NavigationLink{FriendsTournamentsView()}label:{Label("Friends tournaments",systemImage:"person.3.fill").frame(maxWidth:.infinity)}.buttonStyle(PrimaryButton(color:.ink)).accessibilityIdentifier("friendsTournaments")
      if let list {
       walletView(list.wallet)
       Text("Build the biggest score before your first wrong answer or timeout. Faster correct answers earn more points. Your best run counts.").font(.subheadline).foregroundStyle(.secondary)
@@ -84,7 +85,6 @@ struct TournamentDetailView:View {
       Text("New entries are closed for this earlier tournament. Your score is kept until the tournament ends.").font(.subheadline).multilineTextAlignment(.center)
      }
     }
-    rules
     if let pool=current.prizePool {Label("\(pool) coins in the prize pool",systemImage:"trophy").font(.headline).foregroundStyle(topic.tint)}
     VStack(alignment:.leading,spacing:15) {
      HStack {Text(current.closed ? "Final standings":"Tournament standings").font(.title3.bold());Spacer();Button{Task{await reload()}}label:{Image(systemName:"arrow.clockwise")}.accessibilityLabel("Refresh tournament standings")}
@@ -104,6 +104,7 @@ struct TournamentDetailView:View {
       if let own=board.own.first,!board.entries.contains(where:{$0.id==own.id}) {Text("Your place: #\(own.rank) · \(own.score) points").font(.headline)}
      } else {ProgressView()}
     }.padding(18).background(.white,in:RoundedRectangle(cornerRadius:18))
+    rules
     if let error {Text(error).font(.caption).foregroundStyle(.red)}
    }.padding(22)
   }.background(Color.canvas).foregroundStyle(Color.ink).navigationTitle("Tournament").navigationBarTitleDisplayMode(.inline).toolbar(.visible,for:.navigationBar)
@@ -119,7 +120,7 @@ struct TournamentDetailView:View {
  private var rules:some View {
   VStack(alignment:.leading,spacing:11) {
    Text("How this tournament works").font(.headline)
-   Text("Keep answering in \(topic.name) until your first wrong answer or timeout. Read each question for 2 seconds, then choose from four answers within 10 seconds. Correct answers earn 11–20 points for speed; every question has the same value. Your score is the total points in that run.")
+   Text("Keep answering in \(topic.name) until your first wrong answer or timeout. Read each question for 3 seconds, then choose from four answers within 10 seconds. Correct answers earn 11–20 points for speed; every question has the same value. Your score is the total points in that run. You may use one power-up during the entire run: Fifty Fifty removes two wrong choices (5 coins); Double Choice allows a second pick (10); Right Answer highlights the answer for you to tap (25). The clock keeps running.")
    Text("Try again for the displayed entry cost. Only your best run counts; attempts do not add together. Every question in a run is different. If you clear the entire topic bank, that completes your run.")
    Text("The leaderboard closes at the stated time. Earned points are kept if you end a run early or the event closes. The top three places receive coins and a profile badge.")
    Text("Entry coins form the prize pool. With three or more players, first place receives 50%, second 30% and third 20%. With two players, the split is 60% and 40%; a sole entrant receives the whole pool. Tied players share the prizes for the places they occupy, rounded down to whole coins.")
@@ -197,10 +198,11 @@ struct TournamentPlayView:View {
     }
     if let question=game.question {
      Text(question.prompt).font(.system(size:25,weight:.bold,design:.rounded)).multilineTextAlignment(.center).lineLimit(7).minimumScaleFactor(0.6).frame(maxWidth:.infinity,maxHeight:.infinity)
-     if game.reading {Text("Read the question · answers appear in a moment").font(.subheadline.bold()).multilineTextAlignment(.center);Spacer(minLength:50)}
-     else {
-      VStack(spacing:10){ForEach(question.answers.indices,id:\.self){i in answer(question.answers[i],index:i)}}.frame(height:geo.size.height*(game.revealed ? 0.40:0.48))
-     }
+     if game.reading {Text("Read the question · 3 seconds").font(.subheadline.bold()).multilineTextAlignment(.center).transition(.opacity)}
+     LazyVGrid(columns:[GridItem(.flexible(),spacing:9),GridItem(.flexible(),spacing:9)],spacing:9){ForEach(question.answers.indices,id:\.self){i in answer(question.answers[i],index:i).frame(height:max(80,(geo.size.height*0.44-9)/2))}}
+      .frame(height:game.reading ? 0:geo.size.height*0.44).opacity(game.reading ? 0:1).clipped().accessibilityHidden(game.reading)
+     PowerTray(power:game.power,enabled:!game.reading && !game.revealed && !game.busy){choice in Task{await game.usePower(choice)}}
+     if let message=game.powerError {Text(message).font(.caption2).foregroundStyle(Color(hex:"FFD494"))}
      if game.revealed {
       HStack {
        Text(game.lastPoints>0 ? "+\(game.lastPoints) points":(game.selected == -1 ? "Time’s up · run finished":"Wrong answer · run finished")).font(.subheadline.bold())
@@ -216,7 +218,7 @@ struct TournamentPlayView:View {
      Spacer()
     }
     if let error=game.error {Text(error).font(.caption);Button("Try again"){Task{await game.retry()}}.buttonStyle(.bordered)}
-   }.padding(20)
+   }.padding(20).animation(reduceMotion ? nil:.easeInOut(duration:0.45),value:game.reading)
   }
  }
  private var timer:some View {
@@ -230,9 +232,8 @@ struct TournamentPlayView:View {
  private func answer(_ text:String,index:Int)->some View {
   let right=game.revealed && index==game.correctIndex
   let wrong=game.revealed && index==game.selected && !right
-  return Button{Task{await game.answer(index)}}label:{
-   HStack(spacing:12){Text(String(UnicodeScalar(65+index)!)).font(.headline);Text(text).font(.system(size:18,weight:.semibold)).lineLimit(4).minimumScaleFactor(0.65).multilineTextAlignment(.leading);Spacer();if right{Image(systemName:"checkmark.circle.fill").foregroundStyle(.green)}else if wrong{Image(systemName:"xmark.circle.fill").foregroundStyle(.red)}}.foregroundStyle(Color.ink).padding(15).frame(maxWidth:.infinity,maxHeight:.infinity,alignment:.leading).background(right ? Color(hex:"CCF3D7"):(wrong ? Color(hex:"FFDED7"):.white),in:RoundedRectangle(cornerRadius:17))
-  }.buttonStyle(AnswerButtonStyle()).disabled(game.busy || game.revealed || game.reading || game.error != nil).accessibilityIdentifier("tournament-answer-\(index)")
+  return QuizAnswerTile(text:text,right:right,wrong:wrong || (game.power.type=="double" && game.power.hidden.contains(index)),hidden:game.power.hidden.contains(index),highlighted:game.power.highlight==index){Task{await game.answer(index)}}
+   .disabled(game.busy || game.revealed || game.reading || game.error != nil).accessibilityIdentifier("tournament-answer-\(index)")
  }
  private var result:some View {
   ScrollView {

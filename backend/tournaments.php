@@ -101,6 +101,8 @@ function tournament_prize(int $pool,array $rows,int $rank):int {
 function tournament_settle(PDO $db):void {
     foreach(sql($db,'SELECT * FROM tournament_events WHERE settled=0 AND ends<=?',[time()])->fetchAll() as $e) {
         sql($db,'UPDATE tournament_runs SET state="closed",preview=NULL,started=NULL WHERE event_id=? AND state="playing"',[$e['id']]);
+        if($e['kind']==='party')party_sync($db,$e['id']);
+        $fresh=sql($db,'SELECT settled FROM tournament_events WHERE id=?',[$e['id']])->fetch();if($fresh['settled'])continue;
         $rows=tournament_standings($db,$e['id']);$pool=tournament_prize_pool($db,$e['id']);
         foreach($rows as $r) {
             $reward=tournament_prize($pool,$rows,(int)$r['rank']);
@@ -156,13 +158,14 @@ function tournament_routes(string $route,PDO $db,string $pid,array $body):void {
     if(!str_starts_with($route,'tournament'))return;
     $db->exec('BEGIN IMMEDIATE');tournament_seed($db);tournament_settle($db);tournament_wallet($db,$pid);
     if($route==='tournaments') {
-        $events=sql($db,'SELECT * FROM tournament_events WHERE ends>? OR id IN(SELECT event_id FROM tournament_runs WHERE player_id=?) ORDER BY settled ASC,ends DESC,id LIMIT 60',[time(),$pid])->fetchAll();
+        $events=sql($db,'SELECT * FROM tournament_events WHERE kind<>"party" AND (ends>? OR id IN(SELECT event_id FROM tournament_runs WHERE player_id=?)) ORDER BY settled ASC,ends DESC,id LIMIT 60',[time(),$pid])->fetchAll();
         $cards=array_map(fn($e)=>tournament_card($db,$pid,$e),$events);
         $reply=['events'=>array_values(array_filter($cards,fn($e)=>$e['featured'] || $e['attempts']>0)),'wallet'=>tournament_wallet($db,$pid)];$db->exec('COMMIT');out($reply);
     }
     if($route==='tournament-daily') {$db->exec('COMMIT');fail('Coins are now earned through the Daily Trail. Update Quizfolk and open Earn coins to see your progress.',409);}
     if($route==='tournament-board') {
         $id=(string)($_GET['event'] ?? '');$e=sql($db,'SELECT * FROM tournament_events WHERE id=?',[$id])->fetch();if(!$e)fail('Tournament not found',404);
+        if($e['kind']==='party')fail('Use the private friends tournament board.',403);
         $rows=$e['settled'] ? sql($db,'SELECT player_id,rank,score,streak,reward FROM tournament_places WHERE event_id=? ORDER BY rank,player_id',[$id])->fetchAll():tournament_standings($db,$id);
         $all=[];foreach($rows as $r) {if(blocked($db,$pid,$r['player_id']))continue;$p=sql($db,'SELECT name,avatar FROM players WHERE id=?',[$r['player_id']])->fetch();if($p)$all[]=['id'=>$r['player_id'],'name'=>$p['name'],'avatar'=>$p['avatar'],'rank'=>(int)$r['rank'],'score'=>(int)$r['score'],'streak'=>(int)$r['streak'],'reward'=>(int)($r['reward'] ?? 0)];}
         $reply=['event'=>tournament_card($db,$pid,$e),'entries'=>array_slice($all,0,100),'own'=>array_values(array_filter($all,fn($r)=>$r['id']===$pid)),'wallet'=>tournament_wallet($db,$pid)];$db->exec('COMMIT');out($reply);
@@ -170,7 +173,7 @@ function tournament_routes(string $route,PDO $db,string $pid,array $body):void {
     if($route==='tournament-enter') {
         $event=(string)($body['event'] ?? '');$request=(string)($body['requestID'] ?? '');if(!preg_match('/^[a-zA-Z0-9-]{16,64}$/D',$request))fail('Invalid entry request');$key=$pid.':'.$request;
         $old=sql($db,'SELECT * FROM tournament_runs WHERE request_key=?',[$key])->fetch();if($old){if($old['event_id']!==$event)fail('This entry request was already used',409);$db->exec('COMMIT');out(tournament_run_reply($old));}
-        $e=sql($db,'SELECT * FROM tournament_events WHERE id=? AND starts<=? AND ends>?',[$event,time(),time()+30])->fetch();if(!$e)fail('Entries have closed. Choose another tournament.',410);
+        $e=sql($db,'SELECT * FROM tournament_events WHERE id=? AND starts<=? AND ends>?',[$event,time(),time()+30])->fetch();if(!$e)fail('Entries have closed. Choose another tournament.',410);if($e['kind']==='party')fail('Join this friends tournament with its invitation code.',403);
         $active=sql($db,'SELECT * FROM tournament_runs WHERE event_id=? AND player_id=? AND state="playing"',[$event,$pid])->fetch();if($active){$db->exec('COMMIT');out(tournament_run_reply($active));}
         if(!tournament_featured($db,$e))fail('New entries have closed for this earlier tournament. Your existing scores are kept. Choose one of today’s three tournaments.',410);
         if((int)sql($db,'SELECT COUNT(*) FROM tournament_runs WHERE player_id=? AND created>?',[$pid,time()-3600])->fetchColumn()>=30)fail('Please wait before starting another tournament run',429);
@@ -190,17 +193,22 @@ function tournament_routes(string $route,PDO $db,string $pid,array $body):void {
     $q=tournament_question($db,$r);
     if(!$q){$db->exec('COMMIT');out(tournament_run_reply($r));}
     if($route==='tournament-answer' && (!empty($r['_questionChanged']) || ($r['started']===null && $r['preview']===null && ($body['turn'] ?? null)===(int)$r['turn']))){$db->exec('COMMIT');out(tournament_run_reply($r)+['questionChanged'=>true]);}
+    if($route==='tournament-power'){$reply=power_activate($db,$pid,'run:'.$id,(int)$r['turn'],$q,$r['started']===null?null:(float)$r['started'],$body);$db->exec('COMMIT');out($reply);}
     if($route==='tournament-round' || $route==='tournament-reveal') {
         sql($db,'INSERT OR IGNORE INTO question_seen VALUES(?,?,?)',[$pid,$q['id'],$q['categoryID']]);
-        $preview=$r['preview']===null ? microtime(true):(float)$r['preview'];$left=max(0,2-(microtime(true)-$preview));$reading=$r['started']===null && ($route==='tournament-round' || $left>0);
+        $preview=$r['preview']===null ? microtime(true):(float)$r['preview'];$left=max(0,3-(microtime(true)-$preview));$reading=$r['started']===null && ($route==='tournament-round' || $left>0);
         if($r['preview']===null)sql($db,'UPDATE tournament_runs SET preview=? WHERE id=?',[$preview,$id]);
         if(!$reading && $r['started']===null){$r['started']=microtime(true);sql($db,'UPDATE tournament_runs SET started=? WHERE id=?',[$r['started'],$id]);}
-        unset($q['correctIndex']);if($reading)$q['answers']=[];
-        $reply=tournament_run_reply($r)+['question'=>$q,'remaining'=>$reading ? 10:max(0,10-(microtime(true)-(float)$r['started'])),'readingRemaining'=>$reading ? $left:0,'phase'=>$reading?'reading':'answer'];$db->exec('COMMIT');out($reply);
+        $powerState=power_state($db,'run:'.$id,(int)$r['turn'],$q);unset($q['correctIndex']);if($reading)$q['answers']=[];
+        $reply=tournament_run_reply($r)+['question'=>$q,'remaining'=>$reading ? 10:max(0,10-(microtime(true)-(float)$r['started'])),'readingRemaining'=>$reading ? $left:0,'phase'=>$reading?'reading':'answer','power'=>$powerState];$db->exec('COMMIT');out($reply);
     }
     if($route==='tournament-answer') {
         $answer=$body['answer'] ?? null;if(!is_int($answer) || $answer<-1 || $answer>3 || !isset($body['turn']) || $body['turn']!==(int)$r['turn'] || $r['started']===null)fail('Invalid tournament answer',409);
-        $elapsed=microtime(true)-(float)$r['started'];$right=$answer===$q['correctIndex'] && $elapsed>=0 && $elapsed<10;$points=points($right,$elapsed,0);
+        $elapsed=microtime(true)-(float)$r['started'];
+        if(power_second_chance($db,'run:'.$id,(int)$r['turn'],$answer,$q['correctIndex'],$elapsed,$q)) {
+            $reply=tournament_run_reply($r)+['retry'=>true,'remaining'=>max(0,10-$elapsed),'power'=>power_state($db,'run:'.$id,(int)$r['turn'],$q)];$db->exec('COMMIT');out($reply);
+        }
+        $right=$answer===$q['correctIndex'] && $elapsed>=0 && $elapsed<10;$points=points($right,$elapsed,0);
         $r['score']=(int)$r['score']+$points;$r['streak']=(int)$r['streak']+($right?1:0);$r['turn']=(int)$r['turn']+1;
         if(!$right || $r['turn']>=count(json_decode($r['deck'],true)))$r['state']=$right?'cleared':'finished';
         $reply=tournament_run_reply($r)+['correctIndex'=>$q['correctIndex'],'points'=>$points,'correct'=>$right];

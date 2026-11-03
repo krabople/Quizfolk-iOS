@@ -46,6 +46,7 @@ struct DiscoverView:View {
     @EnvironmentObject var store:QuizStore
     @State private var search=""
     @State private var onlyFavourites=false
+    @State private var randomTopic:Topic?
     @State private var interests=false
     private var visible:[Topic] {store.topics.filter{(!onlyFavourites || store.favourites.contains($0.id)) && (search.isEmpty || $0.name.localizedCaseInsensitiveContains(search))}}
     var body:some View {
@@ -56,6 +57,10 @@ struct DiscoverView:View {
                     Image(systemName:"magnifyingglass").foregroundStyle(.secondary)
                     TextField("Find your favourite subject",text:$search).accessibilityLabel("Search categories")
                 }.padding(15).background(.white,in:RoundedRectangle(cornerRadius:14)).padding(.horizontal,22)
+                HStack(spacing:12) {
+                    Button{if let topic=store.topics.filter({$0.id != "mixed"}).randomElement(){randomTopic=topic}}label:{Label("Random topic",systemImage:"shuffle")}.buttonStyle(PrimaryButton(color:.ink))
+                    NavigationLink{TopicView(topic:.mixed(count:store.questions.count))}label:{Text("Mixed topics")}.buttonStyle(PrimaryButton(color:Color(hex:"7253A4")))
+                }.padding(.horizontal,22)
                 hero.padding(.horizontal,22).padding(.top,8)
                 HStack {
                     Text("Your next obsession").font(.system(size:21,weight:.bold,design:.rounded))
@@ -76,6 +81,7 @@ struct DiscoverView:View {
                 Text("\(store.questions.count.formatted()) questions. So many ways to shine.").font(.caption).foregroundStyle(.secondary).padding(.bottom,20)
             }.background(Color.canvas).toolbar(.hidden,for:.navigationBar)
         }.sheet(isPresented:$interests){InterestsView()}
+         .sheet(item:$randomTopic){topic in NavigationStack{TopicView(topic:topic).toolbar{ToolbarItem(placement:.topBarTrailing){Button("Done"){randomTopic=nil}}}}}
     }
     private var hero:some View {
         HStack(spacing:8) {
@@ -149,11 +155,11 @@ struct TopicView:View {
                 else {
                     TopicLevelProgress(topic:topic,xp:store.topicXP(topic))
                     Button{store.toggle(topic)}label:{Label(store.favourites.contains(topic.id) ? "Following topic":"Follow topic",systemImage:store.favourites.contains(topic.id) ? "heart.fill":"heart")}.tint(topic.tint)
-                    HStack(spacing:0){stat("7","questions");stat("2s","to read");stat("10s","to answer")}.padding(.vertical,18).background(.white,in:RoundedRectangle(cornerRadius:18))
+                    HStack(spacing:0){stat("7","questions");stat("3s","to read");stat("10s","to answer")}.padding(.vertical,18).background(.white,in:RoundedRectangle(cornerRadius:18))
                     Text("We search for a human first. You can meet another searcher or face a recorded human run. A labelled bot is offered after six seconds when nobody is available. Play your own questions on your own schedule.").font(.subheadline).foregroundStyle(.secondary)
                     Button("Find a duel"){session=GameSession(topic:topic,store:store,online:true)}.buttonStyle(PrimaryButton(color:topic.tint))
                     Button("Practise against a bot"){session=GameSession(topic:topic,store:store,online:false)}.font(.headline).padding(12).tint(topic.tint)
-                    Text("Correct: 11–20 points for speed. Final question counts double. Wrong answers and timeouts score zero. Maximum 160.").font(.caption).foregroundStyle(.secondary).multilineTextAlignment(.center)
+                    Text("Correct: 11–20 points for speed. Final question counts double. Wrong answers and timeouts score zero. Maximum 160. One power-up per duel: Fifty Fifty removes two wrong options (5 coins); Double Choice gives one extra pick (10); Right Answer highlights the answer for you to tap (25). The clock keeps running.").font(.caption).foregroundStyle(.secondary).multilineTextAlignment(.center)
                 }
             }.padding(22)
         }.background(Color.canvas).foregroundStyle(Color.ink).navigationTitle(topic.name).navigationBarTitleDisplayMode(.inline).toolbar(.visible,for:.navigationBar)

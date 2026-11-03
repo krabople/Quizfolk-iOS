@@ -47,7 +47,7 @@ The surviving sources do **not** reliably establish every historical Blitz scori
 
 - Dedicated Tournaments tab replaces the former standalone leagues tab.
 - Three rotating daily topics and three weekly topics. Daily events close at 00:00 UTC; weekly events close Monday 00:00 UTC. Every ten days the daily rotation covers all 30 topics. Older paid entries remain under My entries when their topic is no longer featured.
-- Topic-only questions without repeats inside a run. Each question gets two seconds of reading before answers and its ten-second answer clock. Correct answers earn 11–20 speed points. There is no seventh-question limit or double-point final question. First mistake or timeout ends the run. Clearing the entire topic bank also completes it.
+- Topic-only questions without repeats inside a run. Each question gets three seconds of reading before answers and its ten-second answer clock. Correct answers earn 11–20 speed points. There is no seventh-question limit or double-point final question. First mistake or timeout ends the run. Clearing the entire topic bank also completes it.
 - Each player's **best individual run score** determines their event place. Repeated entries do not add together. Equal scores share the same competition rank. Players answer at different times; standings contain actual players only.
 - Current beta entry tiers: 25, 50 and 75 coins daily; 100 coins weekly. All tournaments require coins. New players receive 100 coins; remaining old tickets convert once at 25 coins each. Coins thereafter are earned through the bounded Daily Trail. These prices and earning rules are Quizfolk choices, not asserted historical QuizUp constants.
 - Final places 1/2/3 receive coins and a profile badge. Entry coins form the prize pool, split 50%/30%/20% for at least three players, 60%/40% for two, and 100% for one. Tie groups share the combined shares of the positions they occupy, rounded down. A one-time 25-coin minimum preserves a prize for already-entered legacy free events. No fabricated competitors fill the standings.
@@ -78,3 +78,31 @@ The videos establish multiplayer availability, free-use counters, one observed *
 No observed activation yet establishes whether a power itself paused time, submitted an answer automatically, or merely highlighted it. Double Choice's first-wrong-answer behaviour, paid price and per-question limits remain unverified. Any Quizfolk choice on these remaining details must be described as an explicit product rule rather than an exact historical replica.
 
 Research also checked other original gameplay recordings, contemporary publisher changelogs, the surviving operator Help Center, and later recollections. Modern apps sharing the QuizUp name and unsourced retrospective claims were excluded as evidence of the original mechanics.
+
+
+## 3 November 2026 implementation and remaining historical uncertainty
+
+Rechecked the original Glu 4.0.1 publisher release notes preserved by APKMirror,
+the 2019 Comboldam recording linked above, surviving help-centre searches and
+contemporary descriptions. New apps reusing the name were excluded. The
+publisher notes establish the three names; the original recordings establish
+later multiplayer availability, a running menu clock, counters and gem prices.
+No reliable source found establishes a per-question/per-match cap, Double
+Choice’s second-pick timer behaviour or whether Right Answer auto-submits.
+
+Accordingly this implementation does not claim exact historical parity on
+those unresolved details. Quizfolk uses one assist per duel or survival run,
+enforced atomically on the server with one coin-ledger debit. Prices are 5
+coins for Fifty Fifty, 10 for Double Choice and 25 for Right Answer. Fifty Fifty
+removes two wrong options. Double Choice preserves the original server clock
+after the first wrong pick; a second wrong pick or timeout ends the question.
+Right Answer highlights the right tile but requires a tap before timeout.
+Menus and activations do not grant extra time. Practice permits one free assist
+without coins or online rewards. Friends tournament hosts may disable assists
+for everyone before starting (default off). These are explicit Quizfolk product
+rules, not a recovered QuizUp rulebook or a conversion of historical gems.
+
+The original two-by-two answer layout is recreated with original Quizfolk
+styling. The three-second question reading phase and smooth upward transition
+are the owner’s requested adjustments. Saved progress is labelled accurately
+for recorded and asynchronous rivals, without a live-presence claim.
