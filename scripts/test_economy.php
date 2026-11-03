@@ -6,6 +6,24 @@ function sql(PDO $db,string $query,array $args=[]):PDOStatement {$s=$db->prepare
 function check(bool $ok,string $message):void {if(!$ok)throw new RuntimeException($message);}
 $db=new PDO('sqlite::memory:',null,null,[PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION,PDO::ATTR_DEFAULT_FETCH_MODE=>PDO::FETCH_ASSOC]);
 $db->exec('PRAGMA foreign_keys=ON; CREATE TABLE players(id TEXT PRIMARY KEY); INSERT INTO players VALUES("alice"); CREATE TABLE matches(id TEXT PRIMARY KEY);');
+// Recover from a competing request only if it really added the column.
+class EconomyRaceFixture extends PDO {
+    public bool $applyBeforeFailure=true;
+    public function exec(string $statement):int|false {
+        if(str_starts_with($statement,'ALTER TABLE matches ADD COLUMN own_finished')) {
+            if($this->applyBeforeFailure)parent::exec($statement);
+            throw new PDOException('Simulated concurrent migration failure');
+        }
+        return parent::exec($statement);
+    }
+}
+foreach([true,false] as $completedElsewhere) {
+    $race=new EconomyRaceFixture('sqlite::memory:',null,null,[PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION,PDO::ATTR_DEFAULT_FETCH_MODE=>PDO::FETCH_ASSOC]);
+    $race->exec('CREATE TABLE players(id TEXT PRIMARY KEY);CREATE TABLE matches(id TEXT PRIMARY KEY)');$race->applyBeforeFailure=$completedElsewhere;
+    $failed=false;try{economy_schema($race);}catch(PDOException $e){$failed=true;}
+    check($failed!==$completedElsewhere,'Concurrent migration recovery failed or masked an unrelated error');
+    if($completedElsewhere)economy_schema($race);
+}
 economy_schema($db);tournament_schema($db);economy_schema($db);
 function completed(string $id,string $topic,int $time,int $correct=4):array {
     $packet=[];$answers=[];

@@ -6,8 +6,11 @@ function economy_schema(PDO $db):void {
     $columns=array_column($db->query('PRAGMA table_info(matches)')->fetchAll(),'name');
     if(!in_array('own_finished',$columns,true)) {
         $file=$db->query('PRAGMA database_list')->fetch()['file'];$backup=$file.'.before-coins-v1.sqlite';
-        if($file && !is_file($backup) && (int)$db->query('SELECT COUNT(*) FROM players')->fetchColumn()>0)$db->exec('VACUUM INTO '.$db->quote($backup));
-        $db->exec('ALTER TABLE matches ADD COLUMN own_finished INTEGER');
+        if($file && !is_file($backup) && (int)$db->query('SELECT COUNT(*) FROM players')->fetchColumn()>0) {
+            try{$db->exec('VACUUM INTO '.$db->quote($backup));}catch(PDOException $e){if(!is_file($backup))throw $e;}
+        }
+        try{$db->exec('ALTER TABLE matches ADD COLUMN own_finished INTEGER');}
+        catch(PDOException $e){if(!in_array('own_finished',array_column($db->query('PRAGMA table_info(matches)')->fetchAll(),'name'),true))throw $e;}
     }
     $db->exec('CREATE TABLE IF NOT EXISTS coin_trail_stamps(player_id TEXT REFERENCES players(id) ON DELETE CASCADE,day INTEGER NOT NULL,topic TEXT NOT NULL,match_id TEXT NOT NULL UNIQUE,PRIMARY KEY(player_id,day,topic));
       CREATE TABLE IF NOT EXISTS coin_trail_days(player_id TEXT REFERENCES players(id) ON DELETE CASCADE,day INTEGER NOT NULL,PRIMARY KEY(player_id,day));
