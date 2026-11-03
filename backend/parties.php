@@ -22,7 +22,7 @@ function party_table(PDO $db,string $id):array {
     $rows=[];
     foreach(sql($db,'SELECT m.*,p.name,p.avatar FROM party_members m JOIN players p ON p.id=m.player_id WHERE m.party_id=? ORDER BY p.id',[$id])->fetchAll() as $m) {
         $r=['id'=>$m['player_id'],'name'=>$m['name'],'avatar'=>$m['avatar'],'topicID'=>$m['topic'],'played'=>0,'wins'=>0,'draws'=>0,'losses'=>0,'points'=>0,'quizPoints'=>0];
-        foreach(sql($db,'SELECT own.score,other.score opponent_score FROM party_fixtures f JOIN duels d ON d.id=f.duel_id JOIN matches own ON own.duel_id=d.id AND own.player_id=? JOIN matches other ON other.duel_id=d.id AND other.player_id<>? WHERE f.party_id=? AND d.status="complete"',[$r['id'],$r['id'],$id])->fetchAll() as $g) {
+        foreach(sql($db,'SELECT own.score,own.opponent_score FROM party_fixtures f JOIN duels d ON d.id=f.duel_id JOIN matches own ON own.duel_id=d.id AND own.player_id=? WHERE f.party_id=? AND d.status="complete"',[$r['id'],$id])->fetchAll() as $g) {
             $r['played']++;$r['quizPoints']+=(int)$g['score'];
             if($g['score']>$g['opponent_score']){$r['wins']++;$r['points']+=3;}
             elseif($g['score']===$g['opponent_score']){$r['draws']++;$r['points']++;}else{$r['losses']++;}
@@ -40,6 +40,7 @@ function party_sync(PDO $db,string $id):void {
     foreach(party_table($db,$id) as $r)sql($db,'UPDATE tournament_runs SET score=?,streak=? WHERE event_id=? AND player_id=?',[$r['points'],$r['wins'],$id,$r['id']]);
     $unfinished=(int)sql($db,'SELECT COUNT(*) FROM party_fixtures f LEFT JOIN duels d ON d.id=f.duel_id WHERE f.party_id=? AND (d.id IS NULL OR d.status<>"complete")',[$id])->fetchColumn();
     if($unfinished===0 || (int)$p['ends']<=time()) {
+        sql($db,'UPDATE duels SET status="expired" WHERE status IN ("invited","accepted") AND id IN(SELECT duel_id FROM party_fixtures WHERE party_id=?)',[$id]);
         sql($db,'UPDATE parties SET status="complete" WHERE id=?',[$id]);sql($db,'UPDATE tournament_runs SET state="finished" WHERE event_id=?',[$id]);
         sql($db,'UPDATE tournament_events SET ends=? WHERE id=?',[time(),$id]);
     }
@@ -118,7 +119,8 @@ function party_routes(string $route,PDO $db,string $pid,array $body):void {
     if($route==='party-play') {
         if(!in_array($p['status'],['playing','complete'],true))fail('This tournament is not open for matches.',409);
         $f=sql($db,'SELECT * FROM party_fixtures WHERE id=? AND party_id=? AND (a=? OR b=?)',[(string)($body['fixture'] ?? ''),$id,$pid,$pid])->fetch();if(!$f)fail('Match not found',404);
-        $other=$f['a']===$pid?$f['b']:$f['a'];visible_player($db,$pid,$other);
+        if($p['status']==='complete' && (!$f['duel_id'] || sql($db,'SELECT status FROM duels WHERE id=?',[$f['duel_id']])->fetchColumn()!=='complete'))fail('This match was not completed before the deadline.',410);
+        $other=$f['a']===$pid?$f['b']:$f['a'];
         if(!$f['duel_id']) {
             if($p['status']!=='playing')fail('This match was not played before the deadline.',410);
             $a=visible_player($db,$pid,$f['a']);$b=visible_player($db,$pid,$f['b']);$packet=fresh_packet($db,$f['a'],$f['topic']);$duel=bin2hex(random_bytes(12));

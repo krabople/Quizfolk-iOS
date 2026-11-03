@@ -98,8 +98,13 @@ fixtures=req('party-board&id='+three['id'],token=c)['fixtures']
 assert len(fixtures)==6
 assert len({tuple(sorted([f['a'],f['b']])) for f in fixtures})==3
 for player in [aid,bid,cid]:assert sum(f['homeID']==player for f in fixtures)==2
+active_fixture=next(f for f in fixtures if cid in [f['a'],f['b']])
+active=req('party-play',{'party':three['id'],'fixture':active_fixture['id']},c)
+reveal(c,active['id'])
 with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_events SET ends=? WHERE id=?',(int(time.time())-1,three['id']))
 assert req('party-board&id='+three['id'],token=c)['party']['status']=='complete'
+req('round',{'match':active['id']},c,410)
+req('party-play',{'party':three['id'],'fixture':active_fixture['id']},c,410)
 req('party-play',{'party':three['id'],'fixture':fixtures[0]['id']},c,404 if cid not in [fixtures[0]['a'],fixtures[0]['b']] else 410)
 # Survival Double Choice grants exactly one extra pick, not an extra life after
 # a second wrong answer; it cannot reset the run’s clock or score a retry.

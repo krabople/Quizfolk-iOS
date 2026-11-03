@@ -59,4 +59,17 @@ check(sql($db,'SELECT state FROM tournament_runs WHERE id="exhausted"')->fetchCo
 $unknown=run_fixture($db,'unknown',['withdrawn-before-upgrade','fresh-1'],1);
 check(tournament_question($db,$unknown,$qdb)===null && $unknown['score']===20,'An unverifiable legacy prefix must end safely with earned score');
 check((int)$db->query('SELECT COUNT(*) FROM tournament_ledger')->fetchColumn()===0,'Repair must not charge or grant coins');
-echo "PASS: content-unique duel and tournament selection, Unicode formatting duplicates, freshness, answer shuffling, clear exhaustion, replay exclusion, durable legacy repair and preserved scores/timers\n";
+$mixedDB=memory_db();$mixedDB->exec('CREATE TABLE players(id TEXT PRIMARY KEY);INSERT INTO players VALUES("alice");CREATE TABLE matches(player_id TEXT,topic TEXT,packet TEXT,answers TEXT,preview_started REAL,started REAL)');
+tournament_schema($mixedDB);
+$mixedBank=memory_db();$mixedBank->exec('CREATE TABLE questions(id TEXT PRIMARY KEY,category_id TEXT,payload TEXT)');
+foreach(range(9,15) as $category)foreach(['a','b'] as $variant) {
+    $q=question($category.'-'.$variant,'Question in category '.$category.', variant '.$variant.'?');$q['categoryID']=(string)$category;
+    sql($mixedBank,'INSERT INTO questions VALUES(?,?,?)',[$q['id'],$q['categoryID'],json_encode($q)]);
+}
+sql($mixedDB,'INSERT INTO question_seen VALUES(?,?,?)',['alice','9-a','9']);
+foreach(range(1,10) as $_) {
+    $mixed=fresh_packet($mixedDB,'alice','mixed',$mixedBank);
+    check(count(array_unique(array_column($mixed,'categoryID')))===7,'A mixed duel must balance seven categories');
+    check(!in_array('9-a',array_column($mixed,'id'),true),'Mixed play must respect questions seen in a different topic');
+}
+echo "PASS: content-unique duel and tournament selection, mixed-category balance and cross-topic freshness, Unicode formatting duplicates, answer shuffling, clear exhaustion, replay exclusion, durable legacy repair and preserved scores/timers\n";

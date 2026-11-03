@@ -69,12 +69,12 @@ function tournament_featured(PDO $db,array $e):bool {
     return in_array($e['id'],$ids,true);
 }
 function tournament_seen_ids(PDO $db,string $pid,string $topic):array {
-    $seen=array_fill_keys(sql($db,'SELECT question_id FROM question_seen WHERE player_id=? AND topic=?',[$pid,$topic])->fetchAll(PDO::FETCH_COLUMN),true);
-    foreach(sql($db,'SELECT r.deck,r.turn,r.preview,r.started FROM tournament_runs r JOIN tournament_events e ON e.id=r.event_id WHERE r.player_id=? AND e.topic=?',[$pid,$topic])->fetchAll() as $r) {
+    $seen=array_fill_keys(sql($db,'SELECT question_id FROM question_seen WHERE player_id=? AND (?="mixed" OR topic=?)',[$pid,$topic,$topic])->fetchAll(PDO::FETCH_COLUMN),true);
+    foreach(sql($db,'SELECT r.deck,r.turn,r.preview,r.started FROM tournament_runs r JOIN tournament_events e ON e.id=r.event_id WHERE r.player_id=? AND (?="mixed" OR e.topic=?)',[$pid,$topic,$topic])->fetchAll() as $r) {
         $shown=(int)$r['turn']+($r['preview']!==null || $r['started']!==null ? 1:0);
         foreach(array_slice(json_decode($r['deck'],true),0,$shown) as $id)$seen[$id]=true;
     }
-    foreach(sql($db,'SELECT packet,answers,preview_started,started FROM matches WHERE player_id=? AND topic=?',[$pid,$topic])->fetchAll() as $m) {
+    foreach(sql($db,'SELECT packet,answers,preview_started,started FROM matches WHERE player_id=? AND (?="mixed" OR topic=?)',[$pid,$topic,$topic])->fetchAll() as $m) {
         $shown=count(json_decode($m['answers'],true))+($m['preview_started']!==null || $m['started']!==null ? 1:0);
         foreach(array_slice(json_decode($m['packet'],true),0,$shown) as $q)$seen[$q['id']]=true;
     }
