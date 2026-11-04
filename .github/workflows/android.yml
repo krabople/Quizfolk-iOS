@@ -65,7 +65,7 @@ jobs:
       run:
         working-directory: android
     env:
-      ANDROID_KEYSTORE_PATH: ${{ runner.temp }}/quizfolk-android.p12
+      ANDROID_KEYSTORE_PATH: /tmp/quizfolk-android.p12
       ANDROID_STORE_PASSWORD: ${{ secrets.ANDROID_STORE_PASSWORD }}
     steps:
       - uses: actions/checkout@v4

@@ -48,8 +48,11 @@ class PlayerVault(context: Context) {
 }
 
 class HttpTransport(private val endpoint: () -> String, private val token: () -> String?) : Transport {
-    override suspend fun request(route: String, body: J?, query: Map<String, String>): J = withContext(Dispatchers.IO) {
-        val base = Uri.parse(endpoint())
+    override suspend fun request(route: String, body: J?, query: Map<String, String>): J {
+        // Capture these together before dispatching IO; an endpoint change must not mix account keys and hosts.
+        val requestEndpoint = endpoint(); val requestToken = token()
+        return withContext(Dispatchers.IO) {
+        val base = Uri.parse(requestEndpoint)
         require(base.scheme == "https" && !base.host.isNullOrEmpty()) { "Enter a valid HTTPS service address." }
         val uri = base.buildUpon().appendQueryParameter("r", route).apply { query.forEach { (k,v) -> appendQueryParameter(k,v) } }.build()
         val connection = URL(uri.toString()).openConnection() as HttpURLConnection
@@ -57,7 +60,7 @@ class HttpTransport(private val endpoint: () -> String, private val token: () ->
             connection.connectTimeout = 20000; connection.readTimeout = 20000
             connection.setRequestProperty("X-Quizfolk-Client", "3")
             connection.setRequestProperty("Accept", "application/json")
-            token()?.let { connection.setRequestProperty("Authorization", "Bearer $it") }
+            requestToken?.let { connection.setRequestProperty("Authorization", "Bearer $it") }
             if (body != null) {
                 connection.requestMethod = "POST"; connection.doOutput = true
                 connection.setRequestProperty("Content-Type", "application/json; charset=utf-8")
@@ -70,5 +73,6 @@ class HttpTransport(private val endpoint: () -> String, private val token: () ->
             if (code !in 200..299) throw IllegalStateException(reply.s("error", "Server request failed. Please try again."))
             reply
         } finally { connection.disconnect() }
+        }
     }
 }

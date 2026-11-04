@@ -15,11 +15,13 @@ with zipfile.ZipFile(aab) as bundle:assert bundle.read('base/assets/questions.js
 badging=(out/'package.txt').read_text()
 assert "package: name='com.quizfolk.android'" in badging and "sdkVersion:'26'" in badging and "targetSdkVersion:'36'" in badging
 signature=(out/'signature.txt').read_text();assert 'certificate SHA-256 digest:' in signature
+fingerprint=re.search(r'certificate SHA-256 digest: (\w+)',signature).group(1).lower()
+assert fingerprint==(root/'android/signing-certificate.sha256').read_text().strip().lower()
 version=re.search(r"versionName='([^']+)'",badging).group(1)
 code=re.search(r"versionCode='([^']+)'",badging).group(1)
 report={'platform':'Android','applicationID':'com.quizfolk.android','version':version,'versionCode':int(code),'minimumAPI':26,'targetAPI':36,
     'questions':len(questions),'categories':len(topics),'mixedCategory':True,'minimumQuestionsPerTopic':min(t['questionCount'] for t in topics),
     'bankSHA256':hashlib.sha256(bank).hexdigest(),'apkSHA256':hashlib.sha256(apk.read_bytes()).hexdigest(),'aabSHA256':hashlib.sha256(aab.read_bytes()).hexdigest(),
     'sourceCommit':subprocess.check_output(['git','rev-parse','HEAD'],cwd=root,text=True).strip(),'signed':True,'debugFixturesExcluded':True,
-    'signingCertificateSHA256':re.search(r'certificate SHA-256 digest: (\w+)',signature).group(1),'workflowRun':os.environ.get('GITHUB_RUN_ID')}
+    'signingCertificateSHA256':fingerprint,'workflowRun':os.environ.get('GITHUB_RUN_ID')}
 (out/'android-verification.json').write_text(json.dumps(report,indent=2));print(json.dumps(report,indent=2))
