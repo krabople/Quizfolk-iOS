@@ -105,7 +105,7 @@ struct BadgeAppliedPopup:View {
                 Text("Your tournament badge is now displayed beside your profile picture.").multilineTextAlignment(.center)
                 Button("Done"){store.badgeConfirmation=nil}.buttonStyle(PrimaryButton()).accessibilityIdentifier("badgeConfirmationDone")
             }.padding(28).background(Color.canvas,in:RoundedRectangle(cornerRadius:28)).padding(22)
-        }.accessibilityIdentifier("badgeAppliedConfirmation")
+        }
     }
 }
 

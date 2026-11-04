@@ -43,7 +43,7 @@ struct PowerTray:View {
     }}
     Text(power.used ? "Power-up used · one per run":"One power-up per run · clock keeps running").font(.system(size:9)).opacity(0.8)
    } else {Text("Host has switched power-ups off").font(.caption2).opacity(0.8)}
-  }.accessibilityIdentifier("powerTray")
+  }
  }
 }
 struct QuizAnswerTile:View {
