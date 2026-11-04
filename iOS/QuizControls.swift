@@ -11,7 +11,6 @@ struct PowerReply:Decodable {let power:PowerState;let remaining:Double;let coins
 struct MatchProgress:Decodable {let ownAnswered:Int;let opponentAnswered:Int;var opponentResults:[Bool?]?=nil}
 
 struct QuestionTimeBar:View {
- @Environment(\.accessibilityReduceMotion) private var reduceMotion
  let remaining:Double;let reading:Bool
  static func fraction(_ seconds:Double)->Double {seconds.isFinite ? max(0,min(1,seconds/10)):0}
  var body:some View {
@@ -21,7 +20,7 @@ struct QuestionTimeBar:View {
     Capsule().fill(reading ? Color.white.opacity(0.4):(remaining<=3 ? Color.coral:(remaining<=5 ? Color(hex:"FFD494"):Color(hex:"64D9B0"))))
      .frame(width:g.size.width*CGFloat(reading ? 1:Self.fraction(remaining)))
    }
-  }.frame(height:9).animation(reduceMotion ? nil:.linear(duration:0.05),value:remaining)
+  }.frame(height:9)
    .accessibilityElement(children:.ignore).accessibilityLabel(reading ? "Reading time; answer clock has not started":"Answer time remaining")
    .accessibilityValue(reading ? "3-second preview":String(format:"%.1f seconds",remaining)).accessibilityIdentifier("answerTimeBar")
  }
