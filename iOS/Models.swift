@@ -53,6 +53,7 @@ struct MatchRecord: Codable, Identifiable {
     var duelID:String? = nil
     var pending:Bool? = nil
     var opponentID:String? = nil
+    var opponentAvatar:String? = nil
     var won: Bool { pending != true && score > opponentScore }
     var tied: Bool { pending != true && score == opponentScore }
     var xp: Int { pending == true ? 0:Scoring.experience(score:score,opponentScore:opponentScore) }

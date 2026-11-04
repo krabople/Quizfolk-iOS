@@ -24,6 +24,17 @@ extension QuizStore {
   let _:OKReply=try await request("social-settings",body:body)
  }
  func createChallenge(player:String,topic:String,requestID:String) async throws -> StartReply {try await request("challenge",body:["player":player,"topic":topic,"requestID":requestID])}
+ func rematch(topic:Topic,opponentID:String?,online:Bool,requestID:String) async throws -> GameSession {
+  if let opponentID {
+   let start=try await createChallenge(player:opponentID,topic:topic.id,requestID:requestID)
+   return GameSession(topic:topic,store:self,online:true,match:start)
+  }
+  if online {
+   let start:StartReply=try await request("match",body:["topic":topic.id,"botOnly":true])
+   return GameSession(topic:topic,store:self,online:true,match:start)
+  }
+  return GameSession(topic:topic,store:self,online:false)
+ }
  func openChallenge(_ id:String) async throws -> StartReply {try await request("duel-open",body:["duel":id])}
  func declineChallenge(_ id:String) async throws {let _:OKReply=try await request("duel-decline",body:["duel":id]);await refreshSocial()}
  func refreshSocial() async {
@@ -43,7 +54,7 @@ extension QuizStore {
   guard let index=history.firstIndex(where:{$0.duelID==card.id && $0.pending==true}) else {return}
   do {
    let r=try await openChallenge(card.id);let old=history[index]
-   history[index]=MatchRecord(id:old.id,topicID:old.topicID,date:old.date,score:r.score ?? old.score,opponentScore:r.opponentScore ?? old.opponentScore,opponent:r.opponent,kind:old.kind,rounds:r.played ?? old.rounds,duelID:card.id,pending:false,opponentID:r.opponentID)
+   history[index]=MatchRecord(id:old.id,topicID:old.topicID,date:old.date,score:r.score ?? old.score,opponentScore:r.opponentScore ?? old.opponentScore,opponent:r.opponent,kind:old.kind,rounds:r.played ?? old.rounds,duelID:card.id,pending:false,opponentID:r.opponentID,opponentAvatar:r.opponentAvatar)
    persistHistory()
   } catch {socialError=error.localizedDescription}
  }

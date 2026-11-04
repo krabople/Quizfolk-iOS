@@ -42,7 +42,10 @@ final class DuelUITests:XCTestCase {
         }
         let back=app.buttons["Back to topics"]
         if !back.isHittable {app.swipeUp();app.swipeUp()}
-        XCTAssertTrue(back.waitForExistence(timeout:8));capture("Result");app.buttons["Leave match"].tap();XCTAssertFalse(app.buttons["Leave duel"].exists)
+        XCTAssertTrue(back.waitForExistence(timeout:8));capture("Result")
+        let rematch=app.buttons["rematchDuel"];if !rematch.isHittable{app.swipeDown()};XCTAssertTrue(rematch.waitForExistence(timeout:5));rematch.tap()
+        XCTAssertTrue(app.buttons["Start duel"].waitForExistence(timeout:8));XCTAssertFalse(app.descendants(matching:.any).matching(identifier:"winnerAnnouncement").firstMatch.exists)
+        app.buttons["Leave match"].tap();XCTAssertFalse(app.buttons["Leave duel"].exists)
         app.navigationBars.buttons.element(boundBy:0).tap()
         app.tabBars.buttons["Duels"].tap();app.buttons["Device history"].tap()
         XCTAssertTrue(app.staticTexts["Offline practice"].waitForExistence(timeout:5))
@@ -118,6 +121,9 @@ final class DuelUITests:XCTestCase {
         XCTAssertTrue(app.buttons["League"].waitForExistence(timeout:5));app.buttons["League"].tap()
         XCTAssertTrue(app.buttons["This month"].waitForExistence(timeout:5))
         XCTAssertTrue(app.buttons["All time"].exists);capture("TopicLeague")
+        app.buttons["league-player-test-rival"].tap()
+        XCTAssertTrue(app.buttons["followPlayer"].waitForExistence(timeout:5));capture("ProfileFromTopicLeague")
+        app.navigationBars.buttons.element(boundBy:0).tap()
         app.tabBars.buttons["Tournaments"].tap()
         let event=app.descendants(matching:.any).matching(identifier:"tournament-test-event").firstMatch
         XCTAssertTrue(event.waitForExistence(timeout:5));capture("Tournaments");event.tap()
@@ -140,6 +146,16 @@ final class DuelUITests:XCTestCase {
         XCTAssertTrue(alert.waitForExistence(timeout:5));XCTAssertTrue(alert.buttons["Cancel"].exists)
         capture("TournamentEntryConfirmation");alert.buttons["Cancel"].tap()
         XCTAssertTrue(app.buttons["enterTournament"].exists)
+    }
+    @MainActor func testPreviousMatchOpensOpponentProfileForFollowing() {
+        let app=XCUIApplication();app.launchArguments=["--ui-testing","--history-fixture"];app.launch()
+        if app.buttons["Done"].waitForExistence(timeout:3){app.buttons["Done"].tap()}
+        app.tabBars.buttons["Duels"].tap();app.buttons["Device history"].tap()
+        let match=app.buttons["history-match-history-fixture"];XCTAssertTrue(match.waitForExistence(timeout:5));match.tap()
+        XCTAssertTrue(app.buttons["historyRematch"].waitForExistence(timeout:5))
+        app.buttons["historyOpponentProfile"].tap()
+        XCTAssertTrue(app.buttons["followPlayer"].waitForExistence(timeout:5));app.buttons["followPlayer"].tap()
+        XCTAssertTrue(app.buttons["Following"].waitForExistence(timeout:5));capture("FollowFromPreviousMatch")
     }
     @MainActor func testInsufficientCoinsStaysOnTournamentDetails() {
         let app=XCUIApplication();app.launchArguments=["--ui-testing","--ui-testing-empty-wallet"];app.launch()

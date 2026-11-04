@@ -97,8 +97,8 @@ function packet_is_current(array $packet,?PDO $bank=null):bool {
     }
     return true;
 }
-function create_random_match(PDO $db,string $pid,string $topic,array $config,bool $humanOnly=false):?array {
-    $replay=replay_candidate($db,$pid,$topic,$config);
+function create_random_match(PDO $db,string $pid,string $topic,array $config,bool $humanOnly=false,bool $botOnly=false):?array {
+    $replay=$botOnly?false:replay_candidate($db,$pid,$topic,$config);
     if($replay){$packet=json_decode($replay['packet'],true);$other=array_column(json_decode($replay['answers'],true),'points');$id=insert_match($db,$pid,$topic,'human',$replay['name'],$replay['player_id'],$packet,$other,null,$replay['id']);}
     else {
         if($humanOnly)return null;$packet=fresh_packet($db,$pid,$topic);$other=[];

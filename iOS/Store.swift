@@ -121,7 +121,14 @@ import Security
         return try JSONDecoder().decode(T.self,from:data)
     }
     func connect() async {
-        if isUITesting {name="UI Player";profile=OnlineProfile(id:"test-self",socialVersion:1,name:name,avatar:nil,matches:0,wins:0,xp:0,correct:0,answered:0);ownCard=Self.testCard(following:false,own:true);return}
+        if isUITesting {
+            name="UI Player";profile=OnlineProfile(id:"test-self",socialVersion:1,name:name,avatar:nil,matches:0,wins:0,xp:0,correct:0,answered:0);ownCard=Self.testCard(following:false,own:true)
+            if ProcessInfo.processInfo.arguments.contains("--history-fixture"),let topic=topics.first(where:{$0.id=="22"}) {
+                let rounds=packet(topic).map{PlayedRound(question:$0,selected:$0.correctIndex,elapsed:1,points:19,opponentPoints:10)}
+                history=[MatchRecord(id:"history-fixture",topicID:topic.id,date:Date(),score:133,opponentScore:70,opponent:"Sample Rival",kind:"human",rounds:rounds,opponentID:"test-rival")]
+            }
+            return
+        }
         if let running=connectionTask {await running.value;return}
         let running=Task {await self.performConnect()};connectionTask=running
         await running.value;connectionTask=nil

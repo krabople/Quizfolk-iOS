@@ -94,7 +94,7 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
         else {round=rounds.count}
     }
     private func saveResult() {
-        store.save(MatchRecord(id:online ? matchID:localHistoryID,topicID:topic.id,date:Date(),score:score,opponentScore:opponentScore,opponent:opponent,kind:online ? kind:"practice",rounds:rounds,duelID:duelID,pending:duelID == nil ? false:awaitingOpponent,opponentID:opponentID))
+        store.save(MatchRecord(id:online ? matchID:localHistoryID,topicID:topic.id,date:Date(),score:score,opponentScore:opponentScore,opponent:opponent,kind:online ? kind:"practice",rounds:rounds,duelID:duelID,pending:duelID == nil ? false:awaitingOpponent,opponentID:opponentID,opponentAvatar:opponentAvatar))
     }
     func refreshResult() async {
         guard let duelID else {return};busy=true;defer{busy=false}

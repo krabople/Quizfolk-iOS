@@ -216,7 +216,6 @@ struct TournamentPlayView:View {
        Button(game.runEnded ? "See score":"Next question"){Task{await game.next()}}.buttonStyle(.borderedProminent).tint(.coral).accessibilityIdentifier("advanceTournament")
       }
      }
-     Text("\(question.source ?? "Open trivia contributors") · CC BY-SA 4.0").font(.system(size:8)).opacity(0.65).lineLimit(1)
     } else {
      Spacer()
      if game.error==nil {ProgressView("Preparing your run…").tint(.white)}

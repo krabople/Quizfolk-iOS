@@ -1,13 +1,21 @@
 import SwiftUI
 
 struct GameView:View {
+ @State private var currentGame:GameSession
+ init(game:GameSession){_currentGame=State(initialValue:game)}
+ var body:some View {DuelScreen(game:currentGame){next in currentGame.stop();currentGame=next}.id(currentGame.id)}
+}
+private struct DuelScreen:View {
  @ObservedObject var game:GameSession
+ let onRematch:(GameSession)->Void
  @EnvironmentObject var store:QuizStore
  @Environment(\.dismiss) var dismiss
  @Environment(\.accessibilityReduceMotion) var reduceMotion
  @State private var leave=false
  @State private var entered=false
- @State private var rematch=false
+ @State private var rematching=false
+ @State private var rematchRequestID=UUID().uuidString
+ @State private var rematchError:String?
  var body:some View {
   NavigationStack {
    Group {if game.finished {if game.awaitingOpponent {pendingResult}else{result}} else if game.searching || (!game.prepared && game.online) {searchScreen} else if game.showIntro {intro} else {play}}
@@ -16,7 +24,6 @@ struct GameView:View {
     .toolbar {ToolbarItem(placement:.topBarLeading){Button{if game.canCloseWithoutWarning{dismiss()}else{leave=true}}label:{Image(systemName:"xmark")}.accessibilityLabel("Leave match")};ToolbarItem(placement:.principal){Text(game.topic.name).font(.headline)}}
     .confirmationDialog("Leave this duel? An unfinished duel earns no XP.",isPresented:$leave,titleVisibility:.visible){Button("Leave duel",role:.destructive){game.stop();dismiss()}}
   }.preferredColorScheme(.dark).task{await game.begin()}.onDisappear{game.stop()}
-   .sheet(isPresented:$rematch){if let id=game.opponentID{ChallengeComposer(playerID:id,name:game.opponent,initialTopic:game.topic.id)}}
  }
  private var searchScreen:some View {
   VStack(spacing:25){Spacer();Image(systemName:"person.2.wave.2.fill").font(.system(size:70)).foregroundStyle(Color(hex:"FFD494"));Text("Finding a human rival").font(.system(size:28,weight:.bold,design:.rounded));Text(game.searchMessage).multilineTextAlignment(.center);if game.error==nil {ProgressView().tint(.white)};Text("We check other searchers and recorded human runs before a bot is offered.").font(.subheadline).multilineTextAlignment(.center).opacity(0.75);if let error=game.error{Text(error).font(.caption);Button("Try again"){Task{await game.retry()}}.buttonStyle(PrimaryButton())};Spacer()}.padding(28).accessibilityIdentifier("humanSearch")
@@ -28,8 +35,15 @@ struct GameView:View {
   if let id=game.opponentID {
    RivalRecordView(playerID:id,name:game.opponent)
    NavigationLink("View \(game.opponent)’s player card"){PublicPlayerView(playerID:id)}.font(.subheadline.bold())
-   if !game.awaitingOpponent {Button("Challenge again"){rematch=true}.buttonStyle(.bordered)}
   }
+  if !game.awaitingOpponent,game.opponentID != nil || !game.isHuman {
+   Button(rematching ? "Preparing rematch…":"Rematch"){Task{await startRematch()}}.buttonStyle(PrimaryButton(color:.coral)).disabled(rematching).accessibilityIdentifier("rematchDuel")
+  }
+  if let rematchError {Text(rematchError).font(.caption).foregroundStyle(Color(hex:"FFD494"))}
+ }
+ private func startRematch()async {
+  guard !rematching else{return};rematching=true;rematchError=nil;defer{rematching=false}
+  do{let next=try await store.rematch(topic:game.topic,opponentID:game.opponentID,online:game.online,requestID:rematchRequestID);onRematch(next)}catch{rematchError=error.localizedDescription}
  }
  private var intro:some View {
   VStack(spacing:26) {
@@ -73,7 +87,6 @@ struct GameView:View {
      }
     } else {Spacer();ProgressView("Loading question…").tint(.white);Spacer()}
     if let error=game.error {Text(error).font(.caption);Button("Try again"){Task{await game.retry()}}.buttonStyle(.bordered)}
-    Text("\(game.current?.source ?? "Open trivia contributors") · CC BY-SA 4.0").font(.system(size:8)).opacity(0.65).lineLimit(1)
    }.padding(.horizontal,18).padding(.vertical,8).animation(reduceMotion ? nil:.easeInOut(duration:0.45),value:game.reading)
   }
  }
@@ -107,7 +120,7 @@ struct GameView:View {
    VStack(spacing:18) {
     Image(systemName:tied ? "equal.circle.fill":"trophy.fill").font(.system(size:68)).foregroundStyle(Color(hex:"FFD494")).symbolEffect(.bounce,value:game.finished).padding(.top,20)
     Text(tied ? "IT’S A DRAW":(won ? "YOU WIN!":"\(game.opponent.uppercased()) WINS!")).font(.system(size:31,weight:.black,design:.rounded)).multilineTextAlignment(.center).accessibilityIdentifier("winnerAnnouncement")
-    HStack(alignment:.top,spacing:14){podium(store.name,avatar:store.avatar,score:game.score,winner:won,bot:false);Text("–").font(.system(size:36,weight:.bold)).padding(.top,60);podium(game.opponent,avatar:game.opponentAvatar,score:game.opponentScore,winner:!won && !tied,bot:!game.isHuman)}
+    HStack(alignment:.top,spacing:14){podium(store.name,avatar:store.avatar,score:game.score,winner:won,bot:false,playerID:store.profile?.id);Text("–").font(.system(size:36,weight:.bold)).padding(.top,60);podium(game.opponent,avatar:game.opponentAvatar,score:game.opponentScore,winner:!won && !tied,bot:!game.isHuman,playerID:game.opponentID)}
     VStack(spacing:8){Text("+\(Scoring.experience(score:game.score,opponentScore:game.opponentScore)) TOPIC XP").font(.system(size:25,weight:.black,design:.rounded));Text("\(game.score) score + 40 finish + \(bonus) \(tied ? "draw":"win") bonus").font(.caption);Text(game.online ? "Added to your \(game.topic.name) league":"Offline practice · local XP only").font(.caption).opacity(0.7)}.padding(16).frame(maxWidth:.infinity).background(.white.opacity(0.1),in:RoundedRectangle(cornerRadius:18))
     rivalActions
     Button("Back to topics"){dismiss()}.buttonStyle(PrimaryButton(color:.coral))
@@ -118,8 +131,8 @@ struct GameView:View {
    }.padding(22)
   }.overlay(alignment:.top){if !reduceMotion {VictoryConfetti().allowsHitTesting(false)}}
  }
- private func podium(_ name:String,avatar:String?,score:Int,winner:Bool,bot:Bool)->some View {
-  VStack(spacing:7){Image(systemName:"crown.fill").foregroundStyle(Color(hex:"FFD494")).opacity(winner ? 1:0).frame(height:15);PlayerPortrait(name:name,avatar:avatar,bot:bot,size:66);Text(name).font(.caption.bold()).lineLimit(2).multilineTextAlignment(.center);Text("\(score)").font(.system(size:39,weight:.black,design:.rounded))}.frame(maxWidth:.infinity)
+ private func podium(_ name:String,avatar:String?,score:Int,winner:Bool,bot:Bool,playerID:String?)->some View {
+  VStack(spacing:7){Image(systemName:"crown.fill").foregroundStyle(Color(hex:"FFD494")).opacity(winner ? 1:0).frame(height:15);if let playerID {NavigationLink{PublicPlayerView(playerID:playerID)}label:{PlayerPortrait(name:name,avatar:avatar,size:66)}.buttonStyle(.plain).accessibilityLabel("View \(name)'s profile").accessibilityIdentifier("resultProfile-\(playerID)")}else{PlayerPortrait(name:name,avatar:avatar,bot:bot,size:66)};Text(name).font(.caption.bold()).lineLimit(2).multilineTextAlignment(.center);Text("\(score)").font(.system(size:39,weight:.black,design:.rounded))}.frame(maxWidth:.infinity)
  }
 }
 struct VictoryConfetti:View {

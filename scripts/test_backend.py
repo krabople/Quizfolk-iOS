@@ -61,6 +61,8 @@ for i in range(7):
  r=req('round',{'match':ghost['id']},b);assert r['question']==first[i]
  req('answer',{'match':ghost['id'],'round':i,'answer':-1},b)
 board=req('leaderboard&topic=22&period=month',token=a)['entries'];assert len(board)==2
+rematch=req('match',{'topic':'22','botOnly':True},a,201)
+assert rematch['kind']=='bot' and rematch['opponentID'] is None and rematch['id']!=m['id']
 assert req('leaderboard&topic=11&period=all',token=a)['entries']==[]
 req('leaderboard',token=a,status=400)
 with sqlite3.connect(STATE) as db:

@@ -11,21 +11,37 @@ struct HistoryView:View {
                 LazyVStack(spacing:12){ForEach(store.history){match in
                     NavigationLink{MatchDetailView(match:match)}label:{
                         HStack(spacing:13){Text(store.topics.first{$0.id==match.topicID}?.emoji ?? "🧠").font(.largeTitle);VStack(alignment:.leading,spacing:5){Text(store.topics.first{$0.id==match.topicID}?.name ?? "Trivia").font(.headline);Text("vs \(match.opponent)").font(.caption).foregroundStyle(.secondary);Text(match.kind=="challenge" ? "Asynchronous challenge":(match.kind=="human" ? "Recorded human run":(match.kind=="practice" ? "Offline practice":"Bot duel"))).font(.system(size:10)).foregroundStyle(.secondary)};Spacer();VStack(alignment:.trailing,spacing:5){Text("\(match.score)–\(match.opponentScore)").font(.headline);Text(match.pending==true ? "WAITING":(match.tied ? "DRAW":(match.won ? "WON":"LOST"))).font(.system(size:10,weight:.heavy)).foregroundStyle(match.won ? .green:Color.coral);Text(match.date,style:.date).font(.system(size:9)).foregroundStyle(.secondary)}}.padding(16).background(.white,in:RoundedRectangle(cornerRadius:16)).foregroundStyle(Color.ink)
-                    }.buttonStyle(.plain)
+                    }.buttonStyle(.plain).accessibilityIdentifier("history-match-\(match.id)")
                 }}.padding(.horizontal,22)
             }.background(Color.canvas).toolbar(.hidden,for:.navigationBar)
         }
     }
 }
 struct MatchDetailView:View {
+    @EnvironmentObject private var store:QuizStore
     let match:MatchRecord
+    @State private var session:GameSession?
+    @State private var rematching=false
+    @State private var rematchError:String?
+    @State private var requestID=UUID().uuidString
     var body:some View {
         List {
+            if let id=match.opponentID {
+                Section("Your opponent") {
+                    NavigationLink {PublicPlayerView(playerID:id)}label:{HStack(spacing:14){PlayerPortrait(name:match.opponent,avatar:match.opponentAvatar,size:52);VStack(alignment:.leading,spacing:4){Text(match.opponent).font(.headline);Text("View profile & follow").font(.caption).foregroundStyle(.secondary)}}}.accessibilityIdentifier("historyOpponentProfile")
+                }
+            }
+            if match.pending != true,(match.opponentID != nil || match.kind=="bot" || match.kind=="practice"),let topic=store.topics.first(where:{$0.id==match.topicID}) {
+                Section {
+                    Button(rematching ? "Preparing rematch…":"Rematch"){Task{rematching=true;defer{rematching=false};do{session=try await store.rematch(topic:topic,opponentID:match.opponentID,online:match.kind != "practice",requestID:requestID);rematchError=nil}catch{rematchError=error.localizedDescription}}}.disabled(rematching).accessibilityIdentifier("historyRematch")
+                    if let rematchError {Text(rematchError).foregroundStyle(.red).font(.caption)}
+                }
+            }
             Section(match.pending==true ? "\(match.score) points · waiting for \(match.opponent)":"\(match.score) – \(match.opponentScore) vs \(match.opponent)") {
                 ForEach(Array(match.rounds.enumerated()),id:\.element.id){i,r in VStack(alignment:.leading,spacing:8){Text("\(i+1). \(r.question.prompt)").font(.headline);Text("Correct: \(r.question.answers[r.question.correctIndex])");Text("Your answer: \(r.selected>=0 && r.selected<4 ? r.question.answers[r.selected]:"Timed out")").foregroundStyle(.secondary);Text("\(r.points) points · \(r.elapsed, specifier:"%.1f") seconds").font(.caption)}}
             }
-            Section {Link("Question source · Open Trivia Database",destination:URL(string:"https://opentdb.com/")!);Link("Question source · OpenTriviaQA contributors",destination:URL(string:"https://github.com/uberspot/OpenTriviaQA")!);Link("Question licence · CC BY-SA 4.0",destination:URL(string:"https://creativecommons.org/licenses/by-sa/4.0/")!)}
         }.navigationTitle("Duel review")
+            .fullScreenCover(item:$session){GameView(game:$0).environmentObject(store)}
     }
 }
 struct ProfileView:View {
@@ -60,7 +76,7 @@ struct ProfileView:View {
                     HStack{metric("\(store.history.count)","Duels");metric("\(wins)","Wins");metric(total==0 ? "—":"\(Int(Double(correct)/Double(total)*100))%","Accuracy")}.padding(.vertical,18).background(.white,in:RoundedRectangle(cornerRadius:17))
                     VStack(alignment:.leading,spacing:14){Text("Your topic journey").font(.headline);ForEach(store.topics.filter{store.favourites.contains($0.id) || store.topicXP($0)>0}){topic in VStack(alignment:.leading,spacing:8){Text(topic.emoji+" "+topic.name).font(.subheadline.bold());TopicLevelProgress(topic:topic,xp:store.topicXP(topic))}}}.frame(maxWidth:.infinity,alignment:.leading)
                     settings
-                    VStack(alignment:.leading,spacing:8){Text("Made for curious people").font(.headline);Text("Quizfolk is an independent app inspired by classic topic-based trivia. It is not affiliated with QuizUp. Questions are community-contributed and may contain errors. Use the review screen to check the correct answer.").font(.caption).foregroundStyle(.secondary);Link("Open Trivia Database · Question source",destination:URL(string:"https://opentdb.com/")!);Link("CC BY-SA 4.0 · Question data licence",destination:URL(string:"https://creativecommons.org/licenses/by-sa/4.0/")!)}.font(.caption).frame(maxWidth:.infinity,alignment:.leading)
+                    VStack(alignment:.leading,spacing:8){Text("Made for curious people").font(.headline);Text("Quizfolk is an independent app inspired by classic topic-based trivia. It is not affiliated with QuizUp. Questions have been individually reviewed and edited for clarity, accuracy and topic relevance. Use the duel review to see each correct answer.").font(.caption).foregroundStyle(.secondary);Link("Credits & licences",destination:URL(string:"https://www.ways2earn.com/quizfolk-api/credits.html")!)}.font(.caption).frame(maxWidth:.infinity,alignment:.leading)
                     Link("Privacy policy",destination:URL(string:"https://www.ways2earn.com/quizfolk-api/privacy.html")!).font(.caption)
                 }.padding(.horizontal,22).padding(.bottom,25)
             }.background(Color.canvas).toolbar(.hidden,for:.navigationBar)

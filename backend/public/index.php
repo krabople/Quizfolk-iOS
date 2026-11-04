@@ -122,7 +122,7 @@ try {
         sql($db,'INSERT INTO reports VALUES(?,?,?,?,?)',[bin2hex(random_bytes(12)),$pid,$qid,$reason,time()]);out(['ok'=>true]);
     }
     if($route==='match') {
-        $db->exec('BEGIN IMMEDIATE');$reply=create_random_match($db,$pid,(string)($body['topic'] ?? ''),$config);$db->exec('COMMIT');out($reply,201);
+        $db->exec('BEGIN IMMEDIATE');$reply=create_random_match($db,$pid,(string)($body['topic'] ?? ''),$config,false,($body['botOnly'] ?? false)===true);$db->exec('COMMIT');out($reply,201);
     }
     if($route==='round' || $route==='reveal' || $route==='answer' || $route==='power' || $route==='match-progress') {
         $id=(string)($body['match'] ?? '');$db->exec('BEGIN IMMEDIATE');

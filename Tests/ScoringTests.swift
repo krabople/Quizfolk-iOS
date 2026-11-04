@@ -42,6 +42,26 @@ final class ScoringTests:XCTestCase {
         XCTAssertEqual(game.lastPoints,18);XCTAssertEqual(store.coinBalance,125)
         await game.answer(0);XCTAssertEqual(game.rounds.count,1)
     }
+    @MainActor func testRematchPreservesHumanTargetAndTopicAndKeepsBotsLabelled() async throws {
+        let store=QuizStore(),topic=store.topics.first{$0.id=="22"}!
+        var routes:[String]=[]
+        store.testResponse={route,body in
+            routes.append(route);XCTAssertEqual(body?["topic"] as? String,"22")
+            if route=="challenge" {
+                XCTAssertEqual(body?["player"] as? String,"rival");XCTAssertEqual(body?["requestID"] as? String,"retry-key")
+                return Data(#"{"id":"new-human","kind":"challenge","opponent":"Rival","opponentID":"rival","opponentAvatar":null}"#.utf8)
+            }
+            XCTAssertEqual(route,"match");XCTAssertEqual(body?["botOnly"] as? Bool,true)
+            return Data(#"{"id":"new-bot","kind":"bot","opponent":"Pip · Bot","opponentAvatar":null}"#.utf8)
+        }
+        let human=try await store.rematch(topic:topic,opponentID:"rival",online:true,requestID:"retry-key")
+        await human.begin();XCTAssertEqual(human.opponentID,"rival");XCTAssertTrue(human.showIntro);human.stop()
+        let bot=try await store.rematch(topic:topic,opponentID:nil,online:true,requestID:"bot-key")
+        await bot.begin();XCTAssertEqual(bot.kind,"bot");XCTAssertNil(bot.opponentID);bot.stop()
+        let practice=try await store.rematch(topic:topic,opponentID:nil,online:false,requestID:"practice-key")
+        await practice.begin();XCTAssertFalse(practice.online);XCTAssertEqual(practice.packet.count,7);practice.stop()
+        XCTAssertEqual(routes,["challenge","match"])
+    }
     func testExperienceBonuses() {
         XCTAssertEqual(Scoring.experience(score:160,opponentScore:100),300)
         XCTAssertEqual(Scoring.experience(score:100,opponentScore:100),190)

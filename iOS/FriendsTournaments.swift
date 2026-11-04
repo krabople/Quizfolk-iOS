@@ -145,7 +145,7 @@ struct FriendsTournamentView:View {
    Text(current.status=="complete" ? "Final standings":"Tournament standings").font(.title3.bold())
    Text("Wins 3 · draws 1 · equal points share a place").font(.caption).foregroundStyle(.secondary)
    if let board {ForEach(board.standings){r in
-    HStack(spacing:10){Text("#\(r.rank)").font(.headline);PlayerPortrait(name:r.name,avatar:r.avatar,size:34);VStack(alignment:.leading,spacing:3){Text(r.name).font(.subheadline.bold());Text("\(r.played) played · \(r.wins)W \(r.draws)D \(r.losses)L").font(.caption2).foregroundStyle(.secondary);Text("Home: \(topicName(r.topicID))").font(.caption2).foregroundStyle(.secondary)};Spacer();Text("\(r.points)").font(.title2.bold())}
+    NavigationLink{PublicPlayerView(playerID:r.id)}label:{HStack(spacing:10){Text("#\(r.rank)").font(.headline);PlayerPortrait(name:r.name,avatar:r.avatar,size:34);VStack(alignment:.leading,spacing:3){Text(r.name).font(.subheadline.bold());Text("\(r.played) played · \(r.wins)W \(r.draws)D \(r.losses)L").font(.caption2).foregroundStyle(.secondary);Text("Home: \(topicName(r.topicID))").font(.caption2).foregroundStyle(.secondary)};Spacer();Text("\(r.points)").font(.title2.bold())}.foregroundStyle(Color.ink)}.buttonStyle(.plain).accessibilityIdentifier("friends-league-player-\(r.id)")
    }} else {ProgressView()}
   }.padding(17).background(.white,in:RoundedRectangle(cornerRadius:17))
  }

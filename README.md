@@ -164,3 +164,13 @@ the saved answer without another debit. Older clients keep their highlight-and-t
 behaviour. Wearing a prize badge saves and acknowledges it atomically, followed
 by a persistent confirmation popup. Wallets use a gold coin symbol, and profile
 shortcuts are aligned buttons.
+
+
+Finished duels now have an explicit Rematch action. Human rematches send a new
+idempotent challenge to the same player in the same topic; bot rematches keep
+the bot label and online/practice mode, using a fresh question packet. Saved
+human-match reviews link to the opponent's public profile. Results portraits,
+topic leagues, survival standings and private friends standings open player
+cards, including follow controls. Source labels were removed from gameplay and
+review screens; adapted-data attribution is consolidated at You > Credits &
+licences and records the individual editorial corrections.
