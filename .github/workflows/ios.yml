@@ -5,6 +5,11 @@ on:
     paths: ['iOS/**', 'Tests/**', 'UITests/**', 'data/**', 'project.yml', '.github/workflows/ios.yml', 'scripts/validate_bank.py']
   pull_request:
   workflow_dispatch:
+  workflow_call:
+    inputs:
+      source_ref:
+        type: string
+        required: true
 permissions:
   contents: read
 concurrency:
@@ -21,6 +26,9 @@ jobs:
           sudo xcode-select -s "$XCODE_APP/Contents/Developer"
           xcodebuild -version
       - uses: actions/checkout@v4
+        with:
+          repository: krabople/Quizfolk-iOS
+          ref: ${{ inputs.source_ref || github.sha }}
       - name: Generate Xcode project
         run: |
           brew install xcodegen
