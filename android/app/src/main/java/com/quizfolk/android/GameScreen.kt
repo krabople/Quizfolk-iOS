@@ -52,6 +52,7 @@ import kotlin.math.*
         return
     }
     MaterialTheme(colorScheme = darkColorScheme(primary = Coral, onPrimary = Color.White, surface = Navy, onSurface = Color.White, background = Navy)) {
+        CompositionLocalProvider(LocalContentColor provides Color.White) {
         Column(Modifier.fillMaxSize().background(Brush.linearGradient(listOf(Navy, tint(game.topic.color), Color(0xFF123452)))).safeDrawingPadding()) {
             Row(Modifier.fillMaxWidth().height(56.dp).padding(horizontal = 8.dp), verticalAlignment = Alignment.CenterVertically) {
                 IconButton(close, Modifier.testTag("leaveMatch")) { Icon(Icons.Default.Close, "Leave match") }
@@ -67,6 +68,7 @@ import kotlin.math.*
                     else -> PlayScreen(game)
                 }
             }
+        }
         }
         if (leave) AlertDialog(onDismissRequest = { leave = false }, title = { Text(if (game.survival) "End this run?" else "Leave this duel?") },
             text = { Text(if (game.survival) "Your earned score will be kept. Another attempt costs the displayed entry fee." else "An unfinished duel earns no XP.") },
@@ -153,7 +155,10 @@ import kotlin.math.*
     BoxWithConstraints(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
         val width = with(density) { maxWidth.roundToPx() }.coerceAtLeast(1); val height = with(density) { maxHeight.roundToPx() }.coerceAtLeast(1)
         val font = remember(text, width, height, density.fontScale) {
-            (base downTo 13).firstOrNull { size -> !measurer.measure(text, TextStyle(fontFamily = QuizFont, fontSize = size.sp, fontWeight = FontWeight.Bold, lineHeight = (size * 1.2f).sp), maxLines = lines, constraints = Constraints(maxWidth = width, maxHeight = height)).hasVisualOverflow } ?: 13
+            (base downTo 13).firstOrNull { size ->
+                val measured = measurer.measure(text, TextStyle(fontFamily = QuizFont, fontSize = size.sp, fontWeight = FontWeight.Bold, lineHeight = (size * 1.2f).sp), maxLines = lines, constraints = Constraints(maxWidth = width))
+                !measured.hasVisualOverflow && measured.size.height <= height
+            } ?: 13
         }
         Text(text, fontSize = font.sp, lineHeight = (font * 1.2f).sp, maxLines = lines, fontWeight = FontWeight.Bold, textAlign = TextAlign.Center, color = color)
     }
@@ -172,7 +177,7 @@ import kotlin.math.*
     }
 }
 @Composable private fun SmallPlayer(name: String, photo: String?, score: String, bot: Boolean, modifier: Modifier) = Row(modifier, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(7.dp)) {
-    Avatar(name, photo, bot, 34.dp); Column { Text(name, maxLines = 1, fontSize = 10.sp, fontWeight = FontWeight.SemiBold); Text(score, fontSize = 25.sp, fontWeight = FontWeight.Bold) }
+    Avatar(name, photo, bot, 34.dp); Column { Text(name, maxLines = 1, fontSize = 10.sp, lineHeight = 12.sp, fontWeight = FontWeight.SemiBold); Text(score, fontSize = 25.sp, lineHeight = 28.sp, fontWeight = FontWeight.Bold) }
 }
 @Composable private fun DuelProgress(game: GameSession) = Column(Modifier.fillMaxWidth().testTag("duelProgress"), verticalArrangement = Arrangement.spacedBy(5.dp)) {
     ProgressRow(game.store.name, game.rounds.size, game.rounds.map { it.points > 0 }, game.round, "roundMarker")

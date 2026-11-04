@@ -16,6 +16,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
+import androidx.compose.ui.platform.LocalView
+import androidx.core.view.WindowCompat
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -38,6 +40,12 @@ class MainActivity : ComponentActivity() {
 @Composable fun Root(store: QuizStore) {
     val owner = LocalLifecycleOwner.current; val scope = rememberCoroutineScope()
     val keyboard = LocalSoftwareKeyboardController.current; val focus = LocalFocusManager.current
+    val view = LocalView.current
+    SideEffect {
+        val bars = WindowCompat.getInsetsController((view.context as MainActivity).window, view)
+        bars.isAppearanceLightStatusBars = store.game == null
+        bars.isAppearanceLightNavigationBars = store.game == null
+    }
     LaunchedEffect(store.pages.toList(), store.game?.id, store.tab) { focus.clearFocus(); keyboard?.hide() }
     LaunchedEffect(Unit) { store.initialize() }
     DisposableEffect(owner, store) {

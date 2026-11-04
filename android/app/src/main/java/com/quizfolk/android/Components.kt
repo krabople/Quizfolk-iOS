@@ -20,6 +20,8 @@ import androidx.compose.ui.semantics.*
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontVariation
+import androidx.compose.ui.text.ExperimentalTextApi
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.*
 import java.text.DateFormat
@@ -32,7 +34,10 @@ val Coral = Color(0xFFE96959)
 val Navy = Color(0xFF102640)
 val Mint = Color(0xFF64D9B0)
 val Gold = Color(0xFFFFD494)
-val QuizFont = FontFamily(Font(R.font.nunito, FontWeight.Normal), Font(R.font.nunito, FontWeight.Medium), Font(R.font.nunito, FontWeight.SemiBold), Font(R.font.nunito, FontWeight.Bold), Font(R.font.nunito, FontWeight.ExtraBold), Font(R.font.nunito, FontWeight.Black))
+@OptIn(ExperimentalTextApi::class)
+val QuizFont = FontFamily(*listOf(400, 500, 600, 700, 800, 900).map { weight ->
+    Font(R.font.nunito, FontWeight(weight), variationSettings = FontVariation.Settings(FontVariation.weight(weight)))
+}.toTypedArray())
 private val QuizTypography = Typography().let { base -> Typography(
     displayLarge = base.displayLarge.copy(fontFamily = QuizFont), displayMedium = base.displayMedium.copy(fontFamily = QuizFont), displaySmall = base.displaySmall.copy(fontFamily = QuizFont),
     headlineLarge = base.headlineLarge.copy(fontFamily = QuizFont), headlineMedium = base.headlineMedium.copy(fontFamily = QuizFont), headlineSmall = base.headlineSmall.copy(fontFamily = QuizFont),
@@ -45,7 +50,7 @@ fun date(seconds: Double): String = DateFormat.getDateTimeInstance(DateFormat.ME
 @Composable fun QuizfolkTheme(content: @Composable () -> Unit) {
     MaterialTheme(colorScheme = lightColorScheme(primary = Coral, onPrimary = Color.White, secondary = Ink, background = CanvasColor,
         surface = Color.White, onSurface = Ink, onBackground = Ink, outline = Ink.copy(alpha = .15f)),
-        typography = QuizTypography, content = content)
+        typography = QuizTypography) { CompositionLocalProvider(LocalContentColor provides Ink, content = content) }
 }
 @Composable fun BrandHeader(title: String, subtitle: String) {
     Column(verticalArrangement = Arrangement.spacedBy(9.dp), modifier = Modifier.fillMaxWidth().padding(vertical = 12.dp)) {

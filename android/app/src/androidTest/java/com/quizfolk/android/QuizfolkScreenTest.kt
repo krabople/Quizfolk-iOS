@@ -33,6 +33,10 @@ class QuizfolkScreenTest {
     private fun tapTag(tag: String) = compose.onNodeWithTag(tag).performClick()
     private fun text(text: String) = compose.onNodeWithText(text, useUnmergedTree = true)
     private fun capture(name: String) {
+        compose.waitForIdle()
+        InstrumentationRegistry.getInstrumentation().waitForIdleSync()
+        // Wait for the emulator compositor and the finite answer-slide animation before capturing pixels.
+        android.os.SystemClock.sleep(600)
         val bitmap = InstrumentationRegistry.getInstrumentation().uiAutomation.takeScreenshot()
         if (android.os.Build.VERSION.SDK_INT >= 29) {
             val resolver = compose.activity.contentResolver
@@ -166,6 +170,8 @@ class QuizfolkScreenTest {
             val photo = android.graphics.BitmapFactory.decodeByteArray(bytes,0,bytes.size)
             assertEquals(128,photo.width); assertEquals(128,photo.height); assertTrue(bytes.size <= 16384)
             assertNull(androidx.exifinterface.media.ExifInterface(java.io.ByteArrayInputStream(bytes)).getAttribute(androidx.exifinterface.media.ExifInterface.TAG_GPS_LATITUDE))
+            compose.waitUntil(5000) { compose.onAllNodesWithText("Picture updated").fetchSemanticsNodes().isNotEmpty() }
+            text("OK").performClick(); compose.waitForIdle()
             androidx.test.espresso.intent.Intents.intended(androidx.test.espresso.intent.matcher.IntentMatchers.hasAction(android.provider.MediaStore.ACTION_PICK_IMAGES))
         } finally { androidx.test.espresso.intent.Intents.release() }
     }
