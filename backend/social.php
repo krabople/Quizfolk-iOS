@@ -158,8 +158,8 @@ function social_routes(string $route,PDO $db,string $pid,array $player,array $bo
         $card['headToHead']=$h;
         $st=$card['stats'];$card['badges']=[['id'=>'first','name'=>'First duel','symbol'=>'bolt.fill','earned'=>$st['matches']>=1],['id'=>'winner','name'=>'First victory','symbol'=>'trophy.fill','earned'=>$st['wins']>=1],['id'=>'perfect','name'=>'Seven of seven','symbol'=>'checkmark.seal.fill','earned'=>$st['perfect']>=1],['id'=>'ten','name'=>'Tenacious','symbol'=>'flame.fill','earned'=>$st['matches']>=10],['id'=>'explorer','name'=>'Topic explorer','symbol'=>'globe','earned'=>count($card['topics'])>=5]];
         $topicNames=array_column(play_topics(),'name','id');
-        foreach(sql($db,'SELECT p.event_id,p.rank,e.topic,e.starts FROM tournament_places p JOIN tournament_events e ON e.id=p.event_id WHERE p.player_id=? AND p.rank BETWEEN 1 AND 3 ORDER BY e.ends DESC LIMIT 20',[$id])->fetchAll() as $trophy) {
-            $card['badges'][]=['id'=>'tournament:'.$trophy['event_id'],'name'=>($topicNames[$trophy['topic']] ?? 'Tournament').' · #'.$trophy['rank'].' · '.gmdate('j M Y',(int)$trophy['starts']),'symbol'=>'trophy.fill','earned'=>true];
+        foreach(sql($db,'SELECT p.event_id,p.rank,e.topic,e.kind,e.starts FROM tournament_places p JOIN tournament_events e ON e.id=p.event_id WHERE p.player_id=? AND p.rank BETWEEN 1 AND 3 ORDER BY e.ends DESC LIMIT 20',[$id])->fetchAll() as $trophy) {
+            $card['badges'][]=['id'=>'tournament:'.$trophy['event_id'],'name'=>($topicNames[$trophy['topic']] ?? 'Tournament').' · #'.$trophy['rank'].' · '.gmdate('j M Y',(int)$trophy['starts']),'symbol'=>'trophy.fill','earned'=>true,'topicID'=>$trophy['topic'],'kind'=>$trophy['kind'],'rank'=>(int)$trophy['rank']];
         }
         out($card);
     }

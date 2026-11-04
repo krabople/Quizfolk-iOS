@@ -27,6 +27,11 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
     @Published var powerAllowed=true
     @Published var powerError:String?
     @Published var opponentAnswered=0
+    @Published var opponentResults:[Bool?]=[]
+    var progressResults:[Bool?] {
+        if !online || kind=="bot" || kind=="human" {return rounds.map{Optional($0.opponentPoints>0)}}
+        return opponentResults
+    }
     private var progressTask:Task<Void,Never>?
     @Published var searching=false
     @Published var searchMessage="Looking for players in this topic…"
@@ -192,7 +197,7 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
         busy=false
     }
     private func refreshProgress() async {
-        if let r:MatchProgress=try? await store.request("match-progress",body:["match":matchID]){opponentAnswered=r.opponentAnswered}
+        if let r:MatchProgress=try? await store.request("match-progress",body:["match":matchID]){opponentAnswered=r.opponentAnswered;opponentResults=r.opponentResults ?? []}
     }
     func usePower(_ choice:QuizPower) async {
         guard !reading,!revealed,!busy,!power.used,powerAllowed,remaining>0,let q=current else{return}

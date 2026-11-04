@@ -133,3 +133,20 @@ files. Do not overwrite backend/private/quizfolk.sqlite. The new tables are
 additive and created automatically. Run `python3 scripts/run_contracts.py`
 against a clean checkout for all isolated HTTP tests. A matching iOS release
 and backend deployment are both required before these features are live.
+
+## Guaranteed prizes and clearer quiz feedback (4 November 2026)
+
+Public daily podium prizes are fixed at 150 / 100 / 50 coins; weekly podiums
+award 500 / 250 / 125. They do not depend on entries. Ties share the combined
+prizes for their occupied positions; a sole entrant receives first prize.
+Closed public tournaments receive a one-time reconciliation of any unpaid
+shortfall. Existing larger awards are preserved. The migration takes a SQLite
+snapshot first, uses unique ledger references and reopens the prize notice when
+it credits a shortfall. Private friends tournaments keep their chosen free or
+paid rules.
+
+Both quiz modes show a shrinking answer-time bar immediately above the prompt,
+turning red for the last three seconds. Rival markers use actual correct/wrong
+results; asynchronous results stay neutral until both players answer that round.
+Tournament badges combine the topic icon/colour, a daily seal or weekly shield,
+and a gold/silver/bronze placing ribbon. Friends badges use a group icon.

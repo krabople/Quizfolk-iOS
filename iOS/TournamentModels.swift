@@ -17,6 +17,8 @@ struct TournamentEvent:Decodable,Identifiable {
  let activeRun:String?;let rank:Int?;let reward:Int
  var featured:Bool?=nil
  var prizePool:Int?=nil
+ var prizes:[Int]?=nil
+ var podiumPrizes:[Int] {if let prizes,prizes.count==3{return prizes};return kind=="weekly" ? [500,250,125]:[150,100,50]}
  var isFeatured:Bool {featured ?? true}
  var entryLabel:String {"\(coins) coins"}
 }

@@ -2,6 +2,16 @@ import XCTest
 import UIKit
 @testable import Quizfolk
 final class ScoringTests:XCTestCase {
+    @MainActor func testOpponentMarkersShowResultsAndKeepUnknownRoundsNeutral() {
+        XCTAssertEqual(DuelProgressView.opponentOutcome(index:0,answered:2,results:[true,false]),.correct)
+        XCTAssertEqual(DuelProgressView.opponentOutcome(index:1,answered:2,results:[true,false]),.incorrect)
+        XCTAssertEqual(DuelProgressView.opponentOutcome(index:2,answered:7,results:[true,false]),.answered)
+        XCTAssertEqual(DuelProgressView.opponentOutcome(index:2,answered:2,results:[]),.upcoming)
+        XCTAssertEqual(QuestionTimeBar.fraction(10),1)
+        XCTAssertEqual(QuestionTimeBar.fraction(3),0.3)
+        XCTAssertEqual(QuestionTimeBar.fraction(-1),0)
+        XCTAssertEqual(QuestionTimeBar.fraction(.nan),0)
+    }
     func testSpeedAndFinalRound() {
         XCTAssertEqual(Scoring.points(correct:true,elapsed:0,round:0),20)
         XCTAssertEqual(Scoring.points(correct:true,elapsed:3.7,round:0),17)

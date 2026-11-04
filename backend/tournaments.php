@@ -5,6 +5,13 @@ require_once __DIR__.'/questions.php';
 // Survival tournaments use their own runs. They can never become duel replays,
 // fabricated head-to-head wins, or an overall player level.
 function tournament_schema(PDO $db):void {
+    // Take a consistent SQLite snapshot before upgrading historical awards.
+    if(!$db->query("SELECT 1 FROM sqlite_master WHERE type='table' AND name='tournament_fixed_prizes_v1'")->fetchColumn()) {
+        $file=$db->query('PRAGMA database_list')->fetch()['file'];$backup=$file.'.before-fixed-prizes-v1.sqlite';
+        if($file && !is_file($backup) && (int)$db->query('SELECT COUNT(*) FROM players')->fetchColumn()>0) {
+            try{$db->exec('VACUUM INTO '.$db->quote($backup));}catch(PDOException $e){if(!is_file($backup))throw $e;}
+        }
+    }
     $db->exec('CREATE TABLE IF NOT EXISTS tournament_events(id TEXT PRIMARY KEY,topic TEXT NOT NULL,kind TEXT NOT NULL,starts INTEGER NOT NULL,ends INTEGER NOT NULL,coins INTEGER NOT NULL,tickets INTEGER NOT NULL,settled INTEGER NOT NULL DEFAULT 0);
       CREATE TABLE IF NOT EXISTS tournament_wallet(player_id TEXT PRIMARY KEY REFERENCES players(id) ON DELETE CASCADE,coins INTEGER NOT NULL CHECK(coins>=0),tickets INTEGER NOT NULL CHECK(tickets>=0));
       CREATE TABLE IF NOT EXISTS tournament_ledger(player_id TEXT REFERENCES players(id) ON DELETE CASCADE,reference TEXT NOT NULL,coins INTEGER NOT NULL,tickets INTEGER NOT NULL,created INTEGER NOT NULL,PRIMARY KEY(player_id,reference));
@@ -14,6 +21,7 @@ function tournament_schema(PDO $db):void {
       CREATE TABLE IF NOT EXISTS tournament_daily_schedule(day INTEGER PRIMARY KEY,event_ids TEXT NOT NULL);
       CREATE TABLE IF NOT EXISTS question_seen(player_id TEXT REFERENCES players(id) ON DELETE CASCADE,question_id TEXT NOT NULL,topic TEXT NOT NULL,PRIMARY KEY(player_id,question_id));
       CREATE TABLE IF NOT EXISTS tournament_legacy_prize_floor(event_id TEXT PRIMARY KEY REFERENCES tournament_events(id),coins INTEGER NOT NULL);');
+    $db->exec('CREATE TABLE IF NOT EXISTS tournament_fixed_prizes_v1(event_id TEXT PRIMARY KEY REFERENCES tournament_events(id),applied INTEGER NOT NULL)');
     if(!in_array('question_keys',array_column($db->query('PRAGMA table_info(tournament_runs)')->fetchAll(),'name'),true)) {
         try {$db->exec('ALTER TABLE tournament_runs ADD COLUMN question_keys TEXT NOT NULL DEFAULT "{}"');}
         catch(PDOException $e) {if(!in_array('question_keys',array_column($db->query('PRAGMA table_info(tournament_runs)')->fetchAll(),'name'),true))throw $e;}
@@ -88,6 +96,8 @@ function tournament_standings(PDO $db,string $id):array {
     }unset($r);return $rows;
 }
 function tournament_prize_pool(PDO $db,string $id):int {
+    $kind=(string)sql($db,'SELECT kind FROM tournament_events WHERE id=?',[$id])->fetchColumn();
+    if($fixed=tournament_fixed_prizes($kind))return array_sum($fixed);
     $paid=(int)sql($db,'SELECT COALESCE(SUM(-l.coins-l.tickets*25),0) FROM tournament_runs r JOIN tournament_ledger l ON l.player_id=r.player_id AND l.reference="entry:"||r.id WHERE r.event_id=?',[$id])->fetchColumn();
     $legacy=(int)sql($db,'SELECT coins FROM tournament_legacy_prize_floor WHERE event_id=?',[$id])->fetchColumn();
     return max(0,$paid,$legacy);
@@ -98,6 +108,14 @@ function tournament_prize(int $pool,array $rows,int $rank):int {
     for($slot=$rank-1;$slot<$rank-1+$tied;$slot++)$percentage+=$shares[$slot] ?? 0;
     return $tied ? (int)floor($pool*$percentage/(100*$tied)):0;
 }
+function tournament_fixed_prizes(string $kind):?array {
+    return match($kind){'daily'=>[150,100,50],'weekly'=>[500,250,125],default=>null};
+}
+function tournament_fixed_reward(array $prizes,array $rows,int $rank):int {
+    $tied=count(array_filter($rows,fn($r)=>(int)$r['rank']===$rank));$coins=0;
+    for($slot=$rank-1;$slot<$rank-1+$tied;$slot++)$coins+=$prizes[$slot] ?? 0;
+    return $tied ? intdiv($coins,$tied):0;
+}
 function tournament_settle(PDO $db):void {
     foreach(sql($db,'SELECT * FROM tournament_events WHERE settled=0 AND ends<=?',[time()])->fetchAll() as $e) {
         sql($db,'UPDATE tournament_runs SET state="closed",preview=NULL,started=NULL WHERE event_id=? AND state="playing"',[$e['id']]);
@@ -106,18 +124,37 @@ function tournament_settle(PDO $db):void {
         if($e['kind']==='party' && (int)$e['coins']===0){sql($db,'UPDATE tournament_events SET settled=1 WHERE id=?',[$e['id']]);continue;}
         $rows=tournament_standings($db,$e['id']);$pool=tournament_prize_pool($db,$e['id']);
         foreach($rows as $r) {
-            $reward=tournament_prize($pool,$rows,(int)$r['rank']);
+            $fixed=tournament_fixed_prizes($e['kind']);
+            $reward=$fixed ? tournament_fixed_reward($fixed,$rows,(int)$r['rank']):tournament_prize($pool,$rows,(int)$r['rank']);
             sql($db,'INSERT OR IGNORE INTO tournament_places VALUES(?,?,?,?,?,?)',[$e['id'],$r['player_id'],$r['rank'],(int)$r['score'],$r['streak'],$reward]);
             if($reward)tournament_credit($db,$r['player_id'],'prize:'.$e['id'],$reward,0);
         }
         sql($db,'UPDATE tournament_events SET settled=1 WHERE id=?',[$e['id']]);
+    }
+    tournament_reconcile_fixed_prizes($db);
+}
+function tournament_reconcile_fixed_prizes(PDO $db):void {
+    // Runs inside the caller's write transaction. Preserve every prior credit;
+    // add only an unpaid shortfall, once per event, including legacy zero prizes.
+    foreach(sql($db,'SELECT e.* FROM tournament_events e WHERE e.settled=1 AND e.kind IN ("daily","weekly") AND NOT EXISTS(SELECT 1 FROM tournament_fixed_prizes_v1 f WHERE f.event_id=e.id)')->fetchAll() as $e) {
+        $rows=sql($db,'SELECT * FROM tournament_places WHERE event_id=? ORDER BY rank,player_id',[$e['id']])->fetchAll();
+        foreach($rows as $r) {
+            $paid=(int)sql($db,'SELECT COALESCE(SUM(coins),0) FROM tournament_ledger WHERE player_id=? AND reference IN (?,?)',[$r['player_id'],'prize:'.$e['id'],'fixed-prizes-v1:'.$e['id']])->fetchColumn();
+            $target=max($paid,(int)$r['reward'],tournament_fixed_reward(tournament_fixed_prizes($e['kind']),$rows,(int)$r['rank']));
+            if($target>$paid) {
+                tournament_credit($db,$r['player_id'],'fixed-prizes-v1:'.$e['id'],$target-$paid,0);
+                sql($db,'DELETE FROM tournament_prize_receipts WHERE event_id=? AND player_id=?',[$e['id'],$r['player_id']]);
+            }
+            sql($db,'UPDATE tournament_places SET reward=? WHERE event_id=? AND player_id=?',[$target,$e['id'],$r['player_id']]);
+        }
+        sql($db,'INSERT OR IGNORE INTO tournament_fixed_prizes_v1 VALUES(?,?)',[$e['id'],time()]);
     }
 }
 function tournament_card(PDO $db,string $pid,array $e):array {
     $best=sql($db,'SELECT MAX(score) score,MAX(streak) streak,COUNT(*) attempts FROM tournament_runs WHERE event_id=? AND player_id=?',[$e['id'],$pid])->fetch();
     $active=sql($db,'SELECT id FROM tournament_runs WHERE event_id=? AND player_id=? AND state="playing" ORDER BY created DESC LIMIT 1',[$e['id'],$pid])->fetchColumn();
     $place=sql($db,'SELECT rank,reward FROM tournament_places WHERE event_id=? AND player_id=?',[$e['id'],$pid])->fetch();
-    return ['id'=>$e['id'],'topicID'=>$e['topic'],'kind'=>$e['kind'],'starts'=>(int)$e['starts'],'ends'=>(int)$e['ends'],'coins'=>(int)$e['coins'],'tickets'=>0,'closed'=>(bool)$e['settled'],'featured'=>tournament_featured($db,$e),'prizePool'=>tournament_prize_pool($db,$e['id']),'best'=>(int)$best['score'],'streak'=>(int)$best['streak'],'attempts'=>(int)$best['attempts'],'players'=>(int)sql($db,'SELECT COUNT(DISTINCT player_id) FROM tournament_runs WHERE event_id=?',[$e['id']])->fetchColumn(),'activeRun'=>$active ?: null,'rank'=>$place ? (int)$place['rank']:null,'reward'=>$place ? (int)$place['reward']:0];
+    return ['prizes'=>tournament_fixed_prizes($e['kind']),'prizePolicy'=>tournament_fixed_prizes($e['kind'])?'fixed':'entryPool','id'=>$e['id'],'topicID'=>$e['topic'],'kind'=>$e['kind'],'starts'=>(int)$e['starts'],'ends'=>(int)$e['ends'],'coins'=>(int)$e['coins'],'tickets'=>0,'closed'=>(bool)$e['settled'],'featured'=>tournament_featured($db,$e),'prizePool'=>tournament_prize_pool($db,$e['id']),'best'=>(int)$best['score'],'streak'=>(int)$best['streak'],'attempts'=>(int)$best['attempts'],'players'=>(int)sql($db,'SELECT COUNT(DISTINCT player_id) FROM tournament_runs WHERE event_id=?',[$e['id']])->fetchColumn(),'activeRun'=>$active ?: null,'rank'=>$place ? (int)$place['rank']:null,'reward'=>$place ? (int)$place['reward']:0];
 }
 function tournament_question(PDO $db,array &$r,?PDO $qdb=null):?array {
     $deck=json_decode($r['deck'],true);$turn=(int)$r['turn'];$oldID=$deck[$turn] ?? null;

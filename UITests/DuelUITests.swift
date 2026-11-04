@@ -25,7 +25,7 @@ final class DuelUITests:XCTestCase {
                 XCTAssertGreaterThan(app.buttons["answer-2"].frame.minY,app.buttons["answer-0"].frame.minY)
                 XCTAssertTrue(app.descendants(matching:.any).matching(identifier:"duelProgress").firstMatch.exists)
             }
-            if i==0 {XCTAssertTrue(app.otherElements["roundTimer"].exists);capture("Question")}
+            if i==0 {XCTAssertTrue(app.otherElements["roundTimer"].exists);XCTAssertTrue(app.descendants(matching:.any).matching(identifier:"answerTimeBar").firstMatch.exists);capture("Question")}
             if option.isEnabled {option.tap()}
             let next=app.buttons["advanceQuestion"]
             if !next.isHittable {app.swipeUp()}
@@ -33,6 +33,8 @@ final class DuelUITests:XCTestCase {
             if i==0 {
                 let marker=app.descendants(matching:.any).matching(identifier:"roundMarker-0").firstMatch
                 XCTAssertTrue(marker.label.contains(": correct") || marker.label.contains(": incorrect"))
+                let rival=app.descendants(matching:.any).matching(identifier:"opponentRoundMarker-0").firstMatch
+                XCTAssertTrue(rival.label.contains(": correct") || rival.label.contains(": incorrect"))
                 capture("AnswerReview")
             }
             next.tap()
@@ -119,6 +121,10 @@ final class DuelUITests:XCTestCase {
         let event=app.descendants(matching:.any).matching(identifier:"tournament-test-event").firstMatch
         XCTAssertTrue(event.waitForExistence(timeout:5));capture("Tournaments");event.tap()
         XCTAssertTrue(app.buttons["enterTournament"].waitForExistence(timeout:5))
+        XCTAssertTrue(app.staticTexts["Guaranteed podium prizes"].exists)
+        XCTAssertTrue(app.staticTexts["150 coins"].exists)
+        XCTAssertTrue(app.staticTexts["100 coins"].exists)
+        XCTAssertTrue(app.staticTexts["50 coins"].exists)
         XCTAssertTrue(app.descendants(matching:.any).matching(identifier:"tournamentRules").firstMatch.exists)
         capture("TournamentRules")
     }
@@ -151,7 +157,7 @@ final class DuelUITests:XCTestCase {
         let app=launchWithPrize()
         XCTAssertTrue(app.staticTexts["Congratulations!"].waitForExistence(timeout:8))
         XCTAssertTrue(app.staticTexts["You finished in 1st place"].exists)
-        XCTAssertTrue(app.staticTexts["+75 coins"].exists);capture("TournamentCongratulations")
+        XCTAssertTrue(app.staticTexts["Prize: 150 coins"].exists);capture("TournamentCongratulations")
         app.buttons["Continue"].tap()
         XCTAssertTrue(app.tabBars.buttons["You"].waitForExistence(timeout:5))
         app.tabBars.buttons["You"].tap()
@@ -161,6 +167,16 @@ final class DuelUITests:XCTestCase {
         XCTAssertFalse(app.staticTexts["Congratulations!"].exists,"Acknowledged prizes must not reopen after returning to the app")
         app.buttons["Tournament badges"].tap()
         XCTAssertTrue(app.buttons.matching(NSPredicate(format:"label CONTAINS 'Geography · 1st place'")).firstMatch.waitForExistence(timeout:5))
+    }
+    @MainActor func testTournamentBadgesShowTopicAndEvent() {
+        let app=XCUIApplication();app.launchArguments=["--ui-testing"];app.launch()
+        if app.buttons["Done"].waitForExistence(timeout:3){app.buttons["Done"].tap()}
+        app.tabBars.buttons["You"].tap();app.buttons["Tournament badges"].tap()
+        let daily=app.buttons["earnedBadge-test-prize"],weekly=app.buttons["earnedBadge-test-weekly"],friends=app.buttons["earnedBadge-test-friends"]
+        XCTAssertTrue(daily.waitForExistence(timeout:8));XCTAssertTrue(daily.label.contains("Geography"))
+        XCTAssertTrue(weekly.exists);XCTAssertTrue(weekly.label.contains("Weekly tournament"))
+        XCTAssertTrue(friends.exists);XCTAssertTrue(friends.label.contains("Friends tournament"))
+        capture("DistinctTournamentBadges")
     }
     @MainActor func testWearTournamentBadgeAndRemoveIt() {
         let app=launchWithPrize()

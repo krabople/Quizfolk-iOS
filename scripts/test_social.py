@@ -43,6 +43,7 @@ def finish(token,match,correct):
   result=req('answer',{'match':match['id'],'round':i,'answer':choice},token);total+=result['points']
  return total,questions,result
 score,packet,result=finish(a,m,True);assert result['pending'] is True
+assert req('match-progress',{'match':m['id']},a)['opponentResults']==[None]*7
 assert req('profile',token=a)['xp']==0
 assert req('player&id='+bid,token=a)['headToHead']['games']==0
 inbox=req('duels',token=b)['duels'][0];assert inbox['incoming'] and inbox['opponentFinished'] and inbox['opponentScore'] is None
@@ -50,7 +51,10 @@ inbox=req('duels',token=b)['duels'][0];assert inbox['incoming'] and inbox['oppon
 with sqlite3.connect(STATE) as db:db.execute('UPDATE matches SET created=? WHERE id=?',(int(time.time())-90000,m['id']))
 bm=req('duel-open',{'duel':m['duelID']},b);assert bm['id']!=m['id'] and bm['played']==[]
 assert req('duel-open',{'duel':m['duelID']},b)['id']==bm['id']
+assert req('match-progress',{'match':bm['id']},b)['opponentResults']==[None]*7
 other,packet2,result=finish(b,bm,False);assert packet2==packet and result['pending'] is False and result['opponentScore']==score
+assert req('match-progress',{'match':bm['id']},b)['opponentResults']==[True]*7
+assert req('match-progress',{'match':m['id']},a)['opponentResults']==[False]*7
 assert req('profile',token=a)['xp']==score+140 and req('profile',token=b)['xp']==40
 ha=req('player&id='+bid,token=a)['headToHead'];hb=req('player&id='+aid,token=b)['headToHead'];assert ha=={'games':1,'wins':1,'draws':0,'losses':0} and hb['losses']==1
 req('answer',{'match':bm['id'],'round':6,'answer':-1},b)

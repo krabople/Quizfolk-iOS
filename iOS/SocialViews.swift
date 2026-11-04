@@ -114,7 +114,10 @@ struct PublicPlayerView:View {
   }.padding(18).frame(maxWidth:.infinity,alignment:.leading).background(.white,in:RoundedRectangle(cornerRadius:18))
  }
  private func badgeSection(_ badges:[PlayerBadge])->some View {
-  VStack(alignment:.leading,spacing:15){Text("Achievements").font(.title3.bold());ForEach(badges){b in HStack(spacing:13){Image(systemName:b.symbol).foregroundStyle(b.earned ? Color(hex:"D49A31"):.gray).frame(width:28);Text(b.name).font(.subheadline);Spacer();Text(b.earned ? "Earned":"Locked").font(.caption).foregroundStyle(.secondary)}}}.padding(18).background(.white,in:RoundedRectangle(cornerRadius:18))
+  VStack(alignment:.leading,spacing:15){Text("Achievements").font(.title3.bold());ForEach(badges){b in HStack(spacing:13){
+   if let topicID=b.topicID,let rank=b.rank {TournamentBadgeEmblem(topicID:topicID,kind:b.kind ?? "daily",rank:rank,size:44)}
+   else {Image(systemName:b.symbol).font(.system(size:21,weight:.semibold)).foregroundStyle(b.earned ? Color.coral:.gray).frame(width:44,height:44).background((b.earned ? Color.coral:Color.gray).opacity(0.12),in:RoundedRectangle(cornerRadius:12))}
+   Text(b.name).font(.subheadline);Spacer();Text(b.earned ? "Earned":"Locked").font(.caption).foregroundStyle(.secondary)}}}.padding(18).background(.white,in:RoundedRectangle(cornerRadius:18))
  }
  private func reload()async {do{card=try await store.playerCard(playerID);error=nil;if playerID==store.profile?.id{store.ownCard=card}}catch{card=nil;self.error=error.localizedDescription}}
  private func toggleFollow(_ c:PlayerCard)async {do{try await store.followPlayer(c.id,enabled:!c.following);await reload()}catch{self.error=error.localizedDescription}}

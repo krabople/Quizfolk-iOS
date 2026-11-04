@@ -28,6 +28,8 @@ req('update-profile',{'name':'Updated tester A'},a)
 assert req('profile',token=a)['name']=='Updated tester A'
 m=req('match',{'topic':'22'},a,201)
 assert m['kind']=='bot'
+progress=req('match-progress',{'match':m['id']},a)
+assert progress['opponentAnswered']==0 and progress['opponentResults']==[None]*7
 with sqlite3.connect(STATE) as db:assert db.execute('SELECT started FROM matches WHERE id=?',(m['id'],)).fetchone()[0] is None
 req('update-avatar',{'avatar':'not-image-data'},a,400)
 picture=base64.b64encode((ROOT/'scripts/test-avatar.jpg').read_bytes()).decode()
@@ -47,10 +49,14 @@ for i in range(7):
  assert result['points']==(0 if i==1 else (40 if i==6 else 20)),result
  repeat=req('answer',{'match':m['id'],'round':i,'answer':-1},a)
  assert repeat==result
+ progress=req('match-progress',{'match':m['id']},a)
+ assert progress['opponentAnswered']==i+1 and progress['opponentResults'][i]==(result['opponentPoints']>0)
+ assert progress['opponentResults'][i+1:]==[None]*(6-i)
  total+=result['points']
 p=req('profile',token=a);assert p['matches']==1 and p['xp']==total+40+(100 if total>result['opponentScore'] else (50 if total==result['opponentScore'] else 0)) and p['correct']==6
 req('round',{'match':m['id']},a,409)
 ghost=req('match',{'topic':'22'},b,201);assert ghost['kind']=='human' and ghost['opponentAvatar'] is not None
+assert req('match-progress',{'match':ghost['id']},b)['opponentResults']==[None]*7
 for i in range(7):
  r=req('round',{'match':ghost['id']},b);assert r['question']==first[i]
  req('answer',{'match':ghost['id'],'round':i,'answer':-1},b)

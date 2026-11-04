@@ -43,7 +43,7 @@ try {
     if(!is_array($body)) fail('Expected a JSON object');
     $readRoutes=['health','categories','profile','leaderboard','people','player','duels','activity','tournaments','tournament-board','coins','prizes','parties','party-board'];
     if(!in_array($route,$readRoutes,true) && $method!=='POST') fail('Use POST',405);
-    if($route==='health') out(['ok'=>true,'version'=>'0.3.0']);
+    if($route==='health') out(['ok'=>true,'version'=>'0.3.1']);
     if($route==='categories') out(['categories'=>play_topics()]);
     $ipHash=hash('sha256',(string)($_SERVER['REMOTE_ADDR'] ?? 'unknown'));
     $bucket=($route==='register' ? 'register:':'request:').$ipHash;
@@ -138,8 +138,11 @@ try {
         }
         if($route==='match-progress') {
             $other=$m['duel_id'] ? sql($db,'SELECT answers FROM matches WHERE duel_id=? AND player_id<>?',[$m['duel_id'],$pid])->fetch():false;
-            $count=$other?count(json_decode($other['answers'],true)):($m['kind']==='human'?7:$round);
-            $db->exec('COMMIT');out(['ownAnswered'=>$round,'opponentAnswered'=>$count]);
+            $count=$m['duel_id'] ? ($other?count(json_decode($other['answers'],true)):0):($m['kind']==='human'?7:$round);
+            $otherAnswers=$other?json_decode($other['answers'],true):[];$results=[];
+            // Reveal correctness only for rounds both players have answered.
+            for($i=0;$i<7;$i++)$results[]=$i<min($round,$count) ? (int)($other ? $otherAnswers[$i]['points']:$op[$i])>0:null;
+            $db->exec('COMMIT');out(['ownAnswered'=>$round,'opponentAnswered'=>$count,'opponentResults'=>$results]);
         }
         if($round>=7) fail('Match is complete',409);
         $q=$packet[$round];$context='match:'.$id;

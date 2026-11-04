@@ -8,7 +8,24 @@ struct PowerState:Decodable {
  func nextQuestion()->PowerState {PowerState(used:used)}
 }
 struct PowerReply:Decodable {let power:PowerState;let remaining:Double;let coins:Int}
-struct MatchProgress:Decodable {let ownAnswered:Int;let opponentAnswered:Int}
+struct MatchProgress:Decodable {let ownAnswered:Int;let opponentAnswered:Int;var opponentResults:[Bool?]?=nil}
+
+struct QuestionTimeBar:View {
+ @Environment(\.accessibilityReduceMotion) private var reduceMotion
+ let remaining:Double;let reading:Bool
+ static func fraction(_ seconds:Double)->Double {seconds.isFinite ? max(0,min(1,seconds/10)):0}
+ var body:some View {
+  GeometryReader {g in
+   ZStack(alignment:.leading) {
+    Capsule().fill(.white.opacity(0.18))
+    Capsule().fill(reading ? Color.white.opacity(0.4):(remaining<=3 ? Color.coral:(remaining<=5 ? Color(hex:"FFD494"):Color(hex:"64D9B0"))))
+     .frame(width:g.size.width*CGFloat(reading ? 1:Self.fraction(remaining)))
+   }
+  }.frame(height:9).animation(reduceMotion ? nil:.linear(duration:0.05),value:remaining)
+   .accessibilityElement(children:.ignore).accessibilityLabel(reading ? "Reading time; answer clock has not started":"Answer time remaining")
+   .accessibilityValue(reading ? "3-second preview":String(format:"%.1f seconds",remaining)).accessibilityIdentifier("answerTimeBar")
+ }
+}
 enum QuizPower:String,CaseIterable {
  case fifty,double,right
  var title:String {switch self{case .fifty:return "Fifty Fifty";case .double:return "Double Choice";case .right:return "Right Answer"}}
@@ -44,6 +61,12 @@ struct QuizAnswerTile:View {
 }
 struct DuelProgressView:View {
  let ownName:String;let opponent:String;let rounds:[PlayedRound];let opponentAnswered:Int;let recorded:Bool
+ var opponentResults:[Bool?]=[]
+ enum Outcome:String {case correct,incorrect,answered,upcoming}
+ static func opponentOutcome(index:Int,answered:Int,results:[Bool?])->Outcome {
+  if index<results.count,let right=results[index] {return right ? .correct:.incorrect}
+  return index<answered ? .answered:.upcoming
+ }
  var body:some View {
   VStack(spacing:5) {
    lane(ownName,count:rounds.count,own:true)
@@ -52,8 +75,12 @@ struct DuelProgressView:View {
  }
  private func lane(_ name:String,count:Int,own:Bool)->some View {
   HStack(spacing:6){Text(name).font(.system(size:9,weight:.bold)).lineLimit(1).frame(width:95,alignment:.leading);ForEach(0..<7){i in
-   Capsule().fill(own && i<rounds.count ? (rounds[i].points>0 ? Color.green:Color.coral):(i<count ? Color(hex:"FFD494"):.white.opacity(0.15))).frame(height:7)
-    .accessibilityElement().accessibilityLabel("Round \(i+1): \(own && i<rounds.count ? (rounds[i].points>0 ? "correct":"incorrect"):(i<count ? "answered":"upcoming"))")
+   let state=own ? (i<rounds.count ? (rounds[i].points>0 ? Outcome.correct:.incorrect):.upcoming):Self.opponentOutcome(index:i,answered:count,results:opponentResults)
+   ZStack {
+    Capsule().fill(state == .correct ? Color.green:(state == .incorrect ? Color.coral:.white.opacity(state == .answered ? 0.35:0.15)))
+    if state == .correct || state == .incorrect {Image(systemName:state == .correct ? "checkmark":"xmark").font(.system(size:6,weight:.black))}
+   }.frame(height:10)
+    .accessibilityElement(children:.ignore).accessibilityLabel("Round \(i+1): \(state == .answered ? "answered; result pending":state.rawValue)")
     .accessibilityIdentifier("\(own ? "roundMarker":"opponentRoundMarker")-\(i)")
   };Text("\(min(7,count))/7").font(.system(size:9,weight:.bold)).monospacedDigit()}.accessibilityElement(children:.contain).accessibilityLabel("\(name), \(count) of seven questions answered. Saved progress.")
  }

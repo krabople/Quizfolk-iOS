@@ -3,7 +3,7 @@ import Foundation
 struct PlayerStats:Decodable {let matches:Int;let wins:Int;let draws:Int;let xp:Int;let correct:Int;let answered:Int;let perfect:Int}
 struct TopicProgress:Decodable,Identifiable {var id:String{topicID};let topicID:String;let xp:Int;let level:Int;let matches:Int;let wins:Int}
 struct EarnedTitle:Decodable,Identifiable {let id:String;let name:String}
-struct PlayerBadge:Decodable,Identifiable {let id:String;let name:String;let symbol:String;let earned:Bool}
+struct PlayerBadge:Decodable,Identifiable {let id:String;let name:String;let symbol:String;let earned:Bool;var topicID:String?=nil;var kind:String?=nil;var rank:Int?=nil}
 struct HeadToHead:Decodable {let games:Int;let wins:Int;let draws:Int;let losses:Int}
 struct PlayerCard:Decodable,Identifiable {
  let id:String;let name:String;let avatar:String?;let title:String;let interests:[String];let sharedTopics:[String]

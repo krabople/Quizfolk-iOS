@@ -9,6 +9,8 @@ struct TournamentPrize:Decodable,Identifiable,Equatable {
     let date:Double
     let score:Int
     var eventName:String?=nil
+    var adjustmentCoins:Int?=nil
+    var isPrizeIncrease:Bool {(adjustmentCoins ?? 0)>0 && (adjustmentCoins ?? 0)<coins}
     var placing:String {rank == 1 ? "1st place" : (rank == 2 ? "2nd place" : "3rd place")}
     var colour:Color {Color(hex:rank == 1 ? "C8952C" : (rank == 2 ? "7C8DA3" : "B66F47"))}
 }
@@ -31,11 +33,11 @@ extension QuizStore {
         return false
         #endif
     }
-    static var testPrize:TournamentPrize {TournamentPrize(id:"test-prize",topicID:"22",kind:"daily",rank:1,coins:75,date:1_793_145_600,score:120)}
+    static var testPrize:TournamentPrize {TournamentPrize(id:"test-prize",topicID:"22",kind:"daily",rank:1,coins:150,date:1_793_145_600,score:120)}
     func loadPrizes() async {
         guard profile != nil,!prizesLoading else{return}
         if usesCoinFixtures {
-            earnedPrizes=[Self.testPrize]
+            earnedPrizes=[Self.testPrize,TournamentPrize(id:"test-weekly",topicID:"17",kind:"weekly",rank:2,coins:250,date:1_793_145_600,score:110),TournamentPrize(id:"test-friends",topicID:"11",kind:"party",rank:3,coins:20,date:1_793_145_600,score:10)]
             if ProcessInfo.processInfo.arguments.contains("--prize-popup"),!testPrizeAcknowledged {
                 pendingPrizes=[Self.testPrize]
             }
@@ -67,12 +69,26 @@ extension QuizStore {
 struct TournamentMedal:View {
     let prize:TournamentPrize
     var size:CGFloat=36
+    var body:some View {TournamentBadgeEmblem(topicID:prize.topicID,kind:prize.kind,rank:prize.rank,size:size)}
+}
+struct TournamentBadgeEmblem:View {
+    @EnvironmentObject private var store:QuizStore
+    let topicID:String;let kind:String;let rank:Int
+    var size:CGFloat=36
+    private var topic:Topic? {store.topics.first{$0.id==topicID}}
+    private var metal:Color {Color(hex:rank==1 ? "C8952C":(rank==2 ? "7C8DA3":"B66F47"))}
     var body:some View {
         ZStack {
-            Circle().fill(prize.colour)
-            Circle().stroke(.white,lineWidth:2)
-            Text("\(prize.rank)").font(.system(size:size*0.5,weight:.black,design:.rounded)).foregroundStyle(.white)
-        }.frame(width:size,height:size).accessibilityLabel("Tournament badge: \(prize.placing)")
+            Image(systemName:kind=="weekly" ? "shield.fill":(kind=="party" ? "hexagon.fill":"seal.fill"))
+                .resizable().scaledToFit().foregroundStyle(metal)
+            Circle().fill(topic?.tint ?? .ink).frame(width:size*0.72,height:size*0.72)
+            Image(systemName:kind=="party" ? "person.3.fill":(topic?.symbol ?? "trophy.fill")).font(.system(size:size*0.34,weight:.bold)).foregroundStyle(.white).offset(y:-size*0.05)
+            HStack(spacing:1){Image(systemName:"trophy.fill");Text("\(rank)").fontWeight(.black)}
+                .font(.system(size:max(6,size*0.18),weight:.bold)).foregroundStyle(.white)
+                .padding(.horizontal,size*0.09).padding(.vertical,size*0.035).background(metal,in:Capsule()).offset(y:size*0.32)
+        }.frame(width:size,height:size).accessibilityElement(children:.ignore)
+            .accessibilityLabel("\(topic?.name ?? "Mixed topics"), \(kind=="party" ? "friends":kind) tournament, place \(rank) badge")
+            .accessibilityIdentifier("badge-\(topicID)-\(kind)-\(rank)")
     }
 }
 
@@ -93,8 +109,9 @@ struct TournamentPrizePopup:View {
                 Text("You finished in \(prize.placing)").font(.title3.bold())
                 Text("\(topicName) · \(prize.kind=="party" ? "Friends":prize.kind.capitalized) tournament").multilineTextAlignment(.center)
                 Text(Date(timeIntervalSince1970:prize.date),style:.date).font(.caption).foregroundStyle(.secondary)
-                Text("+\(prize.coins) coins").font(.system(size:36,weight:.black,design:.rounded)).foregroundStyle(prize.colour)
-                Text("Your coins are in your balance. Your tournament badge is yours to keep.").font(.subheadline).multilineTextAlignment(.center).foregroundStyle(.secondary)
+                Text("\(prize.isPrizeIncrease ? "Prize increased to":"Prize:") \(prize.coins) coins").font(.system(size:30,weight:.black,design:.rounded)).foregroundStyle(prize.colour)
+                if prize.isPrizeIncrease {Text("An extra \(prize.adjustmentCoins ?? 0) coins have been credited automatically.").font(.subheadline.bold()).multilineTextAlignment(.center)}
+                Text("Awarded automatically to your wallet. Your tournament badge is yours to keep.").font(.subheadline).multilineTextAlignment(.center).foregroundStyle(.secondary)
                 Button("Wear this badge"){finish(wear:true)}.buttonStyle(PrimaryButton()).disabled(busy)
                 Button("Continue"){finish(wear:false)}.disabled(busy)
                 if busy {ProgressView()}
@@ -175,8 +192,8 @@ struct TournamentBadgePicker:View {
                 Button("No tournament badge"){choose(nil)}.disabled(busy)
                 ForEach(store.earnedPrizes){prize in
                     Button {choose(prize)} label: {
-                        HStack(spacing:14){TournamentMedal(prize:prize);VStack(alignment:.leading,spacing:4){Text("\(store.topics.first{$0.id==prize.topicID}?.name ?? "Trivia") · \(prize.placing)");Text(Date(timeIntervalSince1970:prize.date),style:.date).font(.caption).foregroundStyle(.secondary)};Spacer();if store.ownCard?.displayBadge?.id==prize.id {Image(systemName:"checkmark")}}
-                    }.disabled(busy)
+                        HStack(spacing:14){TournamentMedal(prize:prize,size:46);VStack(alignment:.leading,spacing:4){Text("\(store.topics.first{$0.id==prize.topicID}?.name ?? "Trivia") · \(prize.placing)");Text("\(prize.kind=="party" ? "Friends":prize.kind.capitalized) tournament").font(.caption.bold());Text(Date(timeIntervalSince1970:prize.date),style:.date).font(.caption).foregroundStyle(.secondary)};Spacer();if store.ownCard?.displayBadge?.id==prize.id {Image(systemName:"checkmark")}}
+                    }.disabled(busy).accessibilityIdentifier("earnedBadge-\(prize.id)")
                 }
                 if store.earnedPrizes.isEmpty {Text("Finish in the top three of a tournament to earn your first badge.").foregroundStyle(.secondary)}
             }

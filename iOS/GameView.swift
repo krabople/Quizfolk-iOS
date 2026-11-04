@@ -55,9 +55,10 @@ struct GameView:View {
   GeometryReader {geometry in
    VStack(spacing:game.revealed ? 5:7) {
     HStack {player(store.name,avatar:store.avatar,score:game.score,bot:false);Text("VS").font(.system(size:12,weight:.black)).opacity(0.6);player(game.opponent,avatar:game.opponentAvatar,score:game.duelID != nil && game.awaitingOpponent ? nil:game.opponentScore,bot:!game.isHuman)}.frame(height:game.revealed ? 42:48)
-    DuelProgressView(ownName:store.name,opponent:game.opponent,rounds:game.rounds,opponentAnswered:game.opponentAnswered,recorded:game.kind=="human")
+    DuelProgressView(ownName:store.name,opponent:game.opponent,rounds:game.rounds,opponentAnswered:game.opponentAnswered,recorded:game.kind=="human",opponentResults:game.progressResults)
     HStack {VStack(alignment:.leading,spacing:5){Text(game.round==6 ? "FINAL ROUND":"ROUND \(game.round+1) OF 7").font(.system(size:12,weight:.black)).tracking(1);Text(game.round==6 ? "DOUBLE POINTS":"FASTER = MORE POINTS").font(.system(size:9,weight:.bold)).foregroundStyle(Color(hex:"FFD494"))};Spacer();if game.reading {Image(systemName:"book.fill").font(.system(size:35)).foregroundStyle(Color(hex:"FFD494")).frame(width:74,height:74)}else{timer}}.frame(height:game.revealed ? 50:60)
     if let q=game.current {
+     QuestionTimeBar(remaining:game.remaining,reading:game.reading)
      Text(q.prompt).font(.system(size:25,weight:.bold,design:.rounded)).multilineTextAlignment(.center).lineLimit(7).minimumScaleFactor(0.6).frame(maxWidth:.infinity,maxHeight:.infinity).layoutPriority(1)
      if game.reading {Text("Read the question · 3 seconds").font(.subheadline.bold()).multilineTextAlignment(.center).accessibilityIdentifier("readingPhase").transition(.opacity)}
      LazyVGrid(columns:[GridItem(.flexible(),spacing:9),GridItem(.flexible(),spacing:9)],spacing:9){if !game.reading {ForEach(q.answers.indices,id:\.self){i in answer(q,index:i).frame(height:max(80,(geometry.size.height*(game.revealed ? 0.32:0.38)-9)/2))}}}

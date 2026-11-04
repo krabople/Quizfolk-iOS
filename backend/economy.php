@@ -47,17 +47,17 @@ function coin_trail_progress(PDO $db,string $pid):array {
 }
 
 function prize_card(array $row):array {
-    return ['eventName'=>$row['event_name'] ?? null,'id'=>$row['event_id'],'topicID'=>$row['topic'],'kind'=>$row['kind'],'rank'=>(int)$row['rank'],'coins'=>(int)$row['reward'],'date'=>(int)$row['ends'],'score'=>(int)$row['score']];
+    return ['adjustmentCoins'=>(int)($row['adjustment_coins'] ?? 0),'eventName'=>$row['event_name'] ?? null,'id'=>$row['event_id'],'topicID'=>$row['topic'],'kind'=>$row['kind'],'rank'=>(int)$row['rank'],'coins'=>(int)$row['reward'],'date'=>(int)$row['ends'],'score'=>(int)$row['score']];
 }
 function earned_prizes(PDO $db,string $pid,bool $unseen=false):array {
     $where=$unseen?' AND NOT EXISTS(SELECT 1 FROM tournament_prize_receipts r WHERE r.player_id=p.player_id AND r.event_id=p.event_id)':'';
-    $rows=sql($db,'SELECT p.*,e.topic,e.kind,e.ends,(SELECT name FROM parties WHERE id=e.id) event_name FROM tournament_places p JOIN tournament_events e ON e.id=p.event_id WHERE p.player_id=? AND p.rank BETWEEN 1 AND 3'.$where.' ORDER BY e.ends DESC,p.rank LIMIT 100',[$pid])->fetchAll();
+    $rows=sql($db,'SELECT p.*,e.topic,e.kind,e.ends,(SELECT COALESCE(SUM(l.coins),0) FROM tournament_ledger l WHERE l.player_id=p.player_id AND l.reference="fixed-prizes-v1:"||p.event_id) adjustment_coins,(SELECT name FROM parties WHERE id=e.id) event_name FROM tournament_places p JOIN tournament_events e ON e.id=p.event_id WHERE p.player_id=? AND p.rank BETWEEN 1 AND 3'.$where.' ORDER BY e.ends DESC,p.rank LIMIT 100',[$pid])->fetchAll();
     return array_map('prize_card',$rows);
 }
 function display_badge(PDO $db,string $pid):?array {
     $selection=sql($db,'SELECT event_id FROM player_display_badge WHERE player_id=?',[$pid])->fetch();
     if($selection && !$selection['event_id'])return null;
-    $query='SELECT p.*,e.topic,e.kind,e.ends,(SELECT name FROM parties WHERE id=e.id) event_name FROM tournament_places p JOIN tournament_events e ON e.id=p.event_id WHERE p.player_id=? AND p.rank BETWEEN 1 AND 3';$args=[$pid];
+    $query='SELECT p.*,e.topic,e.kind,e.ends,(SELECT COALESCE(SUM(l.coins),0) FROM tournament_ledger l WHERE l.player_id=p.player_id AND l.reference="fixed-prizes-v1:"||p.event_id) adjustment_coins,(SELECT name FROM parties WHERE id=e.id) event_name FROM tournament_places p JOIN tournament_events e ON e.id=p.event_id WHERE p.player_id=? AND p.rank BETWEEN 1 AND 3';$args=[$pid];
     if($selection){$query.=' AND p.event_id=?';$args[]=$selection['event_id'];}
     $row=sql($db,$query.' ORDER BY p.rank,e.ends DESC LIMIT 1',$args)->fetch();
     return $row?prize_card($row):null;

@@ -31,8 +31,8 @@ check(count($featured)===3,'An old six-event day must feature exactly three');
 check(count(array_filter($cards,fn($e)=>!$e['featured'] && $e['activeRun']!==null && $e['attempts']===1))>=3,'Earlier active entries must remain resumable');
 check(tournament_wallet($db,'alice')===$wallet,'Migration changed credits');
 check($db->query('SELECT * FROM tournament_runs ORDER BY id')->fetchAll()===$runs,'Migration changed paid runs');
-check(tournament_prize_pool($db,'legacy-0')===25,'An already-entered legacy free event lost its minimum prize');
-check(tournament_prize_pool($db,'legacy-2')===25,'Historical ticket entry was not included in the coin pool');
+check(tournament_prize_pool($db,'legacy-0')===300,'Daily prizes must be guaranteed independently of entries');
+check(tournament_prize_pool($db,'legacy-2')===300,'Legacy daily events must show the fixed prize schedule');
 $schedule=$db->query('SELECT event_ids FROM tournament_daily_schedule')->fetchColumn();
 // More play in an earlier event cannot replace today's visible topics.
 sql($db,'INSERT INTO tournament_runs(id,event_id,player_id,request_key,deck,created) VALUES("later","legacy-4","alice","later-request","[]",?)',[time()]);
@@ -47,4 +47,11 @@ foreach([
     check($rewards===$expected,'Podium/tie prize split is incorrect');
     check(array_sum($rewards)<=$pool,'Prizes exceed the actual pool');
 }
-echo "PASS: three paid daily events, stable selection, ticket conversion, idempotent migration, paid runs preserved, legacy minimum prize, bounded podium and tie rewards\n";
+foreach([
+ ['daily',[1],[150]],['daily',[1,2,3],[150,100,50]],['weekly',[1,2,3],[500,250,125]],
+ ['daily',[1,1,3],[125,125,50]],['weekly',[1,2,2],[500,187,187]]
+] as [$kind,$ranks,$expected]) {
+ $rows=array_map(fn($rank)=>['rank'=>$rank],$ranks);
+ check(array_map(fn($rank)=>tournament_fixed_reward(tournament_fixed_prizes($kind),$rows,$rank),$ranks)===$expected,'Fixed podium/tie awards changed');
+}
+echo "PASS: stable three-event schedule, fixed daily/weekly podiums, ties, legacy upgrade, private prize-pool rules and preserved paid runs\n";

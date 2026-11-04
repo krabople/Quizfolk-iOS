@@ -22,6 +22,7 @@ assert listing['wallet']=={'coins':100,'tickets':0,'dailyClaimed':False}
 assert sorted(e['coins'] for e in listing['events'] if e['kind']=='daily')==[25,50,75]
 assert all(e['coins']==100 for e in listing['events'] if e['kind']=='weekly')
 assert all(e['tickets']==0 for e in listing['events'])
+assert all(e['prizes']==([150,100,50] if e['kind']=='daily' else [500,250,125]) and e['prizePool']==(300 if e['kind']=='daily' else 875) and e['prizePolicy']=='fixed' for e in listing['events'])
 assert 'Daily Trail' in req('tournament-daily',{},a,409)['error']
 assert req('tournaments',token=a)['wallet']==listing['wallet']
 event=next(e for e in listing['events'] if e['coins']==25)
@@ -85,10 +86,10 @@ assert req('profile',token=a)['xp']==0
 assert req('player&id='+bid,token=a)['headToHead']['games']==0
 with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_events SET ends=? WHERE id=?',(time.time()-1,event['id']))
 board=req('tournament-board&event='+event['id'],token=a)
-assert board['event']['closed'] and board['event']['reward']==45 and board['wallet']['coins']==95
-assert board['event']['prizePool']==75
-assert req('tournament-board&event='+event['id'],token=a)['wallet']['coins']==95
-assert req('tournament-board&event='+event['id'],token=b)['event']['reward']==30
+assert board['event']['closed'] and board['event']['reward']==150 and board['wallet']['coins']==200
+assert board['event']['prizePool']==300
+assert req('tournament-board&event='+event['id'],token=a)['wallet']['coins']==200
+assert req('tournament-board&event='+event['id'],token=b)['event']['reward']==100
 trophies=[x for x in req('player',token=a)['badges'] if x['id'].startswith('tournament:')]
 assert trophies and trophies[0]['earned'] and '#1' in trophies[0]['name']
 req('tournament-enter',{'event':event['id'],'requestID':str(uuid.uuid4())},a,410)
@@ -118,20 +119,50 @@ for token in [a,b]:
  assert req('tournament-end',{'run':r['id']},token)==ended
 with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_events SET ends=? WHERE id=?',(time.time()-1,second['id']))
 rows=req('tournament-board&event='+second['id'],token=a)['entries']
-assert len(rows)==2 and all(r['rank']==1 and r['reward']==50 for r in rows)
-# A sole entrant still receives first place and the actual entry pool once.
+assert len(rows)==2 and all(r['rank']==1 and r['reward']==125 for r in rows)
+# A sole entrant receives the guaranteed first prize, independently of entry fees.
 sparse=next(e for e in listing['events'] if e['coins']==75)
 before=req('tournaments',token=a)['wallet']['coins']
 r=req('tournament-enter',{'event':sparse['id'],'requestID':str(uuid.uuid4())},a,201)
 assert req('tournaments',token=a)['wallet']['coins']==before-75
 with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_events SET ends=? WHERE id=?',(time.time()-1,sparse['id']))
 s=req('tournament-board&event='+sparse['id'],token=a)
-assert s['wallet']['coins']==before and s['event']['reward']==75 and s['event']['rank']==1
+assert s['wallet']['coins']==before-75+150 and s['event']['reward']==150 and s['event']['rank']==1
 assert req('tournament-round',{'run':r['id']},a)['state']=='closed'
-assert req('tournament-board&event='+sparse['id'],token=a)['wallet']['coins']==before
-for token in [a,b]:req('delete-account',{},token)
+assert req('tournament-board&event='+sparse['id'],token=a)['wallet']['coins']==before-75+150
+# Fixed weekly podiums, historical shortfalls, already-seen zero prizes and
+# preservation of more generous old awards. Fixtures live only in this temp DB.
+c=req('register',{'name':'Tournament Cara'},status=201)['token']
+cid=req('profile',token=c)['id'];req('coins',token=c)
+before_a=req('coins',token=a)['wallet']['coins'];before_b=req('coins',token=b)['wallet']['coins']
+now=int(time.time())
+with sqlite3.connect(STATE) as db:
+ db.execute('INSERT INTO tournament_events VALUES(?,?,?,?,?,?,?,?)',('weekly-fixed','22','weekly',1,now-1,100,0,0))
+ for i,pid in enumerate([aid,bid,cid]):
+  db.execute('INSERT INTO tournament_runs(id,event_id,player_id,request_key,deck,score,streak,state,created) VALUES(?,?,?,?,?,?,?,?,?)',('fixed-run-'+str(i),'weekly-fixed',pid,'fixed-key-'+str(i),'[]',100-i,1,'finished',now-100))
+ for name,pid,reward in [('short',aid,25),('zero',bid,0),('generous',cid,250)]:
+  event_id='legacy-'+name
+  db.execute('INSERT INTO tournament_events VALUES(?,?,?,?,?,?,?,?)',(event_id,'22','daily',1,now-2,0,0,1))
+  db.execute('INSERT INTO tournament_places VALUES(?,?,?,?,?,?)',(event_id,pid,1,60,3,reward))
+  db.execute('INSERT INTO tournament_prize_receipts VALUES(?,?,?)',(pid,event_id,now-1))
+  if reward:
+   db.execute('INSERT INTO tournament_ledger VALUES(?,?,?,?,?)',(pid,'prize:'+event_id,reward,0,now-2))
+   db.execute('UPDATE tournament_wallet SET coins=coins+? WHERE player_id=?',(reward,pid))
+assert req('coins',token=a)['wallet']['coins']==before_a+150+500
+assert req('coins',token=b)['wallet']['coins']==before_b+150+250
+assert req('coins',token=c)['wallet']['coins']==100+250+125
+assert req('coins',token=a)['wallet']['coins']==before_a+150+500
+prizes=req('prizes',token=a)
+short=next(x for x in prizes['pending'] if x['id']=='legacy-short')
+assert short['coins']==150 and short['adjustmentCoins']==125
+assert any(x['id']=='legacy-zero' and x['coins']==150 for x in req('prizes',token=b)['pending'])
+with sqlite3.connect(STATE) as db:
+ assert db.execute('SELECT reward FROM tournament_places WHERE event_id=?',('legacy-generous',)).fetchone()[0]==250
+ assert db.execute('SELECT COUNT(*) FROM tournament_ledger WHERE reference=?',('fixed-prizes-v1:legacy-short',)).fetchone()[0]==1
+ assert [x[0] for x in db.execute('SELECT reward FROM tournament_places WHERE event_id=? ORDER BY rank',('weekly-fixed',))]==[500,250,125]
+for token in [a,b,c]:req('delete-account',{},token)
 with sqlite3.connect(STATE) as db:
  assert db.execute('SELECT COUNT(*) FROM tournament_runs WHERE player_id IN (?,?)',(aid,bid)).fetchone()[0]==0
  assert db.execute('SELECT COUNT(*) FROM tournament_ledger WHERE player_id IN (?,?)',(aid,bid)).fetchone()[0]==0
  assert db.execute('SELECT COUNT(*) FROM question_seen WHERE player_id IN (?,?)',(aid,bid)).fetchone()[0]==0
-print('PASS: three paid daily topics, coins-only entry, balance checks, survival beyond seven questions, speed points, first-miss and timeout elimination, hidden answers, reading phase, fresh-before-seen questions, removed-question recovery, atomic/idempotent credits and entry, private runs, best-only rankings, asynchronous players, tied entry-pool prizes, one-time settlement, sole-player prizes, no duel XP or fake head-to-head wins, and deletion')
+print('PASS: paid daily/weekly survival, guaranteed fixed podiums and sole-player prizes, tied prizes, idempotent historical backpay without clawbacks, reopened prize inbox, balances, timing, hidden answers, question repair, rankings and deletion')

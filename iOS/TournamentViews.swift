@@ -49,6 +49,7 @@ struct TournamentTile:View {
    VStack(alignment:.leading,spacing:6) {
     Text(topic.name).font(.headline)
     Text(event.closed ? "Finished · Best \(event.best) points":event.entryLabel+" · \(event.players) player\(event.players==1 ? "":"s")").font(.caption).foregroundStyle(.secondary)
+    if !event.closed {Text("1st \(event.podiumPrizes[0]) · 2nd \(event.podiumPrizes[1]) · 3rd \(event.podiumPrizes[2]) coins").font(.caption.bold()).foregroundStyle(topic.tint)}
     if event.closed {if let rank=event.rank {Text("Final place #\(rank) · \(event.reward) prize coins").font(.caption.bold()).foregroundStyle(topic.tint)}}
     else {HStack(spacing:4){Text("Ends in");Text(Date(timeIntervalSince1970:event.ends),style:.relative)}.font(.caption.bold()).foregroundStyle(topic.tint)}
    }
@@ -85,7 +86,11 @@ struct TournamentDetailView:View {
       Text("New entries are closed for this earlier tournament. Your score is kept until the tournament ends.").font(.subheadline).multilineTextAlignment(.center)
      }
     }
-    if let pool=current.prizePool {Label("\(pool) coins in the prize pool",systemImage:"trophy").font(.headline).foregroundStyle(topic.tint)}
+    VStack(spacing:12) {
+     Text("Guaranteed podium prizes").font(.headline)
+     HStack {ForEach(Array(current.podiumPrizes.enumerated()),id:\.offset){i,coins in VStack(spacing:5){Image(systemName:"trophy.fill").foregroundStyle([Color(hex:"C8952C"),Color(hex:"7C8DA3"),Color(hex:"B66F47")][i]);Text(["1st","2nd","3rd"][i]).font(.caption.bold());Text("\(coins) coins").font(.headline)}.frame(maxWidth:.infinity)}}
+     Text("Awarded when the tournament closes, regardless of the number of entries.").font(.caption).foregroundStyle(.secondary)
+    }.padding(18).background(.white,in:RoundedRectangle(cornerRadius:18)).accessibilityIdentifier("tournamentPrizes")
     VStack(alignment:.leading,spacing:15) {
      HStack {Text(current.closed ? "Final standings":"Tournament standings").font(.title3.bold());Spacer();Button{Task{await reload()}}label:{Image(systemName:"arrow.clockwise")}.accessibilityLabel("Refresh tournament standings")}
      Text("Best score counts · equal scores share a place").font(.caption).foregroundStyle(.secondary)
@@ -123,7 +128,7 @@ struct TournamentDetailView:View {
    Text("Keep answering in \(topic.name) until your first wrong answer or timeout. Read each question for 3 seconds, then choose from four answers within 10 seconds. Correct answers earn 11–20 points for speed; every question has the same value. Your score is the total points in that run. You may use one power-up during the entire run: Fifty Fifty removes two wrong choices (5 coins); Double Choice allows a second pick (10); Right Answer highlights the answer for you to tap (25). The clock keeps running.")
    Text("Try again for the displayed entry cost. Only your best run counts; attempts do not add together. Every question in a run is different. If you clear the entire topic bank, that completes your run.")
    Text("The leaderboard closes at the stated time. Earned points are kept if you end a run early or the event closes. The top three places receive coins and a profile badge.")
-   Text("Entry coins form the prize pool. With three or more players, first place receives 50%, second 30% and third 20%. With two players, the split is 60% and 40%; a sole entrant receives the whole pool. Tied players share the prizes for the places they occupy, rounded down to whole coins.")
+   Text("Prizes are guaranteed: \(current.podiumPrizes[0]) coins for first, \(current.podiumPrizes[1]) for second and \(current.podiumPrizes[2]) for third. A sole entrant receives the first-place prize. Tied players share the combined prizes for the places they occupy, rounded down to whole coins. Prizes are credited automatically after closure; leading an open tournament is provisional.")
    Text("You compete against other players’ scores on your own schedule. Tournament points are separate from duel XP and topic levels.")
   }.font(.caption).foregroundStyle(.secondary).padding(18).background(.white,in:RoundedRectangle(cornerRadius:18)).accessibilityIdentifier("tournamentRules")
  }
@@ -197,6 +202,7 @@ struct TournamentPlayView:View {
      Spacer();if game.question != nil {timer}
     }
     if let question=game.question {
+     QuestionTimeBar(remaining:game.remaining,reading:game.reading)
      Text(question.prompt).font(.system(size:25,weight:.bold,design:.rounded)).multilineTextAlignment(.center).lineLimit(7).minimumScaleFactor(0.6).frame(maxWidth:.infinity,maxHeight:.infinity)
      if game.reading {Text("Read the question · 3 seconds").font(.subheadline.bold()).multilineTextAlignment(.center).transition(.opacity)}
      LazyVGrid(columns:[GridItem(.flexible(),spacing:9),GridItem(.flexible(),spacing:9)],spacing:9){if !game.reading {ForEach(question.answers.indices,id:\.self){i in answer(question.answers[i],index:i).frame(height:max(80,(geo.size.height*0.38-9)/2))}}}
@@ -224,7 +230,7 @@ struct TournamentPlayView:View {
  private var timer:some View {
   ZStack {
    Circle().stroke(.white.opacity(0.2),lineWidth:6)
-   Circle().trim(from:0,to:game.remaining/10).stroke(Color(hex:"FFD494"),style:StrokeStyle(lineWidth:6,lineCap:.round)).rotationEffect(.degrees(-90))
+   Circle().trim(from:0,to:QuestionTimeBar.fraction(game.remaining)).stroke(game.remaining<=3 ? Color.coral:Color(hex:"FFD494"),style:StrokeStyle(lineWidth:6,lineCap:.round)).rotationEffect(.degrees(-90))
    if game.reading {Image(systemName:"book.fill").font(.system(size:28))}
    else {Text(String(format:"%.1f",game.remaining)).font(.system(size:28,weight:.heavy,design:.rounded)).monospacedDigit()}
   }.frame(width:78,height:78).accessibilityLabel(game.reading ? "Read the question":"\(String(format:"%.1f",game.remaining)) seconds remaining")

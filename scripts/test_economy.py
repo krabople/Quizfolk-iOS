@@ -48,7 +48,8 @@ with sqlite3.connect(STATE) as db:
 inbox=req('prizes',token=a)
 assert len(inbox['pending'])==3 and len(inbox['earned'])==3
 assert req('prizes',token=a)==inbox
-assert req('coins',token=a)['wallet']['coins']==145
+assert req('coins',token=a)['wallet']['coins']==445  # repair missing historical awards: 150 + 100 + 50
+assert sorted(x['coins'] for x in inbox['earned'])==[50,100,150]
 assert inbox['selected']['rank']==1
 assert req('player',token=a)['displayBadge']==inbox['selected']
 req('prize-seen',{'event':'prize-test-0'},b,403)
