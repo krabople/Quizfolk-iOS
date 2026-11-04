@@ -1,6 +1,6 @@
-# Quizfolk for iPhone
+# Quizfolk for iPhone and Android
 
-A native SwiftUI trivia app inspired by the original QuizUp: follow topics, play seven-round timed duels, earn speed bonuses, practise against a labelled bot, review answers, track topic levels, and compete in monthly or all-time leagues.
+Native SwiftUI (iPhone) and Kotlin/Jetpack Compose (Android) apps inspired by the original QuizUp: follow topics, play seven-round timed duels, earn speed bonuses, practise against a labelled bot, review answers, track topic levels, and compete in monthly or all-time leagues.
 
 ## Included
 
@@ -9,6 +9,20 @@ A native SwiftUI trivia app inspired by the original QuizUp: follow topics, play
 - A PHP + SQLite backend for asynchronous direct challenges, human-first search, follows, player discovery and recorded human runs, with a six-second bot fallback.
 - Server-owned online deadlines and scoring, authenticated match ownership, replay-safe answer submissions, name-based player cards, monthly and all-time filtered leaderboards, question reports and account deletion.
 - GitHub Actions for simulator tests, device archives, screenshots and signed TestFlight upload.
+
+## Android and cross-platform play
+
+The native Android client is in [android/](android/README.md). It uses the same
+production service, reviewed questions, globally unique player names, human
+matchmaking, challenges, follows, tournaments, topic XP and rankings as iOS.
+Android users can play iPhone users, including accepting challenges later and
+joining the same private friends tournament. No second server or platform-only
+player pool is used. Existing device-specific account/recovery limitations are
+unchanged; Android does not automatically sign into an existing iPhone account.
+
+GitHub's Android workflow runs cross-platform API contracts, unit tests and
+emulator screen tests, then builds a signed installable APK and a Play AAB.
+See [Android setup and parity notes](android/README.md).
 
 ## Open in Xcode
 
@@ -28,7 +42,7 @@ Direct challenges let the sender finish immediately and the recipient accept lat
 
 Players do not need to be connected at the same time. A completed run supplies the opponent performance for a subsequent player on exactly the same questions and answer order. The later match labels the opponent **Recorded run**. If no eligible human run exists, **Pip · Bot** supplies an independent, precomputed performance. This does not create pending friend invitations or change the original player’s result later.
 
-The question appears alone for two seconds before answers and the countdown. Online scores use the server's answer-choice reveal time. A correct answer before the 10-second deadline earns `20 - floor(elapsedSeconds)`. The seventh question doubles that. Wrong, late and missing answers score zero. The maximum is 160. Network transit counts against the online deadline; the client cannot submit its own elapsed time or score.
+The question appears alone for three seconds before answers and the countdown. Online scores use the server's answer-choice reveal time. A correct answer before the 10-second deadline earns `20 - floor(elapsedSeconds)`. The seventh question doubles that. Wrong, late and missing answers score zero. The maximum is 160. Network transit counts against the online deadline; the client cannot submit its own elapsed time or score.
 
 The account uses a random bearer key held in iOS Keychain. There is no password, cross-device sign-in or account recovery in this first version. Local stats and practice remain device-local. Online account deletion removes the player’s server history and anonymises references in other players’ recorded matches. Offline practice never enters the server league. Online bot duels do award XP to the human player; no bot account appears on the board.
 

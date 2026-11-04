@@ -22,7 +22,7 @@ data class Topic(val id: String, val name: String, val color: String, val emoji:
     companion object { fun parse(j: J) = Topic(j.s("id"), j.s("name"), j.s("color"), j.s("emoji"), j.n("questionCount")) }
 }
 data class Question(val id: String, val categoryID: String, val difficulty: String, val prompt: String, val answers: List<String>, val correctIndex: Int) {
-    val key get() = promptKey(prompt)
+    val key: String by lazy(LazyThreadSafetyMode.PUBLICATION) { promptKey(prompt) }
     fun shuffled(): Question {
         val order = answers.indices.shuffled()
         return copy(answers = order.map { answers[it] }, correctIndex = order.indexOf(correctIndex))
@@ -30,11 +30,14 @@ data class Question(val id: String, val categoryID: String, val difficulty: Stri
     fun json() = json("id" to id, "categoryID" to categoryID, "difficulty" to difficulty, "prompt" to prompt, "answers" to JSONArray(answers), "correctIndex" to correctIndex)
     companion object { fun parse(j: J, topic: String = "") = Question(j.s("id"), j.s("categoryID", topic), j.s("difficulty", "mixed"), j.s("prompt"), j.a("answers").strings(), j.n("correctIndex", -1)) }
 }
+private val keySpaces = Regex("[\\p{Z}\\p{C}\\s]+")
+private val keyQuestionMarks = Regex("\\?+$")
+private val keyEndPunctuation = Regex("(?<=\\p{L})[.!]+$")
 fun promptKey(prompt: String): String = Normalizer.normalize(prompt, Normalizer.Form.NFKC)
     .lowercase(Locale.ROOT).replace("ß", "ss").replace("ς", "σ")
     .replace('‘', '\'').replace('’', '\'').replace('“', '"').replace('”', '"')
-    .replace(Regex("[\\p{Z}\\p{C}\\s]+"), " ").trim().replace(Regex("\\?+$"), "")
-    .replace(Regex("(?<=\\p{L})[.!]+$"), "")
+    .replace(keySpaces, " ").trim().replace(keyQuestionMarks, "")
+    .replace(keyEndPunctuation, "")
 
 data class Round(val question: Question, val selected: Int, val elapsed: Double, val points: Int, val opponentPoints: Int) {
     fun json() = json("question" to question.json(), "selected" to selected, "elapsed" to elapsed, "points" to points, "opponentPoints" to opponentPoints)

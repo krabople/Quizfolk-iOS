@@ -5,7 +5,7 @@ PHP=os.environ.get('QUIZFOLK_PHP','php')
 if (ROOT/'backend/config.php').exists():raise SystemExit('Use a clean checkout without backend/config.php for isolated tests.')
 TEMP_ROOT=ROOT/'build'/'contract-state'
 TEMP_ROOT.mkdir(parents=True,exist_ok=True)
-allowed=['test_backend.py','test_social.py','test_tournaments.py','test_economy.py','test_parties_powers.py']
+allowed=['test_backend.py','test_social.py','test_tournaments.py','test_economy.py','test_parties_powers.py','test_cross_platform.py']
 suites=sys.argv[1:] or allowed
 if any(suite not in allowed for suite in suites):raise SystemExit('Choose a known isolated contract suite.')
 for suite in suites:

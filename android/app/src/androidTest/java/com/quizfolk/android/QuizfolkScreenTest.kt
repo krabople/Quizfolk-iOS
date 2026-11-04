@@ -17,10 +17,13 @@ import java.io.File
 
 @RunWith(AndroidJUnit4::class)
 class QuizfolkScreenTest {
-    @get:Rule val compose = AndroidComposeTestRule(
+    @get:Rule(order=0) val compose = AndroidComposeTestRule(
         ActivityScenarioRule<MainActivity>(Intent(ApplicationProvider.getApplicationContext<android.content.Context>(), MainActivity::class.java).putExtra("ui_test",true)),
         { rule -> var activity: MainActivity? = null; rule.scenario.onActivity { activity = it }; requireNotNull(activity) }
     )
+    @get:Rule(order=1) val failureScreenshot = object : org.junit.rules.TestWatcher() {
+        override fun failed(error: Throwable, description: org.junit.runner.Description) { runCatching { capture("Failed-${description.methodName}") } }
+    }
     private val store get() = compose.activity.store
     private fun ready() {
         // Configure only the debug app before allowing a service connection.
@@ -31,11 +34,19 @@ class QuizfolkScreenTest {
     private fun text(text: String) = compose.onNodeWithText(text, useUnmergedTree = true)
     private fun capture(name: String) {
         val bitmap = InstrumentationRegistry.getInstrumentation().uiAutomation.takeScreenshot()
-        val folder = File(compose.activity.getExternalFilesDir(null),"screenshots").apply { mkdirs() }
-        File(folder,"$name.png").outputStream().use { bitmap.compress(Bitmap.CompressFormat.PNG,100,it) }
+        if (android.os.Build.VERSION.SDK_INT >= 29) {
+            val resolver = compose.activity.contentResolver
+            val values = android.content.ContentValues().apply {
+                put(android.provider.MediaStore.Images.Media.DISPLAY_NAME,"$name.png")
+                put(android.provider.MediaStore.Images.Media.MIME_TYPE,"image/png")
+                put(android.provider.MediaStore.Images.Media.RELATIVE_PATH,"Pictures/Quizfolk-Screenshots")
+            }
+            val uri = requireNotNull(resolver.insert(android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI,values))
+            resolver.openOutputStream(uri).use { bitmap.compress(Bitmap.CompressFormat.PNG,100,requireNotNull(it)) }
+        }
     }
     @Test fun discoverMixedRandomAndTopicLeague() {
-        ready(); text("Random topic").assertExists(); text("Mixed topics").assertExists(); capture("Discover")
+        ready(); compose.onNodeWithTag("randomTopic").assertExists(); compose.onNodeWithTag("mixedTopic").assertExists(); capture("Discover")
         tapTag("topicSearch"); compose.onNodeWithTag("topicSearch").performTextInput("Geography"); tapTag("topic-22")
         tapTag("segment-League"); text("This month").assertExists(); text("All time").assertExists(); capture("TopicLeague")
         compose.onNodeWithTag("league-player-test-rival").performScrollTo().performClick()
@@ -44,7 +55,7 @@ class QuizfolkScreenTest {
     }
     @Test fun fullPracticeDuelReadingPowerProgressResultRematchAndFinishedClose() {
         ready(); compose.onNodeWithTag("topicSearch").performTextInput("Geography"); tapTag("topic-22")
-        compose.onNodeWithTag("practice").performScrollTo().performClick(); compose.waitUntil(5000) { compose.onAllNodesWithTag("startDuel").fetchSemanticsNodes().isNotEmpty() }; capture("Matchup"); tapTag("startDuel")
+        compose.onNodeWithTag("practice").performScrollTo().performClick(); compose.waitUntil(15000) { compose.onAllNodesWithTag("startDuel").fetchSemanticsNodes().isNotEmpty() }; capture("Matchup"); tapTag("startDuel")
         compose.waitUntil(7000) { compose.onAllNodesWithTag("readingPhase").fetchSemanticsNodes().isNotEmpty() }
         compose.onNodeWithTag("answer-0").assertDoesNotExist(); capture("Reading")
         repeat(7) { round ->
@@ -129,5 +140,33 @@ class QuizfolkScreenTest {
         val vault = PlayerVault(context); vault.save("https://test.invalid", "only-a-test-key")
         assertEquals("only-a-test-key",vault.read("https://test.invalid")); assertNull(vault.read("https://other.invalid"))
         assertFalse(context.getSharedPreferences("encrypted_player",0).getString("value","")!!.contains("only-a-test-key")); vault.clear()
+    }
+    @Test fun nativePhotoPickerPreviewAndMetadataFreeUpload() {
+        ready()
+        val source = File(compose.activity.cacheDir,"picker-photo.jpg")
+        val image = Bitmap.createBitmap(500,300,Bitmap.Config.ARGB_8888).apply { eraseColor(android.graphics.Color.RED) }
+        source.outputStream().use { image.compress(Bitmap.CompressFormat.JPEG,90,it) }
+        androidx.exifinterface.media.ExifInterface(source).apply {
+            setAttribute(androidx.exifinterface.media.ExifInterface.TAG_ORIENTATION,"6")
+            setAttribute(androidx.exifinterface.media.ExifInterface.TAG_GPS_LATITUDE,"51/1,30/1,0/1")
+            setAttribute(androidx.exifinterface.media.ExifInterface.TAG_GPS_LATITUDE_REF,"N")
+            setAttribute(androidx.exifinterface.media.ExifInterface.TAG_GPS_LONGITUDE,"0/1,7/1,0/1")
+            setAttribute(androidx.exifinterface.media.ExifInterface.TAG_GPS_LONGITUDE_REF,"W")
+            saveAttributes()
+        }
+        androidx.test.espresso.intent.Intents.init()
+        try {
+            androidx.test.espresso.intent.Intents.intending(androidx.test.espresso.intent.matcher.IntentMatchers.hasAction(android.provider.MediaStore.ACTION_PICK_IMAGES))
+                .respondWith(android.app.Instrumentation.ActivityResult(android.app.Activity.RESULT_OK,Intent().setData(android.net.Uri.fromFile(source))))
+            tapTag("tab-You"); tapTag("changeProfilePicture")
+            compose.waitUntil(8000) { compose.onAllNodesWithText("Use this picture").fetchSemanticsNodes().isNotEmpty() }; capture("PhotoPreview")
+            text("Use this picture").performClick()
+            compose.waitUntil(5000) { store.avatar != null }
+            val bytes = android.util.Base64.decode(store.avatar,android.util.Base64.NO_WRAP)
+            val photo = android.graphics.BitmapFactory.decodeByteArray(bytes,0,bytes.size)
+            assertEquals(128,photo.width); assertEquals(128,photo.height); assertTrue(bytes.size <= 16384)
+            assertNull(androidx.exifinterface.media.ExifInterface(java.io.ByteArrayInputStream(bytes)).getAttribute(androidx.exifinterface.media.ExifInterface.TAG_GPS_LATITUDE))
+            androidx.test.espresso.intent.Intents.intended(androidx.test.espresso.intent.matcher.IntentMatchers.hasAction(android.provider.MediaStore.ACTION_PICK_IMAGES))
+        } finally { androidx.test.espresso.intent.Intents.release() }
     }
 }

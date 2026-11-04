@@ -14,6 +14,8 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.platform.LocalFocusManager
+import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -35,6 +37,8 @@ class MainActivity : ComponentActivity() {
 
 @Composable fun Root(store: QuizStore) {
     val owner = LocalLifecycleOwner.current; val scope = rememberCoroutineScope()
+    val keyboard = LocalSoftwareKeyboardController.current; val focus = LocalFocusManager.current
+    LaunchedEffect(store.pages.toList(), store.game?.id, store.tab) { focus.clearFocus(); keyboard?.hide() }
     LaunchedEffect(Unit) { store.initialize() }
     DisposableEffect(owner, store) {
         val observer = LifecycleEventObserver { _, event -> if (event == Lifecycle.Event.ON_START && store.ready) scope.launch { store.resume() } }

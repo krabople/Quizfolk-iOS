@@ -27,6 +27,8 @@ jobs:
       - uses: gradle/actions/setup-gradle@v4
       - name: Validate shared question bank
         run: python3 ../scripts/validate_bank.py
+      - name: Verify Android and iOS wire-contract interoperability in isolated local state
+        run: python3 ../scripts/run_contracts.py test_cross_platform.py
       - name: Compile, lint and run scoring and question-selection tests
         run: ./gradlew :app:testDebugUnitTest :app:lintDebug :app:assembleDebug :app:assembleDebugAndroidTest --no-daemon --stacktrace
       - name: Enable emulator acceleration

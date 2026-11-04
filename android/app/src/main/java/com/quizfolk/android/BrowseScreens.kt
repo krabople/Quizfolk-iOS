@@ -30,8 +30,8 @@ import java.util.UUID
             IconButton({ interests = true }) { Icon(Icons.Default.Tune, "Choose interests") }
         }
         Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-            OutlinedButton({ store.push(Page("topic", store.topics.filter { it.id != "mixed" }.random().id)) }, Modifier.weight(1f), shape = RoundedCornerShape(14.dp)) { Text("Random topic", fontWeight = FontWeight.Bold) }
-            OutlinedButton({ store.push(Page("topic", "mixed")) }, Modifier.weight(1f), shape = RoundedCornerShape(14.dp)) { Text("Mixed topics", fontWeight = FontWeight.Bold) }
+            OutlinedButton({ store.push(Page("topic", store.topics.filter { it.id != "mixed" }.random().id)) }, Modifier.weight(1f).testTag("randomTopic"), shape = RoundedCornerShape(14.dp)) { Text("Random topic", fontWeight = FontWeight.Bold) }
+            OutlinedButton({ store.push(Page("topic", "mixed")) }, Modifier.weight(1f).testTag("mixedTopic"), shape = RoundedCornerShape(14.dp)) { Text("Mixed topics", fontWeight = FontWeight.Bold) }
         }
         Segments(listOf("All topics", "My interests"), mode) { mode = it }
         val visible = store.topics.filter { (mode == 0 || it.id in store.favourites) && (query.isBlank() || it.name.contains(query, true)) }
