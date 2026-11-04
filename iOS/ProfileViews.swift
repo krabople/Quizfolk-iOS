@@ -26,6 +26,9 @@ struct MatchDetailView:View {
     @State private var requestID=UUID().uuidString
     var body:some View {
         List {
+            if match.rounds.count==7,let topic=store.topics.first(where:{$0.id==match.topicID}) {
+                Button("View result"){session=GameSession(topic:topic,store:store,record:match)}.accessibilityIdentifier("historyResult")
+            }
             if let id=match.opponentID {
                 Section("Your opponent") {
                     NavigationLink {PublicPlayerView(playerID:id)}label:{HStack(spacing:14){PlayerPortrait(name:match.opponent,avatar:match.opponentAvatar,size:52);VStack(alignment:.leading,spacing:4){Text(match.opponent).font(.headline);Text("View profile & follow").font(.caption).foregroundStyle(.secondary)}}}.accessibilityIdentifier("historyOpponentProfile")
@@ -41,7 +44,7 @@ struct MatchDetailView:View {
                 ForEach(Array(match.rounds.enumerated()),id:\.element.id){i,r in VStack(alignment:.leading,spacing:8){Text("\(i+1). \(r.question.prompt)").font(.headline);Text("Correct: \(r.question.answers[r.question.correctIndex])");Text("Your answer: \(r.selected>=0 && r.selected<4 ? r.question.answers[r.selected]:"Timed out")").foregroundStyle(.secondary);Text("\(r.points) points · \(r.elapsed, specifier:"%.1f") seconds").font(.caption)}}
             }
         }.navigationTitle("Duel review")
-            .fullScreenCover(item:$session){GameView(game:$0).environmentObject(store)}
+            .fullScreenCover(item:$session,onDismiss:{requestID=UUID().uuidString}){GameView(game:$0).environmentObject(store)}
     }
 }
 struct ProfileView:View {

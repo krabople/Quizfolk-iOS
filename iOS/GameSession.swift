@@ -36,7 +36,7 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
     @Published var searching=false
     @Published var searchMessage="Looking for players in this topic…"
     private let searchRequestID=UUID().uuidString
-    private let localHistoryID=UUID().uuidString
+    private var localHistoryID=UUID().uuidString
     private var readingTask:Task<Void,Never>?
     private var searchID:String?
     private var suppliedMatch:StartReply?
@@ -60,6 +60,14 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
     private var pendingElapsed=0.0
     private var store:QuizStore
     init(topic:Topic,store:QuizStore,online:Bool,match:StartReply?=nil) {self.topic=topic;self.store=store;self.online=online;self.suppliedMatch=match;self.searching=online && match==nil}
+    convenience init(topic:Topic,store:QuizStore,record:MatchRecord) {
+        self.init(topic:topic,store:store,online:record.kind != "practice")
+        matchID=record.id;localHistoryID=record.id;kind=record.kind=="practice" ? "bot":record.kind
+        opponent=record.opponent;opponentID=record.opponentID;opponentAvatar=record.opponentAvatar;duelID=record.duelID
+        rounds=record.rounds;score=record.score;opponentScore=record.opponentScore;awaitingOpponent=record.pending==true
+        prepared=true;searching=false;showIntro=false;finished=true;revealed=true;round=max(0,record.rounds.count-1)
+        current=record.rounds.last?.question
+    }
     func begin() async {
         guard !prepared,!busy else {return}
         busy=true;error=nil;defer{busy=false;searching=false}

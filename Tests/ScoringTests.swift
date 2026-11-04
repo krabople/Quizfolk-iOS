@@ -128,6 +128,16 @@ final class ScoringTests:XCTestCase {
         let m=MatchRecord(id:"waiting",topicID:"22",date:Date(),score:100,opponentScore:0,opponent:"Rival",kind:"challenge",rounds:[r],duelID:"duel",pending:true,opponentID:"rival")
         XCTAssertEqual(m.xp,0);XCTAssertFalse(m.won);XCTAssertFalse(m.tied)
     }
+    @MainActor func testReopeningSavedResultDoesNotStartOrSaveAnotherMatch() async {
+        let store=QuizStore(),topic=store.topics[0]
+        let rounds=store.packet(topic).map{PlayedRound(question:$0,selected:$0.correctIndex,elapsed:1,points:19,opponentPoints:10)}
+        let record=MatchRecord(id:"saved-result",topicID:topic.id,date:Date(),score:133,opponentScore:70,opponent:"Rival",kind:"human",rounds:rounds,opponentID:"rival")
+        store.history=[record]
+        store.testResponse={route,_ in XCTFail("Reopening a saved result must not request a new match: \(route)");throw APIError.message("Unexpected request")}
+        let game=GameSession(topic:topic,store:store,record:record);defer{game.stop()};await game.begin()
+        XCTAssertTrue(game.finished);XCTAssertFalse(game.showIntro);XCTAssertEqual(game.opponentID,"rival")
+        XCTAssertEqual(game.score,133);XCTAssertEqual(game.rounds.count,7);XCTAssertEqual(store.history.count,1)
+    }
     @MainActor func testBundleBank() throws {
         let q:[Question]=try QuizStore.resource("questions")
         let topics:[Topic]=try QuizStore.resource("categories")

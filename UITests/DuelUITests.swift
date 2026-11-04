@@ -43,7 +43,7 @@ final class DuelUITests:XCTestCase {
         let back=app.buttons["Back to topics"]
         if !back.isHittable {app.swipeUp();app.swipeUp()}
         XCTAssertTrue(back.waitForExistence(timeout:8));capture("Result")
-        let rematch=app.buttons["rematchDuel"];if !rematch.isHittable{app.swipeDown()};XCTAssertTrue(rematch.waitForExistence(timeout:5));rematch.tap()
+        let rematch=app.buttons["rematchDuel"];for _ in 0..<6{if rematch.isHittable{break};app.swipeDown()};XCTAssertTrue(rematch.waitForExistence(timeout:5));rematch.tap()
         XCTAssertTrue(app.buttons["Start duel"].waitForExistence(timeout:8));XCTAssertFalse(app.descendants(matching:.any).matching(identifier:"winnerAnnouncement").firstMatch.exists)
         app.buttons["Leave match"].tap();XCTAssertFalse(app.buttons["Leave duel"].exists)
         app.navigationBars.buttons.element(boundBy:0).tap()
@@ -156,6 +156,9 @@ final class DuelUITests:XCTestCase {
         app.buttons["historyOpponentProfile"].tap()
         XCTAssertTrue(app.buttons["followPlayer"].waitForExistence(timeout:5));app.buttons["followPlayer"].tap()
         XCTAssertTrue(app.buttons["Following"].waitForExistence(timeout:5));capture("FollowFromPreviousMatch")
+        app.navigationBars.buttons.element(boundBy:0).tap();app.buttons["historyResult"].tap()
+        let portrait=app.buttons["resultProfile-test-rival"];XCTAssertTrue(portrait.waitForExistence(timeout:5));capture("CompletedHumanDuel")
+        portrait.tap();XCTAssertTrue(app.buttons["followPlayer"].waitForExistence(timeout:5));XCTAssertTrue(app.buttons["Following"].exists)
     }
     @MainActor func testInsufficientCoinsStaysOnTournamentDetails() {
         let app=XCUIApplication();app.launchArguments=["--ui-testing","--ui-testing-empty-wallet"];app.launch()
