@@ -13,7 +13,7 @@ permissions:
   contents: read
 jobs:
   testflight:
-    runs-on: macos-15
+    runs-on: macos-26
     timeout-minutes: 40
     outputs:
       source_commit: ${{ steps.source.outputs.sha }}
