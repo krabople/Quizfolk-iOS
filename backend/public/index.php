@@ -43,7 +43,7 @@ try {
     if(!is_array($body)) fail('Expected a JSON object');
     $readRoutes=['health','categories','profile','leaderboard','people','player','duels','activity','tournaments','tournament-board','coins','prizes','parties','party-board'];
     if(!in_array($route,$readRoutes,true) && $method!=='POST') fail('Use POST',405);
-    if($route==='health') out(['ok'=>true,'version'=>'0.3.1']);
+    if($route==='health') out(['ok'=>true,'version'=>'0.3.2']);
     if($route==='categories') out(['categories'=>play_topics()]);
     $ipHash=hash('sha256',(string)($_SERVER['REMOTE_ADDR'] ?? 'unknown'));
     $bucket=($route==='register' ? 'register:':'request:').$ipHash;
@@ -132,9 +132,18 @@ try {
         if($m['duel_id']) {$duel=sql($db,'SELECT * FROM duels WHERE id=?',[$m['duel_id']])->fetch();if(!$duel || !in_array($duel['status'],['invited','accepted','complete'],true))fail('This challenge is no longer available',410);}
         if((int)$m['created']<time()-($m['duel_id'] ? 1209600:86400)) fail('This duel has expired',410);
         $packet=json_decode($m['packet'],true);$answers=json_decode($m['answers'],true);$op=json_decode($m['opponent_points'],true);$round=count($answers);
+        $autoPower=$route==='power' && ($body['type'] ?? '')==='right' && ($body['autoAnswer'] ?? false)===true;$autoPowerReply=null;
         if($round<7 && !packet_is_current($packet))fail('A question in this duel has been corrected or withdrawn. Please start a new duel. Your completed results are kept.',410);
-        if($route==='answer' && isset($body['round']) && is_int($body['round']) && $body['round']<$round && $body['round']>=0) {
-            $i=$body['round'];$r=$answers[$i];$db->exec('COMMIT');out(['points'=>$r['points'],'correctIndex'=>$packet[$i]['correctIndex'],'opponentPoints'=>$op[$i],'finished'=>$round===7,'score'=>(int)$m['score'],'opponentScore'=>(int)$m['opponent_score'],'pending'=>$m['duel_id']!==null && $m['completed']===null]);
+        $askedRound=$autoPower?($body['turn'] ?? null):($body['round'] ?? null);
+        if(($route==='answer' || $autoPower) && is_int($askedRound) && $askedRound<$round && $askedRound>=0) {
+            $i=$askedRound;$r=$answers[$i];
+            $reply=['points'=>$r['points'],'selectedIndex'=>$r['selected'],'correctIndex'=>$packet[$i]['correctIndex'],'opponentPoints'=>$op[$i],'finished'=>$round===7,'score'=>(int)$m['score'],'opponentScore'=>(int)$m['opponent_score'],'pending'=>$m['duel_id']!==null && $m['completed']===null];
+            if($autoPower) {
+                $used=sql($db,'SELECT * FROM power_uses WHERE context=? AND player_id=? AND turn=? AND type="right"',['match:'.$id,$pid,$i])->fetch();
+                if(!$used || $used['question_key']!==power_question_key($packet[$i]))fail('That question has already ended.',409);
+                $reply=['power'=>power_state($db,'match:'.$id,$i,$packet[$i]),'remaining'=>max(0,10-$r['elapsed']),'coins'=>tournament_wallet($db,$pid)['coins'],'duelAnswer'=>$reply];
+            }
+            $db->exec('COMMIT');out($reply);
         }
         if($route==='match-progress') {
             $other=$m['duel_id'] ? sql($db,'SELECT answers FROM matches WHERE duel_id=? AND player_id<>?',[$m['duel_id'],$pid])->fetch():false;
@@ -148,7 +157,9 @@ try {
         $q=$packet[$round];$context='match:'.$id;
         if($route==='power') {
             $party=$m['duel_id'] ? sql($db,'SELECT p.powers FROM party_fixtures f JOIN parties p ON p.id=f.party_id WHERE f.duel_id=?',[$m['duel_id']])->fetch():false;
-            $reply=power_activate($db,$pid,$context,$round,$q,$m['started']===null?null:(float)$m['started'],$body,!$party || (bool)$party['powers']);$db->exec('COMMIT');out($reply);
+            $reply=power_activate($db,$pid,$context,$round,$q,$m['started']===null?null:(float)$m['started'],$body,!$party || (bool)$party['powers']);
+            if(!$autoPower){$db->exec('COMMIT');out($reply);}
+            $autoPowerReply=$reply;$body['round']=$round;$body['answer']=$q['correctIndex'];$route='answer';
         }
         if($route==='round' || $route==='reveal') {
             $reading=($_SERVER['HTTP_X_QUIZFOLK_CLIENT'] ?? '')==='3';$preview=$m['preview_started']===null ? microtime(true):(float)$m['preview_started'];
@@ -162,7 +173,7 @@ try {
             $db->exec('COMMIT');out(['round'=>$round,'question'=>['id'=>$q['id'],'prompt'=>$q['prompt'],'answers'=>$q['answers'],'difficulty'=>$q['difficulty'],'source'=>$q['source'] ?? 'Open Trivia Database','sourceURL'=>$q['sourceURL'] ?? 'https://opentdb.com/'],'remaining'=>max(0,10-(microtime(true)-$started)),'readingRemaining'=>0,'phase'=>'answer','power'=>power_state($db,$context,$round,$q)]);
         }
         if($m['started']===null || !isset($body['round']) || $body['round']!==$round || !isset($body['answer']) || !is_int($body['answer']) || $body['answer']<-1 || $body['answer']>3) fail('Invalid round or answer',409);
-        $elapsed=microtime(true)-(float)$m['started'];
+        $elapsed=$autoPowerReply!==null ? $autoPowerReply['acceptedElapsed']:microtime(true)-(float)$m['started'];
         if(power_second_chance($db,$context,$round,$body['answer'],$q['correctIndex'],$elapsed,$q)) {
             $reply=['points'=>0,'correctIndex'=>-1,'opponentPoints'=>0,'finished'=>false,'score'=>(int)$m['score'],'opponentScore'=>(int)$m['opponent_score'],'pending'=>$m['duel_id']!==null,'retry'=>true,'remaining'=>max(0,10-$elapsed),'power'=>power_state($db,$context,$round,$q)];$db->exec('COMMIT');out($reply);
         }
@@ -177,7 +188,8 @@ try {
         if($m['duel_id'] && $finished){settle_duel($db,$m['duel_id']);party_sync_duel($db,$m['duel_id']);}
         $latest=sql($db,'SELECT * FROM matches WHERE id=?',[$id])->fetch();$opTotal=(int)$latest['opponent_score'];$op=json_decode($latest['opponent_points'],true);$pending=$m['duel_id']!==null && $latest['completed']===null;
         $db->exec('COMMIT');
-        out(['points'=>$score,'correctIndex'=>$q['correctIndex'],'opponentPoints'=>$op[$round],'finished'=>$finished,'score'=>$total,'opponentScore'=>$opTotal,'pending'=>$pending]);
+        $reply=['points'=>$score,'selectedIndex'=>$body['answer'],'correctIndex'=>$q['correctIndex'],'opponentPoints'=>$op[$round],'finished'=>$finished,'score'=>$total,'opponentScore'=>$opTotal,'pending'=>$pending];
+        out($autoPowerReply!==null ? $autoPowerReply+['duelAnswer'=>$reply]:$reply);
     }
     fail('Endpoint not found',404);
 } catch(JsonException $e) {fail('Malformed JSON',400);} catch(Throwable $e) {error_log('Quizfolk: '.$e->getMessage());fail('The quiz server is temporarily unavailable',503);}

@@ -18,7 +18,8 @@ function power_state(PDO $db,string $context,int $turn,?array $q=null):array {
 }
 function power_activate(PDO $db,string $pid,string $context,int $turn,array $q,?float $started,array $body,bool $allowed=true):array {
     if(!$allowed)fail('Power-ups are switched off for this friends tournament.',409);
-    if($started===null || microtime(true)-$started>=10)fail('Use a power-up while the answer clock is running.',409);
+    $elapsed=$started===null?10:microtime(true)-$started;
+    if($elapsed<0 || $elapsed>=10)fail('Use a power-up while the answer clock is running.',409);
     if(($body['turn'] ?? null)!==$turn)fail('That question has already ended.',409);
     $type=(string)($body['type'] ?? '');$prices=['fifty'=>5,'double'=>10,'right'=>25];
     if(!isset($prices[$type]))fail('Choose a valid power-up.');
@@ -34,7 +35,7 @@ function power_activate(PDO $db,string $pid,string $context,int $turn,array $q,?
         sql($db,'UPDATE power_uses SET question_key=? WHERE context=?',[power_question_key($q),$context]);
         tournament_credit($db,$pid,'power:'.$context,-$price,0);
     }
-    return ['power'=>power_state($db,$context,$turn,$q),'remaining'=>max(0,10-(microtime(true)-$started)),'coins'=>tournament_wallet($db,$pid)['coins']];
+    return ['power'=>power_state($db,$context,$turn,$q),'remaining'=>max(0,10-(microtime(true)-$started)),'acceptedElapsed'=>$elapsed,'coins'=>tournament_wallet($db,$pid)['coins']];
 }
 // A first wrong Double Choice pick is hidden, not a submitted answer. Its
 // original server clock keeps running; neither a retry nor a reload resets it.

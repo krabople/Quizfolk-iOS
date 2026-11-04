@@ -32,19 +32,20 @@ struct TournamentRunReply:Decodable {
  var questionChanged:Bool?=nil
  var power:PowerState?=nil
  var retry:Bool?=nil
+ var selectedIndex:Int?=nil
 }
 
 extension QuizStore {
  func tournamentList() async throws -> TournamentList {
-  if isUITesting {return Self.testTournamentList()}
+  if isUITesting {let r=Self.testTournamentList();coinBalance=r.wallet.coins;return r}
   if profile==nil {await connect()}
-  return try await request("tournaments")
+  let reply:TournamentList=try await request("tournaments");coinBalance=reply.wallet.coins;return reply
  }
  func tournamentBoard(_ id:String) async throws -> TournamentBoard {
   if isUITesting {
    return TournamentBoard(event:Self.testTournamentList().events[0],entries:[],own:[],wallet:Self.testTournamentList().wallet)
   }
-  return try await request("tournament-board",query:[URLQueryItem(name:"event",value:id)])
+  let reply:TournamentBoard=try await request("tournament-board",query:[URLQueryItem(name:"event",value:id)]);coinBalance=reply.wallet.coins;return reply
  }
  static func testTournamentList()->TournamentList {
   let emptyWallet=ProcessInfo.processInfo.arguments.contains("--ui-testing-empty-wallet")

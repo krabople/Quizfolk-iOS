@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-// Coins are earned from server-scored play, not from client claims or logins.
+// Daily opening rewards and scored-play rewards use server dates and unique ledger references.
 function economy_schema(PDO $db):void {
     $columns=array_column($db->query('PRAGMA table_info(matches)')->fetchAll(),'name');
     if(!in_array('own_finished',$columns,true)) {
@@ -43,7 +43,7 @@ function coin_trail_progress(PDO $db,string $pid):array {
     $day=(int)floor(time()/86400)*86400;$week=strtotime('monday this week 00:00 UTC');
     $topics=sql($db,'SELECT topic FROM coin_trail_stamps WHERE player_id=? AND day=? ORDER BY rowid',[$pid,$day])->fetchAll(PDO::FETCH_COLUMN);
     $days=(int)sql($db,'SELECT COUNT(*) FROM coin_trail_days WHERE player_id=? AND day>=? AND day<?',[$pid,$week,$week+604800])->fetchColumn();
-    return ['wallet'=>tournament_wallet($db,$pid),'topics'=>$topics,'earnedToday'=>count($topics)*10+(count($topics)===3?15:0),'dailyMaximum'=>45,'completedDays'=>$days,'weeklyBonusEarned'=>(bool)sql($db,'SELECT 1 FROM tournament_ledger WHERE player_id=? AND reference=?',[$pid,'trail-week:'.$week])->fetch(),'resets'=>$day+86400];
+    return ['loginClaimed'=>(bool)sql($db,'SELECT 1 FROM tournament_ledger WHERE player_id=? AND reference=?',[$pid,'login:'.gmdate('Y-m-d')])->fetch(),'wallet'=>tournament_wallet($db,$pid),'topics'=>$topics,'earnedToday'=>count($topics)*10+(count($topics)===3?15:0),'dailyMaximum'=>45,'completedDays'=>$days,'weeklyBonusEarned'=>(bool)sql($db,'SELECT 1 FROM tournament_ledger WHERE player_id=? AND reference=?',[$pid,'trail-week:'.$week])->fetch(),'resets'=>$day+86400];
 }
 
 function prize_card(array $row):array {
@@ -63,17 +63,29 @@ function display_badge(PDO $db,string $pid):?array {
     return $row?prize_card($row):null;
 }
 
+function daily_login_reward(PDO $db,string $pid):array {
+    $day=gmdate('Y-m-d');$reference='login:'.$day;
+    $claimed=(bool)sql($db,'SELECT 1 FROM tournament_ledger WHERE player_id=? AND reference=?',[$pid,$reference])->fetch();
+    tournament_credit($db,$pid,$reference,50,0);
+    return ['wallet'=>tournament_wallet($db,$pid),'awarded'=>$claimed?0:50,'day'=>$day,'resets'=>(int)floor(time()/86400)*86400+86400];
+}
 function economy_routes(string $route,PDO $db,string $pid,array $body):void {
-    if(!in_array($route,['coins','prizes','prize-seen','select-badge'],true))return;
+    if(!in_array($route,['coins','prizes','prize-seen','select-badge','daily-login'],true))return;
     $db->exec('BEGIN IMMEDIATE');tournament_seed($db);tournament_settle($db);tournament_wallet($db,$pid);
+    if($route==='daily-login') {
+        $reply=daily_login_reward($db,$pid);$db->exec('COMMIT');out($reply);
+    }
     if($route==='coins'){$reply=coin_trail_progress($db,$pid);$db->exec('COMMIT');out($reply);}
-    if($route==='prizes'){$reply=['pending'=>earned_prizes($db,$pid,true),'earned'=>earned_prizes($db,$pid),'selected'=>display_badge($db,$pid)];$db->exec('COMMIT');out($reply);}
+    if($route==='prizes'){daily_login_reward($db,$pid);$reply=['pending'=>earned_prizes($db,$pid,true),'earned'=>earned_prizes($db,$pid),'selected'=>display_badge($db,$pid),'wallet'=>tournament_wallet($db,$pid)];$db->exec('COMMIT');out($reply);}
     $event=$body['event'] ?? null;
     if($event!==null && !is_string($event))fail('Choose a tournament badge');
     if($event!==null && !sql($db,'SELECT 1 FROM tournament_places WHERE player_id=? AND event_id=? AND rank BETWEEN 1 AND 3',[$pid,$event])->fetch())fail('You have not earned this tournament badge',403);
     if($route==='prize-seen') {
         if($event===null)fail('Choose a tournament result');
         sql($db,'INSERT OR IGNORE INTO tournament_prize_receipts VALUES(?,?,?)',[$pid,$event,time()]);
-    } else sql($db,'INSERT INTO player_display_badge VALUES(?,?) ON CONFLICT(player_id) DO UPDATE SET event_id=excluded.event_id',[$pid,$event]);
-    $db->exec('COMMIT');out(['ok'=>true]);
+    } else {
+        sql($db,'INSERT INTO player_display_badge VALUES(?,?) ON CONFLICT(player_id) DO UPDATE SET event_id=excluded.event_id',[$pid,$event]);
+        if($event!==null && ($body['acknowledge'] ?? false)===true)sql($db,'INSERT OR IGNORE INTO tournament_prize_receipts VALUES(?,?,?)',[$pid,$event,time()]);
+    }
+    $db->exec('COMMIT');out(['ok'=>true,'acknowledged'=>$route==='select-badge' && $event!==null && ($body['acknowledge'] ?? false)===true]);
 }

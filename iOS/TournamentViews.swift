@@ -34,8 +34,8 @@ struct TournamentsView:View {
  }
  private func walletView(_ w:TournamentWallet)->some View {
   VStack(spacing:12) {
-   HStack {Label("\(w.coins) coins",systemImage:"circle.fill").font(.title2.bold());Spacer();NavigationLink("Earn coins"){CoinTrailView()}.font(.headline)}.foregroundStyle(Color.ink)
-   Text("Complete your Daily Trail to earn coins, then put them towards a tournament entry.").font(.caption).foregroundStyle(.secondary)
+   HStack {CoinAmount(coins:store.coinBalance ?? w.coins).font(.title2.bold());Spacer();NavigationLink("Earn coins"){CoinTrailView()}.font(.headline)}.foregroundStyle(Color.ink)
+   Text("Open Quizfolk each day for 50 coins. Earn up to 45 more through your Daily Trail.").font(.caption).foregroundStyle(.secondary)
   }.padding(17).background(.white,in:RoundedRectangle(cornerRadius:17))
  }
  private func reload()async {do{list=try await store.tournamentList();error=nil}catch{self.error=error.localizedDescription}}
@@ -77,7 +77,7 @@ struct TournamentDetailView:View {
     if !current.closed {HStack{Text("Closes");Text(Date(timeIntervalSince1970:current.ends),style:.date);Text(Date(timeIntervalSince1970:current.ends),style:.time)}.font(.caption)}
     HStack {summary("\(current.best)","Your best points");summary("\(current.players)","Players");summary("\(current.attempts)","Your attempts")}.padding(18).background(.white,in:RoundedRectangle(cornerRadius:18))
     if !current.closed {
-     if let wallet=board?.wallet {Text("Your balance: \(wallet.coins) coins").font(.caption).foregroundStyle(.secondary)}
+     if let wallet=board?.wallet {HStack(spacing:6){Text("Your balance:");CoinAmount(coins:store.coinBalance ?? wallet.coins,size:16)}.font(.caption).foregroundStyle(.secondary)}
      if current.isFeatured || current.activeRun != nil {
       Button(entryBusy ? "Checking entry…":(current.activeRun==nil ? "Enter · \(current.entryLabel)":"Resume your run · already entered")) {
        Task{await prepareEntry()}
@@ -125,7 +125,7 @@ struct TournamentDetailView:View {
  private var rules:some View {
   VStack(alignment:.leading,spacing:11) {
    Text("How this tournament works").font(.headline)
-   Text("Keep answering in \(topic.name) until your first wrong answer or timeout. Read each question for 3 seconds, then choose from four answers within 10 seconds. Correct answers earn 11–20 points for speed; every question has the same value. Your score is the total points in that run. You may use one power-up during the entire run: Fifty Fifty removes two wrong choices (5 coins); Double Choice allows a second pick (10); Right Answer highlights the answer for you to tap (25). The clock keeps running.")
+   Text("Keep answering in \(topic.name) until your first wrong answer or timeout. Read each question for 3 seconds, then choose from four answers within 10 seconds. Correct answers earn 11–20 points for speed; every question has the same value. Your score is the total points in that run. You may use one power-up during the entire run: Fifty Fifty removes two wrong choices (5 coins); Double Choice allows a second pick (10); Right Answer selects and submits the correct answer (25). The clock keeps running.")
    Text("Try again for the displayed entry cost. Only your best run counts; attempts do not add together. Every question in a run is different. If you clear the entire topic bank, that completes your run.")
    Text("The leaderboard closes at the stated time. Earned points are kept if you end a run early or the event closes. The top three places receive coins and a profile badge.")
    Text("Prizes are guaranteed: \(current.podiumPrizes[0]) coins for first, \(current.podiumPrizes[1]) for second and \(current.podiumPrizes[2]) for third. A sole entrant receives the first-place prize. Tied players share the combined prizes for the places they occupy, rounded down to whole coins. Prizes are credited automatically after closure; leading an open tournament is provisional.")

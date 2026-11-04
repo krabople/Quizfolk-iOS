@@ -19,10 +19,10 @@ struct RootView:View {
             ProfileView().tabItem{Label("You",systemImage:"person.crop.circle.fill")}.tag(3)
         }.tint(.coral)
         .onAppear{if !didChoose {interests=true}}
-        .accessibilityHidden(!interests && !store.pendingPrizes.isEmpty)
-        .overlay{if !interests,let prize=store.pendingPrizes.first {TournamentPrizePopup(prize:prize).id(prize.id)}}
-        .task {await store.connect();await store.refreshSocial();await store.loadPrizes()}
-        .onChange(of:scenePhase){_,phase in if phase == .active {Task{await store.refreshSocial();await store.loadPrizes()}}}
+        .accessibilityHidden(!interests && (!store.pendingPrizes.isEmpty || store.badgeConfirmation != nil))
+        .overlay{if !interests {if let prize=store.badgeConfirmation{BadgeAppliedPopup(prize:prize)}else if let prize=store.pendingPrizes.first {TournamentPrizePopup(prize:prize).id(prize.id)}}}
+        .task {await store.connect();await store.claimDailyLogin();await store.refreshSocial();await store.loadPrizes()}
+        .onChange(of:scenePhase){_,phase in if phase == .active {Task{await store.claimDailyLogin();await store.refreshSocial();await store.loadPrizes()}}}
         .sheet(isPresented:$interests,onDismiss:{didChoose=true}){InterestsView()}
         .alert("Question bank unavailable",isPresented:Binding(get:{store.loadError != nil},set:{_ in store.loadError=nil})){Button("OK",role:.cancel){}}message:{Text(store.loadError ?? "")}
     }
@@ -159,7 +159,7 @@ struct TopicView:View {
                     Text("We search for a human first. You can meet another searcher or face a recorded human run. A labelled bot is offered after six seconds when nobody is available. Play your own questions on your own schedule.").font(.subheadline).foregroundStyle(.secondary)
                     Button("Find a duel"){session=GameSession(topic:topic,store:store,online:true)}.buttonStyle(PrimaryButton(color:topic.tint))
                     Button("Practise against a bot"){session=GameSession(topic:topic,store:store,online:false)}.font(.headline).padding(12).tint(topic.tint)
-                    Text("Correct: 11–20 points for speed. Final question counts double. Wrong answers and timeouts score zero. Maximum 160. One power-up per duel: Fifty Fifty removes two wrong options (5 coins); Double Choice gives one extra pick (10); Right Answer highlights the answer for you to tap (25). The clock keeps running.").font(.caption).foregroundStyle(.secondary).multilineTextAlignment(.center)
+                    Text("Correct: 11–20 points for speed. Final question counts double. Wrong answers and timeouts score zero. Maximum 160. One power-up per duel: Fifty Fifty removes two wrong options (5 coins); Double Choice gives one extra pick (10); Right Answer selects and submits the correct answer (25). The clock keeps running.").font(.caption).foregroundStyle(.secondary).multilineTextAlignment(.center)
                 }
             }.padding(22)
         }.background(Color.canvas).foregroundStyle(Color.ink).navigationTitle(topic.name).navigationBarTitleDisplayMode(.inline).toolbar(.visible,for:.navigationBar)

@@ -4,7 +4,7 @@ import SwiftUI
 struct PublicQuestion:Decodable {let id:String;let prompt:String;let answers:[String];let difficulty:String;let source:String?;let sourceURL:String?}
 struct StartReply:Decodable {let id:String;let kind:String;let opponent:String;let opponentAvatar:String?;var opponentID:String?=nil;var duelID:String?=nil;var played:[PlayedRound]?=nil;var score:Int?=nil;var opponentScore:Int?=nil;var pending:Bool?=nil;var powerAllowed:Bool?=nil}
 struct RoundReply:Decodable {let round:Int;let question:PublicQuestion;let remaining:Double;let readingRemaining:Double?;let phase:String?;var power:PowerState?=nil}
-struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPoints:Int;let finished:Bool;let score:Int;let opponentScore:Int;let pending:Bool?;var retry:Bool?=nil;var remaining:Double?=nil;var power:PowerState?=nil}
+struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPoints:Int;let finished:Bool;let score:Int;let opponentScore:Int;let pending:Bool?;var retry:Bool?=nil;var remaining:Double?=nil;var power:PowerState?=nil;var selectedIndex:Int?=nil}
 @MainActor final class GameSession:ObservableObject,Identifiable {
     let id=UUID()
     let topic:Topic
@@ -172,13 +172,13 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
     private func submit(q:Question,index:Int,elapsed:Double) async {
         error=nil
         do {
-            let correct:Int;let points:Int;let other:Int
+            let correct:Int;let points:Int;let other:Int;var actualIndex=index
             if online {
                 let r:AnswerReply=try await store.request("answer",body:["match":matchID,"round":round,"answer":index])
                 if r.retry==true {
                     power=r.power ?? power;selected=nil;pendingAnswer=nil;startTimer(seconds:r.remaining ?? remaining);busy=false;return
                 }
-                correct=r.correctIndex;points=r.points;other=r.opponentPoints;opponentScore=r.opponentScore-other;awaitingOpponent=r.pending ?? false
+                correct=r.correctIndex;points=r.points;other=r.opponentPoints;score=r.score-points;opponentScore=r.opponentScore-other;awaitingOpponent=r.pending ?? false;actualIndex=r.selectedIndex ?? index
             } else {
                 if power.type=="double",power.hidden.isEmpty,index>=0,index != q.correctIndex,remaining>0 {
                     power.hidden=[index];selected=nil;pendingAnswer=nil;startTimer(seconds:remaining);busy=false;return
@@ -187,14 +187,17 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
                 let chance=q.difficulty=="easy" ? 0.83 : (q.difficulty=="hard" ? 0.45:0.65)
                 other=Scoring.points(correct:Double.random(in:0...1)<chance,elapsed:Double.random(in:1.2...9.8),round:round)
             }
-            let revealedQ=Question(id:q.id,categoryID:q.categoryID,difficulty:q.difficulty,prompt:q.prompt,answers:q.answers,correctIndex:correct,source:q.source,sourceURL:q.sourceURL)
-            current=revealedQ;lastPoints=points;score+=points;opponentScore+=other
-            rounds.append(PlayedRound(question:revealedQ,selected:index,elapsed:elapsed,points:points,opponentPoints:other))
-            revealed=true;pendingAnswer=nil;if !online || kind=="bot"{opponentAnswered=rounds.count}
-            if rounds.count==7 {saveResult()}
-            UIImpactFeedbackGenerator(style:.light).impactOccurred()
+            completeAnswer(q:q,index:actualIndex,elapsed:elapsed,correct:correct,points:points,other:other)
         } catch {self.error=error.localizedDescription}
         busy=false
+    }
+    private func completeAnswer(q:Question,index:Int,elapsed:Double,correct:Int,points:Int,other:Int) {
+        guard !revealed else{return};timer?.cancel();selected=index
+        let shown=Question(id:q.id,categoryID:q.categoryID,difficulty:q.difficulty,prompt:q.prompt,answers:q.answers,correctIndex:correct,source:q.source,sourceURL:q.sourceURL)
+        current=shown;lastPoints=points;score+=points;opponentScore+=other
+        rounds.append(PlayedRound(question:shown,selected:index,elapsed:elapsed,points:points,opponentPoints:other))
+        revealed=true;pendingAnswer=nil;if !online || kind=="bot"{opponentAnswered=rounds.count}
+        if rounds.count==7{saveResult()};UIImpactFeedbackGenerator(style:.light).impactOccurred()
     }
     private func refreshProgress() async {
         if let r:MatchProgress=try? await store.request("match-progress",body:["match":matchID]){opponentAnswered=r.opponentAnswered;opponentResults=r.opponentResults ?? []}
@@ -204,7 +207,11 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
         busy=true;powerError=nil
         do {
             if online {
-                let r:PowerReply=try await store.request("power",body:["match":matchID,"turn":round,"type":choice.rawValue]);power=r.power;startTimer(seconds:r.remaining)
+                let r:PowerReply=try await store.request("power",body:["match":matchID,"turn":round,"type":choice.rawValue,"autoAnswer":choice == .right]);power=r.power;store.coinBalance=r.coins
+                if let answer=r.duelAnswer {
+                    remaining=r.remaining;score=answer.score-answer.points;opponentScore=answer.opponentScore-answer.opponentPoints;awaitingOpponent=answer.pending ?? false
+                    completeAnswer(q:q,index:answer.selectedIndex ?? answer.correctIndex,elapsed:max(0,10-r.remaining),correct:answer.correctIndex,points:answer.points,other:answer.opponentPoints)
+                } else {startTimer(seconds:r.remaining)}
             } else {
                 power=PowerState(used:true,type:choice.rawValue)
                 if choice == .fifty {power.hidden=Array(q.answers.indices.filter{$0 != q.correctIndex}.shuffled().prefix(2))}
@@ -212,6 +219,7 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
             }
         } catch {powerError=error.localizedDescription}
         busy=false
+        if choice == .right,!revealed,power.used,let index=power.highlight {await answer(index);return}
         if remaining<=0{await answer(-1)}
     }
     func retry() async {

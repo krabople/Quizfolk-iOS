@@ -22,8 +22,26 @@ struct CoinTrailStatus:Decodable {
     let completedDays:Int
     let weeklyBonusEarned:Bool
     let resets:Double
+    var loginClaimed:Bool?=nil
 }
-struct PrizeInbox:Decodable {let pending:[TournamentPrize];let earned:[TournamentPrize];let selected:TournamentPrize?}
+struct PrizeInbox:Decodable {let pending:[TournamentPrize];let earned:[TournamentPrize];let selected:TournamentPrize?;var wallet:TournamentWallet?=nil}
+struct DailyLoginReward:Decodable {let wallet:TournamentWallet;let awarded:Int;let day:String;let resets:Double}
+
+struct CoinSymbol:View {
+    var size:CGFloat=22
+    var body:some View {
+        ZStack {
+            Circle().fill(LinearGradient(colors:[Color(hex:"FFE29A"),Color(hex:"D99824")],startPoint:.topLeading,endPoint:.bottomTrailing))
+            Circle().stroke(Color(hex:"A76B11"),lineWidth:max(1,size*0.06))
+            Circle().stroke(Color(hex:"FFF0BC"),lineWidth:max(1,size*0.045)).padding(size*0.13)
+            Text("Q").font(.system(size:size*0.5,weight:.black,design:.rounded)).foregroundStyle(Color(hex:"A66B17"))
+        }.frame(width:size,height:size).accessibilityHidden(true)
+    }
+}
+struct CoinAmount:View {
+    let coins:Int;var size:CGFloat=22
+    var body:some View {HStack(spacing:6){CoinSymbol(size:size);Text("\(coins) coins")}}
+}
 
 extension QuizStore {
     private var usesCoinFixtures:Bool {
@@ -44,15 +62,17 @@ extension QuizStore {
             return
         }
         prizesLoading=true;defer{prizesLoading=false}
-        do {let reply:PrizeInbox=try await request("prizes");pendingPrizes=reply.pending;earnedPrizes=reply.earned}
+        do {let reply:PrizeInbox=try await request("prizes");pendingPrizes=reply.pending;earnedPrizes=reply.earned;if let wallet=reply.wallet{coinBalance=wallet.coins}}
         catch { /* A connection error leaves unseen results pending on the server. */ }
     }
     func acknowledgePrize(_ prize:TournamentPrize,wear:Bool) async throws {
-        if usesCoinFixtures {testPrizeAcknowledged=true;pendingPrizes.removeAll{$0.id==prize.id};if wear {ownCard?.displayBadge=prize};return}
-        if wear {let _:OKReply=try await request("select-badge",body:["event":prize.id])}
-        let _:OKReply=try await request("prize-seen",body:["event":prize.id])
+        if usesCoinFixtures {testPrizeAcknowledged=true;if wear{ownCard?.displayBadge=prize;badgeConfirmation=prize};pendingPrizes.removeAll{$0.id==prize.id};return}
+        if wear {
+            let reply:OKReply=try await request("select-badge",body:["event":prize.id,"acknowledge":true])
+            if reply.acknowledged != true {let _:OKReply=try await request("prize-seen",body:["event":prize.id])}
+            ownCard?.displayBadge=prize;badgeConfirmation=prize
+        } else {let _:OKReply=try await request("prize-seen",body:["event":prize.id])}
         pendingPrizes.removeAll{$0.id==prize.id}
-        if wear {ownCard=try await request("player")}
     }
     func selectBadge(_ prize:TournamentPrize?) async throws {
         if usesCoinFixtures {ownCard?.displayBadge=prize;return}
@@ -61,8 +81,31 @@ extension QuizStore {
         ownCard=try await request("player")
     }
     func coinTrail() async throws -> CoinTrailStatus {
-        if usesCoinFixtures {return CoinTrailStatus(wallet:TournamentWallet(coins:110,tickets:0,dailyClaimed:true),topics:["22"],earnedToday:10,dailyMaximum:45,completedDays:2,weeklyBonusEarned:false,resets:1_793_232_000)}
-        return try await request("coins")
+        if usesCoinFixtures {coinBalance=110;return CoinTrailStatus(wallet:TournamentWallet(coins:110,tickets:0,dailyClaimed:true),topics:["22"],earnedToday:10,dailyMaximum:45,completedDays:2,weeklyBonusEarned:false,resets:1_793_232_000,loginClaimed:true)}
+        let result:CoinTrailStatus=try await request("coins");coinBalance=result.wallet.coins;return result
+    }
+    func claimDailyLogin() async {
+        guard profile != nil,!claimingDailyLogin,!usesCoinFixtures else{return}
+        claimingDailyLogin=true;defer{claimingDailyLogin=false}
+        do {let reward:DailyLoginReward=try await request("daily-login",body:[:]);dailyLoginReward=reward;coinBalance=reward.wallet.coins}
+        catch { /* The server keeps this day's reward available for the next connection. */ }
+    }
+}
+
+struct BadgeAppliedPopup:View {
+    @EnvironmentObject private var store:QuizStore
+    let prize:TournamentPrize
+    var body:some View {
+        ZStack {
+            Color.black.opacity(0.55).ignoresSafeArea()
+            VStack(spacing:20) {
+                Image(systemName:"checkmark.circle.fill").font(.system(size:40)).foregroundStyle(.green)
+                PlayerPortrait(name:store.name,avatar:store.avatar,size:120,badge:prize)
+                Text("Badge added!").font(.system(size:29,weight:.bold,design:.rounded))
+                Text("Your tournament badge is now displayed beside your profile picture.").multilineTextAlignment(.center)
+                Button("Done"){store.badgeConfirmation=nil}.buttonStyle(PrimaryButton()).accessibilityIdentifier("badgeConfirmationDone")
+            }.padding(28).background(Color.canvas,in:RoundedRectangle(cornerRadius:28)).padding(22)
+        }.accessibilityIdentifier("badgeAppliedConfirmation")
     }
 }
 
@@ -140,10 +183,12 @@ struct CoinTrailView:View {
                 Text("Complete an online duel with at least 4 correct answers in each of 3 different topics today.").font(.body)
                 if let status {
                     HStack {
-                        Label("\(status.wallet.coins) coins",systemImage:"circle.fill").font(.headline).foregroundStyle(Color(hex:"B27B23"))
+                        CoinAmount(coins:store.coinBalance ?? status.wallet.coins).font(.headline).foregroundStyle(Color(hex:"B27B23"))
                         Spacer()
                         Text("\(status.earnedToday) / 45 earned today").font(.caption)
                     }
+                    HStack(spacing:12){CoinSymbol(size:30);VStack(alignment:.leading,spacing:4){Text("50 coins for opening Quizfolk each day").font(.headline);Text(status.loginClaimed==true ? "Today's login reward is claimed":"Credited automatically when you open the app").font(.caption).foregroundStyle(.secondary)}}.padding(16).frame(maxWidth:.infinity,alignment:.leading).background(.white,in:RoundedRectangle(cornerRadius:16))
+                    Text("DAILY TRAIL · EXTRA COINS").font(.caption.bold()).foregroundStyle(.secondary)
                     ForEach(0..<3,id:\.self){i in trailStep(i,status:status)}
                     Text("10 coins per topic + 15 for finishing all three").font(.subheadline.bold())
                     VStack(alignment:.leading,spacing:9) {
@@ -151,7 +196,7 @@ struct CoinTrailView:View {
                         ProgressView(value:Double(min(status.completedDays,5)),total:5).tint(.coral)
                         Text(status.weeklyBonusEarned ? "50-coin weekly bonus earned":"\(min(status.completedDays,5)) of 5 daily trails · earn 50 bonus coins").font(.subheadline)
                     }.padding(18).background(.white,in:RoundedRectangle(cornerRadius:16))
-                    Text("Daily limit: 45 coins. Weekly bonus: once per week. Days reset at 00:00 UTC; weeks reset on Monday. Repeating a topic, offline practice and tournament attempts do not earn trail coins. You can complete all five days at your own pace within the week.").font(.caption).foregroundStyle(.secondary)
+                    Text("Login reward: 50 coins once per day. Trail limit: 45 extra coins per day. Weekly trail bonus: once per week. Days reset at 00:00 UTC; weeks reset on Monday. Repeating a topic, offline practice and tournament attempts do not earn trail coins. You can complete all five trail days at your own pace within the week.").font(.caption).foregroundStyle(.secondary)
                     if status.topics.count<3 {
                         Text("Choose your next topic").font(.title3.bold())
                         ForEach(store.topics.filter{!status.topics.contains($0.id)}){topic in

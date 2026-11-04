@@ -23,6 +23,25 @@ final class ScoringTests:XCTestCase {
         XCTAssertEqual(Scoring.points(correct:true,elapsed:.nan,round:0),0)
         XCTAssertEqual((0..<7).reduce(0){$0+Scoring.points(correct:true,elapsed:0,round:$1)},160)
     }
+    @MainActor func testRightAnswerAppliesAtomicServerSubmissionWithoutAnotherTap() async throws {
+        let store=QuizStore();await store.connect()
+        let match=try JSONDecoder().decode(StartReply.self,from:Data(#"{"id":"auto-match","kind":"bot","opponent":"Bot","opponentAvatar":null}"#.utf8))
+        store.testResponse={route,body in
+            switch route {
+            case "round": return Data(#"{"round":0,"question":{"id":"q","prompt":"Which option?","answers":["A","B","C","D"],"difficulty":"easy"},"remaining":10,"phase":"answer"}"#.utf8)
+            case "power":
+                XCTAssertEqual(body?["autoAnswer"] as? Bool,true)
+                return Data(#"{"power":{"used":true,"type":"right","hidden":[],"highlight":2},"remaining":8,"coins":125,"duelAnswer":{"selectedIndex":2,"correctIndex":2,"points":18,"opponentPoints":0,"finished":false,"score":18,"opponentScore":0}}"#.utf8)
+            case "match-progress":return Data(#"{"ownAnswered":1,"opponentAnswered":1}"#.utf8)
+            default:XCTFail("Unexpected request: \(route)");throw APIError.message("Unexpected request")
+            }
+        }
+        let game=GameSession(topic:store.topics[0],store:store,online:true,match:match);defer{game.stop()}
+        await game.begin();await game.startPlaying();await game.usePower(.right)
+        XCTAssertTrue(game.revealed);XCTAssertEqual(game.selected,2);XCTAssertEqual(game.rounds.count,1)
+        XCTAssertEqual(game.lastPoints,18);XCTAssertEqual(store.coinBalance,125)
+        await game.answer(0);XCTAssertEqual(game.rounds.count,1)
+    }
     func testExperienceBonuses() {
         XCTAssertEqual(Scoring.experience(score:160,opponentScore:100),300)
         XCTAssertEqual(Scoring.experience(score:100,opponentScore:100),190)

@@ -57,5 +57,25 @@ import XCTest
         XCTAssertEqual(status.earnedToday,45)
         XCTAssertTrue(status.weeklyBonusEarned)
     }
+    func testWearingPrizeShowsConfirmationAfterAtomicSave() async throws {
+        let store=QuizStore();await store.connect();store.pendingPrizes=[QuizStore.testPrize]
+        store.testResponse={route,body in
+            XCTAssertEqual(route,"select-badge");XCTAssertEqual(body?["acknowledge"] as? Bool,true)
+            return Data(#"{"ok":true,"acknowledged":true}"#.utf8)
+        }
+        try await store.acknowledgePrize(QuizStore.testPrize,wear:true)
+        XCTAssertTrue(store.pendingPrizes.isEmpty)
+        XCTAssertEqual(store.ownCard?.displayBadge,QuizStore.testPrize)
+        XCTAssertEqual(store.badgeConfirmation,QuizStore.testPrize)
+    }
+    func testDailyLoginUsesServerAwardAndBalanceOnRepeat() async {
+        let store=QuizStore();await store.connect();var calls=0
+        store.testResponse={route,body in
+            XCTAssertEqual(route,"daily-login");XCTAssertNotNil(body);calls+=1
+            return try JSONSerialization.data(withJSONObject:["wallet":["coins":150,"tickets":0,"dailyClaimed":false],"awarded":calls==1 ? 50:0,"day":"2026-11-04","resets":1793836800])
+        }
+        await store.claimDailyLogin();XCTAssertEqual(store.dailyLoginReward?.awarded,50);XCTAssertEqual(store.coinBalance,150)
+        await store.claimDailyLogin();XCTAssertEqual(store.dailyLoginReward?.awarded,0);XCTAssertEqual(store.coinBalance,150)
+    }
     private static var prize:[String:Any] {["id":"test-prize","topicID":"22","kind":"daily","rank":1,"coins":75,"date":1_793_145_600,"score":120]}
 }

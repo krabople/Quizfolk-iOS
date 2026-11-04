@@ -147,4 +147,33 @@ req('party-cancel',{'party':cancel['id']},b)
 assert wallet(c)==0 and wallet(b)==before
 paid=min(req('tournaments',token=c)['events'],key=lambda x:x['coins'])
 req('tournament-enter',{'event':paid['id'],'requestID':str(uuid.uuid4())},c,409)
+# Right Answer submits atomically. A lost response can be retried without a
+# second debit, another answer, or moving the original answer deadline.
+with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_wallet SET coins=500 WHERE player_id=?',(aid,))
+auto=req('match',{'topic':'22'},a,201);q=reveal(a,auto['id'])['question'];n=right(q)
+before=wallet(a);body={'match':auto['id'],'turn':0,'type':'right','autoAnswer':True}
+p=req('power',body,a);answer=p['duelAnswer']
+assert answer['selectedIndex']==answer['correctIndex']==n and answer['points']>0
+assert p['coins']==before-25 and req('power',body,a)['duelAnswer']==answer
+assert req('answer',{'match':auto['id'],'round':0,'answer':(n+1)%4},a)==answer
+with sqlite3.connect(STATE) as db:
+ stored=json.loads(db.execute('SELECT answers FROM matches WHERE id=?',(auto['id'],)).fetchone()[0])
+ assert len(stored)==1 and stored[0]['selected']==n
+ assert db.execute('SELECT COUNT(*) FROM tournament_ledger WHERE player_id=? AND reference=?',(aid,'power:match:'+auto['id'])).fetchone()[0]==1
+reveal(a,auto['id']);req('power',dict(body,turn=1),a,409)
+# An expired request cannot buy a power-up or submit an answer.
+late=req('match',{'topic':'22'},a,201);reveal(a,late['id']);before=wallet(a)
+with sqlite3.connect(STATE) as db:db.execute('UPDATE matches SET started=? WHERE id=?',(time.time()-11,late['id']))
+req('power',{'match':late['id'],'turn':0,'type':'right','autoAnswer':True},a,409)
+assert wallet(a)==before
+auto=req('tournament-enter',{'event':paid['id'],'requestID':str(uuid.uuid4())},a,201)
+req('tournament-round',{'run':auto['id']},a)
+with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_runs SET preview=? WHERE id=?',(time.time()-4,auto['id']))
+q=req('tournament-reveal',{'run':auto['id']},a)['question'];n=right(q);before=wallet(a)
+body={'run':auto['id'],'turn':0,'type':'right','autoAnswer':True}
+p=req('tournament-power',body,a);answer=p['tournamentAnswer']
+assert answer['selectedIndex']==answer['correctIndex']==n and answer['correct'] and answer['streak']==1 and answer['turn']==1
+assert p['coins']==before-25 and req('tournament-power',body,a)['tournamentAnswer']==answer
+assert req('tournament-answer',{'run':auto['id'],'turn':0,'answer':-1},a)==answer
+assert wallet(a)==before-25
 print('PASS: private round-robin permissions, home/away cycles, results, prizes, refunds, mixed packets and atomic bounded power-ups')

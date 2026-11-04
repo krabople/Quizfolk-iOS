@@ -18,6 +18,16 @@ import XCTest
   XCTAssertNil(wallet.entryProblem(for:resume))
   XCTAssertNil(TournamentWallet(coins:25,tickets:0,dailyClaimed:true).entryProblem(for:event))
  }
+ func testRightAnswerAutomaticallyAppliesSurvivalAnswer() async throws {
+  let store=QuizStore();let fixture=TournamentFixture()
+  store.testResponse={route,body in try await fixture.response(route,body)}
+  let game=TournamentSession(event:QuizStore.testTournamentList().events[0],topic:store.topics[0],store:store)
+  defer{game.stop()};await game.begin();await game.usePower(.right)
+  XCTAssertTrue(game.revealed);XCTAssertEqual(game.selected,0);XCTAssertEqual(game.score,20)
+  XCTAssertEqual(game.streak,1);XCTAssertFalse(game.runEnded);XCTAssertEqual(fixture.submissions,1)
+  await game.answer(1);XCTAssertEqual(fixture.submissions,1)
+  XCTAssertEqual(store.coinBalance,50)
+ }
  func testRunContinuesBeyondSevenAndStopsOnFirstWrongAnswer() async throws {
   let store=QuizStore();let fixture=TournamentFixture()
   store.testResponse={route,body in try await fixture.response(route,body)}
@@ -75,6 +85,10 @@ import XCTest
    turn+=1
    if correct {score+=20;streak+=1}else{state="finished"}
    r=["id":"fixture-run","eventID":"test-event","score":score,"streak":streak,"turn":turn,"state":state,"correctIndex":0,"points":correct ? 20:0,"correct":correct]
+  case "tournament-power":
+   XCTAssertEqual(body?["type"] as? String,"right");XCTAssertEqual(body?["autoAnswer"] as? Bool,true)
+   turn+=1;score+=20;streak+=1;submissions+=1
+   r=["power":["used":true,"type":"right","hidden":[],"highlight":0],"remaining":9.9,"coins":50,"tournamentAnswer":["id":"fixture-run","eventID":"test-event","score":score,"streak":streak,"turn":turn,"state":state,"selectedIndex":0,"correctIndex":0,"points":20,"correct":true]]
   default:throw APIError.message("Unexpected fixture route: \(route)")
   }
   return try JSONSerialization.data(withJSONObject:r)

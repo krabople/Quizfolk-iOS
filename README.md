@@ -150,3 +150,17 @@ turning red for the last three seconds. Rival markers use actual correct/wrong
 results; asynchronous results stay neutral until both players answer that round.
 Tournament badges combine the topic icon/colour, a daily seal or weekly shield,
 and a gold/silver/bronze placing ribbon. Friends badges use a group icon.
+
+
+## Daily opening reward and profile polish (4 November 2026)
+
+Opening or returning to the app automatically earns 50 coins once per UTC day,
+resetting at 00:00 UTC. The server ledger makes retries and multiple launches
+idempotent. Existing clients also claim this reward through their launch/resume
+prize-inbox request. Daily Trail earnings remain an additional 45 coins per day.
+Right Answer now selects and submits the correct option in the same server
+transaction as its purchase, using the original answer clock. A retry returns
+the saved answer without another debit. Older clients keep their highlight-and-tap
+behaviour. Wearing a prize badge saves and acknowledges it atomically, followed
+by a persistent confirmation popup. Wallets use a gold coin symbol, and profile
+shortcuts are aligned buttons.

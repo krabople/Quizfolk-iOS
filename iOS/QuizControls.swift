@@ -7,7 +7,7 @@ struct PowerState:Decodable {
  var highlight:Int?=nil
  func nextQuestion()->PowerState {PowerState(used:used)}
 }
-struct PowerReply:Decodable {let power:PowerState;let remaining:Double;let coins:Int}
+struct PowerReply:Decodable {let power:PowerState;let remaining:Double;let coins:Int;var duelAnswer:AnswerReply?=nil;var tournamentAnswer:TournamentRunReply?=nil}
 struct MatchProgress:Decodable {let ownAnswered:Int;let opponentAnswered:Int;var opponentResults:[Bool?]?=nil}
 
 struct QuestionTimeBar:View {
@@ -30,7 +30,7 @@ enum QuizPower:String,CaseIterable {
  var title:String {switch self{case .fifty:return "Fifty Fifty";case .double:return "Double Choice";case .right:return "Right Answer"}}
  var symbol:String {switch self{case .fifty:return "50.circle";case .double:return "arrow.triangle.branch";case .right:return "checkmark.circle"}}
  var price:Int {switch self{case .fifty:return 5;case .double:return 10;case .right:return 25}}
- var detail:String {switch self{case .fifty:return "Removes two wrong options.";case .double:return "One extra choice after a wrong pick; the clock keeps running.";case .right:return "Highlights the right answer. Tap it before time runs out."}}
+ var detail:String {switch self{case .fifty:return "Removes two wrong options.";case .double:return "One extra choice after a wrong pick; the clock keeps running.";case .right:return "Selects and submits the correct answer for you."}}
 }
 struct PowerTray:View {
  let power:PowerState;let enabled:Bool;var practice=false;var allowed=true
@@ -39,7 +39,7 @@ struct PowerTray:View {
   VStack(spacing:5) {
    if allowed {
     HStack(spacing:7) {ForEach(QuizPower.allCases,id:\.rawValue){p in
-     Button{action(p)}label:{VStack(spacing:3){Label(p.title,systemImage:p.symbol).font(.system(size:10,weight:.bold));Text(practice ? "Practice":"\(p.price) coins").font(.system(size:10,weight:.medium))}.frame(maxWidth:.infinity).padding(.vertical,9).background(.white.opacity(0.13),in:RoundedRectangle(cornerRadius:9))}.disabled(!enabled || power.used).opacity(power.used ? 0.45:1).accessibilityLabel("\(p.title), \(practice ? "practice":String(p.price)+" coins"). \(p.detail)").accessibilityIdentifier("power-\(p.rawValue)")
+     Button{action(p)}label:{VStack(spacing:3){Label(p.title,systemImage:p.symbol).font(.system(size:10,weight:.bold));HStack(spacing:3){if !practice{CoinSymbol(size:11)};Text(practice ? "Practice":"\(p.price) coins").font(.system(size:10,weight:.medium))}}.frame(maxWidth:.infinity).padding(.vertical,9).background(.white.opacity(0.13),in:RoundedRectangle(cornerRadius:9))}.disabled(!enabled || power.used).opacity(power.used ? 0.45:1).accessibilityLabel("\(p.title), \(practice ? "practice":String(p.price)+" coins"). \(p.detail)").accessibilityIdentifier("power-\(p.rawValue)")
     }}
     Text(power.used ? "Power-up used · one per run":"One power-up per run · clock keeps running").font(.system(size:9)).opacity(0.8)
    } else {Text("Host has switched power-ups off").font(.caption2).opacity(0.8)}

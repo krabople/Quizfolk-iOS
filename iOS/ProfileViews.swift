@@ -51,9 +51,12 @@ struct ProfileView:View {
                     if store.avatar != nil {Button("Remove profile picture",role:.destructive){Task{await store.changeAvatar(nil)}}.font(.caption).disabled(store.profileBusy)}
                     if let pictureError {Text(pictureError).font(.caption).foregroundStyle(.red)}
                     Text(store.name).font(.system(size:25,weight:.bold,design:.rounded))
-                    HStack{NavigationLink("Earn coins"){CoinTrailView()};Spacer();NavigationLink("Tournament badges"){TournamentBadgePicker()}}.font(.subheadline)
+                    HStack(spacing:12){
+                        NavigationLink{CoinTrailView()}label:{profileAction("Earn coins",symbol:"",coin:true)}.accessibilityLabel("Earn coins")
+                        NavigationLink{TournamentBadgePicker()}label:{profileAction("Tournament badges",symbol:"trophy.fill")}.accessibilityLabel("Tournament badges")
+                    }.buttonStyle(.plain)
                     Text("A DIFFERENT LEVEL IN EVERY TOPIC").font(.system(size:11,weight:.heavy)).tracking(1).foregroundStyle(.secondary)
-                    if let id=store.profile?.id{NavigationLink("Your public card, titles & achievements"){PublicPlayerView(playerID:id)}}
+                    if let id=store.profile?.id{NavigationLink{PublicPlayerView(playerID:id)}label:{HStack(spacing:12){Image(systemName:"person.text.rectangle.fill");Text("Your public card, titles & achievements").multilineTextAlignment(.leading);Spacer(minLength:0);Image(systemName:"chevron.right").font(.caption)}.font(.subheadline.bold()).padding(17).frame(maxWidth:.infinity,alignment:.leading).foregroundStyle(.white).background(Color.ink,in:RoundedRectangle(cornerRadius:16))}.buttonStyle(.plain)}
                     HStack{metric("\(store.history.count)","Duels");metric("\(wins)","Wins");metric(total==0 ? "—":"\(Int(Double(correct)/Double(total)*100))%","Accuracy")}.padding(.vertical,18).background(.white,in:RoundedRectangle(cornerRadius:17))
                     VStack(alignment:.leading,spacing:14){Text("Your topic journey").font(.headline);ForEach(store.topics.filter{store.favourites.contains($0.id) || store.topicXP($0)>0}){topic in VStack(alignment:.leading,spacing:8){Text(topic.emoji+" "+topic.name).font(.subheadline.bold());TopicLevelProgress(topic:topic,xp:store.topicXP(topic))}}}.frame(maxWidth:.infinity,alignment:.leading)
                     settings
@@ -81,6 +84,10 @@ struct ProfileView:View {
             if let error=store.onlineError {Text(error).font(.caption).foregroundStyle(.red)}
             if store.profile != nil {Button("Delete online account",role:.destructive){deleteAccount=true}.font(.caption)}
         }.padding(18).background(.white,in:RoundedRectangle(cornerRadius:17))
+    }
+    private func profileAction(_ title:String,symbol:String,coin:Bool=false)->some View {
+        VStack(spacing:9){if coin{CoinSymbol(size:27)}else{Image(systemName:symbol).font(.system(size:26)).foregroundStyle(Color.coral)};Text(title).font(.system(size:15,weight:.semibold)).multilineTextAlignment(.center).lineLimit(2)}
+            .frame(maxWidth:.infinity).frame(height:90).background(.white,in:RoundedRectangle(cornerRadius:16)).overlay{RoundedRectangle(cornerRadius:16).stroke(Color.ink.opacity(0.12))}.foregroundStyle(Color.ink)
     }
     private func metric(_ value:String,_ label:String)->some View {VStack(spacing:5){Text(value).font(.system(size:25,weight:.bold,design:.rounded));Text(label).font(.caption).foregroundStyle(.secondary)}.frame(maxWidth:.infinity)}
 }

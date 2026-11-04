@@ -22,6 +22,10 @@ import Security
     @Published var socialError:String?
     @Published var pendingPrizes:[TournamentPrize]=[]
     @Published var earnedPrizes:[TournamentPrize]=[]
+    @Published var badgeConfirmation:TournamentPrize?
+    @Published var coinBalance:Int?
+    @Published var dailyLoginReward:DailyLoginReward?
+    var claimingDailyLogin=false
     var prizesLoading=false
     var testPrizeAcknowledged=false
     var testFollowing=false
@@ -125,7 +129,7 @@ import Security
     private func performConnect() async {
         profileBusy=true;defer{profileBusy=false}
         saveSettings();onlineError=nil
-        if UserDefaults.standard.string(forKey:"tokenEndpoint") != apiURL {token=nil;profile=nil;avatar=nil;ownCard=nil;pendingPrizes=[];earnedPrizes=[];UserDefaults.standard.removeObject(forKey:"avatar")}
+        if UserDefaults.standard.string(forKey:"tokenEndpoint") != apiURL {token=nil;profile=nil;avatar=nil;ownCard=nil;pendingPrizes=[];earnedPrizes=[];badgeConfirmation=nil;coinBalance=nil;dailyLoginReward=nil;UserDefaults.standard.removeObject(forKey:"avatar")}
         do {
             if token==nil {
                 let auth:AuthReply=try await request("register",body:["name":name,"automaticName":name.hasPrefix("Explorer-")])
@@ -168,7 +172,7 @@ import Security
         onlineError=nil
         do {
             let _:OKReply=try await request("delete-account",body:[:])
-            Keychain.delete();token=nil;profile=nil;board=[];avatar=nil;ownCard=nil;people=[];challenges=[];activity=[];pendingPrizes=[];earnedPrizes=[]
+            Keychain.delete();token=nil;profile=nil;board=[];avatar=nil;ownCard=nil;people=[];challenges=[];activity=[];pendingPrizes=[];earnedPrizes=[];badgeConfirmation=nil;coinBalance=nil;dailyLoginReward=nil
             UserDefaults.standard.removeObject(forKey:"tokenEndpoint");UserDefaults.standard.removeObject(forKey:"avatar")
         } catch {onlineError=error.localizedDescription}
     }
@@ -186,7 +190,7 @@ enum APIError: LocalizedError {
     var errorDescription:String? {if case .message(let s)=self{return s};return nil}
 }
 struct Failure:Decodable {let error:String}
-struct OKReply:Decodable {let ok:Bool}
+struct OKReply:Decodable {let ok:Bool;var acknowledged:Bool?=nil}
 struct NameReply:Decodable {let ok:Bool;let name:String}
 struct AuthReply:Decodable {let token:String}
 struct OnlineProfile:Decodable {var id:String? = nil;var socialVersion:Int? = nil;let name:String;let avatar:String?;let matches:Int;let wins:Int;let xp:Int;let correct:Int;let answered:Int}

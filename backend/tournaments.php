@@ -225,13 +225,23 @@ function tournament_routes(string $route,PDO $db,string $pid,array $body):void {
         tournament_credit($db,$pid,'entry:'.$id,-(int)$e['coins'],-(int)$e['tickets']);$r=sql($db,'SELECT * FROM tournament_runs WHERE id=?',[$id])->fetch();$db->exec('COMMIT');out(tournament_run_reply($r),201);
     }
     $id=(string)($body['run'] ?? '');$r=sql($db,'SELECT * FROM tournament_runs WHERE id=? AND player_id=?',[$id,$pid])->fetch();if(!$r)fail('Tournament run not found',404);
+    $autoPower=$route==='tournament-power' && ($body['type'] ?? '')==='right' && ($body['autoAnswer'] ?? false)===true;$autoPowerReply=null;
     if($route==='tournament-end') {if($r['state']==='playing'){sql($db,'UPDATE tournament_runs SET state="ended",started=NULL,preview=NULL WHERE id=?',[$id]);$r['state']='ended';}$db->exec('COMMIT');out(tournament_run_reply($r));}
     if($route==='tournament-answer' && isset($body['turn']) && is_int($body['turn']) && $body['turn']===(int)$r['turn']-1 && $r['last_reply']){$cached=json_decode($r['last_reply'],true);$db->exec('COMMIT');out($cached);}
+    if($autoPower && isset($body['turn']) && is_int($body['turn']) && $body['turn']===(int)$r['turn']-1 && $r['last_reply']) {
+        $used=sql($db,'SELECT 1 FROM power_uses WHERE context=? AND player_id=? AND turn=? AND type="right"',['run:'.$id,$pid,$body['turn']])->fetch();
+        if(!$used)fail('That question has already ended.',409);
+        $cached=json_decode($r['last_reply'],true);$reply=['power'=>power_state($db,'run:'.$id,$body['turn']),'remaining'=>max(0,10-($cached['elapsed'] ?? 10)),'coins'=>tournament_wallet($db,$pid)['coins'],'tournamentAnswer'=>$cached];$db->exec('COMMIT');out($reply);
+    }
     if($r['state']!=='playing'){$db->exec('COMMIT');out(tournament_run_reply($r));}
     $q=tournament_question($db,$r);
     if(!$q){$db->exec('COMMIT');out(tournament_run_reply($r));}
     if($route==='tournament-answer' && (!empty($r['_questionChanged']) || ($r['started']===null && $r['preview']===null && ($body['turn'] ?? null)===(int)$r['turn']))){$db->exec('COMMIT');out(tournament_run_reply($r)+['questionChanged'=>true]);}
-    if($route==='tournament-power'){$reply=power_activate($db,$pid,'run:'.$id,(int)$r['turn'],$q,$r['started']===null?null:(float)$r['started'],$body);$db->exec('COMMIT');out($reply);}
+    if($route==='tournament-power') {
+        $reply=power_activate($db,$pid,'run:'.$id,(int)$r['turn'],$q,$r['started']===null?null:(float)$r['started'],$body);
+        if(!$autoPower){$db->exec('COMMIT');out($reply);}
+        $autoPowerReply=$reply;$body['answer']=$q['correctIndex'];$route='tournament-answer';
+    }
     if($route==='tournament-round' || $route==='tournament-reveal') {
         sql($db,'INSERT OR IGNORE INTO question_seen VALUES(?,?,?)',[$pid,$q['id'],$q['categoryID']]);
         $preview=$r['preview']===null ? microtime(true):(float)$r['preview'];$left=max(0,3-(microtime(true)-$preview));$reading=$r['started']===null && ($route==='tournament-round' || $left>0);
@@ -242,15 +252,15 @@ function tournament_routes(string $route,PDO $db,string $pid,array $body):void {
     }
     if($route==='tournament-answer') {
         $answer=$body['answer'] ?? null;if(!is_int($answer) || $answer<-1 || $answer>3 || !isset($body['turn']) || $body['turn']!==(int)$r['turn'] || $r['started']===null)fail('Invalid tournament answer',409);
-        $elapsed=microtime(true)-(float)$r['started'];
+        $elapsed=$autoPowerReply!==null ? $autoPowerReply['acceptedElapsed']:microtime(true)-(float)$r['started'];
         if(power_second_chance($db,'run:'.$id,(int)$r['turn'],$answer,$q['correctIndex'],$elapsed,$q)) {
             $reply=tournament_run_reply($r)+['retry'=>true,'remaining'=>max(0,10-$elapsed),'power'=>power_state($db,'run:'.$id,(int)$r['turn'],$q)];$db->exec('COMMIT');out($reply);
         }
         $right=$answer===$q['correctIndex'] && $elapsed>=0 && $elapsed<10;$points=points($right,$elapsed,0);
         $r['score']=(int)$r['score']+$points;$r['streak']=(int)$r['streak']+($right?1:0);$r['turn']=(int)$r['turn']+1;
         if(!$right || $r['turn']>=count(json_decode($r['deck'],true)))$r['state']=$right?'cleared':'finished';
-        $reply=tournament_run_reply($r)+['correctIndex'=>$q['correctIndex'],'points'=>$points,'correct'=>$right];
-        sql($db,'UPDATE tournament_runs SET turn=?,score=?,streak=?,state=?,preview=NULL,started=NULL,last_reply=? WHERE id=?',[$r['turn'],$r['score'],$r['streak'],$r['state'],json_encode($reply),$id]);$db->exec('COMMIT');out($reply);
+        $reply=tournament_run_reply($r)+['selectedIndex'=>$answer,'correctIndex'=>$q['correctIndex'],'points'=>$points,'correct'=>$right,'elapsed'=>$elapsed];
+        sql($db,'UPDATE tournament_runs SET turn=?,score=?,streak=?,state=?,preview=NULL,started=NULL,last_reply=? WHERE id=?',[$r['turn'],$r['score'],$r['streak'],$r['state'],json_encode($reply),$id]);$db->exec('COMMIT');out($autoPowerReply!==null ? $autoPowerReply+['tournamentAnswer'=>$reply]:$reply);
     }
     fail('Tournament endpoint not found',404);
 }

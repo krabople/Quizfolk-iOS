@@ -1,5 +1,5 @@
 """Coin and prize contracts against an isolated local database, never production."""
-import json,os,pathlib,sqlite3,time,urllib.request,urllib.error
+import json,os,pathlib,sqlite3,time,urllib.request,urllib.error,datetime
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 BASE=os.environ.get('QUIZFOLK_TEST_URL','http://127.0.0.1:8770/index.php?r=')
 STATE=pathlib.Path(os.environ.get('QUIZFOLK_STATE_DIR',ROOT/'backend/private'))/'quizfolk.sqlite'
@@ -23,7 +23,7 @@ req('coins',status=401)
 initial=req('coins',token=a)
 assert initial['wallet']['coins']==100 and initial['topics']==[]
 assert req('coins',{'coins':999999,'completedDays':5},a)==initial
-assert req('prizes',token=a)=={'pending':[],'earned':[],'selected':None}
+assert req('prizes',token=a)=={'pending':[],'earned':[],'selected':None,'wallet':{'coins':150,'tickets':0,'dailyClaimed':False}}
 for topic in ['18','19','20','21']:
     match=req('match',{'topic':topic},a,201)['id']
     for i in range(7):
@@ -34,7 +34,7 @@ for topic in ['18','19','20','21']:
         result=req('answer',body,a)
         assert req('answer',body,a)==result
     progress=req('coins',token=a)
-    expected={'18':110,'19':120,'20':145,'21':145}[topic]
+    expected={'18':160,'19':170,'20':195,'21':195}[topic]
     assert progress['wallet']['coins']==expected,progress
 assert progress['topics']==['18','19','20'] and progress['earnedToday']==45
 assert req('coins',token=b)['wallet']['coins']==100
@@ -48,7 +48,7 @@ with sqlite3.connect(STATE) as db:
 inbox=req('prizes',token=a)
 assert len(inbox['pending'])==3 and len(inbox['earned'])==3
 assert req('prizes',token=a)==inbox
-assert req('coins',token=a)['wallet']['coins']==445  # repair missing historical awards: 150 + 100 + 50
+assert req('coins',token=a)['wallet']['coins']==495  # daily login plus repaired historical prizes
 assert sorted(x['coins'] for x in inbox['earned'])==[50,100,150]
 assert inbox['selected']['rank']==1
 assert req('player',token=a)['displayBadge']==inbox['selected']
@@ -63,9 +63,28 @@ req('prize-seen',{'event':'prize-test-0'},a)
 req('prize-seen',{'event':'prize-test-0'},a)
 assert len(req('prizes',token=a)['pending'])==2
 assert len(req('prizes',token=a)['earned'])==3
+saved=req('select-badge',{'event':'prize-test-2','acknowledge':True},a)
+assert saved['acknowledged'] and len(req('prizes',token=a)['pending'])==1
+assert req('player',token=a)['displayBadge']['id']=='prize-test-2'
 req('select-badge',{'event':None},a)
 assert req('player',token=a)['displayBadge'] is None
-req('delete-account',{},a);req('delete-account',{},b)
+c=req('register',{'name':'Daily Login Cara'},status=201)['token'];cid=req('profile',token=c)['id']
+assert req('coins',token=c)['wallet']['coins']==100
+reward=req('daily-login',{'day':'2099-01-01','coins':999999},c)
+assert reward['awarded']==50 and reward['wallet']['coins']==150
+assert reward['day']==datetime.datetime.now(datetime.timezone.utc).date().isoformat()
+assert req('daily-login',{},c)['awarded']==0
+assert req('prizes',token=c)['wallet']['coins']==150
+d=req('register',{'name':'Daily Login Dan'},status=201)['token'];did=req('profile',token=d)['id'];req('coins',token=d)
+yesterday=(datetime.datetime.now(datetime.timezone.utc)-datetime.timedelta(days=1)).date().isoformat()
+with sqlite3.connect(STATE) as db:
+    db.execute('INSERT INTO tournament_ledger VALUES(?,?,?,?,?)',(did,'login:'+yesterday,50,0,int(time.time())-86400))
+    db.execute('UPDATE tournament_wallet SET coins=coins+50 WHERE player_id=?',(did,))
+# Older app versions load the prize inbox on launch/resume, so they also earn it.
+assert req('prizes',token=d)['wallet']['coins']==200
+assert req('daily-login',{},d)['awarded']==0
+assert req('coins',token=d)['loginClaimed'] is True
+for token in [a,b,c,d]:req('delete-account',{},token)
 with sqlite3.connect(STATE) as db:
     for table in ['coin_trail_stamps','coin_trail_days','tournament_prize_receipts','player_display_badge']:
         assert db.execute('SELECT COUNT(*) FROM '+table+' WHERE player_id=?',(aid,)).fetchone()[0]==0

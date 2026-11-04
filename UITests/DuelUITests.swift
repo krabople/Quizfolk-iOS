@@ -26,13 +26,14 @@ final class DuelUITests:XCTestCase {
                 XCTAssertTrue(app.descendants(matching:.any).matching(identifier:"duelProgress").firstMatch.exists)
             }
             if i==0 {XCTAssertTrue(app.otherElements["roundTimer"].exists);XCTAssertTrue(app.descendants(matching:.any).matching(identifier:"answerTimeBar").firstMatch.exists);capture("Question")}
-            if option.isEnabled {option.tap()}
+            if i==0 {app.buttons["power-right"].tap()}else if option.isEnabled {option.tap()}
             let next=app.buttons["advanceQuestion"]
             if !next.isHittable {app.swipeUp()}
             XCTAssertTrue(next.waitForExistence(timeout:12))
             if i==0 {
                 let marker=app.descendants(matching:.any).matching(identifier:"roundMarker-0").firstMatch
                 XCTAssertTrue(marker.label.contains(": correct") || marker.label.contains(": incorrect"))
+                XCTAssertTrue(marker.label.contains(": correct"),"Right Answer must select and submit the correct option automatically")
                 let rival=app.descendants(matching:.any).matching(identifier:"opponentRoundMarker-0").firstMatch
                 XCTAssertTrue(rival.label.contains(": correct") || rival.label.contains(": incorrect"))
                 capture("AnswerReview")
@@ -181,6 +182,8 @@ final class DuelUITests:XCTestCase {
     @MainActor func testWearTournamentBadgeAndRemoveIt() {
         let app=launchWithPrize()
         XCTAssertTrue(app.buttons["Wear this badge"].waitForExistence(timeout:8));app.buttons["Wear this badge"].tap()
+        XCTAssertTrue(app.staticTexts["Badge added!"].waitForExistence(timeout:5));capture("BadgeAddedConfirmation")
+        app.buttons["badgeConfirmationDone"].tap()
         XCTAssertTrue(app.tabBars.buttons["You"].waitForExistence(timeout:5));app.tabBars.buttons["You"].tap()
         let portrait=app.descendants(matching:.any).matching(identifier:"UI Player profile picture, tournament 1st place badge").firstMatch
         XCTAssertTrue(portrait.waitForExistence(timeout:5));capture("TournamentBadgeOnProfile")
@@ -192,7 +195,13 @@ final class DuelUITests:XCTestCase {
     @MainActor func testCoinTrailShowsProgressAndUnusedTopics() {
         let app=XCUIApplication();app.launchArguments=["--ui-testing"];app.launch()
         if app.buttons["Done"].waitForExistence(timeout:3){app.buttons["Done"].tap()}
-        app.tabBars.buttons["You"].tap();app.buttons["Earn coins"].tap()
+        app.tabBars.buttons["You"].tap()
+        let earn=app.buttons["Earn coins"],badges=app.buttons["Tournament badges"]
+        XCTAssertTrue(earn.waitForExistence(timeout:5));XCTAssertTrue(badges.exists)
+        XCTAssertEqual(earn.frame.width,badges.frame.width,accuracy:2)
+        XCTAssertEqual(earn.frame.height,badges.frame.height,accuracy:2)
+        XCTAssertEqual(earn.frame.minY,badges.frame.minY,accuracy:2);capture("ProfileActionButtons")
+        earn.tap()
         XCTAssertTrue(app.navigationBars["Daily Trail"].waitForExistence(timeout:5))
         XCTAssertTrue(app.staticTexts["110 coins"].waitForExistence(timeout:5))
         XCTAssertTrue(app.staticTexts["10 / 45 earned today"].exists)
