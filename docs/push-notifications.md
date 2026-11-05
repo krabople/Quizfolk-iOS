@@ -23,10 +23,26 @@ entitlement and can use this server configuration without another iOS build.
 
 The dedicated Firebase project `quizfolk-1aa86` and Android registration
 `com.quizfolk.android` exist on the Spark no-cost plan, with Analytics and Gemini
-disabled. Cloud Messaging API v1 is enabled. Its dedicated sender credential and
-Android client configuration remain pending a separate Google Cloud Platform
-terms confirmation; Firebase's terms were accepted with the owner's approval.
-The Android 0.3.3 (10) preview does not contain Firebase client identifiers.
+disabled. Cloud Messaging API v1 is enabled. The owner approved both Firebase and
+Google Cloud terms. A dedicated `quizfolk-push-sender` service account has only
+the Firebase Cloud Messaging API Admin role on this project. Its private key is
+installed outside the web root with mode 0600. The server received HTTP 200 from
+Google's OAuth endpoint and HTTP 400 `INVALID_ARGUMENT` for an intentionally
+invalid FCM registration token in a `validate_only` request. No real player
+notification was sent by these checks.
+
+All four public Firebase client identifiers are configured as GitHub repository
+variables for Android builds. A disposable Firebase installation was created and
+removed successfully (HTTP 200 for both requests), verifying that this app ID,
+project and API key are accepted together. The Android 0.3.3 (10) preview predates that client
+configuration; use a configured build numbered 11 or later. iOS 0.3.3 (21) can use
+the live APNs configuration. Physical-device delivery still needs verification
+after opting in in **You → Notifications**.
+
+The uploaded FCM public certificate expires on 5 November 2027. Rotate its private
+sender key before then; keep replacements outside the web root and never revoke
+keys used by other apps. The local private backup is in an owner-only directory
+outside this public repository.
 
 1. Create a dedicated Firebase project named Quizfolk in the owner's Google
    account, with Analytics and Gemini assistance off. Firebase requires the owner
