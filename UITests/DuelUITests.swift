@@ -8,7 +8,9 @@ final class DuelUITests:XCTestCase {
         for _ in 0..<5 {if link.isHittable {break};app.swipeUp()}
         XCTAssertTrue(link.waitForExistence(timeout:5));link.tap()
         let master=app.switches["push-enabled"];XCTAssertTrue(master.waitForExistence(timeout:5));XCTAssertEqual(master.value as? String,"0");master.tap()
-        let challenges=app.switches["push-challenges"];challenges.tap();XCTAssertEqual(challenges.value as? String,"0")
+        XCTAssertEqual(XCTWaiter.wait(for:[XCTNSPredicateExpectation(predicate:NSPredicate(format:"value == %@","1"),object:master)],timeout:5),.completed)
+        let challenges=app.switches["push-challenges"];challenges.tap()
+        XCTAssertEqual(XCTWaiter.wait(for:[XCTNSPredicateExpectation(predicate:NSPredicate(format:"value == %@","0"),object:challenges)],timeout:5),.completed)
         XCTAssertEqual(app.switches["push-tournamentPrizes"].value as? String,"1")
         XCTAssertTrue(app.staticTexts["push-unavailable"].exists);capture("NotificationChoices")
     }
