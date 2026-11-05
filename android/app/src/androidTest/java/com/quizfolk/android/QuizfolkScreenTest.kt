@@ -188,7 +188,8 @@ class QuizfolkScreenTest {
             assertNull(androidx.exifinterface.media.ExifInterface(java.io.ByteArrayInputStream(bytes)).getAttribute(androidx.exifinterface.media.ExifInterface.TAG_GPS_LATITUDE))
             compose.waitUntil(5000) { compose.onAllNodesWithText("Picture updated").fetchSemanticsNodes().isNotEmpty() }
             text("OK").performClick(); compose.waitForIdle()
-            androidx.test.espresso.intent.Intents.intended(androidx.test.espresso.intent.matcher.IntentMatchers.hasAction(android.provider.MediaStore.ACTION_PICK_IMAGES))
+            // Verify the captured native intent directly; a just-dismissed dialog can briefly retain Espresso's root focus.
+            assertEquals(1,androidx.test.espresso.intent.Intents.getIntents().count { it.action==android.provider.MediaStore.ACTION_PICK_IMAGES })
         } finally { androidx.test.espresso.intent.Intents.release() }
     }
 }
