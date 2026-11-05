@@ -143,7 +143,8 @@ suspend fun QuizStore.saveNotificationChoices(choices: J) {
     pushDelivery=reply.o("delivery")?.b("android") == true;notificationError=null;PushNotifications.cache(this);PushNotifications.sync(this)
 }
 suspend fun QuizStore.openNotification(destination: PushDestination) {
-    authenticated();game?.stop();game=null;pages.clear()
+    if (game != null) { pendingPush=destination;return }
+    authenticated();pages.clear()
     when (destination.kind) {
         "challenges","duelResults" -> { tab=1; val start=api("duel-open",json("duel" to destination.id));game=GameSession(this,topic(destination.topicID),true,start=start) }
         "tournamentPrizes" -> { tab=2; val reply=api("tournament-board",query=mapOf("event" to destination.id));push(Page("event",destination.id,reply.getJSONObject("event"))) }

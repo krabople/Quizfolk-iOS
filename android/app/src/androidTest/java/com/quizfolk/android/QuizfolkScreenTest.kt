@@ -151,6 +151,18 @@ class QuizfolkScreenTest {
         compose.onNodeWithTag("push-enabled").performScrollTo().performClick()
         compose.waitUntil(5000) { !store.notificationChoices.b("enabled") }
     }
+    @Test fun notificationTapKeepsCurrentGameUntilPlayerChoosesToLeave() {
+        ready();compose.runOnUiThread { store.game=GameSession(store,store.topic("22"),false) }
+        compose.waitUntil(15000) { compose.onAllNodesWithTag("startDuel").fetchSemanticsNodes().isNotEmpty() };tapTag("startDuel")
+        compose.waitUntil(7000) { compose.onAllNodesWithTag("readingPhase").fetchSemanticsNodes().isNotEmpty() }
+        val original=compose.runOnIdle { store.game!!.id }
+        compose.runOnUiThread { store.pendingPush=PushDestination("challenges","test-duel","22") }
+        compose.waitUntil(5000) { compose.onAllNodesWithText("Notification saved").fetchSemanticsNodes().isNotEmpty() }
+        compose.runOnIdle { assertEquals(original,store.game!!.id);assertNotNull(store.pendingPush) }
+        text("OK").performClick();tapTag("leaveMatch");text("Leave duel").performClick()
+        compose.waitUntil(5000) { store.game!=null && store.game!!.id!=original }
+        compose.runOnIdle { assertNull(store.pendingPush);assertEquals("Sample Rival",store.game!!.opponent) }
+    }
     @Test fun bundledBankAndSecureCredentialStorage() {
         ready(); compose.runOnIdle {
             assertEquals(21667,store.bank.size); assertEquals(31,store.topics.size)

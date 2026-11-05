@@ -53,8 +53,11 @@ class MainActivity : ComponentActivity() {
     }
     LaunchedEffect(store.pages.toList(), store.game?.id, store.tab) { focus.clearFocus(); keyboard?.hide() }
     LaunchedEffect(Unit) { store.initialize() }
-    LaunchedEffect(store.ready,store.pendingPush) {
-        if (store.ready) store.pendingPush?.let { destination -> store.pendingPush=null;store.perform { store.openNotification(destination) } }
+    LaunchedEffect(store.ready,store.pendingPush,store.game?.id) {
+        if (store.ready) store.pendingPush?.let { destination ->
+            if (store.game != null) store.notice=Notice("Notification saved", "Finish or leave your current game first. We’ll then open this notification for you.")
+            else { store.pendingPush=null;store.perform { store.openNotification(destination) } }
+        }
     }
     DisposableEffect(owner, store) {
         val observer = LifecycleEventObserver { _, event -> if (event == Lifecycle.Event.ON_START && store.ready) scope.launch { store.resume() } }
