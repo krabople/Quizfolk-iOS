@@ -1,3 +1,5 @@
+import java.util.Properties
+
 plugins { id("com.android.application"); id("org.jetbrains.kotlin.android"); id("org.jetbrains.kotlin.plugin.compose") }
 android {
     namespace = "com.quizfolk.android"
@@ -8,7 +10,7 @@ android {
         targetSdk = 36
         versionCode = System.getenv("GITHUB_RUN_NUMBER")?.toIntOrNull() ?: 1
         versionName = "0.3.3"
-        val firebaseConfig = java.util.Properties().apply { rootProject.file("firebase.properties").takeIf { it.exists() }?.inputStream()?.use { load(it) } }
+        val firebaseConfig = Properties().apply { rootProject.file("firebase.properties").takeIf { it.exists() }?.inputStream()?.use { load(it) } }
         listOf("FCM_APP_ID", "FCM_API_KEY", "FCM_PROJECT_ID", "FCM_SENDER_ID").forEach { name ->
             val value = System.getenv(name) ?: firebaseConfig.getProperty(name, "")
             require(value.matches(Regex("[A-Za-z0-9_:.-]*"))) { "Invalid Firebase client configuration" }

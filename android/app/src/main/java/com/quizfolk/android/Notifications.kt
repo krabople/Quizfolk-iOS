@@ -58,6 +58,11 @@ object PushNotifications {
     fun configured() = BuildConfig.FCM_APP_ID.isNotBlank() && BuildConfig.FCM_API_KEY.isNotBlank() && BuildConfig.FCM_PROJECT_ID.isNotBlank() && BuildConfig.FCM_SENDER_ID.isNotBlank()
     fun allowed(context: Context) = NotificationManagerCompat.from(context).areNotificationsEnabled() && (Build.VERSION.SDK_INT < 33 || ContextCompat.checkSelfPermission(context,Manifest.permission.POST_NOTIFICATIONS)==PackageManager.PERMISSION_GRANTED)
     private fun preferences(context: Context) = context.getSharedPreferences("push",Context.MODE_PRIVATE)
+    fun clear(context: Context) {
+        preferences(context).edit().remove("choices").remove("endpoint").remove("seen").apply()
+        NotificationManagerCompat.from(context).cancelAll()
+        if (FirebaseApp.getApps(context).any { it.name==FirebaseApp.DEFAULT_APP_NAME }) FirebaseMessaging.getInstance().apply { isAutoInitEnabled=false;deleteToken() }
+    }
     fun installation(context: Context): String {
         val prefs=preferences(context);return prefs.getString("installation",null) ?: UUID.randomUUID().toString().also { prefs.edit().putString("installation",it).commit() }
     }

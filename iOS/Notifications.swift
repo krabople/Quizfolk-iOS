@@ -64,6 +64,25 @@ final class PushAppDelegate:NSObject,UIApplicationDelegate,UNUserNotificationCen
     }
 }
 extension QuizStore {
+    func clearClientNotifications() {
+        guard !isUITesting else{return}
+        UIApplication.shared.unregisterForRemoteNotifications()
+        for key in ["pushPreferences","pushRegisteredEndpoint","pushDeviceToken"] {UserDefaults.standard.removeObject(forKey:key)}
+        UNUserNotificationCenter.current().removeAllDeliveredNotifications()
+    }
+    func detachPreviousNotificationEndpoint() async throws {
+        guard !isUITesting,let previous=UserDefaults.standard.string(forKey:"pushRegisteredEndpoint"),previous != apiURL,
+              previous==UserDefaults.standard.string(forKey:"tokenEndpoint"),let key=Keychain.read() else{return}
+        guard var parts=URLComponents(string:previous),parts.scheme=="https",parts.host != nil else{throw APIError.message("The previous notification connection is invalid.")}
+        parts.queryItems=(parts.queryItems ?? [])+[URLQueryItem(name:"r",value:"notification-device")]
+        guard let url=parts.url else{throw APIError.message("The previous notification connection is invalid.")}
+        var request=URLRequest(url:url);request.httpMethod="POST";request.timeoutInterval=8
+        request.setValue("Bearer \(key)",forHTTPHeaderField:"Authorization");request.setValue("application/json",forHTTPHeaderField:"Content-Type")
+        request.httpBody=try JSONSerialization.data(withJSONObject:["installation":PushCoordinator.shared.installation,"platform":"ios","enabled":false])
+        let (_,response)=try await URLSession.shared.data(for:request)
+        guard let http=response as? HTTPURLResponse,(200..<300).contains(http.statusCode) else{throw APIError.message("Could not stop notifications from the previous connection. Please reconnect and try again.")}
+        clearClientNotifications()
+    }
     private var usingNotificationFixtures:Bool {
         #if DEBUG
         return isUITesting && testResponse==nil
@@ -94,7 +113,11 @@ extension QuizStore {
             body["environment"]="production"
             #endif
         }
-        do{let _:OKReply=try await request("notification-device",body:body)}catch{notificationError=error.localizedDescription}
+        do{
+            let _:OKReply=try await request("notification-device",body:body)
+            if body["enabled"] as? Bool == true {UserDefaults.standard.set(apiURL,forKey:"pushRegisteredEndpoint")}
+            else if UserDefaults.standard.string(forKey:"pushRegisteredEndpoint")==apiURL {UserDefaults.standard.removeObject(forKey:"pushRegisteredEndpoint");UIApplication.shared.unregisterForRemoteNotifications();UserDefaults.standard.removeObject(forKey:"pushDeviceToken")}
+        }catch{notificationError=error.localizedDescription}
     }
     func saveNotificationChoices(_ prefs:NotificationPreferences) async {
         guard !notificationBusy else{return};notificationGeneration+=1;notificationBusy=true;defer{notificationBusy=false}

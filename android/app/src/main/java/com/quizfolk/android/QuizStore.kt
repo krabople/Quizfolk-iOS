@@ -165,12 +165,16 @@ class QuizStore(application: Application) : AndroidViewModel(application) {
         game = GameSession(this, topic, online || opponentID != null, start = start)
     }
     suspend fun deleteAccount() {
-        api("delete-account", json()); if (!testing) withContext(Dispatchers.IO) { vault.clear() }
+        api("delete-account", json()); PushNotifications.clear(getApplication());notificationChoices=defaultPushChoices(); if (!testing) withContext(Dispatchers.IO) { vault.clear() }
         token = null; profile = null; ownCard = null; challenges = emptyList(); activity = emptyList(); pendingPrizes = emptyList(); earnedPrizes = emptyList(); badgeApplied = null; coins = 0
         pages.clear()
     }
     suspend fun changeEndpoint(value: String) {
         require(android.net.Uri.parse(value).scheme == "https") { "Use an HTTPS address." }
+        if (endpoint != value) {
+            if (profile != null) runCatching { api("notification-device",json("platform" to "android","installation" to PushNotifications.installation(getApplication()),"enabled" to false)) }
+            PushNotifications.clear(getApplication());notificationChoices=defaultPushChoices();pushDelivery=false
+        }
         if (endpoint != value) { endpoint = value; token = null; profile = null; ownCard = null; pendingPrizes = emptyList(); earnedPrizes = emptyList(); badgeApplied = null; coins = 0; prefs.edit().putString("endpoint", value).apply() }
         resume()
     }

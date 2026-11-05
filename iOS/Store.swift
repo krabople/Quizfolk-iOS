@@ -140,6 +140,7 @@ import Security
     private func performConnect() async {
         profileBusy=true;defer{profileBusy=false}
         saveSettings();onlineError=nil
+        do{try await detachPreviousNotificationEndpoint()}catch{onlineError=error.localizedDescription;return}
         if UserDefaults.standard.string(forKey:"tokenEndpoint") != apiURL {token=nil;profile=nil;avatar=nil;ownCard=nil;pendingPrizes=[];earnedPrizes=[];badgeConfirmation=nil;coinBalance=nil;dailyLoginReward=nil;UserDefaults.standard.removeObject(forKey:"avatar")}
         do {
             if token==nil {
@@ -183,6 +184,7 @@ import Security
         onlineError=nil
         do {
             let _:OKReply=try await request("delete-account",body:[:])
+            clearClientNotifications();notificationSettings.preferences=NotificationPreferences()
             Keychain.delete();token=nil;profile=nil;board=[];avatar=nil;ownCard=nil;people=[];challenges=[];activity=[];pendingPrizes=[];earnedPrizes=[];badgeConfirmation=nil;coinBalance=nil;dailyLoginReward=nil
             UserDefaults.standard.removeObject(forKey:"tokenEndpoint");UserDefaults.standard.removeObject(forKey:"avatar")
         } catch {onlineError=error.localizedDescription}
