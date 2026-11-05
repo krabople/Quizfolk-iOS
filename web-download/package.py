@@ -13,11 +13,16 @@ apk = repo.parent / apk_name
 report = json.loads((repo.parent / 'Quizfolk-Android-0.3.3-11-verification.json').read_text())
 assert hashlib.sha256(apk.read_bytes()).hexdigest() == report['apkSHA256']
 assert report['signed'] and report['fcmClientConfigured']
-stage = workspace / 'work/quizfolk-download-site'
+stage_home = workspace / 'work/quizfolk-download-home'
+stage = stage_home / 'public_html/quizfolk-download'
 stage.mkdir(parents=True, exist_ok=True)
 files = {
     'index.html': repo / 'web-download/index.html',
     '.htaccess': repo / 'web-download/.htaccess',
+    'download.php': repo / 'web-download/download.php',
+    'stats.php': repo / 'web-download/stats.php',
+    'stats.js': repo / 'web-download/stats.js',
+    'stats.css': repo / 'web-download/stats.css',
     'logo.png': repo / 'iOS/Assets.xcassets/AppIcon.appiconset/AppIcon.png',
     'nunito.ttf': repo / 'android/app/src/main/res/font/nunito.ttf',
     'font-license.txt': repo / 'android/FONT-LICENSE.txt',
@@ -27,11 +32,16 @@ for name, source in files.items():
     shutil.copyfile(source, stage / name)
 (stage / 'SHA256SUMS.txt').write_text(report['apkSHA256'] + '  ' + apk_name + '\n')
 archive = repo.parent / 'Quizfolk-Android-download-page-20261105.zip'
+helper = stage_home / 'quizfolk-service/download-tracking/metrics.php'
+helper.parent.mkdir(parents=True, exist_ok=True)
+shutil.copyfile(repo / 'web-download/server/metrics.php', helper)
 with ZipFile(archive, 'w', ZIP_DEFLATED) as z:
-    for name in [*files, 'SHA256SUMS.txt']:
-        item = ZipInfo('public_html/quizfolk-download/' + name)
+    targets = [('public_html/quizfolk-download/' + name, stage / name) for name in [*files, 'SHA256SUMS.txt']]
+    targets.append(('quizfolk-service/download-tracking/metrics.php', helper))
+    for target, source in targets:
+        item = ZipInfo(target)
         item.create_system = 3
         item.external_attr = (stat.S_IFREG | 0o644) << 16
         item.compress_type = ZIP_DEFLATED
-        z.writestr(item, (stage / name).read_bytes())
-print(json.dumps({'archive': str(archive), 'preview': str(stage), 'apkSHA256': report['apkSHA256'], 'files': len(files) + 1}))
+        z.writestr(item, source.read_bytes())
+print(json.dumps({'archive': str(archive), 'preview': str(stage), 'apkSHA256': report['apkSHA256'], 'files': len(targets)}))
