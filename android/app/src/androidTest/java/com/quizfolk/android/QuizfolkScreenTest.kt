@@ -160,7 +160,7 @@ class QuizfolkScreenTest {
         compose.waitUntil(5000) { compose.onAllNodesWithText("Notification saved").fetchSemanticsNodes().isNotEmpty() }
         compose.runOnIdle { assertEquals(original,store.game!!.id);assertNotNull(store.pendingPush) }
         text("OK").performClick();tapTag("leaveMatch");text("Leave duel").performClick()
-        compose.waitUntil(5000) { store.game!=null && store.game!!.id!=original }
+        compose.waitUntil(5000) { store.game!=null && store.game!!.id!=original && store.game!!.prepared }
         compose.runOnIdle { assertNull(store.pendingPush);assertEquals("Sample Rival",store.game!!.opponent) }
     }
     @Test fun bundledBankAndSecureCredentialStorage() {
