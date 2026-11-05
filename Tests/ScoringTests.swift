@@ -79,6 +79,7 @@ final class ScoringTests:XCTestCase {
     @MainActor func testLevelsAreIndependentByTopic() async {
         let store=QuizStore();await store.connect()
         let geo=store.topics.first{$0.id=="22"}!,science=store.topics.first{$0.id=="17"}!
+        store.ownCard=QuizStore.testCard(following:false,own:true,topicXP:3700)
         XCTAssertEqual(store.level(geo),3)
         XCTAssertEqual(store.level(science),1)
     }

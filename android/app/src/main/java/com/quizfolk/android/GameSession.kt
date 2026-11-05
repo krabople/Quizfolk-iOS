@@ -25,6 +25,10 @@ class GameSession(val store: QuizStore, val topic: Topic, val online: Boolean, p
     private var pendingIndex: Int? = null
     private var pendingElapsed = 0.0
     private var serverID = ""
+    private var xpBeforeMatch = store.topicXP(topic.id)
+    private var canAnnounceLevelUp = saved == null || saved.pending
+    var levelUp by mutableStateOf<TopicLevelUp?>(null)
+        private set
     var question by mutableStateOf<Question?>(null)
     var rounds by mutableStateOf<List<Round>>(emptyList())
     var round by mutableIntStateOf(0)
@@ -77,6 +81,7 @@ class GameSession(val store: QuizStore, val topic: Topic, val online: Boolean, p
                 serverID = reply.s("id"); applyRun(reply); prepared = true; intro = false; loadRound()
             } else if (online) {
                 store.authenticated()
+                xpBeforeMatch = store.topicXP(topic.id)
                 if (start != null) applyStart(start) else {
                     for (attempt in 0..6) {
                         ensureActive(); if (closed) return@launch
@@ -231,7 +236,7 @@ class GameSession(val store: QuizStore, val topic: Topic, val online: Boolean, p
         if (survival && runEnded || !survival && rounds.size == 7) {
             finished = true
             if (!survival) saveResult()
-            if (online) store.perform { store.connect(); store.refreshSocial(); store.loadPrizes() }
+            if (online) store.perform { store.connect(); updateLevelUp(); store.refreshSocial(); store.loadPrizes() }
             return@launch
         }
         busy = true; error = null
@@ -244,6 +249,14 @@ class GameSession(val store: QuizStore, val topic: Topic, val online: Boolean, p
         store.save(MatchRecord(if (online) serverID else id, topic.id, System.currentTimeMillis() / 1000, score, opponentScore, opponent,
             if (online) kind else "practice", rounds, duelID, pending, opponentID, opponentAvatar))
     }
+    private fun updateLevelUp() {
+        if (!online || survival || !finished || pending || !canAnnounceLevelUp) return
+        val after = store.topicXP(topic.id)
+        val earned = Scoring.experience(score, opponentScore)
+        if (after < xpBeforeMatch || after - xpBeforeMatch < earned) return
+        levelUp = TopicLevelling.levelUp(after - earned, after)
+        canAnnounceLevelUp = false
+    }
     fun retry() = scope.launch {
         error = null
         if (!prepared) { begin(); return@launch }
@@ -254,7 +267,7 @@ class GameSession(val store: QuizStore, val topic: Topic, val online: Boolean, p
     }
     fun refreshResult() = scope.launch {
         val duel = duelID ?: return@launch; busy = true
-        try { applyStart(store.api("duel-open", json("duel" to duel))); store.connect(); store.refreshSocial() }
+        try { applyStart(store.api("duel-open", json("duel" to duel))); store.connect(); updateLevelUp(); store.refreshSocial() }
         catch (e: Exception) { if (e is CancellationException) throw e; error = e.message }
         finally { busy = false }
     }

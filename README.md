@@ -196,3 +196,19 @@ topic leagues, survival standings and private friends standings open player
 cards, including follow controls. Source labels were removed from gameplay and
 review screens; adapted-data attribution is consolidated at You > Credits &
 licences and records the individual editorial corrections.
+
+## Progressive topic levels (5 November 2026)
+
+Topic levels now start at 1,500 XP for level 2. Each subsequent step costs
+500 XP more: level 3 starts at 3,500 total XP, level 4 at 6,000, and level 5
+at 9,000. Earned XP, scores and match history are preserved; the displayed
+levels and title eligibility are recalculated from the new curve. Four perfect
+duel wins give 1,200 XP and therefore stay at level 1. Levels remain independent
+for every topic, and practice does not count toward online topic progression.
+
+The backend, iOS and Android use the same integer calculation and exact boundary
+tests. Topic progress bars show the actual remaining XP. Newly settled duels
+show a prominent animated level-up card on the result screen when their XP
+crosses a level boundary, including when a pending result is checked in that
+session. Reopening a settled match does not celebrate it again. Reduced-motion
+settings suppress the entrance animation.

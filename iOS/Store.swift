@@ -104,7 +104,7 @@ import Security
         if let ownCard {return ownCard.topics.first{$0.topicID==topic.id}?.xp ?? 0}
         return history.filter{$0.topicID==topic.id && $0.kind != "practice"}.reduce(0){$0+$1.xp}
     }
-    func level(_ topic:Topic)->Int {1+topicXP(topic)/300}
+    func level(_ topic:Topic)->Int {TopicLevelling.progress(xp:topicXP(topic)).level}
     func request<T:Decodable>(_ route:String,body:[String:Any]?=nil,query:[URLQueryItem]=[]) async throws -> T {
         #if DEBUG
         if let testResponse {return try JSONDecoder().decode(T.self,from:await testResponse(route,body))}

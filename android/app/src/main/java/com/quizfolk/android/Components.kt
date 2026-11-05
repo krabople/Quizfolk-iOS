@@ -140,17 +140,18 @@ fun date(seconds: Double): String = DateFormat.getDateTimeInstance(DateFormat.ME
 }
 @Composable fun Metric(value: String, label: String, modifier: Modifier = Modifier) = Column(modifier, horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(5.dp)) { Text(value, fontSize = 26.sp, fontWeight = FontWeight.ExtraBold); Hint(label) }
 @Composable fun TopicLevel(topic: Topic, xp: Int) {
+    val progress = TopicLevelling.progress(xp)
     Column(verticalArrangement = Arrangement.spacedBy(7.dp)) {
-        Row { Text("${topic.emoji} ${topic.name}", Modifier.weight(1f), fontWeight = FontWeight.SemiBold); Text("Level ${1 + xp / 300}", fontWeight = FontWeight.Bold, color = tint(topic.color)) }
-        LinearProgressIndicator(progress = { (xp % 300) / 300f }, modifier = Modifier.fillMaxWidth().height(7.dp).clip(CircleShape), color = tint(topic.color), trackColor = tint(topic.color).copy(alpha = .13f))
-        Hint("${xp % 300} / 300 XP to the next level · $xp topic XP")
+        Row { Text("${topic.emoji} ${topic.name}", Modifier.weight(1f), fontWeight = FontWeight.SemiBold); Text("Level ${progress.level}", fontWeight = FontWeight.Bold, color = tint(topic.color)) }
+        LinearProgressIndicator(progress = { progress.xpIntoLevel.toFloat() / progress.xpForNextLevel }, modifier = Modifier.fillMaxWidth().height(7.dp).clip(CircleShape), color = tint(topic.color), trackColor = tint(topic.color).copy(alpha = .13f))
+        Hint("${progress.remainingXP} XP to level ${progress.level + 1} · $xp topic XP")
     }
 }
 @Composable fun TopicTile(topic: Topic, store: QuizStore, modifier: Modifier = Modifier, click: () -> Unit) {
     Column(modifier.clip(RoundedCornerShape(18.dp)).background(Color.White).clickable(onClick = click).testTag("topic-${topic.id}").padding(17.dp), verticalArrangement = Arrangement.spacedBy(9.dp)) {
         Text(topic.emoji, fontSize = 31.sp)
         Text(topic.name, fontSize = 17.sp, fontWeight = FontWeight.Bold, minLines = 2)
-        Hint("Level ${1 + store.topicXP(topic.id) / 300} · Play & league")
+        Hint("Level ${TopicLevelling.progress(store.topicXP(topic.id)).level} · Play & league")
         Text("%,d questions".format(topic.count), color = tint(topic.color), fontSize = 12.sp, fontWeight = FontWeight.SemiBold)
     }
 }

@@ -2,9 +2,9 @@ import SwiftUI
 
 struct TopicLevelProgress:View {
  let topic:Topic;let xp:Int
- private var level:Int {1+xp/300}
+ private var progress:TopicLevelState {TopicLevelling.progress(xp:xp)}
  var body:some View {
-  VStack(alignment:.leading,spacing:7){HStack{Text("Level \(level) in \(topic.name)").font(.subheadline.bold());Spacer();Text("\(xp) XP").font(.caption)};ProgressView(value:Double(xp%300),total:300).tint(topic.tint);Text("\(300-xp%300) XP to level \(level+1)").font(.caption).foregroundStyle(.secondary)}.accessibilityElement(children:.combine)
+  VStack(alignment:.leading,spacing:7){HStack{Text("Level \(progress.level) in \(topic.name)").font(.subheadline.bold());Spacer();Text("\(xp) XP").font(.caption)};ProgressView(value:Double(progress.xpIntoLevel),total:Double(progress.xpForNextLevel)).tint(topic.tint);Text("\(progress.remainingXP) XP to level \(progress.level+1)").font(.caption).foregroundStyle(.secondary)}.accessibilityElement(children:.combine)
  }
 }
 struct PlayerRow:View {

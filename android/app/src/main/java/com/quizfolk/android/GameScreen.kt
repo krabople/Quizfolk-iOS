@@ -249,6 +249,7 @@ import kotlin.math.*
                 CoinAmount(game.store.coins)
                 Action("Back to tournament") { game.close() }
             } else {
+                game.levelUp?.let { TopicLevelCelebration(game.topic, it) }
                 Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
                     Podium(game.store.name, game.store.avatar, game.score, won, false, game.store.selfID, Modifier.weight(1f), profile)
                     Text("–", fontSize = 36.sp, modifier = Modifier.padding(top = 60.dp))
@@ -273,6 +274,23 @@ import kotlin.math.*
             GameError(game)
         }
         VictoryConfetti()
+    }
+}
+@Composable private fun TopicLevelCelebration(topic: Topic, advancement: TopicLevelUp) {
+    val motion = Settings.Global.getFloat(LocalContext.current.contentResolver, Settings.Global.ANIMATOR_DURATION_SCALE, 1f) > 0f
+    val scale = remember { Animatable(if (motion) .85f else 1f) }
+    LaunchedEffect(Unit) { if (motion) scale.animateTo(1f, androidx.compose.animation.core.spring(dampingRatio = .65f)) }
+    Column(Modifier.fillMaxWidth().graphicsLayer { scaleX = scale.value; scaleY = scale.value }
+        .background(Color(0xFF102640), RoundedCornerShape(22.dp)).border(2.dp, Gold, RoundedCornerShape(22.dp))
+        .testTag("topicLevelUp").padding(22.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(8.dp)) {
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            Icon(Icons.Default.ArrowCircleUp, null, tint = Gold)
+            Text("LEVEL UP!", color = Gold, fontWeight = FontWeight.Bold, letterSpacing = 2.sp)
+        }
+        Text(topic.emoji, fontSize = 38.sp)
+        Text("Level ${advancement.progress.level}", fontSize = 38.sp, fontWeight = FontWeight.Black)
+        Text("${topic.name} · Level ${advancement.previousLevel} → ${advancement.progress.level}", fontWeight = FontWeight.Bold, textAlign = TextAlign.Center)
+        Text("${advancement.progress.remainingXP} XP to your next level", fontSize = 12.sp)
     }
 }
 @Composable private fun Podium(name: String, avatar: String?, score: Int, winner: Boolean, bot: Boolean, id: String?, modifier: Modifier, profile: (String) -> Unit) = Column(modifier, horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(7.dp)) {

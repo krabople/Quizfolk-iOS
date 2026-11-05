@@ -56,6 +56,9 @@ other,packet2,result=finish(b,bm,False);assert packet2==packet and result['pendi
 assert req('match-progress',{'match':bm['id']},b)['opponentResults']==[True]*7
 assert req('match-progress',{'match':m['id']},a)['opponentResults']==[False]*7
 assert req('profile',token=a)['xp']==score+140 and req('profile',token=b)['xp']==40
+progress=req('player',token=a)['topics'][0]
+assert progress['topicID']=='22' and progress['xp']==score+140 and progress['level']==1
+assert progress['xpIntoLevel']==score+140 and progress['xpForNextLevel']==1500 and progress['remainingXP']==1500-score-140
 ha=req('player&id='+bid,token=a)['headToHead'];hb=req('player&id='+aid,token=b)['headToHead'];assert ha=={'games':1,'wins':1,'draws':0,'losses':0} and hb['losses']==1
 req('answer',{'match':bm['id'],'round':6,'answer':-1},b)
 assert req('player&id='+bid,token=a)['headToHead']['games']==1

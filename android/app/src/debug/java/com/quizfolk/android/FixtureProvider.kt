@@ -20,6 +20,9 @@ class FixtureTransport(private val questions: List<Question>) : Transport {
     var powerUsed = false
     var turn = 0
     var score = 0
+    var topicXP = 700
+    var duelPending = true
+    private var xpAwarded = false
     var streak = 0
     var state = "playing"
     var avatar: String? = null
@@ -31,8 +34,8 @@ class FixtureTransport(private val questions: List<Question>) : Transport {
     private fun card(id: String = "test-rival"): J = json("id" to id, "name" to if (id == "test-self") name else "Sample Rival", "avatar" to if (id == "test-self") avatar else null,
         "title" to "Newcomer", "interests" to JSONArray(listOf("22","17")), "sharedTopics" to JSONArray(listOf("22")), "following" to following,
         "followers" to if (following) 1 else 0, "followingCount" to 0, "canChallenge" to (id != "test-self"),
-        "stats" to json("matches" to 4, "wins" to 2, "draws" to 1, "xp" to 700, "correct" to 20, "answered" to 28, "perfect" to 1),
-        "topics" to JSONArray(listOf(json("topicID" to "22", "xp" to 700, "level" to 3, "matches" to 4, "wins" to 2))),
+        "stats" to json("matches" to 4, "wins" to 2, "draws" to 1, "xp" to topicXP, "correct" to 20, "answered" to 28, "perfect" to 1),
+        "topics" to JSONArray(listOf(json("topicID" to "22", "xp" to topicXP, "level" to TopicLevelling.progress(topicXP).level, "matches" to 4, "wins" to 2))),
         "titles" to JSONArray(listOf(json("id" to "newcomer", "name" to "Newcomer"))), "selectedTitle" to "newcomer", "discoverable" to true,
         "challengesOpen" to true, "headToHead" to json("games" to 3, "wins" to 1, "draws" to 1, "losses" to 1),
         "badges" to JSONArray(listOf(json("id" to "first", "name" to "First duel", "symbol" to "bolt.fill", "earned" to true))), "displayBadge" to if (id == "test-self") selectedBadge else null)
@@ -43,7 +46,8 @@ class FixtureTransport(private val questions: List<Question>) : Transport {
     private fun wallet() = json("coins" to wallet, "tickets" to 0, "dailyClaimed" to false)
     private fun run() = json("id" to "test-run", "eventID" to "test-event-daily-0", "score" to score, "streak" to streak, "turn" to turn, "state" to state)
     private fun q() = questions[turn % questions.size]
-    private fun start(): J { turn = 0; score = 0; powerUsed = false; cachedAnswer = null; return json("id" to "test-match", "kind" to "challenge", "opponent" to "Sample Rival", "opponentID" to "test-rival", "duelID" to "test-duel", "pending" to true, "powerAllowed" to true) }
+    private fun start(): J { turn = 0; score = 0; powerUsed = false; cachedAnswer = null; xpAwarded = false; return json("id" to "test-match", "kind" to "challenge", "opponent" to "Sample Rival", "opponentID" to "test-rival", "duelID" to "test-duel", "pending" to duelPending, "powerAllowed" to true) }
+    private fun awardDuelXP() { if (turn == 7 && !duelPending && !xpAwarded) { topicXP += Scoring.experience(score,0); xpAwarded = true } }
     override suspend fun request(route: String, body: J?, query: Map<String,String>): J {
         calls.add(route to body?.copyJson())
         return when (route) {
@@ -73,7 +77,7 @@ class FixtureTransport(private val questions: List<Question>) : Transport {
             "round", "reveal" -> json("round" to turn, "question" to q().json().apply { remove("correctIndex") }, "remaining" to 10, "phase" to "answer")
             "answer" -> { if (body!!.n("round") < turn && cachedAnswer != null) cachedAnswer!! else {
                 val right = body.n("answer") == q().correctIndex; val points = Scoring.points(right, 0.0, turn); val correct = q().correctIndex
-                score += points; turn++; json("points" to points, "selectedIndex" to body.n("answer"), "correctIndex" to correct, "opponentPoints" to 0, "finished" to (turn == 7), "score" to score, "opponentScore" to 0, "pending" to true).also { cachedAnswer = it }
+                score += points; turn++; awardDuelXP(); json("points" to points, "selectedIndex" to body.n("answer"), "correctIndex" to correct, "opponentPoints" to 0, "finished" to (turn == 7), "score" to score, "opponentScore" to 0, "pending" to duelPending).also { cachedAnswer = it }
             } }
             "power", "tournament-power" -> {
                 check(!powerUsed) { "Only one power-up is allowed." }; val type = body!!.s("type"); val price = Assist.entries.first { it.key == type }.price; check(wallet >= price) { "Not enough coins." }; wallet -= price; powerUsed = true
@@ -81,7 +85,8 @@ class FixtureTransport(private val questions: List<Question>) : Transport {
                 val response = json("power" to state, "remaining" to 9.9, "acceptedElapsed" to .1, "coins" to wallet)
                 if (type == "right" && body.b("autoAnswer")) {
                     score += if (route == "power" && turn == 6) 40 else 20; turn++; streak++
-                    val answer = if (route == "power") json("selectedIndex" to correct, "correctIndex" to correct, "points" to if (turn == 7) 40 else 20, "opponentPoints" to 0, "finished" to (turn == 7), "score" to score, "opponentScore" to 0, "pending" to true)
+                    if (route == "power") awardDuelXP()
+                    val answer = if (route == "power") json("selectedIndex" to correct, "correctIndex" to correct, "points" to if (turn == 7) 40 else 20, "opponentPoints" to 0, "finished" to (turn == 7), "score" to score, "opponentScore" to 0, "pending" to duelPending)
                         else run().put("selectedIndex", correct).put("correctIndex", correct).put("points",20).put("correct",true)
                     cachedAnswer = answer; response.put(if (route == "power") "duelAnswer" else "tournamentAnswer", answer)
                 }; response

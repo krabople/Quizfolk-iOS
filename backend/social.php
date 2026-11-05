@@ -1,6 +1,7 @@
 <?php
 declare(strict_types=1);
 require_once __DIR__.'/questions.php';
+require_once __DIR__.'/levels.php';
 
 function social_schema(PDO $db):void {
     $columns=array_column($db->query('PRAGMA table_info(matches)')->fetchAll(),'name');if(in_array('duel_id',$columns,true) && in_array('preview_started',$columns,true))return;
@@ -42,7 +43,7 @@ function online_stats(PDO $db,string $id):array {
     return $s;
 }
 function topic_stats(PDO $db,string $id):array {
-    return array_map(fn($r)=>['topicID'=>$r['topic'],'xp'=>(int)$r['xp'],'level'=>1+(int)floor((int)$r['xp']/300),'matches'=>(int)$r['matches'],'wins'=>(int)$r['wins']],sql($db,'SELECT topic,COUNT(*) matches,SUM(score>opponent_score) wins,SUM(score+40+CASE WHEN score>opponent_score THEN 100 WHEN score=opponent_score THEN 50 ELSE 0 END) xp FROM matches WHERE player_id=? AND completed IS NOT NULL GROUP BY topic ORDER BY xp DESC',[$id])->fetchAll());
+    return array_map(fn($r)=>['topicID'=>$r['topic'],'xp'=>(int)$r['xp'],'matches'=>(int)$r['matches'],'wins'=>(int)$r['wins']]+topic_level_progress((int)$r['xp']),sql($db,'SELECT topic,COUNT(*) matches,SUM(score>opponent_score) wins,SUM(score+40+CASE WHEN score>opponent_score THEN 100 WHEN score=opponent_score THEN 50 ELSE 0 END) xp FROM matches WHERE player_id=? AND completed IS NOT NULL GROUP BY topic ORDER BY xp DESC',[$id])->fetchAll());
 }
 function earned_titles(array $topics):array {
     $all=[['id'=>'newcomer','name'=>'Newcomer']];$names=[];foreach(play_topics() as $t)$names[$t['id']]=$t['name'];

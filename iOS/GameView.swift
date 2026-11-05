@@ -120,6 +120,7 @@ private struct DuelScreen:View {
    VStack(spacing:18) {
     Image(systemName:tied ? "equal.circle.fill":"trophy.fill").font(.system(size:68)).foregroundStyle(Color(hex:"FFD494")).symbolEffect(.bounce,value:game.finished).padding(.top,20)
     Text(tied ? "IT’S A DRAW":(won ? "YOU WIN!":"\(game.opponent.uppercased()) WINS!")).font(.system(size:31,weight:.black,design:.rounded)).multilineTextAlignment(.center).accessibilityIdentifier("winnerAnnouncement")
+    if let levelUp=game.levelUp {TopicLevelCelebration(topic:game.topic,advancement:levelUp)}
     HStack(alignment:.top,spacing:14){podium(store.name,avatar:store.avatar,score:game.score,winner:won,bot:false,playerID:store.profile?.id);Text("–").font(.system(size:36,weight:.bold)).padding(.top,60);podium(game.opponent,avatar:game.opponentAvatar,score:game.opponentScore,winner:!won && !tied,bot:!game.isHuman,playerID:game.opponentID)}
     VStack(spacing:8){Text("+\(Scoring.experience(score:game.score,opponentScore:game.opponentScore)) TOPIC XP").font(.system(size:25,weight:.black,design:.rounded));Text("\(game.score) score + 40 finish + \(bonus) \(tied ? "draw":"win") bonus").font(.caption);Text(game.online ? "Added to your \(game.topic.name) league":"Offline practice · local XP only").font(.caption).opacity(0.7)}.padding(16).frame(maxWidth:.infinity).background(.white.opacity(0.1),in:RoundedRectangle(cornerRadius:18))
     rivalActions
@@ -133,6 +134,25 @@ private struct DuelScreen:View {
  }
  private func podium(_ name:String,avatar:String?,score:Int,winner:Bool,bot:Bool,playerID:String?)->some View {
   VStack(spacing:7){Image(systemName:"crown.fill").foregroundStyle(Color(hex:"FFD494")).opacity(winner ? 1:0).frame(height:15);if let playerID {NavigationLink{PublicPlayerView(playerID:playerID)}label:{PlayerPortrait(name:name,avatar:avatar,size:66)}.buttonStyle(.plain).accessibilityLabel("View \(name)'s profile").accessibilityIdentifier("resultProfile-\(playerID)")}else{PlayerPortrait(name:name,avatar:avatar,bot:bot,size:66)};Text(name).font(.caption.bold()).lineLimit(2).multilineTextAlignment(.center);Text("\(score)").font(.system(size:39,weight:.black,design:.rounded))}.frame(maxWidth:.infinity)
+ }
+}
+struct TopicLevelCelebration:View {
+ let topic:Topic;let advancement:TopicLevelUp
+ @Environment(\.accessibilityReduceMotion) private var reduceMotion
+ @State private var appeared=false
+ var body:some View {
+  VStack(spacing:8){
+   HStack(spacing:8){Image(systemName:"arrow.up.circle.fill");Text("LEVEL UP!").tracking(2)}.font(.headline).foregroundStyle(Color(hex:"FFD494"))
+   Text(topic.emoji).font(.system(size:38)).accessibilityHidden(true)
+   Text("Level \(advancement.progress.level)").font(.system(size:38,weight:.black,design:.rounded))
+   Text("\(topic.name) · Level \(advancement.previousLevel) → \(advancement.progress.level)").font(.subheadline.bold()).multilineTextAlignment(.center)
+   Text("\(advancement.progress.remainingXP) XP to your next level").font(.caption)
+  }.padding(22).frame(maxWidth:.infinity).foregroundStyle(.white)
+   .background(Color(hex:"102640"),in:RoundedRectangle(cornerRadius:22))
+   .overlay(RoundedRectangle(cornerRadius:22).stroke(Color(hex:"FFD494"),lineWidth:2))
+   .scaleEffect(appeared || reduceMotion ? 1:0.85)
+   .animation(reduceMotion ? nil:.spring(response:0.5,dampingFraction:0.65),value:appeared)
+   .onAppear{appeared=true}.accessibilityElement(children:.combine).accessibilityIdentifier("topicLevelUp")
  }
 }
 struct VictoryConfetti:View {

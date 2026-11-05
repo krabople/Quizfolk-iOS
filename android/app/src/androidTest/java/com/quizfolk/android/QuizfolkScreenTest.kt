@@ -57,6 +57,28 @@ class QuizfolkScreenTest {
         compose.waitUntil(5000) { compose.onAllNodesWithTag("followPlayer").fetchSemanticsNodes().isNotEmpty() }
         tapTag("followPlayer"); compose.waitUntil(5000) { compose.onAllNodesWithText("Following").fetchSemanticsNodes().isNotEmpty() }; capture("ProfileFromLeague")
     }
+    @Test fun settledDuelShowsLevelUpAndHistoryDoesNotCelebrateAgain() {
+        ready()
+        compose.runOnUiThread {
+            val api = store.transport as FixtureTransport
+            api.topicXP = 1400; api.duelPending = false
+            store.perform { store.connect(); store.game = GameSession(store,store.topic("22"),true) }
+        }
+        compose.waitUntil(10000) { compose.onAllNodesWithTag("startDuel").fetchSemanticsNodes().isNotEmpty() }; tapTag("startDuel")
+        repeat(7) {
+            compose.waitUntil(7000) { compose.onAllNodesWithTag("answer-0").fetchSemanticsNodes().isNotEmpty() }
+            val right = compose.runOnIdle { store.game!!.question!!.let { q -> store.bank.first { it.id == q.id }.correctIndex } }
+            tapTag("answer-$right")
+            compose.waitUntil(5000) { compose.onAllNodesWithTag("advanceQuestion").fetchSemanticsNodes().isNotEmpty() }; tapTag("advanceQuestion")
+        }
+        compose.waitUntil(10000) { compose.onAllNodesWithTag("topicLevelUp").fetchSemanticsNodes().isNotEmpty() }
+        text("LEVEL UP!").assertExists(); text("Level 2").assertExists(); capture("TopicLevelUp")
+        compose.runOnIdle { assertEquals(1700,store.topicXP("22")); assertEquals(2,store.game!!.levelUp!!.progress.level) }
+        compose.onNodeWithText("Back to topics").performScrollTo().performClick()
+        compose.runOnUiThread { store.game = GameSession(store,store.topic("22"),true,saved=store.history.first { it.id == "test-match" }) }
+        compose.waitUntil(5000) { compose.onAllNodesWithTag("winnerAnnouncement").fetchSemanticsNodes().isNotEmpty() }
+        compose.onNodeWithTag("topicLevelUp").assertDoesNotExist()
+    }
     @Test fun fullPracticeDuelReadingPowerProgressResultRematchAndFinishedClose() {
         ready(); compose.onNodeWithTag("topicSearch").performTextInput("Geography"); tapTag("topic-22")
         compose.onNodeWithTag("practice").performScrollTo().performClick(); compose.waitUntil(15000) { compose.onAllNodesWithTag("startDuel").fetchSemanticsNodes().isNotEmpty() }; capture("Matchup"); tapTag("startDuel")

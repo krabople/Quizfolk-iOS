@@ -58,9 +58,9 @@ extension QuizStore {
    persistHistory()
   } catch {socialError=error.localizedDescription}
  }
- static func testCard(following:Bool,own:Bool=false)->PlayerCard {
+ static func testCard(following:Bool,own:Bool=false,topicXP:Int=700)->PlayerCard {
   let raw="""
-  {"id":"\(own ? "test-self":"test-rival")","name":"\(own ? "UI Player":"Sample Rival")","avatar":null,"title":"Newcomer","interests":["22","17"],"sharedTopics":["22"],"following":\(following),"followers":\(following ? 1:0),"followingCount":0,"canChallenge":\(!own),"stats":{"matches":4,"wins":2,"draws":1,"xp":700,"correct":20,"answered":28,"perfect":1},"topics":[{"topicID":"22","xp":700,"level":3,"matches":4,"wins":2}],"titles":[{"id":"newcomer","name":"Newcomer"}],"selectedTitle":"newcomer","discoverable":true,"challengesOpen":true,"headToHead":{"games":3,"wins":1,"draws":1,"losses":1},"badges":[{"id":"first","name":"First duel","symbol":"bolt.fill","earned":true}]}
+  {"id":"\(own ? "test-self":"test-rival")","name":"\(own ? "UI Player":"Sample Rival")","avatar":null,"title":"Newcomer","interests":["22","17"],"sharedTopics":["22"],"following":\(following),"followers":\(following ? 1:0),"followingCount":0,"canChallenge":\(!own),"stats":{"matches":4,"wins":2,"draws":1,"xp":\(topicXP),"correct":20,"answered":28,"perfect":1},"topics":[{"topicID":"22","xp":\(topicXP),"level":\(TopicLevelling.progress(xp:topicXP).level),"matches":4,"wins":2}],"titles":[{"id":"newcomer","name":"Newcomer"}],"selectedTitle":"newcomer","discoverable":true,"challengesOpen":true,"headToHead":{"games":3,"wins":1,"draws":1,"losses":1},"badges":[{"id":"first","name":"First duel","symbol":"bolt.fill","earned":true}]}
   """
   return try! JSONDecoder().decode(PlayerCard.self,from:Data(raw.utf8))
  }

@@ -45,6 +45,9 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
     @Published var busy=false
     @Published var error:String?
     @Published var finished=false
+    @Published private(set) var levelUp:TopicLevelUp?
+    private var xpBeforeMatch:Int
+    private var canAnnounceLevelUp=true
     @Published var showIntro=true
     @Published var prepared=false
     @Published var introCount=3
@@ -59,7 +62,7 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
     private var pendingAnswer:Int?
     private var pendingElapsed=0.0
     private var store:QuizStore
-    init(topic:Topic,store:QuizStore,online:Bool,match:StartReply?=nil) {self.topic=topic;self.store=store;self.online=online;self.suppliedMatch=match;self.searching=online && match==nil}
+    init(topic:Topic,store:QuizStore,online:Bool,match:StartReply?=nil) {self.topic=topic;self.store=store;self.online=online;self.suppliedMatch=match;self.searching=online && match==nil;self.xpBeforeMatch=store.topicXP(topic)}
     convenience init(topic:Topic,store:QuizStore,record:MatchRecord) {
         self.init(topic:topic,store:store,online:record.kind != "practice")
         matchID=record.id;localHistoryID=record.id;kind=record.kind=="practice" ? "bot":record.kind
@@ -67,6 +70,7 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
         rounds=record.rounds;score=record.score;opponentScore=record.opponentScore;awaitingOpponent=record.pending==true
         prepared=true;searching=false;showIntro=false;finished=true;revealed=true;round=max(0,record.rounds.count-1)
         current=record.rounds.last?.question
+        canAnnounceLevelUp=record.pending==true
     }
     func begin() async {
         guard !prepared,!busy else {return}
@@ -74,6 +78,7 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
         do {
             if online {
                 if store.profile==nil {await store.connect();if let message=store.onlineError {throw APIError.message(message)}}
+                xpBeforeMatch=store.topicXP(topic)
                 if let suppliedMatch {apply(suppliedMatch)}
                 else {
                     searching=true;defer{searching=false}
@@ -106,7 +111,15 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
     }
     func refreshResult() async {
         guard let duelID else {return};busy=true;defer{busy=false}
-        do {let r=try await store.openChallenge(duelID);apply(r);await store.refreshSocial();await store.connect();error=nil} catch {self.error=error.localizedDescription}
+        do {let r=try await store.openChallenge(duelID);apply(r);await store.refreshSocial();await store.connect();updateLevelUp();error=nil} catch {self.error=error.localizedDescription}
+    }
+    func updateLevelUp() {
+        guard online,finished,rounds.count==7,!awaitingOpponent,canAnnounceLevelUp else{return}
+        let after=store.topicXP(topic),earned=Scoring.experience(score:score,opponentScore:opponentScore)
+        guard after>=xpBeforeMatch,after-xpBeforeMatch>=earned else{return}
+        // Attribute only this match's award, even if other duels settled meanwhile.
+        levelUp=TopicLevelling.levelUp(beforeXP:after-earned,afterXP:after)
+        canAnnounceLevelUp=false
     }
     func countdownAndStart() async {
         guard prepared,showIntro,!introCounting,!busy else {return}
@@ -241,7 +254,7 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
         if round==6 {
             finished=true
             saveResult()
-            if online {await store.connect();await store.refreshSocial()}
+            if online {await store.connect();updateLevelUp();await store.refreshSocial()}
             return
         }
         selected=nil;revealed=false;round+=1
