@@ -13,8 +13,20 @@ Client and server code can be tested without provider credentials. The settings
 screen explicitly reports that delivery is unavailable until configured. Building
 the app or switching its preference on does not by itself activate push delivery.
 An actual device delivery test is required after the following setup.
-The shared-host backend and one-minute cron job have been deployed; provider
-credentials and the dedicated Firebase project still require activation.
+The shared-host backend and one-minute cron job have been deployed. On 5 November
+2026 the production APNs credential was installed outside the web root, with
+owner-only file permissions and a topic restriction to `com.quizfolk.ios`.
+The hosting check reached APNs over HTTP/2 and received HTTP 400 `BadDeviceToken`
+for a deliberately invalid token; this is a connectivity check, not a physical
+device delivery test. TestFlight 0.3.3 (21) already contains the production push
+entitlement and can use this server configuration without another iOS build.
+
+The dedicated Firebase project `quizfolk-1aa86` and Android registration
+`com.quizfolk.android` exist on the Spark no-cost plan, with Analytics and Gemini
+disabled. Cloud Messaging API v1 is enabled. Its dedicated sender credential and
+Android client configuration remain pending a separate Google Cloud Platform
+terms confirmation; Firebase's terms were accepted with the owner's approval.
+The Android 0.3.3 (10) preview does not contain Firebase client identifiers.
 
 1. Create a dedicated Firebase project named Quizfolk in the owner's Google
    account, with Analytics and Gemini assistance off. Firebase requires the owner
