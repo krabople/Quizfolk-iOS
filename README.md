@@ -24,6 +24,14 @@ GitHub's Android workflow runs cross-platform API contracts, unit tests and
 emulator screen tests, then builds a signed installable APK and a Play AAB.
 See [Android setup and parity notes](android/README.md).
 
+The configured Android push testing release is
+[0.3.3 (11)](https://github.com/krabople/Quizfolk-iOS/releases/tag/android-v0.3.3-11-preview).
+It uses the existing signing certificate and the same service as iOS TestFlight
+0.3.3 (21). In **You → Notifications**, players can independently choose challenge,
+duel result, tournament prize and friends tournament alerts. Both server providers
+are configured; physical-device delivery remains to be checked after opting in.
+See [push activation and verification](docs/push-notifications.md).
+
 ## Open in Xcode
 
 Requires macOS, Xcode 26 or later for App Store upload, and XcodeGen. Deployment target is iOS 17.0, iPhone only.
