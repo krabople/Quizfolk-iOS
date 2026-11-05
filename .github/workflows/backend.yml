@@ -17,6 +17,9 @@ jobs:
         run: |
           python3 scripts/validate_bank.py
           php -l backend/public/index.php
+          php -l backend/notifications.php
+          php -l backend/push_worker.php
+          php scripts/test_push_crypto.php
           php scripts/test_migration.php
           php scripts/test_bank_revisions.php
           php scripts/test_question_dedup.php

@@ -56,6 +56,7 @@ import java.util.UUID
             Metric("${store.history.size}", "Duels"); Metric("${store.history.count { it.won }}", "Wins")
             val answered = store.history.flatMap { it.rounds }; Metric(if (answered.isEmpty()) "—" else "${answered.count { it.points > 0 } * 100 / answered.size}%", "Accuracy")
         } }
+        Action("Notifications", color = Ink, tag = "notificationSettings") { store.push(Page("notifications")) }
         Heading("Your topic journey")
         store.topics.filter { it.id in store.favourites || store.topicXP(it.id) > 0 }.forEach { topic -> Panel(Modifier.clickable { store.push(Page("topic", topic.id)) }) { TopicLevel(topic, store.topicXP(topic.id)) } }
         Panel {

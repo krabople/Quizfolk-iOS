@@ -1,6 +1,7 @@
 import SwiftUI
 
 @main struct QuizfolkApp: App {
+    @UIApplicationDelegateAdaptor(PushAppDelegate.self) private var appDelegate
     @StateObject private var store=QuizStore()
     var body:some Scene {WindowGroup {RootView().environmentObject(store).preferredColorScheme(.light)}}
 }
@@ -9,6 +10,7 @@ struct RootView:View {
     @Environment(\.scenePhase) private var scenePhase
     @State private var tab=0
     @State private var interests=false
+    @ObservedObject private var push=PushCoordinator.shared
     @AppStorage("didChooseInterests") private var didChoose=false
     var body:some View {
         TabView(selection:$tab) {
@@ -21,8 +23,10 @@ struct RootView:View {
         .onAppear{if !didChoose {interests=true}}
         .accessibilityHidden(!interests && (!store.pendingPrizes.isEmpty || store.badgeConfirmation != nil))
         .overlay{if !interests {if let prize=store.badgeConfirmation{BadgeAppliedPopup(prize:prize)}else if let prize=store.pendingPrizes.first {TournamentPrizePopup(prize:prize).id(prize.id)}}}
-        .task {await store.connect();await store.claimDailyLogin();await store.refreshSocial();await store.loadPrizes()}
-        .onChange(of:scenePhase){_,phase in if phase == .active {Task{await store.claimDailyLogin();await store.refreshSocial();await store.loadPrizes()}}}
+        .task {await store.connect();await store.claimDailyLogin();await store.refreshSocial();await store.loadPrizes();await store.syncNotificationDevice()}
+        .onChange(of:scenePhase){_,phase in if phase == .active {Task{await store.claimDailyLogin();await store.refreshSocial();await store.loadPrizes();await store.syncNotificationDevice()}}}
+        .onReceive(NotificationCenter.default.publisher(for:.quizfolkPushToken)){_ in Task{await store.syncNotificationDevice()}}
+        .sheet(item:$push.destination){destination in NavigationStack{NotificationDestinationView(destination:destination).toolbar{ToolbarItem(placement:.topBarTrailing){Button("Done"){push.destination=nil}}}}}
         .sheet(isPresented:$interests,onDismiss:{didChoose=true}){InterestsView()}
         .alert("Question bank unavailable",isPresented:Binding(get:{store.loadError != nil},set:{_ in store.loadError=nil})){Button("OK",role:.cancel){}}message:{Text(store.loadError ?? "")}
     }

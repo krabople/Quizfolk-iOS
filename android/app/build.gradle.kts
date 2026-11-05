@@ -7,7 +7,13 @@ android {
         minSdk = 26
         targetSdk = 36
         versionCode = System.getenv("GITHUB_RUN_NUMBER")?.toIntOrNull() ?: 1
-        versionName = "0.3.2"
+        versionName = "0.3.3"
+        val firebaseConfig = java.util.Properties().apply { rootProject.file("firebase.properties").takeIf { it.exists() }?.inputStream()?.use { load(it) } }
+        listOf("FCM_APP_ID", "FCM_API_KEY", "FCM_PROJECT_ID", "FCM_SENDER_ID").forEach { name ->
+            val value = System.getenv(name) ?: firebaseConfig.getProperty(name, "")
+            require(value.matches(Regex("[A-Za-z0-9_:.-]*"))) { "Invalid Firebase client configuration" }
+            buildConfigField("String",name,"\"$value\"")
+        }
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
     signingConfigs {
@@ -52,6 +58,8 @@ dependencies {
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.exifinterface:exifinterface:1.4.1")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2")
+    implementation(platform("com.google.firebase:firebase-bom:35.1.0"))
+    implementation("com.google.firebase:firebase-messaging")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
     testImplementation("junit:junit:4.13.2")

@@ -1,5 +1,5 @@
 """Use only the runner's existing App Store Connect key; never print credentials."""
-import os,time,json,pathlib,urllib.request,urllib.error,jwt,base64
+import os,time,json,pathlib,urllib.request,urllib.error,jwt,base64,plistlib
 from cryptography.hazmat.primitives.serialization import pkcs12,Encoding
 key=pathlib.Path.home()/'.appstoreconnect/private_keys'/('AuthKey_'+os.environ['ASC_KEY_ID']+'.p8')
 token=jwt.encode({'iss':os.environ['ASC_ISSUER_ID'],'iat':int(time.time()),'exp':int(time.time())+1100,'aud':'appstoreconnect-v1'},key.read_text(),algorithm='ES256',headers={'kid':os.environ['ASC_KEY_ID'],'typ':'JWT'})
@@ -14,6 +14,16 @@ if not existing['data']:
  bundle=call('bundleIds',{'data':{'type':'bundleIds','attributes':{'identifier':'com.quizfolk.ios','name':'Quizfolk','platform':'IOS'}}})['data']
  print('Created Quizfolk bundle identifier')
 else:bundle=existing['data'][0];print('Quizfolk bundle identifier already exists')
+# Push entitlement and provisioning must agree; an ASC API key is not an APNs provider key.
+capabilities=call('bundleIds/'+bundle['id']+'/bundleIdCapabilities')['data']
+if not any(c['attributes']['capabilityType']=='PUSH_NOTIFICATIONS' for c in capabilities):
+ call('bundleIdCapabilities',{'data':{'type':'bundleIdCapabilities','attributes':{'capabilityType':'PUSH_NOTIFICATIONS'},'relationships':{'bundleId':{'data':{'type':'bundleIds','id':bundle['id']}}}}})
+ print('Enabled Push Notifications for the dedicated Quizfolk bundle identifier')
+def has_production_push(profile):
+ try:
+  blob=base64.b64decode(profile['attributes']['profileContent']);start=blob.index(b'<?xml');end=blob.index(b'</plist>',start)+len(b'</plist>')
+  return plistlib.loads(blob[start:end]).get('Entitlements',{}).get('aps-environment')=='production'
+ except (ValueError,KeyError,plistlib.InvalidFileException):return False
 # Reuse the installed distribution certificate; never create or revoke certificates.
 _,cert,_=pkcs12.load_key_and_certificates(base64.b64decode(os.environ['BUILD_CERTIFICATE_BASE64']),os.environ['P12_PASSWORD'].encode())
 der=cert.public_bytes(Encoding.DER)
@@ -21,9 +31,10 @@ certificates=call('certificates?limit=200')['data']
 match=next((c for c in certificates if base64.b64decode(c['attributes']['certificateContent'])==der),None)
 if not match:raise SystemExit('The existing signing certificate is not registered with this Apple team')
 profiles=call('profiles?filter[profileType]=IOS_APP_STORE&include=bundleId,certificates&limit=200')['data']
-profile=next((p for p in profiles if p['attributes']['profileState']=='ACTIVE' and p['relationships']['bundleId']['data']['id']==bundle['id'] and any(c['id']==match['id'] for c in p['relationships']['certificates']['data'])),None)
+profile=next((p for p in profiles if p['attributes']['profileState']=='ACTIVE' and has_production_push(p) and p['relationships']['bundleId']['data']['id']==bundle['id'] and any(c['id']==match['id'] for c in p['relationships']['certificates']['data'])),None)
 if profile is None:
- profile=call('profiles',{'data':{'type':'profiles','attributes':{'name':'Quizfolk App Store','profileType':'IOS_APP_STORE'},'relationships':{'bundleId':{'data':{'type':'bundleIds','id':bundle['id']}},'certificates':{'data':[{'type':'certificates','id':match['id']}]}}}})['data']
+ profile=call('profiles',{'data':{'type':'profiles','attributes':{'name':'Quizfolk Push App Store '+os.environ.get('GITHUB_RUN_ID',str(int(time.time()))),'profileType':'IOS_APP_STORE'},'relationships':{'bundleId':{'data':{'type':'bundleIds','id':bundle['id']}},'certificates':{'data':[{'type':'certificates','id':match['id']}]}}}})['data']
+if not has_production_push(profile):raise SystemExit('The selected profile does not contain the production push entitlement')
 dest=pathlib.Path.home()/'Library/MobileDevice/Provisioning Profiles';dest.mkdir(parents=True,exist_ok=True)
 (dest/(profile['attributes']['uuid']+'.mobileprovision')).write_bytes(base64.b64decode(profile['attributes']['profileContent']))
 with open(os.environ['GITHUB_ENV'],'a') as env:env.write('QUIZFOLK_PROFILE_NAME='+profile['attributes']['name']+'\n')

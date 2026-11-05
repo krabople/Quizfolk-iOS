@@ -8,6 +8,7 @@ fun fixtureTransport(context: Context, bank: List<Question>): Transport = Fixtur
 
 /** Emulator-only service: never contacts production, creates players or spends real coins. */
 class FixtureTransport(private val questions: List<Question>) : Transport {
+    var notificationChoices = defaultPushChoices()
     var wallet = 150
     var claimed = true
     var following = false
@@ -46,6 +47,10 @@ class FixtureTransport(private val questions: List<Question>) : Transport {
     override suspend fun request(route: String, body: J?, query: Map<String,String>): J {
         calls.add(route to body?.copyJson())
         return when (route) {
+            "notification-settings" -> json("preferences" to notificationChoices.copyJson(), "delivery" to json("ios" to false, "android" to false))
+            "notification-preferences" -> { notificationChoices=body!!.getJSONObject("preferences").copyJson();json("preferences" to notificationChoices.copyJson(),"delivery" to json("ios" to false,"android" to false)) }
+            "notification-device" -> json("ok" to true)
+
             "register" -> json("token" to "emulator-only-token")
             "profile" -> json("id" to "test-self", "socialVersion" to 1, "name" to name, "avatar" to avatar, "matches" to 4, "wins" to 2, "xp" to 700, "correct" to 20, "answered" to 28)
             "player" -> card(query["id"] ?: "test-self")

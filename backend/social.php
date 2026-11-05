@@ -103,7 +103,7 @@ function create_random_match(PDO $db,string $pid,string $topic,array $config,boo
     else {
         if($humanOnly)return null;$packet=fresh_packet($db,$pid,$topic);$other=[];
         foreach($packet as $i=>$q){$chance=match($q['difficulty']){'easy'=>83,'hard'=>45,default=>65};$other[]=points(random_int(1,100)<=$chance,random_int(1200,9800)/1000,$i);}
-        $id=insert_match($db,$pid,$topic,'bot','Pip · Bot',null,$packet,$other);
+        $id=insert_match($db,$pid,$topic,'bot','Pip Â· Bot',null,$packet,$other);
     }
     return start_info($db,sql($db,'SELECT * FROM matches WHERE id=?',[$id])->fetch());
 }
@@ -116,6 +116,7 @@ function create_duel(PDO $db,string $creator,string $target,string $topic,string
     $id=bin2hex(random_bytes(12));$packet=fresh_packet($db,$creator,$topic);$am=insert_match($db,$creator,$topic,'challenge',$b['name'],$target,$packet,array_fill(0,7,0),$id);
     $bm=$paired ? insert_match($db,$target,$topic,'challenge',$a['name'],$creator,$packet,array_fill(0,7,0),$id):null;
     sql($db,'INSERT INTO duels VALUES(?,?,?,?,?,?,?,?,?,?,?)',[$id,$creator,$target,$topic,json_encode($packet,JSON_UNESCAPED_UNICODE),$am,$bm,$paired?'accepted':'invited',time(),time()+1209600,$requestKey]);
+    if(!$paired && function_exists('push_enqueue'))push_enqueue($db,$target,'challenge:'.$id,'challenges','New challenge',$a['name'].' challenged you to a duel.',['id'=>$id,'topicID'=>$topic],$creator);
     return sql($db,'SELECT * FROM duels WHERE id=?',[$id])->fetch();
 }
 function settle_duel(PDO $db,string $id):bool {
@@ -123,7 +124,13 @@ function settle_duel(PDO $db,string $id):bool {
     $a=sql($db,'SELECT * FROM matches WHERE id=?',[$d['creator_match']])->fetch();$b=sql($db,'SELECT * FROM matches WHERE id=?',[$d['target_match']])->fetch();
     if(!$a || !$b || count(json_decode($a['answers'],true))!==7 || count(json_decode($b['answers'],true))!==7)return false;
     foreach([[$a,$b],[$b,$a]] as [$own,$other])sql($db,'UPDATE matches SET opponent_score=?,opponent_points=?,completed=? WHERE id=?',[(int)$other['score'],json_encode(array_column(json_decode($other['answers'],true),'points')),time(),$own['id']]);
-    sql($db,'UPDATE duels SET status="complete" WHERE id=?',[$id]);return true;
+    sql($db,'UPDATE duels SET status="complete" WHERE id=?',[$id]);
+    if(function_exists('push_enqueue'))foreach([[$a,$b],[$b,$a]] as [$own,$other]) {
+        $name=(string)sql($db,'SELECT name FROM players WHERE id=?',[$other['player_id']])->fetchColumn();
+        $result=(int)$own['score']>(int)$other['score']?'You won!':((int)$own['score']===(int)$other['score']?'It’s a draw!':$name.' won.');
+        push_enqueue($db,$own['player_id'],'duel-result:'.$id,'duelResults','Duel result',$result.' '.$own['score'].' – '.$other['score'].'.',['id'=>$id,'topicID'=>$d['topic']],$other['player_id']);
+    }
+    return true;
 }
 function duel_card(PDO $db,string $pid,array $d):array {
     $creator=$d['creator_id']===$pid;$otherID=$creator?$d['target_id']:$d['creator_id'];$other=$otherID ? sql($db,'SELECT id,name,avatar FROM players WHERE id=?',[$otherID])->fetch():false;
@@ -132,6 +139,7 @@ function duel_card(PDO $db,string $pid,array $d):array {
     return ['id'=>$d['id'],'topicID'=>$d['topic'],'opponentID'=>$other?$other['id']:null,'opponent'=>$other?$other['name']:'Former player','avatar'=>$other?$other['avatar']:null,'status'=>$d['status'],'incoming'=>!$creator,'accepted'=>$d['status']!=='invited','ownFinished'=>(bool)$done,'opponentFinished'=>$o ? count(json_decode($o['answers'],true))===7:false,'score'=>$m?(int)$m['score']:0,'opponentScore'=>$d['status']==='complete' && $o ? (int)$o['score']:null,'created'=>(int)$d['created'],'expires'=>(int)$d['expires'],'matchID'=>$mid];
 }
 function delete_social_player(PDO $db,string $pid):void {
+    if(function_exists('push_schema'))sql($db,'DELETE FROM push_jobs WHERE actor=?',[$pid]);
     sql($db,'UPDATE duels SET status=CASE WHEN status="complete" THEN status ELSE "cancelled" END,creator_id=CASE WHEN creator_id=? THEN NULL ELSE creator_id END,target_id=CASE WHEN target_id=? THEN NULL ELSE target_id END,request_key=NULL WHERE creator_id=? OR target_id=?',[$pid,$pid,$pid,$pid]);
     sql($db,'UPDATE matches SET opponent="Former player",opponent_id=NULL WHERE opponent_id=?',[$pid]);
 }
@@ -159,7 +167,7 @@ function social_routes(string $route,PDO $db,string $pid,array $player,array $bo
         $st=$card['stats'];$card['badges']=[['id'=>'first','name'=>'First duel','symbol'=>'bolt.fill','earned'=>$st['matches']>=1],['id'=>'winner','name'=>'First victory','symbol'=>'trophy.fill','earned'=>$st['wins']>=1],['id'=>'perfect','name'=>'Seven of seven','symbol'=>'checkmark.seal.fill','earned'=>$st['perfect']>=1],['id'=>'ten','name'=>'Tenacious','symbol'=>'flame.fill','earned'=>$st['matches']>=10],['id'=>'explorer','name'=>'Topic explorer','symbol'=>'globe','earned'=>count($card['topics'])>=5]];
         $topicNames=array_column(play_topics(),'name','id');
         foreach(sql($db,'SELECT p.event_id,p.rank,e.topic,e.kind,e.starts FROM tournament_places p JOIN tournament_events e ON e.id=p.event_id WHERE p.player_id=? AND p.rank BETWEEN 1 AND 3 ORDER BY e.ends DESC LIMIT 20',[$id])->fetchAll() as $trophy) {
-            $card['badges'][]=['id'=>'tournament:'.$trophy['event_id'],'name'=>($topicNames[$trophy['topic']] ?? 'Tournament').' · #'.$trophy['rank'].' · '.gmdate('j M Y',(int)$trophy['starts']),'symbol'=>'trophy.fill','earned'=>true,'topicID'=>$trophy['topic'],'kind'=>$trophy['kind'],'rank'=>(int)$trophy['rank']];
+            $card['badges'][]=['id'=>'tournament:'.$trophy['event_id'],'name'=>($topicNames[$trophy['topic']] ?? 'Tournament').' Â· #'.$trophy['rank'].' Â· '.gmdate('j M Y',(int)$trophy['starts']),'symbol'=>'trophy.fill','earned'=>true,'topicID'=>$trophy['topic'],'kind'=>$trophy['kind'],'rank'=>(int)$trophy['rank']];
         }
         out($card);
     }

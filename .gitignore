@@ -8,6 +8,10 @@ backend/config.php
 *.p12
 *.mobileprovision
 *.key
+*.p8
+*-service-account.json
+firebase-adminsdk*.json
+backend/push-config.php
 .env
 *.log
 

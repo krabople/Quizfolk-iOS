@@ -11,6 +11,11 @@ permissions:
 concurrency:
   group: android-${{ github.ref }}
   cancel-in-progress: true
+env:
+  FCM_APP_ID: ${{ vars.FCM_APP_ID }}
+  FCM_API_KEY: ${{ vars.FCM_API_KEY }}
+  FCM_PROJECT_ID: ${{ vars.FCM_PROJECT_ID }}
+  FCM_SENDER_ID: ${{ vars.FCM_SENDER_ID }}
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -94,7 +99,7 @@ jobs:
           python3 ../scripts/verify_android_artifacts.py
       - uses: actions/upload-artifact@v4
         with:
-          name: Quizfolk-Android-0.3.2-${{ github.run_number }}
+          name: Quizfolk-Android-0.3.3-${{ github.run_number }}
           retention-days: 30
           path: |
             android/app/build/outputs/apk/release/app-release.apk

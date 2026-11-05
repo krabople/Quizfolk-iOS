@@ -25,6 +25,10 @@ import Security
     @Published var badgeConfirmation:TournamentPrize?
     @Published var coinBalance:Int?
     @Published var dailyLoginReward:DailyLoginReward?
+    @Published var notificationSettings=NotificationSettingsReply(preferences:NotificationPreferences(),delivery:PushDelivery(ios:false,android:false))
+    var notificationGeneration=0
+    @Published var notificationBusy=false
+    @Published var notificationError:String?
     var claimingDailyLogin=false
     var prizesLoading=false
     var testPrizeAcknowledged=false

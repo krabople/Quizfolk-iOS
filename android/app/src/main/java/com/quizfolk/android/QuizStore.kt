@@ -26,6 +26,12 @@ class QuizStore(application: Application) : AndroidViewModel(application) {
     private var tasks = 0
     private var token: String? = null
     var testing = false
+    var notificationGeneration=0
+    var notificationChoices by mutableStateOf(defaultPushChoices())
+    var pushDelivery by mutableStateOf(false)
+    var pushPermission by mutableStateOf(false)
+    var notificationError by mutableStateOf<String?>(null)
+    var pendingPush by mutableStateOf<PushDestination?>(null)
     var transport: Transport = HttpTransport({ endpoint }, { token })
     var endpoint by mutableStateOf(prefs.getString("endpoint", "https://www.ways2earn.com/quizfolk-api/index.php")!!)
     var name by mutableStateOf(prefs.getString("name", "Explorer-" + UUID.randomUUID().toString().replace("-", "").take(10).uppercase())!!)
@@ -93,6 +99,7 @@ class QuizStore(application: Application) : AndroidViewModel(application) {
             coins = api("daily-login", json()).getJSONObject("wallet").n("coins")
             refreshSocial()
             loadPrizes()
+            syncNotifications()
         } catch (e: Exception) { if (e is CancellationException) throw e; connectionError = e.message }
         finally { resumeLock.unlock() }
     }

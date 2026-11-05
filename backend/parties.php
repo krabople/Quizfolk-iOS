@@ -45,6 +45,7 @@ function party_sync(PDO $db,string $id):void {
     if($unfinished===0 || (int)$p['ends']<=time()) {
         sql($db,'UPDATE duels SET status="expired" WHERE status IN ("invited","accepted") AND id IN(SELECT duel_id FROM party_fixtures WHERE party_id=?)',[$id]);
         sql($db,'UPDATE parties SET status="complete" WHERE id=?',[$id]);sql($db,'UPDATE tournament_runs SET state="finished" WHERE event_id=?',[$id]);
+        if(function_exists('push_enqueue'))foreach(sql($db,'SELECT player_id FROM party_members WHERE party_id=?',[$id])->fetchAll() as $member)push_enqueue($db,$member['player_id'],'party-finished:'.$id,'friendsTournaments','Friends tournament finished',$p['name'].' has finished. See your final standings.',['id'=>$id]);
         sql($db,'UPDATE tournament_events SET ends=? WHERE id=?',[time(),$id]);
     }
 }
@@ -75,7 +76,7 @@ function party_routes(string $route,PDO $db,string $pid,array $body):void {
         $old=sql($db,'SELECT p.*,e.ends FROM parties p JOIN tournament_events e ON e.id=p.id WHERE p.request_key=?',[$pid.':'.$key])->fetch();
         if($old){$card=party_card($db,$pid,$old);$db->exec('COMMIT');out($card,201);}
         $name=trim((string)($body['name'] ?? ''));$cycles=$body['cycles'] ?? 1;$days=$body['days'] ?? 7;$powers=$body['powers'] ?? false;$entry=$body['entryCoins'] ?? 10;
-        if(strlen($name)<2 || strlen($name)>60 || preg_match('/[\p{C}]/u',$name))fail('Use a tournament name of 2–60 characters.');
+        if(strlen($name)<2 || strlen($name)>60 || preg_match('/[\p{C}]/u',$name))fail('Use a tournament name of 2â€“60 characters.');
         if(!is_int($cycles) || $cycles<1 || $cycles>3 || !in_array($days,[1,3,7,14],true) || !is_bool($powers) || !in_array($entry,[0,10],true))fail('Choose valid tournament settings.');
         if((int)sql($db,'SELECT COUNT(*) FROM parties WHERE host=? AND created>?',[$pid,time()-86400])->fetchColumn()>=3)fail('You can host up to three friends tournaments a day.',429);
         $id=bin2hex(random_bytes(12));$code=strtoupper(bin2hex(random_bytes(6)));$end=time()+86400;
@@ -124,7 +125,8 @@ function party_routes(string $route,PDO $db,string $pid,array $body):void {
         if($route==='party-cancel'){party_cancel($db,$p);$db->exec('COMMIT');out(['ok'=>true]);}
         $members=sql($db,'SELECT * FROM party_members WHERE party_id=? ORDER BY player_id',[$id])->fetchAll();if(count($members)<2)fail('At least two players must join before you start.',409);
         foreach($members as $i=>$a)foreach(array_slice($members,$i+1) as $b)for($cycle=1;$cycle<=(int)$p['cycles'];$cycle++)foreach([$a,$b] as $home)sql($db,'INSERT INTO party_fixtures(id,party_id,a,b,topic,cycle,home) VALUES(?,?,?,?,?,?,?)',[bin2hex(random_bytes(12)),$id,$a['player_id'],$b['player_id'],$home['topic'],$cycle,$home['player_id']]);
-        sql($db,'UPDATE parties SET status="playing" WHERE id=?',[$id]);sql($db,'UPDATE tournament_events SET starts=?,ends=? WHERE id=?',[time(),time()+(int)$p['days']*86400,$id]);$db->exec('COMMIT');out(['ok'=>true]);
+        sql($db,'UPDATE parties SET status="playing" WHERE id=?',[$id]);
+        if(function_exists('push_enqueue'))foreach($members as $member)if($member['player_id']!==$pid)push_enqueue($db,$member['player_id'],'party-started:'.$id,'friendsTournaments','Your friends tournament is ready',$p['name'].' has started. Your matches are ready to play.',['id'=>$id],$pid);sql($db,'UPDATE tournament_events SET starts=?,ends=? WHERE id=?',[time(),time()+(int)$p['days']*86400,$id]);$db->exec('COMMIT');out(['ok'=>true]);
     }
     if($route==='party-play') {
         if(!in_array($p['status'],['playing','complete'],true))fail('This tournament is not open for matches.',409);

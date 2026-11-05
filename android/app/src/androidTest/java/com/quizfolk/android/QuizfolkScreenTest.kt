@@ -135,6 +135,22 @@ class QuizfolkScreenTest {
         compose.waitUntil(5000) { compose.onAllNodesWithText("Invite friends").fetchSemanticsNodes().isNotEmpty() }
         compose.onNodeWithText("Tournament standings").performScrollTo().assertExists(); compose.runOnIdle { assertEquals(0,(store.transport as FixtureTransport).party!!.n("entryCoins")) }; capture("PrivateTournament")
     }
+    @Test fun notificationChoicesAreIndependentPersistAndReportUnavailableDelivery() {
+        ready();tapTag("tab-You");compose.onNodeWithTag("notificationSettings").performScrollTo().performClick()
+        compose.waitUntil(5000) { compose.onAllNodesWithTag("push-enabled").fetchSemanticsNodes().isNotEmpty() }
+        compose.onNodeWithTag("push-enabled").assertIsOff().performClick()
+        compose.waitUntil(5000) { store.notificationChoices.b("enabled") }
+        compose.onNodeWithTag("push-challenges").performScrollTo().performClick()
+        compose.waitUntil(5000) { !store.notificationChoices.b("challenges") }
+        compose.onNodeWithTag("push-tournamentPrizes").performScrollTo().assertIsOn()
+        capture("NotificationChoices");tapTag("back")
+        compose.onNodeWithTag("notificationSettings").performScrollTo().performClick()
+        compose.waitUntil(5000) { compose.onAllNodesWithTag("push-challenges").fetchSemanticsNodes().isNotEmpty() }
+        compose.onNodeWithTag("push-challenges").performScrollTo().assertIsOff()
+        compose.onNodeWithText("Push delivery is not available yet. Your choices will be saved.").performScrollTo().assertExists()
+        compose.onNodeWithTag("push-enabled").performScrollTo().performClick()
+        compose.waitUntil(5000) { !store.notificationChoices.b("enabled") }
+    }
     @Test fun bundledBankAndSecureCredentialStorage() {
         ready(); compose.runOnIdle {
             assertEquals(21667,store.bank.size); assertEquals(31,store.topics.size)

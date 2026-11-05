@@ -33,7 +33,12 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState); enableEdgeToEdge()
         store.testing = BuildConfig.DEBUG && intent.getBooleanExtra("ui_test", false)
+        acceptPush(intent)
         setContent { QuizfolkTheme { Root(store) } }
+    }
+    override fun onNewIntent(intent: android.content.Intent) { super.onNewIntent(intent);setIntent(intent);acceptPush(intent) }
+    private fun acceptPush(intent: android.content.Intent) {
+        store.pendingPush=PushDestination.parse(mapOf("kind" to intent.getStringExtra("pushKind").orEmpty(),"id" to intent.getStringExtra("pushID").orEmpty(),"topicID" to intent.getStringExtra("pushTopic").orEmpty()))
     }
 }
 
@@ -48,6 +53,9 @@ class MainActivity : ComponentActivity() {
     }
     LaunchedEffect(store.pages.toList(), store.game?.id, store.tab) { focus.clearFocus(); keyboard?.hide() }
     LaunchedEffect(Unit) { store.initialize() }
+    LaunchedEffect(store.ready,store.pendingPush) {
+        if (store.ready) store.pendingPush?.let { destination -> store.pendingPush=null;store.perform { store.openNotification(destination) } }
+    }
     DisposableEffect(owner, store) {
         val observer = LifecycleEventObserver { _, event -> if (event == Lifecycle.Event.ON_START && store.ready) scope.launch { store.resume() } }
         owner.lifecycle.addObserver(observer); onDispose { owner.lifecycle.removeObserver(observer) }
@@ -69,7 +77,7 @@ class MainActivity : ComponentActivity() {
             }) { padding ->
                 Column(Modifier.padding(padding).fillMaxSize().consumeWindowInsets(padding)) {
                     val page = store.pages.lastOrNull()
-                    if (page != null) TopBar(when (page.type) { "topic" -> store.topic(page.id).name; "player" -> "Player card"; "match" -> "Duel review"; "coins" -> "Daily Trail"; "badges" -> "Tournament badges"; "event" -> "Tournament"; "friends" -> "Friends tournaments"; "party" -> "Friends tournament"; "challenge" -> "Challenge"; else -> "Quizfolk" }, store::back)
+                    if (page != null) TopBar(when (page.type) { "topic" -> store.topic(page.id).name; "player" -> "Player card"; "match" -> "Duel review"; "coins" -> "Daily Trail"; "badges" -> "Tournament badges"; "notifications" -> "Notifications"; "event" -> "Tournament"; "friends" -> "Friends tournaments"; "party" -> "Friends tournament"; "challenge" -> "Challenge"; else -> "Quizfolk" }, store::back)
                     if (page == null) when (store.tab) { 0 -> DiscoverPage(store); 1 -> DuelsPage(store); 2 -> TournamentsPage(store); 3 -> PeoplePage(store); else -> ProfilePage(store) }
                     else when (page.type) {
                         "topic" -> TopicPage(store, store.topic(page.id))
@@ -77,6 +85,7 @@ class MainActivity : ComponentActivity() {
                         "match" -> MatchPage(store, page.record!!)
                         "coins" -> CoinsPage(store)
                         "badges" -> BadgesPage(store)
+                        "notifications" -> NotificationSettingsPage(store)
                         "event" -> TournamentPage(store, page.value!!)
                         "friends" -> FriendsPage(store)
                         "party" -> FriendsBoardPage(store, page.value!!)

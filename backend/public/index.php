@@ -16,10 +16,12 @@ require dirname(__DIR__).'/tournaments.php';
 require dirname(__DIR__).'/economy.php';
 require dirname(__DIR__).'/powers.php';
 require dirname(__DIR__).'/parties.php';
+require dirname(__DIR__).'/notifications.php';
 function earned_xp(int $score,int $other):int {return $score+40+($score>$other ? 100:($score===$other ? 50:0));}
 try {
     $configFile=dirname(__DIR__).'/config.php';
     $config=is_file($configFile) ? require $configFile:[];
+    $pushFile=dirname(__DIR__).'/push-config.php';if(is_file($pushFile))$config['push']=require $pushFile;
     $state=$config['state_dir'] ?? getenv('QUIZFOLK_STATE_DIR') ?: dirname(__DIR__).'/private';
     if(!is_dir($state) && !mkdir($state,0700,true)) throw new RuntimeException('Cannot create state directory');
     $db=new PDO('sqlite:'.$state.'/quizfolk.sqlite',null,null,[PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION,PDO::ATTR_DEFAULT_FETCH_MODE=>PDO::FETCH_ASSOC]);
@@ -37,13 +39,15 @@ try {
     tournament_schema($db);
     power_schema($db);
     party_schema($db);
+    push_schema($db);
+    if(defined('QUIZFOLK_PUSH_WORKER'))return;
     $route=(string)($_GET['r'] ?? 'health');$method=$_SERVER['REQUEST_METHOD'];
     if((int)($_SERVER['CONTENT_LENGTH'] ?? 0)>24576) fail('Request is too large',413);
     $raw=file_get_contents('php://input');$body=$raw==='' ? []:json_decode($raw,true,32,JSON_THROW_ON_ERROR);
     if(!is_array($body)) fail('Expected a JSON object');
-    $readRoutes=['health','categories','profile','leaderboard','people','player','duels','activity','tournaments','tournament-board','coins','prizes','parties','party-board'];
+    $readRoutes=['health','categories','profile','leaderboard','people','player','duels','activity','tournaments','tournament-board','coins','prizes','parties','party-board','notification-settings'];
     if(!in_array($route,$readRoutes,true) && $method!=='POST') fail('Use POST',405);
-    if($route==='health') out(['ok'=>true,'version'=>'0.3.2']);
+    if($route==='health') out(['ok'=>true,'version'=>'0.3.3']);
     if($route==='categories') out(['categories'=>play_topics()]);
     $ipHash=hash('sha256',(string)($_SERVER['REMOTE_ADDR'] ?? 'unknown'));
     $bucket=($route==='register' ? 'register:':'request:').$ipHash;
@@ -67,6 +71,7 @@ try {
     $player=sql($db,'SELECT * FROM players WHERE token_hash=?',[hash('sha256',$hit[1])])->fetch();
     if(!$player) fail('Player key is invalid',401);
     $pid=$player['id'];
+    push_routes($route,$db,$pid,$body,$config);
     party_routes($route,$db,$pid,$body);
     economy_routes($route,$db,$pid,$body);
     tournament_routes($route,$db,$pid,$body);

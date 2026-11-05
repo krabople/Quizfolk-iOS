@@ -1,5 +1,17 @@
 import XCTest
 final class DuelUITests:XCTestCase {
+    @MainActor func testNotificationPreferencesAreSeparateAndHonestAboutDelivery() {
+        let app=XCUIApplication();app.launchArguments=["--ui-testing"];app.launch()
+        if app.buttons["Done"].waitForExistence(timeout:8) {app.buttons["Done"].tap()}
+        app.tabBars.buttons["You"].tap()
+        let link=app.buttons["notificationSettings"]
+        for _ in 0..<5 {if link.isHittable {break};app.swipeUp()}
+        XCTAssertTrue(link.waitForExistence(timeout:5));link.tap()
+        let master=app.switches["push-enabled"];XCTAssertTrue(master.waitForExistence(timeout:5));XCTAssertEqual(master.value as? String,"0");master.tap()
+        let challenges=app.switches["push-challenges"];challenges.tap();XCTAssertEqual(challenges.value as? String,"0")
+        XCTAssertEqual(app.switches["push-tournamentPrizes"].value as? String,"1")
+        XCTAssertTrue(app.staticTexts["push-unavailable"].exists);capture("NotificationChoices")
+    }
     @MainActor func testOfflineDuelAndHistory() {
         let app=XCUIApplication();app.launchArguments=["--ui-testing"];app.launch()
         if app.buttons["Done"].waitForExistence(timeout:8) {app.buttons["Done"].tap()}
