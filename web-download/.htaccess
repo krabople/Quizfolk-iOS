@@ -13,5 +13,5 @@ AddType application/vnd.android.package-archive .apk
 
 RewriteEngine On
 RewriteCond %{QUERY_STRING} !(^|&)file=1(&|$) [NC]
-RewriteRule ^Quizfolk-Android-0[.]3[.]3-11[.]apk$ download.php [END]
+RewriteRule ^Quizfolk-Android-0[.]3[.]3-(11|12)[.]apk$ download.php [END]
 RewriteRule ^ - [L]
