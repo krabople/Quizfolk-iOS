@@ -13,6 +13,8 @@ Client and server code can be tested without provider credentials. The settings
 screen explicitly reports that delivery is unavailable until configured. Building
 the app or switching its preference on does not by itself activate push delivery.
 An actual device delivery test is required after the following setup.
+The shared-host backend and one-minute cron job have been deployed; provider
+credentials and the dedicated Firebase project still require activation.
 
 1. Create a dedicated Firebase project named Quizfolk in the owner's Google
    account, with Analytics and Gemini assistance off. Firebase requires the owner
@@ -49,7 +51,7 @@ An actual device delivery test is required after the following setup.
    and curl (including HTTP/2 for APNs):
 
    ```text
-   * * * * * /path/to/php /home/nxecei8fyf2u/quizfolk-service/backend/push_worker.php >/dev/null 2>>/home/nxecei8fyf2u/quizfolk-service/backend/private/push-worker-errors.log
+   * * * * * /usr/local/bin/php /home/nxecei8fyf2u/quizfolk-service/backend/push_worker.php >/dev/null 2>>/home/nxecei8fyf2u/quizfolk-service/backend/private/push-worker-errors.log
    ```
 
 7. Build Android with its Firebase client identifiers. The iOS project includes

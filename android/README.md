@@ -71,3 +71,10 @@ Keystore. They are scoped to the configured HTTPS endpoint, excluded from backup
 and never written to logs. Android's system picker is used instead of requesting
 access to the whole photo library. Nunito's Open Font License is included in
 `FONT-LICENSE.txt` and in the app assets.
+
+## Optional notifications
+
+The notification client and independent preference switches are implemented.
+Actual push delivery requires the dedicated Firebase client configuration and
+server provider credentials. The app reports unavailable delivery until configured.
+See [push setup and verification](../docs/push-notifications.md).

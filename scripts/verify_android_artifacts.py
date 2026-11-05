@@ -23,5 +23,7 @@ report={'platform':'Android','applicationID':'com.quizfolk.android','version':ve
     'questions':len(questions),'categories':len(topics),'mixedCategory':True,'minimumQuestionsPerTopic':min(t['questionCount'] for t in topics),
     'bankSHA256':hashlib.sha256(bank).hexdigest(),'apkSHA256':hashlib.sha256(apk.read_bytes()).hexdigest(),'aabSHA256':hashlib.sha256(aab.read_bytes()).hexdigest(),
     'sourceCommit':subprocess.check_output(['git','rev-parse','HEAD'],cwd=root,text=True).strip(),'signed':True,'debugFixturesExcluded':True,
-    'signingCertificateSHA256':fingerprint,'workflowRun':os.environ.get('GITHUB_RUN_ID')}
+    'signingCertificateSHA256':fingerprint,'workflowRun':os.environ.get('GITHUB_RUN_ID'),
+    'notificationPreferences':True,'fcmClientConfigured':all(os.environ.get(k) for k in ['FCM_APP_ID','FCM_API_KEY','FCM_PROJECT_ID','FCM_SENDER_ID']),
+    'pushDeliveryRequiresServerCredentials':True}
 (out/'android-verification.json').write_text(json.dumps(report,indent=2));print(json.dumps(report,indent=2))

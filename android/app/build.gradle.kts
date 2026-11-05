@@ -15,6 +15,10 @@ android {
             val value = System.getenv(name) ?: firebaseConfig.getProperty(name, "")
             require(value.matches(Regex("[A-Za-z0-9_:.-]*"))) { "Invalid Firebase client configuration" }
             buildConfigField("String",name,"\"$value\"")
+            if (value.isNotBlank()) {
+                val resourceName = mapOf("FCM_APP_ID" to "google_app_id", "FCM_API_KEY" to "google_api_key", "FCM_PROJECT_ID" to "project_id", "FCM_SENDER_ID" to "gcm_defaultSenderId").getValue(name)
+                resValue("string",resourceName,value)
+            }
         }
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
