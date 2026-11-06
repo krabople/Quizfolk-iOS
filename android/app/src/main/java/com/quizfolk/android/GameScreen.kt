@@ -94,7 +94,7 @@ import kotlin.math.*
             AnimatedVisibility(visible, enter = slideInHorizontally { it } + fadeIn(), modifier = Modifier.weight(1f)) { Contestant(game.opponent, game.opponentAvatar, !game.human) }
         }
         Text("${game.topic.emoji} ${game.topic.name}", fontSize = 20.sp, fontWeight = FontWeight.Bold)
-        Text(if (game.duelID != null) "A human challenge. Play now or later.\nThe result settles when both runs finish." else if (game.human) "A recorded human run.\nSame seven questions. Your own pace." else if (game.online) "You have been matched with a bot instead" else "Seven questions. A friendly bot.\nSpeed and knowledge decide the winner.", textAlign = TextAlign.Center, color = Color.White.copy(alpha = .8f), fontSize = 14.sp)
+        Text(if (game.duelID != null) "A human challenge. Play now or later.\nThe result settles when both runs finish." else if (game.human) "A recorded human run.\nSame seven questions. Your own pace." else if (game.online) "We couldn’t find a human opponent.\nYou have been matched with a bot instead." else "Seven questions. A friendly bot.\nSpeed and knowledge decide the winner.", textAlign = TextAlign.Center, color = Color.White.copy(alpha = .8f), fontSize = 14.sp)
         Spacer(Modifier.weight(1f))
         if (game.prepared) {
             Text(if (game.counting) "${game.countdown}" else "Ready for your duel?", fontSize = if (game.counting) 48.sp else 18.sp, fontWeight = FontWeight.Bold)

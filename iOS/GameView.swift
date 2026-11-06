@@ -55,7 +55,7 @@ private struct DuelScreen:View {
     contestant(game.opponent,avatar:game.opponentAvatar,bot:!game.isHuman).offset(x:entered ? 0:170)
    }.accessibilityElement(children:.combine).accessibilityLabel("\(store.name) versus \(game.opponent)").accessibilityIdentifier("matchupTitle")
    Text(game.topic.emoji+" "+game.topic.name).font(.title3.bold())
-   Text(game.duelID != nil ? "A human challenge. Play now or later.\nThe result settles when both runs finish.":(game.isHuman ? "A recorded human run.\nSame seven questions. Your own pace.":(game.online ? "You have been matched with a bot instead":"Seven questions. A friendly bot.\nSpeed and knowledge decide the winner."))).font(.subheadline).multilineTextAlignment(.center).opacity(0.8)
+   Text(game.duelID != nil ? "A human challenge. Play now or later.\nThe result settles when both runs finish.":(game.isHuman ? "A recorded human run.\nSame seven questions. Your own pace.":(game.online ? "We couldn’t find a human opponent.\nYou have been matched with a bot instead.":"Seven questions. A friendly bot.\nSpeed and knowledge decide the winner."))).font(.subheadline).multilineTextAlignment(.center).opacity(0.8)
    Spacer(minLength:0)
    if game.prepared {if game.introCounting {Text("\(game.introCount)").font(.system(size:58,weight:.heavy,design:.rounded)).contentTransition(.numericText())} else {Text("Ready for your duel?").font(.headline)};Button(game.introCounting ? "Get ready…":"Start duel"){Task{await game.countdownAndStart()}}.buttonStyle(PrimaryButton(color:.coral)).disabled(game.busy || game.introCounting)}
    else if game.busy {ProgressView("Preparing your duel…").tint(.white)}

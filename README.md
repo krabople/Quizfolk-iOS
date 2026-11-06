@@ -215,4 +215,4 @@ settings suppress the entrance animation.
 
 Online fallback and offline practice draw from the same 32 named bots, avoiding
 the last five selections. An online match keeps its chosen name on retries and
-in history. The intro now says “You have been matched with a bot instead”.
+in history. The bot intro explains that no human opponent could be found before confirming the bot match.
