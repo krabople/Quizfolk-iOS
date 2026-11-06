@@ -25,7 +25,7 @@ emulator screen tests, then builds a signed installable APK and a Play AAB.
 See [Android setup and parity notes](android/README.md).
 
 The configured Android push testing release is
-[0.3.3 (12)](https://github.com/krabople/Quizfolk-iOS/releases/tag/android-v0.3.3-12-preview).
+[0.3.3 (13)](https://github.com/krabople/Quizfolk-iOS/releases/tag/android-v0.3.3-13-preview).
 It uses the existing signing certificate and the same service as iOS TestFlight
 0.3.3 (22). In **You → Notifications**, players can independently choose challenge,
 duel result, tournament prize and friends tournament alerts. Both server providers
