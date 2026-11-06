@@ -27,7 +27,7 @@ See [Android setup and parity notes](android/README.md).
 The configured Android push testing release is
 [0.3.3 (14)](https://github.com/krabople/Quizfolk-iOS/releases/tag/android-v0.3.3-14-preview).
 It uses the existing signing certificate and the same service as iOS TestFlight
-0.3.3 (23). In **You → Notifications**, players can independently choose challenge,
+0.3.3 (24). In **You → Notifications**, players can independently choose challenge,
 duel result, tournament prize and friends tournament alerts. Both server providers
 are configured; physical-device delivery remains to be checked after opting in.
 See [push activation and verification](docs/push-notifications.md).
