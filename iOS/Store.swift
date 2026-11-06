@@ -5,6 +5,8 @@ import Security
 @MainActor final class QuizStore: ObservableObject {
     @Published var topics: [Topic] = []
     @Published var questions: [Question] = []
+    private(set) var botNames:[String]=[]
+    private var recentBotNames:[String]=[]
     @Published var favourites: Set<String> = []
     @Published var history: [MatchRecord] = []
     @Published var name = "Explorer-"+UUID().uuidString.replacingOccurrences(of:"-",with:"").prefix(10).uppercased()
@@ -51,6 +53,7 @@ import Security
         do {
             topics = try Self.resource("categories")
             questions = try Self.resource("questions")
+            botNames = try Self.resource("bots")
             topics.append(.mixed(count:questions.count))
         } catch { loadError = "The question bank could not be loaded: \(error.localizedDescription)" }
         favourites = Set(UserDefaults.standard.stringArray(forKey:"favourites") ?? [])
@@ -105,6 +108,12 @@ import Security
         return history.filter{$0.topicID==topic.id && $0.kind != "practice"}.reduce(0){$0+$1.xp}
     }
     func level(_ topic:Topic)->Int {TopicLevelling.progress(xp:topicXP(topic)).level}
+    func nextBotName()->String {
+        let recent=Array((recentBotNames+history.filter{$0.kind=="bot" || $0.kind=="practice"}.map(\.opponent)).prefix(5))
+        let name=botNames.filter{!recent.contains($0)}.randomElement() ?? "Quizfolk · Bot"
+        recentBotNames=Array(([name]+recent).prefix(5))
+        return name
+    }
     func request<T:Decodable>(_ route:String,body:[String:Any]?=nil,query:[URLQueryItem]=[]) async throws -> T {
         #if DEBUG
         if let testResponse {return try JSONDecoder().decode(T.self,from:await testResponse(route,body))}

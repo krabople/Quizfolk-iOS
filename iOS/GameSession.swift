@@ -16,7 +16,7 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
     @Published var remaining=10.0
     @Published var score=0
     @Published var opponentScore=0
-    @Published var opponent="Pip · Bot"
+    @Published var opponent="Bot"
     @Published var kind="bot"
     @Published var opponentAvatar:String?
     @Published var opponentID:String?
@@ -62,7 +62,7 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
     private var pendingAnswer:Int?
     private var pendingElapsed=0.0
     private var store:QuizStore
-    init(topic:Topic,store:QuizStore,online:Bool,match:StartReply?=nil) {self.topic=topic;self.store=store;self.online=online;self.suppliedMatch=match;self.searching=online && match==nil;self.xpBeforeMatch=store.topicXP(topic)}
+    init(topic:Topic,store:QuizStore,online:Bool,match:StartReply?=nil) {self.topic=topic;self.store=store;self.online=online;self.suppliedMatch=match;self.searching=online && match==nil;self.xpBeforeMatch=store.topicXP(topic);self.opponent=store.nextBotName()}
     convenience init(topic:Topic,store:QuizStore,record:MatchRecord) {
         self.init(topic:topic,store:store,online:record.kind != "practice")
         matchID=record.id;localHistoryID=record.id;kind=record.kind=="practice" ? "bot":record.kind

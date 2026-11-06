@@ -48,7 +48,7 @@ android {
 }
 kotlin { jvmToolchain(17) }
 val questionAssets by tasks.registering(Sync::class) {
-    from(rootProject.file("../data")) { include("categories.json", "questions.json") }
+    from(rootProject.file("../data")) { include("categories.json", "questions.json", "bots.json") }
     from(rootProject.file("FONT-LICENSE.txt")) { rename { "font-license.txt" } }
     into(layout.buildDirectory.dir("generated/question-assets"))
 }

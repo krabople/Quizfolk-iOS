@@ -2,6 +2,15 @@ import XCTest
 import UIKit
 @testable import Quizfolk
 final class ScoringTests:XCTestCase {
+    @MainActor func testPracticeBotNamesHaveVarietyAndAvoidRecentChoices() {
+        let store=QuizStore();store.history=[]
+        XCTAssertEqual(store.botNames.count,32);XCTAssertEqual(Set(store.botNames).count,32)
+        let names=(0..<6).map{_ in store.nextBotName()}
+        XCTAssertEqual(Set(names).count,6)
+        XCTAssertTrue(names.allSatisfy{store.botNames.contains($0) && $0.hasSuffix(" · Bot")})
+        let game=GameSession(topic:store.topics[0],store:store,online:false);defer{game.stop()}
+        XCTAssertTrue(store.botNames.contains(game.opponent));XCTAssertFalse(names.suffix(5).contains(game.opponent))
+    }
     @MainActor func testOpponentMarkersShowResultsAndKeepUnknownRoundsNeutral() {
         XCTAssertEqual(DuelProgressView.opponentOutcome(index:0,answered:2,results:[true,false]),.correct)
         XCTAssertEqual(DuelProgressView.opponentOutcome(index:1,answered:2,results:[true,false]),.incorrect)

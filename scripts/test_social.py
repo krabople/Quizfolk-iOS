@@ -84,7 +84,8 @@ k3=str(uuid.uuid4());s=req('match-search',{'topic':'16','requestID':k3},e);asser
 s=req('match-search',{'topic':'16','requestID':k3},e);assert s['state']=='searching'
 with sqlite3.connect(STATE) as db:db.execute('UPDATE searches SET created=? WHERE id=?',(time.time()-7,s['searchID']))
 s=req('match-search',{'topic':'16','requestID':k3},e);assert s['match']['kind']=='bot'
-assert req('match-search',{'topic':'16','requestID':k3},e)['match']['id']==s['match']['id']
+retry=req('match-search',{'topic':'16','requestID':k3},e)['match']
+assert retry['id']==s['match']['id'] and retry['opponent']==s['match']['opponent']
 # Deleting one player cancels their pending challenges and preserves settled rival history.
 req('delete-account',{},a);assert any(d['status']=='cancelled' for d in req('duels',token=b)['duels'])
 assert req('profile',token=b)['xp']==40

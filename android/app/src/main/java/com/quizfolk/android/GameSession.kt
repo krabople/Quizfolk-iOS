@@ -34,7 +34,7 @@ class GameSession(val store: QuizStore, val topic: Topic, val online: Boolean, p
     var round by mutableIntStateOf(0)
     var score by mutableIntStateOf(0)
     var opponentScore by mutableIntStateOf(0)
-    var opponent by mutableStateOf("Pip · Bot")
+    var opponent by mutableStateOf(store.nextBotName())
     var opponentID by mutableStateOf<String?>(null)
     var opponentAvatar by mutableStateOf<String?>(null)
     var duelID by mutableStateOf<String?>(null)
@@ -102,7 +102,7 @@ class GameSession(val store: QuizStore, val topic: Topic, val online: Boolean, p
         finally { busy = false; searching = false }
     }
     private fun applyStart(r: J) {
-        serverID = r.s("id"); kind = r.s("kind", "bot"); opponent = r.s("opponent", "Pip · Bot")
+        serverID = r.s("id"); kind = r.s("kind", "bot"); opponent = r.s("opponent", opponent)
         opponentID = r.s("opponentID").ifEmpty { null }; opponentAvatar = r.s("opponentAvatar").ifEmpty { null }; duelID = r.s("duelID").ifEmpty { null }
         pending = r.b("pending"); powerAllowed = r.b("powerAllowed", true)
         rounds = r.a("played").objects().map(Round::parse); score = r.n("score"); opponentScore = r.n("opponentScore")

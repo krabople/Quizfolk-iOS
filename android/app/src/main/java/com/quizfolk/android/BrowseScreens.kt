@@ -73,7 +73,7 @@ import java.util.UUID
         if (section == 0) {
             Panel { TopicLevel(topic, store.topicXP(topic.id)) }
             Heading("A rival is waiting.")
-            Hint("We search for a human first, including recorded human runs. A clearly labelled bot is offered after six seconds when nobody is available. Play at your own pace.")
+            Hint("We search for a human first, including recorded human runs. A bot is offered after six seconds when nobody is available. Play at your own pace.")
             Action("Find a duel", color = tint(topic.color)) { store.game = GameSession(store, topic, true) }
             OutlinedButton({ store.game = GameSession(store, topic, false) }, Modifier.fillMaxWidth().testTag("practice"), shape = RoundedCornerShape(14.dp)) { Text("Practise against a bot", fontWeight = FontWeight.Bold) }
             Hint("Read each question for 3 seconds, then answer within 10 seconds. Correct answers earn 11–20 points for speed; the final round counts double. Wrong answers and timeouts score zero. Maximum 160. One power-up per duel: Fifty Fifty (5 coins), Double Choice (10) or Right Answer (25). Practice power-ups are free.")

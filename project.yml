@@ -28,6 +28,8 @@ targets:
         buildPhase: resources
       - path: data/questions.json
         buildPhase: resources
+      - path: data/bots.json
+        buildPhase: resources
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.quizfolk.ios

@@ -63,6 +63,16 @@ for i in range(7):
 board=req('leaderboard&topic=22&period=month',token=a)['entries'];assert len(board)==2
 rematch=req('match',{'topic':'22','botOnly':True},a,201)
 assert rematch['kind']=='bot' and rematch['opponentID'] is None and rematch['id']!=m['id']
+bot_names=json.loads((ROOT/'data/bots.json').read_text(encoding='utf-8'))
+assert len(bot_names)==len(set(bot_names))==32 and all(name.endswith(' · Bot') and 'Â' not in name for name in bot_names)
+seen=[m['opponent'],rematch['opponent']]
+assert all(name in bot_names for name in seen) and seen[0]!=seen[1]
+for _ in range(6):
+ next_bot=req('match',{'topic':'22','botOnly':True},a,201)
+ assert next_bot['kind']=='bot' and next_bot['opponentID'] is None
+ assert next_bot['opponent'] in bot_names and next_bot['opponent'] not in seen[-5:]
+ with sqlite3.connect(STATE) as db:assert db.execute('SELECT opponent FROM matches WHERE id=?',(next_bot['id'],)).fetchone()[0]==next_bot['opponent']
+ seen.append(next_bot['opponent'])
 assert req('leaderboard&topic=11&period=all',token=a)['entries']==[]
 req('leaderboard',token=a,status=400)
 with sqlite3.connect(STATE) as db:

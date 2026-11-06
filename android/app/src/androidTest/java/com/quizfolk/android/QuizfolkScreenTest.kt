@@ -80,7 +80,13 @@ class QuizfolkScreenTest {
         compose.onNodeWithTag("topicLevelUp").assertDoesNotExist()
     }
     @Test fun fullPracticeDuelReadingPowerProgressResultRematchAndFinishedClose() {
-        ready(); compose.onNodeWithTag("topicSearch").performTextInput("Geography"); tapTag("topic-22")
+        ready()
+        compose.runOnIdle {
+            assertEquals(32,store.botNames.size); assertEquals(32,store.botNames.toSet().size)
+            val names = (0..5).map { store.nextBotName() }
+            assertEquals(6,names.toSet().size); assertTrue(names.all { it in store.botNames && it.endsWith(" · Bot") })
+        }
+        compose.onNodeWithTag("topicSearch").performTextInput("Geography"); tapTag("topic-22")
         compose.onNodeWithTag("practice").performScrollTo().performClick(); compose.waitUntil(15000) { compose.onAllNodesWithTag("startDuel").fetchSemanticsNodes().isNotEmpty() }; capture("Matchup"); tapTag("startDuel")
         compose.waitUntil(7000) { compose.onAllNodesWithTag("readingPhase").fetchSemanticsNodes().isNotEmpty() }
         compose.onNodeWithTag("answer-0").assertDoesNotExist(); capture("Reading")

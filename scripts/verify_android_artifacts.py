@@ -6,6 +6,7 @@ apk=out/'apk/release/app-release.apk';aab=out/'bundle/release/app-release.aab'
 expected=(root/'data/questions.json').read_bytes()
 with zipfile.ZipFile(apk) as package:
     bank=package.read('assets/questions.json');topics=json.loads(package.read('assets/categories.json'))
+    assert package.read('assets/bots.json')==(root/'data/bots.json').read_bytes()
     assert bank==expected
     questions=json.loads(bank)
     assert len(questions)==21667 and len(topics)==30 and min(t['questionCount'] for t in topics)>=150

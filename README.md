@@ -212,3 +212,7 @@ show a prominent animated level-up card on the result screen when their XP
 crosses a level boundary, including when a pending result is checked in that
 session. Reopening a settled match does not celebrate it again. Reduced-motion
 settings suppress the entrance animation.
+
+Online fallback and offline practice draw from the same 32 named bots, avoiding
+the last five selections. An online match keeps its chosen name on retries and
+in history. The intro now says “You have been matched with a bot instead”.

@@ -37,6 +37,8 @@ class QuizStore(application: Application) : AndroidViewModel(application) {
     var name by mutableStateOf(prefs.getString("name", "Explorer-" + UUID.randomUUID().toString().replace("-", "").take(10).uppercase())!!)
     var topics by mutableStateOf<List<Topic>>(emptyList())
     var bank: List<Question> = emptyList(); private set
+    var botNames: List<String> = emptyList(); private set
+    private var recentBotNames: List<String> = emptyList()
     var ready by mutableStateOf(false)
     var loadError by mutableStateOf<String?>(null)
     var connectionError by mutableStateOf<String?>(null)
@@ -62,15 +64,16 @@ class QuizStore(application: Application) : AndroidViewModel(application) {
     suspend fun initialize() {
         if (ready) return
         try {
-            val loaded = withContext(Dispatchers.IO) {
+            val (loaded, names) = withContext(Dispatchers.IO) {
                 val assets = getApplication<Application>().assets
                 val categories = assets.open("categories.json").bufferedReader().use { JSONArray(it.readText()).objects().map(Topic::parse) }
                 val questions = assets.open("questions.json").bufferedReader().use(::readQuestionBank)
+                val bots = assets.open("bots.json").bufferedReader().use { input -> JSONArray(input.readText()).let { array -> (0 until array.length()).map(array::getString) } }
                 val file = AtomicFile(File(getApplication<Application>().filesDir, "history.json"))
                 val saved = if (file.baseFile.exists()) file.openRead().bufferedReader().use { JSONArray(it.readText()).objects().map(MatchRecord::parse) } else emptyList()
-                Triple(categories, questions, saved)
+                Triple(categories, questions, saved) to bots
             }
-            bank = loaded.second; topics = loaded.first + Topic("mixed", "Mixed topics", "7253A4", "🎨", bank.size); history = loaded.third
+            bank = loaded.second; topics = loaded.first + Topic("mixed", "Mixed topics", "7253A4", "🎨", bank.size); history = loaded.third; botNames = names
             require(bank.size >= 20000 && topics.size == 31) { "The question bank could not be loaded." }
             ready = true
             if (testing) { transport = requireNotNull(fixtureTransport(getApplication(), bank)); choseInterests = true }
@@ -146,6 +149,12 @@ class QuizStore(application: Application) : AndroidViewModel(application) {
     }
     fun finishInterests() { choseInterests = true; prefs.edit().putBoolean("choseInterests", true).apply() }
     fun save(record: MatchRecord) { if (history.none { it.id == record.id }) { history = listOf(record) + history; persistHistory() } }
+    fun nextBotName(): String {
+        val recent = (recentBotNames + history.filter { it.kind == "bot" || it.kind == "practice" }.map { it.opponent }).take(5)
+        val name = botNames.filterNot { it in recent }.randomOrNull() ?: "Quizfolk · Bot"
+        recentBotNames = (listOf(name) + recent).take(5)
+        return name
+    }
     private fun persistHistory() {
         if (testing) return
         val snapshot = JSONArray(history.map { it.json() }).toString().toByteArray()

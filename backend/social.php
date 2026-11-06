@@ -2,6 +2,7 @@
 declare(strict_types=1);
 require_once __DIR__.'/questions.php';
 require_once __DIR__.'/levels.php';
+require_once __DIR__.'/bots.php';
 
 function social_schema(PDO $db):void {
     $columns=array_column($db->query('PRAGMA table_info(matches)')->fetchAll(),'name');if(in_array('duel_id',$columns,true) && in_array('preview_started',$columns,true))return;
@@ -104,7 +105,7 @@ function create_random_match(PDO $db,string $pid,string $topic,array $config,boo
     else {
         if($humanOnly)return null;$packet=fresh_packet($db,$pid,$topic);$other=[];
         foreach($packet as $i=>$q){$chance=match($q['difficulty']){'easy'=>83,'hard'=>45,default=>65};$other[]=points(random_int(1,100)<=$chance,random_int(1200,9800)/1000,$i);}
-        $id=insert_match($db,$pid,$topic,'bot','Pip Â· Bot',null,$packet,$other);
+        $id=insert_match($db,$pid,$topic,'bot',next_bot_name($db,$pid),null,$packet,$other);
     }
     return start_info($db,sql($db,'SELECT * FROM matches WHERE id=?',[$id])->fetch());
 }
