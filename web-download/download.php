@@ -6,5 +6,5 @@ try {
     qf_metrics_download(__DIR__);
 } catch(Throwable $e) {
     // This fixed local redirect remains usable even if tracking is unavailable.
-    header('Cache-Control: no-store');header('Location: Quizfolk-Android-0.3.3-13.apk?file=1',true,302);
+    header('Cache-Control: no-store');header('Location: Quizfolk-Android-0.3.3-14.apk?file=1',true,302);
 }

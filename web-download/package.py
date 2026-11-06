@@ -9,9 +9,9 @@ from zipfile import ZipFile, ZipInfo, ZIP_DEFLATED
 
 repo = Path(__file__).resolve().parents[1]
 workspace = repo.parent.parent
-apk_name = 'Quizfolk-Android-0.3.3-13.apk'
+apk_name = 'Quizfolk-Android-0.3.3-14.apk'
 apk = repo.parent / apk_name
-report = json.loads((repo.parent / 'Quizfolk-Android-0.3.3-13-verification.json').read_text())
+report = json.loads((repo.parent / 'Quizfolk-Android-0.3.3-14-verification.json').read_text())
 assert hashlib.sha256(apk.read_bytes()).hexdigest() == report['apkSHA256']
 assert report['signed'] and report['fcmClientConfigured']
 stage_home = workspace / 'work/quizfolk-download-home'
@@ -32,7 +32,7 @@ files = {
 for name, source in files.items():
     shutil.copyfile(source, stage / name)
 (stage / 'SHA256SUMS.txt').write_text(report['apkSHA256'] + '  ' + apk_name + '\n')
-archive = repo.parent / 'Quizfolk-Android-download-page-0.3.3-13.zip'
+archive = repo.parent / 'Quizfolk-Android-download-page-0.3.3-14.zip'
 helper = stage_home / 'quizfolk-service/download-tracking/metrics.php'
 helper.parent.mkdir(parents=True, exist_ok=True)
 shutil.copyfile(repo / 'web-download/server/metrics.php', helper)

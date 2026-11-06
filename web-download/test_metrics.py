@@ -30,7 +30,7 @@ with tempfile.TemporaryDirectory(prefix='quizfolk-download-tests-') as folder:
         shutil.copyfile(repo/'web-download'/name,public/name)
     shutil.copyfile(repo/'web-download/server/metrics.php',private.parent/'metrics.php')
     apk=b'isolated signed-package substitute for redirect transport checks'
-    (public/'Quizfolk-Android-0.3.3-13.apk').write_bytes(apk)
+    (public/'Quizfolk-Android-0.3.3-14.apk').write_bytes(apk)
     key=secrets.token_urlsafe(32);fingerprint=hashlib.sha256(key.encode()).hexdigest()
     (private/'config.php').write_text("<?php return ['stats_key_hash'=>'"+fingerprint+"','started_at'=>'2026-11-05T00:00:00Z','origin'=>'http://127.0.0.1:8784','cookie_secure'=>false];")
     log=(home/'server.log').open('w')
@@ -65,11 +65,11 @@ with tempfile.TemporaryDirectory(prefix='quizfolk-download-tests-') as folder:
         assert request(method='POST')[0]==405
         for _ in range(2):
             response=request();assert response[0]==302 and response[1]['X-Quizfolk-Download-Recorded']=='yes'
-            assert response[1]['Location']=='Quizfolk-Android-0.3.3-13.apk?file=1'
+            assert response[1]['Location']=='Quizfolk-Android-0.3.3-14.apk?file=1'
         assert total()['totals']['total']==2 and len(total()['recent'])==2
         assert request(headers={'X-Quizfolk-Verification':key})[1]['X-Quizfolk-Download-Recorded']=='verification'
         assert total()['totals']['total']==2 and total()['totals']['checks']==1
-        with urllib.request.urlopen(base+'Quizfolk-Android-0.3.3-13.apk?file=1') as response:assert response.read()==apk
+        with urllib.request.urlopen(base+'Quizfolk-Android-0.3.3-14.apk?file=1') as response:assert response.read()==apk
         # Independent PHP processes exercise atomic increments against one SQLite database.
         action="require '"+str(private.parent/'metrics.php').replace('\\','/')+"'; for($i=0;$i<10;$i++)qf_metrics_record(false);"
         with ThreadPoolExecutor(max_workers=6) as executor:
