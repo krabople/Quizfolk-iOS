@@ -108,9 +108,10 @@ import kotlin.math.*
 
 @Composable private fun PlayScreen(game: GameSession) {
     BoxWithConstraints(Modifier.fillMaxSize()) {
+        val compactHeight = maxHeight.coerceAtLeast(600.dp)
         if (maxWidth >= 700.dp) TabletPlayScreen(game, maxWidth, maxHeight)
         else Box(Modifier.fillMaxSize().verticalScroll(rememberScrollState())) {
-            CompactPlayScreen(game, Modifier.fillMaxWidth().height(maxHeight.coerceAtLeast(600.dp)))
+            CompactPlayScreen(game, Modifier.fillMaxWidth().height(compactHeight))
         }
     }
 }
