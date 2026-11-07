@@ -15,19 +15,22 @@ Native SwiftUI (iPhone and iPad) and Kotlin/Jetpack Compose (Android) apps inspi
 The native Android client is in [android/](android/README.md). It uses the same
 production service, reviewed questions, globally unique player names, human
 matchmaking, challenges, follows, tournaments, topic XP and rankings as iOS.
-Android users can play iPhone users, including accepting challenges later and
+Android phone and tablet users can play iPhone and iPad users, including accepting challenges later and
 joining the same private friends tournament. No second server or platform-only
 player pool is used. Existing device-specific account/recovery limitations are
 unchanged; Android does not automatically sign into an existing iPhone account.
 
 GitHub's Android workflow runs cross-platform API contracts, unit tests and
-emulator screen tests, then builds a signed installable APK and a Play AAB.
+separate phone and tablet emulator screen tests, then builds a signed installable APK and a Play AAB.
+The same Android package fills the native tablet window, supports portrait and
+landscape, and adapts topic grids, navigation and quiz controls to the available
+width. Rotation preserves the active match and score.
 See [Android setup and parity notes](android/README.md).
 
-The configured Android push testing release is
+The published Android push testing release is
 [0.3.3 (15)](https://github.com/krabople/Quizfolk-iOS/releases/tag/android-v0.3.3-15-preview).
 It uses the existing signing certificate and the same service as iOS TestFlight
-0.3.3 (25). In **You → Notifications**, players can independently choose challenge,
+0.3.3. Further Android publication and advertising work are currently paused. In **You → Notifications**, players can independently choose challenge,
 duel result, tournament prize and friends tournament alerts. Both server providers
 are configured; physical-device delivery remains to be checked after opting in.
 See [push activation and verification](docs/push-notifications.md).
@@ -110,7 +113,15 @@ The signed workflow requires `APPLE_TEAM_ID`, `ASC_KEY_ID`, `ASC_ISSUER_ID`, `AS
 
 The October 28 social and survival revision is documented in [docs/QUIZUP-RESEARCH.md](docs/QUIZUP-RESEARCH.md), including sources and deliberate differences from the historical app. Leagues now live inside topic pages, with visible period and following controls. Levels are independent by topic, finished duels close without an unfinished warning, and every question has a reading phase before the timer starts.
 
-The dedicated Tournaments tab has three rotating daily topic events and weekly events. Earn speed points until the first wrong answer or timeout; there is no seven-question limit. Only the best run counts per event. Public events require coins earned through the bounded Daily Trail. The top three places receive coin prizes and profile badges after closure; ties share the relevant prize shares. Private friends tournaments may instead use free entry without prizes. Tournament points are separate from duel XP. No payment, advertising or real-time server is involved.
+The dedicated Tournaments tab has three rotating daily topic events and weekly events. Earn speed points until the first wrong answer or timeout; there is no seven-question limit. Only the best run counts per event. Public events require earned coins. The top three places receive coin prizes and profile badges after closure; ties share the relevant prize shares. Private friends tournaments may instead use free entry without prizes. Tournament points are separate from duel XP. Coins have no cash value; no real-time server is involved.
+
+## Optional rewarded ads on iOS
+
+The iPhone and iPad client offers an optional video in **You → Earn coins** for **5 coins** per completed ad, with no daily cap or cooldown. AdMob supplies the ad after UMP privacy choices; only a signed, verified Google server callback credits the shared wallet. Cancelled or unavailable ads do not award coins. Pending verification survives relaunch, and repeated callbacks cannot duplicate a reward.
+
+Debug UI tests use a local fixture. Physical TestFlight testing uses the production iOS unit with AdMob's app-level test mode enabled for marketing version **0.3.3**, so that version earns no advertising revenue. Do not disable test mode or submit a public App Store release until the owner has tested and approved it. Live ad serving also requires the linked store listing and AdMob readiness approval. Android advertising is not enabled on the server.
+
+Release builds require the repository variables `QUIZFOLK_ADMOB_IOS_APP_ID` and `QUIZFOLK_ADMOB_IOS_REWARDED_UNIT_ID`; these are public SDK configuration, not authentication secrets. See [reward verification and deployment](docs/rewarded-ads.md) and the deployed [privacy policy](https://www.ways2earn.com/quizfolk-api/privacy.html).
 
 See [RESEARCH.md](RESEARCH.md) for historical sources and product decisions. All 24,541 expanded candidate questions received individual editorial decisions covering meaning, answer accuracy and uniqueness, grammar and category relevance. The published bank contains 21,667 accepted questions across 30 base topics, with at least 176 per topic. The decision ledger and completion checks are in `audit/individual-2026-10`; these record editorial judgments rather than a guarantee that no errors remain.
 

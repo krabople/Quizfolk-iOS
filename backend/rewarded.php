@@ -15,7 +15,8 @@ function rewarded_schema(PDO $db):void {
         rewarded INTEGER,transaction_hash TEXT UNIQUE,UNIQUE(player_id,request_key));
         CREATE UNIQUE INDEX IF NOT EXISTS rewarded_one_pending ON rewarded_attempts(player_id) WHERE state="pending";
         CREATE INDEX IF NOT EXISTS rewarded_player_day ON rewarded_attempts(player_id,day,state);
-        CREATE TABLE IF NOT EXISTS rewarded_receipts(transaction_hash TEXT PRIMARY KEY,attempt_hash TEXT NOT NULL,created INTEGER NOT NULL);');
+        CREATE TABLE IF NOT EXISTS rewarded_receipts(transaction_hash TEXT PRIMARY KEY,attempt_hash TEXT NOT NULL,created INTEGER NOT NULL);
+        CREATE TABLE IF NOT EXISTS rewarded_setup_receipts(probe_hash TEXT PRIMARY KEY,payload_hash TEXT NOT NULL,created INTEGER NOT NULL);');
 }
 
 function rewarded_settings(array $config):array {
@@ -110,20 +111,52 @@ function rewarded_routes(string $route,PDO $db,string $pid,array $body,array $co
 // before verification: PHP's duplicate-key/name-normalisation rules are unsafe.
 function rewarded_parse_callback(string $query):array {
     if(strlen($query)>8192 || preg_match('/[\x00-\x20\x7f]/',$query) || !preg_match('/^(.+)&signature=([A-Za-z0-9_\-%=]+)&key_id=([0-9]{1,20})$/D',$query,$m))throw new RewardedError('Invalid callback query.');
-    $params=[];$allowed=['ad_network','ad_unit','custom_data','reward_amount','reward_item','timestamp','transaction_id'];
+    $params=[];$required=['ad_network','ad_unit','custom_data','reward_amount','reward_item','timestamp','transaction_id'];$allowed=[...$required,'user_id'];
     foreach(explode('&',$m[1]) as $part) {
         $pair=explode('=',$part,2);
         if(count($pair)!==2 || !in_array($pair[0],$allowed,true) || isset($params[$pair[0]]) || preg_match('/%(?![0-9a-fA-F]{2})/',$pair[1]))throw new RewardedError('Invalid callback fields.');
         $params[$pair[0]]=rawurldecode($pair[1]);
     }
-    if(count($params)!==count($allowed))throw new RewardedError('Incomplete callback.');
+    if(array_diff($required,array_keys($params)))throw new RewardedError('Incomplete callback.');
     $encoded=rawurldecode($m[2]);
     if(!preg_match('/^[A-Za-z0-9_-]+={0,2}$/D',$encoded))throw new RewardedError('Invalid signature encoding.');
     $signature=base64_decode(strtr($encoded,'-_','+/'),true);
     if($signature===false || strlen($signature)<64 || strlen($signature)>80)throw new RewardedError('Invalid signature encoding.');
-    if(!preg_match('/^[0-9]{1,24}$/D',$params['ad_network']) || !preg_match('/^[a-f0-9]{64}$/D',$params['custom_data']) ||
-       !preg_match('/^[0-9]{13}$/D',$params['timestamp']) || !preg_match('/^[a-fA-F0-9]{16,128}$/D',$params['transaction_id']))throw new RewardedError('Invalid reward fields.');
     return ['signed'=>$m[1],'signature'=>$signature,'keyId'=>$m[3],'params'=>$params];
+}
+
+function rewarded_validate_fields(array $params):void {
+    if(!preg_match('/^[0-9]{1,24}$/D',$params['ad_network']) || !preg_match('/^[a-f0-9]{64}$/D',$params['custom_data']) ||
+       !preg_match('/^[0-9]{13}$/D',$params['timestamp']) || !preg_match('/^[a-fA-F0-9]{1,128}$/D',$params['transaction_id']))throw new RewardedError('Invalid reward fields.');
+    // Google documents user_id as optional. Empty dashboard fields are safe;
+    // production clients use only opaque custom data and never a player ID.
+    if(($params['user_id'] ?? '')!=='')throw new RewardedError('Unexpected reward user identifier.',403);
+}
+
+// Temporary opt-in observation of callback shape, never its token/signature or
+// raw query. A private absolute expiry turns this off without a further deploy.
+function rewarded_diagnostic(string $query,string $state,array $config,string $stage,?bool $signatureValid,?string $error=null,?int $now=null):void {
+    $now ??= time();$until=(int)($config['rewarded']['diagnostic_until'] ?? 0);
+    if($until<=$now || $until>$now+900)return;
+    $known=['ad_network','ad_unit','custom_data','reward_amount','reward_item','timestamp','transaction_id','user_id','signature','key_id'];
+    $keys=[];$values=[];
+    foreach(explode('&',substr($query,0,8192)) as $part) {
+        $pair=explode('=',$part,2);$key=$pair[0];
+        if(!in_array($key,$known,true)){$keys[]='unknown';continue;}
+        $keys[]=$key;
+        if(in_array($key,['ad_unit','reward_amount','reward_item','timestamp','transaction_id'],true))$values[$key]=rawurldecode($pair[1] ?? '');
+    }
+    $safe=static fn(string $name,string $pattern):?string=>isset($values[$name])?(preg_match($pattern,$values[$name])?$values[$name]:'invalid'):null;
+    $entry=['time'=>$now,'stage'=>$stage,'error'=>$error,'signatureValid'=>$signatureValid,'keys'=>$keys,
+        'adUnit'=>$safe('ad_unit','/^(?:ca-app-pub-\d{16}\/)?\d{1,20}$/D'),
+        'rewardAmount'=>$safe('reward_amount','/^[0-9]{1,10}$/D'),
+        'rewardItem'=>$safe('reward_item','/^[A-Za-z _-]{1,48}$/D'),
+        'timestamp'=>$safe('timestamp','/^[0-9]{10,16}$/D'),
+        'transactionLength'=>isset($values['transaction_id'])?strlen($values['transaction_id']):null,
+        'userIdPresent'=>in_array('user_id',$keys,true)];
+    $file=$state.'/rewarded-diagnostic.jsonl';$handle=@fopen($file,'c+');if(!$handle)return;
+    try {if(flock($handle,LOCK_EX)){if(fstat($handle)['size']<32768){fseek($handle,0,SEEK_END);fwrite($handle,json_encode($entry,JSON_UNESCAPED_SLASHES|JSON_THROW_ON_ERROR)."\n");}flock($handle,LOCK_UN);}}
+    finally {fclose($handle);@chmod($file,0600);}
 }
 
 function rewarded_key_map(string $json):array {
@@ -181,9 +214,32 @@ function rewarded_verify_callback(array $parsed,string $pem):array {
     return $parsed['params'];
 }
 
+// The AdMob dashboard sends a signed synthetic unit1234567890 when verifying
+// the URL. A separately configured short-lived nonce can acknowledge that probe
+// without ever touching an account, attempt, wallet or production receipt.
+// Call only after Google's signature verification, exactly like completion.
+function rewarded_setup_probe(PDO $db,array $p,string $signedContent,array $config,int $now):?array {
+    $probe=$config['rewarded']['setup_probe'] ?? null;
+    if(!is_array($probe) || !preg_match('/^[a-f0-9]{64}$/D',(string)($probe['token_sha256'] ?? '')))return null;
+    if(!hash_equals($probe['token_sha256'],hash('sha256',(string)($p['custom_data'] ?? ''))))return null;
+    rewarded_validate_fields($p);
+    $issued=(int)($probe['issued'] ?? 0);$expires=(int)($probe['expires'] ?? 0);$event=(int)$p['timestamp'];
+    if($issued<=0 || $expires<=$issued || $expires-$issued>900 || $now<$issued || $now>$expires ||
+       $event<($issued-5)*1000 || $event>($now+120)*1000 || $event>=$expires*1000)throw new RewardedError('Setup verification has expired.',403);
+    if($p['ad_unit']!=='1234567890' || $p['reward_amount']!==(string)QUIZFOLK_REWARDED_COINS || $p['reward_item']!=='coins')throw new RewardedError('Setup verification fields do not match.',403);
+    $payloadHash=hash('sha256',$signedContent);$db->exec('BEGIN IMMEDIATE');
+    try {
+        $receipt=sql($db,'SELECT payload_hash FROM rewarded_setup_receipts WHERE probe_hash=?',[$probe['token_sha256']])->fetch();
+        if($receipt && !hash_equals($receipt['payload_hash'],$payloadHash))throw new RewardedError('Setup verification has already been used.',409);
+        if(!$receipt)sql($db,'INSERT INTO rewarded_setup_receipts VALUES(?,?,?)',[$probe['token_sha256'],$payloadHash,$now]);
+        $db->exec('COMMIT');return ['ok'=>true,'setupVerified'=>true,'credited'=>false,'duplicate'=>(bool)$receipt];
+    } catch(Throwable $e) {if($db->inTransaction())$db->rollBack();throw $e;}
+}
+
 // Only call with cryptographically verified fields. This transaction owns the
 // unique provider receipt, attempt transition and shared wallet credit together.
 function rewarded_complete(PDO $db,array $p,int $now):array {
+    rewarded_validate_fields($p);
     $db->exec('BEGIN IMMEDIATE');
     try {
         $transaction=hash('sha256',strtolower($p['transaction_id']));$attemptHash=hash('sha256',$p['custom_data']);

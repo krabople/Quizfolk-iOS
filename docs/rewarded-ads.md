@@ -57,8 +57,17 @@ The callback accepts either the configured full `ca-app-pub-…/…` unit or its
 
 Production activation requires configured units, working HTTPS callback, server OpenSSL/cURL, consent messages, current privacy disclosures, and provider test-mode end-to-end validation. This source change alone does not deploy or enable advertisements.
 
+### AdMob dashboard URL verification
+
+The dashboard's Verify URL action sends a signed synthetic callback, rather than a completed ad from the configured unit. A live diagnostic on7 November2026 observed Google's valid signature with `ad_unit=1234567890`, `reward_amount=5`, `reward_item=coins` and a9-character transaction ID. Google documents transaction IDs as unique hex strings, without a minimum length; the parser accepts1–128 characters and an optional empty `user_id`. Nonempty `user_id` is rejected because our clients use only opaque custom data.
+
+URL setup uses a separate random64-character nonce, never an account's reward attempt. Private configuration may temporarily contain `setup_probe` with `token_sha256`, `issued` and `expires` (maximum15 minutes). After normal Google signature verification, only that nonce with the observed synthetic unit and5/coins can return `setupVerified:true, credited:false`. A dedicated atomic receipt consumes the nonce; only an exact signed-payload retry is idempotently acknowledged. The handler never touches an account, reward attempt, wallet or normal provider receipt. Every other nonce follows the ordinary strict reward path. Remove `setup_probe` immediately after saving the verified URL. This setup success does not demonstrate that a device ad has earned coins.
+
+For short troubleshooting only, private `diagnostic_until` may enable at most15 minutes of bounded logging to `private/rewarded-diagnostic.jsonl`. It records field names, verification stage/result, unit, reward, timestamp, transaction-ID length and presence of user_id. It never records custom data, user-ID values, signatures, raw queries or bearer tokens. The log stops at32KiB and at its expiry; disable and remove it after verification. Production configuration omits both temporary settings.
+
 ## References
 
 * [Google's rewarded SSV guide](https://developers.google.com/admob/android/ssv): raw signed query content, ECDSA/SHA256 DER, callback fields, key rotation and delayed delivery.
 * [Google's iOS SSV guide](https://developers.google.com/admob/ios/ssv): custom reward data and native callback setup.
 * [Google/Tink verifier implementation](https://github.com/tink-crypto/tink-java-apps/blob/main/rewardedads/src/main/java/com/google/crypto/tink/apps/rewardedads/RewardedAdsVerifier.java): signature/key suffix extraction and SHA256/DER verification.
+* [Google's SSV setup instructions](https://support.google.com/admob/answer/9603226?hl=en): dashboard custom-data test and required Verify URL before saving.

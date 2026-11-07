@@ -41,6 +41,10 @@ function signed(array $p,OpenSSLAsymmetricKey $ec,string $id='12345'):string {
 function complete(PDO $db,array $p,OpenSSLAsymmetricKey $ec,string $pem,int $now):array {
     return rewarded_complete($db,rewarded_verify_callback(rewarded_parse_callback(signed($p,$ec)),$pem),$now);
 }
+function setup(PDO $db,array $p,OpenSSLAsymmetricKey $ec,string $pem,array $config,int $now):?array {
+    $parsed=rewarded_parse_callback(signed($p,$ec));$verified=rewarded_verify_callback($parsed,$pem);
+    return rewarded_setup_probe($db,$verified,$parsed['signed'],$config,$now);
+}
 
 $disabled=atomic($db,fn()=>rewarded_status($db,'alice','ios',rewarded_settings([]),$now));
 check(!$disabled['enabled'] && !$disabled['available'] && $disabled['reason']==='disabled','Unconfigured ads enabled');
@@ -64,7 +68,7 @@ rejected(fn()=>rewarded_verify_callback(rewarded_parse_callback(str_replace('rew
 rejected(fn()=>rewarded_parse_callback('reward_amount=5&'.$query),'duplicate query key');
 rejected(fn()=>rewarded_parse_callback($query.'&unsigned=1'),'unsigned trailing fields');
 rejected(fn()=>rewarded_parse_callback(str_replace('custom_data=','custom%5fdata=',$query)),'encoded field name');
-rejected(fn()=>rewarded_parse_callback(signed($p+['user_id'=>'alice'],$ec)),'provider user identifier');
+rejected(fn()=>complete($db,$p+['user_id'=>'alice'],$ec,$pem,$now+30),'provider user identifier');
 rejected(fn()=>rewarded_parse_callback(str_replace('&key_id=12345','&key_id=https://evil.invalid/key',$query)),'request-controlled key URL');
 foreach(['ad_unit'=>'3333333333','reward_amount'=>'10','reward_item'=>'cash','custom_data'=>str_repeat('f',64),'timestamp'=>(string)(($now-100)*1000)] as $field=>$value) {
     $bad=$p;$bad[$field]=$value;rejected(fn()=>complete($db,$bad,$ec,$pem,$now+30),'signed wrong '.$field);
@@ -106,9 +110,35 @@ $other=start($db,$settings,$midnight+2100,'bob','android')['attempt'];
 $cross=params($other,$midnight+2105);$cross['transaction_id']=$p['transaction_id'];rejected(fn()=>complete($db,$cross,$ec,$pem,$midnight+2110),'transaction reused for another account');
 check(tournament_wallet($db,'bob')['coins']===100,'Other account wallet changed');
 
+// Dashboard setup is cryptographically verified and has a separate nonce,
+// receipt and15-minute deadline. It can never become a coin-bearing attempt.
+$probeToken=bin2hex(random_bytes(32));$probeConfig=['rewarded'=>['setup_probe'=>['token_sha256'=>hash('sha256',$probeToken),'issued'=>$now,'expires'=>$now+900]]];
+$probe=params(['id'=>$probeToken,'adUnitId'=>'1234567890'],$now+20);$probe['transaction_id']='123456789';
+$walletBefore=$db->query('SELECT * FROM tournament_wallet ORDER BY player_id')->fetchAll();
+$ledgerBefore=(int)$db->query('SELECT COUNT(*) FROM tournament_ledger')->fetchColumn();
+$setupReply=setup($db,$probe,$ec,$pem,$probeConfig,$now+30);
+check($setupReply===['ok'=>true,'setupVerified'=>true,'credited'=>false,'duplicate'=>false],'Valid signed setup probe not accepted');
+check(setup($db,$probe,$ec,$pem,$probeConfig,$now+31)['duplicate']===true,'Exact setup retry not idempotent');
+$second=$probe;$second['timestamp']=(string)(($now+21)*1000);rejected(fn()=>setup($db,$second,$ec,$pem,$probeConfig,$now+32),'reused setup nonce with different signed event');
+$wrongNonce=$probe;$wrongNonce['custom_data']=str_repeat('a',64);check(setup($db,$wrongNonce,$ec,$pem,$probeConfig,$now+30)===null,'Unknown nonce became setup probe');
+foreach(['ad_unit'=>'1111111111','reward_amount'=>'10','reward_item'=>'cash','user_id'=>'alice'] as $field=>$value){$bad=$probe;$bad[$field]=$value;rejected(fn()=>setup($db,$bad,$ec,$pem,$probeConfig,$now+30),'wrong setup '.$field);}
+rejected(fn()=>setup($db,$probe,$ec,$pem,$probeConfig,$now+901),'expired setup probe');
+check(setup($db,$probe,$ec,$pem,[],$now+30)===null,'Unconfigured setup probe enabled');
+$tampered=rewarded_parse_callback(str_replace('reward_amount=5','reward_amount=6',signed($probe,$ec)));rejected(fn()=>rewarded_verify_callback($tampered,$pem),'unsigned setup amount change');
+check($db->query('SELECT * FROM tournament_wallet ORDER BY player_id')->fetchAll()===$walletBefore && (int)$db->query('SELECT COUNT(*) FROM tournament_ledger')->fetchColumn()===$ledgerBefore,'Setup probe touched wallets/ledger');
+rejected(fn()=>complete($db,$probe,$ec,$pem,$now+30),'setup nonce as a normal reward attempt');
+$productionWrong=params($other,$midnight+2105);$productionWrong['ad_unit']='1234567890';rejected(fn()=>setup($db,$productionWrong,$ec,$pem,$probeConfig,$midnight+2106) ?? complete($db,$productionWrong,$ec,$pem,$midnight+2106),'synthetic unit with real account attempt');
+
 $testRoot=dirname(__DIR__).'/build';if(!is_dir($testRoot))mkdir($testRoot,0700);
 $folder=$testRoot.'/quizfolk-reward-test-'.bin2hex(random_bytes(8));mkdir($folder,0700);
 try {
+    $diagnosticConfig=['rewarded'=>['diagnostic_until'=>$now+900]];
+    rewarded_diagnostic($query,$folder,$diagnosticConfig,'reward',true,'Reward configuration mismatch.', $now);
+    $log=(string)file_get_contents($folder.'/rewarded-diagnostic.jsonl');$record=json_decode(trim($log),true);
+    check(!str_contains($log,$p['custom_data']) && !str_contains($log,$p['transaction_id']) && !str_contains($log,$parsed['signature']),'Diagnostic leaked reward identifiers');
+    check($record['signatureValid']===true && $record['rewardAmount']==='5' && $record['transactionLength']===32,'Sanitized diagnostic lost useful shape');
+    rewarded_diagnostic($query,$folder,$diagnosticConfig,'reward',true,null,$now+901);
+    check(file_get_contents($folder.'/rewarded-diagnostic.jsonl')===$log,'Expired diagnostic still wrote data');
     $calls=0;$fetch=function()use(&$calls,$pem){$calls++;return json_encode(['keys'=>[['keyId'=>12345,'pem'=>$pem]]],JSON_THROW_ON_ERROR);};
     check(rewarded_public_key('12345',$folder,$now,$fetch)===$pem && $calls===1,'Initial verifier fetch failed');
     rewarded_public_key('12345',$folder,$now+10,$fetch);check($calls===1,'Public key cache missed');
@@ -145,6 +175,15 @@ try {
     foreach(glob($folder.'/*') as $file)unlink($file);rmdir($folder);
 }
 $receiptCount=(int)$db->query('SELECT COUNT(*) FROM rewarded_receipts')->fetchColumn();
+// Google documents transaction IDs as unique hex strings without a minimum
+// length; dashboard examples use9 characters. Empty optional user_id is valid.
+$short=start($db,$settings,$midnight+4000)['attempt'];$shortParams=params($short,$midnight+4001);$shortParams['transaction_id']='123456789';$shortParams['user_id']='';
+$shortParams['ad_unit']='1111111111'; // Exact numeric suffix is Google's documented callback representation.
+$substring=$shortParams;$substring['ad_unit']='111111111';rejected(fn()=>complete($db,$substring,$ec,$pem,$midnight+4002),'partial ad-unit suffix');
+$beforeNumeric=tournament_wallet($db,'alice')['coins'];
+complete($db,$shortParams,$ec,$pem,$midnight+4002);
+check(tournament_wallet($db,'alice')['coins']===$beforeNumeric+5,'Exact numeric ad-unit suffix did not earn5 coins');
+$receiptCount++;
 $db->exec('DELETE FROM players WHERE id="alice"');
 check((int)sql($db,'SELECT COUNT(*) FROM rewarded_attempts WHERE player_id="alice"')->fetchColumn()===0,'Account deletion left attempts');
 check((int)$db->query('SELECT COUNT(*) FROM rewarded_receipts')->fetchColumn()===$receiptCount,'Deletion removed global replay protection');
