@@ -39,10 +39,15 @@ final class IPadUITests:XCTestCase {
         let window=app.windows.firstMatch.frame
         let pixels=XCUIScreen.main.screenshot().image.cgImage!
         let scale=UIScreen.main.scale
+        // XCTest can retain portrait CGImage backing pixels and encode landscape
+        // in UIImage orientation. Compare exact native edges independently of that
+        // metadata; waitForOrientation separately verifies the window's orientation.
+        let screenEdges=[CGFloat(pixels.width)/scale,CGFloat(pixels.height)/scale].sorted()
+        let windowEdges=[window.width,window.height].sorted()
         XCTAssertEqual(window.minX,0,accuracy:3)
         XCTAssertEqual(window.minY,0,accuracy:3)
-        XCTAssertEqual(window.width,CGFloat(pixels.width)/scale,accuracy:3,"Native iPad must fill screen width without iPhone compatibility bars")
-        XCTAssertEqual(window.height,CGFloat(pixels.height)/scale,accuracy:3)
+        XCTAssertEqual(windowEdges[0],screenEdges[0],accuracy:3,"Native iPad must fill the screen without iPhone compatibility bars")
+        XCTAssertEqual(windowEdges[1],screenEdges[1],accuracy:3)
         print("Native iPad window:",window,"screen pixels:",pixels.width,pixels.height)
     }
 
@@ -121,7 +126,10 @@ final class IPadUITests:XCTestCase {
         capture("iPad-Landscape-Discover")
         openFirstTopic(app)
         capture("iPad-Landscape-Topic")
-        app.buttons["League"].tap()
+        let league=app.segmentedControls["topicSection"].buttons["League"]
+        league.coordinate(withNormalizedOffset:CGVector(dx:0.5,dy:0.5)).tap()
+        let selected=XCTNSPredicateExpectation(predicate:NSPredicate{_,_ in league.isSelected},object:nil)
+        XCTAssertEqual(XCTWaiter.wait(for:[selected],timeout:5),.completed,"A real touch must switch the topic to League")
         let rival=app.buttons["league-player-test-rival"]
         XCTAssertTrue(rival.waitForExistence(timeout:8));reveal(rival,in:app)
         XCTAssertTrue(app.buttons["This month"].exists)

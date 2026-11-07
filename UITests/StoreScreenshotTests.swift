@@ -84,7 +84,15 @@ final class StoreScreenshotTests:XCTestCase {
         capture("04-topic-progress")
     }
     @MainActor func test05League() {
-        let app=launch();topic(app);app.buttons["League"].tap()
+        let app=launch();topic(app)
+        let league=app.segmentedControls["topicSection"].buttons["League"]
+        if ProcessInfo.processInfo.environment["CAPTURE_DEVICE"]=="ipad-13" {
+            // Tap the visible segment directly; XCTest's inferred hit point can be
+            // missing where the native iPad navigation-bar accessibility frame overlaps.
+            league.coordinate(withNormalizedOffset:CGVector(dx:0.5,dy:0.5)).tap()
+            let selected=XCTNSPredicateExpectation(predicate:NSPredicate{_,_ in league.isSelected},object:nil)
+            XCTAssertEqual(XCTWaiter.wait(for:[selected],timeout:5),.completed,"A real touch must switch the topic to League")
+        } else {league.tap()}
         let entry=app.buttons["league-player-test-rival"]
         XCTAssertTrue(entry.waitForExistence(timeout:8))
         let heading=app.staticTexts["Geography league"]
@@ -107,7 +115,7 @@ final class StoreScreenshotTests:XCTestCase {
         for _ in 0..<3 {if event.isHittable{break};scroll(app)}
         XCTAssertTrue(event.waitForExistence(timeout:8));event.tap()
         XCTAssertTrue(app.buttons["enterTournament"].waitForExistence(timeout:8))
-        scroll(app,velocity:300)
+        if ProcessInfo.processInfo.environment["CAPTURE_DEVICE"] != "ipad-13" {scroll(app,velocity:300)}
         capture("06-tournament")
     }
     @MainActor func test07Friends() {

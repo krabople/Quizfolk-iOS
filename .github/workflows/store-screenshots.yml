@@ -11,7 +11,7 @@ on:
         description: All screenshots or topic and league framing only
         type: choice
         default: all
-        options: [all, topic-league, topic-flow, profile]
+        options: [all, topic-league, topic-flow, league-tournament, profile]
 permissions:
   contents: read
 jobs:
@@ -92,6 +92,8 @@ jobs:
             ONLY_TESTS=(-only-testing:QuizfolkUITests/StoreScreenshotTests/test01Topics -only-testing:QuizfolkUITests/StoreScreenshotTests/test05League)
           elif [ "$CAPTURE_SCENES" = "topic-flow" ]; then
             ONLY_TESTS=(-only-testing:QuizfolkUITests/StoreScreenshotTests/test02Gameplay -only-testing:QuizfolkUITests/StoreScreenshotTests/test04Progress -only-testing:QuizfolkUITests/StoreScreenshotTests/test05League)
+          elif [ "$CAPTURE_SCENES" = "league-tournament" ]; then
+            ONLY_TESTS=(-only-testing:QuizfolkUITests/StoreScreenshotTests/test05League -only-testing:QuizfolkUITests/StoreScreenshotTests/test06Tournament)
           elif [ "$CAPTURE_SCENES" = "profile" ]; then
             ONLY_TESTS=(-only-testing:QuizfolkUITests/StoreScreenshotTests/test09Profile)
           fi
