@@ -70,7 +70,7 @@ enum RewardedConfiguration {
             configuration.publisherPrivacyPersonalizationState = .disabled
             configuration.setPublisherFirstPartyIDEnabled(false)
             configuration.coarseLocationCollectionEnabled=false
-            MobileAds.shared.start()
+            await MobileAds.shared.start()
             initialized=true
         }
         #if DEBUG
