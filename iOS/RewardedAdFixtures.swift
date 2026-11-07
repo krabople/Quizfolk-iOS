@@ -80,7 +80,7 @@ private struct FixtureRewardedVideo:View {
                 Button("Complete test video"){finish(true)}.buttonStyle(PrimaryButton()).accessibilityIdentifier("rewardedFixtureComplete")
                 Button("Close video"){finish(false)}.buttonStyle(PrimaryButton(color:.gray)).accessibilityIdentifier("rewardedFixtureClose")
             }.foregroundStyle(.white).frame(maxWidth:540).padding(30)
-        }.accessibilityIdentifier("rewardedFixtureVideo")
+        }
     }
 }
 #endif

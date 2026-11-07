@@ -371,7 +371,6 @@ struct RewardedAdCard:View {
             if ads.status?.enabled == false {Text("Videos are unavailable right now. Your daily rewards and trail are still available.").font(.caption).foregroundStyle(.secondary)}
             if ads.privacyOptionsRequired {Button("Ad privacy choices"){Task{await ads.showPrivacyOptions()}}.disabled(ads.busy).accessibilityIdentifier("rewardedPrivacy")}
         }.padding(20).frame(maxWidth:.infinity,alignment:.leading).background(.white,in:RoundedRectangle(cornerRadius:18))
-            .accessibilityIdentifier("rewardedCard")
             .background(RewardedPresentationAnchor {ads.setAnchor($0)}.frame(width:0,height:0))
             .task {await ads.activate(store)}
     }
