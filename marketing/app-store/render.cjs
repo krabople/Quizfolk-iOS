@@ -15,6 +15,7 @@ const shots = require('./captions.json');
 const captureRoot = path.resolve(process.argv[2]);
 const outputRoot = path.resolve(process.argv[3]);
 const prototype = process.argv.includes('--prototype');
+const onlyDevice = process.argv.find(arg=>arg.startsWith('--only='))?.split('=')[1];
 const devices = [
   {key:'iphone-medium',folder:'iPhone-6.3-inch',name:'iPhone · 6.3-inch',w:1206,h:2622},
   {key:'iphone-large',folder:'iPhone-6.9-inch',name:'iPhone · 6.9-inch',w:1320,h:2868},
@@ -58,6 +59,7 @@ async function main(){
  const report=[];
  try {for(const device of devices){
   if(prototype && device.key!=='iphone-medium')continue;
+  if(onlyDevice && device.key!==onlyDevice)continue;
   const dir=path.join(captureRoot,device.key);
   const names=await fs.readdir(dir);
   const out=path.join(outputRoot,device.folder), originals=path.join(outputRoot,'original-captures',device.key), artdir=path.join(outputRoot,'artwork',device.key);

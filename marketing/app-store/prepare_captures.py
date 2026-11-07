@@ -16,6 +16,8 @@ parser.add_argument("run")
 parser.add_argument("--available", action="store_true")
 parser.add_argument("--ipad-artifacts", type=Path)
 parser.add_argument("--ipad-run")
+parser.add_argument("--overlay", nargs=2, action="append", default=[], metavar=("ARTIFACTS", "RUN"),
+                    help="Use named replacement captures from a later partial run")
 args = parser.parse_args()
 source, destination = args.source.resolve(), args.destination.resolve()
 run = args.run
@@ -46,14 +48,29 @@ for artifact, (device, dimensions) in devices.items():
     folder.mkdir(parents=True, exist_ok=True)
     shutil.copy2(manifest_path, folder / "attachment-manifest.json")
     shutil.copy2(provenance_path, folder / "provenance.json")
+    candidates = [(manifest_path, manifest, provenance, device_run)]
+    for overlay_directory, overlay_run in args.overlay:
+        overlay_root = Path(overlay_directory).resolve() / f"Quizfolk-Store-{artifact}"
+        if not overlay_root.exists():
+            continue
+        overlay_manifest_path = next(overlay_root.rglob("manifest.json"))
+        overlay_manifest = json.loads(overlay_manifest_path.read_text(encoding="utf-8"))
+        overlay_provenance_path = next(overlay_root.rglob("provenance.json"))
+        overlay_provenance = json.loads(overlay_provenance_path.read_text(encoding="utf-8"))
+        candidates.append((overlay_manifest_path, overlay_manifest, overlay_provenance, overlay_run))
+        shutil.copy2(overlay_manifest_path, folder / f"attachment-manifest-{overlay_run}.json")
+        shutil.copy2(overlay_provenance_path, folder / f"provenance-{overlay_run}.json")
     captures = []
     for label, name in mapping.items():
-        matches = [a for group in manifest for a in group["attachments"]
-                   if a.get("suggestedHumanReadableName", "").startswith(f"STORE-{label}_")
-                   and not a.get("isAssociatedWithFailure", False)]
+        for selected_manifest_path, selected_manifest, selected_provenance, selected_run in reversed(candidates):
+            matches = [a for group in selected_manifest for a in group["attachments"]
+                       if a.get("suggestedHumanReadableName", "").startswith(f"STORE-{label}_")
+                       and not a.get("isAssociatedWithFailure", False)]
+            if matches:
+                break
         assert len(matches) == 1, (device, label, len(matches))
         attachment = matches[0]
-        original = manifest_path.parent / attachment["exportedFileName"]
+        original = selected_manifest_path.parent / attachment["exportedFileName"]
         pixels = original.read_bytes()
         assert pixels[:8] == b"\x89PNG\r\n\x1a\n", original
         size = struct.unpack(">II", pixels[16:24])
@@ -62,6 +79,8 @@ for artifact, (device, dimensions) in devices.items():
         shutil.copy2(original, target)
         captures.append({"name": name, "originalAttachment": attachment["exportedFileName"],
                          "width": size[0], "height": size[1],
+                         "run": selected_run, "sourceCommit": selected_provenance["source"],
+                         "device": selected_provenance["device"]["name"],
                          "sha256": hashlib.sha256(pixels).hexdigest()})
     report["devices"].append({"key": device, "run": device_run,
                               "url": f"https://github.com/krabople/Quizfolk-iOS/actions/runs/{device_run}",

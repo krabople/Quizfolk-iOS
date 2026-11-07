@@ -25,6 +25,8 @@ Keep the exported attachment manifest and provenance alongside the originals. Ma
 
 ## Rendering
 
+Use `prepare_captures.py ARTIFACTS CAPTURE_ROOT RUN_ID` to select the named XCTest attachments. Add `--overlay ARTIFACTS RUN_ID` for each later partial capture run, in chronological order. The normalizer preserves the original pixels and records the actual run, source commit and hash of every selected image in `capture-provenance.json`.
+
 Use Node.js with `playwright` and `sharp`, and a local Chromium browser. These packages are already available in the Codex desktop runtime. `STORE_BROWSER_CHANNEL` defaults to `chrome` and can be set to `msedge`.
 
 ```text
@@ -32,6 +34,8 @@ node marketing/app-store/render.cjs CAPTURE_ROOT OUTPUT_ROOT
 ```
 
 The renderer checks native capture dimensions, text overflow, final dimensions and absence of alpha. It exports RGB/sRGB PNGs, editable HTML layouts, original captures, numbered captions, a browsable index, contact sheets and a verification manifest containing source hashes. It does not repaint or rearrange any part of an app screen.
+
+For a partial layout review, use `--only=iphone-medium`, `--only=iphone-large` or `--only=ipad` with a separate output folder. Render without this option for the complete deliverable, and copy `capture-provenance.json` into that folder alongside the artwork manifest.
 
 ## Device sizes
 
