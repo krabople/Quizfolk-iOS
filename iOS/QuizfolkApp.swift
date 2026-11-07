@@ -23,8 +23,8 @@ struct RootView:View {
         .onAppear{if !didChoose {interests=true}}
         .accessibilityHidden(!interests && (!store.pendingPrizes.isEmpty || store.badgeConfirmation != nil))
         .overlay{if !interests {if let prize=store.badgeConfirmation{BadgeAppliedPopup(prize:prize)}else if let prize=store.pendingPrizes.first {TournamentPrizePopup(prize:prize).id(prize.id)}}}
-        .task {await store.connect();await store.claimDailyLogin();await store.refreshSocial();await store.loadPrizes();await store.syncNotificationDevice()}
-        .onChange(of:scenePhase){_,phase in if phase == .active {Task{await store.claimDailyLogin();await store.refreshSocial();await store.loadPrizes();await store.syncNotificationDevice()}}}
+        .task {await store.connect();await store.claimDailyLogin();await store.refreshSocial();await store.loadPrizes();await store.syncNotificationDevice();await RewardedAdCoordinator.shared.activate(store)}
+        .onChange(of:scenePhase){_,phase in if phase == .active {Task{await store.claimDailyLogin();await store.refreshSocial();await store.loadPrizes();await store.syncNotificationDevice();await RewardedAdCoordinator.shared.activate(store)}}}
         .onReceive(NotificationCenter.default.publisher(for:.quizfolkPushToken)){_ in Task{await store.syncNotificationDevice()}}
         .sheet(item:$push.destination){destination in NavigationStack{NotificationDestinationView(destination:destination).toolbar{ToolbarItem(placement:.topBarTrailing){Button("Done"){push.destination=nil}}}}}
         .sheet(isPresented:$interests,onDismiss:{didChoose=true}){InterestsView()}

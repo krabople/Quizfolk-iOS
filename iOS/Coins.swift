@@ -188,6 +188,7 @@ struct CoinTrailView:View {
                         Text("\(status.earnedToday) / 45 earned today").font(.caption)
                     }
                     HStack(spacing:12){CoinSymbol(size:30);VStack(alignment:.leading,spacing:4){Text("50 coins for opening Quizfolk each day").font(.headline);Text(status.loginClaimed==true ? "Today's login reward is claimed":"Credited automatically when you open the app").font(.caption).foregroundStyle(.secondary)}}.padding(16).frame(maxWidth:.infinity,alignment:.leading).background(.white,in:RoundedRectangle(cornerRadius:16))
+                    RewardedAdCard()
                     Text("DAILY TRAIL · EXTRA COINS").font(.caption.bold()).foregroundStyle(.secondary)
                     ForEach(0..<3,id:\.self){i in trailStep(i,status:status)}
                     Text("10 coins per topic + 15 for finishing all three").font(.subheadline.bold())
@@ -223,7 +224,7 @@ struct CoinTrailView:View {
     private func reload() async {
         loading=true;error=nil;defer{loading=false}
         if store.profile==nil {await store.connect()}
-        do {status=try await store.coinTrail()}catch{self.error=error.localizedDescription}
+        do {status=try await store.coinTrail();await RewardedAdCoordinator.shared.refresh()}catch{self.error=error.localizedDescription}
     }
 }
 

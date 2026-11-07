@@ -5,7 +5,7 @@ PHP=os.environ.get('QUIZFOLK_PHP','php')
 if (ROOT/'backend/config.php').exists():raise SystemExit('Use a clean checkout without backend/config.php for isolated tests.')
 TEMP_ROOT=ROOT/'build'/'contract-state'
 TEMP_ROOT.mkdir(parents=True,exist_ok=True)
-allowed=['test_backend.py','test_social.py','test_tournaments.py','test_economy.py','test_parties_powers.py','test_cross_platform.py','test_notifications.py']
+allowed=['test_backend.py','test_social.py','test_tournaments.py','test_economy.py','test_parties_powers.py','test_cross_platform.py','test_notifications.py','test_rewarded.py']
 suites=sys.argv[1:] or allowed
 if any(suite not in allowed for suite in suites):raise SystemExit('Choose a known isolated contract suite.')
 for suite in suites:
@@ -14,7 +14,7 @@ for suite in suites:
   env=dict(os.environ,QUIZFOLK_STATE_DIR=folder,QUIZFOLK_TEST_URL='http://127.0.0.1:8773/index.php?r=')
   log=pathlib.Path(folder)/'server.log'
   with log.open('w',encoding='utf-8') as stream:
-   server=subprocess.Popen([PHP,'-d','extension_dir='+os.environ['QUIZFOLK_PHP_EXT'],'-d','extension=pdo_sqlite','-S','127.0.0.1:8773','-t',str(ROOT/'backend/public')],env=env,stdout=stream,stderr=stream) if os.environ.get('QUIZFOLK_PHP_EXT') else subprocess.Popen([PHP,'-S','127.0.0.1:8773','-t',str(ROOT/'backend/public')],env=env,stdout=stream,stderr=stream)
+   server=subprocess.Popen([PHP,'-d','extension_dir='+os.environ['QUIZFOLK_PHP_EXT'],'-d','extension=pdo_sqlite','-d','extension=openssl','-S','127.0.0.1:8773','-t',str(ROOT/'backend/public')],env=env,stdout=stream,stderr=stream) if os.environ.get('QUIZFOLK_PHP_EXT') else subprocess.Popen([PHP,'-S','127.0.0.1:8773','-t',str(ROOT/'backend/public')],env=env,stdout=stream,stderr=stream)
    try:
     for _ in range(40):
      try:

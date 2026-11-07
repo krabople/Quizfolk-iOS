@@ -12,6 +12,7 @@ backend/config.php
 *-service-account.json
 firebase-adminsdk*.json
 backend/push-config.php
+backend/rewarded-config.php
 web-download/server/private/
 .env
 *.log

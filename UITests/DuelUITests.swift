@@ -245,8 +245,8 @@ final class DuelUITests:XCTestCase {
         XCTAssertTrue(app.staticTexts["10 coins earned"].exists)
         XCTAssertTrue(app.staticTexts["2 of 5 daily trails · earn 50 bonus coins"].exists);capture("DailyCoinTrail")
         XCTAssertFalse(app.buttons["Geography"].exists,"A topic already credited today must not be offered again")
-        app.swipeUp()
         let next=app.buttons.matching(NSPredicate(format:"label CONTAINS 'General Knowledge'")).firstMatch
+        for _ in 0..<6 {if next.isHittable {break};app.swipeUp()}
         XCTAssertTrue(next.waitForExistence(timeout:5));next.tap()
         XCTAssertTrue(app.buttons["League"].waitForExistence(timeout:5))
     }

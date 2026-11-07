@@ -1,4 +1,11 @@
 name: Quizfolk
+packages:
+  GoogleMobileAds:
+    url: https://github.com/googleads/swift-package-manager-google-mobile-ads.git
+    exactVersion: 13.12.0
+  GoogleUserMessagingPlatform:
+    url: https://github.com/googleads/swift-package-manager-google-user-messaging-platform.git
+    exactVersion: 3.1.0
 options:
   bundleIdPrefix: com.quizfolk
   deploymentTarget:
@@ -26,21 +33,31 @@ targets:
     platform: iOS
     sources:
       - path: iOS
+        excludes: [AdMobInfo.plist]
       - path: data/categories.json
         buildPhase: resources
       - path: data/questions.json
         buildPhase: resources
       - path: data/bots.json
         buildPhase: resources
+    dependencies:
+      - package: GoogleMobileAds
+        product: GoogleMobileAds
+      - package: GoogleUserMessagingPlatform
+        product: GoogleUserMessagingPlatform
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.quizfolk.ios
+        INFOPLIST_FILE: iOS/AdMobInfo.plist
+        QUIZFOLK_ADMOB_IOS_APP_ID: ''
+        QUIZFOLK_ADMOB_IOS_REWARDED_UNIT_ID: ''
         CODE_SIGN_ENTITLEMENTS: iOS/Quizfolk.entitlements
         TARGETED_DEVICE_FAMILY: '1,2'
         INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.trivia-games
       configs:
         Debug:
           APS_ENVIRONMENT: development
+          QUIZFOLK_ADMOB_IOS_APP_ID: ca-app-pub-3940256099942544~1458002511
         Release:
           APS_ENVIRONMENT: production
   QuizfolkTests:

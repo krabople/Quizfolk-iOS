@@ -60,7 +60,12 @@ jobs:
             xcrun xcresulttool export attachments --path build/TestResults.xcresult --output-path build/UITestScreenshots || true
           fi
       - name: Build unsigned device archive
-        run: xcodebuild -project Quizfolk.xcodeproj -scheme Quizfolk -destination 'generic/platform=iOS' -archivePath build/Quizfolk.xcarchive CODE_SIGNING_ALLOWED=NO archive
+        env:
+          QUIZFOLK_ADMOB_IOS_APP_ID: ${{ vars.QUIZFOLK_ADMOB_IOS_APP_ID }}
+          QUIZFOLK_ADMOB_IOS_REWARDED_UNIT_ID: ${{ vars.QUIZFOLK_ADMOB_IOS_REWARDED_UNIT_ID }}
+        run: |
+          python3 scripts/validate_ios_ad_config.py
+          xcodebuild -project Quizfolk.xcodeproj -scheme Quizfolk -configuration Release -destination 'generic/platform=iOS' -archivePath build/Quizfolk.xcarchive CODE_SIGNING_ALLOWED=NO QUIZFOLK_ADMOB_IOS_APP_ID="$QUIZFOLK_ADMOB_IOS_APP_ID" QUIZFOLK_ADMOB_IOS_REWARDED_UNIT_ID="$QUIZFOLK_ADMOB_IOS_REWARDED_UNIT_ID" archive
       - name: Upload simulator app, unsigned archive and test results
         if: always()
         uses: actions/upload-artifact@v4
@@ -125,7 +130,7 @@ jobs:
       - name: Validate native portrait, landscape and rotation layouts
         run: |
           set -o pipefail
-          xcodebuild -project Quizfolk.xcodeproj -scheme Quizfolk -destination "platform=iOS Simulator,id=$SIMULATOR_ID" -parallel-testing-enabled NO -only-testing:QuizfolkUITests/IPadUITests -maximum-test-execution-time-allowance 120 -derivedDataPath build -resultBundlePath build/IPadResults.xcresult CODE_SIGNING_ALLOWED=NO test-without-building | tee build/ipad-test.log
+          xcodebuild -project Quizfolk.xcodeproj -scheme Quizfolk -destination "platform=iOS Simulator,id=$SIMULATOR_ID" -parallel-testing-enabled NO -only-testing:QuizfolkUITests/IPadUITests -only-testing:QuizfolkUITests/RewardedAdUITests -maximum-test-execution-time-allowance 120 -derivedDataPath build -resultBundlePath build/IPadResults.xcresult CODE_SIGNING_ALLOWED=NO test-without-building | tee build/ipad-test.log
       - name: Export original iPad UI screenshots
         if: always()
         run: |

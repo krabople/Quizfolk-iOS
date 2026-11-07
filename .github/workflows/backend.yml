@@ -19,6 +19,9 @@ jobs:
           php -l backend/public/index.php
           php -l backend/notifications.php
           php -l backend/push_worker.php
+          php -l backend/rewarded.php
+          php -l backend/public/rewarded-callback.php
+          php scripts/test_rewarded.php
           php scripts/test_push_crypto.php
           php scripts/test_migration.php
           php scripts/test_bank_revisions.php
