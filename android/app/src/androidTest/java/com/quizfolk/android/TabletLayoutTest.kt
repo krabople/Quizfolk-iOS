@@ -4,6 +4,8 @@ import android.content.Intent
 import android.content.pm.ActivityInfo
 import android.content.res.Configuration
 import android.graphics.Bitmap
+import android.app.UiAutomation
+import android.view.Surface
 import androidx.compose.ui.test.*
 import androidx.compose.ui.test.junit4.AndroidComposeTestRule
 import androidx.test.core.app.ApplicationProvider
@@ -11,6 +13,7 @@ import androidx.test.ext.junit.rules.ActivityScenarioRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
 import org.junit.Assert.*
+import org.junit.After
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -28,6 +31,9 @@ class TabletLayoutTest {
         }
     }
     private val store get() = compose.activity.store
+    @After fun restoreDeviceRotation() {
+        InstrumentationRegistry.getInstrumentation().uiAutomation.setRotation(UiAutomation.ROTATION_UNFREEZE)
+    }
     private fun tap(tag: String) = compose.onNodeWithTag(tag).performClick()
     private fun text(value: String) = compose.onNodeWithText(value, useUnmergedTree = true)
     private fun waitFor(tag: String, timeout: Long = 10000) {
@@ -40,12 +46,24 @@ class TabletLayoutTest {
     }
     private fun rotate(landscape: Boolean) {
         val orientation = if (landscape) Configuration.ORIENTATION_LANDSCAPE else Configuration.ORIENTATION_PORTRAIT
+        val activity = compose.activity
+        val physical = activity.windowManager.maximumWindowMetrics.bounds
+        val currentRotation = requireNotNull(activity.display).rotation
+        val sideways = currentRotation == Surface.ROTATION_90 || currentRotation == Surface.ROTATION_270
+        val naturalLandscape = if (sideways) physical.height() > physical.width() else physical.width() > physical.height()
+        // Rotate the device, not only the Activity: forcing a portrait Activity on a
+        // landscape tablet display invokes Android's letterbox tutorial and blocks taps.
         compose.runOnUiThread {
-            compose.activity.requestedOrientation = if (landscape) ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE else ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
+            compose.activity.requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED
         }
+        assertTrue("The tablet display must rotate", InstrumentationRegistry.getInstrumentation().uiAutomation.setRotation(
+            if (landscape == naturalLandscape) UiAutomation.ROTATION_FREEZE_0 else UiAutomation.ROTATION_FREEZE_90
+        ))
         compose.waitUntil(15000) {
             val bounds = compose.activity.windowManager.currentWindowMetrics.bounds
-            compose.activity.resources.configuration.orientation == orientation && (bounds.width() > bounds.height()) == landscape
+            val screen = compose.activity.windowManager.maximumWindowMetrics.bounds
+            compose.activity.resources.configuration.orientation == orientation &&
+                (bounds.width() > bounds.height()) == landscape && (screen.width() > screen.height()) == landscape
         }
         compose.waitForIdle()
     }

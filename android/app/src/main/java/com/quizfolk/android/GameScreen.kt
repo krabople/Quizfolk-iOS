@@ -2,6 +2,7 @@ package com.quizfolk.android
 
 import android.provider.Settings
 import androidx.activity.compose.BackHandler
+import androidx.activity.compose.LocalActivity
 import androidx.compose.animation.*
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.*
@@ -34,7 +35,7 @@ import kotlin.math.*
 
 @Composable fun GameScreen(game: GameSession) {
     val store = game.store; val owner = LocalLifecycleOwner.current
-    val activity = LocalContext.current as? android.app.Activity
+    val activity = LocalActivity.current
     var leave by remember(game.id) { mutableStateOf(false) }; var profileID by remember(game.id) { mutableStateOf<String?>(null) }
     val rematchID = remember(game.id) { UUID.randomUUID().toString() }
     val close = { if (game.canClose) game.close() else leave = true }
