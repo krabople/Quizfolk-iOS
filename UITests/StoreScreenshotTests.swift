@@ -34,8 +34,15 @@ final class StoreScreenshotTests:XCTestCase {
         shot.name="STORE-"+name;shot.lifetime = .keepAlways;add(shot)
     }
     @MainActor private func topic(_ app:XCUIApplication) {
-        let field=app.textFields["Search categories"]
-        XCTAssertTrue(field.waitForExistence(timeout:8));field.tap();field.typeText("Geography")
+        if ProcessInfo.processInfo.environment["CAPTURE_DEVICE"]=="ipad-13" {
+            // Use the real interests filter so the keyboard cannot intercept grid swipes
+            // in iPad's expanded iPhone compatibility window.
+            let interests=app.buttons["My interests"]
+            XCTAssertTrue(interests.waitForExistence(timeout:8));interests.tap()
+        } else {
+            let field=app.textFields["Search categories"]
+            XCTAssertTrue(field.waitForExistence(timeout:8));field.tap();field.typeText("Geography")
+        }
         let link=app.descendants(matching:.any).matching(identifier:"topic-22").firstMatch
         for _ in 0..<3 {if link.isHittable{break};scroll(app)}
         XCTAssertTrue(link.waitForExistence(timeout:8));link.tap()
