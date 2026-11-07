@@ -1,12 +1,15 @@
 package com.quizfolk.android
 
 import android.os.Bundle
+import android.content.pm.ActivityInfo
+import android.content.res.Configuration
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.viewModels
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
@@ -30,11 +33,23 @@ import kotlinx.coroutines.launch
 
 class MainActivity : ComponentActivity() {
     val store: QuizStore by viewModels()
+    private var portraitPhone: Boolean? = null
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState); enableEdgeToEdge()
+        super.onCreate(savedInstanceState); enableEdgeToEdge(); updateOrientation(resources.configuration)
         store.testing = BuildConfig.DEBUG && intent.getBooleanExtra("ui_test", false)
         acceptPush(intent)
         setContent { QuizfolkTheme { Root(store) } }
+    }
+    override fun onConfigurationChanged(newConfig: Configuration) {
+        super.onConfigurationChanged(newConfig)
+        updateOrientation(newConfig)
+    }
+    private fun updateOrientation(config: Configuration) {
+        val lockPhone = config.smallestScreenWidthDp < 600 && !isInMultiWindowMode
+        if (portraitPhone != lockPhone) {
+            portraitPhone = lockPhone
+            requestedOrientation = if (lockPhone) ActivityInfo.SCREEN_ORIENTATION_PORTRAIT else ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED
+        }
     }
     override fun onNewIntent(intent: android.content.Intent) { super.onNewIntent(intent);setIntent(intent);acceptPush(intent) }
     private fun acceptPush(intent: android.content.Intent) {
@@ -63,22 +78,32 @@ class MainActivity : ComponentActivity() {
         val observer = LifecycleEventObserver { _, event -> if (event == Lifecycle.Event.ON_START && store.ready) scope.launch { store.resume() } }
         owner.lifecycle.addObserver(observer); onDispose { owner.lifecycle.removeObserver(observer) }
     }
-    Surface(Modifier.fillMaxSize(), color = CanvasColor) {
+    Surface(Modifier.fillMaxSize().testTag("appRoot"), color = CanvasColor) {
         if (!store.ready) Column(Modifier.fillMaxSize().safeDrawingPadding(), verticalArrangement = Arrangement.Center, horizontalAlignment = Alignment.CenterHorizontally) {
             BrandMark(84.dp); Spacer(Modifier.height(24.dp)); if (store.loadError == null) Busy("Opening Quizfolk…") else ErrorText(store.loadError)
         } else if (store.game != null) GameScreen(store.game!!)
         else {
             BackHandler(store.pages.isNotEmpty()) { store.back() }
-            Scaffold(containerColor = CanvasColor, bottomBar = {
-                NavigationBar(containerColor = ColorForNavigation, tonalElevation = 0.dp) {
-                    val labels = listOf("Discover", "Duels", "Tournaments", "People", "You")
-                    val icons = listOf(Icons.Default.GridView, Icons.Default.Bolt, Icons.Default.EmojiEvents, Icons.Default.People, Icons.Default.AccountCircle)
-                    labels.forEachIndexed { i,label -> NavigationBarItem(selected = store.tab == i, onClick = { store.tab = i; store.pages.clear() },
-                        icon = { Icon(icons[i], label) }, label = { Text(label, fontSize = 9.sp) }, modifier = Modifier.testTag("tab-$label"),
-                        colors = NavigationBarItemDefaults.colors(selectedIconColor = Coral, selectedTextColor = Coral, indicatorColor = CanvasColor)) }
-                }
-            }) { padding ->
-                Column(Modifier.padding(padding).fillMaxSize().consumeWindowInsets(padding)) {
+            BoxWithConstraints(Modifier.fillMaxSize()) {
+                val rail = maxWidth >= 840.dp
+                val labels = listOf("Discover", "Duels", "Tournaments", "People", "You")
+                val icons = listOf(Icons.Default.GridView, Icons.Default.Bolt, Icons.Default.EmojiEvents, Icons.Default.People, Icons.Default.AccountCircle)
+                val navigate: (Int) -> Unit = { store.tab = it; store.pages.clear() }
+                Scaffold(containerColor = CanvasColor, bottomBar = {
+                    if (!rail) NavigationBar(Modifier.testTag("bottomNavigation"), containerColor = ColorForNavigation, tonalElevation = 0.dp) {
+                        labels.forEachIndexed { i,label -> NavigationBarItem(selected = store.tab == i, onClick = { navigate(i) },
+                            icon = { Icon(icons[i], label) }, label = { Text(label, fontSize = 9.sp) }, modifier = Modifier.testTag("tab-$label"),
+                            colors = NavigationBarItemDefaults.colors(selectedIconColor = Coral, selectedTextColor = Coral, indicatorColor = CanvasColor)) }
+                    }
+                }) { padding ->
+                    Row(Modifier.padding(padding).fillMaxSize().consumeWindowInsets(padding)) {
+                        if (rail) NavigationRail(Modifier.fillMaxHeight().width(112.dp).testTag("navigationRail"), containerColor = ColorForNavigation,
+                            header = { BrandMark(44.dp); Spacer(Modifier.height(24.dp)) }) {
+                            labels.forEachIndexed { i,label -> NavigationRailItem(selected = store.tab == i, onClick = { navigate(i) },
+                                icon = { Icon(icons[i], label) }, label = { Text(label, fontSize = 11.sp) }, modifier = Modifier.testTag("tab-$label"),
+                                colors = NavigationRailItemDefaults.colors(selectedIconColor = Coral, selectedTextColor = Coral, indicatorColor = Coral.copy(alpha = .12f))) }
+                        }
+                        Column(Modifier.weight(1f).fillMaxHeight()) {
                     val page = store.pages.lastOrNull()
                     if (page != null) TopBar(when (page.type) { "topic" -> store.topic(page.id).name; "player" -> "Player card"; "match" -> "Duel review"; "coins" -> "Daily Trail"; "badges" -> "Tournament badges"; "notifications" -> "Notifications"; "event" -> "Tournament"; "friends" -> "Friends tournaments"; "party" -> "Friends tournament"; "challenge" -> "Challenge"; else -> "Quizfolk" }, store::back)
                     if (page == null) when (store.tab) { 0 -> DiscoverPage(store); 1 -> DuelsPage(store); 2 -> TournamentsPage(store); 3 -> PeoplePage(store); else -> ProfilePage(store) }
@@ -93,6 +118,8 @@ class MainActivity : ComponentActivity() {
                         "friends" -> FriendsPage(store)
                         "party" -> FriendsBoardPage(store, page.value!!)
                         "challenge" -> ChallengePage(store, page.id, page.value!!.s("name"), page.value!!.s("topic", "9"))
+                    }
+                        }
                     }
                 }
             }
@@ -109,7 +136,7 @@ class MainActivity : ComponentActivity() {
                 val prize = store.badgeApplied!!
                 Dialog(onDismissRequest = { }, properties = DialogProperties(usePlatformDefaultWidth = false)) {
                     Surface(Modifier.padding(22.dp).widthIn(max = 430.dp), shape = androidx.compose.foundation.shape.RoundedCornerShape(28.dp), color = CanvasColor) {
-                        Column(Modifier.padding(28.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(20.dp)) {
+                        Column(Modifier.verticalScroll(androidx.compose.foundation.rememberScrollState()).padding(28.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(20.dp)) {
                             Icon(Icons.Default.CheckCircle, null, tint = androidx.compose.ui.graphics.Color(0xFF30C45B), modifier = Modifier.size(42.dp))
                             Avatar(store.name, store.avatar, size = 120.dp, badge = prize, store = store)
                             Text("Badge added!", fontSize = 29.sp, fontWeight = FontWeight.Bold)

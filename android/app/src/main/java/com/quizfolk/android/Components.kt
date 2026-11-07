@@ -63,7 +63,12 @@ fun date(seconds: Double): String = DateFormat.getDateTimeInstance(DateFormat.ME
     }
 }
 @Composable fun BrandMark(size: Dp = 48.dp) = Image(painterResource(R.drawable.brand_mark), "Quizfolk logo", Modifier.size(size).clip(RoundedCornerShape(size * .23f)))
-@Composable fun Body(modifier: Modifier = Modifier, content: @Composable ColumnScope.() -> Unit) = Column(modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(20.dp), verticalArrangement = Arrangement.spacedBy(18.dp), content = content)
+@Composable fun Body(modifier: Modifier = Modifier, maxWidth: Dp = 900.dp, content: @Composable ColumnScope.() -> Unit) {
+    Box(modifier.fillMaxSize(), contentAlignment = Alignment.TopCenter) {
+        Column(Modifier.widthIn(max = maxWidth).fillMaxSize().verticalScroll(rememberScrollState()).padding(20.dp),
+            verticalArrangement = Arrangement.spacedBy(18.dp), content = content)
+    }
+}
 @Composable fun Panel(modifier: Modifier = Modifier, content: @Composable ColumnScope.() -> Unit) = Column(modifier.fillMaxWidth().background(Color.White, RoundedCornerShape(18.dp)).padding(18.dp), verticalArrangement = Arrangement.spacedBy(12.dp), content = content)
 @Composable fun Action(text: String, modifier: Modifier = Modifier, color: Color = Coral, enabled: Boolean = true, tag: String = text, onClick: () -> Unit) {
     Button(onClick, modifier.fillMaxWidth().heightIn(min = 52.dp).testTag(tag), enabled = enabled,

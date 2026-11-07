@@ -34,6 +34,7 @@ import kotlin.math.*
 
 @Composable fun GameScreen(game: GameSession) {
     val store = game.store; val owner = LocalLifecycleOwner.current
+    val activity = LocalContext.current as? android.app.Activity
     var leave by remember(game.id) { mutableStateOf(false) }; var profileID by remember(game.id) { mutableStateOf<String?>(null) }
     val rematchID = remember(game.id) { UUID.randomUUID().toString() }
     val close = { if (game.canClose) game.close() else leave = true }
@@ -41,7 +42,7 @@ import kotlin.math.*
     DisposableEffect(game.id, owner) {
         val observer = LifecycleEventObserver { _, event -> when (event) { Lifecycle.Event.ON_STOP -> game.onBackground(); Lifecycle.Event.ON_START -> game.onForeground(); else -> Unit } }
         owner.lifecycle.addObserver(observer)
-        onDispose { owner.lifecycle.removeObserver(observer); game.stop() }
+        onDispose { owner.lifecycle.removeObserver(observer); if (activity?.isChangingConfigurations != true) game.stop() }
     }
     BackHandler { if (profileID != null) profileID = null else close() }
     if (profileID != null) {
@@ -75,7 +76,7 @@ import kotlin.math.*
             confirmButton = { TextButton({ leave = false; game.close() }) { Text(if (game.survival) "End run" else "Leave duel") } }, dismissButton = { TextButton({ leave = false }) { Text("Keep playing") } })
     }
 }
-@Composable private fun SearchScreen(game: GameSession) = Column(Modifier.fillMaxSize().padding(28.dp).testTag("humanSearch"), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(25.dp, Alignment.CenterVertically)) {
+@Composable private fun SearchScreen(game: GameSession) = GameStage(Modifier.testTag("humanSearch"), spacing = 25.dp, center = true) {
     Icon(Icons.Default.Groups, null, Modifier.size(70.dp), tint = Gold)
     Text("Finding a human rival", fontSize = 28.sp, fontWeight = FontWeight.Bold, textAlign = TextAlign.Center)
     Text("Looking for players in ${game.topic.name}…", textAlign = TextAlign.Center)
@@ -85,7 +86,7 @@ import kotlin.math.*
 }
 @Composable private fun IntroScreen(game: GameSession) {
     var visible by remember { mutableStateOf(false) }; LaunchedEffect(Unit) { visible = true }
-    Column(Modifier.fillMaxSize().padding(24.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(24.dp)) {
+    GameStage(spacing = 24.dp) {
         BrandMark(66.dp)
         Text("A NEW RIVALRY", fontSize = 12.sp, fontWeight = FontWeight.Black, letterSpacing = 3.sp)
         Row(verticalAlignment = Alignment.Top, modifier = Modifier.fillMaxWidth().testTag("matchupTitle")) {
@@ -106,7 +107,15 @@ import kotlin.math.*
 @Composable private fun Contestant(name: String, photo: String?, bot: Boolean) = Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(12.dp)) { Avatar(name, photo, bot, 88.dp); Text(name, fontWeight = FontWeight.Bold, textAlign = TextAlign.Center, maxLines = 2) }
 
 @Composable private fun PlayScreen(game: GameSession) {
-    BoxWithConstraints(Modifier.fillMaxSize().padding(horizontal = 16.dp, vertical = 8.dp)) {
+    BoxWithConstraints(Modifier.fillMaxSize()) {
+        if (maxWidth >= 700.dp) TabletPlayScreen(game, maxWidth, maxHeight)
+        else Box(Modifier.fillMaxSize().verticalScroll(rememberScrollState())) {
+            CompactPlayScreen(game, Modifier.fillMaxWidth().height(maxHeight.coerceAtLeast(600.dp)))
+        }
+    }
+}
+@Composable private fun CompactPlayScreen(game: GameSession, modifier: Modifier) {
+    BoxWithConstraints(modifier.padding(horizontal = 16.dp, vertical = 8.dp)) {
         val tileTarget = if (game.reading) 0.dp else maxHeight * if (game.revealed) .32f else .38f
         val answersHeight by animateDpAsState(tileTarget, tween(450), label = "answerSpace")
         Column(Modifier.fillMaxSize(), verticalArrangement = Arrangement.spacedBy(if (game.revealed) 5.dp else 7.dp)) {
@@ -150,6 +159,103 @@ import kotlin.math.*
         }
     }
 }
+/** The match controller stays unchanged while only this window-sized presentation reflows. */
+@Composable private fun TabletPlayScreen(game: GameSession, windowWidth: Dp, windowHeight: Dp) {
+    val landscape = windowWidth > windowHeight * 1.12f
+    val contentHeight = (windowHeight - 48.dp).coerceAtLeast(if (landscape) 500.dp else 760.dp)
+    val target = if (game.reading) 0.dp else if (landscape)
+        (contentHeight - if (game.revealed) 210.dp else 150.dp).coerceAtLeast(280.dp)
+        else (contentHeight * .38f).coerceIn(280.dp, 500.dp)
+    val answersHeight by animateDpAsState(target, tween(450), label = "tabletAnswerSpace")
+    Box(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).testTag("tabletPlayArea"), contentAlignment = Alignment.TopCenter) {
+        if (landscape) Row(Modifier.widthIn(max = 1280.dp).fillMaxWidth().padding(24.dp).height(contentHeight), horizontalArrangement = Arrangement.spacedBy(32.dp)) {
+            Column(Modifier.weight(1f).fillMaxHeight(), verticalArrangement = Arrangement.spacedBy(16.dp)) {
+                TabletScoreboard(game)
+                TabletRoundHeader(game)
+                TimeBar(game.remaining, game.reading, 12.dp)
+                Box(Modifier.weight(1f).fillMaxWidth().testTag("questionPrompt"), contentAlignment = Alignment.Center) {
+                    game.question?.let { AutoText(it.prompt, 34, 10, Color.White) }
+                }
+                if (game.reading) ReadingNotice()
+                GameError(game)
+            }
+            Column(Modifier.weight(1f).fillMaxHeight(), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+                Spacer(Modifier.weight(1f))
+                TabletAnswers(game, answersHeight)
+                PowerTray(game, spacious = true)
+                game.powerError?.let { Text(it, fontSize = 13.sp, color = Gold) }
+                if (game.revealed) TabletFeedback(game)
+                Spacer(Modifier.weight(1f))
+            }
+        } else Column(Modifier.widthIn(max = 1040.dp).fillMaxWidth().padding(24.dp).height(contentHeight), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+            TabletScoreboard(game)
+            TabletRoundHeader(game)
+            TimeBar(game.remaining, game.reading, 12.dp)
+            Box(Modifier.weight(1f).fillMaxWidth().testTag("questionPrompt"), contentAlignment = Alignment.Center) {
+                game.question?.let { AutoText(it.prompt, 34, 10, Color.White) }
+            }
+            if (game.reading) ReadingNotice()
+            TabletAnswers(game, answersHeight)
+            PowerTray(game, spacious = true)
+            game.powerError?.let { Text(it, fontSize = 13.sp, color = Gold) }
+            if (game.revealed) TabletFeedback(game)
+            GameError(game)
+        }
+    }
+}
+@Composable private fun TabletScoreboard(game: GameSession) {
+    if (game.survival) Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(5.dp)) {
+            Text("SURVIVAL TOURNAMENT", fontWeight = FontWeight.Black, fontSize = 14.sp, color = Gold)
+            Text("${game.score} points", fontSize = 35.sp, fontWeight = FontWeight.Bold)
+        }
+        Text("${game.streak} in a row", fontWeight = FontWeight.Bold)
+    } else Column(verticalArrangement = Arrangement.spacedBy(14.dp)) {
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
+            SmallPlayer(game.store.name, game.store.avatar, game.score.toString(), false, Modifier.weight(1f), spacious = true)
+            Text("VS", fontSize = 17.sp, fontWeight = FontWeight.Black, color = Color.White.copy(alpha = .6f))
+            SmallPlayer(game.opponent, game.opponentAvatar, if (game.duelID != null && game.pending) "—" else "${game.opponentScore}", !game.human, Modifier.weight(1f), spacious = true)
+        }
+        DuelProgress(game, spacious = true)
+    }
+}
+@Composable private fun TabletRoundHeader(game: GameSession) {
+    Row(Modifier.fillMaxWidth().height(80.dp), verticalAlignment = Alignment.CenterVertically) {
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(7.dp)) {
+            Text(if (game.survival) "QUESTION ${game.round + if (game.revealed) 0 else 1}" else if (game.round == 6) "FINAL ROUND" else "ROUND ${game.round + 1} OF 7", fontSize = 17.sp, fontWeight = FontWeight.Black, letterSpacing = 1.sp)
+            Text(if (!game.survival && game.round == 6) "DOUBLE POINTS" else "FASTER = MORE POINTS", fontSize = 12.sp, fontWeight = FontWeight.Bold, color = Gold)
+        }
+        if (game.reading) Icon(Icons.Default.MenuBook, "Reading time", tint = Gold, modifier = Modifier.size(60.dp)) else TimerRing(game.remaining, 76.dp)
+    }
+}
+@Composable private fun ReadingNotice() = Text("Read the question · 3 seconds", Modifier.fillMaxWidth().testTag("readingPhase"), fontWeight = FontWeight.Bold, textAlign = TextAlign.Center, fontSize = 17.sp)
+@Composable private fun TabletAnswers(game: GameSession, height: Dp) {
+    val question = game.question
+    Column(Modifier.fillMaxWidth().height(height).clip(RectangleShape), verticalArrangement = Arrangement.spacedBy(14.dp)) {
+        if (!game.reading && question?.answers?.size == 4) (0..1).forEach { row ->
+            Row(Modifier.weight(1f), horizontalArrangement = Arrangement.spacedBy(14.dp)) {
+                (0..1).forEach { column -> AnswerTile(game, question, row * 2 + column, Modifier.weight(1f).fillMaxHeight(), spacious = true) }
+            }
+        }
+    }
+}
+@Composable private fun TabletFeedback(game: GameSession) {
+    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
+        Text(if (game.lastPoints > 0) "+${game.lastPoints} points · Correct!" else if (game.selected == -1) "Time’s up!" else "Correct answer shown", Modifier.weight(1f), fontSize = 17.sp, fontWeight = FontWeight.SemiBold)
+        Button({ game.next() }, shape = RoundedCornerShape(14.dp), modifier = Modifier.heightIn(min = 54.dp).testTag("advanceQuestion")) {
+            Text(if (game.survival && game.runEnded || !game.survival && game.round == 6) "See results" else "Next question", fontWeight = FontWeight.Bold)
+        }
+    }
+}
+@Composable private fun GameStage(modifier: Modifier = Modifier, spacing: Dp = 24.dp, center: Boolean = false, content: @Composable ColumnScope.() -> Unit) {
+    BoxWithConstraints(modifier.fillMaxSize()) {
+        val stageHeight = maxHeight.coerceAtLeast(650.dp)
+        Box(Modifier.fillMaxSize().verticalScroll(rememberScrollState()), contentAlignment = Alignment.TopCenter) {
+            Column(Modifier.widthIn(max = 760.dp).fillMaxWidth().height(stageHeight).padding(24.dp), horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.spacedBy(spacing, if (center) Alignment.CenterVertically else Alignment.Top), content = content)
+        }
+    }
+}
 @Composable private fun AutoText(text: String, base: Int, lines: Int, color: Color) {
     val measurer = rememberTextMeasurer(); val density = LocalDensity.current
     BoxWithConstraints(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
@@ -163,7 +269,7 @@ import kotlin.math.*
         Text(text, fontSize = font.sp, lineHeight = (font * 1.2f).sp, maxLines = lines, fontWeight = FontWeight.Bold, textAlign = TextAlign.Center, color = color)
     }
 }
-@Composable private fun AnswerTile(game: GameSession, question: Question, index: Int, modifier: Modifier) {
+@Composable private fun AnswerTile(game: GameSession, question: Question, index: Int, modifier: Modifier, spacious: Boolean = false) {
     val right = game.revealed && index == question.correctIndex
     val wrong = game.revealed && game.selected == index && !right || game.power.type == "double" && index in game.power.hidden
     val hidden = index in game.power.hidden && !wrong
@@ -172,31 +278,31 @@ import kotlin.math.*
         .clickable(enabled = !game.busy && !game.reading && !game.revealed && game.error == null && index !in game.power.hidden) { game.choose(index) }.testTag("answer-$index")
         .semantics { contentDescription = if (hidden) "Removed answer" else question.answers[index] + if (right) ", correct" else if (wrong) ", incorrect" else "" }
         .padding(11.dp), horizontalAlignment = Alignment.CenterHorizontally) {
-        Box(Modifier.weight(1f)) { if (!hidden) AutoText(question.answers[index], 19, 6, if (right || wrong) Color.White else Ink) }
+        Box(Modifier.weight(1f)) { if (!hidden) AutoText(question.answers[index], if (spacious) 25 else 19, 6, if (right || wrong) Color.White else Ink) }
         if (right || wrong) Icon(if (right) Icons.Default.CheckCircle else Icons.Default.Cancel, null, tint = Color.White, modifier = Modifier.size(19.dp))
     }
 }
-@Composable private fun SmallPlayer(name: String, photo: String?, score: String, bot: Boolean, modifier: Modifier) = Row(modifier, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(7.dp)) {
-    Avatar(name, photo, bot, 34.dp); Column { Text(name, maxLines = 1, fontSize = 10.sp, lineHeight = 12.sp, fontWeight = FontWeight.SemiBold); Text(score, fontSize = 25.sp, lineHeight = 28.sp, fontWeight = FontWeight.Bold) }
+@Composable private fun SmallPlayer(name: String, photo: String?, score: String, bot: Boolean, modifier: Modifier, spacious: Boolean = false) = Row(modifier, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(7.dp)) {
+    Avatar(name, photo, bot, if (spacious) 46.dp else 34.dp); Column { Text(name, maxLines = 1, fontSize = if (spacious) 15.sp else 10.sp, lineHeight = if (spacious) 18.sp else 12.sp, fontWeight = FontWeight.SemiBold); Text(score, fontSize = if (spacious) 34.sp else 25.sp, lineHeight = if (spacious) 39.sp else 28.sp, fontWeight = FontWeight.Bold) }
 }
-@Composable private fun DuelProgress(game: GameSession) = Column(Modifier.fillMaxWidth().testTag("duelProgress"), verticalArrangement = Arrangement.spacedBy(5.dp)) {
-    ProgressRow(game.store.name, game.rounds.size, game.rounds.map { it.points > 0 }, game.round, "roundMarker")
-    ProgressRow(game.opponent, game.opponentAnswered, if (game.kind == "bot" || !game.online || game.kind == "human") game.rounds.map { it.opponentPoints > 0 } else game.opponentResults, null, "opponentRoundMarker")
+@Composable private fun DuelProgress(game: GameSession, spacious: Boolean = false) = Column(Modifier.fillMaxWidth().testTag("duelProgress"), verticalArrangement = Arrangement.spacedBy(5.dp)) {
+    ProgressRow(game.store.name, game.rounds.size, game.rounds.map { it.points > 0 }, game.round, "roundMarker", spacious)
+    ProgressRow(game.opponent, game.opponentAnswered, if (game.kind == "bot" || !game.online || game.kind == "human") game.rounds.map { it.opponentPoints > 0 } else game.opponentResults, null, "opponentRoundMarker", spacious)
 }
-@Composable private fun ProgressRow(name: String, answered: Int, results: List<Boolean?>, current: Int?, tag: String) = Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(4.dp)) {
-    Text(name, Modifier.width(92.dp), fontSize = 9.sp, fontWeight = FontWeight.SemiBold, maxLines = 1)
+@Composable private fun ProgressRow(name: String, answered: Int, results: List<Boolean?>, current: Int?, tag: String, spacious: Boolean = false) = Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(4.dp)) {
+    Text(name, Modifier.width(if (spacious) 130.dp else 92.dp), fontSize = if (spacious) 13.sp else 9.sp, fontWeight = FontWeight.SemiBold, maxLines = 1)
     (0..6).forEach { i -> val result = if (i < answered) results.getOrNull(i) else null
         val label = if (result == true) "correct" else if (result == false) "incorrect" else if (i < answered) "answered, result pending" else if (i == current) "current" else "upcoming"
-        Box(Modifier.weight(1f).height(12.dp).background(if (result == true) Color(0xFF32C778) else if (result == false) Coral else if (i == current && i >= answered) Gold else Color.White.copy(alpha = if (i < answered) .32f else .17f), CircleShape)
+        Box(Modifier.weight(1f).height(if (spacious) 16.dp else 12.dp).background(if (result == true) Color(0xFF32C778) else if (result == false) Coral else if (i == current && i >= answered) Gold else Color.White.copy(alpha = if (i < answered) .32f else .17f), CircleShape)
             .testTag("$tag-$i").semantics { contentDescription = "Round ${i+1}: $label" }, contentAlignment = Alignment.Center) {
             if (result != null) Icon(if (result) Icons.Default.Check else Icons.Default.Close, null, tint = Color.White, modifier = Modifier.size(9.dp))
         }
     }
-    Text("$answered/7", fontSize = 10.sp, fontWeight = FontWeight.Bold)
+    Text("$answered/7", fontSize = if (spacious) 13.sp else 10.sp, fontWeight = FontWeight.Bold)
 }
-@Composable private fun TimeBar(seconds: Double, reading: Boolean) {
+@Composable private fun TimeBar(seconds: Double, reading: Boolean, thickness: Dp = 9.dp) {
     val fraction = if (reading) 1f else (seconds / 10).toFloat().coerceIn(0f,1f)
-    Box(Modifier.fillMaxWidth().height(9.dp).clip(CircleShape).background(Color.White.copy(alpha = .18f)).testTag("answerTimeBar")
+    Box(Modifier.fillMaxWidth().height(thickness).clip(CircleShape).background(Color.White.copy(alpha = .18f)).testTag("answerTimeBar")
         .semantics { contentDescription = if (reading) "Reading time; answer clock has not started" else "%.1f seconds remaining".format(seconds) }) {
         Box(Modifier.fillMaxWidth(fraction).fillMaxHeight().background(if (reading) Color.White.copy(alpha = .4f) else if (seconds <= 3) Coral else if (seconds <= 5) Gold else Mint, CircleShape))
     }
@@ -206,25 +312,26 @@ import kotlin.math.*
         val stroke = 5.dp.toPx(); drawCircle(Color.White.copy(alpha = .18f), style = Stroke(stroke))
         drawArc(if (seconds <= 3) Coral else Gold, -90f, (360 * seconds / 10).toFloat().coerceIn(0f,360f), false, style = Stroke(stroke, cap = StrokeCap.Round))
     }
-    Column(horizontalAlignment = Alignment.CenterHorizontally) { Text("%.1f".format(seconds), fontSize = if (size >= 60.dp) 25.sp else 19.sp, fontWeight = FontWeight.Black); if (size >= 60.dp) Text("SECONDS", fontSize = 8.sp, letterSpacing = 1.sp, fontWeight = FontWeight.Bold) }
+    Column(horizontalAlignment = Alignment.CenterHorizontally) { Text("%.1f".format(seconds), fontSize = if (size >= 76.dp) 31.sp else if (size >= 60.dp) 25.sp else 19.sp, fontWeight = FontWeight.Black); if (size >= 60.dp) Text("SECONDS", fontSize = 8.sp, letterSpacing = 1.sp, fontWeight = FontWeight.Bold) }
 }
-@Composable private fun PowerTray(game: GameSession) {
+@Composable private fun PowerTray(game: GameSession, spacious: Boolean = false) {
     if (!game.powerAllowed) { Text("Host has switched power-ups off", fontSize = 11.sp, color = Color.White.copy(alpha = .8f)); return }
     Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
         Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) { Assist.entries.forEach { assist ->
             Column(Modifier.weight(1f).background(Color.White.copy(alpha = .13f), RoundedCornerShape(9.dp))
                 .clickable(enabled = !game.busy && !game.reading && !game.revealed && !game.power.used) { game.usePower(assist) }.testTag("power-${assist.key}")
-                .semantics { contentDescription = "${assist.title}, ${if (game.online) "${assist.price} coins" else "practice"}" }.padding(vertical = 9.dp, horizontal = 2.dp), horizontalAlignment = Alignment.CenterHorizontally) {
-                Text(assist.title, fontSize = 10.sp, fontWeight = FontWeight.Bold, color = Color.White.copy(alpha = if (game.power.used) .45f else 1f))
-                Row(horizontalArrangement = Arrangement.spacedBy(3.dp), verticalAlignment = Alignment.CenterVertically) { if (game.online) CoinSymbol(11.dp); Text(if (game.online) "${assist.price} coins" else "Practice", fontSize = 10.sp, color = Color.White.copy(alpha = if (game.power.used) .45f else 1f)) }
+                .semantics { contentDescription = "${assist.title}, ${if (game.online) "${assist.price} coins" else "practice"}" }.padding(vertical = if (spacious) 13.dp else 9.dp, horizontal = 2.dp), horizontalAlignment = Alignment.CenterHorizontally) {
+                Text(assist.title, fontSize = if (spacious) 15.sp else 10.sp, fontWeight = FontWeight.Bold, color = Color.White.copy(alpha = if (game.power.used) .45f else 1f))
+                Row(horizontalArrangement = Arrangement.spacedBy(3.dp), verticalAlignment = Alignment.CenterVertically) { if (game.online) CoinSymbol(if (spacious) 15.dp else 11.dp); Text(if (game.online) "${assist.price} coins" else "Practice", fontSize = if (spacious) 13.sp else 10.sp, color = Color.White.copy(alpha = if (game.power.used) .45f else 1f)) }
             }
         } }
-        Text(if (game.power.used) "Power-up used · one per run" else "One power-up per run · clock keeps running", Modifier.fillMaxWidth(), fontSize = 9.sp, color = Color.White.copy(alpha = .8f), textAlign = TextAlign.Center)
+        Text(if (game.power.used) "Power-up used · one per run" else "One power-up per run · clock keeps running", Modifier.fillMaxWidth(), fontSize = if (spacious) 12.sp else 9.sp, color = Color.White.copy(alpha = .8f), textAlign = TextAlign.Center)
     }
 }
 @Composable private fun GameError(game: GameSession) { game.error?.let { Text(it, color = Gold, fontSize = 12.sp); TextButton({ game.retry() }) { Text("Try again", color = Color.White) } } }
 
-@Composable private fun PendingResult(game: GameSession, profile: (String) -> Unit) = Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(26.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(22.dp)) {
+@Composable private fun PendingResult(game: GameSession, profile: (String) -> Unit) = Box(Modifier.fillMaxSize(), contentAlignment = Alignment.TopCenter) {
+ Column(Modifier.widthIn(max = 900.dp).fillMaxSize().verticalScroll(rememberScrollState()).padding(26.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(22.dp)) {
     Icon(Icons.Default.HourglassTop, null, Modifier.size(70.dp), tint = Gold)
     Text("YOUR RUN IS SAVED", fontSize = 28.sp, fontWeight = FontWeight.Black, textAlign = TextAlign.Center)
     Text("${game.score} points", fontSize = 45.sp, fontWeight = FontWeight.Bold)
@@ -234,12 +341,13 @@ import kotlin.math.*
     game.opponentID?.let { id -> TextButton({ profile(id) }) { Text("View ${game.opponent}’s player card", color = Color.White) } }
     Action("Back to topics", color = Ink) { game.close() }
     GameError(game)
+ }
 }
 @Composable private fun ResultScreen(game: GameSession, profile: (String) -> Unit, rematch: () -> Unit) {
     val won = game.score > game.opponentScore; val tied = game.score == game.opponentScore
     val rivalry = if (!game.survival && game.opponentID != null) remote("rivalry-${game.opponentID}") { game.store.api("player", query = mapOf("id" to game.opponentID!!)) } else null
     Box(Modifier.fillMaxSize()) {
-        Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(22.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(18.dp)) {
+        Column(Modifier.align(Alignment.TopCenter).widthIn(max = 960.dp).fillMaxSize().verticalScroll(rememberScrollState()).padding(22.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(18.dp)) {
             Icon(if (!game.survival && tied) Icons.Default.PauseCircle else Icons.Default.EmojiEvents, null, Modifier.size(68.dp), tint = Gold)
             Text(if (game.survival) "RUN COMPLETE" else if (tied) "IT’S A DRAW" else if (won) "YOU WIN!" else "${game.opponent.uppercase()} WINS!", Modifier.testTag("winnerAnnouncement"), fontSize = 31.sp, fontWeight = FontWeight.Black, textAlign = TextAlign.Center)
             if (game.survival) {

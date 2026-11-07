@@ -1,8 +1,17 @@
 # Quizfolk for Android
 
-Native Kotlin and Jetpack Compose implementation of Quizfolk 0.3.2 for Android 8.0
+Native Kotlin and Jetpack Compose implementation of Quizfolk 0.3.3 for Android 8.0
 (API 26) and later, targeting Android 16 (API 36). The shared reviewed question
 bank is copied into the app by Gradle; there is no separate Android question set.
+
+## Phones and tablets
+
+The same APK supports phones and tablets. Tablets use the full native window in
+portrait and landscape, with adaptive topic and tournament grids, a navigation
+rail in wide windows, and larger quiz controls. Landscape quizzes place the
+question and player progress beside the four answers. Rotating preserves the
+active match, question and score. Narrow and split-screen windows reflow to the
+compact layout; phones retain their portrait presentation.
 
 ## Play with iPhone users
 
@@ -53,7 +62,9 @@ cd android
 ```
 
 GitHub Actions runs isolated iOS/Android wire-contract tests, JVM scoring/deck
-tests and Android emulator screen tests before producing a signed APK and AAB.
+tests and separate phone and tablet emulator screen tests before producing a
+signed APK and AAB. Tablet checks cover both orientations, native window sizing,
+visible answer controls, rotation state, navigation and prize dialogs.
 The emulator uses a debug-only service fixture and cannot create production
 players or spend production coins. The fixture transport is absent from release
 builds. Test screenshots and reports are uploaded as workflow artifacts.

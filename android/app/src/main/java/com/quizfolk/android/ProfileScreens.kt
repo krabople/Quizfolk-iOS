@@ -36,7 +36,7 @@ import java.util.UUID
     val picker = rememberLauncherForActivityResult(ActivityResultContracts.PickVisualMedia()) { uri ->
         if (uri != null) scope.launch { try { pendingPhoto = withContext(Dispatchers.IO) { PhotoProcessor.make(context, uri) } } catch (e: Exception) { store.notice = Notice("Couldn’t use that picture", e.message ?: "Please try another photo.") } }
     }
-    Body {
+    Body(maxWidth = 860.dp) {
         BrandHeader("A curious mind.", "Look how far your knowledge takes you.")
         Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(13.dp)) {
             Avatar(store.name, store.avatar, size = 100.dp, badge = store.ownCard?.o("displayBadge"), store = store)
@@ -80,7 +80,7 @@ import java.util.UUID
         }
     }
     if (pendingPhoto != null) AlertDialog(onDismissRequest = { pendingPhoto = null }, title = { Text("Your player picture") }, text = {
-        Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(16.dp)) { Avatar(store.name, pendingPhoto, size = 160.dp); Text("This square crop appears on your player card, in duels and leagues. Photo location and other metadata are removed.") }
+        Column(Modifier.verticalScroll(rememberScrollState()), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(16.dp)) { Avatar(store.name, pendingPhoto, size = 160.dp); Text("This square crop appears on your player card, in duels and leagues. Photo location and other metadata are removed.") }
     }, confirmButton = { TextButton({ val photo = pendingPhoto; pendingPhoto = null; store.perform { store.authenticated(); store.api("update-avatar", json("avatar" to photo)); store.connect(); store.notice = Notice("Picture updated", "Your new player picture has been saved.") } }) { Text("Use this picture") } }, dismissButton = { TextButton({ pendingPhoto = null }) { Text("Cancel") } })
 }
 @Composable private fun ProfileShortcut(text: String, modifier: Modifier, coin: Boolean = false, action: () -> Unit) {
@@ -93,7 +93,7 @@ import java.util.UUID
 
 @Composable fun PlayerPage(store: QuizStore, id: String, navigate: (Page) -> Unit = store::push, onBlocked: () -> Unit = store::back) {
     val result = remote("player-$id") { store.authenticated(); store.api("player", query = mapOf("id" to id)) }
-    Body {
+    Body(maxWidth = 860.dp) {
         result.value?.let { card ->
             val stats = card.o("stats") ?: json()
             Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(12.dp)) {
@@ -162,7 +162,7 @@ import java.util.UUID
 
 @Composable fun ChallengePage(store: QuizStore, playerID: String, name: String, initialTopic: String = "9") {
     var topic by remember { mutableStateOf(initialTopic) }; val requestID = remember(topic) { UUID.randomUUID().toString() }
-    Body {
+    Body(maxWidth = 860.dp) {
         Text("You vs $name", fontSize = 29.sp, fontWeight = FontWeight.Bold)
         Text("Play your seven questions now. They can accept and answer later. The same questions and answer order are used for both of you.")
         TopicChooser(store, "Topic", topic) { topic = it }
@@ -184,7 +184,7 @@ import java.util.UUID
 
 @Composable fun CoinsPage(store: QuizStore) {
     val result = remote("coins") { store.authenticated(); store.api("coins").also { store.coins = it.getJSONObject("wallet").n("coins") } }
-    Body {
+    Body(maxWidth = 860.dp) {
         Heading("A little curiosity pays off.")
         Text("Complete an online duel with at least 4 correct answers in each of 3 different topics today.")
         CoinAmount(store.coins, true)
@@ -207,7 +207,7 @@ import java.util.UUID
 }
 @Composable fun BadgesPage(store: QuizStore) {
     val result = remote("badges") { store.authenticated(); store.loadPrizes(); json() }
-    Body {
+    Body(maxWidth = 860.dp) {
         Heading("Beside your profile picture")
         OutlinedButton({ store.perform { store.api("select-badge", json("event" to null)); store.ownCard = store.ownCard?.copyJson()?.put("displayBadge", J.NULL); store.notice = Notice("Badge removed", "Your profile picture no longer has a tournament badge.") } }) { Text("No tournament badge") }
         if (store.earnedPrizes.isEmpty() && !result.loading) Hint("Finish in the top three of a tournament to earn your first badge.")

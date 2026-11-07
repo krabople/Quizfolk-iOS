@@ -23,7 +23,7 @@ import java.util.UUID
 
 @Composable fun DiscoverPage(store: QuizStore) {
     var query by remember { mutableStateOf("") }; var mode by remember { mutableIntStateOf(0) }; var interests by remember { mutableStateOf(false) }
-    Body(Modifier.testTag("discover")) {
+    Body(Modifier.testTag("discover"), maxWidth = 1180.dp) {
         BrandHeader("Find your people.", "A little knowledge. A great rivalry.")
         Row(verticalAlignment = Alignment.CenterVertically) {
             OutlinedTextField(query, { query = it }, Modifier.weight(1f).testTag("topicSearch"), placeholder = { Text("Find your favourite subject") }, singleLine = true, shape = RoundedCornerShape(16.dp), leadingIcon = { Icon(Icons.Default.Search, null) })
@@ -36,10 +36,9 @@ import java.util.UUID
         Segments(listOf("All topics", "My interests"), mode) { mode = it }
         val visible = store.topics.filter { (mode == 0 || it.id in store.favourites) && (query.isBlank() || it.name.contains(query, true)) }
         if (visible.isEmpty()) Hint(if (mode == 1) "Follow a few topics to make this space your own." else "No topics match that search.")
-        visible.chunked(2).forEach { pair -> Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-            pair.forEach { topic -> TopicTile(topic, store, Modifier.weight(1f)) { store.push(Page("topic", topic.id)) } }
-            if (pair.size == 1) Spacer(Modifier.weight(1f))
-        } }
+        AdaptiveCards(visible, minWidth = 200.dp, compactColumns = 2, gap = 12.dp) { topic, modifier ->
+            TopicTile(topic, store, modifier) { store.push(Page("topic", topic.id)) }
+        }
         ErrorText(store.connectionError) { store.perform { store.resume() } }
     }
     if (interests) InterestsDialog(store) { interests = false }
@@ -158,7 +157,8 @@ import java.util.UUID
     var section by remember { mutableIntStateOf(0) }
     LaunchedEffect(Unit) { runCatching { store.authenticated(); store.refreshSocial() } }
     if (section == 1) {
-        LazyColumn(Modifier.fillMaxSize().testTag("history"), contentPadding = PaddingValues(20.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        Box(Modifier.fillMaxSize(), contentAlignment = Alignment.TopCenter) {
+        LazyColumn(Modifier.widthIn(max = 960.dp).fillMaxSize().testTag("history"), contentPadding = PaddingValues(20.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
             item { BrandHeader("Good rivalries.", "Every duel has a story.") }
             item { Segments(listOf("Challenges", "Device history"), section) { section = it } }
             if (store.history.isEmpty()) item { Hint("Your first rival is waiting. Pick a topic and play your first duel.") }
@@ -169,6 +169,7 @@ import java.util.UUID
                     Column(horizontalAlignment = Alignment.End) { Text("${match.score}–${match.opponentScore}", fontWeight = FontWeight.Bold); Text(if (match.pending) "WAITING" else if (match.tied) "DRAW" else if (match.won) "WON" else "LOST", color = if (match.won) Color(0xFF2CA65D) else Coral, fontSize = 11.sp, fontWeight = FontWeight.Bold) }
                 }
             } }
+        }
         }
     } else Body {
         BrandHeader("A rivalry worth keeping.", "Play now. Let them catch up later.")
