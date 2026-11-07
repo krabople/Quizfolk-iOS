@@ -44,7 +44,7 @@ class TabletLayoutTest {
         compose.runOnIdle { assertTrue("All tablet requests must stay in the debug fixtures", store.transport is FixtureTransport) }
         rotate(false)
     }
-    private fun rotate(landscape: Boolean) {
+    private fun rotate(landscape: Boolean, synchronize: Boolean = true) {
         val orientation = if (landscape) Configuration.ORIENTATION_LANDSCAPE else Configuration.ORIENTATION_PORTRAIT
         val activity = compose.activity
         val physical = activity.windowManager.maximumWindowMetrics.bounds
@@ -65,7 +65,7 @@ class TabletLayoutTest {
             compose.activity.resources.configuration.orientation == orientation &&
                 (bounds.width() > bounds.height()) == landscape && (screen.width() > screen.height()) == landscape
         }
-        compose.waitForIdle()
+        if (synchronize) compose.waitForIdle() else compose.mainClock.advanceTimeBy(500)
     }
     private fun assertNativeWindow() {
         val activity = compose.activity
@@ -99,9 +99,11 @@ class TabletLayoutTest {
         assertEquals("Second answer pair must share a row", tiles[2].top, tiles[3].top, 3f)
         assertTrue(tiles[2].top > tiles[0].bottom && tiles[1].left > tiles[0].left)
     }
-    private fun capture(name: String) {
-        compose.waitForIdle()
-        InstrumentationRegistry.getInstrumentation().waitForIdleSync()
+    private fun capture(name: String, synchronize: Boolean = true) {
+        if (synchronize) {
+            compose.waitForIdle()
+            InstrumentationRegistry.getInstrumentation().waitForIdleSync()
+        }
         android.os.SystemClock.sleep(600)
         val bitmap = InstrumentationRegistry.getInstrumentation().uiAutomation.takeScreenshot()
         val resolver = compose.activity.contentResolver
@@ -112,6 +114,19 @@ class TabletLayoutTest {
         }
         val uri = requireNotNull(resolver.insert(android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI, values))
         resolver.openOutputStream(uri).use { bitmap.compress(Bitmap.CompressFormat.PNG, 100, requireNotNull(it)) }
+    }
+    private fun awaitLiveAnswers(session: GameSession): Question {
+        compose.waitUntil(10000) {
+            compose.mainClock.advanceTimeByFrame()
+            compose.runOnUiThread { !session.intro && !session.reading && session.question != null }
+        }
+        compose.mainClock.advanceTimeBy(500) // Finish the finite answer-slide animation.
+        return compose.runOnUiThread {
+            android.util.Log.i("TabletLayoutTest", "Live answers: remaining=${session.remaining}, revealed=${session.revealed}")
+            assertFalse("Answers must be reached before the real deadline", session.revealed)
+            assertTrue("The real answer clock must still be running", session.remaining > 0)
+            requireNotNull(session.question)
+        }
     }
 
     @Test fun nativeDiscoveryAdaptsInPortraitAndLandscape() {
@@ -129,12 +144,22 @@ class TabletLayoutTest {
     @Test fun playableDuelPreservesScoreAndQuestionAcrossRotation() {
         ready()
         compose.runOnUiThread { store.game = GameSession(store, store.topic("22"), false) }
-        waitFor("startDuel", 15000); tap("startDuel"); waitFor("answer-0")
-        val session = compose.runOnIdle { store.game!! }
-        val correct = compose.runOnIdle { session.question!!.correctIndex }
-        // Submit while the real ten-second clock is running. Layout inspection and
-        // screenshot encoding follow the answer, so CI rendering cannot consume it.
-        tap("answer-$correct"); waitFor("advanceQuestion")
+        waitFor("startDuel", 15000)
+        val session = compose.runOnUiThread { store.game!! }
+        // Keep the real game deadline running, but drive Compose frames explicitly so
+        // automatic idle synchronization cannot wait through the changing timer.
+        compose.mainClock.autoAdvance = false
+        try {
+            tap("startDuel")
+            val firstQuestion = awaitLiveAnswers(session)
+            tap("answer-${firstQuestion.correctIndex}")
+            compose.waitUntil(5000) {
+                compose.mainClock.advanceTimeByFrame()
+                compose.runOnUiThread { session.revealed }
+            }
+            compose.runOnUiThread { assertEquals("The visible correct answer must receive the tap", firstQuestion.correctIndex, session.selected) }
+        } finally { compose.mainClock.autoAdvance = true }
+        waitFor("advanceQuestion")
         val score = compose.runOnIdle { session.score }
         val question = compose.runOnIdle { session.question!!.id }
         assertTrue("First correct answer must award points", score > 0)
@@ -146,13 +171,18 @@ class TabletLayoutTest {
             assertEquals(score, session.score); assertEquals(0, session.round); assertEquals(question, session.question!!.id)
             assertTrue(session.revealed); assertEquals(1, session.rounds.size)
         }
-        compose.onNodeWithTag("advanceQuestion").assertIsDisplayed(); capture("AnswerReview-Landscape")
-        tap("advanceQuestion"); waitFor("answer-0"); capture("Question-Landscape"); assertAllAnswersVisible()
-        compose.runOnIdle { assertEquals(1, session.round); assertEquals(score, session.score) }
-        val secondQuestion = compose.runOnIdle { session.question!!.id }
-        rotate(false)
-        compose.runOnIdle { assertSame(session, store.game); assertEquals(1, session.round); assertEquals(secondQuestion, session.question!!.id); assertEquals(score, session.score) }
-        assertAllAnswersVisible(); capture("Question-After-Rotation")
+        assertAllAnswersVisible(); compose.onNodeWithTag("advanceQuestion").assertIsDisplayed(); capture("AnswerReview-Landscape")
+        compose.mainClock.autoAdvance = false
+        try {
+            tap("advanceQuestion")
+            val secondQuestion = awaitLiveAnswers(session).id
+            capture("Question-Landscape", synchronize = false)
+            compose.runOnUiThread { assertEquals(1, session.round); assertEquals(score, session.score) }
+            rotate(false, synchronize = false)
+            compose.runOnUiThread { assertSame(session, store.game); assertEquals(1, session.round); assertEquals(secondQuestion, session.question!!.id); assertEquals(score, session.score) }
+            capture("Question-After-Rotation", synchronize = false)
+            assertAllAnswersVisible()
+        } finally { compose.mainClock.autoAdvance = true }
     }
 
     @Test fun profileAndNotificationControlsRemainReachableWhenRotated() {

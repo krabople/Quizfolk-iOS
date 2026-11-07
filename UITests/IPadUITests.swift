@@ -128,10 +128,11 @@ final class IPadUITests:XCTestCase {
         let overview=app.descendants(matching:.any).matching(identifier:"topicOverview").firstMatch
         let section=app.segmentedControls["topicSection"]
         XCTAssertTrue(overview.waitForExistence(timeout:8))
-        let sideBySide=XCTNSPredicateExpectation(predicate:NSPredicate {_,_ in
-            overview.frame.width>0 && overview.frame.maxX<section.frame.minX
+        let controlsClear=XCTNSPredicateExpectation(predicate:NSPredicate {_,_ in
+            overview.frame.height>0 && overview.frame.maxY<section.frame.minY &&
+                section.frame.minY>=app.navigationBars.firstMatch.frame.maxY
         },object:nil)
-        XCTAssertEqual(XCTWaiter.wait(for:[sideBySide],timeout:8),.completed,"A wide iPad topic page must place its overview beside play and league controls")
+        XCTAssertEqual(XCTWaiter.wait(for:[controlsClear],timeout:8),.completed,"Topic controls must sit below the overview and outside the navigation bar's touch region")
         print("Native topic frames: navigation",app.navigationBars.firstMatch.frame,"overview",overview.frame,"section",section.frame)
         capture("iPad-Landscape-Topic")
         let league=app.segmentedControls["topicSection"].buttons["League"]

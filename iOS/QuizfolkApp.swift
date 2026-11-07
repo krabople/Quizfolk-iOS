@@ -151,26 +151,11 @@ struct TopicView:View {
     let topic:Topic
     @State private var session:GameSession?
     @State private var rankings=false
-    @State private var pageWidth:CGFloat=0
     var body:some View {
         QuizPageScroll(maxWidth:1100) {
-            Group {
-                if pageWidth>=780 {
-                    HStack(alignment:.top,spacing:32) {
-                        overview.frame(width:260)
-                        details.frame(maxWidth:.infinity)
-                    }
-                } else {
-                    VStack(spacing:18) {overview;details}
-                }
-            }.padding(22)
+            VStack(spacing:18) {overview;details}.padding(22)
         }
         .frame(maxWidth:.infinity,maxHeight:.infinity)
-        .background(GeometryReader { geometry in
-            Color.clear
-                .onAppear{pageWidth=geometry.size.width}
-                .onChange(of:geometry.size.width){_,width in pageWidth=width}
-        })
         .background(Color.canvas).foregroundStyle(Color.ink)
         .navigationTitle(topic.name).navigationBarTitleDisplayMode(.inline).toolbar(.visible,for:.navigationBar)
         .fullScreenCover(item:$session){game in GameView(game:game).environmentObject(store)}
