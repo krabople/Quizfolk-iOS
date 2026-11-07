@@ -1,0 +1,90 @@
+name: App Store screenshots
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  capture:
+    name: Capture ${{ matrix.device }}
+    runs-on: macos-15
+    timeout-minutes: 35
+    strategy:
+      fail-fast: false
+      matrix:
+        device: [iphone-medium, iphone-large, ipad-13]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Select Xcode and generate project
+        run: |
+          XCODE_APP=$(python3 -c 'import glob,re; a=[(tuple(map(int,re.search(r"Xcode_([\d.]+)\.app$",p).group(1).split("."))),p) for p in glob.glob("/Applications/Xcode_*.app") if re.search(r"Xcode_([\d.]+)\.app$",p)]; a=[x for x in a if x[0][0]>=26]; assert a; print(max(a)[1])')
+          sudo xcode-select -s "$XCODE_APP/Contents/Developer"
+          xcodebuild -version
+          brew install xcodegen
+          xcodegen generate
+      - name: Select real simulator device
+        env:
+          CAPTURE_DEVICE: ${{ matrix.device }}
+        run: |
+          mkdir -p captures
+          xcrun simctl list devices available -j > captures/simulators.json
+          python3 - <<'PY'
+          import json,os
+          data=json.load(open('captures/simulators.json'))
+          devices=[d for runtime,items in data['devices'].items() if 'iOS' in runtime for d in items]
+          kind=os.environ['CAPTURE_DEVICE']
+          if kind=='ipad-13': valid=lambda d:'iPad Pro 13-inch' in d['name']
+          elif kind=='iphone-large': valid=lambda d:d['name'].startswith('iPhone') and 'Pro Max' in d['name']
+          else: valid=lambda d:d['name'].startswith('iPhone') and d['name'].endswith(' Pro')
+          device=next(d for d in devices if valid(d))
+          with open(os.environ['GITHUB_ENV'],'a') as f:f.write('SIMULATOR_ID='+device['udid']+'\n')
+          json.dump({'device':device,'kind':kind,'source':os.environ['GITHUB_SHA'],'targetedDeviceFamily':'1','ipadPresentation':'iPhone compatibility mode; existing release behavior'},open('captures/provenance.json','w'),indent=2)
+          print(device['name'],device['udid'])
+          PY
+          xcrun simctl boot "$SIMULATOR_ID"
+          xcrun simctl bootstatus "$SIMULATOR_ID" -b
+          xcrun simctl status_bar "$SIMULATOR_ID" override --time '9:41' --dataNetwork wifi --wifiMode active --wifiBars 3 --batteryState charged --batteryLevel 100
+      - name: Build existing app and capture suite
+        run: |
+          set -o pipefail
+          xcodebuild -project Quizfolk.xcodeproj -scheme Quizfolk -destination "platform=iOS Simulator,id=$SIMULATOR_ID" -derivedDataPath build CODE_SIGNING_ALLOWED=NO build-for-testing | tee captures/build.log
+          python3 - <<'PY'
+          import pathlib,plistlib
+          paths=list(pathlib.Path('build/Build/Products').glob('*.xctestrun'))
+          assert len(paths)==1,paths
+          path=paths[0]
+          data=plistlib.loads(path.read_bytes())
+          count=0
+          def patch(value):
+            global count
+            if isinstance(value,dict):
+              if 'TestBundlePath' in value and 'QuizfolkUITests' in value['TestBundlePath']:
+                value.setdefault('EnvironmentVariables',{})['STORE_SCREENSHOTS']='1'
+                count+=1
+              for child in value.values():patch(child)
+            elif isinstance(value,list):
+              for child in value:patch(child)
+          patch(data)
+          assert count,count
+          path.write_bytes(plistlib.dumps(data))
+          pathlib.Path('captures/xctestrun-path').write_text(str(path))
+          PY
+      - name: Capture native phone and iPad presentation
+        run: |
+          set -o pipefail
+          xcodebuild test-without-building -xctestrun "$(cat captures/xctestrun-path)" -destination "platform=iOS Simulator,id=$SIMULATOR_ID" -parallel-testing-enabled NO -only-testing:QuizfolkUITests/StoreScreenshotTests -maximum-test-execution-time-allowance 120 -resultBundlePath captures/StoreScreenshots.xcresult | tee captures/test.log
+      - name: Export original screenshots
+        if: always()
+        run: |
+          if [ -d captures/StoreScreenshots.xcresult ]; then
+            xcrun xcresulttool export attachments --path captures/StoreScreenshots.xcresult --output-path captures/attachments
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: Quizfolk-Store-${{ matrix.device }}
+          retention-days: 14
+          path: |
+            captures/attachments
+            captures/provenance.json
+            captures/build.log
+            captures/test.log

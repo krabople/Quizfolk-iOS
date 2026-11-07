@@ -42,12 +42,18 @@ extension QuizStore {
   let reply:TournamentList=try await request("tournaments");coinBalance=reply.wallet.coins;return reply
  }
  func tournamentBoard(_ id:String) async throws -> TournamentBoard {
+  #if DEBUG
+  if StoreScreenshotFixture.enabled {return StoreScreenshotFixture.tournamentBoard}
+  #endif
   if isUITesting {
    return TournamentBoard(event:Self.testTournamentList().events[0],entries:[],own:[],wallet:Self.testTournamentList().wallet)
   }
   let reply:TournamentBoard=try await request("tournament-board",query:[URLQueryItem(name:"event",value:id)]);coinBalance=reply.wallet.coins;return reply
  }
  static func testTournamentList()->TournamentList {
+  #if DEBUG
+  if StoreScreenshotFixture.enabled {return StoreScreenshotFixture.tournamentList}
+  #endif
   let emptyWallet=ProcessInfo.processInfo.arguments.contains("--ui-testing-empty-wallet")
   return TournamentList(events:[TournamentEvent(id:"test-event",topicID:"22",kind:"daily",starts:Date().timeIntervalSince1970-100,ends:Date().timeIntervalSince1970+3600,coins:25,tickets:0,closed:false,best:0,streak:0,attempts:0,players:0,activeRun:nil,rank:nil,reward:0)],wallet:TournamentWallet(coins:emptyWallet ? 0:100,tickets:0,dailyClaimed:false))
  }

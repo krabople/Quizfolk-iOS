@@ -37,6 +37,7 @@ import Security
     var testFollowing=false
     #if DEBUG
     var testResponse:((String,[String:Any]?) async throws -> Data)?
+    lazy var screenshotFixture=StoreScreenshotFixture()
     #endif
     var isUITesting:Bool {
         #if DEBUG
@@ -116,6 +117,7 @@ import Security
     }
     func request<T:Decodable>(_ route:String,body:[String:Any]?=nil,query:[URLQueryItem]=[]) async throws -> T {
         #if DEBUG
+        if StoreScreenshotFixture.enabled {return try JSONDecoder().decode(T.self,from:screenshotFixture.response(route,body:body))}
         if let testResponse {return try JSONDecoder().decode(T.self,from:await testResponse(route,body))}
         #endif
         if isUITesting {throw APIError.message("UI test network is disabled.")}
@@ -134,6 +136,14 @@ import Security
         return try JSONDecoder().decode(T.self,from:data)
     }
     func connect() async {
+        #if DEBUG
+        if StoreScreenshotFixture.enabled {
+            name="Alex";favourites=["22","11","12","17"]
+            profile=OnlineProfile(id:"test-self",socialVersion:1,name:name,avatar:nil,matches:38,wins:24,xp:7050,correct:205,answered:266)
+            ownCard=StoreScreenshotFixture.card(own:true,following:false);coinBalance=325;history=[screenshotFixture.history]
+            return
+        }
+        #endif
         if isUITesting {
             name="UI Player";profile=OnlineProfile(id:"test-self",socialVersion:1,name:name,avatar:nil,matches:0,wins:0,xp:0,correct:0,answered:0);ownCard=Self.testCard(following:false,own:true)
             if ProcessInfo.processInfo.arguments.contains("--history-fixture"),let topic=topics.first(where:{$0.id=="22"}) {

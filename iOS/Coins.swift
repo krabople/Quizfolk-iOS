@@ -46,7 +46,7 @@ struct CoinAmount:View {
 extension QuizStore {
     private var usesCoinFixtures:Bool {
         #if DEBUG
-        return isUITesting && testResponse == nil
+        return isUITesting && testResponse == nil && !StoreScreenshotFixture.enabled
         #else
         return false
         #endif

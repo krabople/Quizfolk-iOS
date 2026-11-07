@@ -27,6 +27,9 @@ struct TopicLeaguePanel:View {
  }
  private func load()async {
   loading=true;defer{loading=false};error=nil
+  #if DEBUG
+  if StoreScreenshotFixture.enabled {entries=StoreScreenshotFixture.league;return}
+  #endif
   if store.isUITesting {entries=[BoardEntry(id:"test-rival",name:"Sample Rival",avatar:nil,xp:700,matches:4)];return}
   if store.profile==nil{await store.connect()}
   do{let r:BoardReply=try await store.request("leaderboard",query:[URLQueryItem(name:"topic",value:topic.id),URLQueryItem(name:"period",value:monthly ? "month":"all"),URLQueryItem(name:"scope",value:following ? "following":"all")]);guard !Task.isCancelled else{return};entries=r.entries}catch{if !Task.isCancelled{self.error=error.localizedDescription}}

@@ -38,6 +38,9 @@ extension QuizStore {
  func openChallenge(_ id:String) async throws -> StartReply {try await request("duel-open",body:["duel":id])}
  func declineChallenge(_ id:String) async throws {let _:OKReply=try await request("duel-decline",body:["duel":id]);await refreshSocial()}
  func refreshSocial() async {
+  #if DEBUG
+  if StoreScreenshotFixture.enabled {challenges=StoreScreenshotFixture.challenges;activity=[];return}
+  #endif
   guard !isUITesting else {challenges=[];activity=[];return}
   if profile==nil {await connect()}
   guard profile != nil else {return}
@@ -59,6 +62,9 @@ extension QuizStore {
   } catch {socialError=error.localizedDescription}
  }
  static func testCard(following:Bool,own:Bool=false,topicXP:Int=700)->PlayerCard {
+  #if DEBUG
+  if StoreScreenshotFixture.enabled {return StoreScreenshotFixture.card(own:own,following:following)}
+  #endif
   let raw="""
   {"id":"\(own ? "test-self":"test-rival")","name":"\(own ? "UI Player":"Sample Rival")","avatar":null,"title":"Newcomer","interests":["22","17"],"sharedTopics":["22"],"following":\(following),"followers":\(following ? 1:0),"followingCount":0,"canChallenge":\(!own),"stats":{"matches":4,"wins":2,"draws":1,"xp":\(topicXP),"correct":20,"answered":28,"perfect":1},"topics":[{"topicID":"22","xp":\(topicXP),"level":\(TopicLevelling.progress(xp:topicXP).level),"matches":4,"wins":2}],"titles":[{"id":"newcomer","name":"Newcomer"}],"selectedTitle":"newcomer","discoverable":true,"challengesOpen":true,"headToHead":{"games":3,"wins":1,"draws":1,"losses":1},"badges":[{"id":"first","name":"First duel","symbol":"bolt.fill","earned":true}]}
   """
