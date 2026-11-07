@@ -2,6 +2,7 @@ import XCTest
 
 /// Opt-in marketing captures. Run only through the manual store-screenshots workflow.
 final class StoreScreenshotTests:XCTestCase {
+    private static var expandedIPad=false
     override func setUpWithError() throws {
         continueAfterFailure=false
         try XCTSkipUnless(ProcessInfo.processInfo.environment["STORE_SCREENSHOTS"]=="1", "App Store captures are opt-in")
@@ -12,7 +13,21 @@ final class StoreScreenshotTests:XCTestCase {
         app.launch()
         if app.buttons["Done"].waitForExistence(timeout:3){app.buttons["Done"].tap()}
         XCTAssertTrue(app.tabBars.buttons["Discover"].waitForExistence(timeout:8))
+        if ProcessInfo.processInfo.environment["CAPTURE_DEVICE"]=="ipad-13",!Self.expandedIPad {
+            print("iPad compatibility viewport before expansion:",app.windows.firstMatch.frame)
+            // The native compatibility resize button was observed at (1984,2670)
+            // in the genuine 2064x2752 iPad capture. This operates that system control.
+            let system=XCUIApplication(bundleIdentifier:"com.apple.springboard")
+            system.coordinate(withNormalizedOffset:CGVector(dx:0.961,dy:0.970)).tap()
+            Self.expandedIPad=true
+            XCTAssertTrue(app.tabBars.buttons["Discover"].waitForExistence(timeout:8))
+            print("iPad compatibility viewport after expansion:",app.windows.firstMatch.frame)
+        }
         return app
+    }
+    @MainActor private func scroll(_ app:XCUIApplication,velocity:XCUIGestureVelocity = .default) {
+        if ProcessInfo.processInfo.environment["CAPTURE_DEVICE"]=="ipad-13" {app.scrollViews.firstMatch.swipeUp(velocity:velocity)}
+        else {app.swipeUp(velocity:velocity)}
     }
     @MainActor private func capture(_ name:String) {
         let shot=XCTAttachment(screenshot:XCUIScreen.main.screenshot())
@@ -22,20 +37,20 @@ final class StoreScreenshotTests:XCTestCase {
         let field=app.textFields["Search categories"]
         XCTAssertTrue(field.waitForExistence(timeout:8));field.tap();field.typeText("Geography")
         let link=app.descendants(matching:.any).matching(identifier:"topic-22").firstMatch
-        for _ in 0..<3 {if link.isHittable{break};app.swipeUp()}
+        for _ in 0..<3 {if link.isHittable{break};scroll(app)}
         XCTAssertTrue(link.waitForExistence(timeout:8));link.tap()
         XCTAssertTrue(app.buttons["League"].waitForExistence(timeout:8))
     }
     @MainActor func test01Topics() {
         let app=launch()
         // A short scroll shows the actual topic grid while keeping the page identity visible.
-        app.swipeUp(velocity:300)
+        scroll(app,velocity:300)
         capture("02-topics")
     }
     @MainActor func test02Gameplay() {
         let app=launch();topic(app)
         let duel=app.buttons["Find a duel"]
-        for _ in 0..<4 {if duel.isHittable{break};app.swipeUp()}
+        for _ in 0..<4 {if duel.isHittable{break};scroll(app)}
         XCTAssertTrue(duel.waitForExistence(timeout:8));duel.tap()
         let start=app.buttons["Start duel"]
         XCTAssertTrue(start.waitForExistence(timeout:12));start.tap()
@@ -56,16 +71,16 @@ final class StoreScreenshotTests:XCTestCase {
         let app=launch();topic(app);app.buttons["League"].tap()
         let entry=app.buttons["league-player-test-rival"]
         XCTAssertTrue(entry.waitForExistence(timeout:8))
-        app.swipeUp(velocity:350)
+        scroll(app,velocity:350)
         capture("05-topic-league")
     }
     @MainActor func test06Tournament() {
         let app=launch();app.tabBars.buttons["Tournaments"].tap()
         let event=app.descendants(matching:.any).matching(identifier:"tournament-test-event").firstMatch
-        for _ in 0..<3 {if event.isHittable{break};app.swipeUp()}
+        for _ in 0..<3 {if event.isHittable{break};scroll(app)}
         XCTAssertTrue(event.waitForExistence(timeout:8));event.tap()
         XCTAssertTrue(app.buttons["enterTournament"].waitForExistence(timeout:8))
-        app.swipeUp(velocity:300)
+        scroll(app,velocity:300)
         capture("06-tournament")
     }
     @MainActor func test07Friends() {

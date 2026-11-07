@@ -1,6 +1,12 @@
 name: App Store screenshots
 on:
   workflow_dispatch:
+    inputs:
+      device:
+        description: Simulator set to capture
+        type: choice
+        default: all
+        options: [all, iphone-medium, iphone-large, ipad-13]
 permissions:
   contents: read
 jobs:
@@ -8,10 +14,12 @@ jobs:
     name: Capture ${{ matrix.device }}
     runs-on: macos-15
     timeout-minutes: 35
+    env:
+      CAPTURE_DEVICE: ${{ matrix.device }}
     strategy:
       fail-fast: false
       matrix:
-        device: [iphone-medium, iphone-large, ipad-13]
+        device: ${{ fromJSON(inputs.device == 'all' && '["iphone-medium","iphone-large","ipad-13"]' || format('["{0}"]', inputs.device)) }}
     steps:
       - uses: actions/checkout@v4
       - name: Select Xcode and generate project
@@ -49,7 +57,7 @@ jobs:
           set -o pipefail
           xcodebuild -project Quizfolk.xcodeproj -scheme Quizfolk -destination "platform=iOS Simulator,id=$SIMULATOR_ID" -derivedDataPath build CODE_SIGNING_ALLOWED=NO build-for-testing | tee captures/build.log
           python3 - <<'PY'
-          import pathlib,plistlib
+          import os,pathlib,plistlib
           paths=list(pathlib.Path('build/Build/Products').glob('*.xctestrun'))
           assert len(paths)==1,paths
           path=paths[0]
@@ -60,6 +68,7 @@ jobs:
             if isinstance(value,dict):
               if 'TestBundlePath' in value and 'QuizfolkUITests' in value['TestBundlePath']:
                 value.setdefault('EnvironmentVariables',{})['STORE_SCREENSHOTS']='1'
+                value['EnvironmentVariables']['CAPTURE_DEVICE']=os.environ['CAPTURE_DEVICE']
                 count+=1
               for child in value.values():patch(child)
             elif isinstance(value,list):
