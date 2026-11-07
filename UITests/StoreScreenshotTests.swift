@@ -43,8 +43,9 @@ final class StoreScreenshotTests:XCTestCase {
     }
     @MainActor func test01Topics() {
         let app=launch()
-        // A short scroll shows the actual topic grid while keeping the page identity visible.
-        scroll(app,velocity:300)
+        let interests=app.buttons["Choose interests"]
+        XCTAssertTrue(interests.waitForExistence(timeout:8));interests.tap()
+        XCTAssertTrue(app.staticTexts["What makes you tick?"].waitForExistence(timeout:8))
         capture("02-topics")
     }
     @MainActor func test02Gameplay() {
@@ -71,7 +72,18 @@ final class StoreScreenshotTests:XCTestCase {
         let app=launch();topic(app);app.buttons["League"].tap()
         let entry=app.buttons["league-player-test-rival"]
         XCTAssertTrue(entry.waitForExistence(timeout:8))
-        scroll(app,velocity:350)
+        let heading=app.staticTexts["Geography league"]
+        XCTAssertTrue(heading.waitForExistence(timeout:8))
+        let targetY=app.navigationBars.firstMatch.frame.maxY+16
+        let delta=heading.frame.minY-targetY
+        if delta>20 {
+            let scrollView=app.scrollViews.firstMatch
+            let start=scrollView.coordinate(withNormalizedOffset:CGVector(dx:0.5,dy:0.78))
+            let end=start.withOffset(CGVector(dx:0,dy:-delta))
+            start.press(forDuration:0.1,thenDragTo:end,withVelocity:.slow,thenHoldForDuration:0.3)
+        }
+        // The topic heading must remain visible rather than sliding under the navigation bar.
+        XCTAssertGreaterThanOrEqual(heading.frame.minY,app.navigationBars.firstMatch.frame.maxY-2)
         capture("05-topic-league")
     }
     @MainActor func test06Tournament() {

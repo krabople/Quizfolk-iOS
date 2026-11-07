@@ -7,6 +7,11 @@ on:
         type: choice
         default: all
         options: [all, iphone-medium, iphone-large, ipad-13]
+      scenes:
+        description: All screenshots or topic and league framing only
+        type: choice
+        default: all
+        options: [all, topic-league]
 permissions:
   contents: read
 jobs:
@@ -16,6 +21,7 @@ jobs:
     timeout-minutes: 35
     env:
       CAPTURE_DEVICE: ${{ matrix.device }}
+      CAPTURE_SCENES: ${{ inputs.scenes }}
     strategy:
       fail-fast: false
       matrix:
@@ -81,7 +87,11 @@ jobs:
       - name: Capture native phone and iPad presentation
         run: |
           set -o pipefail
-          xcodebuild test-without-building -xctestrun "$(cat captures/xctestrun-path)" -destination "platform=iOS Simulator,id=$SIMULATOR_ID" -parallel-testing-enabled NO -only-testing:QuizfolkUITests/StoreScreenshotTests -maximum-test-execution-time-allowance 120 -resultBundlePath captures/StoreScreenshots.xcresult | tee captures/test.log
+          ONLY_TESTS=(-only-testing:QuizfolkUITests/StoreScreenshotTests)
+          if [ "$CAPTURE_SCENES" = "topic-league" ]; then
+            ONLY_TESTS=(-only-testing:QuizfolkUITests/StoreScreenshotTests/test01Topics -only-testing:QuizfolkUITests/StoreScreenshotTests/test05League)
+          fi
+          xcodebuild test-without-building -xctestrun "$(cat captures/xctestrun-path)" -destination "platform=iOS Simulator,id=$SIMULATOR_ID" -parallel-testing-enabled NO "${ONLY_TESTS[@]}" -maximum-test-execution-time-allowance 120 -resultBundlePath captures/StoreScreenshots.xcresult | tee captures/test.log
       - name: Export original screenshots
         if: always()
         run: |
