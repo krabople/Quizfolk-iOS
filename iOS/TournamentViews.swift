@@ -2,12 +2,13 @@ import SwiftUI
 
 struct TournamentsView:View {
  @EnvironmentObject var store:QuizStore
+ @Environment(\.horizontalSizeClass) private var sizeClass
  @State private var list:TournamentList?
  @State private var error:String?
  @State private var section="daily"
  var body:some View {
   NavigationStack {
-   ScrollView {
+   QuizPageScroll(maxWidth:1180) {
     BrandHeader(title:"Keep your streak alive.",subtitle:"One wrong answer. One final score.")
     VStack(spacing:18) {
      NavigationLink{FriendsTournamentsView()}label:{Label("Friends tournaments",systemImage:"person.3.fill").frame(maxWidth:.infinity)}.buttonStyle(PrimaryButton(color:.ink)).accessibilityIdentifier("friendsTournaments")
@@ -21,10 +22,12 @@ struct TournamentsView:View {
       if section=="daily" {Text("Three topics each day · 25, 50 and 75 coins to enter").font(.caption).foregroundStyle(.secondary)}
       if section=="results" {Text("Resume your runs and see results from every tournament you entered.").font(.caption).foregroundStyle(.secondary)}
       if visible.isEmpty {ContentUnavailableView(section=="results" ? "Your next trophy awaits":"New tournaments soon",systemImage:"trophy",description:Text("Daily topics rotate at midnight UTC. Weekly tournaments close on Monday at midnight UTC."))}
+      LazyVGrid(columns:sizeClass == .regular ? [GridItem(.adaptive(minimum:340),spacing:18)]:[GridItem(.flexible())],spacing:18) {
       ForEach(visible) {event in
        if let topic=store.topics.first(where:{$0.id==event.topicID}) {
         NavigationLink {TournamentDetailView(event:event,topic:topic)} label: {TournamentTile(event:event,topic:topic)}.buttonStyle(.plain).accessibilityIdentifier("tournament-\(event.id)")
        }
+      }
       }
      } else if error==nil {ProgressView("Loading tournaments…").padding(40)}
      if let error {Text(error).font(.caption).foregroundStyle(.red);Button("Try again"){Task{await reload()}}}
@@ -69,7 +72,7 @@ struct TournamentDetailView:View {
  @State private var session:TournamentSession?
  private var current:TournamentEvent {board?.event ?? event}
  var body:some View {
-  ScrollView {
+  QuizPageScroll(maxWidth:960) {
    VStack(spacing:18) {
     Text(topic.emoji).font(.system(size:62)).padding(.top,15)
     Text(topic.name).font(.system(size:30,weight:.bold,design:.rounded)).multilineTextAlignment(.center)
@@ -195,7 +198,16 @@ struct TournamentPlayView:View {
    .onChange(of:scenePhase){_,phase in if phase == .active {Task{await game.resume()}}}
  }
  private var play:some View {
-  GeometryReader {geo in
+  GeometryReader {geometry in
+   let layout=QuizPlaySizing(size:geometry.size)
+   ScrollView {
+    if layout.spacious {tabletPlay(layout)}
+    else {compactPlay(CGSize(width:geometry.size.width,height:max(600,geometry.size.height))).frame(height:max(600,geometry.size.height))}
+   }.scrollIndicators(.hidden).scrollBounceBehavior(.basedOnSize)
+    .accessibilityIdentifier("tournamentPlayArea")
+  }
+ }
+ private func compactPlay(_ size:CGSize)->some View {
    VStack(spacing:10) {
     HStack {
      VStack(alignment:.leading,spacing:5){Text("SURVIVAL TOURNAMENT").font(.system(size:10,weight:.black)).tracking(1);Text("\(game.score) points").font(.system(size:30,weight:.heavy,design:.rounded));Text("\(game.streak) correct in a row").font(.caption)}
@@ -203,10 +215,10 @@ struct TournamentPlayView:View {
     }
     if let question=game.question {
      QuestionTimeBar(remaining:game.remaining,reading:game.reading)
-     Text(question.prompt).font(.system(size:25,weight:.bold,design:.rounded)).multilineTextAlignment(.center).lineLimit(7).minimumScaleFactor(0.6).frame(maxWidth:.infinity,maxHeight:.infinity)
-     if game.reading {Text("Read the question · 3 seconds").font(.subheadline.bold()).multilineTextAlignment(.center).transition(.opacity)}
-     LazyVGrid(columns:[GridItem(.flexible(),spacing:9),GridItem(.flexible(),spacing:9)],spacing:9){if !game.reading {ForEach(question.answers.indices,id:\.self){i in answer(question.answers[i],index:i).frame(height:max(80,(geo.size.height*0.38-9)/2))}}}
-      .frame(height:game.reading ? 0:geo.size.height*0.38).opacity(game.reading ? 0:1).clipped().accessibilityHidden(game.reading)
+     Text(question.prompt).font(.system(size:25,weight:.bold,design:.rounded)).accessibilityIdentifier("tournamentQuestion").multilineTextAlignment(.center).lineLimit(7).minimumScaleFactor(0.6).frame(maxWidth:.infinity,maxHeight:.infinity)
+     if game.reading {Text("Read the question · 3 seconds").font(.subheadline.bold()).multilineTextAlignment(.center).accessibilityIdentifier("tournamentReadingPhase").transition(.opacity)}
+     LazyVGrid(columns:[GridItem(.flexible(),spacing:9),GridItem(.flexible(),spacing:9)],spacing:9){if !game.reading {ForEach(question.answers.indices,id:\.self){i in answer(question.answers[i],index:i).frame(height:max(80,(size.height*0.38-9)/2))}}}
+      .frame(height:game.reading ? 0:size.height*0.38).opacity(game.reading ? 0:1).clipped().accessibilityHidden(game.reading)
      PowerTray(power:game.power,enabled:!game.reading && !game.revealed && !game.busy){choice in Task{await game.usePower(choice)}}
      if let message=game.powerError {Text(message).font(.caption2).foregroundStyle(Color(hex:"FFD494"))}
      if game.revealed {
@@ -224,6 +236,81 @@ struct TournamentPlayView:View {
     }
     if let error=game.error {Text(error).font(.caption);Button("Try again"){Task{await game.retry()}}.buttonStyle(.bordered)}
    }.padding(18).animation(reduceMotion ? nil:.easeInOut(duration:0.45),value:game.reading)
+ }
+ private func tabletPlay(_ layout:QuizPlaySizing)->some View {
+  VStack(spacing:18) {
+   if layout.sideBySide {
+    HStack(alignment:.top,spacing:32) {
+     VStack(spacing:18) {
+      tabletHeader
+      QuestionTimeBar(remaining:game.remaining,reading:game.reading,thickness:12)
+      if let question=game.question {tabletQuestion(question).frame(maxHeight:.infinity)}
+      if game.reading {readingNotice}
+     }.frame(maxWidth:.infinity).frame(height:layout.contentHeight)
+     VStack(spacing:16) {
+      Spacer(minLength:0)
+      if let question=game.question {tabletAnswers(question,height:layout.answerHeight)}
+      tabletPowers
+      if game.revealed {tabletFeedback}
+      Spacer(minLength:0)
+     }.frame(maxWidth:.infinity).frame(height:layout.contentHeight)
+    }
+   } else {
+    tabletHeader
+    QuestionTimeBar(remaining:game.remaining,reading:game.reading,thickness:12)
+    if let question=game.question {
+     tabletQuestion(question).frame(minHeight:game.reading ? max(200,layout.contentHeight-320):max(140,layout.contentHeight-layout.answerHeight*2-(game.revealed ? 365:300)))
+     if game.reading {readingNotice}
+     tabletAnswers(question,height:layout.answerHeight)
+    }
+    tabletPowers
+    if game.revealed {tabletFeedback}
+   }
+   if game.question==nil {
+    if game.error==nil {ProgressView("Preparing your run…").tint(.white).padding(40)}
+    else {Label("Your run couldn’t load",systemImage:"exclamationmark.circle").font(.headline).padding(40)}
+   }
+   if let error=game.error {Text(error).font(.subheadline);Button("Try again"){Task{await game.retry()}}.buttonStyle(.bordered)}
+  }.frame(maxWidth:1280).frame(minHeight:layout.contentHeight,alignment:.top)
+   .padding(layout.padding).frame(maxWidth:.infinity)
+   .animation(reduceMotion ? nil:.easeInOut(duration:0.45),value:game.reading)
+ }
+ private var tabletHeader:some View {
+  HStack {
+   VStack(alignment:.leading,spacing:8) {
+    Text("SURVIVAL TOURNAMENT").font(.system(size:14,weight:.black)).tracking(1)
+    Text("\(game.score) points").font(.system(size:39,weight:.heavy,design:.rounded)).monospacedDigit()
+    Text("\(game.streak) correct in a row").font(.subheadline)
+   }
+   Spacer()
+   if game.question != nil {timer.scaleEffect(1.08).frame(width:90,height:90)}
+  }
+ }
+ private func tabletQuestion(_ question:PublicQuestion)->some View {
+  Text(question.prompt).font(.system(size:34,weight:.bold,design:.rounded)).multilineTextAlignment(.center)
+   .lineLimit(10).minimumScaleFactor(0.65).frame(maxWidth:.infinity).accessibilityIdentifier("tournamentQuestion")
+ }
+ private var readingNotice:some View {
+  Text("Read the question · 3 seconds").font(.headline).multilineTextAlignment(.center)
+   .accessibilityIdentifier("tournamentReadingPhase").transition(.opacity)
+ }
+ private func tabletAnswers(_ question:PublicQuestion,height:CGFloat)->some View {
+  LazyVGrid(columns:[GridItem(.flexible(),spacing:14),GridItem(.flexible(),spacing:14)],spacing:14) {
+   if !game.reading {ForEach(question.answers.indices,id:\.self){index in answer(question.answers[index],index:index,spacious:true).frame(height:height)}}
+  }.frame(height:game.reading ? 0:height*2+14).opacity(game.reading ? 0:1).clipped().accessibilityHidden(game.reading)
+ }
+ private var tabletPowers:some View {
+  VStack(spacing:8) {
+   PowerTray(power:game.power,enabled:!game.reading && !game.revealed && !game.busy,spacious:true){choice in Task{await game.usePower(choice)}}
+   if let message=game.powerError {Text(message).font(.caption).foregroundStyle(Color(hex:"FFD494"))}
+  }
+ }
+ private var tabletFeedback:some View {
+  HStack(spacing:16) {
+   Text(game.lastPoints>0 ? "+\(game.lastPoints) points":(game.selected == -1 ? "Time’s up · run finished":"Wrong answer · run finished")).font(.headline).lineLimit(2).frame(maxWidth:.infinity,alignment:.leading)
+   Button(game.runEnded ? "See score":"Next question"){Task{await game.next()}}
+    .font(.headline).padding(.vertical,17).padding(.horizontal,22)
+    .background(Color.coral,in:RoundedRectangle(cornerRadius:14)).accessibilityIdentifier("advanceTournament")
   }
  }
  private var timer:some View {
@@ -232,16 +319,16 @@ struct TournamentPlayView:View {
    Circle().trim(from:0,to:QuestionTimeBar.fraction(game.remaining)).stroke(game.remaining<=3 ? Color.coral:Color(hex:"FFD494"),style:StrokeStyle(lineWidth:6,lineCap:.round)).rotationEffect(.degrees(-90))
    if game.reading {Image(systemName:"book.fill").font(.system(size:28))}
    else {Text(String(format:"%.1f",game.remaining)).font(.system(size:28,weight:.heavy,design:.rounded)).monospacedDigit()}
-  }.frame(width:78,height:78).accessibilityLabel(game.reading ? "Read the question":"\(String(format:"%.1f",game.remaining)) seconds remaining")
+  }.frame(width:78,height:78).accessibilityIdentifier("tournamentTimer").accessibilityLabel(game.reading ? "Read the question":"\(String(format:"%.1f",game.remaining)) seconds remaining")
  }
- private func answer(_ text:String,index:Int)->some View {
+ private func answer(_ text:String,index:Int,spacious:Bool=false)->some View {
   let right=game.revealed && index==game.correctIndex
   let wrong=game.revealed && index==game.selected && !right
-  return QuizAnswerTile(text:text,right:right,wrong:wrong || (game.power.type=="double" && game.power.hidden.contains(index)),hidden:game.power.hidden.contains(index),highlighted:game.power.highlight==index){Task{await game.answer(index)}}
+  return QuizAnswerTile(text:text,right:right,wrong:wrong || (game.power.type=="double" && game.power.hidden.contains(index)),hidden:game.power.hidden.contains(index),highlighted:game.power.highlight==index,spacious:spacious){Task{await game.answer(index)}}
    .disabled(game.busy || game.revealed || game.reading || game.error != nil).accessibilityIdentifier("tournament-answer-\(index)")
  }
  private var result:some View {
-  ScrollView {
+  QuizPageScroll(maxWidth:900) {
    VStack(spacing:23) {
     Image(systemName:"flame.fill").font(.system(size:78)).foregroundStyle(Color(hex:"FFD494")).symbolEffect(.bounce,value:reduceMotion ? false:game.showResult).padding(.top,35)
     Text(game.score>game.event.best ? "NEW PERSONAL BEST":"RUN COMPLETE").font(.system(size:26,weight:.black,design:.rounded))

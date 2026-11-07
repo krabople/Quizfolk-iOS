@@ -21,7 +21,7 @@ struct PeopleView:View {
  @State private var blockedSheet=false
  var body:some View {
   NavigationStack {
-   ScrollView {
+   QuizPageScroll(maxWidth:900) {
     BrandHeader(title:"Your kind of people.",subtitle:"Meet minds that share your interests.")
     VStack(spacing:16) {
      Picker("People section",selection:$mode){Text("Discover").tag("discover");Text("Following").tag("following");Text("Followers").tag("followers");Text("Activity").tag("activity")}.pickerStyle(.segmented)
@@ -71,7 +71,7 @@ struct PublicPlayerView:View {
  @State private var challenge=false
  @State private var confirmBlock=false
  var body:some View {
-  ScrollView {
+  QuizPageScroll(maxWidth:860) {
    if let card {
     VStack(spacing:19) {
      PlayerPortrait(name:card.name,avatar:card.avatar,size:100,badge:card.displayBadge).padding(.top,20)
@@ -153,7 +153,19 @@ struct ChallengeComposer:View {
  @State private var requestID=UUID().uuidString
  var body:some View {
   NavigationStack {
-   VStack(alignment:.leading,spacing:22){Text("You vs \(name)").font(.system(size:29,weight:.bold,design:.rounded));Text("Play your seven questions now. They can accept and answer later. The same questions and answer order are used for both of you.").font(.body);Picker("Topic",selection:$topicID){ForEach(store.topics){Text($0.emoji+" "+$0.name).tag($0.id)}}.pickerStyle(.menu).accessibilityIdentifier("challengeTopic");Text("The result and your head-to-head record update when both runs are finished. Invitations expire after 14 days.").font(.subheadline).foregroundStyle(.secondary);Spacer();if let error {Text(error).foregroundStyle(.red).font(.caption)};Button(busy ? "Sending…":"Send challenge & play"){Task{await send()}}.buttonStyle(PrimaryButton()).disabled(busy).accessibilityIdentifier("sendChallenge")}.padding(24).background(Color.canvas).navigationTitle("Challenge").navigationBarTitleDisplayMode(.inline).toolbar{ToolbarItem(placement:.topBarTrailing){Button("Cancel"){dismiss()}.disabled(busy)}}
+   GeometryReader { geometry in
+    QuizPageScroll(maxWidth:700) {
+     VStack(alignment:.leading,spacing:22) {
+      Text("You vs \(name)").font(.system(size:29,weight:.bold,design:.rounded))
+      Text("Play your seven questions now. They can accept and answer later. The same questions and answer order are used for both of you.").font(.body)
+      Picker("Topic",selection:$topicID){ForEach(store.topics){Text($0.emoji+" "+$0.name).tag($0.id)}}.pickerStyle(.menu).accessibilityIdentifier("challengeTopic")
+      Text("The result and your head-to-head record update when both runs are finished. Invitations expire after 14 days.").font(.subheadline).foregroundStyle(.secondary)
+      Spacer(minLength:0)
+      if let error {Text(error).foregroundStyle(.red).font(.caption)}
+      Button(busy ? "Sending…":"Send challenge & play"){Task{await send()}}.buttonStyle(PrimaryButton()).disabled(busy).accessibilityIdentifier("sendChallenge")
+     }.frame(minHeight:max(0,geometry.size.height-48)).padding(24)
+    }
+   }.background(Color.canvas).navigationTitle("Challenge").navigationBarTitleDisplayMode(.inline).toolbar{ToolbarItem(placement:.topBarTrailing){Button("Cancel"){dismiss()}.disabled(busy)}}
   }.onAppear{topicID=initialTopic ?? store.favourites.sorted().first ?? "9"}.onChange(of:topicID){_,_ in requestID=UUID().uuidString}
    .fullScreenCover(item:$session,onDismiss:{dismiss();Task{await store.refreshSocial()}}){GameView(game:$0).environmentObject(store)}
  }
@@ -167,9 +179,9 @@ struct DuelsView:View {
  var body:some View {
   NavigationStack {
    VStack(spacing:0) {
-    Picker("Duel section",selection:$history){Text("Challenges").tag(false);Text("Device history").tag(true)}.pickerStyle(.segmented).padding(.horizontal,20).padding(.top,12).accessibilityIdentifier("duelSection")
+    Picker("Duel section",selection:$history){Text("Challenges").tag(false);Text("Device history").tag(true)}.pickerStyle(.segmented).padding(.horizontal,20).padding(.top,12).frame(maxWidth:900).frame(maxWidth:.infinity).accessibilityIdentifier("duelSection")
     if history {HistoryView()}
-    else {ScrollView{BrandHeader(title:"A friendly rivalry.",subtitle:"Take your turn. They can catch up later.");VStack(spacing:15){if store.challenges.isEmpty {ContentUnavailableView("Your next rival is waiting",systemImage:"person.2.wave.2",description:Text("Find someone in People, follow them, then send a challenge. You can finish your questions before they accept."))};ForEach(store.challenges){card in challengeRow(card)};if let message=error ?? store.socialError{Text(message).font(.caption).foregroundStyle(.red)};Button("Refresh challenges"){Task{await store.refreshSocial();await store.connect()}}.buttonStyle(.bordered)}.padding(.horizontal,20).padding(.bottom,24)}.refreshable{await store.refreshSocial();await store.connect()}}
+    else {QuizPageScroll(maxWidth:900){BrandHeader(title:"A friendly rivalry.",subtitle:"Take your turn. They can catch up later.");VStack(spacing:15){if store.challenges.isEmpty {ContentUnavailableView("Your next rival is waiting",systemImage:"person.2.wave.2",description:Text("Find someone in People, follow them, then send a challenge. You can finish your questions before they accept."))};ForEach(store.challenges){card in challengeRow(card)};if let message=error ?? store.socialError{Text(message).font(.caption).foregroundStyle(.red)};Button("Refresh challenges"){Task{await store.refreshSocial();await store.connect()}}.buttonStyle(.bordered)}.padding(.horizontal,20).padding(.bottom,24)}.refreshable{await store.refreshSocial();await store.connect()}}
    }.background(Color.canvas).toolbar(.hidden,for:.navigationBar)
   }.task{await store.refreshSocial()}.fullScreenCover(item:$session,onDismiss:{Task{await store.refreshSocial();await store.connect()}}){GameView(game:$0).environmentObject(store)}
  }

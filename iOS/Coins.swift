@@ -98,13 +98,13 @@ struct BadgeAppliedPopup:View {
     var body:some View {
         ZStack {
             Color.black.opacity(0.55).ignoresSafeArea()
-            VStack(spacing:20) {
+            QuizPopupCard {
                 Image(systemName:"checkmark.circle.fill").font(.system(size:40)).foregroundStyle(.green)
                 PlayerPortrait(name:store.name,avatar:store.avatar,size:120,badge:prize)
                 Text("Badge added!").font(.system(size:29,weight:.bold,design:.rounded))
                 Text("Your tournament badge is now displayed beside your profile picture.").multilineTextAlignment(.center)
                 Button("Done"){store.badgeConfirmation=nil}.buttonStyle(PrimaryButton()).accessibilityIdentifier("badgeConfirmationDone")
-            }.padding(28).background(Color.canvas,in:RoundedRectangle(cornerRadius:28)).padding(22)
+            }
         }
     }
 }
@@ -146,7 +146,7 @@ struct TournamentPrizePopup:View {
     var body:some View {
         ZStack {
             Color.black.opacity(0.55).ignoresSafeArea()
-            VStack(spacing:20) {
+            QuizPopupCard {
                 TournamentMedal(prize:prize,size:88).scaleEffect(appeared ? 1:0.6)
                 Text("Congratulations!").font(.system(size:30,weight:.bold,design:.rounded))
                 Text("You finished in \(prize.placing)").font(.title3.bold())
@@ -159,7 +159,7 @@ struct TournamentPrizePopup:View {
                 Button("Continue"){finish(wear:false)}.disabled(busy)
                 if busy {ProgressView()}
                 if let error {Text(error).font(.caption).foregroundStyle(.red)}
-            }.padding(28).background(Color.canvas,in:RoundedRectangle(cornerRadius:28)).padding(22)
+            }
                 .accessibilityIdentifier("tournamentCongratulations")
                 .animation(reduceMotion ? nil:.spring(response:0.5,dampingFraction:0.65),value:appeared)
                 .onAppear{appeared=true}
@@ -177,7 +177,7 @@ struct CoinTrailView:View {
     @State private var error:String?
     @State private var loading=false
     var body:some View {
-        ScrollView {
+        QuizPageScroll(maxWidth:860) {
             VStack(alignment:.leading,spacing:22) {
                 Text("A little curiosity pays off.").font(.system(size:29,weight:.bold,design:.rounded))
                 Text("Complete an online duel with at least 4 correct answers in each of 3 different topics today.").font(.body)

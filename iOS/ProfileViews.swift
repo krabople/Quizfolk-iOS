@@ -5,7 +5,7 @@ struct HistoryView:View {
     @EnvironmentObject var store:QuizStore
     var body:some View {
         NavigationStack {
-            ScrollView {
+            QuizPageScroll(maxWidth:900) {
                 BrandHeader(title:"Good rivalries.",subtitle:"Every duel has a story.")
                 if store.history.isEmpty {ContentUnavailableView("Your first rival is waiting",systemImage:"bolt.horizontal.circle",description:Text("Pick a topic in Discover and play your first duel."))}
                 LazyVStack(spacing:12){ForEach(store.history){match in
@@ -61,7 +61,7 @@ struct ProfileView:View {
     var wins:Int {store.history.filter{$0.won}.count}
     var body:some View {
         NavigationStack {
-            ScrollView {
+            QuizPageScroll(maxWidth:860) {
                 BrandHeader(title:"A curious mind.",subtitle:"Look how far your knowledge takes you.")
                 VStack(spacing:18) {
                     PlayerPortrait(name:store.name,avatar:store.avatar,size:100,badge:store.ownCard?.displayBadge)
@@ -86,7 +86,21 @@ struct ProfileView:View {
             }.background(Color.canvas).toolbar(.hidden,for:.navigationBar)
         }.onAppear{draftName=store.name}.onChange(of:store.name){old,value in if draftName==old {draftName=value}}
         .onChange(of:selectedPhoto){_,item in Task{do {guard let data=try await item?.loadTransferable(type:Data.self) else {return};pendingPicture=try ProfilePicture.make(data);pictureError=nil;showPicturePreview=true} catch {pictureError=error.localizedDescription};selectedPhoto=nil}}
-        .sheet(isPresented:$showPicturePreview){NavigationStack{VStack(spacing:24){Text("Your player picture").font(.title2.bold());PlayerPortrait(name:store.name,avatar:pendingPicture?.base64EncodedString(),size:200);Text("This square crop will appear on your player card, in duels and in leagues. Photo location and other metadata are removed.").font(.subheadline).multilineTextAlignment(.center);Button("Use this picture"){showPicturePreview=false;Task{await store.changeAvatar(pendingPicture)}}.buttonStyle(PrimaryButton());Button("Cancel"){showPicturePreview=false}}.padding(28)}}
+        .sheet(isPresented:$showPicturePreview){
+            NavigationStack {
+                GeometryReader { geometry in
+                    QuizPageScroll(maxWidth:600) {
+                        VStack(spacing:24) {
+                            Text("Your player picture").font(.title2.bold())
+                            PlayerPortrait(name:store.name,avatar:pendingPicture?.base64EncodedString(),size:200)
+                            Text("This square crop will appear on your player card, in duels and in leagues. Photo location and other metadata are removed.").font(.subheadline).multilineTextAlignment(.center)
+                            Button("Use this picture"){showPicturePreview=false;Task{await store.changeAvatar(pendingPicture)}}.buttonStyle(PrimaryButton())
+                            Button("Cancel"){showPicturePreview=false}
+                        }.padding(28).frame(minHeight:geometry.size.height)
+                    }
+                }
+            }
+        }
         .confirmationDialog("Delete your online player account and server match history? Your local practice history will remain on this device.",isPresented:$deleteAccount,titleVisibility:.visible){Button("Delete online account",role:.destructive){Task{await store.deleteAccount();saved=false}}}
     }
     private var settings:some View {
@@ -94,7 +108,7 @@ struct ProfileView:View {
             Text("Your player card").font(.headline)
             TextField("Display name",text:$draftName).textFieldStyle(.roundedBorder).textContentType(.nickname).autocorrectionDisabled().accessibilityIdentifier("playerName")
             Text("Player names are unique. Capitalisation and repeated spaces do not create a different name. Your current name is kept if a new one is taken.").font(.caption).foregroundStyle(.secondary)
-            Text("Your name appears in online duels and leagues. Your player account stays on this iPhone; cross-device account recovery is not available yet.").font(.caption).foregroundStyle(.secondary)
+            Text("Your name appears in online duels and leagues. Your player account stays on this device; cross-device account recovery is not available yet.").font(.caption).foregroundStyle(.secondary)
             Button("Save player card"){store.saveSettings();Task{await store.changeName(to:draftName);saved=store.onlineError==nil;if saved {draftName=store.name}}}.buttonStyle(PrimaryButton()).disabled(store.profileBusy)
             DisclosureGroup("Advanced connection settings") {
                 TextField("HTTPS service address",text:$store.apiURL).textFieldStyle(.roundedBorder).textInputAutocapitalization(.never).autocorrectionDisabled().keyboardType(.URL)

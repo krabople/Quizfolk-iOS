@@ -60,6 +60,12 @@ async function main(){
  try {for(const device of devices){
   if(prototype && device.key!=='iphone-medium')continue;
   if(onlyDevice && device.key!==onlyDevice)continue;
+  if(device.key==='ipad'){
+   const provenance=JSON.parse(await fs.readFile(path.join(captureRoot,'capture-provenance.json'),'utf8'));
+   const captures=provenance.devices.find(d=>d.key==='ipad')?.captures;
+   if(!captures || captures.length!==10 || captures.some(c=>String(c.targetedDeviceFamily).replaceAll(' ','')!=='1,2'))
+    throw new Error('Native iPad artwork requires ten verified universal-app captures; do not reuse compatibility-mode images.');
+  }
   const dir=path.join(captureRoot,device.key);
   const names=await fs.readdir(dir);
   const out=path.join(outputRoot,device.folder), originals=path.join(outputRoot,'original-captures',device.key), artdir=path.join(outputRoot,'artwork',device.key);
@@ -91,7 +97,7 @@ async function main(){
  }}finally{await browser.close()}
  await fs.writeFile(path.join(outputRoot,'artwork-verification.json'),JSON.stringify(report,null,2));
  await fs.writeFile(path.join(outputRoot,'captions.txt'),shots.map((s,i)=>`${i+1}. ${s.headline.join(' ')}\n${s.caption.replaceAll('\n',' ')}`).join('\n\n')+'\n');
- let gallery=`<!doctype html><html lang="en-GB"><meta charset="utf-8"><title>Quizfolk · App Store screenshots</title><style>body{margin:40px;background:#f7f6f2;color:#243449;font:17px system-ui}h1{font-size:38px;letter-spacing:-1px}p{line-height:1.55;max-width:850px}.grid{display:grid;grid-template-columns:repeat(4,minmax(160px,1fr));gap:28px;max-width:1500px}figure{margin:0}img{width:100%;border-radius:12px;box-shadow:0 6px 20px #2434491c}figcaption{font-size:14px;margin:10px 0 24px}a{color:inherit}h2{margin-top:60px}@media(max-width:800px){.grid{grid-template-columns:repeat(2,1fr)}}</style><h1>Quizfolk · App Store screenshots</h1><p>Ten features, with captions and genuine app captures. Open any image for the full-resolution PNG. The iPad set shows the current iPhone app running in iPad compatibility mode; it does not imply a native iPad layout.</p>`;
+ let gallery=`<!doctype html><html lang="en-GB"><meta charset="utf-8"><title>Quizfolk · App Store screenshots</title><style>body{margin:40px;background:#f7f6f2;color:#243449;font:17px system-ui}h1{font-size:38px;letter-spacing:-1px}p{line-height:1.55;max-width:850px}.grid{display:grid;grid-template-columns:repeat(4,minmax(160px,1fr));gap:28px;max-width:1500px}figure{margin:0}img{width:100%;border-radius:12px;box-shadow:0 6px 20px #2434491c}figcaption{font-size:14px;margin:10px 0 24px}a{color:inherit}h2{margin-top:60px}@media(max-width:800px){.grid{grid-template-columns:repeat(2,1fr)}}</style><h1>Quizfolk · App Store screenshots</h1><p>Ten features, with captions and genuine app captures. Open any image for the full-resolution PNG. The iPad set shows the native iPad layout. All device screenshots preserve the actual app interface.</p>`;
  for(const d of devices){const items=report.filter(r=>r.device===d.name);if(!items.length)continue;gallery+=`<h2>${d.name} · ${d.w} × ${d.h}</h2><div class="grid">`+items.map(r=>`<figure><a href="${r.file}"><img src="${r.file}" alt="${esc(r.title)}"></a><figcaption>${esc(r.title)}</figcaption></figure>`).join('')+'</div>';}
  await fs.writeFile(path.join(outputRoot,'index.html'),gallery,'utf8');
  // Small contact sheets for quick visual review; full-resolution artwork stays separate.

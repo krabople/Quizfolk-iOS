@@ -61,6 +61,7 @@ for artifact, (device, dimensions) in devices.items():
         shutil.copy2(overlay_manifest_path, folder / f"attachment-manifest-{overlay_run}.json")
         shutil.copy2(overlay_provenance_path, folder / f"provenance-{overlay_run}.json")
     captures = []
+    selected_sources = {}
     for label, name in mapping.items():
         for selected_manifest_path, selected_manifest, selected_provenance, selected_run in reversed(candidates):
             matches = [a for group in selected_manifest for a in group["attachments"]
@@ -77,13 +78,14 @@ for artifact, (device, dimensions) in devices.items():
         assert size == dimensions, (original, size, dimensions)
         target = folder / f"{name}.png"
         shutil.copy2(original, target)
+        selected_sources[selected_run] = selected_provenance
         captures.append({"name": name, "originalAttachment": attachment["exportedFileName"],
                          "width": size[0], "height": size[1],
                          "run": selected_run, "sourceCommit": selected_provenance["source"],
                          "device": selected_provenance["device"]["name"],
+                         "targetedDeviceFamily": selected_provenance.get("targetedDeviceFamily"),
+                         "presentation": selected_provenance.get("ipadPresentation") if device == "ipad" else "Native iPhone",
                          "sha256": hashlib.sha256(pixels).hexdigest()})
-    report["devices"].append({"key": device, "run": device_run,
-                              "url": f"https://github.com/krabople/Quizfolk-iOS/actions/runs/{device_run}",
-                              "provenance": provenance, "captures": captures})
+    report["devices"].append({"key": device, "sources": selected_sources, "captures": captures})
     print(device, provenance["device"]["name"], len(captures), dimensions)
 (destination / "capture-provenance.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")

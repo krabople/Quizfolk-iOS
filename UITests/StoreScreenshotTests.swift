@@ -1,29 +1,32 @@
 import XCTest
+import UIKit
 
 /// Opt-in marketing captures. Run only through the manual store-screenshots workflow.
 final class StoreScreenshotTests:XCTestCase {
-    private static var expandedIPad=false
     override func setUpWithError() throws {
         continueAfterFailure=false
         try XCTSkipUnless(ProcessInfo.processInfo.environment["STORE_SCREENSHOTS"]=="1", "App Store captures are opt-in")
     }
     @MainActor private func launch()->XCUIApplication {
+        XCUIDevice.shared.orientation = .portrait
         let app=XCUIApplication()
         app.launchArguments=["--ui-testing","--store-screenshots"]
         app.launch()
         if app.buttons["Done"].waitForExistence(timeout:3){app.buttons["Done"].tap()}
-        XCTAssertTrue(app.tabBars.buttons["Discover"].waitForExistence(timeout:8))
-        if ProcessInfo.processInfo.environment["CAPTURE_DEVICE"]=="ipad-13",!Self.expandedIPad {
-            print("iPad compatibility viewport before expansion:",app.windows.firstMatch.frame)
-            // The native compatibility resize button was observed at (1984,2670)
-            // in the genuine 2064x2752 iPad capture. This operates that system control.
-            let system=XCUIApplication(bundleIdentifier:"com.apple.springboard")
-            system.coordinate(withNormalizedOffset:CGVector(dx:0.961,dy:0.970)).tap()
-            Self.expandedIPad=true
-            XCTAssertTrue(app.tabBars.buttons["Discover"].waitForExistence(timeout:8))
-            print("iPad compatibility viewport after expansion:",app.windows.firstMatch.frame)
+        XCTAssertTrue(tab(app,"Discover").waitForExistence(timeout:8))
+        if ProcessInfo.processInfo.environment["CAPTURE_DEVICE"]=="ipad-13" {
+            let window=app.windows.firstMatch.frame
+            let pixels=XCUIScreen.main.screenshot().image.cgImage!
+            let scale=UIScreen.main.scale
+            XCTAssertEqual(window.width,CGFloat(pixels.width)/scale,accuracy:3,"iPad app must fill the native screen, without iPhone compatibility margins")
+            XCTAssertEqual(window.height,CGFloat(pixels.height)/scale,accuracy:3)
+            print("Native iPad viewport:",window,"screen pixels:",pixels.width,pixels.height)
         }
         return app
+    }
+    @MainActor private func tab(_ app:XCUIApplication,_ title:String)->XCUIElement {
+        let tab=app.tabBars.buttons[title].firstMatch
+        return tab.exists ? tab:app.buttons[title].firstMatch
     }
     @MainActor private func scroll(_ app:XCUIApplication,velocity:XCUIGestureVelocity = .default) {
         if ProcessInfo.processInfo.environment["CAPTURE_DEVICE"]=="ipad-13" {app.scrollViews.firstMatch.swipeUp(velocity:velocity)}
@@ -35,8 +38,7 @@ final class StoreScreenshotTests:XCTestCase {
     }
     @MainActor private func topic(_ app:XCUIApplication) {
         if ProcessInfo.processInfo.environment["CAPTURE_DEVICE"]=="ipad-13" {
-            // Use the real interests filter so the keyboard cannot intercept grid swipes
-            // in iPad's expanded iPhone compatibility window.
+            // Use the real interests filter so the keyboard does not cover the grid.
             let interests=app.buttons["My interests"]
             XCTAssertTrue(interests.waitForExistence(timeout:8));interests.tap()
         } else {
@@ -50,6 +52,12 @@ final class StoreScreenshotTests:XCTestCase {
     }
     @MainActor func test01Topics() {
         let app=launch()
+        if ProcessInfo.processInfo.environment["CAPTURE_DEVICE"]=="ipad-13" {
+            let first=app.descendants(matching:.any).matching(identifier:"topic-9").firstMatch
+            XCTAssertTrue(first.waitForExistence(timeout:8));XCTAssertTrue(first.isHittable)
+            capture("02-topics")
+            return
+        }
         let interests=app.buttons["Choose interests"]
         XCTAssertTrue(interests.waitForExistence(timeout:8));interests.tap()
         XCTAssertTrue(app.staticTexts["What makes you tick?"].waitForExistence(timeout:8))
@@ -67,7 +75,7 @@ final class StoreScreenshotTests:XCTestCase {
         capture("01-duel")
     }
     @MainActor func test03Challenges() {
-        let app=launch();app.tabBars.buttons["Duels"].tap()
+        let app=launch();tab(app,"Duels").tap()
         XCTAssertTrue(app.staticTexts["Maya"].waitForExistence(timeout:8))
         capture("03-challenges")
     }
@@ -83,7 +91,7 @@ final class StoreScreenshotTests:XCTestCase {
         XCTAssertTrue(heading.waitForExistence(timeout:8))
         let targetY=app.navigationBars.firstMatch.frame.maxY+16
         let delta=heading.frame.minY-targetY
-        if delta>20 {
+        if delta>20,ProcessInfo.processInfo.environment["CAPTURE_DEVICE"] != "ipad-13" {
             let scrollView=app.scrollViews.firstMatch
             let start=scrollView.coordinate(withNormalizedOffset:CGVector(dx:0.5,dy:0.78))
             let end=start.withOffset(CGVector(dx:0,dy:-delta))
@@ -94,7 +102,7 @@ final class StoreScreenshotTests:XCTestCase {
         capture("05-topic-league")
     }
     @MainActor func test06Tournament() {
-        let app=launch();app.tabBars.buttons["Tournaments"].tap()
+        let app=launch();tab(app,"Tournaments").tap()
         let event=app.descendants(matching:.any).matching(identifier:"tournament-test-event").firstMatch
         for _ in 0..<3 {if event.isHittable{break};scroll(app)}
         XCTAssertTrue(event.waitForExistence(timeout:8));event.tap()
@@ -103,7 +111,7 @@ final class StoreScreenshotTests:XCTestCase {
         capture("06-tournament")
     }
     @MainActor func test07Friends() {
-        let app=launch();app.tabBars.buttons["Tournaments"].tap()
+        let app=launch();tab(app,"Tournaments").tap()
         XCTAssertTrue(app.buttons["friendsTournaments"].waitForExistence(timeout:8));app.buttons["friendsTournaments"].tap()
         let room=app.buttons.matching(NSPredicate(format:"label CONTAINS 'Friday quiz club'")).firstMatch
         XCTAssertTrue(room.waitForExistence(timeout:8));room.tap()
@@ -111,20 +119,20 @@ final class StoreScreenshotTests:XCTestCase {
         capture("07-friends")
     }
     @MainActor func test08Badges() {
-        let app=launch();app.tabBars.buttons["You"].tap()
+        let app=launch();tab(app,"You").tap()
         XCTAssertTrue(app.buttons["Tournament badges"].waitForExistence(timeout:8));app.buttons["Tournament badges"].tap()
         XCTAssertTrue(app.buttons["earnedBadge-test-prize"].waitForExistence(timeout:8))
         capture("08-badges")
     }
     @MainActor func test09Profile() {
-        let app=launch();app.tabBars.buttons["People"].tap()
+        let app=launch();tab(app,"People").tap()
         let player=app.descendants(matching:.any).matching(identifier:"player-test-rival").firstMatch
         XCTAssertTrue(player.waitForExistence(timeout:8));player.tap()
         XCTAssertTrue(app.buttons["followPlayer"].waitForExistence(timeout:8))
         capture("09-rival-profile")
     }
     @MainActor func test10Result() {
-        let app=launch();app.tabBars.buttons["Duels"].tap();app.buttons["Device history"].tap()
+        let app=launch();tab(app,"Duels").tap();app.buttons["Device history"].tap()
         let history=app.buttons["history-match-history-fixture"]
         XCTAssertTrue(history.waitForExistence(timeout:8));history.tap()
         XCTAssertTrue(app.buttons["historyResult"].waitForExistence(timeout:8));app.buttons["historyResult"].tap()

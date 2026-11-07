@@ -26,10 +26,10 @@ private struct DuelScreen:View {
   }.preferredColorScheme(.dark).task{await game.begin()}.onDisappear{game.stop()}
  }
  private var searchScreen:some View {
-  VStack(spacing:25){Spacer();Image(systemName:"person.2.wave.2.fill").font(.system(size:70)).foregroundStyle(Color(hex:"FFD494"));Text("Finding a human rival").font(.system(size:28,weight:.bold,design:.rounded));Text(game.searchMessage).multilineTextAlignment(.center);if game.error==nil {ProgressView().tint(.white)};Text("We check other searchers and recorded human runs before a bot is offered.").font(.subheadline).multilineTextAlignment(.center).opacity(0.75);if let error=game.error{Text(error).font(.caption);Button("Try again"){Task{await game.retry()}}.buttonStyle(PrimaryButton())};Spacer()}.padding(28).accessibilityIdentifier("humanSearch")
+  DuelStageScroll {VStack(spacing:25){Spacer();Image(systemName:"person.2.wave.2.fill").font(.system(size:70)).foregroundStyle(Color(hex:"FFD494"));Text("Finding a human rival").font(.system(size:28,weight:.bold,design:.rounded));Text(game.searchMessage).multilineTextAlignment(.center);if game.error==nil {ProgressView().tint(.white)};Text("We check other searchers and recorded human runs before a bot is offered.").font(.subheadline).multilineTextAlignment(.center).opacity(0.75);if let error=game.error{Text(error).font(.caption);Button("Try again"){Task{await game.retry()}}.buttonStyle(PrimaryButton())};Spacer()}.padding(28)}.accessibilityIdentifier("humanSearch")
  }
  private var pendingResult:some View {
-  ScrollView{VStack(spacing:22){Image(systemName:"hourglass.circle.fill").font(.system(size:70)).foregroundStyle(Color(hex:"FFD494")).padding(.top,25);Text("YOUR RUN IS SAVED").font(.system(size:28,weight:.black,design:.rounded));Text("\(game.score) points").font(.system(size:45,weight:.heavy,design:.rounded));Text("Waiting for \(game.opponent)").font(.title3.bold());Text("They can accept and play the same seven questions later. The winner, topic XP and your head-to-head tally update when both of you have finished.").font(.body).multilineTextAlignment(.center);Button(game.busy ? "Checking…":"Check result"){Task{await game.refreshResult()}}.buttonStyle(PrimaryButton()).disabled(game.busy);rivalActions;Button("Back to topics"){dismiss()}.buttonStyle(.bordered);if let error=game.error {Text(error).font(.caption)}}.padding(26)}.accessibilityIdentifier("pendingChallengeResult")
+  QuizPageScroll(maxWidth:800){VStack(spacing:22){Image(systemName:"hourglass.circle.fill").font(.system(size:70)).foregroundStyle(Color(hex:"FFD494")).padding(.top,25);Text("YOUR RUN IS SAVED").font(.system(size:28,weight:.black,design:.rounded));Text("\(game.score) points").font(.system(size:45,weight:.heavy,design:.rounded));Text("Waiting for \(game.opponent)").font(.title3.bold());Text("They can accept and play the same seven questions later. The winner, topic XP and your head-to-head tally update when both of you have finished.").font(.body).multilineTextAlignment(.center);Button(game.busy ? "Checking…":"Check result"){Task{await game.refreshResult()}}.buttonStyle(PrimaryButton()).disabled(game.busy);rivalActions;Button("Back to topics"){dismiss()}.buttonStyle(.bordered);if let error=game.error {Text(error).font(.caption)}}.padding(26)}.accessibilityIdentifier("pendingChallengeResult")
  }
  @ViewBuilder private var rivalActions:some View {
   if let id=game.opponentID {
@@ -46,7 +46,7 @@ private struct DuelScreen:View {
   do{let next=try await store.rematch(topic:game.topic,opponentID:game.opponentID,online:game.online,requestID:rematchRequestID);onRematch(next)}catch{rematchError=error.localizedDescription}
  }
  private var intro:some View {
-  VStack(spacing:26) {
+  DuelStageScroll {VStack(spacing:26) {
    Image("BrandMark").resizable().frame(width:70,height:70).clipShape(RoundedRectangle(cornerRadius:18)).padding(.top,24)
    Text("A NEW RIVALRY").font(.system(size:12,weight:.black)).tracking(3)
    HStack(alignment:.top,spacing:12) {
@@ -60,23 +60,32 @@ private struct DuelScreen:View {
    if game.prepared {if game.introCounting {Text("\(game.introCount)").font(.system(size:58,weight:.heavy,design:.rounded)).contentTransition(.numericText())} else {Text("Ready for your duel?").font(.headline)};Button(game.introCounting ? "Get ready…":"Start duel"){Task{await game.countdownAndStart()}}.buttonStyle(PrimaryButton(color:.coral)).disabled(game.busy || game.introCounting)}
    else if game.busy {ProgressView("Preparing your duel…").tint(.white)}
    if let error=game.error {Text(error).font(.caption);Button("Try again"){Task{await game.retry()}}.buttonStyle(.bordered)}
-  }.padding(24).onAppear{withAnimation(reduceMotion ? nil:.spring(response:0.65,dampingFraction:0.7)){entered=true}}
+  }.padding(24)}.onAppear{withAnimation(reduceMotion ? nil:.spring(response:0.65,dampingFraction:0.7)){entered=true}}
  }
  private func contestant(_ name:String,avatar:String?,bot:Bool)->some View {
   VStack(spacing:12){PlayerPortrait(name:name,avatar:avatar,bot:bot,size:88);Text(name).font(.headline).multilineTextAlignment(.center).lineLimit(2).minimumScaleFactor(0.7)}.frame(maxWidth:.infinity)
  }
  private var play:some View {
   GeometryReader {geometry in
+   let layout=QuizPlaySizing(size:geometry.size)
+   ScrollView {
+    if layout.spacious {tabletPlay(layout)}
+    else {compactPlay(CGSize(width:geometry.size.width,height:max(600,geometry.size.height))).frame(height:max(600,geometry.size.height))}
+   }.scrollIndicators(.hidden).scrollBounceBehavior(.basedOnSize)
+    .accessibilityIdentifier("duelPlayArea")
+  }
+ }
+ private func compactPlay(_ size:CGSize)->some View {
    VStack(spacing:game.revealed ? 5:7) {
     HStack {player(store.name,avatar:store.avatar,score:game.score,bot:false);Text("VS").font(.system(size:12,weight:.black)).opacity(0.6);player(game.opponent,avatar:game.opponentAvatar,score:game.duelID != nil && game.awaitingOpponent ? nil:game.opponentScore,bot:!game.isHuman)}.frame(height:game.revealed ? 42:48)
     DuelProgressView(ownName:store.name,opponent:game.opponent,rounds:game.rounds,opponentAnswered:game.opponentAnswered,recorded:game.kind=="human",opponentResults:game.progressResults)
     HStack {VStack(alignment:.leading,spacing:5){Text(game.round==6 ? "FINAL ROUND":"ROUND \(game.round+1) OF 7").font(.system(size:12,weight:.black)).tracking(1);Text(game.round==6 ? "DOUBLE POINTS":"FASTER = MORE POINTS").font(.system(size:9,weight:.bold)).foregroundStyle(Color(hex:"FFD494"))};Spacer();if game.reading {Image(systemName:"book.fill").font(.system(size:35)).foregroundStyle(Color(hex:"FFD494")).frame(width:74,height:74)}else{timer}}.frame(height:game.revealed ? 50:60)
     if let q=game.current {
      QuestionTimeBar(remaining:game.remaining,reading:game.reading)
-     Text(q.prompt).font(.system(size:25,weight:.bold,design:.rounded)).multilineTextAlignment(.center).lineLimit(7).minimumScaleFactor(0.6).frame(maxWidth:.infinity,maxHeight:.infinity).layoutPriority(1)
+     Text(q.prompt).font(.system(size:25,weight:.bold,design:.rounded)).accessibilityIdentifier("quizQuestion").multilineTextAlignment(.center).lineLimit(7).minimumScaleFactor(0.6).frame(maxWidth:.infinity,maxHeight:.infinity).layoutPriority(1)
      if game.reading {Text("Read the question · 3 seconds").font(.subheadline.bold()).multilineTextAlignment(.center).accessibilityIdentifier("readingPhase").transition(.opacity)}
-     LazyVGrid(columns:[GridItem(.flexible(),spacing:9),GridItem(.flexible(),spacing:9)],spacing:9){if !game.reading {ForEach(q.answers.indices,id:\.self){i in answer(q,index:i).frame(height:max(80,(geometry.size.height*(game.revealed ? 0.32:0.38)-9)/2))}}}
-      .frame(height:game.reading ? 0:geometry.size.height*(game.revealed ? 0.32:0.38)).opacity(game.reading ? 0:1).clipped().accessibilityHidden(game.reading)
+     LazyVGrid(columns:[GridItem(.flexible(),spacing:9),GridItem(.flexible(),spacing:9)],spacing:9){if !game.reading {ForEach(q.answers.indices,id:\.self){i in answer(q,index:i).frame(height:max(80,(size.height*(game.revealed ? 0.32:0.38)-9)/2))}}}
+      .frame(height:game.reading ? 0:size.height*(game.revealed ? 0.32:0.38)).opacity(game.reading ? 0:1).clipped().accessibilityHidden(game.reading)
      PowerTray(power:game.power,enabled:!game.reading && !game.revealed && !game.busy,practice:!game.online,allowed:game.powerAllowed){choice in Task{await game.usePower(choice)}}
      if let message=game.powerError {Text(message).font(.caption2).foregroundStyle(Color(hex:"FFD494"))}
      if game.revealed {
@@ -88,6 +97,100 @@ private struct DuelScreen:View {
     } else {Spacer();ProgressView("Loading question…").tint(.white);Spacer()}
     if let error=game.error {Text(error).font(.caption);Button("Try again"){Task{await game.retry()}}.buttonStyle(.bordered)}
    }.padding(.horizontal,18).padding(.vertical,8).animation(reduceMotion ? nil:.easeInOut(duration:0.45),value:game.reading)
+ }
+ private func tabletPlay(_ layout:QuizPlaySizing)->some View {
+  VStack(spacing:18) {
+   if layout.sideBySide {
+    HStack(alignment:.top,spacing:32) {
+     VStack(spacing:18) {
+      tabletScoreboard
+      tabletRoundHeader
+      QuestionTimeBar(remaining:game.remaining,reading:game.reading,thickness:12)
+      if let question=game.current {tabletQuestion(question).frame(maxHeight:.infinity)}
+      if game.reading {readingNotice}
+     }.frame(maxWidth:.infinity).frame(height:layout.contentHeight)
+     VStack(spacing:16) {
+      Spacer(minLength:0)
+      if let question=game.current {tabletAnswers(question,height:layout.answerHeight)}
+      tabletPowers
+      if game.revealed {tabletFeedback}
+      Spacer(minLength:0)
+     }.frame(maxWidth:.infinity).frame(height:layout.contentHeight)
+    }
+   } else {
+    tabletScoreboard
+    tabletRoundHeader
+    QuestionTimeBar(remaining:game.remaining,reading:game.reading,thickness:12)
+    if let question=game.current {
+     tabletQuestion(question).frame(minHeight:game.reading ? max(200,layout.contentHeight-450):max(100,layout.contentHeight-layout.answerHeight*2-(game.revealed ? 502:430)))
+     if game.reading {readingNotice}
+     tabletAnswers(question,height:layout.answerHeight)
+    }
+    tabletPowers
+    if game.revealed {tabletFeedback}
+   }
+   if game.current==nil {ProgressView("Loading question…").tint(.white).padding(40)}
+   if let error=game.error {Text(error).font(.subheadline);Button("Try again"){Task{await game.retry()}}.buttonStyle(.bordered)}
+  }.frame(maxWidth:1280).frame(minHeight:layout.contentHeight,alignment:.top)
+   .padding(layout.padding).frame(maxWidth:.infinity)
+   .animation(reduceMotion ? nil:.easeInOut(duration:0.45),value:game.reading)
+ }
+ private var tabletScoreboard:some View {
+  VStack(spacing:16) {
+   HStack(spacing:18) {
+    tabletPlayer(store.name,avatar:store.avatar,score:game.score,bot:false)
+    Text("VS").font(.headline.weight(.black)).opacity(0.6)
+    tabletPlayer(game.opponent,avatar:game.opponentAvatar,score:game.duelID != nil && game.awaitingOpponent ? nil:game.opponentScore,bot:!game.isHuman)
+   }
+   DuelProgressView(ownName:store.name,opponent:game.opponent,rounds:game.rounds,opponentAnswered:game.opponentAnswered,recorded:game.kind=="human",opponentResults:game.progressResults,spacious:true)
+  }
+ }
+ private func tabletPlayer(_ name:String,avatar:String?,score:Int?,bot:Bool)->some View {
+  HStack(spacing:12) {
+   PlayerPortrait(name:name,avatar:avatar,bot:bot,size:46)
+   VStack(alignment:.leading,spacing:2) {
+    Text(name).font(.system(size:15,weight:.semibold)).lineLimit(1).minimumScaleFactor(0.7)
+    Text(score.map{String($0)} ?? "—").font(.system(size:34,weight:.bold,design:.rounded)).monospacedDigit()
+   }
+  }.frame(maxWidth:.infinity,alignment:.leading)
+ }
+ private var tabletRoundHeader:some View {
+  HStack {
+   VStack(alignment:.leading,spacing:7) {
+    Text(game.round==6 ? "FINAL ROUND":"ROUND \(game.round+1) OF 7").font(.system(size:17,weight:.black)).tracking(1)
+    Text(game.round==6 ? "DOUBLE POINTS":"FASTER = MORE POINTS").font(.system(size:12,weight:.bold)).foregroundStyle(Color(hex:"FFD494"))
+   }
+   Spacer()
+   if game.reading {Image(systemName:"book.fill").font(.system(size:38)).foregroundStyle(Color(hex:"FFD494")).frame(width:80,height:80)}
+   else {timer.scaleEffect(1.2).frame(width:80,height:80)}
+  }.frame(height:80)
+ }
+ private func tabletQuestion(_ question:Question)->some View {
+  Text(question.prompt).font(.system(size:34,weight:.bold,design:.rounded)).multilineTextAlignment(.center)
+   .lineLimit(10).minimumScaleFactor(0.65).frame(maxWidth:.infinity)
+   .accessibilityIdentifier("quizQuestion")
+ }
+ private var readingNotice:some View {
+  Text("Read the question · 3 seconds").font(.headline).multilineTextAlignment(.center)
+   .accessibilityIdentifier("readingPhase").transition(.opacity)
+ }
+ private func tabletAnswers(_ question:Question,height:CGFloat)->some View {
+  LazyVGrid(columns:[GridItem(.flexible(),spacing:14),GridItem(.flexible(),spacing:14)],spacing:14) {
+   if !game.reading {ForEach(question.answers.indices,id:\.self){index in answer(question,index:index,spacious:true).frame(height:height)}}
+  }.frame(height:game.reading ? 0:height*2+14).opacity(game.reading ? 0:1).clipped().accessibilityHidden(game.reading)
+ }
+ private var tabletPowers:some View {
+  VStack(spacing:8) {
+   PowerTray(power:game.power,enabled:!game.reading && !game.revealed && !game.busy,practice:!game.online,allowed:game.powerAllowed,spacious:true){choice in Task{await game.usePower(choice)}}
+   if let message=game.powerError {Text(message).font(.caption).foregroundStyle(Color(hex:"FFD494"))}
+  }
+ }
+ private var tabletFeedback:some View {
+  HStack(spacing:16) {
+   Text(game.lastPoints>0 ? "+\(game.lastPoints) points · Correct!":(game.selected == -1 ? "Time’s up!":"Answer highlighted")).font(.headline).lineLimit(2).frame(maxWidth:.infinity,alignment:.leading)
+   Button(game.round==6 ? "See results":"Next question"){Task{await game.next()}}
+    .font(.headline).padding(.vertical,17).padding(.horizontal,22)
+    .background(Color.coral,in:RoundedRectangle(cornerRadius:14)).accessibilityIdentifier("advanceQuestion")
   }
  }
  private var timer:some View {
@@ -106,17 +209,17 @@ private struct DuelScreen:View {
  private func player(_ name:String,avatar:String?,score:Int?,bot:Bool)->some View {
   HStack(spacing:8){PlayerPortrait(name:name,avatar:avatar,bot:bot,size:34);VStack(alignment:.leading,spacing:0){Text(name).font(.system(size:10,weight:.semibold)).lineLimit(1).minimumScaleFactor(0.6);Text(score.map{String($0)} ?? "—").font(.system(size:25,weight:.bold,design:.rounded))}}.frame(maxWidth:.infinity,alignment:.leading)
  }
- private func answer(_ q:Question,index:Int)->some View {
+ private func answer(_ q:Question,index:Int,spacious:Bool=false)->some View {
   let correct=game.revealed && index==q.correctIndex
   let wrong=game.revealed && game.selected==index && !correct
-  return QuizAnswerTile(text:q.answers[index],right:correct,wrong:wrong || (game.power.type=="double" && game.power.hidden.contains(index)),hidden:game.power.hidden.contains(index),highlighted:game.power.highlight==index){Task{await game.answer(index)}}
+  return QuizAnswerTile(text:q.answers[index],right:correct,wrong:wrong || (game.power.type=="double" && game.power.hidden.contains(index)),hidden:game.power.hidden.contains(index),highlighted:game.power.highlight==index,spacious:spacious){Task{await game.answer(index)}}
    .disabled(game.reading || game.revealed || game.busy || game.error != nil).accessibilityIdentifier("answer-\(index)")
  }
  private var result:some View {
   let won=game.score>game.opponentScore
   let tied=game.score==game.opponentScore
   let bonus=won ? 100:(tied ? 50:0)
-  return ScrollView {
+  return QuizPageScroll(maxWidth:960) {
    VStack(spacing:18) {
     Image(systemName:tied ? "equal.circle.fill":"trophy.fill").font(.system(size:68)).foregroundStyle(Color(hex:"FFD494")).symbolEffect(.bounce,value:game.finished).padding(.top,20)
     Text(tied ? "IT’S A DRAW":(won ? "YOU WIN!":"\(game.opponent.uppercased()) WINS!")).font(.system(size:31,weight:.black,design:.rounded)).multilineTextAlignment(.center).accessibilityIdentifier("winnerAnnouncement")
@@ -171,4 +274,17 @@ struct RivalRecordView:View {
  let playerID:String;let name:String
  @State private var tally:HeadToHead?
  var body:some View {Group{if let tally{HeadToHeadView(name:name,tally:tally).foregroundStyle(Color.ink).background(.white,in:RoundedRectangle(cornerRadius:18))}}.task{if let c=try? await store.playerCard(playerID){tally=c.headToHead}}}
+}
+
+/// Fills a normal screen, but keeps the start/retry actions reachable in short windows.
+private struct DuelStageScroll<Content:View>:View {
+ let content:Content
+ init(@ViewBuilder content:()->Content){self.content=content()}
+ var body:some View {
+  GeometryReader {geometry in
+   ScrollView {
+    content.frame(maxWidth:760).frame(minHeight:geometry.size.height).frame(maxWidth:.infinity)
+   }.scrollBounceBehavior(.basedOnSize)
+  }
+ }
 }

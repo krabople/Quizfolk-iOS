@@ -74,3 +74,74 @@ jobs:
             build/Quizfolk.png
             build/UITestScreenshots
             build-output.log
+  ipad:
+    name: Native iPad portrait and landscape
+    runs-on: macos-15
+    timeout-minutes: 30
+    steps:
+      - name: Select current iOS SDK
+        run: |
+          XCODE_APP=$(python3 -c 'import glob,re; a=[(tuple(map(int,re.search(r"Xcode_([\d.]+)\.app$",p).group(1).split("."))),p) for p in glob.glob("/Applications/Xcode_*.app") if re.search(r"Xcode_([\d.]+)\.app$",p)]; a=[x for x in a if x[0][0]>=26]; assert a,"Xcode 26+ required"; print(max(a)[1])')
+          sudo xcode-select -s "$XCODE_APP/Contents/Developer"
+          xcodebuild -version
+      - uses: actions/checkout@v4
+        with:
+          repository: krabople/Quizfolk-iOS
+          ref: ${{ inputs.source_ref || github.sha }}
+      - name: Generate Xcode project and select fresh iPad simulator
+        run: |
+          brew install xcodegen
+          xcodegen generate
+          mkdir -p build
+          xcrun simctl list devices available -j > build/simulators.json
+          python3 - <<'PY'
+          import json,os
+          data=json.load(open('build/simulators.json'))
+          device=next(d for runtime,items in data['devices'].items() if 'iOS' in runtime for d in items if 'iPad Pro 13-inch' in d['name'])
+          with open(os.environ['GITHUB_ENV'],'a') as f:f.write('SIMULATOR_ID='+device['udid']+'\n')
+          json.dump({'device':device,'source':os.environ['SOURCE_REF'],'presentation':'native universal iPad','orientations':['portrait','landscapeLeft']},open('build/ipad-provenance.json','w'),indent=2)
+          PY
+          DEVICE=$(python3 -c 'import json; print(json.load(open("build/ipad-provenance.json"))["device"]["udid"])')
+          xcrun simctl boot "$DEVICE" || true
+          xcrun simctl bootstatus "$DEVICE" -b
+          xcrun simctl uninstall "$DEVICE" com.quizfolk.ios || true
+          xcrun simctl status_bar "$DEVICE" override --time '9:41' --dataNetwork wifi --wifiMode active --wifiBars 3 --batteryState charged --batteryLevel 100
+        env:
+          SOURCE_REF: ${{ inputs.source_ref || github.sha }}
+      - name: Build and verify universal device configuration
+        run: |
+          set -o pipefail
+          xcodebuild -project Quizfolk.xcodeproj -scheme Quizfolk -destination "platform=iOS Simulator,id=$SIMULATOR_ID" -derivedDataPath build CODE_SIGNING_ALLOWED=NO build-for-testing | tee build/ipad-build.log
+          python3 - <<'PY'
+          import json,plistlib
+          p=plistlib.load(open('build/Build/Products/Debug-iphonesimulator/Quizfolk.app/Info.plist','rb'))
+          assert set(p['UIDeviceFamily'])=={1,2},p.get('UIDeviceFamily')
+          assert p.get('UISupportedInterfaceOrientations~iphone',p['UISupportedInterfaceOrientations'])==['UIInterfaceOrientationPortrait']
+          expected={'UIInterfaceOrientationPortrait','UIInterfaceOrientationPortraitUpsideDown','UIInterfaceOrientationLandscapeLeft','UIInterfaceOrientationLandscapeRight'}
+          assert set(p['UISupportedInterfaceOrientations~ipad'])==expected,p.get('UISupportedInterfaceOrientations~ipad')
+          assert not p.get('UIRequiresFullScreen',False),'iPad must support dynamic resizing'
+          json.dump({key:p.get(key) for key in ['UIDeviceFamily','UISupportedInterfaceOrientations','UISupportedInterfaceOrientations~iphone','UISupportedInterfaceOrientations~ipad','UIRequiresFullScreen']},open('build/ipad-configuration.json','w'),indent=2)
+          PY
+      - name: Validate native portrait, landscape and rotation layouts
+        run: |
+          set -o pipefail
+          xcodebuild -project Quizfolk.xcodeproj -scheme Quizfolk -destination "platform=iOS Simulator,id=$SIMULATOR_ID" -parallel-testing-enabled NO -only-testing:QuizfolkUITests/IPadUITests -maximum-test-execution-time-allowance 120 -derivedDataPath build -resultBundlePath build/IPadResults.xcresult CODE_SIGNING_ALLOWED=NO test-without-building | tee build/ipad-test.log
+      - name: Export original iPad UI screenshots
+        if: always()
+        run: |
+          if [ -d build/IPadResults.xcresult ]; then
+            xcrun xcresulttool export attachments --path build/IPadResults.xcresult --output-path build/IPadScreenshots || true
+          fi
+      - name: Upload native iPad layout evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Quizfolk-iPad-Layout
+          retention-days: 14
+          path: |
+            build/IPadResults.xcresult
+            build/IPadScreenshots
+            build/ipad-provenance.json
+            build/ipad-configuration.json
+            build/ipad-build.log
+            build/ipad-test.log

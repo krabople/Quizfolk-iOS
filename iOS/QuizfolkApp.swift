@@ -48,6 +48,7 @@ struct BrandHeader:View {
 }
 struct DiscoverView:View {
     @EnvironmentObject var store:QuizStore
+    @Environment(\.horizontalSizeClass) private var sizeClass
     @State private var search=""
     @State private var onlyFavourites=false
     @State private var randomTopic:Topic?
@@ -55,7 +56,7 @@ struct DiscoverView:View {
     private var visible:[Topic] {store.topics.filter{(!onlyFavourites || store.favourites.contains($0.id)) && (search.isEmpty || $0.name.localizedCaseInsensitiveContains(search))}}
     var body:some View {
         NavigationStack {
-            ScrollView {
+            QuizPageScroll(maxWidth:1180) {
                 BrandHeader(title:"Find your people.",subtitle:"A little knowledge. A great rivalry.")
                 HStack(spacing:12) {
                     Image(systemName:"magnifyingglass").foregroundStyle(.secondary)
@@ -78,7 +79,7 @@ struct DiscoverView:View {
                     Text("\(visible.count) topics").font(.caption).foregroundStyle(.secondary)
                 }.padding(.horizontal,22)
                 Text("Open a topic to play, see your level or view its league.").font(.caption).foregroundStyle(.secondary).padding(.horizontal,22)
-                LazyVGrid(columns:[GridItem(.flexible(),spacing:12),GridItem(.flexible(),spacing:12)],spacing:12) {
+                LazyVGrid(columns:QuizLayout.topicColumns(regular:sizeClass == .regular),spacing:12) {
                     ForEach(visible){topic in NavigationLink{TopicView(topic:topic)}label:{TopicTile(topic:topic,level:store.level(topic),favourite:store.favourites.contains(topic.id))}.buttonStyle(.plain).accessibilityIdentifier("topic-\(topic.id)")}
                 }.padding(.horizontal,22).padding(.vertical,12)
                 if visible.isEmpty {ContentUnavailableView("No topics found",systemImage:"magnifyingglass",description:Text("Try another search or choose some interests."))}
@@ -124,13 +125,14 @@ struct TopicTile:View {
 }
 struct InterestsView:View {
     @EnvironmentObject var store:QuizStore
+    @Environment(\.horizontalSizeClass) private var sizeClass
     @Environment(\.dismiss) var dismiss
     var body:some View {
         NavigationStack {
-            ScrollView {
+            QuizPageScroll(maxWidth:1000) {
                 Text("What makes you tick?").font(.system(size:29,weight:.bold,design:.rounded)).frame(maxWidth:.infinity,alignment:.leading).padding(.top,20)
                 Text("Pick the topics you love. You can change these any time.").foregroundStyle(.secondary).frame(maxWidth:.infinity,alignment:.leading).padding(.bottom,14)
-                LazyVGrid(columns:[GridItem(.flexible()),GridItem(.flexible())],spacing:10) {
+                LazyVGrid(columns:QuizLayout.topicColumns(regular:sizeClass == .regular),spacing:10) {
                     ForEach(store.topics){topic in
                         Button{store.toggle(topic)}label:{
                             HStack{Text(topic.emoji);Text(topic.name).font(.system(size:13,weight:.semibold));Spacer(minLength:0);Image(systemName:store.favourites.contains(topic.id) ? "checkmark.circle.fill":"circle")}.foregroundStyle(store.favourites.contains(topic.id) ? .white:Color.ink).padding(14).frame(maxWidth:.infinity,minHeight:68).background(store.favourites.contains(topic.id) ? topic.tint:.white,in:RoundedRectangle(cornerRadius:13))
@@ -138,36 +140,54 @@ struct InterestsView:View {
                     }
                 }
             }.padding(.horizontal,22).background(Color.canvas)
-            .safeAreaInset(edge:.bottom){Button("Let’s play\(store.favourites.isEmpty ? "":" · \(store.favourites.count) interests")"){dismiss()}.buttonStyle(PrimaryButton()).padding().background(Color.canvas)}
+            .safeAreaInset(edge:.bottom){Button("Let’s play\(store.favourites.isEmpty ? "":" · \(store.favourites.count) interests")"){dismiss()}.buttonStyle(PrimaryButton()).frame(maxWidth:700).padding().frame(maxWidth:.infinity).background(Color.canvas)}
             .toolbar{ToolbarItem(placement:.topBarTrailing){Button("Done"){dismiss()}}}
         }
     }
 }
 struct TopicView:View {
     @EnvironmentObject var store:QuizStore
+    @Environment(\.horizontalSizeClass) private var sizeClass
     let topic:Topic
     @State private var session:GameSession?
     @State private var rankings=false
     var body:some View {
-        ScrollView {
-            VStack(spacing:18) {
-                Text(topic.emoji).font(.system(size:64)).frame(width:112,height:112).background(topic.tint.opacity(0.15),in:Circle()).padding(.top,12)
-                Text(topic.name).font(.system(size:31,weight:.bold,design:.rounded)).multilineTextAlignment(.center)
-                Text("\(topic.questionCount) questions").font(.subheadline).foregroundStyle(.secondary)
-                Picker("Topic page",selection:$rankings){Text("Play & progress").tag(false);Text("League").tag(true)}.pickerStyle(.segmented).accessibilityIdentifier("topicSection")
-                if rankings {TopicLeaguePanel(topic:topic)}
-                else {
-                    TopicLevelProgress(topic:topic,xp:store.topicXP(topic))
-                    Button{store.toggle(topic)}label:{Label(store.favourites.contains(topic.id) ? "Following topic":"Follow topic",systemImage:store.favourites.contains(topic.id) ? "heart.fill":"heart")}.tint(topic.tint)
-                    HStack(spacing:0){stat("7","questions");stat("3s","to read");stat("10s","to answer")}.padding(.vertical,18).background(.white,in:RoundedRectangle(cornerRadius:18))
-                    Text("We search for a human first. You can meet another searcher or face a recorded human run. A labelled bot is offered after six seconds when nobody is available. Play your own questions on your own schedule.").font(.subheadline).foregroundStyle(.secondary)
-                    Button("Find a duel"){session=GameSession(topic:topic,store:store,online:true)}.buttonStyle(PrimaryButton(color:topic.tint))
-                    Button("Practise against a bot"){session=GameSession(topic:topic,store:store,online:false)}.font(.headline).padding(12).tint(topic.tint)
-                    Text("Correct: 11–20 points for speed. Final question counts double. Wrong answers and timeouts score zero. Maximum 160. One power-up per duel: Fifty Fifty removes two wrong options (5 coins); Double Choice gives one extra pick (10); Right Answer selects and submits the correct answer (25). The clock keeps running.").font(.caption).foregroundStyle(.secondary).multilineTextAlignment(.center)
+        GeometryReader { geometry in
+        QuizPageScroll(maxWidth:1100) {
+            Group {
+                if geometry.size.width>=780 {
+                    HStack(alignment:.top,spacing:32) {
+                        overview.frame(width:260)
+                        details.frame(maxWidth:.infinity)
+                    }
+                } else {
+                    VStack(spacing:18) {overview;details}
                 }
             }.padding(22)
         }.background(Color.canvas).foregroundStyle(Color.ink).navigationTitle(topic.name).navigationBarTitleDisplayMode(.inline).toolbar(.visible,for:.navigationBar)
-        .fullScreenCover(item:$session){game in GameView(game:game).environmentObject(store)}
+        }.fullScreenCover(item:$session){game in GameView(game:game).environmentObject(store)}
+    }
+    private var overview:some View {
+        VStack(spacing:18) {
+            Text(topic.emoji).font(.system(size:sizeClass == .regular ? 80:64)).frame(width:sizeClass == .regular ? 144:112,height:sizeClass == .regular ? 144:112).background(topic.tint.opacity(0.15),in:Circle()).padding(.top,12)
+            Text(topic.name).font(.system(size:31,weight:.bold,design:.rounded)).multilineTextAlignment(.center)
+            Text("\(topic.questionCount) questions").font(.subheadline).foregroundStyle(.secondary)
+        }.frame(maxWidth:.infinity)
+    }
+    private var details:some View {
+        VStack(spacing:18) {
+            Picker("Topic page",selection:$rankings){Text("Play & progress").tag(false);Text("League").tag(true)}.pickerStyle(.segmented).accessibilityIdentifier("topicSection")
+            if rankings {TopicLeaguePanel(topic:topic)}
+            else {
+                TopicLevelProgress(topic:topic,xp:store.topicXP(topic))
+                Button{store.toggle(topic)}label:{Label(store.favourites.contains(topic.id) ? "Following topic":"Follow topic",systemImage:store.favourites.contains(topic.id) ? "heart.fill":"heart")}.tint(topic.tint)
+                HStack(spacing:0){stat("7","questions");stat("3s","to read");stat("10s","to answer")}.padding(.vertical,18).background(.white,in:RoundedRectangle(cornerRadius:18))
+                Text("We search for a human first. You can meet another searcher or face a recorded human run. A labelled bot is offered after six seconds when nobody is available. Play your own questions on your own schedule.").font(.subheadline).foregroundStyle(.secondary)
+                Button("Find a duel"){session=GameSession(topic:topic,store:store,online:true)}.buttonStyle(PrimaryButton(color:topic.tint))
+                Button("Practise against a bot"){session=GameSession(topic:topic,store:store,online:false)}.font(.headline).padding(12).tint(topic.tint)
+                Text("Correct: 11–20 points for speed. Final question counts double. Wrong answers and timeouts score zero. Maximum 160. One power-up per duel: Fifty Fifty removes two wrong options (5 coins); Double Choice gives one extra pick (10); Right Answer selects and submits the correct answer (25). The clock keeps running.").font(.caption).foregroundStyle(.secondary).multilineTextAlignment(.center)
+            }
+        }
     }
     private func stat(_ value:String,_ label:String)->some View {VStack(spacing:5){Text(value).font(.system(size:25,weight:.bold,design:.rounded));Text(label).font(.caption).foregroundStyle(.secondary)}.frame(maxWidth:.infinity)}
 }

@@ -51,7 +51,7 @@ jobs:
           else: valid=lambda d:d['name'].startswith('iPhone') and d['name'].endswith(' Pro')
           device=next(d for d in devices if valid(d))
           with open(os.environ['GITHUB_ENV'],'a') as f:f.write('SIMULATOR_ID='+device['udid']+'\n')
-          json.dump({'device':device,'kind':kind,'source':os.environ['GITHUB_SHA'],'targetedDeviceFamily':'1','ipadPresentation':'iPhone compatibility mode; existing release behavior'},open('captures/provenance.json','w'),indent=2)
+          json.dump({'device':device,'kind':kind,'source':os.environ['GITHUB_SHA'],'targetedDeviceFamily':'1,2','ipadPresentation':'Native universal iPad layout; portrait capture'},open('captures/provenance.json','w'),indent=2)
           print(device['name'],device['udid'])
           PY
           SIMULATOR_ID=$(python3 -c 'import json; print(json.load(open("captures/provenance.json"))["device"]["udid"])')

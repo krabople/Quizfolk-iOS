@@ -1,6 +1,6 @@
-# Quizfolk for iPhone and Android
+# Quizfolk for iPhone, iPad and Android
 
-Native SwiftUI (iPhone) and Kotlin/Jetpack Compose (Android) apps inspired by the original QuizUp: follow topics, play seven-round timed duels, earn speed bonuses, practise against a labelled bot, review answers, track topic levels, and compete in monthly or all-time leagues.
+Native SwiftUI (iPhone and iPad) and Kotlin/Jetpack Compose (Android) apps inspired by the original QuizUp: follow topics, play seven-round timed duels, earn speed bonuses, practise against a labelled bot, review answers, track topic levels, and compete in monthly or all-time leagues.
 
 ## Included
 
@@ -25,16 +25,16 @@ emulator screen tests, then builds a signed installable APK and a Play AAB.
 See [Android setup and parity notes](android/README.md).
 
 The configured Android push testing release is
-[0.3.3 (14)](https://github.com/krabople/Quizfolk-iOS/releases/tag/android-v0.3.3-14-preview).
+[0.3.3 (15)](https://github.com/krabople/Quizfolk-iOS/releases/tag/android-v0.3.3-15-preview).
 It uses the existing signing certificate and the same service as iOS TestFlight
-0.3.3 (24). In **You → Notifications**, players can independently choose challenge,
+0.3.3 (25). In **You → Notifications**, players can independently choose challenge,
 duel result, tournament prize and friends tournament alerts. Both server providers
 are configured; physical-device delivery remains to be checked after opting in.
 See [push activation and verification](docs/push-notifications.md).
 
 ## Open in Xcode
 
-Requires macOS, Xcode 26 or later for App Store upload, and XcodeGen. Deployment target is iOS 17.0, iPhone only.
+Requires macOS, Xcode 26 or later for App Store upload, and XcodeGen. Deployment target is iOS/iPadOS 17.0. The universal app supports portrait on iPhone and portrait, landscape and resizable windows on iPad.
 
 ```sh
 brew install xcodegen

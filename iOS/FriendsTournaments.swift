@@ -17,17 +17,20 @@ struct FriendsBoard:Decodable {let party:FriendsTournament;let standings:[Friend
 
 struct FriendsTournamentsView:View {
  @EnvironmentObject private var store:QuizStore
+ @Environment(\.horizontalSizeClass) private var sizeClass
  @State private var rooms:[FriendsTournament]=[]
  @State private var error:String?
  @State private var composer=false
  var body:some View {
-  ScrollView {
+  QuizPageScroll(maxWidth:1000) {
    VStack(alignment:.leading,spacing:20) {
     Text("Home topic. Away topic. Bragging rights.").font(.system(size:27,weight:.bold,design:.rounded))
     Text("A private round-robin for 2–8 friends. Each pair plays one duel in each person’s home topic per cycle. Play together at a party or catch up later.").foregroundStyle(.secondary)
     Button("Create or join a tournament"){composer=true}.buttonStyle(PrimaryButton(color:.ink))
     Text("Your friends tournaments").font(.title3.bold())
+    LazyVGrid(columns:[GridItem(.adaptive(minimum:sizeClass == .regular ? 320:260),spacing:16)],spacing:16) {
     ForEach(rooms){room in NavigationLink{FriendsTournamentView(room:room)}label:{VStack(alignment:.leading,spacing:8){Text(room.name).font(.headline);Text("\(room.members) players · \(room.status.capitalized)").font(.caption).foregroundStyle(.secondary)}.frame(maxWidth:.infinity,alignment:.leading).padding(18).background(.white,in:RoundedRectangle(cornerRadius:16))}.buttonStyle(.plain)}
+    }
     if rooms.isEmpty,error==nil {Text("Create a tournament and share its invitation code with your friends.").font(.subheadline).foregroundStyle(.secondary)}
     if let error {Text(error).font(.caption).foregroundStyle(.red);Button("Try again"){Task{await reload()}}}
    }.padding(22)
@@ -102,6 +105,7 @@ struct FriendsTournamentComposer:View {
 struct FriendsTournamentView:View {
  @EnvironmentObject private var store:QuizStore
  let room:FriendsTournament
+ @Environment(\.horizontalSizeClass) private var sizeClass
  @State private var board:FriendsBoard?
  @State private var error:String?
  @State private var busy=false
@@ -110,7 +114,7 @@ struct FriendsTournamentView:View {
  @State private var cancel=false
  var current:FriendsTournament {board?.party ?? room}
  var body:some View {
-  ScrollView {
+  QuizPageScroll(maxWidth:1000) {
    VStack(alignment:.leading,spacing:20) {
     Text(current.name).font(.system(size:29,weight:.bold,design:.rounded))
     Text("Private · \(current.members) players · \(current.status.capitalized)").font(.subheadline).foregroundStyle(.secondary)
@@ -129,7 +133,9 @@ struct FriendsTournamentView:View {
     standings
     if let board,current.status != "lobby" {
      Text("Your matches").font(.title3.bold())
+     LazyVGrid(columns:[GridItem(.adaptive(minimum:sizeClass == .regular ? 320:260),spacing:16)],spacing:16) {
      ForEach(board.fixtures.filter{$0.a==board.selfID || $0.b==board.selfID}){f in fixture(f,board:board)}
+     }
     }
     VStack(alignment:.leading,spacing:8){Text("How this tournament works").font(.headline);Text("Each pair plays \(current.cycles*2) duels: both home topics in every cycle. Win 3 points, draw 1. Ties share a place. The board updates after both players finish. Unfinished matches score zero at the deadline.");Text(current.powers ? "One coin-funded power-up per duel is allowed.":"Power-ups are switched off for everyone.");Text(current.entryCoins==0 ? "Free tournament · no coin prizes or profile badges. Results appear when all duels finish or the deadline arrives.":"The entry pool pays the top three places and awards profile badges. Results appear when all duels finish or the deadline arrives.")}.font(.caption).foregroundStyle(.secondary)
     if let error {Text(error).font(.caption).foregroundStyle(.red)}

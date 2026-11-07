@@ -141,8 +141,8 @@ struct NotificationSettingsView:View {
             Section {
                 Toggle("Push notifications",isOn:choice(\.enabled)).accessibilityIdentifier("push-enabled")
                 if !store.notificationSettings.delivery.ios {Text("Push delivery is not available yet. Your choices will be saved.").font(.footnote).foregroundStyle(.secondary).accessibilityIdentifier("push-unavailable")}
-                else if push.permission == .denied {Text("Notifications are switched off in iPhone Settings. Your choices below are saved.").font(.footnote);Button("Open iPhone notification settings"){if let url=URL(string:UIApplication.openNotificationSettingsURLString){openURL(url)}}}
-                else if store.notificationSettings.preferences.enabled && !push.allowed {Button("Allow notifications on this iPhone"){Task{await push.askPermission();await store.syncNotificationDevice()}}}
+                else if push.permission == .denied {Text("Notifications are switched off in Settings. Your choices below are saved.").font(.footnote);Button("Open notification settings"){if let url=URL(string:UIApplication.openNotificationSettingsURLString){openURL(url)}}}
+                else if store.notificationSettings.preferences.enabled && !push.allowed {Button("Allow notifications on this device"){Task{await push.askPermission();await store.syncNotificationDevice()}}}
             } footer:{Text("Choose what you hear about. You can switch everything off at any time.")}
             Section("Notify me about") {
                 Toggle("New challenges",isOn:choice(\.challenges)).accessibilityIdentifier("push-challenges")
