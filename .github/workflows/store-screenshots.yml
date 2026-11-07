@@ -11,7 +11,7 @@ on:
         description: All screenshots or topic and league framing only
         type: choice
         default: all
-        options: [all, topic-league, topic-flow]
+        options: [all, topic-league, topic-flow, profile]
 permissions:
   contents: read
 jobs:
@@ -92,6 +92,8 @@ jobs:
             ONLY_TESTS=(-only-testing:QuizfolkUITests/StoreScreenshotTests/test01Topics -only-testing:QuizfolkUITests/StoreScreenshotTests/test05League)
           elif [ "$CAPTURE_SCENES" = "topic-flow" ]; then
             ONLY_TESTS=(-only-testing:QuizfolkUITests/StoreScreenshotTests/test02Gameplay -only-testing:QuizfolkUITests/StoreScreenshotTests/test04Progress -only-testing:QuizfolkUITests/StoreScreenshotTests/test05League)
+          elif [ "$CAPTURE_SCENES" = "profile" ]; then
+            ONLY_TESTS=(-only-testing:QuizfolkUITests/StoreScreenshotTests/test09Profile)
           fi
           xcodebuild test-without-building -xctestrun "$(cat captures/xctestrun-path)" -destination "platform=iOS Simulator,id=$SIMULATOR_ID" -parallel-testing-enabled NO "${ONLY_TESTS[@]}" -maximum-test-execution-time-allowance 120 -resultBundlePath captures/StoreScreenshots.xcresult | tee captures/test.log
       - name: Export original screenshots

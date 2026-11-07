@@ -26,7 +26,7 @@ import Foundation
         object["topics"]=[["topicID":"22","xp":xp,"level":TopicLevelling.progress(xp:xp).level,"matches":24,"wins":16],["topicID":"11","xp":2300,"level":2,"matches":14,"wins":8]]
         object["titles"]=[["id":"newcomer","name":"Newcomer"]];object["selectedTitle"]="newcomer"
         object["discoverable"]=true;object["challengesOpen"]=true
-        object["headToHead"]=["games":9,"wins":5,"draws":1,"losses":3]
+        object["headToHead"]=["games":10,"wins":5,"draws":2,"losses":3]
         object["badges"]=[["id":"first","name":"First duel","symbol":"bolt.fill","earned":true],["id":"podium","name":"Geography champion","symbol":"trophy.fill","earned":true,"topicID":"22","kind":"daily","rank":1]]
         object["displayBadge"]=prizeObject
         return decode(object)
