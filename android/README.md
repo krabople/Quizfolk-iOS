@@ -8,7 +8,8 @@ bank is copied into the app by Gradle; there is no separate Android question set
 
 The same APK supports phones and tablets. Tablets use the full native window in
 portrait and landscape, with adaptive topic and tournament grids, a navigation
-rail in wide windows, and larger quiz controls. Landscape quizzes place the
+rail in wide windows with sufficient height, and larger quiz controls. Short
+windows keep bottom navigation so every destination stays reachable. Landscape quizzes place the
 question and player progress beside the four answers. Rotating preserves the
 active match, question and score. Narrow and split-screen windows reflow to the
 compact layout; phones retain their portrait presentation.

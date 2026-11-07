@@ -129,14 +129,17 @@ class TabletLayoutTest {
     @Test fun playableDuelPreservesScoreAndQuestionAcrossRotation() {
         ready()
         compose.runOnUiThread { store.game = GameSession(store, store.topic("22"), false) }
-        waitFor("startDuel", 15000); tap("startDuel"); assertAllAnswersVisible()
-        compose.onNodeWithTag("answerTimeBar").assertIsDisplayed(); capture("Question-Portrait")
+        waitFor("startDuel", 15000); tap("startDuel"); waitFor("answer-0")
         val session = compose.runOnIdle { store.game!! }
         val correct = compose.runOnIdle { session.question!!.correctIndex }
+        // Submit while the real ten-second clock is running. Layout inspection and
+        // screenshot encoding follow the answer, so CI rendering cannot consume it.
         tap("answer-$correct"); waitFor("advanceQuestion")
         val score = compose.runOnIdle { session.score }
         val question = compose.runOnIdle { session.question!!.id }
         assertTrue("First correct answer must award points", score > 0)
+        assertAllAnswersVisible(); compose.onNodeWithTag("answerTimeBar").assertIsDisplayed()
+        capture("AnswerReview-Portrait")
         rotate(true); assertNativeWindow()
         compose.runOnIdle {
             assertSame("Rotation must keep the active duel", session, store.game)
@@ -144,7 +147,7 @@ class TabletLayoutTest {
             assertTrue(session.revealed); assertEquals(1, session.rounds.size)
         }
         compose.onNodeWithTag("advanceQuestion").assertIsDisplayed(); capture("AnswerReview-Landscape")
-        tap("advanceQuestion"); assertAllAnswersVisible(); capture("Question-Landscape")
+        tap("advanceQuestion"); waitFor("answer-0"); capture("Question-Landscape"); assertAllAnswersVisible()
         compose.runOnIdle { assertEquals(1, session.round); assertEquals(score, session.score) }
         val secondQuestion = compose.runOnIdle { session.question!!.id }
         rotate(false)

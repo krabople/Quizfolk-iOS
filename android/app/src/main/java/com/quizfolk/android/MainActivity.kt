@@ -85,7 +85,7 @@ class MainActivity : ComponentActivity() {
         else {
             BackHandler(store.pages.isNotEmpty()) { store.back() }
             BoxWithConstraints(Modifier.fillMaxSize()) {
-                val rail = maxWidth >= 840.dp
+                val rail = maxWidth >= 840.dp && maxHeight >= 600.dp
                 val labels = listOf("Discover", "Duels", "Tournaments", "People", "You")
                 val icons = listOf(Icons.Default.GridView, Icons.Default.Bolt, Icons.Default.EmojiEvents, Icons.Default.People, Icons.Default.AccountCircle)
                 val navigate: (Int) -> Unit = { store.tab = it; store.pages.clear() }
