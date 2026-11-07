@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
 
-const QF_DOWNLOAD_FILE='Quizfolk-Android-0.3.3-14.apk';
-const QF_DOWNLOAD_VERSION='0.3.3 (14)';
+const QF_DOWNLOAD_FILE='Quizfolk-Android-0.3.3-15.apk';
+const QF_DOWNLOAD_VERSION='0.3.3 (15)';
 
 function qf_metrics_config():array {
     $config=require __DIR__.'/private/config.php';
