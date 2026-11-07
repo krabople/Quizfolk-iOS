@@ -84,7 +84,7 @@ struct DiscoverView:View {
                 }.padding(.horizontal,22).padding(.vertical,12)
                 if visible.isEmpty {ContentUnavailableView("No topics found",systemImage:"magnifyingglass",description:Text("Try another search or choose some interests."))}
                 Text("\(store.questions.count.formatted()) questions. So many ways to shine.").font(.caption).foregroundStyle(.secondary).padding(.bottom,20)
-            }.background(Color.canvas).toolbar(.hidden,for:.navigationBar)
+            }.background(Color.canvas).navigationBarTitleDisplayMode(.inline).toolbar(.hidden,for:.navigationBar)
         }.sheet(isPresented:$interests){InterestsView()}
          .sheet(item:$randomTopic){topic in NavigationStack{TopicView(topic:topic).toolbar{ToolbarItem(placement:.topBarTrailing){Button("Done"){randomTopic=nil}}}}}
     }
@@ -165,8 +165,12 @@ struct TopicView:View {
                 }
             }.padding(22)
         }
-        .background(GeometryReader { geometry in Color.clear.preference(key:TopicPageWidth.self,value:geometry.size.width) })
-        .onPreferenceChange(TopicPageWidth.self){pageWidth=$0}
+        .frame(maxWidth:.infinity,maxHeight:.infinity)
+        .background(GeometryReader { geometry in
+            Color.clear
+                .onAppear{pageWidth=geometry.size.width}
+                .onChange(of:geometry.size.width){_,width in pageWidth=width}
+        })
         .background(Color.canvas).foregroundStyle(Color.ink)
         .navigationTitle(topic.name).navigationBarTitleDisplayMode(.inline).toolbar(.visible,for:.navigationBar)
         .fullScreenCover(item:$session){game in GameView(game:game).environmentObject(store)}
@@ -176,7 +180,7 @@ struct TopicView:View {
             Text(topic.emoji).font(.system(size:sizeClass == .regular ? 80:64)).frame(width:sizeClass == .regular ? 144:112,height:sizeClass == .regular ? 144:112).background(topic.tint.opacity(0.15),in:Circle()).padding(.top,12)
             Text(topic.name).font(.system(size:31,weight:.bold,design:.rounded)).multilineTextAlignment(.center)
             Text("\(topic.questionCount) questions").font(.subheadline).foregroundStyle(.secondary)
-        }.frame(maxWidth:.infinity)
+        }.frame(maxWidth:.infinity).accessibilityElement(children:.contain).accessibilityIdentifier("topicOverview")
     }
     private var details:some View {
         VStack(spacing:18) {
@@ -194,10 +198,6 @@ struct TopicView:View {
         }
     }
     private func stat(_ value:String,_ label:String)->some View {VStack(spacing:5){Text(value).font(.system(size:25,weight:.bold,design:.rounded));Text(label).font(.caption).foregroundStyle(.secondary)}.frame(maxWidth:.infinity)}
-}
-private struct TopicPageWidth:PreferenceKey {
-    static let defaultValue:CGFloat=0
-    static func reduce(value:inout CGFloat,nextValue:()->CGFloat){value=nextValue()}
 }
 struct PrimaryButton:ButtonStyle {
     var color:Color = .coral
