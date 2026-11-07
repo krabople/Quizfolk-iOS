@@ -122,7 +122,9 @@ final class DuelUITests:XCTestCase {
         XCTAssertTrue(card.waitForExistence(timeout:8));capture("People");card.tap()
         XCTAssertTrue(app.buttons["followPlayer"].waitForExistence(timeout:8));app.buttons["followPlayer"].tap()
         XCTAssertTrue(app.buttons["Following"].waitForExistence(timeout:5))
-        XCTAssertTrue(app.descendants(matching:.any).matching(identifier:"headToHead").firstMatch.exists)
+        let rivalry=app.descendants(matching:.any).matching(identifier:"headToHead").firstMatch
+        XCTAssertTrue(rivalry.exists)
+        XCTAssertTrue(rivalry.label.contains("1 draw · 3 completed meetings"),"A single drawn game must use the singular label")
         capture("RivalProfile")
         app.buttons["challengePlayer"].tap()
         XCTAssertTrue(app.buttons["sendChallenge"].waitForExistence(timeout:5));capture("ChallengeComposer")

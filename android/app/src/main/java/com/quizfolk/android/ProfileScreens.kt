@@ -142,8 +142,8 @@ import java.util.UUID
     }
 }
 @Composable fun Rivalry(tally: J) = Panel(Modifier.testTag("headToHead")) {
-    Hint("YOUR RIVALRY · ${tally.n("games")} GAMES")
-    Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceAround) { Metric("${tally.n("wins")}", "Your wins"); Metric("${tally.n("draws")}", "Draws"); Metric("${tally.n("losses")}", "Their wins") }
+    Hint("YOUR RIVALRY · ${tally.n("games")} ${if (tally.n("games") == 1) "GAME" else "GAMES"}")
+    Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceAround) { Metric("${tally.n("wins")}", "Your wins"); Metric("${tally.n("draws")}", if (tally.n("draws") == 1) "Draw" else "Draws"); Metric("${tally.n("losses")}", "Their wins") }
 }
 @Composable fun PublicPreferences(store: QuizStore, card: J, refresh: () -> Unit) {
     var discoverable by remember(card) { mutableStateOf(card.b("discoverable")) }; var challenges by remember(card) { mutableStateOf(card.b("challengesOpen")) }

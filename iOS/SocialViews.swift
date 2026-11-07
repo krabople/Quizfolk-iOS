@@ -125,7 +125,7 @@ struct PublicPlayerView:View {
 struct HeadToHeadView:View {
  let name:String;let tally:HeadToHead
  var body:some View {
-  VStack(spacing:12){Text("YOUR HEAD-TO-HEAD").font(.system(size:11,weight:.black)).tracking(1);HStack{record("You",tally.wins);Text("–").font(.title.bold());record(name,tally.losses)};Text("\(tally.draws) draws · \(tally.games) completed meetings").font(.caption).foregroundStyle(.secondary)}.padding(18).frame(maxWidth:.infinity).background(Color.coral.opacity(0.1),in:RoundedRectangle(cornerRadius:18)).accessibilityElement(children:.combine).accessibilityIdentifier("headToHead")
+  VStack(spacing:12){Text("YOUR HEAD-TO-HEAD").font(.system(size:11,weight:.black)).tracking(1);HStack{record("You",tally.wins);Text("–").font(.title.bold());record(name,tally.losses)};Text("\(tally.draws) \(tally.draws == 1 ? "draw":"draws") · \(tally.games) completed \(tally.games == 1 ? "meeting":"meetings")").font(.caption).foregroundStyle(.secondary)}.padding(18).frame(maxWidth:.infinity).background(Color.coral.opacity(0.1),in:RoundedRectangle(cornerRadius:18)).accessibilityElement(children:.combine).accessibilityIdentifier("headToHead")
  }
  private func record(_ name:String,_ wins:Int)->some View {VStack{Text("\(wins)").font(.system(size:35,weight:.heavy,design:.rounded));Text(name).font(.caption).lineLimit(1)}.frame(maxWidth:.infinity)}
 }

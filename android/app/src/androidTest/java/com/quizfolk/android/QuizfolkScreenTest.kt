@@ -55,7 +55,8 @@ class QuizfolkScreenTest {
         tapTag("segment-League"); text("This month").assertExists(); text("All time").assertExists(); capture("TopicLeague")
         compose.onNodeWithTag("league-player-test-rival").performScrollTo().performClick()
         compose.waitUntil(5000) { compose.onAllNodesWithTag("followPlayer").fetchSemanticsNodes().isNotEmpty() }
-        tapTag("followPlayer"); compose.waitUntil(5000) { compose.onAllNodesWithText("Following").fetchSemanticsNodes().isNotEmpty() }; capture("ProfileFromLeague")
+        tapTag("followPlayer"); compose.waitUntil(5000) { compose.onAllNodesWithText("Following").fetchSemanticsNodes().isNotEmpty() }
+        text("Draw").assertExists(); text("Draws").assertDoesNotExist(); capture("ProfileFromLeague")
     }
     @Test fun settledDuelShowsLevelUpAndHistoryDoesNotCelebrateAgain() {
         ready()
