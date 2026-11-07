@@ -151,11 +151,11 @@ struct TopicView:View {
     let topic:Topic
     @State private var session:GameSession?
     @State private var rankings=false
+    @State private var pageWidth:CGFloat=0
     var body:some View {
-        GeometryReader { geometry in
         QuizPageScroll(maxWidth:1100) {
             Group {
-                if geometry.size.width>=780 {
+                if pageWidth>=780 {
                     HStack(alignment:.top,spacing:32) {
                         overview.frame(width:260)
                         details.frame(maxWidth:.infinity)
@@ -164,8 +164,12 @@ struct TopicView:View {
                     VStack(spacing:18) {overview;details}
                 }
             }.padding(22)
-        }.background(Color.canvas).foregroundStyle(Color.ink).navigationTitle(topic.name).navigationBarTitleDisplayMode(.inline).toolbar(.visible,for:.navigationBar)
-        }.fullScreenCover(item:$session){game in GameView(game:game).environmentObject(store)}
+        }
+        .background(GeometryReader { geometry in Color.clear.preference(key:TopicPageWidth.self,value:geometry.size.width) })
+        .onPreferenceChange(TopicPageWidth.self){pageWidth=$0}
+        .background(Color.canvas).foregroundStyle(Color.ink)
+        .navigationTitle(topic.name).navigationBarTitleDisplayMode(.inline).toolbar(.visible,for:.navigationBar)
+        .fullScreenCover(item:$session){game in GameView(game:game).environmentObject(store)}
     }
     private var overview:some View {
         VStack(spacing:18) {
@@ -190,6 +194,10 @@ struct TopicView:View {
         }
     }
     private func stat(_ value:String,_ label:String)->some View {VStack(spacing:5){Text(value).font(.system(size:25,weight:.bold,design:.rounded));Text(label).font(.caption).foregroundStyle(.secondary)}.frame(maxWidth:.infinity)}
+}
+private struct TopicPageWidth:PreferenceKey {
+    static let defaultValue:CGFloat=0
+    static func reduce(value:inout CGFloat,nextValue:()->CGFloat){value=nextValue()}
 }
 struct PrimaryButton:ButtonStyle {
     var color:Color = .coral
