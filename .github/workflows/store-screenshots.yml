@@ -40,7 +40,8 @@ jobs:
           json.dump({'device':device,'kind':kind,'source':os.environ['GITHUB_SHA'],'targetedDeviceFamily':'1','ipadPresentation':'iPhone compatibility mode; existing release behavior'},open('captures/provenance.json','w'),indent=2)
           print(device['name'],device['udid'])
           PY
-          xcrun simctl boot "$SIMULATOR_ID"
+          SIMULATOR_ID=$(python3 -c 'import json; print(json.load(open("captures/provenance.json"))["device"]["udid"])')
+          xcrun simctl boot "$SIMULATOR_ID" || true
           xcrun simctl bootstatus "$SIMULATOR_ID" -b
           xcrun simctl status_bar "$SIMULATOR_ID" override --time '9:41' --dataNetwork wifi --wifiMode active --wifiBars 3 --batteryState charged --batteryLevel 100
       - name: Build existing app and capture suite
