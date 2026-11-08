@@ -21,7 +21,8 @@ function tournament_schema(PDO $db):void {
       CREATE TABLE IF NOT EXISTS tournament_daily_schedule(day INTEGER PRIMARY KEY,event_ids TEXT NOT NULL);
       CREATE TABLE IF NOT EXISTS question_seen(player_id TEXT REFERENCES players(id) ON DELETE CASCADE,question_id TEXT NOT NULL,topic TEXT NOT NULL,PRIMARY KEY(player_id,question_id));
       CREATE TABLE IF NOT EXISTS tournament_legacy_prize_floor(event_id TEXT PRIMARY KEY REFERENCES tournament_events(id),coins INTEGER NOT NULL);');
-    $db->exec('CREATE TABLE IF NOT EXISTS tournament_fixed_prizes_v1(event_id TEXT PRIMARY KEY REFERENCES tournament_events(id),applied INTEGER NOT NULL)');
+    $db->exec('CREATE TABLE IF NOT EXISTS tournament_fixed_prizes_v1(event_id TEXT PRIMARY KEY REFERENCES tournament_events(id),applied INTEGER NOT NULL);
+        CREATE TABLE IF NOT EXISTS tournament_prize_policies(event_id TEXT PRIMARY KEY REFERENCES tournament_events(id),version INTEGER NOT NULL,prizes TEXT NOT NULL,applied INTEGER NOT NULL)');
     if(!in_array('question_keys',array_column($db->query('PRAGMA table_info(tournament_runs)')->fetchAll(),'name'),true)) {
         try {$db->exec('ALTER TABLE tournament_runs ADD COLUMN question_keys TEXT NOT NULL DEFAULT "{}"');}
         catch(PDOException $e) {if(!in_array('question_keys',array_column($db->query('PRAGMA table_info(tournament_runs)')->fetchAll(),'name'),true))throw $e;}
@@ -41,35 +42,57 @@ function tournament_wallet(PDO $db,string $pid):array {
     }
     return ['coins'=>(int)$w['coins'],'tickets'=>(int)$w['tickets'],'dailyClaimed'=>(bool)sql($db,'SELECT 1 FROM tournament_ledger WHERE player_id=? AND reference=?',[$pid,'daily:'.gmdate('Y-m-d')])->fetch()];
 }
-function tournament_seed(PDO $db):void {
-    $topics=json_decode(file_get_contents(dirname(__DIR__).'/data/categories.json'),true);$n=count($topics);$day=(int)floor(time()/86400);$start=$day*86400;
+function tournament_apply_public_policy(PDO $db,int $now):void {
+    // The caller holds its ordinary write transaction. Refund only actual coin
+    // entry debits for still-open public events, once per paid run. Never
+    // infer payment from an event's old advertised price or charge a shortfall.
+    $overpaid=sql($db,'SELECT r.id,r.player_id,-l.coins-CASE WHEN e.kind="daily" THEN 25 ELSE 50 END refund FROM tournament_runs r
+        JOIN tournament_events e ON e.id=r.event_id
+        JOIN tournament_ledger l ON l.player_id=r.player_id AND l.reference="entry:"||r.id
+        WHERE e.kind IN ("daily","weekly") AND e.settled=0 AND e.starts<=? AND e.ends>?
+        AND -l.coins > CASE WHEN e.kind="daily" THEN 25 ELSE 50 END
+        AND NOT EXISTS(SELECT 1 FROM tournament_ledger f WHERE f.player_id=r.player_id AND f.reference="public-entry-v2:"||r.id)',[$now,$now])->fetchAll();
+    foreach($overpaid as $paid)tournament_credit($db,$paid['player_id'],'public-entry-v2:'.$paid['id'],(int)$paid['refund'],0);
+    // Ended and settled events retain their historical entry terms. Upcoming
+    // public events also use the new fee; private friends events are untouched.
+    sql($db,'UPDATE tournament_events SET coins=CASE WHEN kind="weekly" THEN 50 ELSE 25 END,tickets=0 WHERE kind IN ("daily","weekly") AND settled=0 AND ends>?',[$now]);
+    // Snapshot legacy terms for history before assigning the new advertised
+    // policy only to open/upcoming events. Future settlement reads this record,
+    // never a global current-prize constant that could relabel older results.
+    foreach(sql($db,'SELECT e.* FROM tournament_events e WHERE e.kind IN ("daily","weekly") AND NOT EXISTS(SELECT 1 FROM tournament_prize_policies p WHERE p.event_id=e.id)')->fetchAll() as $event) {
+        sql($db,'INSERT INTO tournament_prize_policies VALUES(?,1,?,?)',[$event['id'],json_encode(tournament_fixed_prizes($event['kind'])),$now]);
+    }
+    foreach(sql($db,'SELECT e.id,e.kind FROM tournament_events e JOIN tournament_prize_policies p ON p.event_id=e.id WHERE e.kind IN ("daily","weekly") AND e.settled=0 AND e.ends>? AND p.version<2',[$now])->fetchAll() as $event) {
+        sql($db,'UPDATE tournament_prize_policies SET version=2,prizes=?,applied=? WHERE event_id=?',[
+            json_encode($event['kind']==='daily'?[500,250,125]:[1000,500,250]),$now,$event['id']]);
+    }
+}
+function tournament_seed(PDO $db,?int $now=null):void {
+    $now ??= time();$topics=json_decode(file_get_contents(dirname(__DIR__).'/data/categories.json'),true);$n=count($topics);$day=intdiv($now,86400);$start=$day*86400;
     // Preserve a small promised prize for already-entered free legacy events.
     // New tournaments always have entry coins and never receive this subsidy.
     sql($db,'INSERT OR IGNORE INTO tournament_legacy_prize_floor SELECT id,25 FROM tournament_events e WHERE kind IN ("daily","weekly") AND settled=0 AND coins=0 AND tickets=0 AND EXISTS(SELECT 1 FROM tournament_runs r WHERE r.event_id=e.id)');
-    $db->exec('UPDATE tournament_events SET coins=CASE WHEN kind="weekly" THEN 100 WHEN coins+tickets*25<25 THEN 25 ELSE coins+tickets*25 END,tickets=0 WHERE kind IN ("daily","weekly") AND settled=0');
     if(!sql($db,'SELECT 1 FROM tournament_daily_schedule WHERE day=?',[$start])->fetch()) {
-        $featured=[];
-        for($i=0;$i<3;$i++) {
-            $coins=25*($i+1);$tickets=0;
-            // Keep the most-used existing event in each entry tier when an older
-            // release has already created six. Never delete or change paid runs.
-            $existing=sql($db,'SELECT e.id FROM tournament_events e WHERE kind="daily" AND starts=? AND coins=? AND tickets=? ORDER BY (SELECT COUNT(*) FROM tournament_runs r WHERE r.event_id=e.id) DESC,e.id LIMIT 1',[$start,$coins,$tickets])->fetchColumn();
-            if($existing){$featured[]=$existing;continue;}
+        // Select existing IDs once, independently of price. Repeated tier
+        // queries would now select the same25-coin event three times.
+        $featured=sql($db,'SELECT e.id FROM tournament_events e WHERE kind="daily" AND starts=? ORDER BY (SELECT COUNT(*) FROM tournament_runs r WHERE r.event_id=e.id) DESC,e.id LIMIT 3',[$start])->fetchAll(PDO::FETCH_COLUMN);
+        for($i=count($featured);$i<3;$i++) {
             for($j=0;$j<$n;$j++) {
-                $topic=$topics[($day*3+$i+$j)%$n]['id'];$id=gmdate('Ymd').':'.$topic;
+                $topic=$topics[($day*3+$i+$j)%$n]['id'];$id=gmdate('Ymd',$start).':'.$topic;
                 if(!sql($db,'SELECT 1 FROM tournament_events WHERE id=?',[$id])->fetch())break;
             }
-            sql($db,'INSERT INTO tournament_events(id,topic,kind,starts,ends,coins,tickets) VALUES(?,?,?,?,?,?,?)',[$id,$topic,'daily',$start,$start+86400,$coins,$tickets]);
+            sql($db,'INSERT INTO tournament_events(id,topic,kind,starts,ends,coins,tickets) VALUES(?,?,?,?,?,?,?)',[$id,$topic,'daily',$start,$start+86400,25,0]);
             $featured[]=$id;
         }
         // Persist the selection so rankings/activity never change today's topics.
         sql($db,'INSERT INTO tournament_daily_schedule VALUES(?,?)',[$start,json_encode($featured)]);
     }
-    $week=strtotime('monday this week 00:00 UTC');
+    $week=strtotime('monday this week 00:00 UTC',$now);
     for($i=0;$i<3;$i++) {
         $topic=$topics[((int)floor($week/604800)*3+$i)%$n]['id'];
-        sql($db,'INSERT OR IGNORE INTO tournament_events(id,topic,kind,starts,ends,coins,tickets) VALUES(?,?,?,?,?,?,?)',['week:'.gmdate('Ymd',$week).':'.$topic,$topic,'weekly',$week,$week+604800,100,0]);
+        sql($db,'INSERT OR IGNORE INTO tournament_events(id,topic,kind,starts,ends,coins,tickets) VALUES(?,?,?,?,?,?,?)',['week:'.gmdate('Ymd',$week).':'.$topic,$topic,'weekly',$week,$week+604800,50,0]);
     }
+    tournament_apply_public_policy($db,$now);
 }
 function tournament_featured(PDO $db,array $e):bool {
     if($e['kind']!=='daily')return true;
@@ -96,8 +119,8 @@ function tournament_standings(PDO $db,string $id):array {
     }unset($r);return $rows;
 }
 function tournament_prize_pool(PDO $db,string $id):int {
-    $kind=(string)sql($db,'SELECT kind FROM tournament_events WHERE id=?',[$id])->fetchColumn();
-    if($fixed=tournament_fixed_prizes($kind))return array_sum($fixed);
+    $event=sql($db,'SELECT id,kind FROM tournament_events WHERE id=?',[$id])->fetch();
+    if($event && ($fixed=tournament_event_prizes($db,$event)))return array_sum($fixed);
     $paid=(int)sql($db,'SELECT COALESCE(SUM(-l.coins-l.tickets*25),0) FROM tournament_runs r JOIN tournament_ledger l ON l.player_id=r.player_id AND l.reference="entry:"||r.id WHERE r.event_id=?',[$id])->fetchColumn();
     $legacy=(int)sql($db,'SELECT coins FROM tournament_legacy_prize_floor WHERE event_id=?',[$id])->fetchColumn();
     return max(0,$paid,$legacy);
@@ -109,7 +132,14 @@ function tournament_prize(int $pool,array $rows,int $rank):int {
     return $tied ? (int)floor($pool*$percentage/(100*$tied)):0;
 }
 function tournament_fixed_prizes(string $kind):?array {
+    // Historical v1 terms. Keep these unchanged for old event snapshots and the
+    // existing v1 missing-prize reconciliation; this is not the current policy.
     return match($kind){'daily'=>[150,100,50],'weekly'=>[500,250,125],default=>null};
+}
+function tournament_event_prizes(PDO $db,array $event):?array {
+    if(!in_array($event['kind'],['daily','weekly'],true))return null;
+    $snapshot=sql($db,'SELECT prizes FROM tournament_prize_policies WHERE event_id=?',[$event['id']])->fetchColumn();
+    return $snapshot!==false ? json_decode($snapshot,true,8,JSON_THROW_ON_ERROR):tournament_fixed_prizes($event['kind']);
 }
 function tournament_fixed_reward(array $prizes,array $rows,int $rank):int {
     $tied=count(array_filter($rows,fn($r)=>(int)$r['rank']===$rank));$coins=0;
@@ -124,7 +154,7 @@ function tournament_settle(PDO $db):void {
         if($e['kind']==='party' && (int)$e['coins']===0){sql($db,'UPDATE tournament_events SET settled=1 WHERE id=?',[$e['id']]);continue;}
         $rows=tournament_standings($db,$e['id']);$pool=tournament_prize_pool($db,$e['id']);
         foreach($rows as $r) {
-            $fixed=tournament_fixed_prizes($e['kind']);
+            $fixed=tournament_event_prizes($db,$e);
             $reward=$fixed ? tournament_fixed_reward($fixed,$rows,(int)$r['rank']):tournament_prize($pool,$rows,(int)$r['rank']);
             sql($db,'INSERT OR IGNORE INTO tournament_places VALUES(?,?,?,?,?,?)',[$e['id'],$r['player_id'],$r['rank'],(int)$r['score'],$r['streak'],$reward]);
             if($reward)tournament_credit($db,$r['player_id'],'prize:'.$e['id'],$reward,0);
@@ -137,7 +167,7 @@ function tournament_settle(PDO $db):void {
 function tournament_reconcile_fixed_prizes(PDO $db):void {
     // Runs inside the caller's write transaction. Preserve every prior credit;
     // add only an unpaid shortfall, once per event, including legacy zero prizes.
-    foreach(sql($db,'SELECT e.* FROM tournament_events e WHERE e.settled=1 AND e.kind IN ("daily","weekly") AND NOT EXISTS(SELECT 1 FROM tournament_fixed_prizes_v1 f WHERE f.event_id=e.id)')->fetchAll() as $e) {
+    foreach(sql($db,'SELECT e.* FROM tournament_events e WHERE e.settled=1 AND e.kind IN ("daily","weekly") AND NOT EXISTS(SELECT 1 FROM tournament_fixed_prizes_v1 f WHERE f.event_id=e.id) AND NOT EXISTS(SELECT 1 FROM tournament_prize_policies p WHERE p.event_id=e.id AND p.version>=2)')->fetchAll() as $e) {
         $rows=sql($db,'SELECT * FROM tournament_places WHERE event_id=? ORDER BY rank,player_id',[$e['id']])->fetchAll();
         foreach($rows as $r) {
             $paid=(int)sql($db,'SELECT COALESCE(SUM(coins),0) FROM tournament_ledger WHERE player_id=? AND reference IN (?,?)',[$r['player_id'],'prize:'.$e['id'],'fixed-prizes-v1:'.$e['id']])->fetchColumn();
@@ -155,7 +185,8 @@ function tournament_card(PDO $db,string $pid,array $e):array {
     $best=sql($db,'SELECT MAX(score) score,MAX(streak) streak,COUNT(*) attempts FROM tournament_runs WHERE event_id=? AND player_id=?',[$e['id'],$pid])->fetch();
     $active=sql($db,'SELECT id FROM tournament_runs WHERE event_id=? AND player_id=? AND state="playing" ORDER BY created DESC LIMIT 1',[$e['id'],$pid])->fetchColumn();
     $place=sql($db,'SELECT rank,reward FROM tournament_places WHERE event_id=? AND player_id=?',[$e['id'],$pid])->fetch();
-    return ['prizes'=>tournament_fixed_prizes($e['kind']),'prizePolicy'=>tournament_fixed_prizes($e['kind'])?'fixed':'entryPool','id'=>$e['id'],'topicID'=>$e['topic'],'kind'=>$e['kind'],'starts'=>(int)$e['starts'],'ends'=>(int)$e['ends'],'coins'=>(int)$e['coins'],'tickets'=>0,'closed'=>(bool)$e['settled'],'featured'=>tournament_featured($db,$e),'prizePool'=>tournament_prize_pool($db,$e['id']),'best'=>(int)$best['score'],'streak'=>(int)$best['streak'],'attempts'=>(int)$best['attempts'],'players'=>(int)sql($db,'SELECT COUNT(DISTINCT player_id) FROM tournament_runs WHERE event_id=?',[$e['id']])->fetchColumn(),'activeRun'=>$active ?: null,'rank'=>$place ? (int)$place['rank']:null,'reward'=>$place ? (int)$place['reward']:0];
+    $prizes=tournament_event_prizes($db,$e);
+    return ['prizes'=>$prizes,'prizePolicy'=>$prizes?'fixed':'entryPool','id'=>$e['id'],'topicID'=>$e['topic'],'kind'=>$e['kind'],'starts'=>(int)$e['starts'],'ends'=>(int)$e['ends'],'coins'=>(int)$e['coins'],'tickets'=>0,'closed'=>(bool)$e['settled'],'featured'=>tournament_featured($db,$e),'prizePool'=>tournament_prize_pool($db,$e['id']),'best'=>(int)$best['score'],'streak'=>(int)$best['streak'],'attempts'=>(int)$best['attempts'],'players'=>(int)sql($db,'SELECT COUNT(DISTINCT player_id) FROM tournament_runs WHERE event_id=?',[$e['id']])->fetchColumn(),'activeRun'=>$active ?: null,'rank'=>$place ? (int)$place['rank']:null,'reward'=>$place ? (int)$place['reward']:0];
 }
 function tournament_question(PDO $db,array &$r,?PDO $qdb=null):?array {
     $deck=json_decode($r['deck'],true);$turn=(int)$r['turn'];$oldID=$deck[$turn] ?? null;

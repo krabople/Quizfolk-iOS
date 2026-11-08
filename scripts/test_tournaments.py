@@ -19,10 +19,10 @@ listing=req('tournaments',token=a)
 assert len([e for e in listing['events'] if e['kind']=='daily' and e['featured']])==3
 assert len([e for e in listing['events'] if e['kind']=='weekly'])==3
 assert listing['wallet']=={'coins':100,'tickets':0,'dailyClaimed':False}
-assert sorted(e['coins'] for e in listing['events'] if e['kind']=='daily')==[25,50,75]
-assert all(e['coins']==100 for e in listing['events'] if e['kind']=='weekly')
+assert sorted(e['coins'] for e in listing['events'] if e['kind']=='daily')==[25,25,25]
+assert all(e['coins']==50 for e in listing['events'] if e['kind']=='weekly')
 assert all(e['tickets']==0 for e in listing['events'])
-assert all(e['prizes']==([150,100,50] if e['kind']=='daily' else [500,250,125]) and e['prizePool']==(300 if e['kind']=='daily' else 875) and e['prizePolicy']=='fixed' for e in listing['events'])
+assert all(e['prizes']==([500,250,125] if e['kind']=='daily' else [1000,500,250]) and e['prizePool']==(875 if e['kind']=='daily' else 1750) and e['prizePolicy']=='fixed' for e in listing['events'])
 assert 'Daily Trail' in req('tournament-daily',{},a,409)['error']
 assert req('tournaments',token=a)['wallet']==listing['wallet']
 event=next(e for e in listing['events'] if e['coins']==25)
@@ -86,15 +86,15 @@ assert req('profile',token=a)['xp']==0
 assert req('player&id='+bid,token=a)['headToHead']['games']==0
 with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_events SET ends=? WHERE id=?',(time.time()-1,event['id']))
 board=req('tournament-board&event='+event['id'],token=a)
-assert board['event']['closed'] and board['event']['reward']==150 and board['wallet']['coins']==200
-assert board['event']['prizePool']==300
-assert req('tournament-board&event='+event['id'],token=a)['wallet']['coins']==200
-assert req('tournament-board&event='+event['id'],token=b)['event']['reward']==100
+assert board['event']['closed'] and board['event']['reward']==500 and board['wallet']['coins']==550
+assert board['event']['prizePool']==875
+assert req('tournament-board&event='+event['id'],token=a)['wallet']['coins']==550
+assert req('tournament-board&event='+event['id'],token=b)['event']['reward']==250
 trophies=[x for x in req('player',token=a)['badges'] if x['id'].startswith('tournament:')]
 assert trophies and trophies[0]['earned'] and '#1' in trophies[0]['name']
 req('tournament-enter',{'event':event['id'],'requestID':str(uuid.uuid4())},a,410)
 # Equal scores share place and prize; an abandoned run keeps its already-earned score.
-second=next(e for e in listing['events'] if e['coins']==50)
+second=next(e for e in listing['events'] if e['kind']=='daily' and e['id']!=event['id'])
 for token in [a,b]:
  r=req('tournament-enter',{'event':second['id'],'requestID':str(uuid.uuid4())},token,201)
  answer(token,r['id'],0)
@@ -119,17 +119,17 @@ for token in [a,b]:
  assert req('tournament-end',{'run':r['id']},token)==ended
 with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_events SET ends=? WHERE id=?',(time.time()-1,second['id']))
 rows=req('tournament-board&event='+second['id'],token=a)['entries']
-assert len(rows)==2 and all(r['rank']==1 and r['reward']==125 for r in rows)
+assert len(rows)==2 and all(r['rank']==1 and r['reward']==375 for r in rows)
 # A sole entrant receives the guaranteed first prize, independently of entry fees.
-sparse=next(e for e in listing['events'] if e['coins']==75)
+sparse=next(e for e in listing['events'] if e['kind']=='daily' and e['id'] not in [event['id'],second['id']])
 before=req('tournaments',token=a)['wallet']['coins']
 r=req('tournament-enter',{'event':sparse['id'],'requestID':str(uuid.uuid4())},a,201)
-assert req('tournaments',token=a)['wallet']['coins']==before-75
+assert req('tournaments',token=a)['wallet']['coins']==before-25
 with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_events SET ends=? WHERE id=?',(time.time()-1,sparse['id']))
 s=req('tournament-board&event='+sparse['id'],token=a)
-assert s['wallet']['coins']==before-75+150 and s['event']['reward']==150 and s['event']['rank']==1
+assert s['wallet']['coins']==before-25+500 and s['event']['reward']==500 and s['event']['rank']==1
 assert req('tournament-round',{'run':r['id']},a)['state']=='closed'
-assert req('tournament-board&event='+sparse['id'],token=a)['wallet']['coins']==before-75+150
+assert req('tournament-board&event='+sparse['id'],token=a)['wallet']['coins']==before-25+500
 # Fixed weekly podiums, historical shortfalls, already-seen zero prizes and
 # preservation of more generous old awards. Fixtures live only in this temp DB.
 c=req('register',{'name':'Tournament Cara'},status=201)['token']
@@ -160,9 +160,55 @@ with sqlite3.connect(STATE) as db:
  assert db.execute('SELECT reward FROM tournament_places WHERE event_id=?',('legacy-generous',)).fetchone()[0]==250
  assert db.execute('SELECT COUNT(*) FROM tournament_ledger WHERE reference=?',('fixed-prizes-v1:legacy-short',)).fetchone()[0]==1
  assert [x[0] for x in db.execute('SELECT reward FROM tournament_places WHERE event_id=? ORDER BY rank',('weekly-fixed',))]==[500,250,125]
+
+# A weekly event advertised under v2 pays its persisted1000/500/250 terms.
+weekly=next(e for e in listing['events'] if e['kind']=='weekly')
+for index,token in enumerate([a,b,c]):
+ before=req('coins',token=token)['wallet']['coins']
+ entered=req('tournament-enter',{'event':weekly['id'],'requestID':str(uuid.uuid4())},token,201)
+ assert req('coins',token=token)['wallet']['coins']==before-50
+ with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_runs SET score=?,streak=1,state="finished" WHERE id=?',(100-index,entered['id']))
+with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_events SET ends=? WHERE id=?',(int(time.time())-1,weekly['id']))
+weekly_board=req('tournament-board&event='+weekly['id'],token=a)
+assert weekly_board['event']['prizes']==[1000,500,250] and weekly_board['event']['prizePool']==1750
+assert [row['reward'] for row in weekly_board['entries']]==[1000,500,250]
+assert req('tournament-board&event='+weekly['id'],token=a)['wallet']==weekly_board['wallet']
+
+# Model an in-progress deployment: old entry prices and actual entry debits,
+# including two differently priced attempts in one event. The ledger, rather
+# than the event's advertised fee, determines each one-time excess refund.
+now=int(time.time());day=now//86400*86400
+with sqlite3.connect(STATE) as db:
+ for eid,kind,fee,ends,settled in [('open-old-daily','daily',75,now+3600,0),('open-old-weekly','weekly',100,now+3600,0),('old-closed-daily','daily',75,now-1,1),('private-unchanged','party',10,now+3600,0)]:
+  db.execute('INSERT INTO tournament_events VALUES(?,?,?,?,?,?,?,?)',(eid,'22',kind,day,ends,fee,0,settled))
+ db.execute('INSERT INTO tournament_fixed_prizes_v1 VALUES(?,?)',('old-closed-daily',now))
+ db.execute('INSERT INTO tournament_places VALUES(?,?,?,?,?,?)',('old-closed-daily',aid,1,77,5,150))
+ db.execute('INSERT INTO tournament_prize_receipts VALUES(?,?,?)',(aid,'old-closed-daily',now))
+ for rid,eid,paid in [('old-d1','open-old-daily',75),('old-d2','open-old-daily',50),('old-w1','open-old-weekly',100),('closed-no-refund','old-closed-daily',75),('private-no-refund','private-unchanged',10)]:
+  db.execute('INSERT INTO tournament_runs(id,event_id,player_id,request_key,deck,turn,score,streak,state,created) VALUES(?,?,?,?,?,?,?,?,?,?)',(rid,eid,aid,rid+'-key','["answered","remaining"]',1,77,5,'finished',now-10))
+  db.execute('INSERT INTO tournament_ledger VALUES(?,?,?,?,?)',(aid,'entry:'+rid,-paid,0,now-10))
+  db.execute('UPDATE tournament_wallet SET coins=coins-? WHERE player_id=?',(paid,aid))
+ old_runs=db.execute('SELECT * FROM tournament_runs WHERE id IN ("old-d1","old-d2","old-w1","closed-no-refund","private-no-refund") ORDER BY id').fetchall()
+ old_schedule=db.execute('SELECT event_ids FROM tournament_daily_schedule WHERE day=?',(day,)).fetchone()[0]
+ before_refund=db.execute('SELECT coins FROM tournament_wallet WHERE player_id=?',(aid,)).fetchone()[0]
+ old_receipt=db.execute('SELECT * FROM tournament_prize_receipts WHERE event_id="old-closed-daily"').fetchall()
+assert req('coins',token=a)['wallet']['coins']==before_refund+125
+for _ in range(3):assert req('tournaments',token=a)['wallet']['coins']==before_refund+125
+with sqlite3.connect(STATE) as db:
+ assert db.execute('SELECT COUNT(*),SUM(coins) FROM tournament_ledger WHERE reference LIKE "public-entry-v2:%"').fetchone()==(3,125)
+ assert db.execute('SELECT * FROM tournament_runs WHERE id IN ("old-d1","old-d2","old-w1","closed-no-refund","private-no-refund") ORDER BY id').fetchall()==old_runs
+ assert db.execute('SELECT event_ids FROM tournament_daily_schedule WHERE day=?',(day,)).fetchone()[0]==old_schedule
+ assert len(set(json.loads(old_schedule)))==3
+ assert db.execute('SELECT coins FROM tournament_events WHERE id="old-closed-daily"').fetchone()[0]==75
+ assert db.execute('SELECT coins FROM tournament_events WHERE id="private-unchanged"').fetchone()[0]==10
+ assert db.execute('SELECT * FROM tournament_prize_receipts WHERE event_id="old-closed-daily"').fetchall()==old_receipt
+ assert db.execute('SELECT reward FROM tournament_places WHERE event_id="old-closed-daily"').fetchone()[0]==150
+for eid,fee,prizes in [('open-old-daily',25,[500,250,125]),('open-old-weekly',50,[1000,500,250]),('old-closed-daily',75,[150,100,50])]:
+ card=req('tournament-board&event='+eid,token=a)['event']
+ assert card['coins']==fee and card['prizes']==prizes
 for token in [a,b,c]:req('delete-account',{},token)
 with sqlite3.connect(STATE) as db:
  assert db.execute('SELECT COUNT(*) FROM tournament_runs WHERE player_id IN (?,?)',(aid,bid)).fetchone()[0]==0
  assert db.execute('SELECT COUNT(*) FROM tournament_ledger WHERE player_id IN (?,?)',(aid,bid)).fetchone()[0]==0
  assert db.execute('SELECT COUNT(*) FROM question_seen WHERE player_id IN (?,?)',(aid,bid)).fetchone()[0]==0
-print('PASS: paid daily/weekly survival, guaranteed fixed podiums and sole-player prizes, tied prizes, idempotent historical backpay without clawbacks, reopened prize inbox, balances, timing, hidden answers, question repair, rankings and deletion')
+print('PASS:25/50 daily/weekly fees, v2 podium snapshots/settlement, excess-entry refunds once, preserved closed/private history, survival/ties, v1 historical repair, timing, hidden answers, question repair and deletion')

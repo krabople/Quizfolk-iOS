@@ -82,7 +82,7 @@ try:
     assert [r['id'] for r in standings]==[android.id,ios.id]
     balances={client.id:client.request('coins')['wallet']['coins'] for client in [ios,android]}
     with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_events SET ends=? WHERE id=?',(int(time.time())-1,event['id']))
-    for client,rank,coins in [(android,1,150),(ios,2,100)]:
+    for client,rank,coins in [(android,1,500),(ios,2,250)]:
         inbox=client.request('prizes');prize=next(p for p in inbox['pending'] if p['id']==event['id'])
         assert prize['rank']==rank and prize['coins']==coins
         assert inbox['wallet']['coins']==balances[client.id]+coins

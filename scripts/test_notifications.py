@@ -75,7 +75,7 @@ try:
     change('UPDATE tournament_runs SET score=40,streak=2,state="wrong" WHERE id=?',run['id'])
     assert not rows('SELECT * FROM push_jobs WHERE kind="tournamentPrizes"')
     change('UPDATE tournament_events SET ends=? WHERE id=?',int(time.time())-1,event['id']);a.get('prizes');a.get('prizes')
-    prize=rows('SELECT * FROM push_jobs WHERE kind="tournamentPrizes"');assert len(prize)==1 and '150 coins' in prize[0]['body']
+    prize=rows('SELECT * FROM push_jobs WHERE kind="tournamentPrizes"');assert len(prize)==1 and '500 coins' in prize[0]['body']
     assert drain('invalid')['failed']==1
     assert rows('SELECT enabled FROM push_devices WHERE player_id=?',a.id)[0]['enabled']==0
     a.device('android');b.preferences(enabled=False)
