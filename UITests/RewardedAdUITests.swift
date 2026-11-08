@@ -89,6 +89,7 @@ final class RewardedAdUITests:XCTestCase {
                 let copy=app.buttons["rewardedCopyFailure"]
                 reveal(copy,in:app);copy.tap()
                 XCTAssertTrue(app.staticTexts["rewardedFailureCopied"].waitForExistence(timeout:5))
+                capture(app,"RewardedFailureDetails-Native")
             } else {
                 XCTAssertFalse(app.buttons["Failure details"].exists,"Consent refusal must not be mislabeled as a Google load failure")
             }

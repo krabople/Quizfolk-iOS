@@ -40,9 +40,9 @@ class FixtureTransport(private val questions: List<Question>) : Transport {
         "challengesOpen" to true, "headToHead" to json("games" to 3, "wins" to 1, "draws" to 1, "losses" to 1),
         "badges" to JSONArray(listOf(json("id" to "first", "name" to "First duel", "symbol" to "bolt.fill", "earned" to true))), "displayBadge" to if (id == "test-self") selectedBadge else null)
     private fun event(index: Int = 0, weekly: Boolean = false): J = json("id" to "test-event-${if (weekly) "weekly" else "daily"}-$index", "topicID" to "22", "kind" to if (weekly) "weekly" else "daily", "starts" to 1793830000,
-        "ends" to 1893836800, "coins" to listOf(25,50,75)[index], "tickets" to 0, "closed" to false, "best" to score, "streak" to streak, "attempts" to entries,
-        "players" to 1, "activeRun" to null, "rank" to null, "reward" to 0, "featured" to true, "prizePool" to if (weekly) 875 else 300,
-        "prizes" to JSONArray(if (weekly) listOf(500,250,125) else listOf(150,100,50)))
+        "ends" to 1893836800, "coins" to if (weekly) 50 else 25, "tickets" to 0, "closed" to false, "best" to score, "streak" to streak, "attempts" to entries,
+        "players" to 1, "activeRun" to null, "rank" to null, "reward" to 0, "featured" to true, "prizePool" to if (weekly) 1750 else 875,
+        "prizes" to JSONArray(if (weekly) listOf(1000,500,250) else listOf(500,250,125)))
     private fun wallet() = json("coins" to wallet, "tickets" to 0, "dailyClaimed" to false)
     private fun run() = json("id" to "test-run", "eventID" to "test-event-daily-0", "score" to score, "streak" to streak, "turn" to turn, "state" to state)
     private fun q() = questions[turn % questions.size]
@@ -94,7 +94,8 @@ class FixtureTransport(private val questions: List<Question>) : Transport {
             "tournaments" -> json("events" to JSONArray((0..2).map { event(it) } + (0..2).map { event(it, true) }), "wallet" to wallet())
             "tournament-board" -> json("event" to event(weekly = query["event"]?.contains("weekly") == true), "entries" to JSONArray(listOf(json("id" to "test-rival", "name" to "Sample Rival", "avatar" to null, "rank" to 1, "score" to 100, "streak" to 5, "reward" to 0))), "own" to JSONArray(), "wallet" to wallet())
             "tournament-enter" -> { val key = body!!.s("requestID"); admitted[key] ?: run {
-                check(wallet >= 25) { "Not enough coins." }; wallet -= 25; entries++; turn = 0; score = 0; streak = 0; state = "playing"; powerUsed = false; run().also { admitted[key] = it }
+                val fee = if (body.s("event").contains("weekly")) 50 else 25
+                check(wallet >= fee) { "Not enough coins." }; wallet -= fee; entries++; turn = 0; score = 0; streak = 0; state = "playing"; powerUsed = false; run().also { admitted[key] = it }
             } }
             "tournament-round", "tournament-reveal" -> run().put("question", q().json().apply { remove("correctIndex") }).put("remaining",10).put("phase","answer")
             "tournament-answer" -> { val correct = q().correctIndex; val right = body!!.n("answer") == correct; turn++; if (right) { score += 20; streak++ } else state = "finished"

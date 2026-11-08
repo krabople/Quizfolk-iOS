@@ -39,7 +39,9 @@ class ScoringAndDeckTest {
     }
     @Test fun powersRemainConsumedAcrossQuestionsAndPodiumsAreGuaranteed() {
         val used = Power(true,"double",setOf(1)); assertEquals(Power(true),used.next())
-        assertEquals(listOf(150,100,50),podium(json("kind" to "daily")))
-        assertEquals(listOf(500,250,125),podium(json("kind" to "weekly")))
+        assertEquals(listOf(500,250,125),podium(json("kind" to "daily")))
+        assertEquals(listOf(1000,500,250),podium(json("kind" to "weekly")))
+        // Closed events retain the exact prize table returned by the service.
+        assertEquals(listOf(150,100,50),podium(json("kind" to "daily", "prizes" to org.json.JSONArray(listOf(150,100,50)))))
     }
 }

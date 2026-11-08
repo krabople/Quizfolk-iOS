@@ -72,4 +72,4 @@ data class Power(val used: Boolean = false, val type: String? = null, val hidden
 }
 enum class Assist(val key: String, val title: String, val price: Int) { FIFTY("fifty", "Fifty Fifty", 5), DOUBLE("double", "Double Choice", 10), RIGHT("right", "Right Answer", 25) }
 
-fun podium(event: J): List<Int> = if (event.a("prizes").length() == 3) (0..2).map { event.a("prizes").getInt(it) } else if (event.s("kind") == "weekly") listOf(500,250,125) else listOf(150,100,50)
+fun podium(event: J): List<Int> = if (event.a("prizes").length() == 3) (0..2).map { event.a("prizes").getInt(it) } else if (event.b("closed")) { if (event.s("kind") == "weekly") listOf(500,250,125) else listOf(150,100,50) } else if (event.s("kind") == "weekly") listOf(1000,500,250) else listOf(500,250,125)

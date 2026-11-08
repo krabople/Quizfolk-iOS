@@ -29,7 +29,7 @@ import java.util.UUID
         Panel { Row(verticalAlignment = Alignment.CenterVertically) { CoinAmount(store.coins, true); Spacer(Modifier.weight(1f)); TextButton({ store.push(Page("coins")) }) { Text("Earn coins") } }; Hint("Open Quizfolk each day for 50 coins. Earn up to 45 more through your Daily Trail.") }
         Hint("Build the biggest score before your first wrong answer or timeout. Faster correct answers earn more points. Your best run counts.")
         Segments(listOf("Daily", "Weekly", "My entries"), section) { section = it }
-        if (section == 0) Hint("Three topics each day · 25, 50 and 75 coins to enter")
+        if (section == 0) Hint("Three topics each day · 25 coins each to enter")
         val events = result.value?.a("events")?.objects().orEmpty().filter { if (section == 2) it.n("attempts") > 0 else !it.b("closed") && it.b("featured", true) && it.s("kind") == if (section == 0) "daily" else "weekly" }
         if (events.isEmpty() && !result.loading) Hint(if (section == 2) "Your next trophy awaits. Enter a tournament to save your first score." else "New tournaments soon. Daily topics rotate at midnight UTC; weekly events close on Monday at midnight UTC.")
         AdaptiveCards(events, minWidth = 340.dp) { event, cardModifier -> val topic = store.topic(event.s("topicID")); val prizes = podium(event)

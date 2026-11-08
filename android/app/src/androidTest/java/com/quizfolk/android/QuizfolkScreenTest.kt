@@ -122,7 +122,7 @@ class QuizfolkScreenTest {
         compose.waitUntil(5000) { compose.onAllNodesWithText("Not enough coins").fetchSemanticsNodes().isNotEmpty() }; capture("InsufficientCoins")
         compose.runOnIdle { assertEquals(0,(store.transport as FixtureTransport).entries); assertNull(store.game) }
         text("OK").performClick(); compose.onNodeWithText("Guaranteed podium prizes").performScrollTo().assertExists()
-        text("150 coins").assertExists(); text("100 coins").assertExists(); text("50 coins").assertExists()
+        text("500 coins").assertExists(); text("250 coins").assertExists(); text("125 coins").assertExists()
     }
     @Test fun survivalRightAnswerSubmitsOnceAndFirstWrongEndsRun() {
         ready(); tapTag("tab-Tournaments"); compose.waitUntil(5000) { compose.onAllNodesWithTag("tournament-test-event-daily-0").fetchSemanticsNodes().isNotEmpty() }
