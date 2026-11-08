@@ -42,8 +42,8 @@ globally unique player name; it does not silently transfer an existing iOS accou
 | Social cards | Search, follow/unfollow, shared interests, titles, achievements, privacy/challenge settings, blocking and head-to-head results |
 | Rematches | Fresh same-topic human invitations or bot games; links from finished games and saved history |
 | Topic levels/leagues | Independent topic XP/levels; monthly/all-time and following filters; shared iOS/Android tables |
-| Public survival tournaments | Three daily topics, weekly topics, paid entries, resume without another fee, first mistake ends run, best run counts |
-| Fixed prizes | Daily 150/100/50 and weekly 500/250/125; shared server settlement, tie rules, receipt-backed congratulations |
+| Public survival tournaments | Three daily topics at 25 coins each; weekly topics at 50 coins each; resume without another fee, first mistake ends run, best run counts |
+| Fixed prizes | Current/open daily events 500/250/125 and weekly events 1000/500/250; closed events retain their historical prizes. Shared server settlement, tie rules, receipt-backed congratulations |
 | Friends tournaments | 2–8 players, 1–3 home/away cycles, chosen home topics, deadlines, host start/cancel, private boards, optional power-ups, free without prizes or paid |
 | Coins and badges | 50 once-per-UTC-day opening reward, Daily Trail, gold coin icon, topic/event/rank badges, profile selection and persistent confirmation |
 | Pictures and settings | Native Android photo picker, preview, cropped/metadata-free JPEG, name uniqueness and account deletion |

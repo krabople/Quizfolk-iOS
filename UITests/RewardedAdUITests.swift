@@ -83,6 +83,15 @@ final class RewardedAdUITests:XCTestCase {
             XCTAssertTrue(app.staticTexts["rewardedMessage"].waitForExistence(timeout:8))
             XCTAssertFalse(app.buttons["rewardedShow"].exists)
             XCTAssertTrue(app.staticTexts["110 coins"].exists)
+            if flag == "--rewarded-no-fill" {
+                let details=app.buttons["Failure details"]
+                XCTAssertTrue(details.waitForExistence(timeout:5));reveal(details,in:app);details.tap()
+                let copy=app.buttons["rewardedCopyFailure"]
+                reveal(copy,in:app);copy.tap()
+                XCTAssertTrue(app.staticTexts["rewardedFailureCopied"].waitForExistence(timeout:5))
+            } else {
+                XCTAssertFalse(app.buttons["Failure details"].exists,"Consent refusal must not be mislabeled as a Google load failure")
+            }
             app.terminate()
         }
     }

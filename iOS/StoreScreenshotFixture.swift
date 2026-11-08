@@ -31,12 +31,12 @@ import Foundation
         object["displayBadge"]=prizeObject
         return decode(object)
     }
-    static var prizeObject:[String:Any] {["id":"test-prize","topicID":"22","kind":"daily","rank":1,"coins":150,"date":stamp,"score":342]}
-    static var prizes:[[String:Any]] {[prizeObject,["id":"test-weekly","topicID":"11","kind":"weekly","rank":2,"coins":250,"date":stamp-86400,"score":415],["id":"test-friends","topicID":"12","kind":"party","rank":3,"coins":20,"date":stamp-172800,"score":12]]}
+    static var prizeObject:[String:Any] {["id":"test-prize","topicID":"22","kind":"daily","rank":1,"coins":500,"date":stamp,"score":342]}
+    static var prizes:[[String:Any]] {[prizeObject,["id":"test-weekly","topicID":"11","kind":"weekly","rank":2,"coins":500,"date":stamp-86400,"score":415],["id":"test-friends","topicID":"12","kind":"party","rank":3,"coins":20,"date":stamp-172800,"score":12]]}
     static var league:[BoardEntry] {zip(names,[6350,4750,4200,3650,3020,2800]).enumerated().map{i,p in BoardEntry(id:i==0 ? "test-rival":(i==1 ? "test-self":"capture-\(i)"),name:p.0,avatar:nil,xp:p.1,matches:38-i*3)}}
     static var wallet:[String:Any] {["coins":325,"tickets":0,"dailyClaimed":true]}
     static var events:[[String:Any]] {
-        ["22","11","12","17"].enumerated().map{i,topic in ["id":i==0 ? "test-event":"capture-event-\(i)","topicID":topic,"kind":i==3 ? "weekly":"daily","starts":Date().timeIntervalSince1970-3600,"ends":Date().timeIntervalSince1970+21600,"coins":[25,50,75,100][i],"tickets":0,"closed":false,"best":i==0 ? 310:0,"streak":i==0 ? 18:0,"attempts":i==0 ? 2:0,"players":[28,21,34,56][i],"activeRun":NSNull(),"rank":i==0 ? 2 as Any:NSNull(),"reward":0,"featured":true] as [String:Any]}
+        ["22","11","12","17"].enumerated().map{i,topic in ["id":i==0 ? "test-event":"capture-event-\(i)","topicID":topic,"kind":i==3 ? "weekly":"daily","starts":Date().timeIntervalSince1970-3600,"ends":Date().timeIntervalSince1970+21600,"coins":i==3 ? 50:25,"prizes":i==3 ? [1000,500,250]:[500,250,125],"prizePool":i==3 ? 1750:875,"tickets":0,"closed":false,"best":i==0 ? 310:0,"streak":i==0 ? 18:0,"attempts":i==0 ? 2:0,"players":[28,21,34,56][i],"activeRun":NSNull(),"rank":i==0 ? 2 as Any:NSNull(),"reward":0,"featured":true] as [String:Any]}
     }
     static var tournamentList:TournamentList {decode(["events":events,"wallet":wallet])}
     static var tournamentBoard:TournamentBoard {

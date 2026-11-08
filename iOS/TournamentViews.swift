@@ -19,7 +19,7 @@ struct TournamentsView:View {
        Text("Daily").tag("daily");Text("Weekly").tag("weekly");Text("My entries").tag("results")
       }.pickerStyle(.segmented)
       let visible=list.events.filter{section=="results" ? $0.attempts>0:$0.kind==section && !$0.closed && $0.isFeatured}
-      if section=="daily" {Text("Three topics each day · 25, 50 and 75 coins to enter").font(.caption).foregroundStyle(.secondary)}
+      if section=="daily" {Text("Three topics each day · 25 coins per entry").font(.caption).foregroundStyle(.secondary)}
       if section=="results" {Text("Resume your runs and see results from every tournament you entered.").font(.caption).foregroundStyle(.secondary)}
       if visible.isEmpty {ContentUnavailableView(section=="results" ? "Your next trophy awaits":"New tournaments soon",systemImage:"trophy",description:Text("Daily topics rotate at midnight UTC. Weekly tournaments close on Monday at midnight UTC."))}
       LazyVGrid(columns:sizeClass == .regular ? [GridItem(.adaptive(minimum:340),spacing:18)]:[GridItem(.flexible())],spacing:18) {

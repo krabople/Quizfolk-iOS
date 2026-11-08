@@ -2,6 +2,17 @@ import XCTest
 @testable import Quizfolk
 
 @MainActor final class TournamentTests:XCTestCase {
+ func testServerPrizeSnapshotWinsOverNewAndLegacyDefaults() throws {
+  for closed in [false,true] {
+   let event=TournamentEvent(id:"snapshot",topicID:"22",kind:"daily",starts:0,ends:100,coins:25,tickets:0,closed:closed,best:0,streak:0,attempts:0,players:0,activeRun:nil,rank:nil,reward:0,prizes:[90,60,30])
+   XCTAssertEqual(event.podiumPrizes,[90,60,30],"Displayed terms must come from this event, even after prize rules change")
+  }
+ }
+ func testClosedLegacyPayloadKeepsHistoricalPrizes() {
+  let daily=TournamentEvent(id:"legacy",topicID:"22",kind:"daily",starts:0,ends:100,coins:25,tickets:0,closed:true,best:0,streak:0,attempts:0,players:0,activeRun:nil,rank:nil,reward:0)
+  let weekly=TournamentEvent(id:"legacy-week",topicID:"22",kind:"weekly",starts:0,ends:100,coins:100,tickets:0,closed:true,best:0,streak:0,attempts:0,players:0,activeRun:nil,rank:nil,reward:0)
+  XCTAssertEqual(daily.podiumPrizes,[150,100,50]);XCTAssertEqual(weekly.podiumPrizes,[500,250,125])
+ }
  func testAdmittedRunLoadsWithoutChargingAnotherEntry() async throws {
   let store=QuizStore();let fixture=TournamentFixture()
   store.testResponse={route,body in try await fixture.response(route,body)}

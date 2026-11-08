@@ -51,11 +51,11 @@ extension QuizStore {
         return false
         #endif
     }
-    static var testPrize:TournamentPrize {TournamentPrize(id:"test-prize",topicID:"22",kind:"daily",rank:1,coins:150,date:1_793_145_600,score:120)}
+    static var testPrize:TournamentPrize {TournamentPrize(id:"test-prize",topicID:"22",kind:"daily",rank:1,coins:500,date:1_793_145_600,score:120)}
     func loadPrizes() async {
         guard profile != nil,!prizesLoading else{return}
         if usesCoinFixtures {
-            earnedPrizes=[Self.testPrize,TournamentPrize(id:"test-weekly",topicID:"17",kind:"weekly",rank:2,coins:250,date:1_793_145_600,score:110),TournamentPrize(id:"test-friends",topicID:"11",kind:"party",rank:3,coins:20,date:1_793_145_600,score:10)]
+            earnedPrizes=[Self.testPrize,TournamentPrize(id:"test-weekly",topicID:"17",kind:"weekly",rank:2,coins:500,date:1_793_145_600,score:110),TournamentPrize(id:"test-friends",topicID:"11",kind:"party",rank:3,coins:20,date:1_793_145_600,score:10)]
             if ProcessInfo.processInfo.arguments.contains("--prize-popup"),!testPrizeAcknowledged {
                 pendingPrizes=[Self.testPrize]
             }

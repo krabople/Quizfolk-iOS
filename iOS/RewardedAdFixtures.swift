@@ -1,6 +1,7 @@
 #if DEBUG
 import SwiftUI
 import UIKit
+import GoogleMobileAds
 
 /// Isolated fixture transport. Never instantiated outside the UI-test launch.
 @MainActor final class RewardedFixture {
@@ -53,7 +54,7 @@ import UIKit
         alert.addAction(UIAlertAction(title:"Done",style:.default));presenter.present(alert,animated:false)
     }
     func load(unit:String,customData:String) async throws {
-        if fixture.arguments.contains("--rewarded-no-fill") {throw APIError.message("No video is available right now. Please try again later.")}
+        if fixture.arguments.contains("--rewarded-no-fill") {throw AdLoadFailure(NSError(domain:GADErrorDomain,code:RequestError.Code.noFill.rawValue,userInfo:[NSLocalizedDescriptionKey:"Fixture request completed without an ad."]),responseIdentifier:"fixture-response")}
         loaded=true
     }
     func present(from presenter:UIViewController,reward:@escaping ()->Void,dismiss:@escaping (Bool,Error?)->Void) throws {

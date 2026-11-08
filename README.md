@@ -169,8 +169,9 @@ and backend deployment are both required before these features are live.
 
 ## Guaranteed prizes and clearer quiz feedback (4 November 2026)
 
-Public daily podium prizes are fixed at 150 / 100 / 50 coins; weekly podiums
-award 500 / 250 / 125. They do not depend on entries. Ties share the combined
+The 4 November policy fixed daily podium prizes at 150 / 100 / 50 coins and
+weekly podiums at 500 / 250 / 125. Those historical terms remain attached to
+events closed before the 8 November change below. Prizes do not depend on entries. Ties share the combined
 prizes for their occupied positions; a sole entrant receives first prize.
 Closed public tournaments receive a one-time reconciliation of any unpaid
 shortfall. Existing larger awards are preserved. The migration takes a SQLite
@@ -183,6 +184,16 @@ turning red for the last three seconds. Rival markers use actual correct/wrong
 results; asynchronous results stay neutral until both players answer that round.
 Tournament badges combine the topic icon/colour, a daily seal or weekly shield,
 and a gold/silver/bronze placing ribbon. Friends badges use a group icon.
+
+## Public tournament prices and prizes (8 November 2026)
+
+Every public daily tournament costs 25 coins to enter and awards 500 / 250 / 125
+coins to the podium. Every public weekly tournament costs 50 coins and awards
+1000 / 500 / 250. These prices and prizes apply to current and future open
+events. Closed events retain their historical entry terms, prizes and results.
+The server supplies each event's prize table to both apps; private friends
+tournaments retain their free-entry or 10-coin rules. Ties continue to share
+the combined prizes for their occupied positions.
 
 
 ## Daily opening reward and profile polish (4 November 2026)

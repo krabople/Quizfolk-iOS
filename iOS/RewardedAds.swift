@@ -25,6 +25,60 @@ enum RewardedConfiguration {
     }
 }
 
+/// Keep only the documented SDK failure fields, locally, until the next attempt.
+struct AdLoadFailure:LocalizedError {
+    enum Kind:Equatable {case noFill,network,timeout,request,server,unknown}
+    let domain:String
+    let code:Int
+    let sdkMessage:String
+    let sdkFailureReason:String?
+    let responseIdentifier:String?
+    init(_ error:Error,responseIdentifier:String?=nil) {
+        let failure=error as NSError
+        domain=failure.domain;code=failure.code;sdkMessage=failure.localizedDescription;sdkFailureReason=failure.localizedFailureReason
+        self.responseIdentifier=responseIdentifier ?? (failure.userInfo[GADErrorUserInfoKeyResponseInfo] as? ResponseInfo)?.responseIdentifier
+    }
+    var kind:Kind {
+        if domain == NSURLErrorDomain {
+            switch code {
+            case URLError.timedOut.rawValue:return .timeout
+            case URLError.notConnectedToInternet.rawValue,URLError.networkConnectionLost.rawValue,
+                 URLError.cannotFindHost.rawValue,URLError.cannotConnectToHost.rawValue,
+                 URLError.dnsLookupFailed.rawValue,URLError.secureConnectionFailed.rawValue,
+                 URLError.dataNotAllowed.rawValue:return .network
+            case URLError.badURL.rawValue,URLError.unsupportedURL.rawValue:return .request
+            default:return .unknown
+            }
+        }
+        guard domain == GADErrorDomain else{return .unknown}
+        switch code {
+        case RequestError.Code.noFill.rawValue:return .noFill
+        case RequestError.Code.networkError.rawValue:return .network
+        case RequestError.Code.timeout.rawValue:return .timeout
+        case RequestError.Code.invalidRequest.rawValue,RequestError.Code.invalidArgument.rawValue,
+             RequestError.Code.applicationIdentifierMissing.rawValue,RequestError.Code.mediationDataError.rawValue,
+             RequestError.Code.mediationAdapterError.rawValue,RequestError.Code.mediationInvalidAdSize.rawValue:return .request
+        case RequestError.Code.serverError.rawValue:return .server
+        default:return .unknown
+        }
+    }
+    var errorDescription:String? {
+        switch kind {
+        case .noFill:return "The ad service did not return a video. Please try again later."
+        case .network:return "The video couldn’t load because of a connection problem. Check your connection and try again."
+        case .timeout:return "The video request took too long. Please try again."
+        case .request:return "The ad service couldn’t accept this request. Please copy the failure details so we can investigate."
+        case .server:return "The ad service couldn’t complete the request. Please try again later."
+        case .unknown:return "The video couldn’t load. Please try again, or copy the failure details if it keeps happening."
+        }
+    }
+    var diagnosticText:String {
+        let version=Bundle.main.object(forInfoDictionaryKey:"CFBundleShortVersionString") as? String ?? "unknown"
+        let build=Bundle.main.object(forInfoDictionaryKey:"CFBundleVersion") as? String ?? "unknown"
+        return "Quizfolk ad load failure\nApp: \(version) (\(build))\nDomain: \(domain)\nCode: \(code)\nSDK message: \(sdkMessage)\nSDK reason: \(sdkFailureReason ?? "Not supplied")\nResponse ID: \(responseIdentifier ?? "Not supplied")"
+    }
+}
+
 @MainActor protocol RewardedAdProvider:AnyObject {
     var privacyOptionsRequired:Bool {get}
     func updateConsent() async throws
@@ -82,7 +136,7 @@ enum RewardedConfiguration {
         let extras=Extras();extras.additionalParameters=["npa":"1"];request.register(extras)
         let loaded:RewardedAd
         do {loaded=try await RewardedAd.load(with:requestedUnit,request:request)}
-        catch {throw APIError.message("No video is available right now. Please try again later.")}
+        catch {throw AdLoadFailure(error)}
         let verification=ServerSideVerificationOptions()
         verification.customRewardText=customData
         // No user ID, account name, token or other profile data is sent to Google.
@@ -121,6 +175,8 @@ enum RewardedConfiguration {
     @Published private(set) var privacyOptionsRequired=false
     @Published private(set) var polling=false
     @Published private(set) var preparing=false
+    @Published private(set) var loadFailure:AdLoadFailure?
+    @Published private(set) var copiedFailureDetails=false
     private weak var store:QuizStore?
     private weak var anchor:UIViewController?
     private var provider:RewardedAdProvider?
@@ -157,7 +213,7 @@ enum RewardedConfiguration {
         if scope != newScope {
             pollTask?.cancel();consentTask?.cancel();provider?.discard()
             pollTask=nil;pollingID=nil;polling=false;preparationID=nil;preparing=false
-            scope=newScope;status=nil;phase = .idle;message=nil
+            scope=newScope;status=nil;phase = .idle;message=nil;loadFailure=nil;copiedFailureDetails=false
             saved=UserDefaults.standard.data(forKey:persistenceKey).flatMap{try? JSONDecoder().decode(SavedRewardedAttempt.self,from:$0)}
             if saved?.account != account || saved?.endpoint != store.apiURL {saved=nil}
             #if DEBUG
@@ -226,7 +282,7 @@ enum RewardedConfiguration {
             persist()
         }
         if attempt.status == "awarded",attempt.awardedCoins == 5 {
-            saved=nil;persist();phase = .awarded;message="5 coins added to your wallet."
+            saved=nil;persist();phase = .awarded;message="5 coins added to your wallet.";loadFailure=nil;copiedFailureDetails=false
         } else if ["expired","cancelled","rejected"].contains(attempt.status) {
             saved=nil;persist();provider?.discard();phase = .idle
             if attempt.status != "cancelled" {message="This ad reward could not be confirmed. No coins were added."}
@@ -246,7 +302,7 @@ enum RewardedConfiguration {
         let expectedScope=scope
         let operationID=UUID();preparationID=operationID;preparing=true
         defer {if preparationID == operationID {preparationID=nil;preparing=false}}
-        phase = .loading;message=nil
+        phase = .loading;message=nil;loadFailure=nil;copiedFailureDetails=false
         do {
             let current=try await request("rewarded-status",attempt:saved?.attemptID);apply(current)
             guard current.available else {phase=hasPending ? .checking:.idle;return}
@@ -274,8 +330,10 @@ enum RewardedConfiguration {
             guard scope == expectedScope else{return}
             let explanation=error.localizedDescription
             if saved?.attemptID != nil,saved?.mayHaveEarned == false {await cancel()}
+            guard scope == expectedScope else{return}
             phase=hasPending ? .checking:.idle
             message=explanation
+            loadFailure=error as? AdLoadFailure
             privacyOptionsRequired=provider.privacyOptionsRequired
         }
     }
@@ -323,6 +381,11 @@ enum RewardedConfiguration {
         catch {guard scope == expectedScope,saved?.attemptID == attempt else{return};phase = .checking;message="We couldn’t cancel this unused ad. Please check again when you’re connected."}
     }
     func checkReward() {startPolling()}
+    func copyFailureDetails() {
+        guard let loadFailure else{return}
+        UIPasteboard.general.string=loadFailure.diagnosticText
+        copiedFailureDetails=true
+    }
     private func startPolling() {
         guard pollTask == nil,hasPending else{return}
         let generation=UUID();pollingID=generation
@@ -368,6 +431,15 @@ struct RewardedAdCard:View {
                 Button("Load a video · +5 coins"){Task{await ads.prepare()}}.buttonStyle(PrimaryButton()).disabled(!ads.canPrepare).accessibilityIdentifier("rewardedLoad")
             }
             if ads.phase != .checking,let message=ads.message {Text(message).font(.subheadline).foregroundStyle(ads.phase == .awarded ? .green:.secondary).accessibilityIdentifier(ads.phase == .awarded ? "rewardedConfirmed":"rewardedMessage")}
+            if let failure=ads.loadFailure {
+                DisclosureGroup("Failure details") {
+                    VStack(alignment:.leading,spacing:12) {
+                        Text(failure.diagnosticText).font(.caption.monospaced()).textSelection(.enabled)
+                        Button("Copy failure details"){ads.copyFailureDetails()}.accessibilityIdentifier("rewardedCopyFailure")
+                        if ads.copiedFailureDetails {Text("Failure details copied.").font(.caption).accessibilityIdentifier("rewardedFailureCopied")}
+                    }.padding(.top,8)
+                }
+            }
             if ads.status?.enabled == false {Text("Videos are unavailable right now. Your daily rewards and trail are still available.").font(.caption).foregroundStyle(.secondary)}
             if ads.privacyOptionsRequired {Button("Ad privacy choices"){Task{await ads.showPrivacyOptions()}}.disabled(ads.busy).accessibilityIdentifier("rewardedPrivacy")}
         }.padding(20).frame(maxWidth:.infinity,alignment:.leading).background(.white,in:RoundedRectangle(cornerRadius:18))

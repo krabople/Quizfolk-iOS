@@ -18,7 +18,12 @@ struct TournamentEvent:Decodable,Identifiable {
  var featured:Bool?=nil
  var prizePool:Int?=nil
  var prizes:[Int]?=nil
- var podiumPrizes:[Int] {if let prizes,prizes.count==3{return prizes};return kind=="weekly" ? [500,250,125]:[150,100,50]}
+ var podiumPrizes:[Int] {
+  if let prizes,prizes.count==3{return prizes}
+  // Legacy closed payloads predate per-event snapshots; preserve their old terms.
+  if closed {return kind=="weekly" ? [500,250,125]:[150,100,50]}
+  return kind=="weekly" ? [1000,500,250]:[500,250,125]
+ }
  var isFeatured:Bool {featured ?? true}
  var entryLabel:String {"\(coins) coins"}
 }
