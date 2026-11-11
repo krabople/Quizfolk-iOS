@@ -18,6 +18,15 @@ private struct SavedRewardedAttempt:Codable {
     var attemptID:String?;var mayHaveEarned:Bool=false
 }
 enum RewardedConfiguration {
+    // Re-enable in a reviewed app update after AdMob account/app approval and device verification.
+    static let enabledInThisRelease=false
+    static var enabled:Bool {
+        #if DEBUG
+        let arguments=ProcessInfo.processInfo.arguments
+        if arguments.contains("--ui-testing"),arguments.contains("--rewarded-fixture") {return true}
+        #endif
+        return enabledInThisRelease
+    }
     static var productionUnit:String {Bundle.main.object(forInfoDictionaryKey:"QuizfolkRewardedAdUnitID") as? String ?? ""}
     static var configured:Bool {
         let appID=Bundle.main.object(forInfoDictionaryKey:"GADApplicationIdentifier") as? String ?? ""
@@ -186,12 +195,13 @@ struct AdLoadFailure:LocalizedError {
     private var consentTask:Task<Void,Never>?
     private var preparationID:UUID?
     private var pollingID:UUID?
-    private let persistenceKey="quizfolk.rewarded.pending.v1"
+    private let persistenceKey:String
+    init(persistenceKey:String="quizfolk.rewarded.pending.v1") {self.persistenceKey=persistenceKey}
     #if DEBUG
     private var fixture:RewardedFixture?
     #endif
     var busy:Bool {preparing || phase == .loading || phase == .presenting}
-    var canPrepare:Bool {!busy && phase != .ready && phase != .checking && status?.available == true}
+    var canPrepare:Bool {RewardedConfiguration.enabled && !busy && phase != .ready && phase != .checking && status?.available == true}
     var hasPending:Bool {saved?.attemptID != nil && status?.attempt?.status == "pending"}
     var canCancel:Bool {hasPending && saved?.mayHaveEarned == false && !busy}
 
@@ -213,21 +223,21 @@ struct AdLoadFailure:LocalizedError {
         if scope != newScope {
             pollTask?.cancel();consentTask?.cancel();provider?.discard()
             pollTask=nil;pollingID=nil;polling=false;preparationID=nil;preparing=false
-            scope=newScope;status=nil;phase = .idle;message=nil;loadFailure=nil;copiedFailureDetails=false
+            scope=newScope;status=nil;phase = .idle;message=nil;loadFailure=nil;copiedFailureDetails=false;privacyOptionsRequired=false
             saved=UserDefaults.standard.data(forKey:persistenceKey).flatMap{try? JSONDecoder().decode(SavedRewardedAttempt.self,from:$0)}
             if saved?.account != account || saved?.endpoint != store.apiURL {saved=nil}
             #if DEBUG
-            if store.isUITesting {
+            if RewardedConfiguration.enabled,store.isUITesting {
                 let fake=RewardedFixture()
                 fixture=fake;provider=FixtureRewardedAdProvider(fixture:fake)
                 if ProcessInfo.processInfo.arguments.contains("--rewarded-resume"),let id=saved?.attemptID {fake.restoreVerifiedAttempt(id:id)}
                 else {saved=nil;persist()}
-            } else {fixture=nil;provider=GoogleRewardedAdProvider()}
+            } else {fixture=nil;provider=RewardedConfiguration.enabled ? GoogleRewardedAdProvider():nil}
             #else
-            provider=GoogleRewardedAdProvider()
+            provider=RewardedConfiguration.enabled ? GoogleRewardedAdProvider():nil
             #endif
             // Updating consent does not initialize ads, load an ad, or show a form.
-            if isConfigured {
+            if RewardedConfiguration.enabled,isConfigured {
                 consentTask=Task { [weak self] in
                     guard let self,let provider=self.provider else{return}
                     try? await provider.updateConsent()
@@ -250,6 +260,7 @@ struct AdLoadFailure:LocalizedError {
         else {UserDefaults.standard.removeObject(forKey:persistenceKey)}
     }
     private func request(_ route:String,body:[String:Any]?=nil,attempt:String?=nil) async throws -> RewardedStatus {
+        guard route != "rewarded-start" || RewardedConfiguration.enabled else {throw APIError.message("Videos are unavailable right now.")}
         #if DEBUG
         if let fixture {return try fixture.request(route,body:body,attempt:attempt)}
         #endif
@@ -291,12 +302,15 @@ struct AdLoadFailure:LocalizedError {
         }
     }
     func refresh() async {
+        // An upgrade must still settle an already-earned reward without loading ads or consent.
+        guard RewardedConfiguration.enabled || saved?.attemptID != nil else{return}
         guard store != nil,!busy,phase != .ready else{return}
         do {apply(try await request("rewarded-status",attempt:saved?.attemptID))}
         catch is CancellationError {return}
         catch {if phase != .presenting {message=hasPending ? "Your reward is still pending. Check again when you’re connected.":"Ads are unavailable right now. Please try again later."}}
     }
     func prepare() async {
+        guard RewardedConfiguration.enabled else{return}
         guard !busy,phase != .ready,phase != .checking,let store,let account=store.profile?.id else{return}
         guard isConfigured,let provider else {message="Ads are not available yet. You can still earn coins from your daily trail.";return}
         let expectedScope=scope
@@ -338,6 +352,7 @@ struct AdLoadFailure:LocalizedError {
         }
     }
     func show() {
+        guard RewardedConfiguration.enabled else{return}
         guard phase == .ready,let provider,let attempt=status?.attempt else{return}
         let expectedScope=scope
         guard attempt.expires>Date().timeIntervalSince1970 else {Task{await cancel();message="This ad expired. Please load another."};return}
@@ -404,6 +419,7 @@ struct AdLoadFailure:LocalizedError {
         }
     }
     func showPrivacyOptions() async {
+        guard RewardedConfiguration.enabled else{return}
         guard !busy,let provider else{return}
         if phase == .ready {await cancel()}
         do {try await provider.privacyOptions(from:presenter());privacyOptionsRequired=provider.privacyOptionsRequired}
@@ -415,6 +431,9 @@ struct RewardedAdCard:View {
     @EnvironmentObject private var store:QuizStore
     @ObservedObject private var ads=RewardedAdCoordinator.shared
     var body:some View {
+        if RewardedConfiguration.enabled {card}
+    }
+    private var card:some View {
         VStack(alignment:.leading,spacing:14) {
             HStack(spacing:12){Image(systemName:"play.rectangle.fill").font(.title).foregroundStyle(Color.coral);VStack(alignment:.leading,spacing:4){Text("A video, 5 coins").font(.title3.bold());Text("An optional way to top up.").font(.subheadline).foregroundStyle(.secondary)}}
             Text("Complete a short ad to earn 5 coins. It’s always your choice.").font(.subheadline)

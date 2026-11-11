@@ -4,10 +4,10 @@ import UIKit
 /// Uses the DEBUG-only provider and server fixture. These tests never request an ad.
 final class RewardedAdUITests:XCTestCase {
     @MainActor override func setUpWithError() throws {continueAfterFailure=false}
-    @MainActor private func launch(_ flags:[String]=[])->XCUIApplication {
+    @MainActor private func launch(_ flags:[String]=[],rewardedFixture:Bool=true)->XCUIApplication {
         XCUIDevice.shared.orientation = .portrait
         let app=XCUIApplication()
-        app.launchArguments=["--ui-testing","-didChooseInterests","YES"]+flags
+        app.launchArguments=["--ui-testing","-didChooseInterests","YES"]+(rewardedFixture ? ["--rewarded-fixture"]:[])+flags
         app.launch()
         let native=app.tabBars.buttons["You"].firstMatch
         let tab=native.waitForExistence(timeout:6) ? native:app.buttons["You"].firstMatch
@@ -20,6 +20,19 @@ final class RewardedAdUITests:XCTestCase {
     @MainActor private func reveal(_ element:XCUIElement,in app:XCUIApplication) {
         for _ in 0..<8 {if element.isHittable{return};app.swipeUp(velocity:500)}
         XCTAssertTrue(element.isHittable,"Rewarded control must remain reachable")
+    }
+    @MainActor func testReleaseExperienceKeepsDailyCoinsAndHidesVideoControls() {
+        let app=launch(rewardedFixture:false)
+        XCTAssertTrue(app.staticTexts["50 coins for opening Quizfolk each day"].waitForExistence(timeout:6))
+        XCTAssertTrue(app.staticTexts["DAILY TRAIL · EXTRA COINS"].exists)
+        capture(app,"DailyTrail-AdsDisabled")
+        for _ in 0..<3 {
+            XCTAssertFalse(app.buttons["rewardedLoad"].exists)
+            XCTAssertFalse(app.buttons["rewardedShow"].exists)
+            XCTAssertFalse(app.buttons["rewardedPrivacy"].exists)
+            XCTAssertFalse(app.staticTexts["A video, 5 coins"].exists)
+            app.swipeUp(velocity:500)
+        }
     }
     @MainActor private func loadAndShow(_ app:XCUIApplication) {
         let load=app.buttons["rewardedLoad"]
