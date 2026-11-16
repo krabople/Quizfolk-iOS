@@ -7,6 +7,18 @@ struct TopicLevelProgress:View {
   VStack(alignment:.leading,spacing:7){HStack{Text("Level \(progress.level) in \(topic.name)").font(.subheadline.bold());Spacer();Text("\(xp) XP").font(.caption)};ProgressView(value:Double(progress.xpIntoLevel),total:Double(progress.xpForNextLevel)).tint(topic.tint);Text("\(progress.remainingXP) XP to level \(progress.level+1)").font(.caption).foregroundStyle(.secondary)}.accessibilityElement(children:.combine)
  }
 }
+struct PersonalTopicLevelProgress:View {
+ @EnvironmentObject var store:QuizStore
+ let topic:Topic
+ var body:some View {
+  VStack(alignment:.leading,spacing:7) {
+   TopicLevelProgress(topic:topic,xp:store.topicXP(topic))
+   if store.practiceXP(topic)>0 {
+    Text("\(store.onlineTopicXP(topic)) online XP + \(store.practiceXP(topic)) practice XP saved on this device").font(.caption).foregroundStyle(.secondary)
+   }
+  }
+ }
+}
 struct PlayerRow:View {
  let card:PlayerCard
  var body:some View {

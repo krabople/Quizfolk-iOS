@@ -24,6 +24,7 @@ jobs:
           php scripts/test_rewarded.php
           php scripts/test_push_crypto.php
           php scripts/test_migration.php
+          php scripts/test_power_migration.php
           php scripts/test_bank_revisions.php
           php scripts/test_question_dedup.php
           php scripts/test_tournament_schedule.php

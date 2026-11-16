@@ -172,13 +172,14 @@ struct TopicView:View {
             Picker("Topic page",selection:$rankings){Text("Play & progress").tag(false);Text("League").tag(true)}.pickerStyle(.segmented).accessibilityIdentifier("topicSection")
             if rankings {TopicLeaguePanel(topic:topic)}
             else {
-                TopicLevelProgress(topic:topic,xp:store.topicXP(topic))
+                PersonalTopicLevelProgress(topic:topic)
                 Button{store.toggle(topic)}label:{Label(store.favourites.contains(topic.id) ? "Following topic":"Follow topic",systemImage:store.favourites.contains(topic.id) ? "heart.fill":"heart")}.tint(topic.tint)
                 HStack(spacing:0){stat("7","questions");stat("3s","to read");stat("10s","to answer")}.padding(.vertical,18).background(.white,in:RoundedRectangle(cornerRadius:18))
                 Text("We search for a human first. You can meet another searcher or face a recorded human run. A labelled bot is offered after six seconds when nobody is available. Play your own questions on your own schedule.").font(.subheadline).foregroundStyle(.secondary)
                 Button("Find a duel"){session=GameSession(topic:topic,store:store,online:true)}.buttonStyle(PrimaryButton(color:topic.tint))
                 Button("Practise against a bot"){session=GameSession(topic:topic,store:store,online:false)}.font(.headline).padding(12).tint(topic.tint)
-                Text("Correct: 11–20 points for speed. Final question counts double. Wrong answers and timeouts score zero. Maximum 160. One power-up per duel: Fifty Fifty removes two wrong options (5 coins); Double Choice gives one extra pick (10); Right Answer selects and submits the correct answer (25). The clock keeps running.").font(.caption).foregroundStyle(.secondary).multilineTextAlignment(.center)
+                Text("Practice earns topic XP saved on this device. Choose Find a duel to earn online league XP and public titles.").font(.caption).foregroundStyle(.secondary)
+                Text("Correct: 11–20 points for speed. Final question counts double. Wrong answers and timeouts score zero. Maximum 160. Each power-up once per duel: Fifty Fifty removes two wrong options (5 coins); Double Choice gives one extra pick (10); Right Answer selects and submits the correct answer (25). The clock keeps running.").font(.caption).foregroundStyle(.secondary).multilineTextAlignment(.center)
             }
         }
     }

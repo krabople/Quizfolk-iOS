@@ -25,6 +25,7 @@ class QuizStore(application: Application) : AndroidViewModel(application) {
     private val historyGeneration = AtomicLong()
     private var tasks = 0
     private var token: String? = null
+    private var progressRefreshNeeded = false
     var testing = false
     var notificationGeneration=0
     var notificationChoices by mutableStateOf(defaultPushChoices())
@@ -74,7 +75,7 @@ class QuizStore(application: Application) : AndroidViewModel(application) {
                 Triple(categories, questions, saved) to bots
             }
             bank = loaded.second; topics = loaded.first + Topic("mixed", "Mixed topics", "7253A4", "🎨", bank.size); history = loaded.third; botNames = names
-            require(bank.size >= 20000 && topics.size == 31) { "The question bank could not be loaded." }
+            require(bank.size >= 20000 && loaded.first.isNotEmpty() && loaded.first.map { it.id }.toSet().containsAll(bank.map { it.categoryID }.toSet())) { "The question bank could not be loaded." }
             ready = true
             if (testing) { transport = requireNotNull(fixtureTransport(getApplication(), bank)); choseInterests = true }
             resume()
@@ -92,7 +93,7 @@ class QuizStore(application: Application) : AndroidViewModel(application) {
             val current = api("profile"); profile = current; name = current.s("name", name)
             prefs.edit().putString("name", name).apply()
             api("social-settings", json("interests" to JSONArray(favourites.toList())))
-            ownCard = api("player"); connectionError = null
+            ownCard = api("player"); connectionError = null; progressRefreshNeeded = false
         } catch (e: Exception) { if (e is CancellationException) throw e; connectionError = e.message ?: "Could not connect your player card."; throw e }
     }
     suspend fun resume() {
@@ -108,6 +109,18 @@ class QuizStore(application: Application) : AndroidViewModel(application) {
     }
     suspend fun api(route: String, body: J? = null, query: Map<String,String> = emptyMap()) = transport.request(route, body, query)
     suspend fun authenticated() { if (profile == null) connect() }
+    /** Read server-owned XP without rewriting interests or performing the full sign-in flow. */
+    suspend fun refreshPlayerProgress() {
+        authenticated()
+        connectionLock.withLock {
+            val playerID = selfID; val service = endpoint
+            val current = api("profile")
+            val card = api("player")
+            // Ignore an old response if the account or service changed while it was in flight.
+            if (selfID != playerID || endpoint != service || current.s("id") != playerID || card.s("id") != playerID) return@withLock
+            profile = current; ownCard = card; connectionError = null; progressRefreshNeeded = false
+        }
+    }
     suspend fun loadPrizes() {
         val inbox = api("prizes"); pendingPrizes = inbox.a("pending").objects(); earnedPrizes = inbox.a("earned").objects()
         inbox.o("wallet")?.let { coins = it.n("coins") }
@@ -125,10 +138,13 @@ class QuizStore(application: Application) : AndroidViewModel(application) {
         for (challenge in challenges.filter { it.s("status") == "complete" }) {
             val old = history.firstOrNull { it.duelID == challenge.s("id") && it.pending } ?: continue
             val reply = api("duel-open", json("duel" to challenge.s("id")))
+            if (reply.b("pending") || reply.a("played").length() != 7) continue
             val updated = old.copy(score = reply.n("score"), opponentScore = reply.n("opponentScore"), opponent = reply.s("opponent"),
                 rounds = reply.a("played").objects().map(Round::parse), pending = false, opponentID = reply.s("opponentID").ifEmpty { null }, opponentAvatar = reply.s("opponentAvatar").ifEmpty { null })
             history = history.map { if (it.id == old.id) updated else it }; persistHistory()
+            progressRefreshNeeded = true
         }
+        if (progressRefreshNeeded) refreshPlayerProgress()
     }
     fun perform(block: suspend () -> Unit) {
         viewModelScope.launch {
@@ -140,15 +156,26 @@ class QuizStore(application: Application) : AndroidViewModel(application) {
     fun push(page: Page) { pages.add(page) }
     fun back() { if (pages.isNotEmpty()) pages.removeAt(pages.lastIndex) }
     fun topic(id: String) = topics.firstOrNull { it.id == id } ?: topics.first()
-    fun topicXP(id: String): Int = ownCard?.a("topics")?.objects()?.firstOrNull { it.s("topicID") == id }?.n("xp")
-        ?: history.filter { it.topicID == id && it.kind != "practice" }.sumOf { it.xp }
+    fun onlineTopicXP(id: String): Int {
+        ownCard?.let { card -> return card.a("topics").objects().firstOrNull { it.s("topicID") == id }?.n("xp") ?: 0 }
+        return history.distinctBy { it.id }.filter { it.topicID == id && it.kind != "practice" && it.rounds.size == 7 && !it.pending }.sumOf { it.xp }
+    }
+    fun practiceXP(id: String): Int = history.distinctBy { it.id }
+        .filter { it.topicID == id && it.kind == "practice" && it.rounds.size == 7 && !it.pending }.sumOf { it.xp }
+    fun topicXP(id: String): Int = onlineTopicXP(id) + practiceXP(id)
     fun toggle(topic: Topic) {
         favourites = if (topic.id in favourites) favourites - topic.id else favourites + topic.id
         prefs.edit().putStringSet("favourites", favourites).apply()
         if (profile != null) perform { api("social-settings", json("interests" to JSONArray(favourites.toList()))) }
     }
     fun finishInterests() { choseInterests = true; prefs.edit().putBoolean("choseInterests", true).apply() }
-    fun save(record: MatchRecord) { if (history.none { it.id == record.id }) { history = listOf(record) + history; persistHistory() } }
+    fun save(record: MatchRecord) {
+        val existing = history.firstOrNull { it.id == record.id }
+        if (existing == null) { history = listOf(record) + history; persistHistory() }
+        else if (existing.pending && !record.pending) {
+            history = history.map { if (it.id == record.id) record.copy(date = existing.date) else it }; persistHistory()
+        }
+    }
     fun nextBotName(): String {
         val recent = (recentBotNames + history.filter { it.kind == "bot" || it.kind == "practice" }.map { it.opponent }).take(5)
         val name = botNames.filterNot { it in recent }.randomOrNull() ?: "Quizfolk · Bot"

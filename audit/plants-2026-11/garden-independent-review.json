@@ -1,0 +1,728 @@
+{
+  "reviewer": "botany_author independent garden review",
+  "reviewed": 90,
+  "remaining": 0,
+  "scope": "Every prompt and all four answers reviewed for meaning, correct and unique answer, grammar and category. Doubtful source coverage researched independently. Edits improve source precision or distractor quality; no wrong keyed answers found.",
+  "sourceWordBudget": "Original draft groups range from 26 to 162 words, conservatively counting prompts, all options and rationales; no group exceeds 200. Recheck final merged audit text if notes are retained.",
+  "reviews": [
+    {
+      "number": 1,
+      "prompt": "Which propagation method separates an established clump into several plants, each with roots and shoots?",
+      "action": "keep",
+      "notes": "Division alone splits an established rooted clump.",
+      "sourceURL": "https://www.rhs.org.uk/propagation/techniques"
+    },
+    {
+      "number": 2,
+      "prompt": "What is a plant cutting?",
+      "action": "keep",
+      "notes": "Correct definition; harvested fruit and pressed flowers are excluded.",
+      "sourceURL": "https://www.rhs.org.uk/propagation/techniques"
+    },
+    {
+      "number": 3,
+      "prompt": "When grafting a rose, what does the rootstock supply?",
+      "action": "keep",
+      "notes": "Rootstock supplies roots; the scion supplies selected aboveground growth.",
+      "sourceURL": "https://www.rhs.org.uk/propagation/techniques"
+    },
+    {
+      "number": 4,
+      "prompt": "What is micropropagation used to produce?",
+      "action": "edit",
+      "notes": "Correct fact, but cite the dedicated RHS micropropagation page.",
+      "sourceURL": "https://www.rhs.org.uk/propagation/techniques",
+      "suggestedChanges": {
+        "sourceURL": "https://www.rhs.org.uk/propagation/micropropagation"
+      }
+    },
+    {
+      "number": 5,
+      "prompt": "During propagation by layering, when is a shoot normally detached from its parent?",
+      "action": "keep",
+      "notes": "Rooting before detachment distinguishes layering from ordinary cuttings.",
+      "sourceURL": "https://propg.ifas.ufl.edu/08-layering/06-layering-types.html"
+    },
+    {
+      "number": 6,
+      "prompt": "What does a gardener do when 'hardening off' seedlings?",
+      "action": "keep",
+      "notes": "Acclimatisation is correctly distinguished from physical drying or damage.",
+      "sourceURL": "https://www.rhs.org.uk/prevention-protection/hardening-off-tender-plants"
+    },
+    {
+      "number": 7,
+      "prompt": "Does hardening off make a frost-sensitive plant fully frost-hardy?",
+      "action": "keep",
+      "notes": "Hardening off does not confer complete frost resistance.",
+      "sourceURL": "https://www.rhs.org.uk/prevention-protection/hardening-off-tender-plants"
+    },
+    {
+      "number": 8,
+      "prompt": "Why are crowded seedlings thinned out?",
+      "action": "keep",
+      "notes": "Thinning reduces competition without changing plant lifespan.",
+      "sourceURL": "https://www.rhs.org.uk/get-involved/grow-with-it/pdfs/grow-with-it-support-pack.pdf"
+    },
+    {
+      "number": 9,
+      "prompt": "When lifting a delicate seedling to transplant it, which part is safest to hold gently?",
+      "action": "keep",
+      "notes": "RHS support pack explicitly recommends holding seedlings by leaves.",
+      "sourceURL": "https://www.rhs.org.uk/get-involved/grow-with-it/pdfs/grow-with-it-support-pack.pdf"
+    },
+    {
+      "number": 10,
+      "prompt": "What does 'pricking out' mean when raising seedlings?",
+      "action": "keep",
+      "notes": "RHS defines pricking out as transplanting individual seedlings.",
+      "sourceURL": "https://www.rhs.org.uk/get-involved/grow-with-it/pdfs/grow-with-it-support-pack.pdf"
+    },
+    {
+      "number": 11,
+      "prompt": "What is a seed drill in a garden bed?",
+      "action": "edit",
+      "notes": "Clarify drill as the sowing groove, avoiding the machine meaning.",
+      "sourceURL": "https://www.rhs.org.uk/getmedia/688ef603-ad54-435f-a875-af77cb39b203/seed-sowing-glossary.pdf",
+      "suggestedChanges": {
+        "prompt": "In seed sowing, what is a drill made in a garden bed?"
+      }
+    },
+    {
+      "number": 12,
+      "prompt": "A seed packet says 'sow direct'. What should you do?",
+      "action": "keep",
+      "notes": "Direct sowing means sowing at the final growing position.",
+      "sourceURL": "https://www.rhs.org.uk/getmedia/688ef603-ad54-435f-a875-af77cb39b203/seed-sowing-glossary.pdf"
+    },
+    {
+      "number": 13,
+      "prompt": "Which soil type usually feels gritty and allows water to drain through quickly?",
+      "action": "keep",
+      "notes": "Sand alone combines grit with rapid drainage.",
+      "sourceURL": "https://www.rhs.org.uk/soil-composts-mulches/soil-types"
+    },
+    {
+      "number": 14,
+      "prompt": "Which garden soil is typically sticky when wet and can bake hard in dry weather?",
+      "action": "keep",
+      "notes": "Clay matches both sticky and hard-baked descriptions.",
+      "sourceURL": "https://www.rhs.org.uk/soil-composts-mulches/soil-types"
+    },
+    {
+      "number": 15,
+      "prompt": "Which soil description means a mixture of sand, silt and clay?",
+      "action": "keep",
+      "notes": "Loam describes the stated mineral-particle mixture.",
+      "sourceURL": "https://www.rhs.org.uk/soil-composts-mulches/soil-types"
+    },
+    {
+      "number": 16,
+      "prompt": "Which plant is a good example of an acid-loving garden shrub?",
+      "action": "keep",
+      "notes": "Rhododendron is the sole acid-loving example here.",
+      "sourceURL": "https://www.rhs.org.uk/soil-composts-mulches/soil-types"
+    },
+    {
+      "number": 17,
+      "prompt": "What does the pH of garden soil describe?",
+      "action": "keep",
+      "notes": "pH describes acidity, not other listed properties.",
+      "sourceURL": "https://www.rhs.org.uk/soil-composts-mulches/soil-types"
+    },
+    {
+      "number": 18,
+      "prompt": "Where is a mulch normally placed around garden plants?",
+      "action": "keep",
+      "notes": "Mulch is a surface covering; all alternatives describe other locations.",
+      "sourceURL": "https://www.rhs.org.uk/soil-composts-mulches/how-to-mulch-with-organic-matter"
+    },
+    {
+      "number": 19,
+      "prompt": "Which is a useful effect of an organic mulch around plants?",
+      "action": "keep",
+      "notes": "Mulch conserves moisture without eliminating rainfall or photosynthesis.",
+      "sourceURL": "https://www.rhs.org.uk/soil-composts-mulches/how-to-mulch-with-organic-matter"
+    },
+    {
+      "number": 20,
+      "prompt": "Which of these can slowly decompose when used as garden mulch?",
+      "action": "keep",
+      "notes": "Composted bark alone is biodegradable organic material.",
+      "sourceURL": "https://www.rhs.org.uk/soil-composts-mulches/how-to-mulch-with-organic-matter"
+    },
+    {
+      "number": 21,
+      "prompt": "Which part of a flowering plant is removed during deadheading?",
+      "action": "keep",
+      "notes": "Deadheading specifically removes spent flowers.",
+      "sourceURL": "https://www.rhs.org.uk/garden-jobs/deadheading-plants"
+    },
+    {
+      "number": 22,
+      "prompt": "Why might a gardener leave some faded flowers on a plant instead of deadheading them?",
+      "action": "keep",
+      "notes": "Retaining spent flowers allows reproductive structures to mature.",
+      "sourceURL": "https://www.rhs.org.uk/garden-jobs/deadheading-plants"
+    },
+    {
+      "number": 23,
+      "prompt": "For many repeat-flowering plants, deadheading can encourage what?",
+      "action": "keep",
+      "notes": "The qualification many correctly avoids claiming universal repeat flowering.",
+      "sourceURL": "https://www.rhs.org.uk/garden-jobs/deadheading-plants"
+    },
+    {
+      "number": 24,
+      "prompt": "Which of these garden plants grows from a true bulb?",
+      "action": "keep",
+      "notes": "Tulip is a true bulb; the three alternatives use different storage organs.",
+      "sourceURL": "https://www.ucanr.edu/sites/default/files/2019-09/311976.pdf"
+    },
+    {
+      "number": 25,
+      "prompt": "What type of underground storage organ does a gladiolus have?",
+      "action": "keep",
+      "notes": "Gladiolus has a corm, not a layered bulb.",
+      "sourceURL": "https://www.ucanr.edu/sites/default/files/2019-09/311976.pdf"
+    },
+    {
+      "number": 26,
+      "prompt": "Which spring-flowering plant grows from a corm?",
+      "action": "keep",
+      "notes": "Crocus is the only corm-bearing option; all three distractors are true bulbs.",
+      "sourceURL": "https://www.ucanr.edu/sites/default/files/2019-09/311976.pdf"
+    },
+    {
+      "number": 27,
+      "prompt": "What distinguishes a true bulb from a corm when cut open?",
+      "action": "keep",
+      "notes": "Layered scales versus solid stem tissue is the correct distinction.",
+      "sourceURL": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/is-this-a-bulb/"
+    },
+    {
+      "number": 28,
+      "prompt": "A rhizome is best described as which type of plant structure?",
+      "action": "keep",
+      "notes": "Rhizomes are horizontal stems capable of producing roots and shoots.",
+      "sourceURL": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/is-this-a-bulb/"
+    },
+    {
+      "number": 29,
+      "prompt": "In a typical UK garden, when are most spring-flowering bulbs planted?",
+      "action": "keep",
+      "notes": "UK context makes autumn the clear seasonal answer.",
+      "sourceURL": "https://www.rhs.org.uk/plants/types/bulbs/planting"
+    },
+    {
+      "number": 30,
+      "prompt": "When planting a tulip bulb, which way should its pointed growing tip usually face?",
+      "action": "edit",
+      "notes": "Correct orientation; replace source with the RHS planting-in-grass instructions.",
+      "sourceURL": "https://www.rhs.org.uk/plants/types/bulbs/planting",
+      "suggestedChanges": {
+        "sourceURL": "https://www.rhs.org.uk/plants/types/bulbs/how-to-plant-bulbs-in-grass"
+      }
+    },
+    {
+      "number": 31,
+      "prompt": "Daffodils belong to which botanical genus?",
+      "action": "keep",
+      "notes": "Narcissus is the only daffodil genus among these choices.",
+      "sourceURL": "https://www.kew.org/plants/daffodils"
+    },
+    {
+      "number": 32,
+      "prompt": "Which feature gives a typical daffodil flower its familiar trumpet-like centre?",
+      "action": "edit",
+      "notes": "Corona is correct; Kew species profile explicitly verifies the term.",
+      "sourceURL": "https://www.kew.org/plants/daffodils",
+      "suggestedChanges": {
+        "sourceURL": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A66177-1/general-information"
+      }
+    },
+    {
+      "number": 33,
+      "prompt": "Which botanical name identifies the snowdrop genus?",
+      "action": "keep",
+      "notes": "Galanthus alone denotes snowdrops despite similar-sounding distractors.",
+      "sourceURL": "https://www.rhs.org.uk/plants/snowdrops%E2%81%A0"
+    },
+    {
+      "number": 34,
+      "prompt": "What colour are the flowers of the common snowdrop, Galanthus nivalis?",
+      "action": "keep",
+      "notes": "The named common species has white flowers with green inner markings.",
+      "sourceURL": "https://www.rhs.org.uk/plants/snowdrops%E2%81%A0"
+    },
+    {
+      "number": 35,
+      "prompt": "Which spot is generally suitable for snowdrops in a garden?",
+      "action": "keep",
+      "notes": "RHS confirms partial shade near deciduous trees and rejects wet or very dry sites.",
+      "sourceURL": "https://www.rhs.org.uk/plants/snowdrops%E2%81%A0"
+    },
+    {
+      "number": 36,
+      "prompt": "Which growing conditions generally suit lavender best?",
+      "action": "keep",
+      "notes": "Sun and drainage suit lavender; no competing option is suitable.",
+      "sourceURL": "https://www.rhs.org.uk/plants/lavender"
+    },
+    {
+      "number": 37,
+      "prompt": "Lavandula is the botanical genus of which aromatic plant?",
+      "action": "keep",
+      "notes": "Lavandula denotes lavender; the other herbs have different genera.",
+      "sourceURL": "https://www.rhs.org.uk/plants/lavender"
+    },
+    {
+      "number": 38,
+      "prompt": "Which garden plant is known for fragrant flower spikes above grey-green foliage?",
+      "action": "keep",
+      "notes": "The combined fragrance, flower spikes and foliage distinguish lavender here.",
+      "sourceURL": "https://www.rhs.org.uk/plants/lavender"
+    },
+    {
+      "number": 39,
+      "prompt": "What is the usual growth habit of a wisteria?",
+      "action": "keep",
+      "notes": "Wisteria is a woody climber; the other growth habits are incorrect.",
+      "sourceURL": "https://www.rhs.org.uk/plants/wisteria"
+    },
+    {
+      "number": 40,
+      "prompt": "What is the botanical term for the long hanging flower clusters of wisteria?",
+      "action": "keep",
+      "notes": "Raceme is the only flower-cluster term among the options.",
+      "sourceURL": "https://www.rhs.org.uk/plants/wisteria"
+    },
+    {
+      "number": 41,
+      "prompt": "Which structures help climbing sweet peas cling to supports?",
+      "action": "keep",
+      "notes": "Sweet pea tendrils grasp supports; bulbs and fruits do not.",
+      "sourceURL": "https://www.rhs.org.uk/plants/lathyrus/sweet-peas"
+    },
+    {
+      "number": 42,
+      "prompt": "What is the botanical name of the fragrant annual sweet pea?",
+      "action": "keep",
+      "notes": "Lathyrus odoratus is the annual ornamental sweet pea, unlike the food legumes.",
+      "sourceURL": "https://www.rhs.org.uk/plants/lathyrus/sweet-peas"
+    },
+    {
+      "number": 43,
+      "prompt": "Why does regularly picking sweet pea flowers often prolong flowering?",
+      "action": "keep",
+      "notes": "Picking flowers limits seed production and encourages further flowering.",
+      "sourceURL": "https://www.rhs.org.uk/plants/lathyrus/sweet-peas"
+    },
+    {
+      "number": 44,
+      "prompt": "The large head of a common sunflower is made up of what?",
+      "action": "keep",
+      "notes": "The sunflower head contains many florets, not one enormous flower.",
+      "sourceURL": "https://www.kew.org/plants/sunflower"
+    },
+    {
+      "number": 45,
+      "prompt": "Which part of a sunflower is commonly pressed to produce cooking oil?",
+      "action": "keep",
+      "notes": "Oil is obtained from sunflower seeds, not the listed vegetative tissues.",
+      "sourceURL": "https://www.kew.org/plants/sunflower"
+    },
+    {
+      "number": 46,
+      "prompt": "What is the scientific name of the common annual sunflower?",
+      "action": "keep",
+      "notes": "Helianthus annuus uniquely identifies the common annual sunflower.",
+      "sourceURL": "https://www.kew.org/plants/sunflower"
+    },
+    {
+      "number": 47,
+      "prompt": "What are the colourful fruits produced by many roses called?",
+      "action": "keep",
+      "notes": "Hips are rose fruits; cones, corms and catkins are distinct structures.",
+      "sourceURL": "https://www.rhs.org.uk/plants/roses"
+    },
+    {
+      "number": 48,
+      "prompt": "Which botanical genus contains roses?",
+      "action": "keep",
+      "notes": "Rosa is the rose genus; all other choices are separate genera.",
+      "sourceURL": "https://www.rhs.org.uk/plants/roses"
+    },
+    {
+      "number": 49,
+      "prompt": "To enjoy a display of rose hips, what should a gardener avoid doing to every flower?",
+      "action": "keep",
+      "notes": "Deadheading every flower prevents subsequent hip formation.",
+      "sourceURL": "https://www.rhs.org.uk/plants/roses/growing-guide/"
+    },
+    {
+      "number": 50,
+      "prompt": "Why is opening up the centre of a rose bush one aim of pruning?",
+      "action": "keep",
+      "notes": "RHS explicitly names improved air circulation as an open-centre pruning aim.",
+      "sourceURL": "https://www.rhs.org.uk/plants/roses/growing-guide/"
+    },
+    {
+      "number": 51,
+      "prompt": "Dahlias store reserves below ground mainly in which structures?",
+      "action": "keep",
+      "notes": "Dahlia storage organs are tuberous roots; true bulbs are structurally different.",
+      "sourceURL": "https://www.rhs.org.uk/plants/dahlia"
+    },
+    {
+      "number": 52,
+      "prompt": "Why are tall, large-flowered dahlias often tied to stakes?",
+      "action": "keep",
+      "notes": "Stakes support top-heavy flowering stems without changing plant identity.",
+      "sourceURL": "https://www.rhs.org.uk/plants/dahlia"
+    },
+    {
+      "number": 53,
+      "prompt": "Which conditions threaten dahlia tubers stored over a cold UK winter?",
+      "action": "keep",
+      "notes": "Freezing is the hazard; all three alternatives offer cold protection.",
+      "sourceURL": "https://www.rhs.org.uk/plants/dahlia"
+    },
+    {
+      "number": 54,
+      "prompt": "What gives a bearded iris its 'beard'?",
+      "action": "keep",
+      "notes": "RHS confirms the beard consists of hairs on the falls.",
+      "sourceURL": "https://www.rhs.org.uk/plants/iris/dividing"
+    },
+    {
+      "number": 55,
+      "prompt": "The thick horizontal stems of bearded irises are called what?",
+      "action": "keep",
+      "notes": "RHS confirms the thick horizontal storage stems are rhizomes.",
+      "sourceURL": "https://www.rhs.org.uk/plants/iris/dividing"
+    },
+    {
+      "number": 56,
+      "prompt": "The large red parts of a typical poinsettia display are what?",
+      "action": "edit",
+      "notes": "Correct, but petals would be a more plausible distractor than roots or pollen.",
+      "sourceURL": "https://www.rhs.org.uk/plants/euphorbia/poinsettia",
+      "suggestedChanges": {
+        "answers": [
+          "Bracts, which are modified leaves",
+          "Petals belonging to large flowers",
+          "Ripening seed capsules",
+          "Colourful sepals around each flower"
+        ]
+      }
+    },
+    {
+      "number": 57,
+      "prompt": "Where are a poinsettia's small flowers found?",
+      "action": "keep",
+      "notes": "Small flowers occur centrally among the bracts; the other locations are incorrect.",
+      "sourceURL": "https://www.rhs.org.uk/plants/euphorbia/poinsettia"
+    },
+    {
+      "number": 58,
+      "prompt": "The vivid papery structures around bougainvillea's small flowers are called what?",
+      "action": "edit",
+      "notes": "Bracts is correct; petals and sepals would provide more credible distractors.",
+      "sourceURL": "https://www.rhs.org.uk/plants/bougainvillea",
+      "suggestedChanges": {
+        "answers": [
+          "Bracts",
+          "Petals",
+          "Sepals",
+          "Seed wings"
+        ]
+      }
+    },
+    {
+      "number": 59,
+      "prompt": "Where did bougainvilleas originate?",
+      "action": "edit",
+      "notes": "South America is correct; replace polar distractors with other warm regions.",
+      "sourceURL": "https://www.rhs.org.uk/plants/bougainvillea",
+      "suggestedChanges": {
+        "answers": [
+          "South America",
+          "Southern Africa",
+          "Southeast Asia",
+          "Australia"
+        ]
+      }
+    },
+    {
+      "number": 60,
+      "prompt": "Which garden flower is commonly called love-in-a-mist?",
+      "action": "keep",
+      "notes": "Nigella damascena uniquely matches the stated common name.",
+      "sourceURL": "https://www.rhs.org.uk/plants/nigella"
+    },
+    {
+      "number": 61,
+      "prompt": "What creates the 'mist' around a love-in-a-mist flower?",
+      "action": "edit",
+      "notes": "Divided foliage creates the visual mist; replace invented mechanisms with botanical structures.",
+      "sourceURL": "https://www.rhs.org.uk/plants/nigella",
+      "suggestedChanges": {
+        "answers": [
+          "Finely divided foliage surrounding it",
+          "A covering of long seed hairs",
+          "A dense cluster of pale roots",
+          "A powdery layer on the petals"
+        ]
+      }
+    },
+    {
+      "number": 62,
+      "prompt": "Antirrhinum majus is commonly known as which garden flower?",
+      "action": "keep",
+      "notes": "Antirrhinum majus is snapdragon; none of the alternative common names applies.",
+      "sourceURL": "https://www.rhs.org.uk/plants/69565/antirrhinum-majus/details"
+    },
+    {
+      "number": 63,
+      "prompt": "Which common name belongs to plants in the genus Myosotis?",
+      "action": "keep",
+      "notes": "Myosotis denotes forget-me-not; all other names refer to different genera.",
+      "sourceURL": "https://www.rhs.org.uk/plants/156471/myosotis/details"
+    },
+    {
+      "number": 64,
+      "prompt": "Which plant bears small, nodding, fragrant white bells above paired broad leaves?",
+      "action": "keep",
+      "notes": "Paired broad leaves and fragrant white bells distinguish lily-of-the-valley here.",
+      "sourceURL": "https://www.rhs.org.uk/plants/4327/i-convallaria-majalis-i/details/"
+    },
+    {
+      "number": 65,
+      "prompt": "A Venus flytrap catches prey using modified versions of which plant part?",
+      "action": "keep",
+      "notes": "Venus flytrap traps are modified leaves, not flowers or roots.",
+      "sourceURL": "https://www.kew.org/plants/venus-flytrap"
+    },
+    {
+      "number": 66,
+      "prompt": "Where is the Venus flytrap native?",
+      "action": "keep",
+      "notes": "The Carolinas are its native range; cultivation elsewhere does not change that.",
+      "sourceURL": "https://www.kew.org/plants/venus-flytrap"
+    },
+    {
+      "number": 67,
+      "prompt": "What helps trigger a Venus flytrap's trap to snap shut?",
+      "action": "keep",
+      "notes": "Trigger-hair stimulation is correct; wording avoids claiming one touch always suffices.",
+      "sourceURL": "https://www.kew.org/plants/venus-flytrap"
+    },
+    {
+      "number": 68,
+      "prompt": "How do sundews typically catch small insects?",
+      "action": "keep",
+      "notes": "Sundews catch prey with sticky leaf secretions.",
+      "sourceURL": "https://www.kew.org/read-and-watch/carnivorous-plants"
+    },
+    {
+      "number": 69,
+      "prompt": "Why is catching prey especially useful to carnivorous plants in nutrient-poor habitats?",
+      "action": "keep",
+      "notes": "Carnivory supplements nutrients and does not replace water or light.",
+      "sourceURL": "https://www.kew.org/read-and-watch/carnivorous-plants"
+    },
+    {
+      "number": 70,
+      "prompt": "What type of trap is used by a tropical pitcher plant such as Nepenthes?",
+      "action": "edit",
+      "notes": "Nepenthes uses pitfall pitchers; replace invented mechanisms with genuine trap types.",
+      "sourceURL": "https://www.kew.org/read-and-watch/carnivorous-plants",
+      "suggestedChanges": {
+        "answers": [
+          "A pitfall containing digestive fluid",
+          "A snap trap with closing leaf lobes",
+          "A sticky surface that glues prey down",
+          "A suction bladder that draws prey inside"
+        ]
+      }
+    },
+    {
+      "number": 71,
+      "prompt": "The strong smell of a flowering titan arum is often compared with what?",
+      "action": "keep",
+      "notes": "Carrion-like odour is the intended reproductive attraction.",
+      "sourceURL": "https://www.kew.org/plants/titan-arum"
+    },
+    {
+      "number": 72,
+      "prompt": "Is the titan arum a carnivorous plant?",
+      "action": "keep",
+      "notes": "Kew explicitly confirms titan arum is not carnivorous.",
+      "sourceURL": "https://www.kew.org/plants/titan-arum"
+    },
+    {
+      "number": 73,
+      "prompt": "What does the titan arum's huge flowering structure contain?",
+      "action": "keep",
+      "notes": "Its inflorescence contains numerous flowers around the base of the spadix.",
+      "sourceURL": "https://www.kew.org/plants/titan-arum"
+    },
+    {
+      "number": 74,
+      "prompt": "Which habitat is natural for the giant waterlily Victoria amazonica?",
+      "action": "edit",
+      "notes": "Freshwater Amazon habitats are correct; use the accessible NC State species profile.",
+      "sourceURL": "https://www.kew.org/plants/giant-waterlily",
+      "suggestedChanges": {
+        "sourceURL": "https://plants.ces.ncsu.edu/plants/victoria-amazonica/common-name/giant-water-lily/"
+      }
+    },
+    {
+      "number": 75,
+      "prompt": "What distinctive feature occurs around the edge of a giant waterlily's circular leaf?",
+      "action": "edit",
+      "notes": "Raised leaf rims are diagnostic; replace unrelated organs with plausible margin descriptions.",
+      "sourceURL": "https://www.kew.org/plants/giant-waterlily",
+      "suggestedChanges": {
+        "answers": [
+          "An upturned rim",
+          "A deeply lobed margin",
+          "A fringe of long soft hairs",
+          "A row of detachable leaflets"
+        ]
+      }
+    },
+    {
+      "number": 76,
+      "prompt": "Which insects pollinate Victoria amazonica in the wild?",
+      "action": "edit",
+      "notes": "Beetles are verified pollinators; no alternative is supported for this species.",
+      "sourceURL": "https://www.kew.org/plants/giant-waterlily",
+      "suggestedChanges": {
+        "sourceURL": "https://www.uu.se/en/botanical-garden/our-plants-and-attractions/our-plants/the-giant-waterlilies"
+      }
+    },
+    {
+      "number": 77,
+      "prompt": "The genus name Victoria, used for giant waterlilies, honours whom?",
+      "action": "edit",
+      "notes": "Queen Victoria is verified as the namesake by Uppsala University.",
+      "sourceURL": "https://www.kew.org/plants/giant-waterlily",
+      "suggestedChanges": {
+        "sourceURL": "https://www.uu.se/en/botanical-garden/our-plants-and-attractions/our-plants/the-giant-waterlilies"
+      }
+    },
+    {
+      "number": 78,
+      "prompt": "What is the sensitive plant, Mimosa pudica, famous for doing when touched?",
+      "action": "edit",
+      "notes": "Leaflet folding is correct; replace fanciful transformations with plausible movements.",
+      "sourceURL": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A313242-2/general-information",
+      "suggestedChanges": {
+        "answers": [
+          "Folding its leaflets",
+          "Opening its flowers immediately",
+          "Uncoiling all its tendrils",
+          "Shedding its mature seeds"
+        ]
+      }
+    },
+    {
+      "number": 79,
+      "prompt": "How many long-lived foliage leaves does a mature Welwitschia normally produce?",
+      "action": "edit",
+      "notes": "Two persistent foliage leaves is correct; seed leaves are excluded by the wording.",
+      "sourceURL": "https://www.kew.org/plants/welwitschia-mirabilis",
+      "suggestedChanges": {
+        "sourceURL": "https://pza.sanbi.org/welwitschia-mirabilis"
+      }
+    },
+    {
+      "number": 80,
+      "prompt": "Welwitschia is associated with which environment?",
+      "action": "edit",
+      "notes": "Namib Desert is correct; replace marine distractors with other desert names.",
+      "sourceURL": "https://www.kew.org/plants/welwitschia-mirabilis",
+      "suggestedChanges": {
+        "answers": [
+          "The Namib Desert",
+          "The Gobi Desert",
+          "The Atacama Desert",
+          "The Great Victoria Desert"
+        ],
+        "sourceURL": "https://pza.sanbi.org/welwitschia-mirabilis"
+      }
+    },
+    {
+      "number": 81,
+      "prompt": "The monkey puzzle tree is native to parts of which two countries?",
+      "action": "keep",
+      "notes": "Chile and Argentina are the verified native range.",
+      "sourceURL": "https://www.kew.org/plants/monkey-puzzle-tree"
+    },
+    {
+      "number": 82,
+      "prompt": "Which group of plants includes the monkey puzzle tree?",
+      "action": "keep",
+      "notes": "Monkey puzzle is a conifer; its leaves do not make it a grass or fern.",
+      "sourceURL": "https://www.kew.org/plants/monkey-puzzle-tree"
+    },
+    {
+      "number": 83,
+      "prompt": "What is unusual about where cacao trees produce many of their flowers?",
+      "action": "keep",
+      "notes": "Flowers borne on trunk and older branches correctly describe cauliflory.",
+      "sourceURL": "https://www.kew.org/plants/cacao-tree"
+    },
+    {
+      "number": 84,
+      "prompt": "Which part of the cacao plant provides the main raw material for chocolate?",
+      "action": "keep",
+      "notes": "Chocolate uses cacao seeds, not bark, leaves or petals.",
+      "sourceURL": "https://www.kew.org/plants/cacao-tree"
+    },
+    {
+      "number": 85,
+      "prompt": "Which small insects naturally pollinate cacao flowers?",
+      "action": "keep",
+      "notes": "Midges are verified cacao pollinators; wording does not claim they are universally exclusive.",
+      "sourceURL": "https://www.kew.org/plants/cacao-tree"
+    },
+    {
+      "number": 86,
+      "prompt": "The plant that produces culinary vanilla belongs to which flower family?",
+      "action": "keep",
+      "notes": "Culinary vanilla is an orchid; none of the other families is correct.",
+      "sourceURL": "https://www.kew.org/plants/vanilla"
+    },
+    {
+      "number": 87,
+      "prompt": "How does the vanilla plant attach itself to trees as it climbs?",
+      "action": "keep",
+      "notes": "Kew explicitly states aerial roots cling to trees.",
+      "sourceURL": "https://www.kew.org/plants/vanilla"
+    },
+    {
+      "number": 88,
+      "prompt": "Which part of a vanilla plant is cured to make vanilla pods for flavouring?",
+      "action": "keep",
+      "notes": "Vanilla pods are cured fruits; the other organs do not produce the spice.",
+      "sourceURL": "https://www.kew.org/plants/vanilla"
+    },
+    {
+      "number": 89,
+      "prompt": "The part of ginger commonly used in cooking is botanically what?",
+      "action": "keep",
+      "notes": "Ginger is a rhizome despite the everyday name ginger root.",
+      "sourceURL": "https://www.kew.org/plants/ginger"
+    },
+    {
+      "number": 90,
+      "prompt": "Saffron is obtained from which part of the saffron crocus flower?",
+      "action": "keep",
+      "notes": "Saffron crocus stigma is uniquely correct; the named crocus avoids substitute-spice ambiguity.",
+      "sourceURL": "https://mpns.science.kew.org/mpns-portal/drugDetail?drugName=saffron"
+    }
+  ]
+}

@@ -44,4 +44,13 @@ class ScoringAndDeckTest {
         // Closed events retain the exact prize table returned by the service.
         assertEquals(listOf(150,100,50),podium(json("kind" to "daily", "prizes" to org.json.JSONArray(listOf(150,100,50)))))
     }
+    @Test fun perTypePowerContractKeepsOtherChoicesAvailableAndLegacyRepliesSafe() {
+        val power = Power.parse(json("used" to true, "type" to "fifty", "usedTypes" to org.json.JSONArray(listOf("double", "fifty")),
+            "activeTypes" to org.json.JSONArray(listOf("double", "fifty")), "hidden" to org.json.JSONArray(listOf(1,2))))
+        assertTrue(power.hasUsed(Assist.DOUBLE)); assertTrue(power.hasUsed(Assist.FIFTY)); assertFalse(power.hasUsed(Assist.RIGHT))
+        assertTrue(power.active(Assist.DOUBLE)); assertTrue(power.active(Assist.FIFTY))
+        val next = power.next()
+        assertTrue(next.hasUsed(Assist.DOUBLE)); assertFalse(next.active(Assist.DOUBLE)); assertTrue(next.hidden.isEmpty())
+        assertTrue(Assist.entries.all { Power.parse(json("used" to true)).hasUsed(it) })
+    }
 }

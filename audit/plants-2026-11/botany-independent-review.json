@@ -1,0 +1,542 @@
+[
+  {
+    "prompt": "Which plant structures chiefly anchor a sunflower in the soil?",
+    "action": "keep",
+    "meaning": "Anchorage of a named garden plant.",
+    "answer": "Roots anchor the sunflower; petals, anthers and seed coats do not.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "What is the main benefit of root hairs to a plant?",
+    "action": "keep",
+    "meaning": "Function of root hairs.",
+    "answer": "Extra absorptive surface is the only option describing root-hair function.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "What does the cap at the tip of a growing root protect?",
+    "action": "keep",
+    "meaning": "Protection provided by the root cap.",
+    "answer": "The cap shields the root meristem; the listed flower, fruit and leaf structures are elsewhere.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "Which name describes a root system dominated by one thick central root?",
+    "action": "keep",
+    "meaning": "Recognition of a central-root arrangement.",
+    "answer": "A dominant main root defines a taproot; fibrous roots lack that arrangement and runners/rhizomes are stems.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "Where is pollen produced in a typical flower?",
+    "action": "keep",
+    "meaning": "Pollen-producing flower organ.",
+    "answer": "Anthers produce pollen; the stigma receives pollen and ovaries contain ovules.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "Which flower part receives pollen during pollination?",
+    "action": "keep",
+    "meaning": "Pollen-receiving flower organ.",
+    "answer": "Only the stigma is the receptive surface among these options.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "What do sepals usually protect before a flower opens?",
+    "action": "keep",
+    "meaning": "Usual role of sepals before flowering.",
+    "answer": "Sepals surround and protect the developing flower bud; usually correctly avoids absolute exceptions.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "After fertilisation, an ovule in a flower develops into what?",
+    "action": "keep",
+    "meaning": "Fate of a fertilised ovule.",
+    "answer": "An ovule develops into a seed, not one of the three named flower organs.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "Which green pigment captures light for photosynthesis?",
+    "action": "keep",
+    "meaning": "Identity of a green light-capturing pigment.",
+    "answer": "Chlorophyll is the photosynthetic pigment; the animal pigments/protein do not fit.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "Which gas do green plants use as a carbon source during photosynthesis?",
+    "action": "keep",
+    "meaning": "Carbon input to photosynthesis.",
+    "answer": "Carbon dioxide supplies the carbon; none of the other gases contains carbon.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "Which gas is released by a green leaf during photosynthesis?",
+    "action": "keep",
+    "meaning": "Gas produced by photosynthesis.",
+    "answer": "Oxygen is released; methane, hydrogen and ammonia are not products of ordinary green-leaf photosynthesis.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "Which plant process releases energy from sugars and continues at night?",
+    "action": "keep",
+    "meaning": "Sugar breakdown that continues at night.",
+    "answer": "Respiration releases usable energy; transpiration and pollination do not, and photosynthesis needs light.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "What pressure helps keep a well-watered, non-woody stem firm?",
+    "action": "keep",
+    "meaning": "Support in soft plant tissue.",
+    "answer": "Turgor is intracellular water pressure; the alternative proposed pressures are not the mechanism.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "With other conditions equal, which air is most likely to slow water loss from leaves?",
+    "action": "keep",
+    "meaning": "Effect of atmospheric humidity on water loss.",
+    "answer": "Humid air reduces the vapour gradient; dry, hotter or faster-moving dry air does not.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "In plant biology, what is a photoperiod?",
+    "action": "keep",
+    "meaning": "Definition of photoperiod.",
+    "answer": "It measures daily light duration, not root length, flower size or seed age.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "What does day-neutral mean when describing a plant's flowering response?",
+    "action": "keep",
+    "meaning": "Meaning of day-neutral flowering.",
+    "answer": "Day-neutral flowering is not regulated by day length; the other claims do not follow.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "What is the scientific study of plants called?",
+    "action": "keep",
+    "meaning": "Name of the discipline studying plants.",
+    "answer": "Botany is distinct from zoology, geology and meteorology.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "In the scientific plant name Rosa canina, what does Rosa identify?",
+    "action": "keep",
+    "meaning": "First word of a botanical binomial.",
+    "answer": "Rosa denotes the genus; family, order and cultivar are different categories.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "Which taxonomic group contains related plant genera?",
+    "action": "keep",
+    "meaning": "Taxonomic rank grouping related genera.",
+    "answer": "Family is broader than genus; species, cultivar and variety are narrower.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "What is the collective name for flowering plants?",
+    "action": "keep",
+    "meaning": "Name for the flowering-plant group.",
+    "answer": "Angiosperms flower; gymnosperms, ferns and bryophytes do not produce true flowers.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "How many seed leaves does a monocot embryo have?",
+    "action": "keep",
+    "meaning": "Number of cotyledons in monocots.",
+    "answer": "One seed leaf is the defining monocot condition; the number choices are unambiguous.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "Which leaf-vein pattern is typical of grasses?",
+    "action": "keep",
+    "meaning": "Typical leaf venation of grasses.",
+    "answer": "Parallel venation is typical; the qualifier avoids asserting a universal monocot rule.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "Monocot flower parts are usually arranged in multiples of which number?",
+    "action": "keep",
+    "meaning": "Typical number pattern in monocot flowers.",
+    "answer": "Multiples of three are typical; usually is necessary and present.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "In a typical monocot stem, how are the vascular bundles arranged?",
+    "action": "keep",
+    "meaning": "Typical monocot stem anatomy.",
+    "answer": "Bundles are scattered rather than forming the typical dicot ring; other locations are wrong.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "What is the usual botanical name for a fern leaf?",
+    "action": "keep",
+    "meaning": "Name for a fern leaf.",
+    "answer": "Frond denotes the leaf; petals, catkins and cones are different structures.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "Ferns disperse which structures instead of seeds?",
+    "action": "keep",
+    "meaning": "Fern dispersal structures.",
+    "answer": "Ferns release spores rather than pollen, nuts or berries.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "On many fern fronds, what are the clusters called sori associated with?",
+    "action": "keep",
+    "meaning": "Role of sori on fern fronds.",
+    "answer": "Sori contain spore-producing sporangia; ferns lack flowers, seeds and pollen.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "Why is a film of water important for fertilisation in many ferns?",
+    "action": "keep",
+    "meaning": "Role of water in fern fertilisation.",
+    "answer": "Sperm can swim to the egg; water does not make spores become seeds.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "What are the threadlike structures that anchor mosses called?",
+    "action": "keep",
+    "meaning": "Moss anchoring structures.",
+    "answer": "Rhizoids provide attachment; anthers, petals and stamens are flower organs absent in mosses.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "Where are moss spores produced?",
+    "action": "keep",
+    "meaning": "Location of moss spore production.",
+    "answer": "The sporophyte capsule produces spores; mosses have no flowers or fruits.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "Which stage forms the familiar leafy part of most moss plants?",
+    "action": "keep",
+    "meaning": "Life-cycle identity of leafy moss.",
+    "answer": "The familiar leafy part is the gametophyte; the alternatives are absent seed-plant structures.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "What first develops when a moss spore germinates?",
+    "action": "keep",
+    "meaning": "First growth after a moss spore germinates.",
+    "answer": "Protonema precedes leafy shoots; none of the alternatives is a moss germination stage.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "Pines and spruces belong to which seed-plant group?",
+    "action": "keep",
+    "meaning": "Seed-plant classification of pines and spruces.",
+    "answer": "Both are gymnosperms; angiosperms flower and the other groups are seedless.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "In a pine tree, where do seeds develop?",
+    "action": "keep",
+    "meaning": "Location of pine seeds.",
+    "answer": "Seeds develop on female cone scales rather than within a fruit or petal.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "A pine needle is which part of the plant?",
+    "action": "keep",
+    "meaning": "Identity of a pine needle.",
+    "answer": "A needle is a leaf; it is not a reproductive organ or root.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "Which conifer normally sheds all its needles each autumn?",
+    "action": "keep",
+    "meaning": "A deciduous conifer among evergreen alternatives.",
+    "answer": "Larches normally shed their needles in autumn; Scots pine, Norway spruce and Douglas fir retain foliage.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "A plant that completes its life cycle in one growing season is called what?",
+    "action": "keep",
+    "meaning": "Life-cycle term for a single growing season.",
+    "answer": "Annual is the only matching life-cycle category; evergreen concerns retained foliage.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "Which term describes a plant that normally completes its life cycle over two growing seasons?",
+    "action": "keep",
+    "meaning": "Life-cycle term for two growing seasons.",
+    "answer": "Biennials ordinarily grow then reproduce across two seasons; epiphyte describes where a plant grows.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "What does perennial mean when describing a plant's life cycle?",
+    "action": "keep",
+    "meaning": "Definition of perennial longevity.",
+    "answer": "More than two years defines perennial; seasonal leaf loss is a separate characteristic.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "What distinguishes a woody perennial from a herbaceous perennial?",
+    "action": "keep",
+    "meaning": "Distinction between woody and herbaceous perennials.",
+    "answer": "Persistent woody stems define the woody group; evergreen foliage, continuous blooms and lack of seed dormancy do not.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "What name is given to actively dividing plant tissue at a growing tip?",
+    "action": "keep",
+    "meaning": "Name of dividing growth tissue.",
+    "answer": "Meristem is active cell-division tissue; the other choices are not meristems.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "What is the basic structural unit of a plant?",
+    "action": "keep",
+    "meaning": "Basic biological structural unit.",
+    "answer": "A cell is the basic unit; branches, seeds and petals contain many cells.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "Which term describes an organised group of plant cells working together?",
+    "action": "keep",
+    "meaning": "Organisation of cells into tissue.",
+    "answer": "Tissue is a coordinated cell group; the other options concern whole organisms.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "Which molecule carries inherited genetic information in plant cells?",
+    "action": "keep",
+    "meaning": "Carrier of inherited genetic information.",
+    "answer": "DNA carries the genetic code; starch, cellulose and chlorophyll have other roles.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "A shoot bending as it grows towards light is showing which response?",
+    "action": "keep",
+    "meaning": "Directional shoot growth towards light.",
+    "answer": "Phototropism is light-directed growth; the other tropisms involve gravity, water or contact.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "Which environmental force is detected in gravitropism?",
+    "action": "keep",
+    "meaning": "Stimulus involved in gravitropism.",
+    "answer": "Gravity is the named stimulus rather than light, humidity or touch.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "A tendril coiling around a support after touching it is an example of what?",
+    "action": "keep",
+    "meaning": "Growth response to contact with a support.",
+    "answer": "Thigmotropism describes touch-directed coiling; the other listed responses differ.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "Which gaseous plant hormone promotes the ripening of many fruits?",
+    "action": "keep",
+    "meaning": "Gaseous ripening hormone.",
+    "answer": "Ethylene alone is both gaseous and a recognised ripening signal among these four choices.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "What is the young plant inside a seed called?",
+    "action": "keep",
+    "meaning": "Name of the young plant within a seed.",
+    "answer": "Embryo is correct; the other named structures belong to a flower.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "Which outer structure helps protect a seed from damage and drying out?",
+    "action": "keep",
+    "meaning": "Protective outer seed structure.",
+    "answer": "Seed coat forms the protective covering; the distractors do not surround the embryo.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "What helps feed a newly germinating seed before it can make enough food itself?",
+    "action": "keep",
+    "meaning": "Energy source during initial germination.",
+    "answer": "Organic reserves supply energy; minerals alone, an empty coat or carbon dioxide without light do not.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "What is the main conservation purpose of a seed bank?",
+    "action": "keep",
+    "meaning": "Purpose of conservation seed banks.",
+    "answer": "Preserving viable seeds for future use is the purpose; destroying viability or forcing germination is not.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "The wings of maple fruits primarily help them travel by which means?",
+    "action": "keep",
+    "meaning": "Dispersal function of maple fruit wings.",
+    "answer": "Wings aid wind transport; currents, roots and swimming insects are not the primary mechanism.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "How do hooked burrs commonly disperse their seeds?",
+    "action": "keep",
+    "meaning": "Dispersal function of hooks on burrs.",
+    "answer": "Hooks catch in fur, carrying seeds externally; none of the other mechanisms is plausible.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "How can a bird that eats fleshy fruit help spread a plant's seeds?",
+    "action": "keep",
+    "meaning": "Seed dispersal through fruit-eating birds.",
+    "answer": "Surviving swallowed seeds can pass in droppings; fully digested or permanently retained seeds cannot establish elsewhere.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "How can a squirrel help a new oak tree grow?",
+    "action": "keep",
+    "meaning": "How squirrels can assist oak regeneration.",
+    "answer": "An unrecovered buried acorn can germinate; digestion, empty shells or removal from soil cannot.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "What is the stalk attaching a leaf blade to a stem called?",
+    "action": "keep",
+    "meaning": "Name of a leaf stalk.",
+    "answer": "A petiole attaches the blade to its stem; radicle is embryonic root, not leaf stalk.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "What are the tiny pores used for gas exchange on a leaf called?",
+    "action": "keep",
+    "meaning": "Name of leaf gas-exchange pores.",
+    "answer": "Stomata are pores; cotyledons, rhizoids and petals are not.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "Which cells regulate the opening of a leaf stoma?",
+    "action": "keep",
+    "meaning": "Cells controlling a stomatal opening.",
+    "answer": "Paired guard cells control aperture; the other cell types are not around a stoma.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  },
+  {
+    "prompt": "What is the waxy protective layer on the surface of many leaves called?",
+    "action": "keep",
+    "meaning": "Name of the protective waxy leaf covering.",
+    "answer": "Cuticle is the surface layer; corolla, cambium and endosperm are elsewhere in the plant.",
+    "grammar": "Read the complete prompt and all four answers: clear wording, agreement and punctuation; the alternatives fit the question grammatically.",
+    "category": "Directly tests plant structure, physiology, reproduction, classification or ecology.",
+    "reviewer": "plants-category independent botany review"
+  }
+]

@@ -5,7 +5,18 @@ struct PowerState:Decodable {
  var type:String?=nil
  var hidden:[Int]=[]
  var highlight:Int?=nil
- func nextQuestion()->PowerState {PowerState(used:used)}
+ var usedTypes:[String]?=nil
+ var activeTypes:[String]?=nil
+ var firstWrong:Int?=nil
+ func hasUsed(_ choice:QuizPower)->Bool {usedTypes?.contains(choice.rawValue) ?? used}
+ func active(_ choice:QuizPower)->Bool {activeTypes?.contains(choice.rawValue) ?? (type==choice.rawValue)}
+ func nextQuestion()->PowerState {PowerState(used:used,usedTypes:usedTypes)}
+ mutating func apply(_ choice:QuizPower,question:Question) {
+  used=true;type=choice.rawValue
+  usedTypes=Array(Set((usedTypes ?? [])+[choice.rawValue]));activeTypes=Array(Set((activeTypes ?? [])+[choice.rawValue]))
+  if choice == .fifty {hidden=Array(Set(hidden+Array(question.answers.indices.filter{$0 != question.correctIndex}.shuffled().prefix(2))))}
+  if choice == .right {highlight=question.correctIndex}
+ }
 }
 struct PowerReply:Decodable {let power:PowerState;let remaining:Double;let coins:Int;var duelAnswer:AnswerReply?=nil;var tournamentAnswer:TournamentRunReply?=nil}
 struct MatchProgress:Decodable {let ownAnswered:Int;let opponentAnswered:Int;var opponentResults:[Bool?]?=nil}
@@ -40,9 +51,9 @@ struct PowerTray:View {
   VStack(spacing:5) {
    if allowed {
     HStack(spacing:7) {ForEach(QuizPower.allCases,id:\.rawValue){p in
-     Button{action(p)}label:{VStack(spacing:3){Label(p.title,systemImage:p.symbol).font(.system(size:spacious ? 15:10,weight:.bold));HStack(spacing:3){if !practice{CoinSymbol(size:spacious ? 15:11)};Text(practice ? "Practice":"\(p.price) coins").font(.system(size:spacious ? 13:10,weight:.medium))}}.frame(maxWidth:.infinity).padding(.vertical,spacious ? 13:9).background(.white.opacity(0.13),in:RoundedRectangle(cornerRadius:9))}.disabled(!enabled || power.used).opacity(power.used ? 0.45:1).accessibilityLabel("\(p.title), \(practice ? "practice":String(p.price)+" coins"). \(p.detail)").accessibilityIdentifier("power-\(p.rawValue)")
+     Button{action(p)}label:{VStack(spacing:3){Label(p.title,systemImage:p.symbol).font(.system(size:spacious ? 15:10,weight:.bold));HStack(spacing:3){if !practice{CoinSymbol(size:spacious ? 15:11)};Text(power.hasUsed(p) ? "Used":(practice ? "Practice":"\(p.price) coins")).font(.system(size:spacious ? 13:10,weight:.medium))}}.frame(maxWidth:.infinity).padding(.vertical,spacious ? 13:9).background(.white.opacity(0.13),in:RoundedRectangle(cornerRadius:9))}.disabled(!enabled || power.hasUsed(p)).opacity(power.hasUsed(p) ? 0.45:1).accessibilityLabel("\(p.title), \(power.hasUsed(p) ? "used":(practice ? "practice":String(p.price)+" coins")). \(p.detail)").accessibilityIdentifier("power-\(p.rawValue)")
     }}
-    Text(power.used ? "Power-up used · one per run":"One power-up per run · clock keeps running").font(.system(size:spacious ? 12:9)).opacity(0.8)
+    Text("Each power-up once per run · clock keeps running").font(.system(size:spacious ? 12:9)).opacity(0.8)
    } else {Text("Host has switched power-ups off").font(.caption2).opacity(0.8)}
   }
  }

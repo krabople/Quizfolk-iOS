@@ -99,6 +99,15 @@ try:
     am=android.request('party-play',{'party':room['id'],'fixture':fixture['id']});im=ios.request('party-play',{'party':room['id'],'fixture':fixture['id']})
     assert not am['powerAllowed'] and not im['powerAllowed']
     assert android.question(am['id'])==ios.question(im['id'])
+    # Newly added topics are shared by both clients, including following all topics.
+    categories=android.request('categories')['categories']
+    plants=next(t for t in categories if t['id']=='39')
+    assert plants['name']=='Plants & flowers' and plants['questionCount']>=150
+    ios.request('social-settings',{'interests':[t['id'] for t in categories]})
+    assert len(ios.request('player')['interests'])==len(categories)
+    match=android.request('match',{'topic':'39','botOnly':True},201)
+    q=android.question(match['id'])
+    assert BANK[q['id']]['categoryID']=='39'
 finally:
     for client in [ios,android]:client.request('delete-account',{})
 print('PASS: Android/iOS discovery, follows, delayed challenges, identical packets, atomic Right Answer, shared settlement/XP/head-to-head/leagues, rematches, public events/prizes/badges, private mixed-platform home/away tournaments and daily coin caps')

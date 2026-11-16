@@ -22,8 +22,8 @@ final class TopicLevellingTests:XCTestCase {
         let up=TopicLevelling.levelUp(beforeXP:1499,afterXP:1700)!
         XCTAssertEqual(up.previousLevel,1);XCTAssertEqual(up.progress.level,2);XCTAssertEqual(up.progress.remainingXP,1800)
     }
-    @MainActor func testCompletedMatchCelebratesOnceButPendingPracticeAndHistoryDoNot() async {
-        let store=QuizStore();await store.connect();let topic=store.topics.first{$0.id=="22"}!
+    @MainActor func testCompletedMatchCelebratesOnceButPendingIncompleteAndHistoryDoNot() async {
+        let store=QuizStore();await store.connect();store.history=[];let topic=store.topics.first{$0.id=="22"}!
         store.ownCard=QuizStore.testCard(following:false,own:true,topicXP:1400)
         let game=GameSession(topic:topic,store:store,online:true);defer{game.stop()}
         game.finished=true;game.score=160;game.opponentScore=100

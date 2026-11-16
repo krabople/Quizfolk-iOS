@@ -273,7 +273,7 @@ import kotlin.math.*
 }
 @Composable private fun AnswerTile(game: GameSession, question: Question, index: Int, modifier: Modifier, spacious: Boolean = false) {
     val right = game.revealed && index == question.correctIndex
-    val wrong = game.revealed && game.selected == index && !right || game.power.type == "double" && index in game.power.hidden
+    val wrong = game.revealed && game.selected == index && !right || game.power.firstWrong == index
     val hidden = index in game.power.hidden && !wrong
     val background = if (right) Color(0xFF26A879) else if (wrong) Coral else if (hidden) Color.White.copy(alpha = .08f) else Color.White
     Column(modifier.background(background, RoundedCornerShape(8.dp)).then(if (game.power.highlight == index) Modifier.border(3.dp, Gold, RoundedCornerShape(8.dp)) else Modifier)
@@ -321,13 +321,13 @@ import kotlin.math.*
     Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
         Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) { Assist.entries.forEach { assist ->
             Column(Modifier.weight(1f).background(Color.White.copy(alpha = .13f), RoundedCornerShape(9.dp))
-                .clickable(enabled = !game.busy && !game.reading && !game.revealed && !game.power.used) { game.usePower(assist) }.testTag("power-${assist.key}")
-                .semantics { contentDescription = "${assist.title}, ${if (game.online) "${assist.price} coins" else "practice"}" }.padding(vertical = if (spacious) 13.dp else 9.dp, horizontal = 2.dp), horizontalAlignment = Alignment.CenterHorizontally) {
-                Text(assist.title, fontSize = if (spacious) 15.sp else 10.sp, fontWeight = FontWeight.Bold, color = Color.White.copy(alpha = if (game.power.used) .45f else 1f))
-                Row(horizontalArrangement = Arrangement.spacedBy(3.dp), verticalAlignment = Alignment.CenterVertically) { if (game.online) CoinSymbol(if (spacious) 15.dp else 11.dp); Text(if (game.online) "${assist.price} coins" else "Practice", fontSize = if (spacious) 13.sp else 10.sp, color = Color.White.copy(alpha = if (game.power.used) .45f else 1f)) }
+                .clickable(enabled = !game.busy && !game.reading && !game.revealed && !game.power.hasUsed(assist)) { game.usePower(assist) }.testTag("power-${assist.key}")
+                .semantics { contentDescription = "${assist.title}, ${if (game.power.hasUsed(assist)) "used" else if (game.online) "${assist.price} coins" else "practice"}" }.padding(vertical = if (spacious) 13.dp else 9.dp, horizontal = 2.dp), horizontalAlignment = Alignment.CenterHorizontally) {
+                Text(assist.title, fontSize = if (spacious) 15.sp else 10.sp, fontWeight = FontWeight.Bold, color = Color.White.copy(alpha = if (game.power.hasUsed(assist)) .45f else 1f))
+                Row(horizontalArrangement = Arrangement.spacedBy(3.dp), verticalAlignment = Alignment.CenterVertically) { if (game.online) CoinSymbol(if (spacious) 15.dp else 11.dp); Text(if (game.power.hasUsed(assist)) "Used" else if (game.online) "${assist.price} coins" else "Practice", fontSize = if (spacious) 13.sp else 10.sp, color = Color.White.copy(alpha = if (game.power.hasUsed(assist)) .45f else 1f)) }
             }
         } }
-        Text(if (game.power.used) "Power-up used · one per run" else "One power-up per run · clock keeps running", Modifier.fillMaxWidth(), fontSize = if (spacious) 12.sp else 9.sp, color = Color.White.copy(alpha = .8f), textAlign = TextAlign.Center)
+        Text("Each power-up once per run · clock keeps running", Modifier.fillMaxWidth(), fontSize = if (spacious) 12.sp else 9.sp, color = Color.White.copy(alpha = .8f), textAlign = TextAlign.Center)
     }
 }
 @Composable private fun GameError(game: GameSession) { game.error?.let { Text(it, color = Gold, fontSize = 12.sp); TextButton({ game.retry() }) { Text("Try again", color = Color.White) } } }
@@ -368,7 +368,7 @@ import kotlin.math.*
                 Column(Modifier.fillMaxWidth().background(Color.White.copy(alpha = .1f), RoundedCornerShape(18.dp)).padding(16.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(7.dp)) {
                     Text("+${Scoring.experience(game.score, game.opponentScore)} TOPIC XP", fontSize = 25.sp, fontWeight = FontWeight.Black)
                     Text("${game.score} score + 40 finish + ${if (won) 100 else if (tied) 50 else 0} ${if (tied) "draw" else "win"} bonus", fontSize = 12.sp)
-                    Text(if (game.online) "Added to your ${game.topic.name} league" else "Offline practice · local XP only", fontSize = 12.sp, color = Color.White.copy(alpha = .7f))
+                    Text(if (game.online) "Added to your ${game.topic.name} league" else "Added to your ${game.topic.name} progress on this device", fontSize = 12.sp, color = Color.White.copy(alpha = .7f), textAlign = TextAlign.Center)
                 }
                 rivalry?.value?.o("headToHead")?.let { tally -> QuizfolkTheme { Rivalry(tally) } }
                 game.opponentID?.let { id -> TextButton({ profile(id) }) { Text("View ${game.opponent}’s player card", color = Color.White, fontWeight = FontWeight.Bold) } }

@@ -126,11 +126,12 @@ final class ScoringTests:XCTestCase {
         await game.answer(wrong)
         XCTAssertFalse(game.revealed);XCTAssertTrue(game.rounds.isEmpty)
         XCTAssertEqual(game.power.hidden,[wrong])
-        await game.usePower(.right);XCTAssertEqual(game.power.type,"double")
-        await game.answer(q.correctIndex)
+        await game.usePower(.fifty);XCTAssertTrue(game.power.active(.double));XCTAssertTrue(game.power.hidden.contains(wrong))
+        await game.usePower(.right);XCTAssertEqual(game.power.type,"right")
         XCTAssertEqual(game.rounds.count,1);XCTAssertGreaterThan(game.lastPoints,0)
         let consumed=game.power.nextQuestion()
         XCTAssertTrue(consumed.used);XCTAssertNil(consumed.type);XCTAssertTrue(consumed.hidden.isEmpty)
+        XCTAssertTrue(QuizPower.allCases.allSatisfy{consumed.hasUsed($0)})
     }
     @MainActor func testPendingChallengeHasNoPrematureWinOrXP() {
         let q=Question(id:"sample",categoryID:"22",difficulty:"easy",prompt:"Sample?",answers:["A","B","C","D"],correctIndex:0)

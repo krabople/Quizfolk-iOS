@@ -128,7 +128,7 @@ struct TournamentDetailView:View {
  private var rules:some View {
   VStack(alignment:.leading,spacing:11) {
    Text("How this tournament works").font(.headline)
-   Text("Keep answering in \(topic.name) until your first wrong answer or timeout. Read each question for 3 seconds, then choose from four answers within 10 seconds. Correct answers earn 11–20 points for speed; every question has the same value. Your score is the total points in that run. You may use one power-up during the entire run: Fifty Fifty removes two wrong choices (5 coins); Double Choice allows a second pick (10); Right Answer selects and submits the correct answer (25). The clock keeps running.")
+   Text("Keep answering in \(topic.name) until your first wrong answer or timeout. Read each question for 3 seconds, then choose from four answers within 10 seconds. Correct answers earn 11–20 points for speed; every question has the same value. Your score is the total points in that run. You may use each power-up once during the run: Fifty Fifty removes two wrong choices (5 coins); Double Choice allows a second pick (10); Right Answer selects and submits the correct answer (25). The clock keeps running.")
    Text("Try again for the displayed entry cost. Only your best run counts; attempts do not add together. Every question in a run is different. If you clear the entire topic bank, that completes your run.")
    Text("The leaderboard closes at the stated time. Earned points are kept if you end a run early or the event closes. The top three places receive coins and a profile badge.")
    Text("Prizes are guaranteed: \(current.podiumPrizes[0]) coins for first, \(current.podiumPrizes[1]) for second and \(current.podiumPrizes[2]) for third. A sole entrant receives the first-place prize. Tied players share the combined prizes for the places they occupy, rounded down to whole coins. Prizes are credited automatically after closure; leading an open tournament is provisional.")
@@ -324,7 +324,7 @@ struct TournamentPlayView:View {
  private func answer(_ text:String,index:Int,spacious:Bool=false)->some View {
   let right=game.revealed && index==game.correctIndex
   let wrong=game.revealed && index==game.selected && !right
-  return QuizAnswerTile(text:text,right:right,wrong:wrong || (game.power.type=="double" && game.power.hidden.contains(index)),hidden:game.power.hidden.contains(index),highlighted:game.power.highlight==index,spacious:spacious){Task{await game.answer(index)}}
+  return QuizAnswerTile(text:text,right:right,wrong:wrong || (game.power.firstWrong==index),hidden:game.power.hidden.contains(index),highlighted:game.power.highlight==index,spacious:spacious){Task{await game.answer(index)}}
    .disabled(game.busy || game.revealed || game.reading || game.error != nil).accessibilityIdentifier("tournament-answer-\(index)")
  }
  private var result:some View {

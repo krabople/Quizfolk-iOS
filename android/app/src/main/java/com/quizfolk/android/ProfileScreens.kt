@@ -58,7 +58,8 @@ import java.util.UUID
         } }
         Action("Notifications", color = Ink, tag = "notificationSettings") { store.push(Page("notifications")) }
         Heading("Your topic journey")
-        store.topics.filter { it.id in store.favourites || store.topicXP(it.id) > 0 }.forEach { topic -> Panel(Modifier.clickable { store.push(Page("topic", topic.id)) }) { TopicLevel(topic, store.topicXP(topic.id)) } }
+        Hint("Your progress includes practice saved on this device. Public levels, leagues and titles use online duel XP.")
+        store.topics.filter { it.id in store.favourites || store.topicXP(it.id) > 0 }.forEach { topic -> Panel(Modifier.clickable { store.push(Page("topic", topic.id)) }) { PersonalTopicLevel(store, topic) } }
         Panel {
             Heading("Your player card")
             OutlinedTextField(draft, { draft = it }, Modifier.fillMaxWidth().testTag("playerName"), label = { Text("Display name") }, singleLine = true, shape = RoundedCornerShape(12.dp))
@@ -74,7 +75,7 @@ import java.util.UUID
             ErrorText(store.connectionError) { store.perform { store.resume() } }
             if (store.profile != null) TextButton({ store.notice = Notice("Delete your online account?", "Your server player card, follows, wallet and online records will be deleted. Local practice history will remain on this device.", "Delete account", { store.perform { store.deleteAccount() } }, true) }) { Text("Delete online account", color = Coral) }
         }
-        Panel { Heading("Made for curious people"); Hint("Quizfolk is an independent app inspired by classic topic-based trivia. It is not affiliated with QuizUp. Questions have been individually reviewed and edited for clarity, accuracy and topic relevance. Use duel review to see each correct answer.")
+        Panel { Heading("Made for curious people"); Hint("Quizfolk is an independent app inspired by classic topic-based trivia. Questions have been individually reviewed and edited for clarity, accuracy and topic relevance. Use duel review to see each correct answer.")
             TextButton({ links.openUri("https://www.ways2earn.com/quizfolk-api/credits.html") }) { Text("Credits & licences") }
             TextButton({ links.openUri("https://www.ways2earn.com/quizfolk-api/privacy.html") }) { Text("Privacy policy") }
         }
@@ -122,7 +123,7 @@ import java.util.UUID
                 } }
             }
             Panel {
-                Heading("Topic levels")
+                Heading("Online topic levels")
                 val progress = card.a("topics").objects(); if (progress.isEmpty()) Hint("Complete an online duel to start your first topic level.")
                 progress.forEach { p -> Column(Modifier.fillMaxWidth().clickable { navigate(Page("topic", p.s("topicID"))) }.padding(vertical = 7.dp)) { TopicLevel(store.topic(p.s("topicID")), p.n("xp")) } }
             }
@@ -153,7 +154,7 @@ import java.util.UUID
         Hint("Your name, picture, followed topics and completed online results appear on your card. Each topic has its own level.")
         Box { OutlinedButton({ menu = true }) { Text("Title: ${card.a("titles").objects().firstOrNull { it.s("id") == title }?.s("name") ?: card.s("title")}") }
             DropdownMenu(menu, { menu = false }) { card.a("titles").objects().forEach { entry -> DropdownMenuItem(text = { Text(entry.s("name")) }, onClick = { title = entry.s("id"); menu = false }) } } }
-        Hint("Topic titles unlock at levels 10, 20, 30, 40 and 50. Select any title you have earned.")
+        Hint("Topic titles unlock at online levels 10, 20, 30, 40 and 50. Select any title you have earned.")
         Row(verticalAlignment = Alignment.CenterVertically) { Text("Show me in player discovery", Modifier.weight(1f)); Switch(discoverable, { discoverable = it }) }
         Row(verticalAlignment = Alignment.CenterVertically) { Text("Allow direct challenges", Modifier.weight(1f)); Switch(challenges, { challenges = it }) }
         Action("Save public card", enabled = !store.busy) { store.perform { store.api("social-settings", json("titleID" to title, "discoverable" to discoverable, "challengesOpen" to challenges)); refresh(); store.notice = Notice("Saved", "Your public card settings have been saved.") } }

@@ -17,7 +17,7 @@ class FixtureTransport(private val questions: List<Question>) : Transport {
     var acknowledged = false
     var entries = 0
     var party: J? = null
-    var powerUsed = false
+    private var power = Power()
     var turn = 0
     var score = 0
     var topicXP = 700
@@ -46,7 +46,14 @@ class FixtureTransport(private val questions: List<Question>) : Transport {
     private fun wallet() = json("coins" to wallet, "tickets" to 0, "dailyClaimed" to false)
     private fun run() = json("id" to "test-run", "eventID" to "test-event-daily-0", "score" to score, "streak" to streak, "turn" to turn, "state" to state)
     private fun q() = questions[turn % questions.size]
-    private fun start(): J { turn = 0; score = 0; powerUsed = false; cachedAnswer = null; xpAwarded = false; return json("id" to "test-match", "kind" to "challenge", "opponent" to "Sample Rival", "opponentID" to "test-rival", "duelID" to "test-duel", "pending" to duelPending, "powerAllowed" to true) }
+    private fun start(): J { turn = 0; score = 0; power = Power(); cachedAnswer = null; xpAwarded = false; return json("id" to "test-match", "kind" to "challenge", "opponent" to "Sample Rival", "opponentID" to "test-rival", "duelID" to "test-duel", "pending" to duelPending, "powerAllowed" to true) }
+    private fun powerState() = json("used" to power.used, "usedTypes" to JSONArray(power.usedTypes.orEmpty().toList()), "activeTypes" to JSONArray(power.activeTypes.orEmpty().toList()), "type" to power.type, "hidden" to JSONArray(power.hidden.toList()), "highlight" to power.highlight)
+    private fun retryAnswer(index: Int): Boolean {
+        if (power.active(Assist.DOUBLE) && power.firstWrong == null && index >= 0 && index != q().correctIndex) {
+            power = power.copy(firstWrong = index, hidden = power.hidden + index); return true
+        }
+        return false
+    }
     private fun awardDuelXP() { if (turn == 7 && !duelPending && !xpAwarded) { topicXP += Scoring.experience(score,0); xpAwarded = true } }
     override suspend fun request(route: String, body: J?, query: Map<String,String>): J {
         calls.add(route to body?.copyJson())
@@ -74,17 +81,19 @@ class FixtureTransport(private val questions: List<Question>) : Transport {
             "challenge", "duel-open", "party-play", "match" -> start()
             "match-search" -> json("searchID" to "test-search", "state" to "matched", "elapsed" to 6, "match" to start())
             "match-progress" -> json("ownAnswered" to turn, "opponentAnswered" to turn, "opponentResults" to JSONArray((0 until 7).map { if (it < turn) it % 2 == 0 else null }))
-            "round", "reveal" -> json("round" to turn, "question" to q().json().apply { remove("correctIndex") }, "remaining" to 10, "phase" to "answer")
+            "round", "reveal" -> json("round" to turn, "question" to q().json().apply { remove("correctIndex") }, "remaining" to 10, "phase" to "answer", "power" to powerState())
             "answer" -> { if (body!!.n("round") < turn && cachedAnswer != null) cachedAnswer!! else {
-                val right = body.n("answer") == q().correctIndex; val points = Scoring.points(right, 0.0, turn); val correct = q().correctIndex
-                score += points; turn++; awardDuelXP(); json("points" to points, "selectedIndex" to body.n("answer"), "correctIndex" to correct, "opponentPoints" to 0, "finished" to (turn == 7), "score" to score, "opponentScore" to 0, "pending" to duelPending).also { cachedAnswer = it }
+                if (retryAnswer(body.n("answer"))) json("retry" to true, "power" to powerState(), "remaining" to 9) else {
+                    val right = body.n("answer") == q().correctIndex; val points = Scoring.points(right, 0.0, turn); val correct = q().correctIndex
+                    score += points; turn++; power = power.next(); awardDuelXP(); json("points" to points, "selectedIndex" to body.n("answer"), "correctIndex" to correct, "opponentPoints" to 0, "finished" to (turn == 7), "score" to score, "opponentScore" to 0, "pending" to duelPending).also { cachedAnswer = it }
+                }
             } }
             "power", "tournament-power" -> {
-                check(!powerUsed) { "Only one power-up is allowed." }; val type = body!!.s("type"); val price = Assist.entries.first { it.key == type }.price; check(wallet >= price) { "Not enough coins." }; wallet -= price; powerUsed = true
-                val correct = q().correctIndex; val state = json("used" to true, "type" to type, "hidden" to JSONArray(if (type == "fifty") q().answers.indices.filter { it != correct }.take(2) else emptyList()), "highlight" to if (type == "right") correct else null)
-                val response = json("power" to state, "remaining" to 9.9, "acceptedElapsed" to .1, "coins" to wallet)
+                val type = body!!.s("type"); val assist = Assist.entries.first { it.key == type }; check(!power.hasUsed(assist)) { "This power-up was already used." }; check(wallet >= assist.price) { "Not enough coins." }; wallet -= assist.price; power = power.apply(assist,q())
+                val correct = q().correctIndex
+                val response = json("power" to powerState(), "remaining" to 9.9, "acceptedElapsed" to .1, "coins" to wallet)
                 if (type == "right" && body.b("autoAnswer")) {
-                    score += if (route == "power" && turn == 6) 40 else 20; turn++; streak++
+                    score += if (route == "power" && turn == 6) 40 else 20; turn++; streak++; power = power.next()
                     if (route == "power") awardDuelXP()
                     val answer = if (route == "power") json("selectedIndex" to correct, "correctIndex" to correct, "points" to if (turn == 7) 40 else 20, "opponentPoints" to 0, "finished" to (turn == 7), "score" to score, "opponentScore" to 0, "pending" to duelPending)
                         else run().put("selectedIndex", correct).put("correctIndex", correct).put("points",20).put("correct",true)
@@ -95,11 +104,14 @@ class FixtureTransport(private val questions: List<Question>) : Transport {
             "tournament-board" -> json("event" to event(weekly = query["event"]?.contains("weekly") == true), "entries" to JSONArray(listOf(json("id" to "test-rival", "name" to "Sample Rival", "avatar" to null, "rank" to 1, "score" to 100, "streak" to 5, "reward" to 0))), "own" to JSONArray(), "wallet" to wallet())
             "tournament-enter" -> { val key = body!!.s("requestID"); admitted[key] ?: run {
                 val fee = if (body.s("event").contains("weekly")) 50 else 25
-                check(wallet >= fee) { "Not enough coins." }; wallet -= fee; entries++; turn = 0; score = 0; streak = 0; state = "playing"; powerUsed = false; run().also { admitted[key] = it }
+                check(wallet >= fee) { "Not enough coins." }; wallet -= fee; entries++; turn = 0; score = 0; streak = 0; state = "playing"; power = Power(); run().also { admitted[key] = it }
             } }
-            "tournament-round", "tournament-reveal" -> run().put("question", q().json().apply { remove("correctIndex") }).put("remaining",10).put("phase","answer")
-            "tournament-answer" -> { val correct = q().correctIndex; val right = body!!.n("answer") == correct; turn++; if (right) { score += 20; streak++ } else state = "finished"
-                run().put("selectedIndex", body.n("answer")).put("correctIndex",correct).put("points",if (right) 20 else 0).put("correct",right)
+            "tournament-round", "tournament-reveal" -> run().put("question", q().json().apply { remove("correctIndex") }).put("remaining",10).put("phase","answer").put("power",powerState())
+            "tournament-answer" -> {
+                if (retryAnswer(body!!.n("answer"))) run().put("retry",true).put("power",powerState()).put("remaining",9) else {
+                    val correct = q().correctIndex; val right = body.n("answer") == correct; turn++; power = power.next(); if (right) { score += 20; streak++ } else state = "finished"
+                    run().put("selectedIndex", body.n("answer")).put("correctIndex",correct).put("points",if (right) 20 else 0).put("correct",right)
+                }
             }
             "tournament-end" -> { state = "ended"; run() }
             "parties" -> json("parties" to JSONArray(party?.let { listOf(it) } ?: emptyList<J>()))

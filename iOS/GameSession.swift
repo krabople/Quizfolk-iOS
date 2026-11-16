@@ -48,6 +48,7 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
     @Published private(set) var levelUp:TopicLevelUp?
     private var xpBeforeMatch:Int
     private var canAnnounceLevelUp=true
+    private var progressRefreshPending:Bool?
     @Published var showIntro=true
     @Published var prepared=false
     @Published var introCount=3
@@ -107,14 +108,24 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
         else {round=rounds.count}
     }
     private func saveResult() {
+        guard rounds.count==7 else {return}
         store.save(MatchRecord(id:online ? matchID:localHistoryID,topicID:topic.id,date:Date(),score:score,opponentScore:opponentScore,opponent:opponent,kind:online ? kind:"practice",rounds:rounds,duelID:duelID,pending:duelID == nil ? false:awaitingOpponent,opponentID:opponentID,opponentAvatar:opponentAvatar))
+        if online,progressRefreshPending != awaitingOpponent {
+            let pending=awaitingOpponent
+            progressRefreshPending=pending
+            // Unstructured work survives dismissal of the completed duel.
+            Task {
+                do {try await store.refreshPlayerProgress();updateLevelUp();await store.refreshSocial()}
+                catch {if progressRefreshPending==pending {progressRefreshPending=nil};store.onlineError=error.localizedDescription}
+            }
+        }
     }
     func refreshResult() async {
         guard let duelID else {return};busy=true;defer{busy=false}
-        do {let r=try await store.openChallenge(duelID);apply(r);await store.refreshSocial();await store.connect();updateLevelUp();error=nil} catch {self.error=error.localizedDescription}
+        do {let r=try await store.openChallenge(duelID);apply(r);updateLevelUp();error=nil} catch {self.error=error.localizedDescription}
     }
     func updateLevelUp() {
-        guard online,finished,rounds.count==7,!awaitingOpponent,canAnnounceLevelUp else{return}
+        guard finished,rounds.count==7,!awaitingOpponent,canAnnounceLevelUp else{return}
         let after=store.topicXP(topic),earned=Scoring.experience(score:score,opponentScore:opponentScore)
         guard after>=xpBeforeMatch,after-xpBeforeMatch>=earned else{return}
         // Attribute only this match's award, even if other duels settled meanwhile.
@@ -197,12 +208,12 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
             if online {
                 let r:AnswerReply=try await store.request("answer",body:["match":matchID,"round":round,"answer":index])
                 if r.retry==true {
-                    power=r.power ?? power;selected=nil;pendingAnswer=nil;startTimer(seconds:r.remaining ?? remaining);busy=false;return
+                    power=r.power ?? power;power.firstWrong=index;selected=nil;pendingAnswer=nil;startTimer(seconds:r.remaining ?? remaining);busy=false;return
                 }
                 correct=r.correctIndex;points=r.points;other=r.opponentPoints;score=r.score-points;opponentScore=r.opponentScore-other;awaitingOpponent=r.pending ?? false;actualIndex=r.selectedIndex ?? index
             } else {
-                if power.type=="double",power.hidden.isEmpty,index>=0,index != q.correctIndex,remaining>0 {
-                    power.hidden=[index];selected=nil;pendingAnswer=nil;startTimer(seconds:remaining);busy=false;return
+                if power.active(.double),power.firstWrong==nil,index>=0,index != q.correctIndex,remaining>0 {
+                    power.hidden=Array(Set(power.hidden+[index]));power.firstWrong=index;selected=nil;pendingAnswer=nil;startTimer(seconds:remaining);busy=false;return
                 }
                 correct=q.correctIndex;points=Scoring.points(correct:index==correct,elapsed:elapsed,round:round)
                 let chance=q.difficulty=="easy" ? 0.83 : (q.difficulty=="hard" ? 0.45:0.65)
@@ -224,19 +235,17 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
         if let r:MatchProgress=try? await store.request("match-progress",body:["match":matchID]){opponentAnswered=r.opponentAnswered;opponentResults=r.opponentResults ?? []}
     }
     func usePower(_ choice:QuizPower) async {
-        guard !reading,!revealed,!busy,!power.used,powerAllowed,remaining>0,let q=current else{return}
+        guard !reading,!revealed,!busy,!power.hasUsed(choice),powerAllowed,remaining>0,let q=current else{return}
         busy=true;powerError=nil
         do {
             if online {
-                let r:PowerReply=try await store.request("power",body:["match":matchID,"turn":round,"type":choice.rawValue,"autoAnswer":choice == .right]);power=r.power;store.coinBalance=r.coins
+                let r:PowerReply=try await store.request("power",body:["match":matchID,"turn":round,"type":choice.rawValue,"autoAnswer":choice == .right]);let firstWrong=power.firstWrong;power=r.power;power.firstWrong=firstWrong;store.coinBalance=r.coins
                 if let answer=r.duelAnswer {
                     remaining=r.remaining;score=answer.score-answer.points;opponentScore=answer.opponentScore-answer.opponentPoints;awaitingOpponent=answer.pending ?? false
                     completeAnswer(q:q,index:answer.selectedIndex ?? answer.correctIndex,elapsed:max(0,10-r.remaining),correct:answer.correctIndex,points:answer.points,other:answer.opponentPoints)
                 } else {startTimer(seconds:r.remaining)}
             } else {
-                power=PowerState(used:true,type:choice.rawValue)
-                if choice == .fifty {power.hidden=Array(q.answers.indices.filter{$0 != q.correctIndex}.shuffled().prefix(2))}
-                if choice == .right {power.highlight=q.correctIndex}
+                power.apply(choice,question:q)
             }
         } catch {powerError=error.localizedDescription}
         busy=false
@@ -254,7 +263,7 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
         if round==6 {
             finished=true
             saveResult()
-            if online {await store.connect();updateLevelUp();await store.refreshSocial()}
+            updateLevelUp()
             return
         }
         selected=nil;revealed=false;round+=1

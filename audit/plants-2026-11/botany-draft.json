@@ -1,0 +1,842 @@
+[
+  {
+    "prompt": "Which plant structures chiefly anchor a sunflower in the soil?",
+    "answers": [
+      "Roots",
+      "Petals",
+      "Anthers",
+      "Seed coats"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9904-vegetative-plant-parts",
+    "rationale": "Roots provide anchorage; the alternatives are reproductive structures.",
+    "difficulty": "easy",
+    "group": "roots"
+  },
+  {
+    "prompt": "What is the main benefit of root hairs to a plant?",
+    "answers": [
+      "A larger surface for absorbing water",
+      "More pollen for fertilisation",
+      "A thicker coat around each seed",
+      "A brighter colour for its petals"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9904-vegetative-plant-parts",
+    "rationale": "Root hairs increase absorptive surface area, not reproductive features.",
+    "difficulty": "medium",
+    "group": "roots"
+  },
+  {
+    "prompt": "What does the cap at the tip of a growing root protect?",
+    "answers": [
+      "The growing tissue behind it",
+      "A developing flower bud",
+      "The seeds inside a fruit",
+      "The leaf stalk above it"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9904-vegetative-plant-parts",
+    "rationale": "The root cap shields the root meristem during growth through soil.",
+    "difficulty": "medium",
+    "group": "roots"
+  },
+  {
+    "prompt": "Which name describes a root system dominated by one thick central root?",
+    "answers": [
+      "Taproot system",
+      "Fibrous root system",
+      "Runner system",
+      "Rhizome system"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9904-vegetative-plant-parts",
+    "rationale": "Taproots have a dominant primary root; runners and rhizomes are stems.",
+    "difficulty": "medium",
+    "group": "roots"
+  },
+  {
+    "prompt": "Where is pollen produced in a typical flower?",
+    "answers": [
+      "Anthers",
+      "Stigmas",
+      "Sepals",
+      "Ovaries"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9900-reproductive-plant-parts",
+    "rationale": "Anthers produce pollen; stigmas receive it.",
+    "difficulty": "easy",
+    "group": "flowers"
+  },
+  {
+    "prompt": "Which flower part receives pollen during pollination?",
+    "answers": [
+      "Stigma",
+      "Filament",
+      "Petal",
+      "Sepal"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9900-reproductive-plant-parts",
+    "rationale": "The stigma is the receptive surface; none of the distractors is.",
+    "difficulty": "medium",
+    "group": "flowers"
+  },
+  {
+    "prompt": "What do sepals usually protect before a flower opens?",
+    "answers": [
+      "The flower bud",
+      "The root tip",
+      "The ripe seed",
+      "The leaf stalk"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9900-reproductive-plant-parts",
+    "rationale": "Sepals surround the bud, unlike root caps or seed coats.",
+    "difficulty": "easy",
+    "group": "flowers"
+  },
+  {
+    "prompt": "After fertilisation, an ovule in a flower develops into what?",
+    "answers": [
+      "A seed",
+      "A petal",
+      "An anther",
+      "A sepal"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9900-reproductive-plant-parts",
+    "rationale": "The ovule becomes the seed; these other organs do not.",
+    "difficulty": "medium",
+    "group": "flowers"
+  },
+  {
+    "prompt": "Which green pigment captures light for photosynthesis?",
+    "answers": [
+      "Chlorophyll",
+      "Haemoglobin",
+      "Melanin",
+      "Keratin"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9901-plant-growth-development",
+    "rationale": "Chlorophyll captures light; the alternatives are animal pigments or proteins.",
+    "difficulty": "easy",
+    "group": "photosynthesis"
+  },
+  {
+    "prompt": "Which gas do green plants use as a carbon source during photosynthesis?",
+    "answers": [
+      "Carbon dioxide",
+      "Oxygen",
+      "Helium",
+      "Neon"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9901-plant-growth-development",
+    "rationale": "Carbon dioxide supplies carbon for sugars, unlike the other gases.",
+    "difficulty": "easy",
+    "group": "photosynthesis"
+  },
+  {
+    "prompt": "Which gas is released by a green leaf during photosynthesis?",
+    "answers": [
+      "Oxygen",
+      "Methane",
+      "Hydrogen",
+      "Ammonia"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9901-plant-growth-development",
+    "rationale": "Oxygen is the gaseous product of photosynthesis.",
+    "difficulty": "easy",
+    "group": "photosynthesis"
+  },
+  {
+    "prompt": "Which plant process releases energy from sugars and continues at night?",
+    "answers": [
+      "Respiration",
+      "Pollination",
+      "Transpiration",
+      "Photosynthesis"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9901-plant-growth-development",
+    "rationale": "Respiration releases usable energy without requiring light.",
+    "difficulty": "medium",
+    "group": "photosynthesis"
+  },
+  {
+    "prompt": "What pressure helps keep a well-watered, non-woody stem firm?",
+    "answers": [
+      "Turgor pressure",
+      "Atmospheric pressure alone",
+      "Pollen pressure",
+      "Air pressure inside cones"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9903-environmental-factors-affecting-plant-growth",
+    "rationale": "Water creates turgor within living cells, supporting soft plant tissues.",
+    "difficulty": "medium",
+    "group": "environment"
+  },
+  {
+    "prompt": "With other conditions equal, which air is most likely to slow water loss from leaves?",
+    "answers": [
+      "Very humid air",
+      "Very dry air",
+      "Hotter, equally dry air",
+      "Faster-moving, equally dry air"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9903-environmental-factors-affecting-plant-growth",
+    "rationale": "Higher humidity reduces the water-vapour gradient from leaf to air.",
+    "difficulty": "medium",
+    "group": "environment"
+  },
+  {
+    "prompt": "In plant biology, what is a photoperiod?",
+    "answers": [
+      "The daily duration of light",
+      "The age of a seed",
+      "The length of a root",
+      "The size of a flower"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9903-environmental-factors-affecting-plant-growth",
+    "rationale": "Photoperiod concerns light duration, not plant dimensions or age.",
+    "difficulty": "medium",
+    "group": "environment"
+  },
+  {
+    "prompt": "What does day-neutral mean when describing a plant's flowering response?",
+    "answers": [
+      "Flowering is not governed by day length",
+      "Flowers always open at noon",
+      "The plant needs no light to grow",
+      "Flowers cannot develop in summer"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9903-environmental-factors-affecting-plant-growth",
+    "rationale": "Day-neutral describes flowering independent of photoperiod, not absence of photosynthesis.",
+    "difficulty": "medium",
+    "group": "environment"
+  },
+  {
+    "prompt": "What is the scientific study of plants called?",
+    "answers": [
+      "Botany",
+      "Zoology",
+      "Geology",
+      "Meteorology"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://content.ces.ncsu.edu/extension-gardener-handbook/3-botany",
+    "rationale": "Botany studies plants; the alternatives concern animals, rocks or weather.",
+    "difficulty": "easy",
+    "group": "taxonomy"
+  },
+  {
+    "prompt": "In the scientific plant name Rosa canina, what does Rosa identify?",
+    "answers": [
+      "The genus",
+      "The family",
+      "The order",
+      "The cultivar"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://content.ces.ncsu.edu/extension-gardener-handbook/3-botany",
+    "rationale": "The first word of a binomial names its genus.",
+    "difficulty": "medium",
+    "group": "taxonomy"
+  },
+  {
+    "prompt": "Which taxonomic group contains related plant genera?",
+    "answers": [
+      "Family",
+      "Species",
+      "Cultivar",
+      "Variety"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://content.ces.ncsu.edu/extension-gardener-handbook/3-botany",
+    "rationale": "Families group genera; the other ranks or categories are narrower.",
+    "difficulty": "medium",
+    "group": "taxonomy"
+  },
+  {
+    "prompt": "What is the collective name for flowering plants?",
+    "answers": [
+      "Angiosperms",
+      "Gymnosperms",
+      "Bryophytes",
+      "Ferns"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://content.ces.ncsu.edu/extension-gardener-handbook/3-botany",
+    "rationale": "Angiosperms are flowering plants; the alternatives do not produce true flowers.",
+    "difficulty": "medium",
+    "group": "taxonomy"
+  },
+  {
+    "prompt": "How many seed leaves does a monocot embryo have?",
+    "answers": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.oregonstate.edu/collection/botany-basics",
+    "rationale": "A single cotyledon defines the monocot condition.",
+    "difficulty": "medium",
+    "group": "monocots"
+  },
+  {
+    "prompt": "Which leaf-vein pattern is typical of grasses?",
+    "answers": [
+      "Parallel veins",
+      "A branching net of veins",
+      "No veins at all",
+      "Veins confined to the leaf edge"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.oregonstate.edu/collection/botany-basics",
+    "rationale": "Grasses are monocots, typically with parallel venation.",
+    "difficulty": "medium",
+    "group": "monocots"
+  },
+  {
+    "prompt": "Monocot flower parts are usually arranged in multiples of which number?",
+    "answers": [
+      "Three",
+      "Four",
+      "Five",
+      "Seven"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.oregonstate.edu/collection/botany-basics",
+    "rationale": "Multiples of three are the typical monocot pattern.",
+    "difficulty": "medium",
+    "group": "monocots"
+  },
+  {
+    "prompt": "In a typical monocot stem, how are the vascular bundles arranged?",
+    "answers": [
+      "Scattered through the stem",
+      "In one continuous outer ring",
+      "Only inside the bark",
+      "Only at the stem tip"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.oregonstate.edu/collection/botany-basics",
+    "rationale": "Monocot bundles are scattered, unlike the typical dicot ring.",
+    "difficulty": "medium",
+    "group": "monocots"
+  },
+  {
+    "prompt": "What is the usual botanical name for a fern leaf?",
+    "answers": [
+      "Frond",
+      "Petal",
+      "Catkin",
+      "Cone"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.nhm.ac.uk/discover/ferns.html",
+    "rationale": "Frond names a fern leaf; the alternatives are reproductive structures.",
+    "difficulty": "easy",
+    "group": "ferns"
+  },
+  {
+    "prompt": "Ferns disperse which structures instead of seeds?",
+    "answers": [
+      "Spores",
+      "Pollen grains",
+      "Nuts",
+      "Berries"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.nhm.ac.uk/discover/ferns.html",
+    "rationale": "Ferns release spores and do not form seeds or pollen.",
+    "difficulty": "easy",
+    "group": "ferns"
+  },
+  {
+    "prompt": "On many fern fronds, what are the clusters called sori associated with?",
+    "answers": [
+      "Spore production",
+      "Nectar storage",
+      "Seed ripening",
+      "Pollen release"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.nhm.ac.uk/discover/ferns.html",
+    "rationale": "Sori contain sporangia, not seed, nectar or pollen structures.",
+    "difficulty": "medium",
+    "group": "ferns"
+  },
+  {
+    "prompt": "Why is a film of water important for fertilisation in many ferns?",
+    "answers": [
+      "It lets sperm reach an egg",
+      "It carries pollen into a flower",
+      "It turns spores into seeds",
+      "It dissolves the fern stem"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.nhm.ac.uk/discover/ferns.html",
+    "rationale": "Fern sperm swim through water; ferns have neither flowers nor seeds.",
+    "difficulty": "medium",
+    "group": "ferns"
+  },
+  {
+    "prompt": "What are the threadlike structures that anchor mosses called?",
+    "answers": [
+      "Rhizoids",
+      "Anthers",
+      "Petals",
+      "Stamens"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://anbg.gov.au/bryophyte/what-is-moss.html",
+    "rationale": "Rhizoids attach mosses; the distractors are flowering-plant parts.",
+    "difficulty": "medium",
+    "group": "mosses"
+  },
+  {
+    "prompt": "Where are moss spores produced?",
+    "answers": [
+      "In capsules",
+      "Inside flowers",
+      "Within fruits",
+      "In pollen grains"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://anbg.gov.au/bryophyte/what-is-moss.html",
+    "rationale": "Moss sporophytes bear spore capsules, not flowers or fruits.",
+    "difficulty": "medium",
+    "group": "mosses"
+  },
+  {
+    "prompt": "Which stage forms the familiar leafy part of most moss plants?",
+    "answers": [
+      "Gametophyte",
+      "Seed embryo",
+      "Pollen tube",
+      "Fruit wall"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://anbg.gov.au/bryophyte/what-is-moss.html",
+    "rationale": "The leafy moss is usually the gametophyte; mosses lack the other structures.",
+    "difficulty": "medium",
+    "group": "mosses"
+  },
+  {
+    "prompt": "What first develops when a moss spore germinates?",
+    "answers": [
+      "A protonema",
+      "A seed coat",
+      "A flower bud",
+      "A woody cone"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://anbg.gov.au/bryophyte/what-is-moss.html",
+    "rationale": "A protonema precedes the leafy moss shoots.",
+    "difficulty": "medium",
+    "group": "mosses"
+  },
+  {
+    "prompt": "Pines and spruces belong to which seed-plant group?",
+    "answers": [
+      "Gymnosperms",
+      "Angiosperms",
+      "Mosses",
+      "Ferns"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://tidcf.nrcan.gc.ca/en/trees/identification/conifers",
+    "rationale": "Conifers are gymnosperms; mosses and ferns are seedless.",
+    "difficulty": "medium",
+    "group": "conifers"
+  },
+  {
+    "prompt": "In a pine tree, where do seeds develop?",
+    "answers": [
+      "On the scales of female cones",
+      "Inside petals",
+      "Inside fleshy fruits",
+      "On root hairs"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://tidcf.nrcan.gc.ca/en/trees/identification/conifers",
+    "rationale": "Pine seed cones bear seeds on scales, without an enclosing fruit.",
+    "difficulty": "medium",
+    "group": "conifers"
+  },
+  {
+    "prompt": "A pine needle is which part of the plant?",
+    "answers": [
+      "A leaf",
+      "A root",
+      "A petal",
+      "A seed"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://tidcf.nrcan.gc.ca/en/trees/identification/conifers",
+    "rationale": "Needles are the leaves of pine trees.",
+    "difficulty": "easy",
+    "group": "conifers"
+  },
+  {
+    "prompt": "Which conifer normally sheds all its needles each autumn?",
+    "answers": [
+      "Larch",
+      "Scots pine",
+      "Norway spruce",
+      "Douglas fir"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://tidcf.nrcan.gc.ca/en/trees/identification/conifers",
+    "rationale": "Larches are deciduous; the other listed conifers are evergreen.",
+    "difficulty": "medium",
+    "group": "conifers"
+  },
+  {
+    "prompt": "A plant that completes its life cycle in one growing season is called what?",
+    "answers": [
+      "An annual",
+      "A biennial",
+      "A perennial",
+      "An evergreen"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9899-know-life-cycles-plants-annuals-biennials-perennials",
+    "rationale": "Annuals complete the cycle within one season; evergreen describes foliage.",
+    "difficulty": "easy",
+    "group": "lifecycles"
+  },
+  {
+    "prompt": "Which term describes a plant that normally completes its life cycle over two growing seasons?",
+    "answers": [
+      "Biennial",
+      "Annual",
+      "Perennial",
+      "Epiphyte"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9899-know-life-cycles-plants-annuals-biennials-perennials",
+    "rationale": "Biennials typically grow vegetatively first and reproduce in the second season.",
+    "difficulty": "easy",
+    "group": "lifecycles"
+  },
+  {
+    "prompt": "What does perennial mean when describing a plant's life cycle?",
+    "answers": [
+      "Living for more than two years",
+      "Completing its life cycle in one season",
+      "Completing its life cycle in two seasons",
+      "Losing every leaf each autumn"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9899-know-life-cycles-plants-annuals-biennials-perennials",
+    "rationale": "Perennial describes longevity; annual and biennial describe shorter cycles, while deciduous describes leaf loss.",
+    "difficulty": "easy",
+    "group": "lifecycles"
+  },
+  {
+    "prompt": "What distinguishes a woody perennial from a herbaceous perennial?",
+    "answers": [
+      "It retains persistent woody stems",
+      "It must retain all its leaves in winter",
+      "It must flower continuously all year",
+      "Its seeds cannot become dormant"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9899-know-life-cycles-plants-annuals-biennials-perennials",
+    "rationale": "Woody stems persist; neither flowering frequency nor seedlessness defines the distinction.",
+    "difficulty": "medium",
+    "group": "lifecycles"
+  },
+  {
+    "prompt": "What name is given to actively dividing plant tissue at a growing tip?",
+    "answers": [
+      "Meristem",
+      "Seed coat",
+      "Cuticle",
+      "Petal pigment"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9898-internal-plant-parts",
+    "rationale": "Meristems generate new cells; the other choices are not growth tissues.",
+    "difficulty": "medium",
+    "group": "cells"
+  },
+  {
+    "prompt": "What is the basic structural unit of a plant?",
+    "answers": [
+      "A cell",
+      "A petal",
+      "A seed",
+      "A branch"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9898-internal-plant-parts",
+    "rationale": "Cells build tissues and organs; each alternative contains many cells.",
+    "difficulty": "easy",
+    "group": "cells"
+  },
+  {
+    "prompt": "Which term describes an organised group of plant cells working together?",
+    "answers": [
+      "Tissue",
+      "Species",
+      "Genus",
+      "Population"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9898-internal-plant-parts",
+    "rationale": "Tissue is a cell grouping; the other terms classify whole organisms.",
+    "difficulty": "medium",
+    "group": "cells"
+  },
+  {
+    "prompt": "Which molecule carries inherited genetic information in plant cells?",
+    "answers": [
+      "DNA",
+      "Starch",
+      "Chlorophyll",
+      "Cellulose"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9898-internal-plant-parts",
+    "rationale": "DNA encodes genetic information; the alternatives have other cellular roles.",
+    "difficulty": "easy",
+    "group": "cells"
+  },
+  {
+    "prompt": "A shoot bending as it grows towards light is showing which response?",
+    "answers": [
+      "Phototropism",
+      "Gravitropism",
+      "Hydrotropism",
+      "Thigmotropism"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://organismalbio.biosci.gatech.edu/chemical-and-electrical-signals/plant-hormones-and-sensory-systems/",
+    "rationale": "Light is the stimulus in phototropism.",
+    "difficulty": "medium",
+    "group": "responses"
+  },
+  {
+    "prompt": "Which environmental force is detected in gravitropism?",
+    "answers": [
+      "Gravity",
+      "Light",
+      "Touch",
+      "Humidity"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://organismalbio.biosci.gatech.edu/chemical-and-electrical-signals/plant-hormones-and-sensory-systems/",
+    "rationale": "Gravitropism is directional growth in response to gravity.",
+    "difficulty": "medium",
+    "group": "responses"
+  },
+  {
+    "prompt": "A tendril coiling around a support after touching it is an example of what?",
+    "answers": [
+      "Thigmotropism",
+      "Phototropism",
+      "Gravitropism",
+      "Photoperiodism"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://organismalbio.biosci.gatech.edu/chemical-and-electrical-signals/plant-hormones-and-sensory-systems/",
+    "rationale": "Contact guides tendril growth; photoperiodism concerns day length.",
+    "difficulty": "medium",
+    "group": "responses"
+  },
+  {
+    "prompt": "Which gaseous plant hormone promotes the ripening of many fruits?",
+    "answers": [
+      "Ethylene",
+      "Auxin",
+      "Cytokinin",
+      "Abscisic acid"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://organismalbio.biosci.gatech.edu/chemical-and-electrical-signals/plant-hormones-and-sensory-systems/",
+    "rationale": "Ethylene is gaseous and promotes ripening, unlike these other hormones.",
+    "difficulty": "medium",
+    "group": "responses"
+  },
+  {
+    "prompt": "What is the young plant inside a seed called?",
+    "answers": [
+      "Embryo",
+      "Petal",
+      "Anther",
+      "Stigma"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.kew.org/read-and-watch/what-is-a-seed",
+    "rationale": "The embryo develops into a seedling; the alternatives are flower parts.",
+    "difficulty": "easy",
+    "group": "seeds"
+  },
+  {
+    "prompt": "Which outer structure helps protect a seed from damage and drying out?",
+    "answers": [
+      "Seed coat",
+      "Flower stalk",
+      "Root hair",
+      "Pollen tube"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.kew.org/read-and-watch/what-is-a-seed",
+    "rationale": "The seed coat is the protective covering.",
+    "difficulty": "easy",
+    "group": "seeds"
+  },
+  {
+    "prompt": "What helps feed a newly germinating seed before it can make enough food itself?",
+    "answers": [
+      "Food reserves stored in the seed",
+      "Dissolved mineral nutrients alone",
+      "The empty seed coat alone",
+      "Carbon dioxide without light"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.kew.org/read-and-watch/what-is-a-seed",
+    "rationale": "Stored organic reserves fuel germination; minerals and carbon dioxide alone do not supply that usable energy.",
+    "difficulty": "easy",
+    "group": "seeds"
+  },
+  {
+    "prompt": "What is the main conservation purpose of a seed bank?",
+    "answers": [
+      "Preserving seeds for future use",
+      "Encouraging all stored seeds to germinate at once",
+      "Preventing seeds from ever germinating",
+      "Storing only seeds that have lost viability"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.kew.org/read-and-watch/what-is-a-seed",
+    "rationale": "A conservation seed bank maintains viable material for later research or restoration.",
+    "difficulty": "easy",
+    "group": "seeds"
+  },
+  {
+    "prompt": "The wings of maple fruits primarily help them travel by which means?",
+    "answers": [
+      "Wind",
+      "Ocean currents",
+      "Underground roots",
+      "Swimming insects"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://bioimages.vanderbilt.edu/pages/fruit-seed-dispersal.htm",
+    "rationale": "Wings slow descent and aid wind transport.",
+    "difficulty": "easy",
+    "group": "dispersal"
+  },
+  {
+    "prompt": "How do hooked burrs commonly disperse their seeds?",
+    "answers": [
+      "By catching on animal fur",
+      "By pumping through roots",
+      "By dissolving into rain",
+      "By travelling inside pollen"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://bioimages.vanderbilt.edu/pages/fruit-seed-dispersal.htm",
+    "rationale": "Hooks attach burrs externally to animals.",
+    "difficulty": "easy",
+    "group": "dispersal"
+  },
+  {
+    "prompt": "How can a bird that eats fleshy fruit help spread a plant's seeds?",
+    "answers": [
+      "By later passing surviving seeds in its droppings",
+      "By digesting all the seeds before flying away",
+      "By returning all seeds to the original fruit",
+      "By keeping every seed permanently in its stomach"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://bioimages.vanderbilt.edu/pages/fruit-seed-dispersal.htm",
+    "rationale": "Surviving swallowed seeds can be deposited away from the parent plant.",
+    "difficulty": "medium",
+    "group": "dispersal"
+  },
+  {
+    "prompt": "How can a squirrel help a new oak tree grow?",
+    "answers": [
+      "By burying an acorn and failing to retrieve it",
+      "By eating and fully digesting the acorn",
+      "By removing every acorn from suitable soil",
+      "By storing only empty acorn shells"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://bioimages.vanderbilt.edu/pages/fruit-seed-dispersal.htm",
+    "rationale": "An uneaten cached acorn can germinate; digested or empty acorns cannot.",
+    "difficulty": "medium",
+    "group": "dispersal"
+  },
+  {
+    "prompt": "What is the stalk attaching a leaf blade to a stem called?",
+    "answers": [
+      "Petiole",
+      "Anther",
+      "Sepal",
+      "Radicle"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.wsu.edu/pnw-gardeners-handbook/basic-botany/",
+    "rationale": "A petiole supports a leaf; the alternatives are reproductive or embryonic parts.",
+    "difficulty": "medium",
+    "group": "leaves"
+  },
+  {
+    "prompt": "What are the tiny pores used for gas exchange on a leaf called?",
+    "answers": [
+      "Stomata",
+      "Cotyledons",
+      "Rhizoids",
+      "Petals"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.wsu.edu/pnw-gardeners-handbook/basic-botany/",
+    "rationale": "Stomata are epidermal pores, unlike the other structures.",
+    "difficulty": "medium",
+    "group": "leaves"
+  },
+  {
+    "prompt": "Which cells regulate the opening of a leaf stoma?",
+    "answers": [
+      "Guard cells",
+      "Pollen cells",
+      "Root-cap cells",
+      "Seed-coat cells"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.wsu.edu/pnw-gardeners-handbook/basic-botany/",
+    "rationale": "Paired guard cells change the aperture of a stoma.",
+    "difficulty": "medium",
+    "group": "leaves"
+  },
+  {
+    "prompt": "What is the waxy protective layer on the surface of many leaves called?",
+    "answers": [
+      "Cuticle",
+      "Corolla",
+      "Cambium",
+      "Endosperm"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.wsu.edu/pnw-gardeners-handbook/basic-botany/",
+    "rationale": "The cuticle covers the epidermis; the alternatives are different structures.",
+    "difficulty": "medium",
+    "group": "leaves"
+  }
+]

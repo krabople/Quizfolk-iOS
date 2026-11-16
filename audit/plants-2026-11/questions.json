@@ -1,0 +1,2702 @@
+[
+  {
+    "id": "40451b080310741aac6c",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which propagation method separates an established clump into several plants, each with roots and shoots?",
+    "answers": [
+      "Division",
+      "Grafting",
+      "Seed sowing",
+      "Deadheading"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/propagation/techniques",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "afbc231c16a4164197b6",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What is a plant cutting?",
+    "answers": [
+      "A seed produced by cross-pollination",
+      "A fruit removed before it ripens",
+      "A flower pressed for preservation",
+      "A piece of a plant grown into a new plant"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/propagation/techniques",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "e0dcaa4a2fdeab00b465",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "When grafting a rose, what does the rootstock supply?",
+    "answers": [
+      "The colour of every petal directly",
+      "A layer of mulch",
+      "The root system",
+      "The pollen for every flower"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/propagation/techniques",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "a6e8b6e5304ea19b9545",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "What is micropropagation used to produce?",
+    "answers": [
+      "Pollen from bee colonies",
+      "New plants from tiny pieces of plant tissue",
+      "Compost from garden prunings",
+      "Dried flowers for arrangements"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/propagation/micropropagation",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "6654f82177b79babeaba",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "During propagation by layering, when is a shoot normally detached from its parent?",
+    "answers": [
+      "After it has formed its own roots",
+      "Before it is bent towards the soil",
+      "As soon as its first flower opens",
+      "Before any leaves develop"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://propg.ifas.ufl.edu/08-layering/06-layering-types.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "6bc0803ec637eecbab16",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "What does a gardener do when 'hardening off' seedlings?",
+    "answers": [
+      "Presses their compost into a solid block",
+      "Removes all their lower roots",
+      "Dries them until their leaves become brittle",
+      "Gradually gets them used to outdoor conditions"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/prevention-protection/hardening-off-tender-plants",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "0f02fc081ae4f4059376",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Does hardening off make a frost-sensitive plant fully frost-hardy?",
+    "answers": [
+      "Yes; but only if the leaves turn yellow",
+      "Only if all the flowers are removed",
+      "No; it can still be damaged by frost",
+      "Yes; it prevents all freezing damage"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/prevention-protection/hardening-off-tender-plants",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "4c8557edc1dbcb069675",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Why are crowded seedlings thinned out?",
+    "answers": [
+      "To stop roots from taking up water",
+      "To reduce competition for space and resources",
+      "To prevent every remaining plant from flowering",
+      "To turn annual plants into perennials"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/get-involved/grow-with-it/pdfs/grow-with-it-support-pack.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "1170dacd6f9a2fa4914d",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "When lifting a delicate seedling to transplant it, which part is safest to hold gently?",
+    "answers": [
+      "A leaf",
+      "The main stem",
+      "The root tip",
+      "The growing tip"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/get-involved/grow-with-it/pdfs/grow-with-it-support-pack.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "0d99b0af92a493e9b269",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "What does 'pricking out' mean when raising seedlings?",
+    "answers": [
+      "Piercing every seed with a fork",
+      "Removing the flower buds from a mature shrub",
+      "Scratching the bark of a tree",
+      "Moving individual seedlings into more space"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/get-involved/grow-with-it/pdfs/grow-with-it-support-pack.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "245599a7f78d1c37eaed",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "In seed sowing, what is a drill made in a garden bed?",
+    "answers": [
+      "A hole made by a feeding caterpillar",
+      "A container for storing dried flowers",
+      "A shallow groove made for sowing seeds",
+      "A device for drilling into tree trunks"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/getmedia/688ef603-ad54-435f-a875-af77cb39b203/seed-sowing-glossary.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "cf0e68b9ec127b873c8c",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "A seed packet says 'sow direct'. What should you do?",
+    "answers": [
+      "Keep the seeds in darkness permanently",
+      "Sow where the plants are intended to grow",
+      "Grow every seed in water first",
+      "Remove the seed coats before planting"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/getmedia/688ef603-ad54-435f-a875-af77cb39b203/seed-sowing-glossary.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "63dbae4527fbc4a88649",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which soil type usually feels gritty and allows water to drain through quickly?",
+    "answers": [
+      "Sandy soil",
+      "Heavy clay soil",
+      "Peat soil",
+      "Compacted silt soil"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/soil-composts-mulches/soil-types",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "b8e77f9fa3f99fdf53c9",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which garden soil is typically sticky when wet and can bake hard in dry weather?",
+    "answers": [
+      "Coarse sandy soil",
+      "Loose gravel",
+      "Leafmould",
+      "Clay soil"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/soil-composts-mulches/soil-types",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "b1310ea7756dc3cbdd68",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which soil description means a mixture of sand, silt and clay?",
+    "answers": [
+      "Peat",
+      "Gravel",
+      "Loam",
+      "Pure chalk"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/soil-composts-mulches/soil-types",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "9999b1d03797b689bb89",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which plant is a good example of an acid-loving garden shrub?",
+    "answers": [
+      "Common lilac",
+      "Rhododendron",
+      "Lavender",
+      "Rosemary"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/soil-composts-mulches/soil-types",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "a5be4c5db97f14cc30ee",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What does the pH of garden soil describe?",
+    "answers": [
+      "Its acidity or alkalinity",
+      "Its depth in centimetres",
+      "Its number of earthworms",
+      "Its daily temperature range"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/soil-composts-mulches/soil-types",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "e0395955e40d1891a86d",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Where is a mulch normally placed around garden plants?",
+    "answers": [
+      "Inside unopened flower buds",
+      "Across the top of every leaf",
+      "Under the drainage holes of a pot",
+      "On the surface of the soil"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/soil-composts-mulches/how-to-mulch-with-organic-matter",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "ddd7a254154d62082dcc",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which is a useful effect of an organic mulch around plants?",
+    "answers": [
+      "Stopping roots from growing permanently",
+      "Replacing the plant's need for sunlight",
+      "Reducing evaporation from the soil",
+      "Preventing all rainfall from entering the soil"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/soil-composts-mulches/how-to-mulch-with-organic-matter",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "f545b1ff621bcba31157",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which of these can slowly decompose when used as garden mulch?",
+    "answers": [
+      "Granite gravel",
+      "Composted bark",
+      "Slate chippings",
+      "Glass pebbles"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/soil-composts-mulches/how-to-mulch-with-organic-matter",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "20e8965f3db85f63e2fd",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which part of a flowering plant is removed during deadheading?",
+    "answers": [
+      "Faded flowers",
+      "Healthy roots",
+      "Unopened leaf buds",
+      "All green leaves"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/garden-jobs/deadheading-plants",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "5a4d1de1175d1fe4fb5a",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Why might a gardener leave some faded flowers on a plant instead of deadheading them?",
+    "answers": [
+      "To stop the roots from absorbing minerals",
+      "To change the species of the plant",
+      "To make all its leaves evergreen",
+      "To allow seed heads to develop"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/garden-jobs/deadheading-plants",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "82535ca60d3e23dbcc51",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "For many repeat-flowering plants, deadheading can encourage what?",
+    "answers": [
+      "Permanent loss of roots",
+      "Conversion into a climbing plant",
+      "More blooms",
+      "A change from leaves to needles"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/garden-jobs/deadheading-plants",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "1629bde0b982843f87f1",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which of these garden plants grows from a true bulb?",
+    "answers": [
+      "Dahlia",
+      "Tulip",
+      "Gladiolus",
+      "Bearded iris"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.ucanr.edu/sites/default/files/2019-09/311976.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "d9cabcd147eb21f2c89d",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "What type of underground storage organ does a gladiolus have?",
+    "answers": [
+      "A corm",
+      "A true bulb",
+      "A taproot",
+      "A woody trunk"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.ucanr.edu/sites/default/files/2019-09/311976.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "8b72a210a53392b008c5",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which spring-flowering plant grows from a corm?",
+    "answers": [
+      "Daffodil",
+      "Tulip",
+      "Hyacinth",
+      "Crocus"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.ucanr.edu/sites/default/files/2019-09/311976.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "89352844f2993d9dab6b",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "What distinguishes a true bulb from a corm when cut open?",
+    "answers": [
+      "A corm is always hollow inside",
+      "A true bulb has a woody trunk inside",
+      "A true bulb has fleshy layers; a corm is solid inside",
+      "A true bulb contains no living tissue"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/is-this-a-bulb/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "3618c45221df582ef1c1",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "A rhizome is best described as which type of plant structure?",
+    "answers": [
+      "A seed coat",
+      "A horizontal stem that can produce roots and shoots",
+      "A single pollen grain",
+      "A cluster of petals"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/is-this-a-bulb/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "6cb51ad258bdaa578c76",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "In a typical UK garden, when are most spring-flowering bulbs planted?",
+    "answers": [
+      "In autumn",
+      "Only after their spring flowers open",
+      "In midsummer after removing all roots",
+      "Only during a winter freeze"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/types/bulbs/planting",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "89619ed02f165f3a22fe",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "When planting a tulip bulb, which way should its pointed growing tip usually face?",
+    "answers": [
+      "Downwards",
+      "Towards the nearest wall",
+      "It must be cut off first",
+      "Upwards"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/types/bulbs/how-to-plant-bulbs-in-grass",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "af61e9648fc02844b941",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Daffodils belong to which botanical genus?",
+    "answers": [
+      "Digitalis",
+      "Lavandula",
+      "Narcissus",
+      "Rosa"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/plants/daffodils",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "945067834eb4ad8acdc8",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "Which feature gives a typical daffodil flower its familiar trumpet-like centre?",
+    "answers": [
+      "The seed coat",
+      "The corona",
+      "The leaf stalk",
+      "The root cap"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A66177-1/general-information",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "8858598a72368cad5164",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which botanical name identifies the snowdrop genus?",
+    "answers": [
+      "Galanthus",
+      "Helianthus",
+      "Dianthus",
+      "Agapanthus"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/snowdrops%E2%81%A0",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "0ee9919a79b966135587",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What colour are the flowers of the common snowdrop, Galanthus nivalis?",
+    "answers": [
+      "Bright scarlet throughout",
+      "Deep blue throughout",
+      "Orange with black centres",
+      "White with green markings"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/snowdrops%E2%81%A0",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "5a8afaee39b20f9dac82",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which spot is generally suitable for snowdrops in a garden?",
+    "answers": [
+      "A hot, dry sand bed in full sun",
+      "An unlit cupboard all year",
+      "Partial shade beneath deciduous trees",
+      "A permanently submerged pond bed"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/snowdrops%E2%81%A0",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "e8149c1dacc744dbe57d",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which growing conditions generally suit lavender best?",
+    "answers": [
+      "An unlit room and wet compost",
+      "Sunshine and well-drained soil",
+      "Deep shade and waterlogged soil",
+      "Permanent submersion in fresh water"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/lavender",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "d4d584a147e7c4c03c4b",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Lavandula is the botanical genus of which aromatic plant?",
+    "answers": [
+      "Lavender",
+      "Rosemary",
+      "Thyme",
+      "Mint"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/lavender",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "fb67bb2f0c0ebefbbc6f",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which garden plant is known for fragrant flower spikes above grey-green foliage?",
+    "answers": [
+      "Waterlily",
+      "Snowdrop",
+      "Sunflower",
+      "Lavender"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/lavender",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "a87b3b592aae5d67235d",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What is the usual growth habit of a wisteria?",
+    "answers": [
+      "A low lawn grass",
+      "A stemless desert succulent",
+      "A woody climber",
+      "A floating aquatic plant"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/wisteria",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "3ff8c758f8a34a7523f4",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "What is the botanical term for the long hanging flower clusters of wisteria?",
+    "answers": [
+      "Corms",
+      "Racemes",
+      "Rhizomes",
+      "Cotyledons"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/wisteria",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "e18d6179984e9da0c458",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which structures help climbing sweet peas cling to supports?",
+    "answers": [
+      "Tendrils",
+      "Floating leaves",
+      "Underground bulbs",
+      "Air-filled fruits"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/lathyrus/sweet-peas",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "3635ad9b1183d0507234",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "What is the botanical name of the fragrant annual sweet pea?",
+    "answers": [
+      "Pisum sativum",
+      "Vicia faba",
+      "Phaseolus vulgaris",
+      "Lathyrus odoratus"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/lathyrus/sweet-peas",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "2fcebdb654ad42e6bcd5",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Why does regularly picking sweet pea flowers often prolong flowering?",
+    "answers": [
+      "It makes the plant frost-proof",
+      "It changes the flowers into perennial stems",
+      "It reduces the plant's investment in developing seed pods",
+      "It permanently prevents roots from growing"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/lathyrus/sweet-peas",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "aae4f0f7c5203ebd9c03",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "The large head of a common sunflower is made up of what?",
+    "answers": [
+      "A single fruit with no flowers",
+      "Many small individual flowers",
+      "One enormous petal",
+      "A cluster of unopened leaves only"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/plants/sunflower",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "5637f42420ca3dafb2fd",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which part of a sunflower is commonly pressed to produce cooking oil?",
+    "answers": [
+      "Its seeds",
+      "Its stem hairs",
+      "Its yellow ray flowers",
+      "Its roots"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/plants/sunflower",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "27bad2c8226980fc4fef",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "What is the scientific name of the common annual sunflower?",
+    "answers": [
+      "Galanthus nivalis",
+      "Narcissus pseudonarcissus",
+      "Digitalis purpurea",
+      "Helianthus annuus"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/plants/sunflower",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "d10da79dfde521a769f1",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What are the colourful fruits produced by many roses called?",
+    "answers": [
+      "Corms",
+      "Catkins",
+      "Hips",
+      "Cones"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/roses",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "922294d1dc1a380c8b40",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which botanical genus contains roses?",
+    "answers": [
+      "Primula",
+      "Rosa",
+      "Iris",
+      "Lilium"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/roses",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "a22efaf41ef45396e40f",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "To enjoy a display of rose hips, what should a gardener avoid doing to every flower?",
+    "answers": [
+      "Deadheading it after flowering",
+      "Watering the soil in dry weather",
+      "Supporting long stems",
+      "Removing nearby weeds"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/roses/growing-guide/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "6aaddfd123b47dd3b91d",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Why is opening up the centre of a rose bush one aim of pruning?",
+    "answers": [
+      "To stop all sunlight reaching the leaves",
+      "To prevent any new shoots",
+      "To remove its root system",
+      "To improve air circulation"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/roses/growing-guide/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "3e7fc752d3d118119b49",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Dahlias store reserves below ground mainly in which structures?",
+    "answers": [
+      "Woody cones",
+      "Floating stems",
+      "Tuberous roots",
+      "True bulbs"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/dahlia",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "6d7c260182600fca5698",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Why are tall, large-flowered dahlias often tied to stakes?",
+    "answers": [
+      "To turn their tubers into bulbs",
+      "To support their heavy flower-bearing stems",
+      "To prevent them producing roots",
+      "To stop any flowers opening"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/dahlia",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "80e27e53c8eeb14b4469",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which conditions threaten dahlia tubers stored over a cold UK winter?",
+    "answers": [
+      "Freezing conditions",
+      "A frost-free storage space",
+      "A protective insulating mulch",
+      "Shelter from severe cold"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/dahlia",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "b4b59c0f15866564d888",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "What gives a bearded iris its 'beard'?",
+    "answers": [
+      "A mass of exposed roots above the flower",
+      "Long spines on the leaf tips",
+      "A woolly seed coat surrounding each petal",
+      "A strip of soft hairs on the lower flower segments"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/iris/dividing",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "e08b7c3afab8fd2492ad",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "The thick horizontal stems of bearded irises are called what?",
+    "answers": [
+      "Cotyledons",
+      "Sepals",
+      "Rhizomes",
+      "Stamens"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/iris/dividing",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "b699ef8de3ae5874faf6",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "The large red parts of a typical poinsettia display are what?",
+    "answers": [
+      "Colourful sepals around each flower",
+      "Bracts, which are modified leaves",
+      "Petals belonging to large flowers",
+      "Ripening seed capsules"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/euphorbia/poinsettia",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "5c43cfae6d0938f6d5cc",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Where are a poinsettia's small flowers found?",
+    "answers": [
+      "Among the colourful bracts at the stem tips",
+      "Inside its underground roots",
+      "On the underside of every green leaf",
+      "Only beneath the potting compost"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/euphorbia/poinsettia",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "0f480e1bd996d8e376d4",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "The vivid papery structures around bougainvillea's small flowers are called what?",
+    "answers": [
+      "Petals",
+      "Sepals",
+      "Seed wings",
+      "Bracts"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/bougainvillea",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "5e0abdbe89e56b9fba72",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Where did bougainvilleas originate?",
+    "answers": [
+      "Southeast Asia",
+      "Australia",
+      "South America",
+      "Southern Africa"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/bougainvillea",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "0e1cfafd758424e83dde",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which garden flower is commonly called love-in-a-mist?",
+    "answers": [
+      "Tulipa gesneriana",
+      "Nigella damascena",
+      "Helianthus annuus",
+      "Rosa canina"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/nigella",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "a0b53e89654daafa50ba",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "What creates the 'mist' around a love-in-a-mist flower?",
+    "answers": [
+      "Finely divided foliage surrounding it",
+      "A covering of long seed hairs",
+      "A dense cluster of pale roots",
+      "A powdery layer on the petals"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/nigella",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "6e5d9b8160fa3239af05",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Antirrhinum majus is commonly known as which garden flower?",
+    "answers": [
+      "Snowdrop",
+      "Sweet pea",
+      "Sunflower",
+      "Snapdragon"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/69565/antirrhinum-majus/details",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "5d5b483a221cab2df752",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which common name belongs to plants in the genus Myosotis?",
+    "answers": [
+      "Love-in-a-mist",
+      "Bleeding heart",
+      "Forget-me-not",
+      "Lily-of-the-valley"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/156471/myosotis/details",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "b3f1c308a57fba926a39",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which plant bears small, nodding, fragrant white bells above paired broad leaves?",
+    "answers": [
+      "Gladiolus",
+      "Lily-of-the-valley",
+      "Common sunflower",
+      "English lavender"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/4327/i-convallaria-majalis-i/details/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "d4efb65ade005805f648",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "A Venus flytrap catches prey using modified versions of which plant part?",
+    "answers": [
+      "Leaves",
+      "Roots",
+      "Flowers",
+      "Seeds"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/plants/venus-flytrap",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "99e9b3fc874904011de1",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Where is the Venus flytrap native?",
+    "answers": [
+      "The Sahara Desert",
+      "Northern Scandinavia",
+      "The mountains of New Zealand",
+      "North and South Carolina in the United States"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/plants/venus-flytrap",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "f58dc4e27859dbf22f3f",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "What helps trigger a Venus flytrap's trap to snap shut?",
+    "answers": [
+      "Breaking a root far below the trap",
+      "Removing a seed coat",
+      "Touching sensitive hairs inside the trap",
+      "Ripening a fruit beneath the soil"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/plants/venus-flytrap",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "cfc212571d42b5695d7d",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "How do sundews typically catch small insects?",
+    "answers": [
+      "With thorny fruits that roll downhill",
+      "With sticky droplets on their leaves",
+      "With underground jaws",
+      "With explosive seed pods"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/read-and-watch/carnivorous-plants",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "1df9a22521a113c91b84",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Why is catching prey especially useful to carnivorous plants in nutrient-poor habitats?",
+    "answers": [
+      "It supplies nutrients such as nitrogen",
+      "It replaces their entire need for water",
+      "It turns their leaves into animal tissue",
+      "It allows every species to grow without light"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/read-and-watch/carnivorous-plants",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "7227c23d516928780fd8",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What type of trap is used by a tropical pitcher plant such as Nepenthes?",
+    "answers": [
+      "A snap trap with closing leaf lobes",
+      "A sticky surface that glues prey down",
+      "A suction bladder that draws prey inside",
+      "A pitfall containing digestive fluid"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/read-and-watch/carnivorous-plants",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "7d9af9aa9b0470f994f8",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "The strong smell of a flowering titan arum is often compared with what?",
+    "answers": [
+      "Citrus peel",
+      "Vanilla custard",
+      "Rotting flesh",
+      "Fresh mint"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/plants/titan-arum",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "4333f2ff4f0ba9ca8af7",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Is the titan arum a carnivorous plant?",
+    "answers": [
+      "Only while its leaf is green",
+      "No; insects visit it as pollinators",
+      "Yes; it digests every visiting insect",
+      "Yes; its roots hunt insects"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/plants/titan-arum",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "892c09889242a0281479",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "What does the titan arum's huge flowering structure contain?",
+    "answers": [
+      "Many small flowers on a central spike",
+      "One enormous flower with a single petal",
+      "Only leaves and no flowers",
+      "A cluster of pine cones"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/plants/titan-arum",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "c83105b40b0a332369d9",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which habitat is natural for the giant waterlily Victoria amazonica?",
+    "answers": [
+      "Dry sand dunes of the Sahara",
+      "Arctic sea ice",
+      "Saltwater coral reefs",
+      "Freshwater lakes and backwaters of the Amazon basin"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://plants.ces.ncsu.edu/plants/victoria-amazonica/common-name/giant-water-lily/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "e95c5c6d16366e1ee337",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What distinctive feature occurs around the edge of a giant waterlily's circular leaf?",
+    "answers": [
+      "A fringe of long soft hairs",
+      "A row of detachable leaflets",
+      "An upturned rim",
+      "A deeply lobed margin"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/plants/giant-waterlily",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "b881b671f247cf90923e",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which insects pollinate Victoria amazonica in the wild?",
+    "answers": [
+      "Silverfish",
+      "Beetles",
+      "Dragonflies",
+      "Fleas"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.uu.se/en/botanical-garden/our-plants-and-attractions/our-plants/the-giant-waterlilies",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "cc317374d9976529672e",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "The genus name Victoria, used for giant waterlilies, honours whom?",
+    "answers": [
+      "Queen Victoria",
+      "Victoria Woodhull",
+      "Victoria Beckham",
+      "Victoria Wood"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.uu.se/en/botanical-garden/our-plants-and-attractions/our-plants/the-giant-waterlilies",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "99c6b678492646dffd0c",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What is the sensitive plant, Mimosa pudica, famous for doing when touched?",
+    "answers": [
+      "Opening its flowers immediately",
+      "Uncoiling all its tendrils",
+      "Shedding its mature seeds",
+      "Folding its leaflets"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A313242-2/general-information",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "43b8a6a387ee9f36578d",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "How many long-lived foliage leaves does a mature Welwitschia normally produce?",
+    "answers": [
+      "One hundred each spring",
+      "None",
+      "Two",
+      "Twelve each year"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://pza.sanbi.org/welwitschia-mirabilis",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "d4255cf5b1629d9802bb",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Welwitschia is associated with which environment?",
+    "answers": [
+      "The Great Victoria Desert",
+      "The Namib Desert",
+      "The Gobi Desert",
+      "The Atacama Desert"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://pza.sanbi.org/welwitschia-mirabilis",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "64eccd04758d55c0ec68",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "The monkey puzzle tree is native to parts of which two countries?",
+    "answers": [
+      "Chile and Argentina",
+      "Japan and South Korea",
+      "Canada and Iceland",
+      "Egypt and Libya"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/plants/monkey-puzzle-tree",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "7371dfac13c51259de94",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which group of plants includes the monkey puzzle tree?",
+    "answers": [
+      "Ferns",
+      "Mosses",
+      "Grasses",
+      "Conifers"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/plants/monkey-puzzle-tree",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "bb104e161e3d5ff3513a",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "What is unusual about where cacao trees produce many of their flowers?",
+    "answers": [
+      "They float free on nearby water",
+      "They develop inside unopened seeds",
+      "They grow directly from the trunk and older branches",
+      "They grow only at the tips of roots"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/plants/cacao-tree",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "d469a28b22285e93848d",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which part of the cacao plant provides the main raw material for chocolate?",
+    "answers": [
+      "Its flower petals",
+      "Seeds from its fruits",
+      "Its outer bark",
+      "Its green leaves"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/plants/cacao-tree",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "1bebba1cbd2f4041aa8e",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "Which small insects naturally pollinate cacao flowers?",
+    "answers": [
+      "Midges",
+      "Dragonflies",
+      "Fleas",
+      "Grasshoppers"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/plants/cacao-tree",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "ddf784c8ac77c7a06d47",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "The plant that produces culinary vanilla belongs to which flower family?",
+    "answers": [
+      "The daisy family",
+      "The grass family",
+      "The rose family",
+      "The orchid family"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/plants/vanilla",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "10c73330ea907901fbdf",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "How does the vanilla plant attach itself to trees as it climbs?",
+    "answers": [
+      "With sticky seed pods",
+      "With paired snapping traps",
+      "With aerial roots",
+      "With underground flowers"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/plants/vanilla",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "5dbdba66d323328321d7",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which part of a vanilla plant is cured to make vanilla pods for flavouring?",
+    "answers": [
+      "Its leaf stalks",
+      "Its long fruits",
+      "Its roots",
+      "Its bark strips"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/plants/vanilla",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "5cc1c6b73d3e24dcba3a",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "The part of ginger commonly used in cooking is botanically what?",
+    "answers": [
+      "A rhizome, or underground stem",
+      "A true root with no stem tissue",
+      "A seed capsule",
+      "A dried flower"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/plants/ginger",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "c6cf8061ecd5ca7c0aa5",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Saffron is obtained from which part of the saffron crocus flower?",
+    "answers": [
+      "The petals",
+      "The pollen grains",
+      "The sepals",
+      "The stigmas"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://mpns.science.kew.org/mpns-portal/drugDetail?drugName=saffron",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "4b37cf80ff9369aba53f",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which plant structures chiefly anchor a sunflower in the soil?",
+    "answers": [
+      "Anthers",
+      "Seed coats",
+      "Roots",
+      "Petals"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9904-vegetative-plant-parts",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "e763fa2c4ff1a25fe250",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "What is the main benefit of root hairs to a plant?",
+    "answers": [
+      "A brighter colour for its petals",
+      "A larger surface for absorbing water",
+      "More pollen for fertilisation",
+      "A thicker coat around each seed"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9904-vegetative-plant-parts",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "cd7cbd47533cb0551bfd",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "What does the cap at the tip of a growing root protect?",
+    "answers": [
+      "The growing tissue behind it",
+      "A developing flower bud",
+      "The seeds inside a fruit",
+      "The leaf stalk above it"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9904-vegetative-plant-parts",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "59707416d7f06d3b4811",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which name describes a root system dominated by one thick central root?",
+    "answers": [
+      "Fibrous root system",
+      "Runner system",
+      "Rhizome system",
+      "Taproot system"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9904-vegetative-plant-parts",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "8257bdc1576a30a0ec74",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Where is pollen produced in a typical flower?",
+    "answers": [
+      "Sepals",
+      "Ovaries",
+      "Anthers",
+      "Stigmas"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9900-reproductive-plant-parts",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "c729cd8a710bd600bc1b",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which flower part receives pollen during pollination?",
+    "answers": [
+      "Sepal",
+      "Stigma",
+      "Filament",
+      "Petal"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9900-reproductive-plant-parts",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "a059a0e29ecf5b1c4dec",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What do sepals usually protect before a flower opens?",
+    "answers": [
+      "The flower bud",
+      "The root tip",
+      "The ripe seed",
+      "The leaf stalk"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9900-reproductive-plant-parts",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "47d4cc440e8fc6f79835",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "After fertilisation, an ovule in a flower develops into what?",
+    "answers": [
+      "A petal",
+      "An anther",
+      "A sepal",
+      "A seed"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9900-reproductive-plant-parts",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "4d3ea30ce9c32197192e",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which green pigment captures light for photosynthesis?",
+    "answers": [
+      "Melanin",
+      "Keratin",
+      "Chlorophyll",
+      "Haemoglobin"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9901-plant-growth-development",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "78b1085c7fe5fc8a8fb0",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which gas do green plants use as a carbon source during photosynthesis?",
+    "answers": [
+      "Neon",
+      "Carbon dioxide",
+      "Oxygen",
+      "Helium"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9901-plant-growth-development",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "3f620c5fd7cd27d7509d",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which gas is released by a green leaf during photosynthesis?",
+    "answers": [
+      "Oxygen",
+      "Methane",
+      "Hydrogen",
+      "Ammonia"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9901-plant-growth-development",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "a32b40364f4c1e057552",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which plant process releases energy from sugars and continues at night?",
+    "answers": [
+      "Pollination",
+      "Transpiration",
+      "Photosynthesis",
+      "Respiration"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9901-plant-growth-development",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "d829e69734010470211f",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "What pressure helps keep a well-watered, non-woody stem firm?",
+    "answers": [
+      "Pollen pressure",
+      "Air pressure inside cones",
+      "Turgor pressure",
+      "Atmospheric pressure alone"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9903-environmental-factors-affecting-plant-growth",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "65a62cd4294c45b3328e",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "With other conditions equal, which air is most likely to slow water loss from leaves?",
+    "answers": [
+      "Faster-moving, equally dry air",
+      "Very humid air",
+      "Very dry air",
+      "Hotter, equally dry air"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9903-environmental-factors-affecting-plant-growth",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "9b2d077bf804306ab754",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "In plant biology, what is a photoperiod?",
+    "answers": [
+      "The daily duration of light",
+      "The age of a seed",
+      "The length of a root",
+      "The size of a flower"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9903-environmental-factors-affecting-plant-growth",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "0a92b12f7eea7ac9188b",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "What does day-neutral mean when describing a plant's flowering response?",
+    "answers": [
+      "Flowers always open at noon",
+      "The plant needs no light to grow",
+      "Flowers cannot develop in summer",
+      "Flowering is not governed by day length"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9903-environmental-factors-affecting-plant-growth",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "fb7231360073ecccd3cc",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What is the scientific study of plants called?",
+    "answers": [
+      "Geology",
+      "Meteorology",
+      "Botany",
+      "Zoology"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://content.ces.ncsu.edu/extension-gardener-handbook/3-botany",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "3915ead91fda34318b47",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "In the scientific plant name Rosa canina, what does Rosa identify?",
+    "answers": [
+      "The cultivar",
+      "The genus",
+      "The family",
+      "The order"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://content.ces.ncsu.edu/extension-gardener-handbook/3-botany",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "5d19c7fda1f665fd625e",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which taxonomic group contains related plant genera?",
+    "answers": [
+      "Family",
+      "Species",
+      "Cultivar",
+      "Variety"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://content.ces.ncsu.edu/extension-gardener-handbook/3-botany",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "b94235300fa6895906f5",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "What is the collective name for flowering plants?",
+    "answers": [
+      "Gymnosperms",
+      "Bryophytes",
+      "Ferns",
+      "Angiosperms"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://content.ces.ncsu.edu/extension-gardener-handbook/3-botany",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "79b412456d0f71013830",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "How many seed leaves does a monocot embryo have?",
+    "answers": [
+      "Three",
+      "Four",
+      "One",
+      "Two"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.oregonstate.edu/collection/botany-basics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "7269d2678ac734b31601",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which leaf-vein pattern is typical of grasses?",
+    "answers": [
+      "Veins confined to the leaf edge",
+      "Parallel veins",
+      "A branching net of veins",
+      "No veins at all"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.oregonstate.edu/collection/botany-basics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "b1dd0cef05fa88e60f32",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Monocot flower parts are usually arranged in multiples of which number?",
+    "answers": [
+      "Three",
+      "Four",
+      "Five",
+      "Seven"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.oregonstate.edu/collection/botany-basics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "bd1c7daa2a0097750f3b",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "In a typical monocot stem, how are the vascular bundles arranged?",
+    "answers": [
+      "In one continuous outer ring",
+      "Only inside the bark",
+      "Only at the stem tip",
+      "Scattered through the stem"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.oregonstate.edu/collection/botany-basics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "7999280b296b01ea46de",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What is the usual botanical name for a fern leaf?",
+    "answers": [
+      "Catkin",
+      "Cone",
+      "Frond",
+      "Petal"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.nhm.ac.uk/discover/ferns.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "d0d01fcab3f3832729ad",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Ferns disperse which structures instead of seeds?",
+    "answers": [
+      "Berries",
+      "Spores",
+      "Pollen grains",
+      "Nuts"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.nhm.ac.uk/discover/ferns.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "d219255616e46b99d64e",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "On many fern fronds, what are the clusters called sori associated with?",
+    "answers": [
+      "Spore production",
+      "Nectar storage",
+      "Seed ripening",
+      "Pollen release"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.nhm.ac.uk/discover/ferns.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "d375559a036636b0a4cf",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Why is a film of water important for fertilisation in many ferns?",
+    "answers": [
+      "It carries pollen into a flower",
+      "It turns spores into seeds",
+      "It dissolves the fern stem",
+      "It lets sperm reach an egg"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.nhm.ac.uk/discover/ferns.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "a9a7715f78311fbfcd8f",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "What are the threadlike structures that anchor mosses called?",
+    "answers": [
+      "Petals",
+      "Stamens",
+      "Rhizoids",
+      "Anthers"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://anbg.gov.au/bryophyte/what-is-moss.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "d8381dba2cad154f216d",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Where are moss spores produced?",
+    "answers": [
+      "In pollen grains",
+      "In capsules",
+      "Inside flowers",
+      "Within fruits"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://anbg.gov.au/bryophyte/what-is-moss.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "fa68a01b9a13ea42584e",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which stage forms the familiar leafy part of most moss plants?",
+    "answers": [
+      "Gametophyte",
+      "Seed embryo",
+      "Pollen tube",
+      "Fruit wall"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://anbg.gov.au/bryophyte/what-is-moss.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "c90b42360002d6653cc2",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "What first develops when a moss spore germinates?",
+    "answers": [
+      "A seed coat",
+      "A flower bud",
+      "A woody cone",
+      "A protonema"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://anbg.gov.au/bryophyte/what-is-moss.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "9c96015e44b2e63464fe",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Pines and spruces belong to which seed-plant group?",
+    "answers": [
+      "Mosses",
+      "Ferns",
+      "Gymnosperms",
+      "Angiosperms"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://tidcf.nrcan.gc.ca/en/trees/identification/conifers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "97a6b4da0c7b1950bb5c",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "In a pine tree, where do seeds develop?",
+    "answers": [
+      "On root hairs",
+      "On the scales of female cones",
+      "Inside petals",
+      "Inside fleshy fruits"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://tidcf.nrcan.gc.ca/en/trees/identification/conifers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "b40106ccc1a6ec86dd02",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "A pine needle is which part of the plant?",
+    "answers": [
+      "A leaf",
+      "A root",
+      "A petal",
+      "A seed"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://tidcf.nrcan.gc.ca/en/trees/identification/conifers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "a3a262f69e47661fcb17",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which conifer normally sheds all its needles each autumn?",
+    "answers": [
+      "Scots pine",
+      "Norway spruce",
+      "Douglas fir",
+      "Larch"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://tidcf.nrcan.gc.ca/en/trees/identification/conifers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "d85caea19bd4739037ff",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "A plant that completes its life cycle in one growing season is called what?",
+    "answers": [
+      "A perennial",
+      "An evergreen",
+      "An annual",
+      "A biennial"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9899-know-life-cycles-plants-annuals-biennials-perennials",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "71d6cee6ad2fdd4e8830",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which term describes a plant that normally completes its life cycle over two growing seasons?",
+    "answers": [
+      "Epiphyte",
+      "Biennial",
+      "Annual",
+      "Perennial"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9899-know-life-cycles-plants-annuals-biennials-perennials",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "0284522334db9eb89b82",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What does perennial mean when describing a plant's life cycle?",
+    "answers": [
+      "Living for more than two years",
+      "Completing its life cycle in one season",
+      "Completing its life cycle in two seasons",
+      "Losing every leaf each autumn"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9899-know-life-cycles-plants-annuals-biennials-perennials",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "86ebc230eecbb96157b2",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "What distinguishes a woody perennial from a herbaceous perennial?",
+    "answers": [
+      "It must retain all its leaves in winter",
+      "It must flower continuously all year",
+      "Its seeds cannot become dormant",
+      "It retains persistent woody stems"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9899-know-life-cycles-plants-annuals-biennials-perennials",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "29ed67db7163ab9da95f",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "What name is given to actively dividing plant tissue at a growing tip?",
+    "answers": [
+      "Cuticle",
+      "Petal pigment",
+      "Meristem",
+      "Seed coat"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9898-internal-plant-parts",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "8fd916efa95cf69e78b0",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What is the basic structural unit of a plant?",
+    "answers": [
+      "A branch",
+      "A cell",
+      "A petal",
+      "A seed"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9898-internal-plant-parts",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "6e4fda068214f80b2226",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which term describes an organised group of plant cells working together?",
+    "answers": [
+      "Tissue",
+      "Species",
+      "Genus",
+      "Population"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9898-internal-plant-parts",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "ca5693243ed0a4a152c5",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which molecule carries inherited genetic information in plant cells?",
+    "answers": [
+      "Starch",
+      "Chlorophyll",
+      "Cellulose",
+      "DNA"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.oregonstate.edu/catalog/em-9898-internal-plant-parts",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "1126348ae0e8a852ad74",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "A shoot bending as it grows towards light is showing which response?",
+    "answers": [
+      "Hydrotropism",
+      "Thigmotropism",
+      "Phototropism",
+      "Gravitropism"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://organismalbio.biosci.gatech.edu/chemical-and-electrical-signals/plant-hormones-and-sensory-systems/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "4ab99cff15f072b0ef31",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which environmental force is detected in gravitropism?",
+    "answers": [
+      "Humidity",
+      "Gravity",
+      "Light",
+      "Touch"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://organismalbio.biosci.gatech.edu/chemical-and-electrical-signals/plant-hormones-and-sensory-systems/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "5de0b43609be72128c5b",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "A tendril coiling around a support after touching it is an example of what?",
+    "answers": [
+      "Thigmotropism",
+      "Phototropism",
+      "Gravitropism",
+      "Photoperiodism"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://organismalbio.biosci.gatech.edu/chemical-and-electrical-signals/plant-hormones-and-sensory-systems/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "2056817494d2009368e8",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which gaseous plant hormone promotes the ripening of many fruits?",
+    "answers": [
+      "Auxin",
+      "Cytokinin",
+      "Abscisic acid",
+      "Ethylene"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://organismalbio.biosci.gatech.edu/chemical-and-electrical-signals/plant-hormones-and-sensory-systems/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "65d661a79306930df17a",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What is the young plant inside a seed called?",
+    "answers": [
+      "Anther",
+      "Stigma",
+      "Embryo",
+      "Petal"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/read-and-watch/what-is-a-seed",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "f6d371608343953d1745",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which outer structure helps protect a seed from damage and drying out?",
+    "answers": [
+      "Pollen tube",
+      "Seed coat",
+      "Flower stalk",
+      "Root hair"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/read-and-watch/what-is-a-seed",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "7b656b738d3e31b93c11",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What helps feed a newly germinating seed before it can make enough food itself?",
+    "answers": [
+      "Food reserves stored in the seed",
+      "Dissolved mineral nutrients alone",
+      "The empty seed coat alone",
+      "Carbon dioxide without light"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/read-and-watch/what-is-a-seed",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "6879c5508866904632be",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What is the main conservation purpose of a seed bank?",
+    "answers": [
+      "Encouraging all stored seeds to germinate at once",
+      "Preventing seeds from ever germinating",
+      "Storing only seeds that have lost viability",
+      "Preserving seeds for future use"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/read-and-watch/what-is-a-seed",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "8fab556cc4f0ec60bd32",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "The wings of maple fruits primarily help them travel by which means?",
+    "answers": [
+      "Underground roots",
+      "Swimming insects",
+      "Wind",
+      "Ocean currents"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://bioimages.vanderbilt.edu/pages/fruit-seed-dispersal.htm",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "1efc5cc6b16a6aa7c6d0",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "How do hooked burrs commonly disperse their seeds?",
+    "answers": [
+      "By travelling inside pollen",
+      "By catching on animal fur",
+      "By pumping through roots",
+      "By dissolving into rain"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://bioimages.vanderbilt.edu/pages/fruit-seed-dispersal.htm",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "374792cb02583c11fd92",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "How can a bird that eats fleshy fruit help spread a plant's seeds?",
+    "answers": [
+      "By later passing surviving seeds in its droppings",
+      "By digesting all the seeds before flying away",
+      "By returning all seeds to the original fruit",
+      "By keeping every seed permanently in its stomach"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://bioimages.vanderbilt.edu/pages/fruit-seed-dispersal.htm",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "66852fa7992e56a77cd9",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "How can a squirrel help a new oak tree grow?",
+    "answers": [
+      "By eating and fully digesting the acorn",
+      "By removing every acorn from suitable soil",
+      "By storing only empty acorn shells",
+      "By burying an acorn and failing to retrieve it"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://bioimages.vanderbilt.edu/pages/fruit-seed-dispersal.htm",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "7a8162ae08f3b6d0b2a8",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "What is the stalk attaching a leaf blade to a stem called?",
+    "answers": [
+      "Sepal",
+      "Radicle",
+      "Petiole",
+      "Anther"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.wsu.edu/pnw-gardeners-handbook/basic-botany/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "3f6b0dab05b5495e1468",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "What are the tiny pores used for gas exchange on a leaf called?",
+    "answers": [
+      "Petals",
+      "Stomata",
+      "Cotyledons",
+      "Rhizoids"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.wsu.edu/pnw-gardeners-handbook/basic-botany/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "392f68cf9aa741d12d80",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which cells regulate the opening of a leaf stoma?",
+    "answers": [
+      "Guard cells",
+      "Pollen cells",
+      "Root-cap cells",
+      "Seed-coat cells"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.wsu.edu/pnw-gardeners-handbook/basic-botany/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  },
+  {
+    "id": "bab0c0fd24c9a55e4fc6",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "What is the waxy protective layer on the surface of many leaves called?",
+    "answers": [
+      "Corolla",
+      "Cambium",
+      "Endosperm",
+      "Cuticle"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.wsu.edu/pnw-gardeners-handbook/basic-botany/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-v1"
+  }
+]

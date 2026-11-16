@@ -48,6 +48,8 @@ import Security
     }
     private var token: String?
     private var connectionTask:Task<Void,Never>?
+    private var progressRevision=0
+    var progressRefreshNeeded=false
     private var boardRequest=UUID()
     var peopleRequest=UUID()
     init() {
@@ -98,16 +100,25 @@ import Security
         return result
     }
     func save(_ match:MatchRecord) {
-        guard !history.contains(where:{$0.id==match.id}) else {return}
-        history.insert(match,at:0)
+        if let index=history.firstIndex(where:{$0.id==match.id}) {
+            let old=history[index]
+            guard old.pending==true,match.pending != true else {return}
+            history[index]=MatchRecord(id:match.id,topicID:match.topicID,date:old.date,score:match.score,opponentScore:match.opponentScore,opponent:match.opponent,kind:match.kind,rounds:match.rounds,duelID:match.duelID,pending:false,opponentID:match.opponentID,opponentAvatar:match.opponentAvatar)
+        } else {history.insert(match,at:0)}
         persistHistory()
     }
     func persistHistory() {if let data=try? JSONEncoder().encode(history){UserDefaults.standard.set(data,forKey:"history")}}
     var xp:Int { history.reduce(0){$0+$1.xp} }
-    func topicXP(_ topic:Topic)->Int {
-        if let ownCard {return ownCard.topics.first{$0.topicID==topic.id}?.xp ?? 0}
-        return history.filter{$0.topicID==topic.id && $0.kind != "practice"}.reduce(0){$0+$1.xp}
+    private var completedHistory:[MatchRecord] {
+        var ids=Set<String>()
+        return history.filter{ids.insert($0.id).inserted && $0.rounds.count==7 && $0.pending != true}
     }
+    func onlineTopicXP(_ topic:Topic)->Int {
+        if let ownCard {return ownCard.topics.first{$0.topicID==topic.id}?.xp ?? 0}
+        return completedHistory.filter{$0.topicID==topic.id && $0.kind != "practice"}.reduce(0){$0+$1.xp}
+    }
+    func practiceXP(_ topic:Topic)->Int {completedHistory.filter{$0.topicID==topic.id && $0.kind=="practice"}.reduce(0){$0+$1.xp}}
+    func topicXP(_ topic:Topic)->Int {onlineTopicXP(topic)+practiceXP(topic)}
     func level(_ topic:Topic)->Int {TopicLevelling.progress(xp:topicXP(topic)).level}
     func nextBotName()->String {
         let recent=Array((recentBotNames+history.filter{$0.kind=="bot" || $0.kind=="practice"}.map(\.opponent)).prefix(5))
@@ -156,6 +167,18 @@ import Security
         let running=Task {await self.performConnect()};connectionTask=running
         await running.value;connectionTask=nil
     }
+    /// Refresh confirmed totals without rewriting interests or claiming unrelated rewards.
+    func refreshPlayerProgress() async throws {
+        if let running=connectionTask {await running.value}
+        if profile==nil {await connect()}
+        guard let playerID=profile?.id else {throw APIError.message("Your player card is not connected.")}
+        progressRevision+=1
+        let revision=progressRevision,service=apiURL
+        let current:OnlineProfile=try await request("profile")
+        let card:PlayerCard=try await request("player")
+        guard revision==progressRevision,service==apiURL,profile?.id==playerID,current.id==playerID,card.id==playerID else {return}
+        profile=current;ownCard=card;onlineError=nil;progressRefreshNeeded=false
+    }
     private func performConnect() async {
         profileBusy=true;defer{profileBusy=false}
         saveSettings();onlineError=nil
@@ -168,14 +191,18 @@ import Security
                 token=auth.token
                 UserDefaults.standard.set(apiURL,forKey:"tokenEndpoint")
             }
-            profile=try await request("profile")
-            avatar=profile?.avatar
-            UserDefaults.standard.set(avatar,forKey:"avatar")
-            if let actual=profile?.name {name=actual;UserDefaults.standard.set(name,forKey:"name")}
-            if profile?.socialVersion==1 {
+            progressRevision+=1
+            let revision=progressRevision,service=apiURL
+            let current:OnlineProfile=try await request("profile")
+            var card:PlayerCard?
+            if current.socialVersion==1 {
                 let _:OKReply=try await request("social-settings",body:["interests":Array(favourites)])
-                ownCard=try await request("player")
+                card=try await request("player")
             }
+            guard revision==progressRevision,service==apiURL else {return}
+            profile=current;avatar=current.avatar;ownCard=card;progressRefreshNeeded=false
+            UserDefaults.standard.set(avatar,forKey:"avatar")
+            name=current.name;UserDefaults.standard.set(name,forKey:"name")
         } catch {onlineError=error.localizedDescription}
     }
     func changeName(to requested:String) async {

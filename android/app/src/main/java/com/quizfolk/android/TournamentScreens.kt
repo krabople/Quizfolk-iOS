@@ -102,7 +102,7 @@ import java.util.UUID
         Panel(Modifier.testTag("tournamentRules")) {
             Heading("How this tournament works")
             Hint("Keep answering in ${topic.name} until your first wrong answer or timeout. Read each question for 3 seconds, then answer within 10 seconds. Correct answers earn 11–20 points for speed; every question has the same value. Your score is the total points in that run.")
-            Hint("One power-up during the entire run: Fifty Fifty removes two wrong choices (5 coins); Double Choice allows a second pick (10); Right Answer selects and submits the correct answer (25). The clock keeps running.")
+            Hint("Each power-up once during the run: Fifty Fifty removes two wrong choices (5 coins); Double Choice allows a second pick (10); Right Answer selects and submits the correct answer (25). The clock keeps running.")
             Hint("Try again for the displayed entry cost. Attempts do not add together; only your best run counts. Every question in a run is different. Clearing the whole topic bank completes your run.")
             Hint("Prizes: ${prizes[0]} coins for first, ${prizes[1]} for second, ${prizes[2]} for third. A sole entrant receives first prize. Tied players share the combined prizes for the places they occupy, rounded down to whole coins. Coins and profile badges are awarded after closure; leading an open tournament is provisional.")
             Hint("Earned points are kept if you end a run early or the event closes. Tournament points are separate from duel XP and topic levels.")

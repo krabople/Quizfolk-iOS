@@ -37,10 +37,15 @@ p=req('power',{'match':m['id'],'turn':0,'type':'fifty'},a)
 assert len(p['power']['hidden'])==2 and n not in p['power']['hidden'] and p['coins']==coins-5
 assert req('power',{'match':m['id'],'turn':0,'type':'fifty'},a)['coins']==coins-5
 assert req('reveal',{'match':m['id']},a)['power']['hidden']==p['power']['hidden']
-req('power',{'match':m['id'],'turn':0,'type':'right'},a,409)
+p=req('power',{'match':m['id'],'turn':0,'type':'double'},a)
+assert set(p['power']['usedTypes'])=={'fifty','double'} and p['coins']==coins-15
+p=req('power',{'match':m['id'],'turn':0,'type':'right'},a)
+assert set(p['power']['usedTypes'])=={'fifty','double','right'} and p['coins']==coins-40
+assert len(p['power']['hidden'])==2 and p['power']['highlight']==n
 req('power',{'match':m['id'],'turn':0,'type':'fifty'},b,404)
 req('answer',{'match':m['id'],'round':0,'answer':n},a)
 reveal(a,m['id']);req('power',{'match':m['id'],'turn':1,'type':'fifty'},a,409)
+for power in ['double','right']:req('power',{'match':m['id'],'turn':1,'type':power},a,409)
 # Double Choice preserves the original timer and hides only the first wrong pick.
 d=req('match',{'topic':'22'},b,201);q=reveal(b,d['id'])['question'];n=right(q)
 req('power',{'match':d['id'],'turn':0,'type':'double'},b)
@@ -114,10 +119,20 @@ r=req('tournament-round',{'run':run['id']},a);assert r['question']['answers']==[
 with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_runs SET preview=? WHERE id=?',(time.time()-4,run['id']))
 q=req('tournament-reveal',{'run':run['id']},a)['question'];n=right(q)
 req('tournament-power',{'run':run['id'],'turn':0,'type':'double'},a)
+before=wallet(a)
+p=req('tournament-power',{'run':run['id'],'turn':0,'type':'fifty'},a)
+assert set(p['power']['usedTypes'])=={'double','fifty'} and wallet(a)==before-5
+# A second type must not erase Double Choice's extra pick.
 r=req('tournament-answer',{'run':run['id'],'turn':0,'answer':(n+1)%4},a)
 assert r['retry'] and r['turn']==0 and r['state']=='playing'
-r=req('tournament-answer',{'run':run['id'],'turn':0,'answer':(n+2)%4},a)
-assert r['state']=='finished' and r['turn']==1 and r['score']==0
+p=req('tournament-power',{'run':run['id'],'turn':0,'type':'right','autoAnswer':True},a)
+assert set(p['power']['usedTypes'])=={'double','fifty','right'} and p['tournamentAnswer']['correct']
+req('tournament-round',{'run':run['id']},a)
+with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_runs SET preview=? WHERE id=?',(time.time()-4,run['id']))
+q=req('tournament-reveal',{'run':run['id']},a)['question']
+for power in ['double','fifty','right']:req('tournament-power',{'run':run['id'],'turn':1,'type':power},a,409)
+r=req('tournament-answer',{'run':run['id'],'turn':1,'answer':(right(q)+1)%4},a)
+assert r['state']=='finished' and r['turn']==2
 # Insufficient balance never creates a use record or a partial debit.
 empty=req('match',{'topic':'17'},c,201);reveal(c,empty['id'])
 with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_wallet SET coins=0 WHERE player_id=?',(cid,))
@@ -159,7 +174,7 @@ assert req('answer',{'match':auto['id'],'round':0,'answer':(n+1)%4},a)==answer
 with sqlite3.connect(STATE) as db:
  stored=json.loads(db.execute('SELECT answers FROM matches WHERE id=?',(auto['id'],)).fetchone()[0])
  assert len(stored)==1 and stored[0]['selected']==n
- assert db.execute('SELECT COUNT(*) FROM tournament_ledger WHERE player_id=? AND reference=?',(aid,'power:match:'+auto['id'])).fetchone()[0]==1
+ assert db.execute('SELECT COUNT(*) FROM tournament_ledger WHERE player_id=? AND reference=?',(aid,'power:match:'+auto['id']+':right')).fetchone()[0]==1
 reveal(a,auto['id']);req('power',dict(body,turn=1),a,409)
 # An expired request cannot buy a power-up or submit an answer.
 late=req('match',{'topic':'22'},a,201);reveal(a,late['id']);before=wallet(a)

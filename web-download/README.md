@@ -9,12 +9,15 @@ counter helper goes in `quizfolk-service/download-tracking/`, outside the web
 root. Packages never contain access keys, counters, player data or site-root
 configuration.
 
-The APK and verification report are expected in the repository's parent `outputs`
-directory. Build artifacts are distributed as release assets rather than added
-to the source tree. For an update, use the new signed APK, update the version,
-date, filename and size on the page, and update the packaging inputs together.
-Build 15 is the current hosted release. Old build-11 through build-14 links route
-to the latest tracked download. Packages use current file timestamps so PHP's
+Pass the signed APK, its workflow verification report and an output directory:
+
+```sh
+python3 web-download/package.py --apk /path/app-release.apk --verification /path/android-verification.json --output /path/release
+```
+
+The package takes its build number, question count and file size from these
+verified inputs. Build artifacts stay outside the source tree. Old APK links
+from build 11 onwards route to the latest tracked download. Packages use current file timestamps so PHP's
 opcode cache notices code updates; preserve private configuration and counters.
 
 ## Click statistics

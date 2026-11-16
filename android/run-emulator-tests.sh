@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -u
 status=0
-test_class="${1:-com.quizfolk.android.QuizfolkScreenTest}"
+test_class="${1:-com.quizfolk.android.QuizfolkScreenTest,com.quizfolk.android.ProgressRecoveryTest}"
 ./gradlew :app:connectedDebugAndroidTest "-Pandroid.testInstrumentationRunnerArguments.class=$test_class" --no-daemon --stacktrace || status=$?
 mkdir -p build/screenshots
 adb pull /sdcard/Pictures/Quizfolk-Screenshots/. build/screenshots/ || true

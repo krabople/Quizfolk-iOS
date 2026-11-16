@@ -5,11 +5,13 @@ out=root/'android/app/build/outputs'
 apk=out/'apk/release/app-release.apk';aab=out/'bundle/release/app-release.aab'
 expected=(root/'data/questions.json').read_bytes()
 with zipfile.ZipFile(apk) as package:
-    bank=package.read('assets/questions.json');topics=json.loads(package.read('assets/categories.json'))
+    bank=package.read('assets/questions.json');topic_bytes=package.read('assets/categories.json');topics=json.loads(topic_bytes)
+    assert topic_bytes==(root/'data/categories.json').read_bytes()
     assert package.read('assets/bots.json')==(root/'data/bots.json').read_bytes()
     assert bank==expected
     questions=json.loads(bank)
-    assert len(questions)==21667 and len(topics)==30 and min(t['questionCount'] for t in topics)>=150
+    assert len(questions)>=21817 and len(topics)==31 and min(t['questionCount'] for t in topics)>=150
+    assert next(t for t in topics if t['id']=='39')['name']=='Plants & flowers'
     assert all(b'emulator-only-token' not in package.read(f) for f in package.namelist() if re.fullmatch(r'classes\d*\.dex',f))
     assert not any(f.endswith(('.p12','.jks','.keystore')) for f in package.namelist())
 with zipfile.ZipFile(aab) as bundle:assert bundle.read('base/assets/questions.json')==expected

@@ -7,10 +7,9 @@ assert len(q)>=20000
 if completion.exists():
  report=json.loads(completion.read_text(encoding='utf-8'))
  assert report['complete'] and report['remaining']==0 and not report['errors']
- assert report['publishedCount']==len(q)
- assert report['publishedSHA256']==hashlib.sha256((p/'questions.json').read_bytes()).hexdigest()
  sys.path.insert(0,str(p.parent/'audit'))
  from individual_review import decisions,read
+ from validate_supplements import reviewed_supplements
  frozen=read(p.parent/'audit/individual-2026-10/input.json')
  reviewed,errors=decisions(frozen)
  assert not errors and len(reviewed)==len(frozen)==report['reviewed']==report['input']
@@ -22,6 +21,14 @@ if completion.exists():
   final['reviewStatus']='individually_reviewed'
   final['auditVersion']='2026-10-individual-v1'
   expected[final['id']]=final
+ # Preserve the completed October audit; later additions have their own frozen
+ # questions, fingerprints and individual editorial decisions.
+ baseline=list(expected.values())
+ assert report['publishedCount']==len(baseline)
+ assert report['publishedSHA256']==hashlib.sha256(json.dumps(baseline,ensure_ascii=False,separators=(',',':')).encode()).hexdigest()
+ for added in reviewed_supplements(p.parent):
+  assert added['id'] not in expected
+  expected[added['id']]=added
  assert {x['id']:x for x in q}==expected
  minimum=150
 else:
@@ -41,6 +48,13 @@ for x in q:
  assert 0<=x['correctIndex']<4 and x['license']=='CC BY-SA 4.0'
  assert x['categoryID'] in {a['id'] for a in c}
 for x in c: assert x['questionCount']==counts[x['id']] and counts[x['id']]>=minimum
+# The server's SQLite copy must be the same reviewed bank as the mobile assets.
+import sqlite3
+with sqlite3.connect(p/'question-bank.sqlite') as db:
+ rows=db.execute('SELECT id,category_id,payload FROM questions').fetchall()
+ assert len(rows)==len(q)
+ assert {qid:json.loads(payload) for qid,category,payload in rows}=={x['id']:x for x in q}
+ assert all(json.loads(payload)['categoryID']==category for qid,category,payload in rows)
 print(f'Validated {len(q):,} questions across {len(c)} categories')
 
 f=next(x for x in q if x['id']=='66b6a0317332fa97167e')

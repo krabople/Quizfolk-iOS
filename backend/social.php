@@ -175,7 +175,7 @@ function social_routes(string $route,PDO $db,string $pid,array $player,array $bo
     }
     if($route==='social-settings') {
         $current=settings($db,$pid);$interests=$body['interests'] ?? json_decode($current['interests'],true);$ids=array_column(play_topics(),'id');
-        if(!is_array($interests) || count($interests)>31 || array_diff($interests,$ids))fail('Choose valid topics');$interests=array_values(array_unique($interests));
+        if(!is_array($interests) || count($interests)>count($ids) || array_diff($interests,$ids))fail('Choose valid topics');$interests=array_values(array_unique($interests));
         $title=(string)($body['titleID'] ?? $current['title_id']);if(!in_array($title,array_column(earned_titles(topic_stats($db,$pid)),'id'),true))fail('That title has not been earned',403);
         $discoverable=$body['discoverable'] ?? (bool)$current['discoverable'];$open=$body['challengesOpen'] ?? (bool)$current['challenges_open'];if(!is_bool($discoverable)||!is_bool($open))fail('Invalid preferences');
         sql($db,'UPDATE social_settings SET interests=?,title_id=?,discoverable=?,challenges_open=? WHERE player_id=?',[json_encode($interests),$title,(int)$discoverable,(int)$open,$pid]);out(['ok'=>true]);

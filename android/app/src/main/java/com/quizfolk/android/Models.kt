@@ -66,9 +66,17 @@ fun freshPacket(bank: List<Question>, history: List<MatchRecord>, topicID: Strin
     val usedIDs = mutableSetOf<String>(); val usedKeys = mutableSetOf<String>()
     return deck.filter { it.key.isNotBlank() && usedIDs.add(it.id) && usedKeys.add(it.key) }.take(7).map { it.shuffled() }
 }
-data class Power(val used: Boolean = false, val type: String? = null, val hidden: Set<Int> = emptySet(), val highlight: Int? = null) {
-    fun next() = Power(used)
-    companion object { fun parse(j: J?) = if (j == null) Power() else Power(j.b("used"), j.s("type").ifEmpty { null }, (0 until j.a("hidden").length()).map { j.a("hidden").getInt(it) }.toSet(), if (j.isNull("highlight")) null else j.n("highlight")) }
+data class Power(val used: Boolean = false, val type: String? = null, val hidden: Set<Int> = emptySet(), val highlight: Int? = null,
+    val usedTypes: Set<String>? = null, val activeTypes: Set<String>? = null, val firstWrong: Int? = null) {
+    fun hasUsed(assist: Assist) = usedTypes?.contains(assist.key) ?: used
+    fun active(assist: Assist) = activeTypes?.contains(assist.key) ?: (type == assist.key)
+    fun next() = Power(used = used, usedTypes = usedTypes)
+    fun apply(assist: Assist, question: Question): Power = copy(used = true, type = assist.key,
+        usedTypes = usedTypes.orEmpty() + assist.key, activeTypes = activeTypes.orEmpty() + assist.key,
+        hidden = hidden + if (assist == Assist.FIFTY) question.answers.indices.filter { it != question.correctIndex }.shuffled().take(2) else emptyList(),
+        highlight = if (assist == Assist.RIGHT) question.correctIndex else highlight)
+    companion object { fun parse(j: J?) = if (j == null) Power() else Power(j.b("used"), j.s("type").ifEmpty { null }, (0 until j.a("hidden").length()).map { j.a("hidden").getInt(it) }.toSet(), if (j.isNull("highlight")) null else j.n("highlight"),
+        if (j.has("usedTypes")) j.a("usedTypes").strings().toSet() else null, if (j.has("activeTypes")) j.a("activeTypes").strings().toSet() else null) }
 }
 enum class Assist(val key: String, val title: String, val price: Int) { FIFTY("fifty", "Fifty Fifty", 5), DOUBLE("double", "Double Choice", 10), RIGHT("right", "Right Answer", 25) }
 

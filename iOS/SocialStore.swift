@@ -41,24 +41,28 @@ extension QuizStore {
   #if DEBUG
   if StoreScreenshotFixture.enabled {challenges=StoreScreenshotFixture.challenges;activity=[];return}
   #endif
+  #if DEBUG
+  if isUITesting && testResponse==nil {challenges=[];activity=[];return}
+  #else
   guard !isUITesting else {challenges=[];activity=[];return}
+  #endif
   if profile==nil {await connect()}
   guard profile != nil else {return}
   do {
    async let inbox:ChallengesReply=request("duels")
    async let feed:ActivityReply=request("activity")
    let (d,f)=try await(inbox,feed);challenges=d.duels;activity=f.events;socialError=nil
-   let newlyCompleted=challenges.contains{c in c.complete && history.contains{$0.duelID==c.id && $0.pending==true}}
    for card in challenges where card.complete {await resolveHistory(card)}
-   if newlyCompleted{await connect()}
+   if progressRefreshNeeded {try await refreshPlayerProgress()}
   } catch {socialError=error.localizedDescription}
  }
  func resolveHistory(_ card:ChallengeCard) async {
-  guard let index=history.firstIndex(where:{$0.duelID==card.id && $0.pending==true}) else {return}
+  guard let old=history.first(where:{$0.duelID==card.id && $0.pending==true}) else {return}
   do {
-   let r=try await openChallenge(card.id);let old=history[index]
-   history[index]=MatchRecord(id:old.id,topicID:old.topicID,date:old.date,score:r.score ?? old.score,opponentScore:r.opponentScore ?? old.opponentScore,opponent:r.opponent,kind:old.kind,rounds:r.played ?? old.rounds,duelID:card.id,pending:false,opponentID:r.opponentID,opponentAvatar:r.opponentAvatar)
-   persistHistory()
+   let r=try await openChallenge(card.id)
+   guard r.pending != true,r.played?.count==7 else {return}
+   save(MatchRecord(id:old.id,topicID:old.topicID,date:old.date,score:r.score ?? old.score,opponentScore:r.opponentScore ?? old.opponentScore,opponent:r.opponent,kind:old.kind,rounds:r.played ?? old.rounds,duelID:card.id,pending:false,opponentID:r.opponentID,opponentAvatar:r.opponentAvatar))
+   progressRefreshNeeded=true
   } catch {socialError=error.localizedDescription}
  }
  static func testCard(following:Bool,own:Bool=false,topicXP:Int=700)->PlayerCard {

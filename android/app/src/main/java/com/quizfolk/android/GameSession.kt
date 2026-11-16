@@ -27,6 +27,7 @@ class GameSession(val store: QuizStore, val topic: Topic, val online: Boolean, p
     private var serverID = ""
     private var xpBeforeMatch = store.topicXP(topic.id)
     private var canAnnounceLevelUp = saved == null || saved.pending
+    private var progressRefreshPending: Boolean? = null
     var levelUp by mutableStateOf<TopicLevelUp?>(null)
         private set
     var question by mutableStateOf<Question?>(null)
@@ -188,11 +189,11 @@ class GameSession(val store: QuizStore, val topic: Topic, val online: Boolean, p
             if (online) {
                 val reply = store.api(if (survival) "tournament-answer" else "answer", if (survival) json("run" to serverID, "turn" to round, "answer" to index) else json("match" to serverID, "round" to round, "answer" to index))
                 if (reply.b("questionChanged")) { pendingIndex = null; loadRound(); return }
-                if (reply.b("retry")) { power = Power.parse(reply.o("power")); selected = null; pendingIndex = null; startClock(reply.d("remaining", remaining)); return }
+                if (reply.b("retry")) { power = Power.parse(reply.o("power")).copy(firstWrong = index); selected = null; pendingIndex = null; startClock(reply.d("remaining", remaining)); return }
                 complete(reply, q, index, pendingElapsed)
             } else {
-                if (power.type == "double" && power.hidden.isEmpty() && index >= 0 && index != q.correctIndex && remaining > 0) {
-                    power = power.copy(hidden = setOf(index)); selected = null; pendingIndex = null; startClock(remaining); return
+                if (power.active(Assist.DOUBLE) && power.firstWrong == null && index >= 0 && index != q.correctIndex && remaining > 0) {
+                    power = power.copy(hidden = power.hidden + index, firstWrong = index); selected = null; pendingIndex = null; startClock(remaining); return
                 }
                 val points = Scoring.points(index == q.correctIndex, pendingElapsed, round)
                 val chance = when (q.difficulty) { "easy" -> .83; "hard" -> .45; else -> .65 }
@@ -215,17 +216,16 @@ class GameSession(val store: QuizStore, val topic: Topic, val online: Boolean, p
     }
     fun usePower(assist: Assist) = scope.launch {
         val q = question ?: return@launch
-        if (busy || reading || revealed || finished || runEnded || power.used || !powerAllowed || remaining <= 0) return@launch
+        if (busy || reading || revealed || finished || runEnded || power.hasUsed(assist) || !powerAllowed || remaining <= 0) return@launch
         busy = true; powerError = null
         try {
             if (online) {
                 val r = store.api(if (survival) "tournament-power" else "power", json((if (survival) "run" else "match") to serverID,
                     "turn" to round, "type" to assist.key, "autoAnswer" to (assist == Assist.RIGHT)))
-                power = Power.parse(r.o("power")); store.coins = r.n("coins"); remaining = r.d("remaining", remaining)
+                power = Power.parse(r.o("power")).copy(firstWrong = power.firstWrong); store.coins = r.n("coins"); remaining = r.d("remaining", remaining)
                 val answer = r.o(if (survival) "tournamentAnswer" else "duelAnswer")
                 if (answer != null) complete(answer, q, answer.n("correctIndex"), r.d("acceptedElapsed", (10 - remaining).coerceAtLeast(0.0))) else startClock(remaining)
-            } else power = Power(true, assist.key,
-                if (assist == Assist.FIFTY) q.answers.indices.filter { it != q.correctIndex }.shuffled().take(2).toSet() else emptySet(), if (assist == Assist.RIGHT) q.correctIndex else null)
+            } else power = power.apply(assist, q)
         } catch (e: Exception) { if (e is CancellationException) throw e; powerError = e.message }
         finally { busy = false }
         if (assist == Assist.RIGHT && !revealed && power.used && power.highlight != null) answer(power.highlight!!)
@@ -236,7 +236,8 @@ class GameSession(val store: QuizStore, val topic: Topic, val online: Boolean, p
         if (survival && runEnded || !survival && rounds.size == 7) {
             finished = true
             if (!survival) saveResult()
-            if (online) store.perform { store.connect(); updateLevelUp(); store.refreshSocial(); store.loadPrizes() }
+            updateLevelUp()
+            if (online && survival) store.perform { store.refreshPlayerProgress(); store.refreshSocial(); store.loadPrizes() }
             return@launch
         }
         busy = true; error = null
@@ -248,9 +249,18 @@ class GameSession(val store: QuizStore, val topic: Topic, val online: Boolean, p
         if (rounds.size != 7) return
         store.save(MatchRecord(if (online) serverID else id, topic.id, System.currentTimeMillis() / 1000, score, opponentScore, opponent,
             if (online) kind else "practice", rounds, duelID, pending, opponentID, opponentAvatar))
+        if (online && progressRefreshPending != pending) {
+            val resultPending = pending
+            progressRefreshPending = resultPending
+            // This belongs to the store: closing the seventh answer must not cancel the XP refresh.
+            store.perform {
+                try { store.refreshPlayerProgress(); updateLevelUp(); store.refreshSocial(); store.loadPrizes() }
+                catch (e: Exception) { if (progressRefreshPending == resultPending) progressRefreshPending = null; throw e }
+            }
+        }
     }
     private fun updateLevelUp() {
-        if (!online || survival || !finished || pending || !canAnnounceLevelUp) return
+        if (survival || !finished || pending || !canAnnounceLevelUp) return
         val after = store.topicXP(topic.id)
         val earned = Scoring.experience(score, opponentScore)
         if (after < xpBeforeMatch || after - xpBeforeMatch < earned) return
@@ -267,7 +277,7 @@ class GameSession(val store: QuizStore, val topic: Topic, val online: Boolean, p
     }
     fun refreshResult() = scope.launch {
         val duel = duelID ?: return@launch; busy = true
-        try { applyStart(store.api("duel-open", json("duel" to duel))); store.connect(); updateLevelUp(); store.refreshSocial() }
+        try { applyStart(store.api("duel-open", json("duel" to duel))); updateLevelUp() }
         catch (e: Exception) { if (e is CancellationException) throw e; error = e.message }
         finally { busy = false }
     }

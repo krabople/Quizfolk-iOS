@@ -194,7 +194,8 @@ class QuizfolkScreenTest {
     }
     @Test fun bundledBankAndSecureCredentialStorage() {
         ready(); compose.runOnIdle {
-            assertEquals(21667,store.bank.size); assertEquals(31,store.topics.size)
+            assertTrue(store.bank.size >= 21817); assertEquals(32,store.topics.size)
+            assertEquals("Plants & flowers",store.topic("39").name)
             store.topics.filter { it.id != "mixed" }.forEach { assertTrue(it.count >= 150); assertEquals(it.count,store.bank.count { q -> q.categoryID == it.id }) }
         }
         val context = compose.activity

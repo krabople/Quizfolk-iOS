@@ -93,7 +93,7 @@ import SwiftUI
   do {
    let r:TournamentRunReply=try await store.request("tournament-answer",body:["run":runID,"turn":turn,"answer":pendingAnswer])
    if r.questionChanged==true {self.pendingAnswer=nil;try await loadRound();return}
-   if r.retry==true {power=r.power ?? power;selected=nil;self.pendingAnswer=nil;startTimer(r.remaining ?? remaining);return}
+   if r.retry==true {power=r.power ?? power;power.firstWrong=pendingAnswer;selected=nil;self.pendingAnswer=nil;startTimer(r.remaining ?? remaining);return}
    completeAnswer(r)
   } catch {self.error=error.localizedDescription}
  }
@@ -102,10 +102,10 @@ import SwiftUI
   if r.correctIndex==nil && runEnded{showResult=true}
  }
  func usePower(_ choice:QuizPower) async {
-  guard !busy,!reading,!revealed,!runEnded,!power.used,let runID else{return}
+  guard !busy,!reading,!revealed,!runEnded,!power.hasUsed(choice),let runID else{return}
   busy=true;powerError=nil
   do {
-   let r:PowerReply=try await store.request("tournament-power",body:["run":runID,"turn":turn,"type":choice.rawValue,"autoAnswer":choice == .right]);power=r.power;store.coinBalance=r.coins
+   let r:PowerReply=try await store.request("tournament-power",body:["run":runID,"turn":turn,"type":choice.rawValue,"autoAnswer":choice == .right]);let firstWrong=power.firstWrong;power=r.power;power.firstWrong=firstWrong;store.coinBalance=r.coins
    if let answer=r.tournamentAnswer {remaining=r.remaining;completeAnswer(answer)}else{startTimer(r.remaining)}
   }catch{powerError=error.localizedDescription}
   busy=false

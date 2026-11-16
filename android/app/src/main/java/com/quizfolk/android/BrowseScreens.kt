@@ -70,14 +70,21 @@ import java.util.UUID
         OutlinedButton({ store.toggle(topic) }, shape = RoundedCornerShape(12.dp)) { Text(if (topic.id in store.favourites) "Following topic" else "Follow topic") }
         Segments(listOf("Play & progress", "League"), section) { section = it }
         if (section == 0) {
-            Panel { TopicLevel(topic, store.topicXP(topic.id)) }
+            Panel { PersonalTopicLevel(store, topic) }
             Heading("A rival is waiting.")
             Hint("We search for a human first, including recorded human runs. A bot is offered after six seconds when nobody is available. Play at your own pace.")
             Action("Find a duel", color = tint(topic.color)) { store.game = GameSession(store, topic, true) }
             OutlinedButton({ store.game = GameSession(store, topic, false) }, Modifier.fillMaxWidth().testTag("practice"), shape = RoundedCornerShape(14.dp)) { Text("Practise against a bot", fontWeight = FontWeight.Bold) }
-            Hint("Read each question for 3 seconds, then answer within 10 seconds. Correct answers earn 11–20 points for speed; the final round counts double. Wrong answers and timeouts score zero. Maximum 160. One power-up per duel: Fifty Fifty (5 coins), Double Choice (10) or Right Answer (25). Practice power-ups are free.")
+            Hint("Practice earns topic XP saved on this device. Choose Find a duel to earn online league XP and public titles.")
+            Hint("Read each question for 3 seconds, then answer within 10 seconds. Correct answers earn 11–20 points for speed; the final round counts double. Wrong answers and timeouts score zero. Maximum 160. Each power-up once per duel: Fifty Fifty (5 coins), Double Choice (10) and Right Answer (25). Practice power-ups are free.")
         } else LeaguePanel(store, topic)
     }
+}
+
+@Composable fun PersonalTopicLevel(store: QuizStore, topic: Topic) {
+    TopicLevel(topic, store.topicXP(topic.id))
+    val practice = store.practiceXP(topic.id)
+    if (practice > 0) Hint("${store.onlineTopicXP(topic.id)} online XP + $practice practice XP saved on this device")
 }
 
 @Composable fun LeaguePanel(store: QuizStore, topic: Topic) {

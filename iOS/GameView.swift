@@ -212,7 +212,7 @@ private struct DuelScreen:View {
  private func answer(_ q:Question,index:Int,spacious:Bool=false)->some View {
   let correct=game.revealed && index==q.correctIndex
   let wrong=game.revealed && game.selected==index && !correct
-  return QuizAnswerTile(text:q.answers[index],right:correct,wrong:wrong || (game.power.type=="double" && game.power.hidden.contains(index)),hidden:game.power.hidden.contains(index),highlighted:game.power.highlight==index,spacious:spacious){Task{await game.answer(index)}}
+  return QuizAnswerTile(text:q.answers[index],right:correct,wrong:wrong || (game.power.firstWrong==index),hidden:game.power.hidden.contains(index),highlighted:game.power.highlight==index,spacious:spacious){Task{await game.answer(index)}}
    .disabled(game.reading || game.revealed || game.busy || game.error != nil).accessibilityIdentifier("answer-\(index)")
  }
  private var result:some View {
@@ -225,7 +225,7 @@ private struct DuelScreen:View {
     Text(tied ? "IT’S A DRAW":(won ? "YOU WIN!":"\(game.opponent.uppercased()) WINS!")).font(.system(size:31,weight:.black,design:.rounded)).multilineTextAlignment(.center).accessibilityIdentifier("winnerAnnouncement")
     if let levelUp=game.levelUp {TopicLevelCelebration(topic:game.topic,advancement:levelUp)}
     HStack(alignment:.top,spacing:14){podium(store.name,avatar:store.avatar,score:game.score,winner:won,bot:false,playerID:store.profile?.id);Text("–").font(.system(size:36,weight:.bold)).padding(.top,60);podium(game.opponent,avatar:game.opponentAvatar,score:game.opponentScore,winner:!won && !tied,bot:!game.isHuman,playerID:game.opponentID)}
-    VStack(spacing:8){Text("+\(Scoring.experience(score:game.score,opponentScore:game.opponentScore)) TOPIC XP").font(.system(size:25,weight:.black,design:.rounded));Text("\(game.score) score + 40 finish + \(bonus) \(tied ? "draw":"win") bonus").font(.caption);Text(game.online ? "Added to your \(game.topic.name) league":"Offline practice · local XP only").font(.caption).opacity(0.7)}.padding(16).frame(maxWidth:.infinity).background(.white.opacity(0.1),in:RoundedRectangle(cornerRadius:18))
+    VStack(spacing:8){Text("+\(Scoring.experience(score:game.score,opponentScore:game.opponentScore)) TOPIC XP").font(.system(size:25,weight:.black,design:.rounded));Text("\(game.score) score + 40 finish + \(bonus) \(tied ? "draw":"win") bonus").font(.caption);Text(game.online ? "Added to your \(game.topic.name) league":"Added to your \(game.topic.name) level on this device").font(.caption).opacity(0.7)}.padding(16).frame(maxWidth:.infinity).background(.white.opacity(0.1),in:RoundedRectangle(cornerRadius:18))
     rivalActions
     Button("Back to topics"){dismiss()}.buttonStyle(PrimaryButton(color:.coral))
     Text("\(game.rounds.filter{$0.points>0}.count) OF 7 CORRECT · DUEL REVIEW").font(.system(size:11,weight:.heavy)).tracking(1).padding(.top,10)
