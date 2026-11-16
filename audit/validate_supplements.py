@@ -27,7 +27,7 @@ def reviewed_supplements(root):
 
 def reviewed_batch(directory):
     report = json.loads((directory / "completion.json").read_text(encoding="utf-8"))
-    raw = (directory / "questions.json").read_bytes()
+    raw = (directory / "questions.json").read_bytes().replace(b"\r\n", b"\n")
     questions = json.loads(raw)
     review = [json.loads(line) for line in (directory / "decisions.jsonl").read_text(encoding="utf-8").splitlines() if line.strip()]
     assert report["complete"] and report["remaining"] == 0 and not report["errors"]
