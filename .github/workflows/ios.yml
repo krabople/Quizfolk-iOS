@@ -2,7 +2,7 @@ name: iOS build and tests
 on:
   push:
     branches: [main]
-    paths: ['iOS/**', 'Tests/**', 'UITests/**', 'data/**', 'project.yml', '.github/workflows/ios.yml', 'scripts/validate_bank.py']
+    paths: ['iOS/**', 'Tests/**', 'UITests/**', 'data/**', 'audit/**', 'project.yml', '.github/workflows/ios.yml', 'scripts/validate_bank.py']
   pull_request:
   workflow_dispatch:
   workflow_call:
