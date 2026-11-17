@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "3356a055f5a63b453d83",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "In the fraction 3/5, what is the top number called?",
+    "answers": [
+      "Numerator",
+      "Denominator",
+      "Quotient",
+      "Remainder"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "505a1f5922a02cd41b5e",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "In a fraction describing equal parts of a whole, what does the denominator tell you?",
+    "answers": [
+      "How many of those parts are selected",
+      "How many whole items are always present",
+      "How many separate numbers have been added",
+      "How many equal parts make up the whole"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "9c8a9e740883f85fdab9",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Which of these is a proper fraction?",
+    "answers": [
+      "7/7",
+      "9/4",
+      "3/5",
+      "5/3"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "7b46e011ceafe044cc99",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Which fraction has the same value as 1/2?",
+    "answers": [
+      "3/4",
+      "2/4",
+      "1/4",
+      "2/3"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "b793f0d7e65deb4e410d",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Which of these is a unit fraction?",
+    "answers": [
+      "1/7",
+      "2/7",
+      "3/7",
+      "7/7"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "cb775c1d49d7d9debc80",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What separates the whole-number part from the fractional part in decimal notation such as 12.5?",
+    "answers": [
+      "A multiplication sign",
+      "A colon",
+      "An equals sign",
+      "The decimal point"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/5-1-decimals",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "2f377445f325cd2a77fe",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What does the digit 4 represent in the decimal 0.4?",
+    "answers": [
+      "Four whole units",
+      "Four thousandths",
+      "Four tenths",
+      "Four hundredths"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/5-1-decimals",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "3eca2b9d5ff0260e3967",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Which of these decimal numbers is largest?",
+    "answers": [
+      "0.008",
+      "0.8",
+      "0.08",
+      "0.18"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/5-1-decimals",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "b6d4f77c52a378a29362",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What does percent mean?",
+    "answers": [
+      "Per hundred",
+      "Per ten",
+      "Per thousand",
+      "Per million"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/6-1-understand-percent",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "4b2745982ee4514cb2ba",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Which fraction of a whole is 25%?",
+    "answers": [
+      "One third",
+      "One fifth",
+      "Three quarters",
+      "One quarter"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/6-1-understand-percent",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "bcb4a2e6d7830970819b",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "A progress bar is 100% complete. What fraction of the task is finished?",
+    "answers": [
+      "One quarter",
+      "One tenth",
+      "The whole task",
+      "One half"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/6-1-understand-percent",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "e452fd3ead7a8df829f4",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "When a positive fraction is in simplest form, what is true of its numerator and denominator?",
+    "answers": [
+      "The denominator must always be 10",
+      "They have no common factor greater than 1",
+      "They must be equal",
+      "They must both be even"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "18e5ff233ccd3335b500",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Which of these is an improper fraction?",
+    "answers": [
+      "5/3",
+      "2/5",
+      "1/4",
+      "3/7"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "f08be564d2ab6f65b347",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Which of these is written as a mixed number?",
+    "answers": [
+      "2/3",
+      "0.23",
+      "23",
+      "2 and 1/3"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "99b2225348feb5bce323",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Which fraction equals the decimal 0.75?",
+    "answers": [
+      "2/3",
+      "4/5",
+      "3/4",
+      "1/4"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/5-1-decimals",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "0bb0b92fcc74a56ac9c4",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Which of these numbers is closest to zero?",
+    "answers": [
+      "−20",
+      "−2",
+      "−7",
+      "−12"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/3-1-introduction-to-integers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "26f46a6dbd123da78def",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Which of these whole numbers is odd?",
+    "answers": [
+      "17",
+      "12",
+      "20",
+      "24"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/1-1-introduction-to-whole-numbers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "33771309963729ec6504",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What makes an integer even?",
+    "answers": [
+      "It must end in 5",
+      "It must be greater than 100",
+      "It must have two digits",
+      "It is divisible by 2 without a remainder"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/1-1-introduction-to-whole-numbers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "91ade53216750c8316d3",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is the value of the digit 5 in the number 5,274?",
+    "answers": [
+      "50",
+      "5",
+      "5,000",
+      "500"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/1-1-introduction-to-whole-numbers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "7cb5afa0b2206a0990ff",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What does squaring a number mean?",
+    "answers": [
+      "Dividing it by itself",
+      "Multiplying it by itself",
+      "Multiplying it by 2",
+      "Adding 2 to it"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/2-1-use-the-language-of-algebra",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "f57948d860bbe3715705",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What does 4 cubed mean?",
+    "answers": [
+      "4 × 4 × 4",
+      "4 × 3",
+      "4 + 3",
+      "4 ÷ 3"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/2-1-use-the-language-of-algebra",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "fd42d9063636d9321eec",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "For nonnegative numbers, which operation reverses squaring?",
+    "answers": [
+      "Doubling",
+      "Adding ten",
+      "Taking half",
+      "Taking the principal square root"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/2-1-use-the-language-of-algebra",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "92e86e9bac54a8f34d14",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "In ordinary real-number arithmetic, what is 8 divided by 0?",
+    "answers": [
+      "8",
+      "1",
+      "Undefined",
+      "0"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/1-4-divide-whole-numbers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "226e2f7d39749f794433",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "In the division 20 ÷ 4 = 5, which number is the dividend?",
+    "answers": [
+      "0",
+      "20",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/1-4-divide-whole-numbers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "f97f7c871cb8c733e1e6",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is the result of a division called?",
+    "answers": [
+      "Quotient",
+      "Product",
+      "Sum",
+      "Difference"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/1-4-divide-whole-numbers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "2e7e14aa0939a7a76037",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is an equilateral triangle?",
+    "answers": [
+      "A triangle with all three sides unequal",
+      "Any triangle containing a right angle",
+      "Any triangle with a curved side",
+      "A triangle with all three sides equal"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/9-3-use-properties-of-angles-triangles-and-the-pythagorean-theorem",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "d2106b00ce6e69f0e6cc",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "In an isosceles triangle, at least how many sides are equal in length?",
+    "answers": [
+      "1",
+      "3",
+      "2",
+      "0"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/9-3-use-properties-of-angles-triangles-and-the-pythagorean-theorem",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "55d1895dd4093a8cdb5f",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "How many degrees are in a right angle?",
+    "answers": [
+      "270°",
+      "90°",
+      "45°",
+      "180°"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/9-3-use-properties-of-angles-triangles-and-the-pythagorean-theorem",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "2c123dbddab1de4b717f",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Which of these is an acute angle?",
+    "answers": [
+      "40°",
+      "90°",
+      "120°",
+      "180°"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/9-3-use-properties-of-angles-triangles-and-the-pythagorean-theorem",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "759113fb9c8edcf4a63f",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Which of these is an obtuse angle?",
+    "answers": [
+      "30°",
+      "90°",
+      "200°",
+      "120°"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/9-3-use-properties-of-angles-triangles-and-the-pythagorean-theorem",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "c4641d8c46a32360e4cf",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "How many degrees are in a straight angle?",
+    "answers": [
+      "270°",
+      "360°",
+      "180°",
+      "90°"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/9-3-use-properties-of-angles-triangles-and-the-pythagorean-theorem",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "be92aaa061098b4f9c44",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Which of these is a reflex angle?",
+    "answers": [
+      "150°",
+      "240°",
+      "60°",
+      "90°"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/9-3-use-properties-of-angles-triangles-and-the-pythagorean-theorem",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "16b051c25f15ea21501e",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "In ordinary Euclidean geometry, what is the sum of the three interior angles of a triangle?",
+    "answers": [
+      "180°",
+      "90°",
+      "270°",
+      "360°"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/9-3-use-properties-of-angles-triangles-and-the-pythagorean-theorem",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "91eb665118e2e049ab6f",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is true of distinct parallel straight lines in a flat plane?",
+    "answers": [
+      "They meet at a right angle",
+      "They always form a circle",
+      "They cross exactly twice",
+      "They never meet"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/9-3-use-properties-of-angles-triangles-and-the-pythagorean-theorem",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "dca7b6b706acc5d3ab80",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "At what angle do perpendicular straight lines meet?",
+    "answers": [
+      "60°",
+      "180°",
+      "90°",
+      "30°"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/9-3-use-properties-of-angles-triangles-and-the-pythagorean-theorem",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "6f82a2b743adee375120",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is a radius of a circle?",
+    "answers": [
+      "The area enclosed by the circle",
+      "A line segment from its centre to its circumference",
+      "A segment joining any two boundary points",
+      "The full distance around the circle"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/9-5-solve-geometry-applications-circles-and-irregular-figures",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "21c6117b4f497c020409",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "A circle has radius r. How long is its diameter?",
+    "answers": [
+      "2r",
+      "r/2",
+      "r",
+      "3r"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/9-5-solve-geometry-applications-circles-and-irregular-figures",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "d7164198b8d121f2845e",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is the distance all the way around a circle called?",
+    "answers": [
+      "Radius",
+      "Diameter",
+      "Area",
+      "Circumference"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/9-5-solve-geometry-applications-circles-and-irregular-figures",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "a7a466df51e72b3eb776",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is a chord of a circle?",
+    "answers": [
+      "The whole region inside the circle",
+      "The area of half the circle",
+      "A straight segment joining two points on the circle",
+      "Only the distance from the centre to the edge"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/9-5-solve-geometry-applications-circles-and-irregular-figures",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "67c6a6d28662d68d826b",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "How many lines of reflection symmetry does a square have?",
+    "answers": [
+      "8",
+      "4",
+      "2",
+      "3"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/9-3-use-properties-of-angles-triangles-and-the-pythagorean-theorem",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "bb172dd6c135d9d50344",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "How many faces does a cube have?",
+    "answers": [
+      "6",
+      "4",
+      "8",
+      "12"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/9-6-solve-geometry-applications-volume-and-surface-area",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "88e13e58457e52d6feac",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "How many vertices, or corners, does a rectangular cuboid have?",
+    "answers": [
+      "6",
+      "10",
+      "12",
+      "8"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/9-6-solve-geometry-applications-volume-and-surface-area",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "6d6d57bd3a16071d9b9c",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Which solid has two parallel circular ends and a curved side?",
+    "answers": [
+      "Sphere",
+      "Cube",
+      "Cylinder",
+      "Cone"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/9-6-solve-geometry-applications-volume-and-surface-area",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "d2730cc7c50bc0558e00",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Which solid has a circular base and narrows to a single point?",
+    "answers": [
+      "Sphere",
+      "Cone",
+      "Cylinder",
+      "Cube"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/9-6-solve-geometry-applications-volume-and-surface-area",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "77392f885d5b4c32b036",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "The surface of an ideal ball has which geometric shape?",
+    "answers": [
+      "Sphere",
+      "Cube",
+      "Cone",
+      "Cylinder"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/9-6-solve-geometry-applications-volume-and-surface-area",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "76ca97b44240a0302d15",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Which description defines a polygon?",
+    "answers": [
+      "An open curved line",
+      "A three-dimensional ball",
+      "Any circle drawn with a compass",
+      "A closed flat shape bounded by straight line segments"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/9-3-use-properties-of-angles-triangles-and-the-pythagorean-theorem",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "6408ff72ceeeeb1197d9",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "How many sides does a pentagon have?",
+    "answers": [
+      "6",
+      "7",
+      "5",
+      "4"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/9-3-use-properties-of-angles-triangles-and-the-pythagorean-theorem",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "63f3b781e5b7c3db72ab",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "How many sides does an octagon have?",
+    "answers": [
+      "9",
+      "8",
+      "6",
+      "7"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/9-3-use-properties-of-angles-triangles-and-the-pythagorean-theorem",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "8ee679aa962669b07cb1",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is a tessellation of a flat surface?",
+    "answers": [
+      "A covering by shapes with no gaps or overlaps",
+      "Any set of shapes separated by large gaps",
+      "Only one circle drawn in the centre",
+      "A pile of cubes stacked vertically"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/9-3-use-properties-of-angles-triangles-and-the-pythagorean-theorem",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "89767d8758e58f7f8b41",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What does the perimeter of a flat shape measure?",
+    "answers": [
+      "The amount of space inside it",
+      "The length of its longest diagonal",
+      "Its volume in cubic units",
+      "The total length around its boundary"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/9-3-use-properties-of-angles-triangles-and-the-pythagorean-theorem",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "73c88e30f4109f875496",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is the result of adding numbers called?",
+    "answers": [
+      "Quotient",
+      "Remainder",
+      "Sum",
+      "Product"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/2-1-use-the-language-of-algebra",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "03566304e78c6b597038",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is the result of subtracting one number from another called?",
+    "answers": [
+      "Factor",
+      "Difference",
+      "Product",
+      "Quotient"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/2-1-use-the-language-of-algebra",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "658322e54eb42580ee53",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is the result of multiplying numbers called?",
+    "answers": [
+      "Product",
+      "Sum",
+      "Difference",
+      "Remainder"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/2-1-use-the-language-of-algebra",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "39e4c6d524275af53574",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is the remainder in a whole-number division?",
+    "answers": [
+      "The number being divided",
+      "The number used to divide",
+      "The result of multiplying the two starting numbers",
+      "The amount left after making as many equal groups as possible"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/1-4-divide-whole-numbers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "7de8b3c4668c43b33605",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What does the equals sign in a mathematical statement mean?",
+    "answers": [
+      "The right side must be zero",
+      "The calculation must use multiplication",
+      "Both sides have the same value",
+      "The left side is always larger"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/2-1-use-the-language-of-algebra",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "3bca8f634c395263a4de",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Which mathematical symbol means greater than?",
+    "answers": [
+      "+",
+      ">",
+      "<",
+      "="
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/2-1-use-the-language-of-algebra",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "4eefde28fae4c961a8bc",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Which mathematical symbol means less than?",
+    "answers": [
+      "<",
+      ">",
+      "=",
+      "×"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/2-1-use-the-language-of-algebra",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "3b23448c471a5e236c3e",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What does the symbol ≠ mean?",
+    "answers": [
+      "Approximately equal to",
+      "Greater than or equal to",
+      "Multiplied by",
+      "Not equal to"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/2-1-use-the-language-of-algebra",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "24cefad8db93e63655c6",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What does the symbol ≈ usually mean?",
+    "answers": [
+      "Divided by",
+      "Less than zero",
+      "Approximately equal to",
+      "Exactly equal to in every decimal place"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/2-1-use-the-language-of-algebra",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "6920acc0ce4be21fab6f",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "In an expression such as 2 × (3 + 4), what do the brackets group together?",
+    "answers": [
+      "Nothing; brackets have no effect",
+      "The addition 3 + 4",
+      "Only the number 2",
+      "Only the multiplication symbol"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/2-1-use-the-language-of-algebra",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "12984d0e7b8c96436b98",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Which operation is represented by the symbol ×?",
+    "answers": [
+      "Multiplication",
+      "Addition",
+      "Subtraction",
+      "Division"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/2-1-use-the-language-of-algebra",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "4f40c5ff50a969ff8d22",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Which operation is represented by the symbol ÷?",
+    "answers": [
+      "Addition",
+      "Subtraction",
+      "Multiplication",
+      "Division"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/2-1-use-the-language-of-algebra",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "e95604cee303d088e6dd",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "On a conventional horizontal number line, numbers become larger in which direction?",
+    "answers": [
+      "Only towards zero",
+      "In neither direction",
+      "To the right",
+      "To the left"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/3-1-introduction-to-integers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "b317f6cf171942606173",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Is zero a positive number, a negative number, or neither?",
+    "answers": [
+      "Both positive and negative",
+      "Neither",
+      "Positive only",
+      "Negative only"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/3-1-introduction-to-integers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "f092de780207db12cb47",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Which of these numbers is an integer?",
+    "answers": [
+      "−3",
+      "1/2",
+      "0.7",
+      "2.5"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/3-1-introduction-to-integers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "50430db3f91424ec48cc",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "In ordinary decimal notation, what is a digit?",
+    "answers": [
+      "Any number with exactly two figures",
+      "Only a fraction",
+      "Only a negative number",
+      "One of the symbols 0 to 9"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/1-1-introduction-to-whole-numbers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "e5438e45969ee62a28c1",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "How many different digits are used in ordinary decimal notation?",
+    "answers": [
+      "8",
+      "12",
+      "10",
+      "2"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/1-1-introduction-to-whole-numbers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "d99fc1eed6aee5e2797d",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is 64 rounded to the nearest ten?",
+    "answers": [
+      "70",
+      "60",
+      "50",
+      "65"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/1-1-introduction-to-whole-numbers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "44689b534eb960f3b4cf",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Which is the closest estimate to 41 + 58?",
+    "answers": [
+      "100",
+      "50",
+      "10",
+      "500"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/2-1-use-the-language-of-algebra",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "651c77390d369ee683dc",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What does arranging numbers in ascending order mean?",
+    "answers": [
+      "From largest to smallest",
+      "Putting all odd numbers first regardless of size",
+      "Putting zero last in every list",
+      "From smallest to largest"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/1-1-introduction-to-whole-numbers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "3b61233594445192760a",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What does arranging numbers in descending order mean?",
+    "answers": [
+      "Putting all even numbers first regardless of size",
+      "Putting negative numbers last in every list",
+      "From largest to smallest",
+      "From smallest to largest"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/1-1-introduction-to-whole-numbers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "2715e03508b1840a5287",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Which of these is a multiple of 6?",
+    "answers": [
+      "20",
+      "18",
+      "14",
+      "16"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/2-4-find-multiples-and-factors",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "d74145cbbff1f2c815e0",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Which of these is a factor of 20?",
+    "answers": [
+      "5",
+      "3",
+      "6",
+      "8"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/2-4-find-multiples-and-factors",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "a35c998688ddf44766ba",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "How many positive factors does a prime number have?",
+    "answers": [
+      "Exactly 1",
+      "Exactly 3",
+      "None",
+      "Exactly 2"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/2-4-find-multiples-and-factors",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "c4b0e05c4d94f649c7e5",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is a composite positive integer?",
+    "answers": [
+      "An integer with exactly two positive factors",
+      "Only a number written with two digits",
+      "An integer greater than 1 with more than two positive factors",
+      "Any number below zero"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/2-4-find-multiples-and-factors",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "fbecaf82ba8264a17e58",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "On a standard Cartesian coordinate graph, which way does the x-axis run?",
+    "answers": [
+      "In a circle",
+      "Horizontally",
+      "Vertically",
+      "Always diagonally upwards"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/11-1-use-the-rectangular-coordinate-system",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "5b1fa981d16eedec66ad",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "On a standard Cartesian coordinate graph, which way does the y-axis run?",
+    "answers": [
+      "Vertically",
+      "Horizontally",
+      "Always diagonally downwards",
+      "In a circle"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/11-1-use-the-rectangular-coordinate-system",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "1b4891e203928338d239",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What are the coordinates of the origin on a standard Cartesian graph?",
+    "answers": [
+      "(1, 1)",
+      "(0, 1)",
+      "(1, 0)",
+      "(0, 0)"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/11-1-use-the-rectangular-coordinate-system",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "cc77a0f4b3ac3497f7ea",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "From the origin, how do you locate the point (3, 2) on a standard Cartesian graph?",
+    "answers": [
+      "Move 3 units left and 2 units down",
+      "Move 3 units up and 2 units left",
+      "Move 3 units right and 2 units up",
+      "Move 2 units right and 3 units up"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/11-1-use-the-rectangular-coordinate-system",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "84b47e4a1cbe6b8f1789",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "In the usual tally-mark system, a diagonal stroke across four upright strokes makes a group of how many?",
+    "answers": [
+      "10",
+      "5",
+      "4",
+      "6"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/tally",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "706fee1102649bd13b9e",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "A fair coin has one head side and one tail side. What is the probability of heads on one toss?",
+    "answers": [
+      "1/2",
+      "1/4",
+      "1/3",
+      "1"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/introductory-statistics-2e/pages/3-1-terminology",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "346fa91a3d163c57f090",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What probability is assigned to an impossible event?",
+    "answers": [
+      "1/2",
+      "1",
+      "2",
+      "0"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/introductory-statistics-2e/pages/3-1-terminology",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "195bfde8b98b7b100637",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What probability is assigned to an event that is certain to happen?",
+    "answers": [
+      "1/4",
+      "1/2",
+      "1",
+      "0"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/introductory-statistics-2e/pages/3-1-terminology",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "89b9471a0c09ac6c758c",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "A probability written as a decimal must lie in which interval?",
+    "answers": [
+      "From 10 to 100 only",
+      "From 0 to 1 inclusive",
+      "From −1 to 0 only",
+      "From 1 to 10 only"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/introductory-statistics-2e/pages/3-1-terminology",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "6fdd679008e88b9ce773",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "A bag contains 3 red counters and 1 blue counter. Each counter is equally likely to be chosen. Which colour is more likely?",
+    "answers": [
+      "Red",
+      "Blue",
+      "Both colours are equally likely",
+      "Neither colour can be chosen"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/introductory-statistics-2e/pages/3-1-terminology",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "64a347429db8d8bf6f62",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What is the smallest number in the list 8, 7, 10, 5?",
+    "answers": [
+      "7",
+      "8",
+      "10",
+      "5"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/1-1-introduction-to-whole-numbers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "860d1ce55643dd408a46",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "A shop bill is £1.95 plus £2.10. Which is the closest whole-pound estimate of the total?",
+    "answers": [
+      "£3",
+      "£6",
+      "£4",
+      "£2"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/9-2-solve-money-applications",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "04bef46a4be4ef92522d",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "A film starts at 10:20. What time is it 30 minutes later?",
+    "answers": [
+      "11:50",
+      "10:50",
+      "10:30",
+      "11:20"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/7-5-systems-of-measurement",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "60a0f63fc20fe93206dc",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "How much time passes from 14:00 to 15:15 on the same day?",
+    "answers": [
+      "1 hour 15 minutes",
+      "45 minutes",
+      "1 hour 45 minutes",
+      "2 hours 15 minutes"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/7-5-systems-of-measurement",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "55728bbe2165ce375378",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "How many millilitres make 1 litre?",
+    "answers": [
+      "10",
+      "100",
+      "10,000",
+      "1,000"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/7-5-systems-of-measurement",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "692fe897fa98c2069ec2",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "How many centimetres make 1 metre?",
+    "answers": [
+      "1,000",
+      "10,000",
+      "100",
+      "10"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/7-5-systems-of-measurement",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "cdb12b245c3eb983ad54",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "How many grams make 1 kilogram?",
+    "answers": [
+      "10,000",
+      "1,000",
+      "10",
+      "100"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/7-5-systems-of-measurement",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "26674636945c8fdae770",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Which units would normally describe the area of a floor?",
+    "answers": [
+      "Square metres",
+      "Metres per second",
+      "Kilograms",
+      "Cubic metres"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/9-3-use-properties-of-angles-triangles-and-the-pythagorean-theorem",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "82aaccbd7c8f5c38dc20",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Which units would normally describe the volume of a room?",
+    "answers": [
+      "Square metres",
+      "Metres per second",
+      "Degrees",
+      "Cubic metres"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/9-6-solve-geometry-applications-volume-and-surface-area",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "c5b9706a050d44d534aa",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Which instrument is commonly used to measure an angle drawn on paper?",
+    "answers": [
+      "Weighing scale",
+      "Stopwatch",
+      "Protractor",
+      "Pair of compasses"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/9-3-use-properties-of-angles-triangles-and-the-pythagorean-theorem",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "4979be062f2139309de9",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "What does a pair of drawing compasses keep fixed while drawing a circle?",
+    "answers": [
+      "The angle between every pair of separate lines",
+      "The distance from its centre to its boundary",
+      "The length of every other line on the page",
+      "The thickness of the drawing paper"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/9-5-solve-geometry-applications-circles-and-irregular-figures",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "21184cd6d978040a809c",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "On a map, 1 centimetre represents 1 kilometre. What distance does 3 centimetres represent?",
+    "answers": [
+      "3 kilometres",
+      "300 kilometres",
+      "30 kilometres",
+      "One third of a kilometre"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/6-5-solve-proportions-and-their-applications",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "701423fee3b2a004146e",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "You pay £5 for an item costing £3.40. How much change should you receive?",
+    "answers": [
+      "£1.40",
+      "£2.60",
+      "£2.40",
+      "£1.60"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/9-2-solve-money-applications",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "0a3d6f71472dc16e69e3",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "You answer 8 out of 10 questions correctly. What percentage is that?",
+    "answers": [
+      "18%",
+      "20%",
+      "80%",
+      "8%"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/6-1-understand-percent",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  },
+  {
+    "id": "d40e9b14f9c1e129ea7e",
+    "categoryID": "19",
+    "difficulty": "easy",
+    "prompt": "Red and blue counters are in the ratio 2:1. There are 9 counters altogether. How many are blue?",
+    "answers": [
+      "9",
+      "3",
+      "2",
+      "6"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/prealgebra-2e/pages/6-5-solve-proportions-and-their-applications",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-19-v1"
+  }
+]

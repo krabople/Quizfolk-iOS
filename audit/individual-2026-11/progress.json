@@ -1,8 +1,8 @@
 {
   "updated": "2026-11-17",
   "targetNewEasy": 3100,
-  "reviewedAndValidated": 1000,
-  "localBankCount": 22917,
+  "reviewedAndValidated": 1100,
+  "localBankCount": 23017,
   "liveBankCount": 21817,
   "topics": [
     {
@@ -89,8 +89,8 @@
       "topicID": "19",
       "name": "Mathematics",
       "targetNewEasy": 100,
-      "authored": 0,
-      "reviewedAndValidated": 0,
+      "authored": 100,
+      "reviewedAndValidated": 100,
       "deployedNewEasy": 0
     },
     {

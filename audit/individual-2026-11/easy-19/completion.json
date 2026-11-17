@@ -1,0 +1,32 @@
+{
+  "auditVersion": "2026-11-easy-19-v1",
+  "date": "2026-11-17",
+  "input": 100,
+  "reviewed": 100,
+  "remaining": 0,
+  "errors": [],
+  "complete": true,
+  "publishedCount": 100,
+  "publishedSHA256": "932d16cac44689812e13c0652cd30b2188777adcdb2fefe3bf66d0cec0658043",
+  "method": "Individual editorial checks of prompts, all four options, answer uniqueness, grammar, category and source relevance; recorded edits applied and final drafts fingerprint-matched.",
+  "independentReview": false,
+  "sources": [
+    "https://dictionary.cambridge.org/dictionary/english/tally",
+    "https://openstax.org/books/introductory-statistics-2e/pages/3-1-terminology",
+    "https://openstax.org/books/prealgebra-2e/pages/1-1-introduction-to-whole-numbers",
+    "https://openstax.org/books/prealgebra-2e/pages/1-4-divide-whole-numbers",
+    "https://openstax.org/books/prealgebra-2e/pages/11-1-use-the-rectangular-coordinate-system",
+    "https://openstax.org/books/prealgebra-2e/pages/2-1-use-the-language-of-algebra",
+    "https://openstax.org/books/prealgebra-2e/pages/2-4-find-multiples-and-factors",
+    "https://openstax.org/books/prealgebra-2e/pages/3-1-introduction-to-integers",
+    "https://openstax.org/books/prealgebra-2e/pages/4-1-visualize-fractions",
+    "https://openstax.org/books/prealgebra-2e/pages/5-1-decimals",
+    "https://openstax.org/books/prealgebra-2e/pages/6-1-understand-percent",
+    "https://openstax.org/books/prealgebra-2e/pages/6-5-solve-proportions-and-their-applications",
+    "https://openstax.org/books/prealgebra-2e/pages/7-5-systems-of-measurement",
+    "https://openstax.org/books/prealgebra-2e/pages/9-2-solve-money-applications",
+    "https://openstax.org/books/prealgebra-2e/pages/9-3-use-properties-of-angles-triangles-and-the-pythagorean-theorem",
+    "https://openstax.org/books/prealgebra-2e/pages/9-5-solve-geometry-applications-circles-and-irregular-figures",
+    "https://openstax.org/books/prealgebra-2e/pages/9-6-solve-geometry-applications-volume-and-surface-area"
+  ]
+}
