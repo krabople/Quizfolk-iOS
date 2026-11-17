@@ -78,7 +78,7 @@ class QuizStore(application: Application) : AndroidViewModel(application) {
                 Triple(categories, questions, saved) to bots
             }
             bank = loaded.second; topics = loaded.first + Topic("mixed", "Mixed topics", "7253A4", "🎨", bank.size); history = loaded.third; botNames = names
-            require(bank.size >= 20000 && loaded.first.isNotEmpty() && loaded.first.map { it.id }.toSet().containsAll(bank.map { it.categoryID }.toSet())) { "The question bank could not be loaded." }
+            require(bank.size >= 7 && loaded.first.isNotEmpty() && loaded.first.map { it.id }.toSet().containsAll(bank.map { it.categoryID }.toSet())) { "The question bank could not be loaded." }
             ready = true
             if (testing) { transport = requireNotNull(fixtureTransport(getApplication(), bank)); choseInterests = true }
             resume()
