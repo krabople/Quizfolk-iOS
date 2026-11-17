@@ -1,0 +1,1602 @@
+[
+  {
+    "draftID": "easy-25-001",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is a portrait mainly intended to represent?",
+    "answers": [
+      "A person",
+      "Only a mountain range",
+      "Only an arrangement of fruit",
+      "Only a geometric pattern"
+    ],
+    "correctIndex": 0,
+    "rationale": "A portrait depicts a person, whether real or imagined, not necessarily a photographic likeness.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/p/portrait",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-002",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is a self-portrait?",
+    "answers": [
+      "An artist's depiction of themselves",
+      "An artist's portrait of somebody else",
+      "A painting showing no figures",
+      "A catalogue listing several artists"
+    ],
+    "correctIndex": 0,
+    "rationale": "A self-portrait represents its own maker and need not be a photograph.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/s/self-portrait",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-003",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "Which painting genre focuses on scenery such as fields, hills and trees?",
+    "answers": [
+      "Landscape",
+      "Portraiture",
+      "Still life",
+      "Calligraphy"
+    ],
+    "correctIndex": 0,
+    "rationale": "Landscape represents natural scenery; it can also include buildings and people.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/l/landscape",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-004",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is the main subject of a seascape?",
+    "answers": [
+      "The sea or coast",
+      "A room interior",
+      "An arrangement of fruit",
+      "A close-up of a face"
+    ],
+    "correctIndex": 0,
+    "rationale": "Seascapes depict marine/coastal scenery.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/s/seascape",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-005",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What does a cityscape principally show?",
+    "answers": [
+      "An urban scene",
+      "A close-up of a single flower",
+      "A portrait of a face",
+      "A view of the open sea"
+    ],
+    "correctIndex": 0,
+    "rationale": "A cityscape represents the appearance of a city or urban area.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/c/cityscape",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-006",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "Which description best fits a wholly non-representational abstract painting?",
+    "answers": [
+      "It uses shapes and colours without depicting recognisable objects",
+      "It must copy a photograph exactly",
+      "It must show a named historical battle",
+      "It can only be painted in black"
+    ],
+    "correctIndex": 0,
+    "rationale": "The explicit non-representational qualifier avoids claiming all abstraction lacks references to real subjects.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/a/abstract-art",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-007",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "In art, what does figurative usually mean?",
+    "answers": [
+      "Representing recognisable subjects from the real world",
+      "Made only from numbers",
+      "Painted entirely without images",
+      "Made only by folding paper"
+    ],
+    "correctIndex": 0,
+    "rationale": "Figurative art retains recognisable representation, rather than necessarily containing human figures alone.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/f/figurative-art",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-008",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "A face shown in profile is seen from which direction?",
+    "answers": [
+      "From the side",
+      "Directly from the front",
+      "Directly from behind",
+      "Straight down from above"
+    ],
+    "correctIndex": 0,
+    "rationale": "Profile shows a side view of the face.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/p/profile",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-009",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "In a portrait, what does a full-face view show?",
+    "answers": [
+      "The face from the front",
+      "Only the back of the head",
+      "Only the outline of a shoulder",
+      "The whole figure from behind"
+    ],
+    "correctIndex": 0,
+    "rationale": "Full-face denotes a frontal view, not necessarily a full-length body portrait.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/p/portrait",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-010",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "Which parts of a person are usually shown in a sculpted bust?",
+    "answers": [
+      "The head, shoulders and upper chest",
+      "Only the hands",
+      "The entire body from head to foot",
+      "Only the feet and ankles"
+    ],
+    "correctIndex": 0,
+    "rationale": "A bust represents the head and upper torso, rather than a full figure.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/b/bust",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-011",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is a silhouette?",
+    "answers": [
+      "A solid shape showing the outline of a subject",
+      "A picture made only from written words",
+      "A sculpture with no outline",
+      "A frame without a picture"
+    ],
+    "correctIndex": 0,
+    "rationale": "Silhouettes commonly present a dark filled shape against a lighter background.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/s/silhouette",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-012",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "In a landscape picture, which area appears closest to the viewer?",
+    "answers": [
+      "The foreground",
+      "The background",
+      "The horizon in every case",
+      "The farthest mountain"
+    ],
+    "correctIndex": 0,
+    "rationale": "Foreground is the nearest represented space, not necessarily the lower edge in every composition.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/f/foreground",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-013",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is the background in a picture?",
+    "answers": [
+      "The area appearing behind the main subject",
+      "The nearest object in every picture",
+      "The signature alone",
+      "The wooden frame around the picture"
+    ],
+    "correctIndex": 0,
+    "rationale": "Background is the depicted space behind the main subject or nearer forms.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/b/background",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-014",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "In a view across open water, what does the horizon line appear to mark?",
+    "answers": [
+      "Where the water meets the sky",
+      "The edge of the picture frame",
+      "The outline of every cloud",
+      "The depth of the canvas"
+    ],
+    "correctIndex": 0,
+    "rationale": "An open-water horizon appears to separate sea and sky; it is an apparent boundary.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/h/horizon-line",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-015",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is a focal point in an artwork?",
+    "answers": [
+      "An area that particularly draws attention",
+      "The back of the frame",
+      "The label giving the ticket price",
+      "The artist's date of birth"
+    ],
+    "correctIndex": 0,
+    "rationale": "A focal point attracts attention through composition or contrast, not a physical gallery label.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/c/composition",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-016",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is bilateral symmetry in a design?",
+    "answers": [
+      "Two halves reflecting each other across a line",
+      "Every shape having a different colour",
+      "All objects placed in one corner",
+      "Every line being curved"
+    ],
+    "correctIndex": 0,
+    "rationale": "Bilateral symmetry makes mirror-related halves across an axis.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/s/symmetry",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-017",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "Which term describes a composition whose two sides are not mirror images?",
+    "answers": [
+      "Asymmetrical",
+      "Bilateral",
+      "Identically mirrored",
+      "Exactly symmetrical"
+    ],
+    "correctIndex": 0,
+    "rationale": "Asymmetry lacks mirror matching; it can still have visual balance.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/a/asymmetry",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-018",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "In art, what does composition mean?",
+    "answers": [
+      "How the elements of the work are arranged",
+      "Only the price of the materials",
+      "Only the artist's signature",
+      "The number of visitors to a gallery"
+    ],
+    "correctIndex": 0,
+    "rationale": "Composition concerns arrangement of the elements within the artwork.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/c/composition",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-019",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is negative space in a picture?",
+    "answers": [
+      "Space around and between the main shapes",
+      "Only a badly painted area",
+      "Only the darkest pigment",
+      "A part that must be removed from the frame"
+    ],
+    "correctIndex": 0,
+    "rationale": "Negative space surrounds or separates positive forms; it is not a judgment of quality.",
+    "sourceURL": "https://www.getty.edu/education/teachers/building_lessons/elements_art.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-020",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is linear perspective used to suggest in a flat picture?",
+    "answers": [
+      "Depth and distance",
+      "The exact age of the canvas",
+      "The chemical formula of the pigment",
+      "The weight of the frame"
+    ],
+    "correctIndex": 0,
+    "rationale": "Linear perspective represents spatial recession through geometric relationships.",
+    "sourceURL": "https://www.nationalgallery.org.uk/paintings/glossary/perspective",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-021",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "In linear perspective, where do parallel lines receding into the distance appear to meet?",
+    "answers": [
+      "At a vanishing point",
+      "At the artist's signature",
+      "At every corner of the frame",
+      "At the lightest colour in the picture"
+    ],
+    "correctIndex": 0,
+    "rationale": "Receding parallel lines share the appropriate vanishing point for their direction.",
+    "sourceURL": "https://www.nationalgallery.org.uk/paintings/glossary/perspective",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-022",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What does a bird's-eye view show?",
+    "answers": [
+      "A subject seen from above",
+      "A subject seen from directly below",
+      "Only the inside of a building",
+      "Only a close-up of an eye"
+    ],
+    "correctIndex": 0,
+    "rationale": "The term describes an elevated downward view and does not require birds in the subject.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/b/birds-eye-view",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-023",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What does a worm's-eye view show?",
+    "answers": [
+      "A subject seen from a very low viewpoint",
+      "A scene viewed from directly overhead",
+      "Only a subject reflected in water",
+      "Only a map with no perspective"
+    ],
+    "correctIndex": 0,
+    "rationale": "A worm-eye view looks from low down, often upwards.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/w/worms-eye-view",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-024",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "If one painted object partly hides another, which usually appears nearer?",
+    "answers": [
+      "The object doing the hiding",
+      "The partly hidden object",
+      "Both must appear at the same distance",
+      "The picture must have no depth"
+    ],
+    "correctIndex": 0,
+    "rationale": "Occlusion is a familiar depth cue: the covering object usually appears in front.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/o/overlap",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-025",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What does foreshortening make a form pointing towards the viewer appear?",
+    "answers": [
+      "Shorter or compressed in depth",
+      "Always larger than every other object",
+      "Completely transparent",
+      "Changed into a different material"
+    ],
+    "correctIndex": 0,
+    "rationale": "Foreshortening represents apparent shortening when a form extends towards or away from the viewer.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/f/foreshortening",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-026",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "In colour terminology, what does hue identify?",
+    "answers": [
+      "The basic colour family, such as red or blue",
+      "How light or dark a colour is",
+      "How rough a painted surface feels",
+      "How transparent a layer is"
+    ],
+    "correctIndex": 0,
+    "rationale": "Hue identifies the colour family rather than brightness, size or cost.",
+    "sourceURL": "https://www.getty.edu/education/teachers/building_lessons/elements_art.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-027",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "In drawing and painting, what does value refer to?",
+    "answers": [
+      "How light or dark a colour is",
+      "How transparent a colour is",
+      "Which colour family it belongs to",
+      "How rough the surface feels"
+    ],
+    "correctIndex": 0,
+    "rationale": "Tonal value describes lightness/darkness, not financial value in this context.",
+    "sourceURL": "https://www.getty.edu/education/teachers/building_lessons/elements_art.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-028",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What does colour saturation describe?",
+    "answers": [
+      "The intensity or purity of a colour",
+      "The length of a brush",
+      "The size of the canvas",
+      "The number of objects in a still life"
+    ],
+    "correctIndex": 0,
+    "rationale": "Saturation distinguishes vivid colours from duller or greyer versions.",
+    "sourceURL": "https://www.getty.edu/education/teachers/building_lessons/elements_art.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-029",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "In traditional paint-mixing terminology, how is a tint made?",
+    "answers": [
+      "By adding white to a colour",
+      "By adding black to a colour",
+      "By adding the complementary colour",
+      "By mixing only black and grey"
+    ],
+    "correctIndex": 0,
+    "rationale": "A tint is a colour lightened with white.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/t/tint",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-030",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "In traditional paint-mixing terminology, how is a shade made?",
+    "answers": [
+      "By adding black to a colour",
+      "By adding white to a colour",
+      "By adding clear water only",
+      "By mixing only white and grey"
+    ],
+    "correctIndex": 0,
+    "rationale": "A shade is a colour darkened with black.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/s/shade",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-031",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "Which pair gives the strongest contrast in lightness?",
+    "answers": [
+      "Black and white",
+      "Pale grey and light grey",
+      "Two identical shades of blue",
+      "Cream and ivory"
+    ],
+    "correctIndex": 0,
+    "rationale": "Black and white sit at opposite ends of the lightness range; the other pairs have much closer values.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/c/contrast",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-032",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "Where are complementary colours positioned on a traditional colour wheel?",
+    "answers": [
+      "Opposite each other",
+      "Always next to each other",
+      "Only at the centre",
+      "Outside the wheel altogether"
+    ],
+    "correctIndex": 0,
+    "rationale": "Complementary hues are opposite on the specified wheel.",
+    "sourceURL": "https://www.getty.edu/education/teachers/building_lessons/elements_art.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-033",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "Where are analogous colours found on a colour wheel?",
+    "answers": [
+      "Next to or near each other",
+      "Opposite each other",
+      "Always separated by exactly half the wheel",
+      "At the same hue position only"
+    ],
+    "correctIndex": 0,
+    "rationale": "Analogous schemes use neighbouring hues, unlike complementary opposites.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/a/analogous-colours",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-034",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What does a monochromatic colour scheme use?",
+    "answers": [
+      "Variations of one hue",
+      "Every hue in equal amounts",
+      "Only pairs of opposite hues",
+      "Only metallic pigments"
+    ],
+    "correctIndex": 0,
+    "rationale": "Monochromatic schemes vary one hue using different values/intensities.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/m/monochrome",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-035",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "Which group is traditionally described as warm colours?",
+    "answers": [
+      "Red, orange and yellow",
+      "Blue, blue-green and violet",
+      "Black, white and grey",
+      "Cyan, blue and blue-green"
+    ],
+    "correctIndex": 0,
+    "rationale": "Red through orange and yellow form the conventional warm group.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/c/colour",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-036",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "Which pair is generally described as cool in basic colour theory?",
+    "answers": [
+      "Blue and blue-green",
+      "Red and orange",
+      "Scarlet and vermilion",
+      "Orange and golden yellow"
+    ],
+    "correctIndex": 0,
+    "rationale": "Blue and blue-green belong to the conventional cool side of the wheel.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/c/colour",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-037",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "On the traditional red-yellow-blue paint colour wheel, mixing red and blue gives which secondary colour?",
+    "answers": [
+      "Purple",
+      "Green",
+      "Orange",
+      "White"
+    ],
+    "correctIndex": 0,
+    "rationale": "In the traditional RYB model, red and blue combine to violet/purple; actual pigment mixtures can vary.",
+    "sourceURL": "https://www.getty.edu/education/teachers/building_lessons/elements_art.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-038",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "On the traditional red-yellow-blue paint colour wheel, mixing blue and yellow gives which secondary colour?",
+    "answers": [
+      "Green",
+      "Purple",
+      "Orange",
+      "Black"
+    ],
+    "correctIndex": 0,
+    "rationale": "In the RYB model, blue and yellow make green.",
+    "sourceURL": "https://www.getty.edu/education/teachers/building_lessons/elements_art.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-039",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "Which of these is traditionally classed as a primary paint colour?",
+    "answers": [
+      "Blue",
+      "Orange",
+      "Green",
+      "Purple"
+    ],
+    "correctIndex": 0,
+    "rationale": "In the traditional red-yellow-blue model used by artists, blue is primary; orange, green and purple are secondary.",
+    "sourceURL": "https://www.getty.edu/education/teachers/building_lessons/elements_art.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-040",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "In the traditional red-yellow-blue colour model, a secondary colour is formed by mixing what?",
+    "answers": [
+      "Two primary colours",
+      "Only black and white",
+      "Three different shades of grey",
+      "A colour with clear varnish only"
+    ],
+    "correctIndex": 0,
+    "rationale": "A secondary combines two primaries in the named model.",
+    "sourceURL": "https://www.getty.edu/education/teachers/building_lessons/elements_art.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-041",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "Which group contains only achromatic colours?",
+    "answers": [
+      "Black, white and grey",
+      "Red, blue and yellow",
+      "Green, orange and purple",
+      "Pink, brown and turquoise"
+    ],
+    "correctIndex": 0,
+    "rationale": "Achromatic colours have no hue, unlike the coloured alternatives.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/a/achromatic",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-042",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What type of pigment is ochre?",
+    "answers": [
+      "An earth pigment often yellow or brown",
+      "A synthetic fluorescent pink dye",
+      "A metallic silver powder",
+      "A transparent colourless resin"
+    ],
+    "correctIndex": 0,
+    "rationale": "Ochres are naturally occurring iron-rich earth pigments with yellow/brown/red varieties.",
+    "sourceURL": "https://www.nationalgallery.org.uk/podcast/colour-stories-brown",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-043",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is a pastel used for drawing?",
+    "answers": [
+      "A stick of coloured pigment with a binder",
+      "A bottle of clear varnish",
+      "A wooden support behind a canvas",
+      "A tool used to measure angles"
+    ],
+    "correctIndex": 0,
+    "rationale": "Pastels supply colour in stick form, with binder types varying between soft, hard and oil pastels.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/p/pastel",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-044",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "Which medium is especially associated with transparent washes over white paper?",
+    "answers": [
+      "Watercolour",
+      "Stone carving",
+      "Wood carving",
+      "Bronze casting"
+    ],
+    "correctIndex": 0,
+    "rationale": "Transparent watercolour washes allow light from the white paper to show through.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/w/watercolour",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-045",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "Which of these is commonly used as a binder in artists' oil paint?",
+    "answers": [
+      "Linseed oil",
+      "Gum arabic",
+      "Egg yolk",
+      "Beeswax"
+    ],
+    "correctIndex": 0,
+    "rationale": "Linseed oil is a common drying-oil binder. Gum arabic is associated with watercolour, egg yolk with tempera and beeswax with encaustic.",
+    "sourceURL": "https://www.nationalgallery.org.uk/technical-bulletin/white_pilc_kirby1998",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-046",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What does impasto mean in painting?",
+    "answers": [
+      "Paint applied thickly enough to leave texture",
+      "An extremely thin transparent glaze",
+      "A light pencil construction line",
+      "An outline cut into a printing plate"
+    ],
+    "correctIndex": 0,
+    "rationale": "Impasto builds up textured paint, often showing brush or knife marks.",
+    "sourceURL": "https://www.nationalgallery.org.uk/paintings/glossary/impasto",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-047",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is a glaze in painting?",
+    "answers": [
+      "A thin transparent layer of paint over another layer",
+      "A hole cut through the canvas",
+      "A carved wooden picture frame",
+      "A thick plaster backing only"
+    ],
+    "correctIndex": 0,
+    "rationale": "A painted glaze modifies underlying colour through a transparent or translucent layer.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/g/glaze",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-048",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is a wash in watercolour painting?",
+    "answers": [
+      "A thin application of diluted colour over an area",
+      "A method of cutting the paper into strips",
+      "A thick marble base for a statue",
+      "A metal plate used only for engraving"
+    ],
+    "correctIndex": 0,
+    "rationale": "A wash lays diluted colour across an area, evenly or with graduation.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/w/wash",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-049",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is an underpainting?",
+    "answers": [
+      "An initial painted layer beneath later layers",
+      "The outside of a picture frame",
+      "A painting stored under a table by definition",
+      "A title written beneath a sculpture"
+    ],
+    "correctIndex": 0,
+    "rationale": "Underpainting establishes an early painted structure or tone for later work.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/u/underpainting",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-050",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "Which part of paint supplies its colour?",
+    "answers": [
+      "Pigment",
+      "Binder",
+      "Solvent",
+      "Drier"
+    ],
+    "correctIndex": 0,
+    "rationale": "Pigment provides colour while the binder holds it in a paint film.",
+    "sourceURL": "https://www.nationalgallery.org.uk/paintings/glossary/pigments",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-051",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is the binder in paint used to do?",
+    "answers": [
+      "Hold pigment particles together",
+      "Provide the coloured particles",
+      "Evaporate to leave a thinner paint film",
+      "Supply the canvas texture"
+    ],
+    "correctIndex": 0,
+    "rationale": "A binder binds the pigment and helps form the paint film.",
+    "sourceURL": "https://www.nationalgallery.org.uk/paintings/glossary/binder",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-052",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is gesso commonly used for before painting?",
+    "answers": [
+      "Preparing a painting surface",
+      "Removing every colour from a brush",
+      "Making a sculpture rotate",
+      "Measuring a gallery wall"
+    ],
+    "correctIndex": 0,
+    "rationale": "Traditional gesso and modern acrylic gesso are preparatory grounds; their ingredients differ.",
+    "sourceURL": "https://www.nationalgallery.org.uk/paintings/glossary/gesso",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-053",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What material is a traditional artist's canvas made from?",
+    "answers": [
+      "Woven cloth",
+      "Solid marble",
+      "Cast bronze",
+      "A single sheet of glass"
+    ],
+    "correctIndex": 0,
+    "rationale": "Canvas is fabric, often linen or cotton, used as a painting support.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/c/canvas",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-054",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is a canvas stretcher?",
+    "answers": [
+      "A framework that holds the canvas taut",
+      "A liquid that dilutes paint",
+      "A blade used for wood engraving",
+      "A varnish used only on frames"
+    ],
+    "correctIndex": 0,
+    "rationale": "Stretcher bars form an adjustable support framework for stretched canvas.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/s/stretcher",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-055",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is a sketchbook mainly used to collect?",
+    "answers": [
+      "Drawings and visual studies",
+      "Only signed contracts",
+      "Only gallery admission tickets",
+      "Only printed bank statements"
+    ],
+    "correctIndex": 0,
+    "rationale": "A sketchbook holds visual notes and drawings, though artists can also add written notes.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/s/sketchbook",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-056",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is one common purpose of a final varnish on a painting?",
+    "answers": [
+      "To provide a protective surface layer",
+      "To change every pigment to white",
+      "To turn the canvas into marble",
+      "To remove the need for a frame in every case"
+    ],
+    "correctIndex": 0,
+    "rationale": "A suitable varnish can protect a paint surface and alter its gloss; not every painting is varnished.",
+    "sourceURL": "https://www.nationalgallery.org.uk/paintings/glossary/varnish",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-057",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is a mural?",
+    "answers": [
+      "An artwork painted on a wall or ceiling",
+      "A miniature book cover only",
+      "A frame made of metal",
+      "A sculpture that must fit in a pocket"
+    ],
+    "correctIndex": 0,
+    "rationale": "Murals are executed on architectural surfaces such as walls and ceilings.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/m/mural",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-058",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "Which surface is used for painting in traditional buon fresco?",
+    "answers": [
+      "Fresh, wet lime plaster",
+      "A dry wooden panel",
+      "Stretched linen canvas",
+      "A polished copper plate"
+    ],
+    "correctIndex": 0,
+    "rationale": "Buon fresco applies pigment to fresh wet lime plaster; fresco secco works on dry plaster.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/f/fresco",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-059",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is trompe l'oeil intended to do?",
+    "answers": [
+      "Create an illusion that the depicted objects are real",
+      "Remove every suggestion of depth",
+      "Show only written text with no imagery",
+      "Make a sculpture invisible from all sides"
+    ],
+    "correctIndex": 0,
+    "rationale": "The technique creates a deceptive illusion of three-dimensional reality.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/t/trompe-loeil",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-060",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "How many panels make up a diptych?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 0,
+    "rationale": "A diptych consists of two associated panels.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/d/diptych",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-061",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "How many panels make up a triptych?",
+    "answers": [
+      "3",
+      "2",
+      "4",
+      "6"
+    ],
+    "correctIndex": 0,
+    "rationale": "A triptych consists of three associated panels.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/t/triptych",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-062",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "In the phrase panel painting, what is the panel usually made from?",
+    "answers": [
+      "Wood",
+      "Woven wool only",
+      "Liquid wax",
+      "Loose sand"
+    ],
+    "correctIndex": 0,
+    "rationale": "Panel paintings conventionally use a rigid wooden support.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/p/panel-painting",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-063",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is an illuminated manuscript?",
+    "answers": [
+      "A handwritten book decorated with images or ornament",
+      "Any book that can only be read under a lamp",
+      "A book made entirely of blank pages",
+      "Only a printed electric-light catalogue"
+    ],
+    "correctIndex": 0,
+    "rationale": "Illuminated manuscripts combine handwriting with decoration, often including gilding.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/i/illuminated-manuscript",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-064",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is calligraphy?",
+    "answers": [
+      "The art of expressive or decorative handwriting",
+      "Carving images in wood for printing",
+      "Arranging small tiles into pictures",
+      "Shaping clay into a hollow vessel"
+    ],
+    "correctIndex": 0,
+    "rationale": "Calligraphy is artistic writing rather than sculpture or flower arranging.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/c/calligraphy",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-065",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "In a traditional woodcut, which parts of the block usually print the image?",
+    "answers": [
+      "The raised, uncut areas",
+      "Only the grooves cut below the surface",
+      "Only the back of the block",
+      "Only the narrow outer edges"
+    ],
+    "correctIndex": 0,
+    "rationale": "Woodcut is relief printing: ink on the raised surface transfers to paper while the cut-away areas remain unprinted.",
+    "sourceURL": "https://www.moma.org/collection/terms/woodcut",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-066",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "Which printmaking technique uses a carved sheet of linoleum?",
+    "answers": [
+      "Linocut",
+      "Etching",
+      "Lithography",
+      "Screenprinting"
+    ],
+    "correctIndex": 0,
+    "rationale": "Linocut uses a sheet of linoleum as the relief block.",
+    "sourceURL": "https://www.moma.org/collection/terms/linoleum-cut",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-067",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "Traditional lithography begins with a design on which kind of surface?",
+    "answers": [
+      "A flat stone",
+      "A carved plank of wood",
+      "A mesh stretched on a frame",
+      "A copper plate with acid-bitten grooves"
+    ],
+    "correctIndex": 0,
+    "rationale": "Traditional lithography uses a flat limestone surface; modern versions may use plates.",
+    "sourceURL": "https://www.moma.org/collection/terms/lithography",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-068",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "In screenprinting, ink is pushed through what?",
+    "answers": [
+      "A mesh screen with selected areas blocked",
+      "A solid marble slab",
+      "A completely unbroken glass sheet",
+      "A closed wooden box"
+    ],
+    "correctIndex": 0,
+    "rationale": "The stencil blocks parts of a mesh so ink passes only where required.",
+    "sourceURL": "https://www.moma.org/collection/terms/screenprint",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-069",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "In printmaking, what is an edition?",
+    "answers": [
+      "A set of prints produced from the same image",
+      "A brush used only for blue paint",
+      "A carved border around a frame",
+      "The outside wall of a museum"
+    ],
+    "correctIndex": 0,
+    "rationale": "An edition comprises a set of impressions, often numbered, from the same print image.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/e/edition",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-070",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is a trial proof in printmaking?",
+    "answers": [
+      "A test impression used to check work in progress",
+      "A receipt proving a ticket was purchased",
+      "The final auction price of a print",
+      "A wooden plinth for a sculpture"
+    ],
+    "correctIndex": 0,
+    "rationale": "Trial proofs let a printmaker assess an image before or between changes.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/p/proof",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-071",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is a relief sculpture?",
+    "answers": [
+      "A sculpture projecting from a background surface",
+      "A sculpture that must be suspended by a string",
+      "A sculpture made only from transparent glass",
+      "A sculpture with no three-dimensional form"
+    ],
+    "correctIndex": 0,
+    "rationale": "Relief forms remain attached to or rise from a background plane.",
+    "sourceURL": "https://www.moma.org/collection/terms/relief",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-072",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "A sculpture in the round is designed to be viewed how?",
+    "answers": [
+      "From multiple sides",
+      "Only as a flat shadow on paper",
+      "Only from inside a closed box",
+      "Only as a written description"
+    ],
+    "correctIndex": 0,
+    "rationale": "In-the-round sculpture is fully three-dimensional, unlike relief against a backing.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/s/sculpture",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-073",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "In sculpture, what does carving do?",
+    "answers": [
+      "Removes material to create a form",
+      "Adds soft material layer by layer only",
+      "Changes every material into metal",
+      "Prints an image on a flat sheet"
+    ],
+    "correctIndex": 0,
+    "rationale": "Carving is subtractive, unlike additive modelling.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/c/carving",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-074",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "In sculpture, what does modelling usually involve?",
+    "answers": [
+      "Shaping and building up a pliable material",
+      "Only cutting away solid marble",
+      "Only polishing a finished frame",
+      "Only printing with an inked plate"
+    ],
+    "correctIndex": 0,
+    "rationale": "Modelling shapes pliable materials such as clay or wax and can build up form.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/m/modelling",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-075",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is an armature in sculpture?",
+    "answers": [
+      "An internal framework supporting the material",
+      "A printed museum admission ticket",
+      "A final coat of transparent varnish",
+      "The title on a picture label"
+    ],
+    "correctIndex": 0,
+    "rationale": "An armature supports a model or sculpture, often through wire or another framework.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/a/armature",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-076",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is a plinth used for when displaying a sculpture?",
+    "answers": [
+      "Supporting it as a base",
+      "Diluting the paint",
+      "Measuring the room temperature",
+      "Making a print from a plate"
+    ],
+    "correctIndex": 0,
+    "rationale": "A plinth is a supporting base beneath a sculpture.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/p/plinth",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-077",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is a patina on a metal sculpture?",
+    "answers": [
+      "A surface appearance that develops or is deliberately created",
+      "The wooden crate used for delivery",
+      "The paper label giving its dimensions",
+      "The empty space inside the gallery"
+    ],
+    "correctIndex": 0,
+    "rationale": "Patina is a surface layer or finish arising naturally or through treatment.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/p/patina",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-078",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "Which of these is a natural stone traditionally used for carving statues?",
+    "answers": [
+      "Marble",
+      "Canvas",
+      "Linoleum",
+      "Graphite pencil lead"
+    ],
+    "correctIndex": 0,
+    "rationale": "Marble is a stone used for carved sculpture; the alternatives are different artistic materials.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/m/marble",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-079",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What does site-specific art mean?",
+    "answers": [
+      "Art made with a particular location in mind",
+      "Art that must fit on a website",
+      "Art that has no intended setting",
+      "Art made only from building bricks"
+    ],
+    "correctIndex": 0,
+    "rationale": "Site-specific work is conceived for the characteristics of a particular place.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/s/site-specific",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-080",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is installation art especially concerned with?",
+    "answers": [
+      "Arranging elements to create an experience within a space",
+      "Painting a likeness of a sitter on one small panel",
+      "Printing a run of identical postal labels",
+      "Carving letters into a single gravestone"
+    ],
+    "correctIndex": 0,
+    "rationale": "Installations organise objects, media and space into an artwork or environment.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/i/installation-art",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-081",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "In performance art, what is a central part of the artwork?",
+    "answers": [
+      "Actions carried out by the artist or performers",
+      "The insurance value of a framed painting",
+      "The sales history of a printed book",
+      "The mineral composition of a stone plinth"
+    ],
+    "correctIndex": 0,
+    "rationale": "Performance art is realised through actions, potentially live or recorded.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/p/performance-art",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-082",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "In conceptual art, what is often given particular importance?",
+    "answers": [
+      "The idea behind the work",
+      "The future auction price alone",
+      "The weight of the display frame alone",
+      "The cost of the paint alone"
+    ],
+    "correctIndex": 0,
+    "rationale": "Conceptual art prioritises ideas rather than requiring one traditional material or technique.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/c/conceptual-art",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-083",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is public art generally intended for?",
+    "answers": [
+      "A setting accessible to the public",
+      "Only an artist's locked private cupboard",
+      "Only the back of a sealed picture frame",
+      "Only a book that nobody may open"
+    ],
+    "correctIndex": 0,
+    "rationale": "Public art is made for public settings and audiences, not necessarily owned by government.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/p/public-art",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-084",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is the main purpose of an art gallery?",
+    "answers": [
+      "Displaying works of art",
+      "Manufacturing printing paper",
+      "Firing clay into ceramic objects",
+      "Producing canvas for artists to paint on"
+    ],
+    "correctIndex": 0,
+    "rationale": "Art galleries exhibit artworks; some also sell them.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/g/gallery",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-085",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "Which role typically selects and interprets works for an exhibition?",
+    "answers": [
+      "Curator",
+      "Picture framer",
+      "Art shipper",
+      "Printmaker"
+    ],
+    "correctIndex": 0,
+    "rationale": "Curators select, research and interpret exhibition contents; the other named roles have different primary functions.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/c/curator",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-086",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is an art conservator primarily concerned with?",
+    "answers": [
+      "Caring for and preserving artworks",
+      "Setting estimates for an art auction",
+      "Reviewing exhibitions for a newspaper",
+      "Making reproductions for a gift shop"
+    ],
+    "correctIndex": 0,
+    "rationale": "Conservation preserves objects through examination, preventive care and appropriate treatment.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/c/conservation",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-087",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What does an artwork's provenance describe?",
+    "answers": [
+      "Its history of ownership",
+      "Only its colour palette",
+      "Only the direction of its brushstrokes",
+      "Only the width of its frame"
+    ],
+    "correctIndex": 0,
+    "rationale": "Provenance records ownership and often associated history, rather than merely visual qualities.",
+    "sourceURL": "https://www.nationalgallery.org.uk/paintings/glossary/provenance",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-088",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is a reproduction of a painting?",
+    "answers": [
+      "A copy of the painting's image",
+      "A treatment to repair the original surface",
+      "A new frame made for the original",
+      "An assessment of who made the original"
+    ],
+    "correctIndex": 0,
+    "rationale": "Reproductions copy the image through printing or other methods.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/r/reproduction",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-089",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What does an exhibition catalogue usually contain?",
+    "answers": [
+      "Information about the works and artists in the exhibition",
+      "Only the museum staff work rota",
+      "Only the bookshop sales receipts",
+      "Only the building heating instructions"
+    ],
+    "correctIndex": 0,
+    "rationale": "Exhibition catalogues document the exhibited works and provide related information.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/c/catalogue",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-090",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is the window mount around a drawing or print?",
+    "answers": [
+      "A cut-out board border surrounding the visible image",
+      "A wooden rod used to roll up the picture",
+      "A bottle of diluted pigment",
+      "A wire framework inside a statue"
+    ],
+    "correctIndex": 0,
+    "rationale": "A window mount frames the visible image within an opening in mount board.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/m/mount",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-091",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "Why might a drawing be protected by glass when it is framed?",
+    "answers": [
+      "To help protect it from dust and accidental contact",
+      "To make every drawn line physically thicker",
+      "To prove the exact year in which it was drawn",
+      "To replace all faded pigments automatically"
+    ],
+    "correctIndex": 0,
+    "rationale": "Glazing offers a physical protective barrier. It does not prove a date or restore faded colour; UV filtering depends on the glazing type.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/f/frame",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-092",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "On a drawing made on a sheet of paper, recto usually refers to which side?",
+    "answers": [
+      "The front",
+      "The back",
+      "The cut edge",
+      "The frame"
+    ],
+    "correctIndex": 0,
+    "rationale": "Recto denotes the front or principal face of the sheet.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/r/recto",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-093",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "On a drawing made on a sheet of paper, verso usually refers to which side?",
+    "answers": [
+      "The back",
+      "The front",
+      "The cut edge",
+      "The mount board"
+    ],
+    "correctIndex": 0,
+    "rationale": "Verso denotes the reverse of a sheet.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/v/verso",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-094",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What information is commonly included on a museum label beside a painting?",
+    "answers": [
+      "The artist, title and date",
+      "The staff work rota",
+      "The building electricity bill",
+      "The stock numbers of shop souvenirs"
+    ],
+    "correctIndex": 0,
+    "rationale": "Object labels commonly identify the work, maker, date and medium, with variations for unknown details.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/l/label",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-095",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "Why are some light-sensitive drawings displayed under low lighting?",
+    "answers": [
+      "To help limit fading and light damage",
+      "To let faded colours restore themselves automatically",
+      "To make all paper completely waterproof",
+      "To prevent every form of insect damage"
+    ],
+    "correctIndex": 0,
+    "rationale": "Reducing light exposure helps protect sensitive media and paper; damage can be cumulative.",
+    "sourceURL": "https://www.vam.ac.uk/__data/assets/pdf_file/0007/178612/Environmental_control_for_object_display_April_2010.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-096",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is an artist's portfolio?",
+    "answers": [
+      "A selected collection of their work",
+      "Only a list of frame prices",
+      "A chemical used to clean brushes",
+      "A machine for weighing sculptures"
+    ],
+    "correctIndex": 0,
+    "rationale": "A portfolio presents selected work and can be physical or digital.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/p/portfolio",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-097",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What is an art commission?",
+    "answers": [
+      "A request for an artist to create a work",
+      "Only a free ticket to a museum",
+      "A frame without an artwork",
+      "A method of drying clay"
+    ],
+    "correctIndex": 0,
+    "rationale": "Commissioning arranges creation of a particular work; payment and terms vary.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/c/commission",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-098",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What does an artist's statement usually explain?",
+    "answers": [
+      "Ideas and intentions behind their work",
+      "Only the gallery heating instructions",
+      "Only the weight of the canvas",
+      "Only how to replace a printer cartridge"
+    ],
+    "correctIndex": 0,
+    "rationale": "An artist statement explains aspects of the maker practice, ideas or intentions.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/a/artist-statement",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-099",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "What does an artist's signature on a work normally identify?",
+    "answers": [
+      "The artist claiming authorship",
+      "The owner of every later copy",
+      "The exact future auction price",
+      "The number of visitors who have seen it"
+    ],
+    "correctIndex": 0,
+    "rationale": "Signatures identify claimed authorship but do not alone guarantee authenticity.",
+    "sourceURL": "https://www.tate.org.uk/art/art-terms/s/signature",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-25-100",
+    "categoryID": "25",
+    "difficulty": "easy",
+    "prompt": "In an art catalogue, what does attribution concern?",
+    "answers": [
+      "Who is believed to have made a work",
+      "Who owned it at every point in its history",
+      "How much its shipping crate weighs",
+      "How long visitors must queue to see it"
+    ],
+    "correctIndex": 0,
+    "rationale": "Attribution identifies or proposes the maker, sometimes with qualifications expressing uncertainty.",
+    "sourceURL": "https://www.nationalgallery.org.uk/paintings/glossary/attribution",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  }
+]

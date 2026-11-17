@@ -1,0 +1,1541 @@
+{
+  "independent": false,
+  "reviewer": "root (author second editorial pass)",
+  "status": "complete",
+  "reviewed": 100,
+  "remaining": 0,
+  "sourceAccessNote": "Museum educational material and indexed definitions used for fact checks. Some Tate pages are inaccessible; provisional source URLs are replaced where a verified more precise reference is available. Every prompt and all four options individually read.",
+  "rows": [
+    {
+      "row": 1,
+      "prompt": "What is a portrait mainly intended to represent?",
+      "action": "keep",
+      "note": "Portrait conventionally represents a person; mainly avoids denying animal portraits. None of the other subjects defines portraiture.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 2,
+      "prompt": "What is a self-portrait?",
+      "action": "edit",
+      "note": "Self-portrait must represent the maker. Replace the camera-timer distractor, which describes a possible photographic self-portrait rather than a wholly wrong subject.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "answers": [
+          "An artist's depiction of themselves",
+          "An artist's portrait of somebody else",
+          "A painting showing no figures",
+          "A catalogue listing several artists"
+        ]
+      }
+    },
+    {
+      "row": 3,
+      "prompt": "Which painting genre focuses on scenery such as fields, hills and trees?",
+      "action": "keep",
+      "note": "Fields, hills and trees describe landscape genre. Still life normally arranges inanimate objects rather than broad outdoor scenery.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 4,
+      "prompt": "What is the main subject of a seascape?",
+      "action": "keep",
+      "note": "Seascape centres on sea/coastal scenery, rather than a face or room interior.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 5,
+      "prompt": "What does a cityscape principally show?",
+      "action": "edit",
+      "note": "Cityscape depicts an urban scene. Remove repetitive only qualifiers from distractors without adding another urban scene.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "answers": [
+          "An urban scene",
+          "A close-up of a single flower",
+          "A portrait of a face",
+          "A view of the open sea"
+        ]
+      }
+    },
+    {
+      "row": 6,
+      "prompt": "Which description best fits a wholly non-representational abstract painting?",
+      "action": "keep",
+      "note": "Wholly non-representational expressly excludes recognisable objects, while allowing abstract art more broadly to have representational origins.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 7,
+      "prompt": "In art, what does figurative usually mean?",
+      "action": "keep",
+      "note": "Figurative means retaining recognisable real-world references, not necessarily containing only human bodies.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 8,
+      "prompt": "A face shown in profile is seen from which direction?",
+      "action": "edit",
+      "note": "Profile is a side view. Front, rear and overhead views are distinct; revise options into parallel noun phrases.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "answers": [
+          "From the side",
+          "Directly from the front",
+          "Directly from behind",
+          "Straight down from above"
+        ]
+      }
+    },
+    {
+      "row": 9,
+      "prompt": "In a portrait, what does a full-face view show?",
+      "action": "keep",
+      "note": "Full-face is frontal view, rather than full-length body view. No other choice describes a frontal face.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 10,
+      "prompt": "Which parts of a person are usually shown in a sculpted bust?",
+      "action": "keep",
+      "note": "A bust normally covers head and upper torso. Some include less chest, so usually rather than must is appropriate.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 11,
+      "prompt": "What is a silhouette?",
+      "action": "keep",
+      "note": "Silhouette shows the subject outline as a solid filled shape, not a frame or written text.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 12,
+      "prompt": "In a landscape picture, which area appears closest to the viewer?",
+      "action": "keep",
+      "note": "Foreground is the nearest depicted space. It is not always simply the physical bottom edge of the sheet.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 13,
+      "prompt": "What is the background in a picture?",
+      "action": "keep",
+      "note": "Background appears behind nearer forms/main subject; the physical frame and signature are not pictorial depth.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 14,
+      "prompt": "In a view across open water, what does the horizon line appear to mark?",
+      "action": "keep",
+      "note": "An open-water horizon appears to meet sky. The word appears avoids claiming a physical contact line between sea and sky.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 15,
+      "prompt": "What is a focal point in an artwork?",
+      "action": "keep",
+      "note": "A focal point particularly attracts visual attention; it need not be at the exact geometric centre.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 16,
+      "prompt": "What is bilateral symmetry in a design?",
+      "action": "keep",
+      "note": "Bilateral symmetry involves reflection across an axis, not simply using the same colours or curves.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 17,
+      "prompt": "Which term describes a composition whose two sides are not mirror images?",
+      "action": "keep",
+      "note": "Asymmetrical describes absence of mirror symmetry, while allowing an asymmetrically balanced composition.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 18,
+      "prompt": "In art, what does composition mean?",
+      "action": "keep",
+      "note": "Composition is arrangement of visual elements, not the cost or visitor count.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 19,
+      "prompt": "What is negative space in a picture?",
+      "action": "edit",
+      "note": "Negative space is around/between forms. Negative does not mean aesthetically bad or necessarily dark.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.getty.edu/education/teachers/building_lessons/elements_art.pdf"
+      }
+    },
+    {
+      "row": 20,
+      "prompt": "What is linear perspective used to suggest in a flat picture?",
+      "action": "edit",
+      "note": "Linear perspective suggests recession/depth on a flat support; it is not a material-analysis method.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.nationalgallery.org.uk/paintings/glossary/perspective"
+      }
+    },
+    {
+      "row": 21,
+      "prompt": "In linear perspective, where do parallel lines receding into the distance appear to meet?",
+      "action": "edit",
+      "note": "Parallel lines with the same receding direction share a vanishing point in linear perspective; not every line in a multi-point perspective has the same one.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.nationalgallery.org.uk/paintings/glossary/perspective"
+      }
+    },
+    {
+      "row": 22,
+      "prompt": "What does a bird's-eye view show?",
+      "action": "keep",
+      "note": "Bird-eye means viewed from above, without requiring birds in the subject.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 23,
+      "prompt": "What does a worm's-eye view show?",
+      "action": "keep",
+      "note": "Worm-eye indicates a low viewpoint. It does not mean merely a reflection or a map.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 24,
+      "prompt": "If one painted object partly hides another, which usually appears nearer?",
+      "action": "edit",
+      "note": "Occlusion places the covering object in front. Usually allows unusual visual puzzles; replace nonsensical name-length distractor.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "answers": [
+          "The object doing the hiding",
+          "The partly hidden object",
+          "Both must appear at the same distance",
+          "The picture must have no depth"
+        ]
+      }
+    },
+    {
+      "row": 25,
+      "prompt": "What does foreshortening make a form pointing towards the viewer appear?",
+      "action": "keep",
+      "note": "Foreshortening represents compressed apparent length along a receding axis. It does not imply transparency or physical material change.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 26,
+      "prompt": "In colour terminology, what does hue identify?",
+      "action": "edit",
+      "note": "Hue is the basic colour family; Getty separates it from value and intensity. Improve distractors to other visual qualities.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "answers": [
+          "The basic colour family, such as red or blue",
+          "How light or dark a colour is",
+          "How rough a painted surface feels",
+          "How transparent a layer is"
+        ],
+        "sourceURL": "https://www.getty.edu/education/teachers/building_lessons/elements_art.pdf"
+      }
+    },
+    {
+      "row": 27,
+      "prompt": "In drawing and painting, what does value refer to?",
+      "action": "edit",
+      "note": "Value is lightness/darkness, rather than monetary price in this art context. Replace irrelevant distractors with colour properties.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "answers": [
+          "How light or dark a colour is",
+          "How transparent a colour is",
+          "Which colour family it belongs to",
+          "How rough the surface feels"
+        ],
+        "sourceURL": "https://www.getty.edu/education/teachers/building_lessons/elements_art.pdf"
+      }
+    },
+    {
+      "row": 28,
+      "prompt": "What does colour saturation describe?",
+      "action": "edit",
+      "note": "Saturation concerns chromatic intensity/purity, not canvas dimensions. Keep it distinct from hue and value.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.getty.edu/education/teachers/building_lessons/elements_art.pdf"
+      }
+    },
+    {
+      "row": 29,
+      "prompt": "In traditional paint-mixing terminology, how is a tint made?",
+      "action": "edit",
+      "note": "A tint is traditionally a hue mixed with white. Replace impossible canvas-removal distractors with real mixing operations.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "answers": [
+          "By adding white to a colour",
+          "By adding black to a colour",
+          "By adding the complementary colour",
+          "By mixing only black and grey"
+        ]
+      }
+    },
+    {
+      "row": 30,
+      "prompt": "In traditional paint-mixing terminology, how is a shade made?",
+      "action": "edit",
+      "note": "A shade is traditionally a hue mixed with black. Other darkening methods exist, but do not change this terminology question.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "answers": [
+          "By adding black to a colour",
+          "By adding white to a colour",
+          "By adding clear water only",
+          "By mixing only white and grey"
+        ]
+      }
+    },
+    {
+      "row": 31,
+      "prompt": "In a drawing, what does strong light-dark contrast create?",
+      "action": "edit",
+      "note": "Replace a self-defining contrast question with an applied comparison: black beside white gives the strongest listed lightness contrast.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "prompt": "Which pair gives the strongest contrast in lightness?",
+        "answers": [
+          "Black and white",
+          "Pale grey and light grey",
+          "Two identical shades of blue",
+          "Cream and ivory"
+        ],
+        "rationale": "Black and white sit at opposite ends of the lightness range; the other pairs have much closer values."
+      }
+    },
+    {
+      "row": 32,
+      "prompt": "Where are complementary colours positioned on a traditional colour wheel?",
+      "action": "edit",
+      "note": "Complementary hues oppose one another on the wheel. Adjacent hues are analogous, not complementary.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.getty.edu/education/teachers/building_lessons/elements_art.pdf"
+      }
+    },
+    {
+      "row": 33,
+      "prompt": "Where are analogous colours found on a colour wheel?",
+      "action": "edit",
+      "note": "Analogous hues are neighbours. Replace non-colour options with distinct wheel relationships.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "answers": [
+          "Next to or near each other",
+          "Opposite each other",
+          "Always separated by exactly half the wheel",
+          "At the same hue position only"
+        ]
+      }
+    },
+    {
+      "row": 34,
+      "prompt": "What does a monochromatic colour scheme use?",
+      "action": "keep",
+      "note": "A monochromatic scheme varies a single hue. It need not use only one exact paint mixture.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 35,
+      "prompt": "Which group is traditionally described as warm colours?",
+      "action": "keep",
+      "note": "Red/orange/yellow are the traditional warm group. The other named chromatic groups are cool and the neutral set is achromatic.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 36,
+      "prompt": "Which pair is generally described as cool in basic colour theory?",
+      "action": "keep",
+      "note": "Blue and blue-green are conventionally cool; the distractor pairs all lie on the warm side. Relative warm/cool uses in individual paintings do not change the basic-theory question.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 37,
+      "prompt": "On the traditional red-yellow-blue paint colour wheel, mixing red and blue gives which secondary colour?",
+      "action": "edit",
+      "note": "The traditional RYB model gives purple from red and blue. Explicit model qualification avoids promising the same result from arbitrary real pigments.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.getty.edu/education/teachers/building_lessons/elements_art.pdf"
+      }
+    },
+    {
+      "row": 38,
+      "prompt": "On the traditional red-yellow-blue paint colour wheel, mixing blue and yellow gives which secondary colour?",
+      "action": "edit",
+      "note": "The RYB model gives green from blue and yellow. It is separate from additive screen-light mixing.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.getty.edu/education/teachers/building_lessons/elements_art.pdf"
+      }
+    },
+    {
+      "row": 39,
+      "prompt": "Which set contains the primary colours in the traditional red-yellow-blue painting model?",
+      "action": "edit",
+      "note": "Replace the question that gives RYB in its own wording with recognition of a traditional primary paint colour among three secondaries.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "prompt": "Which of these is traditionally classed as a primary paint colour?",
+        "answers": [
+          "Blue",
+          "Orange",
+          "Green",
+          "Purple"
+        ],
+        "rationale": "In the traditional red-yellow-blue model used by artists, blue is primary; orange, green and purple are secondary.",
+        "sourceURL": "https://www.getty.edu/education/teachers/building_lessons/elements_art.pdf"
+      }
+    },
+    {
+      "row": 40,
+      "prompt": "In the traditional red-yellow-blue colour model, a secondary colour is formed by mixing what?",
+      "action": "edit",
+      "note": "Secondary colours combine two primaries in the specified RYB model. Clear varnish alone does not create another hue.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.getty.edu/education/teachers/building_lessons/elements_art.pdf"
+      }
+    },
+    {
+      "row": 41,
+      "prompt": "Which group contains only achromatic colours?",
+      "action": "keep",
+      "note": "Black/white/grey are achromatic. Brown and pink are chromatic despite sometimes being described informally as neutrals.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 42,
+      "prompt": "What type of pigment is ochre?",
+      "action": "edit",
+      "note": "Ochre is an earth pigment often yellow/brown, with red variants also possible. Improve wrong choices to pigment categories rather than picture hooks.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "answers": [
+          "An earth pigment often yellow or brown",
+          "A synthetic fluorescent pink dye",
+          "A metallic silver powder",
+          "A transparent colourless resin"
+        ],
+        "sourceURL": "https://www.nationalgallery.org.uk/podcast/colour-stories-brown"
+      }
+    },
+    {
+      "row": 43,
+      "prompt": "What is a pastel used for drawing?",
+      "action": "keep",
+      "note": "Pastels are pigment sticks with binder; oil and soft/hard types differ in binder. No single ingredient claim is imposed on all pastels.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 44,
+      "prompt": "Which medium is especially associated with transparent washes over white paper?",
+      "action": "keep",
+      "note": "Transparent watercolour washes over white paper are the identified medium. The three sculpture processes do not use painted paper washes.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 45,
+      "prompt": "Compared with traditional transparent watercolour, gouache is generally more what?",
+      "action": "edit",
+      "note": "Replace gouache opacity because the Hobbies bank already asks the same fact. New question: linseed oil is a common oil-paint binder, unlike gum arabic, egg yolk and beeswax.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "prompt": "Which of these is commonly used as a binder in artists' oil paint?",
+        "answers": [
+          "Linseed oil",
+          "Gum arabic",
+          "Egg yolk",
+          "Beeswax"
+        ],
+        "rationale": "Linseed oil is a common drying-oil binder. Gum arabic is associated with watercolour, egg yolk with tempera and beeswax with encaustic.",
+        "sourceURL": "https://www.nationalgallery.org.uk/technical-bulletin/white_pilc_kirby1998"
+      }
+    },
+    {
+      "row": 46,
+      "prompt": "What does impasto mean in painting?",
+      "action": "edit",
+      "note": "Impasto builds thick visible paint texture. Replace the frame distractor with another painting method.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "answers": [
+          "Paint applied thickly enough to leave texture",
+          "An extremely thin transparent glaze",
+          "A light pencil construction line",
+          "An outline cut into a printing plate"
+        ],
+        "sourceURL": "https://www.nationalgallery.org.uk/paintings/glossary/impasto"
+      }
+    },
+    {
+      "row": 47,
+      "prompt": "What is a glaze in painting?",
+      "action": "keep",
+      "note": "A painting glaze is a thin transparent/translucent paint layer modifying the layer beneath; distinguish from ceramic glaze.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 48,
+      "prompt": "What is a wash in watercolour painting?",
+      "action": "keep",
+      "note": "A watercolour wash is diluted paint applied across an area; it may be flat or graded, so do not require perfectly uniform tone.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 49,
+      "prompt": "What is an underpainting?",
+      "action": "keep",
+      "note": "Underpainting is the initial painted structure below subsequent layers, not a literal painting stored under furniture.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 50,
+      "prompt": "Which part of paint supplies its colour?",
+      "action": "edit",
+      "note": "Pigment supplies paint colour; the binder holds it. Improve options to actual paint components while retaining one correct answer.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "answers": [
+          "Pigment",
+          "Binder",
+          "Solvent",
+          "Drier"
+        ],
+        "sourceURL": "https://www.nationalgallery.org.uk/paintings/glossary/pigments"
+      }
+    },
+    {
+      "row": 51,
+      "prompt": "What is the binder in paint used to do?",
+      "action": "edit",
+      "note": "Binder holds coloured particles together; National Gallery definition confirms this role. Improve wrong options to other paint functions.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "answers": [
+          "Hold pigment particles together",
+          "Provide the coloured particles",
+          "Evaporate to leave a thinner paint film",
+          "Supply the canvas texture"
+        ],
+        "sourceURL": "https://www.nationalgallery.org.uk/paintings/glossary/binder"
+      }
+    },
+    {
+      "row": 52,
+      "prompt": "What is gesso commonly used for before painting?",
+      "action": "edit",
+      "note": "Gesso is a preparatory ground. Modern acrylic gesso differs from historic gypsum/glue but the shared purpose makes the wording sound.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.nationalgallery.org.uk/paintings/glossary/gesso"
+      }
+    },
+    {
+      "row": 53,
+      "prompt": "What material is a traditional artist's canvas made from?",
+      "action": "keep",
+      "note": "Canvas is woven fabric, often linen or cotton, rather than a rigid stone or metal support.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 54,
+      "prompt": "What is a canvas stretcher?",
+      "action": "keep",
+      "note": "A stretcher holds fabric taut; the question does not require every framework to use the same adjustment method.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 55,
+      "prompt": "What is a sketchbook mainly used to collect?",
+      "action": "keep",
+      "note": "Sketchbooks principally collect drawings/studies, while notes and pasted material are also possible. Mainly avoids overrestriction.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 56,
+      "prompt": "What is one common purpose of a final varnish on a painting?",
+      "action": "edit",
+      "note": "A suitable varnish can protect the paint surface. The wording says one common purpose because not all artworks are varnished.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.nationalgallery.org.uk/paintings/glossary/varnish"
+      }
+    },
+    {
+      "row": 57,
+      "prompt": "What is a mural?",
+      "action": "keep",
+      "note": "A mural occupies an architectural surface such as wall or ceiling. It is not restricted to outdoor walls.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 58,
+      "prompt": "In traditional buon fresco, paint is applied to what kind of plaster?",
+      "action": "edit",
+      "note": "Buon fresco uses fresh wet lime plaster. Rewrite the choices as actual painting supports instead of an impossible melted-plaster distractor.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "prompt": "Which surface is used for painting in traditional buon fresco?",
+        "answers": [
+          "Fresh, wet lime plaster",
+          "A dry wooden panel",
+          "Stretched linen canvas",
+          "A polished copper plate"
+        ],
+        "rationale": "Buon fresco applies pigment to fresh wet lime plaster; fresco secco works on dry plaster."
+      }
+    },
+    {
+      "row": 59,
+      "prompt": "What is trompe l'oeil intended to do?",
+      "action": "keep",
+      "note": "Trompe l oeil creates deceptive realistic depth/object appearances; it does not make a real sculpture invisible.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 60,
+      "prompt": "How many panels make up a diptych?",
+      "action": "keep",
+      "note": "Diptych is two associated panels. The word does not imply that the panels must always be hinged.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 61,
+      "prompt": "How many panels make up a triptych?",
+      "action": "keep",
+      "note": "Triptych is three associated panels, commonly a central panel and two wings.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 62,
+      "prompt": "In the phrase panel painting, what is the panel usually made from?",
+      "action": "keep",
+      "note": "Panel painting conventionally uses a wooden support. Usually allows exceptional modern terminology without implying wax is wood.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 63,
+      "prompt": "What is an illuminated manuscript?",
+      "action": "keep",
+      "note": "An illuminated manuscript is handwritten and decorated; illumination does not mean an electric light must be fitted.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 64,
+      "prompt": "What is calligraphy?",
+      "action": "edit",
+      "note": "Calligraphy is expressive/decorative handwriting. Improve alternatives to related visual crafts, none of which is writing.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "answers": [
+          "The art of expressive or decorative handwriting",
+          "Carving images in wood for printing",
+          "Arranging small tiles into pictures",
+          "Shaping clay into a hollow vessel"
+        ]
+      }
+    },
+    {
+      "row": 65,
+      "prompt": "What surface is carved to make a traditional woodcut printing block?",
+      "action": "edit",
+      "note": "Replace the word-answering woodcut/wood material question with the relief principle: raised uncut areas print, not recessed cut grooves.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "prompt": "In a traditional woodcut, which parts of the block usually print the image?",
+        "answers": [
+          "The raised, uncut areas",
+          "Only the grooves cut below the surface",
+          "Only the back of the block",
+          "Only the narrow outer edges"
+        ],
+        "rationale": "Woodcut is relief printing: ink on the raised surface transfers to paper while the cut-away areas remain unprinted.",
+        "sourceURL": "https://www.moma.org/collection/terms/woodcut"
+      }
+    },
+    {
+      "row": 66,
+      "prompt": "What material is cut to make a traditional linocut printing block?",
+      "action": "edit",
+      "note": "Linocut carves linoleum. Recast as technique identification among other printmaking processes for more coherent options.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "prompt": "Which printmaking technique uses a carved sheet of linoleum?",
+        "answers": [
+          "Linocut",
+          "Etching",
+          "Lithography",
+          "Screenprinting"
+        ],
+        "sourceURL": "https://www.moma.org/collection/terms/linoleum-cut"
+      }
+    },
+    {
+      "row": 67,
+      "prompt": "Traditional lithography begins with a design on which kind of surface?",
+      "action": "edit",
+      "note": "Traditional lithography uses a flat stone, commonly limestone. Modern plates explain why the prompt explicitly says traditional.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "answers": [
+          "A flat stone",
+          "A carved plank of wood",
+          "A mesh stretched on a frame",
+          "A copper plate with acid-bitten grooves"
+        ],
+        "sourceURL": "https://www.moma.org/collection/terms/lithography"
+      }
+    },
+    {
+      "row": 68,
+      "prompt": "In screenprinting, ink is pushed through what?",
+      "action": "edit",
+      "note": "Screenprinting forces ink through unblocked mesh. A solid sheet cannot transmit the ink as described.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.moma.org/collection/terms/screenprint"
+      }
+    },
+    {
+      "row": 69,
+      "prompt": "In printmaking, what is an edition?",
+      "action": "keep",
+      "note": "A print edition is a set of impressions of the same image. It is not merely a single print date or frame size.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 70,
+      "prompt": "What is a trial proof in printmaking?",
+      "action": "keep",
+      "note": "A trial proof is a test impression used to assess progress, not a receipt proving ticket purchase.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 71,
+      "prompt": "What is a relief sculpture?",
+      "action": "edit",
+      "note": "Relief projects from an attached background plane. It can be shallow or deep; the prompt does not limit relief height.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.moma.org/collection/terms/relief"
+      }
+    },
+    {
+      "row": 72,
+      "prompt": "A sculpture in the round is designed to be viewed how?",
+      "action": "keep",
+      "note": "In-the-round sculpture has multiple viewable sides, rather than being only a flat image. It need not be displayed so every side is physically accessible.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 73,
+      "prompt": "In sculpture, what does carving do?",
+      "action": "keep",
+      "note": "Carving subtracts material. Modelling/building up material is a different process.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 74,
+      "prompt": "In sculpture, what does modelling usually involve?",
+      "action": "keep",
+      "note": "Modelling shapes pliable material such as clay or wax and can build up form. The usually qualifier avoids a narrow additive-only claim.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 75,
+      "prompt": "What is an armature in sculpture?",
+      "action": "keep",
+      "note": "An armature is an internal support framework, not the external display base or final varnish.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 76,
+      "prompt": "What is a plinth used for when displaying a sculpture?",
+      "action": "keep",
+      "note": "A plinth is the display base/support for a sculpture, rather than an internal armature or finishing liquid.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 77,
+      "prompt": "What is a patina on a metal sculpture?",
+      "action": "keep",
+      "note": "Patina is a developed or intentionally made metal surface appearance. It is not transport packaging or a label.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 78,
+      "prompt": "Which of these is a natural stone traditionally used for carving statues?",
+      "action": "keep",
+      "note": "Marble is a natural stone used for sculpture; canvas and linoleum are different support/block materials and pencil lead is not a carving stone.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 79,
+      "prompt": "What does site-specific art mean?",
+      "action": "keep",
+      "note": "Site-specific art responds to a particular physical or contextual place. Site is not restricted to the internet.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 80,
+      "prompt": "What is installation art especially concerned with?",
+      "action": "edit",
+      "note": "Installation art organises elements and space into an experience. Replace mechanical/electrical-installation distractors with other art practices.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "answers": [
+          "Arranging elements to create an experience within a space",
+          "Painting a likeness of a sitter on one small panel",
+          "Printing a run of identical postal labels",
+          "Carving letters into a single gravestone"
+        ]
+      }
+    },
+    {
+      "row": 81,
+      "prompt": "In performance art, what is a central part of the artwork?",
+      "action": "edit",
+      "note": "Performance art uses actions by performers as part of the work. It may be recorded, so do not require an audience to be present live.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "answers": [
+          "Actions carried out by the artist or performers",
+          "The insurance value of a framed painting",
+          "The sales history of a printed book",
+          "The mineral composition of a stone plinth"
+        ]
+      }
+    },
+    {
+      "row": 82,
+      "prompt": "In conceptual art, what is often given particular importance?",
+      "action": "edit",
+      "note": "Conceptual art emphasises ideas. It does not require high prices, heavy frames or expensive pigments.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "answers": [
+          "The idea behind the work",
+          "The future auction price alone",
+          "The weight of the display frame alone",
+          "The cost of the paint alone"
+        ]
+      }
+    },
+    {
+      "row": 83,
+      "prompt": "What is public art generally intended for?",
+      "action": "keep",
+      "note": "Public art addresses a publicly accessible setting; government ownership and free entry are not required by this answer.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 84,
+      "prompt": "What is the main purpose of an art gallery?",
+      "action": "edit",
+      "note": "Art galleries exhibit artworks. Improve distractors to related art-production activities rather than boiler repair or sports.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "answers": [
+          "Displaying works of art",
+          "Manufacturing printing paper",
+          "Firing clay into ceramic objects",
+          "Producing canvas for artists to paint on"
+        ]
+      }
+    },
+    {
+      "row": 85,
+      "prompt": "What does an exhibition curator typically help do?",
+      "action": "edit",
+      "note": "Recast as role identification: curator selects/interprets an exhibition, distinct from framer, shipper and printmaker.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "prompt": "Which role typically selects and interprets works for an exhibition?",
+        "answers": [
+          "Curator",
+          "Picture framer",
+          "Art shipper",
+          "Printmaker"
+        ],
+        "rationale": "Curators select, research and interpret exhibition contents; the other named roles have different primary functions."
+      }
+    },
+    {
+      "row": 86,
+      "prompt": "What is an art conservator primarily concerned with?",
+      "action": "edit",
+      "note": "Conservators focus on preserving/caring for artworks. They are not principally auction price setters or newspaper critics.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "answers": [
+          "Caring for and preserving artworks",
+          "Setting estimates for an art auction",
+          "Reviewing exhibitions for a newspaper",
+          "Making reproductions for a gift shop"
+        ]
+      }
+    },
+    {
+      "row": 87,
+      "prompt": "What does an artwork's provenance describe?",
+      "action": "edit",
+      "note": "Provenance is ownership history. National Gallery definition directly supports this, distinct from stylistic attribution.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.nationalgallery.org.uk/paintings/glossary/provenance"
+      }
+    },
+    {
+      "row": 88,
+      "prompt": "What is a reproduction of a painting?",
+      "action": "edit",
+      "note": "A reproduction copies the painting image. Restoration, reframing and attribution are different operations.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "answers": [
+          "A copy of the painting's image",
+          "A treatment to repair the original surface",
+          "A new frame made for the original",
+          "An assessment of who made the original"
+        ]
+      }
+    },
+    {
+      "row": 89,
+      "prompt": "What does an exhibition catalogue usually contain?",
+      "action": "edit",
+      "note": "An exhibition catalogue documents works and artists. It can include essays and entries, not merely a ticket list.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "answers": [
+          "Information about the works and artists in the exhibition",
+          "Only the museum staff work rota",
+          "Only the bookshop sales receipts",
+          "Only the building heating instructions"
+        ]
+      }
+    },
+    {
+      "row": 90,
+      "prompt": "What is the window mount around a drawing or print?",
+      "action": "keep",
+      "note": "A window mount is a cut-out board surrounding the visible work. It is neither a rolled support nor an internal sculpture armature.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 91,
+      "prompt": "What normally surrounds a picture when it is framed?",
+      "action": "edit",
+      "note": "Replace the self-defining picture-frame border question with the practical function of glazing: protection against dust and accidental contact, without promising universal UV protection.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "prompt": "Why might a drawing be protected by glass when it is framed?",
+        "answers": [
+          "To help protect it from dust and accidental contact",
+          "To make every drawn line physically thicker",
+          "To prove the exact year in which it was drawn",
+          "To replace all faded pigments automatically"
+        ],
+        "rationale": "Glazing offers a physical protective barrier. It does not prove a date or restore faded colour; UV filtering depends on the glazing type."
+      }
+    },
+    {
+      "row": 92,
+      "prompt": "On a drawing made on a sheet of paper, recto usually refers to which side?",
+      "action": "keep",
+      "note": "Recto names the front/principal face of a sheet. It is not the cut edge or separate frame.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 93,
+      "prompt": "On a drawing made on a sheet of paper, verso usually refers to which side?",
+      "action": "keep",
+      "note": "Verso names the reverse. The front, cut edge and mount board are distinct.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 94,
+      "prompt": "What information is commonly included on a museum label beside a painting?",
+      "action": "edit",
+      "note": "Object labels commonly give maker, title and date, qualified when unknown. Replace inappropriate password distractor with ordinary unrelated museum information.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "answers": [
+          "The artist, title and date",
+          "The staff work rota",
+          "The building electricity bill",
+          "The stock numbers of shop souvenirs"
+        ]
+      }
+    },
+    {
+      "row": 95,
+      "prompt": "Why are some light-sensitive drawings displayed under low lighting?",
+      "action": "edit",
+      "note": "Low lighting reduces exposure that can fade sensitive media. It does not mean that a faded drawing will repair itself in the dark.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "answers": [
+          "To help limit fading and light damage",
+          "To let faded colours restore themselves automatically",
+          "To make all paper completely waterproof",
+          "To prevent every form of insect damage"
+        ],
+        "sourceURL": "https://www.vam.ac.uk/__data/assets/pdf_file/0007/178612/Environmental_control_for_object_display_April_2010.pdf"
+      }
+    },
+    {
+      "row": 96,
+      "prompt": "What is an artist's portfolio?",
+      "action": "keep",
+      "note": "A portfolio presents selected artwork and may be physical or digital. It need not contain every work ever produced.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 97,
+      "prompt": "What is an art commission?",
+      "action": "keep",
+      "note": "An art commission requests a particular new work. The word also has an agent-fee meaning, but the prompt explicitly identifies an art commission, and no fee-based alternative is offered.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 98,
+      "prompt": "What does an artist's statement usually explain?",
+      "action": "keep",
+      "note": "An artist statement describes intentions or practice, distinct from purely technical facilities instructions. It need not explain every possible interpretation.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 99,
+      "prompt": "What does an artist's signature on a work normally identify?",
+      "action": "keep",
+      "note": "A signature normally identifies claimed authorship. It does not prove authenticity or determine future prices.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer."
+    },
+    {
+      "row": 100,
+      "prompt": "In an art catalogue, what does attribution concern?",
+      "action": "edit",
+      "note": "Attribution identifies the proposed maker, with possible uncertainty. It differs from provenance ownership history.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "sourceReview": "Second author read of the prompt, all four options, answer uniqueness and art relevance. Stable art vocabulary checked against museum/educational references where accessible; not an independent reviewer.",
+      "recommendedChanges": {
+        "answers": [
+          "Who is believed to have made a work",
+          "Who owned it at every point in its history",
+          "How much its shipping crate weighs",
+          "How long visitors must queue to see it"
+        ],
+        "sourceURL": "https://www.nationalgallery.org.uk/paintings/glossary/attribution"
+      }
+    }
+  ]
+}
