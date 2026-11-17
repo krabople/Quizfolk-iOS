@@ -1,0 +1,2102 @@
+[
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which fitting allows a door to swing open while remaining attached to its frame?",
+    "answers": [
+      "A hinge",
+      "A latch",
+      "A handle",
+      "A keyhole"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/hinge",
+    "rationale": "A hinge provides the pivot; the other fittings serve different functions.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A hinge provides the pivot; the other fittings serve different functions.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-001"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which kind of lock is separate from a door and usually has a curved metal shackle?",
+    "answers": [
+      "A padlock",
+      "A deadbolt",
+      "A combination dial",
+      "A door latch"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/padlock",
+    "rationale": "A padlock is portable and closes its shackle through a fastening.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A padlock is portable and closes its shackle through a fastening.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-002"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which part of a book joins its front and back covers along the bound edge?",
+    "answers": [
+      "The spine",
+      "The foreword",
+      "The margin",
+      "The bookmark"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/spine",
+    "rationale": "The spine covers the bound edge; the others are text or separate features.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "The spine covers the bound edge; the others are text or separate features.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-003"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "In a printed book, where would you normally look for an alphabetical list of subjects and their page numbers?",
+    "answers": [
+      "The index",
+      "The dedication",
+      "The title page",
+      "The foreword"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/index",
+    "rationale": "An index points to pages by subject; the other sections do not.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "An index points to pages by subject; the other sections do not.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-004"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which reference book is primarily a collection of maps?",
+    "answers": [
+      "An atlas",
+      "A thesaurus",
+      "A dictionary",
+      "An almanac"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/atlas",
+    "rationale": "An atlas is a map collection; an almanac may include maps but is not primarily one.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "An atlas is a map collection; an almanac may include maps but is not primarily one.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-005"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which reference book would be most useful for finding synonyms?",
+    "answers": [
+      "A thesaurus",
+      "An atlas",
+      "A timetable",
+      "A telephone directory"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/thesaurus",
+    "rationale": "A thesaurus groups words with similar meanings.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A thesaurus groups words with similar meanings.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-006"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "A list explaining specialist words at the end of a guide is called what?",
+    "answers": [
+      "A glossary",
+      "A contents page",
+      "A dedication",
+      "An itinerary"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/glossary",
+    "rationale": "A glossary explains terms, whereas a contents page locates sections.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A glossary explains terms, whereas a contents page locates sections.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-007"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What is a written list of the books and other sources used for a piece of work called?",
+    "answers": [
+      "A bibliography",
+      "A biography",
+      "An autobiography",
+      "A chronology"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/bibliography",
+    "rationale": "A bibliography lists sources; the other terms describe lives or time order.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A bibliography lists sources; the other terms describe lives or time order.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-008"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which document usually lists the subjects to be discussed at a meeting?",
+    "answers": [
+      "An agenda",
+      "A receipt",
+      "A certificate",
+      "A passport"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/agenda",
+    "rationale": "An agenda states planned meeting business.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "An agenda states planned meeting business.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-009"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What are the official written records of what happened at a meeting usually called?",
+    "answers": [
+      "Minutes",
+      "Footnotes",
+      "Captions",
+      "Headlines"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/minutes",
+    "rationale": "Minutes record meeting proceedings rather than merely naming topics.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Minutes record meeting proceedings rather than merely naming topics.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-010"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which standard page-orientation name describes a photograph printed taller than it is wide?",
+    "answers": [
+      "Portrait",
+      "Landscape",
+      "Panoramic",
+      "Square"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.adobe.com/uk/creativecloud/photography/discover/portrait-vs-landscape.html",
+    "rationale": "Portrait is vertical; landscape is wider than tall and square has equal sides.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Portrait is vertical; landscape is wider than tall and square has equal sides.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-011"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which word describes a line that runs level from side to side?",
+    "answers": [
+      "Horizontal",
+      "Vertical",
+      "Diagonal",
+      "Curved"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/horizontal",
+    "rationale": "Horizontal means level; it does not slope or stand upright.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Horizontal means level; it does not slope or stand upright.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-012"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What do we call a name that an author uses instead of their real name?",
+    "answers": [
+      "A pseudonym",
+      "A patronymic",
+      "A birth name",
+      "A surname suffix"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/pseudonym",
+    "rationale": "A pseudonym is an assumed name, not an address or descriptive label.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A pseudonym is an assumed name, not an address or descriptive label.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-013"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "If a donation is anonymous, what is not made public?",
+    "answers": [
+      "The donor’s identity",
+      "The amount donated",
+      "The date of the donation",
+      "The name of the receiving charity"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/anonymous",
+    "rationale": "Anonymous describes the concealed or unknown identity of the giver.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Anonymous describes the concealed or unknown identity of the giver.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-014"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What is a celebrity’s handwritten signature, kept by a fan, commonly called?",
+    "answers": [
+      "An autograph",
+      "A monogram",
+      "A watermark",
+      "A footnote"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/autograph",
+    "rationale": "An autograph is the sought-after signature; the alternatives are different marks.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "An autograph is the sought-after signature; the alternatives are different marks.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-015"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What is the short text beneath a photograph that explains the picture called?",
+    "answers": [
+      "A caption",
+      "A headline",
+      "A postcode",
+      "A signature tune"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/caption",
+    "rationale": "A caption accompanies an image; a headline normally titles a story.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A caption accompanies an image; a headline normally titles a story.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-016"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which term means the first letters of a person’s names?",
+    "answers": [
+      "Initials",
+      "Syllables",
+      "Nicknames",
+      "Pronouns"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/initial",
+    "rationale": "Initials are the first letters, not full alternative names or word parts.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Initials are the first letters, not full alternative names or word parts.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-017"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What is a note placed at the bottom of a printed page called?",
+    "answers": [
+      "A footnote",
+      "A foreword",
+      "A headline",
+      "An appendix"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/footnote",
+    "rationale": "A footnote appears at the foot of a page; an appendix is a separate section.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A footnote appears at the foot of a page; an appendix is a separate section.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-018"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What does an abbreviation do to a word or phrase?",
+    "answers": [
+      "Makes it shorter",
+      "Lists its synonyms",
+      "Explains its meaning",
+      "Changes it into its plural form"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/abbreviation",
+    "rationale": "An abbreviation is a shortened written form.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "An abbreviation is a shortened written form.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-019"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which word describes events arranged in the order in which they happened?",
+    "answers": [
+      "Chronological",
+      "Alphabetical",
+      "Random",
+      "Geographical"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/chronological",
+    "rationale": "Chronology orders events by time rather than spelling or place.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Chronology orders events by time rather than spelling or place.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-020"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What is a planned route or schedule for a journey called?",
+    "answers": [
+      "An itinerary",
+      "An inventory",
+      "An invoice",
+      "An index"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/itinerary",
+    "rationale": "An itinerary organises travel stages; the similar-looking alternatives have other meanings.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "An itinerary organises travel stages; the similar-looking alternatives have other meanings.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-021"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What is a small object kept as a reminder of a place visited called?",
+    "answers": [
+      "A souvenir",
+      "A deposit",
+      "A passport",
+      "A receipt number"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/souvenir",
+    "rationale": "A souvenir is a keepsake of a visit.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A souvenir is a keepsake of a visit.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-022"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "In UK train travel, what does a return ticket normally cover?",
+    "answers": [
+      "An outward journey and a journey back",
+      "Only an outward journey",
+      "Travel for an unlimited number of people",
+      "A seat on every train for a year"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/return-ticket",
+    "rationale": "A return ticket covers travel out and back, subject to its stated conditions.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A return ticket covers travel out and back, subject to its stated conditions.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-023"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "At an airport, where do passengers usually collect luggage carried in the aircraft’s hold?",
+    "answers": [
+      "Baggage reclaim",
+      "The departure gate",
+      "The cockpit",
+      "The check-in desk"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/baggage-reclaim",
+    "rationale": "Baggage reclaim is the collection area after arrival.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Baggage reclaim is the collection area after arrival.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-024"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What does a hotel concierge especially help guests with?",
+    "answers": [
+      "Local information and arrangements",
+      "Repairing the hotel’s plumbing",
+      "Preparing the hotel’s accounts",
+      "Inspecting the building’s structure"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/concierge",
+    "rationale": "A concierge assists guests with services and local arrangements.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A concierge assists guests with services and local arrangements.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-025"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which word describes the place where a journey ends?",
+    "answers": [
+      "Destination",
+      "Departure",
+      "Detour",
+      "Transit"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/destination",
+    "rationale": "The destination is the intended endpoint, not the starting act or alternate route.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "The destination is the intended endpoint, not the starting act or alternate route.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-026"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What is a detour?",
+    "answers": [
+      "An alternative, often less direct route",
+      "A journey without a destination",
+      "A cancelled travel reservation",
+      "The maximum speed of a vehicle"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/detour",
+    "rationale": "A detour is an alternative, often longer, route around an obstruction.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A detour is an alternative, often longer, route around an obstruction.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-027"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "A ferry mainly carries people or vehicles across what?",
+    "answers": [
+      "Water",
+      "Underground tunnels",
+      "Desert dunes",
+      "Mountain cableways"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/ferry",
+    "rationale": "A ferry is a water transport service; the other routes use different systems.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A ferry is a water transport service; the other routes use different systems.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-028"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What is the landing place beside water where boats can tie up called?",
+    "answers": [
+      "A quay",
+      "A runway",
+      "A platform edge",
+      "A motorway junction"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.collinsdictionary.com/dictionary/english/quay",
+    "rationale": "A quay is built alongside water for vessels to load or moor.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A quay is built alongside water for vessels to load or moor.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-029"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "In a theatre, what is the passage between rows or blocks of seats called?",
+    "answers": [
+      "An aisle",
+      "A balcony",
+      "A stage",
+      "A curtain"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/aisle",
+    "rationale": "An aisle provides access between seating rather than being a performance area.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "An aisle provides access between seating rather than being a performance area.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-030"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which professional designs buildings and plans how they will look and function?",
+    "answers": [
+      "An architect",
+      "An archaeologist",
+      "An astronomer",
+      "An auctioneer"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/architect",
+    "rationale": "Architecture concerns building design; the similar-sounding jobs do not.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Architecture concerns building design; the similar-sounding jobs do not.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-031"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which tradesperson normally repairs leaking water pipes in a home?",
+    "answers": [
+      "A plumber",
+      "A glazier",
+      "A locksmith",
+      "A roofer"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/plumber",
+    "rationale": "Plumbing covers water pipes; the others specialise in glass, locks or roofs.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Plumbing covers water pipes; the others specialise in glass, locks or roofs.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-032"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What does a glazier work with?",
+    "answers": [
+      "Glass",
+      "Roof tiles",
+      "Electrical cables",
+      "Water pipes"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/glazier",
+    "rationale": "A glazier fits and repairs glass.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A glazier fits and repairs glass.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-033"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What is a locksmith’s main area of work?",
+    "answers": [
+      "Locks and keys",
+      "Windows and mirrors",
+      "Carpets and curtains",
+      "Pipes and drains"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/locksmith",
+    "rationale": "The occupation centres on locks and their keys.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "The occupation centres on locks and their keys.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-034"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which document summarises a job applicant’s skills, qualifications and experience?",
+    "answers": [
+      "A CV",
+      "A boarding pass",
+      "A receipt",
+      "A weather chart"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/cv",
+    "rationale": "A CV summarises suitability for employment rather than recording travel or purchases.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A CV summarises suitability for employment rather than recording travel or purchases.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-035"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What is a job vacancy?",
+    "answers": [
+      "A position for which an employer needs someone",
+      "An employee’s annual holiday allowance",
+      "A company’s completed sales order",
+      "A worker’s retirement party"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/vacancy",
+    "rationale": "A vacancy is an unfilled position.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A vacancy is an unfilled position.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-036"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "In a standard auction, what is an offer of a particular price called?",
+    "answers": [
+      "A bid",
+      "A dividend",
+      "A wage",
+      "A receipt"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/bid",
+    "rationale": "Bidders offer prices; the other financial terms are not offers at auction.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Bidders offer prices; the other financial terms are not offers at auction.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-037"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What is a receipt normally evidence of?",
+    "answers": [
+      "A payment having been made",
+      "A job interview being scheduled",
+      "A passport being issued",
+      "A journey being cancelled"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/receipt",
+    "rationale": "A receipt acknowledges a completed payment.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A receipt acknowledges a completed payment.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-038"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which document requests payment for goods or services supplied?",
+    "answers": [
+      "An invoice",
+      "A boarding pass",
+      "A birth certificate",
+      "An itinerary"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/invoice",
+    "rationale": "An invoice states the amount due for goods or services.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "An invoice states the amount due for goods or services.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-039"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What does receiving a refund mean?",
+    "answers": [
+      "Getting money paid back",
+      "Paying the same bill a second time",
+      "Borrowing money at interest",
+      "Giving someone a tip"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/refund",
+    "rationale": "A refund returns previously paid money.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A refund returns previously paid money.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-040"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "A bicentenary celebrates how many years since an event?",
+    "answers": [
+      "200",
+      "20",
+      "100",
+      "2,000"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/bicentenary",
+    "rationale": "Bi- indicates two centuries; the alternatives give different anniversaries.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Bi- indicates two centuries; the alternatives give different anniversaries.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-041"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "A decade is a period of how many years?",
+    "answers": [
+      "Ten",
+      "Twelve",
+      "Twenty",
+      "One hundred"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/decade",
+    "rationale": "A decade is ten years.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A decade is ten years.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-042"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which term means a period of one thousand years?",
+    "answers": [
+      "Millennium",
+      "Century",
+      "Decade",
+      "Fortnight"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/millennium",
+    "rationale": "A millennium contains a thousand years, unlike the shorter periods.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A millennium contains a thousand years, unlike the shorter periods.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-043"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "When talking about time, a century contains how many years?",
+    "answers": [
+      "100",
+      "50",
+      "500",
+      "1,000"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/century",
+    "rationale": "The time meaning is fixed at one hundred years.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "The time meaning is fixed at one hundred years.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-044"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which month immediately follows September?",
+    "answers": [
+      "October",
+      "August",
+      "November",
+      "December"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/september",
+    "rationale": "The Gregorian calendar places October directly after September.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "The Gregorian calendar places October directly after September.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-045"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "In the Gregorian calendar, which month has an extra day in a leap year?",
+    "answers": [
+      "February",
+      "April",
+      "June",
+      "September"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/leap-year",
+    "rationale": "The extra leap day is 29 February.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "The extra leap day is 29 February.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-046"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What is the usual name for a clock face with moving hands?",
+    "answers": [
+      "An analogue display",
+      "A digital display",
+      "A barcode display",
+      "A text-only display"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/analogue",
+    "rationale": "Analogue clocks represent time with hand positions; digital clocks use numerals.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Analogue clocks represent time with hand positions; digital clocks use numerals.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-047"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "On a conventional clock face, which hand usually takes one hour to make a complete turn?",
+    "answers": [
+      "The minute hand",
+      "The hour hand",
+      "The second hand",
+      "All three hands"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/minute-hand",
+    "rationale": "The minute hand completes its cycle in sixty minutes.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "The minute hand completes its cycle in sixty minutes.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-048"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What does the word annual mean when describing an event?",
+    "answers": [
+      "Happening once a year",
+      "Happening once a month",
+      "Happening every day",
+      "Happening every ten years"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/annual",
+    "rationale": "Annual events recur yearly; the distractors give other intervals.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Annual events recur yearly; the distractors give other intervals.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-049"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "An event described as weekly happens how often?",
+    "answers": [
+      "Once a week",
+      "Twice a year",
+      "Once a month",
+      "Every two days"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/weekly",
+    "rationale": "Weekly denotes a seven-day recurrence.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Weekly denotes a seven-day recurrence.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-050"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which metric unit is commonly used for the length of a room?",
+    "answers": [
+      "Metre",
+      "Litre",
+      "Kilogram",
+      "Second"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.npl.co.uk/resources/the-si-units/metre",
+    "rationale": "The metre measures length; the other units measure volume, mass or time.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "The metre measures length; the other units measure volume, mass or time.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-051"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "The letters kg stand for which unit?",
+    "answers": [
+      "Kilogram",
+      "Kilometre",
+      "Kilowatt",
+      "Kilolitre"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.npl.co.uk/resources/the-si-units/kilogram",
+    "rationale": "kg is the SI mass-unit symbol.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "kg is the SI mass-unit symbol.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-052"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which metric unit would usually describe how much liquid a bottle can hold?",
+    "answers": [
+      "Litre",
+      "Metre",
+      "Gram",
+      "Degree"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://usma.org/basics",
+    "rationale": "A litre measures volume rather than length, mass or angle.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A litre measures volume rather than length, mass or angle.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-053"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "In metric measurements, what does the prefix kilo- mean?",
+    "answers": [
+      "One thousand",
+      "One hundred",
+      "One tenth",
+      "One million"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-4-two-classes-si-units-and-si-prefixes",
+    "rationale": "Kilo- is the factor 10 cubed.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Kilo- is the factor 10 cubed.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-054"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which symbol means centimetres?",
+    "answers": [
+      "cm",
+      "km",
+      "kg",
+      "ml"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://usma.org/basics",
+    "rationale": "cm is centimetres; km is kilometres and the other symbols concern mass or volume.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "cm is centimetres; km is kilometres and the other symbols concern mass or volume.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-055"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which of these amounts is a quarter?",
+    "answers": [
+      "One out of four equal parts",
+      "One out of two equal parts",
+      "One out of three equal parts",
+      "One out of five equal parts"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/quarter",
+    "rationale": "A quarter is one fourth, with equal parts specified.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A quarter is one fourth, with equal parts specified.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-056"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What does a percentage express?",
+    "answers": [
+      "An amount out of one hundred",
+      "An amount out of twelve",
+      "An amount out of sixty",
+      "An amount out of one thousand"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/percentage",
+    "rationale": "Percent denotes hundredths.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Percent denotes hundredths.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-057"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which word means a group of two matching or associated items?",
+    "answers": [
+      "Pair",
+      "Trio",
+      "Quartet",
+      "Dozen"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/pair",
+    "rationale": "A pair has two items; the other terms specify different counts.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A pair has two items; the other terms specify different counts.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-058"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "A trio contains how many members?",
+    "answers": [
+      "Three",
+      "Two",
+      "Four",
+      "Five"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/trio",
+    "rationale": "Trio names a group of three.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Trio names a group of three.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-059"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which shape is named for its eight sides?",
+    "answers": [
+      "Octagon",
+      "Hexagon",
+      "Pentagon",
+      "Triangle"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/octagon",
+    "rationale": "Octagons have eight straight sides; the alternatives have six, five and three.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Octagons have eight straight sides; the alternatives have six, five and three.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-060"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What does the key or legend on a map explain?",
+    "answers": [
+      "The meaning of its symbols",
+      "The owner’s handwriting",
+      "The date of every journey",
+      "The weight of the paper"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.thebmc.co.uk/en/navigation-map-basics",
+    "rationale": "Map legends decode symbols; the alternative information is not their purpose.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Map legends decode symbols; the alternative information is not their purpose.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-061"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "On a height map, contour lines connect places with equal what?",
+    "answers": [
+      "Elevation",
+      "Population",
+      "Rainfall for the day",
+      "Road width"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.thebmc.co.uk/en/navigation-map-basics",
+    "rationale": "Contours join equal heights; weather isolines are different types of lines.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Contours join equal heights; weather isolines are different types of lines.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-062"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "If contour lines are very close together, what does that usually indicate?",
+    "answers": [
+      "A steep slope",
+      "A flat plain",
+      "A wider road",
+      "A larger lake"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.thebmc.co.uk/en/navigation-map-basics",
+    "rationale": "Closely spaced height changes indicate steep terrain.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Closely spaced height changes indicate steep terrain.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-063"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "The scale on a map compares map distances with what?",
+    "answers": [
+      "Distances on the ground",
+      "The age of the mapmaker",
+      "The number of symbols",
+      "The number of towns shown"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.thebmc.co.uk/en/navigation-map-basics",
+    "rationale": "Scale is the ratio of drawn distance to actual distance.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Scale is the ratio of drawn distance to actual distance.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-064"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which direction lies halfway between north and east on a compass?",
+    "answers": [
+      "Northeast",
+      "Northwest",
+      "Southeast",
+      "Southwest"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/northeast",
+    "rationale": "Northeast is the intercardinal direction between north and east.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Northeast is the intercardinal direction between north and east.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-065"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which direction is opposite west?",
+    "answers": [
+      "East",
+      "North",
+      "South",
+      "Northwest"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/east",
+    "rationale": "East and west are opposite compass directions.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "East and west are opposite compass directions.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-066"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which imaginary line has a latitude of zero degrees?",
+    "answers": [
+      "The equator",
+      "The prime meridian",
+      "The Arctic Circle",
+      "The Tropic of Cancer"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://oceanservice.noaa.gov/facts/latitude.html",
+    "rationale": "The equator is zero latitude; the meridian concerns longitude.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "The equator is zero latitude; the meridian concerns longitude.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-067"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Longitude describes how far a location is east or west of what?",
+    "answers": [
+      "The prime meridian",
+      "The equator",
+      "The North Pole",
+      "The Tropic of Capricorn"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://oceanservice.noaa.gov/facts/longitude.html",
+    "rationale": "Longitude is measured relative to a reference meridian, not latitude circles.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Longitude is measured relative to a reference meridian, not latitude circles.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-068"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "In the NATO spelling alphabet, which word represents the letter B?",
+    "answers": [
+      "Bravo",
+      "Beta",
+      "Baker",
+      "Berlin"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.nato.int/en/news-and-events/articles/news/2017/12/21/nato-phonetic-alphabet-codes-and-signals",
+    "rationale": "Bravo is the standard code word; Baker belongs to older systems.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Bravo is the standard code word; Baker belongs to older systems.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-069"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which word represents the letter Z in the NATO spelling alphabet?",
+    "answers": [
+      "Zulu",
+      "Zebra",
+      "Zero",
+      "Zinc"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.nato.int/en/about-us/nato-history/history-by-theme/symbols-of-nato/nato-phonetic-alphabet",
+    "rationale": "Zulu is the code word for Z.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Zulu is the code word for Z.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-070"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What is the room just inside the main entrance of a hotel or theatre often called?",
+    "answers": [
+      "The foyer",
+      "The attic",
+      "The cellar",
+      "The pantry"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/foyer",
+    "rationale": "A foyer is an entrance hall; the other rooms have different positions or uses.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A foyer is an entrance hall; the other rooms have different positions or uses.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-071"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What is a room immediately beneath a building’s roof commonly called?",
+    "answers": [
+      "An attic",
+      "A cellar",
+      "A porch",
+      "A basement"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/attic",
+    "rationale": "An attic is under the roof; basements and cellars are below ground.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "An attic is under the roof; basements and cellars are below ground.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-072"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "A building’s façade is principally which part?",
+    "answers": [
+      "Its front face",
+      "Its foundations",
+      "Its roof cavity",
+      "Its basement floor"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/facade",
+    "rationale": "Facade refers to the exterior face, especially the front.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Facade refers to the exterior face, especially the front.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-073"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which word describes a roofed structure over or around an entrance?",
+    "answers": [
+      "Porch",
+      "Cellar",
+      "Chimney",
+      "Skylight"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/porch",
+    "rationale": "A porch shelters the entrance, unlike the other structures.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A porch shelters the entrance, unlike the other structures.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-074"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What is a window set into a roof called?",
+    "answers": [
+      "A skylight",
+      "A skirting board",
+      "A mantelpiece",
+      "A doorframe"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/skylight",
+    "rationale": "A skylight admits light through the roof.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A skylight admits light through the roof.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-075"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What is a statue or structure built to remember an important person or event called?",
+    "answers": [
+      "A monument",
+      "A warehouse",
+      "A workshop",
+      "A tollbooth"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/monument",
+    "rationale": "A monument commemorates; the other buildings have utilitarian purposes.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A monument commemorates; the other buildings have utilitarian purposes.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-076"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which place is used to display and preserve objects of historical, artistic or scientific interest?",
+    "answers": [
+      "A museum",
+      "A depot",
+      "A factory",
+      "A reservoir"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/museum",
+    "rationale": "Museums preserve and interpret collections; the distractors serve other functions.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Museums preserve and interpret collections; the distractors serve other functions.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-077"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What is a collection of documents kept for their historical value called?",
+    "answers": [
+      "An archive",
+      "An itinerary",
+      "A forecast",
+      "A timetable"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.collinsdictionary.com/dictionary/english/archive",
+    "rationale": "An archive preserves records; the other documents plan travel or predict events.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "An archive preserves records; the other documents plan travel or predict events.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-078"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What is the ceremony of a monarch receiving a crown called?",
+    "answers": [
+      "A coronation",
+      "A graduation",
+      "An inauguration ball",
+      "A christening"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/coronation",
+    "rationale": "Coronation specifically concerns crowning; inauguration alone need not involve a crown.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Coronation specifically concerns crowning; inauguration alone need not involve a crown.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-079"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What is a person who gives their time to help without being paid called?",
+    "answers": [
+      "A volunteer",
+      "A tenant",
+      "A debtor",
+      "A customer"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/volunteer",
+    "rationale": "A volunteer freely contributes unpaid work.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A volunteer freely contributes unpaid work.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-080"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which device projects a beam of light through a transparent image onto a screen?",
+    "answers": [
+      "A slide projector",
+      "A document shredder",
+      "A laminator",
+      "A photocopier"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/slide-projector",
+    "rationale": "A slide projector enlarges a transparent image by projection.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A slide projector enlarges a transparent image by projection.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-081"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What is a watermark in a sheet of traditional paper?",
+    "answers": [
+      "A design visible when the paper is held to light",
+      "A stain made by every raindrop",
+      "The printer’s ink colour",
+      "A fold at the corner"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/watermark",
+    "rationale": "The intended paper design is revealed by transmitted light, not accidental staining.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "The intended paper design is revealed by transmitted light, not accidental staining.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-082"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What is a stencil used for?",
+    "answers": [
+      "Repeating a design through cut-out openings",
+      "Measuring air pressure",
+      "Binding pages with thread",
+      "Sharpening the edge of a blade"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/stencil",
+    "rationale": "Paint or another marking medium passes through the template openings.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Paint or another marking medium passes through the template openings.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-083"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What is a template?",
+    "answers": [
+      "A pattern used as a guide for making something",
+      "A payment returned to a customer",
+      "A list of train departures",
+      "A sealed envelope"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/template",
+    "rationale": "Templates guide repeated shapes or formats.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Templates guide repeated shapes or formats.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-084"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What is a mosaic made from?",
+    "answers": [
+      "Small pieces arranged to form a picture or pattern",
+      "One unbroken sheet of clear glass only",
+      "A single pencil line with no breaks",
+      "A recording of overlapping voices"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/mosaic",
+    "rationale": "Mosaics assemble separate pieces, commonly tile, stone or glass.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Mosaics assemble separate pieces, commonly tile, stone or glass.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-085"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which word describes a surface you can see clearly through?",
+    "answers": [
+      "Transparent",
+      "Opaque",
+      "Rough",
+      "Magnetic"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/transparent",
+    "rationale": "Transparency permits clear viewing; opaque blocks it.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Transparency permits clear viewing; opaque blocks it.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-086"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which word describes a surface that does not let light pass through?",
+    "answers": [
+      "Opaque",
+      "Transparent",
+      "Translucent",
+      "Clear"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/opaque",
+    "rationale": "Opaque means no transmitted light; reflectivity alone does not determine transmission.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Opaque means no transmitted light; reflectivity alone does not determine transmission.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-087"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What is the hollow channel in a building that carries smoke up from a fireplace?",
+    "answers": [
+      "A chimney",
+      "A gutter",
+      "A drainpipe",
+      "A skirting board"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/chimney",
+    "rationale": "A chimney carries combustion smoke; gutters and pipes carry water.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A chimney carries combustion smoke; gutters and pipes carry water.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-088"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What is a gutter along the edge of a roof designed to collect?",
+    "answers": [
+      "Rainwater",
+      "Smoke",
+      "Electrical current",
+      "Fresh air for the fireplace"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/gutter",
+    "rationale": "Gutters collect roof runoff.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Gutters collect roof runoff.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-089"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which fastening joins two rows of interlocking teeth using a sliding tab?",
+    "answers": [
+      "A zip",
+      "A buckle",
+      "A button",
+      "A hook-and-eye"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/zip",
+    "rationale": "A zip interlocks teeth through a slider; the other fasteners lack that mechanism.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A zip interlocks teeth through a slider; the other fasteners lack that mechanism.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-090"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "When information is arranged alphabetically, what determines its order?",
+    "answers": [
+      "The spelling of the entries",
+      "Their dates of creation",
+      "Their physical sizes",
+      "Their prices"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/alphabetical",
+    "rationale": "Alphabetical order follows letter sequence.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Alphabetical order follows letter sequence.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-091"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What does a checklist help someone do?",
+    "answers": [
+      "Confirm each required item or task has been considered",
+      "Show an event’s starting time only",
+      "Describe a completed journey in prose",
+      "Arrange words by their spelling"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/checklist",
+    "rationale": "A checklist supports systematic checking rather than prediction or measurement.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A checklist supports systematic checking rather than prediction or measurement.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-092"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "Which word means a list of items currently held in stock?",
+    "answers": [
+      "Inventory",
+      "Itinerary",
+      "Autobiography",
+      "Forecast"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/inventory",
+    "rationale": "Inventory lists possessions or stock; an itinerary concerns a journey.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Inventory lists possessions or stock; an itinerary concerns a journey.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-093"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "In a competition, what is a tie?",
+    "answers": [
+      "Two or more competitors finishing level",
+      "A competitor leaving before the start",
+      "The cancellation of all entries",
+      "A guaranteed first-place finish"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/tie",
+    "rationale": "A tie is an equal result, not a withdrawal or cancellation.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A tie is an equal result, not a withdrawal or cancellation.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-094"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What is a rehearsal?",
+    "answers": [
+      "A practice session before a performance",
+      "A review written after a show",
+      "The final curtain call",
+      "A ticket refund"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/rehearsal",
+    "rationale": "Rehearsals prepare a performance; the other actions occur afterward or concern tickets.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Rehearsals prepare a performance; the other actions occur afterward or concern tickets.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-095"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What does RSVP on an invitation ask the recipient to do?",
+    "answers": [
+      "Reply",
+      "Bring an additional guest automatically",
+      "Wear a uniform",
+      "Arrive before the stated time"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/rsvp",
+    "rationale": "RSVP requests a response, not any specific dress or extra guest.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "RSVP requests a response, not any specific dress or extra guest.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-096"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What is a queue?",
+    "answers": [
+      "A line of people or things waiting their turn",
+      "A random scattering of items",
+      "A circle with no beginning",
+      "A list ordered by price only"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/queue",
+    "rationale": "A queue is an ordered waiting line.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A queue is an ordered waiting line.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-097"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What is a group photograph taken by the photographer using a camera aimed at themselves commonly called?",
+    "answers": [
+      "A group selfie",
+      "A passport scan",
+      "An aerial survey",
+      "A silhouette tracing"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/selfie",
+    "rationale": "The photographer being in the self-taken image makes it a selfie.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "The photographer being in the self-taken image makes it a selfie.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-098"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What does the term second-hand mean when describing a product for sale?",
+    "answers": [
+      "Previously owned or used",
+      "Made exactly two hours ago",
+      "Delivered by two people",
+      "Sold only in pairs"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/second-hand",
+    "rationale": "Second-hand describes prior ownership or use.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "Second-hand describes prior ownership or use.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-099"
+  },
+  {
+    "categoryID": "9",
+    "difficulty": "easy",
+    "prompt": "What is a copy made to closely reproduce an original object called?",
+    "answers": [
+      "A replica",
+      "A forecast",
+      "An invoice",
+      "An archive"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/replica",
+    "rationale": "A replica reproduces an original object; the other terms do not.",
+    "authorReview": {
+      "meaning": "The prompt asks one concrete everyday-knowledge question.",
+      "answer": "A replica reproduces an original object; the other terms do not.",
+      "grammar": "Read the prompt and all four choices individually; they agree grammatically and contain no ambiguous pronouns.",
+      "category": "General knowledge: everyday objects, public life, maps, time, measurements or communication."
+    },
+    "draftID": "easy-9-100"
+  }
+]

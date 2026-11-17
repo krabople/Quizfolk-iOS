@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "ed5b4a3a909f741b5abe",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which substance do female mammals produce to feed their young?",
+    "answers": [
+      "Milk",
+      "Nectar",
+      "Silk",
+      "Venom"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/mammals",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "835d79ebafbca3206351",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which mammals can sustain powered flight rather than merely glide?",
+    "answers": [
+      "Flying squirrels",
+      "Sugar gliders",
+      "Colugos",
+      "Bats"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/bat",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "4e293d805d34e00cbd49",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which is the largest living animal by mass?",
+    "answers": [
+      "The whale shark",
+      "The giraffe",
+      "The blue whale",
+      "The African elephant"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.fisheries.noaa.gov/species/blue-whale",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "e43735bf092149533a8b",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "A bottlenose dolphin belongs to which animal group?",
+    "answers": [
+      "Amphibians",
+      "Mammals",
+      "Fish",
+      "Reptiles"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.fisheries.noaa.gov/species/common-bottlenose-dolphin",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "ed863ac0fe2bc9dc4aa6",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "A dolphin comes to the surface to take in air through what?",
+    "answers": [
+      "Its blowhole",
+      "Its gills",
+      "Its tail flukes",
+      "Its dorsal fin"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.fisheries.noaa.gov/species/common-bottlenose-dolphin",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "28abf1b4d37d70015ca4",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What is the insulating layer of fat beneath a seal's skin called?",
+    "answers": [
+      "Baleen",
+      "Plumage",
+      "Cartilage",
+      "Blubber"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.fisheries.noaa.gov/species/harbor-seal",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "82b84488def63bde1537",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What does a camel store in its hump?",
+    "answers": [
+      "Air",
+      "Undigested grass",
+      "Fat",
+      "Liquid water"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/camel",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "abe04ee9f772fd15cef7",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "How many humps does a dromedary camel normally have?",
+    "answers": [
+      "None",
+      "One",
+      "Two",
+      "Three"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/camel",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "042395e36acf46080bc3",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "How do a camel's broad feet help it travel over sand?",
+    "answers": [
+      "They spread its weight over a larger area",
+      "They work like sharp digging claws",
+      "They grip sand with sticky pads",
+      "They store drinking water"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/camel",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "f4374380b390220f1562",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which animal is especially recognisable by a black-and-white striped coat?",
+    "answers": [
+      "Giraffe",
+      "Hippopotamus",
+      "Lion",
+      "Zebra"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/zebra",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "2990674c376100db17fe",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What pattern normally appears on an orange tiger's coat?",
+    "answers": [
+      "Black rings around every leg only",
+      "Uniform orange without markings",
+      "Dark stripes",
+      "Large white spots"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/tiger",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "46d28e43b3c02fa6f307",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which living land animal is famous for reaching the highest running speeds over short distances?",
+    "answers": [
+      "Rhinoceros",
+      "Cheetah",
+      "Lion",
+      "Elephant"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/cheetah",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "27b058dce282e1e6d5bb",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Where does a very young kangaroo continue developing after birth?",
+    "answers": [
+      "In its mother's pouch",
+      "In a nest of twigs",
+      "In a burrow away from its mother",
+      "Under a mound of sand"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/kangaroo",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "169cfa0884e1dff612df",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Although sometimes called a koala bear, a koala is actually what?",
+    "answers": [
+      "A true bear",
+      "A primate",
+      "A rodent",
+      "A marsupial"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/koala",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "2d57905ef6a42742c4d7",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which feature distinguishes apes such as orangutans from most monkeys?",
+    "answers": [
+      "Apes lay eggs",
+      "Apes have six limbs",
+      "Apes have no tails",
+      "Apes have feathers"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/orangutan",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "28fb0d96d8687f870147",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "A gorilla described as a silverback is usually what?",
+    "answers": [
+      "A separate gorilla species",
+      "A mature male",
+      "A newborn infant",
+      "A young female"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/gorilla",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "56d0ab6f8dab3b23cd9f",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What do chimpanzees commonly use as tools to extract termites from a mound?",
+    "answers": [
+      "Slender sticks",
+      "Large feathers",
+      "Empty eggshells",
+      "Pieces of coral"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/chimpanzee",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "696f22a97a089f8d1792",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which mammal is famous for building dams across streams?",
+    "answers": [
+      "Otter",
+      "Badger",
+      "Fox",
+      "Beaver"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/beaver",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "226a04d1e39f27332307",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Why do beavers need to keep wearing down their front teeth?",
+    "answers": [
+      "The teeth stop growing at birth",
+      "The teeth are used only during infancy",
+      "The teeth grow continuously",
+      "The teeth are replaced every week"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/beaver",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "1404f7a85e22e147cd16",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which foot feature helps many otters swim?",
+    "answers": [
+      "Broad digging claws without webbing",
+      "Webbing between the toes",
+      "Hard hooves on every toe",
+      "Adhesive pads like those of a gecko"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/otter",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "1572fcb8c91785e38a55",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "How does a hedgehog commonly protect its soft underside when threatened?",
+    "answers": [
+      "By curling into a ball",
+      "By shedding its shell",
+      "By puffing up a neck hood",
+      "By releasing a cloud of ink"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/hedgehog",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "8bf189e384594f75e89c",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Why do squirrels bury or hide nuts?",
+    "answers": [
+      "To soften their nutshells instantly",
+      "To mark a permanent sleeping chamber",
+      "To feed only the roots of nearby trees",
+      "To store food for later"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/animals/mammals/grey-squirrel/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "0299b1b7bd1f56d42161",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What is the underground home of a European badger called?",
+    "answers": [
+      "A hive",
+      "A drey",
+      "A sett",
+      "A rookery"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.wildlifetrusts.org/wildlife-explorer/mammals/badger",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "0e8385974eb01bf59bf1",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What usually happens to a male red deer's antlers each year?",
+    "answers": [
+      "They are replaced by permanent horns",
+      "They are shed and regrown",
+      "They remain permanently attached after maturity",
+      "They shrink into the skull each winter"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.wildlifetrusts.org/wildlife-explorer/mammals/red-deer",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "14d1392fdb5f44f3a5c4",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "In which deer species do both males and females commonly grow antlers?",
+    "answers": [
+      "Reindeer",
+      "Red deer",
+      "Roe deer",
+      "Fallow deer"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/reindeer-caribou",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "f32e815ea608e947f205",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "How does a polar bear's pale-looking coat help it hunt on snow and ice?",
+    "answers": [
+      "It lets the bear breathe underwater",
+      "It supplies the bear with oxygen",
+      "It prevents all heat loss",
+      "It provides camouflage"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/polar-bear",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "8054c121831f81e454ce",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "An elephant's tusks are enlarged versions of which body structures?",
+    "answers": [
+      "Ribs",
+      "Nose bones",
+      "Teeth",
+      "Claws"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/elephant",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "4d5386edf927fac8dca9",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "How can an elephant's large ears help it cool down?",
+    "answers": [
+      "The ears absorb all sunlight",
+      "Blood near the ear surfaces loses heat",
+      "The ears store ice",
+      "The ears stop its heart beating"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/elephant",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "7b4397532514ea76f2d8",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What makes up most of a rhinoceros's natural diet?",
+    "answers": [
+      "Plant material",
+      "Fish",
+      "Insects",
+      "Other large mammals"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/rhinoceros",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "72017a97557af53dd990",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Common hippos leave the water at night mainly to feed on what?",
+    "answers": [
+      "Seaweed",
+      "Fish",
+      "Tree bark only",
+      "Grass"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/hippopotamus",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "dcc867defe30b7e3b893",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which covering is unique to birds among living animal groups?",
+    "answers": [
+      "Scales",
+      "Shells",
+      "Feathers",
+      "Fur"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/birds",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "c86837fd80dc0be30324",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Penguins use their flipper-like wings mainly for which activity?",
+    "answers": [
+      "Holding food like hands",
+      "Swimming",
+      "Powered flight through air",
+      "Digging deep tunnels"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/penguin",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "43219e439f36f4a2cfb8",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which is the largest living bird?",
+    "answers": [
+      "Ostrich",
+      "Emperor penguin",
+      "Bald eagle",
+      "Mute swan"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/ostrich",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "08b598c81ca1ab0f83de",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which small birds are especially known for hovering while drinking nectar?",
+    "answers": [
+      "Ostriches",
+      "Penguins",
+      "Crows",
+      "Hummingbirds"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/hummingbird",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "d9bb2cec66215d14adec",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "The word nocturnal describes an animal that is mainly active when?",
+    "answers": [
+      "Only underwater",
+      "At midday only",
+      "At night",
+      "Only in winter"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/owl",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "ff3a6662d4a5a83db4d8",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What helps a duck push against water while swimming?",
+    "answers": [
+      "Broad digging claws without webbing",
+      "Webbed feet",
+      "Cloven hooves",
+      "Adhesive toe pads"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/duck",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "92b28bbfac35676380fa",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What does a pelican use its large throat pouch for when feeding?",
+    "answers": [
+      "Scooping up prey and draining water",
+      "Storing eggs during incubation",
+      "Filtering air for breathing",
+      "Growing replacement feathers"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/pelican",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "f3e706646a6baacd7493",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Where do flamingos get the pigments that make their feathers pink?",
+    "answers": [
+      "From pink mud staining every feather",
+      "From sunlight alone",
+      "From seawater salt",
+      "From their food"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/flamingo",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "529f3d1d9817543bdf9a",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Strictly speaking, a peacock is which animal?",
+    "answers": [
+      "Any young chicken",
+      "A type of pheasant chick",
+      "A male peafowl",
+      "A female peafowl"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/peafowl",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "33c979ecdaacda57cd83",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which British garden bird is especially known for an orange-red face and breast?",
+    "answers": [
+      "House sparrow",
+      "Robin",
+      "Blue tit",
+      "Great spotted woodpecker"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.wildlifetrusts.org/wildlife-explorer/birds/thrushes-chats-flycatchers-starling-dipper-and-wren/robin",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "c946863a4e5b9b2946a0",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What colour is the bill of a typical adult male common blackbird?",
+    "answers": [
+      "Yellow to orange",
+      "Bright blue",
+      "White with red spots",
+      "Green"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.wildlifetrusts.org/wildlife-explorer/birds/thrushes-chats-flycatchers-starling-dipper-and-wren/blackbird",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "8971b2dcd2f0a2b83509",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which crow-family bird has black-and-white plumage and a long tail?",
+    "answers": [
+      "Carrion crow",
+      "Jackdaw",
+      "Rook",
+      "Eurasian magpie"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.wildlifetrusts.org/wildlife-explorer/birds/crows-and-shrikes/magpie",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "4506e7becd5d209903c6",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Why do many swallows leave Britain in autumn?",
+    "answers": [
+      "They spend winter under pond mud",
+      "They cannot fly after September",
+      "They migrate to warmer regions with more available insects",
+      "They change into another bird species"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.wildlifetrusts.org/wildlife-explorer/birds/swallows-martins-and-swifts/swallow",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "f0e48ab910d8fffc26e0",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Why do woodpeckers drum rapidly on resonant branches?",
+    "answers": [
+      "To bury food underground",
+      "To communicate, including advertising territory",
+      "To make rainfall start",
+      "To remove their beaks"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.bto.org/learn/about-birds/bird-families/picidae-woodpeckers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "7a21c2cc6934bea9b187",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "A common kingfisher dives into water mainly to catch what?",
+    "answers": [
+      "Small fish",
+      "Grass seeds",
+      "Tree leaves",
+      "Earthworms in dry soil"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.bto.org/learn/about-birds/birdfacts/kingfisher",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "ae69de8f492fa2eaee11",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which seabird has a brightly coloured triangular bill during the breeding season?",
+    "answers": [
+      "Black-headed gull",
+      "Guillemot",
+      "Northern gannet",
+      "Atlantic puffin"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.wildlifetrusts.org/wildlife-explorer/birds/seabirds/puffin",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "a46f748b8fde3010d746",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Where does a female common cuckoo normally lay its eggs?",
+    "answers": [
+      "In the sea",
+      "In its own underground burrow",
+      "In other birds' nests",
+      "In a nest excavated in ice"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.wildlifetrusts.org/wildlife-explorer/birds/cuckoos/cuckoo",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "3fbb52c49c8b322afd41",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What is the usual term for a male swan?",
+    "answers": [
+      "Gander",
+      "Cob",
+      "Pen",
+      "Drake"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rspb.org.uk/birds-and-wildlife/mute-swan",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "6b68a1b5806034244a6e",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What is a young duck commonly called?",
+    "answers": [
+      "Duckling",
+      "Foal",
+      "Kid",
+      "Fawn"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/duckling",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "186705d70b66e0624a83",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Why does a broody hen sit on her eggs?",
+    "answers": [
+      "To make their shells thicker every day",
+      "To turn them into seeds",
+      "To stop every movement inside them",
+      "To keep them warm while the embryos develop"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.umn.edu/small-scale-poultry/incubating-and-hatching-eggs",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "af615892ffa41b60201e",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What is the familiar aquatic larval stage of a frog called?",
+    "answers": [
+      "Nymph",
+      "Grub",
+      "Tadpole",
+      "Caterpillar"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/frog-and-toad",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "bd492d112ecc98db7fd5",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What do young tadpoles normally use to extract oxygen from water?",
+    "answers": [
+      "Spiracles like those of insects",
+      "Gills",
+      "Lungs only",
+      "A blowhole"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/frog-and-toad",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "e8b7f1266c0cef031524",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Compared with a common frog, a common toad typically has what kind of skin?",
+    "answers": [
+      "Drier-looking and warty",
+      "Covered in feathers",
+      "Covered in fur",
+      "Armoured with large bony plates"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.wildlifetrusts.org/wildlife-explorer/amphibians/common-toad",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "b783d59fd44166b5beb6",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Why do many lizards bask in sunshine?",
+    "answers": [
+      "To grow feathers",
+      "To change into amphibians",
+      "To fill their lungs with water",
+      "To raise their body temperature"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/lizard",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "3191601a4d7625f39755",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "A turtle's shell is attached to which parts of its skeleton?",
+    "answers": [
+      "Only its jaw",
+      "None; it is a loose coat",
+      "Its ribs and backbone",
+      "Only the tips of its toes"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/turtle-and-tortoise",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "59efe3784e4ae64373a2",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Crocodiles belong to which animal group?",
+    "answers": [
+      "Fish",
+      "Reptiles",
+      "Amphibians",
+      "Mammals"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/crocodilian",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "a54c0687fa187020cd53",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "How does a boa constrictor usually overpower its prey?",
+    "answers": [
+      "By coiling around it and squeezing",
+      "By injecting venom through fangs",
+      "By stinging with its tail",
+      "By trapping it in a web"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/boa",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "a7f6115c06c7aced5a41",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "When threatened, many cobras spread which part of their body into a hood?",
+    "answers": [
+      "The tail tip",
+      "The tongue",
+      "The lower jaw",
+      "The neck region"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/cobra",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "a2521a1a490caef432d1",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Where do female sea turtles lay their eggs?",
+    "answers": [
+      "In floating seaweed rafts",
+      "Inside empty seashells",
+      "In nests dug into sandy beaches",
+      "On coral branches underwater"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.fisheries.noaa.gov/species/green-turtle",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "4b74313012df75476fb4",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Many geckos cling to smooth surfaces using specialised structures on which body part?",
+    "answers": [
+      "Their eyelids",
+      "Their toe pads",
+      "Their tails only",
+      "Their tongues"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/gecko",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "688a57774abbbc56d9c5",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Most fish take oxygen from water using which organs?",
+    "answers": [
+      "Gills",
+      "Lungs only",
+      "Feathers",
+      "A blowhole"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/fish",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "8eb26f111b8073c4352c",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What is a shark's skeleton made mainly of?",
+    "answers": [
+      "Wood-like cellulose",
+      "Solid ivory",
+      "Ordinary bone",
+      "Cartilage"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.fisheries.noaa.gov/species/sharks",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "9937ff81b6a11367feb6",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "In seahorses, which parent carries developing young in a brood pouch?",
+    "answers": [
+      "Both parents together",
+      "Neither parent",
+      "The male",
+      "The female"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://oceanservice.noaa.gov/facts/seahorse.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "e4bb6358ea68beb4b5cf",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Clownfish commonly shelter among the tentacles of which animals?",
+    "answers": [
+      "Lobsters",
+      "Sea anemones",
+      "Jellyfish",
+      "Octopuses"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://ocean.si.edu/ocean-life/fish/anemone-and-clownfish",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "31357768a631c1166c08",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which fish is known for a long, snake-like body?",
+    "answers": [
+      "Eel",
+      "Plaice",
+      "Pufferfish",
+      "Angelfish"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.fisheries.noaa.gov/species/american-eel",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "27e26ac6162a37832afd",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Adult Pacific salmon return to freshwater mainly to do what?",
+    "answers": [
+      "Grow feathers",
+      "Build coral",
+      "Hibernate in tree holes",
+      "Spawn"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.fisheries.noaa.gov/species/chinook-salmon",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "eb07b398cfeba8d7f92e",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "In an adult flatfish such as a plaice, where are both eyes normally found?",
+    "answers": [
+      "One on each fin",
+      "Inside the mouth",
+      "On the same side of the head",
+      "On the tail"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.dfw.state.or.us/MRP/FishID/FishIDFlatfish.asp",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "e396b46434567108e2db",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which description best fits a typical stingray's body shape?",
+    "answers": [
+      "Tall with a long neck",
+      "Broad and flattened",
+      "Long and cylindrical like a worm",
+      "Round and covered in fur"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/ray",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "f7356715be536a6bbbdb",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "How many arms does a typical octopus have?",
+    "answers": [
+      "Eight",
+      "Six",
+      "Ten",
+      "Twelve"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.montereybayaquarium.org/animals/animals-a-to-z/giant-pacific-octopus",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "0809b810f8ca15c1496f",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "A typical squid has eight arms plus how many longer feeding tentacles?",
+    "answers": [
+      "One",
+      "Four",
+      "Six",
+      "Two"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://ocean.si.edu/ocean-life/invertebrates/squid",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "0cfb48800e859d82c654",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What do many octopuses release into the water to help escape predators?",
+    "answers": [
+      "A sheet of feathers",
+      "A shower of seeds",
+      "A cloud of ink",
+      "A cloud of pollen"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.montereybayaquarium.org/animals/animals-a-to-z/giant-pacific-octopus",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "4f79ad414f78704486c2",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What obvious external feature distinguishes most land snails from slugs?",
+    "answers": [
+      "A covering of fur",
+      "A coiled shell",
+      "Six jointed legs",
+      "A pair of wings"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.nhm.ac.uk/discover/why-do-snails-have-shells-and-slugs-dont.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "717adcdc8a18e67e78e2",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "How can earthworms improve garden soil?",
+    "answers": [
+      "By making tunnels and mixing organic matter",
+      "By sealing every air space",
+      "By turning all soil into rock",
+      "By removing all soil moisture"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/biodiversity/earthworms",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "b6b49f7c4cdba8e6e224",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "A leech is a type of what?",
+    "answers": [
+      "Insect",
+      "Fish",
+      "Mollusc",
+      "Segmented worm"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.nhm.ac.uk/discover/leeches-bloodsuckers-with-a-purpose.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "3d7404743d4fa569b00d",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "How many legs does a typical adult spider have?",
+    "answers": [
+      "Ten",
+      "Twelve",
+      "Eight",
+      "Six"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.tepapa.govt.nz/digital-museum/explore-digital-museum/your-bug-questions-answered/what-is-a-bug-insects-arachnids-and-myriapods",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "272b9aedb793b7fbb613",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "How many legs does a typical adult insect have?",
+    "answers": [
+      "Ten",
+      "Six",
+      "Four",
+      "Eight"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.tepapa.govt.nz/digital-museum/explore-digital-museum/your-bug-questions-answered/what-is-a-bug-insects-arachnids-and-myriapods",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "35c1a6b45c811f337ea7",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "How many antennae does a typical adult insect have?",
+    "answers": [
+      "Two",
+      "Four",
+      "Six",
+      "Eight"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.uwyo.edu/entomology/insect-identification/know-your-bugs.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "2bec4d58d95f984c8e9a",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "A butterfly uncoils its long proboscis mainly to do what?",
+    "answers": [
+      "Chew through wood",
+      "Lay eggs in soil",
+      "Breathe underwater",
+      "Drink liquids such as nectar"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/butterfly",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "6c4348f325186070dd2e",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "The silkworm that produces commercial silk is the larva of which kind of insect?",
+    "answers": [
+      "A dragonfly",
+      "A bee",
+      "A moth",
+      "A beetle"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.nhm.ac.uk/discover/silk-the-natural-fibre-made-by-insects.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "79c652b895f455be6412",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Honeybees make honey mainly from which liquid collected from flowers?",
+    "answers": [
+      "Tree resin",
+      "Nectar",
+      "Rainwater",
+      "Leaf sap only"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/bee",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "4b1fad2e2cc92da781c2",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What shape are the cells in a typical honeybee honeycomb?",
+    "answers": [
+      "Hexagons",
+      "Triangles",
+      "Circles",
+      "Pentagons"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/bee",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "ef1e1a7b0ff14f228ba3",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What material do worker honeybees produce to build their comb?",
+    "answers": [
+      "Silk",
+      "Paper",
+      "Chalk",
+      "Wax"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/bee",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "2be675215a0c7ecfc15c",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What is the queen honeybee's main role in a colony?",
+    "answers": [
+      "Building every wax cell alone",
+      "Guarding the entrance continuously",
+      "Laying eggs",
+      "Collecting all the colony's nectar"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/bee",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "fc75e2416d2124ebdd6b",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "A social group of ants living together is usually called what?",
+    "answers": [
+      "A herd",
+      "A colony",
+      "A shoal",
+      "A flock"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/ant",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "8f2e8539ec8b6cc76428",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Where do dragonflies spend their nymph stage?",
+    "answers": [
+      "In water",
+      "Inside bird eggs",
+      "Inside dry seeds",
+      "On snowfields only"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://british-dragonflies.org.uk/odonata/life-cycle-and-biology/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "83cb770917ab735d819f",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "A ladybird is a type of which insect?",
+    "answers": [
+      "Fly",
+      "Wasp",
+      "Butterfly",
+      "Beetle"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.coleoptera.org.uk/coccinellidae/home",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "d33f6e3b79b26fa59c6e",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which body parts give grasshoppers their powerful jumping ability?",
+    "answers": [
+      "Small front wings alone",
+      "Curled mouthparts",
+      "Large hind legs",
+      "Long antennae"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/grasshopper-and-cricket",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "382b23e808cc301a35be",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Fireflies are bioluminescent members of which insect group?",
+    "answers": [
+      "Ants",
+      "Beetles",
+      "True flies",
+      "Dragonflies"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.nps.gov/articles/000/firefly-facts.htm",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "d9384d1bb437a8e19f73",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What does a praying mantis use its spiny front legs for?",
+    "answers": [
+      "Grasping prey",
+      "Filtering pond water",
+      "Producing honey",
+      "Carrying pollen in baskets"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/praying-mantis",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "8bd771c3645e78bea6db",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "How do many male crickets produce their chirping song?",
+    "answers": [
+      "By blowing through hollow antennae",
+      "By tapping their eyes",
+      "By snapping their jaws underwater",
+      "By rubbing their forewings together"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://animals.sandiegozoo.org/animals/grasshopper-and-cricket",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "88a829fba07a4695ebde",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Including the claw-bearing pair, how many legs does a typical true crab have?",
+    "answers": [
+      "Eight",
+      "Twelve",
+      "Ten",
+      "Six"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/japanese-spider-crab",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "d4a0051333363fc9009c",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What must a lobster shed to grow larger?",
+    "answers": [
+      "Its permanent teeth",
+      "Its hard outer skeleton",
+      "Its backbone",
+      "Its lungs"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.fisheries.noaa.gov/species/american-lobster",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "761c1ff36e3fb430c79e",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What does a hermit crab commonly use to protect its soft abdomen?",
+    "answers": [
+      "An empty snail shell",
+      "A shell grown permanently from its abdomen",
+      "A case spun from silk",
+      "A tube made from chewed wood"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.montereybayaquarium.org/animals/animals-a-to-z/hermit-crabs",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "034fbfb4d0b5f6874312",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which marine animal is commonly covered in long movable spines?",
+    "answers": [
+      "Jellyfish",
+      "Clownfish",
+      "Sea slug",
+      "Sea urchin"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.montereybayaquarium.org/animals/animals-a-to-z/purple-sea-urchin",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "51b5a7be685098063e8b",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Many sea stars can do what after losing an arm, provided enough of the body survives?",
+    "answers": [
+      "Become a fish",
+      "Turn the arm into a shell",
+      "Regrow the arm",
+      "Grow feathers in its place"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://oceanservice.noaa.gov/facts/starfish.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "e97db528971687dfaefd",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What do jellyfish use stinging cells mainly to do?",
+    "answers": [
+      "Chew hard seeds",
+      "Capture prey and defend themselves",
+      "Grow feathers",
+      "Build nests from leaves"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://ocean.si.edu/ocean-life/invertebrates/jellyfish-and-comb-jellies",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "3b5db7f8ca4bb1ec4751",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Coral polyps are what kind of living things?",
+    "answers": [
+      "Animals",
+      "Flowering plants",
+      "Fungi",
+      "Bacteria"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://oceanservice.noaa.gov/facts/coral.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "692d66a0f2d88bef97e0",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "An oyster belongs to which group?",
+    "answers": [
+      "Crustaceans",
+      "Fish",
+      "Worms",
+      "Bivalve molluscs"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.fisheries.noaa.gov/species/eastern-oyster",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "4d948c596e60489df411",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Krill, a major food for many whales, are small examples of what?",
+    "answers": [
+      "Jellyfish",
+      "Marine worms",
+      "Crustaceans",
+      "Fish"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.bas.ac.uk/about/antarctica/wildlife/krill/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  },
+  {
+    "id": "7e619f088ec15261d9b9",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What is seasonal migration in animals?",
+    "answers": [
+      "Sleeping for a few minutes",
+      "Regular movement between different areas at different times of year",
+      "Changing into a different species",
+      "Growing a new shell every day"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.bto.org/learn/about-birds/bird-migration",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-27-v1"
+  }
+]

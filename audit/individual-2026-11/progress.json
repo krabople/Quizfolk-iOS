@@ -1,0 +1,263 @@
+{
+  "updated": "2026-11-17",
+  "targetNewEasy": 3100,
+  "reviewedAndValidated": 600,
+  "localBankCount": 22517,
+  "liveBankCount": 21817,
+  "topics": [
+    {
+      "topicID": "9",
+      "name": "General Knowledge",
+      "targetNewEasy": 100,
+      "authored": 100,
+      "reviewedAndValidated": 100,
+      "deployedNewEasy": 0
+    },
+    {
+      "topicID": "10",
+      "name": "Books",
+      "targetNewEasy": 100,
+      "authored": 0,
+      "reviewedAndValidated": 0,
+      "deployedNewEasy": 0
+    },
+    {
+      "topicID": "11",
+      "name": "Film",
+      "targetNewEasy": 100,
+      "authored": 0,
+      "reviewedAndValidated": 0,
+      "deployedNewEasy": 0
+    },
+    {
+      "topicID": "12",
+      "name": "Music",
+      "targetNewEasy": 100,
+      "authored": 0,
+      "reviewedAndValidated": 0,
+      "deployedNewEasy": 0
+    },
+    {
+      "topicID": "13",
+      "name": "Stage & Musicals",
+      "targetNewEasy": 100,
+      "authored": 0,
+      "reviewedAndValidated": 0,
+      "deployedNewEasy": 0
+    },
+    {
+      "topicID": "14",
+      "name": "Television",
+      "targetNewEasy": 100,
+      "authored": 0,
+      "reviewedAndValidated": 0,
+      "deployedNewEasy": 0
+    },
+    {
+      "topicID": "15",
+      "name": "Video Games",
+      "targetNewEasy": 100,
+      "authored": 0,
+      "reviewedAndValidated": 0,
+      "deployedNewEasy": 0
+    },
+    {
+      "topicID": "16",
+      "name": "Board Games",
+      "targetNewEasy": 100,
+      "authored": 0,
+      "reviewedAndValidated": 0,
+      "deployedNewEasy": 0
+    },
+    {
+      "topicID": "17",
+      "name": "Science & Nature",
+      "targetNewEasy": 100,
+      "authored": 100,
+      "reviewedAndValidated": 100,
+      "deployedNewEasy": 0
+    },
+    {
+      "topicID": "18",
+      "name": "Computers",
+      "targetNewEasy": 100,
+      "authored": 100,
+      "reviewedAndValidated": 0,
+      "deployedNewEasy": 0
+    },
+    {
+      "topicID": "19",
+      "name": "Mathematics",
+      "targetNewEasy": 100,
+      "authored": 0,
+      "reviewedAndValidated": 0,
+      "deployedNewEasy": 0
+    },
+    {
+      "topicID": "20",
+      "name": "Mythology",
+      "targetNewEasy": 100,
+      "authored": 0,
+      "reviewedAndValidated": 0,
+      "deployedNewEasy": 0
+    },
+    {
+      "topicID": "21",
+      "name": "Sport",
+      "targetNewEasy": 100,
+      "authored": 0,
+      "reviewedAndValidated": 0,
+      "deployedNewEasy": 0
+    },
+    {
+      "topicID": "22",
+      "name": "Geography",
+      "targetNewEasy": 100,
+      "authored": 0,
+      "reviewedAndValidated": 0,
+      "deployedNewEasy": 0
+    },
+    {
+      "topicID": "23",
+      "name": "History",
+      "targetNewEasy": 100,
+      "authored": 0,
+      "reviewedAndValidated": 0,
+      "deployedNewEasy": 0
+    },
+    {
+      "topicID": "24",
+      "name": "Politics",
+      "targetNewEasy": 100,
+      "authored": 0,
+      "reviewedAndValidated": 0,
+      "deployedNewEasy": 0
+    },
+    {
+      "topicID": "25",
+      "name": "Art",
+      "targetNewEasy": 100,
+      "authored": 0,
+      "reviewedAndValidated": 0,
+      "deployedNewEasy": 0
+    },
+    {
+      "topicID": "26",
+      "name": "Celebrities",
+      "targetNewEasy": 100,
+      "authored": 0,
+      "reviewedAndValidated": 0,
+      "deployedNewEasy": 0
+    },
+    {
+      "topicID": "27",
+      "name": "Animals",
+      "targetNewEasy": 100,
+      "authored": 100,
+      "reviewedAndValidated": 100,
+      "deployedNewEasy": 0
+    },
+    {
+      "topicID": "28",
+      "name": "Vehicles",
+      "targetNewEasy": 100,
+      "authored": 100,
+      "reviewedAndValidated": 0,
+      "deployedNewEasy": 0
+    },
+    {
+      "topicID": "29",
+      "name": "Comics",
+      "targetNewEasy": 100,
+      "authored": 0,
+      "reviewedAndValidated": 0,
+      "deployedNewEasy": 0
+    },
+    {
+      "topicID": "30",
+      "name": "Gadgets",
+      "targetNewEasy": 100,
+      "authored": 0,
+      "reviewedAndValidated": 0,
+      "deployedNewEasy": 0
+    },
+    {
+      "topicID": "31",
+      "name": "Anime & Manga",
+      "targetNewEasy": 100,
+      "authored": 0,
+      "reviewedAndValidated": 0,
+      "deployedNewEasy": 0
+    },
+    {
+      "topicID": "32",
+      "name": "Cartoons",
+      "targetNewEasy": 100,
+      "authored": 0,
+      "reviewedAndValidated": 0,
+      "deployedNewEasy": 0
+    },
+    {
+      "topicID": "33",
+      "name": "Brain Teasers",
+      "targetNewEasy": 100,
+      "authored": 0,
+      "reviewedAndValidated": 0,
+      "deployedNewEasy": 0
+    },
+    {
+      "topicID": "34",
+      "name": "Hobbies",
+      "targetNewEasy": 100,
+      "authored": 100,
+      "reviewedAndValidated": 100,
+      "deployedNewEasy": 0
+    },
+    {
+      "topicID": "35",
+      "name": "Language & Culture",
+      "targetNewEasy": 100,
+      "authored": 0,
+      "reviewedAndValidated": 0,
+      "deployedNewEasy": 0
+    },
+    {
+      "topicID": "36",
+      "name": "World Religions",
+      "targetNewEasy": 100,
+      "authored": 0,
+      "reviewedAndValidated": 0,
+      "deployedNewEasy": 0
+    },
+    {
+      "topicID": "37",
+      "name": "Family Trivia",
+      "targetNewEasy": 100,
+      "authored": 0,
+      "reviewedAndValidated": 0,
+      "deployedNewEasy": 0
+    },
+    {
+      "topicID": "38",
+      "name": "Food & Drink",
+      "targetNewEasy": 100,
+      "authored": 100,
+      "reviewedAndValidated": 100,
+      "deployedNewEasy": 0
+    },
+    {
+      "topicID": "39",
+      "name": "Plants & flowers",
+      "targetNewEasy": 100,
+      "authored": 100,
+      "reviewedAndValidated": 100,
+      "deployedNewEasy": 0
+    }
+  ],
+  "stopAtRemainingPercent": 5,
+  "additionalHarderPlants": {
+    "reviewed": 100,
+    "localBankIncluded": true,
+    "deployed": false
+  }
+}

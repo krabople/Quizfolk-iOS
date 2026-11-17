@@ -1,0 +1,2202 @@
+[
+  {
+    "draftID": "plants-easy-001",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "When watering a flower bed, where should you aim most of the water?",
+    "answers": [
+      "At the soil around the roots",
+      "At the open flowers",
+      "At the tops of the leaves",
+      "At the garden path"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/garden-jobs/watering",
+    "rationale": "Roots take up water from soil; watering the flowers, leaf tops or path does not target them.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-002",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which time is usually best for watering garden plants during hot weather?",
+    "answers": [
+      "Early morning",
+      "Midday in full sun",
+      "The hottest afternoon hour",
+      "Only after sunset"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/garden-jobs/watering",
+    "rationale": "Early morning limits evaporation and supplies water before daytime demand increases.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-003",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which container is specifically designed to collect and store rainwater for the garden?",
+    "answers": [
+      "A water butt",
+      "A compost bin",
+      "A seed tray",
+      "A hanging basket"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/garden-jobs/watering",
+    "rationale": "A water butt stores collected rainwater; the other containers hold compost materials or growing plants.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-004",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Why should you check the soil before watering instead of always watering on a fixed schedule?",
+    "answers": [
+      "Soil moisture and plant needs change with the conditions",
+      "All plants need exactly the same amount of water",
+      "Wet leaves always mean the roots have enough water",
+      "A weekly watering schedule suits every plant"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/garden-jobs/watering",
+    "rationale": "Water requirements vary with weather, plant growth, soil and establishment.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-005",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which garden tool has a row of teeth for levelling soil before sowing?",
+    "answers": [
+      "A rake",
+      "A watering can",
+      "A pair of secateurs",
+      "A pruning saw"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/education-learning/school-gardening/resources/getting-started/get-the-soil-ready-for-planting",
+    "rationale": "Rake teeth break small clods and level the surface; the other tools water or cut.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-006",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which tool has strong prongs for loosening garden soil?",
+    "answers": [
+      "A garden fork",
+      "A pair of shears",
+      "A dibber",
+      "A watering can"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/education-learning/school-gardening/resources/getting-started/get-the-soil-ready-for-planting",
+    "rationale": "A garden fork uses several tines to loosen soil; the alternatives do not perform this action.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-007",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Why is it helpful to avoid standing on soil in a planting bed?",
+    "answers": [
+      "To avoid compacting it",
+      "To make it more acidic",
+      "To keep it permanently dry",
+      "To prevent flowers from setting seed"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/education-learning/school-gardening/resources/getting-started/get-the-soil-ready-for-planting",
+    "rationale": "Foot pressure compacts soil; working from the edges avoids that pressure.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-008",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What does pruning a shrub involve?",
+    "answers": [
+      "Cutting away selected branches or shoots",
+      "Adding water to its roots",
+      "Collecting its fallen seeds",
+      "Moving it into a larger pot"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/advice/beginners-guide/pruning-plants/",
+    "rationale": "Pruning selectively removes growth; watering, seed collection and repotting are separate tasks.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-009",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which hand tool is used to snip small woody stems when pruning?",
+    "answers": [
+      "Secateurs",
+      "A rake",
+      "A hoe",
+      "A dibber"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/advice/beginners-guide/pruning-plants/",
+    "rationale": "Secateurs cut stems; the other tools work soil or make planting holes.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-010",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which is a common reason to prune a tree or shrub?",
+    "answers": [
+      "To remove dead growth",
+      "To replace the need for watering",
+      "To stop all future shoot growth",
+      "To make every branch the same thickness"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/advice/beginners-guide/pruning-plants/",
+    "rationale": "Removing dead growth is a standard pruning purpose; pruning cannot perform the other proposed changes.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-011",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "In British woodland, which season is best known for carpets of bluebells?",
+    "answers": [
+      "Spring",
+      "Summer",
+      "Autumn",
+      "Winter"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/weeds/bluebells-as-weeds",
+    "rationale": "English bluebells normally flower in mid- to late spring.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-012",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which flower usually has blue-violet bells hanging from one side of an arching stem?",
+    "answers": [
+      "English bluebell",
+      "Common daisy",
+      "Foxglove",
+      "Sunflower"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/weeds/bluebells-as-weeds",
+    "rationale": "The one-sided arching flower stem distinguishes English bluebells from the listed alternatives.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-013",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which cottage-garden flower bears a tall spike of blooms shaped like little thimbles?",
+    "answers": [
+      "Foxglove",
+      "Tulip",
+      "Daisy",
+      "Poppy"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/foxglove",
+    "rationale": "Foxgloves carry thimble-shaped flowers on tall spikes; the alternatives have different flower arrangements.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-014",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which garden plant is known for colourful flowers that hang down like little skirts?",
+    "answers": [
+      "Fuchsia",
+      "Sunflower",
+      "Daisy",
+      "Pansy"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/fuchsia/tender/growing-guide",
+    "rationale": "Fuchsias have distinctive pendant flowers; the listed alternatives do not have this hanging skirt-like form.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-015",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which type of fuchsia is especially suitable for spilling over the edge of a hanging basket?",
+    "answers": [
+      "A trailing variety",
+      "A compact upright variety",
+      "A tall upright variety",
+      "A standard with an upright crown"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/fuchsia/tender/growing-guide",
+    "rationale": "Trailing stems cascade over a basket edge; upright forms are selected for height.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-016",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What does pinching out the shoot tips of a young fuchsia encourage?",
+    "answers": [
+      "Bushier growth",
+      "A taller stem with fewer branches",
+      "Fewer side shoots",
+      "Leaf growth without any stems"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/fuchsia/tender/growing-guide",
+    "rationale": "Removing the growing tip encourages side branching and a bushier plant.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-017",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What colours does a typical ox-eye daisy flower head show?",
+    "answers": [
+      "White outer petals and a yellow centre",
+      "Blue outer petals and a black centre",
+      "Red outer petals and a green centre",
+      "Purple outer petals and a white centre"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/3782/chrysanthemum-leucanthemum/details",
+    "rationale": "The ox-eye daisy has white ray florets around yellow disc florets.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-018",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which bedding flower often has dark markings that look like a little face?",
+    "answers": [
+      "Pansy",
+      "Daffodil",
+      "Bluebell",
+      "Lavender"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/pansies/",
+    "rationale": "Many pansy cultivars have face-like dark blotches on their broad petals.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-019",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which plant produces the fluffy seed heads commonly called clocks?",
+    "answers": [
+      "Dandelion",
+      "Bluebell",
+      "Tulip",
+      "Daffodil"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/weeds/dandelion",
+    "rationale": "Dandelion clocks are rounded heads of wind-dispersed seeds; the other plants lack these heads.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-020",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What normally carries dandelion seeds away from the parent plant?",
+    "answers": [
+      "Wind",
+      "Passing ants",
+      "Swimming fish",
+      "Falling branches"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/weeds/dandelion",
+    "rationale": "The seeds have fine structures that catch the wind, unlike the alternative mechanisms.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-021",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What colour are dandelion flower heads before they become fluffy seed heads?",
+    "answers": [
+      "Yellow",
+      "Blue",
+      "Purple",
+      "White"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/weeds/dandelion",
+    "rationale": "Dandelions have yellow flower heads; white or silvery fluff appears at the seed stage.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-022",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which structures on a stinging nettle can sting bare skin?",
+    "answers": [
+      "Tiny hairs",
+      "Deep roots",
+      "Seed wings",
+      "Underground bulbs"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.nhm.ac.uk/discover/stinging-nettles.html",
+    "rationale": "Nettle stinging hairs act like tiny needles; the other structures do not produce the sting.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-023",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What is one benefit of stinging hairs to a nettle?",
+    "answers": [
+      "They discourage animals from eating it",
+      "They attract pollinating insects",
+      "They attach it to climbing supports",
+      "They collect water from the soil"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.nhm.ac.uk/discover/stinging-nettles.html",
+    "rationale": "Nettle hairs discourage herbivores; they do not serve as climbing attachments, roots or pollinator lures.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-024",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What do the thick, fleshy parts of succulent plants store?",
+    "answers": [
+      "Water",
+      "Pollen",
+      "Sand",
+      "Nectar"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide",
+    "rationale": "Succulent leaves or stems store water, helping the plant survive dry periods.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-025",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which potting mix is generally suitable for desert cacti?",
+    "answers": [
+      "A gritty mix that drains freely",
+      "Heavy clay packed tightly",
+      "A bog-garden mix kept permanently wet",
+      "A dense mix with blocked drainage"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide",
+    "rationale": "Free-draining gritty compost suits desert cacti; persistent waterlogging risks decay.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-026",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Cacti belong to which broad group of plants?",
+    "answers": [
+      "Flowering plants",
+      "Ferns",
+      "Mosses",
+      "Conifers"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide",
+    "rationale": "Cacti produce flowers and seeds; ferns and mosses reproduce by spores, while conifers bear cones.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-027",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which tree is especially recognisable by its peeling silvery-white bark?",
+    "answers": [
+      "Silver birch",
+      "English oak",
+      "Horse chestnut",
+      "Common beech"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/silver-birch/",
+    "rationale": "Silver birch bark is characteristically pale and papery; the alternatives lack this combination.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-028",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What shape are silver birch leaves usually closest to?",
+    "answers": [
+      "A triangle",
+      "A long needle",
+      "A circular water-lily pad",
+      "A hand with five separate leaflets"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/silver-birch/",
+    "rationale": "Silver birch leaves are small and roughly triangular, with toothed edges.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-029",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which tree produces conkers?",
+    "answers": [
+      "Horse chestnut",
+      "Silver birch",
+      "Common beech",
+      "Holly"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/horse-chestnut/",
+    "rationale": "Conkers are horse chestnut seeds; the other trees have different fruits.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-030",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Before falling, a conker develops inside what kind of case?",
+    "answers": [
+      "A green case with spikes",
+      "A smooth red berry",
+      "A long papery pod",
+      "A woody pine cone"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/horse-chestnut/",
+    "rationale": "Horse chestnut seeds develop in spiky green capsules.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-031",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Horse chestnut leaflets spread out from one point, most like which shape?",
+    "answers": [
+      "An open hand",
+      "A single needle",
+      "A narrow ribbon",
+      "A smooth circle"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/horse-chestnut/",
+    "rationale": "The leaf is palmate, with several leaflets spreading like fingers.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-032",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which plant is associated with glossy, often prickly leaves and red winter berries?",
+    "answers": [
+      "Common holly",
+      "Silver birch",
+      "Lavender",
+      "Foxglove"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/holly/",
+    "rationale": "Common holly combines glossy evergreen leaves, often with spines, and red berries on female plants.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-033",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which of these trees normally keeps its green leaves through a British winter?",
+    "answers": [
+      "Common holly",
+      "Silver birch",
+      "Horse chestnut",
+      "English oak"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/holly/",
+    "rationale": "Holly is evergreen; these other named trees are normally deciduous.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-034",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What is the gardening art of clipping shrubs into shapes such as balls or animals called?",
+    "answers": [
+      "Topiary",
+      "Composting",
+      "Grafting",
+      "Mulching"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/types/hedges/topiary",
+    "rationale": "Topiary trains and clips plants into designed shapes; the other practices have different purposes.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-035",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Why are evergreen shrubs often chosen for topiary?",
+    "answers": [
+      "They keep their leafy shape through the year",
+      "They never need trimming",
+      "They all grow naturally into perfect spheres",
+      "They never suffer from drought"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/types/hedges/topiary",
+    "rationale": "Evergreen foliage preserves the visible clipped form throughout the seasons.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-036",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What makes a garden bed a raised bed?",
+    "answers": [
+      "Its growing surface is built above the surrounding ground",
+      "Its plants all climb a wall",
+      "It contains only tall flowers",
+      "It hangs from a roof"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/garden-features/how-to-make-a-raised-bed",
+    "rationale": "Raised beds hold growing material above ground level; plant height does not define them.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-037",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "How can a raised bed help a gardener who finds bending difficult?",
+    "answers": [
+      "It brings plants closer to a comfortable working height",
+      "It makes the paths between beds narrower",
+      "It removes the need for all hand tools",
+      "It keeps every plant permanently short"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/garden-features/how-to-make-a-raised-bed",
+    "rationale": "An elevated growing surface reduces the need to bend; it does not narrow paths or replace every hand tool.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-038",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What is a garden trellis mainly used for?",
+    "answers": [
+      "Supporting climbing plants",
+      "Cutting tree branches",
+      "Collecting fallen leaves",
+      "Measuring rainfall"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/types/climbers/growing-guide",
+    "rationale": "A trellis is a framework that supports climbing stems.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-039",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which of these plants can cling directly to a wall as it grows?",
+    "answers": [
+      "Ivy",
+      "Tulip",
+      "Lavender",
+      "Pansy"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/types/climbers/growing-guide",
+    "rationale": "Ivy is a self-clinging climber; the other plants do not climb walls.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-040",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What do gardeners mean by tying in a climbing rose?",
+    "answers": [
+      "Fastening its stems to a support",
+      "Joining shoots from two different roses",
+      "Bundling together freshly cut flowers",
+      "Wrapping flower buds for frost protection"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/types/climbers/growing-guide",
+    "rationale": "Climbing roses need their stems secured to supports rather than relying on self-attachment.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-041",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Why do ordinary houseplant pots need drainage holes?",
+    "answers": [
+      "To let excess water escape",
+      "To shade the upper leaves",
+      "To collect extra water in the base",
+      "To keep all air out of the growing mix"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.psu.edu/repotting-houseplants",
+    "rationale": "Drainage holes release excess water; the alternatives are not their function.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-042",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What does repotting a houseplant usually involve?",
+    "answers": [
+      "Moving it into a different pot with suitable growing mix",
+      "Trimming its longest branches",
+      "Adding fertiliser to its current pot",
+      "Moving it to another windowsill"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.psu.edu/repotting-houseplants",
+    "rationale": "Repotting changes the plant container and growing medium, not merely its position or decoration.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-043",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which sign suggests a houseplant may have outgrown its pot?",
+    "answers": [
+      "Roots are densely circling inside the pot",
+      "One new leaf has opened",
+      "Its leaves point towards a window",
+      "Its flower petals are brightly coloured"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.psu.edu/repotting-houseplants",
+    "rationale": "A dense circling root system indicates pot-bound growth and a need to assess repotting.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-044",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which garden position is most likely to be in deep shade?",
+    "answers": [
+      "Directly beneath a dense evergreen canopy",
+      "In the middle of an open lawn",
+      "Beside a sunny south-facing wall",
+      "On an unobstructed south-facing roof"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/garden-design/shade-gardening",
+    "rationale": "Dense evergreen foliage intercepts sunlight; the other stated positions are open or explicitly sunny.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-045",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What does dappled shade look like on a garden bed?",
+    "answers": [
+      "Patches of sunlight mixed with shade",
+      "Complete darkness all day",
+      "Unbroken direct sunlight all day",
+      "Light supplied only by lamps"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/garden-design/shade-gardening",
+    "rationale": "Dappled shade is broken shade, commonly formed by light filtering through leaves.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-046",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What is blossom on an apple tree?",
+    "answers": [
+      "The tree's flowers",
+      "Its underground roots",
+      "Its fallen bark",
+      "Its ripe fruit"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/education-learning/school-gardening/resources/curriculum-linked/spring-flowers-identification-guide",
+    "rationale": "Apple blossom consists of flowers that precede fruit development.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-047",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which spring flower is known for goblet-shaped blooms close to the ground?",
+    "answers": [
+      "Crocus",
+      "Sunflower",
+      "Foxglove",
+      "Hollyhock"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/education-learning/school-gardening/resources/curriculum-linked/spring-flowers-identification-guide",
+    "rationale": "Crocuses have low-growing goblet-shaped flowers; the alternatives grow tall flowering stems.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-048",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Mophead and lacecap are familiar flower-head types of which shrub?",
+    "answers": [
+      "Hydrangea",
+      "Lavender",
+      "Holly",
+      "Rosemary"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/hydrangea/shrubby",
+    "rationale": "Hydrangeas include rounded mophead and flatter lacecap forms; these terms do not describe the other shrubs.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-049",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What can influence whether some hydrangeas produce blue or pink flowers?",
+    "answers": [
+      "The acidity of their soil",
+      "The distance between their branches",
+      "The height of the shrub",
+      "The direction their stems lean"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/hydrangea/shrubby",
+    "rationale": "Soil pH affects aluminium availability and flower colour in susceptible hydrangeas.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-050",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which flowers often form purple globes at the tops of long stems?",
+    "answers": [
+      "Ornamental alliums",
+      "Snowdrops",
+      "Poppies",
+      "Foxgloves"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/allium",
+    "rationale": "Many ornamental alliums bear rounded heads of numerous purple flowers on tall stems.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-051",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Ornamental alliums are closely related to which kitchen-garden plant?",
+    "answers": [
+      "Onion",
+      "Carrot",
+      "Lettuce",
+      "Potato"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/allium",
+    "rationale": "Onions are alliums, while the other crops belong to different plant groups.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-052",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Why is the Swiss cheese plant given that common name?",
+    "answers": [
+      "Its mature leaves have natural holes",
+      "Its flowers have a strong cheese-like scent",
+      "Its roots form round white balls",
+      "Its stem is naturally covered in yellow patches"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/swiss-cheese-plants",
+    "rationale": "The common name refers to natural holes in the mature foliage, not the scent, roots or stem colour.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-053",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What light generally suits a Swiss cheese plant indoors?",
+    "answers": [
+      "Bright, indirect light",
+      "Direct midday summer sun against hot glass",
+      "A dark interior cupboard",
+      "A position with almost no daylight"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/swiss-cheese-plants",
+    "rationale": "Swiss cheese plants favour bright filtered light; strong summer sun can scorch their leaves.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-054",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which familiar houseplant often grows baby plants at the ends of long, arching stems?",
+    "answers": [
+      "Spider plant",
+      "Rubber plant",
+      "Aloe vera",
+      "Swiss cheese plant"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/3758/chlorophytum/details",
+    "rationale": "The common spider plant produces dangling plantlets; the other listed plants do not normally form these.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-055",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "A plant label describes leaves as variegated. What does that mean?",
+    "answers": [
+      "They have patches or stripes of different colours",
+      "They are arranged in opposite pairs",
+      "They fall at the start of winter",
+      "They have finely toothed edges"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/spider-plants/growing-guide",
+    "rationale": "Variegation is a pattern of contrasting colours on leaves or other plant parts.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-056",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which part of an aloe vera plant contains its familiar clear gel?",
+    "answers": [
+      "The thick leaves",
+      "The flower petals",
+      "The dry seeds",
+      "The thin roots"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://plantdatabase.kpu.ca/PlantPrint/alve",
+    "rationale": "Aloe vera stores clear gel inside its fleshy leaves.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-057",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Where do moth orchids commonly grow in the wild?",
+    "answers": [
+      "Attached to tree branches",
+      "Submerged in freshwater ponds",
+      "On dry sand dunes in full sun",
+      "Among grasses in exposed alpine meadows"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/phalaenopsis/growing-guide",
+    "rationale": "Moth orchids are epiphytes that grow on trees, rather than aquatic or buried plants.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-058",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which growing mix is normally used for a potted moth orchid?",
+    "answers": [
+      "A loose, bark-based orchid mix",
+      "Heavy garden clay packed tightly",
+      "Fine sand kept completely dry",
+      "A dense, permanently waterlogged mix"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/phalaenopsis/growing-guide",
+    "rationale": "Bark-based orchid mix provides the airy conditions moth orchid roots need.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-059",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Healthy roots are growing above your moth orchid's pot. What is the best response?",
+    "answers": [
+      "Leave the aerial roots in place",
+      "Cut them off because they are outside the pot",
+      "Force them down into tightly packed compost",
+      "Cover every exposed root with pruning sealant"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/phalaenopsis/growing-guide",
+    "rationale": "Aerial roots are normal in moth orchids and should not be cut off merely for growing above the pot.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-060",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which shrub is famous for bright yellow flowers along mostly bare branches in early spring?",
+    "answers": [
+      "Forsythia",
+      "Holly",
+      "Lavender",
+      "Hydrangea"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/forsythia",
+    "rationale": "Forsythia flowers yellow before most leaves unfold; the other shrubs do not match this spring display.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-061",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "How does a climbing honeysuckle usually climb its support?",
+    "answers": [
+      "Its stems twine around it",
+      "Its leaves form sticky pads against it",
+      "Its woody branches hook into it with thorns",
+      "It uses short clinging roots along the stems"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/honeysuckle/climbing",
+    "rationale": "Climbing honeysuckle uses flexible twining stems, rather than adhesive pads, hooked thorns or clinging roots.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-062",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Wild honeysuckle's strong evening scent helps attract which pollinators?",
+    "answers": [
+      "Moths",
+      "Earthworms",
+      "Slugs",
+      "Woodlice"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/honeysuckle/",
+    "rationale": "Nocturnal moths are attracted by honeysuckle scent; the other animals are not its typical pollinators.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-063",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which shrub is well known for large clusters of fragrant lilac-purple or white flowers?",
+    "answers": [
+      "Lilac",
+      "Holly",
+      "Rosemary",
+      "Box"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/lilac/large-flowered-lilacs",
+    "rationale": "Large-flowered lilacs have prominent fragrant flower clusters; the other shrubs do not match this display.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-064",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which garden shrub is commonly called the butterfly bush?",
+    "answers": [
+      "Buddleja",
+      "Forsythia",
+      "Hydrangea",
+      "Camellia"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/buddleja",
+    "rationale": "Buddleja is known as butterfly bush because many butterflies feed at its flowers.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-065",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What do butterflies drink from buddleja flowers?",
+    "answers": [
+      "Nectar",
+      "Tree resin",
+      "Root sap",
+      "Sap from damaged bark"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/buddleja",
+    "rationale": "The flowers supply nectar; the other fluids or structures are not the floral food reward.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-066",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which description fits the bark of a common beech tree?",
+    "answers": [
+      "Smooth and grey",
+      "White and peeling in papery strips",
+      "Deeply corky and strongly ridged",
+      "Reddish and peeling in thin flakes"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/common-beech/",
+    "rationale": "Common beech bark is smooth and grey, unlike the other descriptions.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-067",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What often remains on a clipped beech hedge through winter?",
+    "answers": [
+      "Dry brown leaves",
+      "Freshly opened green leaves",
+      "Large white flowers",
+      "Mature woody cones"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/common-beech/",
+    "rationale": "Clipped beech often retains dead leaves, helping maintain a winter screen.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-068",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "The small red fruits called haws grow on which plant?",
+    "answers": [
+      "Hawthorn",
+      "Hazel",
+      "Silver birch",
+      "Willow"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/hawthorn/",
+    "rationale": "Haws are the fruits of hawthorn; the alternatives produce different fruits.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-069",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which tree is also commonly called mountain ash?",
+    "answers": [
+      "Rowan",
+      "Horse chestnut",
+      "Silver birch",
+      "Holly"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.forestryengland.uk/tree-species/rowan",
+    "rationale": "Rowan is commonly known as mountain ash, though it is not a true ash.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-070",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What gives a weeping willow its weeping appearance?",
+    "answers": [
+      "Long branches that arch and hang down",
+      "Leaves that always fold tightly inwards",
+      "A trunk that spirals around a support",
+      "Flower clusters that hang from short bare stems"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/willow/trees",
+    "rationale": "The long drooping branches create its characteristic weeping shape.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-071",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which growing condition suits many willow trees better than most garden trees?",
+    "answers": [
+      "Moist or wet ground",
+      "Very dry, shallow soil",
+      "Deep shade beneath dense trees",
+      "Dry chalky ground"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/willow/trees",
+    "rationale": "Many willows thrive in wet soils and are poorly suited to persistent drought.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-072",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which pair of colours is especially common in pot marigold flowers?",
+    "answers": [
+      "Orange and yellow",
+      "Blue and purple",
+      "Green and blue",
+      "Black and navy"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/calendula?type=0",
+    "rationale": "Pot marigolds commonly flower in orange and yellow shades; cultivars can also have paler colours.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-073",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What shape are single petunia flowers usually compared to?",
+    "answers": [
+      "A trumpet",
+      "A pine cone",
+      "A fluffy ball",
+      "A narrow catkin"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/120078/petunia-surfinia-series/details",
+    "rationale": "Petunias typically have flared trumpet-shaped flowers.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-074",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which flower gets its name from white blooms with yellow centres that resemble a breakfast dish?",
+    "answers": [
+      "Poached egg plant",
+      "Butterfly bush",
+      "Spider plant",
+      "Love-in-a-mist"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/types/annuals-biennials/sowing-spring",
+    "rationale": "Poached egg plant flowers have yellow centres surrounded by white, explaining the common name.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-075",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which cut-flower favourite produces airy sprays of tiny white flowers?",
+    "answers": [
+      "Baby's breath",
+      "Sunflower",
+      "Tulip",
+      "Hollyhock"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/types/annuals-biennials/sowing-spring",
+    "rationale": "Baby's breath bears many tiny flowers on slender branching stems, unlike the larger-flowered alternatives.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-076",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which of these flowers is commonly grown with feathery foliage and pink or white daisy-like blooms?",
+    "answers": [
+      "Cosmos",
+      "Foxglove",
+      "Daffodil",
+      "Bluebell"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/cosmos",
+    "rationale": "Garden cosmos combines finely divided foliage with large daisy-like flower heads.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-077",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Where should most dry flower seeds be stored until sowing?",
+    "answers": [
+      "Somewhere cool and dry",
+      "Somewhere warm and humid",
+      "In open containers exposed to rain",
+      "In wet compost before the sowing season"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/education-learning/school-gardening/resources/planet-friendly/tips-on-saving-your-own-seeds",
+    "rationale": "Cool, dry storage slows deterioration of ordinary dry-stored flower seeds.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-078",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What should you write on an envelope of saved flower seeds?",
+    "answers": [
+      "The plant name and collection date",
+      "Only the height of the parent plant",
+      "Only the colour of the flowers",
+      "Only the number of seeds"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/education-learning/school-gardening/resources/planet-friendly/tips-on-saving-your-own-seeds",
+    "rationale": "Name and date identify the seed and record its age; the alternatives do not supply both.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-079",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Where should you look to find the recommended sowing depth for a packet of flower seeds?",
+    "answers": [
+      "The instructions on the seed packet",
+      "The depth of the nearest flowerpot",
+      "The final height of the plant alone",
+      "The colour of the seed coat alone"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/getmedia/d0e0088c-a5fd-4d8b-a5aa-f94b5e5e8773/Sowing-seeds-in-the-ground_RHS-Grow-With-It.pdf",
+    "rationale": "Seed packets give crop-specific sowing depth; the other clues do not determine it.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-080",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Why use a fine rose attachment on a watering can when watering newly sown seeds?",
+    "answers": [
+      "It gives a gentle shower that disturbs them less",
+      "It makes the water more acidic",
+      "It adds plant nutrients to the water",
+      "It keeps the seeds completely dry"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/getmedia/d0e0088c-a5fd-4d8b-a5aa-f94b5e5e8773/Sowing-seeds-in-the-ground_RHS-Grow-With-It.pdf",
+    "rationale": "A rose breaks the flow into gentle droplets rather than a strong stream that displaces seeds.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-081",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "On a hot, sunny day, why open a greenhouse's vents?",
+    "answers": [
+      "To let hot air escape and fresh air circulate",
+      "To raise the temperature further",
+      "To reduce airflow around the leaves",
+      "To stop plants receiving daylight"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/garden-features/ventilation-and-shading-greenhouses",
+    "rationale": "Ventilation allows air exchange and helps prevent overheating.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-082",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What is the main purpose of greenhouse shade netting in strong summer sun?",
+    "answers": [
+      "To reduce excessive light and heat",
+      "To keep the air as still as possible",
+      "To increase direct sunlight on every leaf",
+      "To replace ventilation throughout the year"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/garden-features/ventilation-and-shading-greenhouses",
+    "rationale": "Shade netting limits incoming sunlight and helps protect plants from excess heat.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-083",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Greenfly and blackfly are common names for which plant-feeding insects?",
+    "answers": [
+      "Aphids",
+      "Ladybirds",
+      "Butterflies",
+      "Dragonflies"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/biodiversity/aphids",
+    "rationale": "Greenfly and blackfly are aphids, not the other insect groups.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-084",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What do aphids suck from garden plants?",
+    "answers": [
+      "Sap",
+      "Dry pollen",
+      "Bark chips",
+      "Whole seeds"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/biodiversity/aphids",
+    "rationale": "Aphids pierce plant tissue and suck sap; they do not chew the listed solid materials.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-085",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Why can ladybirds be welcome on a rose bush covered in aphids?",
+    "answers": [
+      "Many ladybirds eat aphids",
+      "They pollinate every rose flower",
+      "They feed mainly on damaged rose leaves",
+      "They keep the soil around the roots moist"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/biodiversity/aphids",
+    "rationale": "Predatory ladybirds and their larvae feed on aphids, helping control their numbers.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-086",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Holes have appeared in young leaves overnight, with silvery slime trails nearby. Which visitors are likely responsible?",
+    "answers": [
+      "Slugs or snails",
+      "Butterflies or moths",
+      "Bees or wasps",
+      "Ladybirds or lacewings"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/biodiversity/slugs-and-snails",
+    "rationale": "Plant-feeding slugs and snails leave both feeding holes and mucus trails.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-087",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What does a plant's cold-hardiness rating help you judge?",
+    "answers": [
+      "How low a temperature it can tolerate",
+      "How heavy its flower heads are",
+      "How tough its bark feels",
+      "How quickly it grows each week"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/advice/rhs-hardiness-rating",
+    "rationale": "Cold-hardiness ratings concern survival at low temperatures, rather than weight, texture or growth rate.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-088",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Why might a gardener cover vulnerable plants with horticultural fleece on a cold night?",
+    "answers": [
+      "To give some protection from frost",
+      "To dry out the roots completely",
+      "To attract pollinating insects overnight",
+      "To make the soil more acidic"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/prevention-protection/fleece-and-crop-covers",
+    "rationale": "Fleece provides insulation and limited frost protection; it does not change soil pH or attract pollinators.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-089",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "How many leaflets does a typical white clover leaf have?",
+    "answers": [
+      "Three",
+      "Two",
+      "Five",
+      "Seven"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/weeds/clover-in-lawns",
+    "rationale": "White clover normally has three leaflets; additional leaflets are unusual variations.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-090",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Bamboo belongs to which plant family?",
+    "answers": [
+      "The grass family",
+      "The rose family",
+      "The orchid family",
+      "The pea family"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://botanicalgarden.ubc.ca/our-collections/bamboos/",
+    "rationale": "Bamboos are grasses, despite their often tall woody stems.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-091",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Between their joints, the canes of many familiar bamboos are usually what?",
+    "answers": [
+      "Hollow",
+      "Solid throughout with dense wood",
+      "Filled with loose seeds",
+      "Divided into layers like an onion"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.botanic.cam.ac.uk/the-garden/plant-list/phyllostachys-viridiglaucescens/",
+    "rationale": "Many bamboo stems are hollow between solid nodes; the alternatives do not describe their structure.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-092",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which tiny plant can form a green floating carpet across a garden pond?",
+    "answers": [
+      "Duckweed",
+      "Water iris",
+      "Bulrush",
+      "Water mint"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/weeds/duckweed",
+    "rationale": "Duckweed consists of small free-floating plants that can multiply across the water surface.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-093",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "How can a thick blanket of duckweed affect plants growing beneath the pond surface?",
+    "answers": [
+      "It can block light from reaching them",
+      "It increases the sunlight passing through the surface",
+      "It protects them from every plant disease",
+      "It supplies them with extra light at night"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/weeds/duckweed",
+    "rationale": "Dense duckweed shades submerged plants, potentially restricting their growth.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-094",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What colour are the flowers of the common wild primrose usually?",
+    "answers": [
+      "Pale yellow",
+      "Bright blue",
+      "Deep purple",
+      "Scarlet red"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/plants/13904/primula-vulgaris-subsp-vulgaris-pr-prim/details",
+    "rationale": "The common primrose typically has pale yellow flowers; cultivated primulas have a wider colour range.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-095",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What is the protective outer covering of a tree trunk called?",
+    "answers": [
+      "Bark",
+      "Sapwood",
+      "Pith",
+      "Heartwood"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.illinois.edu/sites/default/files/2025-03/digit-trees.pdf",
+    "rationale": "Bark forms the trunk's protective outer covering; sapwood, pith and heartwood are internal stem tissues.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-096",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which word describes trees that shed their leaves seasonally?",
+    "answers": [
+      "Deciduous",
+      "Evergreen",
+      "Variegated",
+      "Climbing"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.illinois.edu/blogs/welcome-my-jungle/2020-10-01-evergreen-leaves-live-longer-lives",
+    "rationale": "Deciduous describes seasonal leaf loss, unlike evergreen foliage, colour pattern or growth habit.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-097",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Does an evergreen tree keep each individual leaf forever?",
+    "answers": [
+      "No, it replaces old leaves while retaining other foliage",
+      "Yes, every leaf lasts as long as the tree",
+      "Yes, but only if the leaves are needles",
+      "No, it loses all its foliage every winter"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.illinois.edu/blogs/welcome-my-jungle/2020-10-01-evergreen-leaves-live-longer-lives",
+    "rationale": "Evergreens replace ageing leaves while generally retaining foliage throughout the year.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-098",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What makes a plant a weed in a particular garden bed?",
+    "answers": [
+      "It is growing where it is not wanted",
+      "It cannot produce flowers",
+      "It always has poisonous leaves",
+      "It has shallow roots rather than deep roots"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/weeds/clover-in-lawns",
+    "rationale": "Weed describes an unwanted plant in context, not a botanical feature shared by all weeds.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-099",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "Which tool can slice young weeds off just below the soil surface between plant rows?",
+    "answers": [
+      "A hoe",
+      "A watering can",
+      "A pair of hedge shears",
+      "A pruning saw"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/education-learning/school-gardening/resources/getting-started/weeding",
+    "rationale": "A hoe blade cuts weed stems near the soil surface; the other tools do not work this way.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  },
+  {
+    "draftID": "plants-easy-100",
+    "categoryID": "39",
+    "difficulty": "easy",
+    "prompt": "What is a lily pad on the surface of a pond?",
+    "answers": [
+      "A waterlily leaf",
+      "A waterlily root",
+      "A waterlily seed",
+      "A waterlily flower bud"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.chicagobotanic.org/plant-information/smart-gardener/picture-perfect-water-lilies",
+    "rationale": "Lily pads are floating waterlily leaves, not roots, seeds or unopened flowers.",
+    "authorReview": {
+      "meaning": true,
+      "grammar": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "categoryRelevant": true
+    }
+  }
+]

@@ -1,0 +1,1428 @@
+{
+  "reviewer": "botany_author (independent of draft author)",
+  "reviewDate": "2026-11-17",
+  "scope": "All 100 prompts, four answers and rationales individually read; primary references inspected; semantic overlap search of canonical bank. Draft unchanged; apply recommendedChanges before acceptance.",
+  "sourceAccessNote": "Direct page opens and primary indexed pages used. Cambridge often returned 403 on direct opens, so its indexed editorial definitions were read. Provisional URLs that failed or lacked the exact claim have explicit replacements. No source wording copied into questions.",
+  "rows": [
+    {
+      "row": 1,
+      "prompt": "Which legume forms the base of a classic hummus?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Classic hummus is chickpea-based; the qualifier excludes modern pea and bean variants.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 2,
+      "prompt": "Which fruit is the main ingredient in guacamole?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Avocado is the defining guacamole base; the other fruits do not fit.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 3,
+      "prompt": "Tahini is a paste made by grinding which seeds?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Tahini is sesame paste; all three alternative seeds are distinct.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 4,
+      "prompt": "Which vegetable is grated or finely chopped into a classic tzatziki?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Cucumber, rather than the three root vegetables, is the classic tzatziki addition.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 5,
+      "prompt": "Which herb gives classic pesto alla genovese its green colour?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "The Genovese qualifier identifies basil rather than other green pesto variants.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 6,
+      "prompt": "Which nuts are traditionally used in pesto alla genovese?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Traditional Genovese pesto uses pine nuts; named alternatives are substitutions.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 7,
+      "prompt": "Which ingredient is whisked with oil to make a traditional mayonnaise?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Egg yolk supplies the traditional mayonnaise emulsion; no competing listed emulsifier fits.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 8,
+      "prompt": "What is the main dairy ingredient in a traditional béchamel sauce?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Milk supplies the liquid dairy base of bechamel; cream and cheese are not that base.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 9,
+      "prompt": "Which two ingredients form the basic liquid mixture in a vinaigrette?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Oil and vinegar uniquely form a classic vinaigrette; replace the inaccessible recipe URL.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://www.bbcgoodfood.com/howto/guide/how-make-vinaigrettes-and-dressings"
+      }
+    },
+    {
+      "row": 10,
+      "prompt": "What does tomato purée usually refer to in British cooking?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "British tomato puree is concentrated paste; replace the provisional URL with a producer reference.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://mutti-parma.com/en/products/mutti-organic-tomato-puree-double-concentrated/"
+      }
+    },
+    {
+      "row": 11,
+      "prompt": "Couscous is traditionally made from which cereal grain?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Traditional couscous is durum-wheat semolina; none of the other cereals fits.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 12,
+      "prompt": "Polenta is commonly made from ground what?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "The common modern form is maize meal; commonly avoids excluding older non-maize preparations.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 13,
+      "prompt": "Which type of rice is commonly used for risotto?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Arborio is the conventional risotto rice among these choices; source explicitly confirms its starch.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 14,
+      "prompt": "What shape is spaghetti?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Spaghetti is long thin strands; use the pasta manufacturer page that explicitly describes shape.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://www.barilla.com/en-us/help-with/pasta-kitchen-tips/fettuccine-or-spaghetti"
+      }
+    },
+    {
+      "row": 15,
+      "prompt": "Which pasta name is associated with bow-tie shapes?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Farfalle is bow-tie pasta; replace the inaccessible collection URL with the manufacturer.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://www.barilla.com/en-ca/products/pasta/classic-blue-box/farfalle"
+      }
+    },
+    {
+      "row": 16,
+      "prompt": "Lasagne is usually assembled using which pasta shape?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Lasagne sheets support the layered construction; the recipe explicitly instructs layering sheets.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 17,
+      "prompt": "What does al dente describe when cooking pasta?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Al dente is firmness to the bite; correct but replace implausible temperature/medium distractors.",
+      "sourceReview": "Primary source content checked",
+      "recommendedChanges": {
+        "answers": [
+          "Still slightly firm when bitten",
+          "Soft enough to squash without chewing",
+          "Crisp and browned on the outside",
+          "Sticky enough to clump together"
+        ]
+      }
+    },
+    {
+      "row": 18,
+      "prompt": "Bulgur is made from which grain?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Bulgur is processed wheat; the replacement cookery guide explicitly distinguishes it from raw cracked wheat.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://www.bbcgoodfood.com/howto/guide/how-cook-bulgur-wheat"
+      }
+    },
+    {
+      "row": 19,
+      "prompt": "Which of these is a pulse rather than a cereal grain?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Lentils are pulses while the other choices are cereal grains; original FAO URL returns 404.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://www.fao.org/world-pulses-day/news-detail/what-is-the-difference-between-legumes-and-pulses/en"
+      }
+    },
+    {
+      "row": 20,
+      "prompt": "Which cereal is traditionally the main ingredient in British flapjacks?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "British flapjacks use oats; the geographic qualifier correctly excludes US pancakes.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 21,
+      "prompt": "What does simmering mean?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Simmering uses gently bubbling liquid; the other methods do not fit.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 22,
+      "prompt": "Which method cooks food in hot vapour rather than submerging it in water?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Steaming surrounds food with vapour; use the technique page, which explicitly covers it.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://www.escoffier.edu/blog/culinary-arts/techniques-every-cook-should-know/"
+      }
+    },
+    {
+      "row": 23,
+      "prompt": "What happens to food when it is deep-fried?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Deep frying immerses food in fat; shallow frying is correctly excluded.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 24,
+      "prompt": "What does it mean to dice a vegetable?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Dicing makes cubes, though culinary dice can be small, medium or large; remove unnecessary size restriction.",
+      "sourceReview": "Primary source content checked",
+      "recommendedChanges": {
+        "answers": [
+          "Cut it into cubes",
+          "Cut it into thin rings",
+          "Peel it without cutting",
+          "Mash it until smooth"
+        ]
+      }
+    },
+    {
+      "row": 25,
+      "prompt": "When a recipe asks you to grate cheese, what should you produce?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Grating cheese produces small shreds; the other shapes and states are different operations.",
+      "sourceReview": "Indexed Cambridge editorial definition checked"
+    },
+    {
+      "row": 26,
+      "prompt": "What does basting a roast involve?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Basting applies cooking liquid or fat during roasting; use a direct definition instead of an example-only PDF.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/baste"
+      }
+    },
+    {
+      "row": 27,
+      "prompt": "What is a food purée?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Puree describes a smooth crushed mixture; neither strips nor whole food qualifies.",
+      "sourceReview": "Indexed Cambridge editorial definition checked"
+    },
+    {
+      "row": 28,
+      "prompt": "What does reducing a sauce do?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Reduction concentrates a sauce by evaporation; replace the broad PDF with a practical reduction reference.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://www.bbcgoodfood.com/recipes/339605/tomato-sauce"
+      }
+    },
+    {
+      "row": 29,
+      "prompt": "What does deglazing a frying pan involve?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Deglazing releases browned residues into liquid; pan seasoning, flouring and washing are different.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 30,
+      "prompt": "A recipe says to preheat the oven. What does that mean?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Preheating happens before food is added; Cambridge indexed definition explicitly confirms this.",
+      "sourceReview": "Indexed Cambridge editorial definition checked"
+    },
+    {
+      "row": 31,
+      "prompt": "What does kneading help develop in a wheat bread dough?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Kneading develops a wheat dough gluten network; the other proposed effects are different processes.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 32,
+      "prompt": "Which gas produced by yeast helps bread dough rise?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Yeast fermentation produces carbon dioxide; the other listed gases do not raise bread by fermentation.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 33,
+      "prompt": "What does proofing bread dough mean?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Proofing means letting bread dough rise; freezing, slicing and icing do not fit.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 34,
+      "prompt": "What is a sourdough starter?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "A starter is a live fermenting culture; the alternatives are not cultures.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 35,
+      "prompt": "Why are cuts often made on the top of bread dough just before baking?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Scoring guides expansion; it cannot replace fermentation or mix ingredients.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 36,
+      "prompt": "What is the main reason for gently folding whipped egg whites into a cake mixture?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Folding preserves the egg-white foam; replace inaccessible URL with explicit expert discussion.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://www.kingarthurbaking.com/podcast/eggs-are-the-party-animals-of-baking-with-nicola-lamb"
+      }
+    },
+    {
+      "row": 37,
+      "prompt": "In baking, what does creaming butter and sugar mean?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Creaming aerates softened butter and sugar; the definition and grammar are clear.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 38,
+      "prompt": "What is an egg wash commonly brushed onto pastry for?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Egg wash promotes a shiny browned pastry surface; replace inaccessible URL with baking-science coverage.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://www.kingarthurbaking.com/blog/2021/11/12/soy-milk-best-vegan-egg-wash"
+      }
+    },
+    {
+      "row": 39,
+      "prompt": "Which ingredient is normally included in self-raising flour but not plain flour?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Self-raising flour contains a raising agent; use the verified flour glossary.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://www.bbcgoodfood.com/glossary/flour-glossary"
+      }
+    },
+    {
+      "row": 40,
+      "prompt": "What does blind baking a pastry case mean?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Blind baking cooks the pastry case before filling; replace 404 and remove joke distractor.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://www.bbcgoodfood.com/videos/techniques/how-blind-bake-pastry-video",
+        "answers": [
+          "Baking it before adding the filling",
+          "Baking it together with a raw filling",
+          "Cooking the filling separately in a saucepan",
+          "Baking it under a second layer of pastry"
+        ]
+      }
+    },
+    {
+      "row": 41,
+      "prompt": "Which citrus fruit is typically yellow when ripe and known for its sour juice?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": false,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Lime is also yellow when fully ripe, so the original has two defensible answers; replace lime with orange.",
+      "sourceReview": "Primary source content checked",
+      "recommendedChanges": {
+        "answers": [
+          "Lemon",
+          "Orange",
+          "Mandarin",
+          "Clementine"
+        ],
+        "rationale": "Lemons are characteristically yellow and sour; the other listed citrus fruits normally ripen orange. Lime was excluded because ripe limes can also be yellow."
+      },
+      "additionalEvidenceURL": "https://fruitsandnuts.ucdavis.edu/sites/g/files/dgvnsk12441/files/391-272.pdf"
+    },
+    {
+      "row": 42,
+      "prompt": "What is the fragrant coloured outer layer of citrus peel called in cooking?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Zest is the coloured exterior, distinct from the white pith and internal pulp; replace 404 URL.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://www.bbcgoodfood.com/recipes/lemon-curd"
+      }
+    },
+    {
+      "row": 43,
+      "prompt": "What is an individual segment of a garlic bulb called?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "An individual garlic-bulb division is a clove; the other botanical terms do not fit.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 44,
+      "prompt": "Which vegetable is known as zucchini in American English?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Zucchini and courgette are regional names for the same vegetable; the glossary confirms both.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 45,
+      "prompt": "Which vegetable is traditionally used for sauerkraut?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Sauerkraut uses fermented cabbage; the original recipe URL returns 404.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://www.bbcgoodfood.com/recipes/simple-sauerkraut"
+      }
+    },
+    {
+      "row": 46,
+      "prompt": "Which herb has feathery leaves and is often paired with salmon?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Dill matches both feathery foliage and the fish pairing; source replacement needed.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://www.rhs.org.uk/herbs/dill/grow-your-own"
+      }
+    },
+    {
+      "row": 47,
+      "prompt": "Which herb has stiff, narrow leaves resembling small needles?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Rosemary has needle-like leaves; the other listed herbs do not.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 48,
+      "prompt": "Which spice is made from the bark of a tree?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Cinnamon is bark; cumin/coriander are seed spices and pepper is fruit.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 49,
+      "prompt": "Paprika is made by drying and grinding which ingredient?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Paprika is dried ground Capsicum peppers; the three other vegetables are not its base.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 50,
+      "prompt": "Which ingredient gives many curries a strong yellow colour?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Turmeric provides yellow pigment; the dark alternative spices do not.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 51,
+      "prompt": "What is the principal ingredient in a plain omelette?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "A plain omelette is based on eggs; potatoes and flour are not its principal ingredient.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 52,
+      "prompt": "Which dish is a baked pastry case with a savoury egg-and-cream filling?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Quiche uniquely combines a pastry case with savoury egg custard.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 53,
+      "prompt": "Which meat is traditionally used in shepherd’s pie?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Lamb is traditional shepherds pie meat, whereas beef identifies cottage pie.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 54,
+      "prompt": "What topping is traditionally used on a shepherd’s pie?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Mashed potato is the traditional topping; puff pastry would describe a different pie.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 55,
+      "prompt": "What is the main grain in a traditional paella?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Paella is a rice dish; variation in proteins does not affect the answer.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 56,
+      "prompt": "What gives sushi rice its characteristic tangy seasoning?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Vinegar seasons sushi rice; replace the general MAFF index with a specific recipe.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://www.maff.go.jp/e/policies/market/k_ryouri/search_menu/3544/index.html"
+      }
+    },
+    {
+      "row": 57,
+      "prompt": "Sashimi is typically served as slices of what?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Typical fish sashimi is raw sliced fish; typically avoids claiming all sashimi must be fish.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://www.japan.travel/en/guide/sushi-in-japan/"
+      }
+    },
+    {
+      "row": 58,
+      "prompt": "What is distinctive about tempura?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Tempura is batter-fried food; replace the inaccessible URL and unrealistic distractors.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://www.japan.travel/en/au/experience/cuisine/10-dishes-you-shouldnt-leave-japan-without-trying/",
+        "answers": [
+          "Ingredients are coated in light batter and fried",
+          "Ingredients are simmered slowly in broth",
+          "Ingredients are baked inside a pastry crust",
+          "Ingredients are rolled in vinegared rice"
+        ]
+      }
+    },
+    {
+      "row": 59,
+      "prompt": "Which flatbread is traditionally used to wrap a burrito?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "A tortilla is the burrito wrapper; the other breads cannot describe the traditional wrap.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 60,
+      "prompt": "Falafel is commonly made from which type of ingredient?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Falafel can use chickpeas or broad beans; the grouped correct choice preserves both regional traditions.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://www.bbcgoodfood.com/glossary/falafel-glossary"
+      }
+    },
+    {
+      "row": 61,
+      "prompt": "What process turns cream into butter?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Churning separates butterfat from cream; the other preservation processes do not.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://www.bbcgoodfood.com/howto/guide/common-ingredient-substitutions"
+      }
+    },
+    {
+      "row": 62,
+      "prompt": "Which liquid is left over when traditional butter is churned?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Traditional buttermilk is the leftover churning liquid; wording excludes modern cultured substitutes.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://www.bbcgoodfood.com/howto/guide/common-ingredient-substitutions"
+      }
+    },
+    {
+      "row": 63,
+      "prompt": "Which ingredient is the base of traditional dairy yogurt?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Dairy yogurt is fermented milk; dairy qualifier excludes plant alternatives.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://www.bbcgoodfood.com/glossary/yogurt-glossary"
+      }
+    },
+    {
+      "row": 64,
+      "prompt": "What gives blue cheeses their coloured veins?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Blue veins are mould cultures; replace inaccessible source and distracting non-food slate option.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://www.cheesescience.org/penicillium.html",
+        "answers": [
+          "Edible mould cultures",
+          "Caramelised milk sugars",
+          "Crushed blueberry skins",
+          "Mineral salt crystals"
+        ],
+        "rationale": "Blue cheese veins are mould growth, not caramelisation, fruit pigment or salt crystals."
+      }
+    },
+    {
+      "row": 65,
+      "prompt": "What is the yellow central part of a hen’s egg called?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Yolk names the central yellow portion; albumen, shell and membrane are different parts.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/yolk"
+      }
+    },
+    {
+      "row": 66,
+      "prompt": "Which part of an egg is mainly used to make a traditional meringue?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Traditional meringue uses egg white; the other egg parts do not form its base.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 67,
+      "prompt": "What makes scrambled eggs different from a plain fried egg?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Scrambling mixes eggs as they set; replace fanciful distractors with actual alternative egg methods.",
+      "sourceReview": "Primary source content checked",
+      "recommendedChanges": {
+        "answers": [
+          "The eggs are beaten and stirred as they cook",
+          "The eggs are boiled whole in their shells",
+          "The eggs are cracked into simmering water",
+          "The eggs are fried with the yolks left intact"
+        ]
+      }
+    },
+    {
+      "row": 68,
+      "prompt": "In a soft-boiled egg, how is the yolk usually served?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Soft boiling leaves a runny or softly set yolk; replace 404 and implausible distractors.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://tollbit.bbcgoodfood.com/howto/guide/how-cook-perfect-boiled-egg",
+        "answers": [
+          "Still runny or softly set",
+          "Firm and crumbly all the way through",
+          "Beaten together with the white",
+          "Separated and cooked in a frying pan"
+        ]
+      }
+    },
+    {
+      "row": 69,
+      "prompt": "Which cheese is commonly grated over pasta and sold as Parmigiano Reggiano?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Parmigiano Reggiano is the cheese called Parmesan; official consortium branding verifies the English name.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Visual_Identity_Guidelines_00d7481cfb.pdf"
+      }
+    },
+    {
+      "row": 70,
+      "prompt": "Which fresh Italian cheese has a soft, creamy centre inside a mozzarella shell?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Burrata encloses a creamy filling in mozzarella; other cheeses are solid aged cheeses.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://tollbit.bbcgoodfood.com/howto/guide/30-types-of-cheese-you-should-try"
+      }
+    },
+    {
+      "row": 71,
+      "prompt": "A traditional pavlova has a base made from what?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Pavlova has a meringue base; existing bank asks its food type, a different target fact.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 72,
+      "prompt": "What forms the crisp top of a crème brûlée?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Caramelised sugar forms the brittle creme brulee topping; none of the savoury options fits.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 73,
+      "prompt": "Which fruit is used in a traditional tarte Tatin?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Traditional tarte Tatin uses apples; traditional excludes modern other-fruit versions.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 74,
+      "prompt": "A banoffee pie combines banana with which other main flavour?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Banoffee combines banana with toffee; coffee is not its defining second flavour.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 75,
+      "prompt": "Which sweet spread is traditionally made with citrus juice, eggs, butter and sugar?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Eggs and butter distinguish lemon curd from the listed jams and syrup.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 76,
+      "prompt": "What type of pastry is used for traditional profiteroles?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Profiteroles use choux pastry; source replacement explicitly names the pastry type.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://www.bbcgoodfood.com/howto/guide/our-best-ever-profiterole-recipes"
+      }
+    },
+    {
+      "row": 77,
+      "prompt": "Which pastry consists of very thin sheets often brushed with butter or oil?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Filo is paper-thin sheets; none of the other pastry names describes those sheets.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://www.bbcgoodfood.com/videos/techniques/how-use-filo-pastry-video"
+      }
+    },
+    {
+      "row": 78,
+      "prompt": "What is custard traditionally thickened with?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Traditional egg custard thickens through egg proteins; starch-based commercial versions do not create a competing listed answer.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://www.bbcgoodfood.com/videos/techniques/how-make-custard-video"
+      }
+    },
+    {
+      "row": 79,
+      "prompt": "Which dried fruit is a dried grape?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "A raisin is dried grape; the other dried fruits are botanically distinct.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://www.raisins.org/wp-content/uploads/2021/09/Part-989-Raisins-6-21-21.pdf"
+      }
+    },
+    {
+      "row": 80,
+      "prompt": "A prune is a dried version of which fruit?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "A prune is dried plum; the alternatives are different stone and pome fruits.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://californiaprunes.org/california-prunes-101/faqs/"
+      }
+    },
+    {
+      "row": 81,
+      "prompt": "An espresso is a concentrated form of which drink?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Espresso is concentrated coffee; replace inaccessible glossary with a direct definition.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/espresso"
+      }
+    },
+    {
+      "row": 82,
+      "prompt": "What is added to espresso to make an Americano?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Americano combines espresso with water; use primary coffee recipe and plausible coffee additions as distractors.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://athome.starbucks.com/recipe/caffe-americano",
+        "answers": [
+          "Hot water",
+          "Steamed milk",
+          "Whipped cream",
+          "Hot chocolate"
+        ]
+      }
+    },
+    {
+      "row": 83,
+      "prompt": "A café latte mainly combines espresso with what?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Latte primarily adds milk; the other liquids do not define a latte.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 84,
+      "prompt": "What makes sparkling water fizzy?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Dissolved carbon dioxide supplies bubbles; replacement nutrition page explicitly explains carbonation.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://www.bbcgoodfood.com/health/nutrition/is-sparkling-water-good-for-you"
+      }
+    },
+    {
+      "row": 85,
+      "prompt": "Which fruit is fermented to make most traditional cider?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Traditional alcoholic cider is fermented apple juice; pear fermentation is perry.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://members.camra.org.uk/learn-discover/the-basics/what-is-real-cider/"
+      }
+    },
+    {
+      "row": 86,
+      "prompt": "Which fruit is used to make perry?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Perry is fermented pear juice; source distinguishes it from apple cider.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://members.camra.org.uk/learn-discover/the-basics/what-is-real-cider/"
+      }
+    },
+    {
+      "row": 87,
+      "prompt": "Which plant’s berries provide gin’s characteristic flavour?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Juniper is the defining gin botanical; other berries do not define gin.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://tollbit.bbcgoodfood.com/glossary/gin-glossary"
+      }
+    },
+    {
+      "row": 88,
+      "prompt": "A classic Bellini combines sparkling wine with a purée of which fruit?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "The official IBA Bellini uses peach puree; none of the other fruits is the classic ingredient.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 89,
+      "prompt": "Which tropical fruit is used in a classic piña colada?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "The official IBA pina colada uses pineapple; alternatives are not its defining fruit.",
+      "sourceReview": "Primary source content checked"
+    },
+    {
+      "row": 90,
+      "prompt": "A traditional hot chocolate is primarily flavoured with which ingredient?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Cocoa or chocolate defines the drink; cinnamon may be an addition but is not its primary flavour.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://www.bbcgoodfood.com/recipes/homemade-hot-chocolate"
+      }
+    },
+    {
+      "row": 91,
+      "prompt": "Which kitchen tool has holes and is commonly used to drain cooked pasta?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Colander uniquely drains pasta through holes; the other utensils have different purposes.",
+      "sourceReview": "Indexed Cambridge editorial definition checked"
+    },
+    {
+      "row": 92,
+      "prompt": "What is a rolling pin mainly used for?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Rolling pins flatten dough; the alternatives are other kitchen operations.",
+      "sourceReview": "Indexed Cambridge editorial definition checked"
+    },
+    {
+      "row": 93,
+      "prompt": "What would you normally use a kitchen whisk to do?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "A whisk beats mixtures and incorporates air; it is not a cutting or draining tool.",
+      "sourceReview": "Indexed Cambridge editorial definition checked"
+    },
+    {
+      "row": 94,
+      "prompt": "Which utensil is especially suited to serving soup from a pot?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "A ladle has the bowl needed for serving soup; none of the other utensils does.",
+      "sourceReview": "Indexed Cambridge editorial definition checked"
+    },
+    {
+      "row": 95,
+      "prompt": "What does a kitchen sieve help do when used with flour?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "A sieve sifts flour and removes lumps; replace implausible distractors with actual preparation tasks.",
+      "sourceReview": "Indexed Cambridge editorial definition checked",
+      "recommendedChanges": {
+        "answers": [
+          "Break up lumps and sift it",
+          "Knead it into a dough",
+          "Toast it evenly in a pan",
+          "Weigh out an exact portion"
+        ]
+      }
+    },
+    {
+      "row": 96,
+      "prompt": "What is a garnish?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Garnish describes a finishing food decoration/accompaniment; the other choices are equipment.",
+      "sourceReview": "Indexed Cambridge editorial definition checked"
+    },
+    {
+      "row": 97,
+      "prompt": "Which taste is associated with lemon juice?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Independent follow-up review by botany_author: replace repeated sour-lemon fact with the savoury taste name. NIDCD explicitly gives broth, meat extracts and some cheeses as examples. Existing bank asks for glutamate, rather than naming this taste from foods.",
+      "sourceReview": "Verified primary NIDCD taste-disorders educational content; this is an identification question, not medical advice.",
+      "recommendedChanges": {
+        "prompt": "What is the name of the savoury basic taste associated with foods such as meat broth and aged cheese?",
+        "answers": [
+          "Umami",
+          "Sour",
+          "Sweet",
+          "Bitter"
+        ],
+        "correctIndex": 0,
+        "rationale": "Umami names the savoury basic taste; broth and some cheeses supply glutamate, while sour, sweet and bitter are separate taste qualities.",
+        "sourceURL": "https://www.nidcd.nih.gov/health/taste-disorders"
+      }
+    },
+    {
+      "row": 98,
+      "prompt": "Which basic taste is particularly associated with strong, unsweetened coffee?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Unsweetened coffee commonly tastes bitter; sour is deliberately not a distractor; direct taste definition gives coffee as its example.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/us/dictionary/english/bitter"
+      }
+    },
+    {
+      "row": 99,
+      "prompt": "Which basic taste is associated with salt?",
+      "action": "edit",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Salt tasting salty is tautological; replace this row with a simple nonduplicate ketchup ingredient question.",
+      "sourceReview": "Verified replacement primary source specified",
+      "recommendedChanges": {
+        "prompt": "Which ingredient is the main base of the familiar red ketchup served with chips?",
+        "answers": [
+          "Tomatoes",
+          "Beetroot",
+          "Red peppers",
+          "Red onions"
+        ],
+        "correctIndex": 0,
+        "sourceURL": "https://www.bbcgoodfood.com/recipes/homemade-ketchup",
+        "rationale": "The familiar red ketchup is tomato-based; the other red vegetables do not form its conventional base."
+      }
+    },
+    {
+      "row": 100,
+      "prompt": "What does tbsp usually stand for in a recipe?",
+      "action": "keep",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "note": "Tbsp means tablespoon; tsp denotes teaspoon, and the other expansions are not recipe abbreviations.",
+      "sourceReview": "Indexed Cambridge editorial definition checked"
+    }
+  ]
+}

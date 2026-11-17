@@ -1,0 +1,2102 @@
+[
+  {
+    "draftID": "easy-27-001",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which substance do female mammals produce to feed their young?",
+    "answers": [
+      "Milk",
+      "Nectar",
+      "Silk",
+      "Venom"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/mammals",
+    "rationale": "Milk production is a defining mammalian trait; the alternatives are unrelated secretions.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Milk production is a defining mammalian trait; the alternatives are unrelated secretions.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-002",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which mammals can sustain powered flight rather than merely glide?",
+    "answers": [
+      "Bats",
+      "Flying squirrels",
+      "Sugar gliders",
+      "Colugos"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/bat",
+    "rationale": "Bats flap wings for powered flight; all three alternatives glide.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Bats flap wings for powered flight; all three alternatives glide.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-003",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which is the largest living animal by mass?",
+    "answers": [
+      "The blue whale",
+      "The African elephant",
+      "The whale shark",
+      "The giraffe"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.fisheries.noaa.gov/species/blue-whale",
+    "rationale": "Blue whales exceed the mass of the three other large animals.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Blue whales exceed the mass of the three other large animals.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-004",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "A bottlenose dolphin belongs to which animal group?",
+    "answers": [
+      "Mammals",
+      "Fish",
+      "Reptiles",
+      "Amphibians"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.fisheries.noaa.gov/species/common-bottlenose-dolphin",
+    "rationale": "Dolphins breathe air and nurse their calves, so they are mammals.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Dolphins breathe air and nurse their calves, so they are mammals.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-005",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "A dolphin comes to the surface to take in air through what?",
+    "answers": [
+      "Its blowhole",
+      "Its gills",
+      "Its tail flukes",
+      "Its dorsal fin"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.fisheries.noaa.gov/species/common-bottlenose-dolphin",
+    "rationale": "The blowhole is the breathing opening; dolphins lack gills.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "The blowhole is the breathing opening; dolphins lack gills.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-006",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What is the insulating layer of fat beneath a seal's skin called?",
+    "answers": [
+      "Blubber",
+      "Baleen",
+      "Plumage",
+      "Cartilage"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.fisheries.noaa.gov/species/harbor-seal",
+    "rationale": "Blubber is fat beneath the skin; baleen, feathers and cartilage are different tissues.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Blubber is fat beneath the skin; baleen, feathers and cartilage are different tissues.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-007",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What does a camel store in its hump?",
+    "answers": [
+      "Fat",
+      "Liquid water",
+      "Air",
+      "Undigested grass"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/camel",
+    "rationale": "Hump fat provides an energy reserve; it is not a water tank.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Hump fat provides an energy reserve; it is not a water tank.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-008",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "How many humps does a dromedary camel normally have?",
+    "answers": [
+      "One",
+      "Two",
+      "Three",
+      "None"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/camel",
+    "rationale": "Dromedaries have one hump, unlike two-humped Bactrian camels.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Dromedaries have one hump, unlike two-humped Bactrian camels.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-009",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "How do a camel's broad feet help it travel over sand?",
+    "answers": [
+      "They spread its weight over a larger area",
+      "They work like sharp digging claws",
+      "They grip sand with sticky pads",
+      "They store drinking water"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/camel",
+    "rationale": "Broad spreading feet reduce sinking into soft ground.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Broad spreading feet reduce sinking into soft ground.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-010",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which animal is especially recognisable by a black-and-white striped coat?",
+    "answers": [
+      "Zebra",
+      "Giraffe",
+      "Hippopotamus",
+      "Lion"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/zebra",
+    "rationale": "Zebras have the striped pattern; none of the other named animals does.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Zebras have the striped pattern; none of the other named animals does.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-011",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What pattern normally appears on an orange tiger's coat?",
+    "answers": [
+      "Dark stripes",
+      "Large white spots",
+      "Black rings around every leg only",
+      "Uniform orange without markings"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/tiger",
+    "rationale": "Tiger coats have dark stripes, not spots or a wholly plain surface.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Tiger coats have dark stripes, not spots or a wholly plain surface.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-012",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which living land animal is famous for reaching the highest running speeds over short distances?",
+    "answers": [
+      "Cheetah",
+      "Lion",
+      "Elephant",
+      "Rhinoceros"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/cheetah",
+    "rationale": "Cheetahs are short-distance sprint specialists and the fastest of these land animals.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Cheetahs are short-distance sprint specialists and the fastest of these land animals.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-013",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Where does a very young kangaroo continue developing after birth?",
+    "answers": [
+      "In its mother's pouch",
+      "In a nest of twigs",
+      "In a burrow away from its mother",
+      "Under a mound of sand"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/kangaroo",
+    "rationale": "Marsupial joeys develop while attached to a teat in the maternal pouch.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Marsupial joeys develop while attached to a teat in the maternal pouch.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-014",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Although sometimes called a koala bear, a koala is actually what?",
+    "answers": [
+      "A marsupial",
+      "A true bear",
+      "A primate",
+      "A rodent"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/koala",
+    "rationale": "Koalas are marsupials, not members of the bear family.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Koalas are marsupials, not members of the bear family.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-015",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which feature distinguishes apes such as orangutans from most monkeys?",
+    "answers": [
+      "Apes have no tails",
+      "Apes have feathers",
+      "Apes lay eggs",
+      "Apes have six limbs"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/orangutan",
+    "rationale": "The lack of a tail is the relevant distinction; the other traits do not describe apes.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "The lack of a tail is the relevant distinction; the other traits do not describe apes.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-016",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "A gorilla described as a silverback is usually what?",
+    "answers": [
+      "A mature male",
+      "A newborn infant",
+      "A young female",
+      "A separate gorilla species"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/gorilla",
+    "rationale": "Mature males develop the characteristic silver-grey back hair.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Mature males develop the characteristic silver-grey back hair.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-017",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What do chimpanzees commonly use as tools to extract termites from a mound?",
+    "answers": [
+      "Slender sticks",
+      "Large feathers",
+      "Empty eggshells",
+      "Pieces of coral"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/chimpanzee",
+    "rationale": "Chimpanzees modify and use plant stems to fish for termites.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Chimpanzees modify and use plant stems to fish for termites.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-018",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which mammal is famous for building dams across streams?",
+    "answers": [
+      "Beaver",
+      "Otter",
+      "Badger",
+      "Fox"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/beaver",
+    "rationale": "Beavers build dams using woody and other material; the alternatives do not.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Beavers build dams using woody and other material; the alternatives do not.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-019",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Why do beavers need to keep wearing down their front teeth?",
+    "answers": [
+      "The teeth grow continuously",
+      "The teeth are replaced every week",
+      "The teeth stop growing at birth",
+      "The teeth are used only during infancy"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/beaver",
+    "rationale": "Rodent incisors grow continuously and are worn by use.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Rodent incisors grow continuously and are worn by use.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-020",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which foot feature helps many otters swim?",
+    "answers": [
+      "Webbing between the toes",
+      "Hard hooves on every toe",
+      "Adhesive pads like those of a gecko",
+      "Broad digging claws without webbing"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/otter",
+    "rationale": "Webbing improves propulsion in water; otters lack hooves or feathers.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Webbing improves propulsion in water; otters lack hooves or feathers.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-021",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "How does a hedgehog commonly protect its soft underside when threatened?",
+    "answers": [
+      "By curling into a ball",
+      "By shedding its shell",
+      "By puffing up a neck hood",
+      "By releasing a cloud of ink"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/hedgehog",
+    "rationale": "Rolling up presents spines outward and covers vulnerable body parts.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Rolling up presents spines outward and covers vulnerable body parts.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-022",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Why do squirrels bury or hide nuts?",
+    "answers": [
+      "To store food for later",
+      "To soften their nutshells instantly",
+      "To mark a permanent sleeping chamber",
+      "To feed only the roots of nearby trees"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/animals/mammals/grey-squirrel/",
+    "rationale": "Caching stores food for future use; it is not reproduction or dam building.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Caching stores food for future use; it is not reproduction or dam building.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-023",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What is the underground home of a European badger called?",
+    "answers": [
+      "A sett",
+      "A rookery",
+      "A hive",
+      "A drey"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.wildlifetrusts.org/wildlife-explorer/mammals/badger",
+    "rationale": "A sett is a badger burrow system; the other homes belong to different animals.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "A sett is a badger burrow system; the other homes belong to different animals.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-024",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What usually happens to a male red deer's antlers each year?",
+    "answers": [
+      "They are shed and regrown",
+      "They remain permanently attached after maturity",
+      "They shrink into the skull each winter",
+      "They are replaced by permanent horns"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.wildlifetrusts.org/wildlife-explorer/mammals/red-deer",
+    "rationale": "Antlers are deciduous bony structures, unlike permanent horns.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Antlers are deciduous bony structures, unlike permanent horns.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-025",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "In which deer species do both males and females commonly grow antlers?",
+    "answers": [
+      "Reindeer",
+      "Red deer",
+      "Roe deer",
+      "Fallow deer"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/reindeer-caribou",
+    "rationale": "Female reindeer commonly carry antlers; females of the other listed species normally do not.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Female reindeer commonly carry antlers; females of the other listed species normally do not.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-026",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "How does a polar bear's pale-looking coat help it hunt on snow and ice?",
+    "answers": [
+      "It provides camouflage",
+      "It lets the bear breathe underwater",
+      "It supplies the bear with oxygen",
+      "It prevents all heat loss"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/polar-bear",
+    "rationale": "Pale appearance helps conceal the bear; the coat is not a respiratory organ or perfect insulation.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Pale appearance helps conceal the bear; the coat is not a respiratory organ or perfect insulation.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-027",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "An elephant's tusks are enlarged versions of which body structures?",
+    "answers": [
+      "Teeth",
+      "Claws",
+      "Ribs",
+      "Nose bones"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/elephant",
+    "rationale": "Tusks are elongated incisors, not horns or bones of the trunk.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Tusks are elongated incisors, not horns or bones of the trunk.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-028",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "How can an elephant's large ears help it cool down?",
+    "answers": [
+      "Blood near the ear surfaces loses heat",
+      "The ears store ice",
+      "The ears stop its heart beating",
+      "The ears absorb all sunlight"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/elephant",
+    "rationale": "Heat exchange through well-supplied ear skin aids cooling.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Heat exchange through well-supplied ear skin aids cooling.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-029",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What makes up most of a rhinoceros's natural diet?",
+    "answers": [
+      "Plant material",
+      "Fish",
+      "Insects",
+      "Other large mammals"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/rhinoceros",
+    "rationale": "Rhinos are herbivores, although species vary between grazing and browsing.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Rhinos are herbivores, although species vary between grazing and browsing.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-030",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Common hippos leave the water at night mainly to feed on what?",
+    "answers": [
+      "Grass",
+      "Seaweed",
+      "Fish",
+      "Tree bark only"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/hippopotamus",
+    "rationale": "Common hippos are primarily grazers; occasional unusual feeding does not change the main diet.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Common hippos are primarily grazers; occasional unusual feeding does not change the main diet.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-031",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which covering is unique to birds among living animal groups?",
+    "answers": [
+      "Feathers",
+      "Fur",
+      "Scales",
+      "Shells"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/birds",
+    "rationale": "Living birds have feathers; scales and shells also occur in other groups.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Living birds have feathers; scales and shells also occur in other groups.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-032",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Penguins use their flipper-like wings mainly for which activity?",
+    "answers": [
+      "Swimming",
+      "Powered flight through air",
+      "Digging deep tunnels",
+      "Holding food like hands"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/penguin",
+    "rationale": "Penguin wings are adapted to underwater propulsion.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Penguin wings are adapted to underwater propulsion.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-033",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which is the largest living bird?",
+    "answers": [
+      "Ostrich",
+      "Emperor penguin",
+      "Bald eagle",
+      "Mute swan"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/ostrich",
+    "rationale": "Ostriches exceed the other named birds in height and mass.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Ostriches exceed the other named birds in height and mass.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-034",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which small birds are especially known for hovering while drinking nectar?",
+    "answers": [
+      "Hummingbirds",
+      "Ostriches",
+      "Penguins",
+      "Crows"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/hummingbird",
+    "rationale": "Sustained hovering at flowers is characteristic of hummingbirds.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Sustained hovering at flowers is characteristic of hummingbirds.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-035",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "The word nocturnal describes an animal that is mainly active when?",
+    "answers": [
+      "At night",
+      "Only in winter",
+      "Only underwater",
+      "At midday only"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/owl",
+    "rationale": "Nocturnal refers to time of daily activity, not season or habitat.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Nocturnal refers to time of daily activity, not season or habitat.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-036",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What helps a duck push against water while swimming?",
+    "answers": [
+      "Webbed feet",
+      "Cloven hooves",
+      "Adhesive toe pads",
+      "Broad digging claws without webbing"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/duck",
+    "rationale": "The webbed surface acts as a paddle.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "The webbed surface acts as a paddle.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-037",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What does a pelican use its large throat pouch for when feeding?",
+    "answers": [
+      "Scooping up prey and draining water",
+      "Storing eggs during incubation",
+      "Filtering air for breathing",
+      "Growing replacement feathers"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/pelican",
+    "rationale": "The pouch helps capture food; it is not an egg chamber or breathing filter.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "The pouch helps capture food; it is not an egg chamber or breathing filter.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-038",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Where do flamingos get the pigments that make their feathers pink?",
+    "answers": [
+      "From their food",
+      "From pink mud staining every feather",
+      "From sunlight alone",
+      "From seawater salt"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/flamingo",
+    "rationale": "Dietary carotenoids contribute the colour; it is not merely external staining.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Dietary carotenoids contribute the colour; it is not merely external staining.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-039",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Strictly speaking, a peacock is which animal?",
+    "answers": [
+      "A male peafowl",
+      "A female peafowl",
+      "Any young chicken",
+      "A type of pheasant chick"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/peafowl",
+    "rationale": "Peacock is the male term; peahen is the female.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Peacock is the male term; peahen is the female.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-040",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which British garden bird is especially known for an orange-red face and breast?",
+    "answers": [
+      "Robin",
+      "Blue tit",
+      "Great spotted woodpecker",
+      "House sparrow"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.wildlifetrusts.org/wildlife-explorer/birds/thrushes-chats-flycatchers-starling-dipper-and-wren/robin",
+    "rationale": "Adult robins have this distinctive colour patch; the alternatives do not.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Adult robins have this distinctive colour patch; the alternatives do not.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-041",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What colour is the bill of a typical adult male common blackbird?",
+    "answers": [
+      "Yellow to orange",
+      "Bright blue",
+      "White with red spots",
+      "Green"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.wildlifetrusts.org/wildlife-explorer/birds/thrushes-chats-flycatchers-starling-dipper-and-wren/blackbird",
+    "rationale": "The adult male typically has a yellow-orange bill; the sex and age qualifications matter.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "The adult male typically has a yellow-orange bill; the sex and age qualifications matter.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-042",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which crow-family bird has black-and-white plumage and a long tail?",
+    "answers": [
+      "Eurasian magpie",
+      "Carrion crow",
+      "Jackdaw",
+      "Rook"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.wildlifetrusts.org/wildlife-explorer/birds/crows-and-shrikes/magpie",
+    "rationale": "Magpies have a white and black pattern with a long tail; the other corvids differ.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Magpies have a white and black pattern with a long tail; the other corvids differ.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-043",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Why do many swallows leave Britain in autumn?",
+    "answers": [
+      "They migrate to warmer regions with more available insects",
+      "They change into another bird species",
+      "They spend winter under pond mud",
+      "They cannot fly after September"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.wildlifetrusts.org/wildlife-explorer/birds/swallows-martins-and-swifts/swallow",
+    "rationale": "Seasonal migration follows favourable feeding conditions, not physical loss of flight.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Seasonal migration follows favourable feeding conditions, not physical loss of flight.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-044",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Why do woodpeckers drum rapidly on resonant branches?",
+    "answers": [
+      "To communicate, including advertising territory",
+      "To make rainfall start",
+      "To remove their beaks",
+      "To bury food underground"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.bto.org/learn/about-birds/bird-families/picidae-woodpeckers",
+    "rationale": "Drumming is a signalling behaviour distinct from feeding pecks.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Drumming is a signalling behaviour distinct from feeding pecks.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-045",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "A common kingfisher dives into water mainly to catch what?",
+    "answers": [
+      "Small fish",
+      "Grass seeds",
+      "Tree leaves",
+      "Earthworms in dry soil"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.bto.org/learn/about-birds/birdfacts/kingfisher",
+    "rationale": "Small aquatic prey, especially fish, forms its principal food.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Small aquatic prey, especially fish, forms its principal food.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-046",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which seabird has a brightly coloured triangular bill during the breeding season?",
+    "answers": [
+      "Atlantic puffin",
+      "Black-headed gull",
+      "Guillemot",
+      "Northern gannet"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.wildlifetrusts.org/wildlife-explorer/birds/seabirds/puffin",
+    "rationale": "The breeding-season qualification covers seasonal bill appearance; puffin is the distinctive match.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "The breeding-season qualification covers seasonal bill appearance; puffin is the distinctive match.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-047",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Where does a female common cuckoo normally lay its eggs?",
+    "answers": [
+      "In other birds' nests",
+      "In a nest excavated in ice",
+      "In the sea",
+      "In its own underground burrow"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.wildlifetrusts.org/wildlife-explorer/birds/cuckoos/cuckoo",
+    "rationale": "Common cuckoos are brood parasites and use host nests.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Common cuckoos are brood parasites and use host nests.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-048",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What is the usual term for a male swan?",
+    "answers": [
+      "Cob",
+      "Pen",
+      "Drake",
+      "Gander"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rspb.org.uk/birds-and-wildlife/mute-swan",
+    "rationale": "Cob is male swan; pen is female swan, drake male duck and gander male goose.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Cob is male swan; pen is female swan, drake male duck and gander male goose.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-049",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What is a young duck commonly called?",
+    "answers": [
+      "Duckling",
+      "Foal",
+      "Kid",
+      "Fawn"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/duckling",
+    "rationale": "Duckling is the correct everyday young-animal term.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Duckling is the correct everyday young-animal term.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-050",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Why does a broody hen sit on her eggs?",
+    "answers": [
+      "To keep them warm while the embryos develop",
+      "To make their shells thicker every day",
+      "To turn them into seeds",
+      "To stop every movement inside them"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://extension.umn.edu/small-scale-poultry/incubating-and-hatching-eggs",
+    "rationale": "Incubation provides warmth for embryonic development.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Incubation provides warmth for embryonic development.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-051",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What is the familiar aquatic larval stage of a frog called?",
+    "answers": [
+      "Tadpole",
+      "Caterpillar",
+      "Nymph",
+      "Grub"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/frog-and-toad",
+    "rationale": "Tadpole is the frog larva; the other terms refer to insect young.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Tadpole is the frog larva; the other terms refer to insect young.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-052",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What do young tadpoles normally use to extract oxygen from water?",
+    "answers": [
+      "Gills",
+      "Lungs only",
+      "A blowhole",
+      "Spiracles like those of insects"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/frog-and-toad",
+    "rationale": "Aquatic tadpoles use gills; the listed alternatives are not respiratory structures.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Aquatic tadpoles use gills; the listed alternatives are not respiratory structures.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-053",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Compared with a common frog, a common toad typically has what kind of skin?",
+    "answers": [
+      "Drier-looking and warty",
+      "Covered in feathers",
+      "Covered in fur",
+      "Armoured with large bony plates"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.wildlifetrusts.org/wildlife-explorer/amphibians/common-toad",
+    "rationale": "Common toads have warty skin; the answer is species-qualified rather than a universal toad rule.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Common toads have warty skin; the answer is species-qualified rather than a universal toad rule.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-054",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Why do many lizards bask in sunshine?",
+    "answers": [
+      "To raise their body temperature",
+      "To grow feathers",
+      "To change into amphibians",
+      "To fill their lungs with water"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/lizard",
+    "rationale": "External heat helps ectotherms reach a useful activity temperature.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "External heat helps ectotherms reach a useful activity temperature.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-055",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "A turtle's shell is attached to which parts of its skeleton?",
+    "answers": [
+      "Its ribs and backbone",
+      "Only the tips of its toes",
+      "Only its jaw",
+      "None; it is a loose coat"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/turtle-and-tortoise",
+    "rationale": "The shell is integrated with the skeleton, so turtles cannot simply leave it.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "The shell is integrated with the skeleton, so turtles cannot simply leave it.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-056",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Crocodiles belong to which animal group?",
+    "answers": [
+      "Reptiles",
+      "Amphibians",
+      "Mammals",
+      "Fish"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/crocodilian",
+    "rationale": "Crocodilians are reptiles; spending time in water does not make them amphibians.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Crocodilians are reptiles; spending time in water does not make them amphibians.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-057",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "How does a boa constrictor usually overpower its prey?",
+    "answers": [
+      "By coiling around it and squeezing",
+      "By injecting venom through fangs",
+      "By stinging with its tail",
+      "By trapping it in a web"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/boa",
+    "rationale": "Boas use constriction rather than the three alternative capture mechanisms.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Boas use constriction rather than the three alternative capture mechanisms.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-058",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "When threatened, many cobras spread which part of their body into a hood?",
+    "answers": [
+      "The neck region",
+      "The tail tip",
+      "The tongue",
+      "The lower jaw"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/cobra",
+    "rationale": "Elongated ribs in the neck support the expanded hood.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Elongated ribs in the neck support the expanded hood.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-059",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Where do female sea turtles lay their eggs?",
+    "answers": [
+      "In nests dug into sandy beaches",
+      "On coral branches underwater",
+      "In floating seaweed rafts",
+      "Inside empty seashells"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.fisheries.noaa.gov/species/green-turtle",
+    "rationale": "Sea turtles return to land to deposit eggs in sand.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Sea turtles return to land to deposit eggs in sand.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-060",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Many geckos cling to smooth surfaces using specialised structures on which body part?",
+    "answers": [
+      "Their toe pads",
+      "Their tails only",
+      "Their tongues",
+      "Their eyelids"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/gecko",
+    "rationale": "Microscopic structures on adhesive toe pads provide grip in many geckos.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Microscopic structures on adhesive toe pads provide grip in many geckos.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-061",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Most fish take oxygen from water using which organs?",
+    "answers": [
+      "Gills",
+      "Lungs only",
+      "Feathers",
+      "A blowhole"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/fish",
+    "rationale": "Most fish rely on gills; the qualifier allows unusual air-breathing species.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Most fish rely on gills; the qualifier allows unusual air-breathing species.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-062",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What is a shark's skeleton made mainly of?",
+    "answers": [
+      "Cartilage",
+      "Wood-like cellulose",
+      "Solid ivory",
+      "Ordinary bone"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.fisheries.noaa.gov/species/sharks",
+    "rationale": "Sharks are cartilaginous fish; their skeleton is not mainly ossified bone.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Sharks are cartilaginous fish; their skeleton is not mainly ossified bone.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-063",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "In seahorses, which parent carries developing young in a brood pouch?",
+    "answers": [
+      "The male",
+      "The female",
+      "Both parents together",
+      "Neither parent"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://oceanservice.noaa.gov/facts/seahorse.html",
+    "rationale": "The female transfers eggs to the male brood pouch, where they develop.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "The female transfers eggs to the male brood pouch, where they develop.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-064",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Clownfish commonly shelter among the tentacles of which animals?",
+    "answers": [
+      "Sea anemones",
+      "Jellyfish",
+      "Octopuses",
+      "Lobsters"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://ocean.si.edu/ocean-life/fish/anemone-and-clownfish",
+    "rationale": "Clownfish associate with sea anemones; the other tentacled or marine animals are not their typical hosts.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Clownfish associate with sea anemones; the other tentacled or marine animals are not their typical hosts.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-065",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which fish is known for a long, snake-like body?",
+    "answers": [
+      "Eel",
+      "Plaice",
+      "Pufferfish",
+      "Angelfish"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.fisheries.noaa.gov/species/american-eel",
+    "rationale": "Eels have elongated bodies; the alternatives are flattened, inflatable or deep-bodied.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Eels have elongated bodies; the alternatives are flattened, inflatable or deep-bodied.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-066",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Adult Pacific salmon return to freshwater mainly to do what?",
+    "answers": [
+      "Spawn",
+      "Grow feathers",
+      "Build coral",
+      "Hibernate in tree holes"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.fisheries.noaa.gov/species/chinook-salmon",
+    "rationale": "Spawning is the reproductive purpose of the upstream return.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Spawning is the reproductive purpose of the upstream return.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-067",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "In an adult flatfish such as a plaice, where are both eyes normally found?",
+    "answers": [
+      "On the same side of the head",
+      "On the tail",
+      "One on each fin",
+      "Inside the mouth"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.dfw.state.or.us/MRP/FishID/FishIDFlatfish.asp",
+    "rationale": "One eye migrates during development, leaving both on the upper side.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "One eye migrates during development, leaving both on the upper side.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-068",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which description best fits a typical stingray's body shape?",
+    "answers": [
+      "Broad and flattened",
+      "Long and cylindrical like a worm",
+      "Round and covered in fur",
+      "Tall with a long neck"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/ray",
+    "rationale": "Rays have a flattened disc formed by enlarged pectoral fins.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Rays have a flattened disc formed by enlarged pectoral fins.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-069",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "How many arms does a typical octopus have?",
+    "answers": [
+      "Eight",
+      "Six",
+      "Ten",
+      "Twelve"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.montereybayaquarium.org/animals/animals-a-to-z/giant-pacific-octopus",
+    "rationale": "Octopuses have eight arms; ten appendages is characteristic of squid and cuttlefish.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Octopuses have eight arms; ten appendages is characteristic of squid and cuttlefish.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-070",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "A typical squid has eight arms plus how many longer feeding tentacles?",
+    "answers": [
+      "Two",
+      "One",
+      "Four",
+      "Six"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://ocean.si.edu/ocean-life/invertebrates/squid",
+    "rationale": "Squid possess two specialised elongated tentacles in addition to eight arms.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Squid possess two specialised elongated tentacles in addition to eight arms.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-071",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What do many octopuses release into the water to help escape predators?",
+    "answers": [
+      "A cloud of ink",
+      "A cloud of pollen",
+      "A sheet of feathers",
+      "A shower of seeds"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.montereybayaquarium.org/animals/animals-a-to-z/giant-pacific-octopus",
+    "rationale": "Ink can confuse predators while the octopus escapes.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Ink can confuse predators while the octopus escapes.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-072",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What obvious external feature distinguishes most land snails from slugs?",
+    "answers": [
+      "A coiled shell",
+      "Six jointed legs",
+      "A pair of wings",
+      "A covering of fur"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.nhm.ac.uk/discover/why-do-snails-have-shells-and-slugs-dont.html",
+    "rationale": "Most land snails carry an external shell; slugs have reduced or absent external shells.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Most land snails carry an external shell; slugs have reduced or absent external shells.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-073",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "How can earthworms improve garden soil?",
+    "answers": [
+      "By making tunnels and mixing organic matter",
+      "By sealing every air space",
+      "By turning all soil into rock",
+      "By removing all soil moisture"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.rhs.org.uk/biodiversity/earthworms",
+    "rationale": "Burrowing and feeding mix and aerate soil; the other effects are false.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Burrowing and feeding mix and aerate soil; the other effects are false.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-074",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "A leech is a type of what?",
+    "answers": [
+      "Segmented worm",
+      "Insect",
+      "Fish",
+      "Mollusc"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.nhm.ac.uk/discover/leeches-bloodsuckers-with-a-purpose.html",
+    "rationale": "Leeches are annelid worms; not all species are blood feeders.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Leeches are annelid worms; not all species are blood feeders.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-075",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "How many legs does a typical adult spider have?",
+    "answers": [
+      "Eight",
+      "Six",
+      "Ten",
+      "Twelve"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.tepapa.govt.nz/digital-museum/explore-digital-museum/your-bug-questions-answered/what-is-a-bug-insects-arachnids-and-myriapods",
+    "rationale": "Spiders have four pairs of walking legs; palps are not an extra pair of legs.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Spiders have four pairs of walking legs; palps are not an extra pair of legs.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-076",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "How many legs does a typical adult insect have?",
+    "answers": [
+      "Six",
+      "Four",
+      "Eight",
+      "Ten"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.tepapa.govt.nz/digital-museum/explore-digital-museum/your-bug-questions-answered/what-is-a-bug-insects-arachnids-and-myriapods",
+    "rationale": "Adult insects have three pairs; larval prolegs do not change the adult definition.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Adult insects have three pairs; larval prolegs do not change the adult definition.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-077",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "How many antennae does a typical adult insect have?",
+    "answers": [
+      "Two",
+      "Four",
+      "Six",
+      "Eight"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.uwyo.edu/entomology/insect-identification/know-your-bugs.html",
+    "rationale": "Insects normally have one pair of antennae.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Insects normally have one pair of antennae.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-078",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "A butterfly uncoils its long proboscis mainly to do what?",
+    "answers": [
+      "Drink liquids such as nectar",
+      "Chew through wood",
+      "Lay eggs in soil",
+      "Breathe underwater"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/butterfly",
+    "rationale": "The proboscis is a feeding tube, not jaws, an ovipositor or gills.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "The proboscis is a feeding tube, not jaws, an ovipositor or gills.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-079",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "The silkworm that produces commercial silk is the larva of which kind of insect?",
+    "answers": [
+      "A moth",
+      "A beetle",
+      "A dragonfly",
+      "A bee"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.nhm.ac.uk/discover/silk-the-natural-fibre-made-by-insects.html",
+    "rationale": "The domesticated silkworm is a moth caterpillar.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "The domesticated silkworm is a moth caterpillar.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-080",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Honeybees make honey mainly from which liquid collected from flowers?",
+    "answers": [
+      "Nectar",
+      "Rainwater",
+      "Leaf sap only",
+      "Tree resin"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/bee",
+    "rationale": "Nectar is processed into honey; resin is used for propolis rather than honey.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Nectar is processed into honey; resin is used for propolis rather than honey.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-081",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What shape are the cells in a typical honeybee honeycomb?",
+    "answers": [
+      "Hexagons",
+      "Triangles",
+      "Circles",
+      "Pentagons"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/bee",
+    "rationale": "Regular six-sided cells form the familiar honeycomb arrangement.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Regular six-sided cells form the familiar honeycomb arrangement.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-082",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What material do worker honeybees produce to build their comb?",
+    "answers": [
+      "Wax",
+      "Silk",
+      "Paper",
+      "Chalk"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/bee",
+    "rationale": "Workers secrete beeswax, unlike the paper made by some wasps.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Workers secrete beeswax, unlike the paper made by some wasps.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-083",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What is the queen honeybee's main role in a colony?",
+    "answers": [
+      "Laying eggs",
+      "Collecting all the colony's nectar",
+      "Building every wax cell alone",
+      "Guarding the entrance continuously"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/bee",
+    "rationale": "The queen is the principal egg layer; workers carry out the other colony tasks.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "The queen is the principal egg layer; workers carry out the other colony tasks.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-084",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "A social group of ants living together is usually called what?",
+    "answers": [
+      "A colony",
+      "A shoal",
+      "A flock",
+      "A herd"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/ant",
+    "rationale": "Colony is the standard term for organised ant societies.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Colony is the standard term for organised ant societies.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-085",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Where do dragonflies spend their nymph stage?",
+    "answers": [
+      "In water",
+      "Inside bird eggs",
+      "Inside dry seeds",
+      "On snowfields only"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://british-dragonflies.org.uk/odonata/life-cycle-and-biology/",
+    "rationale": "Dragonfly larvae are aquatic before emerging as flying adults.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Dragonfly larvae are aquatic before emerging as flying adults.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-086",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "A ladybird is a type of which insect?",
+    "answers": [
+      "Beetle",
+      "Fly",
+      "Wasp",
+      "Butterfly"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.coleoptera.org.uk/coccinellidae/home",
+    "rationale": "Ladybirds belong to the beetle family Coccinellidae.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Ladybirds belong to the beetle family Coccinellidae.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-087",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which body parts give grasshoppers their powerful jumping ability?",
+    "answers": [
+      "Large hind legs",
+      "Long antennae",
+      "Small front wings alone",
+      "Curled mouthparts"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/grasshopper-and-cricket",
+    "rationale": "Enlarged hind legs provide the principal jumping power.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Enlarged hind legs provide the principal jumping power.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-088",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Fireflies are bioluminescent members of which insect group?",
+    "answers": [
+      "Beetles",
+      "True flies",
+      "Dragonflies",
+      "Ants"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.nps.gov/articles/000/firefly-facts.htm",
+    "rationale": "Despite the common name, fireflies are beetles that produce light.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Despite the common name, fireflies are beetles that produce light.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-089",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What does a praying mantis use its spiny front legs for?",
+    "answers": [
+      "Grasping prey",
+      "Filtering pond water",
+      "Producing honey",
+      "Carrying pollen in baskets"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/praying-mantis",
+    "rationale": "Raptorial forelegs seize and hold prey.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Raptorial forelegs seize and hold prey.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-090",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "How do many male crickets produce their chirping song?",
+    "answers": [
+      "By rubbing their forewings together",
+      "By blowing through hollow antennae",
+      "By tapping their eyes",
+      "By snapping their jaws underwater"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://animals.sandiegozoo.org/animals/grasshopper-and-cricket",
+    "rationale": "Stridulation between specialised wing surfaces produces the song.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Stridulation between specialised wing surfaces produces the song.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-091",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Including the claw-bearing pair, how many legs does a typical true crab have?",
+    "answers": [
+      "Ten",
+      "Six",
+      "Eight",
+      "Twelve"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/japanese-spider-crab",
+    "rationale": "True crabs are decapods, with five pairs including the chelipeds.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "True crabs are decapods, with five pairs including the chelipeds.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-092",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What must a lobster shed to grow larger?",
+    "answers": [
+      "Its hard outer skeleton",
+      "Its backbone",
+      "Its lungs",
+      "Its permanent teeth"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.fisheries.noaa.gov/species/american-lobster",
+    "rationale": "Lobsters moult the exoskeleton because it does not expand with body growth.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Lobsters moult the exoskeleton because it does not expand with body growth.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-093",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What does a hermit crab commonly use to protect its soft abdomen?",
+    "answers": [
+      "An empty snail shell",
+      "A shell grown permanently from its abdomen",
+      "A case spun from silk",
+      "A tube made from chewed wood"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.montereybayaquarium.org/animals/animals-a-to-z/hermit-crabs",
+    "rationale": "A borrowed gastropod shell encloses the vulnerable abdomen.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "A borrowed gastropod shell encloses the vulnerable abdomen.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-094",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Which marine animal is commonly covered in long movable spines?",
+    "answers": [
+      "Sea urchin",
+      "Jellyfish",
+      "Clownfish",
+      "Sea slug"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.montereybayaquarium.org/animals/animals-a-to-z/purple-sea-urchin",
+    "rationale": "Sea urchins bear articulated spines on a hard test.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Sea urchins bear articulated spines on a hard test.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-095",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Many sea stars can do what after losing an arm, provided enough of the body survives?",
+    "answers": [
+      "Regrow the arm",
+      "Grow feathers in its place",
+      "Become a fish",
+      "Turn the arm into a shell"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://oceanservice.noaa.gov/facts/starfish.html",
+    "rationale": "The qualification avoids claiming every detached arm forms a new animal.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "The qualification avoids claiming every detached arm forms a new animal.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-096",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What do jellyfish use stinging cells mainly to do?",
+    "answers": [
+      "Capture prey and defend themselves",
+      "Grow feathers",
+      "Build nests from leaves",
+      "Chew hard seeds"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://ocean.si.edu/ocean-life/invertebrates/jellyfish-and-comb-jellies",
+    "rationale": "Specialised stinging cells assist feeding and defence.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Specialised stinging cells assist feeding and defence.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-097",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Coral polyps are what kind of living things?",
+    "answers": [
+      "Animals",
+      "Flowering plants",
+      "Fungi",
+      "Bacteria"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://oceanservice.noaa.gov/facts/coral.html",
+    "rationale": "Corals are cnidarian animals, even when their appearance resembles plants or rocks.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Corals are cnidarian animals, even when their appearance resembles plants or rocks.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-098",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "An oyster belongs to which group?",
+    "answers": [
+      "Bivalve molluscs",
+      "Crustaceans",
+      "Fish",
+      "Worms"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.fisheries.noaa.gov/species/eastern-oyster",
+    "rationale": "Oysters have two hinged shell valves and are molluscs, not crustaceans.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Oysters have two hinged shell valves and are molluscs, not crustaceans.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-099",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "Krill, a major food for many whales, are small examples of what?",
+    "answers": [
+      "Crustaceans",
+      "Fish",
+      "Jellyfish",
+      "Marine worms"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.bas.ac.uk/about/antarctica/wildlife/krill/",
+    "rationale": "Krill are shrimp-like crustaceans; the alternatives belong to other groups.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Krill are shrimp-like crustaceans; the alternatives belong to other groups.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  },
+  {
+    "draftID": "easy-27-100",
+    "categoryID": "27",
+    "difficulty": "easy",
+    "prompt": "What is seasonal migration in animals?",
+    "answers": [
+      "Regular movement between different areas at different times of year",
+      "Changing into a different species",
+      "Growing a new shell every day",
+      "Sleeping for a few minutes"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.bto.org/learn/about-birds/bird-migration",
+    "rationale": "Seasonal migration changes location in a repeating annual pattern, unlike metamorphosis or brief rest.",
+    "authorReview": {
+      "meaning": "Question asks a concrete animal characteristic, behaviour or familiar identification.",
+      "answer": "Seasonal migration changes location in a repeating annual pattern, unlike metamorphosis or brief rest.",
+      "grammar": "Read each prompt and all four choices for agreement, meaning and spelling.",
+      "category": "Animals: zoology and familiar wildlife."
+    }
+  }
+]

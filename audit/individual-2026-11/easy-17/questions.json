@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "fe1640a323bf41de8ef2",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Why does an ordinary ice cube float in liquid water?",
+    "answers": [
+      "Ice is less dense than liquid water",
+      "Ice has no mass",
+      "Ice repels all water molecules",
+      "Ice contains no oxygen"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.usgs.gov/water-science-school/science/water-density",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "adb8545b3c2291f5f899",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Water droplets appear outside a cold glass. What process forms them?",
+    "answers": [
+      "Melting",
+      "Combustion",
+      "Sublimation",
+      "Condensation"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.usgs.gov/water-science-school/science/condensation-and-water-cycle",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "067151bc79f0d4b12bd4",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which process lets wet clothes dry on a washing line?",
+    "answers": [
+      "Condensation",
+      "Crystallisation",
+      "Evaporation",
+      "Freezing"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.usgs.gov/water-science-school/science/evaporation-and-water-cycle",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "a30e5f572909c47395f9",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "At normal atmospheric pressure, what is the freezing point of pure water?",
+    "answers": [
+      "100°C",
+      "0°C",
+      "10°C",
+      "50°C"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.usgs.gov/water-science-school/science/water-properties-information-topic",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "35983b212992efb6581b",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What is the change from a solid to a liquid called?",
+    "answers": [
+      "Melting",
+      "Condensation",
+      "Deposition",
+      "Freezing"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "5bb687b93d8eee098232",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Dry ice changes straight from solid to gas. What is this process called?",
+    "answers": [
+      "Melting",
+      "Condensation",
+      "Dissolving",
+      "Sublimation"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "3c76e2e2b747ecdcc809",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Sugar disappears into stirred water without changing into a new substance. What has it done?",
+    "answers": [
+      "Frozen",
+      "Rusted",
+      "Dissolved",
+      "Burned"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/chemistry-2e/pages/11-1-the-dissolution-process",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "2d96725daf60a1318d38",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which material is normally insoluble in a glass of water?",
+    "answers": [
+      "Baking soda",
+      "Sand",
+      "Table salt",
+      "Granulated sugar"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/chemistry-2e/pages/11-1-the-dissolution-process",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "9c637e0c034002f79ea6",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which method separates sand from water using paper in a funnel?",
+    "answers": [
+      "Filtration",
+      "Distillation",
+      "Condensation",
+      "Magnetisation"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://edu.rsc.org/experiments/separating-sand-and-salt-by-filtering-and-evaporation/386.article",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "33a0359e17cf9b6bb54b",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "How could you recover dissolved salt from salty water in an open dish?",
+    "answers": [
+      "Pass it through ordinary filter paper",
+      "Pick it out with a magnet",
+      "Freeze the salt into ice",
+      "Allow the water to evaporate"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://edu.rsc.org/experiments/separating-sand-and-salt-by-filtering-and-evaporation/386.article",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "8f933e17a1fe3dd2693d",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which of these materials is strongly attracted to an ordinary magnet?",
+    "answers": [
+      "Glass",
+      "Plastic",
+      "Iron",
+      "Wood"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/physics/pages/20-1-magnetic-fields-field-lines-and-force",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "eefa035d2f178ec5be59",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What happens when two north poles of bar magnets are brought close together?",
+    "answers": [
+      "They become south poles",
+      "They repel each other",
+      "They attract each other",
+      "They lose all magnetism permanently"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/physics/pages/20-1-magnetic-fields-field-lines-and-force",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "bf11242c98f6d2d352be",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What allows a traditional compass needle to align north–south?",
+    "answers": [
+      "Earth's magnetic field",
+      "The Moon's reflected light",
+      "Air pressure in the compass",
+      "The colour of the needle"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/physics/pages/20-1-magnetic-fields-field-lines-and-force",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "8177dd80e7e2b618876a",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What must flow through a coil of wire to make it act as an electromagnet?",
+    "answers": [
+      "Sound waves",
+      "Sunlight only",
+      "Water vapour",
+      "Electric current"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/college-physics-ap-courses/pages/22-2-ferromagnets-and-electromagnets",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "608e02a553b19d72089d",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Why is copper commonly used inside electrical cables?",
+    "answers": [
+      "It is a liquid at room temperature",
+      "It cannot be bent",
+      "It conducts electricity well",
+      "It stops all current flowing"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/physics/pages/18-1-electrical-charges-conservation-of-charge-and-transfer-of-charge",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "23a2a7c02ff8609f0048",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Why is insulating plastic placed around many electrical wires?",
+    "answers": [
+      "To make copper stop conducting internally",
+      "To reduce unwanted contact with the conducting metal",
+      "To turn electricity into water",
+      "To increase the wire's magnetic poles"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/college-physics-2e/pages/18-2-conductors-and-insulators",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "0a9c3365290287de6ab9",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "A simple battery-powered bulb needs which kind of circuit to stay lit?",
+    "answers": [
+      "A complete conducting loop",
+      "A loop with a large gap",
+      "A wire attached to only one battery terminal",
+      "A circuit with every connection removed"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/physics/pages/19-1-ohms-law",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "67c23bb9307b99c3987f",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "How does an ordinary switch turn off a torch in a simple circuit?",
+    "answers": [
+      "It creates extra battery charge",
+      "It permanently changes the bulb into an insulator",
+      "It converts the wire into a battery",
+      "It breaks the conducting path"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/physics/pages/19-1-ohms-law",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "e63002bfe0a5197edf80",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "A battery supplies electrical energy by using which stored form of energy?",
+    "answers": [
+      "Gravitational energy only",
+      "Nuclear energy",
+      "Chemical energy",
+      "Sound energy"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/chemistry-2e/pages/17-5-batteries-and-fuel-cells",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "8411ea750be2c12352c8",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What is the main purpose of a fuse in an electrical circuit?",
+    "answers": [
+      "To increase the voltage continuously",
+      "To break the circuit if current becomes too high",
+      "To store spare electricity",
+      "To make alternating current disappear"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/college-physics-2e/pages/20-6-electric-hazards-and-the-human-body",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "d2d7d7816f07141b948d",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which process lets you see your image in a plane mirror?",
+    "answers": [
+      "Reflection",
+      "Evaporation",
+      "Magnetism",
+      "Condensation"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/physics/pages/16-1-reflection",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "034c31c67a3e886be207",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "A straw looks bent where it enters water. Which effect mainly explains this?",
+    "answers": [
+      "Radioactivity",
+      "Electrical conduction",
+      "Combustion",
+      "Refraction"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/physics/pages/16-2-refraction",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "ff27d4ee105532edbd6e",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "The shiny inner surface of a metal spoon behaves most like which type of mirror?",
+    "answers": [
+      "Plane",
+      "Non-reflecting",
+      "Concave",
+      "Convex"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/university-physics-volume-3/pages/2-2-spherical-mirrors",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "f21e33e9e2b195d9c06f",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Why does your hand cast a shadow on a wall when placed in front of a torch?",
+    "answers": [
+      "It makes the torch emit sound",
+      "It blocks some of the light reaching the wall",
+      "It cools the wall below freezing",
+      "It adds black pigment to the air"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/physics/pages/16-introduction",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "db518b82eda913d453c4",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What can a glass prism reveal when white light passes through it?",
+    "answers": [
+      "A spread of different colours",
+      "Only black light",
+      "A stream of electric current",
+      "A beam of sound"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/physics/pages/16-2-refraction",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "b881f7795888b240494e",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "If a sound wave's frequency increases, what happens to its pitch?",
+    "answers": [
+      "It becomes lower",
+      "It must become silent",
+      "It becomes a colour",
+      "It becomes higher"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/physics/pages/14-1-speed-of-sound-frequency-and-wavelength",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "70144df5202f35826afd",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "For the same sound source and frequency, increasing wave amplitude generally makes the sound what?",
+    "answers": [
+      "Higher in pitch",
+      "Slower in air",
+      "Louder",
+      "Lower in pitch"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/physics/pages/14-2-sound-intensity-and-sound-level",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "79ac82bd312a4e4a12fa",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What is an echo?",
+    "answers": [
+      "A permanent electrical charge",
+      "Sound reflected back to the listener",
+      "Light bent through a lens",
+      "Air turning into liquid"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/physics/pages/14-4-sound-interference-and-resonance",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "5646548398c78f7a85f2",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Why can't ordinary sound travel through a perfect vacuum?",
+    "answers": [
+      "There is no material to carry its vibrations",
+      "The temperature is always zero",
+      "Gravity always blocks sound",
+      "All sounds become visible light"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/physics/pages/14-1-speed-of-sound-frequency-and-wavelength",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "b614b73f8fca49a8dc7e",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What does a guitar string do to produce a musical note after being plucked?",
+    "answers": [
+      "Dissolve",
+      "Freeze",
+      "Become magnetically charged",
+      "Vibrate"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/physics/pages/14-1-speed-of-sound-frequency-and-wavelength",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "c32148ce202a1b2136b1",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Heat travels along a metal spoon standing in hot soup mainly by which process?",
+    "answers": [
+      "Nuclear fusion",
+      "Refraction",
+      "Conduction",
+      "Evaporation"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/university-physics-volume-2/pages/1-6-mechanisms-of-heat-transfer",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "ebe73ad09b49f0098f69",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Warm water rising and cooler water sinking in a heated pan is an example of what?",
+    "answers": [
+      "Electrical insulation",
+      "Convection",
+      "Reflection",
+      "Freezing"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/university-physics-volume-2/pages/1-6-mechanisms-of-heat-transfer",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "468cab2bebe31b9ef999",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "How does energy from the Sun cross the vacuum of space to warm Earth?",
+    "answers": [
+      "By radiation",
+      "By convection through air",
+      "By conduction through a metal link",
+      "By sound waves"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/university-physics-volume-2/pages/1-6-mechanisms-of-heat-transfer",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "52fdb42959f7f05da2ae",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What quantity does a thermometer measure?",
+    "answers": [
+      "Mass",
+      "Electric current",
+      "Distance",
+      "Temperature"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/physics/pages/11-1-temperature-and-thermal-energy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "4abb7a092aafa6ecbb9d",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Why do long metal structures often need expansion joints?",
+    "answers": [
+      "Metal always shrinks when heated",
+      "Metal turns into a gas every summer",
+      "Metal can expand as it warms",
+      "Metal loses all mass when cold"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/university-physics-volume-2/pages/1-3-thermal-expansion",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "22fdb928a7643b2d4dc2",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which force makes a dropped ball accelerate towards the ground?",
+    "answers": [
+      "Static electricity",
+      "Gravity",
+      "Magnetism",
+      "Buoyancy"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/physics/pages/7-2-newtons-law-of-universal-gravitation-and-einsteins-theory-of-general-relativity",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "fc35829f0f066336f46e",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What is the pivot point of a lever called?",
+    "answers": [
+      "A fulcrum",
+      "A filament",
+      "A piston",
+      "A turbine"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/physics/pages/9-3-simple-machines",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "d187515121e6f5fadc41",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which simple machine uses a grooved wheel with a rope running over it?",
+    "answers": [
+      "A wedge",
+      "A screw",
+      "A lever",
+      "A pulley"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/physics/pages/9-3-simple-machines",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "5bdfdaf7f07a1fa8e723",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "A ramp used to move a load to a higher level is an example of which simple machine?",
+    "answers": [
+      "A gear",
+      "A wheel and axle",
+      "An inclined plane",
+      "A pulley"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/physics/pages/9-3-simple-machines",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "2de42c43aed475327964",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What type of energy is stored in a stretched spring?",
+    "answers": [
+      "Light energy",
+      "Elastic potential energy",
+      "Sound energy only",
+      "Nuclear energy"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/college-physics-2e/pages/7-4-conservative-forces-and-potential-energy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "bf8a5d0154c9af59c7a4",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which metal is associated with the reddish-brown corrosion called rust?",
+    "answers": [
+      "Iron",
+      "Gold",
+      "Copper",
+      "Silver"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://edu.rsc.org/experiments/the-causes-of-rusting/1764.article",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "ab109866832f330f9dd9",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What colour does blue litmus paper turn in an acidic solution?",
+    "answers": [
+      "Green",
+      "Yellow",
+      "Black",
+      "Red"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://edu.rsc.org/experiments/acid-or-alkali-acidic-or-alkaline-a-litmus-paper-test/1708.article",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "719b6aa466941238845c",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which metal is liquid at ordinary room temperature?",
+    "answers": [
+      "Copper",
+      "Aluminium",
+      "Mercury",
+      "Iron"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://periodic-table.rsc.org/element/80/mercury",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "67c9afc9d54ae4409cdd",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "At 25°C, which pH value is neutral for an aqueous solution?",
+    "answers": [
+      "14",
+      "7",
+      "1",
+      "3"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "9f6c112dc976728b1b81",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which gas turns limewater cloudy in a standard school laboratory test?",
+    "answers": [
+      "Carbon dioxide",
+      "Hydrogen",
+      "Oxygen",
+      "Helium"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://edu.rsc.org/in-search-of-more-solutions/which-gas-is-which/593.article",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "1f53703d7b2d3ce378b2",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which gas relights a glowing splint in the usual school laboratory test?",
+    "answers": [
+      "Carbon dioxide",
+      "Nitrogen",
+      "Helium",
+      "Oxygen"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://edu.rsc.org/in-search-of-more-solutions/which-gas-is-which/593.article",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "8a6aa049fbf5f565ec99",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which gas gives a squeaky pop when a small sample is tested with a lighted splint?",
+    "answers": [
+      "Carbon dioxide",
+      "Helium",
+      "Hydrogen",
+      "Nitrogen"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://edu.rsc.org/in-search-of-more-solutions/which-gas-is-which/593.article",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "8cf5a2d1f6629126bb93",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which of these is a mixture rather than a single pure substance?",
+    "answers": [
+      "Distilled water",
+      "Air",
+      "Pure gold",
+      "Pure oxygen"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "2b2b23acaec341536e74",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Where is most of an atom's mass concentrated?",
+    "answers": [
+      "In its nucleus",
+      "In the outermost electron shell only",
+      "In the space between atoms",
+      "In its electric field alone"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "b01f4bb44c74aa8213d0",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which subatomic particle has a negative electric charge?",
+    "answers": [
+      "Proton",
+      "Neutron",
+      "Photon",
+      "Electron"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "b37e96addde59f1dec8c",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which subatomic particle carries a positive charge in an ordinary atomic nucleus?",
+    "answers": [
+      "Neutron",
+      "Photon",
+      "Proton",
+      "Electron"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "b64bc4961f3586923927",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which particle in an ordinary atomic nucleus has no electric charge?",
+    "answers": [
+      "Positron",
+      "Neutron",
+      "Proton",
+      "Electron"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "f5650bdebc57445ba80f",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "A molecule consists of what joined together?",
+    "answers": [
+      "Atoms",
+      "Whole planets",
+      "Living cells",
+      "Sound waves"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/chemistry-2e/pages/2-4-chemical-formulas",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "ad916e5fac9fcd000d5a",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which gas from the air supports a candle flame?",
+    "answers": [
+      "Nitrogen",
+      "Helium",
+      "Argon",
+      "Oxygen"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "acf0df1960416f9e447f",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which observation best indicates that a chemical change has occurred?",
+    "answers": [
+      "A sheet has been folded",
+      "A stone has been broken into pieces",
+      "A new substance has formed",
+      "An object has merely moved"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/chemistry-2e/pages/1-3-physical-and-chemical-properties",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "0152bf73eaa4de678e34",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Density compares an object's mass with which other quantity?",
+    "answers": [
+      "Its age",
+      "Its volume",
+      "Its colour",
+      "Its temperature only"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.usgs.gov/water-science-school/science/water-density",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "909e985903a9481448d5",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "At standard atmospheric pressure, pure water boils at approximately what temperature?",
+    "answers": [
+      "100°C",
+      "0°C",
+      "25°C",
+      "50°C"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.usgs.gov/water-science-school/science/water-properties-information-topic",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "870972d274826c327282",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which tall cloud type is especially associated with thunderstorms?",
+    "answers": [
+      "Cirrus",
+      "Cirrostratus",
+      "Fair-weather cumulus",
+      "Cumulonimbus"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/clouds/low-level-clouds",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "85b780c2547f3f2dea4f",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What is fog essentially?",
+    "answers": [
+      "Rain that has frozen on a roof",
+      "Wind carrying dry sand",
+      "A cloud at ground level",
+      "A cloud made only of smoke"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/fog",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "d9a92aa860d238247256",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Hailstones are made mainly of what?",
+    "answers": [
+      "Compressed air",
+      "Ice",
+      "Rock",
+      "Salt"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/hail",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "d5d7fdbcc89a96829c11",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What is dew on a cool lawn?",
+    "answers": [
+      "Liquid water condensed from the air",
+      "Dust blown from nearby soil",
+      "Salt left by evaporating rain",
+      "Ice falling from a storm cloud"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/temperature/dew",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "3acfd0b1726e83390a94",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What forms the white crystals of hoar frost on a cold surface?",
+    "answers": [
+      "Chalk",
+      "Salt",
+      "Sand",
+      "Ice"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/frost-and-ice",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "65d4f325297a99932128",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What causes thunder?",
+    "answers": [
+      "Hail melting on the ground",
+      "Rain reflecting sunlight",
+      "Rapid expansion of air heated by lightning",
+      "Clouds rubbing against the Moon"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/thunder-and-lightning",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "fe4ea74dc6682567b807",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which weather instrument measures wind speed?",
+    "answers": [
+      "A thermometer",
+      "An anemometer",
+      "A barometer",
+      "A rain gauge"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://weather.metoffice.gov.uk/guides/observations/how-we-measure-wind",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "180ca0e42f38d5835572",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What does a wind vane indicate?",
+    "answers": [
+      "The direction the wind comes from",
+      "The amount of rain fallen",
+      "The air temperature",
+      "The length of daylight"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://weather.metoffice.gov.uk/guides/observations/how-we-measure-wind",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "4b7e65d727ed1d2018b6",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What does humidity describe?",
+    "answers": [
+      "The number of sunlight hours",
+      "The speed of falling rain",
+      "The height of the nearest cloud",
+      "The amount of water vapour in the air"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/humidity",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "6545eeccc2e3de652369",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which instrument collects precipitation to measure how much rain has fallen?",
+    "answers": [
+      "A barometer",
+      "A sundial",
+      "A rain gauge",
+      "A wind vane"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://weather.metoffice.gov.uk/learn-about/weather/how-weather-works/observations/how-we-measure-rainfall",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "dc66eb66a1326bb60068",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What is the removal and transport of rock or soil by water, wind or ice called?",
+    "answers": [
+      "Magnetisation",
+      "Erosion",
+      "Condensation",
+      "Germination"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.nps.gov/subjects/geology/weathering-and-erosion.htm",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "61e0cefe86f29160296e",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What is the breaking down of rock in place called?",
+    "answers": [
+      "Weathering",
+      "Pollination",
+      "Evaporation",
+      "Orbiting"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.nps.gov/subjects/geology/weathering-and-erosion.htm",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "37b241cac45e42b169f4",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "A river slows and drops some of the sand it carries. What is this called?",
+    "answers": [
+      "Sublimation",
+      "Combustion",
+      "Refraction",
+      "Deposition"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.nps.gov/subjects/geology/fluvial-landforms.htm",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "e82c0d30897305b1cc93",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What is molten rock beneath Earth's surface called?",
+    "answers": [
+      "Granite",
+      "Basalt",
+      "Magma",
+      "Lava"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.usgs.gov/faqs/what-difference-between-magma-and-lava",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "3204342771c4b03362a6",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What instrument records the shaking of the ground during an earthquake?",
+    "answers": [
+      "A compass",
+      "A seismograph",
+      "A thermometer",
+      "A rain gauge"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.usgs.gov/faqs/seismometers-seismographs-seismograms-whats-difference-how-do-they-work",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "1579cf1dc5192bc98cd2",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which rock type commonly forms as layers of sediment are compacted and cemented?",
+    "answers": [
+      "Sedimentary",
+      "Igneous",
+      "Metamorphic",
+      "Meteoric"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.usgs.gov/faqs/what-are-sedimentary-rocks",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "b9991c264f9f4e9b667c",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What is a fossil?",
+    "answers": [
+      "Any recently fallen leaf",
+      "Any polished gemstone",
+      "A cloud of volcanic gas",
+      "Preserved remains or traces of past life"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.nps.gov/subjects/fossils/what-is-a-fossil.htm",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "e5fa1cf4fc9d43ed1f55",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What is Earth's outermost solid layer called?",
+    "answers": [
+      "The inner core",
+      "The mantle",
+      "The crust",
+      "The outer core"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.usgs.gov/programs/earthquake-hazards/science/inside-earth",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "4026ad997e04297b1886",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Many earthquakes occur when what suddenly slips along a fault?",
+    "answers": [
+      "Earth's magnetic poles",
+      "Blocks of rock",
+      "Layers of cloud",
+      "Ocean tides"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.usgs.gov/programs/earthquake-hazards/science/science-earthquakes",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "9a952436c29865def655",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Volcanic ash consists mainly of tiny pieces of what?",
+    "answers": [
+      "Rock, minerals and volcanic glass",
+      "Burnt tree leaves only",
+      "Pure carbon soot",
+      "Frozen seawater"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.usgs.gov/programs/VHP/volcanic-ash-impacts-mitigation",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "8c4aa50c2d6f18704ae5",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which energy source is renewable on a human timescale?",
+    "answers": [
+      "Coal",
+      "Crude oil",
+      "Natural gas",
+      "Wind"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.eia.gov/energyexplained/renewable-sources/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "4e1db1072d50d941d962",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which of these is a fossil fuel?",
+    "answers": [
+      "Wind",
+      "Flowing river water",
+      "Coal",
+      "Sunlight"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.eia.gov/energyexplained/coal/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "8349001b9bcce65cccff",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What does recycling materials involve?",
+    "answers": [
+      "Making waste disappear without processing",
+      "Processing used materials into new products",
+      "Always burning them as fuel",
+      "Mixing every waste type together"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.epa.gov/recycle/recycling-basics-and-benefits",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "d2d69e53a774ca55dd60",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What is the heart's main role in the circulatory system?",
+    "answers": [
+      "Pumping blood around the body",
+      "Producing urine",
+      "Filtering light",
+      "Storing swallowed food"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.nhlbi.nih.gov/health/heart",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "a886a7bce5c8282a04ef",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which gas moves from air in the lungs into the blood during normal breathing?",
+    "answers": [
+      "Helium",
+      "Hydrogen",
+      "Argon",
+      "Oxygen"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.nhlbi.nih.gov/health/lungs/breathing-benefits",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "85095ff7d857614b8bd4",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which sheet-like muscle below the lungs helps us breathe?",
+    "answers": [
+      "The tongue",
+      "The Achilles tendon",
+      "The diaphragm",
+      "The biceps"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.nhlbi.nih.gov/health/lungs/body-controls-breathing",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "79c1a4b745738cdb58bc",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which organs filter the blood and produce urine?",
+    "answers": [
+      "The eyes",
+      "The kidneys",
+      "The lungs",
+      "The stomach and oesophagus"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.niddk.nih.gov/health-information/kidney-disease/kidneys-how-they-work",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "71d3a8c2dd84650eaaf6",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which organ mixes swallowed food with acid and digestive juices?",
+    "answers": [
+      "The stomach",
+      "The bladder",
+      "The heart",
+      "The windpipe"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "7d50c80a1d3e73d0b991",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which tube carries swallowed food from the throat to the stomach?",
+    "answers": [
+      "The trachea",
+      "The ureter",
+      "The aorta",
+      "The oesophagus"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "6044362c3bb5a354bb2d",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What is the coloured ring around the pupil of the eye called?",
+    "answers": [
+      "The lens",
+      "The optic nerve",
+      "The iris",
+      "The retina"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.nei.nih.gov/learn-about-eye-health/healthy-vision/how-eyes-work",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "6fdce4112f101f4ca6d6",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What is the pupil of the eye?",
+    "answers": [
+      "The nerve carrying signals to the brain",
+      "An opening that lets light enter",
+      "A muscle at the back of the eye",
+      "The transparent outer surface"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.nei.nih.gov/learn-about-eye-health/healthy-vision/how-eyes-work",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "55a278e810a7a8aa6d41",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which light-sensitive layer lines the back of the eye?",
+    "answers": [
+      "The retina",
+      "The iris",
+      "The eyelid",
+      "The cornea"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.nei.nih.gov/learn-about-eye-health/healthy-vision/how-eyes-work",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "39e7d33ec8a157865c11",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What happens to the eardrum when sound waves reach it?",
+    "answers": [
+      "It produces tears",
+      "It stops all motion",
+      "It changes sound into light",
+      "It vibrates"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.nidcd.nih.gov/health/how-do-we-hear",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "65d73dcd94b050197164",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "When a skeletal muscle pulls on a bone, what is the muscle doing?",
+    "answers": [
+      "Photosynthesising",
+      "Turning into bone",
+      "Contracting",
+      "Dissolving"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-3-muscle-fiber-contraction-and-relaxation",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "d72b6a57b1eb08a8a293",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What do ligaments usually connect at a joint?",
+    "answers": [
+      "Blood to air",
+      "Bone to bone",
+      "Muscle to skin",
+      "Nerve to hair"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-1-classification-of-joints",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "97ff1981cb7d9539d2c0",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What is the main role of cartilage covering the ends of bones in a healthy joint?",
+    "answers": [
+      "Providing a smooth cushioning surface",
+      "Making red blood cells",
+      "Producing skin pigment",
+      "Carrying nerve signals to the brain"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-4-synovial-joints",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "0324448182efdb202c4f",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which blood cells help defend the body against infection?",
+    "answers": [
+      "Red blood cells",
+      "Fat cells",
+      "Egg cells",
+      "White blood cells"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "3bb445326e73d522626d",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which is a major function of skin?",
+    "answers": [
+      "Filtering urine",
+      "Digesting food in the stomach",
+      "Forming a protective barrier around the body",
+      "Pumping blood through arteries"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-3-functions-of-the-integumentary-system",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "3c746fecd798f2db680a",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What do green plants use as an energy source for photosynthesis?",
+    "answers": [
+      "Soil pressure",
+      "Light",
+      "Sound",
+      "Wind alone"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/8-1-overview-of-photosynthesis",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "e9e8e2ad8c796c82c219",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "In a typical food chain diagram, an arrow from grass to a rabbit shows what?",
+    "answers": [
+      "Energy passing from food to its consumer",
+      "The direction the rabbit is running",
+      "Grass eating the rabbit",
+      "Which organism is larger"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/46-2-energy-flow-through-ecosystems",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "6ef32401a4bfdf5279f0",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "In a food chain, what is a producer?",
+    "answers": [
+      "An animal that eats only meat",
+      "An animal that eats only dead animals",
+      "Any organism that is the largest",
+      "An organism that makes its own organic food"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/46-2-energy-flow-through-ecosystems",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "1b89f73b12e506fd2475",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What is an organism's habitat?",
+    "answers": [
+      "The food inside its stomach",
+      "The number of offspring it has",
+      "The place and conditions in which it lives",
+      "Its scientific surname"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/44-1-the-scope-of-ecology",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  },
+  {
+    "id": "8c9e5a4dfa0fa697075d",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "An ecosystem includes living organisms and what else?",
+    "answers": [
+      "Only plants of one species",
+      "The non-living environment they interact with",
+      "Only the largest predators",
+      "Only their DNA"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/46-1-ecology-of-ecosystems",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-17-v1"
+  }
+]

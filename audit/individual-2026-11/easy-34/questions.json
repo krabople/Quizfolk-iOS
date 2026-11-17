@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "5430111cec591438b4cf",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Which tool is normally used to make crochet stitches?",
+    "answers": [
+      "A hook",
+      "A weaving shuttle",
+      "A pair of scissors",
+      "A potter's rib"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/crochet",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "29c8c06f045f923367f5",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What material is formed into interlocking loops when knitting a woollen scarf?",
+    "answers": [
+      "Clay",
+      "Wire mesh",
+      "Paper pulp",
+      "Yarn"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/knit",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "9fe14aa8ae9fe295fe48",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What is the purpose of casting off at the end of a knitted piece?",
+    "answers": [
+      "To unravel the whole piece",
+      "To dye the yarn",
+      "To secure the final row of stitches",
+      "To add the first row of stitches"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.craftyarncouncil.com/standards/how-to-read-knitting-pattern",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "1d4903d7c666a4dbe021",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "In knitting, what is a dropped stitch?",
+    "answers": [
+      "A stitch made with a sewing machine",
+      "A loop that has slipped off the needle without being secured",
+      "A deliberate colour change",
+      "The final knot in a woven rug"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/drop-stitch",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "3b3114fde9b55084bff5",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What does a stitch marker help a knitter remember?",
+    "answers": [
+      "A particular position in the knitting",
+      "The exact length of yarn remaining",
+      "The number of fibres in each strand",
+      "The weight of the finished garment"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.craftyarncouncil.com/standards/knitting-abbreviations",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "8e8f3a79fccdee07ea90",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What is a stitch holder used for?",
+    "answers": [
+      "Sharpening knitting needles",
+      "Measuring fabric colour",
+      "Cutting yarn into equal lengths",
+      "Keeping live stitches secure while they are not being worked"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/stitch-holder",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "b2236a889fd3efaca381",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "A simple one-by-one knitted rib alternates which stitches?",
+    "answers": [
+      "Running and backstitch",
+      "Satin stitch and French knots",
+      "Knit and purl",
+      "Chain and slip stitch"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.craftyarncouncil.com/instructions_knit.php",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "b9a6a346fc7e20998bc4",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Why knit a tension square before starting a fitted garment?",
+    "answers": [
+      "To turn wool into cotton",
+      "To check that the stitch size matches the pattern",
+      "To remove every knot from the yarn ball",
+      "To determine the washing machine's weight"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://kcguild.org.uk/sharing/learning/learn-hand-knitting/hand-knit-tension-square/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "da7cc789f9a9249c7f6b",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What does a knitting row counter help you keep track of?",
+    "answers": [
+      "How many rows you have worked",
+      "How many metres remain in the yarn ball",
+      "The width of each individual stitch",
+      "The total weight of the garment"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/counter",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "68ca4ce748e167671bd8",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "A traditional granny square is a motif most associated with which craft?",
+    "answers": [
+      "Woodturning",
+      "Glassblowing",
+      "Papier-mâché",
+      "Crochet"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/granny-square",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "40cddf6310cdbcebf768",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What is the small hole in a hand-sewing needle called?",
+    "answers": [
+      "The tooth",
+      "The brim",
+      "The eye",
+      "The heel"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/eye",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "944c795db086c3ae8bc7",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What is a pincushion used for?",
+    "answers": [
+      "Measuring a hem",
+      "Holding pins and needles safely between uses",
+      "Pressing seams flat",
+      "Sharpening scissors"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/pincushion",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "37faa2c479fa603c33be",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Which tool is designed to cut stitches so a sewn seam can be undone?",
+    "answers": [
+      "A seam ripper",
+      "A crochet hook",
+      "A bobbin",
+      "A tape measure"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/seam-ripper",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "db451ca67c6aa7e98617",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Why might a dressmaker use tailor's chalk?",
+    "answers": [
+      "To lubricate a sewing machine",
+      "To sharpen a needle",
+      "To permanently glue a seam",
+      "To make temporary marks on fabric"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/tailor-s-chalk",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "3f132359bf80fd400fe7",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What is a hem on a garment?",
+    "answers": [
+      "A spool inside the sewing machine",
+      "A woven label showing the brand",
+      "A finished edge, often folded and stitched",
+      "The opening in a needle"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/hem",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "44132a00555073c93e06",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What is a gusset in sewing?",
+    "answers": [
+      "A cutting guide printed on paper",
+      "An inserted piece that adds room or strength",
+      "A decorative bead sewn onto lace",
+      "A loop on a knitting needle"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/gusset",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "c011df1824301a8b6e32",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Why are darts sewn into some garments?",
+    "answers": [
+      "To shape flat fabric around the body",
+      "To make every seam waterproof",
+      "To remove the need for closures",
+      "To make the fabric stretch indefinitely"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/dart",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "febc095828c55d576bf9",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Which protective finger cap helps a sewer push a needle through fabric?",
+    "answers": [
+      "A bobbin",
+      "A seam ripper",
+      "An embroidery hoop",
+      "A thimble"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/thimble",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "e0410e5a5db134ede96d",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "In a standard lockstitch sewing machine, the bobbin supplies which thread?",
+    "answers": [
+      "A decorative fringe",
+      "A knitting loop",
+      "The lower thread",
+      "The upper needle thread"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.brother-usa.com/blogs/stitching-sewcial/sewing-machine-parts",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "095a159f2e8260e3a970",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What does a sewing machine's presser foot do during ordinary sewing?",
+    "answers": [
+      "Measures the wearer's waist",
+      "Holds the fabric against the feed mechanism",
+      "Cuts out the pattern automatically",
+      "Replaces the needle"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.brother-usa.com/blogs/stitching-sewcial/sewing-machine-parts",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "fba7e00730c085a89c62",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Which craft decorates fabric using stitches made with thread?",
+    "answers": [
+      "Embroidery",
+      "Origami",
+      "Pottery",
+      "Whittling"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/embroidery",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "85c5a0219a0431fb9689",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What is the main purpose of an embroidery hoop?",
+    "answers": [
+      "To wind thread into a ball",
+      "To cut the fabric into circles",
+      "To sharpen the needle",
+      "To keep the working fabric taut"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/embroidery-hoop",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "4a5b816ef4212b5e173b",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What shape does a basic completed cross stitch make?",
+    "answers": [
+      "A triangle",
+      "A spiral",
+      "An X",
+      "A circle"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.dmc.com/US/en/learn-cross-stitch",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "0b46ead360edf30a1561",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Which embroidery stitch is often used to create a continuous line for outlines?",
+    "answers": [
+      "Bullion knot",
+      "Backstitch",
+      "French knot",
+      "Detached chain only"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.dmc.com/US/en/sbs-embroidery-stitch-diagrams",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "770a3204f9360ad96564",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Which needle is usually chosen for counted cross stitch on aida?",
+    "answers": [
+      "A blunt tapestry needle",
+      "A sharp upholstery awl",
+      "A sewing-machine needle",
+      "A knitting needle"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.dmc.com/US/en/products/gold-tapestry-needles-22-26",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "76d740227e5cfef5089f",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "DMC Six-Strand Embroidery Floss can be separated into how many individual strands?",
+    "answers": [
+      "Two",
+      "Four",
+      "Eight",
+      "Six"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.dmc.com/US/en/products/mouline-stranded-thread",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "ad4700535213f42cdbcc",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Which embroidery stitch makes a small raised knot resembling a dot?",
+    "answers": [
+      "Backstitch",
+      "Straight stitch",
+      "French knot",
+      "Running stitch"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.dmc.com/US/en/sbs-embroidery-stitch-diagrams",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "c840e6bec77e8e15bcf2",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Which embroidery stitch fills a shape with closely packed parallel stitches?",
+    "answers": [
+      "French knot",
+      "Satin stitch",
+      "Running stitch",
+      "Backstitch"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.dmc.com/US/en/sbs-embroidery-stitch-diagrams",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "b56901eff89b4f7837f6",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Which basic hand stitch looks like a dashed line?",
+    "answers": [
+      "Running stitch",
+      "Satin stitch",
+      "French knot",
+      "Blanket stitch"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.dmc.com/US/en/sbs-embroidery-stitch-diagrams",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "0a1c7ba17c1f85d2fbab",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What is the main job of a needle threader?",
+    "answers": [
+      "Cutting buttonholes",
+      "Holding fabric in a hoop",
+      "Unpicking seams",
+      "Helping thread pass through a needle's eye"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/needle-threader",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "1a1319b29292dea9f077",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Which bird is represented by one of the best-known traditional origami models?",
+    "answers": [
+      "A puffin",
+      "A flamingo",
+      "A crane",
+      "An ostrich"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.britishorigami.org/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "360d55937c4cefa7e6cb",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "In paper folding, a valley fold makes the crease resemble what when viewed from the open side?",
+    "answers": [
+      "A cut-out hole",
+      "A V-shaped valley",
+      "A raised ridge",
+      "A rolled tube"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/valley-fold",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "7d4348454f69b10b66d2",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Which paper craft uses thin strips rolled and shaped into decorative coils?",
+    "answers": [
+      "Quilling",
+      "Origami",
+      "Papier-mâché",
+      "Bookbinding"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/quilling",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "83c64caed5bf438379df",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What is decoupage?",
+    "answers": [
+      "Shaping clay on a wheel",
+      "Carving a single piece of wood",
+      "Knitting fabric with two needles",
+      "Decorating a surface with glued-on paper cut-outs"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/decoupage",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "25b76cb6ff5ef5bfb5a1",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Papier-mâché is made using paper combined with what?",
+    "answers": [
+      "Dry sand alone",
+      "Knitting wool only",
+      "Paste or glue",
+      "Molten glass"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/papier-mache",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "7c51d04619f3c93e73af",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What is a collage?",
+    "answers": [
+      "A single uninterrupted pencil line",
+      "An image assembled from attached pieces of material",
+      "A sculpture carved only from stone",
+      "A photograph without any editing"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/collage",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "9b7b4ea7b3660bdbeaae",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "A scrapbook is commonly used to collect photographs along with what?",
+    "answers": [
+      "Personal mementos and decorative notes",
+      "Paint-mixing recipes with no personal material",
+      "Instructions for shaping fired pottery",
+      "Sewing-machine maintenance records alone"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/scrapbook",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "87d4c8e2458c5a8b43f0",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Why score a line in thick card before folding it?",
+    "answers": [
+      "To turn the card into transparent plastic",
+      "To remove its colour",
+      "To make it waterproof",
+      "To help make a neat fold along that line"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/score",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "cd08ebfc9835a43b7a0c",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "On paper packaging, what does GSM describe?",
+    "answers": [
+      "Grain size in millimetres",
+      "Glue strength maximum",
+      "Grams per square metre",
+      "Glossy surface measurement"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.canson.com/en/expert-advice/paper-grammage",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "6c2999f390f1e1fed406",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Why use a cutting mat when cutting card with a craft knife?",
+    "answers": [
+      "To dye the card",
+      "To protect the work surface",
+      "To dissolve the adhesive",
+      "To heat the blade"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/cutting-mat",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "374a9c73a53086b7f513",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Which liquid is normally used to dilute watercolour paint?",
+    "answers": [
+      "Water",
+      "Cooking oil",
+      "Turpentine",
+      "Liquid wax"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.winsornewton.com/en-gb/blogs/guides/watercolour-techniques",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "d5c2ab469408590008c6",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What does a painter normally use a palette for?",
+    "answers": [
+      "Cutting canvas",
+      "Sharpening pencils",
+      "Firing clay",
+      "Holding and mixing colours"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/palette",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "83d4fe45714b83797462",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What is an easel mainly used to support?",
+    "answers": [
+      "A sewing needle",
+      "A telescope lens",
+      "A canvas or drawing board",
+      "A spinning pot"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/easel",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "8ef1225821c68caafce8",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Which paint usually dries to a water-resistant film after being diluted with water while wet?",
+    "answers": [
+      "Poster paint",
+      "Acrylic paint",
+      "Ordinary watercolour",
+      "Traditional gouache"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://eu.winsornewton.com/blogs/guides/gouache-acrylic-watercolour-techniques",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "a292660b82536bccd2c8",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Traditional artists' charcoal is made by heating which material with very little oxygen?",
+    "answers": [
+      "Wood",
+      "Glass",
+      "Chalk",
+      "Clay"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/charcoal",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "4715c38d500d691388a0",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What is the dark writing material in an ordinary graphite pencil mainly made from?",
+    "answers": [
+      "Metallic lead",
+      "Coal mixed with wax only",
+      "Black glass",
+      "Graphite mixed with clay"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.faber-castell.com/service/frequently-asked-questions/faq-pens-and-pencils",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "f4460e6d998762f15be9",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "On a drawing pencil, the letter H mainly indicates what?",
+    "answers": [
+      "Humidity",
+      "Length of the pencil",
+      "Hardness",
+      "Heat resistance"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.faber-castell.com/service/frequently-asked-questions/faq-pens-and-pencils",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "9db78bad5f7bf3789ea5",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What is a sketch usually intended to be?",
+    "answers": [
+      "A collection of camera lenses",
+      "A preliminary or quickly made drawing",
+      "A fired clay object",
+      "A woven fabric pattern"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/sketch",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "1c34135ace1019abb905",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "A still-life painting typically depicts what?",
+    "answers": [
+      "Arranged inanimate objects",
+      "Only moving athletes",
+      "Only cloud formations",
+      "Only historical battles"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/still-life",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "e1f01c42d03e1e302814",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Painting en plein air means painting where?",
+    "answers": [
+      "Inside a kiln",
+      "In complete darkness",
+      "Only in a studio",
+      "Outdoors"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/plein-air",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "904c73a1762bedb8a179",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What does a potter's wheel allow a maker to do?",
+    "answers": [
+      "Cut paper into strips",
+      "Weave wool into cloth",
+      "Shape clay as it rotates",
+      "Fire clay to a high temperature"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/potter-s-wheel",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "0e2925ef5a43f35b666a",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "After firing, a ceramic glaze commonly forms what on the surface?",
+    "answers": [
+      "A soft wax filling",
+      "A glassy coating",
+      "A woven fabric layer",
+      "A layer of raw paper"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/glaze",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "e869aec2b4e7f92c7769",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Why score and add slip to two clay pieces before joining them?",
+    "answers": [
+      "To help the pieces bond together",
+      "To stop the clay ever drying",
+      "To make the joint detachable after firing",
+      "To remove all water instantly"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://ceramicartsnetwork.org/daily/article/How-to-Join-Clay",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "b01f7b112b419de57c76",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Why does wet clay usually shrink as it dries?",
+    "answers": [
+      "The clay gains extra water",
+      "Air turns into glass",
+      "The pigment expands",
+      "Water leaves the clay body"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://ceramicartsnetwork.org/daily/article/How-to-Determine-Clay-Shrinkage-and-Make-a-Shrink-Rule",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "acb7c9c9488235826c5a",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Which art form creates three-dimensional works by methods such as carving or modelling?",
+    "answers": [
+      "Printmaking",
+      "Photography",
+      "Sculpture",
+      "Calligraphy"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/sculpture",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "20c14b2e70092f42a236",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What is sandpaper mainly used for in woodworking?",
+    "answers": [
+      "Making wood waterproof by itself",
+      "Smoothing or abrading surfaces",
+      "Measuring angles",
+      "Holding joints together"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/sandpaper",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "1339df14c35070b937d2",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Why might a woodworker clamp two glued pieces together?",
+    "answers": [
+      "To hold them in position while the glue sets",
+      "To replace the glue with air",
+      "To make the wood grow",
+      "To turn the wood grain sideways"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/clamp",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "84b850251c3a4972a26a",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What does a bench vice do?",
+    "answers": [
+      "Measures its moisture automatically",
+      "Paints its surface",
+      "Sharpens every tool",
+      "Grips a workpiece securely"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/vice",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "424a114964a8b90f9f72",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What is the point of the woodworking advice measure twice, cut once?",
+    "answers": [
+      "Avoid using any measuring tools",
+      "Cut every piece exactly in half",
+      "Check dimensions before making an irreversible cut",
+      "Always make two identical cuts"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/measure-twice-cut-once",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "34a04250fafcc807149c",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What does the grain of wood refer to?",
+    "answers": [
+      "Its age in days",
+      "The direction and pattern of its fibres",
+      "The number of nails in it",
+      "The thickness of its paint"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/grain",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "632abe12cafb2c4666aa",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Why drill a pilot hole before driving some screws into wood?",
+    "answers": [
+      "To guide the screw and reduce splitting",
+      "To make the screw head larger",
+      "To remove the need for threads",
+      "To make the wood waterproof"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/pilot-hole",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "ec6e80efd853e148504e",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What does countersinking a hole for a countersunk screw allow?",
+    "answers": [
+      "The screw to grow longer",
+      "The wood to change colour",
+      "The hole to close without a screw",
+      "The screw head to sit flush with or below the surface"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/countersink",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "582f97be5a365b83d51b",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Which woodworking joint has interlocking shapes resembling a bird's spreading tail?",
+    "answers": [
+      "Lap joint",
+      "Mitre joint",
+      "Dovetail joint",
+      "Butt joint"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/dovetail",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "ea4a063bf556660329d5",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Two equal mitre cuts meet to form a right-angle frame corner. What angle is each cut?",
+    "answers": [
+      "90°",
+      "45°",
+      "30°",
+      "60°"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/mitre",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "8849703c0c9c28c1ed6c",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Which hand saw has a narrow blade held in a frame and is useful for curved cuts?",
+    "answers": [
+      "A coping saw",
+      "A large rip saw",
+      "A tenon saw",
+      "A pruning saw"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/coping-saw",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "8ffcf65a7d60270a1a03",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "When assembling an ordinary rectangular jigsaw puzzle, which pieces form the outside border?",
+    "answers": [
+      "Only the darkest pieces",
+      "Only pieces with four tabs",
+      "All pieces showing the sky",
+      "Pieces with straight outer edges"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/jigsaw",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "1e01c9bf9993c7244097",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What does dry-fitting parts of a model mean?",
+    "answers": [
+      "Painting them without a brush",
+      "Sanding every detail away",
+      "Testing how they fit before applying glue",
+      "Leaving them in an oven overnight"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://uk.airfix.com/community/blog-and-news/tips-and-tricks",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "7a9cde2313b5497bad61",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "In a plastic model kit, what is a sprue?",
+    "answers": [
+      "A type of display stand",
+      "The moulded frame that carries small parts",
+      "A completed paint layer",
+      "A sheet of adhesive markings"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/sprue",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "f8a54287908a10f8e7ab",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Why apply masking tape before painting a neat stripe on a model?",
+    "answers": [
+      "To protect areas that should remain unpainted",
+      "To dissolve the paint",
+      "To melt the plastic",
+      "To make the brush wider"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/masking-tape",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "29995915bb5541081f09",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What are decals used for in model making?",
+    "answers": [
+      "Cutting plastic parts from frames",
+      "Holding wet glue under pressure",
+      "Measuring glue temperature",
+      "Adding transferred markings or designs"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/decal",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "674fcbceea9a23918c8a",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What is the main benefit of using a tripod for a long photographic exposure?",
+    "answers": [
+      "Adding colour to black-and-white film",
+      "Stopping the subject from moving",
+      "Keeping the camera steady",
+      "Making every lens wider"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.adobe.com/creativecloud/photography/discover/long-exposure-photography.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "da6127fda774a6dc6a7e",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Macro photography focuses on what kind of subject view?",
+    "answers": [
+      "Only aerial views from aircraft",
+      "Close-up detail of small subjects",
+      "Only distant galaxies",
+      "Only wide city panoramas"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.adobe.com/creativecloud/photography/discover/macro-photography.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "1480a0f89acb134a2980",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "A portrait photograph mainly features what?",
+    "answers": [
+      "A person or people",
+      "Only an empty landscape",
+      "Only a building floor plan",
+      "Only a microscopic mineral"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.adobe.com/creativecloud/photography/discover/portrait-photography.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "1ce443b2cd1ae87a1c10",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Which photography genre concentrates on natural scenery?",
+    "answers": [
+      "Product photography",
+      "Passport photography",
+      "Sports photography",
+      "Landscape photography"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.adobe.com/creativecloud/photography/discover/landscape-photography.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "013bfeb36f2ff283329e",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Adjusting a camera lens's focus mainly changes what?",
+    "answers": [
+      "The number of files on the card",
+      "The printed date on the lens",
+      "Which distance appears sharp",
+      "The colour of the camera body"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.adobe.com/creativecloud/photography/discover/focus-in-photography.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "a14c7d3004cb326a560f",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "In photography, exposure concerns the amount of what reaching the film or sensor?",
+    "answers": [
+      "Paint",
+      "Light",
+      "Sound",
+      "Moisture"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.adobe.com/creativecloud/photography/discover/exposure-in-photography.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "888fa7f7ac74c54455a7",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What does a camera's self-timer do?",
+    "answers": [
+      "Delays taking the photograph after the shutter button is pressed",
+      "Automatically cleans the lens",
+      "Deletes the previous photograph",
+      "Changes the memory card size"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/self-timer",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "2138a6c37c0822f47509",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What does burst mode on a camera do?",
+    "answers": [
+      "Records only sound",
+      "Erases all images at once",
+      "Permanently locks the lens",
+      "Takes a rapid sequence of photographs"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.adobe.com/creativecloud/photography/discover/burst-mode.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "585958f3d3a43d0c1590",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What is white balance mainly adjusted to correct?",
+    "answers": [
+      "An out-of-focus subject",
+      "A blocked lens cap",
+      "A colour cast caused by the lighting",
+      "A tilted horizon"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.adobe.com/creativecloud/photography/discover/white-balance.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "8c253557facaa98062a2",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "A subject is backlit when the main light source is where?",
+    "answers": [
+      "Behind the photographer",
+      "Behind the subject relative to the camera",
+      "Directly inside the camera",
+      "Only underneath the tripod"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.adobe.com/creativecloud/photography/discover/backlighting.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "b4bcac7089f053cebe8d",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Which handheld optical instrument is commonly used for birdwatching with both eyes?",
+    "answers": [
+      "Binoculars",
+      "A microscope",
+      "A magnifying glass",
+      "A periscope"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/binoculars",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "801e8bbce6a3cd9cf3d7",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What is the main purpose of a bird field guide?",
+    "answers": [
+      "Measuring the camera battery",
+      "Showing only driving directions",
+      "Listing train timetables",
+      "Helping identify birds using descriptions or pictures"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/field-guide",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "a7fbe1ffffedee89bc7e",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Why might a birdwatcher use a hide?",
+    "answers": [
+      "To keep all birds out of a reserve",
+      "To remove the need for binoculars",
+      "To watch birds while remaining less visible",
+      "To force birds to change colour"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/hide",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "59f2dc9c653f68c80cec",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What is the main role of a telescope's large objective lens or primary mirror?",
+    "answers": [
+      "Making its tripod heavier",
+      "Collecting light from the subject",
+      "Displaying the time",
+      "Measuring air humidity"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.celestron.com/blogs/knowledgebase/how-do-telescopes-work",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "a946bcc28f1e9b230e3c",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Why do many amateur astronomers use a dim red torch at night?",
+    "answers": [
+      "To help preserve dark adaptation",
+      "To make stars physically brighter",
+      "To change the Moon's phase",
+      "To remove clouds"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.nps.gov/articles/000/idkt_stargazing.htm",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "8bfcfca351f29eba1eb6",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What does a star chart show?",
+    "answers": [
+      "The positions of buried coins",
+      "The route of every aircraft",
+      "The depth of nearby ponds",
+      "The positions of celestial objects in the sky"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/star-chart",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "a8b162cd8a8765005e0a",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What is a planisphere used for in amateur astronomy?",
+    "answers": [
+      "Changing a telescope's mirror shape",
+      "Recording sounds from stars",
+      "Showing which stars are visible for a chosen date and time",
+      "Measuring a planet's mass directly"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/planisphere",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "393acc6f83580d2f5399",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Why does a telescope often have a small finder scope?",
+    "answers": [
+      "To keep dew off every surface",
+      "To help aim the main telescope at a target",
+      "To cool its eyepiece",
+      "To count the tripod legs"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.celestron.com/blogs/knowledgebase/what-is-a-finderscope-and-how-do-you-use-it",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "95f07bb0a84aa124da3b",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What do geocachers normally sign inside a physical cache to record a find?",
+    "answers": [
+      "The logbook or log sheet",
+      "A bank cheque",
+      "The owner's passport",
+      "A plant label"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.geocaching.com/about/glossary.aspx",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "8e6b1687f3eeaabfa948",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "If you take an ordinary trade item from a geocache, what is the usual etiquette?",
+    "answers": [
+      "Empty the whole container",
+      "Remove the logbook instead",
+      "Leave nothing because every item is a prize",
+      "Leave an item of equal or greater value"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.geocaching.com/guide/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "d5175ba4b817c682c5da",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "In geocaching slang, what is a muggle?",
+    "answers": [
+      "A broken GPS receiver",
+      "The first person to find a cache",
+      "Someone who is not a geocacher",
+      "A cache hidden underwater"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.geocaching.com/about/glossary.aspx",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "560e3b2fe51021bf3641",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What does FTF stand for in geocaching?",
+    "answers": [
+      "Find the flag",
+      "First to find",
+      "Follow the fence",
+      "Free to fly"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.geocaching.com/about/glossary.aspx",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "4462524f7b15203e1f69",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What is philately concerned with?",
+    "answers": [
+      "Postage stamps and postal history",
+      "Coins and medals only",
+      "Butterflies only",
+      "Model railways"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/philately",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "e0ecedc2226ede152cda",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What is numismatics concerned with?",
+    "answers": [
+      "Bird calls",
+      "Paper folding",
+      "Plant propagation",
+      "Coins, currency and related objects"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/numismatics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "aaccd0464895b9ef0129",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "A collector of vinyl LPs is primarily collecting which medium?",
+    "answers": [
+      "Postage stamps",
+      "Photographic slides",
+      "Recorded music",
+      "Printed maps"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/lp",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "ab76958002b3404584d7",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "How should a collector normally handle a valuable coin to avoid fingerprints on its faces?",
+    "answers": [
+      "By polishing it with sandpaper",
+      "By its edges",
+      "By rubbing both faces with bare fingers",
+      "By scraping it with a knife"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.usmint.gov/learn/collecting-basics/caring-for-your-coin-collection",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "cea879dd630defe1d784",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "What does a bookmark help a reader keep track of?",
+    "answers": [
+      "Their place in a book",
+      "The total mass of the book",
+      "The ink's chemical formula",
+      "The author's home address"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/bookmark",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "688d55a39a4e346328aa",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Which craft focuses on beautiful, carefully formed handwriting?",
+    "answers": [
+      "Macramé",
+      "Woodturning",
+      "Quilling",
+      "Calligraphy"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/calligraphy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "35f0075cb3480b1f6efe",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Macramé is made primarily by doing what with cords?",
+    "answers": [
+      "Firing them in a kiln",
+      "Cutting them into paper shapes",
+      "Tying knots",
+      "Melting them together"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/macrame",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  },
+  {
+    "id": "43c12e3b05faf4dc64bd",
+    "categoryID": "34",
+    "difficulty": "easy",
+    "prompt": "Amigurumi commonly refers to making what?",
+    "answers": [
+      "Pressed flower pictures",
+      "Small stuffed figures using crochet or knitting",
+      "Painted ceramic tiles",
+      "Carved wooden bowls"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/amigurumi",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-34-v1"
+  }
+]

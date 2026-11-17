@@ -1,0 +1,2102 @@
+[
+  {
+    "draftID": "easy-17-001",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Why does an ordinary ice cube float in liquid water?",
+    "answers": [
+      "Ice is less dense than liquid water",
+      "Ice has no mass",
+      "Ice repels all water molecules",
+      "Ice contains no oxygen"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.usgs.gov/water-science-school/science/water-density",
+    "rationale": "The solid is less dense; mass and molecular composition do not vanish.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "The solid is less dense; mass and molecular composition do not vanish.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-002",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Water droplets appear outside a cold glass. What process forms them?",
+    "answers": [
+      "Condensation",
+      "Melting",
+      "Combustion",
+      "Sublimation"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.usgs.gov/water-science-school/science/condensation-and-water-cycle",
+    "rationale": "Water vapour in the air changes to liquid on the cold surface.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Water vapour in the air changes to liquid on the cold surface.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-003",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which process lets wet clothes dry on a washing line?",
+    "answers": [
+      "Evaporation",
+      "Freezing",
+      "Condensation",
+      "Crystallisation"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.usgs.gov/water-science-school/science/evaporation-and-water-cycle",
+    "rationale": "Liquid water leaves the fabric as water vapour; the other changes do not explain drying.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Liquid water leaves the fabric as water vapour; the other changes do not explain drying.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-004",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "At normal atmospheric pressure, what is the freezing point of pure water?",
+    "answers": [
+      "0°C",
+      "10°C",
+      "50°C",
+      "100°C"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.usgs.gov/water-science-school/science/water-properties-information-topic",
+    "rationale": "The qualification excludes salt effects and altered pressures.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "The qualification excludes salt effects and altered pressures.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-005",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What is the change from a solid to a liquid called?",
+    "answers": [
+      "Melting",
+      "Condensation",
+      "Deposition",
+      "Freezing"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions",
+    "rationale": "Melting is the specified direction of phase change; the other directions differ.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Melting is the specified direction of phase change; the other directions differ.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-006",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Dry ice changes straight from solid to gas. What is this process called?",
+    "answers": [
+      "Sublimation",
+      "Melting",
+      "Condensation",
+      "Dissolving"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions",
+    "rationale": "Sublimation skips the liquid phase; dissolving requires a solvent.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Sublimation skips the liquid phase; dissolving requires a solvent.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-007",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Sugar disappears into stirred water without changing into a new substance. What has it done?",
+    "answers": [
+      "Dissolved",
+      "Burned",
+      "Frozen",
+      "Rusted"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/chemistry-2e/pages/11-1-the-dissolution-process",
+    "rationale": "Sugar molecules disperse in the water; the options describe distinct processes.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Sugar molecules disperse in the water; the options describe distinct processes.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-008",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which material is normally insoluble in a glass of water?",
+    "answers": [
+      "Sand",
+      "Table salt",
+      "Granulated sugar",
+      "Baking soda"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/chemistry-2e/pages/11-1-the-dissolution-process",
+    "rationale": "Ordinary sand does not appreciably dissolve; modest quantities of the other materials do.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Ordinary sand does not appreciably dissolve; modest quantities of the other materials do.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-009",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which method separates sand from water using paper in a funnel?",
+    "answers": [
+      "Filtration",
+      "Distillation",
+      "Condensation",
+      "Magnetisation"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://edu.rsc.org/experiments/separating-sand-and-salt-by-filtering-and-evaporation/386.article",
+    "rationale": "Filter paper retains insoluble sand while water passes through.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Filter paper retains insoluble sand while water passes through.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-010",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "How could you recover dissolved salt from salty water in an open dish?",
+    "answers": [
+      "Allow the water to evaporate",
+      "Pass it through ordinary filter paper",
+      "Pick it out with a magnet",
+      "Freeze the salt into ice"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://edu.rsc.org/experiments/separating-sand-and-salt-by-filtering-and-evaporation/386.article",
+    "rationale": "Evaporation leaves salt crystals; dissolved ions pass through ordinary filter paper.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Evaporation leaves salt crystals; dissolved ions pass through ordinary filter paper.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-011",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which of these materials is strongly attracted to an ordinary magnet?",
+    "answers": [
+      "Iron",
+      "Wood",
+      "Glass",
+      "Plastic"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/physics/pages/20-1-magnetic-fields-field-lines-and-force",
+    "rationale": "Iron is ferromagnetic; the other everyday materials are not strongly attracted.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Iron is ferromagnetic; the other everyday materials are not strongly attracted.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-012",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What happens when two north poles of bar magnets are brought close together?",
+    "answers": [
+      "They repel each other",
+      "They attract each other",
+      "They lose all magnetism permanently",
+      "They become south poles"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/physics/pages/20-1-magnetic-fields-field-lines-and-force",
+    "rationale": "Like magnetic poles repel; proximity does not reverse or erase the poles.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Like magnetic poles repel; proximity does not reverse or erase the poles.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-013",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What allows a traditional compass needle to align north–south?",
+    "answers": [
+      "Earth's magnetic field",
+      "The Moon's reflected light",
+      "Air pressure in the compass",
+      "The colour of the needle"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/physics/pages/20-1-magnetic-fields-field-lines-and-force",
+    "rationale": "The magnetic needle aligns with the local geomagnetic field.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "The magnetic needle aligns with the local geomagnetic field.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-014",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What must flow through a coil of wire to make it act as an electromagnet?",
+    "answers": [
+      "Electric current",
+      "Sound waves",
+      "Sunlight only",
+      "Water vapour"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/college-physics-ap-courses/pages/22-2-ferromagnets-and-electromagnets",
+    "rationale": "Current in the coil generates its magnetic field; the other inputs do not define an electromagnet.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Current in the coil generates its magnetic field; the other inputs do not define an electromagnet.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-015",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Why is copper commonly used inside electrical cables?",
+    "answers": [
+      "It conducts electricity well",
+      "It stops all current flowing",
+      "It is a liquid at room temperature",
+      "It cannot be bent"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/physics/pages/18-1-electrical-charges-conservation-of-charge-and-transfer-of-charge",
+    "rationale": "Mobile charges in copper make it a good conductor; the other claims are false.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Mobile charges in copper make it a good conductor; the other claims are false.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-016",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Why is insulating plastic placed around many electrical wires?",
+    "answers": [
+      "To reduce unwanted contact with the conducting metal",
+      "To turn electricity into water",
+      "To increase the wire's magnetic poles",
+      "To make copper stop conducting internally"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/college-physics-2e/pages/18-2-conductors-and-insulators",
+    "rationale": "An insulating covering separates the conductor from contact; it does not change copper into an insulator.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "An insulating covering separates the conductor from contact; it does not change copper into an insulator.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-017",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "A simple battery-powered bulb needs which kind of circuit to stay lit?",
+    "answers": [
+      "A complete conducting loop",
+      "A loop with a large gap",
+      "A wire attached to only one battery terminal",
+      "A circuit with every connection removed"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/physics/pages/19-1-ohms-law",
+    "rationale": "Steady current requires a complete path through the bulb and battery.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Steady current requires a complete path through the bulb and battery.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-018",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "How does an ordinary switch turn off a torch in a simple circuit?",
+    "answers": [
+      "It breaks the conducting path",
+      "It creates extra battery charge",
+      "It permanently changes the bulb into an insulator",
+      "It converts the wire into a battery"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/physics/pages/19-1-ohms-law",
+    "rationale": "Opening the switch interrupts current; the other mechanisms do not describe switching.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Opening the switch interrupts current; the other mechanisms do not describe switching.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-019",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "A battery supplies electrical energy by using which stored form of energy?",
+    "answers": [
+      "Chemical energy",
+      "Sound energy",
+      "Gravitational energy only",
+      "Nuclear energy"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/chemistry-2e/pages/17-5-batteries-and-fuel-cells",
+    "rationale": "Electrochemical reactions convert chemical energy into electrical work.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Electrochemical reactions convert chemical energy into electrical work.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-020",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What is the main purpose of a fuse in an electrical circuit?",
+    "answers": [
+      "To break the circuit if current becomes too high",
+      "To store spare electricity",
+      "To make alternating current disappear",
+      "To increase the voltage continuously"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/college-physics-2e/pages/20-6-electric-hazards-and-the-human-body",
+    "rationale": "A fuse melts and interrupts excessive current; it is not a battery or voltage source.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "A fuse melts and interrupts excessive current; it is not a battery or voltage source.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-021",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which process lets you see your image in a plane mirror?",
+    "answers": [
+      "Reflection",
+      "Evaporation",
+      "Magnetism",
+      "Condensation"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/physics/pages/16-1-reflection",
+    "rationale": "Light reflects from the smooth surface to form the image.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Light reflects from the smooth surface to form the image.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-022",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "A straw looks bent where it enters water. Which effect mainly explains this?",
+    "answers": [
+      "Refraction",
+      "Radioactivity",
+      "Electrical conduction",
+      "Combustion"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/physics/pages/16-2-refraction",
+    "rationale": "Light changes direction across the water–air boundary.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Light changes direction across the water–air boundary.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-023",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "The shiny inner surface of a metal spoon behaves most like which type of mirror?",
+    "answers": [
+      "Concave",
+      "Convex",
+      "Plane",
+      "Non-reflecting"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/university-physics-volume-3/pages/2-2-spherical-mirrors",
+    "rationale": "The inward-curving reflective surface is concave; the outer surface would be convex.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Opaque describes blocking transmitted light; transparent is the opposite.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-024",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Why does your hand cast a shadow on a wall when placed in front of a torch?",
+    "answers": [
+      "It blocks some of the light reaching the wall",
+      "It cools the wall below freezing",
+      "It adds black pigment to the air",
+      "It makes the torch emit sound"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/physics/pages/16-introduction",
+    "rationale": "A shadow is a region receiving less light because an opaque object obstructs its path.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "A shadow is a region receiving less light because an opaque object obstructs its path.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-025",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What can a glass prism reveal when white light passes through it?",
+    "answers": [
+      "A spread of different colours",
+      "Only black light",
+      "A stream of electric current",
+      "A beam of sound"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/physics/pages/16-2-refraction",
+    "rationale": "Dispersion separates white light into component colours by wavelength.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Dispersion separates white light into component colours by wavelength.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-026",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "If a sound wave's frequency increases, what happens to its pitch?",
+    "answers": [
+      "It becomes higher",
+      "It becomes lower",
+      "It must become silent",
+      "It becomes a colour"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/physics/pages/14-1-speed-of-sound-frequency-and-wavelength",
+    "rationale": "Pitch rises with frequency; loudness is not specified.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Pitch rises with frequency; loudness is not specified.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-027",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "For the same sound source and frequency, increasing wave amplitude generally makes the sound what?",
+    "answers": [
+      "Louder",
+      "Lower in pitch",
+      "Higher in pitch",
+      "Slower in air"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/physics/pages/14-2-sound-intensity-and-sound-level",
+    "rationale": "Greater amplitude increases intensity, not frequency or speed in the same medium.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Greater amplitude increases intensity, not frequency or speed in the same medium.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-028",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What is an echo?",
+    "answers": [
+      "Sound reflected back to the listener",
+      "Light bent through a lens",
+      "Air turning into liquid",
+      "A permanent electrical charge"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/physics/pages/14-4-sound-interference-and-resonance",
+    "rationale": "A distinct delayed reflection of sound is an echo.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "A distinct delayed reflection of sound is an echo.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-029",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Why can't ordinary sound travel through a perfect vacuum?",
+    "answers": [
+      "There is no material to carry its vibrations",
+      "The temperature is always zero",
+      "Gravity always blocks sound",
+      "All sounds become visible light"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/physics/pages/14-1-speed-of-sound-frequency-and-wavelength",
+    "rationale": "Mechanical sound waves require a medium; vacuum lacks one.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Mechanical sound waves require a medium; vacuum lacks one.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-030",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What does a guitar string do to produce a musical note after being plucked?",
+    "answers": [
+      "Vibrate",
+      "Dissolve",
+      "Freeze",
+      "Become magnetically charged"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/physics/pages/14-1-speed-of-sound-frequency-and-wavelength",
+    "rationale": "Vibrating string motion transfers energy to the instrument and surrounding air.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Vibrating string motion transfers energy to the instrument and surrounding air.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-031",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Heat travels along a metal spoon standing in hot soup mainly by which process?",
+    "answers": [
+      "Conduction",
+      "Evaporation",
+      "Nuclear fusion",
+      "Refraction"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/university-physics-volume-2/pages/1-6-mechanisms-of-heat-transfer",
+    "rationale": "Energy passes through the solid spoon by conduction.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Energy passes through the solid spoon by conduction.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-032",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Warm water rising and cooler water sinking in a heated pan is an example of what?",
+    "answers": [
+      "Convection",
+      "Reflection",
+      "Freezing",
+      "Electrical insulation"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/university-physics-volume-2/pages/1-6-mechanisms-of-heat-transfer",
+    "rationale": "Bulk fluid circulation transfers heat by convection.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Bulk fluid circulation transfers heat by convection.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-033",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "How does energy from the Sun cross the vacuum of space to warm Earth?",
+    "answers": [
+      "By radiation",
+      "By convection through air",
+      "By conduction through a metal link",
+      "By sound waves"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/university-physics-volume-2/pages/1-6-mechanisms-of-heat-transfer",
+    "rationale": "Electromagnetic radiation can cross a vacuum; conduction and convection need matter.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Electromagnetic radiation can cross a vacuum; conduction and convection need matter.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-034",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What quantity does a thermometer measure?",
+    "answers": [
+      "Temperature",
+      "Mass",
+      "Electric current",
+      "Distance"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/physics/pages/11-1-temperature-and-thermal-energy",
+    "rationale": "Temperature is distinct from mass, current and length.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Temperature is distinct from mass, current and length.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-035",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Why do long metal structures often need expansion joints?",
+    "answers": [
+      "Metal can expand as it warms",
+      "Metal loses all mass when cold",
+      "Metal always shrinks when heated",
+      "Metal turns into a gas every summer"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/university-physics-volume-2/pages/1-3-thermal-expansion",
+    "rationale": "Expansion joints accommodate thermal size changes without requiring phase change.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Expansion joints accommodate thermal size changes without requiring phase change.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-036",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which force makes a dropped ball accelerate towards the ground?",
+    "answers": [
+      "Gravity",
+      "Magnetism",
+      "Buoyancy",
+      "Static electricity"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/physics/pages/7-2-newtons-law-of-universal-gravitation-and-einsteins-theory-of-general-relativity",
+    "rationale": "Earth attracts the ball gravitationally; the normal falling-ball context excludes artificial electrical forces.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Earth attracts the ball gravitationally; the normal falling-ball context excludes artificial electrical forces.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-037",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What is the pivot point of a lever called?",
+    "answers": [
+      "A fulcrum",
+      "A filament",
+      "A piston",
+      "A turbine"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/physics/pages/9-3-simple-machines",
+    "rationale": "Fulcrum is the lever pivot; the other mechanical parts are different.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Fulcrum is the lever pivot; the other mechanical parts are different.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-038",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which simple machine uses a grooved wheel with a rope running over it?",
+    "answers": [
+      "A pulley",
+      "A wedge",
+      "A screw",
+      "A lever"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/physics/pages/9-3-simple-machines",
+    "rationale": "The grooved wheel and rope identify a pulley.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "The grooved wheel and rope identify a pulley.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-039",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "A ramp used to move a load to a higher level is an example of which simple machine?",
+    "answers": [
+      "An inclined plane",
+      "A pulley",
+      "A gear",
+      "A wheel and axle"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/physics/pages/9-3-simple-machines",
+    "rationale": "An inclined plane spreads lifting work over a longer path.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "An inclined plane spreads lifting work over a longer path.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-040",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What type of energy is stored in a stretched spring?",
+    "answers": [
+      "Elastic potential energy",
+      "Sound energy only",
+      "Nuclear energy",
+      "Light energy"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/college-physics-2e/pages/7-4-conservative-forces-and-potential-energy",
+    "rationale": "Elastic deformation stores recoverable potential energy.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Elastic deformation stores recoverable potential energy.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-041",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which metal is associated with the reddish-brown corrosion called rust?",
+    "answers": [
+      "Iron",
+      "Gold",
+      "Copper",
+      "Silver"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://edu.rsc.org/experiments/the-causes-of-rusting/1764.article",
+    "rationale": "Rust describes corrosion products of iron; copper and silver tarnish differently.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Rust describes corrosion products of iron; copper and silver tarnish differently.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-042",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What colour does blue litmus paper turn in an acidic solution?",
+    "answers": [
+      "Red",
+      "Green",
+      "Yellow",
+      "Black"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://edu.rsc.org/experiments/acid-or-alkali-acidic-or-alkaline-a-litmus-paper-test/1708.article",
+    "rationale": "Acids turn blue litmus red; other indicators have different colour scales.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Acids turn blue litmus red; other indicators have different colour scales.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-043",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which metal is liquid at ordinary room temperature?",
+    "answers": [
+      "Mercury",
+      "Iron",
+      "Copper",
+      "Aluminium"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://periodic-table.rsc.org/element/80/mercury",
+    "rationale": "Mercury is liquid at 20°C; the three other metals are solid.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Mercury is liquid at 20°C; the three other metals are solid.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-044",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "At 25°C, which pH value is neutral for an aqueous solution?",
+    "answers": [
+      "7",
+      "1",
+      "3",
+      "14"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+    "rationale": "Temperature is specified because the neutral pH varies with temperature.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Temperature is specified because the neutral pH varies with temperature.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-045",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which gas turns limewater cloudy in a standard school laboratory test?",
+    "answers": [
+      "Carbon dioxide",
+      "Hydrogen",
+      "Oxygen",
+      "Helium"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://edu.rsc.org/in-search-of-more-solutions/which-gas-is-which/593.article",
+    "rationale": "Carbon dioxide produces insoluble calcium carbonate; the other listed gases do not.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Carbon dioxide produces insoluble calcium carbonate; the other listed gases do not.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-046",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which gas relights a glowing splint in the usual school laboratory test?",
+    "answers": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen",
+      "Helium"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://edu.rsc.org/in-search-of-more-solutions/which-gas-is-which/593.article",
+    "rationale": "Oxygen supports the renewed combustion; the inert or extinguishing alternatives do not.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Oxygen supports the renewed combustion; the inert or extinguishing alternatives do not.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-047",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which gas gives a squeaky pop when a small sample is tested with a lighted splint?",
+    "answers": [
+      "Hydrogen",
+      "Nitrogen",
+      "Carbon dioxide",
+      "Helium"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://edu.rsc.org/in-search-of-more-solutions/which-gas-is-which/593.article",
+    "rationale": "Hydrogen burns with the characteristic small-sample pop; no experiment instruction is provided.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Hydrogen burns with the characteristic small-sample pop; no experiment instruction is provided.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-048",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which of these is a mixture rather than a single pure substance?",
+    "answers": [
+      "Air",
+      "Pure gold",
+      "Pure oxygen",
+      "Distilled water"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter",
+    "rationale": "Air contains several gases; the qualified alternatives are single substances.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Air contains several gases; the qualified alternatives are single substances.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-049",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Where is most of an atom's mass concentrated?",
+    "answers": [
+      "In its nucleus",
+      "In the outermost electron shell only",
+      "In the space between atoms",
+      "In its electric field alone"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+    "rationale": "Protons and neutrons account for almost all atomic mass.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Protons and neutrons account for almost all atomic mass.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-050",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which subatomic particle has a negative electric charge?",
+    "answers": [
+      "Electron",
+      "Proton",
+      "Neutron",
+      "Photon"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+    "rationale": "Electron is negative; proton is positive and the other two are uncharged.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Electron is negative; proton is positive and the other two are uncharged.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-051",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which subatomic particle carries a positive charge in an ordinary atomic nucleus?",
+    "answers": [
+      "Proton",
+      "Electron",
+      "Neutron",
+      "Photon"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+    "rationale": "Protons are positive constituents of nuclei; the alternatives are not.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Protons are positive constituents of nuclei; the alternatives are not.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-052",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which particle in an ordinary atomic nucleus has no electric charge?",
+    "answers": [
+      "Neutron",
+      "Proton",
+      "Electron",
+      "Positron"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+    "rationale": "Neutrons are electrically neutral; all three alternatives are charged.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Neutrons are electrically neutral; all three alternatives are charged.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-053",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "A molecule consists of what joined together?",
+    "answers": [
+      "Atoms",
+      "Whole planets",
+      "Living cells",
+      "Sound waves"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/chemistry-2e/pages/2-4-chemical-formulas",
+    "rationale": "Molecules are bonded groups of atoms, not macroscopic or wave structures.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Molecules are bonded groups of atoms, not macroscopic or wave structures.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-054",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which gas from the air supports a candle flame?",
+    "answers": [
+      "Oxygen",
+      "Nitrogen",
+      "Helium",
+      "Argon"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+    "rationale": "Complete combustion reacts fuel with oxygen; other air gases are not the oxidant.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Complete combustion reacts fuel with oxygen; other air gases are not the oxidant.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-055",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which observation best indicates that a chemical change has occurred?",
+    "answers": [
+      "A new substance has formed",
+      "An object has merely moved",
+      "A sheet has been folded",
+      "A stone has been broken into pieces"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/chemistry-2e/pages/1-3-physical-and-chemical-properties",
+    "rationale": "New chemical identity distinguishes reaction from the listed physical changes.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "New chemical identity distinguishes reaction from the listed physical changes.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-056",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Density compares an object's mass with which other quantity?",
+    "answers": [
+      "Its volume",
+      "Its colour",
+      "Its temperature only",
+      "Its age"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.usgs.gov/water-science-school/science/water-density",
+    "rationale": "Density is mass divided by volume; the other properties do not define it.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Density is mass divided by volume; the other properties do not define it.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-057",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "At standard atmospheric pressure, pure water boils at approximately what temperature?",
+    "answers": [
+      "100°C",
+      "0°C",
+      "25°C",
+      "50°C"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.usgs.gov/water-science-school/science/water-properties-information-topic",
+    "rationale": "The pressure and purity qualifications exclude the familiar altitude and solute exceptions.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "The pressure and purity qualifications exclude the familiar altitude and solute exceptions.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-058",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which tall cloud type is especially associated with thunderstorms?",
+    "answers": [
+      "Cumulonimbus",
+      "Cirrus",
+      "Cirrostratus",
+      "Fair-weather cumulus"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/clouds/low-level-clouds",
+    "rationale": "Deep cumulonimbus clouds produce thunderstorms; the qualified fair-weather alternative does not.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Deep cumulonimbus clouds produce thunderstorms; the qualified fair-weather alternative does not.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-059",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What is fog essentially?",
+    "answers": [
+      "A cloud at ground level",
+      "A cloud made only of smoke",
+      "Rain that has frozen on a roof",
+      "Wind carrying dry sand"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/fog",
+    "rationale": "Fog consists of suspended water droplets near the surface; smoke and dust are different.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Fog consists of suspended water droplets near the surface; smoke and dust are different.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-060",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Hailstones are made mainly of what?",
+    "answers": [
+      "Ice",
+      "Rock",
+      "Salt",
+      "Compressed air"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/hail",
+    "rationale": "Hail is frozen water, not stone despite the name.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Hail is frozen water, not stone despite the name.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-061",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What is dew on a cool lawn?",
+    "answers": [
+      "Liquid water condensed from the air",
+      "Dust blown from nearby soil",
+      "Salt left by evaporating rain",
+      "Ice falling from a storm cloud"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/temperature/dew",
+    "rationale": "Dew is a liquid surface condensate, distinct from hail or frost.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Dew is a liquid surface condensate, distinct from hail or frost.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-062",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What forms the white crystals of hoar frost on a cold surface?",
+    "answers": [
+      "Ice",
+      "Chalk",
+      "Salt",
+      "Sand"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/frost-and-ice",
+    "rationale": "Hoar frost consists of water ice crystals; the alternatives are minerals.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Hoar frost consists of water ice crystals; the alternatives are minerals.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-063",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What causes thunder?",
+    "answers": [
+      "Rapid expansion of air heated by lightning",
+      "Clouds rubbing against the Moon",
+      "Hail melting on the ground",
+      "Rain reflecting sunlight"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/thunder-and-lightning",
+    "rationale": "Lightning rapidly heats air, producing the pressure wave heard as thunder.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Lightning rapidly heats air, producing the pressure wave heard as thunder.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-064",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which weather instrument measures wind speed?",
+    "answers": [
+      "An anemometer",
+      "A barometer",
+      "A rain gauge",
+      "A thermometer"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://weather.metoffice.gov.uk/guides/observations/how-we-measure-wind",
+    "rationale": "Anemometers measure wind speed; the other instruments measure pressure, rain or temperature.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Anemometers measure wind speed; the other instruments measure pressure, rain or temperature.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-065",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What does a wind vane indicate?",
+    "answers": [
+      "The direction the wind comes from",
+      "The amount of rain fallen",
+      "The air temperature",
+      "The length of daylight"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://weather.metoffice.gov.uk/guides/observations/how-we-measure-wind",
+    "rationale": "A vane aligns to show wind direction, conventionally its source direction.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "A vane aligns to show wind direction, conventionally its source direction.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-066",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What does humidity describe?",
+    "answers": [
+      "The amount of water vapour in the air",
+      "The number of sunlight hours",
+      "The speed of falling rain",
+      "The height of the nearest cloud"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/humidity",
+    "rationale": "Humidity concerns atmospheric water vapour, not rainfall rate or cloud height.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Humidity concerns atmospheric water vapour, not rainfall rate or cloud height.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-067",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which instrument collects precipitation to measure how much rain has fallen?",
+    "answers": [
+      "A rain gauge",
+      "A wind vane",
+      "A barometer",
+      "A sundial"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://weather.metoffice.gov.uk/learn-about/weather/how-weather-works/observations/how-we-measure-rainfall",
+    "rationale": "A rain gauge measures collected rainfall rather than wind, pressure or time.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "A rain gauge measures collected rainfall rather than wind, pressure or time.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-068",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What is the removal and transport of rock or soil by water, wind or ice called?",
+    "answers": [
+      "Erosion",
+      "Condensation",
+      "Germination",
+      "Magnetisation"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.nps.gov/subjects/geology/weathering-and-erosion.htm",
+    "rationale": "Erosion transports material; the alternatives concern unrelated processes.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Erosion transports material; the alternatives concern unrelated processes.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-069",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What is the breaking down of rock in place called?",
+    "answers": [
+      "Weathering",
+      "Pollination",
+      "Evaporation",
+      "Orbiting"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.nps.gov/subjects/geology/weathering-and-erosion.htm",
+    "rationale": "Weathering breaks material down where it is; transport is erosion.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Weathering breaks material down where it is; transport is erosion.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-070",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "A river slows and drops some of the sand it carries. What is this called?",
+    "answers": [
+      "Deposition",
+      "Sublimation",
+      "Combustion",
+      "Refraction"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.nps.gov/subjects/geology/fluvial-landforms.htm",
+    "rationale": "Deposition occurs as transported sediment settles out.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Deposition occurs as transported sediment settles out.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-071",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What is molten rock beneath Earth's surface called?",
+    "answers": [
+      "Magma",
+      "Lava",
+      "Granite",
+      "Basalt"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.usgs.gov/faqs/what-difference-between-magma-and-lava",
+    "rationale": "Magma is below the surface; lava is erupted melt and granite/basalt are rocks.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Magma is below the surface; lava is erupted melt and granite/basalt are rocks.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-072",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What instrument records the shaking of the ground during an earthquake?",
+    "answers": [
+      "A seismograph",
+      "A thermometer",
+      "A rain gauge",
+      "A compass"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.usgs.gov/faqs/seismometers-seismographs-seismograms-whats-difference-how-do-they-work",
+    "rationale": "Seismographs record ground motion; the other instruments measure temperature, rain or direction.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Seismographs record ground motion; the other instruments measure temperature, rain or direction.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-073",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which rock type commonly forms as layers of sediment are compacted and cemented?",
+    "answers": [
+      "Sedimentary",
+      "Igneous",
+      "Metamorphic",
+      "Meteoric"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.usgs.gov/faqs/what-are-sedimentary-rocks",
+    "rationale": "Lithified sediment forms sedimentary rock; the alternatives have different origins.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Lithified sediment forms sedimentary rock; the alternatives have different origins.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-074",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What is a fossil?",
+    "answers": [
+      "Preserved remains or traces of past life",
+      "Any recently fallen leaf",
+      "Any polished gemstone",
+      "A cloud of volcanic gas"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.nps.gov/subjects/fossils/what-is-a-fossil.htm",
+    "rationale": "Traces as well as body remains can be fossils; recent leaves are not automatically fossils.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Traces as well as body remains can be fossils; recent leaves are not automatically fossils.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-075",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What is Earth's outermost solid layer called?",
+    "answers": [
+      "The crust",
+      "The outer core",
+      "The inner core",
+      "The mantle"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.usgs.gov/programs/earthquake-hazards/science/inside-earth",
+    "rationale": "The crust lies above the mantle and core; atmosphere is not offered as a solid layer.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "The crust lies above the mantle and core; atmosphere is not offered as a solid layer.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-076",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Many earthquakes occur when what suddenly slips along a fault?",
+    "answers": [
+      "Blocks of rock",
+      "Layers of cloud",
+      "Ocean tides",
+      "Earth's magnetic poles"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.usgs.gov/programs/earthquake-hazards/science/science-earthquakes",
+    "rationale": "Sudden fault slip releases stored elastic energy; the alternatives are not fault blocks.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Sudden fault slip releases stored elastic energy; the alternatives are not fault blocks.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-077",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Volcanic ash consists mainly of tiny pieces of what?",
+    "answers": [
+      "Rock, minerals and volcanic glass",
+      "Burnt tree leaves only",
+      "Pure carbon soot",
+      "Frozen seawater"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.usgs.gov/programs/VHP/volcanic-ash-impacts-mitigation",
+    "rationale": "Volcanic ash is fragmented eruptive material rather than ordinary combustion ash.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Volcanic ash is fragmented eruptive material rather than ordinary combustion ash.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-078",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which energy source is renewable on a human timescale?",
+    "answers": [
+      "Wind",
+      "Coal",
+      "Crude oil",
+      "Natural gas"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.eia.gov/energyexplained/renewable-sources/",
+    "rationale": "Wind is replenished naturally; fossil fuels form over geological timescales.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Wind is replenished naturally; fossil fuels form over geological timescales.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-079",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which of these is a fossil fuel?",
+    "answers": [
+      "Coal",
+      "Sunlight",
+      "Wind",
+      "Flowing river water"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.eia.gov/energyexplained/coal/",
+    "rationale": "Coal derives from ancient organic matter; the other choices are renewable energy flows.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Coal derives from ancient organic matter; the other choices are renewable energy flows.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-080",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What does recycling materials involve?",
+    "answers": [
+      "Processing used materials into new products",
+      "Always burning them as fuel",
+      "Mixing every waste type together",
+      "Making waste disappear without processing"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.epa.gov/recycle/recycling-basics-and-benefits",
+    "rationale": "Recycling recovers materials for new use; energy recovery by burning is a different activity.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Recycling recovers materials for new use; energy recovery by burning is a different activity.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-081",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What is the heart's main role in the circulatory system?",
+    "answers": [
+      "Pumping blood around the body",
+      "Producing urine",
+      "Filtering light",
+      "Storing swallowed food"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.nhlbi.nih.gov/health/heart",
+    "rationale": "The heart is a muscular pump; kidneys, eyes and digestive organs perform the other roles.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "The heart is a muscular pump; kidneys, eyes and digestive organs perform the other roles.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-082",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which gas moves from air in the lungs into the blood during normal breathing?",
+    "answers": [
+      "Oxygen",
+      "Helium",
+      "Hydrogen",
+      "Argon"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.nhlbi.nih.gov/health/lungs/breathing-benefits",
+    "rationale": "Oxygen diffuses into blood across the gas-exchange surface.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Oxygen diffuses into blood across the gas-exchange surface.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-083",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which sheet-like muscle below the lungs helps us breathe?",
+    "answers": [
+      "The diaphragm",
+      "The biceps",
+      "The tongue",
+      "The Achilles tendon"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.nhlbi.nih.gov/health/lungs/body-controls-breathing",
+    "rationale": "Diaphragm movement changes chest volume; the other structures do not form that sheet.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Diaphragm movement changes chest volume; the other structures do not form that sheet.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-084",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which organs filter the blood and produce urine?",
+    "answers": [
+      "The kidneys",
+      "The lungs",
+      "The stomach and oesophagus",
+      "The eyes"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.niddk.nih.gov/health-information/kidney-disease/kidneys-how-they-work",
+    "rationale": "Kidneys remove wastes and excess fluid into urine; other organs do not produce urine.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Kidneys remove wastes and excess fluid into urine; other organs do not produce urine.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-085",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which organ mixes swallowed food with acid and digestive juices?",
+    "answers": [
+      "The stomach",
+      "The bladder",
+      "The heart",
+      "The windpipe"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "rationale": "The stomach performs this digestive mixing; the other options are not digestive chambers.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "The stomach performs this digestive mixing; the other options are not digestive chambers.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-086",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which tube carries swallowed food from the throat to the stomach?",
+    "answers": [
+      "The oesophagus",
+      "The trachea",
+      "The ureter",
+      "The aorta"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "rationale": "The oesophagus carries food; trachea carries air, ureter urine and aorta blood.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "The oesophagus carries food; trachea carries air, ureter urine and aorta blood.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-087",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What is the coloured ring around the pupil of the eye called?",
+    "answers": [
+      "The iris",
+      "The retina",
+      "The lens",
+      "The optic nerve"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.nei.nih.gov/learn-about-eye-health/healthy-vision/how-eyes-work",
+    "rationale": "The iris is the visible coloured ring; the other structures lie behind or within the eye.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "The iris is the visible coloured ring; the other structures lie behind or within the eye.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-088",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What is the pupil of the eye?",
+    "answers": [
+      "An opening that lets light enter",
+      "A muscle at the back of the eye",
+      "The transparent outer surface",
+      "The nerve carrying signals to the brain"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.nei.nih.gov/learn-about-eye-health/healthy-vision/how-eyes-work",
+    "rationale": "The pupil is an aperture in the iris, not a solid black tissue.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "The pupil is an aperture in the iris, not a solid black tissue.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-089",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which light-sensitive layer lines the back of the eye?",
+    "answers": [
+      "The retina",
+      "The iris",
+      "The eyelid",
+      "The cornea"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.nei.nih.gov/learn-about-eye-health/healthy-vision/how-eyes-work",
+    "rationale": "Retinal photoreceptors detect light; iris and cornea are anterior structures.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Retinal photoreceptors detect light; iris and cornea are anterior structures.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-090",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What happens to the eardrum when sound waves reach it?",
+    "answers": [
+      "It vibrates",
+      "It produces tears",
+      "It stops all motion",
+      "It changes sound into light"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://www.nidcd.nih.gov/health/how-do-we-hear",
+    "rationale": "Sound pressure vibrates the tympanic membrane; the other responses are false.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Sound pressure vibrates the tympanic membrane; the other responses are false.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-091",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "When a skeletal muscle pulls on a bone, what is the muscle doing?",
+    "answers": [
+      "Contracting",
+      "Dissolving",
+      "Photosynthesising",
+      "Turning into bone"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-3-muscle-fiber-contraction-and-relaxation",
+    "rationale": "Muscle contraction generates pulling force; it does not change tissue identity.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Muscle contraction generates pulling force; it does not change tissue identity.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-092",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What do ligaments usually connect at a joint?",
+    "answers": [
+      "Bone to bone",
+      "Muscle to skin",
+      "Nerve to hair",
+      "Blood to air"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-1-classification-of-joints",
+    "rationale": "Ligaments connect bones, distinct from tendons connecting muscle to bone.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Ligaments connect bones, distinct from tendons connecting muscle to bone.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-093",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What is the main role of cartilage covering the ends of bones in a healthy joint?",
+    "answers": [
+      "Providing a smooth cushioning surface",
+      "Making red blood cells",
+      "Producing skin pigment",
+      "Carrying nerve signals to the brain"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-4-synovial-joints",
+    "rationale": "Articular cartilage reduces friction and distributes load; the other functions belong elsewhere.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Articular cartilage reduces friction and distributes load; the other functions belong elsewhere.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-094",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which blood cells help defend the body against infection?",
+    "answers": [
+      "White blood cells",
+      "Red blood cells",
+      "Fat cells",
+      "Egg cells"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-4-leukocytes-and-platelets",
+    "rationale": "Leukocytes have immune roles; red blood cells mainly transport gases.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Leukocytes have immune roles; red blood cells mainly transport gases.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-095",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "Which is a major function of skin?",
+    "answers": [
+      "Forming a protective barrier around the body",
+      "Pumping blood through arteries",
+      "Filtering urine",
+      "Digesting food in the stomach"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-3-functions-of-the-integumentary-system",
+    "rationale": "Skin protects the body; the other actions belong to internal organs.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Skin protects the body; the other actions belong to internal organs.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-096",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What do green plants use as an energy source for photosynthesis?",
+    "answers": [
+      "Light",
+      "Sound",
+      "Wind alone",
+      "Soil pressure"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/8-1-overview-of-photosynthesis",
+    "rationale": "Photosynthesis uses light energy; nutrients and water are inputs but not the energy source.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Photosynthesis uses light energy; nutrients and water are inputs but not the energy source.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-097",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "In a typical food chain diagram, an arrow from grass to a rabbit shows what?",
+    "answers": [
+      "Energy passing from food to its consumer",
+      "The direction the rabbit is running",
+      "Grass eating the rabbit",
+      "Which organism is larger"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/46-2-energy-flow-through-ecosystems",
+    "rationale": "Food-chain arrows conventionally indicate transfer of energy to the eater.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Food-chain arrows conventionally indicate transfer of energy to the eater.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-098",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "In a food chain, what is a producer?",
+    "answers": [
+      "An organism that makes its own organic food",
+      "An animal that eats only meat",
+      "An animal that eats only dead animals",
+      "Any organism that is the largest"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/46-2-energy-flow-through-ecosystems",
+    "rationale": "Primary producers fix inorganic carbon using light or chemical energy; size is irrelevant.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Primary producers fix inorganic carbon using light or chemical energy; size is irrelevant.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-099",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "What is an organism's habitat?",
+    "answers": [
+      "The place and conditions in which it lives",
+      "Its scientific surname",
+      "The food inside its stomach",
+      "The number of offspring it has"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/44-1-the-scope-of-ecology",
+    "rationale": "Habitat concerns the living environment, not taxonomy or reproductive output.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Habitat concerns the living environment, not taxonomy or reproductive output.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  },
+  {
+    "draftID": "easy-17-100",
+    "categoryID": "17",
+    "difficulty": "easy",
+    "prompt": "An ecosystem includes living organisms and what else?",
+    "answers": [
+      "The non-living environment they interact with",
+      "Only the largest predators",
+      "Only their DNA",
+      "Only plants of one species"
+    ],
+    "correctIndex": 0,
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/46-1-ecology-of-ecosystems",
+    "rationale": "Abiotic conditions and materials are part of the system alongside organisms.",
+    "authorReview": {
+      "meaning": "Question asks one concrete, accessible science fact or everyday application.",
+      "answer": "Abiotic conditions and materials are part of the system alongside organisms.",
+      "grammar": "Read prompt and all four answer options individually for grammar and clarity.",
+      "category": "Science & Nature: science concepts, natural processes or human biology."
+    }
+  }
+]

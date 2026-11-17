@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "bd61b571da382814a6af",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which plant tissue carries most water from roots towards the leaves?",
+    "answers": [
+      "Xylem",
+      "Phloem",
+      "Epidermis",
+      "Cork"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/30-2-stems",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "547be302cd8367966bf7",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which plant tissue transports sugars from a leaf to a growing root?",
+    "answers": [
+      "Xylem",
+      "Cork",
+      "Epidermis",
+      "Phloem"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/30-2-stems",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "7a2d985cce98a22e24d7",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "Which growing layer produces most of the new wood in a tree trunk?",
+    "answers": [
+      "Root cap",
+      "Cork cambium",
+      "Vascular cambium",
+      "Leaf epidermis"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/30-2-stems",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "bfd2c4e7a1857b0a3432",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "What are lenticels on a woody stem used for?",
+    "answers": [
+      "Sugar storage",
+      "Gas exchange",
+      "Pollen production",
+      "Seed dispersal"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/30-2-stems",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "0d05767eef6626403d52",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "What carries sperm cells from a pollen grain towards an ovule?",
+    "answers": [
+      "A pollen tube",
+      "A root hair",
+      "A sepal",
+      "A seed coat"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/32-2-pollination-and-fertilization",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "f906d286f72ee2c4c926",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "After fertilisation, which part of a flower normally develops into the fruit?",
+    "answers": [
+      "The anther",
+      "The stigma",
+      "The filament",
+      "The ovary"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/32-2-pollination-and-fertilization",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "9a4cc988a10e7142a090",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "In flowering plants, double fertilisation normally leads to an embryo and what else?",
+    "answers": [
+      "A root cap",
+      "A stamen",
+      "Endosperm",
+      "Pollen"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/32-2-pollination-and-fertilization",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "4872a062f18bc30ca0a5",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "What does it mean when a flowering plant species is dioecious?",
+    "answers": [
+      "The species reproduces only without seeds",
+      "Male and female flowers occur on separate plants",
+      "Male and female flowers occur on the same plant",
+      "Every flower has both male and female parts"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/32-2-pollination-and-fertilization",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "2bdb5ad098a76daf4923",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "A mycorrhiza is a partnership between a plant root and what?",
+    "answers": [
+      "A fungus",
+      "A bacterium",
+      "An alga",
+      "A moss"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/31-3-nutritional-adaptations-of-plants",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "3f5981bbc5d270a84f91",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which organisms in many pea and bean root nodules fix nitrogen?",
+    "answers": [
+      "Fungi",
+      "Algae",
+      "Protozoa",
+      "Bacteria"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/31-3-nutritional-adaptations-of-plants",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "4438a32f55b49bc9e1a7",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "Biological nitrogen fixation first reduces atmospheric nitrogen gas to which compound?",
+    "answers": [
+      "Nitrite",
+      "Nitrous oxide",
+      "Ammonia",
+      "Nitrate"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/31-3-nutritional-adaptations-of-plants",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "56824c76b5a37535f245",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "What carbon-rich food does a mycorrhizal fungus usually receive from its plant partner?",
+    "answers": [
+      "Carbon dioxide as its sole food",
+      "Sugars made by photosynthesis",
+      "Cellulose released as pollen",
+      "Lignin released from living root cells"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/31-3-nutritional-adaptations-of-plants",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "360ebcaebabb5879288e",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "Which part of a seed embryo develops into the first root?",
+    "answers": [
+      "The radicle",
+      "The plumule",
+      "The cotyledon",
+      "The seed coat"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/30-3-roots",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "b91e4e31d8726aeb1ed4",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "What does the Casparian strip in a root help prevent?",
+    "answers": [
+      "Water entering the outer root hairs",
+      "Sugar entering any living root cell",
+      "New lateral roots growing through the root surface",
+      "Water bypassing cell membranes on its way into the vascular tissue"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/30-3-roots",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "70e1d854d718a1bf1358",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "From which root tissue do lateral roots usually begin to grow?",
+    "answers": [
+      "The epidermis",
+      "The pith",
+      "The pericycle",
+      "The root cap"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/30-3-roots",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "037eb9d4a81a1909ca04",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "What is the main structural role of the large prop roots of a banyan?",
+    "answers": [
+      "Supporting flower heads above the foliage",
+      "Supporting spreading branches",
+      "Attaching the canopy to neighbouring trees",
+      "Holding floating leaves on the water surface"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/30-3-roots",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "40f56ce75b7a180b3851",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "How does a compound leaf differ from a simple leaf?",
+    "answers": [
+      "Its blade is divided into separate leaflets",
+      "Its blade has only a network of veins",
+      "It consists of several leaves on one branch",
+      "Its blade must have a smooth, unbroken edge"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/30-4-leaves",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "3f24aa69004514f07c9e",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "A whorled leaf arrangement has how many leaves at a stem node?",
+    "answers": [
+      "Exactly one",
+      "Exactly two",
+      "None",
+      "Three or more"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/30-4-leaves",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "3584e6697ab2e7457d80",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "What is a sessile leaf?",
+    "answers": [
+      "A leaf that falls each autumn",
+      "A leaf covered in hairs",
+      "A leaf attached without a stalk",
+      "A leaf made of several leaflets"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/30-4-leaves",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "ceba92cb50a155353f60",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "In a pinnately compound leaf, how are the leaflets arranged?",
+    "answers": [
+      "As overlapping scales enclosing a bud",
+      "Along a central axis",
+      "All from one central point",
+      "As separate leaves around the main stem"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/30-4-leaves",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "a8ddf45048ec2ad2ce06",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "In a plant's xylem, what does adhesion describe?",
+    "answers": [
+      "Attraction between water and the vessel walls",
+      "Attraction between water molecules only",
+      "Movement of sugars through sieve tubes",
+      "Production of new water molecules in roots"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/30-5-transport-of-water-and-solutes-in-plants",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "5f0fcab2b2c4bb8458d9",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "What mainly pulls water upwards through the xylem of a tall tree?",
+    "answers": [
+      "Root pressure acting alone",
+      "Sugar movement in the phloem",
+      "Growth of the bark pushing upwards",
+      "Tension caused by water loss from leaves"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/30-5-transport-of-water-and-solutes-in-plants",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "262882ddef0ec966f41e",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "What is an embolism in a plant's xylem?",
+    "answers": [
+      "A new root growing from a stem",
+      "A waterproof band around the root cortex",
+      "A gas blockage in a water-conducting vessel",
+      "A sugar-conducting cell in the bark"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/30-5-transport-of-water-and-solutes-in-plants",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "22d4eba45e0818b9b295",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "In which direction is the net movement of water between connected plant cells?",
+    "answers": [
+      "Higher sugar concentration to lower sugar concentration always",
+      "Higher water potential to lower water potential",
+      "Lower water potential to higher water potential",
+      "Lower temperature to higher temperature only"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/30-5-transport-of-water-and-solutes-in-plants",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "00c1cc1f3e025666bccf",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "Which hormone made near a shoot tip helps maintain apical dominance?",
+    "answers": [
+      "Auxin",
+      "Abscisic acid",
+      "Ethylene",
+      "Jasmonic acid"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/30-6-plant-sensory-systems-and-responses",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "c7bb065b31bf2ad8c286",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "Which plant hormone group is named for its ability to stimulate cytokinesis, or cell division?",
+    "answers": [
+      "Gibberellins",
+      "Jasmonates",
+      "Abscisic acid",
+      "Cytokinins"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/30-6-plant-sensory-systems-and-responses",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "8c8b549b80951ec05121",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which hormones are used to lengthen grape bunch stalks and enlarge grapes?",
+    "answers": [
+      "Jasmonates",
+      "Ethylene",
+      "Gibberellins",
+      "Abscisic acid"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/30-6-plant-sensory-systems-and-responses",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "e68ccfb069c8a41303df",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "Which plant hormone helps close stomata during drought?",
+    "answers": [
+      "Auxin",
+      "Abscisic acid",
+      "Gibberellic acid",
+      "Cytokinin"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/30-6-plant-sensory-systems-and-responses",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "9e2f8e97de2bec6b47d8",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "Which enzyme attaches carbon dioxide to RuBP in the Calvin cycle?",
+    "answers": [
+      "Rubisco",
+      "Amylase",
+      "Lipase",
+      "Pepsin"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "a0d1e1491183a3d9fe2d",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "Where inside a chloroplast does the Calvin cycle occur?",
+    "answers": [
+      "In the thylakoid lumen",
+      "In the outer membrane",
+      "In the inner envelope membrane",
+      "In the stroma"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "1b64969f623cae43d0f8",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "Which pair supplies energy and reducing power to the Calvin cycle?",
+    "answers": [
+      "ADP and NADP+",
+      "Oxygen and nitrogen",
+      "ATP and NADPH",
+      "NADH and FADH2"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "ead64de6d27f7b76a8e8",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "In photosynthesis, what does carbon fixation mean?",
+    "answers": [
+      "Moving minerals through roots",
+      "Incorporating carbon dioxide into organic molecules",
+      "Releasing carbon dioxide from sugars",
+      "Turning nitrogen into ammonia"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "38d800a99e173b073a94",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which mineral nutrient forms part of the phosphate groups in a plant's ATP?",
+    "answers": [
+      "Phosphorus",
+      "Potassium",
+      "Calcium",
+      "Iron"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/31-1-nutritional-requirements-of-plants",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "d7226f3fd59b0ccd57d0",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Why are some essential plant nutrients called micronutrients?",
+    "answers": [
+      "Only microscopic plants need them",
+      "They are optional for healthy growth",
+      "They are all smaller atoms than other nutrients",
+      "Plants need them in very small amounts"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/31-1-nutritional-requirements-of-plants",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "f42611762645a0972698",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "What distinguishes hydroponic plant growing from ordinary soil cultivation?",
+    "answers": [
+      "Plants are grown entirely from leaf cuttings",
+      "Plants are trained into miniature tree shapes",
+      "Nutrients are supplied in a water-based solution without soil",
+      "Plants receive nutrients only through dry soil"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/31-1-nutritional-requirements-of-plants",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "21d31228aeddbbb3bcc8",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which term describes abnormal yellowing of leaves caused by loss of chlorophyll?",
+    "answers": [
+      "Lignification",
+      "Chlorosis",
+      "Necrosis",
+      "Abscission"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/31-1-nutritional-requirements-of-plants",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "aeec6700602349963153",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which soil component comes mainly from the decomposition of organic material?",
+    "answers": [
+      "Humus",
+      "Quartz sand",
+      "Gravel",
+      "Clay minerals"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/31-2-the-soil",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "a52ee88ef8217f54868d",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "What is a distinct layer in a soil profile called?",
+    "answers": [
+      "An aggregate",
+      "A pore",
+      "A mineral grain",
+      "A horizon"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/31-2-the-soil",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "d40df073f28663acc096",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Among these soil particles, which are the smallest?",
+    "answers": [
+      "Sand grains",
+      "Gravel pieces",
+      "Clay particles",
+      "Silt particles"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/31-2-the-soil",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "fbae3165e142278e2fbc",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "What is the rhizosphere?",
+    "answers": [
+      "The seed coat surrounding an embryo",
+      "The soil region influenced by living roots",
+      "The outer surface of a flower",
+      "The hollow centre of a stem"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://openstax.org/books/biology-2e/pages/31-2-the-soil",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "013a9c566a7d662005c9",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "What does scarification do to a seed before sowing?",
+    "answers": [
+      "Weakens or breaks its hard outer coat",
+      "Chills it in a moist medium",
+      "Removes excess seedlings after sprouting",
+      "Gradually exposes seedlings to outdoor conditions"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.unh.edu/resource/starting-plants-seed-fact-sheet",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "d6596c14d67714cda5d0",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "What does cold stratification involve?",
+    "answers": [
+      "Scratching the seed coat with an abrasive",
+      "Gradually increasing light on young seedlings",
+      "Drying harvested seeds before storage",
+      "Keeping seeds moist and cold for a period"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.unh.edu/resource/starting-plants-seed-fact-sheet",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "a99164a6d23bc917f3e1",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Why can waterlogged seed compost prevent germination?",
+    "answers": [
+      "It prevents seeds from absorbing water",
+      "It permanently hardens every seed coat",
+      "It restricts the oxygen available for respiration",
+      "It always keeps the seed too warm"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.unh.edu/resource/starting-plants-seed-fact-sheet",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "8892c56209cc6b4b4d7f",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "For seeds that need light to germinate, which sowing method is most appropriate?",
+    "answers": [
+      "Covering with a thick bark mulch",
+      "Sowing on or very near the surface",
+      "Burying under several centimetres of soil",
+      "Wrapping in opaque foil after sowing"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://extension.unh.edu/resource/starting-plants-seed-fact-sheet",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "bc513a61c547dd19f18f",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "What describes the stem used for a semi-ripe cutting?",
+    "answers": [
+      "Firm at the base but still soft at the tip",
+      "Woody throughout and entirely dormant",
+      "A piece of root without any stem",
+      "A leaf detached without a stalk"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/propagation/semi-ripe-cuttings",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "c4110516d7b30a5d3c9b",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "What is the heel on a heel cutting?",
+    "answers": [
+      "The lowest flower bud",
+      "A coating of rooting powder",
+      "The first new root produced",
+      "A small piece of older stem attached at its base"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/propagation/semi-ripe-cuttings",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "9b1cf63f7955e0862714",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Why are large leaves sometimes cut in half when preparing leafy cuttings?",
+    "answers": [
+      "To remove all stored food from the cutting",
+      "To prevent the stem forming any new roots",
+      "To reduce water loss before roots develop",
+      "To increase the total leaf area"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/propagation/semi-ripe-cuttings",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "f62f74c64642c1722d1b",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "When are hardwood cuttings of deciduous shrubs generally taken in the UK?",
+    "answers": [
+      "Only after the shrub has started new autumn shoots",
+      "During dormancy, from autumn to late winter",
+      "During the first flush of soft spring growth",
+      "At the height of midsummer flowering"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/propagation/hardwood-cuttings",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "cfdc995d6e184ca9e2e1",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "In grafting, what is the scion?",
+    "answers": [
+      "The shoot or bud of the chosen variety",
+      "The supporting stake",
+      "The grafting wax",
+      "The entire root system"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/fruit/fruit-trees/grafting-ornamental",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "c7f60921a6b072f3097e",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "Which layers must make good contact when a tree is grafted?",
+    "answers": [
+      "The heartwood centres only",
+      "The outer cork surfaces only",
+      "The pith centres only",
+      "The cambium layers"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/fruit/fruit-trees/grafting-ornamental",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "62c1735da58477d54a12",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Why are apple varieties often grafted onto dwarfing rootstocks?",
+    "answers": [
+      "To guarantee seedless fruit",
+      "To eliminate the need for sunlight",
+      "To limit the eventual size of the tree",
+      "To make every variety self-fertile"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/fruit/fruit-trees/grafting-ornamental",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "253b12bb7b21f93ecdfc",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "What does F1 mean on a packet of hybrid seeds?",
+    "answers": [
+      "A plant that survives one frost",
+      "The first generation from the parental cross",
+      "The first plant to flower each year",
+      "A seed with one cotyledon"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/vegetables/f1-hybrids",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "1b047d76b0c6e7864285",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Why might seed saved from an F1 hybrid produce noticeably varied plants?",
+    "answers": [
+      "Genetic combinations separate and recombine in the offspring",
+      "The seed coats all mutate into a new species",
+      "Every seed loses the genes inherited from one parent",
+      "The seedlings are exact clones of different neighbours"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/vegetables/f1-hybrids",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "fdd04d2835b1b5d53de7",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "What is another name for hybrid vigour?",
+    "answers": [
+      "Chlorosis",
+      "Dormancy",
+      "Abscission",
+      "Heterosis"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/vegetables/f1-hybrids",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "5e619b154c98666c7579",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "Which generation is produced when F1 hybrid plants are self-pollinated?",
+    "answers": [
+      "F1 again",
+      "A vegetative clone",
+      "F2",
+      "F0"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/vegetables/f1-hybrids",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "221d9a4529d89b32bdf5",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "If an established Group 1 clematis needs pruning, when is the usual time?",
+    "answers": [
+      "At monthly intervals through winter",
+      "After its spring flowers have finished",
+      "Just before its spring flowers open",
+      "Before every leaf has fallen in autumn"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/clematis/pruning-guide",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "d6021a3ffab8e117d8cf",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "On which growth do Group 3 clematis produce their summer flowers?",
+    "answers": [
+      "The current year's shoots",
+      "Only the previous year's shoots",
+      "Only the oldest woody trunks",
+      "Only shoots produced two years earlier"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/clematis/pruning-guide",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "7b53598768e33ab43475",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "In UK gardening, which clematis pruning group includes many large-flowered varieties that bloom in early summer and may repeat later?",
+    "answers": [
+      "Group 1",
+      "Group 3",
+      "All three groups equally",
+      "Group 2"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/clematis/pruning-guide",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "59135d30b5c229dbace0",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Coir used in potting compost comes from which material?",
+    "answers": [
+      "Rice grains",
+      "Olive stones",
+      "Coconut husks",
+      "Pine needles"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/soil-composts-mulches/peat-free",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "2e0ef5bc3216c6b70eb6",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "Which potting-compost ingredient is made by expanding volcanic rock with heat?",
+    "answers": [
+      "Composted bark",
+      "Perlite",
+      "Coir",
+      "Leafmould"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/soil-composts-mulches/peat-free",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "27e3fd01bdc900e11d3a",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "Which compost ingredient consists of light, silvery-brown mineral flakes that hold moisture?",
+    "answers": [
+      "Vermiculite",
+      "Coir",
+      "Sharp sand",
+      "Composted bark"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/soil-composts-mulches/peat-free",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "8b0478625026dedbf93d",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Why does avoiding peat extraction help protect the climate?",
+    "answers": [
+      "Peat has no carbon-containing compounds",
+      "Drained peat always absorbs more carbon than intact peat",
+      "Extracted peat permanently removes carbon from circulation",
+      "Peatlands store carbon that disturbance can release"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/soil-composts-mulches/peat-free",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "cc6fe44a21fcfe8423aa",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Epsom salts can supply which nutrient to a plant with a confirmed deficiency?",
+    "answers": [
+      "Phosphorus",
+      "Iron",
+      "Magnesium",
+      "Nitrogen"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/prevention-protection/nutrient-deficiencies",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "be8bf1a9656dc334071b",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "Why can an acid-loving plant develop iron deficiency in chalky soil?",
+    "answers": [
+      "Chalk prevents all water from entering the plant",
+      "High pH makes iron harder for its roots to take up",
+      "High pH makes iron unnecessary for chlorophyll formation",
+      "Chalk supplies nitrogen in place of every trace element"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/prevention-protection/nutrient-deficiencies",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "4f85fb70c83d5df3ea37",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "Blossom-end rot in tomatoes is associated with inadequate delivery of which nutrient to the fruit?",
+    "answers": [
+      "Calcium",
+      "Nitrogen",
+      "Sulphur",
+      "Copper"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/prevention-protection/nutrient-deficiencies",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "c98a55d7fd08d976cb6b",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which disease commonly coats plant leaves with a white, dusty fungal growth?",
+    "answers": [
+      "Rose black spot",
+      "Clubroot",
+      "Fireblight",
+      "Powdery mildew"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/disease/powdery-mildews",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "8b91bad310713e16ba6c",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "What produces the coloured spore pustules of a plant rust disease?",
+    "answers": [
+      "A mineral deficiency",
+      "A virus",
+      "A fungus",
+      "An aphid"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/disease/rust-diseases",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "36e4bcb0e00df8141116",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Rose black spot often causes affected leaves to do what?",
+    "answers": [
+      "Increase their rate of photosynthesis",
+      "Fall earlier than healthy leaves",
+      "Stay green for an extra growing season",
+      "Develop a stronger wax layer without damage"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/disease/rose-black-spot",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "00d834f28dbca1cdb6da",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which tree is recognisable by its fan-shaped leaves, often divided into two lobes?",
+    "answers": [
+      "Ginkgo",
+      "English oak",
+      "Silver birch",
+      "European beech"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/plants/ginkgo-tree",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "74446dc17e8af5ed38c2",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Ginkgo trees are native to which country?",
+    "answers": [
+      "Brazil",
+      "Canada",
+      "South Africa",
+      "China"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/plants/ginkgo-tree",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "3501353466a161398a06",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "Ginkgo belongs to which major group of seed plants?",
+    "answers": [
+      "Ferns",
+      "Mosses",
+      "Gymnosperms",
+      "Flowering plants"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/read-and-watch/ginkgo-biloba-maidenhair-tree-kew-gardens",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "9c744032fecc84cd28e2",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which part of a cork oak is harvested to make natural bottle stoppers?",
+    "answers": [
+      "The acorn cups",
+      "The outer bark",
+      "The roots",
+      "The leaves"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A296785-1/general-information",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "79a80e193e53c4156693",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "The cork oak is native to which region?",
+    "answers": [
+      "The Mediterranean region",
+      "The Amazon Basin",
+      "The Arctic tundra",
+      "The Australian outback"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A296785-1/general-information",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "def670435dba47fd5707",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Why can a cork oak be harvested repeatedly without being felled?",
+    "answers": [
+      "The harvested cork comes from dead branches only",
+      "The whole trunk is replaced each year",
+      "Harvesting removes only loose autumn leaves",
+      "It regenerates the carefully removed cork layer"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A296785-1/general-information",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "8fe6173358569e95e9fd",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "The backward-pointing extensions on many columbine petals are called what?",
+    "answers": [
+      "Stipules",
+      "Rhizoids",
+      "Spurs",
+      "Tendrils"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/101590/aquilegia/details",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "3efc1e87a490f7d44c55",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which garden flower is also known as granny's bonnet?",
+    "answers": [
+      "Sweet William",
+      "Columbine",
+      "Cornflower",
+      "Hollyhock"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/101590/aquilegia/details",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "fcdf3432d7dd0f35120e",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which perennial bears rows of hanging, heart-shaped flowers on arching stems?",
+    "answers": [
+      "Bleeding heart",
+      "Delphinium",
+      "Lupin",
+      "Phlox"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/293049/lamprocapnos-spectabilis/details",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "af5330f66b75ea106bdd",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which spring flower is known for its nodding purple bells with a chequered pattern?",
+    "answers": [
+      "Grape hyacinth",
+      "Winter aconite",
+      "English bluebell",
+      "Snake's head fritillary"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/7403/fritillaria-meleagris/details",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "066566e013e1d5edd1e8",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "How are the leaves typically arranged along a dawn redwood's short shoots?",
+    "answers": [
+      "As broad fan-shaped blades",
+      "In rings of three scale leaves",
+      "In opposite pairs",
+      "In bundles of five needles"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://plants.ces.ncsu.edu/plants/metasequoia-glyptostroboides/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "d161a8c7dac4dc862a9f",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "Living dawn redwoods were identified in China in the 1940s after the tree was known from what?",
+    "answers": [
+      "A surviving collection of Roman seedlings",
+      "Fossils",
+      "Medieval herbarium sheets",
+      "Ancient written planting records"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://plants.ces.ncsu.edu/plants/metasequoia-glyptostroboides/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "87f9f905bf66ebf1ec67",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which plant produces a single giant flower rather than a head containing many tiny flowers?",
+    "answers": [
+      "Rafflesia arnoldi",
+      "Titan arum",
+      "Sunflower",
+      "Hydrangea"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A316069-1/general-information",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "d2e52900fa7422b1c5a2",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "How does the leafless Rafflesia obtain nourishment?",
+    "answers": [
+      "By catching insects in its flower",
+      "By photosynthesis in green leaves",
+      "By absorbing minerals through its own large roots",
+      "By living as a parasite inside a host vine"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A316069-1/general-information",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "debbfaaff4c1ba68950f",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which small succulents are commonly called living stones?",
+    "answers": [
+      "Agaves",
+      "Echeverias",
+      "Lithops",
+      "Aloes"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://hort.extension.wisc.edu/articles/living-stones-lithops/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "a795f479b0772662bc08",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "What is the purpose of translucent windows on Lithops leaves?",
+    "answers": [
+      "Producing pollen below the soil",
+      "Letting light reach photosynthetic tissue within the plant",
+      "Releasing seeds into the wind",
+      "Allowing insects to enter a trap"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://hort.extension.wisc.edu/articles/living-stones-lithops/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "82d40da338fcba85c464",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "What triggers the seed capsules of many Lithops to open?",
+    "answers": [
+      "Moisture",
+      "Contact with fur",
+      "A fall in air pressure",
+      "Direct contact with fire"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://hort.extension.wisc.edu/articles/living-stones-lithops/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "db65f3f01ded94d46dd6",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "What do the upward-growing pneumatophores of black mangroves provide?",
+    "answers": [
+      "Sites where the tree forms its seeds",
+      "Anchors that attach branches to nearby trees",
+      "An underground store of pollen",
+      "Access to oxygen for buried roots"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.floridamuseum.ufl.edu/southflorida/habitats/mangroves/adaptations/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "7bcfe20d6d02d15499d7",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "How do red mangroves keep much of the surrounding salt out of their tissues?",
+    "answers": [
+      "By absorbing seawater only through flowers",
+      "By using salt in place of chlorophyll",
+      "By filtering it at their roots",
+      "By converting sodium chloride into sugar"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.floridamuseum.ufl.edu/southflorida/habitats/mangroves/adaptations/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "15979ac90c186ad2a318",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "In mangroves, what does vivipary mean?",
+    "answers": [
+      "Seeds stay dormant until the parent dies",
+      "Seeds germinate while still attached to the parent",
+      "New plants grow only from detached leaves",
+      "Pollen fertilises a flower on the same plant"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.floridamuseum.ufl.edu/southflorida/habitats/mangroves/adaptations/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "e3bae32e114ad631d2ec",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Unlike seaweeds, seagrasses belong to which plant group?",
+    "answers": [
+      "Flowering plants",
+      "Mosses",
+      "Ferns",
+      "Liverworts"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://sanctuaries.noaa.gov/visit/ecosystems/seagrass.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "0d0b8f9ac29aa47c846a",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Why are seagrass meadows usually found in relatively shallow water?",
+    "answers": [
+      "They require fresh water rather than seawater",
+      "Their flowers must remain above the surface",
+      "Their roots can absorb nutrients only from air",
+      "Enough sunlight must reach them for photosynthesis"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://sanctuaries.noaa.gov/visit/ecosystems/seagrass.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "7a4b7f6787d1cbd6e0d2",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "What can carry pollen between seagrass flowers underwater?",
+    "answers": [
+      "Dry air flowing between the flowers",
+      "Pollen tubes growing through the seabed",
+      "Water currents",
+      "Visiting honeybees"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://floridakeys.noaa.gov/plants/seagrass.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "7cb8b1342eae5233adcb",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "What happens to water droplets on a healthy sacred lotus leaf?",
+    "answers": [
+      "They become trapped in absorbent leaf hairs",
+      "They bead up and roll off",
+      "They spread into a continuous film",
+      "They soak through the blade like blotting paper"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/plants/sacred-lotus",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "3818270916e407af4624",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "Which surface feature helps lotus leaves repel water so effectively?",
+    "answers": [
+      "Tiny bumps coated in waxy structures",
+      "Large open holes through the blade",
+      "A permanent layer of loose pollen",
+      "A covering of exposed root hairs"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/plants/sacred-lotus",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "8e6e3062d9d8e38e3d18",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "Sacred lotus flowers can attract insects partly by regulating what?",
+    "answers": [
+      "Their chromosome number",
+      "The salt concentration of the whole pond",
+      "The direction of nearby water currents",
+      "Their temperature"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/plants/sacred-lotus",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "d4989ef06e498df41386",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Which familiar food plant belongs to the bromeliad family?",
+    "answers": [
+      "Coconut palm",
+      "Mango",
+      "Pineapple",
+      "Banana"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://ask.ifas.ufl.edu/publication/UW205",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "f68836371d4c9e7ec036",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Where do tank bromeliads collect rainwater?",
+    "answers": [
+      "Beneath detachable sheets of bark",
+      "Between overlapping leaf bases",
+      "Inside hollow underground tubers",
+      "Inside swollen seed capsules"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://ask.ifas.ufl.edu/publication/UW205",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "46efa42dddfe19354a9c",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "Which specialised leaf structures help air-plant bromeliads absorb water?",
+    "answers": [
+      "Trichomes",
+      "Root caps",
+      "Pollen tubes",
+      "Seed coats"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://ask.ifas.ufl.edu/publication/UW205",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "4e4ceab8fdccecd62b45",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "How does an epiphytic bromeliad use the tree on which it grows?",
+    "answers": [
+      "As a source of sap tapped through feeding roots",
+      "As a source of pollen for every flower",
+      "As a replacement for its own chlorophyll",
+      "As a support, without feeding parasitically on it"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://ask.ifas.ufl.edu/publication/UW205",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "9236043c644d426b5f70",
+    "categoryID": "39",
+    "difficulty": "hard",
+    "prompt": "An agave described as monocarpic does what?",
+    "answers": [
+      "Makes male flowers but never female flowers",
+      "Reproduces only through vegetative offsets",
+      "Flowers in one reproductive episode and then dies",
+      "Produces exactly one individual flower each year"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.kew.org/about-us/press-media/flowering-agave-montana-death-bloom",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  },
+  {
+    "id": "9fa549545555ebfce83f",
+    "categoryID": "39",
+    "difficulty": "medium",
+    "prompt": "Young agave rosettes growing beside the parent are commonly propagated as what?",
+    "answers": [
+      "Pollen masses",
+      "Offsets",
+      "Scions",
+      "Seed coats"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rhs.org.uk/plants/95075/agave-americana/details",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-plants-challenge-v1"
+  }
+]
