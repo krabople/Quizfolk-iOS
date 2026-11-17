@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "8adb7974ffa130189fee",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which part of a car is turned by the driver to steer it?",
+    "answers": [
+      "Steering wheel",
+      "Exhaust pipe",
+      "Fuel cap",
+      "Seat belt"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "5045f823d4232238d619",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which car pedal is used to slow the vehicle in ordinary driving?",
+    "answers": [
+      "Accelerator pedal",
+      "Clutch pedal",
+      "Footrest",
+      "Brake pedal"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "94b098b49ec182d759ea",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which pedal increases engine power when pressed in a conventional petrol car?",
+    "answers": [
+      "Brake",
+      "Footrest",
+      "Accelerator",
+      "Clutch"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "4e76bfc0f9d433a21397",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a car's handbrake also commonly called?",
+    "answers": [
+      "Fuel injector",
+      "Parking brake",
+      "Accelerator",
+      "Gearbox"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "cf99cf9eec44a644e250",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is the purpose of a car's windscreen wipers?",
+    "answers": [
+      "Clearing water from the windscreen",
+      "Cooling the engine",
+      "Inflating the tyres",
+      "Charging the battery"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "103cec6aa3444cac6cd4",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which lights illuminate the road ahead of a car at night?",
+    "answers": [
+      "Brake lights",
+      "Interior reading lights",
+      "Number-plate lights",
+      "Headlights"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "70f7c2ce3ff3f3d988d5",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What do a car's brake lights normally signal to following traffic?",
+    "answers": [
+      "That the car is reversing",
+      "That the headlights are on full beam",
+      "That the car is braking",
+      "That the car is turning left"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "1461a7022104b7b4d3b7",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which flashing lights normally signal a driver's intention to turn?",
+    "answers": [
+      "Reading lights",
+      "Indicators",
+      "Headlights",
+      "Fog lights"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "3092281860ed51209439",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a car's rear-view mirror mainly used to see?",
+    "answers": [
+      "The area behind the car",
+      "The fuel inside its tank",
+      "The engine cylinders",
+      "The road directly underneath it"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "d3bd040633ae6c02f297",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does a speedometer show?",
+    "answers": [
+      "Engine revolutions per minute",
+      "Distance travelled since manufacture",
+      "The remaining fuel level",
+      "The vehicle's speed"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "e178e79d261f13c15da7",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does a car's odometer record?",
+    "answers": [
+      "Engine revolutions per minute",
+      "Time until the next fuel stop",
+      "Distance travelled",
+      "Current vehicle speed"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "408622d29369e179fec0",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does a car's fuel gauge normally indicate?",
+    "answers": [
+      "How loud the horn is",
+      "How much fuel remains",
+      "How fast the car is moving",
+      "How many doors are open"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "2b93b611ae01c1835d2a",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does the rev counter in a car display?",
+    "answers": [
+      "Engine rotation speed",
+      "Road speed",
+      "Distance travelled since manufacture",
+      "The amount of washer fluid"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "a703bde548135dccee72",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a car's horn used to produce?",
+    "answers": [
+      "A cooling airflow",
+      "An electrical charge",
+      "A fuel spray",
+      "An audible warning"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "97c4985bdebb3419b451",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does an electric-window switch in a car control?",
+    "answers": [
+      "Adjusting the headlight beam",
+      "Changing the radio station",
+      "Raising or lowering a window",
+      "Setting the windscreen-wiper speed"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "a39644347553a44d2aa0",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a car's head restraint designed to help reduce in a rear-end collision?",
+    "answers": [
+      "Brake overheating",
+      "Whiplash injury",
+      "Tyre wear",
+      "Engine vibration"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.euroncap.com/glossary/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "43a868bfb8756cb9dcc3",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is the boot of a British car called in American English?",
+    "answers": [
+      "Trunk",
+      "Hood",
+      "Fender",
+      "Windshield"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/trunk",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "1c8a16444e1164691fa4",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is the bonnet of a British car called in American English?",
+    "answers": [
+      "Trunk",
+      "Windshield",
+      "Licence plate",
+      "Hood"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/hood",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "4aa223de5f6a488f071c",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is the windscreen of a British car called in American English?",
+    "answers": [
+      "Hood",
+      "Fender",
+      "Windshield",
+      "Trunk"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/windshield",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "78fdf3d7ec88ab1e25e8",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a car's glove compartment?",
+    "answers": [
+      "A type of tyre",
+      "A small storage compartment in the dashboard",
+      "A fuel container under the engine",
+      "A section of the exhaust"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "97195a4dbfe50375bbaf",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does a car's sun visor help block?",
+    "answers": [
+      "Glare from sunlight",
+      "Glare from an illuminated dashboard",
+      "Mist inside the windscreen",
+      "Rain on the outside of the windscreen"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "ff1e29a9b072789d976b",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which part of a car opens to give access to the engine bay on most front-engined cars?",
+    "answers": [
+      "Boot floor",
+      "Rear bumper",
+      "Glove compartment",
+      "Bonnet"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "c590e24cf241d4188c62",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does a car's exhaust pipe carry away?",
+    "answers": [
+      "Coolant returning to the radiator",
+      "Fuel entering the tank",
+      "Gases produced by the engine",
+      "Air entering the intake manifold"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "5a7c50ccd9005100a829",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is the purpose of an engine's air filter?",
+    "answers": [
+      "Regulating brake-fluid pressure",
+      "Removing particles from incoming air",
+      "Removing particles from the engine oil",
+      "Cooling the exhaust gases"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "53223294c849bbf8b5b8",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is the main purpose of a car's radiator in a liquid-cooled engine?",
+    "answers": [
+      "Helping remove heat from the coolant",
+      "Filtering the engine oil",
+      "Storing windscreen-washer fluid",
+      "Measuring air pressure in the tyres"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "cbf3b5974031072a0c17",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does tyre pressure measure?",
+    "answers": [
+      "The depth of the tread grooves",
+      "The diameter of the wheel rim",
+      "The distance between the front wheels",
+      "The pressure of the air inside a tyre"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "9ecc5c41191b01e3e203",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is tyre tread?",
+    "answers": [
+      "The air valve cap",
+      "The steering column",
+      "The patterned surface that contacts the road",
+      "The metal wheel nut"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "7d2ec4629941fa06fa3c",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which part of a tyre allows air to be added or released?",
+    "answers": [
+      "Wiper blade",
+      "Valve",
+      "Axle",
+      "Bumper"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "751ad90d36f884f0a1d5",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a spare wheel carried for?",
+    "answers": [
+      "Replacing a road wheel when needed",
+      "Steering the rear passengers",
+      "Cooling the engine",
+      "Holding extra fuel"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "25262c9e21c47731b4d0",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a car jack used to do?",
+    "answers": [
+      "Measure the tyre pressure",
+      "Tighten the wheel nuts",
+      "Test the battery charge",
+      "Lift part of the car"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "b86ccfaa969f8cc41af2",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What secures a car wheel to its hub on many vehicles?",
+    "answers": [
+      "Seat buckles",
+      "Spark plugs",
+      "Wheel nuts or bolts",
+      "Wiper clips"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "faa6a4d8701be0767192",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does a shock absorber help control?",
+    "answers": [
+      "The temperature of the coolant",
+      "Bouncing of the suspension",
+      "Air entering the engine",
+      "Fuel entering the injectors"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "8329cb1b861162a9ca85",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does a car's clutch allow the driver to disconnect temporarily in a conventional manual transmission?",
+    "answers": [
+      "The engine from the transmission",
+      "The front wheels from the steering rack",
+      "The battery from the alternator",
+      "The fuel tank from the filler pipe"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "5c1fb13762b15c30af07",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which control selects forward gears or reverse in a conventional manual car?",
+    "answers": [
+      "Indicator stalk",
+      "Bonnet release",
+      "Wiper switch",
+      "Gear lever"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "7c854c4236feb721d9f4",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is the purpose of reverse gear?",
+    "answers": [
+      "Locking the steering wheel",
+      "Applying the parking brake",
+      "Moving the vehicle backwards",
+      "Keeping the engine idling while stationary"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "fccbbde54bbffc6f95e9",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does the P position normally mean on an automatic car's gear selector?",
+    "answers": [
+      "Petrol",
+      "Park",
+      "Power steering",
+      "Passenger"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.fordservicecontent.com/Ford_Content/catalog/owner_guides/12378og1e.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "66c4f16d2a6496fdd249",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does the N position normally mean on a car's gear selector?",
+    "answers": [
+      "Neutral",
+      "Night driving",
+      "Navigation",
+      "New battery"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.fordservicecontent.com/Ford_Content/catalog/owner_guides/12378og1e.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "c9a4cbf1b4d28911d9b6",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does the D position normally select on an automatic car?",
+    "answers": [
+      "Defrost",
+      "Dashboard lighting",
+      "Door locking",
+      "Drive"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.fordservicecontent.com/Ford_Content/catalog/owner_guides/12378og1e.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "9f83e4399f192e270728",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does a convertible car have that can be opened or lowered?",
+    "answers": [
+      "Its rear axle",
+      "Its dashboard",
+      "Its roof",
+      "Its engine block"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "1eb78b507e6cff0205dc",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which British car-body term corresponds to the American term sedan?",
+    "answers": [
+      "Pickup",
+      "Saloon",
+      "Estate",
+      "Hatchback"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/sedan",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "22281d7893d0e8c71005",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is the open rear load-carrying area of a pickup truck called?",
+    "answers": [
+      "Bed",
+      "Cockpit",
+      "Cabin ceiling",
+      "Engine bay"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "1ca18208d903e5b9230d",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a tow bar used to connect to a car?",
+    "answers": [
+      "A windscreen wiper",
+      "A steering wheel",
+      "A radiator hose",
+      "A trailer"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "f7529b1929c104e42560",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a trailer?",
+    "answers": [
+      "An aircraft engine",
+      "A railway signal",
+      "A vehicle designed to be pulled by another vehicle",
+      "A bicycle pedal"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "aeb044f2b50d286356d5",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a caravan designed to provide when towed to a campsite?",
+    "answers": [
+      "A refrigerated container for food deliveries",
+      "Living and sleeping accommodation",
+      "A mobile fuel storage tank",
+      "An open platform for transporting a car"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "ea3d266348e6b3b27616",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a motorhome?",
+    "answers": [
+      "A motor vehicle with living accommodation",
+      "An unpowered trailer with living accommodation",
+      "A recovery vehicle carrying another car",
+      "A road vehicle designed only to carry liquid cargo"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "dc891f0e250c4c49a36b",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which vehicle is commonly fitted with a rotating drum to keep concrete mixed?",
+    "answers": [
+      "Tipper truck",
+      "Flatbed truck",
+      "Refuse truck",
+      "Concrete mixer truck"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/concrete-mixer",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "af2556cade85fea2f572",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which part of a tipper truck tilts to unload its contents?",
+    "answers": [
+      "Windscreen",
+      "Front bumper",
+      "Load bed",
+      "Steering wheel"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/tipper",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "f8041ee06ffd92c5267c",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a forklift's pair of long front prongs used to lift?",
+    "answers": [
+      "Only the empty vehicle itself",
+      "Loads such as pallets",
+      "The road surface for resurfacing",
+      "Overhead power cables"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/forklift",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "aeb0f519905d89cb1f97",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which vehicle is designed to compact surfaces using a heavy roller?",
+    "answers": [
+      "Road roller",
+      "Road sweeper",
+      "Tipper truck",
+      "Concrete mixer truck"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/road-roller",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "4cb2ea65a7209337daaa",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does a snowplough's front blade push aside?",
+    "answers": [
+      "Fallen leaves using a rotating brush",
+      "Liquid road markings",
+      "Hot asphalt from a hopper",
+      "Snow"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/snowplough",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "8d23bc433d3383847864",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which vehicle is specially equipped to transport patients?",
+    "answers": [
+      "Road roller",
+      "Grain combine",
+      "Ambulance",
+      "Concrete mixer"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/ambulance",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "df5b64ff258d0c48dcc5",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a hearse primarily used to transport?",
+    "answers": [
+      "Railway rails",
+      "A coffin",
+      "Loose grain",
+      "Wet concrete"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/hearse",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "9b420d6b859fecc5ca80",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which vehicle's main job is collecting household rubbish?",
+    "answers": [
+      "Refuse truck",
+      "Road sweeper",
+      "Concrete mixer truck",
+      "Recovery truck"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/dustcart",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "5789733918e7c18459e7",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which farm vehicle combines cutting and threshing a grain crop?",
+    "answers": [
+      "Road sweeper",
+      "Passenger coach",
+      "Forklift",
+      "Combine harvester"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/combine-harvester",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "e1b0b253aa4f591e1c3d",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a car transporter designed to carry?",
+    "answers": [
+      "Liquid cargo carried in a sealed tank",
+      "Passengers travelling in a coach cabin",
+      "Other vehicles",
+      "Loose aggregates tipped from a hopper"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/transporter",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "5fde1d08af39ba656b15",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a tanker truck's large enclosed tank used to carry?",
+    "answers": [
+      "Cars parked on decks",
+      "Liquids or gases",
+      "Open stacks of timber",
+      "Passengers seated in rows"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/tanker",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "8017d4394400ff23a2b1",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a flatbed truck's load platform like?",
+    "answers": [
+      "Flat and open",
+      "A sealed passenger cabin",
+      "A rotating concrete drum",
+      "A pressurised spherical tank"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/flatbed",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "6d69ee84bba85eec5ad8",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is the driver's compartment of a lorry called?",
+    "answers": [
+      "Hold",
+      "Galley",
+      "Engine bay",
+      "Cab"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/cab",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "59b9c612a6dca9fdabcd",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which part of a bicycle is pressed with the feet to provide power?",
+    "answers": [
+      "Brake levers",
+      "Bell",
+      "Pedals",
+      "Handlebar grips"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.cyclinguk.org/article/which-bike-should-i-buy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "64e7b73461735b254719",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does a bicycle chain normally transfer to the driven wheel?",
+    "answers": [
+      "Air from the tyre valve",
+      "Power from the pedals",
+      "Hydraulic pressure from the brake lever",
+      "Electrical power from a dynamo"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.cyclinguk.org/article/which-bike-should-i-buy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "bae7724a494aa725431a",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which bicycle component carries the rider's weight while seated?",
+    "answers": [
+      "Saddle",
+      "Chainring",
+      "Front mudguard",
+      "Bell"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.cyclinguk.org/article/which-bike-should-i-buy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "70b9db8632bf8dfc14cb",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a bicycle's handlebar mainly used for?",
+    "answers": [
+      "Changing tyre pressure",
+      "Lubricating the chain",
+      "Adjusting saddle height",
+      "Steering"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.cyclinguk.org/article/which-bike-should-i-buy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "93992f33f357230abafd",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which bicycle fitting produces a ringing warning sound?",
+    "answers": [
+      "Pedal",
+      "Mudguard",
+      "Bell",
+      "Saddle"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.cyclinguk.org/article/which-bike-should-i-buy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "30758c209ff4027afc60",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What do bicycle mudguards help reduce?",
+    "answers": [
+      "Loss of tyre pressure",
+      "Water and dirt thrown up by the wheels",
+      "Stretching of the chain",
+      "Wear on the brake cables"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.cyclinguk.org/article/which-bike-should-i-buy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "eacc65e7c3df260560df",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a bicycle pannier?",
+    "answers": [
+      "A bag carried beside a wheel, usually on a rack",
+      "A type of brake pad",
+      "A toothed gear wheel",
+      "A wheel bearing"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.cyclinguk.org/article/baggage-check-bikepacking-bags-or-panniers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "e2a098419fba9dbbfc97",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "How are riders normally arranged on a tandem bicycle?",
+    "answers": [
+      "Side by side across one wide saddle",
+      "Facing one another between the wheels",
+      "Standing beside the frame on platforms",
+      "One behind another"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.cyclinguk.org/article/cycling-guide/guide-tandems",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "373996ad2210440d4323",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "How many wheels does a unicycle have?",
+    "answers": [
+      "Three",
+      "Four",
+      "One",
+      "Two"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.cyclinguk.org/article/which-bike-should-i-buy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "dff2f40b9f2852a478d4",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "How many wheels does a tricycle have?",
+    "answers": [
+      "Four",
+      "Three",
+      "One",
+      "Two"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.cyclinguk.org/article/which-bike-should-i-buy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "43f64b175c42ade4bfbf",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which part of a motorcycle is normally twisted by the rider's right hand to control engine power?",
+    "answers": [
+      "Throttle grip",
+      "Clutch lever",
+      "Fuel cap",
+      "Rear footrest"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.cyclinguk.org/article/which-bike-should-i-buy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "df4c35f5b7978b4cca56",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a motorcycle sidecar?",
+    "answers": [
+      "A second fuel cap",
+      "A type of tyre valve",
+      "A luggage pocket inside a helmet",
+      "A passenger compartment attached beside the motorcycle"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.cyclinguk.org/article/which-bike-should-i-buy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "bcf27ef88499d00a3247",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a rail vehicle's pantograph used to contact?",
+    "answers": [
+      "The edge of a platform",
+      "A buffer stop",
+      "An overhead electrical wire",
+      "The running surface of a rail"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://safety.networkrail.co.uk/jargon-buster/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "630d94abcaea7090e2d6",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What are the crosspieces supporting railway rails commonly called in Britain?",
+    "answers": [
+      "Points",
+      "Sleepers",
+      "Ballast",
+      "Signals"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://safety.networkrail.co.uk/jargon-buster/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "e6f43bacba8829507b59",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a railway platform used for?",
+    "answers": [
+      "Passengers boarding and leaving trains",
+      "Storing ballast beneath the rails",
+      "Connecting overhead power wires",
+      "Turning locomotives around"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://safety.networkrail.co.uk/jargon-buster/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "658d8e96b645935954c1",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a railway level crossing?",
+    "answers": [
+      "A bridge carrying one railway over another",
+      "An underground train tunnel",
+      "A rack for storing bicycles",
+      "A place where a road or path crosses railway tracks at the same level"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://safety.networkrail.co.uk/jargon-buster/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "334b5126378293295925",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a locomotive designed to do?",
+    "answers": [
+      "Collect tickets at a station entrance",
+      "Mark a pedestrian crossing",
+      "Provide power to move a train",
+      "Serve as a railway platform"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://safety.networkrail.co.uk/jargon-buster/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "a6c91b63130013ce3a8e",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a freight train primarily used to carry?",
+    "answers": [
+      "Only travellers on sightseeing journeys",
+      "Goods",
+      "Only passengers in sleeping cabins",
+      "Only passengers on commuter services"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://safety.networkrail.co.uk/jargon-buster/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "080d6819f0b5f8611ea6",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a railway buffer stop designed to mark or protect?",
+    "answers": [
+      "The end of a track",
+      "The start of an electrified section",
+      "The position of a level crossing",
+      "The maximum speed of a train"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://safety.networkrail.co.uk/jargon-buster/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "eb78fc16c4cfea6d0016",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a railway carriage or passenger coach used to carry?",
+    "answers": [
+      "Only bulk liquids in a tank",
+      "Only loose coal in an open wagon",
+      "Only containers stacked on a flat wagon",
+      "Passengers"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://safety.networkrail.co.uk/jargon-buster/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "2c84e3105a3c7e034c5d",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a ship's bow?",
+    "answers": [
+      "Its kitchen",
+      "Its engine room",
+      "Its front end",
+      "Its rear end"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "ea24dcc8d05332719e54",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a ship's stern?",
+    "answers": [
+      "Its kitchen",
+      "Its rear end",
+      "Its front end",
+      "Its highest mast"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "fb6f7bcbe363f9525672",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is the left side of a vessel called when facing towards its bow?",
+    "answers": [
+      "Port",
+      "Starboard",
+      "Stern",
+      "Keel"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "8dfbfca2ba6a6db879f0",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is the right side of a vessel called when facing towards its bow?",
+    "answers": [
+      "Port",
+      "Stern",
+      "Keel",
+      "Starboard"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "013cbb735fab28e42ca6",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which part of a sailing boat catches the wind to help propel it?",
+    "answers": [
+      "Rudder stock",
+      "Bilge pump",
+      "Sail",
+      "Anchor"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "69ab95b3a52427ce5187",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a boat's anchor designed to help it do?",
+    "answers": [
+      "Raise a sail",
+      "Remain in position",
+      "Turn the propeller",
+      "Pump water out of the bilge"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "1d52ffb9ecf5e4c4b404",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a ship's galley?",
+    "answers": [
+      "Its kitchen",
+      "Its anchor chain",
+      "Its steering blade",
+      "Its forward mast"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "0718352294ff5933fe8d",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a ship's hull?",
+    "answers": [
+      "Its kitchen stove",
+      "Its radio antenna",
+      "Its anchor",
+      "Its main body"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "e0d30413e278f99ec83d",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a ship's deck?",
+    "answers": [
+      "The main longitudinal beam beneath the hull",
+      "The pole supporting a sail",
+      "A floor or platform forming a level of the vessel",
+      "A vertical wall dividing compartments"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "72111a5ed04d1fd43432",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a gangway used for at a moored ship?",
+    "answers": [
+      "Operating the anchor winch",
+      "Boarding and leaving the ship",
+      "Turning the propeller",
+      "Pumping out the bilge"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "1084dedd13cdf62c7786",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a tugboat designed to help move?",
+    "answers": [
+      "Other vessels",
+      "Container cargo using a dockside crane",
+      "Aircraft between airport stands",
+      "Railway wagons inside a freight yard"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "d194a56496d431d74b9c",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does a ship's draught measure?",
+    "answers": [
+      "The length from bow to stern",
+      "The width across the widest part of the hull",
+      "The height of the tallest mast above the deck",
+      "The vertical distance from the waterline to the bottom of the hull"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://imocompendium.imo.org/public/IMO-Compendium/Current/ds1.htm",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "7cb919ac18d2823c1104",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a dry dock used for?",
+    "answers": [
+      "Keeping a ship moving through a lock",
+      "Providing fuel to an aircraft",
+      "Accessing a vessel's hull out of the water",
+      "Loading cargo while the vessel remains afloat"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "3cbd0a838958d0a61d74",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a canoe paddle used to do?",
+    "answers": [
+      "Anchor the canoe to the riverbed",
+      "Propel and steer the canoe",
+      "Drain water through the hull automatically",
+      "Inflate a buoyancy aid"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "6056cd20a03f189e9f76",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is an aircraft's cockpit?",
+    "answers": [
+      "The area containing the pilots' controls",
+      "The passenger baggage carousel",
+      "The airport car park",
+      "The aircraft's fuel nozzle"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "fcb15243f7eeee1a8309",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is an aircraft's undercarriage also called?",
+    "answers": [
+      "Tailplane",
+      "Fuselage",
+      "Winglet",
+      "Landing gear"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "2790fdc00ffd932abcec",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a runway used for at an airport?",
+    "answers": [
+      "Storing passenger luggage",
+      "Controlling flight paths by radio",
+      "Aircraft take-offs and landings",
+      "Parking aircraft during maintenance"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "d1c79184fbfbf10a304e",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is an airport taxiway used for?",
+    "answers": [
+      "Aircraft cruising between countries",
+      "Aircraft moving on the ground between areas such as runways and stands",
+      "Passengers taking taxis into town",
+      "Aircraft taking off from the airport"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "a4226e3aa6aacc8981e6",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is an airport hangar designed to house?",
+    "answers": [
+      "Aircraft",
+      "Passengers awaiting boarding",
+      "Air-traffic controllers directing flights",
+      "Baggage moving between conveyor belts"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "e4ad341efa1b4a3c194e",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is an aircraft boarding pass normally used to show?",
+    "answers": [
+      "Proof that a pilot is qualified to fly every aircraft",
+      "A receipt proving all airport shops have been paid",
+      "A certificate that an aircraft has passed maintenance",
+      "A passenger's permission to board a particular flight"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "9b42c3081c6d2db86ff6",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which type of fixed-wing aircraft is designed primarily for flight without engine power?",
+    "answers": [
+      "Turboprop airliner",
+      "Piston-engine training aeroplane",
+      "Glider",
+      "Passenger jet"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.faa.gov/documentlibrary/media/order/faa_order_8000_71.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  },
+  {
+    "id": "fc80eeb31ad7f727c2fe",
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a helicopter's main rotor primarily designed to generate?",
+    "answers": [
+      "Electrical insulation",
+      "Lift",
+      "Engine coolant pressure",
+      "Tyre pressure"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-28-v1"
+  }
+]

@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "47ea95130d4fbcfe43d2",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which keyboard key normally creates a space between words?",
+    "answers": [
+      "Space bar",
+      "Escape",
+      "Caps Lock",
+      "Shift"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "9b193398202231166583",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which keyboard key is commonly held while typing a single capital letter?",
+    "answers": [
+      "Backspace",
+      "Escape",
+      "Tab",
+      "Shift"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "b051e372016402137570",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which keyboard key normally removes the character immediately before the text cursor?",
+    "answers": [
+      "Caps Lock",
+      "Tab",
+      "Backspace",
+      "Shift"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "29cde3f1ab4881a5dfba",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which keyboard key usually moves to the next line when writing a paragraph in a plain-text editor?",
+    "answers": [
+      "Alt",
+      "Enter",
+      "Escape",
+      "Caps Lock"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "186b9f801b551823c7ac",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does a blinking text cursor usually mark?",
+    "answers": [
+      "Where the next typed character will appear",
+      "Where the last spelling error was found",
+      "Where the document was last saved",
+      "Where the next page ends"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "197e03bdb85746ebaa1d",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does selecting text let you do to that particular passage?",
+    "answers": [
+      "Automatically translate the entire document",
+      "Recover every previous version of the file",
+      "Remove all the document margins",
+      "Apply an action such as copying or formatting it"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "8b8bfa82a7e5fdf1ba67",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "In a text editor, what is the purpose of the Undo command?",
+    "answers": [
+      "Delete the operating system",
+      "Increase the font permanently",
+      "Reverse a recent editing action",
+      "Print every open document"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "1e105d4e8e822110a872",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is the usual difference between Copy and Cut when editing text?",
+    "answers": [
+      "Copy changes the language of the text",
+      "Cut removes the selected text from its original position",
+      "Copy always deletes the original text",
+      "Cut always prints the text"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "effc838c6876ed02d6e7",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which command inserts text that you have copied to the clipboard?",
+    "answers": [
+      "Paste",
+      "Find",
+      "Print",
+      "Zoom"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "b26e2d6d906865058634",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does the Find command help you locate in a document?",
+    "answers": [
+      "An earlier version of the file",
+      "The default printer settings",
+      "The document page orientation",
+      "Specified words or characters"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "5239f50d971aa60b5295",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which formatting style makes text appear thicker and darker?",
+    "answers": [
+      "Underline",
+      "Strikethrough",
+      "Bold",
+      "Italic"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "818285537b20f6dee735",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which text style usually slants letters to the right?",
+    "answers": [
+      "Superscript",
+      "Italic",
+      "Underline",
+      "Strikethrough"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "a296efb1f111a63d4ad4",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does underlining text add?",
+    "answers": [
+      "A line beneath the text",
+      "A line through the text",
+      "A box around each paragraph",
+      "A shadow behind each letter"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "ed448c09572358adc7cf",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a font in a word-processing program?",
+    "answers": [
+      "A folder for deleted files",
+      "A computer cooling fan",
+      "A type of internet cable",
+      "A design used to display letters and other characters"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "c39b621650ed343d132a",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does increasing the font size usually do?",
+    "answers": [
+      "Changes lowercase letters to capitals",
+      "Changes the page background colour",
+      "Makes the text characters larger",
+      "Makes only the spaces wider"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "7b1d9526c54334c81711",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does a bulleted list place beside each list item?",
+    "answers": [
+      "An email address",
+      "A symbol such as a dot",
+      "A page break",
+      "A footnote containing a source"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "a841bf6c79b95be2b082",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is the main purpose of a spellchecker?",
+    "answers": [
+      "Flag words that may be misspelled",
+      "Verify that every statement is true",
+      "Translate all files automatically",
+      "Replace a damaged keyboard"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "e12e64a34590bbd26668",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "In a document, what is a margin?",
+    "answers": [
+      "The name of the printer",
+      "A hidden email recipient",
+      "A type of wireless connection",
+      "Blank space between the text area and the page edge"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "0a7bb6e9c0fe05fbfc7e",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does landscape page orientation mean?",
+    "answers": [
+      "The page is taller than it is wide",
+      "The page has no edges",
+      "The page is wider than it is tall",
+      "The page contains only outdoor photos"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "6c145778ee67aba144ba",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which command commonly saves a document under a different filename?",
+    "answers": [
+      "Zoom",
+      "Save As",
+      "Undo",
+      "Find"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "5de7919bcdead959d575",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a print preview intended to show?",
+    "answers": [
+      "How a document will look when printed",
+      "The password of a printer",
+      "The location of every nearby computer",
+      "The inside of the printer cartridge"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "5fcbedb684ce459364ea",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does a page break do in a document?",
+    "answers": [
+      "Turns off the computer screen",
+      "Removes every picture",
+      "Changes the document password",
+      "Starts the following content on a new page"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "15f0c60fa8765d54dfc9",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "In a spreadsheet, which direction do rows normally run?",
+    "answers": [
+      "Diagonally only",
+      "In circles",
+      "Horizontally",
+      "Vertically"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/excel/basic-tasks-in-excel",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "ad51f8f309d3a4923428",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "In a spreadsheet, which direction do columns normally run?",
+    "answers": [
+      "In spirals",
+      "Vertically",
+      "Horizontally",
+      "Diagonally only"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/excel/basic-tasks-in-excel",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "238add09253936e15453",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a cell in a spreadsheet?",
+    "answers": [
+      "A box at the intersection of a row and column",
+      "The computer battery compartment",
+      "An email attachment",
+      "A printer ink cartridge"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/excel/basic-tasks-in-excel",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "293c09e998bd3ee8499c",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "In standard A1 spreadsheet notation, what does the A in A3 identify?",
+    "answers": [
+      "The row",
+      "The file size",
+      "The page colour",
+      "The column"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/excel/basic-tasks-in-excel",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "98b301c248c0760fab82",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "In a spreadsheet, what is a formula used for?",
+    "answers": [
+      "Protecting the file with a password",
+      "Choosing the printer paper size",
+      "Calculating a result from values or references",
+      "Setting the page orientation"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/excel/basic-tasks-in-excel",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "cd88008fb4b5888bbf29",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "A spreadsheet cell contains 0.5. What does percentage formatting normally display?",
+    "answers": [
+      "500%",
+      "50%",
+      "0.5%",
+      "5%"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/excel/format-numbers-as-percentages-in-excel",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "7d33faf1e83e2af47324",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does a spreadsheet filter commonly do?",
+    "answers": [
+      "Shows rows that meet chosen conditions",
+      "Permanently deletes all duplicate rows",
+      "Sorts every column into descending order",
+      "Converts every formula into plain text"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/excel/basic-tasks-in-excel",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "6f8f48a12ffed131599b",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which chart represents values using rectangular bars?",
+    "answers": [
+      "A pie chart",
+      "A scatter plot",
+      "A line chart",
+      "A bar chart"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/excel/basic-tasks-in-excel",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "adf6570cc38256a9706f",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which chart divides a circle into slices to represent parts of a whole?",
+    "answers": [
+      "A scatter plot",
+      "A bar chart",
+      "A pie chart",
+      "A line chart"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/excel/basic-tasks-in-excel",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "9effc3d1ff8ef4120fe5",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a slide in presentation software?",
+    "answers": [
+      "A wireless password",
+      "One screen or page of the presentation",
+      "A computer cooling component",
+      "A printed keyboard label"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/powerpoint/training/give-a-presentation-in-powerpoint",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "9596c887a07e85c263ff",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a slide transition?",
+    "answers": [
+      "An effect shown when moving between slides",
+      "A change of keyboard batteries",
+      "A password reset",
+      "A repair to the screen"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/powerpoint/training/add-change-or-remove-transitions-between-slides",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "6dd2c74ce278d49f1508",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What are speaker notes in a presentation generally intended for?",
+    "answers": [
+      "Instructions for replacing loudspeakers",
+      "Passwords for the audience",
+      "Extra printer ink settings",
+      "Reminders for the presenter"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/powerpoint/training/give-a-presentation-in-powerpoint",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "c4d83811dacf17e64de3",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is an email attachment?",
+    "answers": [
+      "The email subject line",
+      "A computer screen border",
+      "A file sent with an email message",
+      "A cable connecting two keyboards"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/outlook/basic-tasks-in-outlook",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "e89030031beb83c2e5c0",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which part of an email briefly describes what the message is about?",
+    "answers": [
+      "The signature",
+      "The subject line",
+      "The recipient address",
+      "The attachment filename"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/outlook/basic-tasks-in-outlook",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "f3ab195e80339fd0ef59",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "In an email program, what is the inbox?",
+    "answers": [
+      "The folder where incoming messages normally arrive",
+      "A bin for printer paper",
+      "A list of installed fonts",
+      "A computer repair tool"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/outlook/basic-tasks-in-outlook",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "939d16b64aef06c5ada4",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is an email draft?",
+    "answers": [
+      "A message printed on paper",
+      "A broken internet connection",
+      "A deleted contact list",
+      "A message saved before it is sent"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/outlook/basic-tasks-in-outlook",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "c348b2e0edb7a83f15ff",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does forwarding an email allow you to do?",
+    "answers": [
+      "Increase the screen resolution",
+      "Recall every copy of the message",
+      "Send a received message on to another recipient",
+      "Change the original sender account"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/outlook/basic-tasks-in-outlook",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "c483a14c010550f86f87",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does Reply All normally do in an email conversation?",
+    "answers": [
+      "Forwards the message to all saved contacts",
+      "Addresses a reply to the sender and the recipients on the To and Cc lines",
+      "Replies only to the sender",
+      "Includes every hidden Bcc recipient automatically"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/outlook/reply-to-or-forward-an-email-message",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "eebf8f98b1920d40f4da",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does Bcc allow an email sender to do?",
+    "answers": [
+      "Include recipients whose addresses are hidden from the other recipients",
+      "Hide the sender address from everyone",
+      "Automatically encrypt every attachment",
+      "Prevent any recipient from forwarding the message"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/outlook/create-reply-to-or-forward-email-messages-in-outlook-on-the-web",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "4a713923009f5cfaf332",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is spam in an email context?",
+    "answers": [
+      "A keyboard shortcut",
+      "A spreadsheet formula",
+      "A printer paper size",
+      "Unwanted bulk messages"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/outlook/basic-tasks-in-outlook",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "66bcd9cde115a619e9a9",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a contact list in an email application used to store?",
+    "answers": [
+      "The printer ink level",
+      "Every file on the hard drive",
+      "People and their contact details",
+      "Only the computer temperature"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/outlook/basic-tasks-in-outlook",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "b7b4df93b4311d183d04",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does muting your microphone during a video call do?",
+    "answers": [
+      "Changes the voices of the other speakers",
+      "Stops your microphone audio being sent to the call",
+      "Turns every other camera off",
+      "Deletes the meeting invitation"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "0990002c16ac27c07e9c",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is screen sharing during an online meeting?",
+    "answers": [
+      "Showing other participants content from your screen",
+      "Automatically sending every file on your computer",
+      "Giving every participant control of your keyboard",
+      "Changing the background behind your camera image"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "bd2b224125c2227d31be",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a webcam mainly used to capture?",
+    "answers": [
+      "Printed paper documents automatically",
+      "The temperature of the processor",
+      "The contents of a USB drive",
+      "Live video images"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "fb219f295597b7ff49a2",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which device turns your voice into an audio input for a computer?",
+    "answers": [
+      "A printer",
+      "A projector",
+      "A microphone",
+      "A monitor"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "584d6449409a08a86912",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which device projects a computer image onto a wall or screen?",
+    "answers": [
+      "A keyboard",
+      "A projector",
+      "A scanner",
+      "A router"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "9cc0d117832a08c17c3e",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which device turns a paper photograph into a digital image by scanning it?",
+    "answers": [
+      "A scanner",
+      "A loudspeaker",
+      "A joystick",
+      "A router"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "39a9d735ef5f278ea0d5",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does a computer touchpad usually control?",
+    "answers": [
+      "The amount of printer ink",
+      "The mains electricity supply",
+      "The speaker cable length",
+      "The on-screen pointer"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "e4f23328e5e5fc73dbd9",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does downloading a file mean?",
+    "answers": [
+      "Turning off the monitor",
+      "Removing every file from a folder",
+      "Receiving a file from another computer or service",
+      "Printing a file on paper"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.mozilla.org/en-US/kb/how-use-firefox",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "68e45a13ffd3ca881564",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does uploading a photograph to a website mean?",
+    "answers": [
+      "Printing the image from your browser",
+      "Sending the image from your device to the website",
+      "Saving a copy from the website to your device",
+      "Changing the image filename on your device only"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.mozilla.org/en-US/kb/how-use-firefox",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "d1564957506a963f57fb",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a hyperlink designed to do when activated?",
+    "answers": [
+      "Take you to linked content or a destination",
+      "Automatically clean your keyboard",
+      "Add ink to a printer",
+      "Measure your battery weight"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.mozilla.org/en-US/kb/how-use-firefox",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "b350b29d204a5f25402b",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does a browser bookmark help you do?",
+    "answers": [
+      "Recover every deleted password",
+      "Make a webpage permanently available offline",
+      "Increase your internet contract speed",
+      "Return to a saved web address"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.mozilla.org/en-US/kb/bookmarks-firefox",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "19e87f5a0fb3c1ec4047",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is the purpose of browser tabs?",
+    "answers": [
+      "Replace a damaged screen",
+      "Store spare keyboard keys",
+      "Keep multiple pages open within a browser window",
+      "Hold printer paper in place"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.mozilla.org/en-US/kb/how-use-firefox",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "9917d79c69fc9f49f9af",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does a browser address bar let you enter?",
+    "answers": [
+      "Only a spreadsheet formula",
+      "A web address",
+      "Only a page number in a printed document",
+      "Only the name of a locally installed font"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.mozilla.org/en-US/kb/address-bar-autocomplete-firefox",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "899aeb96d5dabfaff1b0",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does refreshing a webpage normally do?",
+    "answers": [
+      "Requests the page again to update its displayed content",
+      "Deletes the entire website",
+      "Changes the website owner",
+      "Permanently increases the computer memory"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.mozilla.org/en-US/kb/how-use-firefox",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "bdc3de2a4773584c266f",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a website home page?",
+    "answers": [
+      "The home address of the website owner",
+      "A page that only opens at home",
+      "The final page of every document",
+      "Its main or introductory page"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.mozilla.org/en-US/kb/how-use-firefox",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "8d57feac2acf9e647664",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a search engine mainly designed to help you find?",
+    "answers": [
+      "The weight of a computer",
+      "The physical location of every keyboard",
+      "Information and resources matching a query",
+      "Only files already in the printer"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.mozilla.org/en-US/kb/how-use-firefox",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "c11fc38cf85c5cd3b880",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does a browser Back button normally do?",
+    "answers": [
+      "Permanently removes the current website",
+      "Returns to the previous page in that tab history",
+      "Deletes the most recent download",
+      "Reverses the direction of the keyboard"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.mozilla.org/en-US/kb/how-use-firefox",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "69999366d6c2dcd0c6eb",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does scrolling a long webpage do?",
+    "answers": [
+      "Moves the visible portion of the page",
+      "Changes the website password",
+      "Rewrites every paragraph",
+      "Turns a page into a video"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.mozilla.org/en-US/kb/how-use-firefox",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "911bf1794cb52a2c08e5",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a pop-up window?",
+    "answers": [
+      "A mechanical part of a laptop hinge",
+      "A folder used only for photographs",
+      "A special kind of printer paper",
+      "An additional window that appears over or beside the current one"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.mozilla.org/en-US/kb/how-use-firefox",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "7ab68474715c50998fae",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does zooming in on a webpage normally do?",
+    "answers": [
+      "Changes the website owner",
+      "Makes the file physically heavier",
+      "Makes its displayed content appear larger",
+      "Adds more internet cables"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.mozilla.org/en-US/kb/how-use-firefox",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "216d835dccf0fc6dbe87",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a file folder mainly used for on a computer?",
+    "answers": [
+      "Increasing the speaker volume",
+      "Organising files and other folders",
+      "Charging the battery",
+      "Cleaning the monitor"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "a5816412dff944aa224d",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a subfolder?",
+    "answers": [
+      "A folder located inside another folder",
+      "A file compressed into a smaller image",
+      "A shortcut to a printer",
+      "A program running without a window"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "0a9d3a9b1ac64a9bd8aa",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "In a filename such as holiday.jpg, what is .jpg called?",
+    "answers": [
+      "The password",
+      "The row number",
+      "The keyboard layout",
+      "The file extension"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "a5c135035ebc94967278",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which filename most clearly suggests a plain-text document?",
+    "answers": [
+      "song.mp3",
+      "movie.mp4",
+      "notes.txt",
+      "holiday.jpg"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "59461f5fa1cdee0ad934",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which filename most clearly suggests an audio file?",
+    "answers": [
+      "portrait.jpg",
+      "song.mp3",
+      "notes.txt",
+      "table.csv"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "b945eb3376412bd4ba21",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which filename most clearly suggests a video file?",
+    "answers": [
+      "holiday.mp4",
+      "notes.txt",
+      "portrait.jpg",
+      "budget.csv"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "03696e7ed5e839846977",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does renaming a file normally change?",
+    "answers": [
+      "Every sentence inside it",
+      "The computer processor",
+      "The physical storage device",
+      "The name used to identify it"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "26b813b89db0da38e565",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a backup copy intended to provide?",
+    "answers": [
+      "An extra physical screen",
+      "A faster keyboard",
+      "A way to recover data if the original is lost or damaged",
+      "A guarantee that no computer can ever fail"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "e0e63e2ab9fd9cba08f2",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is an external storage drive?",
+    "answers": [
+      "A computer mouse",
+      "A storage device connected outside the computer case",
+      "A second monitor",
+      "A program that changes fonts"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "c1b53e73a94d0c959110",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a USB flash drive commonly used for?",
+    "answers": [
+      "Carrying and transferring files",
+      "Projecting an image onto a wall",
+      "Printing without paper",
+      "Measuring room temperature"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "a5352a5f0245ab638854",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What can a ZIP archive be used to do?",
+    "answers": [
+      "Translate every document into another language",
+      "Turn every photograph into a video",
+      "Increase the resolution of every image",
+      "Bundle several files into one archive"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/zip-and-unzip-files",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "f16533ce31d137e85eb4",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a password used for when signing into an account?",
+    "answers": [
+      "Increasing the storage capacity",
+      "Choosing the printer paper size",
+      "Helping verify that you are authorised to access it",
+      "Making the screen brighter"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "c43a0ef8fc202a5d6875",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which habit best avoids reusing one password across many accounts?",
+    "answers": [
+      "Adding the same number to every username",
+      "Using a different password for each account",
+      "Using your first name everywhere",
+      "Sharing one password with friends"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "ded1bf611aca5bd3d390",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is the main purpose of a password manager?",
+    "answers": [
+      "Store and help manage account passwords",
+      "Check documents for spelling errors",
+      "Arrange browser tabs by colour",
+      "Remove unwanted email attachments"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "6d38f974728843eb45cb",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does two-factor authentication require?",
+    "answers": [
+      "Two identical copies of the same password",
+      "Two different usernames with no other checks",
+      "Two browser tabs showing the same login page",
+      "Two different types of evidence to verify a login"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "8b79517c35d1a209b226",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is phishing intended to trick someone into doing?",
+    "answers": [
+      "Compressing files into an archive",
+      "Changing the resolution of a photograph",
+      "Revealing information or taking an unsafe action through deception",
+      "Removing blank rows from a spreadsheet"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.ncsc.gov.uk/guidance/phishing",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "5ae7e72cdfe075ccf515",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does signing out of an online account normally do?",
+    "answers": [
+      "Turns off every computer on the network",
+      "Ends your current signed-in session",
+      "Deletes the entire account permanently",
+      "Removes the operating system"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "620f32d992ae234a360e",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Why should you lock a computer when leaving it unattended in a shared workspace?",
+    "answers": [
+      "To help prevent others using your signed-in session",
+      "To permanently delete your saved documents",
+      "To give other users your account permissions",
+      "To change the password of every account"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "d1ccc2c7c6c953e50b1e",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is ransomware designed to demand after blocking access to files or systems?",
+    "answers": [
+      "A spelling correction",
+      "A screen-resolution change",
+      "A software licence review with no charge",
+      "A payment"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.ncsc.gov.uk/pdfs/guidance/mitigating-malware-and-ransomware-attacks.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "e536e8f6ad41d6a13644",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is antivirus software intended to help detect?",
+    "answers": [
+      "Duplicate photographs in every folder",
+      "Unused contacts in an address book",
+      "Malicious software",
+      "Misspelled names in every document"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.ncsc.gov.uk/pdfs/guidance/mitigating-malware-and-ransomware-attacks.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "b5413eaf17bee76c19ae",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does installing a software update commonly provide?",
+    "answers": [
+      "A guaranteed increase in internet contract speed",
+      "Fixes or improvements to the software",
+      "A new physical computer case",
+      "A guarantee that all files are backed up"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.ncsc.gov.uk/pdfs/guidance/mitigating-malware-and-ransomware-attacks.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "7acb8283d37e43ace8b8",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does read-only access to a document normally permit?",
+    "answers": [
+      "Viewing it without changing the stored document",
+      "Changing and deleting every page",
+      "Replacing the password of its owner",
+      "Editing every file on the computer"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "8626be3d1ccfed58ad6b",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a user account on a computer?",
+    "answers": [
+      "A count of the keyboard keys",
+      "A measurement of the screen width",
+      "A printer cartridge number",
+      "An identity with its own access and settings"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "6397b72c81e7097991f4",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a guest account commonly intended for?",
+    "answers": [
+      "A spare cooling fan",
+      "A page containing printer settings",
+      "Someone using a device temporarily with limited access",
+      "Only the computer manufacturer"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.apple.com/guide/mac-help/mh15600/mac",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "5b3626c2d03cf8c3ce9b",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does Wi-Fi let compatible devices connect to without a network cable?",
+    "answers": [
+      "A printer ink cartridge",
+      "A wireless local network",
+      "A paper document",
+      "A keyboard key"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.apple.com/en-us/102766",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "38152cb77c864864fecc",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a Wi-Fi network name commonly called?",
+    "answers": [
+      "An SSID",
+      "A URL",
+      "A PDF",
+      "A CPU"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.apple.com/en-us/102766",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "02bd638f6f605138d0a1",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does being offline mean in the context of an internet app?",
+    "answers": [
+      "Having no keyboard attached",
+      "Using a dark wallpaper",
+      "Printing a document",
+      "Not currently connected to its online service"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "68bd9abba6d236efe364",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does a progress bar usually indicate while a file is being copied?",
+    "answers": [
+      "The age of the file owner",
+      "The number of files permanently deleted",
+      "How much of the operation has been completed",
+      "The current processor temperature"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "23da09a49220aed37ba8",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a screenshot?",
+    "answers": [
+      "A recording of sound only",
+      "An image captured from what a screen displays",
+      "A printed keyboard guide",
+      "A new computer password"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "8dbe5636f2d75ebcebbd",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does cropping a digital photograph do?",
+    "answers": [
+      "Removes unwanted outer parts of the image",
+      "Adds a coloured border around the image",
+      "Rotates the whole image clockwise",
+      "Combines two images side by side"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "c0ac83207930dac16f1f",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a pixel in a digital image?",
+    "answers": [
+      "A computer password",
+      "A page margin",
+      "An email folder",
+      "An individual picture element"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "581827adf7f7c0af23ea",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a thumbnail image?",
+    "answers": [
+      "A list of all the image metadata",
+      "A password-protected image folder",
+      "A small preview of a larger image or document",
+      "A full-resolution backup of every file"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "39602dbc1df28df854ef",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does drag and drop mean in a graphical interface?",
+    "answers": [
+      "Scroll a page without selecting an item",
+      "Move an item while holding it with the pointer, then release it",
+      "Click an item twice without moving the pointer",
+      "Use a keyboard shortcut to close a window"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "dc3709cbf816dd855263",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a desktop wallpaper on a computer?",
+    "answers": [
+      "The background image or design behind desktop items",
+      "Paper pasted inside the computer case",
+      "A printed list of passwords",
+      "A folder used only for emails"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "84333f5207af25c4e040",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is an application icon usually intended to represent?",
+    "answers": [
+      "The size of a downloaded file",
+      "The number of pages in a document",
+      "The current battery charge",
+      "A program you can open"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "212927a1cb5037192adb",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does minimising a window normally do?",
+    "answers": [
+      "Deletes the open document",
+      "Switches off the computer",
+      "Hides it from the main desktop view without closing the program",
+      "Uninstalls the program"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  },
+  {
+    "id": "638ae85ab6af691dbc9c",
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does a software bug mean?",
+    "answers": [
+      "A copy saved for data recovery",
+      "An error or defect in a program",
+      "A new feature added intentionally",
+      "A licence allowing software installation"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-18-v1"
+  }
+]

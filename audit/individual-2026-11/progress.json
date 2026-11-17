@@ -1,8 +1,8 @@
 {
   "updated": "2026-11-17",
   "targetNewEasy": 3100,
-  "reviewedAndValidated": 600,
-  "localBankCount": 22517,
+  "reviewedAndValidated": 900,
+  "localBankCount": 22817,
   "liveBankCount": 21817,
   "topics": [
     {
@@ -65,8 +65,8 @@
       "topicID": "16",
       "name": "Board Games",
       "targetNewEasy": 100,
-      "authored": 0,
-      "reviewedAndValidated": 0,
+      "authored": 100,
+      "reviewedAndValidated": 100,
       "deployedNewEasy": 0
     },
     {
@@ -82,7 +82,7 @@
       "name": "Computers",
       "targetNewEasy": 100,
       "authored": 100,
-      "reviewedAndValidated": 0,
+      "reviewedAndValidated": 100,
       "deployedNewEasy": 0
     },
     {
@@ -162,7 +162,7 @@
       "name": "Vehicles",
       "targetNewEasy": 100,
       "authored": 100,
-      "reviewedAndValidated": 0,
+      "reviewedAndValidated": 100,
       "deployedNewEasy": 0
     },
     {

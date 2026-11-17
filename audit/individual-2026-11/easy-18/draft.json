@@ -1,0 +1,2202 @@
+[
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which keyboard key normally creates a space between words?",
+    "answers": [
+      "Space bar",
+      "Escape",
+      "Caps Lock",
+      "Shift"
+    ],
+    "correctIndex": 0,
+    "rationale": "The space bar inserts a space in ordinary text entry.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "The space bar inserts a space in ordinary text entry.",
+      "answer": "The space bar inserts a space in ordinary text entry.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+    "draftID": "easy-18-001"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which keyboard key is commonly held while typing a single capital letter?",
+    "answers": [
+      "Shift",
+      "Backspace",
+      "Escape",
+      "Tab"
+    ],
+    "correctIndex": 0,
+    "rationale": "Shift changes the case of a letter while held.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Shift changes the case of a letter while held.",
+      "answer": "Shift changes the case of a letter while held.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+    "draftID": "easy-18-002"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which keyboard key normally removes the character immediately before the text cursor?",
+    "answers": [
+      "Backspace",
+      "Shift",
+      "Caps Lock",
+      "Tab"
+    ],
+    "correctIndex": 0,
+    "rationale": "Backspace deletes backwards from the insertion point.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Backspace deletes backwards from the insertion point.",
+      "answer": "Backspace deletes backwards from the insertion point.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+    "draftID": "easy-18-003"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which keyboard key usually moves to the next line when writing a paragraph in a plain-text editor?",
+    "answers": [
+      "Enter",
+      "Escape",
+      "Caps Lock",
+      "Alt"
+    ],
+    "correctIndex": 0,
+    "rationale": "Enter inserts a line break in this stated setting.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Enter inserts a line break in this stated setting.",
+      "answer": "Enter inserts a line break in this stated setting.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+    "draftID": "easy-18-004"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does a blinking text cursor usually mark?",
+    "answers": [
+      "Where the next typed character will appear",
+      "Where the last spelling error was found",
+      "Where the document was last saved",
+      "Where the next page ends"
+    ],
+    "correctIndex": 0,
+    "rationale": "The insertion cursor marks the text-entry position.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "The insertion cursor marks the text-entry position.",
+      "answer": "The insertion cursor marks the text-entry position.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows",
+    "draftID": "easy-18-005"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does selecting text let you do to that particular passage?",
+    "answers": [
+      "Apply an action such as copying or formatting it",
+      "Automatically translate the entire document",
+      "Recover every previous version of the file",
+      "Remove all the document margins"
+    ],
+    "correctIndex": 0,
+    "rationale": "A selection identifies the text an editing command acts on.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "A selection identifies the text an editing command acts on.",
+      "answer": "A selection identifies the text an editing command acts on.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "draftID": "easy-18-006"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "In a text editor, what is the purpose of the Undo command?",
+    "answers": [
+      "Reverse a recent editing action",
+      "Print every open document",
+      "Delete the operating system",
+      "Increase the font permanently"
+    ],
+    "correctIndex": 0,
+    "rationale": "Undo reverses an action; it does not guarantee reversal of every possible operation.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Undo reverses an action; it does not guarantee reversal of every possible operation.",
+      "answer": "Undo reverses an action; it does not guarantee reversal of every possible operation.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "draftID": "easy-18-007"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is the usual difference between Copy and Cut when editing text?",
+    "answers": [
+      "Cut removes the selected text from its original position",
+      "Copy always deletes the original text",
+      "Cut always prints the text",
+      "Copy changes the language of the text"
+    ],
+    "correctIndex": 0,
+    "rationale": "Both can place text on the clipboard, but Cut also removes the selection.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Both can place text on the clipboard, but Cut also removes the selection.",
+      "answer": "Both can place text on the clipboard, but Cut also removes the selection.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "draftID": "easy-18-008"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which command inserts text that you have copied to the clipboard?",
+    "answers": [
+      "Paste",
+      "Find",
+      "Print",
+      "Zoom"
+    ],
+    "correctIndex": 0,
+    "rationale": "Paste inserts clipboard content.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Paste inserts clipboard content.",
+      "answer": "Paste inserts clipboard content.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "draftID": "easy-18-009"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does the Find command help you locate in a document?",
+    "answers": [
+      "Specified words or characters",
+      "An earlier version of the file",
+      "The default printer settings",
+      "The document page orientation"
+    ],
+    "correctIndex": 0,
+    "rationale": "Document search locates matching text.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Document search locates matching text.",
+      "answer": "Document search locates matching text.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "draftID": "easy-18-010"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which formatting style makes text appear thicker and darker?",
+    "answers": [
+      "Bold",
+      "Italic",
+      "Underline",
+      "Strikethrough"
+    ],
+    "correctIndex": 0,
+    "rationale": "Bold uses a heavier text weight; the other choices describe other styles.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Bold uses a heavier text weight; the other choices describe other styles.",
+      "answer": "Bold uses a heavier text weight; the other choices describe other styles.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "draftID": "easy-18-011"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which text style usually slants letters to the right?",
+    "answers": [
+      "Italic",
+      "Underline",
+      "Strikethrough",
+      "Superscript"
+    ],
+    "correctIndex": 0,
+    "rationale": "Italic type is typically slanted; superscript changes position and size.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Italic type is typically slanted; superscript changes position and size.",
+      "answer": "Italic type is typically slanted; superscript changes position and size.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "draftID": "easy-18-012"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does underlining text add?",
+    "answers": [
+      "A line beneath the text",
+      "A line through the text",
+      "A box around each paragraph",
+      "A shadow behind each letter"
+    ],
+    "correctIndex": 0,
+    "rationale": "Underlining places a rule beneath characters.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Underlining places a rule beneath characters.",
+      "answer": "Underlining places a rule beneath characters.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "draftID": "easy-18-013"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a font in a word-processing program?",
+    "answers": [
+      "A design used to display letters and other characters",
+      "A folder for deleted files",
+      "A computer cooling fan",
+      "A type of internet cable"
+    ],
+    "correctIndex": 0,
+    "rationale": "A font supplies the character shapes used for text.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "A font supplies the character shapes used for text.",
+      "answer": "A font supplies the character shapes used for text.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "draftID": "easy-18-014"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does increasing the font size usually do?",
+    "answers": [
+      "Makes the text characters larger",
+      "Makes only the spaces wider",
+      "Changes lowercase letters to capitals",
+      "Changes the page background colour"
+    ],
+    "correctIndex": 0,
+    "rationale": "Font size controls the size of displayed or printed glyphs.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Font size controls the size of displayed or printed glyphs.",
+      "answer": "Font size controls the size of displayed or printed glyphs.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "draftID": "easy-18-015"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does a bulleted list place beside each list item?",
+    "answers": [
+      "A symbol such as a dot",
+      "A page break",
+      "A footnote containing a source",
+      "An email address"
+    ],
+    "correctIndex": 0,
+    "rationale": "Bullets mark entries in an unordered list.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Bullets mark entries in an unordered list.",
+      "answer": "Bullets mark entries in an unordered list.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "draftID": "easy-18-016"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is the main purpose of a spellchecker?",
+    "answers": [
+      "Flag words that may be misspelled",
+      "Verify that every statement is true",
+      "Translate all files automatically",
+      "Replace a damaged keyboard"
+    ],
+    "correctIndex": 0,
+    "rationale": "Spellchecking concerns spelling and does not establish factual truth.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Spellchecking concerns spelling and does not establish factual truth.",
+      "answer": "Spellchecking concerns spelling and does not establish factual truth.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "draftID": "easy-18-017"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "In a document, what is a margin?",
+    "answers": [
+      "Blank space between the text area and the page edge",
+      "The name of the printer",
+      "A hidden email recipient",
+      "A type of wireless connection"
+    ],
+    "correctIndex": 0,
+    "rationale": "Margins are page-edge spacing.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Margins are page-edge spacing.",
+      "answer": "Margins are page-edge spacing.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "draftID": "easy-18-018"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does landscape page orientation mean?",
+    "answers": [
+      "The page is wider than it is tall",
+      "The page contains only outdoor photos",
+      "The page is taller than it is wide",
+      "The page has no edges"
+    ],
+    "correctIndex": 0,
+    "rationale": "Landscape describes dimensions rather than subject matter.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Landscape describes dimensions rather than subject matter.",
+      "answer": "Landscape describes dimensions rather than subject matter.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "draftID": "easy-18-019"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which command commonly saves a document under a different filename?",
+    "answers": [
+      "Save As",
+      "Undo",
+      "Find",
+      "Zoom"
+    ],
+    "correctIndex": 0,
+    "rationale": "Save As allows saving under a new name; Undo reverses an edit, Find searches and Zoom changes magnification.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Portrait describes a vertical page layout.",
+      "answer": "Portrait describes a vertical page layout.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "draftID": "easy-18-020"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a print preview intended to show?",
+    "answers": [
+      "How a document will look when printed",
+      "The password of a printer",
+      "The location of every nearby computer",
+      "The inside of the printer cartridge"
+    ],
+    "correctIndex": 0,
+    "rationale": "Preview shows the proposed printed layout.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Preview shows the proposed printed layout.",
+      "answer": "Preview shows the proposed printed layout.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "draftID": "easy-18-021"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does a page break do in a document?",
+    "answers": [
+      "Starts the following content on a new page",
+      "Turns off the computer screen",
+      "Removes every picture",
+      "Changes the document password"
+    ],
+    "correctIndex": 0,
+    "rationale": "A page break forces content onto the next page.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "A page break forces content onto the next page.",
+      "answer": "A page break forces content onto the next page.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/word/basic-tasks-in-word",
+    "draftID": "easy-18-022"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "In a spreadsheet, which direction do rows normally run?",
+    "answers": [
+      "Horizontally",
+      "Vertically",
+      "Diagonally only",
+      "In circles"
+    ],
+    "correctIndex": 0,
+    "rationale": "Rows extend horizontally across the sheet.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Rows extend horizontally across the sheet.",
+      "answer": "Rows extend horizontally across the sheet.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/excel/basic-tasks-in-excel",
+    "draftID": "easy-18-023"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "In a spreadsheet, which direction do columns normally run?",
+    "answers": [
+      "Vertically",
+      "Horizontally",
+      "Diagonally only",
+      "In spirals"
+    ],
+    "correctIndex": 0,
+    "rationale": "Columns extend vertically down the sheet.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Columns extend vertically down the sheet.",
+      "answer": "Columns extend vertically down the sheet.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/excel/basic-tasks-in-excel",
+    "draftID": "easy-18-024"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a cell in a spreadsheet?",
+    "answers": [
+      "A box at the intersection of a row and column",
+      "The computer battery compartment",
+      "An email attachment",
+      "A printer ink cartridge"
+    ],
+    "correctIndex": 0,
+    "rationale": "A cell is the unit formed by a row-column intersection.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "A cell is the unit formed by a row-column intersection.",
+      "answer": "A cell is the unit formed by a row-column intersection.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/excel/basic-tasks-in-excel",
+    "draftID": "easy-18-025"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "In standard A1 spreadsheet notation, what does the A in A3 identify?",
+    "answers": [
+      "The column",
+      "The row",
+      "The file size",
+      "The page colour"
+    ],
+    "correctIndex": 0,
+    "rationale": "Letters identify columns in A1 notation; the number identifies the row.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Letters identify columns in A1 notation; the number identifies the row.",
+      "answer": "Letters identify columns in A1 notation; the number identifies the row.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/excel/basic-tasks-in-excel",
+    "draftID": "easy-18-026"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "In a spreadsheet, what is a formula used for?",
+    "answers": [
+      "Calculating a result from values or references",
+      "Setting the page orientation",
+      "Protecting the file with a password",
+      "Choosing the printer paper size"
+    ],
+    "correctIndex": 0,
+    "rationale": "A formula computes a result.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "A formula computes a result.",
+      "answer": "A formula computes a result.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/excel/basic-tasks-in-excel",
+    "draftID": "easy-18-027"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "A spreadsheet cell contains 0.5. What does percentage formatting normally display?",
+    "answers": [
+      "50%",
+      "0.5%",
+      "5%",
+      "500%"
+    ],
+    "correctIndex": 0,
+    "rationale": "Percentage format displays the stored decimal as a fraction of one hundred: 0.5 is 50 percent.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Alphabetical sorting changes order, not content.",
+      "answer": "Alphabetical sorting changes order, not content.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/excel/format-numbers-as-percentages-in-excel",
+    "draftID": "easy-18-028"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does a spreadsheet filter commonly do?",
+    "answers": [
+      "Shows rows that meet chosen conditions",
+      "Permanently deletes all duplicate rows",
+      "Sorts every column into descending order",
+      "Converts every formula into plain text"
+    ],
+    "correctIndex": 0,
+    "rationale": "Filtering controls which matching rows are displayed.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Filtering controls which matching rows are displayed.",
+      "answer": "Filtering controls which matching rows are displayed.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/excel/basic-tasks-in-excel",
+    "draftID": "easy-18-029"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which chart represents values using rectangular bars?",
+    "answers": [
+      "A bar chart",
+      "A pie chart",
+      "A scatter plot",
+      "A line chart"
+    ],
+    "correctIndex": 0,
+    "rationale": "Bar charts use rectangular bars to encode values.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Bar charts use rectangular bars to encode values.",
+      "answer": "Bar charts use rectangular bars to encode values.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/excel/basic-tasks-in-excel",
+    "draftID": "easy-18-030"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which chart divides a circle into slices to represent parts of a whole?",
+    "answers": [
+      "A pie chart",
+      "A line chart",
+      "A scatter plot",
+      "A bar chart"
+    ],
+    "correctIndex": 0,
+    "rationale": "Pie charts partition a whole into sectors.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Pie charts partition a whole into sectors.",
+      "answer": "Pie charts partition a whole into sectors.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/excel/basic-tasks-in-excel",
+    "draftID": "easy-18-031"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a slide in presentation software?",
+    "answers": [
+      "One screen or page of the presentation",
+      "A computer cooling component",
+      "A printed keyboard label",
+      "A wireless password"
+    ],
+    "correctIndex": 0,
+    "rationale": "Slides are presentation pages.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Slides are presentation pages.",
+      "answer": "Slides are presentation pages.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/powerpoint/training/give-a-presentation-in-powerpoint",
+    "draftID": "easy-18-032"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a slide transition?",
+    "answers": [
+      "An effect shown when moving between slides",
+      "A change of keyboard batteries",
+      "A password reset",
+      "A repair to the screen"
+    ],
+    "correctIndex": 0,
+    "rationale": "Transitions occur between presentation slides.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Transitions occur between presentation slides.",
+      "answer": "Transitions occur between presentation slides.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/powerpoint/training/add-change-or-remove-transitions-between-slides",
+    "draftID": "easy-18-033"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What are speaker notes in a presentation generally intended for?",
+    "answers": [
+      "Reminders for the presenter",
+      "Instructions for replacing loudspeakers",
+      "Passwords for the audience",
+      "Extra printer ink settings"
+    ],
+    "correctIndex": 0,
+    "rationale": "Presenter notes support delivery rather than normally being slide content.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Presenter notes support delivery rather than normally being slide content.",
+      "answer": "Presenter notes support delivery rather than normally being slide content.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/powerpoint/training/give-a-presentation-in-powerpoint",
+    "draftID": "easy-18-034"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is an email attachment?",
+    "answers": [
+      "A file sent with an email message",
+      "A cable connecting two keyboards",
+      "The email subject line",
+      "A computer screen border"
+    ],
+    "correctIndex": 0,
+    "rationale": "Attachments are files accompanying a message.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Attachments are files accompanying a message.",
+      "answer": "Attachments are files accompanying a message.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/outlook/basic-tasks-in-outlook",
+    "draftID": "easy-18-035"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which part of an email briefly describes what the message is about?",
+    "answers": [
+      "The subject line",
+      "The recipient address",
+      "The attachment filename",
+      "The signature"
+    ],
+    "correctIndex": 0,
+    "rationale": "The subject summarises the email topic.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "The subject summarises the email topic.",
+      "answer": "The subject summarises the email topic.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/outlook/basic-tasks-in-outlook",
+    "draftID": "easy-18-036"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "In an email program, what is the inbox?",
+    "answers": [
+      "The folder where incoming messages normally arrive",
+      "A bin for printer paper",
+      "A list of installed fonts",
+      "A computer repair tool"
+    ],
+    "correctIndex": 0,
+    "rationale": "The inbox holds received messages.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "The inbox holds received messages.",
+      "answer": "The inbox holds received messages.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/outlook/basic-tasks-in-outlook",
+    "draftID": "easy-18-037"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is an email draft?",
+    "answers": [
+      "A message saved before it is sent",
+      "A message printed on paper",
+      "A broken internet connection",
+      "A deleted contact list"
+    ],
+    "correctIndex": 0,
+    "rationale": "Drafts are unsent messages.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Drafts are unsent messages.",
+      "answer": "Drafts are unsent messages.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/outlook/basic-tasks-in-outlook",
+    "draftID": "easy-18-038"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does forwarding an email allow you to do?",
+    "answers": [
+      "Send a received message on to another recipient",
+      "Change the original sender account",
+      "Increase the screen resolution",
+      "Recall every copy of the message"
+    ],
+    "correctIndex": 0,
+    "rationale": "Forwarding sends a message onward.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Forwarding sends a message onward.",
+      "answer": "Forwarding sends a message onward.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/outlook/basic-tasks-in-outlook",
+    "draftID": "easy-18-039"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does Reply All normally do in an email conversation?",
+    "answers": [
+      "Addresses a reply to the sender and the recipients on the To and Cc lines",
+      "Replies only to the sender",
+      "Includes every hidden Bcc recipient automatically",
+      "Forwards the message to all saved contacts"
+    ],
+    "correctIndex": 0,
+    "rationale": "Reply All addresses participants in that message, not all contacts.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Reply All addresses participants in that message, not all contacts.",
+      "answer": "Reply All addresses participants in that message, not all contacts.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/outlook/reply-to-or-forward-an-email-message",
+    "draftID": "easy-18-040"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does Bcc allow an email sender to do?",
+    "answers": [
+      "Include recipients whose addresses are hidden from the other recipients",
+      "Hide the sender address from everyone",
+      "Automatically encrypt every attachment",
+      "Prevent any recipient from forwarding the message"
+    ],
+    "correctIndex": 0,
+    "rationale": "Blind carbon copy conceals those recipient addresses from other recipients.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Blind carbon copy conceals those recipient addresses from other recipients.",
+      "answer": "Blind carbon copy conceals those recipient addresses from other recipients.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/outlook/create-reply-to-or-forward-email-messages-in-outlook-on-the-web",
+    "draftID": "easy-18-041"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is spam in an email context?",
+    "answers": [
+      "Unwanted bulk messages",
+      "A keyboard shortcut",
+      "A spreadsheet formula",
+      "A printer paper size"
+    ],
+    "correctIndex": 0,
+    "rationale": "Spam is unsolicited bulk electronic messaging.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Spam is unsolicited bulk electronic messaging.",
+      "answer": "Spam is unsolicited bulk electronic messaging.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/outlook/basic-tasks-in-outlook",
+    "draftID": "easy-18-042"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a contact list in an email application used to store?",
+    "answers": [
+      "People and their contact details",
+      "Only the computer temperature",
+      "The printer ink level",
+      "Every file on the hard drive"
+    ],
+    "correctIndex": 0,
+    "rationale": "Contact lists store people and addresses or other contact information.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Contact lists store people and addresses or other contact information.",
+      "answer": "Contact lists store people and addresses or other contact information.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/outlook/basic-tasks-in-outlook",
+    "draftID": "easy-18-043"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does muting your microphone during a video call do?",
+    "answers": [
+      "Stops your microphone audio being sent to the call",
+      "Turns every other camera off",
+      "Deletes the meeting invitation",
+      "Changes the voices of the other speakers"
+    ],
+    "correctIndex": 0,
+    "rationale": "Muting suppresses outgoing microphone audio.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Muting suppresses outgoing microphone audio.",
+      "answer": "Muting suppresses outgoing microphone audio.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "draftID": "easy-18-044"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is screen sharing during an online meeting?",
+    "answers": [
+      "Showing other participants content from your screen",
+      "Automatically sending every file on your computer",
+      "Giving every participant control of your keyboard",
+      "Changing the background behind your camera image"
+    ],
+    "correctIndex": 0,
+    "rationale": "Screen sharing transmits screen content for participants to view.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Screen sharing transmits screen content for participants to view.",
+      "answer": "Screen sharing transmits screen content for participants to view.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "draftID": "easy-18-045"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a webcam mainly used to capture?",
+    "answers": [
+      "Live video images",
+      "Printed paper documents automatically",
+      "The temperature of the processor",
+      "The contents of a USB drive"
+    ],
+    "correctIndex": 0,
+    "rationale": "Webcams capture video, often for calls.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Webcams capture video, often for calls.",
+      "answer": "Webcams capture video, often for calls.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "draftID": "easy-18-046"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which device turns your voice into an audio input for a computer?",
+    "answers": [
+      "A microphone",
+      "A monitor",
+      "A printer",
+      "A projector"
+    ],
+    "correctIndex": 0,
+    "rationale": "A microphone converts sound into an input signal.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "A microphone converts sound into an input signal.",
+      "answer": "A microphone converts sound into an input signal.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "draftID": "easy-18-047"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which device projects a computer image onto a wall or screen?",
+    "answers": [
+      "A projector",
+      "A scanner",
+      "A router",
+      "A keyboard"
+    ],
+    "correctIndex": 0,
+    "rationale": "Projectors display images on another surface.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Projectors display images on another surface.",
+      "answer": "Projectors display images on another surface.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "draftID": "easy-18-048"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which device turns a paper photograph into a digital image by scanning it?",
+    "answers": [
+      "A scanner",
+      "A loudspeaker",
+      "A joystick",
+      "A router"
+    ],
+    "correctIndex": 0,
+    "rationale": "Scanners digitise paper images.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Scanners digitise paper images.",
+      "answer": "Scanners digitise paper images.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "draftID": "easy-18-049"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does a computer touchpad usually control?",
+    "answers": [
+      "The on-screen pointer",
+      "The amount of printer ink",
+      "The mains electricity supply",
+      "The speaker cable length"
+    ],
+    "correctIndex": 0,
+    "rationale": "Touchpads are pointing devices.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Touchpads are pointing devices.",
+      "answer": "Touchpads are pointing devices.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "draftID": "easy-18-050"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does downloading a file mean?",
+    "answers": [
+      "Receiving a file from another computer or service",
+      "Printing a file on paper",
+      "Turning off the monitor",
+      "Removing every file from a folder"
+    ],
+    "correctIndex": 0,
+    "rationale": "Downloading transfers data to the receiving device.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Downloading transfers data to the receiving device.",
+      "answer": "Downloading transfers data to the receiving device.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.mozilla.org/en-US/kb/how-use-firefox",
+    "draftID": "easy-18-051"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does uploading a photograph to a website mean?",
+    "answers": [
+      "Sending the image from your device to the website",
+      "Saving a copy from the website to your device",
+      "Changing the image filename on your device only",
+      "Printing the image from your browser"
+    ],
+    "correctIndex": 0,
+    "rationale": "Uploading sends data to a remote service.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Uploading sends data to a remote service.",
+      "answer": "Uploading sends data to a remote service.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.mozilla.org/en-US/kb/how-use-firefox",
+    "draftID": "easy-18-052"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a hyperlink designed to do when activated?",
+    "answers": [
+      "Take you to linked content or a destination",
+      "Automatically clean your keyboard",
+      "Add ink to a printer",
+      "Measure your battery weight"
+    ],
+    "correctIndex": 0,
+    "rationale": "Links connect a document or page to another destination.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Links connect a document or page to another destination.",
+      "answer": "Links connect a document or page to another destination.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.mozilla.org/en-US/kb/how-use-firefox",
+    "draftID": "easy-18-053"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does a browser bookmark help you do?",
+    "answers": [
+      "Return to a saved web address",
+      "Recover every deleted password",
+      "Make a webpage permanently available offline",
+      "Increase your internet contract speed"
+    ],
+    "correctIndex": 0,
+    "rationale": "Bookmarks save destinations, not guarantees of offline content.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Bookmarks save destinations, not guarantees of offline content.",
+      "answer": "Bookmarks save destinations, not guarantees of offline content.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.mozilla.org/en-US/kb/bookmarks-firefox",
+    "draftID": "easy-18-054"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is the purpose of browser tabs?",
+    "answers": [
+      "Keep multiple pages open within a browser window",
+      "Hold printer paper in place",
+      "Replace a damaged screen",
+      "Store spare keyboard keys"
+    ],
+    "correctIndex": 0,
+    "rationale": "Tabs separate open browsing pages within a window.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Tabs separate open browsing pages within a window.",
+      "answer": "Tabs separate open browsing pages within a window.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.mozilla.org/en-US/kb/how-use-firefox",
+    "draftID": "easy-18-055"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does a browser address bar let you enter?",
+    "answers": [
+      "A web address",
+      "Only a page number in a printed document",
+      "Only the name of a locally installed font",
+      "Only a spreadsheet formula"
+    ],
+    "correctIndex": 0,
+    "rationale": "An address bar accepts URLs and commonly search queries.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "An address bar accepts URLs and commonly search queries.",
+      "answer": "An address bar accepts URLs and commonly search queries.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.mozilla.org/en-US/kb/address-bar-autocomplete-firefox",
+    "draftID": "easy-18-056"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does refreshing a webpage normally do?",
+    "answers": [
+      "Requests the page again to update its displayed content",
+      "Deletes the entire website",
+      "Changes the website owner",
+      "Permanently increases the computer memory"
+    ],
+    "correctIndex": 0,
+    "rationale": "Refresh reloads the page rather than altering ownership or hardware.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Refresh reloads the page rather than altering ownership or hardware.",
+      "answer": "Refresh reloads the page rather than altering ownership or hardware.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.mozilla.org/en-US/kb/how-use-firefox",
+    "draftID": "easy-18-057"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a website home page?",
+    "answers": [
+      "Its main or introductory page",
+      "The home address of the website owner",
+      "A page that only opens at home",
+      "The final page of every document"
+    ],
+    "correctIndex": 0,
+    "rationale": "A home page is the principal entry page for a site.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "A home page is the principal entry page for a site.",
+      "answer": "A home page is the principal entry page for a site.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.mozilla.org/en-US/kb/how-use-firefox",
+    "draftID": "easy-18-058"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a search engine mainly designed to help you find?",
+    "answers": [
+      "Information and resources matching a query",
+      "Only files already in the printer",
+      "The weight of a computer",
+      "The physical location of every keyboard"
+    ],
+    "correctIndex": 0,
+    "rationale": "Search engines return resources relevant to search terms.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Search engines return resources relevant to search terms.",
+      "answer": "Search engines return resources relevant to search terms.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.mozilla.org/en-US/kb/how-use-firefox",
+    "draftID": "easy-18-059"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does a browser Back button normally do?",
+    "answers": [
+      "Returns to the previous page in that tab history",
+      "Deletes the most recent download",
+      "Reverses the direction of the keyboard",
+      "Permanently removes the current website"
+    ],
+    "correctIndex": 0,
+    "rationale": "Back navigates the tab history.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Back navigates the tab history.",
+      "answer": "Back navigates the tab history.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.mozilla.org/en-US/kb/how-use-firefox",
+    "draftID": "easy-18-060"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does scrolling a long webpage do?",
+    "answers": [
+      "Moves the visible portion of the page",
+      "Changes the website password",
+      "Rewrites every paragraph",
+      "Turns a page into a video"
+    ],
+    "correctIndex": 0,
+    "rationale": "Scrolling changes the viewport position.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Scrolling changes the viewport position.",
+      "answer": "Scrolling changes the viewport position.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.mozilla.org/en-US/kb/how-use-firefox",
+    "draftID": "easy-18-061"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a pop-up window?",
+    "answers": [
+      "An additional window that appears over or beside the current one",
+      "A mechanical part of a laptop hinge",
+      "A folder used only for photographs",
+      "A special kind of printer paper"
+    ],
+    "correctIndex": 0,
+    "rationale": "A pop-up is an additional application or browser window.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "A pop-up is an additional application or browser window.",
+      "answer": "A pop-up is an additional application or browser window.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.mozilla.org/en-US/kb/how-use-firefox",
+    "draftID": "easy-18-062"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does zooming in on a webpage normally do?",
+    "answers": [
+      "Makes its displayed content appear larger",
+      "Adds more internet cables",
+      "Changes the website owner",
+      "Makes the file physically heavier"
+    ],
+    "correctIndex": 0,
+    "rationale": "Browser zoom enlarges the displayed content.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Browser zoom enlarges the displayed content.",
+      "answer": "Browser zoom enlarges the displayed content.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.mozilla.org/en-US/kb/how-use-firefox",
+    "draftID": "easy-18-063"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a file folder mainly used for on a computer?",
+    "answers": [
+      "Organising files and other folders",
+      "Charging the battery",
+      "Cleaning the monitor",
+      "Increasing the speaker volume"
+    ],
+    "correctIndex": 0,
+    "rationale": "Folders organise filesystem items.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Folders organise filesystem items.",
+      "answer": "Folders organise filesystem items.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows",
+    "draftID": "easy-18-064"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a subfolder?",
+    "answers": [
+      "A folder located inside another folder",
+      "A file compressed into a smaller image",
+      "A shortcut to a printer",
+      "A program running without a window"
+    ],
+    "correctIndex": 0,
+    "rationale": "Subfolders are nested directories.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Subfolders are nested directories.",
+      "answer": "Subfolders are nested directories.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows",
+    "draftID": "easy-18-065"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "In a filename such as holiday.jpg, what is .jpg called?",
+    "answers": [
+      "The file extension",
+      "The password",
+      "The row number",
+      "The keyboard layout"
+    ],
+    "correctIndex": 0,
+    "rationale": "The suffix identifies an intended file type.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "The suffix identifies an intended file type.",
+      "answer": "The suffix identifies an intended file type.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows",
+    "draftID": "easy-18-066"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which filename most clearly suggests a plain-text document?",
+    "answers": [
+      "notes.txt",
+      "holiday.jpg",
+      "song.mp3",
+      "movie.mp4"
+    ],
+    "correctIndex": 0,
+    "rationale": "The txt extension conventionally denotes plain text.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "The txt extension conventionally denotes plain text.",
+      "answer": "The txt extension conventionally denotes plain text.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows",
+    "draftID": "easy-18-067"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which filename most clearly suggests an audio file?",
+    "answers": [
+      "song.mp3",
+      "notes.txt",
+      "table.csv",
+      "portrait.jpg"
+    ],
+    "correctIndex": 0,
+    "rationale": "MP3 is an audio format.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "MP3 is an audio format.",
+      "answer": "MP3 is an audio format.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows",
+    "draftID": "easy-18-068"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which filename most clearly suggests a video file?",
+    "answers": [
+      "holiday.mp4",
+      "notes.txt",
+      "portrait.jpg",
+      "budget.csv"
+    ],
+    "correctIndex": 0,
+    "rationale": "MP4 is a multimedia container conventionally used for video; other listed formats are text or still-image.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "MP4 is a multimedia container conventionally used for video; other listed formats are text or still-image.",
+      "answer": "MP4 is a multimedia container conventionally used for video; other listed formats are text or still-image.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows",
+    "draftID": "easy-18-069"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does renaming a file normally change?",
+    "answers": [
+      "The name used to identify it",
+      "Every sentence inside it",
+      "The computer processor",
+      "The physical storage device"
+    ],
+    "correctIndex": 0,
+    "rationale": "Renaming changes the directory entry name, not file contents.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Renaming changes the directory entry name, not file contents.",
+      "answer": "Renaming changes the directory entry name, not file contents.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows",
+    "draftID": "easy-18-070"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a backup copy intended to provide?",
+    "answers": [
+      "A way to recover data if the original is lost or damaged",
+      "A guarantee that no computer can ever fail",
+      "An extra physical screen",
+      "A faster keyboard"
+    ],
+    "correctIndex": 0,
+    "rationale": "Backups support recovery; they do not prevent all failures.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Backups support recovery; they do not prevent all failures.",
+      "answer": "Backups support recovery; they do not prevent all failures.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows",
+    "draftID": "easy-18-071"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is an external storage drive?",
+    "answers": [
+      "A storage device connected outside the computer case",
+      "A second monitor",
+      "A program that changes fonts",
+      "A computer mouse"
+    ],
+    "correctIndex": 0,
+    "rationale": "External drives provide storage outside the enclosure.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "External drives provide storage outside the enclosure.",
+      "answer": "External drives provide storage outside the enclosure.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows",
+    "draftID": "easy-18-072"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a USB flash drive commonly used for?",
+    "answers": [
+      "Carrying and transferring files",
+      "Projecting an image onto a wall",
+      "Printing without paper",
+      "Measuring room temperature"
+    ],
+    "correctIndex": 0,
+    "rationale": "Flash drives are portable storage devices.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Flash drives are portable storage devices.",
+      "answer": "Flash drives are portable storage devices.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows",
+    "draftID": "easy-18-073"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What can a ZIP archive be used to do?",
+    "answers": [
+      "Bundle several files into one archive",
+      "Translate every document into another language",
+      "Turn every photograph into a video",
+      "Increase the resolution of every image"
+    ],
+    "correctIndex": 0,
+    "rationale": "ZIP packages files in one archive and can compress them; already compressed data may not shrink appreciably.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Copying duplicates; moving and renaming do not create a separate copy.",
+      "answer": "Copying duplicates; moving and renaming do not create a separate copy.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/zip-and-unzip-files",
+    "draftID": "easy-18-074"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a password used for when signing into an account?",
+    "answers": [
+      "Helping verify that you are authorised to access it",
+      "Making the screen brighter",
+      "Increasing the storage capacity",
+      "Choosing the printer paper size"
+    ],
+    "correctIndex": 0,
+    "rationale": "Passwords are an authentication factor.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Passwords are an authentication factor.",
+      "answer": "Passwords are an authentication factor.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers",
+    "draftID": "easy-18-075"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Which habit best avoids reusing one password across many accounts?",
+    "answers": [
+      "Using a different password for each account",
+      "Using your first name everywhere",
+      "Sharing one password with friends",
+      "Adding the same number to every username"
+    ],
+    "correctIndex": 0,
+    "rationale": "Distinct passwords avoid exact reuse; the other options do not.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Distinct passwords avoid exact reuse; the other options do not.",
+      "answer": "Distinct passwords avoid exact reuse; the other options do not.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers",
+    "draftID": "easy-18-076"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is the main purpose of a password manager?",
+    "answers": [
+      "Store and help manage account passwords",
+      "Check documents for spelling errors",
+      "Arrange browser tabs by colour",
+      "Remove unwanted email attachments"
+    ],
+    "correctIndex": 0,
+    "rationale": "Password managers manage credentials.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Password managers manage credentials.",
+      "answer": "Password managers manage credentials.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers",
+    "draftID": "easy-18-077"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does two-factor authentication require?",
+    "answers": [
+      "Two different types of evidence to verify a login",
+      "Two identical copies of the same password",
+      "Two different usernames with no other checks",
+      "Two browser tabs showing the same login page"
+    ],
+    "correctIndex": 0,
+    "rationale": "Factors must be distinct categories, not duplicate passwords.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Factors must be distinct categories, not duplicate passwords.",
+      "answer": "Factors must be distinct categories, not duplicate passwords.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers",
+    "draftID": "easy-18-078"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is phishing intended to trick someone into doing?",
+    "answers": [
+      "Revealing information or taking an unsafe action through deception",
+      "Removing blank rows from a spreadsheet",
+      "Compressing files into an archive",
+      "Changing the resolution of a photograph"
+    ],
+    "correctIndex": 0,
+    "rationale": "Phishing impersonates trusted communications for deceptive requests.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Phishing impersonates trusted communications for deceptive requests.",
+      "answer": "Phishing impersonates trusted communications for deceptive requests.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://www.ncsc.gov.uk/guidance/phishing",
+    "draftID": "easy-18-079"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does signing out of an online account normally do?",
+    "answers": [
+      "Ends your current signed-in session",
+      "Deletes the entire account permanently",
+      "Removes the operating system",
+      "Turns off every computer on the network"
+    ],
+    "correctIndex": 0,
+    "rationale": "Signing out ends the session rather than deleting the account.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Signing out ends the session rather than deleting the account.",
+      "answer": "Signing out ends the session rather than deleting the account.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers",
+    "draftID": "easy-18-080"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "Why should you lock a computer when leaving it unattended in a shared workspace?",
+    "answers": [
+      "To help prevent others using your signed-in session",
+      "To permanently delete your saved documents",
+      "To give other users your account permissions",
+      "To change the password of every account"
+    ],
+    "correctIndex": 0,
+    "rationale": "Locking requires authentication to resume the session.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Locking requires authentication to resume the session.",
+      "answer": "Locking requires authentication to resume the session.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers",
+    "draftID": "easy-18-081"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is ransomware designed to demand after blocking access to files or systems?",
+    "answers": [
+      "A payment",
+      "A spelling correction",
+      "A screen-resolution change",
+      "A software licence review with no charge"
+    ],
+    "correctIndex": 0,
+    "rationale": "Ransomware attempts extortion; payment does not guarantee recovery.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Ransomware attempts extortion; payment does not guarantee recovery.",
+      "answer": "Ransomware attempts extortion; payment does not guarantee recovery.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://www.ncsc.gov.uk/pdfs/guidance/mitigating-malware-and-ransomware-attacks.pdf",
+    "draftID": "easy-18-082"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is antivirus software intended to help detect?",
+    "answers": [
+      "Malicious software",
+      "Misspelled names in every document",
+      "Duplicate photographs in every folder",
+      "Unused contacts in an address book"
+    ],
+    "correctIndex": 0,
+    "rationale": "Antivirus detects malware; it is not a complete guarantee of protection.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Antivirus detects malware; it is not a complete guarantee of protection.",
+      "answer": "Antivirus detects malware; it is not a complete guarantee of protection.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://www.ncsc.gov.uk/pdfs/guidance/mitigating-malware-and-ransomware-attacks.pdf",
+    "draftID": "easy-18-083"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does installing a software update commonly provide?",
+    "answers": [
+      "Fixes or improvements to the software",
+      "A new physical computer case",
+      "A guarantee that all files are backed up",
+      "A guaranteed increase in internet contract speed"
+    ],
+    "correctIndex": 0,
+    "rationale": "Updates change software and may fix bugs or vulnerabilities.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Updates change software and may fix bugs or vulnerabilities.",
+      "answer": "Updates change software and may fix bugs or vulnerabilities.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://www.ncsc.gov.uk/pdfs/guidance/mitigating-malware-and-ransomware-attacks.pdf",
+    "draftID": "easy-18-084"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does read-only access to a document normally permit?",
+    "answers": [
+      "Viewing it without changing the stored document",
+      "Changing and deleting every page",
+      "Replacing the password of its owner",
+      "Editing every file on the computer"
+    ],
+    "correctIndex": 0,
+    "rationale": "Read-only permission permits reading rather than modifying.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Read-only permission permits reading rather than modifying.",
+      "answer": "Read-only permission permits reading rather than modifying.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "draftID": "easy-18-085"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a user account on a computer?",
+    "answers": [
+      "An identity with its own access and settings",
+      "A count of the keyboard keys",
+      "A measurement of the screen width",
+      "A printer cartridge number"
+    ],
+    "correctIndex": 0,
+    "rationale": "Accounts organise identity, permissions and user settings.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Accounts organise identity, permissions and user settings.",
+      "answer": "Accounts organise identity, permissions and user settings.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "draftID": "easy-18-086"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a guest account commonly intended for?",
+    "answers": [
+      "Someone using a device temporarily with limited access",
+      "Only the computer manufacturer",
+      "A spare cooling fan",
+      "A page containing printer settings"
+    ],
+    "correctIndex": 0,
+    "rationale": "Guest access is generally temporary and restricted.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Guest access is generally temporary and restricted.",
+      "answer": "Guest access is generally temporary and restricted.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.apple.com/guide/mac-help/mh15600/mac",
+    "draftID": "easy-18-087"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does Wi-Fi let compatible devices connect to without a network cable?",
+    "answers": [
+      "A wireless local network",
+      "A paper document",
+      "A keyboard key",
+      "A printer ink cartridge"
+    ],
+    "correctIndex": 0,
+    "rationale": "Wi-Fi is wireless local networking; it does not itself guarantee internet service.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Wi-Fi is wireless local networking; it does not itself guarantee internet service.",
+      "answer": "Wi-Fi is wireless local networking; it does not itself guarantee internet service.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.apple.com/en-us/102766",
+    "draftID": "easy-18-088"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a Wi-Fi network name commonly called?",
+    "answers": [
+      "An SSID",
+      "A URL",
+      "A PDF",
+      "A CPU"
+    ],
+    "correctIndex": 0,
+    "rationale": "SSID identifies a wireless network.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "SSID identifies a wireless network.",
+      "answer": "SSID identifies a wireless network.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.apple.com/en-us/102766",
+    "draftID": "easy-18-089"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does being offline mean in the context of an internet app?",
+    "answers": [
+      "Not currently connected to its online service",
+      "Having no keyboard attached",
+      "Using a dark wallpaper",
+      "Printing a document"
+    ],
+    "correctIndex": 0,
+    "rationale": "Offline describes disconnected service use, not a physical keyboard state.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Offline describes disconnected service use, not a physical keyboard state.",
+      "answer": "Offline describes disconnected service use, not a physical keyboard state.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "draftID": "easy-18-090"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does a progress bar usually indicate while a file is being copied?",
+    "answers": [
+      "How much of the operation has been completed",
+      "The current processor temperature",
+      "The age of the file owner",
+      "The number of files permanently deleted"
+    ],
+    "correctIndex": 0,
+    "rationale": "Progress bars indicate completion progress.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Progress bars indicate completion progress.",
+      "answer": "Progress bars indicate completion progress.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "draftID": "easy-18-091"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a screenshot?",
+    "answers": [
+      "An image captured from what a screen displays",
+      "A printed keyboard guide",
+      "A new computer password",
+      "A recording of sound only"
+    ],
+    "correctIndex": 0,
+    "rationale": "Screenshots capture screen imagery.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Screenshots capture screen imagery.",
+      "answer": "Screenshots capture screen imagery.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "draftID": "easy-18-092"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does cropping a digital photograph do?",
+    "answers": [
+      "Removes unwanted outer parts of the image",
+      "Adds a coloured border around the image",
+      "Rotates the whole image clockwise",
+      "Combines two images side by side"
+    ],
+    "correctIndex": 0,
+    "rationale": "Cropping changes image boundaries by discarding edges.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Cropping changes image boundaries by discarding edges.",
+      "answer": "Cropping changes image boundaries by discarding edges.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "draftID": "easy-18-093"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a pixel in a digital image?",
+    "answers": [
+      "An individual picture element",
+      "A computer password",
+      "A page margin",
+      "An email folder"
+    ],
+    "correctIndex": 0,
+    "rationale": "Pixels are individual sampled picture elements.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Pixels are individual sampled picture elements.",
+      "answer": "Pixels are individual sampled picture elements.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "draftID": "easy-18-094"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a thumbnail image?",
+    "answers": [
+      "A small preview of a larger image or document",
+      "A full-resolution backup of every file",
+      "A list of all the image metadata",
+      "A password-protected image folder"
+    ],
+    "correctIndex": 0,
+    "rationale": "Thumbnails are reduced previews.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Thumbnails are reduced previews.",
+      "answer": "Thumbnails are reduced previews.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "draftID": "easy-18-095"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does drag and drop mean in a graphical interface?",
+    "answers": [
+      "Move an item while holding it with the pointer, then release it",
+      "Click an item twice without moving the pointer",
+      "Use a keyboard shortcut to close a window",
+      "Scroll a page without selecting an item"
+    ],
+    "correctIndex": 0,
+    "rationale": "Dragging keeps an item selected during pointer movement until release.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Dragging keeps an item selected during pointer movement until release.",
+      "answer": "Dragging keeps an item selected during pointer movement until release.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "draftID": "easy-18-096"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is a desktop wallpaper on a computer?",
+    "answers": [
+      "The background image or design behind desktop items",
+      "Paper pasted inside the computer case",
+      "A printed list of passwords",
+      "A folder used only for emails"
+    ],
+    "correctIndex": 0,
+    "rationale": "Wallpaper is the desktop background.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Wallpaper is the desktop background.",
+      "answer": "Wallpaper is the desktop background.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "draftID": "easy-18-097"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What is an application icon usually intended to represent?",
+    "answers": [
+      "A program you can open",
+      "The size of a downloaded file",
+      "The number of pages in a document",
+      "The current battery charge"
+    ],
+    "correctIndex": 0,
+    "rationale": "Application icons represent software applications.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Application icons represent software applications.",
+      "answer": "Application icons represent software applications.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "draftID": "easy-18-098"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does minimising a window normally do?",
+    "answers": [
+      "Hides it from the main desktop view without closing the program",
+      "Uninstalls the program",
+      "Deletes the open document",
+      "Switches off the computer"
+    ],
+    "correctIndex": 0,
+    "rationale": "Minimising removes the window from view without exiting the application.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "Minimising removes the window from view without exiting the application.",
+      "answer": "Minimising removes the window from view without exiting the application.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "draftID": "easy-18-099"
+  },
+  {
+    "categoryID": "18",
+    "difficulty": "easy",
+    "prompt": "What does a software bug mean?",
+    "answers": [
+      "An error or defect in a program",
+      "A new feature added intentionally",
+      "A licence allowing software installation",
+      "A copy saved for data recovery"
+    ],
+    "correctIndex": 0,
+    "rationale": "A bug is a software defect, not necessarily a literal insect.",
+    "reviewStatus": "draft_awaiting_independent_review",
+    "authorReview": {
+      "meaning": "A bug is a software defect, not necessarily a literal insect.",
+      "answer": "A bug is a software defect, not necessarily a literal insect.",
+      "grammar": "Prompt and four choices read individually for agreement and clarity.",
+      "category": "Everyday computer use and beginner digital skills."
+    },
+    "sourceURL": "https://support.apple.com/guide/mac-help/welcome/mac",
+    "draftID": "easy-18-100"
+  }
+]

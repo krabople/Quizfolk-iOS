@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "7573901f394b2a60b4e3",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "How many squares are on a standard chessboard?",
+    "answers": [
+      "64",
+      "49",
+      "81",
+      "100"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "43069993c2a5ebff3348",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "How many pieces does each player have at the start of a standard chess game?",
+    "answers": [
+      "12",
+      "18",
+      "20",
+      "16"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "3d3e4e8e7c725880f6f2",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "How many pawns does each player start with in standard chess?",
+    "answers": [
+      "7",
+      "10",
+      "8",
+      "6"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "9e795a3263fec81450c4",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which chess piece moves any number of unobstructed squares along a rank or file, but not diagonally?",
+    "answers": [
+      "King",
+      "Rook",
+      "Bishop",
+      "Knight"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "a06b31e8af60650062d0",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which chess piece makes the familiar L-shaped move?",
+    "answers": [
+      "Knight",
+      "Rook",
+      "Bishop",
+      "King"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "9f4621d6ba756d4ea35f",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which chess piece can jump over intervening pieces during its ordinary move?",
+    "answers": [
+      "Bishop",
+      "Rook",
+      "Queen",
+      "Knight"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "1089c28c3849817ae6f1",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Apart from castling, how far may a king move in one standard chess move?",
+    "answers": [
+      "Three squares diagonally",
+      "Any number of clear squares",
+      "One square",
+      "Two squares in a straight line"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "4e78d4c69a501721d2d0",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In chess, may you make a move that leaves your own king under attack?",
+    "answers": [
+      "Yes, but only on your first turn",
+      "No",
+      "Yes, whenever you capture a pawn",
+      "Yes, if your queen is safe"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "1eefcb54ed1bbb1f65d5",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "What is the result when a player checkmates the opposing king in standard chess?",
+    "answers": [
+      "That player wins",
+      "The game is automatically drawn",
+      "Both kings are removed and play continues",
+      "The losing player gets another move"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "b6303af6d5c663fbdbf8",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In an ordinary chess capture, which way does a pawn take an opposing piece?",
+    "answers": [
+      "One square straight backwards",
+      "Any distance horizontally",
+      "Two squares straight forwards",
+      "One square diagonally forwards"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "4632d6487e0290208eaa",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "How does a chess pawn normally advance when it is not capturing?",
+    "answers": [
+      "Sideways",
+      "Diagonally backwards",
+      "Straight forwards",
+      "Straight backwards"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "b65ed42563b72c3a3194",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "What happens when a chess pawn legally reaches the farthest rank?",
+    "answers": [
+      "It is removed without replacement",
+      "It is promoted to another permitted piece",
+      "It must become a king",
+      "It returns to its starting square"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "c8f1771d21a3bd46fc3a",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "At the start of standard chess, the white queen stands on a square of which colour?",
+    "answers": [
+      "White",
+      "Black",
+      "Either colour chosen by its player",
+      "A special red square"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "5e0165c15da8ad0b3e52",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "When setting up a standard chessboard, what colour is the nearest corner square on your right?",
+    "answers": [
+      "Black",
+      "Always green",
+      "Either colour is equally valid",
+      "White"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "9baa4bab990b2f53697a",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In ordinary chess tournament scoring, how many points does each player receive for a draw?",
+    "answers": [
+      "Two points",
+      "No points",
+      "Half a point",
+      "One point"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "37cf8b7da22b5d2494a6",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which letter represents the king in English algebraic chess notation?",
+    "answers": [
+      "B",
+      "K",
+      "N",
+      "R"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "c4dd0aa88c1a06fbd379",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which letter represents the queen in English algebraic chess notation?",
+    "answers": [
+      "Q",
+      "K",
+      "N",
+      "P"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "c278ac5d4bfe73ce8172",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In algebraic chess notation, the numbers 1 to 8 identify what?",
+    "answers": [
+      "Files",
+      "Piece values",
+      "Move numbers",
+      "Ranks"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "d050708d5ec89b9a210e",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In algebraic chess notation, the letters a to h identify what?",
+    "answers": [
+      "Captured pieces only",
+      "The move numbers",
+      "Files",
+      "Ranks"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "cdc233c729c5bd5d2c5f",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "What is a chess clock mainly used to track?",
+    "answers": [
+      "The number of spectators",
+      "The thinking time available to each player",
+      "The number of captured pawns",
+      "The value of each piece"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "5cd8e04488980e001548",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "How many suits are in a standard French-suited pack of playing cards?",
+    "answers": [
+      "4",
+      "3",
+      "5",
+      "6"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://bicyclecards.com/how-to-play/basics-of-poker",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "206db39acd1a773cab58",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which pair of suits is red in a standard French-suited pack?",
+    "answers": [
+      "Clubs and spades",
+      "Hearts and clubs",
+      "Diamonds and spades",
+      "Hearts and diamonds"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://bicyclecards.com/how-to-play/basics-of-poker",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "32c484b2d168361c2016",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Excluding jokers, how many cards are in a standard French-suited pack?",
+    "answers": [
+      "54",
+      "56",
+      "52",
+      "48"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://bicyclecards.com/how-to-play/basics-of-poker",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "375194e670eb28881c63",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which group contains the three face-card ranks in a standard French-suited pack?",
+    "answers": [
+      "Ten, jack and ace",
+      "Jack, queen and king",
+      "Ace, two and three",
+      "Seven, eight and nine"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://bicyclecards.com/how-to-play/basics-of-poker",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "1e94d289c8df60195493",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "How many aces are in a standard 52-card pack?",
+    "answers": [
+      "4",
+      "2",
+      "3",
+      "5"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://bicyclecards.com/how-to-play/basics-of-poker",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "e8da5e9b4e3519748cd8",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "What does shuffling a pack of cards do?",
+    "answers": [
+      "Sorts every card into numerical order",
+      "Deals cards to each player",
+      "Removes all jokers from the pack",
+      "Mixes up the order of the cards"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://bicyclecards.com/how-to-play/cribbage",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "81cdf10658f40a05569f",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In a card game, what does dealing mean?",
+    "answers": [
+      "Mixing the order of the pack",
+      "Placing a held card on the discard pile",
+      "Distributing cards to players",
+      "Adding scores after the game"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://bicyclecards.com/how-to-play/cribbage",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "4e7a96d2b120c5bc735c",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In card-game terminology, what is a player's hand?",
+    "answers": [
+      "Only the cards already discarded",
+      "The cards that player currently holds",
+      "The entire unopened pack",
+      "The table used for play"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://bicyclecards.com/how-to-play/basics-of-poker",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "9d72e5a8bc1c51e966db",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "What does it mean to discard a card during play?",
+    "answers": [
+      "Put it aside as the rules allow",
+      "Take a new card into your hand",
+      "Mix the order of the entire pack",
+      "Deal a new hand to every player"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://bicyclecards.com/how-to-play/rummy-rum",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "08278ac34a7ded938795",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In card games, what does drawing a card normally mean?",
+    "answers": [
+      "Putting a held card on the discard pile",
+      "Spreading your entire hand face up",
+      "Mixing the order of the pack",
+      "Taking a card from an available pile or source"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://bicyclecards.com/how-to-play/rummy-rum",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "a1fbed578b192d519c82",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In a trick-taking card game, what is a trick?",
+    "answers": [
+      "The total score for one player",
+      "The face-down cards not yet dealt",
+      "A round in which players each contribute a card",
+      "The full pack before it is dealt"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://bicyclecards.com/how-to-play/whist",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "3fb561c48e2bfe6d8310",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In many trick-taking games, what special advantage does the trump suit have?",
+    "answers": [
+      "It is removed before every deal",
+      "It can beat cards from other suits",
+      "Every card in it is worth zero",
+      "It may never be played"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://bicyclecards.com/how-to-play/whist",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "de4e71209ca36e965308",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In card games, what does following suit mean?",
+    "answers": [
+      "Playing a card of the suit that was led",
+      "Playing the same numerical rank regardless of suit",
+      "Playing any card face down",
+      "Copying the previous player's bid"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://bicyclecards.com/how-to-play/whist",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "08adb4aaae5366e7f1d4",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Who distributes the cards at the start of a hand in a conventional card game?",
+    "answers": [
+      "The scorer by definition",
+      "The person holding the most aces",
+      "The previous winner in every game",
+      "The dealer"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://bicyclecards.com/how-to-play/cribbage",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "289fd37557e9a3bd378d",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "How many players take part in a standard game of contract bridge?",
+    "answers": [
+      "3",
+      "5",
+      "4",
+      "2"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.acbl.org/learn/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "645a7018933f8da682c8",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In contract bridge, where does your partner sit?",
+    "answers": [
+      "At a different table",
+      "Opposite you",
+      "Immediately to your left",
+      "Immediately to your right"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.acbl.org/learn/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "ec6a87ecdc0b47401700",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which of these is traditionally a trick-taking card game?",
+    "answers": [
+      "Whist",
+      "Snap",
+      "Patience",
+      "Rummy"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://bicyclecards.com/how-to-play/whist",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "79be26e77cf1ff47cdf8",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In the card game Snap, what match are players normally watching for?",
+    "answers": [
+      "Any two black cards",
+      "Cards with different backs",
+      "Only two jokers",
+      "Cards of the same rank"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://bicyclecards.com/how-to-play/snap",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "2506d0325323a9d1a12e",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which term commonly describes a card game intended for one person?",
+    "answers": [
+      "A partnership game",
+      "A team relay",
+      "Patience",
+      "Doubles"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://bicyclecards.com/how-to-play/solitaire",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "69509375aac3abf1c24a",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In traditional Rummy, which cards form a run?",
+    "answers": [
+      "A king, seven and two of mixed suits",
+      "Consecutive ranks in the same suit",
+      "Three cards of the same rank",
+      "One card from each of four suits"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://bicyclecards.com/how-to-play/rummy-rum",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "6d790cf13d7dcd139fb0",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In Blackjack, which total are players trying to approach without exceeding it?",
+    "answers": [
+      "21",
+      "15",
+      "25",
+      "31"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://bicyclecards.com/how-to-play/blackjack",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "43d34ff2c0ad748c38e8",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "What does bust mean in Blackjack?",
+    "answers": [
+      "The hand contains exactly two cards",
+      "The player has changed seats",
+      "The dealer has shuffled the cards",
+      "The hand total has exceeded 21"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://bicyclecards.com/how-to-play/blackjack",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "2c5f13e07bbcd071cdb3",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In standard five-card poker, what is a flush?",
+    "answers": [
+      "Two pairs and an unmatched card",
+      "Three matching-rank cards and two other ranks",
+      "Five cards of the same suit, not all in sequence",
+      "Five consecutive ranks of mixed suits"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://bicyclecards.com/how-to-play/basics-of-poker",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "ec8de4e725b94fec1b50",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In standard five-card poker, what is a straight?",
+    "answers": [
+      "Four cards of the same rank and a fifth card",
+      "Five consecutive ranks, not all of the same suit",
+      "Five cards of one suit with nonconsecutive ranks",
+      "Two pairs and an unmatched card"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://bicyclecards.com/how-to-play/basics-of-poker",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "92f791570ea7f51cf0c8",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In poker, what does one pair mean?",
+    "answers": [
+      "Two cards of the same rank",
+      "Two cards of the same suit only",
+      "Two consecutive ranks only",
+      "Two cards with different backs"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://bicyclecards.com/how-to-play/basics-of-poker",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "2dba7e244d7ba696c1fc",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In standard poker, three of a kind means three cards sharing what?",
+    "answers": [
+      "The same suit only",
+      "The same colour only",
+      "Consecutive ranks",
+      "The same rank"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://bicyclecards.com/how-to-play/basics-of-poker",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "f46e434f4610f75ff8d0",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In standard poker, four of a kind contains how many cards of the same rank?",
+    "answers": [
+      "3",
+      "5",
+      "4",
+      "2"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://bicyclecards.com/how-to-play/basics-of-poker",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "271e5882228222f8c7c2",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which cards form a royal flush in standard five-card poker?",
+    "answers": [
+      "Two kings and three queens",
+      "Ten, jack, queen, king and ace of one suit",
+      "Five through nine of one suit",
+      "Any five hearts"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://bicyclecards.com/how-to-play/basics-of-poker",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "9b4e54930b6bc776ee50",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In poker, what does bluffing involve?",
+    "answers": [
+      "Trying to make opponents believe your hand is stronger than it is",
+      "Revealing every card before betting",
+      "Always playing only with aces",
+      "Removing every low card from the pack"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://bicyclecards.com/how-to-play/basics-of-poker",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "4c9f9cf8392c19a7c2d1",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "What does folding mean in a poker hand?",
+    "answers": [
+      "Raising the current bet",
+      "Matching the current bet",
+      "Continuing without adding a bet when permitted",
+      "Giving up that hand rather than continuing"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://bicyclecards.com/how-to-play/basics-of-poker",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "09a1a4db217ab119357a",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "How many men does each side start with in English draughts?",
+    "answers": [
+      "10",
+      "16",
+      "12",
+      "8"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://wcdf.net/rules/rules_of_checkers_english.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "ca267def58df066588da",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In English draughts, which squares are used for play?",
+    "answers": [
+      "Every square regardless of colour",
+      "The dark squares",
+      "Only the four corner squares",
+      "Only the light squares"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://wcdf.net/rules/rules_of_checkers_english.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "4f025c346a1fdb5a1ddc",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In English draughts, how does an ordinary uncrowned man make a non-capturing move?",
+    "answers": [
+      "One square diagonally forwards",
+      "One square straight backwards",
+      "Two squares horizontally",
+      "Like a chess knight"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://wcdf.net/rules/rules_of_checkers_english.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "f1608144acee1dd09a3c",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In English draughts, how is an opposing piece captured?",
+    "answers": [
+      "By landing on top of it",
+      "By moving beside it without jumping",
+      "By surrounding it with four pieces",
+      "By jumping over it to an empty square beyond"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://wcdf.net/rules/rules_of_checkers_english.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "a630476eb1ebc49a4dcd",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In English draughts, what does a man become when it reaches the farthest row?",
+    "answers": [
+      "A rook",
+      "A pawn of the opposite colour",
+      "A king",
+      "A queen"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://wcdf.net/rules/rules_of_checkers_english.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "3eca0a22eac85d30d566",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which extra direction can a king move in English draughts compared with an ordinary man?",
+    "answers": [
+      "In an L shape",
+      "Diagonally backwards",
+      "Straight sideways",
+      "Straight backwards along a file"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://wcdf.net/rules/rules_of_checkers_english.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "331cd9b916dc94cb6480",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In English draughts, what happens if the player whose turn it is has no legal move?",
+    "answers": [
+      "That player loses",
+      "That player wins",
+      "The board is rotated and play restarts",
+      "All captured pieces are returned"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://wcdf.net/rules/rules_of_checkers_english.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "eba1c16c8215a82c38a5",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In traditional Snakes and Ladders, what happens when your piece lands on the head of a snake?",
+    "answers": [
+      "It moves up to the highest square",
+      "It changes to another player's colour",
+      "It is removed for the rest of the game",
+      "It moves down to the tail"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.bigjigstoys.co.uk/blogs/posts/how-to-play-snakes-and-ladders",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "60df8ec024281ac97d82",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In traditional Snakes and Ladders, what happens when your piece lands at the foot of a ladder?",
+    "answers": [
+      "It changes direction for the rest of the game",
+      "It swaps places with every other piece",
+      "It climbs to the top of that ladder",
+      "It moves backwards to the start"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.bigjigstoys.co.uk/blogs/posts/how-to-play-snakes-and-ladders",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "4d88c3a6539a48de8e7a",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In Snakes and Ladders, movement is determined mainly by what?",
+    "answers": [
+      "An auction for each square",
+      "Chance from a die or spinner",
+      "The number of cards in your hand",
+      "Your ability to spell a long word"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.bigjigstoys.co.uk/blogs/posts/how-to-play-snakes-and-ladders",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "8ed09864c06459b16c35",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "What is the usual objective in Ludo?",
+    "answers": [
+      "Get all your pieces around the track and home",
+      "Capture an opposing king",
+      "Build the longest railway",
+      "Make the highest-scoring word"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mastersofgames.com/rules/ludo-rules-instructions-guide.htm",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "f9f86ddfa6ee94aab825",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In classic Ludo, what normally happens to an opponent's lone piece when you land on its unprotected square?",
+    "answers": [
+      "It becomes a king",
+      "It is removed permanently",
+      "It swaps colours with your piece",
+      "It goes back to its starting area"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mastersofgames.com/rules/ludo-rules-instructions-guide.htm",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "237dbcf97eff5b996b7e",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "How many playing pieces does each player normally have in classic Ludo?",
+    "answers": [
+      "3",
+      "8",
+      "4",
+      "2"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mastersofgames.com/rules/ludo-rules-instructions-guide.htm",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "fb1d1795346a705d993e",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "What usually marks the two halves of a traditional domino tile?",
+    "answers": [
+      "Playing-card portraits",
+      "Spots representing numbers",
+      "Letters forming a word",
+      "Chess-piece symbols"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mastersofgames.com/rules/dominoes-rules.htm",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "f4216a66e7e9f8167823",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In dominoes, what is a double?",
+    "answers": [
+      "A tile with the same number at both ends",
+      "Any tile coloured red",
+      "Two players taking a turn together",
+      "A tile with a letter at one end"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mastersofgames.com/rules/dominoes-rules.htm",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "f1f74586fea7223a72cd",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "How many tiles are in a standard double-six domino set?",
+    "answers": [
+      "21",
+      "36",
+      "55",
+      "28"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mastersofgames.com/rules/dominoes-rules.htm",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "56e546036c6b5c62d507",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In a simple matching domino game, what must the touching ends of adjoining tiles show?",
+    "answers": [
+      "Different colours only",
+      "Letters in alphabetical order",
+      "The same number",
+      "Numbers that always add to ten"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mastersofgames.com/rules/dominoes-rules.htm",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "d02d1e560f6af06a30a7",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "How many matching symbols in a straight line win an ordinary game of noughts and crosses?",
+    "answers": [
+      "5",
+      "3",
+      "2",
+      "4"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/noughts-and-crosses",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "61d4d3124ada4f193828",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "What is the size of the grid in ordinary noughts and crosses?",
+    "answers": [
+      "3 by 3",
+      "4 by 4",
+      "5 by 5",
+      "8 by 8"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/noughts-and-crosses",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "d71ef9d1d7a5ba3477c0",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In Nine Men's Morris, what is a line of three of your pieces called?",
+    "answers": [
+      "A flush",
+      "A trick",
+      "A castle",
+      "A mill"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mastersofgames.com/rules/morris-rules.htm",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "897f4e04acc7db64bc8a",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which objects are traditionally moved between pits in mancala games?",
+    "answers": [
+      "Chess kings",
+      "Model trains",
+      "Seeds or small stones",
+      "Lettered cubes"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mastersofgames.com/rules/mancala-rules.htm",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "24f8b2ecf0e77a312371",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "What shape is the familiar Chinese checkers board?",
+    "answers": [
+      "A straight line of squares",
+      "A six-pointed star",
+      "A triangle with no inner holes",
+      "A plain circle with one central hole"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mastersofgames.com/rules/chinese-checkers-rules.htm",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "bf1c9a3973c620aec92b",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "What are traditionally moved along a scoring board to keep score in Cribbage?",
+    "answers": [
+      "Pegs",
+      "Chess knights",
+      "Domino tiles",
+      "Lettered dice"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://bicyclecards.com/how-to-play/cribbage",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "0f653e0de41feeea9012",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In Battleship, how do you identify the square you want to attack?",
+    "answers": [
+      "By naming a chess opening",
+      "By bidding a number of points",
+      "By spelling a word from tiles",
+      "By a grid coordinate such as B4"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://instructions.hasbro.com/en-us/instruction/battleship-game",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "47f8ffe3422dca7696b6",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In classic Battleship, what does your opponent announce when your shot finds no ship?",
+    "answers": [
+      "Snap",
+      "Uno",
+      "Miss",
+      "Checkmate"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://instructions.hasbro.com/en-us/instruction/battleship-game",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "a7bba2ab7517231617dd",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In Pictionary, how does a player normally communicate the clue to teammates?",
+    "answers": [
+      "By playing a song recording",
+      "By drawing it",
+      "By spelling it aloud",
+      "By showing its written answer"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://shop.mattel.com/products/pictionary-dkd47/1000",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "792a4eb352bb80dd3608",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In classic Guess Who?, which type of question is used to narrow down the mystery character?",
+    "answers": [
+      "A yes-or-no question",
+      "A maths question with four numerical answers",
+      "A question answered only by drawing",
+      "A question that must reveal the character name"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://instructions.hasbro.com/en-us/instruction/guess-who-classic-game",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "7015c3088dd4a63aaab5",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which tool do players use to remove the small parts in classic Operation?",
+    "answers": [
+      "A paintbrush",
+      "A miniature hammer",
+      "A spinning top",
+      "Tweezers"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://instructions.hasbro.com/en-ca/instruction/classic-operation-game",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "380ac63c46d79aaa77c3",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In classic Operation, what happens when the tweezers touch a metal side of the opening?",
+    "answers": [
+      "The player receives an extra life",
+      "Every piece changes colour",
+      "A buzzer sounds",
+      "The board deals another card automatically"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://instructions.hasbro.com/en-ca/instruction/classic-operation-game",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "4b361a25d6047d1c0b9d",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "What do players collect in their circular playing token in classic Trivial Pursuit?",
+    "answers": [
+      "Domino tiles",
+      "Coloured wedges",
+      "Chess pawns",
+      "Miniature trains"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://instructions.hasbro.com/en-us/instruction/trivial-pursuit-board-game",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "857c9df9962f365b8e19",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In Boggle, what do players try to find in the grid of lettered cubes?",
+    "answers": [
+      "Words",
+      "Chess moves",
+      "Matching ship coordinates",
+      "Pairs of identical playing cards"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://instructions.hasbro.com/en-us/instruction/boggle-game",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "c84576b49eeb56b017b6",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In standard Boggle, how must consecutive letters in a word be positioned in the grid?",
+    "answers": [
+      "Anywhere at all, with no contact required",
+      "Only in the four corners",
+      "Only in a single straight vertical line",
+      "In adjoining cubes, including diagonals"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.hasbro.com/common/instruct/Boggle_%281973%29.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "e0756074c499fd327375",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which game asks players to put hands and feet on coloured circles on a mat?",
+    "answers": [
+      "Scrabble",
+      "Battleship",
+      "Twister",
+      "Risk"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://instructions.hasbro.com/en-us/instruction/twister-game",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "f51866a860ac984ee835",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which game features a chain-reaction contraption built to catch a small mouse playing piece?",
+    "answers": [
+      "Boggle",
+      "Mouse Trap",
+      "Cluedo",
+      "Ludo"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://instructions.hasbro.com/en-us/instruction/mouse-trap-game",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "39000b009288323f6e47",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "The game Buckaroo! features which animal carrying the load?",
+    "answers": [
+      "A mule",
+      "A giraffe",
+      "A crocodile",
+      "A penguin"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://instructions.hasbro.com/en-nz/instruction/buckaroo-game",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "5062865868ae8ddba5ad",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In KerPlunk, what do players try to avoid letting fall when they remove sticks?",
+    "answers": [
+      "Playing cards",
+      "Domino tiles",
+      "Chess kings",
+      "Marbles"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://service.mattel.com/instruction_sheets/37092.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "a7e316bfd8667a18640d",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which game has players operate plastic hippos to collect marbles?",
+    "answers": [
+      "Connect 4",
+      "Trivial Pursuit",
+      "Hungry Hungry Hippos",
+      "Guess Who?"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://instructions.hasbro.com/en-us/instruction/hungry-hungry-hippos-game",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "4861f2a3750381d40443",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In Crocodile Dentist, what do players press down one at a time?",
+    "answers": [
+      "Letters on a keyboard",
+      "The crocodile's teeth",
+      "The crocodile's feet",
+      "Buttons on a scoring calculator"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://instructions.hasbro.com/en-us/instruction/crocodile-dentist-game",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "8edcb1f296add6743a4f",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "How many dice are used in standard Yahtzee?",
+    "answers": [
+      "5",
+      "3",
+      "4",
+      "6"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://instructions.hasbro.com/en-au/instruction/yahtzee-classic",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "b51004ba4247d02797b1",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "What dice result is called a Yahtzee?",
+    "answers": [
+      "Three of a kind",
+      "Any total of twenty",
+      "One pair and three unmatched dice",
+      "Five of a kind"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://instructions.hasbro.com/en-au/instruction/yahtzee-classic",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "5bc0c2dab7df67931062",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In Taboo, what must the clue-giver avoid saying besides the answer itself?",
+    "answers": [
+      "The names of the other players only",
+      "Any word longer than three letters",
+      "The listed forbidden words",
+      "Every noun in the language"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://instructions.hasbro.com/en-us/instruction/taboo-game",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "1bb065f3d67993997cdd",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which type of card is central to Dixit?",
+    "answers": [
+      "Cards containing only chess positions",
+      "Surreal illustrated picture cards",
+      "Standard numbered railway tickets",
+      "Plain cards showing only arithmetic sums"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.libellud.com/en/our-games/dixit/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "9c865e49abb3ecaf67de",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In Dobble, also sold as Spot It!, how many symbols do any two cards have in common?",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.asmodee.co.uk/pages/games/dobble",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "0dbe59dd550533a81bfe",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "After your first placement in standard Blokus, how must a new piece connect with another piece of your colour?",
+    "answers": [
+      "By sharing a complete edge",
+      "By covering the same squares",
+      "By staying completely separate",
+      "By touching at a corner, with no shared edge"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://service.mattel.com/instruction_sheets/CMC08-Eng.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "2e8731d8f67a344edc9e",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In the standard game of Sequence, what line are players trying to make with their chips?",
+    "answers": [
+      "Three in a row",
+      "Seven in a row",
+      "Five in a row",
+      "Two in a row"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.jaxgames.com/sequence-game-rules/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "18cfe3cd81fc57538701",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In Ticket to Ride, what do the coloured plastic train pieces mark on the board?",
+    "answers": [
+      "The number of dice rerolls available",
+      "Routes a player has claimed",
+      "Cities that have been destroyed",
+      "The order in which cards were shuffled"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.daysofwonder.com/ticket-to-ride/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "6f23bed49c15a2b6862a",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "How does the shared landscape grow during a standard game of Carcassonne?",
+    "answers": [
+      "Players add square terrain tiles",
+      "Players draw railway lines with pens",
+      "Players remove a row of cards each turn",
+      "Players stack dominoes into a tower"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.hans-im-glueck.de/en/games/carcassonne.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "ad2959e2c1f03d142d35",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In CATAN, which resource does a pasture hex produce?",
+    "answers": [
+      "Brick",
+      "Ore",
+      "Grain",
+      "Wool"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.catan.com/catan",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "41798a008ab0b5ce63c1",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In classic Risk, battles between attacking and defending armies are resolved using what?",
+    "answers": [
+      "A chess clock",
+      "Drawing clues",
+      "Dice rolls",
+      "Spelling tests"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://instructions.hasbro.com/en-us/instruction/risk-game",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  },
+  {
+    "id": "028f1576634ffcad906e",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In classic Mastermind, what is the codebreaker trying to discover?",
+    "answers": [
+      "The location of a fleet of ships",
+      "A hidden sequence of coloured pegs",
+      "A hidden word made from letter tiles",
+      "A route between two railway stations"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://instructions.hasbro.com/en-sg/instruction/mastermind",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-16-v1"
+  }
+]

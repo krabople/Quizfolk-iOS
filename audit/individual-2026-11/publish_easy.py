@@ -40,7 +40,8 @@ for name in names:
  write(directory/'completion.json',{'auditVersion':version,'date':'2026-11-17','input':100,'reviewed':100,
   'remaining':0,'errors':[],'complete':True,'publishedCount':100,
   'publishedSHA256':hashlib.sha256((directory/'questions.json').read_bytes()).hexdigest(),
-  'method':'Individually authored and independently reviewed prompts, all four options, answer uniqueness, grammar, category and source relevance; recorded edits applied and final drafts fingerprint-matched.',
+  'method':'Individual editorial checks of prompts, all four options, answer uniqueness, grammar, category and source relevance; recorded edits applied and final drafts fingerprint-matched.',
+  'independentReview':review.get('independent',True),
   'sources':sorted({q['sourceURL'] for q in questions})})
  assert reviewed_batch(directory)==questions
  bank=[q for q in bank if q.get('auditVersion')!=version]+questions

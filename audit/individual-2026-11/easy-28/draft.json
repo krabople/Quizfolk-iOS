@@ -1,0 +1,2202 @@
+[
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which part of a car is turned by the driver to steer it?",
+    "answers": [
+      "Steering wheel",
+      "Exhaust pipe",
+      "Fuel cap",
+      "Seat belt"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Steering wheel",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "The steering wheel is the rotating driver control for steering; the other parts are not steering controls.",
+    "draftID": "easy-28-001"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which car pedal is used to slow the vehicle in ordinary driving?",
+    "answers": [
+      "Brake pedal",
+      "Accelerator pedal",
+      "Clutch pedal",
+      "Footrest"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Brake pedal",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "The brake pedal operates the service brakes; releasing the accelerator is not the pedal asked for.",
+    "draftID": "easy-28-002"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which pedal increases engine power when pressed in a conventional petrol car?",
+    "answers": [
+      "Accelerator",
+      "Clutch",
+      "Brake",
+      "Footrest"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Accelerator",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "The accelerator controls requested engine output in the qualified petrol vehicle.",
+    "draftID": "easy-28-003"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a car's handbrake also commonly called?",
+    "answers": [
+      "Parking brake",
+      "Accelerator",
+      "Gearbox",
+      "Fuel injector"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Parking brake",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "Parking brake is the common alternative term; not every modern parking brake is hand-operated.",
+    "draftID": "easy-28-004"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is the purpose of a car's windscreen wipers?",
+    "answers": [
+      "Clearing water from the windscreen",
+      "Cooling the engine",
+      "Inflating the tyres",
+      "Charging the battery"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Clearing water from the windscreen",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "Wipers move water off the screen; they do not refill washer fluid.",
+    "draftID": "easy-28-005"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which lights illuminate the road ahead of a car at night?",
+    "answers": [
+      "Headlights",
+      "Brake lights",
+      "Interior reading lights",
+      "Number-plate lights"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Headlights",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "Headlights illuminate ahead; brake and number-plate lights have different positions/functions.",
+    "draftID": "easy-28-006"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What do a car's brake lights normally signal to following traffic?",
+    "answers": [
+      "That the car is braking",
+      "That the car is turning left",
+      "That the car is reversing",
+      "That the headlights are on full beam"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "The driver is applying the brakes",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "Brake lights signal braking, including some regenerative deceleration; avoid an absolute pedal-only claim.",
+    "draftID": "easy-28-007"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which flashing lights normally signal a driver's intention to turn?",
+    "answers": [
+      "Indicators",
+      "Headlights",
+      "Fog lights",
+      "Reading lights"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Indicators",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "Indicators conventionally communicate a turn intention; they may also be used together as hazard lights.",
+    "draftID": "easy-28-008"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a car's rear-view mirror mainly used to see?",
+    "answers": [
+      "The area behind the car",
+      "The fuel inside its tank",
+      "The engine cylinders",
+      "The road directly underneath it"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "The area behind the car",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "The rear-view mirror shows the area behind; it does not show every blind spot.",
+    "draftID": "easy-28-009"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does a speedometer show?",
+    "answers": [
+      "The vehicle's speed",
+      "Engine revolutions per minute",
+      "Distance travelled since manufacture",
+      "The remaining fuel level"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "The vehicle's speed",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "Speedometer indicates road speed, unlike odometer distance or tachometer engine speed.",
+    "draftID": "easy-28-010"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does a car's odometer record?",
+    "answers": [
+      "Distance travelled",
+      "Current vehicle speed",
+      "Engine revolutions per minute",
+      "Time until the next fuel stop"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Distance travelled",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "Odometer records distance, unlike trip time, tyre width or engine temperature.",
+    "draftID": "easy-28-011"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does a car's fuel gauge normally indicate?",
+    "answers": [
+      "How much fuel remains",
+      "How fast the car is moving",
+      "How many doors are open",
+      "How loud the horn is"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "How much fuel remains",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "Fuel gauge indicates remaining fuel; it is not a guaranteed exact volume measurement.",
+    "draftID": "easy-28-012"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does the rev counter in a car display?",
+    "answers": [
+      "Engine rotation speed",
+      "Road speed",
+      "Distance travelled since manufacture",
+      "The amount of washer fluid"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Engine rotation speed",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "Rev counter displays engine revolutions per unit time, not road speed.",
+    "draftID": "easy-28-013"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a car's horn used to produce?",
+    "answers": [
+      "An audible warning",
+      "A cooling airflow",
+      "An electrical charge",
+      "A fuel spray"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "An audible warning",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "A horn makes an audible warning, not an engine-cooling airflow.",
+    "draftID": "easy-28-014"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does an electric-window switch in a car control?",
+    "answers": [
+      "Raising or lowering a window",
+      "Setting the windscreen-wiper speed",
+      "Adjusting the headlight beam",
+      "Changing the radio station"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Seats",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "Replace the trivial seat-cushion question with the distinct electric-window switch function.",
+    "draftID": "easy-28-015"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a car's head restraint designed to help reduce in a rear-end collision?",
+    "answers": [
+      "Whiplash injury",
+      "Tyre wear",
+      "Engine vibration",
+      "Brake overheating"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "An occupant's head",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.euroncap.com/glossary/",
+    "rationale": "Rewrite the headrest question around limiting head movement and whiplash injury, its safety purpose.",
+    "draftID": "easy-28-016"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is the boot of a British car called in American English?",
+    "answers": [
+      "Trunk",
+      "Hood",
+      "Fender",
+      "Windshield"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Trunk",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/trunk",
+    "rationale": "American trunk corresponds to British boot; hood and fender name other body parts.",
+    "draftID": "easy-28-017"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is the bonnet of a British car called in American English?",
+    "answers": [
+      "Hood",
+      "Trunk",
+      "Windshield",
+      "Licence plate"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Hood",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/hood",
+    "rationale": "American hood corresponds to British bonnet; not the luggage compartment.",
+    "draftID": "easy-28-018"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is the windscreen of a British car called in American English?",
+    "answers": [
+      "Windshield",
+      "Trunk",
+      "Hood",
+      "Fender"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Windshield",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/windshield",
+    "rationale": "American windshield corresponds to British windscreen; not a side body panel.",
+    "draftID": "easy-28-019"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a car's glove compartment?",
+    "answers": [
+      "A small storage compartment in the dashboard",
+      "A fuel container under the engine",
+      "A section of the exhaust",
+      "A type of tyre"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "A small storage compartment in the dashboard",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "The glove compartment is a small dashboard storage space; its name does not limit it to gloves.",
+    "draftID": "easy-28-020"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does a car's sun visor help block?",
+    "answers": [
+      "Glare from sunlight",
+      "Glare from an illuminated dashboard",
+      "Mist inside the windscreen",
+      "Rain on the outside of the windscreen"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Glare from sunlight",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "Sun visors reduce sunlight glare; they do not replace windscreen wipers.",
+    "draftID": "easy-28-021"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which part of a car opens to give access to the engine bay on most front-engined cars?",
+    "answers": [
+      "Bonnet",
+      "Boot floor",
+      "Rear bumper",
+      "Glove compartment"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Bonnet",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "Front-engined qualification makes bonnet the appropriate access panel; rear/mid-engine layouts differ.",
+    "draftID": "easy-28-022"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does a car's exhaust pipe carry away?",
+    "answers": [
+      "Gases produced by the engine",
+      "Air entering the intake manifold",
+      "Coolant returning to the radiator",
+      "Fuel entering the tank"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Gases produced by the engine",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "Exhaust pipes discharge combustion gases; not fuel supplied to the engine.",
+    "draftID": "easy-28-023"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is the purpose of an engine's air filter?",
+    "answers": [
+      "Removing particles from incoming air",
+      "Removing particles from the engine oil",
+      "Cooling the exhaust gases",
+      "Regulating brake-fluid pressure"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Removing particles from incoming air",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "An intake air filter removes particles from incoming air, not exhaust gases after combustion.",
+    "draftID": "easy-28-024"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is the main purpose of a car's radiator in a liquid-cooled engine?",
+    "answers": [
+      "Helping remove heat from the coolant",
+      "Filtering the engine oil",
+      "Storing windscreen-washer fluid",
+      "Measuring air pressure in the tyres"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Helping remove heat from the coolant",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "A radiator transfers heat from liquid coolant; the liquid-cooled qualification avoids air-cooled engines.",
+    "draftID": "easy-28-025"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does tyre pressure measure?",
+    "answers": [
+      "The pressure of the air inside a tyre",
+      "The depth of the tread grooves",
+      "The diameter of the wheel rim",
+      "The distance between the front wheels"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Tyre",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "Replace the tube/tubeless ambiguity with the meaning of tyre pressure.",
+    "draftID": "easy-28-026"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is tyre tread?",
+    "answers": [
+      "The patterned surface that contacts the road",
+      "The metal wheel nut",
+      "The air valve cap",
+      "The steering column"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "The patterned surface that contacts the road",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "Tread is the road-contacting patterned tyre surface, not the valve or rim.",
+    "draftID": "easy-28-027"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which part of a tyre allows air to be added or released?",
+    "answers": [
+      "Valve",
+      "Axle",
+      "Bumper",
+      "Wiper blade"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Valve",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "The tyre valve admits/releases air; an axle and bumper do not.",
+    "draftID": "easy-28-028"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a spare wheel carried for?",
+    "answers": [
+      "Replacing a road wheel when needed",
+      "Steering the rear passengers",
+      "Cooling the engine",
+      "Holding extra fuel"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Replacing a road wheel when needed",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "A spare wheel can replace a road wheel; some temporary spares have restrictions not asked about here.",
+    "draftID": "easy-28-029"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a car jack used to do?",
+    "answers": [
+      "Lift part of the car",
+      "Measure the tyre pressure",
+      "Tighten the wheel nuts",
+      "Test the battery charge"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Lift part of the car",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "A jack raises part of the vehicle; this definition is not an instruction to work beneath an unsupported car.",
+    "draftID": "easy-28-030"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What secures a car wheel to its hub on many vehicles?",
+    "answers": [
+      "Wheel nuts or bolts",
+      "Wiper clips",
+      "Seat buckles",
+      "Spark plugs"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Wheel nuts or bolts",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "Wheel nuts or bolts secure many wheels to hubs; central-lock and other designs explain the qualification.",
+    "draftID": "easy-28-031"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does a shock absorber help control?",
+    "answers": [
+      "Bouncing of the suspension",
+      "Air entering the engine",
+      "Fuel entering the injectors",
+      "The temperature of the coolant"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Bouncing of the suspension",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "Shock absorbers damp suspension oscillation; they are not the springs themselves.",
+    "draftID": "easy-28-032"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does a car's clutch allow the driver to disconnect temporarily in a conventional manual transmission?",
+    "answers": [
+      "The engine from the transmission",
+      "The front wheels from the steering rack",
+      "The battery from the alternator",
+      "The fuel tank from the filler pipe"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "The engine from the transmission",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "The manual clutch disconnects engine torque from the transmission temporarily.",
+    "draftID": "easy-28-033"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which control selects forward gears or reverse in a conventional manual car?",
+    "answers": [
+      "Gear lever",
+      "Indicator stalk",
+      "Bonnet release",
+      "Wiper switch"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Gear lever",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "A manual gear lever selects the transmission ratio or reverse.",
+    "draftID": "easy-28-034"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is the purpose of reverse gear?",
+    "answers": [
+      "Moving the vehicle backwards",
+      "Keeping the engine idling while stationary",
+      "Locking the steering wheel",
+      "Applying the parking brake"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Moving the vehicle backwards",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "Reverse permits backward movement; it does not necessarily reverse the rotation of the engine itself.",
+    "draftID": "easy-28-035"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does the P position normally mean on an automatic car's gear selector?",
+    "answers": [
+      "Park",
+      "Power steering",
+      "Passenger",
+      "Petrol"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Park",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.fordservicecontent.com/Ford_Content/catalog/owner_guides/12378og1e.pdf",
+    "rationale": "P means Park; it is not power steering or petrol.",
+    "draftID": "easy-28-036"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does the N position normally mean on a car's gear selector?",
+    "answers": [
+      "Neutral",
+      "Night driving",
+      "Navigation",
+      "New battery"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Neutral",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.fordservicecontent.com/Ford_Content/catalog/owner_guides/12378og1e.pdf",
+    "rationale": "N means Neutral; not night mode or navigation.",
+    "draftID": "easy-28-037"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does the D position normally select on an automatic car?",
+    "answers": [
+      "Drive",
+      "Defrost",
+      "Dashboard lighting",
+      "Door locking"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Drive",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.fordservicecontent.com/Ford_Content/catalog/owner_guides/12378og1e.pdf",
+    "rationale": "D means Drive; not a request for the demister.",
+    "draftID": "easy-28-038"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does a convertible car have that can be opened or lowered?",
+    "answers": [
+      "Its roof",
+      "Its engine block",
+      "Its rear axle",
+      "Its dashboard"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Its roof",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "A convertible has an openable/retractable/removable roof; not every model uses the same mechanism.",
+    "draftID": "easy-28-039"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which British car-body term corresponds to the American term sedan?",
+    "answers": [
+      "Saloon",
+      "Estate",
+      "Hatchback",
+      "Pickup"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Saloon",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/sedan",
+    "rationale": "Replace the awkward body-style comparison with the clear American sedan/British saloon equivalence.",
+    "draftID": "easy-28-040"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is the open rear load-carrying area of a pickup truck called?",
+    "answers": [
+      "Bed",
+      "Cockpit",
+      "Cabin ceiling",
+      "Engine bay"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Bed",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "A pickup bed is its open load area, distinct from the cab or engine bay.",
+    "draftID": "easy-28-041"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a tow bar used to connect to a car?",
+    "answers": [
+      "A trailer",
+      "A windscreen wiper",
+      "A steering wheel",
+      "A radiator hose"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "A trailer",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "A tow bar/hitch couples a trailer; it is not a control linkage.",
+    "draftID": "easy-28-042"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a trailer?",
+    "answers": [
+      "A vehicle designed to be pulled by another vehicle",
+      "A bicycle pedal",
+      "An aircraft engine",
+      "A railway signal"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "A vehicle designed to be pulled by another vehicle",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "A trailer is designed for towing, even though some specialised trailers may have powered components.",
+    "draftID": "easy-28-043"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a caravan designed to provide when towed to a campsite?",
+    "answers": [
+      "Living and sleeping accommodation",
+      "A mobile fuel storage tank",
+      "An open platform for transporting a car",
+      "A refrigerated container for food deliveries"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Living and sleeping accommodation",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "A touring caravan supplies accommodation; avoid confusing it with a self-propelled motorhome.",
+    "draftID": "easy-28-044"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a motorhome?",
+    "answers": [
+      "A motor vehicle with living accommodation",
+      "An unpowered trailer with living accommodation",
+      "A recovery vehicle carrying another car",
+      "A road vehicle designed only to carry liquid cargo"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "A motor vehicle with living accommodation",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+    "rationale": "A motorhome combines powered travel and accommodation.",
+    "draftID": "easy-28-045"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which vehicle is commonly fitted with a rotating drum to keep concrete mixed?",
+    "answers": [
+      "Concrete mixer truck",
+      "Tipper truck",
+      "Flatbed truck",
+      "Refuse truck"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Concrete mixer truck",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/concrete-mixer",
+    "rationale": "A concrete mixer truck uses its rotating drum to keep the load mixed.",
+    "draftID": "easy-28-046"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which part of a tipper truck tilts to unload its contents?",
+    "answers": [
+      "Load bed",
+      "Steering wheel",
+      "Windscreen",
+      "Front bumper"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Load bed",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/tipper",
+    "rationale": "A tipper tilts its load bed/body to discharge material.",
+    "draftID": "easy-28-047"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a forklift's pair of long front prongs used to lift?",
+    "answers": [
+      "Loads such as pallets",
+      "The road surface for resurfacing",
+      "Overhead power cables",
+      "Only the empty vehicle itself"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Loads such as pallets",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/forklift",
+    "rationale": "Forks lift loads such as pallets; passenger-only answers are not a proper primary purpose.",
+    "draftID": "easy-28-048"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which vehicle is designed to compact surfaces using a heavy roller?",
+    "answers": [
+      "Road roller",
+      "Road sweeper",
+      "Tipper truck",
+      "Concrete mixer truck"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Road roller",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/road-roller",
+    "rationale": "A road roller compacts through a heavy rolling drum; a sweeper cleans rather than compacts.",
+    "draftID": "easy-28-049"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does a snowplough's front blade push aside?",
+    "answers": [
+      "Snow",
+      "Fallen leaves using a rotating brush",
+      "Liquid road markings",
+      "Hot asphalt from a hopper"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Snow",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/snowplough",
+    "rationale": "A snowplough pushes snow aside; it is not a street-cleaning brush.",
+    "draftID": "easy-28-050"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which vehicle is specially equipped to transport patients?",
+    "answers": [
+      "Ambulance",
+      "Concrete mixer",
+      "Road roller",
+      "Grain combine"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Ambulance",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/ambulance",
+    "rationale": "An ambulance is equipped for patient transport; not every ambulance trip is an emergency.",
+    "draftID": "easy-28-051"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a hearse primarily used to transport?",
+    "answers": [
+      "A coffin",
+      "Loose grain",
+      "Wet concrete",
+      "Railway rails"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "A coffin",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/hearse",
+    "rationale": "A hearse primarily carries a coffin; not livestock or bulk freight.",
+    "draftID": "easy-28-052"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which vehicle's main job is collecting household rubbish?",
+    "answers": [
+      "Refuse truck",
+      "Road sweeper",
+      "Concrete mixer truck",
+      "Recovery truck"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Refuse truck",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/dustcart",
+    "rationale": "A refuse truck collects rubbish; distinguish a road sweeper that cleans the road surface.",
+    "draftID": "easy-28-053"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which farm vehicle combines cutting and threshing a grain crop?",
+    "answers": [
+      "Combine harvester",
+      "Road sweeper",
+      "Passenger coach",
+      "Forklift"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Combine harvester",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/combine-harvester",
+    "rationale": "A combine combines crop cutting and threshing, rather than merely towing a trailer.",
+    "draftID": "easy-28-054"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a car transporter designed to carry?",
+    "answers": [
+      "Other vehicles",
+      "Loose aggregates tipped from a hopper",
+      "Liquid cargo carried in a sealed tank",
+      "Passengers travelling in a coach cabin"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Other vehicles",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/transporter",
+    "rationale": "A car transporter carries other vehicles; it is not limited to one vehicle make.",
+    "draftID": "easy-28-055"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a tanker truck's large enclosed tank used to carry?",
+    "answers": [
+      "Liquids or gases",
+      "Open stacks of timber",
+      "Passengers seated in rows",
+      "Cars parked on decks"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Liquids or gases",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/tanker",
+    "rationale": "Tankers carry liquids or gases in tanks, not necessarily fuel only.",
+    "draftID": "easy-28-056"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a flatbed truck's load platform like?",
+    "answers": [
+      "Flat and open",
+      "A sealed passenger cabin",
+      "A rotating concrete drum",
+      "A pressurised spherical tank"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Flat and open",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/flatbed",
+    "rationale": "A flatbed has a flat open platform, rather than a sealed box, drum or tank.",
+    "draftID": "easy-28-057"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is the driver's compartment of a lorry called?",
+    "answers": [
+      "Cab",
+      "Hold",
+      "Galley",
+      "Engine bay"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Cab",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/cab",
+    "rationale": "The lorry driver compartment is the cab; a hold and galley are ship spaces.",
+    "draftID": "easy-28-058"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which part of a bicycle is pressed with the feet to provide power?",
+    "answers": [
+      "Pedals",
+      "Handlebar grips",
+      "Brake levers",
+      "Bell"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Pedals",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.cyclinguk.org/article/which-bike-should-i-buy",
+    "rationale": "Pedals receive the rider foot force and turn the cranks.",
+    "draftID": "easy-28-059"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does a bicycle chain normally transfer to the driven wheel?",
+    "answers": [
+      "Power from the pedals",
+      "Hydraulic pressure from the brake lever",
+      "Electrical power from a dynamo",
+      "Air from the tyre valve"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Power from the pedals",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.cyclinguk.org/article/which-bike-should-i-buy",
+    "rationale": "The chain transmits pedal power via chainrings and sprockets to the driven wheel.",
+    "draftID": "easy-28-060"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which bicycle component carries the rider's weight while seated?",
+    "answers": [
+      "Saddle",
+      "Chainring",
+      "Front mudguard",
+      "Bell"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Saddle",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.cyclinguk.org/article/which-bike-should-i-buy",
+    "rationale": "The saddle supports the seated rider; the rider weight is also shared through pedals and handlebars.",
+    "draftID": "easy-28-061"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a bicycle's handlebar mainly used for?",
+    "answers": [
+      "Steering",
+      "Changing tyre pressure",
+      "Lubricating the chain",
+      "Adjusting saddle height"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Steering",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.cyclinguk.org/article/which-bike-should-i-buy",
+    "rationale": "Handlebars primarily steer; they may carry controls but do not themselves inflate tyres.",
+    "draftID": "easy-28-062"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which bicycle fitting produces a ringing warning sound?",
+    "answers": [
+      "Bell",
+      "Saddle",
+      "Pedal",
+      "Mudguard"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Bell",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.cyclinguk.org/article/which-bike-should-i-buy",
+    "rationale": "A bell provides the characteristic ringing warning.",
+    "draftID": "easy-28-063"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What do bicycle mudguards help reduce?",
+    "answers": [
+      "Water and dirt thrown up by the wheels",
+      "Stretching of the chain",
+      "Wear on the brake cables",
+      "Loss of tyre pressure"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Water and dirt thrown up by the wheels",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.cyclinguk.org/article/which-bike-should-i-buy",
+    "rationale": "Mudguards reduce spray and dirt thrown by rotating wheels.",
+    "draftID": "easy-28-064"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a bicycle pannier?",
+    "answers": [
+      "A bag carried beside a wheel, usually on a rack",
+      "A type of brake pad",
+      "A toothed gear wheel",
+      "A wheel bearing"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "A bag carried beside a wheel, usually on a rack",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.cyclinguk.org/article/baggage-check-bikepacking-bags-or-panniers",
+    "rationale": "Panniers are side-mounted bags, commonly rack-supported, unlike top-mounted saddlebags.",
+    "draftID": "easy-28-065"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "How are riders normally arranged on a tandem bicycle?",
+    "answers": [
+      "One behind another",
+      "Side by side across one wide saddle",
+      "Facing one another between the wheels",
+      "Standing beside the frame on platforms"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Two riders, one behind the other",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.cyclinguk.org/article/cycling-guide/guide-tandems",
+    "rationale": "Change to the tandem seating arrangement; tandems can have more than two riders, so do not define all tandems as exactly two-seat.",
+    "draftID": "easy-28-066"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "How many wheels does a unicycle have?",
+    "answers": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "One",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.cyclinguk.org/article/which-bike-should-i-buy",
+    "rationale": "A unicycle has one wheel; this is a simple vehicle vocabulary question.",
+    "draftID": "easy-28-067"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "How many wheels does a tricycle have?",
+    "answers": [
+      "Three",
+      "One",
+      "Two",
+      "Four"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Three",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.cyclinguk.org/article/which-bike-should-i-buy",
+    "rationale": "A tricycle has three wheels; not two or four.",
+    "draftID": "easy-28-068"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which part of a motorcycle is normally twisted by the rider's right hand to control engine power?",
+    "answers": [
+      "Throttle grip",
+      "Clutch lever",
+      "Fuel cap",
+      "Rear footrest"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Throttle grip",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.cyclinguk.org/article/which-bike-should-i-buy",
+    "rationale": "The conventional right-hand twist grip is the throttle; qualify normally to allow adapted controls.",
+    "draftID": "easy-28-069"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a motorcycle sidecar?",
+    "answers": [
+      "A passenger compartment attached beside the motorcycle",
+      "A second fuel cap",
+      "A type of tyre valve",
+      "A luggage pocket inside a helmet"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "A passenger compartment attached beside the motorcycle",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.cyclinguk.org/article/which-bike-should-i-buy",
+    "rationale": "A sidecar is an attached side compartment; it can also carry luggage but is not a tyre fitting.",
+    "draftID": "easy-28-070"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a rail vehicle's pantograph used to contact?",
+    "answers": [
+      "An overhead electrical wire",
+      "The running surface of a rail",
+      "The edge of a platform",
+      "A buffer stop"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "An overhead electrical wire",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://safety.networkrail.co.uk/jargon-buster/",
+    "rationale": "A pantograph collects current by contacting overhead electrical equipment.",
+    "draftID": "easy-28-071"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What are the crosspieces supporting railway rails commonly called in Britain?",
+    "answers": [
+      "Sleepers",
+      "Ballast",
+      "Signals",
+      "Points"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Sleepers",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://safety.networkrail.co.uk/jargon-buster/",
+    "rationale": "Britain calls the crosspieces sleepers; US ties terminology is not an alternative offered.",
+    "draftID": "easy-28-072"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a railway platform used for?",
+    "answers": [
+      "Passengers boarding and leaving trains",
+      "Storing ballast beneath the rails",
+      "Connecting overhead power wires",
+      "Turning locomotives around"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Passengers boarding and leaving trains",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://safety.networkrail.co.uk/jargon-buster/",
+    "rationale": "Station platforms provide access to passenger trains; they are not the rails or overhead wires.",
+    "draftID": "easy-28-073"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a railway level crossing?",
+    "answers": [
+      "A place where a road or path crosses railway tracks at the same level",
+      "A bridge carrying one railway over another",
+      "An underground train tunnel",
+      "A rack for storing bicycles"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "A place where a road or path crosses railway tracks at the same level",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://safety.networkrail.co.uk/jargon-buster/",
+    "rationale": "A level crossing intersects a road/path and railway at the same level; a bridge is grade-separated.",
+    "draftID": "easy-28-074"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a locomotive designed to do?",
+    "answers": [
+      "Provide power to move a train",
+      "Serve as a railway platform",
+      "Collect tickets at a station entrance",
+      "Mark a pedestrian crossing"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Provide power to move a train",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://safety.networkrail.co.uk/jargon-buster/",
+    "rationale": "A locomotive provides train motive power, even when used alone or distributed through a train.",
+    "draftID": "easy-28-075"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a freight train primarily used to carry?",
+    "answers": [
+      "Goods",
+      "Only passengers in sleeping cabins",
+      "Only passengers on commuter services",
+      "Only travellers on sightseeing journeys"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Goods",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://safety.networkrail.co.uk/jargon-buster/",
+    "rationale": "Freight trains carry goods, in contrast to passenger trains.",
+    "draftID": "easy-28-076"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a railway buffer stop designed to mark or protect?",
+    "answers": [
+      "The end of a track",
+      "The start of an electrified section",
+      "The position of a level crossing",
+      "The maximum speed of a train"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "The end of a track",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://safety.networkrail.co.uk/jargon-buster/",
+    "rationale": "A buffer stop protects the end of a terminating track; it cannot guarantee stopping every runaway vehicle.",
+    "draftID": "easy-28-077"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a railway carriage or passenger coach used to carry?",
+    "answers": [
+      "Passengers",
+      "Only bulk liquids in a tank",
+      "Only loose coal in an open wagon",
+      "Only containers stacked on a flat wagon"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Passengers",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://safety.networkrail.co.uk/jargon-buster/",
+    "rationale": "A passenger carriage carries people; the prompt explicitly excludes freight wagons.",
+    "draftID": "easy-28-078"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a ship's bow?",
+    "answers": [
+      "Its front end",
+      "Its rear end",
+      "Its kitchen",
+      "Its engine room"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Its front end",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+    "rationale": "Bow is the vessel front, not the stern or galley.",
+    "draftID": "easy-28-079"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a ship's stern?",
+    "answers": [
+      "Its rear end",
+      "Its front end",
+      "Its highest mast",
+      "Its kitchen"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Its rear end",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+    "rationale": "Stern is the vessel rear, not the bow or mast.",
+    "draftID": "easy-28-080"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is the left side of a vessel called when facing towards its bow?",
+    "answers": [
+      "Port",
+      "Starboard",
+      "Stern",
+      "Keel"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Port",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+    "rationale": "Port is left when facing the bow; the direction remains fixed to the vessel.",
+    "draftID": "easy-28-081"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is the right side of a vessel called when facing towards its bow?",
+    "answers": [
+      "Starboard",
+      "Port",
+      "Stern",
+      "Keel"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Starboard",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+    "rationale": "Starboard is right when facing the bow; not dependent on the observer facing aft.",
+    "draftID": "easy-28-082"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which part of a sailing boat catches the wind to help propel it?",
+    "answers": [
+      "Sail",
+      "Anchor",
+      "Rudder stock",
+      "Bilge pump"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Sail",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+    "rationale": "Sails harness wind force to propel a sailing vessel.",
+    "draftID": "easy-28-083"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a boat's anchor designed to help it do?",
+    "answers": [
+      "Remain in position",
+      "Turn the propeller",
+      "Pump water out of the bilge",
+      "Raise a sail"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Remain in position",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+    "rationale": "An anchor helps hold position through engagement with the seabed; it is not a brake for every moving vessel.",
+    "draftID": "easy-28-084"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a ship's galley?",
+    "answers": [
+      "Its kitchen",
+      "Its anchor chain",
+      "Its steering blade",
+      "Its forward mast"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Its kitchen",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+    "rationale": "Galley means the ship kitchen.",
+    "draftID": "easy-28-085"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a ship's hull?",
+    "answers": [
+      "Its main body",
+      "Its kitchen stove",
+      "Its radio antenna",
+      "Its anchor"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Its main body",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+    "rationale": "Hull is the vessel main body; not just the engine compartment or mast.",
+    "draftID": "easy-28-086"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a ship's deck?",
+    "answers": [
+      "A floor or platform forming a level of the vessel",
+      "A vertical wall dividing compartments",
+      "The main longitudinal beam beneath the hull",
+      "The pole supporting a sail"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "A floor or platform forming a level of the vessel",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+    "rationale": "A deck is a structural floor/platform level of a vessel.",
+    "draftID": "easy-28-087"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a gangway used for at a moored ship?",
+    "answers": [
+      "Boarding and leaving the ship",
+      "Turning the propeller",
+      "Pumping out the bilge",
+      "Operating the anchor winch"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Boarding and leaving the ship",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+    "rationale": "A gangway provides boarding/disembarkation at a moored vessel; not a propulsion device.",
+    "draftID": "easy-28-088"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a tugboat designed to help move?",
+    "answers": [
+      "Other vessels",
+      "Container cargo using a dockside crane",
+      "Aircraft between airport stands",
+      "Railway wagons inside a freight yard"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Other vessels",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+    "rationale": "Tugboats assist other vessels manoeuvring; their job is not limited to towing a single vessel type.",
+    "draftID": "easy-28-089"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What does a ship's draught measure?",
+    "answers": [
+      "The vertical distance from the waterline to the bottom of the hull",
+      "The length from bow to stern",
+      "The width across the widest part of the hull",
+      "The height of the tallest mast above the deck"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Carry people or vehicles between landing places",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://imocompendium.imo.org/public/IMO-Compendium/Current/ds1.htm",
+    "rationale": "Replace the General Knowledge ferry duplicate with the meaning of ship draught.",
+    "draftID": "easy-28-090"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a dry dock used for?",
+    "answers": [
+      "Accessing a vessel's hull out of the water",
+      "Loading cargo while the vessel remains afloat",
+      "Keeping a ship moving through a lock",
+      "Providing fuel to an aircraft"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Accessing a vessel's hull out of the water",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+    "rationale": "A dry dock enables access to the hull out of water for inspection/maintenance.",
+    "draftID": "easy-28-091"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a canoe paddle used to do?",
+    "answers": [
+      "Propel and steer the canoe",
+      "Drain water through the hull automatically",
+      "Inflate a buoyancy aid",
+      "Anchor the canoe to the riverbed"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Propel and steer the canoe",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+    "rationale": "A paddle propels and helps steer a canoe; it is not the fixed rowlock used for an oar.",
+    "draftID": "easy-28-092"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is an aircraft's cockpit?",
+    "answers": [
+      "The area containing the pilots' controls",
+      "The passenger baggage carousel",
+      "The airport car park",
+      "The aircraft's fuel nozzle"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "The area containing the pilots' controls",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+    "rationale": "Cockpit contains flight controls and pilots, distinct from cabin or cargo hold.",
+    "draftID": "easy-28-093"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is an aircraft's undercarriage also called?",
+    "answers": [
+      "Landing gear",
+      "Tailplane",
+      "Fuselage",
+      "Winglet"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Landing gear",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+    "rationale": "Undercarriage is landing gear, not a winglet or tailplane.",
+    "draftID": "easy-28-094"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a runway used for at an airport?",
+    "answers": [
+      "Aircraft take-offs and landings",
+      "Parking aircraft during maintenance",
+      "Storing passenger luggage",
+      "Controlling flight paths by radio"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Aircraft take-offs and landings",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+    "rationale": "A runway is for take-offs/landings; taxiways connect it to other ground areas.",
+    "draftID": "easy-28-095"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is an airport taxiway used for?",
+    "answers": [
+      "Aircraft moving on the ground between areas such as runways and stands",
+      "Passengers taking taxis into town",
+      "Aircraft taking off from the airport",
+      "Aircraft cruising between countries"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Aircraft moving on the ground between areas such as runways and stands",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+    "rationale": "Taxiways support aircraft ground movement; not road taxis or airborne cruising.",
+    "draftID": "easy-28-096"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is an airport hangar designed to house?",
+    "answers": [
+      "Aircraft",
+      "Passengers awaiting boarding",
+      "Air-traffic controllers directing flights",
+      "Baggage moving between conveyor belts"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Aircraft",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+    "rationale": "A hangar houses aircraft; it differs from the tower, passenger terminal and apron.",
+    "draftID": "easy-28-097"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is an aircraft boarding pass normally used to show?",
+    "answers": [
+      "A passenger's permission to board a particular flight",
+      "Proof that a pilot is qualified to fly every aircraft",
+      "A receipt proving all airport shops have been paid",
+      "A certificate that an aircraft has passed maintenance"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "A passenger's permission to board a particular flight",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+    "rationale": "A boarding pass indicates a passenger authorisation for the identified flight; it is not a pilot licence.",
+    "draftID": "easy-28-098"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "Which type of fixed-wing aircraft is designed primarily for flight without engine power?",
+    "answers": [
+      "Glider",
+      "Passenger jet",
+      "Turboprop airliner",
+      "Piston-engine training aeroplane"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "It flies without using engine thrust",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.faa.gov/documentlibrary/media/order/faa_order_8000_71.pdf",
+    "rationale": "Replace the tautological glider/unpowered-flight comparison with the aircraft designed mainly for flight without engine power.",
+    "draftID": "easy-28-099"
+  },
+  {
+    "categoryID": "28",
+    "difficulty": "easy",
+    "prompt": "What is a helicopter's main rotor primarily designed to generate?",
+    "answers": [
+      "Lift",
+      "Engine coolant pressure",
+      "Tyre pressure",
+      "Electrical insulation"
+    ],
+    "correctIndex": 0,
+    "reviewStatus": "draft_awaiting_independent_source_review",
+    "authorReview": {
+      "meaning": "Read as one everyday vehicle or transport question.",
+      "answer": "Lift",
+      "grammar": "Prompt and each answer read individually for grammar and agreement.",
+      "category": "Vehicles, their parts and basic transport vocabulary."
+    },
+    "sourceURL": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+    "rationale": "A helicopter main rotor generates lift; it can also provide directional thrust, so do not claim lift is its only function.",
+    "draftID": "easy-28-100"
+  }
+]

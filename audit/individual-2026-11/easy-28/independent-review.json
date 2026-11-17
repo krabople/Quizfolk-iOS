@@ -1,0 +1,1912 @@
+{
+  "independent": false,
+  "reviewer": "root (author second editorial pass)",
+  "status": "complete",
+  "reviewed": 100,
+  "remaining": 0,
+  "sourceAccessNote": "Official indexed references inspected, including head restraints, automatic selector labels, tandem cycling, rail equipment, nautical directions and glider definitions. Every prompt and four choices read; claims narrowed and semantic duplicates replaced. This is not an independent reviewer.",
+  "rows": [
+    {
+      "row": 1,
+      "prompt": "Which part of a car is turned by the driver to steer it?",
+      "action": "edit",
+      "note": "The steering wheel is the rotating driver control for steering; the other parts are not steering controls.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "The steering wheel is the rotating driver control for steering; the other parts are not steering controls."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 2,
+      "prompt": "Which car pedal is used to slow the vehicle in ordinary driving?",
+      "action": "edit",
+      "note": "The brake pedal operates the service brakes; releasing the accelerator is not the pedal asked for.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "The brake pedal operates the service brakes; releasing the accelerator is not the pedal asked for."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 3,
+      "prompt": "Which pedal increases engine power when pressed in a conventional petrol car?",
+      "action": "edit",
+      "note": "The accelerator controls requested engine output in the qualified petrol vehicle.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "The accelerator controls requested engine output in the qualified petrol vehicle."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 4,
+      "prompt": "What is a car's handbrake also commonly called?",
+      "action": "edit",
+      "note": "Parking brake is the common alternative term; not every modern parking brake is hand-operated.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "Parking brake is the common alternative term; not every modern parking brake is hand-operated."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 5,
+      "prompt": "What is the purpose of a car's windscreen wipers?",
+      "action": "edit",
+      "note": "Wipers move water off the screen; they do not refill washer fluid.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "Wipers move water off the screen; they do not refill washer fluid."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 6,
+      "prompt": "Which lights illuminate the road ahead of a car at night?",
+      "action": "edit",
+      "note": "Headlights illuminate ahead; brake and number-plate lights have different positions/functions.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "Headlights illuminate ahead; brake and number-plate lights have different positions/functions."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 7,
+      "prompt": "What do a car's brake lights normally signal to following traffic?",
+      "action": "edit",
+      "note": "Brake lights signal braking, including some regenerative deceleration; avoid an absolute pedal-only claim.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "Brake lights signal braking, including some regenerative deceleration; avoid an absolute pedal-only claim.",
+        "prompt": "What do a car's brake lights normally signal to following traffic?",
+        "answers": [
+          "That the car is braking",
+          "That the car is turning left",
+          "That the car is reversing",
+          "That the headlights are on full beam"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 8,
+      "prompt": "Which flashing lights normally signal a driver's intention to turn?",
+      "action": "edit",
+      "note": "Indicators conventionally communicate a turn intention; they may also be used together as hazard lights.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "Indicators conventionally communicate a turn intention; they may also be used together as hazard lights."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 9,
+      "prompt": "What is a car's rear-view mirror mainly used to see?",
+      "action": "edit",
+      "note": "The rear-view mirror shows the area behind; it does not show every blind spot.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "The rear-view mirror shows the area behind; it does not show every blind spot."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 10,
+      "prompt": "What does a speedometer show?",
+      "action": "edit",
+      "note": "Speedometer indicates road speed, unlike odometer distance or tachometer engine speed.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "Speedometer indicates road speed, unlike odometer distance or tachometer engine speed.",
+        "answers": [
+          "The vehicle's speed",
+          "Engine revolutions per minute",
+          "Distance travelled since manufacture",
+          "The remaining fuel level"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 11,
+      "prompt": "What does a car's odometer record?",
+      "action": "edit",
+      "note": "Odometer records distance, unlike trip time, tyre width or engine temperature.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "Odometer records distance, unlike trip time, tyre width or engine temperature.",
+        "answers": [
+          "Distance travelled",
+          "Current vehicle speed",
+          "Engine revolutions per minute",
+          "Time until the next fuel stop"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 12,
+      "prompt": "What does a car's fuel gauge normally indicate?",
+      "action": "edit",
+      "note": "Fuel gauge indicates remaining fuel; it is not a guaranteed exact volume measurement.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "Fuel gauge indicates remaining fuel; it is not a guaranteed exact volume measurement."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 13,
+      "prompt": "What does the rev counter in a car display?",
+      "action": "edit",
+      "note": "Rev counter displays engine revolutions per unit time, not road speed.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "Rev counter displays engine revolutions per unit time, not road speed.",
+        "answers": [
+          "Engine rotation speed",
+          "Road speed",
+          "Distance travelled since manufacture",
+          "The amount of washer fluid"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 14,
+      "prompt": "What is a car's horn used to produce?",
+      "action": "edit",
+      "note": "A horn makes an audible warning, not an engine-cooling airflow.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "A horn makes an audible warning, not an engine-cooling airflow."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 15,
+      "prompt": "What does an electric-window switch in a car control?",
+      "action": "edit",
+      "note": "Replace the trivial seat-cushion question with the distinct electric-window switch function.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "Replace the trivial seat-cushion question with the distinct electric-window switch function.",
+        "prompt": "What does an electric-window switch in a car control?",
+        "answers": [
+          "Raising or lowering a window",
+          "Setting the windscreen-wiper speed",
+          "Adjusting the headlight beam",
+          "Changing the radio station"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 16,
+      "prompt": "What is a car's head restraint designed to help reduce in a rear-end collision?",
+      "action": "edit",
+      "note": "Rewrite the headrest question around limiting head movement and whiplash injury, its safety purpose.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.euroncap.com/glossary/",
+        "rationale": "Rewrite the headrest question around limiting head movement and whiplash injury, its safety purpose.",
+        "prompt": "What is a car's head restraint designed to help reduce in a rear-end collision?",
+        "answers": [
+          "Whiplash injury",
+          "Tyre wear",
+          "Engine vibration",
+          "Brake overheating"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 17,
+      "prompt": "What is the boot of a British car called in American English?",
+      "action": "edit",
+      "note": "American trunk corresponds to British boot; hood and fender name other body parts.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/trunk",
+        "rationale": "American trunk corresponds to British boot; hood and fender name other body parts."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 18,
+      "prompt": "What is the bonnet of a British car called in American English?",
+      "action": "edit",
+      "note": "American hood corresponds to British bonnet; not the luggage compartment.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/hood",
+        "rationale": "American hood corresponds to British bonnet; not the luggage compartment."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 19,
+      "prompt": "What is the windscreen of a British car called in American English?",
+      "action": "edit",
+      "note": "American windshield corresponds to British windscreen; not a side body panel.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/windshield",
+        "rationale": "American windshield corresponds to British windscreen; not a side body panel."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 20,
+      "prompt": "What is a car's glove compartment?",
+      "action": "edit",
+      "note": "The glove compartment is a small dashboard storage space; its name does not limit it to gloves.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "The glove compartment is a small dashboard storage space; its name does not limit it to gloves."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 21,
+      "prompt": "What does a car's sun visor help block?",
+      "action": "edit",
+      "note": "Sun visors reduce sunlight glare; they do not replace windscreen wipers.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "Sun visors reduce sunlight glare; they do not replace windscreen wipers.",
+        "answers": [
+          "Glare from sunlight",
+          "Glare from an illuminated dashboard",
+          "Mist inside the windscreen",
+          "Rain on the outside of the windscreen"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 22,
+      "prompt": "Which part of a car opens to give access to the engine bay on most front-engined cars?",
+      "action": "edit",
+      "note": "Front-engined qualification makes bonnet the appropriate access panel; rear/mid-engine layouts differ.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "Front-engined qualification makes bonnet the appropriate access panel; rear/mid-engine layouts differ."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 23,
+      "prompt": "What does a car's exhaust pipe carry away?",
+      "action": "edit",
+      "note": "Exhaust pipes discharge combustion gases; not fuel supplied to the engine.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "Exhaust pipes discharge combustion gases; not fuel supplied to the engine.",
+        "answers": [
+          "Gases produced by the engine",
+          "Air entering the intake manifold",
+          "Coolant returning to the radiator",
+          "Fuel entering the tank"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 24,
+      "prompt": "What is the purpose of an engine's air filter?",
+      "action": "edit",
+      "note": "An intake air filter removes particles from incoming air, not exhaust gases after combustion.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "An intake air filter removes particles from incoming air, not exhaust gases after combustion.",
+        "answers": [
+          "Removing particles from incoming air",
+          "Removing particles from the engine oil",
+          "Cooling the exhaust gases",
+          "Regulating brake-fluid pressure"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 25,
+      "prompt": "What is the main purpose of a car's radiator in a liquid-cooled engine?",
+      "action": "edit",
+      "note": "A radiator transfers heat from liquid coolant; the liquid-cooled qualification avoids air-cooled engines.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "A radiator transfers heat from liquid coolant; the liquid-cooled qualification avoids air-cooled engines.",
+        "answers": [
+          "Helping remove heat from the coolant",
+          "Filtering the engine oil",
+          "Storing windscreen-washer fluid",
+          "Measuring air pressure in the tyres"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 26,
+      "prompt": "What does tyre pressure measure?",
+      "action": "edit",
+      "note": "Replace the tube/tubeless ambiguity with the meaning of tyre pressure.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "Replace the tube/tubeless ambiguity with the meaning of tyre pressure.",
+        "prompt": "What does tyre pressure measure?",
+        "answers": [
+          "The pressure of the air inside a tyre",
+          "The depth of the tread grooves",
+          "The diameter of the wheel rim",
+          "The distance between the front wheels"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 27,
+      "prompt": "What is tyre tread?",
+      "action": "edit",
+      "note": "Tread is the road-contacting patterned tyre surface, not the valve or rim.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "Tread is the road-contacting patterned tyre surface, not the valve or rim."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 28,
+      "prompt": "Which part of a tyre allows air to be added or released?",
+      "action": "edit",
+      "note": "The tyre valve admits/releases air; an axle and bumper do not.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "The tyre valve admits/releases air; an axle and bumper do not."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 29,
+      "prompt": "What is a spare wheel carried for?",
+      "action": "edit",
+      "note": "A spare wheel can replace a road wheel; some temporary spares have restrictions not asked about here.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "A spare wheel can replace a road wheel; some temporary spares have restrictions not asked about here."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 30,
+      "prompt": "What is a car jack used to do?",
+      "action": "edit",
+      "note": "A jack raises part of the vehicle; this definition is not an instruction to work beneath an unsupported car.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "A jack raises part of the vehicle; this definition is not an instruction to work beneath an unsupported car.",
+        "answers": [
+          "Lift part of the car",
+          "Measure the tyre pressure",
+          "Tighten the wheel nuts",
+          "Test the battery charge"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 31,
+      "prompt": "What secures a car wheel to its hub on many vehicles?",
+      "action": "edit",
+      "note": "Wheel nuts or bolts secure many wheels to hubs; central-lock and other designs explain the qualification.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "Wheel nuts or bolts secure many wheels to hubs; central-lock and other designs explain the qualification."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 32,
+      "prompt": "What does a shock absorber help control?",
+      "action": "edit",
+      "note": "Shock absorbers damp suspension oscillation; they are not the springs themselves.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "Shock absorbers damp suspension oscillation; they are not the springs themselves.",
+        "answers": [
+          "Bouncing of the suspension",
+          "Air entering the engine",
+          "Fuel entering the injectors",
+          "The temperature of the coolant"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 33,
+      "prompt": "What does a car's clutch allow the driver to disconnect temporarily in a conventional manual transmission?",
+      "action": "edit",
+      "note": "The manual clutch disconnects engine torque from the transmission temporarily.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "The manual clutch disconnects engine torque from the transmission temporarily.",
+        "answers": [
+          "The engine from the transmission",
+          "The front wheels from the steering rack",
+          "The battery from the alternator",
+          "The fuel tank from the filler pipe"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 34,
+      "prompt": "Which control selects forward gears or reverse in a conventional manual car?",
+      "action": "edit",
+      "note": "A manual gear lever selects the transmission ratio or reverse.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "A manual gear lever selects the transmission ratio or reverse."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 35,
+      "prompt": "What is the purpose of reverse gear?",
+      "action": "edit",
+      "note": "Reverse permits backward movement; it does not necessarily reverse the rotation of the engine itself.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "Reverse permits backward movement; it does not necessarily reverse the rotation of the engine itself.",
+        "answers": [
+          "Moving the vehicle backwards",
+          "Keeping the engine idling while stationary",
+          "Locking the steering wheel",
+          "Applying the parking brake"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 36,
+      "prompt": "What does the P position normally mean on an automatic car's gear selector?",
+      "action": "edit",
+      "note": "P means Park; it is not power steering or petrol.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.fordservicecontent.com/Ford_Content/catalog/owner_guides/12378og1e.pdf",
+        "rationale": "P means Park; it is not power steering or petrol."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 37,
+      "prompt": "What does the N position normally mean on a car's gear selector?",
+      "action": "edit",
+      "note": "N means Neutral; not night mode or navigation.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.fordservicecontent.com/Ford_Content/catalog/owner_guides/12378og1e.pdf",
+        "rationale": "N means Neutral; not night mode or navigation."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 38,
+      "prompt": "What does the D position normally select on an automatic car?",
+      "action": "edit",
+      "note": "D means Drive; not a request for the demister.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.fordservicecontent.com/Ford_Content/catalog/owner_guides/12378og1e.pdf",
+        "rationale": "D means Drive; not a request for the demister."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 39,
+      "prompt": "What does a convertible car have that can be opened or lowered?",
+      "action": "edit",
+      "note": "A convertible has an openable/retractable/removable roof; not every model uses the same mechanism.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "A convertible has an openable/retractable/removable roof; not every model uses the same mechanism.",
+        "answers": [
+          "Its roof",
+          "Its engine block",
+          "Its rear axle",
+          "Its dashboard"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 40,
+      "prompt": "Which British car-body term corresponds to the American term sedan?",
+      "action": "edit",
+      "note": "Replace the awkward body-style comparison with the clear American sedan/British saloon equivalence.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/sedan",
+        "rationale": "Replace the awkward body-style comparison with the clear American sedan/British saloon equivalence.",
+        "prompt": "Which British car-body term corresponds to the American term sedan?",
+        "answers": [
+          "Saloon",
+          "Estate",
+          "Hatchback",
+          "Pickup"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 41,
+      "prompt": "What is the open rear load-carrying area of a pickup truck called?",
+      "action": "edit",
+      "note": "A pickup bed is its open load area, distinct from the cab or engine bay.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "A pickup bed is its open load area, distinct from the cab or engine bay."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 42,
+      "prompt": "What is a tow bar used to connect to a car?",
+      "action": "edit",
+      "note": "A tow bar/hitch couples a trailer; it is not a control linkage.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "A tow bar/hitch couples a trailer; it is not a control linkage."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 43,
+      "prompt": "What is a trailer?",
+      "action": "edit",
+      "note": "A trailer is designed for towing, even though some specialised trailers may have powered components.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "A trailer is designed for towing, even though some specialised trailers may have powered components."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 44,
+      "prompt": "What is a caravan designed to provide when towed to a campsite?",
+      "action": "edit",
+      "note": "A touring caravan supplies accommodation; avoid confusing it with a self-propelled motorhome.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "A touring caravan supplies accommodation; avoid confusing it with a self-propelled motorhome.",
+        "answers": [
+          "Living and sleeping accommodation",
+          "A mobile fuel storage tank",
+          "An open platform for transporting a car",
+          "A refrigerated container for food deliveries"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 45,
+      "prompt": "What is a motorhome?",
+      "action": "edit",
+      "note": "A motorhome combines powered travel and accommodation.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security",
+        "rationale": "A motorhome combines powered travel and accommodation.",
+        "answers": [
+          "A motor vehicle with living accommodation",
+          "An unpowered trailer with living accommodation",
+          "A recovery vehicle carrying another car",
+          "A road vehicle designed only to carry liquid cargo"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 46,
+      "prompt": "Which vehicle is commonly fitted with a rotating drum to keep concrete mixed?",
+      "action": "edit",
+      "note": "A concrete mixer truck uses its rotating drum to keep the load mixed.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/concrete-mixer",
+        "rationale": "A concrete mixer truck uses its rotating drum to keep the load mixed.",
+        "answers": [
+          "Concrete mixer truck",
+          "Tipper truck",
+          "Flatbed truck",
+          "Refuse truck"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 47,
+      "prompt": "Which part of a tipper truck tilts to unload its contents?",
+      "action": "edit",
+      "note": "A tipper tilts its load bed/body to discharge material.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/tipper",
+        "rationale": "A tipper tilts its load bed/body to discharge material."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 48,
+      "prompt": "What is a forklift's pair of long front prongs used to lift?",
+      "action": "edit",
+      "note": "Forks lift loads such as pallets; passenger-only answers are not a proper primary purpose.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/forklift",
+        "rationale": "Forks lift loads such as pallets; passenger-only answers are not a proper primary purpose.",
+        "answers": [
+          "Loads such as pallets",
+          "The road surface for resurfacing",
+          "Overhead power cables",
+          "Only the empty vehicle itself"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 49,
+      "prompt": "Which vehicle is designed to compact surfaces using a heavy roller?",
+      "action": "edit",
+      "note": "A road roller compacts through a heavy rolling drum; a sweeper cleans rather than compacts.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/road-roller",
+        "rationale": "A road roller compacts through a heavy rolling drum; a sweeper cleans rather than compacts.",
+        "answers": [
+          "Road roller",
+          "Road sweeper",
+          "Tipper truck",
+          "Concrete mixer truck"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 50,
+      "prompt": "What does a snowplough's front blade push aside?",
+      "action": "edit",
+      "note": "A snowplough pushes snow aside; it is not a street-cleaning brush.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/snowplough",
+        "rationale": "A snowplough pushes snow aside; it is not a street-cleaning brush.",
+        "answers": [
+          "Snow",
+          "Fallen leaves using a rotating brush",
+          "Liquid road markings",
+          "Hot asphalt from a hopper"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 51,
+      "prompt": "Which vehicle is specially equipped to transport patients?",
+      "action": "edit",
+      "note": "An ambulance is equipped for patient transport; not every ambulance trip is an emergency.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/ambulance",
+        "rationale": "An ambulance is equipped for patient transport; not every ambulance trip is an emergency."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 52,
+      "prompt": "What is a hearse primarily used to transport?",
+      "action": "edit",
+      "note": "A hearse primarily carries a coffin; not livestock or bulk freight.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/hearse",
+        "rationale": "A hearse primarily carries a coffin; not livestock or bulk freight."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 53,
+      "prompt": "Which vehicle's main job is collecting household rubbish?",
+      "action": "edit",
+      "note": "A refuse truck collects rubbish; distinguish a road sweeper that cleans the road surface.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/dustcart",
+        "rationale": "A refuse truck collects rubbish; distinguish a road sweeper that cleans the road surface.",
+        "answers": [
+          "Refuse truck",
+          "Road sweeper",
+          "Concrete mixer truck",
+          "Recovery truck"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 54,
+      "prompt": "Which farm vehicle combines cutting and threshing a grain crop?",
+      "action": "edit",
+      "note": "A combine combines crop cutting and threshing, rather than merely towing a trailer.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/combine-harvester",
+        "rationale": "A combine combines crop cutting and threshing, rather than merely towing a trailer."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 55,
+      "prompt": "What is a car transporter designed to carry?",
+      "action": "edit",
+      "note": "A car transporter carries other vehicles; it is not limited to one vehicle make.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/transporter",
+        "rationale": "A car transporter carries other vehicles; it is not limited to one vehicle make.",
+        "answers": [
+          "Other vehicles",
+          "Loose aggregates tipped from a hopper",
+          "Liquid cargo carried in a sealed tank",
+          "Passengers travelling in a coach cabin"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 56,
+      "prompt": "What is a tanker truck's large enclosed tank used to carry?",
+      "action": "edit",
+      "note": "Tankers carry liquids or gases in tanks, not necessarily fuel only.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/tanker",
+        "rationale": "Tankers carry liquids or gases in tanks, not necessarily fuel only."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 57,
+      "prompt": "What is a flatbed truck's load platform like?",
+      "action": "edit",
+      "note": "A flatbed has a flat open platform, rather than a sealed box, drum or tank.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/flatbed",
+        "rationale": "A flatbed has a flat open platform, rather than a sealed box, drum or tank."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 58,
+      "prompt": "What is the driver's compartment of a lorry called?",
+      "action": "edit",
+      "note": "The lorry driver compartment is the cab; a hold and galley are ship spaces.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/cab",
+        "rationale": "The lorry driver compartment is the cab; a hold and galley are ship spaces.",
+        "answers": [
+          "Cab",
+          "Hold",
+          "Galley",
+          "Engine bay"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 59,
+      "prompt": "Which part of a bicycle is pressed with the feet to provide power?",
+      "action": "edit",
+      "note": "Pedals receive the rider foot force and turn the cranks.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.cyclinguk.org/article/which-bike-should-i-buy",
+        "rationale": "Pedals receive the rider foot force and turn the cranks."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 60,
+      "prompt": "What does a bicycle chain normally transfer to the driven wheel?",
+      "action": "edit",
+      "note": "The chain transmits pedal power via chainrings and sprockets to the driven wheel.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.cyclinguk.org/article/which-bike-should-i-buy",
+        "rationale": "The chain transmits pedal power via chainrings and sprockets to the driven wheel.",
+        "answers": [
+          "Power from the pedals",
+          "Hydraulic pressure from the brake lever",
+          "Electrical power from a dynamo",
+          "Air from the tyre valve"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 61,
+      "prompt": "Which bicycle component carries the rider's weight while seated?",
+      "action": "edit",
+      "note": "The saddle supports the seated rider; the rider weight is also shared through pedals and handlebars.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.cyclinguk.org/article/which-bike-should-i-buy",
+        "rationale": "The saddle supports the seated rider; the rider weight is also shared through pedals and handlebars."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 62,
+      "prompt": "What is a bicycle's handlebar mainly used for?",
+      "action": "edit",
+      "note": "Handlebars primarily steer; they may carry controls but do not themselves inflate tyres.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.cyclinguk.org/article/which-bike-should-i-buy",
+        "rationale": "Handlebars primarily steer; they may carry controls but do not themselves inflate tyres.",
+        "answers": [
+          "Steering",
+          "Changing tyre pressure",
+          "Lubricating the chain",
+          "Adjusting saddle height"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 63,
+      "prompt": "Which bicycle fitting produces a ringing warning sound?",
+      "action": "edit",
+      "note": "A bell provides the characteristic ringing warning.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.cyclinguk.org/article/which-bike-should-i-buy",
+        "rationale": "A bell provides the characteristic ringing warning."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 64,
+      "prompt": "What do bicycle mudguards help reduce?",
+      "action": "edit",
+      "note": "Mudguards reduce spray and dirt thrown by rotating wheels.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.cyclinguk.org/article/which-bike-should-i-buy",
+        "rationale": "Mudguards reduce spray and dirt thrown by rotating wheels.",
+        "answers": [
+          "Water and dirt thrown up by the wheels",
+          "Stretching of the chain",
+          "Wear on the brake cables",
+          "Loss of tyre pressure"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 65,
+      "prompt": "What is a bicycle pannier?",
+      "action": "edit",
+      "note": "Panniers are side-mounted bags, commonly rack-supported, unlike top-mounted saddlebags.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.cyclinguk.org/article/baggage-check-bikepacking-bags-or-panniers",
+        "rationale": "Panniers are side-mounted bags, commonly rack-supported, unlike top-mounted saddlebags."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 66,
+      "prompt": "How are riders normally arranged on a tandem bicycle?",
+      "action": "edit",
+      "note": "Change to the tandem seating arrangement; tandems can have more than two riders, so do not define all tandems as exactly two-seat.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.cyclinguk.org/article/cycling-guide/guide-tandems",
+        "rationale": "Change to the tandem seating arrangement; tandems can have more than two riders, so do not define all tandems as exactly two-seat.",
+        "prompt": "How are riders normally arranged on a tandem bicycle?",
+        "answers": [
+          "One behind another",
+          "Side by side across one wide saddle",
+          "Facing one another between the wheels",
+          "Standing beside the frame on platforms"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 67,
+      "prompt": "How many wheels does a unicycle have?",
+      "action": "edit",
+      "note": "A unicycle has one wheel; this is a simple vehicle vocabulary question.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.cyclinguk.org/article/which-bike-should-i-buy",
+        "rationale": "A unicycle has one wheel; this is a simple vehicle vocabulary question."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 68,
+      "prompt": "How many wheels does a tricycle have?",
+      "action": "edit",
+      "note": "A tricycle has three wheels; not two or four.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.cyclinguk.org/article/which-bike-should-i-buy",
+        "rationale": "A tricycle has three wheels; not two or four."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 69,
+      "prompt": "Which part of a motorcycle is normally twisted by the rider's right hand to control engine power?",
+      "action": "edit",
+      "note": "The conventional right-hand twist grip is the throttle; qualify normally to allow adapted controls.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.cyclinguk.org/article/which-bike-should-i-buy",
+        "rationale": "The conventional right-hand twist grip is the throttle; qualify normally to allow adapted controls."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 70,
+      "prompt": "What is a motorcycle sidecar?",
+      "action": "edit",
+      "note": "A sidecar is an attached side compartment; it can also carry luggage but is not a tyre fitting.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.cyclinguk.org/article/which-bike-should-i-buy",
+        "rationale": "A sidecar is an attached side compartment; it can also carry luggage but is not a tyre fitting."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 71,
+      "prompt": "What is a rail vehicle's pantograph used to contact?",
+      "action": "edit",
+      "note": "A pantograph collects current by contacting overhead electrical equipment.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://safety.networkrail.co.uk/jargon-buster/",
+        "rationale": "A pantograph collects current by contacting overhead electrical equipment.",
+        "answers": [
+          "An overhead electrical wire",
+          "The running surface of a rail",
+          "The edge of a platform",
+          "A buffer stop"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 72,
+      "prompt": "What are the crosspieces supporting railway rails commonly called in Britain?",
+      "action": "edit",
+      "note": "Britain calls the crosspieces sleepers; US ties terminology is not an alternative offered.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://safety.networkrail.co.uk/jargon-buster/",
+        "rationale": "Britain calls the crosspieces sleepers; US ties terminology is not an alternative offered.",
+        "answers": [
+          "Sleepers",
+          "Ballast",
+          "Signals",
+          "Points"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 73,
+      "prompt": "What is a railway platform used for?",
+      "action": "edit",
+      "note": "Station platforms provide access to passenger trains; they are not the rails or overhead wires.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://safety.networkrail.co.uk/jargon-buster/",
+        "rationale": "Station platforms provide access to passenger trains; they are not the rails or overhead wires.",
+        "answers": [
+          "Passengers boarding and leaving trains",
+          "Storing ballast beneath the rails",
+          "Connecting overhead power wires",
+          "Turning locomotives around"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 74,
+      "prompt": "What is a railway level crossing?",
+      "action": "edit",
+      "note": "A level crossing intersects a road/path and railway at the same level; a bridge is grade-separated.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://safety.networkrail.co.uk/jargon-buster/",
+        "rationale": "A level crossing intersects a road/path and railway at the same level; a bridge is grade-separated."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 75,
+      "prompt": "What is a locomotive designed to do?",
+      "action": "edit",
+      "note": "A locomotive provides train motive power, even when used alone or distributed through a train.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://safety.networkrail.co.uk/jargon-buster/",
+        "rationale": "A locomotive provides train motive power, even when used alone or distributed through a train."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 76,
+      "prompt": "What is a freight train primarily used to carry?",
+      "action": "edit",
+      "note": "Freight trains carry goods, in contrast to passenger trains.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://safety.networkrail.co.uk/jargon-buster/",
+        "rationale": "Freight trains carry goods, in contrast to passenger trains.",
+        "answers": [
+          "Goods",
+          "Only passengers in sleeping cabins",
+          "Only passengers on commuter services",
+          "Only travellers on sightseeing journeys"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 77,
+      "prompt": "What is a railway buffer stop designed to mark or protect?",
+      "action": "edit",
+      "note": "A buffer stop protects the end of a terminating track; it cannot guarantee stopping every runaway vehicle.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://safety.networkrail.co.uk/jargon-buster/",
+        "rationale": "A buffer stop protects the end of a terminating track; it cannot guarantee stopping every runaway vehicle.",
+        "answers": [
+          "The end of a track",
+          "The start of an electrified section",
+          "The position of a level crossing",
+          "The maximum speed of a train"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 78,
+      "prompt": "What is a railway carriage or passenger coach used to carry?",
+      "action": "edit",
+      "note": "A passenger carriage carries people; the prompt explicitly excludes freight wagons.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://safety.networkrail.co.uk/jargon-buster/",
+        "rationale": "A passenger carriage carries people; the prompt explicitly excludes freight wagons.",
+        "answers": [
+          "Passengers",
+          "Only bulk liquids in a tank",
+          "Only loose coal in an open wagon",
+          "Only containers stacked on a flat wagon"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 79,
+      "prompt": "What is a ship's bow?",
+      "action": "edit",
+      "note": "Bow is the vessel front, not the stern or galley.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+        "rationale": "Bow is the vessel front, not the stern or galley."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 80,
+      "prompt": "What is a ship's stern?",
+      "action": "edit",
+      "note": "Stern is the vessel rear, not the bow or mast.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+        "rationale": "Stern is the vessel rear, not the bow or mast."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 81,
+      "prompt": "What is the left side of a vessel called when facing towards its bow?",
+      "action": "edit",
+      "note": "Port is left when facing the bow; the direction remains fixed to the vessel.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+        "rationale": "Port is left when facing the bow; the direction remains fixed to the vessel."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 82,
+      "prompt": "What is the right side of a vessel called when facing towards its bow?",
+      "action": "edit",
+      "note": "Starboard is right when facing the bow; not dependent on the observer facing aft.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+        "rationale": "Starboard is right when facing the bow; not dependent on the observer facing aft."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 83,
+      "prompt": "Which part of a sailing boat catches the wind to help propel it?",
+      "action": "edit",
+      "note": "Sails harness wind force to propel a sailing vessel.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+        "rationale": "Sails harness wind force to propel a sailing vessel."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 84,
+      "prompt": "What is a boat's anchor designed to help it do?",
+      "action": "edit",
+      "note": "An anchor helps hold position through engagement with the seabed; it is not a brake for every moving vessel.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+        "rationale": "An anchor helps hold position through engagement with the seabed; it is not a brake for every moving vessel.",
+        "answers": [
+          "Remain in position",
+          "Turn the propeller",
+          "Pump water out of the bilge",
+          "Raise a sail"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 85,
+      "prompt": "What is a ship's galley?",
+      "action": "edit",
+      "note": "Galley means the ship kitchen.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+        "rationale": "Galley means the ship kitchen."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 86,
+      "prompt": "What is a ship's hull?",
+      "action": "edit",
+      "note": "Hull is the vessel main body; not just the engine compartment or mast.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+        "rationale": "Hull is the vessel main body; not just the engine compartment or mast."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 87,
+      "prompt": "What is a ship's deck?",
+      "action": "edit",
+      "note": "A deck is a structural floor/platform level of a vessel.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+        "rationale": "A deck is a structural floor/platform level of a vessel.",
+        "answers": [
+          "A floor or platform forming a level of the vessel",
+          "A vertical wall dividing compartments",
+          "The main longitudinal beam beneath the hull",
+          "The pole supporting a sail"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 88,
+      "prompt": "What is a gangway used for at a moored ship?",
+      "action": "edit",
+      "note": "A gangway provides boarding/disembarkation at a moored vessel; not a propulsion device.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+        "rationale": "A gangway provides boarding/disembarkation at a moored vessel; not a propulsion device.",
+        "answers": [
+          "Boarding and leaving the ship",
+          "Turning the propeller",
+          "Pumping out the bilge",
+          "Operating the anchor winch"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 89,
+      "prompt": "What is a tugboat designed to help move?",
+      "action": "edit",
+      "note": "Tugboats assist other vessels manoeuvring; their job is not limited to towing a single vessel type.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+        "rationale": "Tugboats assist other vessels manoeuvring; their job is not limited to towing a single vessel type.",
+        "answers": [
+          "Other vessels",
+          "Container cargo using a dockside crane",
+          "Aircraft between airport stands",
+          "Railway wagons inside a freight yard"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 90,
+      "prompt": "What does a ship's draught measure?",
+      "action": "edit",
+      "note": "Replace the General Knowledge ferry duplicate with the meaning of ship draught.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://imocompendium.imo.org/public/IMO-Compendium/Current/ds1.htm",
+        "rationale": "Replace the General Knowledge ferry duplicate with the meaning of ship draught.",
+        "prompt": "What does a ship's draught measure?",
+        "answers": [
+          "The vertical distance from the waterline to the bottom of the hull",
+          "The length from bow to stern",
+          "The width across the widest part of the hull",
+          "The height of the tallest mast above the deck"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 91,
+      "prompt": "What is a dry dock used for?",
+      "action": "edit",
+      "note": "A dry dock enables access to the hull out of water for inspection/maintenance.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+        "rationale": "A dry dock enables access to the hull out of water for inspection/maintenance.",
+        "answers": [
+          "Accessing a vessel's hull out of the water",
+          "Loading cargo while the vessel remains afloat",
+          "Keeping a ship moving through a lock",
+          "Providing fuel to an aircraft"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 92,
+      "prompt": "What is a canoe paddle used to do?",
+      "action": "edit",
+      "note": "A paddle propels and helps steer a canoe; it is not the fixed rowlock used for an oar.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.rmg.co.uk/sites/default/files/Cutty_Sark_Facts_Pack.pdf",
+        "rationale": "A paddle propels and helps steer a canoe; it is not the fixed rowlock used for an oar.",
+        "answers": [
+          "Propel and steer the canoe",
+          "Drain water through the hull automatically",
+          "Inflate a buoyancy aid",
+          "Anchor the canoe to the riverbed"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 93,
+      "prompt": "What is an aircraft's cockpit?",
+      "action": "edit",
+      "note": "Cockpit contains flight controls and pilots, distinct from cabin or cargo hold.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+        "rationale": "Cockpit contains flight controls and pilots, distinct from cabin or cargo hold."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 94,
+      "prompt": "What is an aircraft's undercarriage also called?",
+      "action": "edit",
+      "note": "Undercarriage is landing gear, not a winglet or tailplane.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+        "rationale": "Undercarriage is landing gear, not a winglet or tailplane."
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 95,
+      "prompt": "What is a runway used for at an airport?",
+      "action": "edit",
+      "note": "A runway is for take-offs/landings; taxiways connect it to other ground areas.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+        "rationale": "A runway is for take-offs/landings; taxiways connect it to other ground areas.",
+        "answers": [
+          "Aircraft take-offs and landings",
+          "Parking aircraft during maintenance",
+          "Storing passenger luggage",
+          "Controlling flight paths by radio"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 96,
+      "prompt": "What is an airport taxiway used for?",
+      "action": "edit",
+      "note": "Taxiways support aircraft ground movement; not road taxis or airborne cruising.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+        "rationale": "Taxiways support aircraft ground movement; not road taxis or airborne cruising.",
+        "answers": [
+          "Aircraft moving on the ground between areas such as runways and stands",
+          "Passengers taking taxis into town",
+          "Aircraft taking off from the airport",
+          "Aircraft cruising between countries"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 97,
+      "prompt": "What is an airport hangar designed to house?",
+      "action": "edit",
+      "note": "A hangar houses aircraft; it differs from the tower, passenger terminal and apron.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+        "rationale": "A hangar houses aircraft; it differs from the tower, passenger terminal and apron.",
+        "answers": [
+          "Aircraft",
+          "Passengers awaiting boarding",
+          "Air-traffic controllers directing flights",
+          "Baggage moving between conveyor belts"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 98,
+      "prompt": "What is an aircraft boarding pass normally used to show?",
+      "action": "edit",
+      "note": "A boarding pass indicates a passenger authorisation for the identified flight; it is not a pilot licence.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+        "rationale": "A boarding pass indicates a passenger authorisation for the identified flight; it is not a pilot licence.",
+        "answers": [
+          "A passenger's permission to board a particular flight",
+          "Proof that a pilot is qualified to fly every aircraft",
+          "A receipt proving all airport shops have been paid",
+          "A certificate that an aircraft has passed maintenance"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 99,
+      "prompt": "Which type of fixed-wing aircraft is designed primarily for flight without engine power?",
+      "action": "edit",
+      "note": "Replace the tautological glider/unpowered-flight comparison with the aircraft designed mainly for flight without engine power.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.faa.gov/documentlibrary/media/order/faa_order_8000_71.pdf",
+        "rationale": "Replace the tautological glider/unpowered-flight comparison with the aircraft designed mainly for flight without engine power.",
+        "prompt": "Which type of fixed-wing aircraft is designed primarily for flight without engine power?",
+        "answers": [
+          "Glider",
+          "Passenger jet",
+          "Turboprop airliner",
+          "Piston-engine training aeroplane"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    },
+    {
+      "row": 100,
+      "prompt": "What is a helicopter's main rotor primarily designed to generate?",
+      "action": "edit",
+      "note": "A helicopter main rotor generates lift; it can also provide directional thrust, so do not claim lift is its only function.",
+      "meaning": true,
+      "answerCorrect": true,
+      "onlyOneCorrect": true,
+      "grammar": true,
+      "categoryRelevant": true,
+      "recommendedChanges": {
+        "sourceURL": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/faa-h-8083-25c.pdf",
+        "rationale": "A helicopter main rotor generates lift; it can also provide directional thrust, so do not claim lift is its only function.",
+        "answers": [
+          "Lift",
+          "Engine coolant pressure",
+          "Tyre pressure",
+          "Electrical insulation"
+        ]
+      },
+      "sourceReview": "Vehicle vocabulary and four choices checked individually. Official Highway Code, Ford, Euro NCAP, Cycling UK, Network Rail, Royal Museums Greenwich and FAA references were inspected for the relevant areas; dictionary URLs identify the remaining stable transport definitions rather than claiming every URL was opened."
+    }
+  ]
+}

@@ -1,0 +1,1602 @@
+[
+  {
+    "draftID": "easy-16-001",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "How many squares are on a standard chessboard?",
+    "answers": [
+      "64",
+      "49",
+      "81",
+      "100"
+    ],
+    "correctIndex": 0,
+    "rationale": "The standard board is eight squares by eight squares.",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-002",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "How many pieces does each player have at the start of a standard chess game?",
+    "answers": [
+      "16",
+      "12",
+      "18",
+      "20"
+    ],
+    "correctIndex": 0,
+    "rationale": "Each side starts with eight pawns and eight other pieces.",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-003",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "How many pawns does each player start with in standard chess?",
+    "answers": [
+      "8",
+      "6",
+      "7",
+      "10"
+    ],
+    "correctIndex": 0,
+    "rationale": "The second rank for each player is occupied by eight pawns.",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-004",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which chess piece moves any number of unobstructed squares along a rank or file, but not diagonally?",
+    "answers": [
+      "Rook",
+      "Bishop",
+      "Knight",
+      "King"
+    ],
+    "correctIndex": 0,
+    "rationale": "Rooks move horizontally or vertically; the obstruction qualification matters.",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-005",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which chess piece makes the familiar L-shaped move?",
+    "answers": [
+      "Knight",
+      "Rook",
+      "Bishop",
+      "King"
+    ],
+    "correctIndex": 0,
+    "rationale": "A knight moves two squares along one axis and one along the other.",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-006",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which chess piece can jump over intervening pieces during its ordinary move?",
+    "answers": [
+      "Knight",
+      "Bishop",
+      "Rook",
+      "Queen"
+    ],
+    "correctIndex": 0,
+    "rationale": "Knights can jump; ordinary rook, bishop and queen moves cannot pass through pieces.",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-007",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Apart from castling, how far may a king move in one standard chess move?",
+    "answers": [
+      "One square",
+      "Two squares in a straight line",
+      "Three squares diagonally",
+      "Any number of clear squares"
+    ],
+    "correctIndex": 0,
+    "rationale": "The king normally moves to an adjacent legal square.",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-008",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In chess, may you make a move that leaves your own king under attack?",
+    "answers": [
+      "No",
+      "Yes, whenever you capture a pawn",
+      "Yes, if your queen is safe",
+      "Yes, but only on your first turn"
+    ],
+    "correctIndex": 0,
+    "rationale": "A move leaving the moving player king in check is illegal.",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-009",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "What is the result when a player checkmates the opposing king in standard chess?",
+    "answers": [
+      "That player wins",
+      "The game is automatically drawn",
+      "Both kings are removed and play continues",
+      "The losing player gets another move"
+    ],
+    "correctIndex": 0,
+    "rationale": "Checkmate ends the game with a win, rather than requiring capture of the king.",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-010",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In an ordinary chess capture, which way does a pawn take an opposing piece?",
+    "answers": [
+      "One square diagonally forwards",
+      "One square straight backwards",
+      "Any distance horizontally",
+      "Two squares straight forwards"
+    ],
+    "correctIndex": 0,
+    "rationale": "Ordinary pawn captures are one diagonal square forwards; en passant has special conditions.",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-011",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "How does a chess pawn normally advance when it is not capturing?",
+    "answers": [
+      "Straight forwards",
+      "Straight backwards",
+      "Sideways",
+      "Diagonally backwards"
+    ],
+    "correctIndex": 0,
+    "rationale": "Pawn non-capturing movement is forwards, with a possible initial two-square move.",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-012",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "What happens when a chess pawn legally reaches the farthest rank?",
+    "answers": [
+      "It is promoted to another permitted piece",
+      "It must become a king",
+      "It returns to its starting square",
+      "It is removed without replacement"
+    ],
+    "correctIndex": 0,
+    "rationale": "Promotion replaces it with a queen, rook, bishop or knight of the same colour.",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-013",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "At the start of standard chess, the white queen stands on a square of which colour?",
+    "answers": [
+      "White",
+      "Black",
+      "Either colour chosen by its player",
+      "A special red square"
+    ],
+    "correctIndex": 0,
+    "rationale": "The queen begins on her own colour: white queen on d1.",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-014",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "When setting up a standard chessboard, what colour is the nearest corner square on your right?",
+    "answers": [
+      "White",
+      "Black",
+      "Always green",
+      "Either colour is equally valid"
+    ],
+    "correctIndex": 0,
+    "rationale": "The near right corner must be a light square.",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-015",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In ordinary chess tournament scoring, how many points does each player receive for a draw?",
+    "answers": [
+      "Half a point",
+      "One point",
+      "Two points",
+      "No points"
+    ],
+    "correctIndex": 0,
+    "rationale": "The usual win/draw/loss scores are 1, half and 0; special scoring systems are excluded by ordinary.",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-016",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which letter represents the king in English algebraic chess notation?",
+    "answers": [
+      "K",
+      "N",
+      "R",
+      "B"
+    ],
+    "correctIndex": 0,
+    "rationale": "English notation uses K for king; N is knight.",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-017",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which letter represents the queen in English algebraic chess notation?",
+    "answers": [
+      "Q",
+      "K",
+      "N",
+      "P"
+    ],
+    "correctIndex": 0,
+    "rationale": "English algebraic notation uses Q for queen.",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-018",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In algebraic chess notation, the numbers 1 to 8 identify what?",
+    "answers": [
+      "Ranks",
+      "Files",
+      "Piece values",
+      "Move numbers"
+    ],
+    "correctIndex": 0,
+    "rationale": "Ranks are numbered; files are lettered a to h.",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-019",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In algebraic chess notation, the letters a to h identify what?",
+    "answers": [
+      "Files",
+      "Ranks",
+      "Captured pieces only",
+      "The move numbers"
+    ],
+    "correctIndex": 0,
+    "rationale": "The eight vertical files use lowercase letters.",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-020",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "What is a chess clock mainly used to track?",
+    "answers": [
+      "The thinking time available to each player",
+      "The number of captured pawns",
+      "The value of each piece",
+      "The number of spectators"
+    ],
+    "correctIndex": 0,
+    "rationale": "A chess clock tracks the players allotted time, not simply the number of moves.",
+    "sourceURL": "https://handbook.fide.com/chapter/E012023",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-021",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "How many suits are in a standard French-suited pack of playing cards?",
+    "answers": [
+      "4",
+      "3",
+      "5",
+      "6"
+    ],
+    "correctIndex": 0,
+    "rationale": "The suits are hearts, diamonds, clubs and spades.",
+    "sourceURL": "https://bicyclecards.com/how-to-play/basics-of-poker",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-022",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which pair of suits is red in a standard French-suited pack?",
+    "answers": [
+      "Hearts and diamonds",
+      "Clubs and spades",
+      "Hearts and clubs",
+      "Diamonds and spades"
+    ],
+    "correctIndex": 0,
+    "rationale": "Hearts and diamonds are red; clubs and spades are black.",
+    "sourceURL": "https://bicyclecards.com/how-to-play/basics-of-poker",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-023",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Excluding jokers, how many cards are in a standard French-suited pack?",
+    "answers": [
+      "52",
+      "48",
+      "54",
+      "56"
+    ],
+    "correctIndex": 0,
+    "rationale": "Four suits with thirteen ranks give fifty-two cards; jokers are excluded.",
+    "sourceURL": "https://bicyclecards.com/how-to-play/basics-of-poker",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-024",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which group contains the three face-card ranks in a standard French-suited pack?",
+    "answers": [
+      "Jack, queen and king",
+      "Ace, two and three",
+      "Seven, eight and nine",
+      "Ten, jack and ace"
+    ],
+    "correctIndex": 0,
+    "rationale": "The illustrated court/face cards are jack, queen and king.",
+    "sourceURL": "https://bicyclecards.com/how-to-play/basics-of-poker",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-025",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "How many aces are in a standard 52-card pack?",
+    "answers": [
+      "4",
+      "2",
+      "3",
+      "5"
+    ],
+    "correctIndex": 0,
+    "rationale": "There is one ace in each of the four suits.",
+    "sourceURL": "https://bicyclecards.com/how-to-play/basics-of-poker",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-026",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "What does shuffling a pack of cards do?",
+    "answers": [
+      "Mixes up the order of the cards",
+      "Sorts every card into numerical order",
+      "Deals cards to each player",
+      "Removes all jokers from the pack"
+    ],
+    "correctIndex": 0,
+    "rationale": "Shuffling rearranges the pack before play; it does not alter card identities.",
+    "sourceURL": "https://bicyclecards.com/how-to-play/cribbage",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-027",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In a card game, what does dealing mean?",
+    "answers": [
+      "Distributing cards to players",
+      "Adding scores after the game",
+      "Mixing the order of the pack",
+      "Placing a held card on the discard pile"
+    ],
+    "correctIndex": 0,
+    "rationale": "Dealing distributes the cards, commonly one or a few at a time.",
+    "sourceURL": "https://bicyclecards.com/how-to-play/cribbage",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-028",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In card-game terminology, what is a player's hand?",
+    "answers": [
+      "The cards that player currently holds",
+      "The entire unopened pack",
+      "The table used for play",
+      "Only the cards already discarded"
+    ],
+    "correctIndex": 0,
+    "rationale": "A hand can also mean a round; the player possessive makes the held-card meaning clear.",
+    "sourceURL": "https://bicyclecards.com/how-to-play/basics-of-poker",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-029",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "What does it mean to discard a card during play?",
+    "answers": [
+      "Put it aside as the rules allow",
+      "Take a new card into your hand",
+      "Mix the order of the entire pack",
+      "Deal a new hand to every player"
+    ],
+    "correctIndex": 0,
+    "rationale": "Discarding removes a card from the held cards to the designated discard area.",
+    "sourceURL": "https://bicyclecards.com/how-to-play/rummy-rum",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-030",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In card games, what does drawing a card normally mean?",
+    "answers": [
+      "Taking a card from an available pile or source",
+      "Putting a held card on the discard pile",
+      "Spreading your entire hand face up",
+      "Mixing the order of the pack"
+    ],
+    "correctIndex": 0,
+    "rationale": "Draw means take a card under the rules; it need not always come from the stock.",
+    "sourceURL": "https://bicyclecards.com/how-to-play/rummy-rum",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-031",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In a trick-taking card game, what is a trick?",
+    "answers": [
+      "A round in which players each contribute a card",
+      "The full pack before it is dealt",
+      "The total score for one player",
+      "The face-down cards not yet dealt"
+    ],
+    "correctIndex": 0,
+    "rationale": "A trick is the set of cards played in a round, usually one per player.",
+    "sourceURL": "https://bicyclecards.com/how-to-play/whist",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-032",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In many trick-taking games, what special advantage does the trump suit have?",
+    "answers": [
+      "It can beat cards from other suits",
+      "Every card in it is worth zero",
+      "It may never be played",
+      "It is removed before every deal"
+    ],
+    "correctIndex": 0,
+    "rationale": "Trumps outrank nontrumps within the game rules; the question does not override obligations to follow suit.",
+    "sourceURL": "https://bicyclecards.com/how-to-play/whist",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-033",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In card games, what does following suit mean?",
+    "answers": [
+      "Playing a card of the suit that was led",
+      "Playing the same numerical rank regardless of suit",
+      "Playing any card face down",
+      "Copying the previous player's bid"
+    ],
+    "correctIndex": 0,
+    "rationale": "Follow suit refers to the suit led, not to matching rank.",
+    "sourceURL": "https://bicyclecards.com/how-to-play/whist",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-034",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Who distributes the cards at the start of a hand in a conventional card game?",
+    "answers": [
+      "The dealer",
+      "The scorer by definition",
+      "The person holding the most aces",
+      "The previous winner in every game"
+    ],
+    "correctIndex": 0,
+    "rationale": "Dealer is the role distributing cards; how the role is selected varies.",
+    "sourceURL": "https://bicyclecards.com/how-to-play/cribbage",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-035",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "How many players take part in a standard game of contract bridge?",
+    "answers": [
+      "4",
+      "2",
+      "3",
+      "5"
+    ],
+    "correctIndex": 0,
+    "rationale": "Contract bridge is played by four players in two partnerships.",
+    "sourceURL": "https://www.acbl.org/learn/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-036",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In contract bridge, where does your partner sit?",
+    "answers": [
+      "Opposite you",
+      "Immediately to your left",
+      "Immediately to your right",
+      "At a different table"
+    ],
+    "correctIndex": 0,
+    "rationale": "The partners occupy opposite seats, conventionally North/South and East/West.",
+    "sourceURL": "https://www.acbl.org/learn/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-037",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which of these is traditionally a trick-taking card game?",
+    "answers": [
+      "Whist",
+      "Snap",
+      "Patience",
+      "Rummy"
+    ],
+    "correctIndex": 0,
+    "rationale": "Whist is trick taking; the alternatives are matching, solitaire and melding games.",
+    "sourceURL": "https://bicyclecards.com/how-to-play/whist",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-038",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In the card game Snap, what match are players normally watching for?",
+    "answers": [
+      "Cards of the same rank",
+      "Any two black cards",
+      "Cards with different backs",
+      "Only two jokers"
+    ],
+    "correctIndex": 0,
+    "rationale": "Ordinary Snap matches ranks; illustration-based children decks may use matching pictures.",
+    "sourceURL": "https://bicyclecards.com/how-to-play/snap",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-039",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which term commonly describes a card game intended for one person?",
+    "answers": [
+      "Patience",
+      "Doubles",
+      "A partnership game",
+      "A team relay"
+    ],
+    "correctIndex": 0,
+    "rationale": "Patience/solitaire describes single-player card games rather than two-team play.",
+    "sourceURL": "https://bicyclecards.com/how-to-play/solitaire",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-040",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In traditional Rummy, which cards form a run?",
+    "answers": [
+      "Consecutive ranks in the same suit",
+      "Three cards of the same rank",
+      "One card from each of four suits",
+      "A king, seven and two of mixed suits"
+    ],
+    "correctIndex": 0,
+    "rationale": "A run is a same-suit sequence; a set uses equal ranks.",
+    "sourceURL": "https://bicyclecards.com/how-to-play/rummy-rum",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-041",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In Blackjack, which total are players trying to approach without exceeding it?",
+    "answers": [
+      "21",
+      "15",
+      "25",
+      "31"
+    ],
+    "correctIndex": 0,
+    "rationale": "The target is twenty-one; exceeding it is a bust.",
+    "sourceURL": "https://bicyclecards.com/how-to-play/blackjack",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-042",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "What does bust mean in Blackjack?",
+    "answers": [
+      "The hand total has exceeded 21",
+      "The hand contains exactly two cards",
+      "The player has changed seats",
+      "The dealer has shuffled the cards"
+    ],
+    "correctIndex": 0,
+    "rationale": "Bust describes a total over twenty-one, not an ordinary initial hand.",
+    "sourceURL": "https://bicyclecards.com/how-to-play/blackjack",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-043",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In standard five-card poker, what is a flush?",
+    "answers": [
+      "Five cards of the same suit, not all in sequence",
+      "Five consecutive ranks of mixed suits",
+      "Two pairs and an unmatched card",
+      "Three matching-rank cards and two other ranks"
+    ],
+    "correctIndex": 0,
+    "rationale": "A flush shares a suit; a straight flush is a stronger special case.",
+    "sourceURL": "https://bicyclecards.com/how-to-play/basics-of-poker",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-044",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In standard five-card poker, what is a straight?",
+    "answers": [
+      "Five consecutive ranks, not all of the same suit",
+      "Five cards of one suit with nonconsecutive ranks",
+      "Two pairs and an unmatched card",
+      "Four cards of the same rank and a fifth card"
+    ],
+    "correctIndex": 0,
+    "rationale": "A straight uses consecutive ranks; it need not share a suit.",
+    "sourceURL": "https://bicyclecards.com/how-to-play/basics-of-poker",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-045",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In poker, what does one pair mean?",
+    "answers": [
+      "Two cards of the same rank",
+      "Two cards of the same suit only",
+      "Two consecutive ranks only",
+      "Two cards with different backs"
+    ],
+    "correctIndex": 0,
+    "rationale": "Pair refers to matching rank, not just suit or consecutive values.",
+    "sourceURL": "https://bicyclecards.com/how-to-play/basics-of-poker",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-046",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In standard poker, three of a kind means three cards sharing what?",
+    "answers": [
+      "The same rank",
+      "The same suit only",
+      "The same colour only",
+      "Consecutive ranks"
+    ],
+    "correctIndex": 0,
+    "rationale": "Three of a kind means a matched rank, such as three sevens.",
+    "sourceURL": "https://bicyclecards.com/how-to-play/basics-of-poker",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-047",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In standard poker, four of a kind contains how many cards of the same rank?",
+    "answers": [
+      "4",
+      "2",
+      "3",
+      "5"
+    ],
+    "correctIndex": 0,
+    "rationale": "Four matching ranks are possible because the standard pack has four suits.",
+    "sourceURL": "https://bicyclecards.com/how-to-play/basics-of-poker",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-048",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which cards form a royal flush in standard five-card poker?",
+    "answers": [
+      "Ten, jack, queen, king and ace of one suit",
+      "Five through nine of one suit",
+      "Any five hearts",
+      "Two kings and three queens"
+    ],
+    "correctIndex": 0,
+    "rationale": "The royal flush is the ace-high straight flush.",
+    "sourceURL": "https://bicyclecards.com/how-to-play/basics-of-poker",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-049",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In poker, what does bluffing involve?",
+    "answers": [
+      "Trying to make opponents believe your hand is stronger than it is",
+      "Revealing every card before betting",
+      "Always playing only with aces",
+      "Removing every low card from the pack"
+    ],
+    "correctIndex": 0,
+    "rationale": "Bluffing represents strength to influence opponents despite lacking the represented hand.",
+    "sourceURL": "https://bicyclecards.com/how-to-play/basics-of-poker",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-050",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "What does folding mean in a poker hand?",
+    "answers": [
+      "Giving up that hand rather than continuing",
+      "Raising the current bet",
+      "Matching the current bet",
+      "Continuing without adding a bet when permitted"
+    ],
+    "correctIndex": 0,
+    "rationale": "Folding relinquishes further participation in the current hand.",
+    "sourceURL": "https://bicyclecards.com/how-to-play/basics-of-poker",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-051",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "How many men does each side start with in English draughts?",
+    "answers": [
+      "12",
+      "8",
+      "10",
+      "16"
+    ],
+    "correctIndex": 0,
+    "rationale": "English draughts uses twelve men per side on an eight-by-eight board.",
+    "sourceURL": "https://wcdf.net/rules/rules_of_checkers_english.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-052",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In English draughts, which squares are used for play?",
+    "answers": [
+      "The dark squares",
+      "Only the four corner squares",
+      "Only the light squares",
+      "Every square regardless of colour"
+    ],
+    "correctIndex": 0,
+    "rationale": "The men are placed and moved on the dark squares.",
+    "sourceURL": "https://wcdf.net/rules/rules_of_checkers_english.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-053",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In English draughts, how does an ordinary uncrowned man make a non-capturing move?",
+    "answers": [
+      "One square diagonally forwards",
+      "One square straight backwards",
+      "Two squares horizontally",
+      "Like a chess knight"
+    ],
+    "correctIndex": 0,
+    "rationale": "Uncrowned men make ordinary moves one vacant diagonal square forwards.",
+    "sourceURL": "https://wcdf.net/rules/rules_of_checkers_english.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-054",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In English draughts, how is an opposing piece captured?",
+    "answers": [
+      "By jumping over it to an empty square beyond",
+      "By landing on top of it",
+      "By moving beside it without jumping",
+      "By surrounding it with four pieces"
+    ],
+    "correctIndex": 0,
+    "rationale": "A capturing jump passes over the adjacent opponent and removes it.",
+    "sourceURL": "https://wcdf.net/rules/rules_of_checkers_english.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-055",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In English draughts, what does a man become when it reaches the farthest row?",
+    "answers": [
+      "A king",
+      "A queen",
+      "A rook",
+      "A pawn of the opposite colour"
+    ],
+    "correctIndex": 0,
+    "rationale": "Reaching the king row crowns the man.",
+    "sourceURL": "https://wcdf.net/rules/rules_of_checkers_english.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-056",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which extra direction can a king move in English draughts compared with an ordinary man?",
+    "answers": [
+      "Diagonally backwards",
+      "Straight sideways",
+      "Straight backwards along a file",
+      "In an L shape"
+    ],
+    "correctIndex": 0,
+    "rationale": "A crowned king can move and capture diagonally backwards as well as forwards.",
+    "sourceURL": "https://wcdf.net/rules/rules_of_checkers_english.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-057",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In English draughts, what happens if the player whose turn it is has no legal move?",
+    "answers": [
+      "That player loses",
+      "That player wins",
+      "The board is rotated and play restarts",
+      "All captured pieces are returned"
+    ],
+    "correctIndex": 0,
+    "rationale": "A player with no legal move loses, whether blocked or without pieces.",
+    "sourceURL": "https://wcdf.net/rules/rules_of_checkers_english.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-058",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In traditional Snakes and Ladders, what happens when your piece lands on the head of a snake?",
+    "answers": [
+      "It moves down to the tail",
+      "It moves up to the highest square",
+      "It changes to another player's colour",
+      "It is removed for the rest of the game"
+    ],
+    "correctIndex": 0,
+    "rationale": "Landing at the snake head sends the counter down its body to the tail.",
+    "sourceURL": "https://www.bigjigstoys.co.uk/blogs/posts/how-to-play-snakes-and-ladders",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-059",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In traditional Snakes and Ladders, what happens when your piece lands at the foot of a ladder?",
+    "answers": [
+      "It climbs to the top of that ladder",
+      "It moves backwards to the start",
+      "It changes direction for the rest of the game",
+      "It swaps places with every other piece"
+    ],
+    "correctIndex": 0,
+    "rationale": "A ladder takes the counter from its lower end to its upper end.",
+    "sourceURL": "https://www.bigjigstoys.co.uk/blogs/posts/how-to-play-snakes-and-ladders",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-060",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In Snakes and Ladders, movement is determined mainly by what?",
+    "answers": [
+      "Chance from a die or spinner",
+      "The number of cards in your hand",
+      "Your ability to spell a long word",
+      "An auction for each square"
+    ],
+    "correctIndex": 0,
+    "rationale": "Random movement rather than player-chosen tactical moves drives the race.",
+    "sourceURL": "https://www.bigjigstoys.co.uk/blogs/posts/how-to-play-snakes-and-ladders",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-061",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "What is the usual objective in Ludo?",
+    "answers": [
+      "Get all your pieces around the track and home",
+      "Capture an opposing king",
+      "Build the longest railway",
+      "Make the highest-scoring word"
+    ],
+    "correctIndex": 0,
+    "rationale": "Ludo is a race to bring the player pieces home.",
+    "sourceURL": "https://www.mastersofgames.com/rules/ludo-rules-instructions-guide.htm",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-062",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In classic Ludo, what normally happens to an opponent's lone piece when you land on its unprotected square?",
+    "answers": [
+      "It goes back to its starting area",
+      "It becomes a king",
+      "It is removed permanently",
+      "It swaps colours with your piece"
+    ],
+    "correctIndex": 0,
+    "rationale": "Landing on an opposing single counter sends that counter back to its starting area. Protected spaces and blocks have additional rules.",
+    "sourceURL": "https://www.mastersofgames.com/rules/ludo-rules-instructions-guide.htm",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-063",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "How many playing pieces does each player normally have in classic Ludo?",
+    "answers": [
+      "4",
+      "2",
+      "3",
+      "8"
+    ],
+    "correctIndex": 0,
+    "rationale": "The familiar classic game gives each colour four counters.",
+    "sourceURL": "https://www.mastersofgames.com/rules/ludo-rules-instructions-guide.htm",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-064",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "What usually marks the two halves of a traditional domino tile?",
+    "answers": [
+      "Spots representing numbers",
+      "Letters forming a word",
+      "Chess-piece symbols",
+      "Playing-card portraits"
+    ],
+    "correctIndex": 0,
+    "rationale": "Traditional dominoes show pips on two ends; blank ends represent zero.",
+    "sourceURL": "https://www.mastersofgames.com/rules/dominoes-rules.htm",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-065",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In dominoes, what is a double?",
+    "answers": [
+      "A tile with the same number at both ends",
+      "Any tile coloured red",
+      "Two players taking a turn together",
+      "A tile with a letter at one end"
+    ],
+    "correctIndex": 0,
+    "rationale": "A double has equal end values such as six-six or blank-blank.",
+    "sourceURL": "https://www.mastersofgames.com/rules/dominoes-rules.htm",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-066",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "How many tiles are in a standard double-six domino set?",
+    "answers": [
+      "28",
+      "21",
+      "36",
+      "55"
+    ],
+    "correctIndex": 0,
+    "rationale": "The set contains one tile for each unordered pair of values from zero through six, including doubles: 28 tiles.",
+    "sourceURL": "https://www.mastersofgames.com/rules/dominoes-rules.htm",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-067",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In a simple matching domino game, what must the touching ends of adjoining tiles show?",
+    "answers": [
+      "The same number",
+      "Numbers that always add to ten",
+      "Different colours only",
+      "Letters in alphabetical order"
+    ],
+    "correctIndex": 0,
+    "rationale": "Basic layout domino games join equal-valued ends.",
+    "sourceURL": "https://www.mastersofgames.com/rules/dominoes-rules.htm",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-068",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "How many matching symbols in a straight line win an ordinary game of noughts and crosses?",
+    "answers": [
+      "3",
+      "2",
+      "4",
+      "5"
+    ],
+    "correctIndex": 0,
+    "rationale": "Three in a row wins, horizontally, vertically or diagonally.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/noughts-and-crosses",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-069",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "What is the size of the grid in ordinary noughts and crosses?",
+    "answers": [
+      "3 by 3",
+      "4 by 4",
+      "5 by 5",
+      "8 by 8"
+    ],
+    "correctIndex": 0,
+    "rationale": "The standard game uses nine cells arranged as a three-by-three grid.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/noughts-and-crosses",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-070",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In Nine Men's Morris, what is a line of three of your pieces called?",
+    "answers": [
+      "A mill",
+      "A flush",
+      "A trick",
+      "A castle"
+    ],
+    "correctIndex": 0,
+    "rationale": "Three aligned pieces on a marked line form a mill.",
+    "sourceURL": "https://www.mastersofgames.com/rules/morris-rules.htm",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-071",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which objects are traditionally moved between pits in mancala games?",
+    "answers": [
+      "Seeds or small stones",
+      "Lettered cubes",
+      "Chess kings",
+      "Model trains"
+    ],
+    "correctIndex": 0,
+    "rationale": "Mancala games commonly use small countable seeds or stones.",
+    "sourceURL": "https://www.mastersofgames.com/rules/mancala-rules.htm",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-072",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "What shape is the familiar Chinese checkers board?",
+    "answers": [
+      "A six-pointed star",
+      "A triangle with no inner holes",
+      "A plain circle with one central hole",
+      "A straight line of squares"
+    ],
+    "correctIndex": 0,
+    "rationale": "The common board has a central hexagon and six triangular points.",
+    "sourceURL": "https://www.mastersofgames.com/rules/chinese-checkers-rules.htm",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-073",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "What are traditionally moved along a scoring board to keep score in Cribbage?",
+    "answers": [
+      "Pegs",
+      "Chess knights",
+      "Domino tiles",
+      "Lettered dice"
+    ],
+    "correctIndex": 0,
+    "rationale": "Cribbage uses pegs in board holes to record the running score.",
+    "sourceURL": "https://bicyclecards.com/how-to-play/cribbage",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-074",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In Battleship, how do you identify the square you want to attack?",
+    "answers": [
+      "By a grid coordinate such as B4",
+      "By naming a chess opening",
+      "By bidding a number of points",
+      "By spelling a word from tiles"
+    ],
+    "correctIndex": 0,
+    "rationale": "Letter-and-number coordinates identify attack locations on the grid.",
+    "sourceURL": "https://instructions.hasbro.com/en-us/instruction/battleship-game",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-075",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In classic Battleship, what does your opponent announce when your shot finds no ship?",
+    "answers": [
+      "Miss",
+      "Checkmate",
+      "Snap",
+      "Uno"
+    ],
+    "correctIndex": 0,
+    "rationale": "An unsuccessful shot is a miss; one landing on a ship is a hit.",
+    "sourceURL": "https://instructions.hasbro.com/en-us/instruction/battleship-game",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-076",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In Pictionary, how does a player normally communicate the clue to teammates?",
+    "answers": [
+      "By drawing it",
+      "By spelling it aloud",
+      "By showing its written answer",
+      "By playing a song recording"
+    ],
+    "correctIndex": 0,
+    "rationale": "Pictionary uses sketches rather than spoken or written answers.",
+    "sourceURL": "https://shop.mattel.com/products/pictionary-dkd47/1000",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-077",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In classic Guess Who?, which type of question is used to narrow down the mystery character?",
+    "answers": [
+      "A yes-or-no question",
+      "A maths question with four numerical answers",
+      "A question answered only by drawing",
+      "A question that must reveal the character name"
+    ],
+    "correctIndex": 0,
+    "rationale": "Players ask yes/no questions about the characters before making a final guess.",
+    "sourceURL": "https://instructions.hasbro.com/en-us/instruction/guess-who-classic-game",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-078",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which tool do players use to remove the small parts in classic Operation?",
+    "answers": [
+      "Tweezers",
+      "A paintbrush",
+      "A miniature hammer",
+      "A spinning top"
+    ],
+    "correctIndex": 0,
+    "rationale": "Operation supplies tweezers for removing the ailment pieces.",
+    "sourceURL": "https://instructions.hasbro.com/en-ca/instruction/classic-operation-game",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-079",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In classic Operation, what happens when the tweezers touch a metal side of the opening?",
+    "answers": [
+      "A buzzer sounds",
+      "The board deals another card automatically",
+      "The player receives an extra life",
+      "Every piece changes colour"
+    ],
+    "correctIndex": 0,
+    "rationale": "Touching the metal sides closes the circuit and triggers the buzzer.",
+    "sourceURL": "https://instructions.hasbro.com/en-ca/instruction/classic-operation-game",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-080",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "What do players collect in their circular playing token in classic Trivial Pursuit?",
+    "answers": [
+      "Coloured wedges",
+      "Chess pawns",
+      "Miniature trains",
+      "Domino tiles"
+    ],
+    "correctIndex": 0,
+    "rationale": "Wedges record the categories earned in classic Trivial Pursuit.",
+    "sourceURL": "https://instructions.hasbro.com/en-us/instruction/trivial-pursuit-board-game",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-081",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In Boggle, what do players try to find in the grid of lettered cubes?",
+    "answers": [
+      "Words",
+      "Chess moves",
+      "Matching ship coordinates",
+      "Pairs of identical playing cards"
+    ],
+    "correctIndex": 0,
+    "rationale": "Boggle is a timed word-search game using lettered cubes.",
+    "sourceURL": "https://instructions.hasbro.com/en-us/instruction/boggle-game",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-082",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In standard Boggle, how must consecutive letters in a word be positioned in the grid?",
+    "answers": [
+      "In adjoining cubes, including diagonals",
+      "Anywhere at all, with no contact required",
+      "Only in the four corners",
+      "Only in a single straight vertical line"
+    ],
+    "correctIndex": 0,
+    "rationale": "Connected cubes may touch horizontally, vertically or diagonally; a cube is not reused within one word.",
+    "sourceURL": "https://www.hasbro.com/common/instruct/Boggle_%281973%29.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-083",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which game asks players to put hands and feet on coloured circles on a mat?",
+    "answers": [
+      "Twister",
+      "Risk",
+      "Scrabble",
+      "Battleship"
+    ],
+    "correctIndex": 0,
+    "rationale": "Twister combines a coloured mat with instructions for limbs and colours.",
+    "sourceURL": "https://instructions.hasbro.com/en-us/instruction/twister-game",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-084",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which game features a chain-reaction contraption built to catch a small mouse playing piece?",
+    "answers": [
+      "Mouse Trap",
+      "Cluedo",
+      "Ludo",
+      "Boggle"
+    ],
+    "correctIndex": 0,
+    "rationale": "Mouse Trap uses a multi-part mechanical mouse-catching contraption.",
+    "sourceURL": "https://instructions.hasbro.com/en-us/instruction/mouse-trap-game",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-085",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "The game Buckaroo! features which animal carrying the load?",
+    "answers": [
+      "A mule",
+      "A giraffe",
+      "A crocodile",
+      "A penguin"
+    ],
+    "correctIndex": 0,
+    "rationale": "Buckaroo uses a bucking mule that players load with objects.",
+    "sourceURL": "https://instructions.hasbro.com/en-nz/instruction/buckaroo-game",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-086",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In KerPlunk, what do players try to avoid letting fall when they remove sticks?",
+    "answers": [
+      "Marbles",
+      "Playing cards",
+      "Domino tiles",
+      "Chess kings"
+    ],
+    "correctIndex": 0,
+    "rationale": "The sticks support marbles; removing them risks dropping marbles.",
+    "sourceURL": "https://service.mattel.com/instruction_sheets/37092.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-087",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which game has players operate plastic hippos to collect marbles?",
+    "answers": [
+      "Hungry Hungry Hippos",
+      "Guess Who?",
+      "Connect 4",
+      "Trivial Pursuit"
+    ],
+    "correctIndex": 0,
+    "rationale": "The hippos grab marbles from the shared playing area.",
+    "sourceURL": "https://instructions.hasbro.com/en-us/instruction/hungry-hungry-hippos-game",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-088",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In Crocodile Dentist, what do players press down one at a time?",
+    "answers": [
+      "The crocodile's teeth",
+      "The crocodile's feet",
+      "Buttons on a scoring calculator",
+      "Letters on a keyboard"
+    ],
+    "correctIndex": 0,
+    "rationale": "Players press teeth and avoid the one that triggers the snapping jaws.",
+    "sourceURL": "https://instructions.hasbro.com/en-us/instruction/crocodile-dentist-game",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-089",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "How many dice are used in standard Yahtzee?",
+    "answers": [
+      "5",
+      "3",
+      "4",
+      "6"
+    ],
+    "correctIndex": 0,
+    "rationale": "Standard Yahtzee uses five dice, with selected dice available for rerolls.",
+    "sourceURL": "https://instructions.hasbro.com/en-au/instruction/yahtzee-classic",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-090",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "What dice result is called a Yahtzee?",
+    "answers": [
+      "Five of a kind",
+      "Three of a kind",
+      "Any total of twenty",
+      "One pair and three unmatched dice"
+    ],
+    "correctIndex": 0,
+    "rationale": "All five dice must show the same value for five of a kind.",
+    "sourceURL": "https://instructions.hasbro.com/en-au/instruction/yahtzee-classic",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-091",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In Taboo, what must the clue-giver avoid saying besides the answer itself?",
+    "answers": [
+      "The listed forbidden words",
+      "Every noun in the language",
+      "The names of the other players only",
+      "Any word longer than three letters"
+    ],
+    "correctIndex": 0,
+    "rationale": "The card supplies forbidden related words that cannot be used in the clue.",
+    "sourceURL": "https://instructions.hasbro.com/en-us/instruction/taboo-game",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-092",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "Which type of card is central to Dixit?",
+    "answers": [
+      "Surreal illustrated picture cards",
+      "Standard numbered railway tickets",
+      "Plain cards showing only arithmetic sums",
+      "Cards containing only chess positions"
+    ],
+    "correctIndex": 0,
+    "rationale": "Dixit clues and guesses centre on its illustrated cards.",
+    "sourceURL": "https://www.libellud.com/en/our-games/dixit/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-093",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In Dobble, also sold as Spot It!, how many symbols do any two cards have in common?",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 0,
+    "rationale": "The defining deck property is exactly one shared symbol for any pair of cards.",
+    "sourceURL": "https://www.asmodee.co.uk/pages/games/dobble",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-094",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "After your first placement in standard Blokus, how must a new piece connect with another piece of your colour?",
+    "answers": [
+      "By touching at a corner, with no shared edge",
+      "By sharing a complete edge",
+      "By covering the same squares",
+      "By staying completely separate"
+    ],
+    "correctIndex": 0,
+    "rationale": "Same-colour pieces must touch at corners and cannot share edges.",
+    "sourceURL": "https://service.mattel.com/instruction_sheets/CMC08-Eng.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-095",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In the standard game of Sequence, what line are players trying to make with their chips?",
+    "answers": [
+      "Five in a row",
+      "Two in a row",
+      "Three in a row",
+      "Seven in a row"
+    ],
+    "correctIndex": 0,
+    "rationale": "A sequence is an uninterrupted line of five; the number of sequences needed varies with player count.",
+    "sourceURL": "https://www.jaxgames.com/sequence-game-rules/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-096",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In Ticket to Ride, what do the coloured plastic train pieces mark on the board?",
+    "answers": [
+      "Routes a player has claimed",
+      "Cities that have been destroyed",
+      "The order in which cards were shuffled",
+      "The number of dice rerolls available"
+    ],
+    "correctIndex": 0,
+    "rationale": "Players fill claimed railway routes with their plastic trains.",
+    "sourceURL": "https://www.daysofwonder.com/ticket-to-ride/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-097",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "How does the shared landscape grow during a standard game of Carcassonne?",
+    "answers": [
+      "Players add square terrain tiles",
+      "Players draw railway lines with pens",
+      "Players remove a row of cards each turn",
+      "Players stack dominoes into a tower"
+    ],
+    "correctIndex": 0,
+    "rationale": "Carcassonne builds a connected landscape by placing matching-edge terrain tiles.",
+    "sourceURL": "https://www.hans-im-glueck.de/en/games/carcassonne.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-098",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In CATAN, which resource does a pasture hex produce?",
+    "answers": [
+      "Wool",
+      "Brick",
+      "Ore",
+      "Grain"
+    ],
+    "correctIndex": 0,
+    "rationale": "Pasture produces wool; the illustrated sheep signal that resource.",
+    "sourceURL": "https://www.catan.com/catan",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-099",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In classic Risk, battles between attacking and defending armies are resolved using what?",
+    "answers": [
+      "Dice rolls",
+      "Spelling tests",
+      "A chess clock",
+      "Drawing clues"
+    ],
+    "correctIndex": 0,
+    "rationale": "The basic combat procedure compares attacker and defender dice results.",
+    "sourceURL": "https://instructions.hasbro.com/en-us/instruction/risk-game",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-16-100",
+    "categoryID": "16",
+    "difficulty": "easy",
+    "prompt": "In classic Mastermind, what is the codebreaker trying to discover?",
+    "answers": [
+      "A hidden sequence of coloured pegs",
+      "A hidden word made from letter tiles",
+      "A route between two railway stations",
+      "The location of a fleet of ships"
+    ],
+    "correctIndex": 0,
+    "rationale": "Mastermind is a deduction game about the secret colour code and feedback pegs.",
+    "sourceURL": "https://instructions.hasbro.com/en-sg/instruction/mastermind",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  }
+]
