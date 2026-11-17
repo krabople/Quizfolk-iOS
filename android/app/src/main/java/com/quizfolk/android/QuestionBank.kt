@@ -4,7 +4,9 @@ import android.util.JsonReader
 import java.io.Reader
 
 /** Stream the shared bank so older phones do not retain a second, large JSONObject tree. */
-fun readQuestionBank(input: Reader): List<Question> = JsonReader(input).use { reader ->
+fun readQuestionBank(input: Reader): List<Question> = JsonReader(input).use(::readQuestionArray)
+
+fun readQuestionArray(reader: JsonReader): List<Question> {
     val result = ArrayList<Question>(22000)
     reader.beginArray()
     while (reader.hasNext()) {
@@ -24,5 +26,5 @@ fun readQuestionBank(input: Reader): List<Question> = JsonReader(input).use { re
         require(answers.size == 4 && correct in 0..3 && id.isNotEmpty() && prompt.isNotBlank()) { "A bundled question is damaged." }
         result.add(Question(id, category, difficulty, prompt, answers, correct))
     }
-    reader.endArray(); result
+    reader.endArray(); return result
 }

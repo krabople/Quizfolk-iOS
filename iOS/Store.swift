@@ -50,6 +50,8 @@ import Security
     private var connectionTask:Task<Void,Never>?
     private var progressRevision=0
     var progressRefreshNeeded=false
+    var refreshingBank=false
+    var lastBankCheck:Date?
     private var boardRequest=UUID()
     var peopleRequest=UUID()
     init() {
@@ -66,6 +68,9 @@ import Security
         apiURL = UserDefaults.standard.string(forKey:"apiURL") ?? "https://www.ways2earn.com/quizfolk-api/index.php"
         if let data = UserDefaults.standard.data(forKey:"history"), let saved = try? JSONDecoder().decode([MatchRecord].self,from:data) { history=saved }
         if UserDefaults.standard.string(forKey:"tokenEndpoint")==apiURL { token = Keychain.read();avatar=UserDefaults.standard.string(forKey:"avatar") }
+        if !isUITesting,let cached=QuestionBankUpdates.cached(apiURL) {
+            questions=cached.questions;topics=cached.categories+[.mixed(count:cached.questions.count)];loadError=nil
+        }
     }
     static func resource<T:Decodable>(_ name:String) throws -> T {
         guard let url=Bundle.main.url(forResource:name,withExtension:"json") else { throw CocoaError(.fileNoSuchFile) }

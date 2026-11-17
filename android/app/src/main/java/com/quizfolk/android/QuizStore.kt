@@ -21,6 +21,8 @@ class QuizStore(application: Application) : AndroidViewModel(application) {
     private val vault = PlayerVault(application)
     private val connectionLock = Mutex()
     private val resumeLock = Mutex()
+    private val bankRefreshLock = Mutex()
+    private var lastBankCheck = 0L
     private val historyLock = Any()
     private val historyGeneration = AtomicLong()
     private var tasks = 0
@@ -67,8 +69,9 @@ class QuizStore(application: Application) : AndroidViewModel(application) {
         try {
             val (loaded, names) = withContext(Dispatchers.IO) {
                 val assets = getApplication<Application>().assets
-                val categories = assets.open("categories.json").bufferedReader().use { JSONArray(it.readText()).objects().map(Topic::parse) }
-                val questions = assets.open("questions.json").bufferedReader().use(::readQuestionBank)
+                val cached = if(testing) null else QuestionBankUpdates.cached(getApplication(),endpoint)
+                val categories = cached?.categories ?: assets.open("categories.json").bufferedReader().use { JSONArray(it.readText()).objects().map(Topic::parse) }
+                val questions = cached?.questions ?: assets.open("questions.json").bufferedReader().use(::readQuestionBank)
                 val bots = assets.open("bots.json").bufferedReader().use { input -> JSONArray(input.readText()).let { array -> (0 until array.length()).map(array::getString) } }
                 val file = AtomicFile(File(getApplication<Application>().filesDir, "history.json"))
                 val saved = if (file.baseFile.exists()) file.openRead().bufferedReader().use { JSONArray(it.readText()).objects().map(MatchRecord::parse) } else emptyList()
@@ -98,6 +101,7 @@ class QuizStore(application: Application) : AndroidViewModel(application) {
     }
     suspend fun resume() {
         if (!ready || !resumeLock.tryLock()) return
+        viewModelScope.launch { refreshQuestionBankIfNeeded() }
         try {
             connect()
             coins = api("daily-login", json()).getJSONObject("wallet").n("coins")
@@ -108,6 +112,19 @@ class QuizStore(application: Application) : AndroidViewModel(application) {
         finally { resumeLock.unlock() }
     }
     suspend fun api(route: String, body: J? = null, query: Map<String,String> = emptyMap()) = transport.request(route, body, query)
+    suspend fun refreshQuestionBankIfNeeded() {
+        if(testing || !ready || !bankRefreshLock.tryLock()) return
+        try {
+            val now=System.currentTimeMillis()
+            if(now-lastBankCheck<900000) return
+            lastBankCheck=now; val service=endpoint
+            val update=withContext(Dispatchers.IO) { QuestionBankUpdates.fetch(getApplication(),service) }
+            if(update!=null && endpoint==service) {
+                bank=update.questions; topics=update.categories+Topic("mixed","Mixed topics","7253A4","🎨",bank.size)
+            }
+        } catch(error: Exception) { if(error is CancellationException) throw error /* Keep the last valid bank. */ }
+        finally { bankRefreshLock.unlock() }
+    }
     suspend fun authenticated() { if (profile == null) connect() }
     /** Read server-owned XP without rewriting interests or performing the full sign-in flow. */
     suspend fun refreshPlayerProgress() {

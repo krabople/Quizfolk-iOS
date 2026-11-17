@@ -1,7 +1,7 @@
 import Foundation
 import SwiftUI
 
-struct Topic: Codable, Identifiable, Hashable {
+struct Topic: Codable, Identifiable, Hashable, Sendable {
     let id: String
     let name: String
     let symbol: String
@@ -11,7 +11,7 @@ struct Topic: Codable, Identifiable, Hashable {
     static func mixed(count:Int)->Topic {Topic(id:"mixed",name:"Mixed topics",symbol:"shuffle",color:"7253A4",emoji:"🎨",questionCount:count)}
     var tint: Color { Color(hex: color) }
 }
-struct Question: Codable, Identifiable {
+struct Question: Codable, Identifiable, Sendable {
     let id: String
     let categoryID: String
     let difficulty: String
