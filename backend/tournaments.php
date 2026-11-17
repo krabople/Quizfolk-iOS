@@ -245,7 +245,7 @@ function tournament_routes(string $route,PDO $db,string $pid,array $body):void {
         $old=sql($db,'SELECT * FROM tournament_runs WHERE request_key=?',[$key])->fetch();if($old){if($old['event_id']!==$event)fail('This entry request was already used',409);$db->exec('COMMIT');out(tournament_run_reply($old));}
         $e=sql($db,'SELECT * FROM tournament_events WHERE id=? AND starts<=? AND ends>?',[$event,time(),time()+30])->fetch();if(!$e)fail('Entries have closed. Choose another tournament.',410);if($e['kind']==='party')fail('Join this friends tournament with its invitation code.',403);
         $active=sql($db,'SELECT * FROM tournament_runs WHERE event_id=? AND player_id=? AND state="playing"',[$event,$pid])->fetch();if($active){$db->exec('COMMIT');out(tournament_run_reply($active));}
-        if(!tournament_featured($db,$e))fail('New entries have closed for this earlier tournament. Your existing scores are kept. Choose one of todayâ€™s three tournaments.',410);
+        if(!tournament_featured($db,$e))fail('New entries have closed for this earlier tournament. Your existing scores are kept. Choose one of today\'s three tournaments.',410);
         $w=tournament_wallet($db,$pid);
         if($w['coins']<(int)$e['coins'])fail('Not enough coins. This entry costs '.$e['coins'].' coins and your balance is '.$w['coins'].'. Open Earn coins to complete your Daily Trail.',409);
         $qdb=new PDO('sqlite:'.dirname(__DIR__).'/data/question-bank.sqlite');

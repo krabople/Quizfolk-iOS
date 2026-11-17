@@ -50,7 +50,8 @@ try:
     accepted=b.get('duel-open',{'duel':duel['duelID']})
     # Complete the local packet deterministically to exercise settlement notification hooks.
     answers=json.dumps([{'selected':0,'elapsed':1,'correct':True,'points':19}]*6)
-    b.preferences(duelResults=False)
+    # Both have results enabled: the responder finishing last must not receive
+    # a redundant push for the result already returned by their answer request.
     for client,mid,score in [(a,duel['id'],114),(b,accepted['id'],60)]:
         change('UPDATE matches SET answers=?,score=? WHERE id=?',answers,score,mid)
         client.get('round',{'match':mid});change('UPDATE matches SET preview_started=? WHERE id=?',time.time()-4,mid)
@@ -59,6 +60,30 @@ try:
         client.get('answer',{'match':mid,'round':6,'answer':packet[6]['correctIndex']})
     results=rows('SELECT * FROM push_jobs WHERE kind="duelResults"');assert len(results)==1 and results[0]['player_id']==a.id
     assert drain()['sent']==1;assert drain()['sent']==0
+    def finish_last(client,mid):
+        change('UPDATE matches SET answers=?,score=114 WHERE id=?',answers,mid)
+        client.get('round',{'match':mid});change('UPDATE matches SET preview_started=? WHERE id=?',time.time()-4,mid)
+        client.get('reveal',{'match':mid})
+        packet=json.loads(rows('SELECT packet FROM matches WHERE id=?',mid)[0]['packet'])
+        return client.get('answer',{'match':mid,'round':6,'answer':packet[6]['correctIndex']})
+    # Acceptance order need not equal play order. Notify whoever finished first,
+    # even if the original challenger is the player who submits the last answer.
+    reverse=a.challenge(b,'18');reverse_b=b.get('duel-open',{'duel':reverse['duelID']});drain()
+    assert finish_last(b,reverse_b['id'])['pending']
+    final=finish_last(a,reverse['id']);assert not final['pending']
+    reverse_jobs=rows('SELECT * FROM push_jobs WHERE event_key=?','duel-result:'+reverse['duelID'])
+    assert len(reverse_jobs)==1 and reverse_jobs[0]['player_id']==b.id
+    # Retried final answers cannot enqueue the push again or notify the finisher.
+    packet=json.loads(rows('SELECT packet FROM matches WHERE id=?',reverse['id'])[0]['packet'])
+    a.get('answer',{'match':reverse['id'],'round':6,'answer':packet[6]['correctIndex']})
+    assert len(rows('SELECT * FROM push_jobs WHERE event_key=?','duel-result:'+reverse['duelID']))==1
+    assert drain()['sent']==1;assert drain()['sent']==0
+    # Waiting does not override the recipient's result-notification preference.
+    opted_out=a.challenge(b,'20');opted_out_b=b.get('duel-open',{'duel':opted_out['duelID']});drain()
+    b.preferences(duelResults=False)
+    assert finish_last(b,opted_out_b['id'])['pending']
+    assert not finish_last(a,opted_out['id'])['pending']
+    assert not rows('SELECT * FROM push_jobs WHERE event_key=?','duel-result:'+opted_out['duelID'])
     queued=a.challenge(b,'9');assert len(rows('SELECT * FROM push_jobs WHERE status="pending"'))==1
     b.get('block',{'player':a.id,'enabled':True});assert drain()['cancelled']==1
     b.get('block',{'player':a.id,'enabled':False})

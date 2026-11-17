@@ -76,7 +76,7 @@ function party_routes(string $route,PDO $db,string $pid,array $body):void {
         $old=sql($db,'SELECT p.*,e.ends FROM parties p JOIN tournament_events e ON e.id=p.id WHERE p.request_key=?',[$pid.':'.$key])->fetch();
         if($old){$card=party_card($db,$pid,$old);$db->exec('COMMIT');out($card,201);}
         $name=trim((string)($body['name'] ?? ''));$cycles=$body['cycles'] ?? 1;$days=$body['days'] ?? 7;$powers=$body['powers'] ?? false;$entry=$body['entryCoins'] ?? 10;
-        if(strlen($name)<2 || strlen($name)>60 || preg_match('/[\p{C}]/u',$name))fail('Use a tournament name of 2â€“60 characters.');
+        if(strlen($name)<2 || strlen($name)>60 || preg_match('/[\p{C}]/u',$name))fail('Use a tournament name of 2-60 characters.');
         if(!is_int($cycles) || $cycles<1 || $cycles>3 || !in_array($days,[1,3,7,14],true) || !is_bool($powers) || !in_array($entry,[0,10],true))fail('Choose valid tournament settings.');
         if((int)sql($db,'SELECT COUNT(*) FROM parties WHERE host=? AND created>?',[$pid,time()-86400])->fetchColumn()>=3)fail('You can host up to three friends tournaments a day.',429);
         $id=bin2hex(random_bytes(12));$code=strtoupper(bin2hex(random_bytes(6)));$end=time()+86400;

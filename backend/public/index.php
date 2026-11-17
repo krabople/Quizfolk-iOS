@@ -193,7 +193,7 @@ try {
             sql($db,'UPDATE matches SET own_finished=COALESCE(own_finished,?) WHERE id=?',[time(),$id]);
             coin_trail_award($db,sql($db,'SELECT * FROM matches WHERE id=?',[$id])->fetch());
         }
-        if($m['duel_id'] && $finished){settle_duel($db,$m['duel_id']);party_sync_duel($db,$m['duel_id']);}
+        if($m['duel_id'] && $finished){settle_duel($db,$m['duel_id'],$pid);party_sync_duel($db,$m['duel_id']);}
         $latest=sql($db,'SELECT * FROM matches WHERE id=?',[$id])->fetch();$opTotal=(int)$latest['opponent_score'];$op=json_decode($latest['opponent_points'],true);$pending=$m['duel_id']!==null && $latest['completed']===null;
         $db->exec('COMMIT');
         $reply=['points'=>$score,'selectedIndex'=>$body['answer'],'correctIndex'=>$q['correctIndex'],'opponentPoints'=>$op[$round],'finished'=>$finished,'score'=>$total,'opponentScore'=>$opTotal,'pending'=>$pending];
