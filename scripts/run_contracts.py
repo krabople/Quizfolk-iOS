@@ -5,7 +5,7 @@ PHP=os.environ.get('QUIZFOLK_PHP','php')
 if (ROOT/'backend/config.php').exists():raise SystemExit('Use a clean checkout without backend/config.php for isolated tests.')
 TEMP_ROOT=ROOT/'build'/'contract-state'
 TEMP_ROOT.mkdir(parents=True,exist_ok=True)
-allowed=['test_backend.py','test_social.py','test_tournaments.py','test_economy.py','test_parties_powers.py','test_cross_platform.py','test_notifications.py','test_rewarded.py']
+allowed=['test_backend.py','test_social.py','test_tournaments.py','test_economy.py','test_parties_powers.py','test_cross_platform.py','test_notifications.py','test_rewarded.py','test_unlimited_play.py']
 suites=sys.argv[1:] or allowed
 if any(suite not in allowed for suite in suites):raise SystemExit('Choose a known isolated contract suite.')
 for suite in suites:
@@ -19,8 +19,8 @@ for suite in suites:
     for _ in range(40):
      try:
       with urllib.request.urlopen(env['QUIZFOLK_TEST_URL']+'health',timeout=2):break
-     except Exception:time.sleep(.15)
-    else:raise RuntimeError('Local test server did not start')
+     except Exception as error:health_error=error;time.sleep(.15)
+    else:raise RuntimeError('Local test server did not become healthy: '+repr(health_error)+'; '+log.read_text(encoding='utf-8')[-2000:])
     result=subprocess.run([sys.executable,str(ROOT/'scripts'/suite)],env=env,cwd=ROOT)
     if result.returncode:
      raise RuntimeError(suite+' failed; local server log: '+log.read_text(encoding='utf-8')[-5000:])

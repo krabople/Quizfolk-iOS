@@ -51,14 +51,14 @@ try {
     if(!in_array($route,$readRoutes,true) && $method!=='POST') fail('Use POST',405);
     if($route==='health') out(['ok'=>true,'version'=>'0.3.3']);
     if($route==='categories') out(['categories'=>play_topics()]);
-    $ipHash=hash('sha256',(string)($_SERVER['REMOTE_ADDR'] ?? 'unknown'));
-    $bucket=($route==='register' ? 'register:':'request:').$ipHash;
-    $window=(int)floor(time()/3600);$maximum=$route==='register' ? 10:3000;
-    sql($db,'INSERT INTO limits(bucket,window,count) VALUES(?,?,1) ON CONFLICT(bucket) DO UPDATE SET count=CASE WHEN window=excluded.window THEN count+1 ELSE 1 END,window=excluded.window',[$bucket,$window]);
-    $limit=sql($db,'SELECT count FROM limits WHERE bucket=?',[$bucket])->fetch();
-    if((int)$limit['count']>$maximum) fail('Please try again later',429);
-    sql($db,'DELETE FROM limits WHERE window<?',[$window-24]);
     if($route==='register') {
+        // Account creation is protected separately. Authenticated play has no
+        // hourly match/run/request quota, including players sharing one IP.
+        $bucket='register:'.hash('sha256',(string)($_SERVER['REMOTE_ADDR'] ?? 'unknown'));
+        $window=(int)floor(time()/3600);
+        sql($db,'INSERT INTO limits(bucket,window,count) VALUES(?,?,1) ON CONFLICT(bucket) DO UPDATE SET count=CASE WHEN window=excluded.window THEN count+1 ELSE 1 END,window=excluded.window',[$bucket,$window]);
+        if((int)sql($db,'SELECT count FROM limits WHERE bucket=?',[$bucket])->fetchColumn()>10)fail('Please try again later',429);
+        sql($db,'DELETE FROM limits WHERE window<?',[$window-24]);
         $auto=!empty($body['automaticName']) || empty($body['name']) || ($body['name'] ?? '')==='Quiz explorer';
         $name=$auto ? automatic_name():clean_name((string)$body['name']);
         $id=bin2hex(random_bytes(12));$token=bin2hex(random_bytes(32));

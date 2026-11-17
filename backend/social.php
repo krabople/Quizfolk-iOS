@@ -68,10 +68,9 @@ function fresh_packet(PDO $db,string $pid,string $topic,?PDO $qdb=null):array {
     if(count($packet)<7)fail('This topic needs at least seven different questions. Please choose another topic.',410);
     foreach($packet as &$q){$i=[0,1,2,3];shuffle($i);$q['answers']=array_map(fn($n)=>$q['answers'][$n],$i);$q['correctIndex']=array_search($q['correctIndex'],$i,true);}unset($q);return $packet;
 }
-function match_limit(PDO $db,string $pid):void {if((int)sql($db,'SELECT COUNT(*) FROM matches WHERE player_id=? AND created>?',[$pid,time()-3600])->fetchColumn()>=30)fail('You have reached the hourly duel limit',429);}
 function insert_match(PDO $db,string $pid,string $topic,string $kind,string $opponent,?string $otherID,array $packet,array $points,?string $duelID=null,?string $replayID=null,bool $party=false):string {
     if(count($packet)!==7 || count(unique_questions($packet))!==7)fail('This duel does not have seven different questions. Please start a new duel.',410);
-    if(!$party)match_limit($db,$pid);$id=bin2hex(random_bytes(12));sql($db,'INSERT INTO matches(id,player_id,topic,kind,opponent,opponent_id,duel_id,opponent_match,packet,opponent_points,created) VALUES(?,?,?,?,?,?,?,?,?,?,?)',[$id,$pid,$topic,$kind,$opponent,$otherID,$duelID,$replayID,json_encode($packet,JSON_UNESCAPED_UNICODE),json_encode($points),time()]);return $id;
+    $id=bin2hex(random_bytes(12));sql($db,'INSERT INTO matches(id,player_id,topic,kind,opponent,opponent_id,duel_id,opponent_match,packet,opponent_points,created) VALUES(?,?,?,?,?,?,?,?,?,?,?)',[$id,$pid,$topic,$kind,$opponent,$otherID,$duelID,$replayID,json_encode($packet,JSON_UNESCAPED_UNICODE),json_encode($points),time()]);return $id;
 }
 function start_info(PDO $db,array $m):array {
     $p=$m['opponent_id'] ? sql($db,'SELECT id,name,avatar FROM players WHERE id=?',[$m['opponent_id']])->fetch():false;
@@ -113,7 +112,6 @@ function create_duel(PDO $db,string $creator,string $target,string $topic,string
     if($creator===$target)fail('Choose another player');$a=visible_player($db,$creator,$creator);$b=visible_player($db,$creator,$target);
     if(!$paired && !settings($db,$target)['challenges_open'])fail('This player is not accepting challenges',403);
     $old=sql($db,'SELECT * FROM duels WHERE request_key=?',[$requestKey])->fetch();if($old){if($old['target_id']!==$target || $old['topic']!==$topic)fail('This challenge request was already used',409);return $old;}
-    if(!$paired && (int)sql($db,'SELECT COUNT(*) FROM duels WHERE creator_id=? AND created>?',[$creator,time()-3600])->fetchColumn()>=15)fail('Please wait before sending more challenges',429);
     if(!$paired && (int)sql($db,'SELECT COUNT(*) FROM duels WHERE creator_id=? AND target_id=? AND topic=? AND status IN ("invited","accepted")',[$creator,$target,$topic])->fetchColumn()>=2)fail('You already have open challenges with this player in this topic',409);
     $id=bin2hex(random_bytes(12));$packet=fresh_packet($db,$creator,$topic);$am=insert_match($db,$creator,$topic,'challenge',$b['name'],$target,$packet,array_fill(0,7,0),$id);
     $bm=$paired ? insert_match($db,$target,$topic,'challenge',$a['name'],$creator,$packet,array_fill(0,7,0),$id):null;
