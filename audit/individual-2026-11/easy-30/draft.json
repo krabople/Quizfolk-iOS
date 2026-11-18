@@ -1,0 +1,1602 @@
+[
+  {
+    "draftID": "easy-30-001",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which portable device stores charge so you can recharge a phone away from a socket?",
+    "answers": [
+      "A power bank",
+      "A wireless mouse",
+      "A webcam",
+      "A barcode scanner"
+    ],
+    "correctIndex": 0,
+    "rationale": "Portable stored-charge supply identifies a power bank; mouse, webcam and barcode scanner have other main functions. Cambridge explicitly supports portable recharging away from electricity. No claim that a power bank creates energy.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/power-bank",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-002",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a stylus used for with a tablet?",
+    "answers": [
+      "Writing or drawing on its screen",
+      "Cooling its processor",
+      "Charging its battery",
+      "Amplifying its speakers"
+    ],
+    "correctIndex": 0,
+    "rationale": "Stylus touchscreen writing/drawing sense inspected, distinct from phonograph stylus sense. Cooling, charging and amplification do not describe the tablet stylus. Grammar and tablet context clear.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/stylus",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-003",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What lets you control a touchscreen device directly?",
+    "answers": [
+      "Touching the display",
+      "Speaking into the microphone",
+      "Turning a separate control dial",
+      "Moving a mouse on a desk"
+    ],
+    "correctIndex": 0,
+    "rationale": "Touching the display defines touchscreen input. Revised alternatives to real input methods rather than rotating a battery. Voice/dial/mouse alone do not define direct touch control.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/touchscreen",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-004",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "In a phone or game controller, haptic feedback mainly relates to which sense?",
+    "answers": [
+      "Touch",
+      "Smell",
+      "Taste",
+      "Hearing"
+    ],
+    "correctIndex": 0,
+    "rationale": "Haptic means relating to touch, not smell, taste or hearing. Vibration can make noise but sensory target remains touch. Specific controller/phone context removes other meanings.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/haptic",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-005",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which phone connection does aeroplane mode normally disable?",
+    "answers": [
+      "The cellular connection",
+      "The wired headphone connection",
+      "The USB charging connection",
+      "The wired microphone connection"
+    ],
+    "correctIndex": 0,
+    "rationale": "Replaced broad all-wireless-radios claim: Apple's guide permits Wi-Fi and Bluetooth and retains settings. Cellular disconnection is the intended usual behaviour; wired audio, USB charging and wired microphones are unaffected as connections. Normally avoids treating every unusual device state as universal.",
+    "sourceURL": "https://support.apple.com/en-la/108785",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-006",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which iPhone component doubles as its torch?",
+    "answers": [
+      "The LED camera flash",
+      "The microphone",
+      "The vibration motor",
+      "The speaker"
+    ],
+    "correctIndex": 0,
+    "rationale": "Scoped to iPhone; Apple explicitly identifies LED flash as its flashlight. Microphone, motor and speaker are separate components. No unsupported claim about every phone model.",
+    "sourceURL": "https://support.apple.com/en-ae/105001",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-007",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What does PIN stand for when unlocking an electronic device?",
+    "answers": [
+      "Personal Identification Number",
+      "Portable Internet Network",
+      "Private Image Name",
+      "Power Input Notification"
+    ],
+    "correctIndex": 0,
+    "rationale": "PIN is personal identification number. All alternatives are invented expansions, none standard in device-unlocking context. Cambridge abbreviation sense inspected beyond pin fastener/chess senses.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/pin",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-008",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What changes when you adjust a phone screen's brightness?",
+    "answers": [
+      "How much light the screen gives off",
+      "How large text appears",
+      "How quickly the screen switches off",
+      "How loudly notifications sound"
+    ],
+    "correctIndex": 0,
+    "rationale": "Brightness adjusts emitted light. New alternatives are distinct settings: text size, screen timeout and volume. No confusion with resolution or automatically changing ambient light.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/brightness",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-009",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which phone accessory is fitted over the display to help prevent scratches?",
+    "answers": [
+      "A screen protector",
+      "A camera lens cap",
+      "A charging stand",
+      "A magnetic car mount"
+    ],
+    "correctIndex": 0,
+    "rationale": "Replaces exact Computers screenshot duplicate. Belkin describes a fitted protective layer reducing scratches; not guaranteed unbreakability. Lens cap, stand and mount do not cover the phone display for this purpose.",
+    "sourceURL": "https://www.belkin.com/uk/support-article/?articleNum=70911",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-010",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What does the screen-rotation lock on an iPhone prevent?",
+    "answers": [
+      "The display orientation changing when you turn the phone",
+      "The screen brightness adjusting automatically",
+      "The camera switching between lenses",
+      "The volume changing when you press its buttons"
+    ],
+    "correctIndex": 0,
+    "rationale": "Replaces repeated landscape-orientation fact. Apple guide explicitly says lock prevents orientation changing as phone turns; brightness, camera lens and volume controls are separate. iPhone scope avoids device-specific naming generalisation.",
+    "sourceURL": "https://support.apple.com/guide/iphone/rotate-your-iphone-screen-iph3badf94ec/ios",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-011",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "In portrait orientation, a phone's screen is generally what shape relative to the viewer?",
+    "answers": [
+      "Taller than it is wide",
+      "Wider than it is tall",
+      "Equally wide and tall",
+      "Wider at the top than at the bottom"
+    ],
+    "correctIndex": 0,
+    "rationale": "Portrait view is taller than wide. Rectangular conventional phone screen context; square and tapered alternatives are false. Distinct from row10 rotation-lock function, though introductory same subject area.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/portrait",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-012",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which iPhone camera does Apple recommend using to frame a selfie on the screen?",
+    "answers": [
+      "The front-facing camera",
+      "The rear ultra-wide camera",
+      "The rear telephoto camera",
+      "An external security camera"
+    ],
+    "correctIndex": 0,
+    "rationale": "Scoped to Apple's iPhone selfie instructions to avoid claiming rear cameras can never take selfies. Front camera recommended; neither specific rear lens nor external security camera matches that recommendation. Correct camera possessive/wording.",
+    "sourceURL": "https://support.apple.com/en-ca/guide/iphone/iph1b88429a6/ios",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-013",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What does the level shown in an iPhone's battery icon indicate?",
+    "answers": [
+      "Its remaining charge",
+      "The mobile signal strength",
+      "The available storage space",
+      "The screen brightness"
+    ],
+    "correctIndex": 0,
+    "rationale": "Apple battery-level icon reflects remaining charge, not radio signal, storage or brightness. Level qualifier distinguishes charging-status lightning symbol. Revised source supports actual icon, not generic battery definition alone.",
+    "sourceURL": "https://support.apple.com/en-bn/guide/iphone/iph63eecc618/ios",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-014",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "The battery-capacity abbreviation mAh stands for what?",
+    "answers": [
+      "Milliampere-hour",
+      "Megawatt-hour",
+      "Millivolt",
+      "Megahertz"
+    ],
+    "correctIndex": 0,
+    "rationale": "Manufacturer explicitly expands mAh as milliampere-hour and distinguishes charge capacity from usable energy. Megawatt-hour, millivolt and megahertz are genuine other units. No claim mAh itself equals energy or power.",
+    "sourceURL": "https://service.anker.com/uk/article-description/Why-is-the-Rated-Capacity-of-Power-Banks-Lower-Than-Expected",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-015",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What makes a rechargeable battery reusable after it runs down?",
+    "answers": [
+      "It can have its stored charge replenished",
+      "It generates energy without an external supply",
+      "Its capacity doubles every time it is used",
+      "Its chemical components never age"
+    ],
+    "correctIndex": 0,
+    "rationale": "Rechargeable means charge can be replenished. Revised false claims are impossible perpetual supply, automatic doubling or no ageing. Reusability does not imply infinite service life.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/rechargeable",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-016",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "A plus sign on a battery marks which terminal?",
+    "answers": [
+      "Positive",
+      "Negative",
+      "Neutral",
+      "Earth only"
+    ],
+    "correctIndex": 0,
+    "rationale": "Plus marks positive terminal, negative minus, neutral and earth do not. Fact and wording checked, but retrieved positive dictionary entry covers electrical charge rather than terminal marking. Keep pending supporting manufacturer reference; do not approve this item yet. FOLLOW-UP: Indexed Panasonic battery-terminal sheet identifies plus/positive and minus/negative. Specific terminal marking now corroborated, not merely dictionary electrical-charge meaning.",
+    "sourceURL": "https://industrial.panasonic.com/cdbs/www-data/pdf/AAF4000/ast-ind-181246.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-017",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What does a mute control normally do to audio output?",
+    "answers": [
+      "Silences it",
+      "Makes it twice as fast",
+      "Adds an echo",
+      "Reverses the recording"
+    ],
+    "correctIndex": 0,
+    "rationale": "Mute audio output silences it, unlike speed change, echo or reversed playback. Output scope avoids microphone input mute ambiguity. Cambridge electronic sound-control sense inspected.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/mute",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-018",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What does a mains-powered USB charger do to supply a phone?",
+    "answers": [
+      "Converts alternating current to suitable direct current",
+      "Converts direct current to mains alternating current",
+      "Stores photographs transferred over USB",
+      "Increases the capacity of the phone battery"
+    ],
+    "correctIndex": 0,
+    "rationale": "Replaced vague adaptor wording that could include plug-shape travel adaptors. USB mains charger converts mains AC to appropriate DC; reverse conversion, photo storage and increased battery capacity are false. Anker charger reference explicitly supports direction of conversion.",
+    "sourceURL": "https://www.anker.com/collections/30w-usb-c-power-adapter",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-019",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a key feature of a cordless appliance during normal use?",
+    "answers": [
+      "It works without a power lead connected",
+      "It can only run while plugged into a wall socket",
+      "It receives all its power through a data cable",
+      "It needs a cable connected to a transformer throughout use"
+    ],
+    "correctIndex": 0,
+    "rationale": "Cordless during operation needs no connected power lead. False options require cables for power. Avoid asserting every cordless appliance necessarily uses a particular battery chemistry.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/cordless",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-020",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "A countdown timer measures time in which direction?",
+    "answers": [
+      "Towards zero from a set duration",
+      "Upwards from zero without a preset end",
+      "Through the current date and year",
+      "Through the hours of the current day"
+    ],
+    "correctIndex": 0,
+    "rationale": "Countdown moves from a preset duration towards zero. Upward stopwatch, calendar and ordinary clock displays are different. Dedicated countdown definition inspected instead of assuming timer generic definition proves direction.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/countdown",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-021",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a stopwatch mainly used to measure?",
+    "answers": [
+      "Elapsed time",
+      "Air pressure",
+      "Electrical voltage",
+      "The direction of north"
+    ],
+    "correctIndex": 0,
+    "rationale": "Stopwatch measures elapsed time. Pressure, voltage and north direction require other instruments. No claim about timing precision or all devices needing mechanical hands.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/stopwatch",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-022",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is an alarm clock designed to do at a chosen time?",
+    "answers": [
+      "Give a signal to alert you",
+      "Measure the time taken by a race",
+      "Show how far you have walked",
+      "Record changes in air pressure"
+    ],
+    "correctIndex": 0,
+    "rationale": "Alarm preset-time alert is correct. Race duration, distance and pressure are other measurement tasks. Can signal audibly or otherwise; not restricted to ringing bells.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/alarm-clock",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-023",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "A digital clock commonly displays time in what form?",
+    "answers": [
+      "Numbers",
+      "Rotating hour and minute hands",
+      "Moving shadows on a marked dial",
+      "Falling sand between two chambers"
+    ],
+    "correctIndex": 0,
+    "rationale": "Digital clock displays time as numbers; analogue hands, sundial shadows and hourglass sand are different representations. Cambridge digital numbers sense inspected, not fingers/computing senses alone.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/digital",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-024",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What extra function does a chronograph watch provide?",
+    "answers": [
+      "A stopwatch",
+      "An altimeter",
+      "A compass",
+      "A heart-rate monitor"
+    ],
+    "correctIndex": 0,
+    "rationale": "Chronograph watch provides stopwatch timing. Altimeter, compass and heart-rate monitor are not implied by chronograph, though combined models may add them. Removed repeated 'in every model' wording. Watch scope distinguishes unrelated chronograph speed-measurement devices.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/chronograph",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-025",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What does a pedometer count?",
+    "answers": [
+      "Steps",
+      "Heartbeats",
+      "Raindrops",
+      "Photographs"
+    ],
+    "correctIndex": 0,
+    "rationale": "Pedometer counts steps, not heartbeats, rain or photos. Cambridge explicit step-counting definition. No assumption every step count is perfectly accurate.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/pedometer",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-026",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Where is a smartwatch normally worn?",
+    "answers": [
+      "On the wrist",
+      "Over the eyes",
+      "Inside the shoe",
+      "Around the camera lens"
+    ],
+    "correctIndex": 0,
+    "rationale": "Smartwatch normally worn at wrist; eyewear, footwear and lens positions are not normal watch placement. Definition identifies watch; no claim all wearable computers are wrist watches.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/smartwatch",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-027",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a fitness tracker principally designed to monitor?",
+    "answers": [
+      "Physical activity",
+      "The ink level in a printer",
+      "The sharpness of a kitchen knife",
+      "The focus of a camera lens"
+    ],
+    "correctIndex": 0,
+    "rationale": "Fitness tracker principal purpose physical activity. Printer ink, knife sharpness and camera focus unrelated devices. Cambridge includes activity/step counts; heart monitoring does not make all trackers medical instruments.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/fitness-tracker",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-028",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What does a room thermostat help regulate?",
+    "answers": [
+      "Temperature",
+      "Humidity",
+      "Air pressure",
+      "Light level"
+    ],
+    "correctIndex": 0,
+    "rationale": "Thermostat regulates temperature by switching heating/cooling, not humidity, pressure or light. Room context avoids engine/system confusion while remaining true. Better same-domain alternatives.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/thermostat",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-029",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which device adds moisture to indoor air?",
+    "answers": [
+      "A humidifier",
+      "A dehumidifier",
+      "An extractor fan",
+      "An electric radiator"
+    ],
+    "correctIndex": 0,
+    "rationale": "Humidifier adds moisture. Dehumidifier removes it; fan circulates air; radiator supplies heat. Cambridge less-dry/add-water definitions support only one intended answer.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/humidifier",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-030",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which device removes excess moisture from indoor air?",
+    "answers": [
+      "A dehumidifier",
+      "A humidifier",
+      "An electric fan",
+      "A room thermostat"
+    ],
+    "correctIndex": 0,
+    "rationale": "Dehumidifier removes moisture. Humidifier adds it; fan and thermostat do not have removal as intended purpose. Excess moisture wording allows ordinary indoor use without health claims.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/dehumidifier",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-031",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is an air filter designed to remove from the air?",
+    "answers": [
+      "Unwanted particles or harmful substances",
+      "All of the oxygen",
+      "All of the nitrogen",
+      "Every trace of water vapour"
+    ],
+    "correctIndex": 0,
+    "rationale": "Replaced unsupported air-purifier source with inspected air-filter definition. Filter removes unwanted particles/harmful substances, not all oxygen/nitrogen/water. No claim perfect removal of every pollutant or health outcome.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/air-filter",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-032",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is an extractor fan mainly intended to do?",
+    "answers": [
+      "Remove air from an enclosed space",
+      "Measure the air temperature",
+      "Add moisture to the air",
+      "Heat water for radiators"
+    ],
+    "correctIndex": 0,
+    "rationale": "Extractor fan removes enclosed-space air; temperature measurement, moisture addition and radiator-water heating are different functions. Cambridge dust/smell removal description supports extraction purpose. No claim it is identical to an air-purifying recirculator.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/extractor-fan",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-033",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which part of a typical electric fan moves the air?",
+    "answers": [
+      "The rotating blades",
+      "The plug's plastic casing",
+      "The printed instruction label",
+      "The power button's lettering"
+    ],
+    "correctIndex": 0,
+    "rationale": "Rotating blades move air in ordinary electric fan; casing, label and lettering do not. Relevant electric fan dictionary sense inspected rather than sports supporter. Typical qualifier allows bladeless-design exceptions.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/fan",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-034",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What job is a robot vacuum cleaner designed to do automatically?",
+    "answers": [
+      "Clean floors",
+      "Iron clothes",
+      "Wash dishes",
+      "Dry laundry"
+    ],
+    "correctIndex": 0,
+    "rationale": "Robot vacuum floor cleaning, not ironing, dishwashing or laundry drying. iRobot indexed product text explicitly describes automatic vacuum/mop floor-clean sequence. This is indexed corroboration, not claimed full-page direct retrieval.",
+    "sourceURL": "https://www.irobot.com/en_US/irobot-braava-jet-m6-robot-mop/M611020.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-035",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "A robotic mop is primarily designed to clean which surfaces?",
+    "answers": [
+      "Hard floors",
+      "Carpet pile",
+      "Upholstered sofas",
+      "Hanging curtains"
+    ],
+    "correctIndex": 0,
+    "rationale": "iRobot describes robot mop for hard-surface floors; carpet pile, upholstered sofas and curtains are not its intended mopping surfaces. Narrowed generic floors to avoid carpet implication. Indexed manufacturer passage corroboration, not generic mop definition alone.",
+    "sourceURL": "https://www.irobot.com/en_US/explore/us-braava.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-036",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which appliance is primarily designed to boil water for hot drinks?",
+    "answers": [
+      "An electric kettle",
+      "A coffee grinder",
+      "A toaster",
+      "A juicer"
+    ],
+    "correctIndex": 0,
+    "rationale": "Electric kettle boils water for drinks. Grinder breaks beans; toaster browns bread; juicer extracts juice. Cambridge vessel-for-boiling-water sense checked, not police kettling sense.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/kettle",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-037",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which appliance browns slices of bread using heat?",
+    "answers": [
+      "A toaster",
+      "A blender",
+      "A fridge",
+      "A food processor"
+    ],
+    "correctIndex": 0,
+    "rationale": "Toaster browns bread by heat. Blender processes ingredients, fridge chills, processor chops. Dictionary 'making toast' plus ordinary toast meaning establishes one correct offered answer; no claim bread must be sliced in all possible uses.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/toaster",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-038",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which appliance commonly uses fast-spinning blades to blend ingredients into a smoothie?",
+    "answers": [
+      "A blender",
+      "A toaster",
+      "An electric kettle",
+      "A slow cooker"
+    ],
+    "correctIndex": 0,
+    "rationale": "Blender high-speed blades make smoothies. Toaster, kettle and slow cooker lack this food-blending function. Dedicated electrical kitchen-machine sense inspected, not professional blender of wine/perfume.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/blender",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-039",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which kitchen appliance extracts juice from fruit or vegetables?",
+    "answers": [
+      "A juicer",
+      "A coffee grinder",
+      "A toaster",
+      "An electric whisk"
+    ],
+    "correctIndex": 0,
+    "rationale": "Juicer extracts fruit/vegetable juice. Grinder, toaster and whisk have other principal tasks. Cambridge explicit extraction definition, with no assertion every juicer handles every vegetable.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/juicer",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-040",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which device breaks coffee beans into smaller particles before brewing?",
+    "answers": [
+      "A coffee grinder",
+      "A milk frother",
+      "An electric kettle",
+      "A toaster"
+    ],
+    "correctIndex": 0,
+    "rationale": "Coffee grinder crushes beans before brewing. Frother aerates milk; kettle boils water; toaster browns bread. Smaller particles allows coarse/fine grounds rather than requiring powder-fine output.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/coffee-grinder",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-041",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a milk frother designed to create?",
+    "answers": [
+      "Foam in milk",
+      "Ice cubes",
+      "Ground coffee",
+      "Slices of bread"
+    ],
+    "correctIndex": 0,
+    "rationale": "Milk frother creates milk foam. Ice, ground coffee and bread slices are distinct products; none describe aeration. Cambridge frothy-air-bubbles definition checked.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/frother",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-042",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which attachment is commonly used with an electric mixer to beat eggs or whip cream?",
+    "answers": [
+      "A whisk",
+      "A dough hook",
+      "A slicing disc",
+      "A mincer attachment"
+    ],
+    "correctIndex": 0,
+    "rationale": "Whisk beats eggs/whips cream; dough hook, slicing disc and mincer have different intended actions. Removed 'only' from dough-hook alternative. Kitchen noun/verb senses inspected, not rapid transport idiom.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/whisk",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-043",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "A food processor is commonly used for which kitchen task?",
+    "answers": [
+      "Chopping or processing ingredients",
+      "Washing the plates",
+      "Keeping food frozen",
+      "Boiling drinking water"
+    ],
+    "correctIndex": 0,
+    "rationale": "Food processor chops/processes ingredients. Dishwasher, freezer and kettle tasks do not define a food processor. Commonly qualifier accommodates additional processing functions and optional accessories.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/food-processor",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-044",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "How does a slow cooker generally cook food?",
+    "answers": [
+      "At a relatively low temperature over several hours",
+      "By circulating chilled water around the food",
+      "By exposing food to an open flame",
+      "By spinning food rapidly without heating it"
+    ],
+    "correctIndex": 0,
+    "rationale": "Slow cooker low-temperature long-duration cooking supported explicitly by dictionary. Chilled water, open flame and unheated spinning are other/false processes. No specific unsafe temperature or cooking-time advice offered.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/slow-cooker",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-045",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "A pressure cooker normally cooks food at a pressure that is what, compared with the surrounding air?",
+    "answers": [
+      "Higher",
+      "Lower",
+      "Always identical",
+      "Exactly zero"
+    ],
+    "correctIndex": 0,
+    "rationale": "Pressure cooker operates above surrounding atmospheric pressure; lower, identical and zero are wrong under normal pressure-cooking operation. Added explicit comparison so raised pressure has a clear baseline. No claim sealing alone creates a vacuum.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/pressure-cooker",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-046",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What does an air fryer circulate to cook food?",
+    "answers": [
+      "Hot air",
+      "Microwaves",
+      "Cold water",
+      "An open gas flame"
+    ],
+    "correctIndex": 0,
+    "rationale": "Air fryer circulates hot air, not microwaves, cold water or open gas flame. Definition explicitly hot air. Does not claim every recipe needs no oil or guarantees particular health results.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/air-fryer",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-047",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a kitchen appliance's defrost setting intended to do?",
+    "answers": [
+      "Thaw frozen food",
+      "Freeze fresh food more quickly",
+      "Grind dry ingredients",
+      "Toast bread until brown"
+    ],
+    "correctIndex": 0,
+    "rationale": "Defrost thaws frozen food, not freezes, grinds or toasts. Appliance setting context removes windscreen defogging meaning. No food-storage or safe-thawing instructions implied.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/defrost",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-048",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which appliance is designed to wash plates, cups and cutlery?",
+    "answers": [
+      "A dishwasher",
+      "A tumble dryer",
+      "A food processor",
+      "A freezer"
+    ],
+    "correctIndex": 0,
+    "rationale": "Dishwasher washes plates/cups/cutlery. Dryer, processor and freezer main functions differ. Appliance qualifier avoids human dishwasher occupation. Dedicated machine definition inspected.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/dishwasher",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-049",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which appliance washes clothes by moving them with water and detergent?",
+    "answers": [
+      "A washing machine",
+      "A tumble dryer",
+      "A fridge",
+      "An air purifier"
+    ],
+    "correctIndex": 0,
+    "rationale": "Washing machine washes fabric using water/detergent and movement. Dryer/fridge/air purifier are other appliances. Cambridge clothes/cloth definition supports core task, no universal claim about all wash cycles needing detergent.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/washing-machine",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-050",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which appliance dries laundry by tumbling it in a rotating drum?",
+    "answers": [
+      "A tumble dryer",
+      "A dishwasher",
+      "A freezer",
+      "A food processor"
+    ],
+    "correctIndex": 0,
+    "rationale": "Tumble dryer dries laundry in rotating drum; dishwasher, freezer and processor do not. Definition explicitly dries wet clothes by turning in hot air. No claim every clothes dryer tumbles or uses identical heating technology.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/tumble-dryer",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-051",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a clothes iron mainly used to remove from fabric?",
+    "answers": [
+      "Creases",
+      "Loose lint",
+      "Stains",
+      "Broken stitches"
+    ],
+    "correctIndex": 0,
+    "rationale": "Clothes iron removes creases using heated flat base; lint removal, stain removal and stitch repair require other actions. Cambridge clothes-appliance sense inspected rather than chemical element/golf club. Removed bizarre all-colour/fibre/button alternatives.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/iron",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-052",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "A garment steamer uses what to help relax creases in clothes?",
+    "answers": [
+      "Steam",
+      "Compressed cold air",
+      "Ultraviolet light",
+      "Static electricity"
+    ],
+    "correctIndex": 0,
+    "rationale": "Garment steamer uses steam to relax creases; cold air, UV and static electricity not its intended crease-removal mechanism. Philips indexed product passage explicitly continuous steam removes creases; dictionary steamer entry was boat/cooking and insufficient. No universal fabric-safety claim imported from advertising.",
+    "sourceURL": "https://www.philips.com/c-p/GC507_63/easy-touch-garment-steamer",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-053",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which grooming appliance uses a stream of air to dry wet hair?",
+    "answers": [
+      "A hairdryer",
+      "Hair clippers",
+      "An electric shaver",
+      "A curling tong without a fan"
+    ],
+    "correctIndex": 0,
+    "rationale": "Hairdryer blows air to dry hair; clippers/shaver cut hair and fanless curling tong heats it. Dictionary explicitly electrical hot-air drying device. Question does not falsely require hot setting in every use.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/hairdryer",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-054",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What are electric hair clippers primarily used for?",
+    "answers": [
+      "Cutting hair",
+      "Drying hair with warm air",
+      "Straightening hair with heated plates",
+      "Dyeing hair automatically"
+    ],
+    "correctIndex": 0,
+    "rationale": "Electric hair clippers cut hair. Blow-drying, plate straightening and automatic dyeing are distinct functions. Clipper dictionary includes hair cutting; no claim all clippers are electrical or only for hair.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/clippers",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-055",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Hair straighteners commonly press hair between what?",
+    "answers": [
+      "Heated plates",
+      "Rotating cutting blades",
+      "Cold rollers",
+      "High-pressure water jets"
+    ],
+    "correctIndex": 0,
+    "rationale": "Hair straightener heated plates supported by ghd heat-sensor/plate description. Replaced silly saw/blowup alternatives with actual grooming mechanisms. Does not claim every hair-straightening method uses this appliance design or specific temperature is safe.",
+    "sourceURL": "https://www.ghdhair.com/za/hair-straighteners-c",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-056",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is an electric shaver mainly designed to cut?",
+    "answers": [
+      "Hair near the skin",
+      "Fingernails",
+      "Cuticles",
+      "Fabric fibres"
+    ],
+    "correctIndex": 0,
+    "rationale": "Electric shaver cuts hair near skin. Philips product explicitly blades cut hair above skin; nail/cuticle/fabric tasks are different. Near-skin wording permits foil/rotary and above/below skin-level marketing variants without asserting blades touch skin.",
+    "sourceURL": "https://www.usa.philips.com/c-p/X3001_90/shaver-2400-wet-dry-electric-shaver",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-057",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which appliance forms stitches to join pieces of fabric?",
+    "answers": [
+      "A sewing machine",
+      "A steam iron",
+      "A tumble dryer",
+      "A clothes steamer"
+    ],
+    "correctIndex": 0,
+    "rationale": "Sewing machine forms stitches joining cloth. Iron, dryer and steamer do not sew. Cambridge needle-based machine definition inspected. Appliance label accommodates manual or electrical machines without claiming all are powered.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/sewing-machine",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-058",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What does an electric blanket provide when switched on?",
+    "answers": [
+      "Heat",
+      "Air circulation",
+      "Moisture",
+      "Cooling"
+    ],
+    "correctIndex": 0,
+    "rationale": "Electric blanket provides heat. Air circulation, adding moisture and cooling are not ordinary electric blanket functions. Cambridge internal heating wires definition inspected. No safety/use guidance or universal material assumption.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/electric-blanket",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-059",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a portable electric room heater designed to produce?",
+    "answers": [
+      "Heat",
+      "Cooling",
+      "Moisture",
+      "Filtered air"
+    ],
+    "correctIndex": 0,
+    "rationale": "Portable room heater produces heat. Cooling, humidification and air filtering are other main functions, even if combination appliances exist. Dedicated heating-device definition used, not baseball heater slang.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/heater",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-060",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "A reusable electric heating pad is mainly designed to provide what?",
+    "answers": [
+      "Localised warmth",
+      "Muscle stimulation through electrical pulses",
+      "A reading of skin temperature",
+      "Cooling through evaporation"
+    ],
+    "correctIndex": 0,
+    "rationale": "Electric heating pad intended local warmth, not TENS stimulation, measurement or evaporative cooling. Revised distractors to actual personal-care mechanisms. Pending suitable manufacturer reference; existing guessed dictionary entry has no definition. Do not approve yet. FOLLOW-UP: Indexed Beurer intended-use paragraph explicitly applying heat to body for warmth/comfort. Supports local warmth, no pain-relief or treatment claim added.",
+    "sourceURL": "https://pim.beurer.com/images/attribut/211.70_UHP24_2020-06-05_02_IM_BEU-USA-CAN.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-061",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which audio device is normally worn over or on the ears for personal listening?",
+    "answers": [
+      "Headphones",
+      "A soundbar",
+      "A projector",
+      "A webcam"
+    ],
+    "correctIndex": 0,
+    "rationale": "Headphones normally on/over ears for listening. Soundbar, projector and webcam not worn as personal audio transducers. Definition supports ear coverage; no claim absolutely no sound leaks to bystanders.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/headphones",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-062",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What are earbuds?",
+    "answers": [
+      "Small earphones worn in or near the ear canal",
+      "Large television screens",
+      "Camera supports",
+      "Printer ink containers"
+    ],
+    "correctIndex": 0,
+    "rationale": "Earbuds small earphones at/in ear canal. Screens, camera supports and ink cartridges false. Near qualifier includes open-fit earbuds. Dedicated earbud definition inspected.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/earbud",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-063",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a loudspeaker designed to produce from an audio signal?",
+    "answers": [
+      "Sound",
+      "Light",
+      "Heat as its intended output",
+      "A digital photograph"
+    ],
+    "correctIndex": 0,
+    "rationale": "Loudspeaker converts electrical audio signal into sound. Light, intentional heat output and photographs not its principal output. Definition explicitly electrical-signal-to-sound conversion. Heat can be a by-product, hence intended-output qualifier on heat alternative.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/loudspeaker",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-064",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a soundbar?",
+    "answers": [
+      "A long speaker unit often used with a television",
+      "A camera lens",
+      "A phone's charging cable",
+      "A type of computer memory card"
+    ],
+    "correctIndex": 0,
+    "rationale": "Soundbar long speaker unit usually used with TV. Lens, charging cable and memory card not soundbar. Dedicated definition explicitly speaker-containing horizontal bar, allows computer use through often qualifier.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/soundbar",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-065",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "A portable Bluetooth speaker receives audio from a compatible phone mainly through what?",
+    "answers": [
+      "A wireless radio link",
+      "An optical-fibre cable",
+      "A USB audio cable",
+      "An analogue headphone cable"
+    ],
+    "correctIndex": 0,
+    "rationale": "Bluetooth speaker uses short-range wireless audio; fibre/USB/analogue cable not Bluetooth transport. Revised silly alternatives to real audio connection types. Pending Bluetooth-specific supporting reference; guessed Bluetooth-speaker dictionary entry empty. Main wording does not deny optional wired inputs. FOLLOW-UP: Bluetooth SIG architecture explicitly wireless cable-replacement communications. Radio/wireless connection also confirmed by Cambridge Bluetooth entry. Removed short-range label because SIG range article explains variable range; no particular range claimed.",
+    "sourceURL": "https://www.bluetooth.com/wp-content/uploads/Files/Specification/HTML/Core_v6.3/out/en/architecture%2C-change-history%2C-and-conventions/architecture.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-066",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a pop filter placed in front of a recording microphone designed to reduce?",
+    "answers": [
+      "Popping sounds from bursts of breath",
+      "The recording file size",
+      "The length of the spoken words",
+      "The pitch of every sung note"
+    ],
+    "correctIndex": 0,
+    "rationale": "Replaces exact Computers microphone-purpose duplicate. Shure recording guide explicitly plosive p/t popping reduced with pop filter; file size, word duration and every note's pitch unaffected as intended function. Accessory function described without claiming all background noise removed.",
+    "sourceURL": "https://www.shure.com/en-US/docs/education/Microphone-Techniques-for-Recording",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-067",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which portable device is specifically designed to save spoken audio notes?",
+    "answers": [
+      "A voice recorder",
+      "A laser pointer",
+      "A photo frame",
+      "A barcode scanner"
+    ],
+    "correctIndex": 0,
+    "rationale": "Voice recorder specifically saves spoken audio, unlike pointer/frame/barcode scanner. Wording makes voice note purpose clear but does not claim exclusively speech. Pending actual recorder/audio definition; guessed voice-recorder dictionary entry empty. FOLLOW-UP: Sony support explicitly IC recorder records sound and pauses during silence, corroborating audio capture. Product identified as digital voice recorder. Voice notes is a use, not exclusive limitation; other three offered devices not specifically audio-note recorders.",
+    "sourceURL": "https://www.sony.com/electronics/support/digital-voice-recorders-icd-series/icd-px470/articles/00032487",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-068",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a megaphone designed to help a person's voice do?",
+    "answers": [
+      "Carry more loudly over a distance",
+      "Become higher in pitch automatically",
+      "Be translated into another language",
+      "Be saved as an audio recording automatically"
+    ],
+    "correctIndex": 0,
+    "rationale": "Megaphone amplifies/project voice to distance. Does not inherently pitch-shift, translate or save recordings; combinations may exist but not defining feature. Cambridge cone-shaped voice amplification sense inspected. Removed surreal photo/page alternatives.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/megaphone",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-069",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a walkie-talkie?",
+    "answers": [
+      "A portable two-way radio",
+      "A digital photo frame",
+      "A cordless vacuum cleaner",
+      "An electronic kitchen scale"
+    ],
+    "correctIndex": 0,
+    "rationale": "Walkie-talkie portable two-way radio sends/receives messages. Photo frame, vacuum and scale other gadgets. Definition supports both transmission/reception without claim simultaneous full-duplex operation.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/walkie-talkie",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-070",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a baby monitor designed to help a carer do?",
+    "answers": [
+      "Hear or watch a baby from another room",
+      "Automatically prepare a milk feed",
+      "Measure the temperature of bathwater",
+      "Wash and dry baby clothes"
+    ],
+    "correctIndex": 0,
+    "rationale": "Baby monitor lets carer hear/sometimes see baby in other room. Feed preparation, bath temperature and laundry separate devices. Cambridge explicit hear/sometimes see wording; not every model necessarily has video.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/baby-monitor",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-071",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which device enables an ordinary television to receive digital broadcasts?",
+    "answers": [
+      "A set-top box",
+      "A games controller",
+      "A soundbar",
+      "A DVD writer"
+    ],
+    "correctIndex": 0,
+    "rationale": "Replaces exact Computers projector duplicate. Proposed set-top box television receiver/decoder function, unlike game controller, soundbar or DVD writer. Pending dedicated set-top-box reference and semantic overlap recheck before approval; don't treat proposed replacement as verified yet. FOLLOW-UP: Retrieved dedicated definitions explicitly viewing digital broadcasts and cable/satellite programmes on TV. Revised stem specifically digital broadcasts so not any generic video source.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/set-top-box",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-072",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What does the central focusing wheel on many binoculars adjust?",
+    "answers": [
+      "How sharply the subject appears",
+      "The printed magnification number",
+      "The actual distance to the subject",
+      "The spacing between the eyepieces"
+    ],
+    "correctIndex": 0,
+    "rationale": "Focusing wheel changes apparent sharpness, not nominal magnification, actual subject distance or eyepiece separation. Generic binocular dictionary only magnification and tubes, insufficient proof of wheel function. Pending actual binocular operating instructions; retrieved Nikon camera-focus source is not claimed direct binocular support. FOLLOW-UP: Nikon central-focus binocular instructions explicitly rotate focusing ring until sharp image. Eyepiece spacing separately controlled by interpupillary adjustment, so all three alternative effects false. Specific binocular instructions replace inadequate camera-focus source.",
+    "sourceURL": "https://imaging.nikon.com/sport-optics/guide/binoculars/using/using_01/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-073",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which camera support normally has three legs?",
+    "answers": [
+      "A tripod",
+      "A monopod",
+      "A selfie stick",
+      "A gimbal handle alone"
+    ],
+    "correctIndex": 0,
+    "rationale": "Tripod three supporting legs; monopod, selfie stick and gimbal handle alone do not. Dedicated dictionary confirms three-legged support. Camera scope clear; no assertion every camera support needs three legs.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/tripod",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-074",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "How many main supporting legs does a standard camera monopod have?",
+    "answers": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "correctIndex": 0,
+    "rationale": "Standard monopod one leg; two/three/four not its defining single-support form. Pending manufacturer definition because guessed dictionary entry empty. Some monopods add a small folding foot, so final wording may need 'main supporting leg' to avoid foot/leg ambiguity before approval. FOLLOW-UP: Manfrotto specifies Leg Type Single. Wording now main supporting leg to distinguish one shaft from folding feet on some other monopods. One correct offered number, no claim a multi-section shaft is several legs.",
+    "sourceURL": "https://www.manfrotto.com/global-en/compact-monopod-advanced-white-mmcompactadv-wh/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-075",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What does a selfie stick let a photographer do?",
+    "answers": [
+      "Hold a phone or camera farther away for a self-portrait",
+      "Increase the camera's sensor size",
+      "Print the photograph instantly by itself",
+      "Replace the battery automatically"
+    ],
+    "correctIndex": 0,
+    "rationale": "Selfie stick holds phone/camera farther away for self-portrait; no change in sensor size, inherent instant printing or battery replacement. Dedicated definition explicitly distance allowing more subjects. Not assuming every stick includes remote shutter or motor.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/selfie-stick",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-076",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a camera gimbal designed to help reduce?",
+    "answers": [
+      "Unwanted camera movement",
+      "The number of pixels in the sensor",
+      "The amount of storage in a memory card",
+      "The number of lenses owned"
+    ],
+    "correctIndex": 0,
+    "rationale": "Camera gimbal helps stabilise camera orientation/reduce unwanted movement; not sensor pixels, memory storage or lens inventory. Cambridge rotating support keeping equipment in position supports mechanism. Does not promise elimination of all shake or motion.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/gimbal",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-077",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a dashcam mainly used to record?",
+    "answers": [
+      "The view from a vehicle while driving",
+      "Only the reversing view while parking",
+      "Only the driver's pulse rate",
+      "Only the car engine temperature"
+    ],
+    "correctIndex": 0,
+    "rationale": "Dashcam records vehicle road view. Reverse-only parking camera, pulse monitor and engine thermometer are other functions. Revised unrelated printer/space options; 'mainly' allows cabin and rear cameras in multi-camera dashcams.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/dashcam",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-078",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which type of camera is especially designed for recording activities while mounted on a helmet or equipment?",
+    "answers": [
+      "An action camera",
+      "A large studio view camera",
+      "A flatbed document scanner",
+      "An astronomical telescope"
+    ],
+    "correctIndex": 0,
+    "rationale": "Action camera intended mountable activity recording. Studio view camera, flatbed scanner and telescope not that camera type. Core fact plausible but guessed entry empty; pending actual manufacturer definition and global overlap check before approval. FOLLOW-UP: GoPro names action-camera mount and explicitly helmet/head mounting for point-of-view recording. Corroborates intended active mountable use. Other offered equipment not this portable action camera class.",
+    "sourceURL": "https://gopro.com/en/us/shop/mounts-accessories/head-strap-plus-quickclip/ACHOM-001.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-079",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a camcorder primarily designed to record?",
+    "answers": [
+      "Video",
+      "Printed photographs on paper",
+      "Sound without pictures",
+      "The temperature of a room"
+    ],
+    "correctIndex": 0,
+    "rationale": "Replaces exact Computers webcam purpose duplicate. Proposed camcorder primary video recording; printed paper output, audio-only recording and temperature measurement not defining task. Pending camcorder definition; do not claim webcam source supports this replacement. Can record sound alongside video, hence audio-only wording. FOLLOW-UP: Retrieved dedicated definition small video camera records images/sound. Video answer correct; audio-only alternative explicitly excludes accompanying images. No reliance on obsolete videotape-only wording.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/camcorder",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-080",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What does a camera flash supply when taking a photograph?",
+    "answers": [
+      "A brief burst of light",
+      "A continuous stream of ink",
+      "A new frame of photographic film",
+      "A burst of compressed air"
+    ],
+    "correctIndex": 0,
+    "rationale": "Replaces exact Computers scanner purpose duplicate. Camera flash provides brief light burst; not film, ink or air. Pending photographic flash dictionary sense rather than assuming lightning/computing senses. Proposed fact clear but final source check required. FOLLOW-UP: Retrieved photographic flash sense explicitly bright light for brief time while taking photograph. Other flash meanings excluded. Confirms brief burst answer.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/flash",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-081",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "A traditional linear barcode on a product represents information using what?",
+    "answers": [
+      "Parallel bars and spaces",
+      "A spiral groove",
+      "Embossed dots read by touch",
+      "A sequence of musical notes"
+    ],
+    "correctIndex": 0,
+    "rationale": "Replaces barcode-reader question that supplied its answer in the name. Linear barcode encodes information in bars/spaces; groove, braille dots and musical notes different systems. Linear qualifier avoids QR/matrix formats. Pending actual GS1 passage before approval. FOLLOW-UP: GS1 glossary explicitly linear barcode uses bars/spaces in one dimension. Traditional linear qualifier excludes 2D matrices. Groove/dots/music do not encode the offered linear bar pattern.",
+    "sourceURL": "https://ref.gs1.org/standards/genspecs/23.0.0/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-082",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which device can display a changing selection of photographs on its own screen while sitting on a shelf?",
+    "answers": [
+      "A digital photo frame",
+      "A flatbed scanner",
+      "A photo printer",
+      "An external hard drive"
+    ],
+    "correctIndex": 0,
+    "rationale": "Digital photo frame displays changing photos on screen. Scanner digitises, printer makes prints, hard drive stores rather than displays on its own screen. Pending manufacturer/device-specific definition because guessed dictionary empty. FOLLOW-UP: Aura support explicitly photos displayed on frame as slideshow. Corroborates changing selection, not merely storage. Scanner/printer/hard drive not standalone screen-photo display as described. No claim every frame requires cloud subscription.",
+    "sourceURL": "https://help.auraframes.com/hc/en-gb/articles/8418115014039-Controlling-Which-Photos-Appear-on-Your-Aura-Frame",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-083",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What are wire strippers designed to remove from an electrical wire?",
+    "answers": [
+      "The insulating covering",
+      "The entire metal conductor",
+      "The plug pins",
+      "The colour of the metal"
+    ],
+    "correctIndex": 0,
+    "rationale": "Replaces exact Science temperature/thermometer duplicate. Wire stripper removes insulation, not all conductor, plug pins or metal colour. Pending actual tool definition/manufacturer; no electrical-use instructions given. FOLLOW-UP: Knipex explicitly strippers cut cable insulation without damaging conductor/strands. Correct target insulating covering; not conductor/plug pins/metal colour. No live-wire operating advice included.",
+    "sourceURL": "https://www.knipex.com/products/wire-strippers-and-stripping-tools/insulation-strippers-universal/insulation-strippers-universal/1105160",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-084",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What are digital calipers commonly used to measure?",
+    "answers": [
+      "An object's dimensions",
+      "The strength of a radio station",
+      "The number of footsteps in a day",
+      "The amount of charge in a phone"
+    ],
+    "correctIndex": 0,
+    "rationale": "Digital calipers measure dimensions; radio signal, step counts and battery charge other instruments. Dictionary calipers measuring widths/distances inspected, orthopaedic supports sense excluded. Pending digital caliper product reference because dictionary describes hinged form, not modern sliding electronic variant. FOLLOW-UP: Mitutoyo calibration description specifically digital 0-150mm caliper and outside measuring faces. Supports dimensions, not radio strength/step count/charge. Dedicated digital instrument corroboration replaces generic hinged-caliper assumption.",
+    "sourceURL": "https://www.mitutoyo.com/webfoo/wp-content/uploads/Test-Uncertainty-2022-04-25.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-085",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "An electronic weighing balance is designed to measure what?",
+    "answers": [
+      "Mass",
+      "Compass direction",
+      "Screen resolution",
+      "Sound frequency"
+    ],
+    "correctIndex": 0,
+    "rationale": "Electronic balance reports mass in ordinary calibrated use; direction, resolution and frequency unrelated. Dictionary retrieved mechanical two-pan balance, not electronic device. Pending manufacturer reference; do not treat mechanical definition as verification of electronic mechanism. No assertion balance is independent of gravity calibration. FOLLOW-UP: NIST paper explicitly electronic balance for direct mass measurements, including built-in standard calibration. Confirms mass, not compass direction/resolution/frequency. Does not mistake mass for force or claim calibration unnecessary.",
+    "sourceURL": "https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir5423.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-086",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which instrument can commonly measure voltage, current and resistance?",
+    "answers": [
+      "A multimeter",
+      "A pedometer",
+      "A barometer",
+      "An anemometer"
+    ],
+    "correctIndex": 0,
+    "rationale": "Multimeter commonly measures voltage/current/resistance, not pedometer steps, barometer pressure or anemometer wind. Dedicated electronic-device dictionary explicitly lists all three. No hazardous electrical testing instructions included.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/multimeter",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-087",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a metal detector designed to locate?",
+    "answers": [
+      "Metal objects",
+      "Changes in air pressure",
+      "Infrared heat patterns",
+      "Airborne smoke particles"
+    ],
+    "correctIndex": 0,
+    "rationale": "Metal detector locates metal. Pressure, heat patterns and smoke detectors use other sensing tasks. Dedicated definition supports metal detection; no guarantee every metal object at any depth detectable. Replaced irrelevant stars/text/audio alternatives.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/metal-detector",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-088",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a smoke alarm designed to warn about?",
+    "answers": [
+      "Smoke that may indicate a fire",
+      "A build-up of carbon dioxide",
+      "A rise in humidity alone",
+      "A water leak on the floor"
+    ],
+    "correctIndex": 0,
+    "rationale": "Smoke alarm warns of smoke/possible fire, not carbon dioxide, humidity alone or leakwater. Definition explicitly possible-fire warning, allows false alarms. Single-purpose wording does not deny combination alarm products. Not an installation or safety recommendation.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/smoke-detector",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-089",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which household alarm is specifically designed to detect the poisonous gas CO?",
+    "answers": [
+      "A carbon monoxide alarm",
+      "A smoke alarm",
+      "A heat detector",
+      "A water-leak detector"
+    ],
+    "correctIndex": 0,
+    "rationale": "Original CO-alarm/gas stem repeated correct answer directly. Revised gas formula asks to identify correct alarm, distinguish smoke, heat and leak alarms. Pending fire-service reference for CO identity/purpose; guessed dictionary empty. Combination alarms do not make generic smoke alarm alone an equivalent offered answer. FOLLOW-UP: London Fire Brigade explicitly carbon monoxide (CO), poisonous fumes, and dedicated CO alarm. Supports gas identity and matching detector. Smoke/heat/leak alarm labels alone do not specify CO detection; no outdated legal/installation guidance imported.",
+    "sourceURL": "https://www.london-fire.gov.uk/safety/the-home/carbon-monoxide-safety/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-090",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What does a laser pointer project to indicate something at a distance?",
+    "answers": [
+      "A small spot of light",
+      "An image printed on paper",
+      "A physical arrow fired through the air",
+      "A stream of coloured ink"
+    ],
+    "correctIndex": 0,
+    "rationale": "Pointer projects light spot; not paper, physical arrow or ink. Dedicated dictionary light beam pointing sense inspected. No use instructions or claim laser pointers safe to look into.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/laser-pointer",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-091",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is an electronic rangefinder designed to measure?",
+    "answers": [
+      "Distance to a target",
+      "The target surface temperature",
+      "The target chemical composition",
+      "The target mass"
+    ],
+    "correctIndex": 0,
+    "rationale": "Rangefinder measures target distance, not temperature, chemistry or mass. Definition explicitly distance to photographic/shooting target. Electronic qualifier does not assert particular laser/radio/optical implementation.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/rangefinder",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-092",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "A home weather station usually monitors what?",
+    "answers": [
+      "Local weather conditions",
+      "The progress of trains",
+      "The energy consumption of appliances",
+      "The number of nearby radio transmitters"
+    ],
+    "correctIndex": 0,
+    "rationale": "Home weather station monitors local weather, not trains, appliance power or radio transmitter count. Retrieved dictionary defines building/site, insufficient support for gadget version. Pending consumer weather-station manufacturer reference; no claim forecasts are always correct. FOLLOW-UP: Netatmo consumer weather station lists temperature, humidity, atmospheric pressure and weather-module readings. Supports local weather conditions rather than trains/power usage/transmitter census. Device reference replaces building-only dictionary sense.",
+    "sourceURL": "https://helpcenter.netatmo.com/hc/en-us/articles/360020908832-How-do-I-view-and-read-the-graphs",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-093",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What does a photographer use a light meter to measure?",
+    "answers": [
+      "The amount of light",
+      "The distance to the subject",
+      "The weight of a camera",
+      "The temperature of a lens"
+    ],
+    "correctIndex": 0,
+    "rationale": "Replaces exact Science anemometer/wind-speed duplicate. Light meter measures light, not target distance, camera weight or lens temperature. Pending photographic instrument reference and overlap recheck before approval; guessed new dictionary URL not yet fetched. FOLLOW-UP: Retrieved explicit device measuring amount of light especially photography. Confirms intended quantity, not distance/mass/temperature.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/light-meter",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-094",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What can trigger a smart light fitted with a motion sensor?",
+    "answers": [
+      "Nearby movement",
+      "A scheduled software update alone",
+      "A change in the Wi-Fi password alone",
+      "An incoming phone call alone"
+    ],
+    "correctIndex": 0,
+    "rationale": "Motion-sensor security light can be triggered by movement. Software update/password change/phone call alone do not describe sensor stimulus. Pending actual security-light sensor manufacturer reference; empty motion-detector dictionary entry not support. Can rather than always avoids guaranteed operation irrespective of light/day settings. FOLLOW-UP: Philips Hue explicitly lights react automatically to movement/entering a room. Can trigger wording allows daylight/time configuration; password change/software update/phone call alone not motion-sensor stimulus. Revised smart-light wording avoids unsupported security-specific claim.",
+    "sourceURL": "https://www.philips-hue.com/en-us/explore-hue/faq/controls/what-can-you-do-with-a-motion-sensor",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-095",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "A video doorbell adds which feature to a traditional ringing doorbell?",
+    "answers": [
+      "A camera to show visitors",
+      "A sensor to measure gas usage",
+      "A timer to control laundry cycles",
+      "A thermostat to control an oven"
+    ],
+    "correctIndex": 0,
+    "rationale": "Video doorbell adds camera/visitor viewing rather than gas meter, laundry timer or oven thermostat. Generic doorbell definition only establishes conventional bell; pending actual video-doorbell source before approval. Removed unrelated coffee/sewing alternatives. FOLLOW-UP: Ring product explicitly video doorbell camera lets user see/hear/speak to visitors. Camera correct, not gas meter/laundry timer/oven thermostat. General camera-view feature rather than subscription-specific recording retention.",
+    "sourceURL": "https://ring.com/eu/en/products/battery-doorbell",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-096",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a virtual-reality headset designed to present?",
+    "answers": [
+      "An immersive computer-generated environment",
+      "A physical paper map",
+      "A conventional radio programme without images",
+      "An unmodified optical view through binoculars"
+    ],
+    "correctIndex": 0,
+    "rationale": "VR presents immersive computer-created environment; physical map, audio-only radio and unmodified binocular optics not VR. Dedicated virtual-reality dictionary images/sounds simulated place inspected. No claim every VR experience must imitate a real location.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/virtual-reality",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-097",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What does augmented reality add to a view of the real world?",
+    "answers": [
+      "Digital information or images",
+      "A physical coat of paint",
+      "An unchanged optical reflection",
+      "An audio-only radio broadcast"
+    ],
+    "correctIndex": 0,
+    "rationale": "AR overlays computer-generated information/images on real view. Physical paint, unchanged reflection and audio-only ordinary broadcast not AR imagery. Dedicated dictionary explicitly computer-produced images with real-world view. No claim permanent physical object transformation.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/augmented-reality",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-098",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a gamepad mainly used to control?",
+    "answers": [
+      "A video game",
+      "A central-heating boiler",
+      "A refrigerator compressor",
+      "A printer ink supply"
+    ],
+    "correctIndex": 0,
+    "rationale": "Gamepad handheld buttons control video game, unlike boiler/fridge/printer systems as principal purpose. Dedicated gamepad definition inspected. Mainly accommodates accessibility/custom remote-control uses without pretending every possible repurposing impossible.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/gamepad",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-099",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a joystick?",
+    "answers": [
+      "A movable lever used to control a device or game",
+      "A type of rechargeable battery",
+      "A flat camera filter",
+      "A speaker cable"
+    ],
+    "correctIndex": 0,
+    "rationale": "Joystick movable control lever. Battery, flat lens filter and speaker cable not levers. Relevant machine/game sense inspected; no false restriction only aircraft or only one axis.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/joystick",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-30-100",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What does an audio volume control adjust?",
+    "answers": [
+      "How loud or quiet the sound is",
+      "The colour of the screen",
+      "The number of stored files",
+      "The shape of the plug"
+    ],
+    "correctIndex": 0,
+    "rationale": "Audio volume adjusts loudness, not screen colour, file count or plug shape. Dedicated sound-level/control sense inspected beyond geometry/book/trade meanings. Distinct technical control from Music dynamics notation; does not conflate volume with pitch.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/volume",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  }
+]

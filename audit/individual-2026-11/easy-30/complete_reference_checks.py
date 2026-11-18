@@ -1,0 +1,33 @@
+"""Final author judgments after inspecting the outstanding specific references."""
+import hashlib,json,pathlib
+H=pathlib.Path(__file__).parent
+d=json.loads((H/'draft.json').read_text(encoding='utf8'));r=json.loads((H/'partial-review.json').read_text(encoding='utf8'))
+refs={
+67:('https://www.sony.com/electronics/support/digital-voice-recorders-icd-series/icd-px470/articles/00032487','Sony support explicitly IC recorder records sound and pauses during silence, corroborating audio capture. Product identified as digital voice recorder. Voice notes is a use, not exclusive limitation; other three offered devices not specifically audio-note recorders.'),
+72:('https://imaging.nikon.com/sport-optics/guide/binoculars/using/using_01/','Nikon central-focus binocular instructions explicitly rotate focusing ring until sharp image. Eyepiece spacing separately controlled by interpupillary adjustment, so all three alternative effects false. Specific binocular instructions replace inadequate camera-focus source.'),
+74:('https://www.manfrotto.com/global-en/compact-monopod-advanced-white-mmcompactadv-wh/','Manfrotto specifies Leg Type Single. Wording now main supporting leg to distinguish one shaft from folding feet on some other monopods. One correct offered number, no claim a multi-section shaft is several legs.'),
+78:('https://gopro.com/en/us/shop/mounts-accessories/head-strap-plus-quickclip/ACHOM-001.html','GoPro names action-camera mount and explicitly helmet/head mounting for point-of-view recording. Corroborates intended active mountable use. Other offered equipment not this portable action camera class.'),
+81:('https://ref.gs1.org/standards/genspecs/23.0.0/','GS1 glossary explicitly linear barcode uses bars/spaces in one dimension. Traditional linear qualifier excludes 2D matrices. Groove/dots/music do not encode the offered linear bar pattern.'),
+82:('https://help.auraframes.com/hc/en-gb/articles/8418115014039-Controlling-Which-Photos-Appear-on-Your-Aura-Frame','Aura support explicitly photos displayed on frame as slideshow. Corroborates changing selection, not merely storage. Scanner/printer/hard drive not standalone screen-photo display as described. No claim every frame requires cloud subscription.'),
+83:('https://www.knipex.com/products/wire-strippers-and-stripping-tools/insulation-strippers-universal/insulation-strippers-universal/1105160','Knipex explicitly strippers cut cable insulation without damaging conductor/strands. Correct target insulating covering; not conductor/plug pins/metal colour. No live-wire operating advice included.'),
+84:('https://www.mitutoyo.com/webfoo/wp-content/uploads/Test-Uncertainty-2022-04-25.pdf','Mitutoyo calibration description specifically digital 0-150mm caliper and outside measuring faces. Supports dimensions, not radio strength/step count/charge. Dedicated digital instrument corroboration replaces generic hinged-caliper assumption.'),
+85:('https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir5423.pdf','NIST paper explicitly electronic balance for direct mass measurements, including built-in standard calibration. Confirms mass, not compass direction/resolution/frequency. Does not mistake mass for force or claim calibration unnecessary.'),
+89:('https://www.london-fire.gov.uk/safety/the-home/carbon-monoxide-safety/','London Fire Brigade explicitly carbon monoxide (CO), poisonous fumes, and dedicated CO alarm. Supports gas identity and matching detector. Smoke/heat/leak alarm labels alone do not specify CO detection; no outdated legal/installation guidance imported.'),
+92:('https://helpcenter.netatmo.com/hc/en-us/articles/360020908832-How-do-I-view-and-read-the-graphs','Netatmo consumer weather station lists temperature, humidity, atmospheric pressure and weather-module readings. Supports local weather conditions rather than trains/power usage/transmitter census. Device reference replaces building-only dictionary sense.'),
+94:('https://www.philips-hue.com/en-us/explore-hue/faq/controls/what-can-you-do-with-a-motion-sensor','Philips Hue explicitly lights react automatically to movement/entering a room. Can trigger wording allows daylight/time configuration; password change/software update/phone call alone not motion-sensor stimulus. Revised smart-light wording avoids unsupported security-specific claim.'),
+95:('https://ring.com/eu/en/products/battery-doorbell','Ring product explicitly video doorbell camera lets user see/hear/speak to visitors. Camera correct, not gas meter/laundry timer/oven thermostat. General camera-view feature rather than subscription-specific recording retention.')}
+assert set(refs)==set(r['pendingReferenceRows'])
+for n,(url,note) in refs.items():
+ q=d[n-1];q['sourceURL']=url;q['rationale']+=' FOLLOW-UP: '+note
+ if n==74:q['prompt']='How many main supporting legs does a standard camera monopod have?'
+ if n==94:q['prompt']='What can trigger a smart light fitted with a motion sensor?'
+ row=r['rows'][n-1];row.update(note=q['rationale'],status='author_partial_pass_checked')
+# Reviewed the final wording and all options above; retain preliminary history honestly.
+rows=[]
+for i,(q,checked) in enumerate(zip(d,r['rows']),1):
+ assert checked['row']==i and checked['status']=='author_partial_pass_checked'
+ assert len(q['answers'])==len(set(q['answers']))==4 and q['correctIndex']==0
+ rows.append({'row':i,'prompt':q['prompt'],'action':'keep','note':q['rationale'],'sourceReview':'Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review.'})
+(H/'draft.json').write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf8',newline='\n')
+(H/'independent-review.json').write_text(json.dumps({'reviewer':'root (author final editorial pass)','independent':False,'sourceAccessNote':'100 individual author judgments, including resolution of all20 initially missing specific references. Cambridge definitions fetched privately; official support/manufacturer/standards passages inspected via web index as identified. Indexed passages are not claimed as full-page retrieval. Seven cross-category repeated facts replaced. Multiple stupidly unrelated initial distractors revised. Initial author and partial ledgers preserve history; no independent reviewer claimed. Private excerpts not republished.','rows':rows},ensure_ascii=False,indent=2)+'\n',encoding='utf8',newline='\n')
+print('100 final author judgments; all specific references resolved; apply-review and validation still required')

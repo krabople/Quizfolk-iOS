@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "16ce4646f671dea256da",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which portable device stores charge so you can recharge a phone away from a socket?",
+    "answers": [
+      "A power bank",
+      "A wireless mouse",
+      "A webcam",
+      "A barcode scanner"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/power-bank",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "0aa2302db48b968c1c33",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a stylus used for with a tablet?",
+    "answers": [
+      "Cooling its processor",
+      "Charging its battery",
+      "Amplifying its speakers",
+      "Writing or drawing on its screen"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/stylus",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "bf94bf45889c6eebdadc",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What lets you control a touchscreen device directly?",
+    "answers": [
+      "Turning a separate control dial",
+      "Moving a mouse on a desk",
+      "Touching the display",
+      "Speaking into the microphone"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/touchscreen",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "aee8ada0daa0eaa1e8cf",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "In a phone or game controller, haptic feedback mainly relates to which sense?",
+    "answers": [
+      "Hearing",
+      "Touch",
+      "Smell",
+      "Taste"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/haptic",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "d83b42aaa570c0d075d3",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which phone connection does aeroplane mode normally disable?",
+    "answers": [
+      "The cellular connection",
+      "The wired headphone connection",
+      "The USB charging connection",
+      "The wired microphone connection"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://support.apple.com/en-la/108785",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "583fbd6dd2fa3f4726bd",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which iPhone component doubles as its torch?",
+    "answers": [
+      "The microphone",
+      "The vibration motor",
+      "The speaker",
+      "The LED camera flash"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://support.apple.com/en-ae/105001",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "be3b1684a99aa4c4f711",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What does PIN stand for when unlocking an electronic device?",
+    "answers": [
+      "Private Image Name",
+      "Power Input Notification",
+      "Personal Identification Number",
+      "Portable Internet Network"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/pin",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "a48abd0599a6d9a5e1c8",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What changes when you adjust a phone screen's brightness?",
+    "answers": [
+      "How loudly notifications sound",
+      "How much light the screen gives off",
+      "How large text appears",
+      "How quickly the screen switches off"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/brightness",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "f4de8893fcf539eb673f",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which phone accessory is fitted over the display to help prevent scratches?",
+    "answers": [
+      "A screen protector",
+      "A camera lens cap",
+      "A charging stand",
+      "A magnetic car mount"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.belkin.com/uk/support-article/?articleNum=70911",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "8f4d3a41165c354c6e3f",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What does the screen-rotation lock on an iPhone prevent?",
+    "answers": [
+      "The screen brightness adjusting automatically",
+      "The camera switching between lenses",
+      "The volume changing when you press its buttons",
+      "The display orientation changing when you turn the phone"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://support.apple.com/guide/iphone/rotate-your-iphone-screen-iph3badf94ec/ios",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "ac451d34a0b4a33403d7",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "In portrait orientation, a phone's screen is generally what shape relative to the viewer?",
+    "answers": [
+      "Equally wide and tall",
+      "Wider at the top than at the bottom",
+      "Taller than it is wide",
+      "Wider than it is tall"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/portrait",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "42c6f93111f755397c85",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which iPhone camera does Apple recommend using to frame a selfie on the screen?",
+    "answers": [
+      "An external security camera",
+      "The front-facing camera",
+      "The rear ultra-wide camera",
+      "The rear telephoto camera"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://support.apple.com/en-ca/guide/iphone/iph1b88429a6/ios",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "28bb63d62bb5651d1c51",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What does the level shown in an iPhone's battery icon indicate?",
+    "answers": [
+      "Its remaining charge",
+      "The mobile signal strength",
+      "The available storage space",
+      "The screen brightness"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://support.apple.com/en-bn/guide/iphone/iph63eecc618/ios",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "0e4186fccda8feaa220e",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "The battery-capacity abbreviation mAh stands for what?",
+    "answers": [
+      "Megawatt-hour",
+      "Millivolt",
+      "Megahertz",
+      "Milliampere-hour"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://service.anker.com/uk/article-description/Why-is-the-Rated-Capacity-of-Power-Banks-Lower-Than-Expected",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "8c9568072606fb05d39e",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What makes a rechargeable battery reusable after it runs down?",
+    "answers": [
+      "Its capacity doubles every time it is used",
+      "Its chemical components never age",
+      "It can have its stored charge replenished",
+      "It generates energy without an external supply"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/rechargeable",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "356551bd589aaea074fa",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "A plus sign on a battery marks which terminal?",
+    "answers": [
+      "Earth only",
+      "Positive",
+      "Negative",
+      "Neutral"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://industrial.panasonic.com/cdbs/www-data/pdf/AAF4000/ast-ind-181246.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "e2ded049468d66f7b20b",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What does a mute control normally do to audio output?",
+    "answers": [
+      "Silences it",
+      "Makes it twice as fast",
+      "Adds an echo",
+      "Reverses the recording"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/mute",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "411cec7d3b131b3a0081",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What does a mains-powered USB charger do to supply a phone?",
+    "answers": [
+      "Converts direct current to mains alternating current",
+      "Stores photographs transferred over USB",
+      "Increases the capacity of the phone battery",
+      "Converts alternating current to suitable direct current"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.anker.com/collections/30w-usb-c-power-adapter",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "56018a9604ca3f88c102",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a key feature of a cordless appliance during normal use?",
+    "answers": [
+      "It receives all its power through a data cable",
+      "It needs a cable connected to a transformer throughout use",
+      "It works without a power lead connected",
+      "It can only run while plugged into a wall socket"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/cordless",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "85ad9ae7f0c87574c0f2",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "A countdown timer measures time in which direction?",
+    "answers": [
+      "Through the hours of the current day",
+      "Towards zero from a set duration",
+      "Upwards from zero without a preset end",
+      "Through the current date and year"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/countdown",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "0b4222d9cdde81254551",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a stopwatch mainly used to measure?",
+    "answers": [
+      "Elapsed time",
+      "Air pressure",
+      "Electrical voltage",
+      "The direction of north"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/stopwatch",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "6008bfeca60116388a32",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is an alarm clock designed to do at a chosen time?",
+    "answers": [
+      "Measure the time taken by a race",
+      "Show how far you have walked",
+      "Record changes in air pressure",
+      "Give a signal to alert you"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/alarm-clock",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "5c6eeb257473ca0dae4f",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "A digital clock commonly displays time in what form?",
+    "answers": [
+      "Moving shadows on a marked dial",
+      "Falling sand between two chambers",
+      "Numbers",
+      "Rotating hour and minute hands"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/digital",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "67d00d22ffa85f3d6e09",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What extra function does a chronograph watch provide?",
+    "answers": [
+      "A heart-rate monitor",
+      "A stopwatch",
+      "An altimeter",
+      "A compass"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/chronograph",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "49b12c15d1a36fe2f000",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What does a pedometer count?",
+    "answers": [
+      "Steps",
+      "Heartbeats",
+      "Raindrops",
+      "Photographs"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/pedometer",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "b4db153ce90162f6f592",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Where is a smartwatch normally worn?",
+    "answers": [
+      "Over the eyes",
+      "Inside the shoe",
+      "Around the camera lens",
+      "On the wrist"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/smartwatch",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "834398fc42dc04303b19",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a fitness tracker principally designed to monitor?",
+    "answers": [
+      "The sharpness of a kitchen knife",
+      "The focus of a camera lens",
+      "Physical activity",
+      "The ink level in a printer"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/fitness-tracker",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "70a5c756bc171e1023f7",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What does a room thermostat help regulate?",
+    "answers": [
+      "Light level",
+      "Temperature",
+      "Humidity",
+      "Air pressure"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/thermostat",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "2ce9d6bc838096e04ae5",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which device adds moisture to indoor air?",
+    "answers": [
+      "A humidifier",
+      "A dehumidifier",
+      "An extractor fan",
+      "An electric radiator"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/humidifier",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "8da1b63ca8e1f0047849",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which device removes excess moisture from indoor air?",
+    "answers": [
+      "A humidifier",
+      "An electric fan",
+      "A room thermostat",
+      "A dehumidifier"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/dehumidifier",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "5ed9d0d40fc06fccb21e",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is an air filter designed to remove from the air?",
+    "answers": [
+      "All of the nitrogen",
+      "Every trace of water vapour",
+      "Unwanted particles or harmful substances",
+      "All of the oxygen"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/air-filter",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "1ce3bcabe7fc9e90df8b",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is an extractor fan mainly intended to do?",
+    "answers": [
+      "Heat water for radiators",
+      "Remove air from an enclosed space",
+      "Measure the air temperature",
+      "Add moisture to the air"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/extractor-fan",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "9b5ae4ef748f578b8186",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which part of a typical electric fan moves the air?",
+    "answers": [
+      "The rotating blades",
+      "The plug's plastic casing",
+      "The printed instruction label",
+      "The power button's lettering"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/fan",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "7bc23ddd8e9ef4a8ef80",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What job is a robot vacuum cleaner designed to do automatically?",
+    "answers": [
+      "Iron clothes",
+      "Wash dishes",
+      "Dry laundry",
+      "Clean floors"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.irobot.com/en_US/irobot-braava-jet-m6-robot-mop/M611020.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "39f6b70e7b75d5ecd39f",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "A robotic mop is primarily designed to clean which surfaces?",
+    "answers": [
+      "Upholstered sofas",
+      "Hanging curtains",
+      "Hard floors",
+      "Carpet pile"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.irobot.com/en_US/explore/us-braava.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "907ab152805294d722f9",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which appliance is primarily designed to boil water for hot drinks?",
+    "answers": [
+      "A juicer",
+      "An electric kettle",
+      "A coffee grinder",
+      "A toaster"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/kettle",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "222e59b38605c95fc3bd",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which appliance browns slices of bread using heat?",
+    "answers": [
+      "A toaster",
+      "A blender",
+      "A fridge",
+      "A food processor"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/toaster",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "01cab1d8cda8b92ca947",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which appliance commonly uses fast-spinning blades to blend ingredients into a smoothie?",
+    "answers": [
+      "A toaster",
+      "An electric kettle",
+      "A slow cooker",
+      "A blender"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/blender",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "88b3dd8ada1952a8390b",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which kitchen appliance extracts juice from fruit or vegetables?",
+    "answers": [
+      "A toaster",
+      "An electric whisk",
+      "A juicer",
+      "A coffee grinder"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/juicer",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "3fcaf99870d766604dfb",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which device breaks coffee beans into smaller particles before brewing?",
+    "answers": [
+      "A toaster",
+      "A coffee grinder",
+      "A milk frother",
+      "An electric kettle"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/coffee-grinder",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "0198b90459e43a82da1e",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a milk frother designed to create?",
+    "answers": [
+      "Foam in milk",
+      "Ice cubes",
+      "Ground coffee",
+      "Slices of bread"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/frother",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "4c822827cd724431d730",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which attachment is commonly used with an electric mixer to beat eggs or whip cream?",
+    "answers": [
+      "A dough hook",
+      "A slicing disc",
+      "A mincer attachment",
+      "A whisk"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/whisk",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "79f3aa4e1f2e615d5b2f",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "A food processor is commonly used for which kitchen task?",
+    "answers": [
+      "Keeping food frozen",
+      "Boiling drinking water",
+      "Chopping or processing ingredients",
+      "Washing the plates"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/food-processor",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "d76037a023742beb8722",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "How does a slow cooker generally cook food?",
+    "answers": [
+      "By spinning food rapidly without heating it",
+      "At a relatively low temperature over several hours",
+      "By circulating chilled water around the food",
+      "By exposing food to an open flame"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/slow-cooker",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "a90ef444d3a2d00fd103",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "A pressure cooker normally cooks food at a pressure that is what, compared with the surrounding air?",
+    "answers": [
+      "Higher",
+      "Lower",
+      "Always identical",
+      "Exactly zero"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/pressure-cooker",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "3ee7297fbbefd1d6c60f",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What does an air fryer circulate to cook food?",
+    "answers": [
+      "Microwaves",
+      "Cold water",
+      "An open gas flame",
+      "Hot air"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/air-fryer",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "f2f3b5c0df81e163cbcc",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a kitchen appliance's defrost setting intended to do?",
+    "answers": [
+      "Grind dry ingredients",
+      "Toast bread until brown",
+      "Thaw frozen food",
+      "Freeze fresh food more quickly"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/defrost",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "b668f540f755a129773d",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which appliance is designed to wash plates, cups and cutlery?",
+    "answers": [
+      "A freezer",
+      "A dishwasher",
+      "A tumble dryer",
+      "A food processor"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/dishwasher",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "55a30948c5f148752308",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which appliance washes clothes by moving them with water and detergent?",
+    "answers": [
+      "A washing machine",
+      "A tumble dryer",
+      "A fridge",
+      "An air purifier"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/washing-machine",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "092a94c693368f3d73cc",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which appliance dries laundry by tumbling it in a rotating drum?",
+    "answers": [
+      "A dishwasher",
+      "A freezer",
+      "A food processor",
+      "A tumble dryer"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/tumble-dryer",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "9362d9c273d7748e0c31",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a clothes iron mainly used to remove from fabric?",
+    "answers": [
+      "Stains",
+      "Broken stitches",
+      "Creases",
+      "Loose lint"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/iron",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "829603b3f60b8eff297c",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "A garment steamer uses what to help relax creases in clothes?",
+    "answers": [
+      "Static electricity",
+      "Steam",
+      "Compressed cold air",
+      "Ultraviolet light"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.philips.com/c-p/GC507_63/easy-touch-garment-steamer",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "f8e45ca4ed7fd038b51a",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which grooming appliance uses a stream of air to dry wet hair?",
+    "answers": [
+      "A hairdryer",
+      "Hair clippers",
+      "An electric shaver",
+      "A curling tong without a fan"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/hairdryer",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "0c9f5300524d7b515d80",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What are electric hair clippers primarily used for?",
+    "answers": [
+      "Drying hair with warm air",
+      "Straightening hair with heated plates",
+      "Dyeing hair automatically",
+      "Cutting hair"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/clippers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "5d081ec3951dda31a35d",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Hair straighteners commonly press hair between what?",
+    "answers": [
+      "Cold rollers",
+      "High-pressure water jets",
+      "Heated plates",
+      "Rotating cutting blades"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.ghdhair.com/za/hair-straighteners-c",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "e96db87ef674c3eb4500",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is an electric shaver mainly designed to cut?",
+    "answers": [
+      "Fabric fibres",
+      "Hair near the skin",
+      "Fingernails",
+      "Cuticles"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.usa.philips.com/c-p/X3001_90/shaver-2400-wet-dry-electric-shaver",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "dc327bc362fd78b83452",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which appliance forms stitches to join pieces of fabric?",
+    "answers": [
+      "A sewing machine",
+      "A steam iron",
+      "A tumble dryer",
+      "A clothes steamer"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/sewing-machine",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "424819b2fcb3b356b517",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What does an electric blanket provide when switched on?",
+    "answers": [
+      "Air circulation",
+      "Moisture",
+      "Cooling",
+      "Heat"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/electric-blanket",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "04aed01fc4155347c812",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a portable electric room heater designed to produce?",
+    "answers": [
+      "Moisture",
+      "Filtered air",
+      "Heat",
+      "Cooling"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/heater",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "35fefa0562fc3e40c6eb",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "A reusable electric heating pad is mainly designed to provide what?",
+    "answers": [
+      "Cooling through evaporation",
+      "Localised warmth",
+      "Muscle stimulation through electrical pulses",
+      "A reading of skin temperature"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://pim.beurer.com/images/attribut/211.70_UHP24_2020-06-05_02_IM_BEU-USA-CAN.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "27152864672e0fa122ff",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which audio device is normally worn over or on the ears for personal listening?",
+    "answers": [
+      "Headphones",
+      "A soundbar",
+      "A projector",
+      "A webcam"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/headphones",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "3731d75d7cdb0b94aedf",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What are earbuds?",
+    "answers": [
+      "Large television screens",
+      "Camera supports",
+      "Printer ink containers",
+      "Small earphones worn in or near the ear canal"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/earbud",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "237ef1c663c2ac488aa1",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a loudspeaker designed to produce from an audio signal?",
+    "answers": [
+      "Heat as its intended output",
+      "A digital photograph",
+      "Sound",
+      "Light"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/loudspeaker",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "eeec6185a8e785dcad2f",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a soundbar?",
+    "answers": [
+      "A type of computer memory card",
+      "A long speaker unit often used with a television",
+      "A camera lens",
+      "A phone's charging cable"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/soundbar",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "cd4692bb9a66c9022c57",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "A portable Bluetooth speaker receives audio from a compatible phone mainly through what?",
+    "answers": [
+      "A wireless radio link",
+      "An optical-fibre cable",
+      "A USB audio cable",
+      "An analogue headphone cable"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.bluetooth.com/wp-content/uploads/Files/Specification/HTML/Core_v6.3/out/en/architecture%2C-change-history%2C-and-conventions/architecture.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "304a7fe32367d672a397",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a pop filter placed in front of a recording microphone designed to reduce?",
+    "answers": [
+      "The recording file size",
+      "The length of the spoken words",
+      "The pitch of every sung note",
+      "Popping sounds from bursts of breath"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.shure.com/en-US/docs/education/Microphone-Techniques-for-Recording",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "7b8e3f39104de3fde8e2",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which portable device is specifically designed to save spoken audio notes?",
+    "answers": [
+      "A photo frame",
+      "A barcode scanner",
+      "A voice recorder",
+      "A laser pointer"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.sony.com/electronics/support/digital-voice-recorders-icd-series/icd-px470/articles/00032487",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "e51a5e17495c6b186322",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a megaphone designed to help a person's voice do?",
+    "answers": [
+      "Be saved as an audio recording automatically",
+      "Carry more loudly over a distance",
+      "Become higher in pitch automatically",
+      "Be translated into another language"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/megaphone",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "5cfa5d3d268ed52097d6",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a walkie-talkie?",
+    "answers": [
+      "A portable two-way radio",
+      "A digital photo frame",
+      "A cordless vacuum cleaner",
+      "An electronic kitchen scale"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/walkie-talkie",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "7d7b14cf2b57b12e1ee5",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a baby monitor designed to help a carer do?",
+    "answers": [
+      "Automatically prepare a milk feed",
+      "Measure the temperature of bathwater",
+      "Wash and dry baby clothes",
+      "Hear or watch a baby from another room"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/baby-monitor",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "020aebbcdd8b101d1b78",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which device enables an ordinary television to receive digital broadcasts?",
+    "answers": [
+      "A soundbar",
+      "A DVD writer",
+      "A set-top box",
+      "A games controller"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/set-top-box",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "cefe42447578ae308037",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What does the central focusing wheel on many binoculars adjust?",
+    "answers": [
+      "The spacing between the eyepieces",
+      "How sharply the subject appears",
+      "The printed magnification number",
+      "The actual distance to the subject"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://imaging.nikon.com/sport-optics/guide/binoculars/using/using_01/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "913f41ce894a7793b646",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which camera support normally has three legs?",
+    "answers": [
+      "A tripod",
+      "A monopod",
+      "A selfie stick",
+      "A gimbal handle alone"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/tripod",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "599315fe2e72e3ee0e7f",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "How many main supporting legs does a standard camera monopod have?",
+    "answers": [
+      "Two",
+      "Three",
+      "Four",
+      "One"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.manfrotto.com/global-en/compact-monopod-advanced-white-mmcompactadv-wh/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "28d9cef2a7e82c715d53",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What does a selfie stick let a photographer do?",
+    "answers": [
+      "Print the photograph instantly by itself",
+      "Replace the battery automatically",
+      "Hold a phone or camera farther away for a self-portrait",
+      "Increase the camera's sensor size"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/selfie-stick",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "bb69eb2315be609b999e",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a camera gimbal designed to help reduce?",
+    "answers": [
+      "The number of lenses owned",
+      "Unwanted camera movement",
+      "The number of pixels in the sensor",
+      "The amount of storage in a memory card"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/gimbal",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "cf733bd1638a78ae6ede",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a dashcam mainly used to record?",
+    "answers": [
+      "The view from a vehicle while driving",
+      "Only the reversing view while parking",
+      "Only the driver's pulse rate",
+      "Only the car engine temperature"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/dashcam",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "a728431754b8492b0a92",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which type of camera is especially designed for recording activities while mounted on a helmet or equipment?",
+    "answers": [
+      "A large studio view camera",
+      "A flatbed document scanner",
+      "An astronomical telescope",
+      "An action camera"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://gopro.com/en/us/shop/mounts-accessories/head-strap-plus-quickclip/ACHOM-001.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "e8e50ce61c26dfce25c0",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a camcorder primarily designed to record?",
+    "answers": [
+      "Sound without pictures",
+      "The temperature of a room",
+      "Video",
+      "Printed photographs on paper"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/camcorder",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "125d5c209a70ab969004",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What does a camera flash supply when taking a photograph?",
+    "answers": [
+      "A burst of compressed air",
+      "A brief burst of light",
+      "A continuous stream of ink",
+      "A new frame of photographic film"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/flash",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "ffe2ecd13cf2f0d3ba27",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "A traditional linear barcode on a product represents information using what?",
+    "answers": [
+      "Parallel bars and spaces",
+      "A spiral groove",
+      "Embossed dots read by touch",
+      "A sequence of musical notes"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://ref.gs1.org/standards/genspecs/23.0.0/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "a952764a25c39582563a",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which device can display a changing selection of photographs on its own screen while sitting on a shelf?",
+    "answers": [
+      "A flatbed scanner",
+      "A photo printer",
+      "An external hard drive",
+      "A digital photo frame"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://help.auraframes.com/hc/en-gb/articles/8418115014039-Controlling-Which-Photos-Appear-on-Your-Aura-Frame",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "c699361de07fa793b076",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What are wire strippers designed to remove from an electrical wire?",
+    "answers": [
+      "The plug pins",
+      "The colour of the metal",
+      "The insulating covering",
+      "The entire metal conductor"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.knipex.com/products/wire-strippers-and-stripping-tools/insulation-strippers-universal/insulation-strippers-universal/1105160",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "e43f4fdf855a9fffc9ea",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What are digital calipers commonly used to measure?",
+    "answers": [
+      "The amount of charge in a phone",
+      "An object's dimensions",
+      "The strength of a radio station",
+      "The number of footsteps in a day"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.mitutoyo.com/webfoo/wp-content/uploads/Test-Uncertainty-2022-04-25.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "874fee1a8fd34fa957c1",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "An electronic weighing balance is designed to measure what?",
+    "answers": [
+      "Mass",
+      "Compass direction",
+      "Screen resolution",
+      "Sound frequency"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir5423.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "06f2e790e238653b3fd8",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which instrument can commonly measure voltage, current and resistance?",
+    "answers": [
+      "A pedometer",
+      "A barometer",
+      "An anemometer",
+      "A multimeter"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/multimeter",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "1fd15d07921c73d08db6",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a metal detector designed to locate?",
+    "answers": [
+      "Infrared heat patterns",
+      "Airborne smoke particles",
+      "Metal objects",
+      "Changes in air pressure"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/metal-detector",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "9c26b7ad9e5c5584e8bc",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a smoke alarm designed to warn about?",
+    "answers": [
+      "A water leak on the floor",
+      "Smoke that may indicate a fire",
+      "A build-up of carbon dioxide",
+      "A rise in humidity alone"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/smoke-detector",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "9e7106680993333494d0",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "Which household alarm is specifically designed to detect the poisonous gas CO?",
+    "answers": [
+      "A carbon monoxide alarm",
+      "A smoke alarm",
+      "A heat detector",
+      "A water-leak detector"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.london-fire.gov.uk/safety/the-home/carbon-monoxide-safety/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "78ac6dcb5a5ce56956ad",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What does a laser pointer project to indicate something at a distance?",
+    "answers": [
+      "An image printed on paper",
+      "A physical arrow fired through the air",
+      "A stream of coloured ink",
+      "A small spot of light"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/laser-pointer",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "9840523250e17862512f",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is an electronic rangefinder designed to measure?",
+    "answers": [
+      "The target chemical composition",
+      "The target mass",
+      "Distance to a target",
+      "The target surface temperature"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/rangefinder",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "d1e29f0ded132b72b98f",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "A home weather station usually monitors what?",
+    "answers": [
+      "The number of nearby radio transmitters",
+      "Local weather conditions",
+      "The progress of trains",
+      "The energy consumption of appliances"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://helpcenter.netatmo.com/hc/en-us/articles/360020908832-How-do-I-view-and-read-the-graphs",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "52a3896901859aaf700a",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What does a photographer use a light meter to measure?",
+    "answers": [
+      "The amount of light",
+      "The distance to the subject",
+      "The weight of a camera",
+      "The temperature of a lens"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/light-meter",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "8f8e7dbf5bcf2f0ec4aa",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What can trigger a smart light fitted with a motion sensor?",
+    "answers": [
+      "A scheduled software update alone",
+      "A change in the Wi-Fi password alone",
+      "An incoming phone call alone",
+      "Nearby movement"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.philips-hue.com/en-us/explore-hue/faq/controls/what-can-you-do-with-a-motion-sensor",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "694e0af74ca07ecbb677",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "A video doorbell adds which feature to a traditional ringing doorbell?",
+    "answers": [
+      "A timer to control laundry cycles",
+      "A thermostat to control an oven",
+      "A camera to show visitors",
+      "A sensor to measure gas usage"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://ring.com/eu/en/products/battery-doorbell",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "4d4be027f3ad5a3bb600",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a virtual-reality headset designed to present?",
+    "answers": [
+      "An unmodified optical view through binoculars",
+      "An immersive computer-generated environment",
+      "A physical paper map",
+      "A conventional radio programme without images"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/virtual-reality",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "8e381604f60486659129",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What does augmented reality add to a view of the real world?",
+    "answers": [
+      "Digital information or images",
+      "A physical coat of paint",
+      "An unchanged optical reflection",
+      "An audio-only radio broadcast"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/augmented-reality",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "c29c43dcc854474c53bf",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a gamepad mainly used to control?",
+    "answers": [
+      "A central-heating boiler",
+      "A refrigerator compressor",
+      "A printer ink supply",
+      "A video game"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/gamepad",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "e5a8e86562b7733b73ba",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What is a joystick?",
+    "answers": [
+      "A flat camera filter",
+      "A speaker cable",
+      "A movable lever used to control a device or game",
+      "A type of rechargeable battery"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/joystick",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  },
+  {
+    "id": "f9449560fac7b08affbe",
+    "categoryID": "30",
+    "difficulty": "easy",
+    "prompt": "What does an audio volume control adjust?",
+    "answers": [
+      "The shape of the plug",
+      "How loud or quiet the sound is",
+      "The colour of the screen",
+      "The number of stored files"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/volume",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-30-v1"
+  }
+]

@@ -1,0 +1,707 @@
+{
+  "reviewer": "root (author final editorial pass)",
+  "independent": false,
+  "sourceAccessNote": "100 individual author judgments, including resolution of all20 initially missing specific references. Cambridge definitions fetched privately; official support/manufacturer/standards passages inspected via web index as identified. Indexed passages are not claimed as full-page retrieval. Seven cross-category repeated facts replaced. Multiple stupidly unrelated initial distractors revised. Initial author and partial ledgers preserve history; no independent reviewer claimed. Private excerpts not republished.",
+  "rows": [
+    {
+      "row": 1,
+      "prompt": "Which portable device stores charge so you can recharge a phone away from a socket?",
+      "action": "keep",
+      "note": "Portable stored-charge supply identifies a power bank; mouse, webcam and barcode scanner have other main functions. Cambridge explicitly supports portable recharging away from electricity. No claim that a power bank creates energy.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 2,
+      "prompt": "What is a stylus used for with a tablet?",
+      "action": "keep",
+      "note": "Stylus touchscreen writing/drawing sense inspected, distinct from phonograph stylus sense. Cooling, charging and amplification do not describe the tablet stylus. Grammar and tablet context clear.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 3,
+      "prompt": "What lets you control a touchscreen device directly?",
+      "action": "keep",
+      "note": "Touching the display defines touchscreen input. Revised alternatives to real input methods rather than rotating a battery. Voice/dial/mouse alone do not define direct touch control.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 4,
+      "prompt": "In a phone or game controller, haptic feedback mainly relates to which sense?",
+      "action": "keep",
+      "note": "Haptic means relating to touch, not smell, taste or hearing. Vibration can make noise but sensory target remains touch. Specific controller/phone context removes other meanings.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 5,
+      "prompt": "Which phone connection does aeroplane mode normally disable?",
+      "action": "keep",
+      "note": "Replaced broad all-wireless-radios claim: Apple's guide permits Wi-Fi and Bluetooth and retains settings. Cellular disconnection is the intended usual behaviour; wired audio, USB charging and wired microphones are unaffected as connections. Normally avoids treating every unusual device state as universal.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 6,
+      "prompt": "Which iPhone component doubles as its torch?",
+      "action": "keep",
+      "note": "Scoped to iPhone; Apple explicitly identifies LED flash as its flashlight. Microphone, motor and speaker are separate components. No unsupported claim about every phone model.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 7,
+      "prompt": "What does PIN stand for when unlocking an electronic device?",
+      "action": "keep",
+      "note": "PIN is personal identification number. All alternatives are invented expansions, none standard in device-unlocking context. Cambridge abbreviation sense inspected beyond pin fastener/chess senses.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 8,
+      "prompt": "What changes when you adjust a phone screen's brightness?",
+      "action": "keep",
+      "note": "Brightness adjusts emitted light. New alternatives are distinct settings: text size, screen timeout and volume. No confusion with resolution or automatically changing ambient light.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 9,
+      "prompt": "Which phone accessory is fitted over the display to help prevent scratches?",
+      "action": "keep",
+      "note": "Replaces exact Computers screenshot duplicate. Belkin describes a fitted protective layer reducing scratches; not guaranteed unbreakability. Lens cap, stand and mount do not cover the phone display for this purpose.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 10,
+      "prompt": "What does the screen-rotation lock on an iPhone prevent?",
+      "action": "keep",
+      "note": "Replaces repeated landscape-orientation fact. Apple guide explicitly says lock prevents orientation changing as phone turns; brightness, camera lens and volume controls are separate. iPhone scope avoids device-specific naming generalisation.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 11,
+      "prompt": "In portrait orientation, a phone's screen is generally what shape relative to the viewer?",
+      "action": "keep",
+      "note": "Portrait view is taller than wide. Rectangular conventional phone screen context; square and tapered alternatives are false. Distinct from row10 rotation-lock function, though introductory same subject area.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 12,
+      "prompt": "Which iPhone camera does Apple recommend using to frame a selfie on the screen?",
+      "action": "keep",
+      "note": "Scoped to Apple's iPhone selfie instructions to avoid claiming rear cameras can never take selfies. Front camera recommended; neither specific rear lens nor external security camera matches that recommendation. Correct camera possessive/wording.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 13,
+      "prompt": "What does the level shown in an iPhone's battery icon indicate?",
+      "action": "keep",
+      "note": "Apple battery-level icon reflects remaining charge, not radio signal, storage or brightness. Level qualifier distinguishes charging-status lightning symbol. Revised source supports actual icon, not generic battery definition alone.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 14,
+      "prompt": "The battery-capacity abbreviation mAh stands for what?",
+      "action": "keep",
+      "note": "Manufacturer explicitly expands mAh as milliampere-hour and distinguishes charge capacity from usable energy. Megawatt-hour, millivolt and megahertz are genuine other units. No claim mAh itself equals energy or power.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 15,
+      "prompt": "What makes a rechargeable battery reusable after it runs down?",
+      "action": "keep",
+      "note": "Rechargeable means charge can be replenished. Revised false claims are impossible perpetual supply, automatic doubling or no ageing. Reusability does not imply infinite service life.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 16,
+      "prompt": "A plus sign on a battery marks which terminal?",
+      "action": "keep",
+      "note": "Plus marks positive terminal, negative minus, neutral and earth do not. Fact and wording checked, but retrieved positive dictionary entry covers electrical charge rather than terminal marking. Keep pending supporting manufacturer reference; do not approve this item yet. FOLLOW-UP: Indexed Panasonic battery-terminal sheet identifies plus/positive and minus/negative. Specific terminal marking now corroborated, not merely dictionary electrical-charge meaning.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 17,
+      "prompt": "What does a mute control normally do to audio output?",
+      "action": "keep",
+      "note": "Mute audio output silences it, unlike speed change, echo or reversed playback. Output scope avoids microphone input mute ambiguity. Cambridge electronic sound-control sense inspected.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 18,
+      "prompt": "What does a mains-powered USB charger do to supply a phone?",
+      "action": "keep",
+      "note": "Replaced vague adaptor wording that could include plug-shape travel adaptors. USB mains charger converts mains AC to appropriate DC; reverse conversion, photo storage and increased battery capacity are false. Anker charger reference explicitly supports direction of conversion.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 19,
+      "prompt": "What is a key feature of a cordless appliance during normal use?",
+      "action": "keep",
+      "note": "Cordless during operation needs no connected power lead. False options require cables for power. Avoid asserting every cordless appliance necessarily uses a particular battery chemistry.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 20,
+      "prompt": "A countdown timer measures time in which direction?",
+      "action": "keep",
+      "note": "Countdown moves from a preset duration towards zero. Upward stopwatch, calendar and ordinary clock displays are different. Dedicated countdown definition inspected instead of assuming timer generic definition proves direction.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 21,
+      "prompt": "What is a stopwatch mainly used to measure?",
+      "action": "keep",
+      "note": "Stopwatch measures elapsed time. Pressure, voltage and north direction require other instruments. No claim about timing precision or all devices needing mechanical hands.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 22,
+      "prompt": "What is an alarm clock designed to do at a chosen time?",
+      "action": "keep",
+      "note": "Alarm preset-time alert is correct. Race duration, distance and pressure are other measurement tasks. Can signal audibly or otherwise; not restricted to ringing bells.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 23,
+      "prompt": "A digital clock commonly displays time in what form?",
+      "action": "keep",
+      "note": "Digital clock displays time as numbers; analogue hands, sundial shadows and hourglass sand are different representations. Cambridge digital numbers sense inspected, not fingers/computing senses alone.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 24,
+      "prompt": "What extra function does a chronograph watch provide?",
+      "action": "keep",
+      "note": "Chronograph watch provides stopwatch timing. Altimeter, compass and heart-rate monitor are not implied by chronograph, though combined models may add them. Removed repeated 'in every model' wording. Watch scope distinguishes unrelated chronograph speed-measurement devices.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 25,
+      "prompt": "What does a pedometer count?",
+      "action": "keep",
+      "note": "Pedometer counts steps, not heartbeats, rain or photos. Cambridge explicit step-counting definition. No assumption every step count is perfectly accurate.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 26,
+      "prompt": "Where is a smartwatch normally worn?",
+      "action": "keep",
+      "note": "Smartwatch normally worn at wrist; eyewear, footwear and lens positions are not normal watch placement. Definition identifies watch; no claim all wearable computers are wrist watches.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 27,
+      "prompt": "What is a fitness tracker principally designed to monitor?",
+      "action": "keep",
+      "note": "Fitness tracker principal purpose physical activity. Printer ink, knife sharpness and camera focus unrelated devices. Cambridge includes activity/step counts; heart monitoring does not make all trackers medical instruments.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 28,
+      "prompt": "What does a room thermostat help regulate?",
+      "action": "keep",
+      "note": "Thermostat regulates temperature by switching heating/cooling, not humidity, pressure or light. Room context avoids engine/system confusion while remaining true. Better same-domain alternatives.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 29,
+      "prompt": "Which device adds moisture to indoor air?",
+      "action": "keep",
+      "note": "Humidifier adds moisture. Dehumidifier removes it; fan circulates air; radiator supplies heat. Cambridge less-dry/add-water definitions support only one intended answer.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 30,
+      "prompt": "Which device removes excess moisture from indoor air?",
+      "action": "keep",
+      "note": "Dehumidifier removes moisture. Humidifier adds it; fan and thermostat do not have removal as intended purpose. Excess moisture wording allows ordinary indoor use without health claims.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 31,
+      "prompt": "What is an air filter designed to remove from the air?",
+      "action": "keep",
+      "note": "Replaced unsupported air-purifier source with inspected air-filter definition. Filter removes unwanted particles/harmful substances, not all oxygen/nitrogen/water. No claim perfect removal of every pollutant or health outcome.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 32,
+      "prompt": "What is an extractor fan mainly intended to do?",
+      "action": "keep",
+      "note": "Extractor fan removes enclosed-space air; temperature measurement, moisture addition and radiator-water heating are different functions. Cambridge dust/smell removal description supports extraction purpose. No claim it is identical to an air-purifying recirculator.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 33,
+      "prompt": "Which part of a typical electric fan moves the air?",
+      "action": "keep",
+      "note": "Rotating blades move air in ordinary electric fan; casing, label and lettering do not. Relevant electric fan dictionary sense inspected rather than sports supporter. Typical qualifier allows bladeless-design exceptions.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 34,
+      "prompt": "What job is a robot vacuum cleaner designed to do automatically?",
+      "action": "keep",
+      "note": "Robot vacuum floor cleaning, not ironing, dishwashing or laundry drying. iRobot indexed product text explicitly describes automatic vacuum/mop floor-clean sequence. This is indexed corroboration, not claimed full-page direct retrieval.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 35,
+      "prompt": "A robotic mop is primarily designed to clean which surfaces?",
+      "action": "keep",
+      "note": "iRobot describes robot mop for hard-surface floors; carpet pile, upholstered sofas and curtains are not its intended mopping surfaces. Narrowed generic floors to avoid carpet implication. Indexed manufacturer passage corroboration, not generic mop definition alone.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 36,
+      "prompt": "Which appliance is primarily designed to boil water for hot drinks?",
+      "action": "keep",
+      "note": "Electric kettle boils water for drinks. Grinder breaks beans; toaster browns bread; juicer extracts juice. Cambridge vessel-for-boiling-water sense checked, not police kettling sense.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 37,
+      "prompt": "Which appliance browns slices of bread using heat?",
+      "action": "keep",
+      "note": "Toaster browns bread by heat. Blender processes ingredients, fridge chills, processor chops. Dictionary 'making toast' plus ordinary toast meaning establishes one correct offered answer; no claim bread must be sliced in all possible uses.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 38,
+      "prompt": "Which appliance commonly uses fast-spinning blades to blend ingredients into a smoothie?",
+      "action": "keep",
+      "note": "Blender high-speed blades make smoothies. Toaster, kettle and slow cooker lack this food-blending function. Dedicated electrical kitchen-machine sense inspected, not professional blender of wine/perfume.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 39,
+      "prompt": "Which kitchen appliance extracts juice from fruit or vegetables?",
+      "action": "keep",
+      "note": "Juicer extracts fruit/vegetable juice. Grinder, toaster and whisk have other principal tasks. Cambridge explicit extraction definition, with no assertion every juicer handles every vegetable.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 40,
+      "prompt": "Which device breaks coffee beans into smaller particles before brewing?",
+      "action": "keep",
+      "note": "Coffee grinder crushes beans before brewing. Frother aerates milk; kettle boils water; toaster browns bread. Smaller particles allows coarse/fine grounds rather than requiring powder-fine output.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 41,
+      "prompt": "What is a milk frother designed to create?",
+      "action": "keep",
+      "note": "Milk frother creates milk foam. Ice, ground coffee and bread slices are distinct products; none describe aeration. Cambridge frothy-air-bubbles definition checked.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 42,
+      "prompt": "Which attachment is commonly used with an electric mixer to beat eggs or whip cream?",
+      "action": "keep",
+      "note": "Whisk beats eggs/whips cream; dough hook, slicing disc and mincer have different intended actions. Removed 'only' from dough-hook alternative. Kitchen noun/verb senses inspected, not rapid transport idiom.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 43,
+      "prompt": "A food processor is commonly used for which kitchen task?",
+      "action": "keep",
+      "note": "Food processor chops/processes ingredients. Dishwasher, freezer and kettle tasks do not define a food processor. Commonly qualifier accommodates additional processing functions and optional accessories.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 44,
+      "prompt": "How does a slow cooker generally cook food?",
+      "action": "keep",
+      "note": "Slow cooker low-temperature long-duration cooking supported explicitly by dictionary. Chilled water, open flame and unheated spinning are other/false processes. No specific unsafe temperature or cooking-time advice offered.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 45,
+      "prompt": "A pressure cooker normally cooks food at a pressure that is what, compared with the surrounding air?",
+      "action": "keep",
+      "note": "Pressure cooker operates above surrounding atmospheric pressure; lower, identical and zero are wrong under normal pressure-cooking operation. Added explicit comparison so raised pressure has a clear baseline. No claim sealing alone creates a vacuum.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 46,
+      "prompt": "What does an air fryer circulate to cook food?",
+      "action": "keep",
+      "note": "Air fryer circulates hot air, not microwaves, cold water or open gas flame. Definition explicitly hot air. Does not claim every recipe needs no oil or guarantees particular health results.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 47,
+      "prompt": "What is a kitchen appliance's defrost setting intended to do?",
+      "action": "keep",
+      "note": "Defrost thaws frozen food, not freezes, grinds or toasts. Appliance setting context removes windscreen defogging meaning. No food-storage or safe-thawing instructions implied.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 48,
+      "prompt": "Which appliance is designed to wash plates, cups and cutlery?",
+      "action": "keep",
+      "note": "Dishwasher washes plates/cups/cutlery. Dryer, processor and freezer main functions differ. Appliance qualifier avoids human dishwasher occupation. Dedicated machine definition inspected.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 49,
+      "prompt": "Which appliance washes clothes by moving them with water and detergent?",
+      "action": "keep",
+      "note": "Washing machine washes fabric using water/detergent and movement. Dryer/fridge/air purifier are other appliances. Cambridge clothes/cloth definition supports core task, no universal claim about all wash cycles needing detergent.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 50,
+      "prompt": "Which appliance dries laundry by tumbling it in a rotating drum?",
+      "action": "keep",
+      "note": "Tumble dryer dries laundry in rotating drum; dishwasher, freezer and processor do not. Definition explicitly dries wet clothes by turning in hot air. No claim every clothes dryer tumbles or uses identical heating technology.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 51,
+      "prompt": "What is a clothes iron mainly used to remove from fabric?",
+      "action": "keep",
+      "note": "Clothes iron removes creases using heated flat base; lint removal, stain removal and stitch repair require other actions. Cambridge clothes-appliance sense inspected rather than chemical element/golf club. Removed bizarre all-colour/fibre/button alternatives.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 52,
+      "prompt": "A garment steamer uses what to help relax creases in clothes?",
+      "action": "keep",
+      "note": "Garment steamer uses steam to relax creases; cold air, UV and static electricity not its intended crease-removal mechanism. Philips indexed product passage explicitly continuous steam removes creases; dictionary steamer entry was boat/cooking and insufficient. No universal fabric-safety claim imported from advertising.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 53,
+      "prompt": "Which grooming appliance uses a stream of air to dry wet hair?",
+      "action": "keep",
+      "note": "Hairdryer blows air to dry hair; clippers/shaver cut hair and fanless curling tong heats it. Dictionary explicitly electrical hot-air drying device. Question does not falsely require hot setting in every use.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 54,
+      "prompt": "What are electric hair clippers primarily used for?",
+      "action": "keep",
+      "note": "Electric hair clippers cut hair. Blow-drying, plate straightening and automatic dyeing are distinct functions. Clipper dictionary includes hair cutting; no claim all clippers are electrical or only for hair.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 55,
+      "prompt": "Hair straighteners commonly press hair between what?",
+      "action": "keep",
+      "note": "Hair straightener heated plates supported by ghd heat-sensor/plate description. Replaced silly saw/blowup alternatives with actual grooming mechanisms. Does not claim every hair-straightening method uses this appliance design or specific temperature is safe.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 56,
+      "prompt": "What is an electric shaver mainly designed to cut?",
+      "action": "keep",
+      "note": "Electric shaver cuts hair near skin. Philips product explicitly blades cut hair above skin; nail/cuticle/fabric tasks are different. Near-skin wording permits foil/rotary and above/below skin-level marketing variants without asserting blades touch skin.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 57,
+      "prompt": "Which appliance forms stitches to join pieces of fabric?",
+      "action": "keep",
+      "note": "Sewing machine forms stitches joining cloth. Iron, dryer and steamer do not sew. Cambridge needle-based machine definition inspected. Appliance label accommodates manual or electrical machines without claiming all are powered.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 58,
+      "prompt": "What does an electric blanket provide when switched on?",
+      "action": "keep",
+      "note": "Electric blanket provides heat. Air circulation, adding moisture and cooling are not ordinary electric blanket functions. Cambridge internal heating wires definition inspected. No safety/use guidance or universal material assumption.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 59,
+      "prompt": "What is a portable electric room heater designed to produce?",
+      "action": "keep",
+      "note": "Portable room heater produces heat. Cooling, humidification and air filtering are other main functions, even if combination appliances exist. Dedicated heating-device definition used, not baseball heater slang.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 60,
+      "prompt": "A reusable electric heating pad is mainly designed to provide what?",
+      "action": "keep",
+      "note": "Electric heating pad intended local warmth, not TENS stimulation, measurement or evaporative cooling. Revised distractors to actual personal-care mechanisms. Pending suitable manufacturer reference; existing guessed dictionary entry has no definition. Do not approve yet. FOLLOW-UP: Indexed Beurer intended-use paragraph explicitly applying heat to body for warmth/comfort. Supports local warmth, no pain-relief or treatment claim added.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 61,
+      "prompt": "Which audio device is normally worn over or on the ears for personal listening?",
+      "action": "keep",
+      "note": "Headphones normally on/over ears for listening. Soundbar, projector and webcam not worn as personal audio transducers. Definition supports ear coverage; no claim absolutely no sound leaks to bystanders.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 62,
+      "prompt": "What are earbuds?",
+      "action": "keep",
+      "note": "Earbuds small earphones at/in ear canal. Screens, camera supports and ink cartridges false. Near qualifier includes open-fit earbuds. Dedicated earbud definition inspected.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 63,
+      "prompt": "What is a loudspeaker designed to produce from an audio signal?",
+      "action": "keep",
+      "note": "Loudspeaker converts electrical audio signal into sound. Light, intentional heat output and photographs not its principal output. Definition explicitly electrical-signal-to-sound conversion. Heat can be a by-product, hence intended-output qualifier on heat alternative.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 64,
+      "prompt": "What is a soundbar?",
+      "action": "keep",
+      "note": "Soundbar long speaker unit usually used with TV. Lens, charging cable and memory card not soundbar. Dedicated definition explicitly speaker-containing horizontal bar, allows computer use through often qualifier.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 65,
+      "prompt": "A portable Bluetooth speaker receives audio from a compatible phone mainly through what?",
+      "action": "keep",
+      "note": "Bluetooth speaker uses short-range wireless audio; fibre/USB/analogue cable not Bluetooth transport. Revised silly alternatives to real audio connection types. Pending Bluetooth-specific supporting reference; guessed Bluetooth-speaker dictionary entry empty. Main wording does not deny optional wired inputs. FOLLOW-UP: Bluetooth SIG architecture explicitly wireless cable-replacement communications. Radio/wireless connection also confirmed by Cambridge Bluetooth entry. Removed short-range label because SIG range article explains variable range; no particular range claimed.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 66,
+      "prompt": "What is a pop filter placed in front of a recording microphone designed to reduce?",
+      "action": "keep",
+      "note": "Replaces exact Computers microphone-purpose duplicate. Shure recording guide explicitly plosive p/t popping reduced with pop filter; file size, word duration and every note's pitch unaffected as intended function. Accessory function described without claiming all background noise removed.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 67,
+      "prompt": "Which portable device is specifically designed to save spoken audio notes?",
+      "action": "keep",
+      "note": "Voice recorder specifically saves spoken audio, unlike pointer/frame/barcode scanner. Wording makes voice note purpose clear but does not claim exclusively speech. Pending actual recorder/audio definition; guessed voice-recorder dictionary entry empty. FOLLOW-UP: Sony support explicitly IC recorder records sound and pauses during silence, corroborating audio capture. Product identified as digital voice recorder. Voice notes is a use, not exclusive limitation; other three offered devices not specifically audio-note recorders.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 68,
+      "prompt": "What is a megaphone designed to help a person's voice do?",
+      "action": "keep",
+      "note": "Megaphone amplifies/project voice to distance. Does not inherently pitch-shift, translate or save recordings; combinations may exist but not defining feature. Cambridge cone-shaped voice amplification sense inspected. Removed surreal photo/page alternatives.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 69,
+      "prompt": "What is a walkie-talkie?",
+      "action": "keep",
+      "note": "Walkie-talkie portable two-way radio sends/receives messages. Photo frame, vacuum and scale other gadgets. Definition supports both transmission/reception without claim simultaneous full-duplex operation.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 70,
+      "prompt": "What is a baby monitor designed to help a carer do?",
+      "action": "keep",
+      "note": "Baby monitor lets carer hear/sometimes see baby in other room. Feed preparation, bath temperature and laundry separate devices. Cambridge explicit hear/sometimes see wording; not every model necessarily has video.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 71,
+      "prompt": "Which device enables an ordinary television to receive digital broadcasts?",
+      "action": "keep",
+      "note": "Replaces exact Computers projector duplicate. Proposed set-top box television receiver/decoder function, unlike game controller, soundbar or DVD writer. Pending dedicated set-top-box reference and semantic overlap recheck before approval; don't treat proposed replacement as verified yet. FOLLOW-UP: Retrieved dedicated definitions explicitly viewing digital broadcasts and cable/satellite programmes on TV. Revised stem specifically digital broadcasts so not any generic video source.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 72,
+      "prompt": "What does the central focusing wheel on many binoculars adjust?",
+      "action": "keep",
+      "note": "Focusing wheel changes apparent sharpness, not nominal magnification, actual subject distance or eyepiece separation. Generic binocular dictionary only magnification and tubes, insufficient proof of wheel function. Pending actual binocular operating instructions; retrieved Nikon camera-focus source is not claimed direct binocular support. FOLLOW-UP: Nikon central-focus binocular instructions explicitly rotate focusing ring until sharp image. Eyepiece spacing separately controlled by interpupillary adjustment, so all three alternative effects false. Specific binocular instructions replace inadequate camera-focus source.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 73,
+      "prompt": "Which camera support normally has three legs?",
+      "action": "keep",
+      "note": "Tripod three supporting legs; monopod, selfie stick and gimbal handle alone do not. Dedicated dictionary confirms three-legged support. Camera scope clear; no assertion every camera support needs three legs.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 74,
+      "prompt": "How many main supporting legs does a standard camera monopod have?",
+      "action": "keep",
+      "note": "Standard monopod one leg; two/three/four not its defining single-support form. Pending manufacturer definition because guessed dictionary entry empty. Some monopods add a small folding foot, so final wording may need 'main supporting leg' to avoid foot/leg ambiguity before approval. FOLLOW-UP: Manfrotto specifies Leg Type Single. Wording now main supporting leg to distinguish one shaft from folding feet on some other monopods. One correct offered number, no claim a multi-section shaft is several legs.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 75,
+      "prompt": "What does a selfie stick let a photographer do?",
+      "action": "keep",
+      "note": "Selfie stick holds phone/camera farther away for self-portrait; no change in sensor size, inherent instant printing or battery replacement. Dedicated definition explicitly distance allowing more subjects. Not assuming every stick includes remote shutter or motor.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 76,
+      "prompt": "What is a camera gimbal designed to help reduce?",
+      "action": "keep",
+      "note": "Camera gimbal helps stabilise camera orientation/reduce unwanted movement; not sensor pixels, memory storage or lens inventory. Cambridge rotating support keeping equipment in position supports mechanism. Does not promise elimination of all shake or motion.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 77,
+      "prompt": "What is a dashcam mainly used to record?",
+      "action": "keep",
+      "note": "Dashcam records vehicle road view. Reverse-only parking camera, pulse monitor and engine thermometer are other functions. Revised unrelated printer/space options; 'mainly' allows cabin and rear cameras in multi-camera dashcams.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 78,
+      "prompt": "Which type of camera is especially designed for recording activities while mounted on a helmet or equipment?",
+      "action": "keep",
+      "note": "Action camera intended mountable activity recording. Studio view camera, flatbed scanner and telescope not that camera type. Core fact plausible but guessed entry empty; pending actual manufacturer definition and global overlap check before approval. FOLLOW-UP: GoPro names action-camera mount and explicitly helmet/head mounting for point-of-view recording. Corroborates intended active mountable use. Other offered equipment not this portable action camera class.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 79,
+      "prompt": "What is a camcorder primarily designed to record?",
+      "action": "keep",
+      "note": "Replaces exact Computers webcam purpose duplicate. Proposed camcorder primary video recording; printed paper output, audio-only recording and temperature measurement not defining task. Pending camcorder definition; do not claim webcam source supports this replacement. Can record sound alongside video, hence audio-only wording. FOLLOW-UP: Retrieved dedicated definition small video camera records images/sound. Video answer correct; audio-only alternative explicitly excludes accompanying images. No reliance on obsolete videotape-only wording.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 80,
+      "prompt": "What does a camera flash supply when taking a photograph?",
+      "action": "keep",
+      "note": "Replaces exact Computers scanner purpose duplicate. Camera flash provides brief light burst; not film, ink or air. Pending photographic flash dictionary sense rather than assuming lightning/computing senses. Proposed fact clear but final source check required. FOLLOW-UP: Retrieved photographic flash sense explicitly bright light for brief time while taking photograph. Other flash meanings excluded. Confirms brief burst answer.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 81,
+      "prompt": "A traditional linear barcode on a product represents information using what?",
+      "action": "keep",
+      "note": "Replaces barcode-reader question that supplied its answer in the name. Linear barcode encodes information in bars/spaces; groove, braille dots and musical notes different systems. Linear qualifier avoids QR/matrix formats. Pending actual GS1 passage before approval. FOLLOW-UP: GS1 glossary explicitly linear barcode uses bars/spaces in one dimension. Traditional linear qualifier excludes 2D matrices. Groove/dots/music do not encode the offered linear bar pattern.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 82,
+      "prompt": "Which device can display a changing selection of photographs on its own screen while sitting on a shelf?",
+      "action": "keep",
+      "note": "Digital photo frame displays changing photos on screen. Scanner digitises, printer makes prints, hard drive stores rather than displays on its own screen. Pending manufacturer/device-specific definition because guessed dictionary empty. FOLLOW-UP: Aura support explicitly photos displayed on frame as slideshow. Corroborates changing selection, not merely storage. Scanner/printer/hard drive not standalone screen-photo display as described. No claim every frame requires cloud subscription.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 83,
+      "prompt": "What are wire strippers designed to remove from an electrical wire?",
+      "action": "keep",
+      "note": "Replaces exact Science temperature/thermometer duplicate. Wire stripper removes insulation, not all conductor, plug pins or metal colour. Pending actual tool definition/manufacturer; no electrical-use instructions given. FOLLOW-UP: Knipex explicitly strippers cut cable insulation without damaging conductor/strands. Correct target insulating covering; not conductor/plug pins/metal colour. No live-wire operating advice included.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 84,
+      "prompt": "What are digital calipers commonly used to measure?",
+      "action": "keep",
+      "note": "Digital calipers measure dimensions; radio signal, step counts and battery charge other instruments. Dictionary calipers measuring widths/distances inspected, orthopaedic supports sense excluded. Pending digital caliper product reference because dictionary describes hinged form, not modern sliding electronic variant. FOLLOW-UP: Mitutoyo calibration description specifically digital 0-150mm caliper and outside measuring faces. Supports dimensions, not radio strength/step count/charge. Dedicated digital instrument corroboration replaces generic hinged-caliper assumption.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 85,
+      "prompt": "An electronic weighing balance is designed to measure what?",
+      "action": "keep",
+      "note": "Electronic balance reports mass in ordinary calibrated use; direction, resolution and frequency unrelated. Dictionary retrieved mechanical two-pan balance, not electronic device. Pending manufacturer reference; do not treat mechanical definition as verification of electronic mechanism. No assertion balance is independent of gravity calibration. FOLLOW-UP: NIST paper explicitly electronic balance for direct mass measurements, including built-in standard calibration. Confirms mass, not compass direction/resolution/frequency. Does not mistake mass for force or claim calibration unnecessary.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 86,
+      "prompt": "Which instrument can commonly measure voltage, current and resistance?",
+      "action": "keep",
+      "note": "Multimeter commonly measures voltage/current/resistance, not pedometer steps, barometer pressure or anemometer wind. Dedicated electronic-device dictionary explicitly lists all three. No hazardous electrical testing instructions included.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 87,
+      "prompt": "What is a metal detector designed to locate?",
+      "action": "keep",
+      "note": "Metal detector locates metal. Pressure, heat patterns and smoke detectors use other sensing tasks. Dedicated definition supports metal detection; no guarantee every metal object at any depth detectable. Replaced irrelevant stars/text/audio alternatives.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 88,
+      "prompt": "What is a smoke alarm designed to warn about?",
+      "action": "keep",
+      "note": "Smoke alarm warns of smoke/possible fire, not carbon dioxide, humidity alone or leakwater. Definition explicitly possible-fire warning, allows false alarms. Single-purpose wording does not deny combination alarm products. Not an installation or safety recommendation.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 89,
+      "prompt": "Which household alarm is specifically designed to detect the poisonous gas CO?",
+      "action": "keep",
+      "note": "Original CO-alarm/gas stem repeated correct answer directly. Revised gas formula asks to identify correct alarm, distinguish smoke, heat and leak alarms. Pending fire-service reference for CO identity/purpose; guessed dictionary empty. Combination alarms do not make generic smoke alarm alone an equivalent offered answer. FOLLOW-UP: London Fire Brigade explicitly carbon monoxide (CO), poisonous fumes, and dedicated CO alarm. Supports gas identity and matching detector. Smoke/heat/leak alarm labels alone do not specify CO detection; no outdated legal/installation guidance imported.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 90,
+      "prompt": "What does a laser pointer project to indicate something at a distance?",
+      "action": "keep",
+      "note": "Pointer projects light spot; not paper, physical arrow or ink. Dedicated dictionary light beam pointing sense inspected. No use instructions or claim laser pointers safe to look into.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 91,
+      "prompt": "What is an electronic rangefinder designed to measure?",
+      "action": "keep",
+      "note": "Rangefinder measures target distance, not temperature, chemistry or mass. Definition explicitly distance to photographic/shooting target. Electronic qualifier does not assert particular laser/radio/optical implementation.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 92,
+      "prompt": "A home weather station usually monitors what?",
+      "action": "keep",
+      "note": "Home weather station monitors local weather, not trains, appliance power or radio transmitter count. Retrieved dictionary defines building/site, insufficient support for gadget version. Pending consumer weather-station manufacturer reference; no claim forecasts are always correct. FOLLOW-UP: Netatmo consumer weather station lists temperature, humidity, atmospheric pressure and weather-module readings. Supports local weather conditions rather than trains/power usage/transmitter census. Device reference replaces building-only dictionary sense.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 93,
+      "prompt": "What does a photographer use a light meter to measure?",
+      "action": "keep",
+      "note": "Replaces exact Science anemometer/wind-speed duplicate. Light meter measures light, not target distance, camera weight or lens temperature. Pending photographic instrument reference and overlap recheck before approval; guessed new dictionary URL not yet fetched. FOLLOW-UP: Retrieved explicit device measuring amount of light especially photography. Confirms intended quantity, not distance/mass/temperature.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 94,
+      "prompt": "What can trigger a smart light fitted with a motion sensor?",
+      "action": "keep",
+      "note": "Motion-sensor security light can be triggered by movement. Software update/password change/phone call alone do not describe sensor stimulus. Pending actual security-light sensor manufacturer reference; empty motion-detector dictionary entry not support. Can rather than always avoids guaranteed operation irrespective of light/day settings. FOLLOW-UP: Philips Hue explicitly lights react automatically to movement/entering a room. Can trigger wording allows daylight/time configuration; password change/software update/phone call alone not motion-sensor stimulus. Revised smart-light wording avoids unsupported security-specific claim.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 95,
+      "prompt": "A video doorbell adds which feature to a traditional ringing doorbell?",
+      "action": "keep",
+      "note": "Video doorbell adds camera/visitor viewing rather than gas meter, laundry timer or oven thermostat. Generic doorbell definition only establishes conventional bell; pending actual video-doorbell source before approval. Removed unrelated coffee/sewing alternatives. FOLLOW-UP: Ring product explicitly video doorbell camera lets user see/hear/speak to visitors. Camera correct, not gas meter/laundry timer/oven thermostat. General camera-view feature rather than subscription-specific recording retention.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 96,
+      "prompt": "What is a virtual-reality headset designed to present?",
+      "action": "keep",
+      "note": "VR presents immersive computer-created environment; physical map, audio-only radio and unmodified binocular optics not VR. Dedicated virtual-reality dictionary images/sounds simulated place inspected. No claim every VR experience must imitate a real location.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 97,
+      "prompt": "What does augmented reality add to a view of the real world?",
+      "action": "keep",
+      "note": "AR overlays computer-generated information/images on real view. Physical paint, unchanged reflection and audio-only ordinary broadcast not AR imagery. Dedicated dictionary explicitly computer-produced images with real-world view. No claim permanent physical object transformation.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 98,
+      "prompt": "What is a gamepad mainly used to control?",
+      "action": "keep",
+      "note": "Gamepad handheld buttons control video game, unlike boiler/fridge/printer systems as principal purpose. Dedicated gamepad definition inspected. Mainly accommodates accessibility/custom remote-control uses without pretending every possible repurposing impossible.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 99,
+      "prompt": "What is a joystick?",
+      "action": "keep",
+      "note": "Joystick movable control lever. Battery, flat lens filter and speaker cable not levers. Relevant machine/game sense inspected; no false restriction only aircraft or only one axis.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    },
+    {
+      "row": 100,
+      "prompt": "What does an audio volume control adjust?",
+      "action": "keep",
+      "note": "Audio volume adjusts loudness, not screen colour, file count or plug shape. Dedicated sound-level/control sense inspected beyond geometry/book/trade meanings. Distinct technical control from Music dynamics notation; does not conflate volume with pitch.",
+      "sourceReview": "Explicit author final check of meaning, all four options, sole correct offered answer, grammar and Gadgets relevance. Applicable dictionary sense or indexed official manufacturer/standards reference individually inspected. Not independent review."
+    }
+  ]
+}

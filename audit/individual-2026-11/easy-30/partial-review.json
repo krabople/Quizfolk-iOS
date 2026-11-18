@@ -1,0 +1,625 @@
+{
+  "independent": false,
+  "status": "PARTIAL_ONLY_NOT_PUBLICATION_APPROVAL",
+  "checkedRows": 100,
+  "pendingReferenceRows": [
+    67,
+    72,
+    74,
+    78,
+    81,
+    82,
+    83,
+    84,
+    85,
+    89,
+    92,
+    94,
+    95
+  ],
+  "notYetCheckedRows": [],
+  "rows": [
+    {
+      "row": 1,
+      "note": "Portable stored-charge supply identifies a power bank; mouse, webcam and barcode scanner have other main functions. Cambridge explicitly supports portable recharging away from electricity. No claim that a power bank creates energy.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "1c11d11b9ffb80a8e20d7b58e0cb97c02ebbaab5ed33fdeeb43d0081d704202c"
+    },
+    {
+      "row": 2,
+      "note": "Stylus touchscreen writing/drawing sense inspected, distinct from phonograph stylus sense. Cooling, charging and amplification do not describe the tablet stylus. Grammar and tablet context clear.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "3713ef0638b76daf1a16661a14b6ea119ff337bccbe9bd3f6cf38991e5562f31"
+    },
+    {
+      "row": 3,
+      "note": "Touching the display defines touchscreen input. Revised alternatives to real input methods rather than rotating a battery. Voice/dial/mouse alone do not define direct touch control.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "73982b97246430dded82738bf7867b5e7c1cf4d3031a1f82c6d891ca8034bce6"
+    },
+    {
+      "row": 4,
+      "note": "Haptic means relating to touch, not smell, taste or hearing. Vibration can make noise but sensory target remains touch. Specific controller/phone context removes other meanings.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "cff5debd91c88ec1e5f9503be109ae679fea252aba9121868c68463b09265690"
+    },
+    {
+      "row": 5,
+      "note": "Replaced broad all-wireless-radios claim: Apple's guide permits Wi-Fi and Bluetooth and retains settings. Cellular disconnection is the intended usual behaviour; wired audio, USB charging and wired microphones are unaffected as connections. Normally avoids treating every unusual device state as universal.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "247862d08f9c1ab65a1ad524832e3d11eed26263c25588baedbbba5a67ce5cc4"
+    },
+    {
+      "row": 6,
+      "note": "Scoped to iPhone; Apple explicitly identifies LED flash as its flashlight. Microphone, motor and speaker are separate components. No unsupported claim about every phone model.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "cfc57f286ee1c11b2a5b33641864cbcfc61a3c719a1741edc8333014c74754c4"
+    },
+    {
+      "row": 7,
+      "note": "PIN is personal identification number. All alternatives are invented expansions, none standard in device-unlocking context. Cambridge abbreviation sense inspected beyond pin fastener/chess senses.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "94c7b25028d6745c954e6529eee92d5287473450d1476ea95581f4e4058b4052"
+    },
+    {
+      "row": 8,
+      "note": "Brightness adjusts emitted light. New alternatives are distinct settings: text size, screen timeout and volume. No confusion with resolution or automatically changing ambient light.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "5b9caad4b89122cfb6c4a786e855447f1626239f35c33a12633ab4ab152b92e9"
+    },
+    {
+      "row": 9,
+      "note": "Replaces exact Computers screenshot duplicate. Belkin describes a fitted protective layer reducing scratches; not guaranteed unbreakability. Lens cap, stand and mount do not cover the phone display for this purpose.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "22baef6ff15665de0b9fd36c963c1f95c3b45745a45adceea2203b687deb5573"
+    },
+    {
+      "row": 10,
+      "note": "Replaces repeated landscape-orientation fact. Apple guide explicitly says lock prevents orientation changing as phone turns; brightness, camera lens and volume controls are separate. iPhone scope avoids device-specific naming generalisation.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "4621378921fed66eee8b4b3cdfd7a72a0c011fe988b9375603eec96a78b9c57a"
+    },
+    {
+      "row": 11,
+      "note": "Portrait view is taller than wide. Rectangular conventional phone screen context; square and tapered alternatives are false. Distinct from row10 rotation-lock function, though introductory same subject area.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "6c1c320bb6c1452ac19cb01e4eafbbcb458b8b82a3c845d491c1f8cca0046575"
+    },
+    {
+      "row": 12,
+      "note": "Scoped to Apple's iPhone selfie instructions to avoid claiming rear cameras can never take selfies. Front camera recommended; neither specific rear lens nor external security camera matches that recommendation. Correct camera possessive/wording.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "f14cfb8719618ffaa69c436457aa1a5736028109ee9f83db46427df5507e0ee5"
+    },
+    {
+      "row": 13,
+      "note": "Apple battery-level icon reflects remaining charge, not radio signal, storage or brightness. Level qualifier distinguishes charging-status lightning symbol. Revised source supports actual icon, not generic battery definition alone.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "4b0a2b46e3536d0fa6be35c10672ae296bb8ddd63d88321a2f17326d1aec6865"
+    },
+    {
+      "row": 14,
+      "note": "Manufacturer explicitly expands mAh as milliampere-hour and distinguishes charge capacity from usable energy. Megawatt-hour, millivolt and megahertz are genuine other units. No claim mAh itself equals energy or power.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "b35e9b63f8e24eca3a9eb3ac028c11f648af449734150cbbaa37ff7fb15d4b22"
+    },
+    {
+      "row": 15,
+      "note": "Rechargeable means charge can be replenished. Revised false claims are impossible perpetual supply, automatic doubling or no ageing. Reusability does not imply infinite service life.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "c82189b69b7a48aa043df48dd0f3c33b62977ece9f6d52a5aa1f03f114106639"
+    },
+    {
+      "row": 16,
+      "note": "Plus marks positive terminal, negative minus, neutral and earth do not. Fact and wording checked, but retrieved positive dictionary entry covers electrical charge rather than terminal marking. Keep pending supporting manufacturer reference; do not approve this item yet. FOLLOW-UP: Indexed Panasonic battery-terminal sheet identifies plus/positive and minus/negative. Specific terminal marking now corroborated, not merely dictionary electrical-charge meaning.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "13c0404ebc63c6f170db93bf70e4a06abd225db82beead8c2673338511606e4d"
+    },
+    {
+      "row": 17,
+      "note": "Mute audio output silences it, unlike speed change, echo or reversed playback. Output scope avoids microphone input mute ambiguity. Cambridge electronic sound-control sense inspected.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "7e7c3c992f997f8f2e230bee8e6e1111dc0d598186d02e124c93c5f742dc234c"
+    },
+    {
+      "row": 18,
+      "note": "Replaced vague adaptor wording that could include plug-shape travel adaptors. USB mains charger converts mains AC to appropriate DC; reverse conversion, photo storage and increased battery capacity are false. Anker charger reference explicitly supports direction of conversion.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "e4ed76cd3e36f553264b5d01250180a13a44c73ed8c3df39a9bb5d529d3f5d3f"
+    },
+    {
+      "row": 19,
+      "note": "Cordless during operation needs no connected power lead. False options require cables for power. Avoid asserting every cordless appliance necessarily uses a particular battery chemistry.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "f8d617231f053d122dd49a45fee7820ac906e8210fb27534fa4de959a0963f7c"
+    },
+    {
+      "row": 20,
+      "note": "Countdown moves from a preset duration towards zero. Upward stopwatch, calendar and ordinary clock displays are different. Dedicated countdown definition inspected instead of assuming timer generic definition proves direction.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "06a8f348504ccccf4ce0d31447490d2d88f3b54077227c3f704e44e4d88e7253"
+    },
+    {
+      "row": 21,
+      "note": "Stopwatch measures elapsed time. Pressure, voltage and north direction require other instruments. No claim about timing precision or all devices needing mechanical hands.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "dac41a0544d09cee118012de8e796851219788d8bcaab82dddf66a7ac237c866"
+    },
+    {
+      "row": 22,
+      "note": "Alarm preset-time alert is correct. Race duration, distance and pressure are other measurement tasks. Can signal audibly or otherwise; not restricted to ringing bells.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "a7742cafc190fa5d52e89fc2c9c90e50f63559f9eaf21302396472b84c9569d0"
+    },
+    {
+      "row": 23,
+      "note": "Digital clock displays time as numbers; analogue hands, sundial shadows and hourglass sand are different representations. Cambridge digital numbers sense inspected, not fingers/computing senses alone.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "b8b9df75f7ec47c8efbcd04082c7fdb6cf896a619e5dd5b6037d21e263e33ea1"
+    },
+    {
+      "row": 24,
+      "note": "Chronograph watch provides stopwatch timing. Altimeter, compass and heart-rate monitor are not implied by chronograph, though combined models may add them. Removed repeated 'in every model' wording. Watch scope distinguishes unrelated chronograph speed-measurement devices.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "8076221e72416f0b5392310d0961ec65607582a770a213c3118e5718d37e859e"
+    },
+    {
+      "row": 25,
+      "note": "Pedometer counts steps, not heartbeats, rain or photos. Cambridge explicit step-counting definition. No assumption every step count is perfectly accurate.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "76bbb97b2c138a147c9801b6fdb99e90bea31f8a3780ab033954625f5f0e7c2f"
+    },
+    {
+      "row": 26,
+      "note": "Smartwatch normally worn at wrist; eyewear, footwear and lens positions are not normal watch placement. Definition identifies watch; no claim all wearable computers are wrist watches.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "11c8b80bcc86cc6ee64445cf0db64fa6c51b1ee3a5c521213119d0c8f29efcc8"
+    },
+    {
+      "row": 27,
+      "note": "Fitness tracker principal purpose physical activity. Printer ink, knife sharpness and camera focus unrelated devices. Cambridge includes activity/step counts; heart monitoring does not make all trackers medical instruments.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "f3536a5991f8c680ef1927045f60406d6c1e1129a3571a86d23f6b42d58dcf07"
+    },
+    {
+      "row": 28,
+      "note": "Thermostat regulates temperature by switching heating/cooling, not humidity, pressure or light. Room context avoids engine/system confusion while remaining true. Better same-domain alternatives.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "5b14329b2231ebded43c5467aa7f62218224f2143e02f22f01ae568b103d1ed5"
+    },
+    {
+      "row": 29,
+      "note": "Humidifier adds moisture. Dehumidifier removes it; fan circulates air; radiator supplies heat. Cambridge less-dry/add-water definitions support only one intended answer.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "1a23a9f80655365c34a5fec9f4a52dabb4f3046c820d66bc662a2de47150b95b"
+    },
+    {
+      "row": 30,
+      "note": "Dehumidifier removes moisture. Humidifier adds it; fan and thermostat do not have removal as intended purpose. Excess moisture wording allows ordinary indoor use without health claims.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "f6ba5c05d98c966dd7eaf1cc22b13c75cc95c06351833259056e5acf3f327892"
+    },
+    {
+      "row": 31,
+      "note": "Replaced unsupported air-purifier source with inspected air-filter definition. Filter removes unwanted particles/harmful substances, not all oxygen/nitrogen/water. No claim perfect removal of every pollutant or health outcome.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "aa42598017274ffc3d633e61d0d2dcb0a811029f83566a10b77195c79442c56c"
+    },
+    {
+      "row": 32,
+      "note": "Extractor fan removes enclosed-space air; temperature measurement, moisture addition and radiator-water heating are different functions. Cambridge dust/smell removal description supports extraction purpose. No claim it is identical to an air-purifying recirculator.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "5312f6004ff6e84e9e4ca8bfb72f38f7d95c2e7608c54e676887a955ceec8c41"
+    },
+    {
+      "row": 33,
+      "note": "Rotating blades move air in ordinary electric fan; casing, label and lettering do not. Relevant electric fan dictionary sense inspected rather than sports supporter. Typical qualifier allows bladeless-design exceptions.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "5ac066777e1cafbe5a236950a069877449dd305a9f2ac94a1436934333eea400"
+    },
+    {
+      "row": 34,
+      "note": "Robot vacuum floor cleaning, not ironing, dishwashing or laundry drying. iRobot indexed product text explicitly describes automatic vacuum/mop floor-clean sequence. This is indexed corroboration, not claimed full-page direct retrieval.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "c1879cd4acfbde3abf7a3ada86a561de70fbfa8c7779e7cd343cee2807053bfa"
+    },
+    {
+      "row": 35,
+      "note": "iRobot describes robot mop for hard-surface floors; carpet pile, upholstered sofas and curtains are not its intended mopping surfaces. Narrowed generic floors to avoid carpet implication. Indexed manufacturer passage corroboration, not generic mop definition alone.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "6ec9c15bad8752c6b8fbf40ed15957a3c4ed43503c2b4db126bafb134c25be83"
+    },
+    {
+      "row": 36,
+      "note": "Electric kettle boils water for drinks. Grinder breaks beans; toaster browns bread; juicer extracts juice. Cambridge vessel-for-boiling-water sense checked, not police kettling sense.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "389652d04fb56b4072927507adfc4cb2b0bfdc123a1752a8f1cf925926b4c7aa"
+    },
+    {
+      "row": 37,
+      "note": "Toaster browns bread by heat. Blender processes ingredients, fridge chills, processor chops. Dictionary 'making toast' plus ordinary toast meaning establishes one correct offered answer; no claim bread must be sliced in all possible uses.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "bdaaeac67c64765600281a0e300de632219c7f87457c371705a31103c9cf3d73"
+    },
+    {
+      "row": 38,
+      "note": "Blender high-speed blades make smoothies. Toaster, kettle and slow cooker lack this food-blending function. Dedicated electrical kitchen-machine sense inspected, not professional blender of wine/perfume.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "458342b17fd67f05fb6132c592a95f228c6404d5ac54cf0ae6ee64372105d70b"
+    },
+    {
+      "row": 39,
+      "note": "Juicer extracts fruit/vegetable juice. Grinder, toaster and whisk have other principal tasks. Cambridge explicit extraction definition, with no assertion every juicer handles every vegetable.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "8abd57af5a0e97ce02f37df6411f19c2808bd56e2ff90486fe3c14a887a0dccc"
+    },
+    {
+      "row": 40,
+      "note": "Coffee grinder crushes beans before brewing. Frother aerates milk; kettle boils water; toaster browns bread. Smaller particles allows coarse/fine grounds rather than requiring powder-fine output.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "caf8ebe2b71cee5ad248c4ddc71beae790dd16397ff8f9ebe5025229d1f693eb"
+    },
+    {
+      "row": 41,
+      "note": "Milk frother creates milk foam. Ice, ground coffee and bread slices are distinct products; none describe aeration. Cambridge frothy-air-bubbles definition checked.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "ace7023557dd720c78c791e325988c763f42ff27c4617562a66b4381069af08f"
+    },
+    {
+      "row": 42,
+      "note": "Whisk beats eggs/whips cream; dough hook, slicing disc and mincer have different intended actions. Removed 'only' from dough-hook alternative. Kitchen noun/verb senses inspected, not rapid transport idiom.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "fa2a96bf02d2a8a37cf0a56d1bef8467cc5219e2c057b1365680b238792a6f84"
+    },
+    {
+      "row": 43,
+      "note": "Food processor chops/processes ingredients. Dishwasher, freezer and kettle tasks do not define a food processor. Commonly qualifier accommodates additional processing functions and optional accessories.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "ac9b25165cc80de4e440f1a2395bc51b5b35845ab852a19dbd60ec813b8735a9"
+    },
+    {
+      "row": 44,
+      "note": "Slow cooker low-temperature long-duration cooking supported explicitly by dictionary. Chilled water, open flame and unheated spinning are other/false processes. No specific unsafe temperature or cooking-time advice offered.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "aa3d7dc7df29f5a20c1b9c0f02cfeae7a9806a5317ac46bf6c5a4831edcc51ed"
+    },
+    {
+      "row": 45,
+      "note": "Pressure cooker operates above surrounding atmospheric pressure; lower, identical and zero are wrong under normal pressure-cooking operation. Added explicit comparison so raised pressure has a clear baseline. No claim sealing alone creates a vacuum.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "2fa9b8fe61477c7902ab77c1d153c864000dd4ad6055a32de0d5139418f1e2c4"
+    },
+    {
+      "row": 46,
+      "note": "Air fryer circulates hot air, not microwaves, cold water or open gas flame. Definition explicitly hot air. Does not claim every recipe needs no oil or guarantees particular health results.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "e1e3db83c65395109d7eafe7d2095089fcf2dbc45b291fe2a036994ff4d4ce27"
+    },
+    {
+      "row": 47,
+      "note": "Defrost thaws frozen food, not freezes, grinds or toasts. Appliance setting context removes windscreen defogging meaning. No food-storage or safe-thawing instructions implied.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "5749d4b49224142810580f2532bbf280030d46aec4b5109e8e4755dc968b50fa"
+    },
+    {
+      "row": 48,
+      "note": "Dishwasher washes plates/cups/cutlery. Dryer, processor and freezer main functions differ. Appliance qualifier avoids human dishwasher occupation. Dedicated machine definition inspected.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "2d186dc60f274fb38a0f7da6d925c3d8db69123723af2a7fa24b1c2c4b2b90f3"
+    },
+    {
+      "row": 49,
+      "note": "Washing machine washes fabric using water/detergent and movement. Dryer/fridge/air purifier are other appliances. Cambridge clothes/cloth definition supports core task, no universal claim about all wash cycles needing detergent.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "f0b6cc613480c8c0d62e2132e21b105809426293cfbafb1766271c453a748f4a"
+    },
+    {
+      "row": 50,
+      "note": "Tumble dryer dries laundry in rotating drum; dishwasher, freezer and processor do not. Definition explicitly dries wet clothes by turning in hot air. No claim every clothes dryer tumbles or uses identical heating technology.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "7afebcd6139a6500475186eb946d574e3929870082806a85332887b9f65b6f46"
+    },
+    {
+      "row": 51,
+      "note": "Clothes iron removes creases using heated flat base; lint removal, stain removal and stitch repair require other actions. Cambridge clothes-appliance sense inspected rather than chemical element/golf club. Removed bizarre all-colour/fibre/button alternatives.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "4ca842c0910ca15b90942306938e2c781027987c6b13fac48fa881912939cdbd"
+    },
+    {
+      "row": 52,
+      "note": "Garment steamer uses steam to relax creases; cold air, UV and static electricity not its intended crease-removal mechanism. Philips indexed product passage explicitly continuous steam removes creases; dictionary steamer entry was boat/cooking and insufficient. No universal fabric-safety claim imported from advertising.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "9236ca3a0427763c2a361d017779e9fae2080e5abe853121084432f57cd1b966"
+    },
+    {
+      "row": 53,
+      "note": "Hairdryer blows air to dry hair; clippers/shaver cut hair and fanless curling tong heats it. Dictionary explicitly electrical hot-air drying device. Question does not falsely require hot setting in every use.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "17932f205b7cc8678f28a74cfeba869cf89f781b6a7e52d3327b3760d9939c35"
+    },
+    {
+      "row": 54,
+      "note": "Electric hair clippers cut hair. Blow-drying, plate straightening and automatic dyeing are distinct functions. Clipper dictionary includes hair cutting; no claim all clippers are electrical or only for hair.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "081d38012a5e1a2695a069c97f5120c4f03368f13ca781979987ced4f99c7f12"
+    },
+    {
+      "row": 55,
+      "note": "Hair straightener heated plates supported by ghd heat-sensor/plate description. Replaced silly saw/blowup alternatives with actual grooming mechanisms. Does not claim every hair-straightening method uses this appliance design or specific temperature is safe.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "915c1cde26565f99775097134dd2740277ed9b091c06a059c062baf48bcb8cef"
+    },
+    {
+      "row": 56,
+      "note": "Electric shaver cuts hair near skin. Philips product explicitly blades cut hair above skin; nail/cuticle/fabric tasks are different. Near-skin wording permits foil/rotary and above/below skin-level marketing variants without asserting blades touch skin.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "7129de5ad56c42cc33ec94d38c2a575dfff0586fe115505f1ef0e0380052b4bf"
+    },
+    {
+      "row": 57,
+      "note": "Sewing machine forms stitches joining cloth. Iron, dryer and steamer do not sew. Cambridge needle-based machine definition inspected. Appliance label accommodates manual or electrical machines without claiming all are powered.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "6e73b66d3f3d5ea11cbc051e0364bd30016f77bcb401afde44cae52a6f8e147c"
+    },
+    {
+      "row": 58,
+      "note": "Electric blanket provides heat. Air circulation, adding moisture and cooling are not ordinary electric blanket functions. Cambridge internal heating wires definition inspected. No safety/use guidance or universal material assumption.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "c246939658ab0176eb172a63edd896dd9f3f8504934956570e8596fd1aa2f55a"
+    },
+    {
+      "row": 59,
+      "note": "Portable room heater produces heat. Cooling, humidification and air filtering are other main functions, even if combination appliances exist. Dedicated heating-device definition used, not baseball heater slang.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "9c869fa167d15ad70182c69c9de943c386acdc1a71125b20a143c6e5caa52bf5"
+    },
+    {
+      "row": 60,
+      "note": "Electric heating pad intended local warmth, not TENS stimulation, measurement or evaporative cooling. Revised distractors to actual personal-care mechanisms. Pending suitable manufacturer reference; existing guessed dictionary entry has no definition. Do not approve yet. FOLLOW-UP: Indexed Beurer intended-use paragraph explicitly applying heat to body for warmth/comfort. Supports local warmth, no pain-relief or treatment claim added.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "10d2f2954a7f6244b386fc36e3ffe4293e68444c4cc543f8f8eac75522dfcb6c"
+    },
+    {
+      "row": 61,
+      "note": "Headphones normally on/over ears for listening. Soundbar, projector and webcam not worn as personal audio transducers. Definition supports ear coverage; no claim absolutely no sound leaks to bystanders.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "d9bf4151bf9b7a4dcac8a21dabe72c0c7e918c17b8d6587d762f5b2c3d8e705c"
+    },
+    {
+      "row": 62,
+      "note": "Earbuds small earphones at/in ear canal. Screens, camera supports and ink cartridges false. Near qualifier includes open-fit earbuds. Dedicated earbud definition inspected.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "b314630b4ed4463ee91ef327ffeb0ff1f23c11ff82ea4b64f2ad80216de53a7c"
+    },
+    {
+      "row": 63,
+      "note": "Loudspeaker converts electrical audio signal into sound. Light, intentional heat output and photographs not its principal output. Definition explicitly electrical-signal-to-sound conversion. Heat can be a by-product, hence intended-output qualifier on heat alternative.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "1687ba0a44145e597bfc84d90c345ecd8f8d898f18882c30b0f087be5d69d3a6"
+    },
+    {
+      "row": 64,
+      "note": "Soundbar long speaker unit usually used with TV. Lens, charging cable and memory card not soundbar. Dedicated definition explicitly speaker-containing horizontal bar, allows computer use through often qualifier.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "bec7b0fe671d70745457564fadc7438b4022de2dc5f5ffeed7d0885b19a6b6d4"
+    },
+    {
+      "row": 65,
+      "note": "Bluetooth speaker uses short-range wireless audio; fibre/USB/analogue cable not Bluetooth transport. Revised silly alternatives to real audio connection types. Pending Bluetooth-specific supporting reference; guessed Bluetooth-speaker dictionary entry empty. Main wording does not deny optional wired inputs. FOLLOW-UP: Bluetooth SIG architecture explicitly wireless cable-replacement communications. Radio/wireless connection also confirmed by Cambridge Bluetooth entry. Removed short-range label because SIG range article explains variable range; no particular range claimed.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "4dd06759a275f5843802d672c5dfc18e9a32fd5555e82cc8d2275e8967e612e7"
+    },
+    {
+      "row": 66,
+      "note": "Replaces exact Computers microphone-purpose duplicate. Shure recording guide explicitly plosive p/t popping reduced with pop filter; file size, word duration and every note's pitch unaffected as intended function. Accessory function described without claiming all background noise removed.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "da809c4f3cdfe8be824911f37fec040a8fa36462aa479e72a3c748a03e531aa3"
+    },
+    {
+      "row": 67,
+      "note": "Voice recorder specifically saves spoken audio, unlike pointer/frame/barcode scanner. Wording makes voice note purpose clear but does not claim exclusively speech. Pending actual recorder/audio definition; guessed voice-recorder dictionary entry empty.",
+      "status": "pending_specific_reference",
+      "fingerprint": "c9de2536cfe39ecfd075d208cee954482cb73e8a5175c200ec17932f35b5a75d"
+    },
+    {
+      "row": 68,
+      "note": "Megaphone amplifies/project voice to distance. Does not inherently pitch-shift, translate or save recordings; combinations may exist but not defining feature. Cambridge cone-shaped voice amplification sense inspected. Removed surreal photo/page alternatives.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "9ad700bb12f6a04c9eedeea0d534014829e83241e8ad141c1e0ab042b201b7ce"
+    },
+    {
+      "row": 69,
+      "note": "Walkie-talkie portable two-way radio sends/receives messages. Photo frame, vacuum and scale other gadgets. Definition supports both transmission/reception without claim simultaneous full-duplex operation.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "77d11bd42968d3ea45aea61ef2405545604412f24dc443eb88a3a86e3e80bdc7"
+    },
+    {
+      "row": 70,
+      "note": "Baby monitor lets carer hear/sometimes see baby in other room. Feed preparation, bath temperature and laundry separate devices. Cambridge explicit hear/sometimes see wording; not every model necessarily has video.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "6c31b0eb104196eff0d9d1918ea148fc1b9fff853b3281e9e9a6ecc40e1bbdb3"
+    },
+    {
+      "row": 71,
+      "note": "Replaces exact Computers projector duplicate. Proposed set-top box television receiver/decoder function, unlike game controller, soundbar or DVD writer. Pending dedicated set-top-box reference and semantic overlap recheck before approval; don't treat proposed replacement as verified yet. FOLLOW-UP: Retrieved dedicated definitions explicitly viewing digital broadcasts and cable/satellite programmes on TV. Revised stem specifically digital broadcasts so not any generic video source.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "3a2feedf2614d3abd0d188c96fee69e75dc9165a8fdd2555094f1d66fb5109ec"
+    },
+    {
+      "row": 72,
+      "note": "Focusing wheel changes apparent sharpness, not nominal magnification, actual subject distance or eyepiece separation. Generic binocular dictionary only magnification and tubes, insufficient proof of wheel function. Pending actual binocular operating instructions; retrieved Nikon camera-focus source is not claimed direct binocular support.",
+      "status": "pending_specific_reference",
+      "fingerprint": "0230dec2e85a6b52a6e4c8d7f9009d2a176d766b9766a56537e5b2011390a530"
+    },
+    {
+      "row": 73,
+      "note": "Tripod three supporting legs; monopod, selfie stick and gimbal handle alone do not. Dedicated dictionary confirms three-legged support. Camera scope clear; no assertion every camera support needs three legs.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "317296048d1901cd655f0ba2a54b43e0643bc9f1186379c8523509f708677f26"
+    },
+    {
+      "row": 74,
+      "note": "Standard monopod one leg; two/three/four not its defining single-support form. Pending manufacturer definition because guessed dictionary entry empty. Some monopods add a small folding foot, so final wording may need 'main supporting leg' to avoid foot/leg ambiguity before approval.",
+      "status": "pending_specific_reference",
+      "fingerprint": "9a2e47c4ea2756d30e4ea484d94902cd35ba8b3a79f777635175004b80e2ccfe"
+    },
+    {
+      "row": 75,
+      "note": "Selfie stick holds phone/camera farther away for self-portrait; no change in sensor size, inherent instant printing or battery replacement. Dedicated definition explicitly distance allowing more subjects. Not assuming every stick includes remote shutter or motor.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "e55c028718e23c038f8803bb78f1fde4e26fc1b6a37e0a51696e7737f362f56e"
+    },
+    {
+      "row": 76,
+      "note": "Camera gimbal helps stabilise camera orientation/reduce unwanted movement; not sensor pixels, memory storage or lens inventory. Cambridge rotating support keeping equipment in position supports mechanism. Does not promise elimination of all shake or motion.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "0bb44361ea362c35522b1b688282045dc034afb7a9d0c639b66908349c21d689"
+    },
+    {
+      "row": 77,
+      "note": "Dashcam records vehicle road view. Reverse-only parking camera, pulse monitor and engine thermometer are other functions. Revised unrelated printer/space options; 'mainly' allows cabin and rear cameras in multi-camera dashcams.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "2f00190176f0932e7091f60fac58af439dbdafabbd137e810a15357964741a6b"
+    },
+    {
+      "row": 78,
+      "note": "Action camera intended mountable activity recording. Studio view camera, flatbed scanner and telescope not that camera type. Core fact plausible but guessed entry empty; pending actual manufacturer definition and global overlap check before approval.",
+      "status": "pending_specific_reference",
+      "fingerprint": "b027da808fcdf23ef41642453941397c57adb7e5e84f8c0c24355c010cef0272"
+    },
+    {
+      "row": 79,
+      "note": "Replaces exact Computers webcam purpose duplicate. Proposed camcorder primary video recording; printed paper output, audio-only recording and temperature measurement not defining task. Pending camcorder definition; do not claim webcam source supports this replacement. Can record sound alongside video, hence audio-only wording. FOLLOW-UP: Retrieved dedicated definition small video camera records images/sound. Video answer correct; audio-only alternative explicitly excludes accompanying images. No reliance on obsolete videotape-only wording.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "d0292ef02dedc78dfc862076c72f38e800f21cb3c2fd39a6174d572fae6a759f"
+    },
+    {
+      "row": 80,
+      "note": "Replaces exact Computers scanner purpose duplicate. Camera flash provides brief light burst; not film, ink or air. Pending photographic flash dictionary sense rather than assuming lightning/computing senses. Proposed fact clear but final source check required. FOLLOW-UP: Retrieved photographic flash sense explicitly bright light for brief time while taking photograph. Other flash meanings excluded. Confirms brief burst answer.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "532a2e173495f72b6425bd50931692b84c6faeab2f6090a8ceba0163bde2b798"
+    },
+    {
+      "row": 81,
+      "note": "Replaces barcode-reader question that supplied its answer in the name. Linear barcode encodes information in bars/spaces; groove, braille dots and musical notes different systems. Linear qualifier avoids QR/matrix formats. Pending actual GS1 passage before approval.",
+      "status": "pending_specific_reference",
+      "fingerprint": "eebdb66da1a1dd0ee6053ea566da824565da3f429aee1b7ba4d093a8caf018ad"
+    },
+    {
+      "row": 82,
+      "note": "Digital photo frame displays changing photos on screen. Scanner digitises, printer makes prints, hard drive stores rather than displays on its own screen. Pending manufacturer/device-specific definition because guessed dictionary empty.",
+      "status": "pending_specific_reference",
+      "fingerprint": "7008200ec5d71aa15fbae036a0e706086a387da1a76810b5c4d69476f129dd0d"
+    },
+    {
+      "row": 83,
+      "note": "Replaces exact Science temperature/thermometer duplicate. Wire stripper removes insulation, not all conductor, plug pins or metal colour. Pending actual tool definition/manufacturer; no electrical-use instructions given.",
+      "status": "pending_specific_reference",
+      "fingerprint": "f49cd44d7c4d04ed8b1f6bf7330b75cb5b278da348270963e1be2c077bea92f1"
+    },
+    {
+      "row": 84,
+      "note": "Digital calipers measure dimensions; radio signal, step counts and battery charge other instruments. Dictionary calipers measuring widths/distances inspected, orthopaedic supports sense excluded. Pending digital caliper product reference because dictionary describes hinged form, not modern sliding electronic variant.",
+      "status": "pending_specific_reference",
+      "fingerprint": "16d160752147cf2c5d100f294b5e57a88cd7480f3e324e4c9baadbc236185a59"
+    },
+    {
+      "row": 85,
+      "note": "Electronic balance reports mass in ordinary calibrated use; direction, resolution and frequency unrelated. Dictionary retrieved mechanical two-pan balance, not electronic device. Pending manufacturer reference; do not treat mechanical definition as verification of electronic mechanism. No assertion balance is independent of gravity calibration.",
+      "status": "pending_specific_reference",
+      "fingerprint": "b940581e67fe619656d89ae951f75e2181969afd063bda08643da6ea18fd158a"
+    },
+    {
+      "row": 86,
+      "note": "Multimeter commonly measures voltage/current/resistance, not pedometer steps, barometer pressure or anemometer wind. Dedicated electronic-device dictionary explicitly lists all three. No hazardous electrical testing instructions included.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "71c6b6f52d1015be282d3ce381d556c026d45ae838d3b68350d2c0a8fd3ae533"
+    },
+    {
+      "row": 87,
+      "note": "Metal detector locates metal. Pressure, heat patterns and smoke detectors use other sensing tasks. Dedicated definition supports metal detection; no guarantee every metal object at any depth detectable. Replaced irrelevant stars/text/audio alternatives.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "2010e6b8a83f88e6e9608a0790b374f23e21151c146699f073aa18912e084d77"
+    },
+    {
+      "row": 88,
+      "note": "Smoke alarm warns of smoke/possible fire, not carbon dioxide, humidity alone or leakwater. Definition explicitly possible-fire warning, allows false alarms. Single-purpose wording does not deny combination alarm products. Not an installation or safety recommendation.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "941a053887e6283e180da9493923b57fd95b07088de522399694d291681d3836"
+    },
+    {
+      "row": 89,
+      "note": "Original CO-alarm/gas stem repeated correct answer directly. Revised gas formula asks to identify correct alarm, distinguish smoke, heat and leak alarms. Pending fire-service reference for CO identity/purpose; guessed dictionary empty. Combination alarms do not make generic smoke alarm alone an equivalent offered answer.",
+      "status": "pending_specific_reference",
+      "fingerprint": "40cfef9d4c33a3173ffb0464eb55ffebfe1da837e39007433f90d5c569dac887"
+    },
+    {
+      "row": 90,
+      "note": "Pointer projects light spot; not paper, physical arrow or ink. Dedicated dictionary light beam pointing sense inspected. No use instructions or claim laser pointers safe to look into.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "1f632fa25cd9fc0ee30367de3f7128aec1a1654126d36124a8dd369e4297a57d"
+    },
+    {
+      "row": 91,
+      "note": "Rangefinder measures target distance, not temperature, chemistry or mass. Definition explicitly distance to photographic/shooting target. Electronic qualifier does not assert particular laser/radio/optical implementation.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "172f1ac861a5b2af00440b4379da41baf7eb2d729f13e977e993e4a0f632d3bf"
+    },
+    {
+      "row": 92,
+      "note": "Home weather station monitors local weather, not trains, appliance power or radio transmitter count. Retrieved dictionary defines building/site, insufficient support for gadget version. Pending consumer weather-station manufacturer reference; no claim forecasts are always correct.",
+      "status": "pending_specific_reference",
+      "fingerprint": "dadb1bf072caab3b6d4e13894f0dff66a98b45107aa01b9b3393ab5691596f3b"
+    },
+    {
+      "row": 93,
+      "note": "Replaces exact Science anemometer/wind-speed duplicate. Light meter measures light, not target distance, camera weight or lens temperature. Pending photographic instrument reference and overlap recheck before approval; guessed new dictionary URL not yet fetched. FOLLOW-UP: Retrieved explicit device measuring amount of light especially photography. Confirms intended quantity, not distance/mass/temperature.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "18187cb51c6ffbd5c6a02a784c2919a39d18eb1d4ae097a26cfd64cec66c9eff"
+    },
+    {
+      "row": 94,
+      "note": "Motion-sensor security light can be triggered by movement. Software update/password change/phone call alone do not describe sensor stimulus. Pending actual security-light sensor manufacturer reference; empty motion-detector dictionary entry not support. Can rather than always avoids guaranteed operation irrespective of light/day settings.",
+      "status": "pending_specific_reference",
+      "fingerprint": "035a038d00c0dc601d7c4d143d6c958e658b626403433421edd5869a3ae643f8"
+    },
+    {
+      "row": 95,
+      "note": "Video doorbell adds camera/visitor viewing rather than gas meter, laundry timer or oven thermostat. Generic doorbell definition only establishes conventional bell; pending actual video-doorbell source before approval. Removed unrelated coffee/sewing alternatives.",
+      "status": "pending_specific_reference",
+      "fingerprint": "c93f99fd1edb81ee322ad9ab0248fef201c030840af611ba02b7c7992523e584"
+    },
+    {
+      "row": 96,
+      "note": "VR presents immersive computer-created environment; physical map, audio-only radio and unmodified binocular optics not VR. Dedicated virtual-reality dictionary images/sounds simulated place inspected. No claim every VR experience must imitate a real location.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "d3aaacf49f32d09481fa92d1cde5b58bd0c55b73f65e91babdab55620fc81392"
+    },
+    {
+      "row": 97,
+      "note": "AR overlays computer-generated information/images on real view. Physical paint, unchanged reflection and audio-only ordinary broadcast not AR imagery. Dedicated dictionary explicitly computer-produced images with real-world view. No claim permanent physical object transformation.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "be462548c9dec1ac01198ee604fdeec5e5c71260992cfd64b21fbeed7ccd97f8"
+    },
+    {
+      "row": 98,
+      "note": "Gamepad handheld buttons control video game, unlike boiler/fridge/printer systems as principal purpose. Dedicated gamepad definition inspected. Mainly accommodates accessibility/custom remote-control uses without pretending every possible repurposing impossible.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "90c8eb09a712bd565395b0a591e46d59ac869762021f34fa3f28b7d8cff210d4"
+    },
+    {
+      "row": 99,
+      "note": "Joystick movable control lever. Battery, flat lens filter and speaker cable not levers. Relevant machine/game sense inspected; no false restriction only aircraft or only one axis.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "e72946522bc538aa6d7a36ad585f01ed6a1cc9d93f3cd8e23f4da694eb5b5204"
+    },
+    {
+      "row": 100,
+      "note": "Audio volume adjusts loudness, not screen colour, file count or plug shape. Dedicated sound-level/control sense inspected beyond geometry/book/trade meanings. Distinct technical control from Music dynamics notation; does not conflate volume with pitch.",
+      "status": "author_partial_pass_checked",
+      "fingerprint": "aba9068ccea2440cf71c2879af0245bafeb7ed9c4da24b9ffca7c675bbe985b3"
+    }
+  ],
+  "publicationApproved": false,
+  "requiresWholeBatchFinalReview": true
+}

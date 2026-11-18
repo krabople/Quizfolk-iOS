@@ -1,8 +1,8 @@
 {
   "updated": "2026-11-18",
   "targetNewEasy": 3100,
-  "reviewedAndValidated": 2200,
-  "localBankCount": 24117,
+  "reviewedAndValidated": 2300,
+  "localBankCount": 24217,
   "liveBankCount": 24117,
   "topics": [
     {
@@ -177,8 +177,8 @@
       "topicID": "30",
       "name": "Gadgets",
       "targetNewEasy": 100,
-      "authored": 0,
-      "reviewedAndValidated": 0,
+      "authored": 100,
+      "reviewedAndValidated": 100,
       "deployedNewEasy": 0
     },
     {
