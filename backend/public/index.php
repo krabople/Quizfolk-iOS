@@ -173,7 +173,7 @@ try {
             $reading=($_SERVER['HTTP_X_QUIZFOLK_CLIENT'] ?? '')==='3';$preview=$m['preview_started']===null ? microtime(true):(float)$m['preview_started'];
             if($reading && $m['started']===null) {
                 if($m['preview_started']===null)sql($db,'UPDATE matches SET preview_started=? WHERE id=?',[$preview,$id]);
-                $left=max(0,3-(microtime(true)-$preview));
+                $left=max(0,question_reading_seconds($q['prompt'])-(microtime(true)-$preview));
                 if($route==='round' || $left>0) {$db->exec('COMMIT');out(['round'=>$round,'question'=>['id'=>$q['id'],'prompt'=>$q['prompt'],'answers'=>[],'difficulty'=>$q['difficulty'],'source'=>$q['source'] ?? 'Open trivia contributors','sourceURL'=>$q['sourceURL'] ?? null],'remaining'=>10,'readingRemaining'=>$left,'phase'=>'reading']);}
             }
             $started=$m['started']===null ? microtime(true):(float)$m['started'];

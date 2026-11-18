@@ -34,7 +34,7 @@ struct QuestionTimeBar:View {
    }
   }.frame(height:thickness)
    .accessibilityElement(children:.ignore).accessibilityLabel(reading ? "Reading time; answer clock has not started":"Answer time remaining")
-   .accessibilityValue(reading ? "3-second preview":String(format:"%.1f seconds",remaining)).accessibilityIdentifier("answerTimeBar")
+   .accessibilityValue(reading ? "Reading preview; answer clock paused":String(format:"%.1f seconds",remaining)).accessibilityIdentifier("answerTimeBar")
  }
 }
 enum QuizPower:String,CaseIterable {

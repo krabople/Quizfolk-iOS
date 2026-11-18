@@ -76,7 +76,7 @@ import java.util.UUID
             Action("Find a duel", color = tint(topic.color)) { store.game = GameSession(store, topic, true) }
             OutlinedButton({ store.game = GameSession(store, topic, false) }, Modifier.fillMaxWidth().testTag("practice"), shape = RoundedCornerShape(14.dp)) { Text("Practise against a bot", fontWeight = FontWeight.Bold) }
             Hint("Practice earns topic XP saved on this device. Choose Find a duel to earn online league XP and public titles.")
-            Hint("Read each question for 3 seconds, then answer within 10 seconds. Correct answers earn 11–20 points for speed; the final round counts double. Wrong answers and timeouts score zero. Maximum 160. Each power-up once per duel: Fifty Fifty (5 coins), Double Choice (10) and Right Answer (25). Practice power-ups are free.")
+            Hint("Reading time increases for longer questions. Then answer within 10 seconds. Correct answers earn 11–20 points for speed; the final round counts double. Wrong answers and timeouts score zero. Maximum 160. Each power-up once per duel: Fifty Fifty (5 coins), Double Choice (10) and Right Answer (25). Practice power-ups are free.")
         } else LeaguePanel(store, topic)
     }
 }

@@ -1,6 +1,15 @@
 <?php
 declare(strict_types=1);
 
+// Keep the answer clock separate. Twelve short words retain the original
+// three seconds; additional words/long tokens receive extra reading time.
+function question_reading_seconds(string $prompt):int {
+    $words=preg_split('/[\p{Z}\s]+/u',$prompt,-1,PREG_SPLIT_NO_EMPTY) ?: [];
+    $normal=implode(' ',$words);
+    $characters=preg_match_all('/./us',$normal);
+    return 3+(int)ceil(max(0,(count($words)-12)/3,(($characters ?: 0)-72)/18));
+}
+
 function play_topics():array {
     $topics=json_decode(file_get_contents(dirname(__DIR__).'/data/categories.json'),true);
     $topics[]=['id'=>'mixed','name'=>'Mixed topics','symbol'=>'shuffle','color'=>'7253A4','emoji'=>'🎨','questionCount'=>array_sum(array_column($topics,'questionCount'))];return $topics;

@@ -83,7 +83,7 @@ private struct DuelScreen:View {
     if let q=game.current {
      QuestionTimeBar(remaining:game.remaining,reading:game.reading)
      Text(q.prompt).font(.system(size:25,weight:.bold,design:.rounded)).accessibilityIdentifier("quizQuestion").multilineTextAlignment(.center).lineLimit(7).minimumScaleFactor(0.6).frame(maxWidth:.infinity,maxHeight:.infinity).layoutPriority(1)
-     if game.reading {Text("Read the question · 3 seconds").font(.subheadline.bold()).multilineTextAlignment(.center).accessibilityIdentifier("readingPhase").transition(.opacity)}
+     if game.reading {Text("Read the question").font(.subheadline.bold()).multilineTextAlignment(.center).accessibilityIdentifier("readingPhase").transition(.opacity)}
      LazyVGrid(columns:[GridItem(.flexible(),spacing:9),GridItem(.flexible(),spacing:9)],spacing:9){if !game.reading {ForEach(q.answers.indices,id:\.self){i in answer(q,index:i).frame(height:max(80,(size.height*(game.revealed ? 0.32:0.38)-9)/2))}}}
       .frame(height:game.reading ? 0:size.height*(game.revealed ? 0.32:0.38)).opacity(game.reading ? 0:1).clipped().accessibilityHidden(game.reading)
      PowerTray(power:game.power,enabled:!game.reading && !game.revealed && !game.busy,practice:!game.online,allowed:game.powerAllowed){choice in Task{await game.usePower(choice)}}
@@ -171,7 +171,7 @@ private struct DuelScreen:View {
    .accessibilityIdentifier("quizQuestion")
  }
  private var readingNotice:some View {
-  Text("Read the question · 3 seconds").font(.headline).multilineTextAlignment(.center)
+  Text("Read the question").font(.headline).multilineTextAlignment(.center)
    .accessibilityIdentifier("readingPhase").transition(.opacity)
  }
  private func tabletAnswers(_ question:Question,height:CGFloat)->some View {

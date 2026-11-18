@@ -22,11 +22,11 @@ class Client:
         return reply
     def question(self,mid):
         preview=self.request('round',{'match':mid});assert preview['phase']=='reading' and preview['question']['answers']==[]
-        with sqlite3.connect(STATE) as db:db.execute('UPDATE matches SET preview_started=? WHERE id=?',(time.time()-4,mid))
+        with sqlite3.connect(STATE) as db:db.execute('UPDATE matches SET preview_started=? WHERE id=?',(time.time()-120,mid))
         return self.request('reveal',{'match':mid})['question']
     def run_question(self,rid):
         preview=self.request('tournament-round',{'run':rid});assert preview['phase']=='reading' and preview['question']['answers']==[]
-        with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_runs SET preview=? WHERE id=?',(time.time()-4,rid))
+        with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_runs SET preview=? WHERE id=?',(time.time()-120,rid))
         return self.request('tournament-reveal',{'run':rid})['question']
 def right(q):
     original=BANK[q['id']];return q['answers'].index(original['answers'][original['correctIndex']])

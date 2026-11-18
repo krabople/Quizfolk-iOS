@@ -7,7 +7,7 @@ final class ScoringTests:XCTestCase {
         XCTAssertEqual(store.botNames.count,32);XCTAssertEqual(Set(store.botNames).count,32)
         let names=(0..<6).map{_ in store.nextBotName()}
         XCTAssertEqual(Set(names).count,6)
-        XCTAssertTrue(names.allSatisfy{store.botNames.contains($0) && $0.hasSuffix(" · Bot")})
+        XCTAssertTrue(names.allSatisfy{store.botNames.contains($0) && $0.hasSuffix(" Â· Bot")})
         let game=GameSession(topic:store.topics[0],store:store,online:false);defer{game.stop()}
         XCTAssertTrue(store.botNames.contains(game.opponent));XCTAssertFalse(names.suffix(5).contains(game.opponent))
     }
@@ -61,7 +61,7 @@ final class ScoringTests:XCTestCase {
                 return Data(#"{"id":"new-human","kind":"challenge","opponent":"Rival","opponentID":"rival","opponentAvatar":null}"#.utf8)
             }
             XCTAssertEqual(route,"match");XCTAssertEqual(body?["botOnly"] as? Bool,true)
-            return Data(#"{"id":"new-bot","kind":"bot","opponent":"Pip · Bot","opponentAvatar":null}"#.utf8)
+            return Data(#"{"id":"new-bot","kind":"bot","opponent":"Pip Â· Bot","opponentAvatar":null}"#.utf8)
         }
         let human=try await store.rematch(topic:topic,opponentID:"rival",online:true,requestID:"retry-key")
         await human.begin();XCTAssertEqual(human.opponentID,"rival");XCTAssertTrue(human.showIntro);human.stop()
@@ -100,7 +100,7 @@ final class ScoringTests:XCTestCase {
         await game.answer(0);XCTAssertTrue(game.rounds.isEmpty)
         try await Task.sleep(for:.milliseconds(2200))
         XCTAssertTrue(game.reading,"The complete three-second reading period must be respected")
-        try await Task.sleep(for:.milliseconds(1000))
+        try await Task.sleep(for:.seconds(QuestionReadingTime.seconds(for:game.current!.prompt)-2.0))
         XCTAssertFalse(game.reading);XCTAssertGreaterThan(game.remaining,9)
         await game.answer(game.current!.correctIndex)
         XCTAssertEqual(game.lastPoints,20)
@@ -162,16 +162,16 @@ final class ScoringTests:XCTestCase {
         Question(id:id,categoryID:"17",difficulty:"easy",prompt:prompt,answers:["Right","Wrong one","Wrong two","Wrong three"],correctIndex:0)
     }
     func testPromptKeysNormalizeTypographyWithoutChangingMeaningfulNotation() {
-        XCTAssertEqual(question("a","  What’s Éarth? ").promptKey,question("b","WHAT'S   ÉARTH!!!").promptKey)
-        XCTAssertEqual(question("a","Straße?").promptKey,question("b","STRASSE").promptKey)
-        XCTAssertNotEqual(question("a","What is 2 + 2?").promptKey,question("b","What is 2 × 2?").promptKey)
-        for pair in [("2-3","23"),("1.2","12"),("2/3","23"),("6!","6"),("2^3","23"),("−2","2"),("3%","3"),("2 ≤ 3","2 < 3"),("now here","nowhere")] {
+        XCTAssertEqual(question("a","  Whatâ€™s Ã‰arth? ").promptKey,question("b","WHAT'S   Ã‰ARTH!!!").promptKey)
+        XCTAssertEqual(question("a","StraÃŸe?").promptKey,question("b","STRASSE").promptKey)
+        XCTAssertNotEqual(question("a","What is 2 + 2?").promptKey,question("b","What is 2 Ã— 2?").promptKey)
+        for pair in [("2-3","23"),("1.2","12"),("2/3","23"),("6!","6"),("2^3","23"),("âˆ’2","2"),("3%","3"),("2 â‰¤ 3","2 < 3"),("now here","nowhere")] {
             XCTAssertNotEqual(question("a","Calculate \(pair.0)?").promptKey,question("b","Calculate \(pair.1)?").promptKey)
         }
     }
     @MainActor func testOfflinePacketsExcludeDuplicateContentAndPreserveFreshness() {
         let store=QuizStore(),topic=Topic(id:"17",name:"Science",symbol:"atom",color:"47A6A3",emoji:"",questionCount:9)
-        let old=question("old","What’s Earth?")
+        let old=question("old","Whatâ€™s Earth?")
         store.questions=[old,question("copy","WHAT'S EARTH!!!")]+(0..<7).map{question("fresh-\($0)","Fresh question \($0)?")}
         store.history=[MatchRecord(id:"seen",topicID:"17",date:Date(),score:20,opponentScore:0,opponent:"Bot",kind:"practice",rounds:[PlayedRound(question:old,selected:0,elapsed:0,points:20,opponentPoints:0)])]
         for _ in 0..<10 {

@@ -128,7 +128,7 @@ struct TournamentDetailView:View {
  private var rules:some View {
   VStack(alignment:.leading,spacing:11) {
    Text("How this tournament works").font(.headline)
-   Text("Keep answering in \(topic.name) until your first wrong answer or timeout. Read each question for 3 seconds, then choose from four answers within 10 seconds. Correct answers earn 11–20 points for speed; every question has the same value. Your score is the total points in that run. You may use each power-up once during the run: Fifty Fifty removes two wrong choices (5 coins); Double Choice allows a second pick (10); Right Answer selects and submits the correct answer (25). The clock keeps running.")
+   Text("Keep answering in \(topic.name) until your first wrong answer or timeout. Reading time increases for longer questions. Then choose from four answers within 10 seconds. Correct answers earn 11–20 points for speed; every question has the same value. Your score is the total points in that run. You may use each power-up once during the run: Fifty Fifty removes two wrong choices (5 coins); Double Choice allows a second pick (10); Right Answer selects and submits the correct answer (25). The clock keeps running.")
    Text("Try again for the displayed entry cost. Only your best run counts; attempts do not add together. Every question in a run is different. If you clear the entire topic bank, that completes your run.")
    Text("The leaderboard closes at the stated time. Earned points are kept if you end a run early or the event closes. The top three places receive coins and a profile badge.")
    Text("Prizes are guaranteed: \(current.podiumPrizes[0]) coins for first, \(current.podiumPrizes[1]) for second and \(current.podiumPrizes[2]) for third. A sole entrant receives the first-place prize. Tied players share the combined prizes for the places they occupy, rounded down to whole coins. Prizes are credited automatically after closure; leading an open tournament is provisional.")
@@ -216,7 +216,7 @@ struct TournamentPlayView:View {
     if let question=game.question {
      QuestionTimeBar(remaining:game.remaining,reading:game.reading)
      Text(question.prompt).font(.system(size:25,weight:.bold,design:.rounded)).accessibilityIdentifier("tournamentQuestion").multilineTextAlignment(.center).lineLimit(7).minimumScaleFactor(0.6).frame(maxWidth:.infinity,maxHeight:.infinity)
-     if game.reading {Text("Read the question · 3 seconds").font(.subheadline.bold()).multilineTextAlignment(.center).accessibilityIdentifier("tournamentReadingPhase").transition(.opacity)}
+     if game.reading {Text("Read the question").font(.subheadline.bold()).multilineTextAlignment(.center).accessibilityIdentifier("tournamentReadingPhase").transition(.opacity)}
      LazyVGrid(columns:[GridItem(.flexible(),spacing:9),GridItem(.flexible(),spacing:9)],spacing:9){if !game.reading {ForEach(question.answers.indices,id:\.self){i in answer(question.answers[i],index:i).frame(height:max(80,(size.height*0.38-9)/2))}}}
       .frame(height:game.reading ? 0:size.height*0.38).opacity(game.reading ? 0:1).clipped().accessibilityHidden(game.reading)
      PowerTray(power:game.power,enabled:!game.reading && !game.revealed && !game.busy){choice in Task{await game.usePower(choice)}}
@@ -291,7 +291,7 @@ struct TournamentPlayView:View {
    .lineLimit(10).minimumScaleFactor(0.65).frame(maxWidth:.infinity).accessibilityIdentifier("tournamentQuestion")
  }
  private var readingNotice:some View {
-  Text("Read the question · 3 seconds").font(.headline).multilineTextAlignment(.center)
+  Text("Read the question").font(.headline).multilineTextAlignment(.center)
    .accessibilityIdentifier("tournamentReadingPhase").transition(.opacity)
  }
  private func tabletAnswers(_ question:PublicQuestion,height:CGFloat)->some View {

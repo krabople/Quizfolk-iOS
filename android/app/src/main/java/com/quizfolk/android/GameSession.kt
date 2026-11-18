@@ -136,7 +136,7 @@ class GameSession(val store: QuizStore, val topic: Topic, val online: Boolean, p
             clock?.cancel(); reader?.cancel()
             reader = scope.launch {
                 try {
-                    delay((r.d("readingRemaining", 3.0).coerceAtLeast(0.0) * 1000).toLong())
+                    delay((r.d("readingRemaining", QuestionReadingTime.seconds(question?.prompt.orEmpty())).coerceAtLeast(0.0) * 1000).toLong())
                     if (closed || background) return@launch
                     val reply = store.api(if (survival) "tournament-reveal" else "reveal", json((if (survival) "run" else "match") to serverID))
                     if (survival) { applyRun(reply); if (runEnded) { finished = true; return@launch } }
@@ -148,7 +148,7 @@ class GameSession(val store: QuizStore, val topic: Topic, val online: Boolean, p
     }
     private fun offlineQuestion() {
         clock?.cancel(); reader?.cancel(); question = offlineDeck[round]; selected = null; revealed = false; power = power.next(); powerError = null
-        reading = true; remaining = 10.0; readDeadline = SystemClock.elapsedRealtime() + 3000; answerDeadline = readDeadline + 10000
+        reading = true; remaining = 10.0; readDeadline = SystemClock.elapsedRealtime() + (QuestionReadingTime.seconds(question?.prompt.orEmpty()) * 1000).toLong(); answerDeadline = readDeadline + 10000
         offlineRead()
     }
     private fun offlineRead() {

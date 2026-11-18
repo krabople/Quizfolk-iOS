@@ -165,7 +165,7 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
             readingTask=Task{[weak self] in
                 guard let self else{return}
                 do {
-                    try await Task.sleep(for:.seconds(max(0,reply.readingRemaining ?? 3)))
+                    try await Task.sleep(for:.seconds(max(0,reply.readingRemaining ?? QuestionReadingTime.seconds(for:reply.question.prompt))))
                     guard !self.closed,!Task.isCancelled else{return}
                     let shown:RoundReply=try await self.store.request("reveal",body:["match":self.matchID])
                     guard !self.closed,!Task.isCancelled else{return};self.applyQuestion(shown)
@@ -176,7 +176,7 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
     private func beginOfflineReading(_ q:Question) {
         timer?.cancel();readingTask?.cancel();power=power.nextQuestion();powerError=nil;current=q;reading=true;remaining=10
         readingTask=Task{[weak self] in
-            do{try await Task.sleep(for:.seconds(3))}catch{return}
+            do{try await Task.sleep(for:.seconds(QuestionReadingTime.seconds(for:q.prompt)))}catch{return}
             guard let self,!self.closed,!Task.isCancelled else{return};self.reading=false;self.startTimer(seconds:10)
         }
     }

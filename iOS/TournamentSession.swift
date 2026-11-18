@@ -60,7 +60,7 @@ import SwiftUI
    readingTask=Task {[weak self] in
     guard let self,let runID=self.runID else{return}
     do {
-     try await Task.sleep(for:.seconds(max(0,r.readingRemaining ?? 3)))
+     try await Task.sleep(for:.seconds(max(0,r.readingRemaining ?? QuestionReadingTime.seconds(for:r.question?.prompt ?? ""))))
      guard !self.closed,!Task.isCancelled else{return}
      let next:TournamentRunReply=try await self.store.request("tournament-reveal",body:["run":runID])
      guard !self.closed,!Task.isCancelled else{return}

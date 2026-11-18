@@ -18,9 +18,9 @@ def user(name):
 def wallet(t):return req('coins',token=t)['wallet']['coins']
 def reveal(token,mid):
  r=req('round',{'match':mid},token);assert r['phase']=='reading' and r['question']['answers']==[]
- assert 2.8<r['readingRemaining']<=3
+ assert r['readingRemaining']>2.8
  req('power',{'match':mid,'turn':r['round'],'type':'right'},token,409)
- with sqlite3.connect(STATE) as db:db.execute('UPDATE matches SET preview_started=? WHERE id=?',(time.time()-4,mid))
+ with sqlite3.connect(STATE) as db:db.execute('UPDATE matches SET preview_started=? WHERE id=?',(time.time()-120,mid))
  return req('reveal',{'match':mid},token)
 def right(q):
  orig=BANK[q['id']];return q['answers'].index(orig['answers'][orig['correctIndex']])
@@ -116,7 +116,7 @@ req('party-play',{'party':three['id'],'fixture':fixtures[0]['id']},c,404 if cid 
 event=min(req('tournaments',token=a)['events'],key=lambda x:x['coins'])
 run=req('tournament-enter',{'event':event['id'],'requestID':str(uuid.uuid4())},a,201)
 r=req('tournament-round',{'run':run['id']},a);assert r['question']['answers']==[] and r['readingRemaining']>2.8
-with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_runs SET preview=? WHERE id=?',(time.time()-4,run['id']))
+with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_runs SET preview=? WHERE id=?',(time.time()-120,run['id']))
 q=req('tournament-reveal',{'run':run['id']},a)['question'];n=right(q)
 req('tournament-power',{'run':run['id'],'turn':0,'type':'double'},a)
 before=wallet(a)
@@ -128,7 +128,7 @@ assert r['retry'] and r['turn']==0 and r['state']=='playing'
 p=req('tournament-power',{'run':run['id'],'turn':0,'type':'right','autoAnswer':True},a)
 assert set(p['power']['usedTypes'])=={'double','fifty','right'} and p['tournamentAnswer']['correct']
 req('tournament-round',{'run':run['id']},a)
-with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_runs SET preview=? WHERE id=?',(time.time()-4,run['id']))
+with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_runs SET preview=? WHERE id=?',(time.time()-120,run['id']))
 q=req('tournament-reveal',{'run':run['id']},a)['question']
 for power in ['double','fifty','right']:req('tournament-power',{'run':run['id'],'turn':1,'type':power},a,409)
 r=req('tournament-answer',{'run':run['id'],'turn':1,'answer':(right(q)+1)%4},a)
@@ -183,7 +183,7 @@ req('power',{'match':late['id'],'turn':0,'type':'right','autoAnswer':True},a,409
 assert wallet(a)==before
 auto=req('tournament-enter',{'event':paid['id'],'requestID':str(uuid.uuid4())},a,201)
 req('tournament-round',{'run':auto['id']},a)
-with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_runs SET preview=? WHERE id=?',(time.time()-4,auto['id']))
+with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_runs SET preview=? WHERE id=?',(time.time()-120,auto['id']))
 q=req('tournament-reveal',{'run':auto['id']},a)['question'];n=right(q);before=wallet(a)
 body={'run':auto['id'],'turn':0,'type':'right','autoAnswer':True}
 p=req('tournament-power',body,a);answer=p['tournamentAnswer']

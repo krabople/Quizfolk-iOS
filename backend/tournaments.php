@@ -275,7 +275,7 @@ function tournament_routes(string $route,PDO $db,string $pid,array $body):void {
     }
     if($route==='tournament-round' || $route==='tournament-reveal') {
         sql($db,'INSERT OR IGNORE INTO question_seen VALUES(?,?,?)',[$pid,$q['id'],$q['categoryID']]);
-        $preview=$r['preview']===null ? microtime(true):(float)$r['preview'];$left=max(0,3-(microtime(true)-$preview));$reading=$r['started']===null && ($route==='tournament-round' || $left>0);
+        $preview=$r['preview']===null ? microtime(true):(float)$r['preview'];$left=max(0,question_reading_seconds($q['prompt'])-(microtime(true)-$preview));$reading=$r['started']===null && ($route==='tournament-round' || $left>0);
         if($r['preview']===null)sql($db,'UPDATE tournament_runs SET preview=? WHERE id=?',[$preview,$id]);
         if(!$reading && $r['started']===null){$r['started']=microtime(true);sql($db,'UPDATE tournament_runs SET started=? WHERE id=?',[$r['started'],$id]);}
         $powerState=power_state($db,'run:'.$id,(int)$r['turn'],$q);unset($q['correctIndex']);if($reading)$q['answers']=[];

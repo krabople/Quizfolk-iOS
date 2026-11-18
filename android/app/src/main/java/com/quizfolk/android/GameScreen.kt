@@ -142,7 +142,7 @@ import kotlin.math.*
             val question = game.question
             if (question != null) {
                 Box(Modifier.weight(1f).fillMaxWidth().testTag("questionPrompt"), contentAlignment = Alignment.Center) { AutoText(question.prompt, 25, 10, Color.White) }
-                if (game.reading) Text("Read the question · 3 seconds", Modifier.fillMaxWidth().testTag("readingPhase"), fontWeight = FontWeight.Bold, textAlign = TextAlign.Center, fontSize = 14.sp)
+                if (game.reading) Text("Read the question", Modifier.fillMaxWidth().testTag("readingPhase"), fontWeight = FontWeight.Bold, textAlign = TextAlign.Center, fontSize = 14.sp)
                 Column(Modifier.fillMaxWidth().height(answersHeight).clip(RectangleShape), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                     if (!game.reading && question.answers.size == 4) (0..1).forEach { row -> Row(Modifier.weight(1f), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                         (0..1).forEach { col -> val index = row * 2 + col
@@ -230,7 +230,7 @@ import kotlin.math.*
         if (game.reading) Icon(Icons.Default.MenuBook, "Reading time", tint = Gold, modifier = Modifier.size(60.dp)) else TimerRing(game.remaining, 76.dp)
     }
 }
-@Composable private fun ReadingNotice() = Text("Read the question · 3 seconds", Modifier.fillMaxWidth().testTag("readingPhase"), fontWeight = FontWeight.Bold, textAlign = TextAlign.Center, fontSize = 17.sp)
+@Composable private fun ReadingNotice() = Text("Read the question", Modifier.fillMaxWidth().testTag("readingPhase"), fontWeight = FontWeight.Bold, textAlign = TextAlign.Center, fontSize = 17.sp)
 @Composable private fun TabletAnswers(game: GameSession, height: Dp) {
     val question = game.question
     Column(Modifier.fillMaxWidth().height(height).clip(RectangleShape), verticalArrangement = Arrangement.spacedBy(14.dp)) {

@@ -48,7 +48,7 @@ def answer(token,run_id,turn,right=True,elapsed=0.1):
  assert 'correctIndex' not in r['question']
  assert req('tournament-reveal',{'run':run_id},token)['phase']=='reading'
  req('tournament-answer',{'run':run_id,'turn':turn,'answer':0},token,409)
- with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_runs SET preview=? WHERE id=?',(time.time()-3,run_id))
+ with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_runs SET preview=? WHERE id=?',(time.time()-120,run_id))
  shown=req('tournament-reveal',{'run':run_id},token);assert shown['remaining']>9
  q=shown['question'];original=BANK[q['id']]
  correct=q['answers'].index(original['answers'][original['correctIndex']])
@@ -107,7 +107,7 @@ for token in [a,b]:
   # A question removed after display restarts the reading phase without charging
   # a wrong answer or losing the earned prefix.
   with sqlite3.connect(STATE) as db:
-   db.execute('UPDATE tournament_runs SET deck=?,started=?,preview=? WHERE id=?',(json.dumps([deck[0],'removed-during-answer',deck[3]]),time.time(),time.time()-3,r['id']))
+   db.execute('UPDATE tournament_runs SET deck=?,started=?,preview=? WHERE id=?',(json.dumps([deck[0],'removed-during-answer',deck[3]]),time.time(),time.time()-120,r['id']))
   changed=req('tournament-answer',{'run':r['id'],'turn':1,'answer':0},a)
   assert changed['questionChanged'] and changed['score']==20 and changed['turn']==1
   assert req('tournament-answer',{'run':r['id'],'turn':1,'answer':0},a)==changed
