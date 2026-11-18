@@ -1,0 +1,1107 @@
+{
+  "reviewer": "root (author final editorial pass)",
+  "independent": false,
+  "sourceAccessNote": "100 Celebrities additions individually author-reviewed against relevant actual biography/career passages, followed by a reread of all final stems and all four options for meaning, sole correct offered answer, grammar and category fit. This is an author editorial pass, explicitly not independent review. Most references are secondary encyclopaedia biographies. Hairy Bikers official indexed biography, Newcastle graduate profile, Olympic Council of Asia newsletter and Misty Copeland official biography/promotion announcement provide specifically scoped primary corroboration. Source retrieval alone was not counted as review; initial Dave Myers and George Clarke disambiguation pages were rejected in favour of the correct presenter biographies. A BBC-lookalike pages.dev result was rejected, not treated as BBC evidence. Claudia Traitors-host draft duplicated an existing Television question and was replaced by the historical Tess Daly co-presenting question. Further semantic/name checks distinguished same-name musicians, fictional characters and incidental substrings. Alternate true professions, instruments, co-presenters and historical roles were excluded from wrong answers. Historical qualifiers avoid current ownership, current presenters and later role changes. Final lexical check and fingerprint/whole-bank checks are separate structural safeguards, not substitutes for editorial judgment.",
+  "rows": [
+    {
+      "row": 1,
+      "prompt": "Which chef rose to fame with the television series The Naked Chef?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Jamie Oliver rose to prominence with The Naked Chef, explicitly stated in the actual biography. Ramsay, Stein and Martin are other chefs, not its presenter. Existing Jamie Oliver keyboardist question concerns a different person. Series scope and grammar checked.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Jamie Oliver rose to prominence with The Naked Chef, explicitly stated in the actual biography. Ramsay, Stein and Martin are other chefs, not its presenter. Existing Jamie Oliver keyboardist question concerns a different person. Series scope and grammar checked.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 2,
+      "prompt": "Which chef is known for presenting the US versions of Hell's Kitchen and Kitchen Nightmares?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Gordon Ramsay presented the US versions of Hell's Kitchen and Kitchen Nightmares, explicitly listed in the actual biography's second paragraph. Oliver, Stein and Hollywood do not match. Final wording specifies US versions and presenting rather than a vague association; no current schedule asserted.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Gordon Ramsay presented the US versions of Hell's Kitchen and Kitchen Nightmares, explicitly listed in the actual biography's second paragraph. Oliver, Stein and Hollywood do not match. Final wording specifies US versions and presenting rather than a vague association; no current schedule asserted.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 3,
+      "prompt": "Which cookery writer published How to Eat?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Nigella Lawson wrote How to Eat, identified as her first cookery book in the actual biography. Berry, Smith and Leith do not match this book. Title and sole offered author checked; no sales total or trained-chef claim.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Nigella Lawson wrote How to Eat, identified as her first cookery book in the actual biography. Berry, Smith and Leith do not match this book. Title and sole offered author checked; no sales total or trained-chef claim.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 4,
+      "prompt": "Which baking competition did Mary Berry judge between 2010 and 2016?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Mary Berry judged The Great British Bake Off from 2010 to 2016, explicitly stated in the actual biography. MasterChef, Ready Steady Cook and Great British Menu do not match that judging role. Historical dates avoid a current-panel assumption.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Mary Berry judged The Great British Bake Off from 2010 to 2016, explicitly stated in the actual biography. MasterChef, Ready Steady Cook and Great British Menu do not match that judging role. Historical dates avoid a current-panel assumption.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 5,
+      "prompt": "What trade did Paul Hollywood learn in his father's business?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Paul Hollywood learned baking in his father's bakery, supported by the actual biography. Carpentry, tailoring and jewellery making do not match the trade. Father's possessive is correct; no claim that he never learned another skill later.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Paul Hollywood learned baking in his father's bakery, supported by the actual biography. Carpentry, tailoring and jewellery making do not match the trade. Father's possessive is correct; no claim that he never learned another skill later.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 6,
+      "prompt": "Which television competition did Nadiya Hussain win in 2015?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Nadiya Hussain won The Great British Bake Off in 2015, as stated in the actual biography. MasterChef, Sewing Bee and Pottery Throw Down are different competitions. Name, year and programme title checked.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Nadiya Hussain won The Great British Bake Off in 2015, as stated in the actual biography. MasterChef, Sewing Bee and Pottery Throw Down are different competitions. Name, year and programme title checked.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 7,
+      "prompt": "Who hosted the BBC cooking shows Can't Cook, Won't Cook and Ready Steady Cook?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Ainsley Harriott hosted both Can't Cook, Won't Cook and Ready Steady Cook, supported by the actual biography. Martin, Stein and Wareing do not match the pair of hosting roles. A guest appearance would not make a distractor another correct host.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Ainsley Harriott hosted both Can't Cook, Won't Cook and Ready Steady Cook, supported by the actual biography. Martin, Stein and Wareing do not match the pair of hosting roles. A guest appearance would not make a distractor another correct host.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 8,
+      "prompt": "Which British reality series did Gino D'Acampo win in 2009?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Gino D'Acampo won I'm a Celebrity...Get Me Out of Here! in 2009, explicitly stated in the actual biography. Strictly, Big Brother and The Apprentice do not match the win. Replaced a weaker cuisine association with this supported event; apostrophe and title checked.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Gino D'Acampo won I'm a Celebrity...Get Me Out of Here! in 2009, explicitly stated in the actual biography. Strictly, Big Brother and The Apprentice do not match the win. Replaced a weaker cuisine association with this supported event; apostrophe and title checked.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 9,
+      "prompt": "Which BBC cookery programme did James Martin present from 2006 to 2016?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "James Martin presented Saturday Kitchen from 2006 to 2016, supported by the actual biography. MasterChef, Great British Menu and Ready Steady Cook do not match that dated presenting role. Chef context distinguishes him from other people named James Martin.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "James Martin presented Saturday Kitchen from 2006 to 2016, supported by the actual biography. MasterChef, Great British Menu and Ready Steady Cook do not match that dated presenting role. Chef context distinguishes him from other people named James Martin.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 10,
+      "prompt": "Which chef co-founded The Seafood Restaurant in Padstow with Jill Stein?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Rick Stein co-founded The Seafood Restaurant in Padstow with Jill Stein. Actual restaurant-history paragraph inspected, including the earlier bistro's conversion. Ramsay, Blumenthal and White are not co-founders with Jill. Co-founded avoids erasing her contribution.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Rick Stein co-founded The Seafood Restaurant in Padstow with Jill Stein. Actual restaurant-history paragraph inspected, including the earlier bistro's conversion. Ramsay, Blumenthal and White are not co-founders with Jill. Co-founded avoids erasing her contribution.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 11,
+      "prompt": "Of which television cooking duo was Dave Myers a member?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Dave Myers belonged to The Hairy Bikers with Si King. Official Hairy Bikers indexed biography passage and correct presenter biography inspected. Fabulous Baker Brothers, Two Fat Ladies and Tanner Brothers are different duos. Initial disambiguation result rejected; historical wording accommodates Myers's death.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Dave Myers belonged to The Hairy Bikers with Si King. Official Hairy Bikers indexed biography passage and correct presenter biography inspected. Fabulous Baker Brothers, Two Fat Ladies and Tanner Brothers are different duos. Initial disambiguation result rejected; historical wording accommodates Myers's death.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 12,
+      "prompt": "Which football club has Delia Smith famously supported and co-owned?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Delia Smith supported and co-owned Norwich City, as described in the actual biography. Ipswich, Nottingham Forest and Coventry do not match. Has co-owned asks about her history rather than falsely asserting unchanged current ownership after 2024.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Delia Smith supported and co-owned Norwich City, as described in the actual biography. Ipswich, Nottingham Forest and Coventry do not match. Has co-owned asks about her history rather than falsely asserting unchanged current ownership after 2024.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 13,
+      "prompt": "With which profession is television personality Tom Kerridge most closely associated?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Tom Kerridge is principally a chef, supported by the actual biography. Fashion designer, physicist and professional cyclist do not match his recognised profession. Replaced an unnecessarily specific restaurant item; no unsupported current restaurant claim.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Tom Kerridge is principally a chef, supported by the actual biography. Fashion designer, physicist and professional cyclist do not match his recognised profession. Replaced an unnecessarily specific restaurant item; no unsupported current restaurant claim.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 14,
+      "prompt": "Which chef joined the judging panel of MasterChef: The Professionals in 2014?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Marcus Wareing joined MasterChef: The Professionals in 2014. Actual biography inspected. Michel Roux Jr. was an earlier judge, so the joining year is essential; Harriott and Stein do not match. Correct programme colon and year checked.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Marcus Wareing joined MasterChef: The Professionals in 2014. Actual biography inspected. Michel Roux Jr. was an earlier judge, so the joining year is essential; Harriott and Stein do not match. Correct programme colon and year checked.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 15,
+      "prompt": "Which chef led the London restaurant Le Gavroche for many years?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Michel Roux Jr. led Le Gavroche for many years, as described in the actual biography. Stein, Harriott and Martin did not. Historical wording avoids suggesting the restaurant is still open; no other Roux family chef is offered as a false alternative.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Michel Roux Jr. led Le Gavroche for many years, as described in the actual biography. Stein, Harriott and Martin did not. Historical wording avoids suggesting the restaurant is still open; no other Roux family chef is offered as a false alternative.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 16,
+      "prompt": "Which chef became famous for unusual dishes such as bacon-and-egg ice cream and snail porridge?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Heston Blumenthal is associated with bacon-and-egg ice cream and snail porridge, both named in the actual biography. Oliver, Stein and Hollywood do not match that distinctive pair. Dishes and hyphenation checked; no claim that nobody else could ever cook them.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Heston Blumenthal is associated with bacon-and-egg ice cream and snail porridge, both named in the actual biography. Oliver, Stein and Hollywood do not match that distinctive pair. Dishes and hyphenation checked; no claim that nobody else could ever cook them.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 17,
+      "prompt": "Who replaced Mary Berry as a judge when The Great British Bake Off moved to Channel 4?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Prue Leith replaced Mary Berry when Bake Off moved to Channel 4, supported by the actual biography. Lawson, Smith and Hussain did not take that appointment. Historical succession is precise; no indefinitely current judging claim.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Prue Leith replaced Mary Berry when Bake Off moved to Channel 4, supported by the actual biography. Lawson, Smith and Hussain did not take that appointment. Historical succession is precise; no indefinitely current judging claim.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 18,
+      "prompt": "Who wrote the cookbooks Plenty and Simple?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Yotam Ottolenghi wrote Plenty and Simple, both identified in the actual biography. Blumenthal, Hollywood and Lawson are authors of other books. Wrote does not falsely claim he was sole author of every edition or ignore collaborators.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Yotam Ottolenghi wrote Plenty and Simple, both identified in the actual biography. Blumenthal, Hollywood and Lawson are authors of other books. Wrote does not falsely claim he was sole author of every edition or ignore collaborators.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 19,
+      "prompt": "With which profession is Angela Hartnett most closely associated?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Angela Hartnett is principally a chef, identified in the actual biography. Fashion designer, professional swimmer and magician do not match her established career. Accessible profession association avoids changing restaurant awards or ownership facts.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Angela Hartnett is principally a chef, identified in the actual biography. Fashion designer, professional swimmer and magician do not match her established career. Accessible profession association avoids changing restaurant awards or ownership facts.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 20,
+      "prompt": "What is the title of Samin Nosrat's cookbook and Netflix series?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Salt Fat Acid Heat is Samin Nosrat's cookbook and Netflix series, supported by the actual biography. How to Eat, The Fat Duck Cookbook and The Naked Chef are other works. Plain title omits typographical punctuation consistently; no punctuation variant is offered as a distractor.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Salt Fat Acid Heat is Samin Nosrat's cookbook and Netflix series, supported by the actual biography. How to Eat, The Fat Duck Cookbook and The Naked Chef are other works. Plain title omits typographical punctuation consistently; no punctuation variant is offered as a distractor.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 21,
+      "prompt": "Which BBC motoring programme did Jeremy Clarkson present with Richard Hammond and James May?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Top Gear is the BBC programme with Clarkson, Hammond and May. The Grand Tour shared those presenters but was not a BBC programme; Fifth Gear and Wheeler Dealers do not match. Actual Clarkson lead/career passages inspected. The broadcaster qualifier makes the offered answer unique.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Top Gear is the BBC programme with Clarkson, Hammond and May. The Grand Tour shared those presenters but was not a BBC programme; Fifth Gear and Wheeler Dealers do not match. Actual Clarkson lead/career passages inspected. The broadcaster qualifier makes the offered answer unique.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 22,
+      "prompt": "For which annual music competition has Graham Norton provided BBC television commentary?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Eurovision Song Contest is Norton's BBC television commentary role, explicitly described in the biography. The X Factor, The Voice and Britain's Got Talent do not match that role. Commentary is distinguished from general entertainment hosting; no current broadcast schedule is asserted.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Eurovision Song Contest is Norton's BBC television commentary role, explicitly described in the biography. The X Factor, The Voice and Britain's Got Talent do not match that role. Commentary is distinguished from general entertainment hosting; no current broadcast schedule is asserted.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 23,
+      "prompt": "Which BBC dance competition did Claudia Winkleman co-present with Tess Daly?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Strictly Come Dancing is the programme Winkleman co-presented with Tess Daly. Actual 2010 results-show and 2014 main-show passages inspected. She also presented So You Think You Can Dance, but not as the regular duo with Daly. Replaced the existing Traitors-host duplicate; historical wording avoids a current-host claim.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Strictly Come Dancing is the programme Winkleman co-presented with Tess Daly. Actual 2010 results-show and 2014 main-show passages inspected. She also presented So You Think You Can Dance, but not as the regular duo with Daly. Replaced the existing Traitors-host duplicate; historical wording avoids a current-host claim.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 24,
+      "prompt": "Which comedy game show was created by Alex Horne?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Taskmaster was created by Alex Horne. Actual lead explicitly names the creator and assistant roles. Would I Lie to You?, Mock the Week and 8 Out of 10 Cats are other programmes. Existing assistant-identification question tests a different fact; guest appearances do not imply creation.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Taskmaster was created by Alex Horne. Actual lead explicitly names the creator and assistant roles. Would I Lie to You?, Mock the Week and 8 Out of 10 Cats are other programmes. Existing assistant-identification question tests a different fact; guest appearances do not imply creation.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 25,
+      "prompt": "Which school subject did Greg Davies teach before becoming a full-time comedian?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Drama was Davies's school subject. Actual paragraph describes thirteen years as a secondary-school drama teacher. Mathematics, chemistry and geography do not match. Full-time-comedian wording avoids suggesting he could never perform comedy while still teaching; English studied at university is not offered as a false alternative.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Drama was Davies's school subject. Actual paragraph describes thirteen years as a secondary-school drama teacher. Mathematics, chemistry and geography do not match. Full-time-comedian wording avoids suggesting he could never perform comedy while still teaching; English studied at university is not offered as a false alternative.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 26,
+      "prompt": "What job did Jo Brand have before becoming a stand-up comedian?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Jo Brand worked as a nurse before her professional comedy career. Actual lead explicitly describes the move from psychiatric nursing into alternative stand-up. Architect, journalist and accountant do not match that documented earlier career. No claim that she never wrote journalism later.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Jo Brand worked as a nurse before her professional comedy career. Actual lead explicitly describes the move from psychiatric nursing into alternative stand-up. Architect, journalist and accountant do not match that documented earlier career. No claim that she never wrote journalism later.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 27,
+      "prompt": "Which subject did Romesh Ranganathan teach before becoming a full-time comedian?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Ranganathan taught mathematics at Hazelwick and Beacon, according to the actual career paragraph inspected. History, chemistry and music are not his documented teaching subject. He performed comedy while teaching, so the final question correctly specifies becoming a full-time comedian.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Ranganathan taught mathematics at Hazelwick and Beacon, according to the actual career paragraph inspected. History, chemistry and music are not his documented teaching subject. He performed comedy while teaching, so the final question correctly specifies becoming a full-time comedian.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 28,
+      "prompt": "Who became the host of the original UK version of The 1% Club in 2022?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Lee Mack began hosting the UK 1% Club in 2022, as stated in the actual biography. Rob Brydon, Alan Carr and David Mitchell do not match. Original UK version and year avoid confusing international adaptations or later guest appearances.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Lee Mack began hosting the UK 1% Club in 2022, as stated in the actual biography. Rob Brydon, Alan Carr and David Mitchell do not match. Original UK version and year avoid confusing international adaptations or later guest appearances.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 29,
+      "prompt": "Who was the original host of the BBC game show The Wheel?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "McIntyre was the original BBC Wheel host. Actual career paragraph explicitly says he began the new BBC game show in November 2020; the US version came later. Greg Davies, Lee Mack and Rob Brydon do not match the launch role. Fixed historical role, not a prediction about future hosts.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "McIntyre was the original BBC Wheel host. Actual career paragraph explicitly says he began the new BBC game show in November 2020; the US version came later. Greg Davies, Lee Mack and Rob Brydon do not match the launch role. Fixed historical role, not a prediction about future hosts.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 30,
+      "prompt": "Which Channel 4 series began in 1999 with Kevin McCloud as its presenter?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Grand Designs debuted in 1999 with McCloud, explicitly stated in the actual lead. Homes Under the Hammer, DIY SOS and Location, Location, Location are other property programmes. Debut wording avoids relying on an indefinitely current presenting contract.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Grand Designs debuted in 1999 with McCloud, explicitly stated in the actual lead. Homes Under the Hammer, DIY SOS and Location, Location, Location are other property programmes. Debut wording avoids relying on an indefinitely current presenting contract.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 31,
+      "prompt": "What profession did George Clarke of Amazing Spaces train for?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Clarke trained as an architect, not chef, veterinarian or accountant. Correct television-presenter biography and actual architectural qualifications paragraph inspected; Newcastle's own graduate profile also corroborated the training. Initial architect URL returned disambiguation and was rejected. No confusion with McCloud's different educational background.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Clarke trained as an architect, not chef, veterinarian or accountant. Correct television-presenter biography and actual architectural qualifications paragraph inspected; Newcastle's own graduate profile also corroborated the training. Initial architect URL returned disambiguation and was rejected. No confusion with McCloud's different educational background.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 32,
+      "prompt": "Which home-renovation programme is Nick Knowles known for presenting?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "DIY SOS is Knowles's home-renovation presenting programme, listed in the actual lead. Grand Designs, Homes Under the Hammer and Location, Location, Location have different established presenting associations. Question concerns his recognised programme, not possible guest appearances on other shows.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "DIY SOS is Knowles's home-renovation presenting programme, listed in the actual lead. Grand Designs, Homes Under the Hammer and Location, Location, Location have different established presenting associations. Question concerns his recognised programme, not possible guest appearances on other shows.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 33,
+      "prompt": "Which newsreader became the presenter of Question Time in 2019?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Bruce became Question Time's presenter in 2019, explicitly stated in the actual lead. Raworth, Maitlis and Wark are other news broadcasters, not the appointee. Historical date avoids any claim about an unchanged future presenter.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Bruce became Question Time's presenter in 2019, explicitly stated in the actual lead. Raworth, Maitlis and Wark are other news broadcasters, not the appointee. Historical date avoids any claim about an unchanged future presenter.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 34,
+      "prompt": "David Dickinson is best known as a television expert in which field?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Antiques is Dickinson's expert field, supported by the actual antiques-dealer and television-career passages. Wildlife, gardening and motoring do not match his principal television expertise. Does not imply he has no other personal interests.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Antiques is Dickinson's expert field, supported by the actual antiques-dealer and television-career passages. Wildlife, gardening and motoring do not match his principal television expertise. Does not imply he has no other personal interests.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 35,
+      "prompt": "Which mystery novel series was created by Richard Osman?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Osman created the Thursday Murder Club novels. Actual author/series passages inspected. The No. 1 Ladies' Detective Agency, Jack Reacher and Cormoran Strike are series by other authors. No confusion with Osman's television quiz work or his musician brother.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Osman created the Thursday Murder Club novels. Actual author/series passages inspected. The No. 1 Ladies' Detective Agency, Jack Reacher and Cormoran Strike are series by other authors. No confusion with Osman's television quiz work or his musician brother.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 36,
+      "prompt": "Which television quiz did Sandi Toksvig take over from Stephen Fry in 2016?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "QI passed from Stephen Fry to Toksvig in 2016, explicitly stated in the actual biography. Would I Lie to You?, Mock the Week and Have I Got News for You do not match that succession. Does not ask which programme she currently presents or confuse guest appearances with hosting.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "QI passed from Stephen Fry to Toksvig in 2016, explicitly stated in the actual biography. Would I Lie to You?, Mock the Week and Have I Got News for You do not match that succession. Does not ask which programme she currently presents or confuse guest appearances with hosting.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 37,
+      "prompt": "Which Grand Slam tennis tournament did Emma Raducanu win in 2021?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Raducanu won the 2021 US Open, stated in the actual lead. Wimbledon, Australian Open and French Open are the other offered singles majors, not that victory. Fixed result; no current ranking, record status or future career-total claim.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Raducanu won the 2021 US Open, stated in the actual lead. Wimbledon, Australian Open and French Open are the other offered singles majors, not that victory. Fixed result; no current ranking, record status or future career-total claim.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 38,
+      "prompt": "In which sport did Coco Gauff become a star?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Gauff became a tennis star. Actual biography identifies her professional sport directly. Golf, basketball and athletics do not match. Broad professional recognition makes this accessible; no changing title total or ranking used.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Gauff became a tennis star. Actual biography identifies her professional sport directly. Golf, basketball and athletics do not match. Broad professional recognition makes this accessible; no changing title total or ranking used.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 39,
+      "prompt": "With which sport is Naomi Osaka most closely associated?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Osaka is professionally associated with tennis, not badminton, table tennis or squash. Actual lead identifies her sport. Other racket sports are plausible alternatives, but no implication that she could never play them recreationally. Nationality and residence are not confused.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Osaka is professionally associated with tennis, not badminton, table tennis or squash. Actual lead identifies her sport. Other racket sports are plausible alternatives, but no implication that she could never play them recreationally. Nationality and residence are not confused.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 40,
+      "prompt": "In which sport did Sir Ben Ainslie win his Olympic gold medals?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Ainslie's Olympic gold medals were in sailing, not rowing, canoeing or swimming. Actual lead describes Olympic sailing results. No current team ownership, employment or claim about his still being the most successful sailor is needed.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Ainslie's Olympic gold medals were in sailing, not rowing, canoeing or swimming. Actual lead describes Olympic sailing results. No current team ownership, employment or claim about his still being the most successful sailor is needed.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 41,
+      "prompt": "In which Olympic sport did Tom Daley win gold?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Daley's Olympic gold was in diving. Actual biography identifies the synchronised platform title. Swimming, water polo and rowing are other sports; broad aquatic connection does not make swimming the medal discipline. No calendar-year ambiguity about the postponed Tokyo Games.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Daley's Olympic gold was in diving. Actual biography identifies the synchronised platform title. Swimming, water polo and rowing are other sports; broad aquatic connection does not make swimming the medal discipline. No calendar-year ambiguity about the postponed Tokyo Games.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 42,
+      "prompt": "Which swimming stroke is Adam Peaty particularly known for?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Breaststroke is Peaty's documented specialism. Actual sprint-breaststroke lead inspected. Backstroke, butterfly and freestyle do not match his best-known events. Does not claim he is physically unable to swim other strokes or use a changing world record.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Breaststroke is Peaty's documented specialism. Actual sprint-breaststroke lead inspected. Backstroke, butterfly and freestyle do not match his best-known events. Does not claim he is physically unable to swim other strokes or use a changing world record.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 43,
+      "prompt": "Which type of swimming event brought Rebecca Adlington her Olympic gold medals?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Adlington won Olympic freestyle events, explicitly 400m and 800m in the actual biography. Breaststroke, backstroke and butterfly do not match those events. Question asks event type rather than asserting freestyle rules require a single physical stroke.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Adlington won Olympic freestyle events, explicitly 400m and 800m in the actual biography. Breaststroke, backstroke and butterfly do not match those events. Question asks event type rather than asserting freestyle rules require a single physical stroke.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 44,
+      "prompt": "In which sport did Jade Jones win Olympic gold in 2012 and 2016?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Jones won those Olympic titles in taekwondo, stated in the actual lead. Boxing is a later career, so Olympic years are essential; judo and fencing do not match. Avoided a misleading present-tense question that could make boxing and taekwondo both defensible.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Jones won those Olympic titles in taekwondo, stated in the actual lead. Boxing is a later career, so Olympic years are essential; judo and fencing do not match. Avoided a misleading present-tense question that could make boxing and taekwondo both defensible.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 45,
+      "prompt": "In which combat sport did Nicola Adams become an Olympic champion?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Adams's Olympic championship sport was boxing, not judo, taekwondo or wrestling. Actual biography's London/Rio boxing titles inspected. Does not rely on changing professional records or confuse entertainment appearances with her sporting medals.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Adams's Olympic championship sport was boxing, not judo, taekwondo or wrestling. Actual biography's London/Rio boxing titles inspected. Does not rely on changing professional records or confuse entertainment appearances with her sporting medals.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 46,
+      "prompt": "In which sport did Katie Taylor win Olympic gold for Ireland in 2012?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Taylor won Ireland's London 2012 boxing gold. Actual Olympic career paragraphs inspected. Judo, taekwondo and fencing do not match. Her separate football career is not offered as a false alternative; no current retirement or title-count claim.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Taylor won Ireland's London 2012 boxing gold. Actual Olympic career paragraphs inspected. Judo, taekwondo and fencing do not match. Her separate football career is not offered as a false alternative; no current retirement or title-count claim.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 47,
+      "prompt": "In which sport is Simone Biles famous for her Olympic performances?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Biles is famous for Olympic gymnastics, not diving, athletics or swimming. Actual artistic-gymnast biography lead inspected. Does not mix artistic and rhythmic gymnastics as competing answers or use changing medal totals.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Biles is famous for Olympic gymnastics, not diving, athletics or swimming. Actual artistic-gymnast biography lead inspected. Does not mix artistic and rhythmic gymnastics as competing answers or use changing medal totals.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 48,
+      "prompt": "On which gymnastics apparatus did Max Whitlock win gold at both the 2016 and 2020 Olympics?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Pommel horse was Whitlock's gold apparatus at both named Olympic editions. Actual lead/Rio and Tokyo paragraphs checked. Parallel bars, horizontal bar and rings do not match. Edition wording matters because Tokyo 2020 took place in 2021; floor exercise is not a false alternative because he also won that in Rio.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Pommel horse was Whitlock's gold apparatus at both named Olympic editions. Actual lead/Rio and Tokyo paragraphs checked. Parallel bars, horizontal bar and rings do not match. Edition wording matters because Tokyo 2020 took place in 2021; floor exercise is not a false alternative because he also won that in Rio.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 49,
+      "prompt": "In which sport did Ellie Simmonds win her Paralympic gold medals?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Simmonds won Paralympic swimming golds, supported by the actual S6 swimming biography. Athletics, cycling and archery do not match. Correctly says Paralympic rather than Olympic; no unnecessary age, classification detail or changing record.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Simmonds won Paralympic swimming golds, supported by the actual S6 swimming biography. Athletics, cycling and archery do not match. Correctly says Paralympic rather than Olympic; no unnecessary age, classification detail or changing record.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 50,
+      "prompt": "Which activity is Hannah Cockroft particularly known for?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Cockroft is known for wheelchair racing, explicitly stated in the actual lead. Wheelchair tennis, swimming and archery are different activities. Wording does not incorrectly require wheelchair racing to be a separately named top-level Paralympic sport rather than an athletics discipline.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Cockroft is known for wheelchair racing, explicitly stated in the actual lead. Wheelchair tennis, swimming and archery are different activities. Wording does not incorrectly require wheelchair racing to be a separately named top-level Paralympic sport rather than an athletics discipline.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 51,
+      "prompt": "In which cue sport is Ronnie O'Sullivan best known?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "O'Sullivan's main professional cue sport is snooker. Actual lead inspected. Pool, carom billiards and English billiards are not his defining championship career. Best-known scope does not claim he has never played another cue game.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "O'Sullivan's main professional cue sport is snooker. Actual lead inspected. Pool, carom billiards and English billiards are not his defining championship career. Best-known scope does not claim he has never played another cue game.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 52,
+      "prompt": "In which sport did Luke Littler become famous under the nickname 'The Nuke'?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Littler's sport is darts and his nickname is The Nuke, both explicit in the actual biography. Snooker, boxing and tennis do not match that person. No current world ranking, age record or title total used.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Littler's sport is darts and his nickname is The Nuke, both explicit in the actual biography. Snooker, boxing and tennis do not match that person. No current world ranking, age record or title total used.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 53,
+      "prompt": "Which darts player is known as 'Cool Hand'?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Humphries is Cool Hand, not Littler, Price or van Gerwen. Actual lead explicitly gives the nickname. Cool Hand Luke is a longer variant, not offered as a competing answer; other choices are distinct darts players.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Humphries is Cool Hand, not Littler, Price or van Gerwen. Actual lead explicitly gives the nickname. Cool Hand Luke is a longer variant, not offered as a competing answer; other choices are distinct darts players.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 54,
+      "prompt": "In which cue sport did Judd Trump become a world champion?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Trump became world champion in snooker. Actual lead/career passages inspected. Pool, English billiards and carom billiards do not match the world title; participation in a pool event is not the same as winning its world championship. Historical achievement, no present ranking claim.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Trump became world champion in snooker. Actual lead/career passages inspected. Pool, English billiards and carom billiards do not match the world title; participation in a pool event is not the same as winning its world championship. Historical achievement, no present ranking claim.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 55,
+      "prompt": "Which sport made Mark Cavendish famous?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Cavendish's sport is cycling, not motor racing, rowing or marathon running. Actual biography describes both track and road careers. Cycling is intentionally broad; track and road are not offered as mutually exclusive answers when both would be true.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Cavendish's sport is cycling, not motor racing, rowing or marathon running. Actual biography describes both track and road careers. Cycling is intentionally broad; track and road are not offered as mutually exclusive answers when both would be true.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 56,
+      "prompt": "In which Olympic discipline did Sir Chris Hoy win his gold medals?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Hoy won his Olympic golds in track cycling. Actual lead states track cyclist and racing driver; the Olympic qualifier excludes his separate motor-racing career. Rowing, sailing and track athletics do not match. No all-time-record claim.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Hoy won his Olympic golds in track cycling. Actual lead states track cyclist and racing driver; the Olympic qualifier excludes his separate motor-racing career. Rowing, sailing and track athletics do not match. No all-time-record claim.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 57,
+      "prompt": "Which instrument is Yo-Yo Ma best known for playing?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Ma is a cellist, directly stated in the actual lead and training paragraphs. Violin, harp and flute do not match his principal instrument. No birth-country versus nationality confusion or changing award total.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Ma is a cellist, directly stated in the actual lead and training paragraphs. Violin, harp and flute do not match his principal instrument. No birth-country versus nationality confusion or changing award total.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 58,
+      "prompt": "Which instrument is classical musician Lang Lang known for playing?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Lang Lang is a classical pianist, directly stated in the actual lead. Cello, trumpet and harp do not match. Question does not claim he still judges The Piano, a role the biography says he left after its first two series.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Lang Lang is a classical pianist, directly stated in the actual lead. Cello, trumpet and harp do not match. Question does not claim he still judges The Piano, a role the biography says he left after its first two series.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 59,
+      "prompt": "Which string instrument is Nicola Benedetti known for playing?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Benedetti is a violinist, explicitly stated in the actual lead. Cello, double bass and harp do not match. Her separate festival-director role and changing appointments do not affect this stable instrument fact.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Benedetti is a violinist, explicitly stated in the actual lead. Cello, double bass and harp do not match. Her separate festival-director role and changing appointments do not affect this stable instrument fact.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 60,
+      "prompt": "Which instrument is Alison Balsom known for playing?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Balsom is known for trumpet, explicitly stated in the actual lead and lessons paragraph. Oboe, flute and saxophone do not match. Past/public recognition wording remains true after retirement; no current-performance schedule claim.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Balsom is known for trumpet, explicitly stated in the actual lead and lessons paragraph. Oboe, flute and saxophone do not match. Past/public recognition wording remains true after retirement; no current-performance schedule claim.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 61,
+      "prompt": "Which violinist founded the waltz-playing Johann Strauss Orchestra?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "André Rieu founded the Johann Strauss Orchestra, as described in the inspected biography. Kennedy, Bell and Perlman are violinists but did not found this orchestra. The waltz-playing qualifier identifies Rieu's ensemble rather than a similarly named historical group. Accents and orchestra name checked.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "André Rieu founded the Johann Strauss Orchestra, as described in the inspected biography. Kennedy, Bell and Perlman are violinists but did not found this orchestra. The waltz-playing qualifier identifies Rieu's ensemble rather than a similarly named historical group. Accents and orchestra name checked.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 62,
+      "prompt": "In which Winter Olympic sport did violinist Vanessa-Mae compete in 2014?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Vanessa-Mae competed in alpine skiing at the 2014 Winter Olympics, not skating, snowboarding or bobsleigh. Actual biography and Olympic Council of Asia newsletter passage naming Vanessa Vanakorn/Vanessa-Mae, Thailand, Sochi and alpine skiing inspected. Question asks participation only, without relying on later disputed qualification findings or results. The musician and athlete are the same person.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Vanessa-Mae competed in alpine skiing at the 2014 Winter Olympics, not skating, snowboarding or bobsleigh. Actual biography and Olympic Council of Asia newsletter passage naming Vanessa Vanakorn/Vanessa-Mae, Thailand, Sochi and alpine skiing inspected. Question asks participation only, without relying on later disputed qualification findings or results. The musician and athlete are the same person.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 63,
+      "prompt": "Which string instrument is Nigel Kennedy especially associated with?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Violin is Kennedy's especially associated string instrument. Actual biography identifies him as a violinist; cello, double bass and harp do not fit. He also plays viola and piano, so neither was offered as a false answer. Association wording avoids asserting that he plays only one instrument.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Violin is Kennedy's especially associated string instrument. Actual biography identifies him as a violinist; cello, double bass and harp do not fit. He also plays viola and piano, so neither was offered as a false answer. Association wording avoids asserting that he plays only one instrument.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 64,
+      "prompt": "Which voice type is Katherine Jenkins known for?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Katherine Jenkins is a mezzo-soprano, explicitly identified in the inspected biography. Soprano, contralto and tenor are distinct voice classifications, not three equally valid descriptions of her documented voice type. Hyphenation and her surname checked; no disputed classical-status claim needed.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Katherine Jenkins is a mezzo-soprano, explicitly identified in the inspected biography. Soprano, contralto and tenor are distinct voice classifications, not three equally valid descriptions of her documented voice type. Hyphenation and her surname checked; no disputed classical-status claim needed.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 65,
+      "prompt": "Before becoming a Strictly Come Dancing judge, Darcey Bussell was best known for which dance form?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Ballet was Bussell's established dance career before her Strictly judging. The inspected biography describes her Royal Ballet career. Flamenco, tap and Irish stepdance are distinct forms and do not match her principal career. Historical sequence avoids implying that she is still a judge.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Ballet was Bussell's established dance career before her Strictly judging. The inspected biography describes her Royal Ballet career. Flamenco, tap and Irish stepdance are distinct forms and do not match her principal career. Historical sequence avoids implying that she is still a judge.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 66,
+      "prompt": "With which dance form is Carlos Acosta most closely associated?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Acosta is principally associated with ballet, supported by the inspected dancer biography. Tap, flamenco and Irish stepdance are not his principal recognised form. Most closely associated wording allows his wider choreography and performance work without turning secondary interests into multiple correct answers.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Acosta is principally associated with ballet, supported by the inspected dancer biography. Tap, flamenco and Irish stepdance are not his principal recognised form. Most closely associated wording allows his wider choreography and performance work without turning secondary interests into multiple correct answers.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 67,
+      "prompt": "Which US ballet company appointed Misty Copeland its first Black female principal dancer in 2015?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "American Ballet Theatre appointed Copeland its first Black female principal in 2015. Actual official biography and dated promotion announcement corroborate the secondary biography. New York City Ballet, San Francisco Ballet and Boston Ballet are separate companies. Final stem explicitly says US ballet company, not the first Black principal across every company; year is stable and no disputed month is asked.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "American Ballet Theatre appointed Copeland its first Black female principal in 2015. Actual official biography and dated promotion announcement corroborate the secondary biography. New York City Ballet, San Francisco Ballet and Boston Ballet are separate companies. Final stem explicitly says US ballet company, not the first Black principal across every company; year is stable and no disputed month is asked.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 68,
+      "prompt": "Which dancer created the show Lord of the Dance?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Michael Flatley created Lord of the Dance, supported by the inspected biography. Acosta, Bussell and Bourne are other prominent dancers/choreographers but did not create that show. No implication that Flatley created Riverdance; the distinction matters for the following Butler question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Michael Flatley created Lord of the Dance, supported by the inspected biography. Acosta, Bussell and Bourne are other prominent dancers/choreographers but did not create that show. No implication that Flatley created Riverdance; the distinction matters for the following Butler question.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 69,
+      "prompt": "Which Irish dance show featured Jean Butler as its original principal female performer?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Riverdance featured Jean Butler as its original principal female performer, as described in her inspected career biography. Lord of the Dance, Feet of Flames and Celtic Tiger are other productions, not that original role. Original qualifier fixes the production period and avoids asking about every subsequent appearance.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Riverdance featured Jean Butler as its original principal female performer, as described in her inspected career biography. Lord of the Dance, Feet of Flames and Celtic Tiger are other productions, not that original role. Original qualifier fixes the production period and avoids asking about every subsequent appearance.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 70,
+      "prompt": "Which instrument is Jools Holland best known for playing?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Piano is Holland's best-known instrument, directly supported by the inspected musician biography. Flute, trombone and viola do not match his established performing role. Best-known wording does not require proving that he has never played another instrument.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Piano is Holland's best-known instrument, directly supported by the inspected musician biography. Flute, trombone and viola do not match his established performing role. Best-known wording does not require proving that he has never played another instrument.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 71,
+      "prompt": "Which band did Nile Rodgers co-found with Bernard Edwards?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Rodgers and Bernard Edwards co-founded Chic. The actual biography identifies that partnership and band. Earth, Wind & Fire, Kool & the Gang and the Commodores are other groups with different founders. Ampersands and co-found grammar checked; guest production work would not imply co-founding those groups.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Rodgers and Bernard Edwards co-founded Chic. The actual biography identifies that partnership and band. Earth, Wind & Fire, Kool & the Gang and the Commodores are other groups with different founders. Ampersands and co-found grammar checked; guest production work would not imply co-founding those groups.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 72,
+      "prompt": "Which youth style movement did Vivienne Westwood help bring into the mainstream?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Westwood helped bring punk into mainstream fashion. Actual lead inspected; mod, hippie and preppy do not fit this documented association. New wave is also mentioned by the source and therefore was deliberately not used as a wrong option. This is distinct from the existing question about her earlier teaching profession.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Westwood helped bring punk into mainstream fashion. Actual lead inspected; mod, hippie and preppy do not fit this documented association. New wave is also mentioned by the source and therefore was deliberately not used as a wrong option. This is distinct from the existing question about her earlier teaching profession.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 73,
+      "prompt": "Which sportswear brand began a collaboration with Stella McCartney in 2004?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Adidas began the McCartney collaboration in 2004, supported by the inspected career passage. Nike, Puma and Reebok do not match the named partnership. Began/year wording asks a historical event rather than whether a contract remains current; no claim that she has never worked with another sports company.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Adidas began the McCartney collaboration in 2004, supported by the inspected career passage. Nike, Puma and Reebok do not match the named partnership. Began/year wording asks a historical event rather than whether a contract remains current; no claim that she has never worked with another sports company.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 74,
+      "prompt": "Which craft formed an important part of Alexander McQueen's training before fashion college?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Tailoring was part of McQueen's training before fashion college; actual apprenticeship passages inspected. Pottery, bookbinding and glassblowing are different crafts and do not describe that training. This asks a different fact from the existing Givenchy appointment question. No changing corporate ownership detail used.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Tailoring was part of McQueen's training before fashion college; actual apprenticeship passages inspected. Pottery, bookbinding and glassblowing are different crafts and do not describe that training. This asks a different fact from the existing Givenchy appointment question. No changing corporate ownership detail used.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 75,
+      "prompt": "Who became Versace's creative director after Gianni Versace's death in 1997?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Donatella Versace became creative director after Gianni's death in 1997. Actual biography inspected; Wang, Philo and McCartney do not match that succession. Historical wording avoids incorrectly describing the company's current creative leadership. Name, possessive and year checked.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Donatella Versace became creative director after Gianni's death in 1997. Actual biography inspected; Wang, Philo and McCartney do not match that succession. Historical wording avoids incorrectly describing the company's current creative leadership. Name, possessive and year checked.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 76,
+      "prompt": "Which type of clothing is Vera Wang particularly famous for designing?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Wedding gowns are Vera Wang's particularly famous clothing category. Actual biography supports her bridal reputation. School uniforms, motorcycle leathers and military uniforms are not competing established answers. Figure-skating costumes were deliberately excluded as wrong options because she has designed them too.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Wedding gowns are Vera Wang's particularly famous clothing category. Actual biography supports her bridal reputation. School uniforms, motorcycle leathers and military uniforms are not competing established answers. Figure-skating costumes were deliberately excluded as wrong options because she has designed them too.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 77,
+      "prompt": "What is the signature sole colour of Christian Louboutin shoes?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Red is the signature sole colour of Christian Louboutin shoes. Actual biography describes the red sole association. Blue, green and gold do not match the signature. Signature wording does not assert that every item ever sold has a red sole; surname and British colour spelling checked.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Red is the signature sole colour of Christian Louboutin shoes. Actual biography describes the red sole association. Blue, green and gold do not match the signature. Signature wording does not assert that every item ever sold has a red sole; surname and British colour spelling checked.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 78,
+      "prompt": "Which fashion item originally made Jimmy Choo's name as a designer?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Shoes originally made Jimmy Choo's name as a designer. The inspected biography describes his shoemaking career. Hats, scarves and watches do not match that origin. Handbags were not used as a false option because the broader brand sells them; designer-origin wording distinguishes a person's craft from the brand's later range.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Shoes originally made Jimmy Choo's name as a designer. The inspected biography describes his shoemaking career. Hats, scarves and watches do not match that origin. Handbags were not used as a false option because the broader brand sells them; designer-origin wording distinguishes a person's craft from the brand's later range.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 79,
+      "prompt": "What type of fashion item is Manolo Blahnik particularly known for designing?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Shoes are Manolo Blahnik's particularly recognised design field. Actual biography inspected; hats, watches and scarves are not competing principal answers. Wording does not deny that an established fashion business could later sell other products. Correct spelling and ordinary plural nouns checked.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Shoes are Manolo Blahnik's particularly recognised design field. Actual biography inspected; hats, watches and scarves are not competing principal answers. Wording does not deny that an established fashion business could later sell other products. Correct spelling and ordinary plural nouns checked.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 80,
+      "prompt": "Which style of dress is Diane von Fürstenberg particularly known for?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "The wrap dress is von Fürstenberg's signature association. Actual biography inspected. Ball gown, shift dress and halter dress do not match the specifically recognised style. Particularly known for avoids falsely claiming that she invented all wrap dresses. Umlaut and lowercase von retained correctly.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "The wrap dress is von Fürstenberg's signature association. Actual biography inspected. Ball gown, shift dress and halter dress do not match the specifically recognised style. Particularly known for avoids falsely claiming that she invented all wrap dresses. Umlaut and lowercase von retained correctly.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 81,
+      "prompt": "Which designer was Céline's creative director from 2008 to 2017?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Phoebe Philo was Céline's creative director from 2008 to 2017. Actual biography inspected. Wang, McCartney and Versace did not occupy that role during the stated interval. Historical brand accent and dates checked; no implication that she remains there or that her later label is Céline.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Phoebe Philo was Céline's creative director from 2008 to 2017. Actual biography inspected. Wang, McCartney and Versace did not occupy that role during the stated interval. Historical brand accent and dates checked; no implication that she remains there or that her later label is Céline.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 82,
+      "prompt": "What was Antoni Porowski's specialty in the original Netflix Queer Eye lineup?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Food and wine was Porowski's original Netflix Queer Eye specialty. Actual biography inspected. Interior design, fashion and grooming were other team members' areas. Original Netflix scope distinguishes this team from the earlier series and later personnel; no professional chef qualification asserted.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Food and wine was Porowski's original Netflix Queer Eye specialty. Actual biography inspected. Interior design, fashion and grooming were other team members' areas. Original Netflix scope distinguishes this team from the earlier series and later personnel; no professional chef qualification asserted.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 83,
+      "prompt": "Which area was Tan France's specialty in the original Netflix Queer Eye lineup?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Fashion was Tan France's specialty in the original Netflix lineup. Actual biography inspected; food and wine, grooming and interior design belonged to other members. Exact name search false matches to Metropolitan France were disregarded. Same lineup scope as neighbouring questions; standalone question remains clear.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Fashion was Tan France's specialty in the original Netflix lineup. Actual biography inspected; food and wine, grooming and interior design belonged to other members. Exact name search false matches to Metropolitan France were disregarded. Same lineup scope as neighbouring questions; standalone question remains clear.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 84,
+      "prompt": "What was Jonathan Van Ness's specialty in the original Netflix Queer Eye lineup?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Grooming was Jonathan Van Ness's original Netflix specialty, supported by the inspected biography. Food and wine, interior design and fashion are other lineup areas. Van Ness's possessive is grammatically valid. Historical team role, not a claim that grooming exhausts their career.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Grooming was Jonathan Van Ness's original Netflix specialty, supported by the inspected biography. Food and wine, interior design and fashion are other lineup areas. Van Ness's possessive is grammatically valid. Historical team role, not a claim that grooming exhausts their career.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 85,
+      "prompt": "What was Bobby Berk's specialty on the Netflix series Queer Eye?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Interior design was Bobby Berk's Queer Eye specialty. Actual biography describes his role and departure after the early seasons. Food and wine, grooming and fashion were other members' roles. Past-tense was avoids presenting him as an indefinitely current cast member.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Interior design was Bobby Berk's Queer Eye specialty. Actual biography describes his role and departure after the early seasons. Food and wine, grooming and fashion were other members' roles. Past-tense was avoids presenting him as an indefinitely current cast member.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 86,
+      "prompt": "Which area was Karamo Brown's specialty in the original Netflix Queer Eye lineup?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Culture was Karamo Brown's specialty in the original Netflix lineup. Actual biography inspected. Food and wine, grooming and interior design are the other offered team roles. Official role label makes this specific; it is not a vague claim that one member alone has a culture.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Culture was Karamo Brown's specialty in the original Netflix lineup. Actual biography inspected. Food and wine, grooming and interior design are the other offered team roles. Official role label makes this specific; it is not a vague claim that one member alone has a culture.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 87,
+      "prompt": "Which makeover programme helped make Gok Wan widely known in 2006?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "How to Look Good Naked helped establish Gok Wan's television profile in 2006. Actual biography inspected. What Not to Wear, Ten Years Younger and Style Challenge are other makeover shows. A show question avoids falsely offering chef or DJ as wrong professions, since he has worked in those areas too.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "How to Look Good Naked helped establish Gok Wan's television profile in 2006. Actual biography inspected. What Not to Wear, Ten Years Younger and Style Challenge are other makeover shows. A show question avoids falsely offering chef or DJ as wrong professions, since he has worked in those areas too.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 88,
+      "prompt": "Who formed the original presenting duo with Trinny Woodall on the BBC's What Not to Wear?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Susannah Constantine formed the original BBC What Not to Wear duo with Trinny Woodall. Actual biography inspected. Mary Portas, Kelly Hoppen and Gok Wan are other television/style personalities, not that duo partner. Original BBC scope distinguishes adaptations and later unrelated programmes.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Susannah Constantine formed the original BBC What Not to Wear duo with Trinny Woodall. Actual biography inspected. Mary Portas, Kelly Hoppen and Gok Wan are other television/style personalities, not that duo partner. Original BBC scope distinguishes adaptations and later unrelated programmes.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 89,
+      "prompt": "With which design field is Kelly Hoppen particularly associated?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Interior design is Hoppen's principal design field, supported by the inspected biography. Fashion, jewellery and automotive design do not match her principal recognition. Particularly associated wording does not make an absolute assertion about every commercial collaboration.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Interior design is Hoppen's principal design field, supported by the inspected biography. Fashion, jewellery and automotive design do not match her principal recognition. Particularly associated wording does not make an absolute assertion about every commercial collaboration.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 90,
+      "prompt": "What is Nicky Clarke's best-known profession?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Hairdresser is Nicky Clarke's best-known profession. Actual biography identifies the celebrity hairdresser. Makeup artist, interior designer and jeweller do not match that established role. Distinguishes the person from the hair-products brand; no current salon ownership claim.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Hairdresser is Nicky Clarke's best-known profession. Actual biography identifies the celebrity hairdresser. Makeup artist, interior designer and jeweller do not match that established role. Distinguishes the person from the hair-products brand; no current salon ownership claim.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 91,
+      "prompt": "What profession did Charlotte Tilbury build her career in before launching her cosmetics brand?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Charlotte Tilbury built her career as a makeup artist before launching her cosmetics brand. Actual training and assistant/career passages inspected. Perfumer, nail technician and hair colourist do not describe that founding career. Past-career wording avoids confusing her later brand's perfume and beauty product range with her earlier profession.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Charlotte Tilbury built her career as a makeup artist before launching her cosmetics brand. Actual training and assistant/career passages inspected. Perfumer, nail technician and hair colourist do not describe that founding career. Past-career wording avoids confusing her later brand's perfume and beauty product range with her earlier profession.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 92,
+      "prompt": "Which performance art is Derren Brown particularly known for?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Mentalism and illusion describe Derren Brown's recognised performance work. Actual biography inspected. Opera, ballet and circus acrobatics do not match that work. Painting was excluded as a false choice because he also paints. Wording makes no claim that supernatural powers are real.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Mentalism and illusion describe Derren Brown's recognised performance work. Actual biography inspected. Opera, ballet and circus acrobatics do not match that work. Painting was excluded as a false choice because he also paints. Wording makes no claim that supernatural powers are real.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 93,
+      "prompt": "Which magician came to wide television attention with Street Magic in 1997?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "David Blaine's Street Magic television special appeared in 1997. Actual biography inspected. Brown, Angel and Copperfield are different performers, not the star of that special. Specific title/year anchors a historical event rather than a vague question about who performs street magic.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "David Blaine's Street Magic television special appeared in 1997. Actual biography inspected. Brown, Angel and Copperfield are different performers, not the star of that special. Specific title/year anchors a historical event rather than a vague question about who performs street magic.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 94,
+      "prompt": "Which magician is Teller's speaking partner in their double act?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Penn Jillette is Teller's speaking partner in the double act, supported by the inspected Penn biography. Blaine, Brown and Copperfield are other magicians. Speaking-partner wording describes the act, not an assertion that Teller never speaks in private or on any occasion.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Penn Jillette is Teller's speaking partner in the double act, supported by the inspected Penn biography. Blaine, Brown and Copperfield are other magicians. Speaking-partner wording describes the act, not an assertion that Teller never speaks in private or on any occasion.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 95,
+      "prompt": "In which US city have Penn and Teller had a long-running residency at the Rio?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Las Vegas is the Rio residency's city, supported by the same inspected Penn career biography. Los Angeles, New York and San Francisco do not match that venue. Long-running residency wording asks its location, not a current nightly schedule. Distinct fact from naming the speaking partner; reverse Teller identity draft was rejected as redundant.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Las Vegas is the Rio residency's city, supported by the same inspected Penn career biography. Los Angeles, New York and San Francisco do not match that venue. Long-running residency wording asks its location, not a current nightly schedule. Distinct fact from naming the speaking partner; reverse Teller identity draft was rejected as redundant.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 96,
+      "prompt": "Which magician starred in the television series Mindfreak?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Criss Angel starred in Mindfreak, supported by the inspected biography. Blaine, Brown and Jillette are other performers. Short show title avoids giving Angel's name away in the stem while remaining identifiable. Spelling Criss, not Chris, checked.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Criss Angel starred in Mindfreak, supported by the inspected biography. Blaine, Brown and Jillette are other performers. Short show title avoids giving Angel's name away in the stem while remaining identifiable. Spelling Criss, not Chris, checked.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 97,
+      "prompt": "Which illusionist made the Statue of Liberty appear to disappear in a 1983 television special?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "David Copperfield made the Statue of Liberty appear to disappear in the 1983 television illusion. Actual biography inspected. Blaine, Brown and Angel do not match that performance. Appear to disappear avoids saying that the statue literally vanished; illusionist distinguishes the performer from Dickens's fictional character. Other existing Copperfield questions concern different events.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "David Copperfield made the Statue of Liberty appear to disappear in the 1983 television illusion. Actual biography inspected. Blaine, Brown and Angel do not match that performance. Appear to disappear avoids saying that the statue literally vanished; illusionist distinguishes the performer from Dickens's fictional character. Other existing Copperfield questions concern different events.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 98,
+      "prompt": "What is Professor Brian Cox's academic discipline?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Physics is Professor Brian Cox's academic discipline, supported by the inspected scientist biography. Chemistry, archaeology and computer science do not match. Professor distinguishes him from the actor. Music and astronomy were deliberately excluded as wrong choices because his musician history and astrophysical work could make them defensible.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Physics is Professor Brian Cox's academic discipline, supported by the inspected scientist biography. Chemistry, archaeology and computer science do not match. Professor distinguishes him from the actor. Music and astronomy were deliberately excluded as wrong choices because his musician history and astrophysical work could make them defensible.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 99,
+      "prompt": "Which BBC astronomy programme did Maggie Aderin-Pocock join as a co-presenter in 2014?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "The Sky at Night is the BBC astronomy programme Aderin-Pocock joined as co-presenter in 2014. Actual biography inspected. Countryfile, Antiques Roadshow and University Challenge do not match the stated astronomy role. Public professional name and historical date checked; no current legal-name claim or unchanged-future-hosting assumption.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "The Sky at Night is the BBC astronomy programme Aderin-Pocock joined as co-presenter in 2014. Actual biography inspected. Countryfile, Antiques Roadshow and University Challenge do not match the stated astronomy role. Public professional name and historical date checked; no current legal-name claim or unchanged-future-hosting assumption.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    },
+    {
+      "row": 100,
+      "prompt": "Who has been a regular presenter of both The Really Wild Show and Springwatch?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Chris Packham regularly presented both The Really Wild Show and Springwatch, supported by the inspected career biography. Titchmarsh, Don and Dimmock are chiefly gardening presenters and do not match that pair. Michaela Strachan was excluded as a wrong answer because she also presented both. Both-series qualifier and regular role make the offered answer unique.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Chris Packham regularly presented both The Really Wild Show and Springwatch, supported by the inspected career biography. Titchmarsh, Don and Dimmock are chiefly gardening presenters and do not match that pair. Michaela Strachan was excluded as a wrong answer because she also presented both. Both-series qualifier and regular role make the offered answer unique.",
+      "sourceReview": "Actual relevant biography/career passages individually inspected; primarily secondary sources, with primary corroboration only in the specific cases described in source-access.json. Final question and all four choices author-reviewed, not independently reviewed."
+    }
+  ]
+}

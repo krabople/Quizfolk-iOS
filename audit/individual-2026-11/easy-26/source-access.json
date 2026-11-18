@@ -1,0 +1,1112 @@
+{
+  "date": "2026-11-18",
+  "note": "100 Celebrities additions individually author-reviewed against relevant actual biography/career passages, followed by a reread of all final stems and all four options for meaning, sole correct offered answer, grammar and category fit. This is an author editorial pass, explicitly not independent review. Most references are secondary encyclopaedia biographies. Hairy Bikers official indexed biography, Newcastle graduate profile, Olympic Council of Asia newsletter and Misty Copeland official biography/promotion announcement provide specifically scoped primary corroboration. Source retrieval alone was not counted as review; initial Dave Myers and George Clarke disambiguation pages were rejected in favour of the correct presenter biographies. A BBC-lookalike pages.dev result was rejected, not treated as BBC evidence. Claudia Traitors-host draft duplicated an existing Television question and was replaced by the historical Tess Daly co-presenting question. Further semantic/name checks distinguished same-name musicians, fictional characters and incidental substrings. Alternate true professions, instruments, co-presenters and historical roles were excluded from wrong answers. Historical qualifiers avoid current ownership, current presenters and later role changes. Final lexical check and fingerprint/whole-bank checks are separate structural safeguards, not substitutes for editorial judgment.",
+  "references": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Adam_Peaty",
+      "questionRows": [
+        42
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "59771fb0a0e3e11f81024e0eedcfd7dfb4f75533a019914b1ec6500e68c2fd7b",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Adam_Peaty",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ainsley_Harriott",
+      "questionRows": [
+        7
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "55ad839a6955a2066fea9854bd0cd66c3e27da622ab2718ee555638a774716ae",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Ainsley_Harriott",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Alex_Horne",
+      "questionRows": [
+        24
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "9eb9591e22912eacf4b12efa19ed7a102b7e59d99180ae0d86bd6a72e434e4ef",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Alex_Horne",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Alexander_McQueen",
+      "questionRows": [
+        74
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "307b7a51528c9f396dff10e4c4a0320e570413c675e3a87cc56003bbd0b09ec1",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Alexander_McQueen",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Alison_Balsom",
+      "questionRows": [
+        60
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "25ef7e0f5fae279a89f3fcc6b86e2093920a54e7fdd1bedef4f531fc631d9f0c",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Alison_Balsom",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Andr%C3%A9_Rieu",
+      "questionRows": [
+        61
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "f9fc2caf0e1fd85d69c0e0d3441f2a64ba987d71402dd4cf99e1456df01e75ce",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Andr%C3%A9_Rieu",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Angela_Hartnett",
+      "questionRows": [
+        19
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "8019c8ae1b5e88ddea891ed3f82d96b5f562a128c4efeeda487e922c285b9337",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Angela_Hartnett",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Antoni_Porowski",
+      "questionRows": [
+        82
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "33e6e97f66316b5422c15b2cd76a306ba7151779160905de4ab838854f7e23b9",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Antoni_Porowski",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ben_Ainslie",
+      "questionRows": [
+        40
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "e9baf5764c91be94b43cf5eccf4abc3ba45099f2c8bbcc2528ee3c11029eb403",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Ben_Ainslie",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bobby_Berk",
+      "questionRows": [
+        85
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "889d9485ef65aa17d61d826496939a976306ee93b3188e62c6f119c82538a342",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Bobby_Berk",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Brian_Cox_%28physicist%29",
+      "questionRows": [
+        98
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "c8fff80ff6f336efdfb2681db8918f5f61227482aa884de4d1da0670132380d8",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Brian_Cox_%28physicist%29",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Carlos_Acosta",
+      "questionRows": [
+        66
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "421e0ff8f01b012b20eb4e19d006c495b49b3636f7467b757127c6a605cab3d9",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Carlos_Acosta",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Charlotte_Tilbury",
+      "questionRows": [
+        91
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "323bddf58bb0e518bd206a9c25b58ada409ac0d569a6932a75d9c627656bf2b2",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Charlotte_Tilbury",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Chris_Hoy",
+      "questionRows": [
+        56
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "aefbf09b4c62fe9b1c57356f05b7c29f1a34dd7111522f42082ed0127d4de0b9",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Chris_Hoy",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Chris_Packham",
+      "questionRows": [
+        100
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "e89f3b4ce0bdd64fef1c3791c8aefe191d0f6c3d8c500348c0c5b65fe7dd049b",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Chris_Packham",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Christian_Louboutin",
+      "questionRows": [
+        77
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "42fc1d07e1ed5eb9030ed2293d63a516ca3cb66f16cb11dfb904a6050050a19c",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Christian_Louboutin",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Claudia_Winkleman",
+      "questionRows": [
+        23
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "e3c174edbf83f27575d5e5b781b7138b5fa5ba43915494fe1ed3c6bdaaa04f4f",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Claudia_Winkleman",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Coco_Gauff",
+      "questionRows": [
+        38
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "1e9b40a12b146a9a8b89ada17bab642b082a380bca3d877d012439761ab99bfe",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Coco_Gauff",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Criss_Angel",
+      "questionRows": [
+        96
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "8ad966289e91cd4e6af9e5606fc587ed7c5c0136aca890cabe225d00e56e4977",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Criss_Angel",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Darcey_Bussell",
+      "questionRows": [
+        65
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "05ff83014b884e294be204de179a560eb7f64a09b533814b79111913c6dc9d71",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Darcey_Bussell",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/David_Blaine",
+      "questionRows": [
+        93
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "a36d4fbbd6c2f55bdbb973c6fb0e6c9a255cb10f23a1e1073370f2761475bac5",
+      "resolvedURL": "https://en.wikipedia.org/wiki/David_Blaine",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/David_Copperfield_%28illusionist%29",
+      "questionRows": [
+        97
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "1931ff002d6cce6b2101a2699e00bd62c4569b7f986177ab6710373b44ae48bf",
+      "resolvedURL": "https://en.wikipedia.org/wiki/David_Copperfield_%28illusionist%29",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/David_Dickinson",
+      "questionRows": [
+        34
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "8c998379fcdfc432ce4d97b26727425b36f14bc54abd29267218bfefd69f0abf",
+      "resolvedURL": "https://en.wikipedia.org/wiki/David_Dickinson",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Delia_Smith",
+      "questionRows": [
+        12
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "aa2060b6a74b10dba2d7fcd9681e097337567281d02ec50925c00bbd40281436",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Delia_Smith",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Derren_Brown",
+      "questionRows": [
+        92
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "a4a0334e5379b7a4817689b3dc78c55a286da9a25d37a66f2d5e662068a4f46e",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Derren_Brown",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Diane_von_F%C3%BCrstenberg",
+      "questionRows": [
+        80
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "99a122476322cfcc07d96fe61a6eaefb69aae6cda9ee66261fddc71b69c194ba",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Diane_von_F%C3%BCrstenberg",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Donatella_Versace",
+      "questionRows": [
+        75
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "401ad48f16fdb79f45c64a9de19a7fabfee612e622cd701569c3d4b56481593a",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Donatella_Versace",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ellie_Simmonds",
+      "questionRows": [
+        49
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "8359fa70cfd5f603b0b492895b42d7411fda230d4581b39ba9f5c7eb62619a3f",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Ellie_Simmonds",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Emma_Raducanu",
+      "questionRows": [
+        37
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "7d7959d483b0546d08020726703fac0d69cf988aaf165526b0d957785a9c7b4e",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Emma_Raducanu",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Fiona_Bruce",
+      "questionRows": [
+        33
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "e7e9e81ba722895b9dba0901c8b91b376dd280243c518175996504617b5cf304",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Fiona_Bruce",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/George_Clarke_%28television_presenter%29",
+      "questionRows": [
+        31
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "6ce729621f6fd75561bacadc3abf9ae65f8c84ea203da106ebf6b31a458db684",
+      "resolvedURL": "https://en.wikipedia.org/wiki/George_Clarke_%28television_presenter%29",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Gino_D%27Acampo",
+      "questionRows": [
+        8
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "c7b3a8c8f2acb61a51532d5bfda2b9ed160b375adf84fb98f413aee993dcfe8e",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Gino_D%27Acampo",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Gok_Wan",
+      "questionRows": [
+        87
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "53659f915c7a344050bd87c444325b7def5363ecb6f0e7f1bfa3f7145858fe35",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Gok_Wan",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Gordon_Ramsay",
+      "questionRows": [
+        2
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "5f4ffcbc042abc2955ff9407fc003a810588eeae19346889201a329ca353a770",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Gordon_Ramsay",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Graham_Norton",
+      "questionRows": [
+        22
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "6cef9279ae3cbc4adbbd3697df9e89af8d4ba4ac13d8ce910aa64f4b27f83ebf",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Graham_Norton",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Greg_Davies",
+      "questionRows": [
+        25
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "6b5c773e3d0bede9df3561dc4637a5eec07ac902e07f11eded08c312637d7e21",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Greg_Davies",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Hannah_Cockroft",
+      "questionRows": [
+        50
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "d96f2e7d766ea4f2e08fe7173e259ca45ac6e0329415dffdad77eb11aa9eb543",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Hannah_Cockroft",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Heston_Blumenthal",
+      "questionRows": [
+        16
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "32625debf9188f3a15af45ece8ef79cecc464196f77d92d77761b40565050f61",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Heston_Blumenthal",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Jade_Jones_%28taekwondo%29",
+      "questionRows": [
+        44
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "4bf73c3dd47ea496fde8c7aa251760ddc2276da5d48075d737afa45da18e70df",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Jade_Jones_%28taekwondo%29",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/James_Martin_%28chef%29",
+      "questionRows": [
+        9
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "f308ff2912553b35364ad2226cc336a4a252613dd5bf40850088aaeae9ea4cdd",
+      "resolvedURL": "https://en.wikipedia.org/wiki/James_Martin_%28chef%29",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Jamie_Oliver",
+      "questionRows": [
+        1
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "c312988ba17b85c649a6aa3c5e48c2051a21ddd1c5a5d3610d68502ea5b88a44",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Jamie_Oliver",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Jean_Butler",
+      "questionRows": [
+        69
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "07b1346bea1fbd447c7d304a9baf8f90dac3cdf7f75977221bdb351835d7b1ac",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Jean_Butler",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Jeremy_Clarkson",
+      "questionRows": [
+        21
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "b9162a3622574256b6705910cddfc32cf1acb41500e732f36ea3399fe51b276f",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Jeremy_Clarkson",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Jimmy_Choo",
+      "questionRows": [
+        78
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "615d1f1294d30eea5e3f0fe946abf44e4d70139ea6afe31f13722b96a7d01ad1",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Jimmy_Choo",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Jo_Brand",
+      "questionRows": [
+        26
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "9b8809c4c54ef482246066b3f635d67794179bb7c17ac30696708c230ee57521",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Jo_Brand",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Jonathan_Van_Ness",
+      "questionRows": [
+        84
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "8c17a93094518a94f32a1c27993b80d8a0019c87a1390a8234f23661e35db96b",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Jonathan_Van_Ness",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Jools_Holland",
+      "questionRows": [
+        70
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "74e017334e1dd3d6e38b59545224b59ec5e1f6823421ed44640cddd5444ea25f",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Jools_Holland",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Judd_Trump",
+      "questionRows": [
+        54
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "9f02eaeb12f968435ad220aac1077e990156c42591efa0d778067352368aec98",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Judd_Trump",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Karamo_Brown",
+      "questionRows": [
+        86
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "3a54faa9c701ef9c6a86fa6de2d9f4a3aabb631266dcf75f6d746ba87767fbde",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Karamo_Brown",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Katherine_Jenkins",
+      "questionRows": [
+        64
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "6656fabf0648a887c257f457b28f3095e3e849397276c078bbc86d26d4b12715",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Katherine_Jenkins",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Katie_Taylor",
+      "questionRows": [
+        46
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "af9b669607066adf6053baf1d9b4d6da1b5f0754b7f567f36b795ba33804721f",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Katie_Taylor",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Kelly_Hoppen",
+      "questionRows": [
+        89
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "0bc408a832909ce913073b8c7ee8bbc2f39dad69074137eba728954235937c79",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Kelly_Hoppen",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Kevin_McCloud",
+      "questionRows": [
+        30
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "7ed4623978e70da4f2fe3ecdea25d6bf18f0fc9db38cd7d59749d74beb9cf010",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Kevin_McCloud",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lang_Lang",
+      "questionRows": [
+        58
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "008ee5216ab7b60f1ff73f0d5cead92bcbc07f7d762ab761be662da8cedb00fc",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Lang_Lang",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lee_Mack",
+      "questionRows": [
+        28
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "7348f06b526ee271235277678beebd42e7c2409ba503f745670288aece33b4ca",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Lee_Mack",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Luke_Humphries",
+      "questionRows": [
+        53
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "391a68f36acf03f4b89932c53ff6b63279e2783c92d6d4ade9b7a79e4b5f2fc7",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Luke_Humphries",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Luke_Littler",
+      "questionRows": [
+        52
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "b1737c84fc9790276853edd2451728834ddf6205d4d2965204b9cfe5ca073ffe",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Luke_Littler",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Maggie_Aderin-Pocock",
+      "questionRows": [
+        99
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "690b6ec72262a19228ff91d7d118930e86b69d2425d3103c56e097ebe785087f",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Maggie_Aderin-Pocock",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Manolo_Blahnik",
+      "questionRows": [
+        79
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "cbc5492bfbe40698a8ee0d392d4dcc2eb6f42702c5db9926b76e6c48d0f612f7",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Manolo_Blahnik",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Marcus_Wareing",
+      "questionRows": [
+        14
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "72281adc3b6745daeaa870eca519bb4a73cd4ff2c9f02019c0e95351736ad621",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Marcus_Wareing",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mark_Cavendish",
+      "questionRows": [
+        55
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "528b843dda6642fc2ff33e1596ab0d69ea84f5432b8bcdd4e95324446e3db3b6",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Mark_Cavendish",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mary_Berry",
+      "questionRows": [
+        4
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "5b72a41d064c4fe417ed777d49b71b379d3ecf91ca47c482cc85236887488c17",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Mary_Berry",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Max_Whitlock",
+      "questionRows": [
+        48
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "740cd6ac79b9ecdd0e0152db25f800f87912fce2d5debd24686b41f995f231e5",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Max_Whitlock",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Michael_Flatley",
+      "questionRows": [
+        68
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "8605144e5e7198196152c3a8b501fb31c351c408319ebb3286c0104f3af858a9",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Michael_Flatley",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Michael_McIntyre",
+      "questionRows": [
+        29
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "20354fd9cf793d068b5f7cd8e7b8304f4ea91b4d98366d4d12df808ae5c7f8f5",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Michael_McIntyre",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Michel_Roux_Jr.",
+      "questionRows": [
+        15
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "7164f10fe2f815a132a15b8e48fac2cdedf05be0a591cc454b3b24efb7cc1624",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Michel_Roux_Jr.",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Misty_Copeland",
+      "questionRows": [
+        67
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "c0504eae8bd865783ae078d126c068c7175425329f0fef54ec9e9826cd351aa1",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Misty_Copeland",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Nadiya_Hussain",
+      "questionRows": [
+        6
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "3efc73ca4e9e8de533375fa7e5230139675ae80838f7b2ea277a3f32c364e901",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Nadiya_Hussain",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Naomi_Osaka",
+      "questionRows": [
+        39
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "73e738892dd08baab1aa42f48018e5eac2ae667f20a2413b7a920aacc029b2de",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Naomi_Osaka",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Nick_Knowles",
+      "questionRows": [
+        32
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "935bc584043f8a4616c0ed0c2199ba15cbf50d29e75f2a0c6dc937992029c295",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Nick_Knowles",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Nicky_Clarke",
+      "questionRows": [
+        90
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "cc326697bec0e5f407ceabdab52093c3e6201f8a695ad985c534beb3128f17d7",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Nicky_Clarke",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Nicola_Adams",
+      "questionRows": [
+        45
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "dc6118d9720bd2852be1e75df572e75f7950440ec00847f5ed3e2a03569dea3c",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Nicola_Adams",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Nicola_Benedetti",
+      "questionRows": [
+        59
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "50c96199e5781e423b997734371567f99ae5da24bafbe4015d5f6e9d440671c0",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Nicola_Benedetti",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Nigel_Kennedy",
+      "questionRows": [
+        63
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "da4f895bbea112da2777db736aa09702f65a5406e38ea5e82514ecb49d3c3c75",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Nigel_Kennedy",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Nigella_Lawson",
+      "questionRows": [
+        3
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "af4cf2836751877f914de37c86f9d40de2137afa564fb3a9b364ec0b45e38050",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Nigella_Lawson",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Nile_Rodgers",
+      "questionRows": [
+        71
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "da4c8a6ebc1be55b47580709f01226d9b7a1e05d309023c62871a6331554b9d7",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Nile_Rodgers",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Paul_Hollywood",
+      "questionRows": [
+        5
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "13ee2bafc348184fb91fb8b36dad01ff574c57efab2a8fec52cd1e2443146b49",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Paul_Hollywood",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Penn_Jillette",
+      "questionRows": [
+        94,
+        95
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "e49eebf60b3e99bb2240270fc11cd4d35c808fe819041bff8650ab5c5d80a83f",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Penn_Jillette",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Phoebe_Philo",
+      "questionRows": [
+        81
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "4fdeed8826d35ef2c1f464e8d3d62501cf1ae41e5e87642759098977d517fcaa",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Phoebe_Philo",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Prue_Leith",
+      "questionRows": [
+        17
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "5cfa09f692d681b89cd313da1ef272ec1f145ee1a6e2bc999f09422a040cf072",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Prue_Leith",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Rebecca_Adlington",
+      "questionRows": [
+        43
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "ec606c1d37732970ed11e78854a54158a71b4a29efda8da4a4c38e6433a201a0",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Rebecca_Adlington",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Richard_Osman",
+      "questionRows": [
+        35
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "7526f62c38a4d255d4c2ad90cf0b4be09bcba8c5f6d35d922a900bf7c3a4c956",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Richard_Osman",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Rick_Stein",
+      "questionRows": [
+        10
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "604e6b8cf9f611581380170948370bd78321a2a058e82bab24b7c28851560624",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Rick_Stein",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Romesh_Ranganathan",
+      "questionRows": [
+        27
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "40f40e49427406cccf04c12e10264d306cf25338a9f4c7cd10f9b1d7854e5133",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Romesh_Ranganathan",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ronnie_O%27Sullivan",
+      "questionRows": [
+        51
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "87a4d9acbc81c47106c41357daf262550e216c9a8ea2536061259ec254f6aa8c",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Ronnie_O%27Sullivan",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Samin_Nosrat",
+      "questionRows": [
+        20
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "bc681bb040e6e8130d3f40f68a7c4b7dcb63e2a8af44ed5926eb92899fc92ded",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Samin_Nosrat",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sandi_Toksvig",
+      "questionRows": [
+        36
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "13f2dc4028911f1487dd7e75b05ba038e8e45f593edabd1fd72e73e653d73c0a",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Sandi_Toksvig",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Simone_Biles",
+      "questionRows": [
+        47
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "a83da0560a27ae1389489140a571cf2e5b2f0c0c3db141c53b0d14a57141ca7e",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Simone_Biles",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Stella_McCartney",
+      "questionRows": [
+        73
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "1bafacf4427adfa84d55e227f817e98e81e7a8b8b284e3331ead88963c63b763",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Stella_McCartney",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tan_France",
+      "questionRows": [
+        83
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "ff952063241a15b86724f56a544cbaa1b0d58e56d40ba716f7b9f9840e96fc39",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Tan_France",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tom_Daley",
+      "questionRows": [
+        41
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "b49a404f7ff076e5b4df45e179bca46dcf8c17b95eb1094844fc8ebbcb00494b",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Tom_Daley",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tom_Kerridge",
+      "questionRows": [
+        13
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "deac885fb1c88cb070da637d99eaec753546afb60a84dfd553af17995177012f",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Tom_Kerridge",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Trinny_Woodall",
+      "questionRows": [
+        88
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "47d8eb6e02507a7e39e11d46cd60525946f4c5c0918f27f5a9c946f0687fefdf",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Trinny_Woodall",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Vanessa-Mae",
+      "questionRows": [
+        62
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "413c1ea761168fad4943a88f7bd0d5712ad29e605a4599fec97fd611123ce5fe",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Vanessa-Mae",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Vera_Wang",
+      "questionRows": [
+        76
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "48d6d95bc0e5cc1b09d16408f77bf380e2424fe81e972e0105aec3b281095c69",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Vera_Wang",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Vivienne_Westwood",
+      "questionRows": [
+        72
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "3a8cdbdfeea4e6d955f23e25a7caf02093ac336fb2a123b1983e7542b51eeceb",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Vivienne_Westwood",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Yo-Yo_Ma",
+      "questionRows": [
+        57
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "6233a4e1a539d08ff2e61b8dfb32cebecb4d28ae74c0f4a7cfde160721d5bbe7",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Yo-Yo_Ma",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Yotam_Ottolenghi",
+      "questionRows": [
+        18
+      ],
+      "sourceKind": "secondary encyclopaedia biography",
+      "status": "relevant_actual_biography_career_passages_inspected",
+      "sha256": "cbd66aa78f9199b0c6763d15af8b185f6d2069c7f1a9698b9082d409c97a77ef",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Yotam_Ottolenghi",
+      "inspectionMethod": "Relevant lead/career passages actually read, not every paragraph or every linked reference. Disambiguation pages rejected."
+    },
+    {
+      "url": "https://www.hairybikers.com/about",
+      "questionRows": [
+        11
+      ],
+      "sourceKind": "primary official biography",
+      "status": "relevant_indexed_official_passage_inspected",
+      "inspectionMethod": "Actual indexed official passage naming Si King and Dave Myers as the Hairy Bikers. Full-page direct download not claimed. Correct Dave Myers presenter biography also inspected."
+    }
+  ],
+  "supplementalReferences": [
+    {
+      "url": "https://www.ncl.ac.uk/apl/alumni/graduates/george-clarke/",
+      "scope": "Indexed primary graduate profile corroborates architectural qualifications; row31 also supported by correct television-presenter biography."
+    },
+    {
+      "url": "https://oca.asia/media/newsletters/1/edition-files/301400215.pdf",
+      "scope": "Actual primary newsletter passage naming Vanessa Vanakorn/Vanessa-Mae competing for Thailand in Sochi alpine skiing; row62 participation only, no later legal or result claims."
+    },
+    {
+      "url": "https://mistycopeland.com/about-2/",
+      "scope": "Actual official biography names ABT, principal promotion and 2015 first African American female principal milestone; row67."
+    },
+    {
+      "url": "https://mistycopeland.com/2015/07/14/misty-makes-history-with-her-promotion-to-principal-dancer-at-american-ballet-theater/",
+      "scope": "Actual primary promotion announcement corroborates ABT appointment, row67."
+    }
+  ]
+}
