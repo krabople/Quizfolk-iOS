@@ -1,0 +1,1602 @@
+[
+  {
+    "draftID": "easy-22-001",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is an archipelago?",
+    "answers": [
+      "A group of islands",
+      "A narrow strip of land joining larger land areas",
+      "A deep river valley",
+      "A flat-topped mountain"
+    ],
+    "correctIndex": 0,
+    "rationale": "Archipelago groupofislands, notisthmus/valley/plateau. Actual Cambridge noun definitions checked, both group and surroundingsea sense. Group answer valid, not claiming every island small or politically one country. Category/grammar correct.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/archipelago",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-002",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is an isthmus?",
+    "answers": [
+      "A narrow strip of land, with water on either side, joining two larger land areas",
+      "A narrow channel of water joining two seas",
+      "A group of islands",
+      "A lake formed inside a volcano"
+    ],
+    "correctIndex": 0,
+    "rationale": "Isthmus narrow land joining largerland with waterbothsides. Actual Cambridge geographic definition, not anatomical connection sense. Added watercondition so arbitrary inlandcorridor not equallyfits. Strait/archipelago/craterlake alternatives different. No erroneous requirement connects two continents specifically.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/isthmus",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-003",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "In geography, what is a strait?",
+    "answers": [
+      "A narrow natural passage of water connecting larger bodies of water",
+      "A strip of land connecting two continents",
+      "A broad plain above sea level",
+      "A ring-shaped coral island"
+    ],
+    "correctIndex": 0,
+    "rationale": "Strait waterpassage, opposite landisthmus. Actual Cambridge water/sea noun definitions checked, ignored difficultfinancialsituation pluralstraits sense. Natural qualifier distinguishes artificialcanal, otherchoices raisedplain/atoll wrong. Largerbodies may oceans/seas/lakes, no two-oceans-only restriction.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/strait",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-004",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a river tributary?",
+    "answers": [
+      "A river or stream that flows into another river or a lake",
+      "The place where a river enters the sea",
+      "An abandoned river bend",
+      "A barrier built across a river"
+    ],
+    "correctIndex": 0,
+    "rationale": "Tributary stream/river joins another river or lake. Actual Cambridge explicitly includes lake, added to avoid too-narrow original river-only answer. Mouth/oxbow/dam otherfeatures. No claim every tributary larger than receivingwater or allmainrivers sea-bound.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/tributary",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-005",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a coastal estuary typically characterised by?",
+    "answers": [
+      "River water mixing with seawater",
+      "A river flowing entirely underground",
+      "A permanent layer of frozen ground",
+      "A steep cliff formed by a lava flow"
+    ],
+    "correctIndex": 0,
+    "rationale": "Coastal estuary typically fresh riverwater and seawater mix. Actual Cambridge geographic mixedwaters definition checked, not Latin etymology question alreadybank. Typically/coastal avoid freshwaterGreatLakes estuaries and seasonallyclosed variants. Otherchoices undergroundriver/permafrost/lavacliff don't define estuary.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/estuary",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-006",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Which process mainly builds a river delta?",
+    "answers": [
+      "Deposition of sediment near the river's mouth",
+      "Wind carving an exposed mountain summit",
+      "A glacier cutting a deep valley",
+      "Lava cooling on a volcanic slope"
+    ],
+    "correctIndex": 0,
+    "rationale": "Delta buildup by sedimentdeposition near mouth. Cambridge delta definition alone did not prove process, so actual NPS DeltaLandforms deposition/supply/removal paragraph inspected and source replaced. Windmountaintop/glacialvalley/lavacooling different processes. No everydelta triangular assertion.",
+    "sourceURL": "https://www.nps.gov/articles/delta-landforms.htm",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-007",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a fjord?",
+    "answers": [
+      "A long, narrow sea inlet with steep sides, usually carved by glaciers",
+      "A shallow lake left by a cut-off river bend",
+      "A broad sand dune",
+      "A ring-shaped coral reef"
+    ],
+    "correctIndex": 0,
+    "rationale": "Fjord long narrow steep-sided seainlet glacialorigin. Cambridge shape plus actual NPS glacier-carved floodedvalley passage checked, primaryNPS source used. Oxbow/dune/atoll different. Usually scope permits modifiedinlets, no claim Norway-only.",
+    "sourceURL": "https://home.nps.gov/articles/ushapedvalleysfjordshangingvalleys.htm",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-008",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is an atoll?",
+    "answers": [
+      "A ring-shaped coral reef or island enclosing a lagoon",
+      "A steep-sided valley cut by a river",
+      "A flat plain beside a river",
+      "A narrow strip of land connecting two larger areas"
+    ],
+    "correctIndex": 0,
+    "rationale": "Atoll coralring encirclinglagoon. Actual Cambridge atoll definition inspected. Rivergorge/floodplain/isthmus wrong. Reef/island wording permits broken-ring forms and reefstructures; no false requirement inhabited or perfectly circular.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/atoll",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-009",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a coastal lagoon?",
+    "answers": [
+      "A shallow body of water separated from the sea by a barrier",
+      "A waterfall inside a deep gorge",
+      "A dry channel high on a mountainside",
+      "A large area of permanently frozen ground"
+    ],
+    "correctIndex": 0,
+    "rationale": "Coastal lagoon shallowwater behind reef/sandbar/barrier. Actual Cambridge coastal definition explicitly separation, not inland reservoir or snowfield. Otherchoices waterfall/drychannel/permafrost not lagoon. No absolute requirement sealed from tides or always fresh water.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/lagoon",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-010",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a plateau?",
+    "answers": [
+      "A raised area of relatively flat land",
+      "A narrow sea passage",
+      "A bowl-shaped river bend",
+      "A long chain of coral islands"
+    ],
+    "correctIndex": 0,
+    "rationale": "Plateau raisedrelativelyflatland. Actual Cambridge geography noun checked rather than levelled-off trend/verb. Strait/riverbend/coralislands different. Relatively flat avoids perfectlyhorizontal promise, raised relative neighbours not fixedheightthreshold.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/plateau",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-011",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a valley?",
+    "answers": [
+      "An area of low ground between hills or mountains",
+      "A narrow arm of the sea surrounded by coral",
+      "A flat area on top of every mountain",
+      "A ridge separating two oceans"
+    ],
+    "correctIndex": 0,
+    "rationale": "Valley lowerground betweenhills/mountains, notcoralinlet/mountaintop/ridge. Actual Cambridge noun definition checked. Often river but not mandatory, so dryvalleys included. No U-only/V-only shape restriction.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/valley",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-012",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "In physical geography, what is a plain?",
+    "answers": [
+      "A broad area of relatively flat land",
+      "A deep, narrow sea trench",
+      "A steep volcanic cone",
+      "A ring of coral surrounding water"
+    ],
+    "correctIndex": 0,
+    "rationale": "Plain broad relativelyflatland, nottrench/volcaniccone/coralring. Inspected actual noun geographic definition after many unrelated adjective/plainknitting meanings. Does not impose universally low absolute altitude, allowing HighPlains. Clear physicalgeography scope in stem.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/plain",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-013",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a land-based sand dune?",
+    "answers": [
+      "A mound or ridge of sand shaped by the wind",
+      "A deep crack made by an earthquake",
+      "A lake trapped beneath a glacier",
+      "A steep cliff made entirely from coral"
+    ],
+    "correctIndex": 0,
+    "rationale": "Land-based sanddune wind-shaped mound/ridge. Cambridge sandhill plus NPS actual dune formation by movingair/water checked. Added land-based to avoid underwater current-formed sanddunes. Otherchoices earthquakecrack/glacierlake/coralcliff wrong. No claim water never influences coastaldune supply.",
+    "sourceURL": "https://www.nps.gov/subjects/dunes/index.htm",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-014",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is an oasis?",
+    "answers": [
+      "A place in a desert where water supports vegetation",
+      "A permanent ice sheet at a pole",
+      "A deep ocean trench",
+      "A mountain pass cut by a glacier"
+    ],
+    "correctIndex": 0,
+    "rationale": "Oasis desertwater supportsplants, noticesheet/trench/glacialpass. Actual Cambridge literal desertdefinition, ignored figurative peacefulplace. Doesn't require village or palm specifically, and doesn't assert all desertwater at surface in openpool. Meaning/grammar clear.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/oasis",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-015",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a coastal bay?",
+    "answers": [
+      "An area of sea partly enclosed by land",
+      "A narrow ridge between mountain peaks",
+      "A permanent snowfield above the clouds",
+      "A stream that flows into another stream"
+    ],
+    "correctIndex": 0,
+    "rationale": "Coastal bay seainlet partlyenclosedland. Actual Cambridge coastcurves-aroundsea noun checked, not parkingbay/tree/horse/dogverb. Scoped coastal rather than asserting lakebays nonexistent. Ridge/snowfield/tributary not this coastalfeature.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/bay",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-016",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "In coastal geography, what is a cape?",
+    "answers": [
+      "A piece of land projecting into the sea",
+      "A shallow lake behind a sand barrier",
+      "An underwater valley cut by a river",
+      "A group of coral islands"
+    ],
+    "correctIndex": 0,
+    "rationale": "Cape projectslandintosea, notlagoon/undervalley/archipelago. Actual Cambridge landform noun checked rather than clothing/defendingverb. No requirement clothing-shape or specificsize threshold. Coastalscope explicit to disambiguate word.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/cape",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-017",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a river confluence?",
+    "answers": [
+      "The place where rivers or streams meet",
+      "The point where a river begins underground",
+      "A dam built to generate electricity",
+      "A bend that has been cut off from a river"
+    ],
+    "correctIndex": 0,
+    "rationale": "Confluence streamsmeet, notsource/dam/cutoffbend. Actual Cambridge riverjunction definition read, not abstractmerger. Plural rivers/streams accommodates morethantwo meeting; doesn't claim all waterways become sea at point. New definition distinct from old Wuhan/Cairo named-confluence places.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/confluence",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-018",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a meander in a river?",
+    "answers": [
+      "A winding bend",
+      "A vertical waterfall",
+      "A river's underground source",
+      "A wall built across the channel"
+    ],
+    "correctIndex": 0,
+    "rationale": "Meander windingriverbend, notfall/undergroundsource/dam. Actual Cambridge rivercurve noun checked as well as riverwindingverb; ignored aimlesswalking/textsense. Does not say everybend circular or permanently fixed. Clear geography.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/meander",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-019",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a floodplain?",
+    "answers": [
+      "Relatively flat land beside a river that can be flooded",
+      "A high ridge between two drainage basins",
+      "A permanent layer of sea ice",
+      "A dry valley with no connection to a river"
+    ],
+    "correctIndex": 0,
+    "rationale": "Floodplain relativelyflatnear-river land liableflooding. Actual Cambridge literal lowflatfloodland definition inspected. Divide/seaice/unconnected-valley wrong. Canbe flooded permits protectionlevees/rare floods without insisting annualinundation. Not a changing floodwarning question.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/floodplain",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-020",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "How does an oxbow lake typically form?",
+    "answers": [
+      "A river bend is cut off from the main channel",
+      "A volcano erupts beneath the sea",
+      "A glacier melts at the top of a mountain",
+      "Wind excavates a deep desert basin"
+    ],
+    "correctIndex": 0,
+    "rationale": "Oxbow forms when riverbend cut off into separatelake. Actual Cambridge full curvedlake/newstraightercourse definition inspected. Underseavolcano/glaciermelting/desertwind alternatives unrelatedprocesses. Typically allows engineering-assisted cutoff, no guarantee all riverbends become lakes.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/oxbow-lake",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-021",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What are rapids in a river?",
+    "answers": [
+      "Fast, turbulent stretches of water",
+      "Deep, completely still pools",
+      "The places where rivers enter the sea",
+      "Underground reservoirs below a desert"
+    ],
+    "correctIndex": 0,
+    "rationale": "Rapids fastturbulent stretches, notstillpools/mouths/undergroundreservoirs. Cambridge fastflowingriverpart definition inspected. No need everyrapid navigable/dangerous, speed and turbulence standarddescription. Correct plural agreement.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/rapids",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-022",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What feature forms where a river drops over a steep edge?",
+    "answers": [
+      "A waterfall",
+      "An estuary",
+      "An atoll",
+      "A plateau"
+    ],
+    "correctIndex": 0,
+    "rationale": "Steep riverdrop creates waterfall, notestuary/atoll/plateau. Actual Cambridge waterdroppinghigher-to-lower rockyedge definition checked. No strictheight or perfectlyvertical threshold asserted; cascades permitted. Simple but meaningful accessible geofact.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/waterfall",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-023",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a gorge?",
+    "answers": [
+      "A deep, narrow valley with steep sides",
+      "A wide, shallow sea inlet",
+      "A flat-topped area of high land",
+      "A ring of coral islands"
+    ],
+    "correctIndex": 0,
+    "rationale": "Gorge deepnarrowsteep-sidedvalley. Actual Cambridge geological noun checked, ignored overeating/anger idioms. Seainlet/plateau/coralring distinct. Usually rivercut but no mandatoryactive-river claim, so drygorges included.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/gorge",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-024",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a glacier?",
+    "answers": [
+      "A large mass of ice that moves slowly under its own weight",
+      "A permanent cloud above a mountain",
+      "A layer of frozen seawater formed each winter",
+      "A river that only flows during a storm"
+    ],
+    "correctIndex": 0,
+    "rationale": "Glacier flowinglargeicemass underownweight, notcloud/seasonalseaice/stormriver. Actual NSIDC growing/movingglacier passage explicitly ownweight flow checked, beyond generic dictionary definition. Allows icecaps/valleyglaciers, does not falsely say ice always stationary.",
+    "sourceURL": "https://nsidc.org/learn/parts-cryosphere/glaciers/science-glaciers",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-025",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a moraine associated with?",
+    "answers": [
+      "Rock and other debris carried or deposited by a glacier",
+      "Coral growing around a tropical island",
+      "Sand blown into a desert dune",
+      "Lava flowing from a volcanic crater"
+    ],
+    "correctIndex": 0,
+    "rationale": "Moraine glacialrock/debris transported/deposited, notcoral/dune/lava. Actual Cambridge carriedglacier/leftaftermelting definition inspected. Doesn't require one specificridgelocation or perfectlysortedparticles. Debris on/along/in glacier fits, no all sedimentglacial claim.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/moraine",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-026",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is an iceberg?",
+    "answers": [
+      "A large floating piece of ice broken from a glacier or ice shelf",
+      "A thin layer of seawater frozen in place",
+      "A permanently frozen layer of soil",
+      "A mound of snow blown across a road"
+    ],
+    "correctIndex": 0,
+    "rationale": "Iceberg floatingice brokenfromglacier/iceshelf, notthinseaice/permafrost/snowdrift. Cambridge floatingice alone insufficient for origin, actual NOAA icebergdefinition inspected instead. Large avoids smallerbergybits/growlers, no saltwaterfreezing origin mistake. Openwater includes appropriate lakes as well as sea.",
+    "sourceURL": "https://oceanservice.noaa.gov/facts/iceberg.html",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-027",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What does permafrost mean?",
+    "answers": [
+      "Ground that remains at or below 0°C for at least two consecutive years",
+      "Snow that falls on a mountain every winter",
+      "Sea ice that melts every summer",
+      "A glacier that never moves"
+    ],
+    "correctIndex": 0,
+    "rationale": "Permafrost ground at/below0C for2consecutiveyears, notseasonalsnow/seasonalseaice/nonmovingglacier. NSIDC actual frozen-ground definition and temperature-only criterion inspected. Replaced vague permanentlyfrozen dictionary shorthand, includes dryrock with littleice. DegreeC UTF8 correct.",
+    "sourceURL": "https://nsidc.org/learn/parts-cryosphere/frozen-ground-permafrost/quick-facts-frozen-ground",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-028",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Which description best fits tundra?",
+    "answers": [
+      "A cold, largely treeless landscape with low-growing vegetation",
+      "A hot desert covered by tall palm trees",
+      "A dense tropical rainforest",
+      "A warm coral reef in shallow water"
+    ],
+    "correctIndex": 0,
+    "rationale": "Tundra coldlargelytreeless lowplants, notpalm-desert/tropicalforest/coralreef. Actual NPS arctic/subarctic ecology states lowplants and treeless; Alpine NPS definition corroborates coldtreelesszone. Avoided claiming everytundra has permanentpermafrost merely because narrowdictionary definition saidso.",
+    "sourceURL": "https://home.nps.gov/subjects/aknatureandscience/akecoregions.htm",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-029",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is the taiga also known as?",
+    "answers": [
+      "The boreal forest",
+      "The tropical rainforest",
+      "The coastal salt marsh",
+      "The equatorial desert"
+    ],
+    "correctIndex": 0,
+    "rationale": "Taiga borealforest, nottropicalrainforest/saltmarsh/equatorialdesert. NPS actual Boreal region also-known-taiga paragraph inspected, Cambridge northernconifers corroborates. Not everytree evergreen because larchdeciduousconifers exist, and no alltaigawaterlogged claim.",
+    "sourceURL": "https://home.nps.gov/subjects/aknatureandscience/akecoregions.htm",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-030",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Which landscape is typical of a savanna?",
+    "answers": [
+      "Grassland with scattered trees",
+      "A dense forest with no grassy areas",
+      "A permanently frozen polar ice sheet",
+      "A rocky seabed without plants"
+    ],
+    "correctIndex": 0,
+    "rationale": "Savanna grassland/scatteredtrees, notclosedforest/polaricesheet/bareseafloor. Actual Cambridge noun grass/fewtrees definition inspected. Did not repeat dictionary's overly narrow mostoaks as universal, and no tropical-only assertion excludes temperate savannas. Core vegetationstructure correct.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/savanna",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-031",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Can rainforests occur outside the tropics?",
+    "answers": [
+      "Yes, temperate rainforests also exist",
+      "No, all rainforests lie on the equator",
+      "No, all rainforests lie between the tropics",
+      "Only if they are planted inside greenhouses"
+    ],
+    "correctIndex": 0,
+    "rationale": "Temperaterainforestsexist beyondtropics. Actual NPS Smokies page defines coolmidlatitude rainforest, unlike tropicalcounterpart. Cambridge tropical-only entry insufficient and replaced. Otherchoices allrainforests equator/tropics/greenhouse false. No currentrainfall or plantcount memorisation.",
+    "sourceURL": "https://www.nps.gov/grsm/learn/nature/plants.htm?lv=true",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-032",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Which description best fits a steppe?",
+    "answers": [
+      "A broad, largely treeless temperate grassland",
+      "A dense tropical rainforest",
+      "A warm coral reef",
+      "A steep-sided glacial sea inlet"
+    ],
+    "correctIndex": 0,
+    "rationale": "Steppe broadlargelytreeless temperategrassland, nottropicalforest/reef/fjord. Actual Cambridge geographic grassland/Eurasianregion definition inspected. Temperate generallylocates classicsteppe, no claim everygrass absenttree alwayssteppe or neverdry. Existing Ukrainian landscape question tests place, not termdefinition.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/steppe",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-033",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a wetland?",
+    "answers": [
+      "Land covered or saturated by water long enough to support specially adapted vegetation",
+      "A desert area with no groundwater",
+      "A mountain summit above the snow line",
+      "A bare rock plateau that never holds water"
+    ],
+    "correctIndex": 0,
+    "rationale": "Wetland watercover/saturation persists enough for adaptedvegetation, notmerelyanybriefpuddle. Actual EPA wetland definition and soil/plant/hydrology explanation inspected. Added duration/vegetationprecision to original vague part-time water answer. Otherdesert/snowline/bareplateau descriptions not wetlanddefinition. Generalecological fact, no permittingadvice.",
+    "sourceURL": "https://www.epa.gov/wetlands/what-wetland",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-034",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What mainly creates a karst landscape?",
+    "answers": [
+      "Water dissolving soluble rock",
+      "Wind piling up loose sand",
+      "Lava spreading across a plain",
+      "Sea ice freezing onto a beach"
+    ],
+    "correctIndex": 0,
+    "rationale": "Karst soluble-rock dissolution by water, notwinddune/lavaplain/seaice. USGS actual teacher-guide karsttopography dissolution paragraph inspected, beyond dictionary wornaway wording. No limestone-only restriction excludes dolomite/gypsumkarst. Correct process not physicalerosion synonym.",
+    "sourceURL": "https://pubs.usgs.gov/of/1997/0536a/report.pdf",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-035",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a sinkhole?",
+    "answers": [
+      "A depression formed when the ground subsides or collapses into space below",
+      "A ridge of sand formed by the wind",
+      "A coral ring around a lagoon",
+      "A cliff projecting into the sea"
+    ],
+    "correctIndex": 0,
+    "rationale": "Sinkhole groundsubsides/collapses into spacebelow, notdune/atoll/cape. Actual Cambridge unsupportedground/hole geological sense inspected, ignored cybersinkhole verb/server definition. Does not assert everyhole limestone or natural, permitting subsidence from severalcauses. Clear morphology.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/sinkhole",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-036",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What does a geothermal geyser do?",
+    "answers": [
+      "Erupts with hot water and steam",
+      "Permanently freezes the ground around it",
+      "Carries a river beneath the sea",
+      "Builds a reef from coral"
+    ],
+    "correctIndex": 0,
+    "rationale": "Geothermalgeyser erupts hotwater/steam, notfreezingground/riverundersea/coralreef. Actual Cambridge naturalgeyser scheduledwater/steam definition checked, ignored olddomesticheater sense. Geothermal qualifier excludes coldCO2-driven features also colloquially calledgeysers. Doesn't claim identical eruptionintervals.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/geyser",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-037",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is an escarpment?",
+    "answers": [
+      "A long, steep slope or cliff separating areas at different heights",
+      "A shallow pool behind a coral reef",
+      "A bend cut off from a river",
+      "A group of small ocean islands"
+    ],
+    "correctIndex": 0,
+    "rationale": "Escarpment longsteepslope/cliff betweenheights, notlagoon/oxbow/islandgroup. Actual Cambridge landform definition and American continuousrocksteepside sense inspected. Replaced hotspring-heat question which overlapped geothermalenergysource. Not wholeplateau definition, specifically steepedge.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/escarpment",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-038",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a continental shelf?",
+    "answers": [
+      "The shallow, submerged edge of a continent",
+      "The deepest part of an ocean trench",
+      "A mountain range in the middle of a continent",
+      "The ice floating around a pole"
+    ],
+    "correctIndex": 0,
+    "rationale": "Continental shelf shallow submergedcontinentalmargin, notdeeptrench/inlandmountains/floatingice. Actual Cambridge seafloor-nearcontinent-shallowwater definition inspected. No exactdepth universalcutoff or claim shelfalwaysflat. Clear landform type.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/continental-shelf",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-039",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What does a drainage divide separate?",
+    "answers": [
+      "Neighbouring drainage basins",
+      "The two halves of a river channel",
+      "Freshwater fish from saltwater fish",
+      "The upper and lower parts of a waterfall"
+    ],
+    "correctIndex": 0,
+    "rationale": "Drainagedivide separates neighbouringbasins, notriverhalves/species/waterfalllevels. Actual USGS HUC glossary explicitly watershed-boundaryline and separatecatchments, inspected. Replaced ambiguous Cambridge watershed regionalmeanings/TVsense asreference, not applied those alternate senses.",
+    "sourceURL": "https://www.usgs.gov/water-science-school/understanding-finding-hydrologic-unit-codes-hucs",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-040",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a river drainage basin?",
+    "answers": [
+      "The area of land drained by a river and its tributaries",
+      "Only the deepest pool in the river",
+      "A single bend cut off from the river",
+      "The wall of a dam across the river"
+    ],
+    "correctIndex": 0,
+    "rationale": "Drainagebasin land drained byriver/tributaries, notdeepestpool/oxbow/damwall. USGS actual RiverBasin definition plus Cambridge catchmentdefinition checked. Wholelandarea rather than containerinriver. Doesn't require particularbasinsize or politicalborder.",
+    "sourceURL": "https://www.usgs.gov/water-science-school/understanding-finding-hydrologic-unit-codes-hucs",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-041",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Which demographic change defines urbanisation?",
+    "answers": [
+      "A growing share of people living in towns and cities",
+      "A growing share of people living in rural settlements",
+      "A fall in the average age of the population",
+      "A rise in the number of births per person"
+    ],
+    "correctIndex": 0,
+    "rationale": "Urbanisation demographic riseurbanpopulationshare, notruralshare/age/birthrate. UN actual definition discussion distinguishes urbanabsoluteincrease from proportion, inspected. Reworded as demographicdefinition; oldpublication used only stableconcept, no stalepopulationstatistics. Replaced distractors about removingroads/allforest with comparabledemographicmetrics.",
+    "sourceURL": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/files/documents/2020/Jan/un_1980_patterns_of_urban_and_rural_population_growth.pdf",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-042",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a suburb?",
+    "answers": [
+      "An outlying district of a town or city, often residential",
+      "The historic centre of every capital city",
+      "A narrow strip of land joining two islands",
+      "A lake inside a volcanic crater"
+    ],
+    "correctIndex": 0,
+    "rationale": "Suburb outlyingurban district oftenresidential, notnecessarilyhistoriccentre/isthmus/craterlake. Cambridge actual edge/outsidecity/home-and-smallbusiness definitions inspected. Often avoids exclusivelyhousing claim, and no requirement politicallyindependentmunicipality. Straight grammar.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/suburb",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-043",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Population density measures the number of people per what?",
+    "answers": [
+      "Unit of area",
+      "Hour of the day",
+      "Unit of height",
+      "Household income"
+    ],
+    "correctIndex": 0,
+    "rationale": "Density population perarea, nottime/height/income. Actual Cambridge fixedarea measurement definition inspected; people context narrows generalpopulation not animal-only claim. No unstablecityrank/statistic used. Unitofarea genericallows squarekilometres or miles, soleofferedcorrectdenominator.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/population-density",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-044",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What does it mean for a country to be landlocked?",
+    "answers": [
+      "It has no coastline giving access to the open sea",
+      "It is entirely below sea level",
+      "It is made up only of islands",
+      "It has no rivers or lakes"
+    ],
+    "correctIndex": 0,
+    "rationale": "Landlocked no coastwithopenseaaccess, notbelowsealevel/allislands/noinlandwater. Actual Cambridge surroundedbyland/nocoast definition checked. Open-sea wording handles Caspian closed-inlandsea countries, not denies rivers/inlandlakes or shippingvia rivers. Existing specificlandlockedcountry questions distinct from definition.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/landlocked",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-045",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What does reclaiming land from the sea involve?",
+    "answers": [
+      "Creating usable land from an area previously covered by water",
+      "Allowing waves to erode the coastline",
+      "Making a river flow faster upstream",
+      "Moving a mountain closer to the coast"
+    ],
+    "correctIndex": 0,
+    "rationale": "Sea-landreclamation makesusableland fromwatercoveredarea, notwaveerosion/fasterupstream/movingmountain. Actual Cambridge reclamation Businessland-underwater definition inspected; empty land-reclamation URL replaced. Fromthesea qualifier distinguishes mine/brownfieldrestoration and recycling meanings. No environmentalbenefit claim.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/reclamation",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-046",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "On a map, what does the coastline trace?",
+    "answers": [
+      "The shape of the land's edge next to the sea",
+      "A national border running through a desert",
+      "The highest ridge in a mountain range",
+      "The centre of a river channel"
+    ],
+    "correctIndex": 0,
+    "rationale": "Coastline onmap traceslandedge-seashape, notnationaldesertborder/ridge/rivercentre. Actual Cambridge coastline shape-seenonmap meaning inspected. Replaced olderosiondefinition duplicated inScience. Reworded to exactshape sense, avoids legal/tidal-boundaryprecision implication.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/coastline",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-047",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a river's mouth?",
+    "answers": [
+      "Where it flows into a sea, lake or another river",
+      "The highest point in its drainage basin",
+      "The centre of its largest bend",
+      "The deepest point behind a dam"
+    ],
+    "correctIndex": 0,
+    "rationale": "Rivermouth dischargesintosea/lake/largerriver. USGS actual WaterResources glossary definition inspected; generic humanmouth sense and sea-only dictionaryshorthand notused. Replaced oldweatheringdefinition duplicatedinScience. Otherbasinhighpoint/bendcentre/damdeepestpoint not outletdefinition.",
+    "sourceURL": "https://water.usgs.gov/water-basics_glossary.html",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-048",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Which of these is an example of sediment?",
+    "answers": [
+      "Sand or silt deposited by water",
+      "Heat stored inside Earth's core",
+      "The direction of a compass needle",
+      "The speed of a moving glacier"
+    ],
+    "correctIndex": 0,
+    "rationale": "Waterdeposited sand/silt example sediment, notheat/direction/speed. Actual Cambridge noun solidmatter settlinginliquid and sand/stoneslayer definitions inspected. Examples not exhaustive, so wind/ice sediments stillallowed. Distinct from oldsedimentaryrock-formingprocess question.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/sediment",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-049",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Geothermal energy comes from which source?",
+    "answers": [
+      "Heat inside Earth",
+      "Wind above the ocean",
+      "Sunlight reaching a desert",
+      "The gravitational pull of the Moon alone"
+    ],
+    "correctIndex": 0,
+    "rationale": "Geothermal energy internalEarthheat, notwind/sun/tidalpullalone. Actual Cambridge geothermal definition insideEarthheat inspected. No claim allrenewableenergy geothermal or powerplant has nocost/emissions. New accessible earth-energyconcept in physicalgeography.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/geothermal",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-050",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a water-supply reservoir mainly used for?",
+    "answers": [
+      "Storing water",
+      "Measuring wind speed",
+      "Recording earthquakes",
+      "Marking the boundary of a country"
+    ],
+    "correctIndex": 0,
+    "rationale": "Waterreservoir storeswater, notwindspeed/seismicrecord/countryborder. Actual Cambridge waterstoragelake naturalorartificial definitions inspected. Doesn't mandate everyreservoir dammade or drinkablewater, and no conflict with pen-inkreservoir term in Hobbies. Literal water-supply scope.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/reservoir",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-051",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "In which part of the United Kingdom is Stonehenge?",
+    "answers": [
+      "England",
+      "Scotland",
+      "Wales",
+      "Northern Ireland"
+    ],
+    "correctIndex": 0,
+    "rationale": "Stonehenge England, notScotland/Wales/NorthernIreland. UNESCO actual Wiltshire setting and England-protection/management sections inspected, beyond UK-only countryheader. UKpart question avoids saying sovereignstateEngland. No historic origin/date asserted, all alternatives comparable UKparts.",
+    "sourceURL": "https://whc.unesco.org/en/list/373/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-052",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "In which Italian city is the Colosseum?",
+    "answers": [
+      "Rome",
+      "Milan",
+      "Venice",
+      "Florence"
+    ],
+    "correctIndex": 0,
+    "rationale": "Colosseum Rome, notMilan/Venice/Florence. UNESCO actual RomeOUV specifically names Colosseum among city'smonuments, not merely assumed from unrelatedForum introduction. No exactconstructiondate or designer inference. Italian city grammar/propername correct.",
+    "sourceURL": "https://whc.unesco.org/en/list/91/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-053",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Which Greek city is overlooked by the Acropolis and its Parthenon?",
+    "answers": [
+      "Athens",
+      "Thessaloniki",
+      "Patras",
+      "Heraklion"
+    ],
+    "correctIndex": 0,
+    "rationale": "Acropolis withParthenon Athens, notThessaloniki/Patras/Heraklion. UNESCO actual titleAcropolisAthens and monuments includingParthenon explicit. Parthenon qualifier disambiguates manyGreek acropoleis, not claiming everyAcropolis is Athens. Othercities genuinelyGreek, onecorrect.",
+    "sourceURL": "https://whc.unesco.org/en/list/404/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-054",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "In which country is the ancient rock-cut city of Petra?",
+    "answers": [
+      "Jordan",
+      "Egypt",
+      "Greece",
+      "Morocco"
+    ],
+    "correctIndex": 0,
+    "rationale": "Petra Jordan, notEgypt/Greece/Morocco. UNESCO actual Petra description rockcarvedNabataean and countrymetadataJordan/Ma'an inspected. Doesn't infer Jordan from general RedSea/DeadSea geography alone. Countrylocation distinct from history/architecturalfacts and no modernpoliticaldispute introduced.",
+    "sourceURL": "https://whc.unesco.org/en/list/326/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-055",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "In which country is Uluru?",
+    "answers": [
+      "Australia",
+      "New Zealand",
+      "South Africa",
+      "Canada"
+    ],
+    "correctIndex": 0,
+    "rationale": "Uluru Australia, notNZ/SA/Canada. UNESCO actual centralaustralianplain description explicit. Uses Indigenous placename, no inaccurate rockheight/ownershipclaim. Country location unambiguous; not mistaking geologicalformation for a city.",
+    "sourceURL": "https://whc.unesco.org/en/list/447/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-056",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "The Great Barrier Reef lies off the coast of which Australian state?",
+    "answers": [
+      "Queensland",
+      "Victoria",
+      "Western Australia",
+      "Tasmania"
+    ],
+    "correctIndex": 0,
+    "rationale": "GBR offQueensland, notVictoria/WA/Tasmania. UNESCO actual Queenslandcoast/internalwaters/jurisdiction passages checked; country-only Australia header insufficient for state, so inspected relevanttext. Distinct from old whichreef-offnortheastAustralia identification. Doesn't imply everymarinejurisdiction state-managed.",
+    "sourceURL": "https://whc.unesco.org/en/list/154/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-057",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Iguazú Falls lie on the border between which two countries?",
+    "answers": [
+      "Argentina and Brazil",
+      "Chile and Peru",
+      "Bolivia and Paraguay",
+      "Ecuador and Colombia"
+    ],
+    "correctIndex": 0,
+    "rationale": "Iguazu falls Argentina/Brazil border, otherSouthAmerican pairs false. UNESCO355 IguaçuBrazil actual OUV explicitly adjacentArgentina park and riverinternationalborder, junctionParaguay25kmdownstream. Does not put falls onParaguayborder. Accent Iguazú commonSpanishform, not assuming onlyone nationalpark containswholefalls.",
+    "sourceURL": "https://whc.unesco.org/en/list/355/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-058",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "In which country is Serengeti National Park?",
+    "answers": [
+      "Tanzania",
+      "Kenya",
+      "South Africa",
+      "Namibia"
+    ],
+    "correctIndex": 0,
+    "rationale": "Serengeti NationalPark Tanzania, notKenya/SA/Namibia. UNESCO sitecountryUnitedRepublicTanzania and parkmanagement references inspected. Nationalpark scope avoids broaderSerengetiecosystem extending intoKenya. No currentanimalcount/migration-date trivia.",
+    "sourceURL": "https://whc.unesco.org/en/list/156/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-059",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "The Galápagos Islands belong to which country?",
+    "answers": [
+      "Ecuador",
+      "Peru",
+      "Chile",
+      "Colombia"
+    ],
+    "correctIndex": 0,
+    "rationale": "Galapagos Ecuador, notPeru/Chile/Colombia. UNESCO actual Ecuadorcountrymetadata and province/constitution context inspected. Belong country question no claim allmarinewatersprivate or everyisland inhabited. Galápagos accent correct, no oldbankquestion found for eitheraccent spelling.",
+    "sourceURL": "https://whc.unesco.org/en/list/1/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-060",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "The Madeira archipelago is part of which country?",
+    "answers": [
+      "Portugal",
+      "Spain",
+      "France",
+      "Italy"
+    ],
+    "correctIndex": 0,
+    "rationale": "Madeira archipelago Portugal, notSpain/France/Italy. UNESCO LaurisilvaofMadeira officialpropertycountryPortugal metadata inspected; geographicalassociation corroborates archipelago. Does not conflate Canary/BalearicSpanish islands. No assertion Madeira mainland or independentcountry.",
+    "sourceURL": "https://whc.unesco.org/en/list/934/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-061",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Which part of the United Kingdom includes the Shetland Islands?",
+    "answers": [
+      "Scotland",
+      "England",
+      "Wales",
+      "Northern Ireland"
+    ],
+    "correctIndex": 0,
+    "rationale": "Shetland Scotland, nototherUKparts. Actual encyclopaedia countryinfobox and lead archipelago-in-Scotland inspected, not just historyAbsorptionbyScotland navigationlink. Explicit presentUKpart. Avoided historicalNorwegian sovereignty as falsecurrentanswer.",
+    "sourceURL": "https://en.wikipedia.org/wiki/Shetland",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-062",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Which part of the United Kingdom includes the Orkney Islands?",
+    "answers": [
+      "Scotland",
+      "England",
+      "Wales",
+      "Northern Ireland"
+    ],
+    "correctIndex": 0,
+    "rationale": "Orkney Scotland, notEngland/Wales/NI. UNESCO Orkney management explicitly ScottishMinisters/HistoricScotland and Scottishprotection inspected, supporting presentjurisdiction. UKcountryheaderalone not treated as exactScotland proof. ComparableUKparts, no claim ShetlandandOrkney sameislandgroup.",
+    "sourceURL": "https://whc.unesco.org/en/list/514/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-063",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Fiordland National Park is in which country?",
+    "answers": [
+      "New Zealand",
+      "Australia",
+      "Canada",
+      "Norway"
+    ],
+    "correctIndex": 0,
+    "rationale": "FiordlandNationalPark NewZealand, notAustralia/Canada/Norway. UNESCO TeWahipounamu titleSouthWestNZ plus four-national-parks list explicitlyFiordland inspected. Not inferred only from Scandinavian-soundingname. Proper NZFiordland spelling retained.",
+    "sourceURL": "https://whc.unesco.org/en/list/551/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-064",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Tuscany is a region of which country?",
+    "answers": [
+      "Italy",
+      "France",
+      "Spain",
+      "Greece"
+    ],
+    "correctIndex": 0,
+    "rationale": "Tuscany Italy, notFrance/Spain/Greece. Actual encyclopaedia geographic lead centralItaly inspected rather than historicDuchy or populationtable. Generic region valid for currentItalianadministrativeregion. Existing Seinfeld family-originTuscany question different fact/prompt.",
+    "sourceURL": "https://en.wikipedia.org/wiki/Tuscany",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-065",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Bavaria is a state of which country?",
+    "answers": [
+      "Germany",
+      "Austria",
+      "Switzerland",
+      "Belgium"
+    ],
+    "correctIndex": 0,
+    "rationale": "Bavaria Germanstate, notAustria/Switzerland/Belgium. Actual encyclopaedia currentStateinGermany header/infobox inspected. No historicalsovereignty/year claim. Existing sportBayern-name translation refers Bavaria, but new geographicquestion tests containingcountry; not same answer/prompt.",
+    "sourceURL": "https://en.wikipedia.org/wiki/Bavaria",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-066",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Andalusia is a region of which country?",
+    "answers": [
+      "Spain",
+      "Portugal",
+      "Italy",
+      "France"
+    ],
+    "correctIndex": 0,
+    "rationale": "Andalusia Spain, notPortugal/Italy/France. Actual encyclopaedia autonomouscommunityinSpain heading/lead checked. Region genericaccurate, no oldcaliphate boundary or currentgovernmentofficial trivia. BritishEnglishAndalusia spelling fine.",
+    "sourceURL": "https://en.wikipedia.org/wiki/Andalusia",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-067",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Provence is in which country?",
+    "answers": [
+      "France",
+      "Italy",
+      "Spain",
+      "Switzerland"
+    ],
+    "correctIndex": 0,
+    "rationale": "Provence France, notItaly/Spain/Switzerland. Actual encyclopaedia historicprovince southeasternFrance lead checked. Prompt avoids labelling it a currentstandaloneadministrativeregion rather than widerPACAregion. Existing vanGogh paintinglocation different fact.",
+    "sourceURL": "https://en.wikipedia.org/wiki/Provence",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-068",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Hạ Long Bay is in which country?",
+    "answers": [
+      "Vietnam",
+      "Thailand",
+      "Malaysia",
+      "Indonesia"
+    ],
+    "correctIndex": 0,
+    "rationale": "HaLongBay Vietnam, notThailand/Malaysia/Indonesia. UNESCO current HaLongBay-CatBa listingcountryVietNam and visitsheadline inspected. Vietnam and VietNam samecountry, accentsHạLong retained. No staleclaim propertyhasnoCatBaextension.",
+    "sourceURL": "https://whc.unesco.org/en/list/672/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-069",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Which Indonesian island is home to the Borobudur temple complex?",
+    "answers": [
+      "Java",
+      "Bali",
+      "Sumatra",
+      "Sulawesi"
+    ],
+    "correctIndex": 0,
+    "rationale": "Borobudur Java, notBali/Sumatra/Sulawesi. UNESCO actualOUV centreofislandJava explicitly inspected. Replaced exactoldcountryIndonesia duplicate with different islandlocation; stemgivenIndonesia doesnot revealcorrectisland amongfourIndonesianislands. Correct templecomplexname.",
+    "sourceURL": "https://whc.unesco.org/en/list/592/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-070",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Jeju Island belongs to which country?",
+    "answers": [
+      "South Korea",
+      "Japan",
+      "China",
+      "Vietnam"
+    ],
+    "correctIndex": 0,
+    "rationale": "Jeju SouthKorea, notJapan/China/Vietnam. UNESCO actual Jeju listingRepublicofKorea countrymetadata inspected. SouthKorea conventionalnameRepublicofKorea, not DPRK. No currentvisarules/politicaloffice claim.",
+    "sourceURL": "https://whc.unesco.org/en/list/1264/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-071",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "The Baja California Peninsula lies between the Pacific Ocean and which gulf?",
+    "answers": [
+      "Gulf of California",
+      "Gulf of Mexico",
+      "Gulf of Alaska",
+      "Gulf of Maine"
+    ],
+    "correctIndex": 0,
+    "rationale": "BajaPeninsula Pacific/GulfofCalifornia, notMexico/Alaska/Maine gulfs. Actual encyclopaedia intro explicitly separatesGulfCalifornia fromPacific; headeradjacentwaterbodies also checked. Replaced overlyrepeatedMexico association from old CaboSanLucas question. Gulf is partofPacificsystem, wording conventional open-ocean-versus-gulf location.",
+    "sourceURL": "https://en.wikipedia.org/wiki/Baja_California_Peninsula",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-072",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "The Maya site of Chichén Itzá is in which country?",
+    "answers": [
+      "Mexico",
+      "Peru",
+      "Bolivia",
+      "Brazil"
+    ],
+    "correctIndex": 0,
+    "rationale": "ChichenItza Mexico, notPeru/Bolivia/Brazil. UNESCO actual sitecountryMexico and Yucatanmanagement checked. Maya site adjectivecorrect, ChichénItzá accents preserved. No conflation Maya withInca or directmoderncountryfoundingdate.",
+    "sourceURL": "https://whc.unesco.org/en/list/483/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-073",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Easter Island, also called Rapa Nui, is a territory of which country?",
+    "answers": [
+      "Chile",
+      "Peru",
+      "New Zealand",
+      "Australia"
+    ],
+    "correctIndex": 0,
+    "rationale": "RapaNui/EasterIsland Chile, notPeru/NZ/Australia. UNESCO actual Chilecountry/province/Valparaisoregion metadata inspected. Old question asks southeasternPacificlocation, new jurisdictiondifferentfact. No claim nativeculture non-Polynesian or entirePacificChile.",
+    "sourceURL": "https://whc.unesco.org/en/list/715/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-074",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Réunion is an overseas part of which country?",
+    "answers": [
+      "France",
+      "Portugal",
+      "United Kingdom",
+      "Netherlands"
+    ],
+    "correctIndex": 0,
+    "rationale": "Reunion France, notPT/UK/NL. UNESCO actual propertycountryFrance/France-labelledactivity inspected. Reworded department-specificstem to overseaspart becausecountrylistingalone doesnot establish exactlegaladministrativestatus. AccentRéunion preserved and no claim geographicallyinEurope.",
+    "sourceURL": "https://whc.unesco.org/en/list/1317/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-075",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Bora Bora is part of which Pacific territory?",
+    "answers": [
+      "French Polynesia",
+      "New Caledonia",
+      "American Samoa",
+      "Guam"
+    ],
+    "correctIndex": 0,
+    "rationale": "BoraBora FrenchPolynesia, notNewCaledonia/AmericanSamoa/Guam. Actual encyclopaedia island-in-FrenchPolynesia/SocietyIslands lead inspected. Territorywordratherthancountry avoids implyingindependentsovereignstate. FourPacificterritories comparable, no claim allFrenchPacificislandsonegroup.",
+    "sourceURL": "https://en.wikipedia.org/wiki/Bora_Bora",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-076",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "On which continent is the Atacama Desert?",
+    "answers": [
+      "South America",
+      "Africa",
+      "Asia",
+      "Australia"
+    ],
+    "correctIndex": 0,
+    "rationale": "Atacama SouthAmerica, notAfrica/Asia/Australia. Actual encyclopaedia plateau-on-Pacific-coast-SouthAmerica lead inspected. Replaced MaldivesIndianOcean association already in bank. Continent rather thanpreciseChile/Peruextent avoids contesteddesertboundary issues, allchoicescontinents.",
+    "sourceURL": "https://en.wikipedia.org/wiki/Atacama_Desert",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-077",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Lake Bled is in which country?",
+    "answers": [
+      "Slovenia",
+      "Slovakia",
+      "Croatia",
+      "Austria"
+    ],
+    "correctIndex": 0,
+    "rationale": "LakeBled Slovenia, notSlovakia/Croatia/Austria. Actual encyclopaedia locationlead and basin-countrySlovenia metadata checked. Slovenian/Slovak distinction deliberateplausibledistractor, spellingBledcorrect. No assertion everylakeinJulianAlps Slovenian or currentwatertemperature.",
+    "sourceURL": "https://en.wikipedia.org/wiki/Lake_Bled",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-078",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Plitvice Lakes National Park is in which country?",
+    "answers": [
+      "Croatia",
+      "Slovenia",
+      "Serbia",
+      "Montenegro"
+    ],
+    "correctIndex": 0,
+    "rationale": "PlitviceLakes Croatia, notSlovenia/Serbia/Montenegro. Actual UNESCO OUV explicitly Croatia'slargestnationalpark, countryheadercorroborates. Doesn't rely on unspecifiedoldYugoslavia location. No currentparksize/counttrivia included, proper name accurate.",
+    "sourceURL": "https://whc.unesco.org/en/list/98/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-079",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Banff National Park is in which Canadian province?",
+    "answers": [
+      "Alberta",
+      "Ontario",
+      "Quebec",
+      "Manitoba"
+    ],
+    "correctIndex": 0,
+    "rationale": "Banff Alberta, notOntario/Quebec/Manitoba. Actual encyclopaedia nationalpark-in-Alberta lead/locationfield inspected. Canadianprovince scope means countryCanadanot offered as alternate. Not mistaking transprovincial collectiveCanadianRockyMountainproperty for individualBanffboundaries.",
+    "sourceURL": "https://en.wikipedia.org/wiki/Banff_National_Park",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-080",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Most of Yellowstone National Park lies in which US state?",
+    "answers": [
+      "Wyoming",
+      "Montana",
+      "Idaho",
+      "Colorado"
+    ],
+    "correctIndex": 0,
+    "rationale": "MostYellowstone Wyoming, notMontana/Idaho/Colorado. Actual encyclopaedia mainlyWyoming lead checked; NPS primary parkfacts96%Wyoming/3Montana/1Idaho explicitly corroborates and source changed toNPS. Most qualifier essential because it spans3states. No false wholly-Wyoming claim.",
+    "sourceURL": "https://www.nps.gov/yell/planyourvisit/parkfacts.htm",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-081",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Aoraki / Mount Cook is in which country?",
+    "answers": [
+      "New Zealand",
+      "Australia",
+      "Canada",
+      "South Africa"
+    ],
+    "correctIndex": 0,
+    "rationale": "Aoraki/MountCook NewZealand, notAustralia/Canada/SA. Actual encyclopaedia highestmountain-in-NZ lead/locationfield inspected. Replaced YosemiteCalifornia duplicate detected in old BridalveilFalls question. Height/date not asked, so oldnumericalheight sourcechange irrelevant.",
+    "sourceURL": "https://en.wikipedia.org/wiki/Aoraki_/_Mount_Cook",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-082",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Torres del Paine National Park is in which country?",
+    "answers": [
+      "Chile",
+      "Peru",
+      "Brazil",
+      "Ecuador"
+    ],
+    "correctIndex": 0,
+    "rationale": "TorresdelPaineNationalPark Chile, notPeru/Brazil/Ecuador. Actual encyclopaedia southernChileanPatagonia lead/currentcountrylocation checked. Replaced exactEvergladesFlorida duplicate. Nationalpark qualifier avoids treating allPatagonia as onlyChile; geographicalplacenamegrammar sound.",
+    "sourceURL": "https://en.wikipedia.org/wiki/Torres_del_Paine_National_Park",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-083",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Kruger National Park is in which country?",
+    "answers": [
+      "South Africa",
+      "Kenya",
+      "Tanzania",
+      "Botswana"
+    ],
+    "correctIndex": 0,
+    "rationale": "KrugerNationalPark SouthAfrica, notKenya/Tanzania/Botswana. Actual encyclopaedia SouthAfrica/Limpopo-Mpumalangapark lead inspected. Specificpark not largertransfrontierLimpopoconservationarea spanningotherstates. No currentanimalcensus or colonialhistoricalclaim.",
+    "sourceURL": "https://en.wikipedia.org/wiki/Kruger_National_Park",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-084",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Table Mountain overlooks which South African city?",
+    "answers": [
+      "Cape Town",
+      "Johannesburg",
+      "Durban",
+      "Pretoria"
+    ],
+    "correctIndex": 0,
+    "rationale": "TableMountain CapeTown, notJohannesburg/Durban/Pretoria. Actual encyclopaedia lead and locationfield explicitly cityCapeTown inspected. SouthAfricanlandmark scope avoids otherworldwideTableMountains. Geographycityassociation, not elevation or climbingadvice.",
+    "sourceURL": "https://en.wikipedia.org/wiki/Table_Mountain",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-085",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What type of mountain is Mount Kilimanjaro?",
+    "answers": [
+      "A volcanic mountain",
+      "A fold mountain",
+      "A fault-block mountain",
+      "An erosional plateau"
+    ],
+    "correctIndex": 0,
+    "rationale": "Kilimanjaro volcanicmountain, notfold/faultblock/erosionalplateau. Actual UNESCO volcanicmassif/threevolcanicpeaks descriptions inspected. Changed old Tanzania association to different formationfact. Real geomorphological distractors replace sand/coral/artificial nonsense, no unsupported active-eruption prediction.",
+    "sourceURL": "https://whc.unesco.org/en/list/403/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-086",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Mount Elbrus is in which country?",
+    "answers": [
+      "Russia",
+      "Georgia",
+      "Armenia",
+      "Azerbaijan"
+    ],
+    "correctIndex": 0,
+    "rationale": "Elbrus Russia, notGeorgia/Armenia/Azerbaijan. Actual encyclopaedia CountryRussia/currentfederal-subject and Caucasuslocation inspected. Doesnot ask contestedEurope/Asia boundary or highest-European status; uses undisputed containingcountry for mountain. Not ErebusAntarctica confusion.",
+    "sourceURL": "https://en.wikipedia.org/wiki/Mount_Elbrus",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-087",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Mount Etna is on which Italian island?",
+    "answers": [
+      "Sicily",
+      "Sardinia",
+      "Capri",
+      "Elba"
+    ],
+    "correctIndex": 0,
+    "rationale": "Etna Sicily, notSardinia/Capri/Elba. Actual UNESCO firstdescription explicitly easterncoastSicily inspected. AllchoicesItalianislands, no automaticanswer from continent. Doesnot ask unstablecurrentheight/eruptiondate, distinct from oldHadrianvisitingEtna historyfact.",
+    "sourceURL": "https://whc.unesco.org/en/list/1427/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-088",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Vesuvius is near which Italian city?",
+    "answers": [
+      "Naples",
+      "Turin",
+      "Venice",
+      "Genoa"
+    ],
+    "correctIndex": 0,
+    "rationale": "Vesuvius nearNaples, notTurin/Venice/Genoa. Actual encyclopaedia GulfNaples and about9kmeastofNaples lead inspected. No need outdatederuptionforecast. Existing Pompeii-year/Pliny-witness questions test differentfacts, cityassociationnew.",
+    "sourceURL": "https://en.wikipedia.org/wiki/Mount_Vesuvius",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-089",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "The Sydney Opera House is in which country?",
+    "answers": [
+      "Australia",
+      "New Zealand",
+      "United Kingdom",
+      "Canada"
+    ],
+    "correctIndex": 0,
+    "rationale": "SydneyOperaHouse Australia, notNZ/UK/Canada. Actual UNESCO officialpropertycountryAustralia inspected. Askedcountry rather than citygivenbyname, avoids trivialSydney-nameanswer. No claim everybuilding inworld calledOperaHouse Australian or venuecompletedyear.",
+    "sourceURL": "https://whc.unesco.org/en/list/166/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-090",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "The Christ the Redeemer statue overlooks which Brazilian city?",
+    "answers": [
+      "Rio de Janeiro",
+      "São Paulo",
+      "Brasília",
+      "Salvador"
+    ],
+    "correctIndex": 0,
+    "rationale": "ChristRedeemer Rio, notSaoPaulo/Brasilia/Salvador. Actual UNESCO Rio landscape description explicitly Corcovadostatue and cityview, inspected. OldquestioncountryBrazil different; allnewchoicesBrazilian cities so priorcountryfactdoesnotanswerthis. AccentsonSãoPaulo/Brasília correct.",
+    "sourceURL": "https://whc.unesco.org/en/list/1100/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-091",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Antoni Gaudí's Sagrada Família basilica is in which Spanish city?",
+    "answers": [
+      "Barcelona",
+      "Madrid",
+      "Seville",
+      "Valencia"
+    ],
+    "correctIndex": 0,
+    "rationale": "Gaudi'sSagradaFamilia Barcelona, notMadrid/Seville/Valencia. Actual encyclopaedia Barcelona location and AntoniGaudi architectfields inspected. Addedarchitect qualifier to distinguish otherHolyFamilychurches, correctlybasilica rather thanBarcelonaCathedral. No unstablecompletiondate or constructionprogressclaim.",
+    "sourceURL": "https://en.wikipedia.org/wiki/Sagrada_Família",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-092",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "The Alhambra palace complex is in which Spanish city?",
+    "answers": [
+      "Granada",
+      "Madrid",
+      "Bilbao",
+      "Zaragoza"
+    ],
+    "correctIndex": 0,
+    "rationale": "Alhambra Granada, notMadrid/Bilbao/Zaragoza. UNESCO title/actualdescription explicitly medievalGranada withAlhambraandAlbaycin inspected. Palacecomplex wordingaccurate, not countryinferredfromArabicname. AllSpanishcities, onecorrect.",
+    "sourceURL": "https://whc.unesco.org/en/list/314/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-093",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Charles Bridge crosses a river in which European capital?",
+    "answers": [
+      "Prague",
+      "Vienna",
+      "Budapest",
+      "Warsaw"
+    ],
+    "correctIndex": 0,
+    "rationale": "CharlesBridge Prague, notVienna/Budapest/Warsaw. UNESCO actual Praguedescription specifically includesCharlesBridge amongmonuments; not assumed from unrelatedUniversitynames. Citycapitalfact commoncurrent, no askingownership ofriver. No name-dateorigintrivia.",
+    "sourceURL": "https://whc.unesco.org/en/list/616/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-094",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "The Blue Lagoon geothermal spa is in which country?",
+    "answers": [
+      "Iceland",
+      "Norway",
+      "Sweden",
+      "Finland"
+    ],
+    "correctIndex": 0,
+    "rationale": "BlueLagoon geothermalspa Iceland, notNorway/Sweden/Finland. Actual encyclopaedia locationcorroborated with operator's own BlueLagoonIceland aboutpage/location, and source replaced tooperator because encyclopaedia displayed AI-contentwarning. No healthbenefit/marketingclaim used. Spa qualifier excludes movie/otherlagoons.",
+    "sourceURL": "https://www.bluelagoon.com/about",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-095",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Santorini lies in which sea?",
+    "answers": [
+      "Aegean Sea",
+      "Adriatic Sea",
+      "Baltic Sea",
+      "Black Sea"
+    ],
+    "correctIndex": 0,
+    "rationale": "Santorini AegeanSea, notAdriatic/Baltic/Black. Actual encyclopaedia Greekisland-in-AegeanSea lead/location inspected. Replaced countryGreece association alreadyaskedoldbank, distinctwaterbodyfact. No inaccurate claim allGreekislandsAegean, optionsunambiguous.",
+    "sourceURL": "https://en.wikipedia.org/wiki/Santorini",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-096",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Zanzibar is part of which country?",
+    "answers": [
+      "Tanzania",
+      "Kenya",
+      "Mozambique",
+      "Madagascar"
+    ],
+    "correctIndex": 0,
+    "rationale": "Zanzibar Tanzania, notKenya/Mozambique/Madagascar. Actual UNESCO StoneTownZanzibar currentcountryTanzania/locationmetadata inspected. Partofcountry wording allows autonomousregion/archipelagorather than justoneisland and avoids historicalindependencedate claim. Doesnot imply continentalmainland.",
+    "sourceURL": "https://whc.unesco.org/en/list/173/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-097",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Marrakesh is in which country?",
+    "answers": [
+      "Morocco",
+      "Algeria",
+      "Tunisia",
+      "Egypt"
+    ],
+    "correctIndex": 0,
+    "rationale": "Marrakesh Morocco, notAlgeria/Tunisia/Egypt. UNESCO Medinaproperty officialcountrymetadataMorocco inspected. Marrakesh standardEnglishspelling, not confusion with similarMarakeshhotelnames elsewhere. No false assertion Moroccanmoderncapital.",
+    "sourceURL": "https://whc.unesco.org/en/list/331/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-098",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Dubrovnik is a coastal city in which country?",
+    "answers": [
+      "Croatia",
+      "Slovenia",
+      "Albania",
+      "Greece"
+    ],
+    "correctIndex": 0,
+    "rationale": "Dubrovnik Croatia, notSlovenia/Albania/Greece. Actual UNESCO OldCityDubrovnik countrymetadata and country/cityproject inspected. CoastaldescriptionfitsAdriatic setting, no currentport/filmingclaim. AllnearbyEuropean countryalternativesplausible, solecorrect.",
+    "sourceURL": "https://whc.unesco.org/en/list/95/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-099",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Porto is a city in which country?",
+    "answers": [
+      "Portugal",
+      "Spain",
+      "Italy",
+      "France"
+    ],
+    "correctIndex": 0,
+    "rationale": "Porto Portugal, notSpain/Italy/France. UNESCO HistoricCentreOporto officialcountryPortugal inspected; OportoEnglishvariant samecityPorto. No confusion with unrelatedwordporto/portwine styles. Existing filmpromptAeroporto substring not same geographicfact.",
+    "sourceURL": "https://whc.unesco.org/en/list/755/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-22-100",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "The Matterhorn stands on the border between which two countries?",
+    "answers": [
+      "Switzerland and Italy",
+      "France and Spain",
+      "Austria and Germany",
+      "Norway and Sweden"
+    ],
+    "correctIndex": 0,
+    "rationale": "Matterhorn SwissItalianborder, notFranceSpain/AustriaGermany/NorwaySweden. Actual encyclopaedia lead explicitly straddlesborderSwitzerlandItaly and watershed inspected. Pairedcountriesbothrequired, no implication entireAlpsinonlytwo. Not asking changingglacialheight or ski-resortlegalborder.",
+    "sourceURL": "https://en.wikipedia.org/wiki/Matterhorn",
+    "reviewStatus": "author_final_checked"
+  }
+]

@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "9aec6d39508eeb444e67",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is an archipelago?",
+    "answers": [
+      "A group of islands",
+      "A narrow strip of land joining larger land areas",
+      "A deep river valley",
+      "A flat-topped mountain"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/archipelago",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "b2fc74048e42ebe40ac2",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is an isthmus?",
+    "answers": [
+      "A narrow channel of water joining two seas",
+      "A group of islands",
+      "A lake formed inside a volcano",
+      "A narrow strip of land, with water on either side, joining two larger land areas"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/isthmus",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "fd9bfbf6d81fd57d5423",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "In geography, what is a strait?",
+    "answers": [
+      "A broad plain above sea level",
+      "A ring-shaped coral island",
+      "A narrow natural passage of water connecting larger bodies of water",
+      "A strip of land connecting two continents"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/strait",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "8c7419fc79cd16310378",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a river tributary?",
+    "answers": [
+      "A barrier built across a river",
+      "A river or stream that flows into another river or a lake",
+      "The place where a river enters the sea",
+      "An abandoned river bend"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/tributary",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "8ed6cb90c02c3cf21472",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a coastal estuary typically characterised by?",
+    "answers": [
+      "River water mixing with seawater",
+      "A river flowing entirely underground",
+      "A permanent layer of frozen ground",
+      "A steep cliff formed by a lava flow"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/estuary",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "a52e6bde64e6961cae0e",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Which process mainly builds a river delta?",
+    "answers": [
+      "Wind carving an exposed mountain summit",
+      "A glacier cutting a deep valley",
+      "Lava cooling on a volcanic slope",
+      "Deposition of sediment near the river's mouth"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.nps.gov/articles/delta-landforms.htm",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "002f4caca03f320bf3e1",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a fjord?",
+    "answers": [
+      "A broad sand dune",
+      "A ring-shaped coral reef",
+      "A long, narrow sea inlet with steep sides, usually carved by glaciers",
+      "A shallow lake left by a cut-off river bend"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://home.nps.gov/articles/ushapedvalleysfjordshangingvalleys.htm",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "91e1923d53d129ce75f3",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is an atoll?",
+    "answers": [
+      "A narrow strip of land connecting two larger areas",
+      "A ring-shaped coral reef or island enclosing a lagoon",
+      "A steep-sided valley cut by a river",
+      "A flat plain beside a river"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/atoll",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "6d02b2c8025433050c88",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a coastal lagoon?",
+    "answers": [
+      "A shallow body of water separated from the sea by a barrier",
+      "A waterfall inside a deep gorge",
+      "A dry channel high on a mountainside",
+      "A large area of permanently frozen ground"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/lagoon",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "5f1222c0492c3ba12b12",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a plateau?",
+    "answers": [
+      "A narrow sea passage",
+      "A bowl-shaped river bend",
+      "A long chain of coral islands",
+      "A raised area of relatively flat land"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/plateau",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "7b9556c579c5cdf7bdb7",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a valley?",
+    "answers": [
+      "A flat area on top of every mountain",
+      "A ridge separating two oceans",
+      "An area of low ground between hills or mountains",
+      "A narrow arm of the sea surrounded by coral"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/valley",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "826c979b1a1a722d5ee0",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "In physical geography, what is a plain?",
+    "answers": [
+      "A ring of coral surrounding water",
+      "A broad area of relatively flat land",
+      "A deep, narrow sea trench",
+      "A steep volcanic cone"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/plain",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "7afb70da9d5ad60d5472",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a land-based sand dune?",
+    "answers": [
+      "A mound or ridge of sand shaped by the wind",
+      "A deep crack made by an earthquake",
+      "A lake trapped beneath a glacier",
+      "A steep cliff made entirely from coral"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.nps.gov/subjects/dunes/index.htm",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "8b42041c3e1400f36b3f",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is an oasis?",
+    "answers": [
+      "A permanent ice sheet at a pole",
+      "A deep ocean trench",
+      "A mountain pass cut by a glacier",
+      "A place in a desert where water supports vegetation"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/oasis",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "e7bf5aeba5743386436a",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a coastal bay?",
+    "answers": [
+      "A permanent snowfield above the clouds",
+      "A stream that flows into another stream",
+      "An area of sea partly enclosed by land",
+      "A narrow ridge between mountain peaks"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/bay",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "ab5a00fbd00d10b966fe",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "In coastal geography, what is a cape?",
+    "answers": [
+      "A group of coral islands",
+      "A piece of land projecting into the sea",
+      "A shallow lake behind a sand barrier",
+      "An underwater valley cut by a river"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/cape",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "812acb4d7b3904643476",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a river confluence?",
+    "answers": [
+      "The place where rivers or streams meet",
+      "The point where a river begins underground",
+      "A dam built to generate electricity",
+      "A bend that has been cut off from a river"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/confluence",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "f78ee429776310800bcf",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a meander in a river?",
+    "answers": [
+      "A vertical waterfall",
+      "A river's underground source",
+      "A wall built across the channel",
+      "A winding bend"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/meander",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "103a0f4d49b4a355125a",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a floodplain?",
+    "answers": [
+      "A permanent layer of sea ice",
+      "A dry valley with no connection to a river",
+      "Relatively flat land beside a river that can be flooded",
+      "A high ridge between two drainage basins"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/floodplain",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "544012cec0232c9bbf8e",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "How does an oxbow lake typically form?",
+    "answers": [
+      "Wind excavates a deep desert basin",
+      "A river bend is cut off from the main channel",
+      "A volcano erupts beneath the sea",
+      "A glacier melts at the top of a mountain"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/oxbow-lake",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "b3a4658b398dc17f2fea",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What are rapids in a river?",
+    "answers": [
+      "Fast, turbulent stretches of water",
+      "Deep, completely still pools",
+      "The places where rivers enter the sea",
+      "Underground reservoirs below a desert"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/rapids",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "284e0e452f26b793893a",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What feature forms where a river drops over a steep edge?",
+    "answers": [
+      "An estuary",
+      "An atoll",
+      "A plateau",
+      "A waterfall"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/waterfall",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "7a2f5e372593b2050df1",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a gorge?",
+    "answers": [
+      "A flat-topped area of high land",
+      "A ring of coral islands",
+      "A deep, narrow valley with steep sides",
+      "A wide, shallow sea inlet"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/gorge",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "9b1d45740c35a7e4d63b",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a glacier?",
+    "answers": [
+      "A river that only flows during a storm",
+      "A large mass of ice that moves slowly under its own weight",
+      "A permanent cloud above a mountain",
+      "A layer of frozen seawater formed each winter"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://nsidc.org/learn/parts-cryosphere/glaciers/science-glaciers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "a1fb0de6053d6334373f",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a moraine associated with?",
+    "answers": [
+      "Rock and other debris carried or deposited by a glacier",
+      "Coral growing around a tropical island",
+      "Sand blown into a desert dune",
+      "Lava flowing from a volcanic crater"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/moraine",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "65a17b74a2d69badec2b",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is an iceberg?",
+    "answers": [
+      "A thin layer of seawater frozen in place",
+      "A permanently frozen layer of soil",
+      "A mound of snow blown across a road",
+      "A large floating piece of ice broken from a glacier or ice shelf"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://oceanservice.noaa.gov/facts/iceberg.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "92f6ecca4d333d075c68",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What does permafrost mean?",
+    "answers": [
+      "Sea ice that melts every summer",
+      "A glacier that never moves",
+      "Ground that remains at or below 0°C for at least two consecutive years",
+      "Snow that falls on a mountain every winter"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://nsidc.org/learn/parts-cryosphere/frozen-ground-permafrost/quick-facts-frozen-ground",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "93a1cfb613eb386b16b1",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Which description best fits tundra?",
+    "answers": [
+      "A warm coral reef in shallow water",
+      "A cold, largely treeless landscape with low-growing vegetation",
+      "A hot desert covered by tall palm trees",
+      "A dense tropical rainforest"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://home.nps.gov/subjects/aknatureandscience/akecoregions.htm",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "e7712095f07fe7c37513",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is the taiga also known as?",
+    "answers": [
+      "The boreal forest",
+      "The tropical rainforest",
+      "The coastal salt marsh",
+      "The equatorial desert"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://home.nps.gov/subjects/aknatureandscience/akecoregions.htm",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "c299b542e15daac3dcac",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Which landscape is typical of a savanna?",
+    "answers": [
+      "A dense forest with no grassy areas",
+      "A permanently frozen polar ice sheet",
+      "A rocky seabed without plants",
+      "Grassland with scattered trees"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/savanna",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "95c38b2ccbace6e729d9",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Can rainforests occur outside the tropics?",
+    "answers": [
+      "No, all rainforests lie between the tropics",
+      "Only if they are planted inside greenhouses",
+      "Yes, temperate rainforests also exist",
+      "No, all rainforests lie on the equator"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.nps.gov/grsm/learn/nature/plants.htm?lv=true",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "22898573d6d86dcbee19",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Which description best fits a steppe?",
+    "answers": [
+      "A steep-sided glacial sea inlet",
+      "A broad, largely treeless temperate grassland",
+      "A dense tropical rainforest",
+      "A warm coral reef"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/steppe",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "150dea02009a2b4d581d",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a wetland?",
+    "answers": [
+      "Land covered or saturated by water long enough to support specially adapted vegetation",
+      "A desert area with no groundwater",
+      "A mountain summit above the snow line",
+      "A bare rock plateau that never holds water"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.epa.gov/wetlands/what-wetland",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "a6abcb251ddccad7c5f0",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What mainly creates a karst landscape?",
+    "answers": [
+      "Wind piling up loose sand",
+      "Lava spreading across a plain",
+      "Sea ice freezing onto a beach",
+      "Water dissolving soluble rock"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://pubs.usgs.gov/of/1997/0536a/report.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "4fc86990273cf5363d5c",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a sinkhole?",
+    "answers": [
+      "A coral ring around a lagoon",
+      "A cliff projecting into the sea",
+      "A depression formed when the ground subsides or collapses into space below",
+      "A ridge of sand formed by the wind"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/sinkhole",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "912945297f9caa76e049",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What does a geothermal geyser do?",
+    "answers": [
+      "Builds a reef from coral",
+      "Erupts with hot water and steam",
+      "Permanently freezes the ground around it",
+      "Carries a river beneath the sea"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/geyser",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "0ef4f731c637b3f3f470",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is an escarpment?",
+    "answers": [
+      "A long, steep slope or cliff separating areas at different heights",
+      "A shallow pool behind a coral reef",
+      "A bend cut off from a river",
+      "A group of small ocean islands"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/escarpment",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "3c41b0e4ef77f9c76a63",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a continental shelf?",
+    "answers": [
+      "The deepest part of an ocean trench",
+      "A mountain range in the middle of a continent",
+      "The ice floating around a pole",
+      "The shallow, submerged edge of a continent"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/continental-shelf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "83412724e6e9b69a5044",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What does a drainage divide separate?",
+    "answers": [
+      "Freshwater fish from saltwater fish",
+      "The upper and lower parts of a waterfall",
+      "Neighbouring drainage basins",
+      "The two halves of a river channel"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.usgs.gov/water-science-school/understanding-finding-hydrologic-unit-codes-hucs",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "712bf31dec41f8164096",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a river drainage basin?",
+    "answers": [
+      "The wall of a dam across the river",
+      "The area of land drained by a river and its tributaries",
+      "Only the deepest pool in the river",
+      "A single bend cut off from the river"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.usgs.gov/water-science-school/understanding-finding-hydrologic-unit-codes-hucs",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "706cee04603c5aa8e79e",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Which demographic change defines urbanisation?",
+    "answers": [
+      "A growing share of people living in towns and cities",
+      "A growing share of people living in rural settlements",
+      "A fall in the average age of the population",
+      "A rise in the number of births per person"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/files/documents/2020/Jan/un_1980_patterns_of_urban_and_rural_population_growth.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "ef1ae89812c4ee2d8da0",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a suburb?",
+    "answers": [
+      "The historic centre of every capital city",
+      "A narrow strip of land joining two islands",
+      "A lake inside a volcanic crater",
+      "An outlying district of a town or city, often residential"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/suburb",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "b0ec5cdf19b85d83b53e",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Population density measures the number of people per what?",
+    "answers": [
+      "Unit of height",
+      "Household income",
+      "Unit of area",
+      "Hour of the day"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/population-density",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "a5b6e81af27f2415e686",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What does it mean for a country to be landlocked?",
+    "answers": [
+      "It has no rivers or lakes",
+      "It has no coastline giving access to the open sea",
+      "It is entirely below sea level",
+      "It is made up only of islands"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/landlocked",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "8b2a90e847fca42af688",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What does reclaiming land from the sea involve?",
+    "answers": [
+      "Creating usable land from an area previously covered by water",
+      "Allowing waves to erode the coastline",
+      "Making a river flow faster upstream",
+      "Moving a mountain closer to the coast"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/reclamation",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "cd6cb0e4bb0cf678401c",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "On a map, what does the coastline trace?",
+    "answers": [
+      "A national border running through a desert",
+      "The highest ridge in a mountain range",
+      "The centre of a river channel",
+      "The shape of the land's edge next to the sea"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/coastline",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "4fb263dcafd7065fb274",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a river's mouth?",
+    "answers": [
+      "The centre of its largest bend",
+      "The deepest point behind a dam",
+      "Where it flows into a sea, lake or another river",
+      "The highest point in its drainage basin"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://water.usgs.gov/water-basics_glossary.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "1e4e34388eb4c1c49720",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Which of these is an example of sediment?",
+    "answers": [
+      "The speed of a moving glacier",
+      "Sand or silt deposited by water",
+      "Heat stored inside Earth's core",
+      "The direction of a compass needle"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/sediment",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "fd8ef8ffd0f693311756",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Geothermal energy comes from which source?",
+    "answers": [
+      "Heat inside Earth",
+      "Wind above the ocean",
+      "Sunlight reaching a desert",
+      "The gravitational pull of the Moon alone"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/geothermal",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "ba04332617d12e7ab556",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What is a water-supply reservoir mainly used for?",
+    "answers": [
+      "Measuring wind speed",
+      "Recording earthquakes",
+      "Marking the boundary of a country",
+      "Storing water"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/reservoir",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "6552022e14cdec6239b3",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "In which part of the United Kingdom is Stonehenge?",
+    "answers": [
+      "Wales",
+      "Northern Ireland",
+      "England",
+      "Scotland"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://whc.unesco.org/en/list/373/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "6d75299081d08579a1b3",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "In which Italian city is the Colosseum?",
+    "answers": [
+      "Florence",
+      "Rome",
+      "Milan",
+      "Venice"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://whc.unesco.org/en/list/91/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "c2a3e250ad4567a38ccb",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Which Greek city is overlooked by the Acropolis and its Parthenon?",
+    "answers": [
+      "Athens",
+      "Thessaloniki",
+      "Patras",
+      "Heraklion"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://whc.unesco.org/en/list/404/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "11c44f14048964419c29",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "In which country is the ancient rock-cut city of Petra?",
+    "answers": [
+      "Egypt",
+      "Greece",
+      "Morocco",
+      "Jordan"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://whc.unesco.org/en/list/326/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "29a3ea82dcdb0abc01ab",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "In which country is Uluru?",
+    "answers": [
+      "South Africa",
+      "Canada",
+      "Australia",
+      "New Zealand"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://whc.unesco.org/en/list/447/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "53a9629d8f7f0be58354",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "The Great Barrier Reef lies off the coast of which Australian state?",
+    "answers": [
+      "Tasmania",
+      "Queensland",
+      "Victoria",
+      "Western Australia"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://whc.unesco.org/en/list/154/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "4cef52484f78e9089512",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Iguazú Falls lie on the border between which two countries?",
+    "answers": [
+      "Argentina and Brazil",
+      "Chile and Peru",
+      "Bolivia and Paraguay",
+      "Ecuador and Colombia"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://whc.unesco.org/en/list/355/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "d132f5b3014ea8138179",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "In which country is Serengeti National Park?",
+    "answers": [
+      "Kenya",
+      "South Africa",
+      "Namibia",
+      "Tanzania"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://whc.unesco.org/en/list/156/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "9cd40290c510b6c11a68",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "The Galápagos Islands belong to which country?",
+    "answers": [
+      "Chile",
+      "Colombia",
+      "Ecuador",
+      "Peru"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://whc.unesco.org/en/list/1/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "b82308ca7e484f9055d6",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "The Madeira archipelago is part of which country?",
+    "answers": [
+      "Italy",
+      "Portugal",
+      "Spain",
+      "France"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://whc.unesco.org/en/list/934/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "ff88e002eb66ee69f637",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Which part of the United Kingdom includes the Shetland Islands?",
+    "answers": [
+      "Scotland",
+      "England",
+      "Wales",
+      "Northern Ireland"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://en.wikipedia.org/wiki/Shetland",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "69d2242cc77f3d3f27d2",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Which part of the United Kingdom includes the Orkney Islands?",
+    "answers": [
+      "England",
+      "Wales",
+      "Northern Ireland",
+      "Scotland"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://whc.unesco.org/en/list/514/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "11e2a00cc3e9f58bffa3",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Fiordland National Park is in which country?",
+    "answers": [
+      "Canada",
+      "Norway",
+      "New Zealand",
+      "Australia"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://whc.unesco.org/en/list/551/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "250d11ece880af3b15b1",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Tuscany is a region of which country?",
+    "answers": [
+      "Greece",
+      "Italy",
+      "France",
+      "Spain"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://en.wikipedia.org/wiki/Tuscany",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "3ad7c3790425ef478ca6",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Bavaria is a state of which country?",
+    "answers": [
+      "Germany",
+      "Austria",
+      "Switzerland",
+      "Belgium"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://en.wikipedia.org/wiki/Bavaria",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "c41d67a5020817005ae0",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Andalusia is a region of which country?",
+    "answers": [
+      "Portugal",
+      "Italy",
+      "France",
+      "Spain"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://en.wikipedia.org/wiki/Andalusia",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "e515c6aec1ffa5229f74",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Provence is in which country?",
+    "answers": [
+      "Spain",
+      "Switzerland",
+      "France",
+      "Italy"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://en.wikipedia.org/wiki/Provence",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "76b8054da9d8b1097839",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Hạ Long Bay is in which country?",
+    "answers": [
+      "Indonesia",
+      "Vietnam",
+      "Thailand",
+      "Malaysia"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://whc.unesco.org/en/list/672/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "29c681c39886c38a6e5f",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Which Indonesian island is home to the Borobudur temple complex?",
+    "answers": [
+      "Java",
+      "Bali",
+      "Sumatra",
+      "Sulawesi"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://whc.unesco.org/en/list/592/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "ec2e14a568de3657d866",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Jeju Island belongs to which country?",
+    "answers": [
+      "Japan",
+      "China",
+      "Vietnam",
+      "South Korea"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://whc.unesco.org/en/list/1264/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "708b07e455facd3b1f2b",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "The Baja California Peninsula lies between the Pacific Ocean and which gulf?",
+    "answers": [
+      "Gulf of Alaska",
+      "Gulf of Maine",
+      "Gulf of California",
+      "Gulf of Mexico"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://en.wikipedia.org/wiki/Baja_California_Peninsula",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "b694c2941eb7f9decf88",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "The Maya site of Chichén Itzá is in which country?",
+    "answers": [
+      "Brazil",
+      "Mexico",
+      "Peru",
+      "Bolivia"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://whc.unesco.org/en/list/483/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "d034fe15125e82d72c00",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Easter Island, also called Rapa Nui, is a territory of which country?",
+    "answers": [
+      "Chile",
+      "Peru",
+      "New Zealand",
+      "Australia"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://whc.unesco.org/en/list/715/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "9cccc06d8fa13b9f126b",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Réunion is an overseas part of which country?",
+    "answers": [
+      "Portugal",
+      "United Kingdom",
+      "Netherlands",
+      "France"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://whc.unesco.org/en/list/1317/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "73bc3fc1adefada2f257",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Bora Bora is part of which Pacific territory?",
+    "answers": [
+      "American Samoa",
+      "Guam",
+      "French Polynesia",
+      "New Caledonia"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://en.wikipedia.org/wiki/Bora_Bora",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "6cf5563a13740bd208f2",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "On which continent is the Atacama Desert?",
+    "answers": [
+      "Australia",
+      "South America",
+      "Africa",
+      "Asia"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://en.wikipedia.org/wiki/Atacama_Desert",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "d57e3e672e0da857b12a",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Lake Bled is in which country?",
+    "answers": [
+      "Slovenia",
+      "Slovakia",
+      "Croatia",
+      "Austria"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://en.wikipedia.org/wiki/Lake_Bled",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "95730b05d855b041dc88",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Plitvice Lakes National Park is in which country?",
+    "answers": [
+      "Slovenia",
+      "Serbia",
+      "Montenegro",
+      "Croatia"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://whc.unesco.org/en/list/98/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "639aa9eaa0455803a2fd",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Banff National Park is in which Canadian province?",
+    "answers": [
+      "Quebec",
+      "Manitoba",
+      "Alberta",
+      "Ontario"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://en.wikipedia.org/wiki/Banff_National_Park",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "5edf8ca80df4754a39de",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Most of Yellowstone National Park lies in which US state?",
+    "answers": [
+      "Colorado",
+      "Wyoming",
+      "Montana",
+      "Idaho"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.nps.gov/yell/planyourvisit/parkfacts.htm",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "159e15fef080b37e03a9",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Aoraki / Mount Cook is in which country?",
+    "answers": [
+      "New Zealand",
+      "Australia",
+      "Canada",
+      "South Africa"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://en.wikipedia.org/wiki/Aoraki_/_Mount_Cook",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "a42d0e9c340b105365de",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Torres del Paine National Park is in which country?",
+    "answers": [
+      "Peru",
+      "Brazil",
+      "Ecuador",
+      "Chile"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://en.wikipedia.org/wiki/Torres_del_Paine_National_Park",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "a7a69113c2b6137948e8",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Kruger National Park is in which country?",
+    "answers": [
+      "Tanzania",
+      "Botswana",
+      "South Africa",
+      "Kenya"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://en.wikipedia.org/wiki/Kruger_National_Park",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "6771522455a506cac8c4",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Table Mountain overlooks which South African city?",
+    "answers": [
+      "Pretoria",
+      "Cape Town",
+      "Johannesburg",
+      "Durban"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://en.wikipedia.org/wiki/Table_Mountain",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "31d8806bbcd3a224aa71",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "What type of mountain is Mount Kilimanjaro?",
+    "answers": [
+      "A volcanic mountain",
+      "A fold mountain",
+      "A fault-block mountain",
+      "An erosional plateau"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://whc.unesco.org/en/list/403/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "ab8756cc994082b0c3dc",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Mount Elbrus is in which country?",
+    "answers": [
+      "Georgia",
+      "Armenia",
+      "Azerbaijan",
+      "Russia"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://en.wikipedia.org/wiki/Mount_Elbrus",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "aabaad32d7296c260370",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Mount Etna is on which Italian island?",
+    "answers": [
+      "Capri",
+      "Elba",
+      "Sicily",
+      "Sardinia"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://whc.unesco.org/en/list/1427/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "3c3c19ddd47d6aab223c",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Vesuvius is near which Italian city?",
+    "answers": [
+      "Genoa",
+      "Naples",
+      "Turin",
+      "Venice"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://en.wikipedia.org/wiki/Mount_Vesuvius",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "89c421ad6afc5927a19f",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "The Sydney Opera House is in which country?",
+    "answers": [
+      "Australia",
+      "New Zealand",
+      "United Kingdom",
+      "Canada"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://whc.unesco.org/en/list/166/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "e3acfe375541e311c902",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "The Christ the Redeemer statue overlooks which Brazilian city?",
+    "answers": [
+      "São Paulo",
+      "Brasília",
+      "Salvador",
+      "Rio de Janeiro"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://whc.unesco.org/en/list/1100/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "d116be87d8bb3d3109df",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Antoni Gaudí's Sagrada Família basilica is in which Spanish city?",
+    "answers": [
+      "Seville",
+      "Valencia",
+      "Barcelona",
+      "Madrid"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://en.wikipedia.org/wiki/Sagrada_Família",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "9f5ea482d63c8fcd6af5",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "The Alhambra palace complex is in which Spanish city?",
+    "answers": [
+      "Zaragoza",
+      "Granada",
+      "Madrid",
+      "Bilbao"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://whc.unesco.org/en/list/314/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "5b5139e267208c043f98",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Charles Bridge crosses a river in which European capital?",
+    "answers": [
+      "Prague",
+      "Vienna",
+      "Budapest",
+      "Warsaw"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://whc.unesco.org/en/list/616/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "e9cd596335a8d98bd7e1",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "The Blue Lagoon geothermal spa is in which country?",
+    "answers": [
+      "Norway",
+      "Sweden",
+      "Finland",
+      "Iceland"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.bluelagoon.com/about",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "de0073f2819a9c3d1a10",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Santorini lies in which sea?",
+    "answers": [
+      "Baltic Sea",
+      "Black Sea",
+      "Aegean Sea",
+      "Adriatic Sea"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://en.wikipedia.org/wiki/Santorini",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "028283e16ee1510e67a0",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Zanzibar is part of which country?",
+    "answers": [
+      "Madagascar",
+      "Tanzania",
+      "Kenya",
+      "Mozambique"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://whc.unesco.org/en/list/173/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "365696f5f780ef326b3c",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Marrakesh is in which country?",
+    "answers": [
+      "Morocco",
+      "Algeria",
+      "Tunisia",
+      "Egypt"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://whc.unesco.org/en/list/331/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "777e872fbf18f5aaeda7",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Dubrovnik is a coastal city in which country?",
+    "answers": [
+      "Slovenia",
+      "Albania",
+      "Greece",
+      "Croatia"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://whc.unesco.org/en/list/95/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "b95a7e610390609e7bb7",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "Porto is a city in which country?",
+    "answers": [
+      "Italy",
+      "France",
+      "Portugal",
+      "Spain"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://whc.unesco.org/en/list/755/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  },
+  {
+    "id": "93489ffb16f7847246fd",
+    "categoryID": "22",
+    "difficulty": "easy",
+    "prompt": "The Matterhorn stands on the border between which two countries?",
+    "answers": [
+      "Norway and Sweden",
+      "Switzerland and Italy",
+      "France and Spain",
+      "Austria and Germany"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://en.wikipedia.org/wiki/Matterhorn",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-22-v1"
+  }
+]

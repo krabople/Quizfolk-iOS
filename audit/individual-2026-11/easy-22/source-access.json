@@ -1,0 +1,1050 @@
+{
+  "date": "2026-11-18",
+  "note": "100 Geography candidates individually author-checked, followed by final reading of all stems and all four options. Existing conceptual duplicates replaced before publication. Final overlap candidates were different geographical facts (including Easter Island country versus ocean location and Kilimanjaro formation versus country). Dictionary senses checked explicitly; irrelevant homonyms ignored. Primary scientific definitions from USGS, NOAA, NSIDC, NPS and EPA replace inadequate dictionary senses, especially drainage divide, permafrost, glacier, iceberg, wetland and temperate rainforest. Relevant UNESCO descriptions/country fields inspected through parsed web output when direct downloads returned 403. Secondary encyclopaedia leads/location metadata used for some stable location facts and labelled as secondary, not primary. Blue Lagoon operator source replaces flagged encyclopaedia page. Yellowstone primary NPS confirms most, not all, lies in Wyoming. Some direct fetches failed or returned stubs; these were not counted as full retrieval. Author pass is not independent review.",
+  "references": [
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/archipelago",
+      "questionRows": [
+        1
+      ],
+      "sourceKind": "dictionary",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/archipelago",
+      "sha256": "28fb46893508f57a0727f277d6dfd0d373d074fdb060ac76bc4415465ef11f0d",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/atoll",
+      "questionRows": [
+        8
+      ],
+      "sourceKind": "dictionary",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/atoll",
+      "sha256": "3eca2e5c47fbeaeef9c3663e042cbc5f2dcec1a98832a7fbe6f9180207b9b0bf",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/bay",
+      "questionRows": [
+        15
+      ],
+      "sourceKind": "dictionary",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/bay",
+      "sha256": "2b211f08e362864d6abde3c7c4733744482160f0aa39a7f8dc7c256ebee970ed",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/cape",
+      "questionRows": [
+        16
+      ],
+      "sourceKind": "dictionary",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/cape",
+      "sha256": "73bcfccceb1e4f5ffd5fec4d555decb6f7e5f5e282094bb31f5ef7ca99b287f0",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/coastline",
+      "questionRows": [
+        46
+      ],
+      "sourceKind": "dictionary",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/confluence",
+      "questionRows": [
+        17
+      ],
+      "sourceKind": "dictionary",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/confluence",
+      "sha256": "f2376d2606a37852b56537626e9ef5aff9000a4222c8e796f0fad5e3de65ebbc",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/continental-shelf",
+      "questionRows": [
+        38
+      ],
+      "sourceKind": "dictionary",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/continental-shelf",
+      "sha256": "90815a9ce76c31f6847a29dfd12499fb45db20d7b36fac44d717fb0f90b742d5",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/escarpment",
+      "questionRows": [
+        37
+      ],
+      "sourceKind": "dictionary",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/estuary",
+      "questionRows": [
+        5
+      ],
+      "sourceKind": "dictionary",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/estuary",
+      "sha256": "b172e30752089f26de55fc48310e3b2412b8156cc0d35a696628c66cf61ab651",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/floodplain",
+      "questionRows": [
+        19
+      ],
+      "sourceKind": "dictionary",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/floodplain",
+      "sha256": "ac11627b2f06d5e2c0748557023592c5c37651203d12f19f1b09d777aa93013b",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/geothermal",
+      "questionRows": [
+        49
+      ],
+      "sourceKind": "dictionary",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/geothermal",
+      "sha256": "6231ee80955e45613052c5b416fbfa96cad47f4f70e1cb2bd5c7d70087f1ec55",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/geyser",
+      "questionRows": [
+        36
+      ],
+      "sourceKind": "dictionary",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/geyser",
+      "sha256": "c5cfb9df2e6bd5d6bb45cf7e663468926bca7dd0f6f07257c4c07ae2e20a20e5",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/gorge",
+      "questionRows": [
+        23
+      ],
+      "sourceKind": "dictionary",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/gorge",
+      "sha256": "93956c8493b6c5dde4c704dcc3d8e59546403554b9813e11be7bfdf3d268da27",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/isthmus",
+      "questionRows": [
+        2
+      ],
+      "sourceKind": "dictionary",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/isthmus",
+      "sha256": "2ae0310bd912fa01eed19fabd68de306536b9a66799866edb3766738ab20a9d7",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/lagoon",
+      "questionRows": [
+        9
+      ],
+      "sourceKind": "dictionary",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/lagoon",
+      "sha256": "0c3f07025ac2ec9e57596c6bcf683636ae4a355bc815e01f023b8bc498f5146c",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/landlocked",
+      "questionRows": [
+        44
+      ],
+      "sourceKind": "dictionary",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/landlocked",
+      "sha256": "40a7e07b207dec1bd4ccded0bc9ab8700f80e13345dc30efba12107dba68c37e",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/meander",
+      "questionRows": [
+        18
+      ],
+      "sourceKind": "dictionary",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/meander",
+      "sha256": "c5764e60234be235f7633e66842292410f90e73d3eddccbaa75f7d696b92ae79",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/moraine",
+      "questionRows": [
+        25
+      ],
+      "sourceKind": "dictionary",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/moraine",
+      "sha256": "3acc31252bde9156e17e055ccb619b014d9070fa159c4a788286e1992fc2d71d",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/oasis",
+      "questionRows": [
+        14
+      ],
+      "sourceKind": "dictionary",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/oasis",
+      "sha256": "8d87181849420a1b0dbac374e2a7172cfe8e46cbfac84f4da39958be555bd2c7",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/oxbow-lake",
+      "questionRows": [
+        20
+      ],
+      "sourceKind": "dictionary",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/oxbow-lake",
+      "sha256": "e2d1bf8f50592096985dc53c7fa381d421dd1f3860f2e9e2c49e1d90427ee34c",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/plain",
+      "questionRows": [
+        12
+      ],
+      "sourceKind": "dictionary",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/plain",
+      "sha256": "bb0907893eaa5faa8855a62c72e01771b794590467414dc0af701658a008bed3",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/plateau",
+      "questionRows": [
+        10
+      ],
+      "sourceKind": "dictionary",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/plateau",
+      "sha256": "09bab5038edb701072fec532313305da6efe83f3779bceeaf56b53c1e3578340",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/population-density",
+      "questionRows": [
+        43
+      ],
+      "sourceKind": "dictionary",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/population-density",
+      "sha256": "02350a1ff90f5a1962a7c2f822213b4a0da9736af3600176bb3423d2224d7616",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/rapids",
+      "questionRows": [
+        21
+      ],
+      "sourceKind": "dictionary",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/rapids",
+      "sha256": "ff89d2818478deae9ff077328ac10c9e7bf731fe930078f4524ebf503ae5e94e",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/reclamation",
+      "questionRows": [
+        45
+      ],
+      "sourceKind": "dictionary",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/reservoir",
+      "questionRows": [
+        50
+      ],
+      "sourceKind": "dictionary",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/reservoir",
+      "sha256": "de1872600604956ce2a0f682ac7ea2db2d3a326928d87bb6c80aff7bbf948180",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/savanna",
+      "questionRows": [
+        30
+      ],
+      "sourceKind": "dictionary",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/oak-savanna?q=savanna",
+      "sha256": "74e22832ffe9813686ddd7666c00bf5bb10078513aa695dae75543693a5e1af7",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/sediment",
+      "questionRows": [
+        48
+      ],
+      "sourceKind": "dictionary",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/sediment",
+      "sha256": "522b34664f3e89fa276d0789c32162413aebb1315354401e778f7c307807584b",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/sinkhole",
+      "questionRows": [
+        35
+      ],
+      "sourceKind": "dictionary",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/sinkhole",
+      "sha256": "487bcee14c7194b41b1c182fb24788ccefe86cbf1bd3a9ae3ca7a79460a5fb15",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/steppe",
+      "questionRows": [
+        32
+      ],
+      "sourceKind": "dictionary",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/steppe",
+      "sha256": "6ca80806e3aef38c1855db6f831c1daf7810f176b4577d80de2cd10616007d2f",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/strait",
+      "questionRows": [
+        3
+      ],
+      "sourceKind": "dictionary",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/strait",
+      "sha256": "1617a0483190eea2e70417590839971002707d4ae0268ebf0efdd42a5940d8cb",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/suburb",
+      "questionRows": [
+        42
+      ],
+      "sourceKind": "dictionary",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/suburb",
+      "sha256": "84c5c270bc4cdd3d5da54fde1b0075d1d64ab96b10680f91fad19767779794c9",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/tributary",
+      "questionRows": [
+        4
+      ],
+      "sourceKind": "dictionary",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/tributary",
+      "sha256": "429aaacbc0e52143608226df2cabc8520601a43451a4d7362cfc0f3a908e40ec",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/valley",
+      "questionRows": [
+        11
+      ],
+      "sourceKind": "dictionary",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/valley",
+      "sha256": "064ec9ade65681c5693a55ec1a7976abc91058be299d0006286c37cfce93d667",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/waterfall",
+      "questionRows": [
+        22
+      ],
+      "sourceKind": "dictionary",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/waterfall",
+      "sha256": "0a12966416bb970bd0381b45bbcf00adbc22710043b9c0a9f248b27de84adcb1",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Andalusia",
+      "questionRows": [
+        66
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Andalusia",
+      "sha256": "4651ce79f49870d551a417496639c6fe5022555fa823aae5661d6d754f972453",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Aoraki_/_Mount_Cook",
+      "questionRows": [
+        81
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Aoraki_/_Mount_Cook",
+      "sha256": "5f4e4cfdb6ecd40cafa87543fd24ba94be4d2aa33e5e9a8b51919798769f231e",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Atacama_Desert",
+      "questionRows": [
+        76
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Atacama_Desert",
+      "sha256": "9dd6628b0651d041ae1c8053fc0853da9d8ebeedc4f5e728d30a576d44dde8a2",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Baja_California_Peninsula",
+      "questionRows": [
+        71
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Baja_California_Peninsula",
+      "sha256": "b88873bd03046638d8bd227022ae500c001655a5cee801014bbd010c870adff9",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Banff_National_Park",
+      "questionRows": [
+        79
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Banff_National_Park",
+      "sha256": "d7c94565846faaa0cdcac6a16893f88f7d2d1c100c6b358a6a870725407ca044",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bavaria",
+      "questionRows": [
+        65
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Bavaria",
+      "sha256": "3fd371c9cb56af62fc39cf015a65b97eef43c01eb31072b3c36f49db7c4b07d4",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bora_Bora",
+      "questionRows": [
+        75
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Bora_Bora",
+      "sha256": "4745a5303196bf3c07b2b7428f55215d329adddd494bfe18ba79c76d389fa62f",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Kruger_National_Park",
+      "questionRows": [
+        83
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Kruger_National_Park",
+      "sha256": "6270799c3b80a7fb2930dc998bbba959fafa3a8fc3e8af89f77232fd4462ddc7",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lake_Bled",
+      "questionRows": [
+        77
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Lake_Bled",
+      "sha256": "5438b897554f3926b3660d7638bde799a1c588dc54d73a4e39d3d23c869a87b9",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Matterhorn",
+      "questionRows": [
+        100
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Matterhorn",
+      "sha256": "2f070b9754a725be64a4cc5c2ad0104f31e64aca732c4ec912ec2780c887cafa",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mount_Elbrus",
+      "questionRows": [
+        86
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Mount_Elbrus",
+      "sha256": "4ae66439f9f9f46a18a34b1ca74bdbe38b01b15131338073a5cdfa031d74005a",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mount_Vesuvius",
+      "questionRows": [
+        88
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Mount_Vesuvius",
+      "sha256": "d9ef3a6348bbda97d69ff0a65abb4ba5d6ca029ee1a6cd3f74979c073082af0d",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Provence",
+      "questionRows": [
+        67
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Provence",
+      "sha256": "638fcf0dc05a868021521b4efd8a60a2cd82d4726ce20fc7c4bb7781afae7319",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sagrada_Família",
+      "questionRows": [
+        91
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia",
+      "sha256": "43f08b1ace2b45abddcd79f7c54c5d612776680c2ba71311f3f42736be5c4859",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Santorini",
+      "questionRows": [
+        95
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Santorini",
+      "sha256": "ac1bd6f900fa7c74f1fd55826c7ec772755028dcb78409d8b9371dbf52892a1a",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Shetland",
+      "questionRows": [
+        61
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Shetland",
+      "sha256": "c18a99f7b1bcf91cb1382c9e88897dc116a6c98f0812d48baa7d97eea11eb09c",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Table_Mountain",
+      "questionRows": [
+        84
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Table_Mountain",
+      "sha256": "8b628a79d4c91e3c4e1a16907c840cb3f8a5cb99b35af6710bc9d442133ff704",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Torres_del_Paine_National_Park",
+      "questionRows": [
+        82
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Torres_del_Paine_National_Park",
+      "sha256": "497120e6eb2f78a03cd005afa551284f814c47e006a9ef4e481e708523463af8",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tuscany",
+      "questionRows": [
+        64
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Tuscany",
+      "sha256": "090babc35d0d79b54d02e0b27a26bd431c2ed446f45d38fab8d3c6b45cd76c52",
+      "inspectionMethod": "Relevant actual definition or location passages inspected; author judgment recorded separately for each question."
+    },
+    {
+      "url": "https://home.nps.gov/articles/ushapedvalleysfjordshangingvalleys.htm",
+      "questionRows": [
+        7
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://home.nps.gov/subjects/aknatureandscience/akecoregions.htm",
+      "questionRows": [
+        28,
+        29
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://nsidc.org/learn/parts-cryosphere/frozen-ground-permafrost/quick-facts-frozen-ground",
+      "questionRows": [
+        27
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://nsidc.org/learn/parts-cryosphere/glaciers/science-glaciers",
+      "questionRows": [
+        24
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://oceanservice.noaa.gov/facts/iceberg.html",
+      "questionRows": [
+        26
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://pubs.usgs.gov/of/1997/0536a/report.pdf",
+      "questionRows": [
+        34
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://water.usgs.gov/water-basics_glossary.html",
+      "questionRows": [
+        47
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1/",
+      "questionRows": [
+        59
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed.",
+      "directFetchStatus": "fetch_failed",
+      "directBodyCharacters": 0
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1100/",
+      "questionRows": [
+        90
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed.",
+      "directFetchStatus": "fetch_failed",
+      "directBodyCharacters": 0
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1264/",
+      "questionRows": [
+        70
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed.",
+      "directFetchStatus": "fetch_failed",
+      "directBodyCharacters": 0
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1317/",
+      "questionRows": [
+        74
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed.",
+      "directFetchStatus": "fetch_failed",
+      "directBodyCharacters": 0
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1427/",
+      "questionRows": [
+        87
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed.",
+      "directFetchStatus": "fetch_failed",
+      "directBodyCharacters": 0
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/154/",
+      "questionRows": [
+        56
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed.",
+      "directFetchStatus": "fetch_failed",
+      "directBodyCharacters": 0
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/156/",
+      "questionRows": [
+        58
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed.",
+      "directFetchStatus": "fetch_failed",
+      "directBodyCharacters": 0
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/166/",
+      "questionRows": [
+        89
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed.",
+      "directFetchStatus": "fetch_failed",
+      "directBodyCharacters": 0
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/173/",
+      "questionRows": [
+        96
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed.",
+      "directFetchStatus": "fetch_failed",
+      "directBodyCharacters": 0
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/314/",
+      "questionRows": [
+        92
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed.",
+      "directFetchStatus": "fetch_failed",
+      "directBodyCharacters": 0
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/326/",
+      "questionRows": [
+        54
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed.",
+      "directFetchStatus": "fetch_failed",
+      "directBodyCharacters": 0
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/331/",
+      "questionRows": [
+        97
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed.",
+      "directFetchStatus": "fetch_failed",
+      "directBodyCharacters": 0
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/355/",
+      "questionRows": [
+        57
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed.",
+      "directFetchStatus": "fetch_failed",
+      "directBodyCharacters": 0
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/373/",
+      "questionRows": [
+        51
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed.",
+      "directFetchStatus": "fetch_failed",
+      "directBodyCharacters": 0
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/403/",
+      "questionRows": [
+        85
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed.",
+      "directFetchStatus": "fetch_failed",
+      "directBodyCharacters": 0
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/404/",
+      "questionRows": [
+        53
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed.",
+      "directFetchStatus": "fetch_failed",
+      "directBodyCharacters": 0
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/447/",
+      "questionRows": [
+        55
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed.",
+      "directFetchStatus": "fetch_failed",
+      "directBodyCharacters": 0
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/483/",
+      "questionRows": [
+        72
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed.",
+      "directFetchStatus": "fetch_failed",
+      "directBodyCharacters": 0
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/514/",
+      "questionRows": [
+        62
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed.",
+      "directFetchStatus": "fetch_failed",
+      "directBodyCharacters": 0
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/551/",
+      "questionRows": [
+        63
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed.",
+      "directFetchStatus": "fetch_failed",
+      "directBodyCharacters": 0
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/592/",
+      "questionRows": [
+        69
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed.",
+      "directFetchStatus": "fetch_failed",
+      "directBodyCharacters": 0
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/616/",
+      "questionRows": [
+        93
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed.",
+      "directFetchStatus": "fetch_failed",
+      "directBodyCharacters": 0
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/672/",
+      "questionRows": [
+        68
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed.",
+      "directFetchStatus": "fetch_failed",
+      "directBodyCharacters": 0
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/715/",
+      "questionRows": [
+        73
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed.",
+      "directFetchStatus": "fetch_failed",
+      "directBodyCharacters": 0
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/755/",
+      "questionRows": [
+        99
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed.",
+      "directFetchStatus": "fetch_failed",
+      "directBodyCharacters": 0
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/91/",
+      "questionRows": [
+        52
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed.",
+      "directFetchStatus": "fetch_failed",
+      "directBodyCharacters": 0
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/934/",
+      "questionRows": [
+        60
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed.",
+      "directFetchStatus": "fetch_failed",
+      "directBodyCharacters": 0
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/95/",
+      "questionRows": [
+        98
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed.",
+      "directFetchStatus": "fetch_failed",
+      "directBodyCharacters": 0
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/98/",
+      "questionRows": [
+        78
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed.",
+      "directFetchStatus": "fetch_failed",
+      "directBodyCharacters": 0
+    },
+    {
+      "url": "https://www.bluelagoon.com/about",
+      "questionRows": [
+        94
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://www.epa.gov/wetlands/what-wetland",
+      "questionRows": [
+        33
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://www.nps.gov/articles/delta-landforms.htm",
+      "questionRows": [
+        6
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://www.nps.gov/grsm/learn/nature/plants.htm?lv=true",
+      "questionRows": [
+        31
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://www.nps.gov/subjects/dunes/index.htm",
+      "questionRows": [
+        13
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://www.nps.gov/yell/planyourvisit/parkfacts.htm",
+      "questionRows": [
+        80
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/files/documents/2020/Jan/un_1980_patterns_of_urban_and_rural_population_growth.pdf",
+      "questionRows": [
+        41
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://www.usgs.gov/water-science-school/understanding-finding-hydrologic-unit-codes-hucs",
+      "questionRows": [
+        39,
+        40
+      ],
+      "sourceKind": "primary scientific, institutional or site-operator reference",
+      "status": "relevant_web_parsed_or_indexed_passage_inspected",
+      "inspectionMethod": "Relevant actual reference passage inspected via web output; full direct retrieval not claimed."
+    }
+  ]
+}
