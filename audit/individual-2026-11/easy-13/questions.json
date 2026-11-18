@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "38325f0fb44042a7566c",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What is an understudy in a theatre production?",
+    "answers": [
+      "A performer ready to take over another performer's role",
+      "A spectator seated in the front row",
+      "A musician playing below the stage",
+      "A reviewer attending the first night"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/understudy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "8fea1b84f2451823373e",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What is an audition for a stage role?",
+    "answers": [
+      "A final performance before a show closes",
+      "A meeting to choose ticket prices",
+      "A rehearsal only for the orchestra",
+      "A performance used to select a cast member"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/audition",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "b8afd761cbafe3384e8b",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "Which device picks up a singer's voice for a theatre's sound system?",
+    "answers": [
+      "A scenic flat",
+      "A backdrop",
+      "A microphone",
+      "A spotlight"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.aqa.org.uk/resources/drama-and-performing-arts/gcse/drama/teach/subject-specific-vocabulary",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "19e105ba47d305984d0d",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What is a matinee performance?",
+    "answers": [
+      "A performance only for the cast",
+      "A performance during the day",
+      "A performance that starts at midnight",
+      "A show without any scenery"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/matinee",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "655d146a84bf90187347",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "In a British theatre, what is the interval?",
+    "answers": [
+      "A break between parts of the performance",
+      "The final speech of the play",
+      "The price of the cheapest ticket",
+      "The space behind the scenery"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/interval",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "a57435d1ff9fa366846e",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What happens during a curtain call?",
+    "answers": [
+      "The audience rehearses the opening scene",
+      "The orchestra tunes before the show",
+      "The stage manager sells programmes",
+      "The performers return to receive applause"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/curtain-call",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "96e07625cb2d2307cfa9",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What does an audience do during a standing ovation?",
+    "answers": [
+      "Join the performers on stage",
+      "Sing the next song for the cast",
+      "Stand up while applauding",
+      "Leave in complete silence"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/standing-ovation",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "0b61e2d8e4cf74be633a",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What is an encore at the end of a performance?",
+    "answers": [
+      "The break before the second act",
+      "An extra performance after audience applause",
+      "The first rehearsal of a new show",
+      "An announcement of ticket prices"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/encore",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "b5e18e65c684d5667b75",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What does a playwright write?",
+    "answers": [
+      "Plays",
+      "Theatre reviews",
+      "Orchestral parts",
+      "Lighting plans"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/playwright",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "a613d7592ab8ca4e5e05",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What does a choreographer create for a stage show?",
+    "answers": [
+      "The ticket pricing plan",
+      "The orchestra's instruments",
+      "The theatre's seating numbers",
+      "Dance routines"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/choreographer",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "2a6634c3de0b9b8adbdb",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "Which person usually guides the actors' performances and the overall staging of a play?",
+    "answers": [
+      "The usher",
+      "The programme seller",
+      "The director",
+      "The box-office clerk"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/director",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "f66a045ce69befe13834",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What does a costume designer plan for a stage production?",
+    "answers": [
+      "The ticket booking system",
+      "The performers' clothing",
+      "The interval refreshments",
+      "The audience seating"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/costume",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "749c8ec10eec6288be9a",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "Which designer creates the visual environment and scenery for a stage production?",
+    "answers": [
+      "The set designer",
+      "The costume designer",
+      "The sound designer",
+      "The lighting designer"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://filestore.aqa.org.uk/resources/drama/AQA-8261-SET-D-TG.PDF",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "779c24df621713e0ed6c",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "Who normally coordinates backstage activity during a theatre performance?",
+    "answers": [
+      "The theatre critic",
+      "The ticket collector",
+      "The audience photographer",
+      "The stage manager"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/stage-manager",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "d8f0058a516ec5413224",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What does a theatrical prompter help an actor remember?",
+    "answers": [
+      "Costume repairs",
+      "Lighting colours",
+      "Forgotten dialogue",
+      "Ticket prices"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/prompter",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "3c89574daaa962674e21",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What is a play's script?",
+    "answers": [
+      "A diagram of the theatre car park",
+      "Its written dialogue and stage instructions",
+      "A list of ticket buyers",
+      "A review printed after opening night"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/script",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "e0600a850cca8421f5d5",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What is the cast of a play?",
+    "answers": [
+      "The group of actors performing it",
+      "The people who buy its tickets",
+      "The seats nearest the stage",
+      "The collection of lighting equipment"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/cast",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "e073c4ec1a47564d0542",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "Which of these is a stage prop?",
+    "answers": [
+      "A member of the audience",
+      "The director's casting decision",
+      "A review in a newspaper",
+      "A letter handled by an actor in a scene"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/prop",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "8e805feff7c7edda5454",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What does theatrical scenery represent?",
+    "answers": [
+      "The audience's applause",
+      "The theatre's ticket sales",
+      "The surroundings in which the action takes place",
+      "The cast's vocal warm-up"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/scenery",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "61a09d3fe67958607a9f",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "In a theatre, what are the wings?",
+    "answers": [
+      "Doors used only by the audience",
+      "Offstage areas at the sides of the stage",
+      "The highest notes sung by the cast",
+      "The first two rows of seats"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/wings",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "f7a8742b0da976c67557",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What does backstage usually mean?",
+    "answers": [
+      "The areas behind or beside the stage away from the audience",
+      "The centre of the audience seating",
+      "The theatre's main entrance hall",
+      "The public pavement outside the theatre"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/backstage",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "91f8b596caa3667620aa",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What is a theatre's auditorium?",
+    "answers": [
+      "The room where costumes are washed",
+      "The booth where tickets are sold",
+      "The workshop where props are built",
+      "The area where the audience sits"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/auditorium",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "ab427cba1cbecd72c59c",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What is the foyer of a theatre?",
+    "answers": [
+      "The area above the stage for scenery",
+      "The orchestra's rehearsal room",
+      "The public entrance hall",
+      "The actors' hidden changing area"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/foyer",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "7b2bcadb17078efe08eb",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "Where would you normally collect pre-booked theatre tickets?",
+    "answers": [
+      "The lighting rig",
+      "The box office",
+      "The orchestra pit",
+      "The costume store"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/box-office",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "3ccf0327feb9cdab9691",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What is an orchestra pit in a theatre?",
+    "answers": [
+      "A space where the musicians play, often in front of and below the stage",
+      "A cupboard holding old scripts",
+      "A balcony reserved for reviewers",
+      "A trapdoor used by actors"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/orchestra-pit",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "3072519fc2b4873a5a54",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What is the main purpose of a spotlight on stage?",
+    "answers": [
+      "To amplify the singers' voices",
+      "To raise the scenery",
+      "To display the seat numbers",
+      "To illuminate a particular person or area"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/spotlight",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "49b82308fc99b11952a6",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What does a lighting blackout do during a play?",
+    "answers": [
+      "Silences the orchestra",
+      "Closes the box office",
+      "Leaves the stage in darkness",
+      "Makes all the costumes black"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.aqa.org.uk/resources/drama-and-performing-arts/gcse/drama/teach/subject-specific-vocabulary",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "0e505daeb6196cd2167b",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "An actor faces the audience. Which side is stage right?",
+    "answers": [
+      "The side furthest from the audience",
+      "The actor's right",
+      "The actor's left",
+      "The side nearest the audience"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/stage-right",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "517dfcab316e376acb2b",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "In conventional end-on staging, where is upstage?",
+    "answers": [
+      "Further away from the audience",
+      "Closest to the audience",
+      "At the actor's left only",
+      "At the actor's right only"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/upstage",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "08c2d81f9e10f13d8470",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "In conventional end-on staging, where is downstage?",
+    "answers": [
+      "Furthest from the audience",
+      "Above the stage roof",
+      "Under the auditorium floor",
+      "Closest to the audience"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/downstage",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "b271979445ba545061a5",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What is the fourth wall in theatre?",
+    "answers": [
+      "The theatre's outside back wall",
+      "The wall behind the ticket desk",
+      "The imaginary barrier between performers and audience",
+      "The fourth physical wall built for every set"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/fourth-wall",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "70360343e9080f2a84f6",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What is a soliloquy in a play?",
+    "answers": [
+      "A song sung by the audience",
+      "A speech in which a character speaks their thoughts aloud, often alone",
+      "A conversation between the entire cast",
+      "A dance performed without music"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/soliloquy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "222597d40eeb2f8c57c3",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What is an aside in a play?",
+    "answers": [
+      "A remark meant for the audience that other characters are understood not to hear",
+      "A scene performed only after the audience leaves",
+      "The list of actors in the programme",
+      "A door at the side of the theatre"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.open.edu/openlearn/history-the-arts/literature/approaching-plays/content-section-7.2",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "2443a8a9fcfd09239301",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What is a monologue on stage?",
+    "answers": [
+      "A conversation requiring four speakers",
+      "A dance for two performers",
+      "A section with no spoken words",
+      "An extended speech by one person"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/monologue",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "d49ca70c9e87b7315e66",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "In a traditional British Christmas pantomime, who commonly shouts warnings such as 'Behind you!'?",
+    "answers": [
+      "Musicians tuning before the show",
+      "Lighting staff working backstage",
+      "Audience members",
+      "Costume staff working backstage"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.vam.ac.uk/articles/the-story-of-pantomime",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "af5ccf64ac396f50411c",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What does a puppeteer control during a performance?",
+    "answers": [
+      "The theatre's accounts",
+      "A puppet",
+      "The ticket prices",
+      "The audience seating"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/puppeteer",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "63e763166cde35d1b5a4",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "Which performer is especially associated with telling a story through silent movement?",
+    "answers": [
+      "A mime artist",
+      "A radio announcer",
+      "An opera singer",
+      "A spoken-word poet"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/mime",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "f715113ee4c361a20e15",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What skill is a ventriloquist known for?",
+    "answers": [
+      "Walking along a tightrope",
+      "Swallowing fire",
+      "Juggling clubs",
+      "Speaking with little visible lip movement, making the voice seem to come from elsewhere"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/ventriloquist",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "c12856906ed1b2cabe32",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "In theatre, what is a cue?",
+    "answers": [
+      "A type of stage curtain",
+      "A section of audience seating",
+      "A signal to begin a particular action",
+      "A list of ticket prices"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.aqa.org.uk/resources/drama-and-performing-arts/gcse/drama/teach/subject-specific-vocabulary",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "45e70e57dae9efa3bd6c",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What is improvisation in acting?",
+    "answers": [
+      "Practising a dance exactly as choreographed",
+      "Creating dialogue or action as the scene is performed",
+      "Following a fixed written script word for word",
+      "Watching silently from the auditorium"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/improvisation",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "32255807465ff0b417f7",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What is a dress rehearsal?",
+    "answers": [
+      "A rehearsal in costume that aims to run like the performance",
+      "A fitting at which only shoes are tried on",
+      "A meeting to choose clothes for the audience",
+      "A rehearsal that cannot include any dialogue"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/dress-rehearsal",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "a11de271aa051200149f",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What happens at a read-through of a play?",
+    "answers": [
+      "The audience reads the reviews after the show",
+      "The stage crew checks ticket barcodes",
+      "The orchestra performs without the actors",
+      "The cast reads the script aloud together"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/read-through",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "6a29107333d8b9f83d25",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "In acting, what does blocking refer to?",
+    "answers": [
+      "Making all sound inaudible",
+      "Painting the scenery a single colour",
+      "Planning where performers stand and move",
+      "Preventing the audience from buying tickets"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/blocking",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "98e4a7854cd0d062fe7b",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "On how many sides does the audience usually sit around a thrust stage?",
+    "answers": [
+      "Four",
+      "Three",
+      "One",
+      "Two"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://filestore.aqa.org.uk/resources/drama/AQA-8261-SET-D-TG.PDF",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "8af743e14603c24a2f49",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "How is the audience arranged for theatre in the round?",
+    "answers": [
+      "Around the acting area on all sides",
+      "Along one side only",
+      "Only behind the performers",
+      "Entirely beneath the stage"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/theatre-in-the-round",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "8af22af68956a3546629",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What is a raked stage?",
+    "answers": [
+      "A stage covered in garden gravel",
+      "A stage with no lighting",
+      "A stage used only outdoors",
+      "A stage with a sloping floor"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/raked",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "b61b8243617b9cd18052",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What is a theatrical revival?",
+    "answers": [
+      "A replacement lightbulb",
+      "A rehearsal with no actors present",
+      "A new production of a work performed before",
+      "The first-ever performance of a new play"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/revival",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "acd4f36df3cbbfa1578c",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What is opening night for a theatre production?",
+    "answers": [
+      "The night when the costumes are designed",
+      "Its official first night, after any preview performances",
+      "The night of its final performance",
+      "The first day the building is cleaned"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/opening-night",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "b1f4b1d04506ff15279f",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What would you usually find in a theatre programme?",
+    "answers": [
+      "The cast list and notes about the production",
+      "The complete rehearsal attendance register",
+      "The full backstage lighting cue sheet",
+      "The theatre company's annual payroll"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/programme",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "9640769b216c40b83031",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "In a stage musical, what does 'the book' mean?",
+    "answers": [
+      "The theatre's accounts ledger",
+      "The ticket booking diary",
+      "The audience's song-request list",
+      "The script and story structure"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mtishows.com/sites/default/files/shelovesme_upstageguide_web.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "88019d34a2268faa0ebf",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "In ballet, what is a plié?",
+    "answers": [
+      "A straight-leg kick to the front",
+      "A slide with the knees kept straight",
+      "A bending of the knees",
+      "A turn while airborne"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.abt.org/explore/learn/ballet-dictionary/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "b92313a67842e2c7024c",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "In a basic ballet arabesque, where is the raised leg extended?",
+    "answers": [
+      "Straight down to the floor",
+      "Behind the dancer",
+      "Directly in front at knee height",
+      "Across the supporting knee"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/arabesque",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "442a19454427a2a543eb",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What is a pirouette in ballet?",
+    "answers": [
+      "A turn on one leg",
+      "A sideways step without turning",
+      "A jump taking off from both feet",
+      "A bend of both knees without turning"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/pirouette",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "becc5ae1f15c169f99ee",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What is the barre used for in ballet practice?",
+    "answers": [
+      "Amplifying the music",
+      "Lighting the studio",
+      "Fastening the stage curtain",
+      "Support during exercises"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/barre",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "b9388033421cd9df730c",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What does dancing en pointe mean in ballet?",
+    "answers": [
+      "Dancing only on the heels",
+      "Dancing without any music",
+      "Dancing on the tips of the toes",
+      "Dancing while seated"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/pointe",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "4680eaee24630cb05db0",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What is a tutu?",
+    "answers": [
+      "A theatre lighting stand",
+      "A skirt worn by ballet dancers",
+      "A pair of tap shoes",
+      "A circus safety net"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/tutu",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "f9db2ff5d759db7bb5e1",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "How many dancers perform a pas de deux?",
+    "answers": [
+      "Two",
+      "One",
+      "Three",
+      "Four"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/pas-de-deux",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "6d6ec3a73cd8e56d6308",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What is a ballerina?",
+    "answers": [
+      "A theatre ticket seller",
+      "A person who writes stage reviews",
+      "A maker of brass instruments",
+      "A female ballet dancer"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/ballerina",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "457639dcff428492517d",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What makes the characteristic clicking sounds in modern tap dancing?",
+    "answers": [
+      "A hidden whistle in each sleeve",
+      "Wooden sticks held between the teeth",
+      "Metal plates on the dancers' shoes",
+      "Small bells worn on every finger"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/tap-dance",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "8a12aa09d13cda9d861f",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "How many basic positions of the feet are there in classical ballet?",
+    "answers": [
+      "Six",
+      "Five",
+      "Three",
+      "Four"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.abt.org/explore/learn/ballet-dictionary/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "f43931523a48b823b31c",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "Oliver! is based on a novel by which author?",
+    "answers": [
+      "Charles Dickens",
+      "Jane Austen",
+      "Lewis Carroll",
+      "Robert Louis Stevenson"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mtishows.com/oliver",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "c14f2985564dfeb17ec3",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "Who teaches the young pickpockets in the musical Oliver!?",
+    "answers": [
+      "Mr Brownlow",
+      "Mr Bumble",
+      "Oliver's grandfather",
+      "Fagin"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mtishows.com/oliver",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "8b814651ce6b63eb3572",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "Who wrote the book, music and lyrics for Oliver!?",
+    "answers": [
+      "Stephen Sondheim",
+      "Stephen Schwartz",
+      "Lionel Bart",
+      "Andrew Lloyd Webber"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mtishows.com/oliver",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "779fbb1bd433f0509484",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What is Javert's occupation in Les Misérables?",
+    "answers": [
+      "Baker",
+      "Police inspector",
+      "Schoolteacher",
+      "Factory mechanic"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mtishows.com/les-miserables",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "766219871748e67affe2",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "At the beginning of Les Misérables, Jean Valjean is released from where?",
+    "answers": [
+      "Prison",
+      "University",
+      "A monastery",
+      "A military hospital"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mtishows.com/les-miserables",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "60e11db188893d1938dc",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "In which country is the main story of Les Misérables set?",
+    "answers": [
+      "Italy",
+      "Spain",
+      "Germany",
+      "France"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mtishows.com/les-miserables",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "2c8f41c66236479377e5",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "Which character sings I Dreamed a Dream in Les Misérables?",
+    "answers": [
+      "Éponine",
+      "Madame Thénardier",
+      "Fantine",
+      "Cosette"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mtishows.com/les-miserables",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "bb2046883fca67d5137b",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "Whose songs form the score of Mamma Mia!?",
+    "answers": [
+      "The Beach Boys'",
+      "ABBA's",
+      "Queen's",
+      "The Beatles'"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mtishows.com/mamma-mia",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "ec753993b4d3394309f2",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What kind of location provides the main setting of Mamma Mia!?",
+    "answers": [
+      "A Greek island",
+      "A Scottish castle",
+      "A New York hotel",
+      "An Australian ranch"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mtishows.com/mamma-mia",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "a11319ee1bc61073a678",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "How many possible fathers does Sophie invite to her wedding in Mamma Mia!?",
+    "answers": [
+      "Two",
+      "Four",
+      "Five",
+      "Three"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mtishows.com/mamma-mia",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "c4be8cf323ec3fa66a2f",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "Which dance form becomes Billy's passion in Billy Elliot the Musical?",
+    "answers": [
+      "Salsa",
+      "Irish step dancing",
+      "Ballet",
+      "Flamenco"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mtishows.com/billy-elliot-the-musical",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "9353f34e156211ae8fe0",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "Which workers' strike forms the backdrop to Billy Elliot the Musical?",
+    "answers": [
+      "A dockworkers' strike",
+      "A miners' strike",
+      "A teachers' strike",
+      "A railway workers' strike"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mtishows.com/billy-elliot-the-musical",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "1fc2358249b31cb8c300",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "Who composed the music for Billy Elliot the Musical?",
+    "answers": [
+      "Elton John",
+      "Phil Collins",
+      "Sting",
+      "Paul McCartney"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mtishows.com/billy-elliot-the-musical",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "3bcc07ef7578f7cadbc8",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What job does Mary Poppins take with the Banks family in the stage musical?",
+    "answers": [
+      "Cook",
+      "Gardener",
+      "Dressmaker",
+      "Nanny"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mtishows.com/cameron-mackintosh-and-disneys-mary-poppins",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "34a623d8188637bea32c",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "In the stage musical Mary Poppins, Bert is especially associated with which job?",
+    "answers": [
+      "Headmaster",
+      "Butcher",
+      "Chimney sweep",
+      "Train conductor"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mtishows.com/cameron-mackintosh-and-disneys-mary-poppins",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "9e9089b3c55c311aa23e",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What is the surname of Jane and Michael in Mary Poppins the stage musical?",
+    "answers": [
+      "Potts",
+      "Banks",
+      "Brown",
+      "Darling"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mtishows.com/cameron-mackintosh-and-disneys-mary-poppins",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "c9023d05abacd903ca1c",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What colour is Elphaba's skin in Wicked?",
+    "answers": [
+      "Green",
+      "Blue",
+      "Red",
+      "Purple"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://wickedthemusical.com/the-story-of-wicked/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "b651c2e57276d6e56b64",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "In which fictional land does Wicked take place?",
+    "answers": [
+      "Narnia",
+      "Neverland",
+      "Middle-earth",
+      "Oz"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://wickedthemusical.com/the-story-of-wicked/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "1b7144b9cf8ef749ff03",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "Which of these songs is from Wicked?",
+    "answers": [
+      "Tomorrow",
+      "Dancing Queen",
+      "Defying Gravity",
+      "Memory"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://wickedthemusical.com/the-story-of-wicked/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "0819fc8f3a56dea5109c",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "In which city is Andrew Lloyd Webber's The Phantom of the Opera set?",
+    "answers": [
+      "Madrid",
+      "Paris",
+      "Rome",
+      "Vienna"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.andrewlloydwebber.com/news/a-spoiler-free-guide-for-a-first-time-potential-phantom-fan",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "b1c7716a1b88a55c4621",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "Which item famously conceals part of the Phantom's face in The Phantom of the Opera?",
+    "answers": [
+      "A mask",
+      "A crown",
+      "A helmet",
+      "A monocle"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.andrewlloydwebber.com/news/a-spoiler-free-guide-for-a-first-time-potential-phantom-fan",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "7e98a1f3a2a0141bd8b8",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What is Christine Daaé's profession in The Phantom of the Opera?",
+    "answers": [
+      "Detective",
+      "Circus acrobat",
+      "Schoolteacher",
+      "Opera singer"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.andrewlloydwebber.com/news/andrew-lloyd-webbers-phantom-of-the-opera-returns-to-folketeateret-in-autumn-2027",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "99cfc3005651c1a9e887",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "SIX reimagines the wives of which English king as pop stars?",
+    "answers": [
+      "Richard III",
+      "Charles II",
+      "Henry VIII",
+      "Henry V"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://sixthemusical.com/london/about/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "0262d842a4d0a62894e5",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "Which pair are the central young lovers in the stage musical Grease?",
+    "answers": [
+      "Billy and Julie",
+      "Danny and Sandy",
+      "Tony and Maria",
+      "Curly and Laurey"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.concordtheatricals.com/p/2155/grease",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "4dda1ce11104e71d541e",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "Which school is the main setting of Grease?",
+    "answers": [
+      "Rydell High",
+      "East High",
+      "Shiz University",
+      "Horace Green"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.concordtheatricals.com/p/2155/grease",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "c4df5a4556ae6a8d8f0e",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "Which musical tells the story of Joseph being sold by his jealous brothers?",
+    "answers": [
+      "Jesus Christ Superstar",
+      "Godspell",
+      "Evita",
+      "Joseph and the Amazing Technicolor Dreamcoat"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.concordtheatricals.com/p/44899/joseph-and-the-amazing-technicolor-dreamcoat",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "776ab00757f16cbc429c",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What special ability helps Joseph rise to prominence in Joseph and the Amazing Technicolor Dreamcoat?",
+    "answers": [
+      "Breathing underwater",
+      "Talking to animals",
+      "Interpreting dreams",
+      "Turning invisible"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.concordtheatricals.com/p/44899/joseph-and-the-amazing-technicolor-dreamcoat",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "54bf7d7ff620146e71fb",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What do the train performers wear on their feet in Starlight Express?",
+    "answers": [
+      "Flippers",
+      "Roller skates",
+      "Ice skates",
+      "Snowshoes"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.andrewlloydwebber.com/news/why-starlight-express-continues-to-shine-so-bright",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "984f6284fd546e8d0002",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What do the racing characters represent in Starlight Express?",
+    "answers": [
+      "Trains",
+      "Aeroplanes",
+      "Racing cars",
+      "Speedboats"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.andrewlloydwebber.com/show/starlight-express",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "0f4ea0a26cf9c19da863",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "Which US government position did the title character of Hamilton become the first person to hold?",
+    "answers": [
+      "President",
+      "Secretary of State",
+      "Chief Justice",
+      "Secretary of the Treasury"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://home.treasury.gov/about/history/prior-secretaries/alexander-hamilton-1789-1795",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "5fe340b87ca3fa331fc7",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "Hamilton is set chiefly around the founding of which country?",
+    "answers": [
+      "Australia",
+      "New Zealand",
+      "The United States",
+      "Canada"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://home.treasury.gov/about/history/prior-secretaries/alexander-hamilton-1789-1795",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "831e5bc547146447a762",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "In Disney's stage musical Aladdin, what object contains the Genie?",
+    "answers": [
+      "A jewellery box",
+      "A lamp",
+      "A teapot",
+      "A bottle of perfume"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mtishows.com/disneys-aladdin-jr",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "9090ac7d723c8a8c1327",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "Who is the princess in Disney's stage musical Aladdin?",
+    "answers": [
+      "Jasmine",
+      "Ariel",
+      "Belle",
+      "Aurora"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mtishows.com/disneys-aladdin-jr",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "d3ee953bb1d0a88eec1f",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "How are Anna and Elsa related in Disney's Frozen stage musical?",
+    "answers": [
+      "They are cousins",
+      "They are mother and daughter",
+      "They are aunt and niece",
+      "They are sisters"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mtishows.com/disneys-frozen",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "f2b0e658996b263592cf",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What kind of character is Olaf in Disney's Frozen stage musical?",
+    "answers": [
+      "A troll",
+      "A wolf",
+      "A snowman",
+      "A reindeer"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mtishows.com/disneys-frozen",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "7ea814fe6017ecfe28f6",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "Which royal villain is Mufasa's brother in The Lion King stage story?",
+    "answers": [
+      "Frollo",
+      "Scar",
+      "Jafar",
+      "Gaston"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mtishows.com/disneys-the-lion-king-jr",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "9ed234a3dbe1b051441e",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "What is the name of the special gathering in Cats?",
+    "answers": [
+      "The Jellicle Ball",
+      "The Emerald Ball",
+      "The Snowflake Ball",
+      "The Royal Ball"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.andrewlloydwebber.com/news/cats-returns-to-theatres-in-amsterdam-in-collaboration-with-the-rijksmuseum",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "ec10385452d4991e87d0",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "Which former Glamour Cat sings the main Memory solo in Cats?",
+    "answers": [
+      "Jennyanydots",
+      "Rum Tum Tugger",
+      "Macavity",
+      "Grizabella"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.andrewlloydwebber.com/news/the-iconic-female-leads-of-andrew-lloyd-webbers-musicals",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "8707684156f5bcd2eb16",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "In Hairspray, Tracy wants to challenge which unfair practice on the dance show?",
+    "answers": [
+      "The use of a live orchestra",
+      "A rule requiring every dancer to sing",
+      "Racial segregation",
+      "A ban on audience applause"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mtishows.com/hairspray",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  },
+  {
+    "id": "e2af597f8e762c4ce04f",
+    "categoryID": "13",
+    "difficulty": "easy",
+    "prompt": "At the start of the musical Annie, where does Annie live?",
+    "answers": [
+      "A farm in Kansas",
+      "An orphanage",
+      "A royal palace",
+      "A lighthouse"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://www.mtishows.com/annie",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-13-v1"
+  }
+]

@@ -1,0 +1,872 @@
+{
+  "independent": false,
+  "reviewer": "root (author second editorial pass)",
+  "sourceAccessNote": "Cambridge definition entries were retrieved in four small groups and individually inspected. Missing or overly general definitions were replaced with AQA, ABT, V&A, Open University and MTI references actually inspected. Primary MTI/Concord/rights-holder story and credit pages were inspected for musical facts; Treasury confirms Hamilton's office. Original author rationale is separate from these final-pass decisions. Automated structure/overlap checks are not editorial approval.",
+  "rows": [
+    {
+      "row": 1,
+      "action": "keep",
+      "prompt": "What is an understudy in a theatre production?",
+      "note": "Understudy covers another performer, unlike a spectator, pit musician or reviewer. Definition and all role labels checked.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 2,
+      "action": "keep",
+      "prompt": "What is an audition for a stage role?",
+      "note": "Audition is a casting assessment, not a closing show, pricing meeting or orchestra-only rehearsal.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 3,
+      "action": "edit",
+      "prompt": "What is the main purpose of a theatre rehearsal?",
+      "note": "Replace the rehearsal definition already represented in General Knowledge. A microphone picks up sound; spotlight, flat and backdrop do not.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review.",
+      "recommendedChanges": {
+        "prompt": "Which device picks up a singer's voice for a theatre's sound system?",
+        "answers": [
+          "A microphone",
+          "A spotlight",
+          "A scenic flat",
+          "A backdrop"
+        ],
+        "sourceURL": "https://www.aqa.org.uk/resources/drama-and-performing-arts/gcse/drama/teach/subject-specific-vocabulary",
+        "rationale": "The microphone picks up live sound for amplification; the three other objects concern lighting or scenery."
+      }
+    },
+    {
+      "row": 4,
+      "action": "keep",
+      "prompt": "What is a matinee performance?",
+      "note": "Matinee is a daytime performance. Midnight, no-scenery and cast-only conditions do not define it.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 5,
+      "action": "keep",
+      "prompt": "In a British theatre, what is the interval?",
+      "note": "British interval is the performance break, not speech, price or backstage area; regional qualifier is needed.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 6,
+      "action": "keep",
+      "prompt": "What happens during a curtain call?",
+      "note": "Curtain call acknowledges applause. The other choices describe different activities before/around a show.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 7,
+      "action": "keep",
+      "prompt": "What does an audience do during a standing ovation?",
+      "note": "Standing while applauding defines the ovation. Silence, stage invasion and singing for the cast do not.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 8,
+      "action": "keep",
+      "prompt": "What is an encore at the end of a performance?",
+      "note": "Encore is an additional piece prompted by appreciation, not rehearsal, pricing or interval.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 9,
+      "action": "edit",
+      "prompt": "What does a playwright write?",
+      "note": "Playwright authors plays. Replace awkward 'only' alternatives with parallel writing products; reviews, orchestral parts and lighting plans do not define playwright.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review.",
+      "recommendedChanges": {
+        "answers": [
+          "Plays",
+          "Theatre reviews",
+          "Orchestral parts",
+          "Lighting plans"
+        ]
+      }
+    },
+    {
+      "row": 10,
+      "action": "keep",
+      "prompt": "What does a choreographer create for a stage show?",
+      "note": "Choreographer creates dances. Pricing, instrument-making and seat labels are distinct jobs.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 11,
+      "action": "keep",
+      "prompt": "Which person usually guides the actors' performances and the overall staging of a play?",
+      "note": "Director guides acting and staging. The three front-of-house positions do not direct the production.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 12,
+      "action": "keep",
+      "prompt": "What does a costume designer plan for a stage production?",
+      "note": "Costume designer plans clothing, not refreshments, seating or booking software. Clothing is a precise role description.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 13,
+      "action": "edit",
+      "prompt": "Which designer creates the visual environment and scenery for a stage production?",
+      "note": "Set designer creates scenery; costume, sound and lighting roles are distinct. Use AQA's actual set-design guide rather than a general scenery definition.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://filestore.aqa.org.uk/resources/drama/AQA-8261-SET-D-TG.PDF"
+      }
+    },
+    {
+      "row": 14,
+      "action": "keep",
+      "prompt": "Who normally coordinates backstage activity during a theatre performance?",
+      "note": "Stage manager coordinates backstage running, unlike critic, collector or audience photographer. 'Normally' accommodates organisational variation.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 15,
+      "action": "edit",
+      "prompt": "What does a theatrical prompter help an actor remember?",
+      "note": "Prompter supplies forgotten lines. Improve wrong options to relevant theatre tasks; prices, repairs and lighting colours are not dialogue.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review.",
+      "recommendedChanges": {
+        "answers": [
+          "Forgotten dialogue",
+          "Ticket prices",
+          "Costume repairs",
+          "Lighting colours"
+        ]
+      }
+    },
+    {
+      "row": 16,
+      "action": "keep",
+      "prompt": "What is a play's script?",
+      "note": "Script contains written dialogue and instructions. Buyer list, review and car-park plan are not play texts.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 17,
+      "action": "keep",
+      "prompt": "What is the cast of a play?",
+      "note": "Cast means the actors, not spectators, seats or lights. All four noun phrases have distinct meanings.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 18,
+      "action": "keep",
+      "prompt": "Which of these is a stage prop?",
+      "note": "An actor-handled letter is a clear prop. Audience member, casting decision and newspaper review are not performance objects.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 19,
+      "action": "keep",
+      "prompt": "What does theatrical scenery represent?",
+      "note": "Scenery supplies the setting. Warm-up, applause and sales do not represent the fictional physical surroundings.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 20,
+      "action": "keep",
+      "prompt": "In a theatre, what are the wings?",
+      "note": "Wings are hidden offstage side areas, not vocal notes, front rows or public doors.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 21,
+      "action": "keep",
+      "prompt": "What does backstage usually mean?",
+      "note": "Backstage denotes working areas around/behind the playing space. Seating, foyer and pavement are audience/public spaces.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 22,
+      "action": "keep",
+      "prompt": "What is a theatre's auditorium?",
+      "note": "Auditorium houses the audience. Laundry room, ticket booth and prop workshop are different rooms.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 23,
+      "action": "keep",
+      "prompt": "What is the foyer of a theatre?",
+      "note": "Foyer is the entrance hall. Changing area, fly space and rehearsal room are distinct locations.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 24,
+      "action": "keep",
+      "prompt": "Where would you normally collect pre-booked theatre tickets?",
+      "note": "Box office is the normal ticket collection point. Pit, costume store and rig are inappropriate locations.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 25,
+      "action": "keep",
+      "prompt": "What is an orchestra pit in a theatre?",
+      "note": "Pit houses musicians, usually below/in front of the stage. Script cupboard, critics' balcony and trapdoor are not equivalent spaces.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 26,
+      "action": "keep",
+      "prompt": "What is the main purpose of a spotlight on stage?",
+      "note": "Spotlight illuminates a selected target. Amplification, scenery lifting and seat numbering are different functions.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 27,
+      "action": "edit",
+      "prompt": "What does a lighting blackout do during a play?",
+      "note": "A theatrical blackout removes stage light, not costume colour, sound or ticketing. General dictionary lacks this exact stage sense; replace with AQA's explicit definition.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.aqa.org.uk/resources/drama-and-performing-arts/gcse/drama/teach/subject-specific-vocabulary"
+      }
+    },
+    {
+      "row": 28,
+      "action": "keep",
+      "prompt": "An actor faces the audience. Which side is stage right?",
+      "note": "Stage right is actor-relative while facing the audience. Left and front/back are distinct directions; viewpoint is explicit.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 29,
+      "action": "keep",
+      "prompt": "In conventional end-on staging, where is upstage?",
+      "note": "Upstage is away from an end-on audience. Left, right and nearest are incorrect; staging qualifier avoids in-the-round ambiguity.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 30,
+      "action": "keep",
+      "prompt": "In conventional end-on staging, where is downstage?",
+      "note": "Downstage is towards that audience. Far end, roof and below-floor positions do not fit the defined direction.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 31,
+      "action": "keep",
+      "prompt": "What is the fourth wall in theatre?",
+      "note": "Fourth wall is an imaginary audience/performer boundary. It is not any actual building or scenic wall.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 32,
+      "action": "keep",
+      "prompt": "What is a soliloquy in a play?",
+      "note": "Soliloquy voices one character's thoughts. 'Often alone' avoids the inaccurate rule that nobody else can be on stage.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 33,
+      "action": "edit",
+      "prompt": "What is an aside in a play?",
+      "note": "Aside is conventionally unheard by other characters though the audience hears it. Use Open University's theatrical account, not unrelated everyday meanings.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.open.edu/openlearn/history-the-arts/literature/approaching-plays/content-section-7.2"
+      }
+    },
+    {
+      "row": 34,
+      "action": "keep",
+      "prompt": "What is a monologue on stage?",
+      "note": "Monologue is an extended single-speaker speech. Four-speaker exchange, duet dance and wordless scene do not fit.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 35,
+      "action": "edit",
+      "prompt": "In a traditional British Christmas pantomime, who commonly shouts warnings such as 'Behind you!'?",
+      "note": "Panto invites audience participation. Replace strained 'only' answers and cite V&A's theatre history; backstage staff and tuning musicians are not the participating audience.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review.",
+      "recommendedChanges": {
+        "answers": [
+          "Audience members",
+          "Costume staff working backstage",
+          "Musicians tuning before the show",
+          "Lighting staff working backstage"
+        ],
+        "sourceURL": "https://www.vam.ac.uk/articles/the-story-of-pantomime"
+      }
+    },
+    {
+      "row": 36,
+      "action": "keep",
+      "prompt": "What does a puppeteer control during a performance?",
+      "note": "Puppeteer manipulates a puppet. Prices, seating and accounts are unrelated administrative functions.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 37,
+      "action": "keep",
+      "prompt": "Which performer is especially associated with telling a story through silent movement?",
+      "note": "Mime communicates through silent movement. Radio, opera and spoken poetry primarily use sound; silent wording does not exclude music accompaniment.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 38,
+      "action": "keep",
+      "prompt": "What skill is a ventriloquist known for?",
+      "note": "Ventriloquist creates a displaced-voice illusion with minimal lip movement. Tightrope, fire-eating and juggling are distinct acts.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 39,
+      "action": "edit",
+      "prompt": "What is the puppet partner of a ventriloquist often called?",
+      "note": "Replace the weakly supported dummy detail with the technical cue term. A cue signals an action; prices, curtain and seating are distinct.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review.",
+      "recommendedChanges": {
+        "prompt": "In theatre, what is a cue?",
+        "answers": [
+          "A signal to begin a particular action",
+          "A list of ticket prices",
+          "A type of stage curtain",
+          "A section of audience seating"
+        ],
+        "sourceURL": "https://www.aqa.org.uk/resources/drama-and-performing-arts/gcse/drama/teach/subject-specific-vocabulary",
+        "rationale": "A cue triggers a line, entrance or technical operation; the other objects do not define it."
+      }
+    },
+    {
+      "row": 40,
+      "action": "edit",
+      "prompt": "What is improvisation in acting?",
+      "note": "Improvisation creates material during performance. Replace an irrelevant ticket-data distractor with a plausible but fixed choreographed activity.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review.",
+      "recommendedChanges": {
+        "answers": [
+          "Creating dialogue or action as the scene is performed",
+          "Following a fixed written script word for word",
+          "Watching silently from the auditorium",
+          "Practising a dance exactly as choreographed"
+        ]
+      }
+    },
+    {
+      "row": 41,
+      "action": "keep",
+      "prompt": "What is a dress rehearsal?",
+      "note": "Dress rehearsal runs in costume as performance preparation. Shoe-only fitting, audience attire and dialogue ban are false definitions; distinct from a generic rehearsal.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 42,
+      "action": "keep",
+      "prompt": "What happens at a read-through of a play?",
+      "note": "Read-through is a group script reading. Reviews, barcode checks and orchestra-only playing are different activities.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 43,
+      "action": "keep",
+      "prompt": "In acting, what does blocking refer to?",
+      "note": "Blocking plans performer positions/movements. Ticket refusal, muting sound and scenic painting are not blocking in acting.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 44,
+      "action": "edit",
+      "prompt": "On how many sides does the audience usually sit around a thrust stage?",
+      "note": "Thrust staging normally has three audience sides. One, two and four describe other configurations; use the exam board's explicit set-design guide.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://filestore.aqa.org.uk/resources/drama/AQA-8261-SET-D-TG.PDF"
+      }
+    },
+    {
+      "row": 45,
+      "action": "keep",
+      "prompt": "How is the audience arranged for theatre in the round?",
+      "note": "In-the-round surrounds the actors. One side, rear only and below-stage seating do not define it.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 46,
+      "action": "keep",
+      "prompt": "What is a raked stage?",
+      "note": "Raked means sloped. Gravel, unlit and outdoor restrictions are wrong; the architectural sense is clear.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 47,
+      "action": "keep",
+      "prompt": "What is a theatrical revival?",
+      "note": "Revival is a new production of a previously performed work. Premiere, lightbulb and actorless rehearsal are not revivals.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 48,
+      "action": "edit",
+      "prompt": "What is opening night for a theatre production?",
+      "note": "Opening night is the official first night. Clarify that preview performances may precede it; closing, cleaning and costume planning are wrong.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review.",
+      "recommendedChanges": {
+        "answers": [
+          "Its official first night, after any preview performances",
+          "The night of its final performance",
+          "The first day the building is cleaned",
+          "The night when the costumes are designed"
+        ]
+      }
+    },
+    {
+      "row": 49,
+      "action": "edit",
+      "prompt": "What would you usually find in a theatre programme?",
+      "note": "Programme provides cast/production information. Replace silly private-data distractors with plausible internal documents, none normally supplied as a programme.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review.",
+      "recommendedChanges": {
+        "answers": [
+          "The cast list and notes about the production",
+          "The complete rehearsal attendance register",
+          "The full backstage lighting cue sheet",
+          "The theatre company's annual payroll"
+        ]
+      }
+    },
+    {
+      "row": 50,
+      "action": "edit",
+      "prompt": "In a stage musical, what does 'the book' mean?",
+      "note": "Book means the dramatic script/story structure, not financial ledger, bookings or requests. Replace generic dictionary citation with the theatre publisher's musical-writing guide.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.mtishows.com/sites/default/files/shelovesme_upstageguide_web.pdf"
+      }
+    },
+    {
+      "row": 51,
+      "action": "edit",
+      "prompt": "In ballet, what is a plié?",
+      "note": "Plié bends knees. Replace the missing dictionary entry with ABT and improve alternatives to parallel dance movements; no second knee-bend option.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.abt.org/explore/learn/ballet-dictionary/",
+        "answers": [
+          "A bending of the knees",
+          "A turn while airborne",
+          "A straight-leg kick to the front",
+          "A slide with the knees kept straight"
+        ]
+      }
+    },
+    {
+      "row": 52,
+      "action": "keep",
+      "prompt": "In a basic ballet arabesque, where is the raised leg extended?",
+      "note": "Arabesque's working leg extends behind. Front, across the knee and floor positions do not describe the basic position.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 53,
+      "action": "edit",
+      "prompt": "What is a pirouette in ballet?",
+      "note": "Pirouette is a one-leg turn. Replace frivolous wrong options with three recognisable but non-turning dance actions.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review.",
+      "recommendedChanges": {
+        "answers": [
+          "A turn on one leg",
+          "A sideways step without turning",
+          "A jump taking off from both feet",
+          "A bend of both knees without turning"
+        ]
+      }
+    },
+    {
+      "row": 54,
+      "action": "keep",
+      "prompt": "What is the barre used for in ballet practice?",
+      "note": "Barre gives balance/support in exercises. Amplification, lights and curtain fastening are not its function.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 55,
+      "action": "keep",
+      "prompt": "What does dancing en pointe mean in ballet?",
+      "note": "En pointe is on toe tips, with supportive pointe shoes in normal practice. Seated, heel-only and music-free alternatives are wrong.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 56,
+      "action": "keep",
+      "prompt": "What is a tutu?",
+      "note": "Tutu is a ballet skirt. Tap shoes, safety net and lighting stand are different pieces of performance equipment.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 57,
+      "action": "keep",
+      "prompt": "How many dancers perform a pas de deux?",
+      "note": "Pas de deux is for two. One, three and four are distinct counts; term and accents checked.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 58,
+      "action": "keep",
+      "prompt": "What is a ballerina?",
+      "note": "Ballerina means a female ballet dancer. Ticketing, reviewing and instrument-making are different professions.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 59,
+      "action": "edit",
+      "prompt": "What creates the characteristic clicking sound in tap dancing?",
+      "note": "Modern tap shoes have metal taps. Add 'modern' to avoid historical wooden-soled styles; bells, whistles and sticks are not the standard mechanism.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review.",
+      "recommendedChanges": {
+        "prompt": "What makes the characteristic clicking sounds in modern tap dancing?"
+      }
+    },
+    {
+      "row": 60,
+      "action": "edit",
+      "prompt": "In ballet terminology, from which language do terms such as plié and arabesque come?",
+      "note": "Replace the unsupported French-language draft with the five basic classical foot positions, explicitly documented by ABT; three, four and six are wrong.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review.",
+      "recommendedChanges": {
+        "prompt": "How many basic positions of the feet are there in classical ballet?",
+        "answers": [
+          "Five",
+          "Three",
+          "Four",
+          "Six"
+        ],
+        "sourceURL": "https://www.abt.org/explore/learn/ballet-dictionary/",
+        "rationale": "Classical ballet has five basic foot positions. The other offered counts are wrong."
+      }
+    },
+    {
+      "row": 61,
+      "action": "keep",
+      "prompt": "Oliver! is based on a novel by which author?",
+      "note": "Oliver! adapts Dickens's Oliver Twist. Austen, Carroll and Stevenson wrote different novels; punctuation around the exclamation mark checked.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 62,
+      "action": "keep",
+      "prompt": "Who teaches the young pickpockets in the musical Oliver!?",
+      "note": "Fagin teaches pickpockets. Brownlow is Oliver's benefactor, Bumble a workhouse official and grandfather not their gang leader.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 63,
+      "action": "keep",
+      "prompt": "Who wrote the book, music and lyrics for Oliver!?",
+      "note": "Lionel Bart wrote all three credits. Lloyd Webber, Sondheim and Schwartz are different theatre writers; not a shared-credit ambiguity.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 64,
+      "action": "keep",
+      "prompt": "What is Javert's occupation in Les Misérables?",
+      "note": "Javert is police inspector. Teacher, mechanic and baker are different occupations; preserve French name spelling.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 65,
+      "action": "keep",
+      "prompt": "At the beginning of Les Misérables, Jean Valjean is released from where?",
+      "note": "Valjean begins as a released prisoner, not student, monk or hospital patient. Story opening qualification is precise.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 66,
+      "action": "keep",
+      "prompt": "In which country is the main story of Les Misérables set?",
+      "note": "Main story is in France. Italy, Spain and Germany are not alternative principal settings.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 67,
+      "action": "keep",
+      "prompt": "Which character sings I Dreamed a Dream in Les Misérables?",
+      "note": "Fantine sings I Dreamed a Dream. Cosette, Éponine and Madame Thénardier do not sing its principal solo in the standard stage score.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 68,
+      "action": "keep",
+      "prompt": "Whose songs form the score of Mamma Mia!?",
+      "note": "Mamma Mia! uses ABBA songs. Queen, Beatles and Beach Boys are different catalogues; do not imply a new original band score.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 69,
+      "action": "keep",
+      "prompt": "What kind of location provides the main setting of Mamma Mia!?",
+      "note": "Main setting is a Greek island. Castle, hotel and ranch are different locations, not alternate descriptions.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 70,
+      "action": "keep",
+      "prompt": "How many possible fathers does Sophie invite to her wedding in Mamma Mia!?",
+      "note": "Three men are invited as possible fathers. Two, four and five are wrong; 'possible' avoids falsely declaring three biological fathers.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 71,
+      "action": "keep",
+      "prompt": "Which dance form becomes Billy's passion in Billy Elliot the Musical?",
+      "note": "Billy discovers ballet after boxing, not flamenco, salsa or Irish step. Asking a familiar plot point rather than specialist casting trivia.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 72,
+      "action": "keep",
+      "prompt": "Which workers' strike forms the backdrop to Billy Elliot the Musical?",
+      "note": "The backdrop is the miners' strike. Teachers, railway workers and dockworkers are different industries; no ambiguous dates required.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 73,
+      "action": "keep",
+      "prompt": "Who composed the music for Billy Elliot the Musical?",
+      "note": "Elton John wrote the score. Collins, Sting and McCartney are different musicians; Lee Hall is not offered as a composer alternative.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 74,
+      "action": "keep",
+      "prompt": "What job does Mary Poppins take with the Banks family in the stage musical?",
+      "note": "Mary is the nanny. Cook, gardener and dressmaker are other household roles, none her job in the Banks home.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 75,
+      "action": "keep",
+      "prompt": "In the stage musical Mary Poppins, Bert is especially associated with which job?",
+      "note": "Bert is associated with chimney sweeping. He also has other trades, so 'especially associated' avoids claiming only one occupation; none of the offered others is his iconic job.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 76,
+      "action": "keep",
+      "prompt": "What is the surname of Jane and Michael in Mary Poppins the stage musical?",
+      "note": "Jane and Michael are Banks. Brown, Darling and Potts are different fictional-family names.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 77,
+      "action": "keep",
+      "prompt": "What colour is Elphaba's skin in Wicked?",
+      "note": "Elphaba has green skin. Blue, red and purple do not describe her; rights-holder's character profile confirms it.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 78,
+      "action": "keep",
+      "prompt": "In which fictional land does Wicked take place?",
+      "note": "Wicked is in Oz. Narnia, Neverland and Middle-earth are other fantasy worlds; fictional land qualifier is clear.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 79,
+      "action": "keep",
+      "prompt": "Which of these songs is from Wicked?",
+      "note": "Defying Gravity belongs to Wicked. Other songs are from Cats, Annie and Mamma Mia!, each distinct.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 80,
+      "action": "keep",
+      "prompt": "In which city is Andrew Lloyd Webber's The Phantom of the Opera set?",
+      "note": "Phantom is in Paris. Rome, Vienna and Madrid are wrong opera-city alternatives.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 81,
+      "action": "keep",
+      "prompt": "Which item famously conceals part of the Phantom's face in The Phantom of the Opera?",
+      "note": "His mask conceals part of his face. Crown, helmet and monocle do not fill that role; do not claim the mask covers his entire face.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 82,
+      "action": "keep",
+      "prompt": "What is Christine Daaé's profession in The Phantom of the Opera?",
+      "note": "Christine is a soprano/opera singer. Detective, acrobat and teacher are different professions; role is a story fact, not an actor biography.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 83,
+      "action": "keep",
+      "prompt": "SIX reimagines the wives of which English king as pop stars?",
+      "note": "SIX depicts Henry VIII's wives. Other offered monarchs are not their husband; this is the show's premise, not an entry-fee or numerical title riddle.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 84,
+      "action": "keep",
+      "prompt": "Which pair are the central young lovers in the stage musical Grease?",
+      "note": "Danny and Sandy are Grease's central couple. Other pairs belong to three separate musicals, making one correct answer.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 85,
+      "action": "keep",
+      "prompt": "Which school is the main setting of Grease?",
+      "note": "Rydell is its high school. East High, Shiz and Horace Green belong to other fictional schools; not confused with the film's football-team question.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 86,
+      "action": "edit",
+      "prompt": "What is especially colourful about Joseph's clothing in Joseph and the Amazing Technicolor Dreamcoat?",
+      "note": "Remove the coat question that reveals its answer in the title. Joseph's jealous brothers sell him; Jesus Christ Superstar, Godspell and Evita tell different stories. Use the actual licensor's synopsis URL.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review.",
+      "recommendedChanges": {
+        "prompt": "Which musical tells the story of Joseph being sold by his jealous brothers?",
+        "answers": [
+          "Joseph and the Amazing Technicolor Dreamcoat",
+          "Jesus Christ Superstar",
+          "Godspell",
+          "Evita"
+        ],
+        "sourceURL": "https://www.concordtheatricals.com/p/44899/joseph-and-the-amazing-technicolor-dreamcoat",
+        "rationale": "Joseph is the musical adapting the Genesis story of the brothers and his rise in Egypt; the other shows tell different stories."
+      }
+    },
+    {
+      "row": 87,
+      "action": "edit",
+      "prompt": "What special ability helps Joseph rise to prominence in Joseph and the Amazing Technicolor Dreamcoat?",
+      "note": "Joseph interprets dreams. Invisibility, underwater breathing and animal speech are not his gifts; corrected to the verified licensor page.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.concordtheatricals.com/p/44899/joseph-and-the-amazing-technicolor-dreamcoat"
+      }
+    },
+    {
+      "row": 88,
+      "action": "keep",
+      "prompt": "What do the train performers wear on their feet in Starlight Express?",
+      "note": "Train performers skate on roller skates. Ice skates, snowshoes and flippers are wrong; wording excludes the unskated human Control role.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 89,
+      "action": "keep",
+      "prompt": "What do the racing characters represent in Starlight Express?",
+      "note": "Racing roles represent trains/railway stock. Aircraft, cars and boats are different vehicles.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 90,
+      "action": "edit",
+      "prompt": "Which US government position did the title character of Hamilton become the first person to hold?",
+      "note": "Hamilton first held Treasury Secretary. Washington, Jefferson and Jay first held the three alternative offices. Use Treasury's direct biography instead of unavailable musical-page URL.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://home.treasury.gov/about/history/prior-secretaries/alexander-hamilton-1789-1795"
+      }
+    },
+    {
+      "row": 91,
+      "action": "edit",
+      "prompt": "Hamilton is set chiefly around the founding of which country?",
+      "note": "Story concerns United States founding. Canada, Australia and New Zealand are not the setting; corrected primary historical reference supplements the theatre premise.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://home.treasury.gov/about/history/prior-secretaries/alexander-hamilton-1789-1795"
+      }
+    },
+    {
+      "row": 92,
+      "action": "edit",
+      "prompt": "In Disney's stage musical Aladdin, what object contains the Genie?",
+      "note": "Genie comes from a lamp. Teapot, perfume bottle and jewellery box are wrong. Use the verified stage-edition licensing page.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.mtishows.com/disneys-aladdin-jr"
+      }
+    },
+    {
+      "row": 93,
+      "action": "edit",
+      "prompt": "Who is the princess in Disney's stage musical Aladdin?",
+      "note": "Jasmine is the princess. Ariel, Belle and Aurora come from other Disney stories; verified stage-edition page replaces unavailable general URL.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.mtishows.com/disneys-aladdin-jr"
+      }
+    },
+    {
+      "row": 94,
+      "action": "keep",
+      "prompt": "How are Anna and Elsa related in Disney's Frozen stage musical?",
+      "note": "Anna and Elsa are sisters, not cousins, mother/daughter or aunt/niece. The stage synopsis explicitly confirms sisterhood.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 95,
+      "action": "keep",
+      "prompt": "What kind of character is Olaf in Disney's Frozen stage musical?",
+      "note": "Olaf is a snowman. Sven is the reindeer; troll and wolf are other kinds of creature, not Olaf.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 96,
+      "action": "keep",
+      "prompt": "Which royal villain is Mufasa's brother in The Lion King stage story?",
+      "note": "Scar is Mufasa's brother. Jafar, Gaston and Frollo are villains from different stories; a precise family relation rather than a vague 'bad character'.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    },
+    {
+      "row": 97,
+      "action": "edit",
+      "prompt": "What is the name of the special gathering in Cats?",
+      "note": "Gathering is the Jellicle Ball. Emerald, Snowflake and Royal are wrong names; use the rights-holder's explicit story description.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.andrewlloydwebber.com/news/cats-returns-to-theatres-in-amsterdam-in-collaboration-with-the-rijksmuseum"
+      }
+    },
+    {
+      "row": 98,
+      "action": "edit",
+      "prompt": "Who sings Memory in Cats?",
+      "note": "Grizabella sings the main Memory solo. Qualify the solo and replace Jemima with Macavity because Jemima can sing related passages; all remaining offered names are other cats.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review.",
+      "recommendedChanges": {
+        "prompt": "Which former Glamour Cat sings the main Memory solo in Cats?",
+        "answers": [
+          "Grizabella",
+          "Jennyanydots",
+          "Rum Tum Tugger",
+          "Macavity"
+        ],
+        "sourceURL": "https://www.andrewlloydwebber.com/news/the-iconic-female-leads-of-andrew-lloyd-webbers-musicals",
+        "rationale": "Grizabella is the principal Memory soloist. Other characters may join musical reprises, so the prompt specifies the main solo and excludes Jemima."
+      }
+    },
+    {
+      "row": 99,
+      "action": "edit",
+      "prompt": "In Hairspray, Tracy wants to challenge which unfair practice on the dance show?",
+      "note": "Tracy opposes racial segregation. Replace unrelated theatre-fee answers with clearly different show practices; neither applause, live orchestra nor compulsory singing is the injustice in the plot.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review.",
+      "recommendedChanges": {
+        "answers": [
+          "Racial segregation",
+          "A ban on audience applause",
+          "The use of a live orchestra",
+          "A rule requiring every dancer to sing"
+        ]
+      }
+    },
+    {
+      "row": 100,
+      "action": "keep",
+      "prompt": "At the start of the musical Annie, where does Annie live?",
+      "note": "Annie starts in an orphanage. Palace, lighthouse and Kansas farm are not her starting home; existing Warbucks/Sandy questions ask different facts.",
+      "sourceReview": "Prompt and every option individually checked in an author second pass using the cited dictionary, theatre education, primary licensor, rights-holder or official historical source. Failed/provisional citations corrected as recorded; not an independent review."
+    }
+  ]
+}

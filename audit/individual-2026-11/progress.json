@@ -1,9 +1,9 @@
 {
   "updated": "2026-11-18",
   "targetNewEasy": 3100,
-  "reviewedAndValidated": 1200,
-  "localBankCount": 23117,
-  "liveBankCount": 23017,
+  "reviewedAndValidated": 1300,
+  "localBankCount": 23217,
+  "liveBankCount": 23217,
   "topics": [
     {
       "topicID": "9",
@@ -19,7 +19,7 @@
       "targetNewEasy": 100,
       "authored": 100,
       "reviewedAndValidated": 100,
-      "deployedNewEasy": 0
+      "deployedNewEasy": 100
     },
     {
       "topicID": "11",
@@ -41,9 +41,9 @@
       "topicID": "13",
       "name": "Stage & Musicals",
       "targetNewEasy": 100,
-      "authored": 0,
-      "reviewedAndValidated": 0,
-      "deployedNewEasy": 0
+      "authored": 100,
+      "reviewedAndValidated": 100,
+      "deployedNewEasy": 100
     },
     {
       "topicID": "14",
