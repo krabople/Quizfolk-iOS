@@ -1,0 +1,466 @@
+{
+  "date": "2026-11-18",
+  "note": "100 original sport candidates individually checked. Five old-concept duplicates replaced before final approval (map contours/key, cricket over/duck, tennis love). Current ITTF2026, FIVB2025-28, WorldRugby2026, MCC2026 and FIH2027-effective1Nov2026 primary rules inspected. Stable BWF fundamental rules checked using federation-hosted2024text, not future2027 scoring changes. WorldNetball2024 includes possession/footwork/shooting. IOF2024 traditional-course rules, PDGA2026, WFDF2025-28 and federation coaching definitions inspected. Unsupported squash rubber claim replaced; D-name unsupported by FIH PDF replaced with documented centrepass; puts/foul/scoring wording qualified. Earlier row-number edits mismatched two unapproved volleyball drafts; corrected during per-item pass, never published. PDF parser font warnings retained privately; relevant actual extracted passages checked, no claim all pages independently reviewed. Some direct pages/PDFs failed or yielded empty HTML; indexed actual passages used and failures not called full retrieval. No private reference extracts republished.",
+  "references": [
+    {
+      "url": "https://archive.ihf.info/upload/PDF-Download/rules_english.pdf",
+      "questionRows": [
+        35
+      ],
+      "status": "indexed_relevant_primary_passage_inspected",
+      "inspectionMethod": "Relevant actual federation passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://badminton.dk/wp-content/uploads/2024/09/Section-4.1-Laws-of-Badminton-5-August-2024-V4.0.pdf",
+      "questionRows": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://badminton.dk/wp-content/uploads/2024/09/Section-4.1-Laws-of-Badminton-5-August-2024-V4.0.pdf",
+      "sha256": "c3c588676ecfa5a06f1a61ee485c7239616c0b6f8c015f05e4f05c699c6eeb52",
+      "pages": 14,
+      "inspectionMethod": "Relevant actual extracted rule/definition passages inspected; approval based on individual author judgments, not retrieval alone."
+    },
+    {
+      "url": "https://db.ittf.com/sites/default/files/public/2026-02/2026_Statutes_v1_consolidated_clean.pdf",
+      "questionRows": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://db.ittf.com/sites/default/files/public/2026-02/2026_Statutes_v1_consolidated_clean.pdf",
+      "sha256": "e55780dd20492253992dd6911a232d1a758c9660833672cb3a5d978a147e8671",
+      "pages": 274,
+      "inspectionMethod": "Relevant actual extracted rule/definition passages inspected; approval based on individual author judgments, not retrieval alone."
+    },
+    {
+      "url": "https://extranet.worldarchery.sport/documents/index.php/Coaches/Accreditation/Coaching_Levels/MANUAL_COACHING_LEVEL_1.pdf",
+      "questionRows": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://extranet.worldarchery.sport/documents/index.php/Coaches/Accreditation/Coaching_Levels/MANUAL_COACHING_LEVEL_1.pdf",
+      "sha256": "5e140a573ada8d62e5f256eebb5bc24970c6f2e8ee25923b44f40968b237e41d",
+      "pages": 401,
+      "inspectionMethod": "Relevant actual extracted rule/definition passages inspected; approval based on individual author judgments, not retrieval alone."
+    },
+    {
+      "url": "https://federations.canoeicf.com/sites/default/files/2025_icf_competition_rules_canoe_freestyle_-_final.pdf",
+      "questionRows": [
+        54
+      ],
+      "status": "indexed_relevant_primary_passage_inspected",
+      "inspectionMethod": "Relevant actual federation passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://netball.sport/wp-content/uploads/2024/01/World-Netball-Rules-Book-2024.pdf",
+      "questionRows": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://netball.sport/wp-content/uploads/2024/01/World-Netball-Rules-Book-2024.pdf",
+      "sha256": "ae39e0c64371adbd29d5107660cc16cc6b833445f5c7080be7643ddc5ff852b3",
+      "pages": 80,
+      "inspectionMethod": "Relevant actual extracted rule/definition passages inspected; approval based on individual author judgments, not retrieval alone."
+    },
+    {
+      "url": "https://omapwiki.orienteering.sport/symbols/703-control-point/",
+      "questionRows": [
+        60
+      ],
+      "status": "indexed_relevant_primary_passage_inspected",
+      "inspectionMethod": "Relevant actual federation passage inspected through web output; full direct page/PDF retrieval not claimed.",
+      "directFetchStatus": "fetch_failed",
+      "directBodyCharacters": 0
+    },
+    {
+      "url": "https://orienteering.sport/wp-content/uploads/2024/05/iof-rules-2024-v1.12.pdf",
+      "questionRows": [
+        56,
+        57,
+        58,
+        59
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://orienteering.sport/wp-content/uploads/2024/05/iof-rules-2024-v1.12.pdf",
+      "sha256": "0cb4c4e34f87b814ea234c82a3966857797e182b0ee2e592a750e83eb4c15a2d",
+      "pages": 76,
+      "inspectionMethod": "Relevant actual extracted rule/definition passages inspected; approval based on individual author judgments, not retrieval alone."
+    },
+    {
+      "url": "https://passport.world.rugby/injury-prevention-and-risk-management/rugby-ready/the-lineout/",
+      "questionRows": [
+        80
+      ],
+      "status": "indexed_relevant_primary_passage_inspected",
+      "inspectionMethod": "Relevant actual federation passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://passport.world.rugby/media/jxrnmptk/2026en-laws-of-the-game-compressed.pdf",
+      "questionRows": [
+        76,
+        77,
+        78,
+        79
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://passport.world.rugby/media/jxrnmptk/2026en-laws-of-the-game-compressed.pdf",
+      "sha256": "49a07ebd6ac74864e277d77dd3f13e6c00f8c987acc7c0af89d13df3f3e252ff",
+      "pages": 159,
+      "inspectionMethod": "Relevant actual extracted rule/definition passages inspected; approval based on individual author judgments, not retrieval alone."
+    },
+    {
+      "url": "https://rules.wfdf.sport/",
+      "questionRows": [
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://rules.wfdf.sport/",
+      "sha256": "5bbe0f19d15a770d94faa6a4be413ccf177ca79e4f9884830332d657f6cc56b3",
+      "inspectionMethod": "Relevant actual extracted rule/definition passages inspected; approval based on individual author judgments, not retrieval alone."
+    },
+    {
+      "url": "https://static.fie.org/uploads/34/170379-FIE%20Press%20Kit%20-%20Paris2024.pdf",
+      "questionRows": [
+        6,
+        9
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://static.fie.org/uploads/34/170379-FIE%20Press%20Kit%20-%20Paris2024.pdf",
+      "sha256": "045f53c01f0d8d71e226ac948bf51a1455c337db77cf9a761ab7613073c78c6c",
+      "pages": 21,
+      "inspectionMethod": "Relevant actual extracted rule/definition passages inspected; approval based on individual author judgments, not retrieval alone."
+    },
+    {
+      "url": "https://worldcurling.org/about/curling/",
+      "questionRows": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://worldcurling.org/about/curling/",
+      "sha256": "32e9a8f360fb91bce6aa937004c1d69927dfb16b6141274c8c2b281e8a33250e",
+      "inspectionMethod": "Relevant actual extracted rule/definition passages inspected; approval based on individual author judgments, not retrieval alone."
+    },
+    {
+      "url": "https://worldrowing.com/2014/05/13/what-indoor-rowing/",
+      "questionRows": [
+        50
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://worldrowing.com/2014/05/13/what-indoor-rowing/",
+      "sha256": "8dcadd47b0f36b02b295128eaf20d595c432809ee7a9f8c12b532d622518d200",
+      "inspectionMethod": "Relevant actual extracted rule/definition passages inspected; approval based on individual author judgments, not retrieval alone."
+    },
+    {
+      "url": "https://worldrowing.com/2022/02/07/outlaw-and-vogt-eying-paris-2024-in-para-rowings-newest-games-event/",
+      "questionRows": [
+        46,
+        47
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://worldrowing.com/2022/02/07/outlaw-and-vogt-eying-paris-2024-in-para-rowings-newest-games-event/",
+      "sha256": "7fe0ac7c3a16598e763a5249717cf0f344af5105847dd23e897c687a6df039df",
+      "inspectionMethod": "Relevant actual extracted rule/definition passages inspected; approval based on individual author judgments, not retrieval alone."
+    },
+    {
+      "url": "https://worldrowing.com/wp-content/uploads/2023/11/Learn-to-Row-Booklet_V2.pdf",
+      "questionRows": [
+        48
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://worldrowing.com/wp-content/uploads/2023/11/Learn-to-Row-Booklet_V2.pdf",
+      "sha256": "62b7cfb7bd340a8fbf1f27655103a9a47b82e3780d2696e20398d6bff6505f12",
+      "pages": 51,
+      "inspectionMethod": "Relevant actual extracted rule/definition passages inspected; approval based on individual author judgments, not retrieval alone."
+    },
+    {
+      "url": "https://worldsquashofficiating.com/rules-of-squash/",
+      "questionRows": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://worldsquashofficiating.com/rules-of-squash/",
+      "sha256": "358a38580453c9c99fae36fb63c39688549db59b8d90ec2920c09c53379cebe4",
+      "inspectionMethod": "Relevant actual extracted rule/definition passages inspected; approval based on individual author judgments, not retrieval alone."
+    },
+    {
+      "url": "https://www.britishfencing.com/safety-by-activity/",
+      "questionRows": [
+        8
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://www.britishfencing.com/safety-by-activity/",
+      "sha256": "d12dab46d894d6b40c73b46c95ad22026e32c3e98a942574ff2f72696e9350f9",
+      "inspectionMethod": "Relevant actual extracted rule/definition passages inspected; approval based on individual author judgments, not retrieval alone."
+    },
+    {
+      "url": "https://www.britishfencing.com/uploads/files/beginners_guide_to_running_gofence_competition_branded.pdf",
+      "questionRows": [
+        10
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://www.britishfencing.com/uploads/files/beginners_guide_to_running_gofence_competition_branded.pdf",
+      "sha256": "3394fdf1c41d0e0fc9952965641cd42e953c1e743f6032f02384038ba899e958",
+      "pages": 5,
+      "inspectionMethod": "Relevant actual extracted rule/definition passages inspected; approval based on individual author judgments, not retrieval alone."
+    },
+    {
+      "url": "https://www.britishfencing.com/wp-content/uploads/2019/06/pre-course-reading-2019.pdf",
+      "questionRows": [
+        7
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://www.britishfencing.com/wp-content/uploads/2019/06/pre-course-reading-2019.pdf",
+      "sha256": "a8db0b818a79c562eda588d883a97dfd06b6034f9c481b922c7a5484012d64c0",
+      "pages": 10,
+      "inspectionMethod": "Relevant actual extracted rule/definition passages inspected; approval based on individual author judgments, not retrieval alone."
+    },
+    {
+      "url": "https://www.britishrowing.org/wp-content/uploads/2025/08/Guidance-for-Rowers-and-Paddlers.pdf?41e6e6=",
+      "questionRows": [
+        49
+      ],
+      "status": "indexed_relevant_primary_passage_inspected",
+      "inspectionMethod": "Relevant actual federation passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://www.canoeicf.com/sites/default/files/2025_icf_canoe_sprint_competition_rules_final.pdf",
+      "questionRows": [
+        51,
+        52
+      ],
+      "status": "indexed_relevant_primary_passage_inspected",
+      "inspectionMethod": "Relevant actual federation passage inspected through web output; full direct page/PDF retrieval not claimed.",
+      "directFetchStatus": "fetch_failed",
+      "directBodyCharacters": 0
+    },
+    {
+      "url": "https://www.canoeicf.com/sites/default/files/2025_icf_competition_rules_canoe_slalom_-_marked-up.pdf",
+      "questionRows": [
+        53,
+        55
+      ],
+      "status": "indexed_relevant_primary_passage_inspected",
+      "inspectionMethod": "Relevant actual federation passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://www.fih.hockey/static-assets/pdf/02_2026-11-10_fih_rules_of_hockey_2027_clean.pdf",
+      "questionRows": [
+        71,
+        72,
+        73,
+        74,
+        75
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://www.fih.hockey/static-assets/pdf/02_2026-11-10_fih_rules_of_hockey_2027_clean.pdf",
+      "sha256": "c2c03bfbde980cd0f8b4ca8e41d3cf11e96dbac7cae1443b3e402ac0c60d1e10",
+      "pages": 77,
+      "inspectionMethod": "Relevant actual extracted rule/definition passages inspected; approval based on individual author judgments, not retrieval alone."
+    },
+    {
+      "url": "https://www.fivb.com/wp-content/uploads/2024/03/FIVB_Beachvolley_Drill-Book_EN.pdf",
+      "questionRows": [
+        82
+      ],
+      "status": "indexed_relevant_primary_passage_inspected",
+      "inspectionMethod": "Relevant actual federation passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf",
+      "questionRows": [
+        81,
+        83,
+        84,
+        85
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf",
+      "sha256": "04bf8b412770e74820279d489f62881802f145a8591a5cbd47b9e459d4d6e096",
+      "pages": 89,
+      "inspectionMethod": "Relevant actual extracted rule/definition passages inspected; approval based on individual author judgments, not retrieval alone."
+    },
+    {
+      "url": "https://www.lords.org/getattachment/d9eb43d5-5935-4634-b170-da698e0e9d6e/Laws-of-Cricket-2017-Code-4th-Edition-%282026%29.pdf",
+      "questionRows": [
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://www.lords.org/getattachment/d9eb43d5-5935-4634-b170-da698e0e9d6e/Laws-of-Cricket-2017-Code-4th-Edition-%282026%29.pdf",
+      "sha256": "b28bd447b331c0f3d50b56cb78b862a24098869726b20c1ba2d30f8c3f097c25",
+      "pages": 90,
+      "inspectionMethod": "Relevant actual extracted rule/definition passages inspected; approval based on individual author judgments, not retrieval alone."
+    },
+    {
+      "url": "https://www.olympics.com/ioc/news/handball-game-rules-regulations-how-to-play",
+      "questionRows": [
+        31,
+        32,
+        33,
+        34
+      ],
+      "status": "indexed_relevant_primary_passage_inspected",
+      "inspectionMethod": "Relevant actual federation passage inspected through web output; full direct page/PDF retrieval not claimed.",
+      "directFetchStatus": "fetch_failed",
+      "directBodyCharacters": 0
+    },
+    {
+      "url": "https://www.pdga.com/book/export/html/236656/",
+      "questionRows": [
+        62,
+        63,
+        64
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://www.pdga.com/book/export/html/236656/",
+      "sha256": "66f74fa02a7f79721f576529a7e1f6e602dbd639b41959fb94fe003943709566",
+      "inspectionMethod": "Relevant actual extracted rule/definition passages inspected; approval based on individual author judgments, not retrieval alone."
+    },
+    {
+      "url": "https://www.pdga.com/rules/official-rules-disc-golf/80202",
+      "questionRows": [
+        65
+      ],
+      "status": "indexed_relevant_primary_passage_inspected",
+      "inspectionMethod": "Relevant actual federation passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://www.pdga.com/rules/official-rules-disc-golf/questions-and-answers",
+      "questionRows": [
+        61
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://www.pdga.com/rules/official-rules-disc-golf/questions-and-answers",
+      "sha256": "4013c059e937c4b5866c8af4091f72cca1808d97b952165ba7d6a8143e96c491",
+      "inspectionMethod": "Relevant actual extracted rule/definition passages inspected; approval based on individual author judgments, not retrieval alone."
+    },
+    {
+      "url": "https://www.randa.org/en/rules/spirit-of-the-game",
+      "questionRows": [
+        100
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://www.randa.org/en/rules/spirit-of-the-game",
+      "sha256": "17cae8897813a5d771ce80864146362b8427e092b31482e3d1f0cd89bdd3b824",
+      "inspectionMethod": "Relevant actual extracted rule/definition passages inspected; approval based on individual author judgments, not retrieval alone."
+    },
+    {
+      "url": "https://www.randa.org/roe/the-rules-of-equipment/part-2-conformance-of-clubs",
+      "questionRows": [
+        98
+      ],
+      "status": "indexed_relevant_primary_passage_inspected",
+      "inspectionMethod": "Relevant actual federation passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://www.randa.org/rog/definitions?definitionsEdition=RulesOfGolf",
+      "questionRows": [
+        99
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://www.randa.org/rog/definitions?definitionsEdition=RulesOfGolf",
+      "sha256": "f95176b6246ecfd6f17aa7b1f9cffcb3e6c56b5995d63c7df18aeee43d87cabf",
+      "inspectionMethod": "Relevant actual extracted rule/definition passages inspected; approval based on individual author judgments, not retrieval alone."
+    },
+    {
+      "url": "https://www.thebmc.co.uk/cy/quickdraws-a-guide-for-climbers",
+      "questionRows": [
+        43,
+        45
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://www.thebmc.co.uk/cy/quickdraws-a-guide-for-climbers",
+      "sha256": "f5e78028843304a0470dc94c337a09e078f5baef2f47a6f6983f8f8b60188587",
+      "inspectionMethod": "Relevant actual extracted rule/definition passages inspected; approval based on individual author judgments, not retrieval alone."
+    },
+    {
+      "url": "https://www.thebmc.co.uk/cy/what-gear-do-you-need-to-climb-indoors",
+      "questionRows": [
+        44
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://www.thebmc.co.uk/cy/what-gear-do-you-need-to-climb-indoors",
+      "sha256": "6bf827b35b64900290b30035d4658b32c21b07587e0ff12c86af053d7ef66700",
+      "inspectionMethod": "Relevant actual extracted rule/definition passages inspected; approval based on individual author judgments, not retrieval alone."
+    },
+    {
+      "url": "https://www.thebmc.co.uk/en/the-basics-climbing-indoors",
+      "questionRows": [
+        42
+      ],
+      "status": "indexed_relevant_primary_passage_inspected",
+      "inspectionMethod": "Relevant actual federation passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://www.thebmc.co.uk/media/files/Comps/Rules/BBC%20Rules%202019.pdf",
+      "questionRows": [
+        41
+      ],
+      "status": "indexed_relevant_primary_passage_inspected",
+      "inspectionMethod": "Relevant actual federation passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://www.usga.org/content/usga/home-page/articles/2026/01/world-play-terminology-golf-lingo.html",
+      "questionRows": [
+        96,
+        97
+      ],
+      "status": "indexed_relevant_primary_passage_inspected",
+      "inspectionMethod": "Relevant actual federation passage inspected through web output; full direct page/PDF retrieval not claimed.",
+      "directFetchStatus": "fetch_failed",
+      "directBodyCharacters": 0
+    },
+    {
+      "url": "https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-serving-rules.html",
+      "questionRows": [
+        94
+      ],
+      "status": "indexed_relevant_primary_passage_inspected",
+      "inspectionMethod": "Relevant actual federation passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-terms-definitions.html",
+      "questionRows": [
+        91,
+        92,
+        93,
+        95
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-terms-definitions.html",
+      "sha256": "abcf0d12e9236cdcb0c0a217b9a4269a02703e8f7702fe395876eab9025b3fa0",
+      "inspectionMethod": "Relevant actual extracted rule/definition passages inspected; approval based on individual author judgments, not retrieval alone."
+    }
+  ]
+}

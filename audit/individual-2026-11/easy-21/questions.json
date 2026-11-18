@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "cf3cec2a0d9cb3138df7",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In archery, what is a quiver used to hold?",
+    "answers": [
+      "Arrows",
+      "Bowstrings only",
+      "Target faces",
+      "Scorecards only"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://extranet.worldarchery.sport/documents/index.php/Coaches/Accreditation/Coaching_Levels/MANUAL_COACHING_LEVEL_1.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "d25049362bb7b033a462",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "What is the main purpose of fletching on an arrow?",
+    "answers": [
+      "Making the bow easier to carry",
+      "Measuring the target distance",
+      "Protecting the archer's fingers",
+      "Helping stabilise its flight"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://extranet.worldarchery.sport/documents/index.php/Coaches/Accreditation/Coaching_Levels/MANUAL_COACHING_LEVEL_1.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "c0264dbead9ab3a5ed3c",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "Which item protects an archer's forearm from the bowstring?",
+    "answers": [
+      "A quiver",
+      "A sight",
+      "An armguard",
+      "A finger tab"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://extranet.worldarchery.sport/documents/index.php/Coaches/Accreditation/Coaching_Levels/MANUAL_COACHING_LEVEL_1.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "c88224d0efa17291acc6",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "On a standard five-colour target-archery face, which colour is in the centre?",
+    "answers": [
+      "White",
+      "Gold",
+      "Blue",
+      "Black"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://extranet.worldarchery.sport/documents/index.php/Coaches/Accreditation/Coaching_Levels/MANUAL_COACHING_LEVEL_1.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "17ba41ab7bfdaa4a6514",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "Which part of an archery bow does the archer draw back before releasing an arrow?",
+    "answers": [
+      "The string",
+      "The sight",
+      "The riser grip",
+      "The arrow rest"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://extranet.worldarchery.sport/documents/index.php/Coaches/Accreditation/Coaching_Levels/MANUAL_COACHING_LEVEL_1.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "cbc35d21aa27b8cd049a",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "Which set names the three weapons used in Olympic fencing?",
+    "answers": [
+      "Foil, javelin and lance",
+      "Épée, discus and sabre",
+      "Sabre, rapier and shot",
+      "Foil, épée and sabre"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://static.fie.org/uploads/34/170379-FIE%20Press%20Kit%20-%20Paris2024.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "2f7ed37cc1783725d6cb",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "What is the strip on which fencers compete called?",
+    "answers": [
+      "A rink",
+      "A fairway",
+      "A piste",
+      "A crease"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.britishfencing.com/wp-content/uploads/2019/06/pre-course-reading-2019.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "718379ece58db1d391d3",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "Which protective item covers a fencer's face and head?",
+    "answers": [
+      "A shin guard",
+      "A fencing mask",
+      "A chest plastron",
+      "A glove"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.britishfencing.com/safety-by-activity/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "352a4bbee0174c388456",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "Which fencing weapon allows scoring with the edge as well as the point?",
+    "answers": [
+      "Sabre",
+      "Foil",
+      "Épée",
+      "All three equally"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://static.fie.org/uploads/34/170379-FIE%20Press%20Kit%20-%20Paris2024.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "465d78d115ce76297390",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "Which gesture is part of fencing etiquette before a bout?",
+    "answers": [
+      "Requesting an extra point",
+      "Turning away until the first hit",
+      "Throwing the weapon onto the piste",
+      "Saluting the opponent and officials"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.britishfencing.com/uploads/files/beginners_guide_to_running_gofence_competition_branded.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "1a57620245b5500fd3e5",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "Curling players slide stones across which surface?",
+    "answers": [
+      "Grass",
+      "Clay",
+      "Ice",
+      "Sand"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://worldcurling.org/about/curling/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "2ab46b196069ac037c88",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In curling, what is the circular target area called?",
+    "answers": [
+      "The hack",
+      "The house",
+      "The hog line",
+      "The free guard zone"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://worldcurling.org/about/curling/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "fe3b29410313894cc66c",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "What do players use to sweep the ice in standard team curling?",
+    "answers": [
+      "Brushes or brooms",
+      "Hockey sticks",
+      "Tennis rackets",
+      "Golf clubs"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://worldcurling.org/about/curling/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "ef2c5d6e0d3d149e3aed",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In curling, an end is best described as what?",
+    "answers": [
+      "The handle attached to a stone",
+      "The winner of the entire tournament",
+      "A player's final training session",
+      "A round in which the teams deliver their stones"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://worldcurling.org/about/curling/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "d3c0103febefd74d6179",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "Which curling player normally directs the team's tactics?",
+    "answers": [
+      "The wicketkeeper",
+      "The libero",
+      "The skip",
+      "The coxswain"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://worldcurling.org/about/curling/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "60d4e660674683f2e9d3",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In squash, a legal return must reach which wall before bouncing on the floor?",
+    "answers": [
+      "Only the right wall",
+      "The front wall",
+      "Only the back wall",
+      "Only the left wall"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://worldsquashofficiating.com/rules-of-squash/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "213633dfb7e4b0864421",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "What is the maximum number of floor bounces allowed before a player returns the ball during a squash rally?",
+    "answers": [
+      "Once",
+      "Twice",
+      "Three times",
+      "It must never bounce"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://worldsquashofficiating.com/rules-of-squash/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "1cad0482d0e4bdf87477",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In squash, what does the referee's call of let usually mean?",
+    "answers": [
+      "Award two points to the server",
+      "End the match immediately",
+      "Replace the racket",
+      "Replay the rally"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://worldsquashofficiating.com/rules-of-squash/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "a39f088d816316fd390c",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "Which marked area must a squash server have one foot inside, in contact with the floor, when striking the serve?",
+    "answers": [
+      "The goal area",
+      "The penalty spot",
+      "A service box",
+      "The centre circle"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://worldsquashofficiating.com/rules-of-squash/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "466d50e122962764c91e",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In squash, what is the low panel at the bottom of the front wall called?",
+    "answers": [
+      "The backboard",
+      "The tin",
+      "The net",
+      "The crossbar"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://worldsquashofficiating.com/rules-of-squash/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "7b7598478c9c1e7942dc",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In standard badminton singles, how many players are on each side of the net?",
+    "answers": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://badminton.dk/wp-content/uploads/2024/09/Section-4.1-Laws-of-Badminton-5-August-2024-V4.0.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "33acd38f1eea05e00c6c",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "How many players in total are on court in a standard badminton doubles match?",
+    "answers": [
+      "Two",
+      "Three",
+      "Six",
+      "Four"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://badminton.dk/wp-content/uploads/2024/09/Section-4.1-Laws-of-Badminton-5-August-2024-V4.0.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "3e19907feefb362522c9",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "What separates the two sides of a badminton court?",
+    "answers": [
+      "A water channel",
+      "A row of hurdles",
+      "A net",
+      "A solid wall"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://badminton.dk/wp-content/uploads/2024/09/Section-4.1-Laws-of-Badminton-5-August-2024-V4.0.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "00d05e5a3fc493173080",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "Which piece of equipment is used to strike the shuttle in badminton?",
+    "answers": [
+      "A curved stick",
+      "A racket",
+      "A paddle with no strings",
+      "A club"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://badminton.dk/wp-content/uploads/2024/09/Section-4.1-Laws-of-Badminton-5-August-2024-V4.0.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "193f30065c72eb8ae00c",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In badminton, a shuttle that lands on a boundary line of the relevant court is judged how?",
+    "answers": [
+      "In",
+      "Out",
+      "Automatically a let",
+      "Automatically a service fault"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://badminton.dk/wp-content/uploads/2024/09/Section-4.1-Laws-of-Badminton-5-August-2024-V4.0.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "dce86d271cc935128b72",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "Under standard World Netball rules, how many players from each team are normally on court?",
+    "answers": [
+      "Five",
+      "Six",
+      "Nine",
+      "Seven"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://netball.sport/wp-content/uploads/2024/01/World-Netball-Rules-Book-2024.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "c2a824035f54b7e43c63",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "Which netball positions are allowed to shoot for goal?",
+    "answers": [
+      "Goal Defence and Goal Keeper",
+      "Wing Defence and Centre",
+      "Goal Shooter and Goal Attack",
+      "Centre and Wing Attack"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://netball.sport/wp-content/uploads/2024/01/World-Netball-Rules-Book-2024.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "0870e4b254ff2be1b928",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "What does a netball goal ring normally lack compared with a basketball hoop?",
+    "answers": [
+      "A net",
+      "A backboard",
+      "A supporting post",
+      "A circular ring"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://netball.sport/wp-content/uploads/2024/01/World-Netball-Rules-Book-2024.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "c82f8e05bbbc1a365076",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In standard netball, how long may a player normally hold the ball before passing or shooting?",
+    "answers": [
+      "Three seconds",
+      "One second",
+      "Five seconds",
+      "Ten seconds"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://netball.sport/wp-content/uploads/2024/01/World-Netball-Rules-Book-2024.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "b547dfd520cc33aeed67",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "After landing with the ball in netball, which movement is normally allowed while keeping the landing foot grounded?",
+    "answers": [
+      "Running several steps",
+      "Jumping forward repeatedly with the ball",
+      "Dribbling down the court",
+      "Pivoting"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://netball.sport/wp-content/uploads/2024/01/World-Netball-Rules-Book-2024.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "714088e4b4220745a2e9",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "How many players per team are normally on court in indoor handball, including the goalkeeper?",
+    "answers": [
+      "Eight",
+      "Eleven",
+      "Seven",
+      "Five"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.olympics.com/ioc/news/handball-game-rules-regulations-how-to-play",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "5d3cfb2bde09a90a1e33",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In indoor handball, how many steps may a player normally take while holding the ball without dribbling?",
+    "answers": [
+      "Seven",
+      "Three",
+      "One",
+      "Five"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.olympics.com/ioc/news/handball-game-rules-regulations-how-to-play",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "6f0c880411ef34520264",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In indoor handball, how long may a player normally hold the ball without playing it?",
+    "answers": [
+      "Three seconds",
+      "One second",
+      "Eight seconds",
+      "Ten seconds"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.olympics.com/ioc/news/handball-game-rules-regulations-how-to-play",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "7660230b23e04ae1fc75",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "What are indoor handball teams mainly trying to do to score?",
+    "answers": [
+      "Kick the ball over a crossbar",
+      "Strike the ball into a hole",
+      "Carry the ball across an end line",
+      "Throw the ball into the opposing goal"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.olympics.com/ioc/news/handball-game-rules-regulations-how-to-play",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "5c56bd41b553304ba9ec",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In indoor handball, which player is normally permitted to stand inside their own goal area to defend?",
+    "answers": [
+      "Only the team captain",
+      "Only a substitute",
+      "The goalkeeper",
+      "Any defender"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://archive.ihf.info/upload/PDF-Download/rules_english.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "9061d3aa0d576e3d0de7",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "How many points normally win a standard table-tennis game, provided the player leads by two?",
+    "answers": [
+      "Twenty-one",
+      "Eleven",
+      "Seven",
+      "Fifteen"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://db.ittf.com/sites/default/files/public/2026-02/2026_Statutes_v1_consolidated_clean.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "3987b1af10a14b4380c3",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "What must happen to a legal table-tennis singles serve before it reaches the receiver's side?",
+    "answers": [
+      "It must bounce on the server's half of the table",
+      "It must bounce on the floor",
+      "It must hit the receiver's racket first",
+      "It must touch a side wall"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://db.ittf.com/sites/default/files/public/2026-02/2026_Statutes_v1_consolidated_clean.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "db8c09804f8f7cc0aad3",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In table-tennis doubles played by standing players, how do partners take shots during a rally?",
+    "answers": [
+      "Either partner may take every shot",
+      "Only the server may strike the ball",
+      "They must strike the ball together",
+      "They must alternate shots"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://db.ittf.com/sites/default/files/public/2026-02/2026_Statutes_v1_consolidated_clean.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "3b2036673e0b605ea3dd",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "What divides the two halves of a table-tennis table?",
+    "answers": [
+      "A raised wooden board",
+      "A row of pegs",
+      "A net",
+      "A glass wall"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://db.ittf.com/sites/default/files/public/2026-02/2026_Statutes_v1_consolidated_clean.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "5a204713622f7c7a06dc",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "Under table-tennis rules, which material must cover a racket face used to strike the ball?",
+    "answers": [
+      "Cork",
+      "Rubber",
+      "Bare metal",
+      "Leather"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://db.ittf.com/sites/default/files/public/2026-02/2026_Statutes_v1_consolidated_clean.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "44ea345aa1fa756ec3d8",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "Which climbing discipline uses short indoor routes above landing mats, without ropes?",
+    "answers": [
+      "Bouldering",
+      "Lead climbing",
+      "Abseiling",
+      "Ice climbing"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.thebmc.co.uk/media/files/Comps/Rules/BBC%20Rules%202019.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "8aa0708b6c60a5a278d9",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In roped climbing, what does a belayer mainly manage?",
+    "answers": [
+      "The route's paint colour",
+      "The climber's scorecard",
+      "The timing of other climbers",
+      "The safety rope"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.thebmc.co.uk/en/the-basics-climbing-indoors",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "8b00e08ca6417c597968",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "What is a carabiner used for in climbing?",
+    "answers": [
+      "Drying the climber's hands",
+      "Marking a route's difficulty",
+      "Connecting parts of the safety system",
+      "Measuring the cliff's height"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.thebmc.co.uk/cy/quickdraws-a-guide-for-climbers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "83c2bd1bb56ce711c0ea",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "Why do climbers commonly use chalk on their hands?",
+    "answers": [
+      "To protect their fingertips from all wear",
+      "To absorb moisture from their hands",
+      "To soften the climbing holds",
+      "To lubricate the safety rope"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.thebmc.co.uk/cy/what-gear-do-you-need-to-climb-indoors",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "5e50bacac8f67637b364",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In lead climbing, what does the climber do with the rope as they ascend?",
+    "answers": [
+      "Clip it into protection points along the route",
+      "Leave it coiled at the foot of the wall",
+      "Use it only to measure the route",
+      "Tie it around each handhold"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.thebmc.co.uk/cy/quickdraws-a-guide-for-climbers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "709cea9e8a26daa2cfed",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In sculling, how many oars does each rower normally use?",
+    "answers": [
+      "One",
+      "Three",
+      "Four",
+      "Two"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://worldrowing.com/2022/02/07/outlaw-and-vogt-eying-paris-2024-in-para-rowings-newest-games-event/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "e30287f77d6bcc0e0b51",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In sweep rowing, how many oars does each rower normally use?",
+    "answers": [
+      "Three",
+      "Four",
+      "One",
+      "Two"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://worldrowing.com/2022/02/07/outlaw-and-vogt-eying-paris-2024-in-para-rowings-newest-games-event/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "91f86504d41b993f512f",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In a coxed rowing boat, what is one main task of the coxswain?",
+    "answers": [
+      "Swimming behind the boat",
+      "Steering and coordinating the crew",
+      "Taking every rowing stroke",
+      "Judging all the other boats"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://worldrowing.com/wp-content/uploads/2023/11/Learn-to-Row-Booklet_V2.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "ae6e216a8fed05165981",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In conventional racing rowing, which way do rowers face relative to the boat's direction of travel?",
+    "answers": [
+      "Backwards",
+      "Forwards",
+      "Always towards the bank",
+      "Always towards the finish officials"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.britishrowing.org/wp-content/uploads/2025/08/Guidance-for-Rowers-and-Paddlers.pdf?41e6e6=",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "58ac9155faa2bf52cb0d",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "Which machine lets a rower train on land by simulating rowing strokes?",
+    "answers": [
+      "A treadmill",
+      "A stationary bicycle",
+      "A ski lift",
+      "A rowing ergometer"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://worldrowing.com/2014/05/13/what-indoor-rowing/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "a11c8d7d9fd6b2af2ec5",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "What kind of paddle is normally used in racing kayak events?",
+    "answers": [
+      "An oar fixed to the boat",
+      "A pole pushed against the riverbed",
+      "A double-bladed paddle",
+      "A single-bladed paddle"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.canoeicf.com/sites/default/files/2025_icf_canoe_sprint_competition_rules_final.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "fdd0c4e19f6416f4c5f2",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "What kind of paddle is normally used in racing canoe events?",
+    "answers": [
+      "A pair of hand paddles",
+      "A single-bladed paddle",
+      "A double-bladed paddle",
+      "An oar fixed to the boat"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.canoeicf.com/sites/default/files/2025_icf_canoe_sprint_competition_rules_final.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "6fff2e78aa2b5ffe9336",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In canoe slalom, competitors navigate a course marked by what?",
+    "answers": [
+      "Hanging gates",
+      "Floating basketball hoops",
+      "A row of diving boards",
+      "Moving goalposts"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.canoeicf.com/sites/default/files/2025_icf_competition_rules_canoe_slalom_-_marked-up.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "20e2ba41c766ed4b4407",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "What is the main purpose of a helmet in white-water canoeing or kayaking?",
+    "answers": [
+      "Measuring paddling speed",
+      "Providing the main source of buoyancy",
+      "Steering the boat",
+      "Protecting the head"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://federations.canoeicf.com/sites/default/files/2025_icf_competition_rules_canoe_freestyle_-_final.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "82325d239b36fb9cf432",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "What is a buoyancy aid mainly designed to help a paddler do?",
+    "answers": [
+      "Measure the water depth",
+      "Keep water out of the boat",
+      "Stay afloat",
+      "Protect the head from impacts"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.canoeicf.com/sites/default/files/2025_icf_competition_rules_canoe_slalom_-_marked-up.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "1c1b0a3da884410396e0",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "Which two navigation aids are traditionally central to orienteering?",
+    "answers": [
+      "A ruler and calculator only",
+      "A map and compass",
+      "A stopwatch and whistle only",
+      "A telescope and tripod"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://orienteering.sport/wp-content/uploads/2024/05/iof-rules-2024-v1.12.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "18070c4b1bbb6d4a606e",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In a standard orienteering course, what must competitors find in the required order?",
+    "answers": [
+      "Control points",
+      "Refreshment stalls only",
+      "Other competitors' homes",
+      "The tallest trees in the forest"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://orienteering.sport/wp-content/uploads/2024/05/iof-rules-2024-v1.12.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "3c6d8de35dbc1d18b91c",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "Why does an orienteer punch or electronically register at a control?",
+    "answers": [
+      "To change the map's scale",
+      "To stop every competitor's clock",
+      "To move the control to a new place",
+      "To record that they visited it"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://orienteering.sport/wp-content/uploads/2024/05/iof-rules-2024-v1.12.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "e240b2566ec5fc815347",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "Which two colours appear on a standard orienteering control flag?",
+    "answers": [
+      "Red and black",
+      "Green and purple",
+      "Orange and white",
+      "Blue and yellow"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://orienteering.sport/wp-content/uploads/2024/05/iof-rules-2024-v1.12.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "3e3d075308a739851b77",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "On a standard orienteering course map, which shape marks a control point?",
+    "answers": [
+      "A diamond",
+      "A circle",
+      "A square",
+      "A star"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://omapwiki.orienteering.sport/symbols/703-control-point/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "0308a1c9c692353e3adc",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "What is the target in most disc-golf holes?",
+    "answers": [
+      "A basket with hanging chains",
+      "A hole dug into the turf",
+      "A goal with a crossbar",
+      "A hoop mounted on a backboard"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.pdga.com/rules/official-rules-disc-golf/questions-and-answers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "eb2683f38c9154491b43",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In ordinary stroke-play disc golf, which total is better?",
+    "answers": [
+      "More total throws, including penalty throws",
+      "More time spent on the course",
+      "More discs carried in a bag",
+      "Fewer total throws, including penalty throws"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.pdga.com/book/export/html/236656/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "94e91f477a910125b583",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "Where does play on a disc-golf hole begin?",
+    "answers": [
+      "The middle of the fairway",
+      "A drop zone chosen freely",
+      "The teeing area",
+      "The putting area"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.pdga.com/book/export/html/236656/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "d44e32c81be46a876118",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "Under PDGA disc-golf rules, a throw from within 10 metres of the target is classified as what?",
+    "answers": [
+      "An abandoned throw",
+      "A putt",
+      "An obligatory re-throw",
+      "A boundary penalty"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.pdga.com/book/export/html/236656/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "acfa9594bfb70aa958ab",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "After the first hole in disc golf, who normally throws first from the next tee?",
+    "answers": [
+      "The player with the lowest score on the previous hole",
+      "The player carrying the most discs",
+      "The player with the longest previous throw",
+      "The player who finished the previous hole last"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.pdga.com/rules/official-rules-disc-golf/80202",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "9d2b793cea0283ff5241",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "What object is passed between teammates in ultimate?",
+    "answers": [
+      "A rugby ball",
+      "A shuttlecock",
+      "A puck",
+      "A flying disc"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://rules.wfdf.sport/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "4778c0bb73e9ce5385b3",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "How does a team normally score a goal in ultimate?",
+    "answers": [
+      "Bounce the disc into a basket",
+      "Carry the disc around the whole field",
+      "Catch a pass in the attacking end zone",
+      "Kick the disc over a crossbar"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://rules.wfdf.sport/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "2a3b11048d3b8975ded2",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "Once an ultimate player has established a pivot after catching the disc, what may they do?",
+    "answers": [
+      "Hand the disc to an opponent to keep possession",
+      "Pivot and pass",
+      "Run downfield while carrying the disc",
+      "Bounce the disc while running"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://rules.wfdf.sport/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "8fd7d2831b568b3eb31c",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "What normally happens after an incomplete pass in ultimate?",
+    "answers": [
+      "Possession changes to the other team",
+      "The passing team automatically scores",
+      "The match ends",
+      "The same team gets unlimited replacement throws"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://rules.wfdf.sport/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "f6e0e9d4db930e3aa6c6",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "Ultimate's Spirit of the Game places particular emphasis on what?",
+    "answers": [
+      "Winning by any means",
+      "Avoiding all discussion of fouls",
+      "Leaving every decision to spectators",
+      "Fair play and players' responsibility for following the rules"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://rules.wfdf.sport/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "170cf77233aa867fed06",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In standard outdoor field hockey, what is used to strike the ball?",
+    "answers": [
+      "A club with a full circular face",
+      "A paddle fixed to a boat",
+      "A hockey stick",
+      "A racket"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.fih.hockey/static-assets/pdf/02_2026-11-10_fih_rules_of_hockey_2027_clean.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "5e49ee136264a4047b73",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "Which side of an ordinary field-hockey stick is used to play the ball?",
+    "answers": [
+      "Only the top of the handle",
+      "The flat side",
+      "Only the rounded side",
+      "Either side equally"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.fih.hockey/static-assets/pdf/02_2026-11-10_fih_rules_of_hockey_2027_clean.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "199e3f27537a1522bafe",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "For a normal field-hockey goal to count, where must an attacker play the ball before it enters the goal?",
+    "answers": [
+      "Inside the shooting circle",
+      "Only from beyond the halfway line",
+      "Only from the corner flag",
+      "Only from outside the pitch"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.fih.hockey/static-assets/pdf/02_2026-11-10_fih_rules_of_hockey_2027_clean.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "7ffc03e4a0fa99466bf2",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "How is play normally restarted after a goal in outdoor field hockey?",
+    "answers": [
+      "A penalty corner for the team that scored",
+      "A penalty stroke for the team that conceded",
+      "A bully taken inside the goal circle",
+      "A centre pass by the team that conceded"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.fih.hockey/static-assets/pdf/02_2026-11-10_fih_rules_of_hockey_2027_clean.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "78d3807f008e5e881b91",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "Under standard outdoor field-hockey rules, what is the maximum number of players from each team on the field at one time?",
+    "answers": [
+      "Nine",
+      "Fifteen",
+      "Eleven",
+      "Seven"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.fih.hockey/static-assets/pdf/02_2026-11-10_fih_rules_of_hockey_2027_clean.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "d790363c51900ecbf078",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In rugby union, how many points is a try worth?",
+    "answers": [
+      "One",
+      "Five",
+      "Three",
+      "Two"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://passport.world.rugby/media/jxrnmptk/2026en-laws-of-the-game-compressed.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "19c31b686c2977a90adf",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In rugby union, how many points is a successful conversion worth?",
+    "answers": [
+      "Two",
+      "One",
+      "Three",
+      "Five"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://passport.world.rugby/media/jxrnmptk/2026en-laws-of-the-game-compressed.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "12b97de7ee3dbcc1922f",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "How must a rugby-union player direct a hand pass to a teammate?",
+    "answers": [
+      "Forwards only",
+      "In any direction without restriction",
+      "Only vertically upwards",
+      "Backwards or sideways relative to the passer"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://passport.world.rugby/media/jxrnmptk/2026en-laws-of-the-game-compressed.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "e9e1cfdff3a0420891d4",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "Under the standard rugby-union laws, what is the maximum number of players per team on the field?",
+    "answers": [
+      "Thirteen",
+      "Seven",
+      "Fifteen",
+      "Eleven"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://passport.world.rugby/media/jxrnmptk/2026en-laws-of-the-game-compressed.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "1ee88c7d48459031b16c",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In rugby union, what is a lineout used for?",
+    "answers": [
+      "Deciding who wins a tied tournament",
+      "Restarting play after the ball goes into touch",
+      "Awarding a try without grounding the ball",
+      "Starting a penalty shoot-out"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://passport.world.rugby/injury-prevention-and-risk-management/rugby-ready/the-lineout/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "5e7ceaeac39c0028b367",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In standard indoor volleyball, how many players from each team are on court?",
+    "answers": [
+      "Six",
+      "Four",
+      "Five",
+      "Seven"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "9a0e7a698f4e28cf7646",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In indoor volleyball, what is the main aim of an attacking spike?",
+    "answers": [
+      "Set the ball gently for a teammate",
+      "Start the rally from the service zone",
+      "Receive a low ball with a forearm pass",
+      "Send the ball forcefully into the opponents' court"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.fivb.com/wp-content/uploads/2024/03/FIVB_Beachvolley_Drill-Book_EN.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "eaf939df9bd0c7dcaf62",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In indoor volleyball, what action starts a rally?",
+    "answers": [
+      "A scrum",
+      "A centre bounce",
+      "A serve",
+      "A face-off"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "a54cfb302d871472d670",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In indoor volleyball, what is a block mainly intended to stop?",
+    "answers": [
+      "The match officials keeping score",
+      "An opponent's attack crossing the net",
+      "The serving team changing court ends",
+      "A teammate taking a legal serve"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "6460a023dcf4aa32996e",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "Excluding a blocking contact, how many team hits are normally allowed to return the ball in indoor volleyball?",
+    "answers": [
+      "Three",
+      "Two",
+      "Four",
+      "Five"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN-v05.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "a4f6b14978cfd916b4b0",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In cricket, what is a six?",
+    "answers": [
+      "Six wickets taken in one innings",
+      "Six runs automatically awarded for every no-ball",
+      "A ball hit into the stumps",
+      "A hit that clears the boundary without first bouncing"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.lords.org/getattachment/d9eb43d5-5935-4634-b170-da698e0e9d6e/Laws-of-Cricket-2017-Code-4th-Edition-%282026%29.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "03a30c2308b03606097a",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In cricket, what does a batter score by running between the wickets?",
+    "answers": [
+      "Goals",
+      "Frames",
+      "Runs",
+      "Sets"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.lords.org/getattachment/d9eb43d5-5935-4634-b170-da698e0e9d6e/Laws-of-Cricket-2017-Code-4th-Edition-%282026%29.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "a11959b758e9a7cc0f56",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In cricket, what is the wicketkeeper positioned behind?",
+    "answers": [
+      "The sightscreen only",
+      "The batter's wicket",
+      "The bowler's run-up",
+      "The boundary rope"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.lords.org/getattachment/d9eb43d5-5935-4634-b170-da698e0e9d6e/Laws-of-Cricket-2017-Code-4th-Edition-%282026%29.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "8d0ee2748703c8e20aec",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In cricket, what does a batter normally use to protect their lower legs?",
+    "answers": [
+      "Batting pads",
+      "A fielding cap",
+      "A helmet visor",
+      "A wristband"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.lords.org/getattachment/d9eb43d5-5935-4634-b170-da698e0e9d6e/Laws-of-Cricket-2017-Code-4th-Edition-%282026%29.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "95b29f7b4b7de3bc8698",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "A cricket batter's shot bounces before crossing the boundary. What is the usual boundary allowance?",
+    "answers": [
+      "Two runs",
+      "Six runs",
+      "Eight runs",
+      "Four runs"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.lords.org/getattachment/d9eb43d5-5935-4634-b170-da698e0e9d6e/Laws-of-Cricket-2017-Code-4th-Edition-%282026%29.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "eacc0df4b16e5d625e60",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In tennis, what is a double fault?",
+    "answers": [
+      "A ball bouncing twice on both sides",
+      "Two players touching the same racket",
+      "Failing both the first and second serve for a point",
+      "Two lets during a rally"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-terms-definitions.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "3b0b09d1a62d0a401ef4",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In an ordinary advantage-scoring tennis game, what score is called deuce?",
+    "answers": [
+      "Game point with no reply",
+      "Forty-all",
+      "Thirty-all",
+      "Fifteen-all"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-terms-definitions.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "31d20cfefd48c6c84f1c",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "What is a volley during a tennis rally?",
+    "answers": [
+      "A shot hit before the ball bounces",
+      "A serve that hits the net and lands out",
+      "A shot played after two bounces",
+      "A score of six games each"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-terms-definitions.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "869a9faf1a4c5868431c",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In a standard tennis serve, which service box must the ball land in?",
+    "answers": [
+      "Either service box chosen freely",
+      "The server's own service box",
+      "Only the area behind the receiver's baseline",
+      "The diagonally opposite service box"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-serving-rules.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "3da87c47c87da8c8299a",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In tennis, what is an ace?",
+    "answers": [
+      "A point awarded for a double fault",
+      "A shot that hits both net posts",
+      "An untouched legal serve that wins the point",
+      "A rally lasting more than twenty shots"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-terms-definitions.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "463071e0d7400d1499d0",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In golf, what does a birdie mean on a hole?",
+    "answers": [
+      "Exactly par",
+      "One stroke under par",
+      "One stroke over par",
+      "Two strokes over par"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.usga.org/content/usga/home-page/articles/2026/01/world-play-terminology-golf-lingo.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "37041fcc042395e0e571",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In golf, what does a bogey mean on a hole?",
+    "answers": [
+      "One stroke over par",
+      "One stroke under par",
+      "Two strokes under par",
+      "Exactly par"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.usga.org/content/usga/home-page/articles/2026/01/world-play-terminology-golf-lingo.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "dbe7a3ff14541f788c81",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "Which golf club is mainly designed for rolling the ball on the putting green?",
+    "answers": [
+      "A driver",
+      "A sand wedge",
+      "A three-wood",
+      "A putter"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.randa.org/roe/the-rules-of-equipment/part-2-conformance-of-clubs",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "483471e69d47b9c559d7",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "In ordinary stroke-play golf, which total score wins?",
+    "answers": [
+      "The most balls used",
+      "The greatest total distance walked",
+      "The lowest total number of strokes, including penalties",
+      "The highest number of strokes"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.randa.org/rog/definitions?definitionsEdition=RulesOfGolf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  },
+  {
+    "id": "bcafcae28227ddd691f5",
+    "categoryID": "21",
+    "difficulty": "easy",
+    "prompt": "What warning should a golfer shout if a struck ball may endanger someone?",
+    "answers": [
+      "Howzat!",
+      "Fore!",
+      "Love!",
+      "Let!"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.randa.org/en/rules/spirit-of-the-game",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-21-v1"
+  }
+]

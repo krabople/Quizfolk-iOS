@@ -1,0 +1,1107 @@
+{
+  "reviewer": "root (author final editorial pass)",
+  "independent": false,
+  "sourceAccessNote": "100 original sport candidates individually checked. Five old-concept duplicates replaced before final approval (map contours/key, cricket over/duck, tennis love). Current ITTF2026, FIVB2025-28, WorldRugby2026, MCC2026 and FIH2027-effective1Nov2026 primary rules inspected. Stable BWF fundamental rules checked using federation-hosted2024text, not future2027 scoring changes. WorldNetball2024 includes possession/footwork/shooting. IOF2024 traditional-course rules, PDGA2026, WFDF2025-28 and federation coaching definitions inspected. Unsupported squash rubber claim replaced; D-name unsupported by FIH PDF replaced with documented centrepass; puts/foul/scoring wording qualified. Earlier row-number edits mismatched two unapproved volleyball drafts; corrected during per-item pass, never published. PDF parser font warnings retained privately; relevant actual extracted passages checked, no claim all pages independently reviewed. Some direct pages/PDFs failed or yielded empty HTML; indexed actual passages used and failures not called full retrieval. No private reference extracts republished.",
+  "rows": [
+    {
+      "row": 1,
+      "prompt": "In archery, what is a quiver used to hold?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Quiver holds arrows. Bowstrings only/target faces/scorecards not its purpose. Actual World Archery manual section9.8 explicitly safe arrow storage and several quiver styles. Does not restrict it to worn-at-hip type; familiar equipment terminology and grammar sound.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Quiver holds arrows. Bowstrings only/target faces/scorecards not its purpose. Actual World Archery manual section9.8 explicitly safe arrow storage and several quiver styles. Does not restrict it to worn-at-hip type; familiar equipment terminology and grammar sound.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 2,
+      "prompt": "What is the main purpose of fletching on an arrow?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Fletching stabilises arrow flight, not carrying bow, measuring distance or finger protection. Manual actual arrow-fletching discussion explicitly stability/flight; not inferred from table of contents. Helping qualifier permits drag and visibility as additional functions.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Fletching stabilises arrow flight, not carrying bow, measuring distance or finger protection. Manual actual arrow-fletching discussion explicitly stability/flight; not inferred from table of contents. Helping qualifier permits drag and visibility as additional functions.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 3,
+      "prompt": "Which item protects an archer's forearm from the bowstring?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Armguard covers forearm against string. Finger tab protects fingers, quiver stores arrows and sight aids aim. Actual manual forearm-protection paragraph checked. No technique instruction or claim all accidental contact is impossible.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Armguard covers forearm against string. Finger tab protects fingers, quiver stores arrows and sight aids aim. Actual manual forearm-protection paragraph checked. No technique instruction or claim all accidental contact is impossible.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 4,
+      "prompt": "On a standard five-colour target-archery face, which colour is in the centre?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Gold at centre of standard five-colour target. Blue/black/white outside, red/yellow alternative not offered. Manual glossary explicitly gold central scoring colour; standard target scope avoids field-archery black/white faces. Colour naming handles gold/yellow convention.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Gold at centre of standard five-colour target. Blue/black/white outside, red/yellow alternative not offered. Manual glossary explicitly gold central scoring colour; standard target scope avoids field-archery black/white faces. Colour naming handles gold/yellow convention.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 5,
+      "prompt": "Which part of an archery bow does the archer draw back before releasing an arrow?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "String drawn back, unlike sight/grip/arrow-rest hardware. Manual full-draw definition and draw-string paragraphs inspected. Does not say every archer uses unaided fingers, allowing release aids and adapted techniques. Clear beginner fact.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "String drawn back, unlike sight/grip/arrow-rest hardware. Manual full-draw definition and draw-string paragraphs inspected. Does not say every archer uses unaided fingers, allowing release aids and adapted techniques. Clear beginner fact.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 6,
+      "prompt": "Which set names the three weapons used in Olympic fencing?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Olympic weapon set foil/epee/sabre, other offered groups contain non-Olympic-fencing implements. FIE actual three-weapon descriptions inspected, not athlete roster. Épée accented correctly; no assertion these are all historical sword types.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Olympic weapon set foil/epee/sabre, other offered groups contain non-Olympic-fencing implements. FIE actual three-weapon descriptions inspected, not athlete roster. Épée accented correctly; no assertion these are all historical sword types.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 7,
+      "prompt": "What is the strip on which fencers compete called?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Competition strip piste, not crease/rink/fairway. British Fencing referee-education actual field-of-play section checked; FIE also uses pistes. No mixed skiing ambiguity because sport explicit. Does not ask changing strip dimensions.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Competition strip piste, not crease/rink/fairway. British Fencing referee-education actual field-of-play section checked; FIE also uses pistes. No mixed skiing ambiguity because sport explicit. Does not ask changing strip dimensions.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 8,
+      "prompt": "Which protective item covers a fencer's face and head?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Mask covers face/head. Plastron torso, glove hand, shin guard legs. British Fencing actual equipment guidance explicitly mask requirements checked; not claiming all face guards from other sports qualify. Plain singular grammar.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Mask covers face/head. Plastron torso, glove hand, shin guard legs. British Fencing actual equipment guidance explicitly mask requirements checked; not claiming all face guards from other sports qualify. Plain singular grammar.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 9,
+      "prompt": "Which fencing weapon allows scoring with the edge as well as the point?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Sabre scores edge and tip; foil/epee thrust tip, so all-three equally wrong. FIE actual weapon paragraph explicitly cutting-edge distinction inspected. No dated target-area or electronic-timing rule embedded.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Sabre scores edge and tip; foil/epee thrust tip, so all-three equally wrong. FIE actual weapon paragraph explicitly cutting-edge distinction inspected. No dated target-area or electronic-timing rule embedded.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 10,
+      "prompt": "Which gesture is part of fencing etiquette before a bout?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Rewrote purpose-of-salute inference into documented pre-bout etiquette. British Fencing actual beginner-competition guide explicitly saluting opponent/officials before bout. Other offered actions not standard etiquette. No unsupported claim salute changes score or is optional.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Rewrote purpose-of-salute inference into documented pre-bout etiquette. British Fencing actual beginner-competition guide explicitly saluting opponent/officials before bout. Other offered actions not standard etiquette. No unsupported claim salute changes score or is optional.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 11,
+      "prompt": "Curling players slide stones across which surface?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Curling on ice, not sand/grass/clay. World Curling actual introduction and sheet description checked. Does not confuse dry-floor adaptations with standard sport. Basic accessible rule, no archived team-size assumption.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Curling on ice, not sand/grass/clay. World Curling actual introduction and sheet description checked. Does not confuse dry-floor adaptations with standard sport. Basic accessible rule, no archived team-size assumption.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 12,
+      "prompt": "In curling, what is the circular target area called?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Target house, other options are actual different curling features hog-line/free-guard-zone/hack. World Curling actual house definition checked. Replaced duplicate crease/crease-line distractors. Not claiming entire sheet is the house.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Target house, other options are actual different curling features hog-line/free-guard-zone/hack. World Curling actual house definition checked. Replaced duplicate crease/crease-line distractors. Not claiming entire sheet is the house.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 13,
+      "prompt": "What do players use to sweep the ice in standard team curling?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Brushes/brooms sweep, not hockey stick/racket/golf club. World Curling actual equipment paragraph explicitly own brush. Scoped standard team curling because wheelchair curling has no sweeping. No oversimplified melting/friction physics claim.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Brushes/brooms sweep, not hockey stick/racket/golf club. World Curling actual equipment paragraph explicitly own brush. Scoped standard team curling because wheelchair curling has no sweeping. No oversimplified melting/friction physics claim.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 14,
+      "prompt": "In curling, an end is best described as what?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "End is round of stone delivery, not handle/tournament winner/training. World Curling actual End-a-round passage checked. No incorrect fixed16stones assertion for mixed doubles, since draft avoids quantity. Round phrasing clear.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "End is round of stone delivery, not handle/tournament winner/training. World Curling actual End-a-round passage checked. No incorrect fixed16stones assertion for mixed doubles, since draft avoids quantity. Round phrasing clear.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 15,
+      "prompt": "Which curling player normally directs the team's tactics?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Skip directs tactics, coxswain/wicketkeeper/libero other sports roles. Actual World Curling skip direct-play paragraph checked. Normally permits vice-skip takeover while skip delivering and skip not necessarily throwing fourth. No unsupported captain-only rule.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Skip directs tactics, coxswain/wicketkeeper/libero other sports roles. Actual World Curling skip direct-play paragraph checked. Normally permits vice-skip takeover while skip delivering and skip not necessarily throwing fourth. No unsupported captain-only rule.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 16,
+      "prompt": "In squash, a legal return must reach which wall before bouncing on the floor?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Return must front wall before floor, can first touch side/back wall. Actual current World Squash6.2.2 explicitly front-wall return without floor bounce. Other offered walls alone insufficient. Did not incorrectly demand direct front-wall-only stroke.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Return must front wall before floor, can first touch side/back wall. Actual current World Squash6.2.2 explicitly front-wall return without floor bounce. Other offered walls alone insufficient. Did not incorrectly demand direct front-wall-only stroke.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 17,
+      "prompt": "What is the maximum number of floor bounces allowed before a player returns the ball during a squash rally?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Replaced unsupported rubber-material candidate. Current World Squash6.2.1 requires return before ball bounces twice: at most once permitted, volley also allowed. Other counts/no-bounce-required wrong. Wording how many may normally bounce means maximum allowance, not mandatory one bounce; final prompt should make maximum explicit.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Replaced unsupported rubber-material candidate. Current World Squash6.2.1 requires return before ball bounces twice: at most once permitted, volley also allowed. Other counts/no-bounce-required wrong. Wording how many may normally bounce means maximum allowance, not mandatory one bounce; final prompt should make maximum explicit.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 18,
+      "prompt": "In squash, what does the referee's call of let usually mean?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Let replays rally, not two points/end match/new racket. Current World Squash official-call glossary LET/PLAY A LET and YES LET explicitly replay. Referee's call qualifier distinguishes merely appealing unsuccessfully for let. No promise all interference wins let.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Let replays rally, not two points/end match/new racket. Current World Squash official-call glossary LET/PLAY A LET and YES LET explicitly replay. Referee's call qualifier distinguishes merely appealing unsuccessfully for let. No promise all interference wins let.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 19,
+      "prompt": "Which marked area must a squash server have one foot inside, in contact with the floor, when striking the serve?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "One foot floor-contact inside service box at hit. Actual current World Squash5.7.2 inspected, foot must not touch boundaries. Reworded to avoid ambiguous touching box line. Other sport centre-circle/goal-area/penalty-spot not squash serving position.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "One foot floor-contact inside service box at hit. Actual current World Squash5.7.2 inspected, foot must not touch boundaries. Reworded to avoid ambiguous touching box line. Other sport centre-circle/goal-area/penalty-spot not squash serving position.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 20,
+      "prompt": "In squash, what is the low panel at the bottom of the front wall called?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Tin low full-width front-wall area. Current World Squash glossary exact floor-to-lowest-horizontal-line definition checked. Net/crossbar/backboard different fixtures, not tin. No claim whole front wall is out.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Tin low full-width front-wall area. Current World Squash glossary exact floor-to-lowest-horizontal-line definition checked. Net/crossbar/backboard different fixtures, not tin. No claim whole front wall is out.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 21,
+      "prompt": "In standard badminton singles, how many players are on each side of the net?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Badminton singles one player per side. Actual BWF definitions inspected in federation-hosted official law PDF. Two/three/four not singles. Standard scope avoids team-tie totals; not inverse duplicate of old which-sport-uses-shuttlecock fact.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Badminton singles one player per side. Actual BWF definitions inspected in federation-hosted official law PDF. Two/three/four not singles. Standard scope avoids team-tie totals; not inverse duplicate of old which-sport-uses-shuttlecock fact.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 22,
+      "prompt": "How many players in total are on court in a standard badminton doubles match?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Changed pair-size giveaway to total doubles participants: four. BWF two players on each opposing side gives four, alternatives two/three/six wrong. No stem revealing numerical answer. Team tournament substitutes excluded by on-court wording.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Changed pair-size giveaway to total doubles participants: four. BWF two players on each opposing side gives four, alternatives two/three/six wrong. No stem revealing numerical answer. Team tournament substitutes excluded by on-court wording.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 23,
+      "prompt": "What separates the two sides of a badminton court?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Net separates badminton sides, not wall/channel/hurdles. Actual BWF court/net sections inspected. Does not ask borderline net fault mechanics. Standard match context clear and four choices grammatically parallel.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Net separates badminton sides, not wall/channel/hurdles. Actual BWF court/net sections inspected. Does not ask borderline net fault mechanics. Standard match context clear and four choices grammatically parallel.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 24,
+      "prompt": "Which piece of equipment is used to strike the shuttle in badminton?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Stringed racket strikes shuttle; stringless paddle/club/curved stick wrong badminton equipment. BWF racket stringed-area and stroke definitions inspected. Distinct from identifying sport by shuttlecock, though same sport. No unnecessary equipment dimensions trivia.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Stringed racket strikes shuttle; stringless paddle/club/curved stick wrong badminton equipment. BWF racket stringed-area and stroke definitions inspected. Distinct from identifying sport by shuttlecock, though same sport. No unnecessary equipment dimensions trivia.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 25,
+      "prompt": "In badminton, a shuttle that lands on a boundary line of the relevant court is judged how?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Relevant boundary lines count in. Actual BWF law says all lines part of area they define, inspected. Out/automatic let/service fault wrong, standard whether singles/doubles/service court relevance explicitly qualified. Contact with line alone not fault.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Relevant boundary lines count in. Actual BWF law says all lines part of area they define, inspected. Out/automatic let/service fault wrong, standard whether singles/doubles/service court relevance explicitly qualified. Contact with line alone not fault.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 26,
+      "prompt": "Under standard World Netball rules, how many players from each team are normally on court?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Seven normal full-team netball count, not five/six/nine. World Netball current rules introduction explicitly two teams of seven. Removed seven-a-side from stem because it gave away answer. Standard rulebook qualifier excludes Fast5 and team may be temporarily reduced.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Seven normal full-team netball count, not five/six/nine. World Netball current rules introduction explicitly two teams of seven. Removed seven-a-side from stem because it gave away answer. Standard rulebook qualifier excludes Fast5 and team may be temporarily reduced.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 27,
+      "prompt": "Which netball positions are allowed to shoot for goal?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "GS and GA permitted shooters; other offered position pairs include no permitted shooter. Actual World Netball scoring and playing-ball sections checked, only GS/GA in goal circle. Does not imply may shoot from anywhere or all competition formats have identical points zones.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "GS and GA permitted shooters; other offered position pairs include no permitted shooter. Actual World Netball scoring and playing-ball sections checked, only GS/GA in goal circle. Does not imply may shoot from anywhere or all competition formats have identical points zones.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 28,
+      "prompt": "What does a netball goal ring normally lack compared with a basketball hoop?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Backboard absent, ring/net/post present. World Netball technical goalpost specifications list pole, ring, projecting bar and net; basketball comparison familiar. Normally qualifier allows adapted informal equipment, no assertion every basketball basket is pole-mounted.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Backboard absent, ring/net/post present. World Netball technical goalpost specifications list pole, ring, projecting bar and net; basketball comparison familiar. Normally qualifier allows adapted informal equipment, no assertion every basketball basket is pole-mounted.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 29,
+      "prompt": "In standard netball, how long may a player normally hold the ball before passing or shooting?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Three seconds normal holding time, not one/five/ten. Actual World Netball playing-ball rule4 explicitly possession release by pass/shot within3seconds, not just centre-pass special rule. No claim stopped play counts same as active possession.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Three seconds normal holding time, not one/five/ten. Actual World Netball playing-ball rule4 explicitly possession release by pass/shot within3seconds, not just centre-pass special rule. No claim stopped play counts same as active possession.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 30,
+      "prompt": "After landing with the ball in netball, which movement is normally allowed while keeping the landing foot grounded?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Pivot permitted with landing foot grounded. Running/repeated forward hops/dribbling not allowed footwork. Actual rulebook pivot definition inspected, clear landing-foot condition. Avoided claim pivot mandatory or lifted landing foot can freely be replaced before release.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Pivot permitted with landing foot grounded. Running/repeated forward hops/dribbling not allowed footwork. Actual rulebook pivot definition inspected, clear landing-foot condition. Avoided claim pivot mandatory or lifted landing foot can freely be replaced before release.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 31,
+      "prompt": "How many players per team are normally on court in indoor handball, including the goalkeeper?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Indoor handball normal seven including goalkeeper. IOC actual how-many-players paragraph confirms seven, permits fewer to start but question normal full team. Five/eight/eleven not standard count. Scope indoor avoids beach/old field handball.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Indoor handball normal seven including goalkeeper. IOC actual how-many-players paragraph confirms seven, permits fewer to start but question normal full team. Five/eight/eleven not standard count. Scope indoor avoids beach/old field handball.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 32,
+      "prompt": "In indoor handball, how many steps may a player normally take while holding the ball without dribbling?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Three steps normal ball-held movement without dribble. IOC actual how-to paragraph explicit max3steps; one/five/seven wrong limit. No teaching of detailed foot-contact exceptions. Normally excludes unusual officiating sequences.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Three steps normal ball-held movement without dribble. IOC actual how-to paragraph explicit max3steps; one/five/seven wrong limit. No teaching of detailed foot-contact exceptions. Normally excludes unusual officiating sequences.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 33,
+      "prompt": "In indoor handball, how long may a player normally hold the ball without playing it?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Three seconds normal stationary holding limit. IOC actual how-to paragraph explicit possession maximum3seconds. One/eight/ten wrong; without playing it excludes active dribbling. Plain grammar, distinct from three-steps movement question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Three seconds normal stationary holding limit. IOC actual how-to paragraph explicit possession maximum3seconds. One/eight/ten wrong; without playing it excludes active dribbling. Plain grammar, distinct from three-steps movement question.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 34,
+      "prompt": "What are indoor handball teams mainly trying to do to score?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Throw ball into opponent goal, not crossbar kick/hole strike/endline carry. IOC actual objective/scoring explanation inspected. Distinct equipment/game objectives all plausible sports; does not claim every throw succeeds or every contact is hands-only.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Throw ball into opponent goal, not crossbar kick/hole strike/endline carry. IOC actual objective/scoring explanation inspected. Distinct equipment/game objectives all plausible sports; does not claim every throw succeeds or every contact is hands-only.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 35,
+      "prompt": "In indoor handball, which player is normally permitted to stand inside their own goal area to defend?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Goalkeeper normally stands to defend in own goal area; other defender/captain/substitute role alone does not permit it. Actual IHF6.1 and6.3 indexed text inspected, including non-advantageous encroachment exceptions. Replaced insufficient IOCarea reference with exact IHF rule. Normally permits role switches and does not forbid airborne jump shots.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Goalkeeper normally stands to defend in own goal area; other defender/captain/substitute role alone does not permit it. Actual IHF6.1 and6.3 indexed text inspected, including non-advantageous encroachment exceptions. Replaced insufficient IOCarea reference with exact IHF rule. Normally permits role switches and does not forbid airborne jump shots.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 36,
+      "prompt": "How many points normally win a standard table-tennis game, provided the player leads by two?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "First11 with two-point margin, not7/15/21. Actual ITTF2026 law2.11.1 inspected. Explicit margin avoids claiming a10allgame ends11-10. Standard game not match, so does not confuse best-of games.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "First11 with two-point margin, not7/15/21. Actual ITTF2026 law2.11.1 inspected. Explicit margin avoids claiming a10allgame ends11-10. Standard game not match, so does not confuse best-of games.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 37,
+      "prompt": "What must happen to a legal table-tennis singles serve before it reaches the receiver's side?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Serve first bounces own court then directly receiver court. ITTF2026law2.6.3 actual passage checked. Floor/receiver-racket/sidewall wrong. Singles scope avoids required diagonal right-half doubles nuance; no claim serve hitting net always automatically out.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Serve first bounces own court then directly receiver court. ITTF2026law2.6.3 actual passage checked. Floor/receiver-racket/sidewall wrong. Singles scope avoids required diagonal right-half doubles nuance; no claim serve hitting net always automatically out.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 38,
+      "prompt": "In table-tennis doubles played by standing players, how do partners take shots during a rally?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Alternating partners under standing-player doubles. ITTF2026law2.8.2 and wheelchair exception2.8.3 both inspected. Added standing scope rather than ignoring actual disabled-pair variation. Either partner/every shot/server only/together wrong ordinary sequence.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Alternating partners under standing-player doubles. ITTF2026law2.8.2 and wheelchair exception2.8.3 both inspected. Added standing scope rather than ignoring actual disabled-pair variation. Either partner/every shot/server only/together wrong ordinary sequence.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 39,
+      "prompt": "What divides the two halves of a table-tennis table?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Net divides two halves; glass/wood/pegs not table-tennis divider. ITTF2026 net assembly and service playing-surface rules checked. Familiar accessible equipment fact, not borrowing a tennis net's dimensions.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Net divides two halves; glass/wood/pegs not table-tennis divider. ITTF2026 net assembly and service playing-surface rules checked. Familiar accessible equipment fact, not borrowing a tennis net's dimensions.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 40,
+      "prompt": "Under table-tennis rules, which material must cover a racket face used to strike the ball?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Replaced trivial racket function with legal striking-face covering: rubber (ordinary pimpled or sandwich). ITTF2026law2.4.3 actually inspected. Baremetal/leather/cork not allowed striking face; does not falsely say entire wooden blade is rubber.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Replaced trivial racket function with legal striking-face covering: rubber (ordinary pimpled or sandwich). ITTF2026law2.4.3 actually inspected. Baremetal/leather/cork not allowed striking face; does not falsely say entire wooden blade is rubber.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 41,
+      "prompt": "Which climbing discipline uses short indoor routes above landing mats, without ropes?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Bouldering short indoor rope-free routes over mats, not lead/abseil/ice. BMC competition definition1.1.1 and landingmat1.2.1 actual indexed text checked. Indoor wording avoids claiming every outdoor boulder has matting; no how-to safety instructions.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Bouldering short indoor rope-free routes over mats, not lead/abseil/ice. BMC competition definition1.1.1 and landingmat1.2.1 actual indexed text checked. Indoor wording avoids claiming every outdoor boulder has matting; no how-to safety instructions.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 42,
+      "prompt": "In roped climbing, what does a belayer mainly manage?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Belayer manages safety rope, not paint/scorecard/other competitors' timings. BMC actual belaying definition describes loaded rope and taking slack; gear page confirms safeguarding partner. No claim one generic procedure works for every belay device.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Belayer manages safety rope, not paint/scorecard/other competitors' timings. BMC actual belaying definition describes loaded rope and taking slack; gear page confirms safeguarding partner. No claim one generic procedure works for every belay device.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 43,
+      "prompt": "What is a carabiner used for in climbing?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Carabiner connects safety-system parts. BMC actual quickdraw guide describes two karabiners joining sling/rope/protection. Height-measuring/hand-drying/difficulty-marking wrong functions. No claim all hardware clips suitable for climbing or guaranteed fall prevention.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Carabiner connects safety-system parts. BMC actual quickdraw guide describes two karabiners joining sling/rope/protection. Height-measuring/hand-drying/difficulty-marking wrong functions. No claim all hardware clips suitable for climbing or guaranteed fall prevention.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 44,
+      "prompt": "Why do climbers commonly use chalk on their hands?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Chalk absorbs hand moisture, not hold-softening/rope lubricant/complete fingertip protection. Actual BMC gear guide explicitly sweat absorption inspected. Avoided categorical promise chalk always improves friction in every condition; purpose fact clear.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Chalk absorbs hand moisture, not hold-softening/rope lubricant/complete fingertip protection. Actual BMC gear guide explicitly sweat absorption inspected. Avoided categorical promise chalk always improves friction in every condition; purpose fact clear.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 45,
+      "prompt": "In lead climbing, what does the climber do with the rope as they ascend?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Lead climber clips rope into protection while ascending. Actual BMC quickdraw guide opening explicitly rope/protection in lead climbing. Coiled-unused/measuring/tying around handholds wrong procedures. General concept only; not replacing instruction in safety skills.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Lead climber clips rope into protection while ascending. Actual BMC quickdraw guide opening explicitly rope/protection in lead climbing. Coiled-unused/measuring/tying around handholds wrong procedures. General concept only; not replacing instruction in safety skills.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 46,
+      "prompt": "In sculling, how many oars does each rower normally use?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Sculler two oars, alternatives1/3/4 wrong per athlete. World Rowing actual para-event explainer explicitly two oars per rower; also beginner booklet. Not total crew oars, not confused with two-person double boat.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Sculler two oars, alternatives1/3/4 wrong per athlete. World Rowing actual para-event explainer explicitly two oars per rower; also beginner booklet. Not total crew oars, not confused with two-person double boat.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 47,
+      "prompt": "In sweep rowing, how many oars does each rower normally use?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Sweep rower one oar, not2/3/4. Same World Rowing actual distinction explicit; traditional two rowing categories paired facts but not duplicate as their oar allocation differs. No suggestion crew size must be one.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Sweep rower one oar, not2/3/4. Same World Rowing actual distinction explicit; traditional two rowing categories paired facts but not duplicate as their oar allocation differs. No suggestion crew size must be one.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 48,
+      "prompt": "In a coxed rowing boat, what is one main task of the coxswain?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Coxswain steers/coaches crew, doesn't row every stroke/judge other boats/swim behind. World Rowing learn-to-row booklet actual boat-types passage explicitly coach and steer. Coxed qualifier avoids implying every boat carries one or every cox sits astern.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Coxswain steers/coaches crew, doesn't row every stroke/judge other boats/swim behind. World Rowing learn-to-row booklet actual boat-types passage explicitly coach and steer. Coxed qualifier avoids implying every boat carries one or every cox sits astern.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 49,
+      "prompt": "In conventional racing rowing, which way do rowers face relative to the boat's direction of travel?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Rowers conventionally face backward relative travel. British Rowing/PaddleUK actual navigation guidance indexed passage explicitly rowers face backwards and use oars. Other directions false normal racing. Does not imply coxswain faces backward or every rowing adaptation identical.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Rowers conventionally face backward relative travel. British Rowing/PaddleUK actual navigation guidance indexed passage explicitly rowers face backwards and use oars. Other directions false normal racing. Does not imply coxswain faces backward or every rowing adaptation identical.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 50,
+      "prompt": "Which machine lets a rower train on land by simulating rowing strokes?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Rowing ergometer off-water rowing simulation, not treadmill/bicycle/skilift. Actual World Rowing indoor-rowing article explicit training ergometer and rowing action. Doesn't deny other exercise machines can improve fitness; question specific simulation.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Rowing ergometer off-water rowing simulation, not treadmill/bicycle/skilift. Actual World Rowing indoor-rowing article explicit training ergometer and rowing action. Doesn't deny other exercise machines can improve fitness; question specific simulation.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 51,
+      "prompt": "What kind of paddle is normally used in racing kayak events?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Racing kayak double-bladed paddle, not single blade/fixed oar/punting pole. ICF2025 sprint law10.1.1 actual indexed passage inspected, direct fetch failed honestly. Racing scope avoids recreation adaptations. Two-oar sculling is different equipment, no answer overlap.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Racing kayak double-bladed paddle, not single blade/fixed oar/punting pole. ICF2025 sprint law10.1.1 actual indexed passage inspected, direct fetch failed honestly. Racing scope avoids recreation adaptations. Two-oar sculling is different equipment, no answer overlap.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 52,
+      "prompt": "What kind of paddle is normally used in racing canoe events?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Racing canoe single blade, alternativesdouble/fixedoar/handpaddleswrong. ICF2025sprint10.1.2 explicit. Not semantic duplicate of existing Hobbies question about canoe paddle's propulsion purpose: blade type is a new fact. No unsupported kneeling/equipment material claim.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Racing canoe single blade, alternativesdouble/fixedoar/handpaddleswrong. ICF2025sprint10.1.2 explicit. Not semantic duplicate of existing Hobbies question about canoe paddle's propulsion purpose: blade type is a new fact. No unsupported kneeling/equipment material claim.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 53,
+      "prompt": "In canoe slalom, competitors navigate a course marked by what?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Slalom hanging gates, not hoops/divingboards/movinggoals. ICF slalom actual gate-requirements8.3.1 identifies two suspended poles, other requirement names hanging system. Tracked document current text identified; no deleted numerical rule used. Not canoe sprint lane buoys.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Slalom hanging gates, not hoops/divingboards/movinggoals. ICF slalom actual gate-requirements8.3.1 identifies two suspended poles, other requirement names hanging system. Tracked document current text identified; no deleted numerical rule used. Not canoe sprint lane buoys.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 54,
+      "prompt": "What is the main purpose of a helmet in white-water canoeing or kayaking?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Safety helmet protects head, not speedmeter/buoyancy-source/steering. ICF freestyle actual safety helmet fitted to head and EN1385 requirement checked. General intended equipment purpose, not instructions or guarantee of full protection. Main buoyancy comes from different aid.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Safety helmet protects head, not speedmeter/buoyancy-source/steering. ICF freestyle actual safety helmet fitted to head and EN1385 requirement checked. General intended equipment purpose, not instructions or guarantee of full protection. Main buoyancy comes from different aid.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 55,
+      "prompt": "What is a buoyancy aid mainly designed to help a paddler do?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Buoyancy aid helps stay afloat, not head impact protection/depth measurement/boat waterproofing. Actual ICF slalom3.5 definition explicitly trunk-worn buoyancy device. Help wording does not promise rescue/survival or underwater breathing. Revised absurd current-stopping distractors.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Buoyancy aid helps stay afloat, not head impact protection/depth measurement/boat waterproofing. Actual ICF slalom3.5 definition explicitly trunk-worn buoyancy device. Help wording does not promise rescue/survival or underwater breathing. Revised absurd current-stopping distractors.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 56,
+      "prompt": "Which two navigation aids are traditionally central to orienteering?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Traditional orienteering navigation map/compass, not only timing/whistle or astronomy/measuring pairs. IOF actual1.1 definition checked. Traditionally qualifier permits recreational navigation adaptations; no specific contemporary device-ban question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Traditional orienteering navigation map/compass, not only timing/whistle or astronomy/measuring pairs. IOF actual1.1 definition checked. Traditionally qualifier permits recreational navigation adaptations; no specific contemporary device-ban question.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 57,
+      "prompt": "In a standard orienteering course, what must competitors find in the required order?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Standard prescribed-order course finds control points. Refreshment stalls/homes/tallesttrees wrong. IOF actual1.1 and20.6 omission/wrong-order rules inspected. Standard course qualifier avoids free-order score-orienteering variation. Self-contained meaning and grammar sound.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Standard prescribed-order course finds control points. Refreshment stalls/homes/tallesttrees wrong. IOF actual1.1 and20.6 omission/wrong-order rules inspected. Standard course qualifier avoids free-order score-orienteering variation. Self-contained meaning and grammar sound.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 58,
+      "prompt": "Why does an orienteer punch or electronically register at a control?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Punch registers visit, not map-scale change/everyone's timer/control relocation. IOF actual19.1 proof-of-passage and20.3 punching checked. Both physical and electronic registration allowed by prompt; doesn't imply every recreational course needs electronic equipment.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Punch registers visit, not map-scale change/everyone's timer/control relocation. IOF actual19.1 proof-of-passage and20.3 punching checked. Both physical and electronic registration allowed by prompt; doesn't imply every recreational course needs electronic equipment.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 59,
+      "prompt": "Which two colours appear on a standard orienteering control flag?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Orange/white standard control flag, other paired colours incorrect. IOF actual19.2 diagonally divided panels explicit. Replaced contour-line question duplicated in General Knowledge. Does not confuse physical triangular flag with map's circular control symbol.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Orange/white standard control flag, other paired colours incorrect. IOF actual19.2 diagonally divided panels explicit. Replaced contour-line question duplicated in General Knowledge. Does not confuse physical triangular flag with map's circular control symbol.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 60,
+      "prompt": "On a standard orienteering course map, which shape marks a control point?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Map control circle, notsquare/star/diamond. IOF O-Map Wiki actual ISOM703 control-point definition explicitly centre of circle; indexed passage inspected. Replaced map-key question duplicated in General Knowledge. Source is federation standards wiki, not unverified fan interpretation.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Map control circle, notsquare/star/diamond. IOF O-Map Wiki actual ISOM703 control-point definition explicitly centre of circle; indexed passage inspected. Replaced map-key question duplicated in General Knowledge. Source is federation standards wiki, not unverified fan interpretation.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 61,
+      "prompt": "What is the target in most disc-golf holes?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Most targets basket/chains, not turf-hole/crossbar-goal/backboardhoop. PDGA actual completing-hole Q&A explicitly tray/chains and basket. Most permits legal object-target courses, no claim touching chain alone always completes hole.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Most targets basket/chains, not turf-hole/crossbar-goal/backboardhoop. PDGA actual completing-hole Q&A explicitly tray/chains and basket. Most permits legal object-target courses, no claim touching chain alone always completes hole.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 62,
+      "prompt": "In ordinary stroke-play disc golf, which total is better?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Fewer total throws including penalties better ordinary stroke play. PDGA actual object-of-game fewestthrows and penalties definition inspected. Other totals/time/discs count not score. Added penalty precision; excludes match-play/other alternative scoring formats.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Fewer total throws including penalties better ordinary stroke play. PDGA actual object-of-game fewestthrows and penalties definition inspected. Other totals/time/discs count not score. Added penalty precision; excludes match-play/other alternative scoring formats.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 63,
+      "prompt": "Where does play on a disc-golf hole begin?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Hole starts teeing area, not putting zone/fairway/arbitrarydropzone. PDGA actual800 explicit begins tee/ends target. Replaced car-park silliness with real course areas. Normalhole start, not unusual provisional/re-throw location question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Hole starts teeing area, not putting zone/fairway/arbitrarydropzone. PDGA actual800 explicit begins tee/ends target. Replaced car-park silliness with real course areas. Normalhole start, not unusual provisional/re-throw location question.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 64,
+      "prompt": "Under PDGA disc-golf rules, a throw from within 10 metres of the target is classified as what?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Changed general putting-purpose question to explicit PDGA806.01 classification: every throw within10m target is a putt. Other classifications rethrow/penalty/abandonedthrow not automatic from distance. Actual rule paragraph inspected. Avoids tactical layup also being possible purpose of a close throw. Metres British spelling consistent.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Changed general putting-purpose question to explicit PDGA806.01 classification: every throw within10m target is a putt. Other classifications rethrow/penalty/abandonedthrow not automatic from distance. Actual rule paragraph inspected. Avoids tactical layup also being possible purpose of a close throw. Metres British spelling consistent.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 65,
+      "prompt": "After the first hole in disc golf, who normally throws first from the next tee?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Normal next-tee order lowest preceding-hole score. PDGA2026 actual802.02B inspected, ties preserve previous order and consent can vary flow. Normally accounts for those exceptions. Replaced trivial disc-golf-uses-disc stem; other scores bag-size/longestthrow/lastfinisher not rule.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Normal next-tee order lowest preceding-hole score. PDGA2026 actual802.02B inspected, ties preserve previous order and consent can vary flow. Normally accounts for those exceptions. Replaced trivial disc-golf-uses-disc stem; other scores bag-size/longestthrow/lastfinisher not rule.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 66,
+      "prompt": "What object is passed between teammates in ultimate?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Ultimate flying disc, not rugbyball/shuttle/puck. WFDF current2025-2028 actual introduction inspected. General sport name doesn't itself state equipment. No claim every recreational flying-disc game is ultimate.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Ultimate flying disc, not rugbyball/shuttle/puck. WFDF current2025-2028 actual introduction inspected. General sport name doesn't itself state equipment. No claim every recreational flying-disc game is ultimate.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 67,
+      "prompt": "How does a team normally score a goal in ultimate?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Catch pass in attacking endzone scores, not crossbar kick/basket bounce/carrywholefield. WFDF actual objective explicit. Normally qualifier handles stoppages and possession requirements; not asserting a running carry is legal.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Catch pass in attacking endzone scores, not crossbar kick/basket bounce/carrywholefield. WFDF actual objective explicit. Normally qualifier handles stoppages and possession requirements; not asserting a running carry is legal.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 68,
+      "prompt": "Once an ultimate player has established a pivot after catching the disc, what may they do?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Established pivot may pivot/pass, not run helddisc/dribble/courtesyhandoffopponent. WFDF actual thrower may not run and may pass to teammate; established-pivot wording avoids catch momentum exceptions. Clear normal possession options.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Established pivot may pivot/pass, not run helddisc/dribble/courtesyhandoffopponent. WFDF actual thrower may not run and may pass to teammate; established-pivot wording avoids catch momentum exceptions. Clear normal possession options.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 69,
+      "prompt": "What normally happens after an incomplete pass in ultimate?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Legally incomplete pass normally turnover, not score/endmatch/unlimitedredo. WFDF actual introduction explicit incomplete-pass possession changes. Normally allows foul/retracted-call/stoppage exceptions; no all-errors-always-turnover exaggeration.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Legally incomplete pass normally turnover, not score/endmatch/unlimitedredo. WFDF actual introduction explicit incomplete-pass possession changes. Normally allows foul/retracted-call/stoppage exceptions; no all-errors-always-turnover exaggeration.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 70,
+      "prompt": "Ultimate's Spirit of the Game places particular emphasis on what?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Spirit fairplay/player responsibility, not win-at-any-cost/no discussion/spectatorsdecide. WFDF actual self-officiation/Spirit introduction inspected. Does not insist every league has no observers/referees; underlying fairplay principle remains.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Spirit fairplay/player responsibility, not win-at-any-cost/no discussion/spectatorsdecide. WFDF actual self-officiation/Spirit introduction inspected. Does not insist every league has no observers/referees; underlying fairplay principle remains.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 71,
+      "prompt": "In standard outdoor field hockey, what is used to strike the ball?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Field hockey stick strikes ball, notracket/roundfaceclub/boatpaddle. FIH current2027 definitions and stick requirements checked. Standard outdoor scope avoids ice hockey puck confusion. Broad tool fact not historical team trivia.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Field hockey stick strikes ball, notracket/roundfaceclub/boatpaddle. FIH current2027 definitions and stick requirements checked. Standard outdoor scope avoids ice hockey puck confusion. Broad tool fact not historical team trivia.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 72,
+      "prompt": "Which side of an ordinary field-hockey stick is used to play the ball?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Flat/front side, not rounded back/equalboth/tophandleonly. Current FIH stick drawing/9.5 prohibits back-of-stick play; ordinary front-face wording includes permitted edges without claiming only a precise planar patch may touch. Other offered sides not valid alternatives.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Flat/front side, not rounded back/equalboth/tophandleonly. Current FIH stick drawing/9.5 prohibits back-of-stick play; ordinary front-face wording includes permitted edges without claiming only a precise planar patch may touch. Other offered sides not valid alternatives.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 73,
+      "prompt": "For a normal field-hockey goal to count, where must an attacker play the ball before it enters the goal?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Normal goal requires attacker play ball inside circle before crossinggoalline. Current FIH8.1 exact in-circle scoring condition checked; elsewhere onpitch/backlinecorner/outofpitchwrong. Normal excludes penalty-stroke/exceptional own-goal interpretations. Does not say goal always follows any in-circle touch.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Normal goal requires attacker play ball inside circle before crossinggoalline. Current FIH8.1 exact in-circle scoring condition checked; elsewhere onpitch/backlinecorner/outofpitchwrong. Normal excludes penalty-stroke/exceptional own-goal interpretations. Does not say goal always follows any in-circle touch.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 74,
+      "prompt": "How is play normally restarted after a goal in outdoor field hockey?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Replaced D slang question because exact abbreviation was absent from current FIH PDF, and search hit D only as a diagram dimension label. Current FIH6.3c explicitly aftergoal centrepass by concedingteam, not penaltycorner/penaltystroke/bully. Normally permits interrupted/forfeited matches. Clear useful gameplay fact.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Replaced D slang question because exact abbreviation was absent from current FIH PDF, and search hit D only as a diagram dimension label. Current FIH6.3c explicitly aftergoal centrepass by concedingteam, not penaltycorner/penaltystroke/bully. Normally permits interrupted/forfeited matches. Clear useful gameplay fact.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 75,
+      "prompt": "Under standard outdoor field-hockey rules, what is the maximum number of players from each team on the field at one time?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Full outdoor team maximum11, not7/9/15. Current FIH2.1 actual elevenplayersatanytime limit inspected. Replaced vacuous goalkeeper-prevents-goals question. Maximum avoids temporary suspensions/removedgoalkeeper/minimumplayers ambiguity; no comparison with indoor or Hockey5s.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Full outdoor team maximum11, not7/9/15. Current FIH2.1 actual elevenplayersatanytime limit inspected. Replaced vacuous goalkeeper-prevents-goals question. Maximum avoids temporary suspensions/removedgoalkeeper/minimumplayers ambiguity; no comparison with indoor or Hockey5s.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 76,
+      "prompt": "In rugby union, how many points is a try worth?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Try5points, not3/2/1. Actual World Rugby2026 scoring list read, normal try distinct penaltytry7. No historic4point scoring or league4point confusion; rugby union explicit. Short clear meaning and options.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Try5points, not3/2/1. Actual World Rugby2026 scoring list read, normal try distinct penaltytry7. No historic4point scoring or league4point confusion; rugby union explicit. Short clear meaning and options.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 77,
+      "prompt": "In rugby union, how many points is a successful conversion worth?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Conversion2points, not1/3/5. Same current2026 scoring list separately explicit, distinct try/penalty values. Successful qualifier avoids missed kick/penaltytry automatic points confusion. Numeric options parallel.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Conversion2points, not1/3/5. Same current2026 scoring list separately explicit, distinct try/penalty values. Successful qualifier avoids missed kick/penaltytry automatic points confusion. Numeric options parallel.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 78,
+      "prompt": "How must a rugby-union player direct a hand pass to a teammate?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Hand pass backward/sideways relative passer; intentional forward prohibited. Actual2026 law11 and throw-forward arms definition inspected. Added relative-passer wording to avoid ground-momentum misconception when a runner passes legally. Other choices forwards-only/unrestricted/vertical-only wrong limits.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Hand pass backward/sideways relative passer; intentional forward prohibited. Actual2026 law11 and throw-forward arms definition inspected. Added relative-passer wording to avoid ground-momentum misconception when a runner passes legally. Other choices forwards-only/unrestricted/vertical-only wrong limits.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 79,
+      "prompt": "Under the standard rugby-union laws, what is the maximum number of players per team on the field?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Standard law3.1 maximum15players. Actual2026 NUMBERS text checked separately from sevens variation which quotes and replaces it. Removed fifteen-a-side giveaway, maximum instead of everyone must startfullteam. Eleven/thirteen/seven other formats/sports, none standardlimit.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Standard law3.1 maximum15players. Actual2026 NUMBERS text checked separately from sevens variation which quotes and replaces it. Removed fifteen-a-side giveaway, maximum instead of everyone must startfullteam. Eleven/thirteen/seven other formats/sports, none standardlimit.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 80,
+      "prompt": "In rugby union, what is a lineout used for?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Lineout restart after touch, not awardungroundedtry/penaltyshootout/tiebreak. World Rugby RugbyReady actual lineout introduction and law definition explicit. Does not say every touch must be lineout because quick throw may apply. Plain definition, not lifting safety instruction.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Lineout restart after touch, not awardungroundedtry/penaltyshootout/tiebreak. World Rugby RugbyReady actual lineout introduction and law definition explicit. Does not say every touch must be lineout because quick throw may apply. Plain definition, not lifting safety instruction.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 81,
+      "prompt": "In standard indoor volleyball, how many players from each team are on court?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Six indoor volleyball players per team in play, not4/5/7. Actual FIVB2025-28rule7.3.1 inspected. Standard indoor qualifier excludes beach/sitting-format confusion, not total roster. No stem giveaway.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Six indoor volleyball players per team in play, not4/5/7. Actual FIVB2025-28rule7.3.1 inspected. Standard indoor qualifier excludes beach/sitting-format confusion, not total roster. No stem giveaway.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 82,
+      "prompt": "In indoor volleyball, what is the main aim of an attacking spike?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Spike forceful attacking hit, other choices set/service/forearm receive different actions. Restored mismatched numerical answers accidentally applied to this unapproved draft during earlier row-number edit; now all four options checked against this exact prompt. FIVB rule13 attack direction plus official drillbook explicit indoor power comparison inspected. Main aim permits block-out/tactical variations.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Spike forceful attacking hit, other choices set/service/forearm receive different actions. Restored mismatched numerical answers accidentally applied to this unapproved draft during earlier row-number edit; now all four options checked against this exact prompt. FIVB rule13 attack direction plus official drillbook explicit indoor power comparison inspected. Main aim permits block-out/tactical variations.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 83,
+      "prompt": "In indoor volleyball, what action starts a rally?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Serve starts rally, notfaceoff/scrum/centrebounce from other sports. FIVB actual12service definition puttingballintoplay checked. Scope indoor; no unsupported requirement all serves underhand or hit without net contact.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Serve starts rally, notfaceoff/scrum/centrebounce from other sports. FIVB actual12service definition puttingballintoplay checked. Scope indoor; no unsupported requirement all serves underhand or hit without net contact.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 84,
+      "prompt": "In indoor volleyball, what is a block mainly intended to stop?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Block intercepts attack atnet. Restored original volleyball prompt after an earlier unapproved row-number edit accidentally put rugby-player-count stem above block options. All four exact options now reviewed. Current FIVB14.1.1 explicit opponent-ball interception; wrong service/endchange/scoringofficial actions not blockpurpose.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Block intercepts attack atnet. Restored original volleyball prompt after an earlier unapproved row-number edit accidentally put rugby-player-count stem above block options. All four exact options now reviewed. Current FIVB14.1.1 explicit opponent-ball interception; wrong service/endchange/scoringofficial actions not blockpurpose.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 85,
+      "prompt": "Excluding a blocking contact, how many team hits are normally allowed to return the ball in indoor volleyball?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Three teamhits besides blockcontact, not2/4/5. Actual FIVB9.1 and14.4.1 inspected; blocknotcountedasonehit. Normally covers simultaneous-contact/exceptional situations without claiming a player may always hit twice consecutively. Not beach blockcount rule.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Three teamhits besides blockcontact, not2/4/5. Actual FIVB9.1 and14.4.1 inspected; blocknotcountedasonehit. Normally covers simultaneous-contact/exceptional situations without claiming a player may always hit twice consecutively. Not beach blockcount rule.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 86,
+      "prompt": "In cricket, what is a six?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Six batting hit first grounded beyondboundary with no groundinside. Actual current MCC2026law19.7.1 read; fielder contact doesn't alter that by itself. Other wicketcount/no-ballautomatic6/stumps options wrong. Replaced standard-over6 question duplicated in old bank.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Six batting hit first grounded beyondboundary with no groundinside. Actual current MCC2026law19.7.1 read; fielder contact doesn't alter that by itself. Other wicketcount/no-ballautomatic6/stumps options wrong. Replaced standard-over6 question duplicated in old bank.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 87,
+      "prompt": "In cricket, what does a batter score by running between the wickets?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Running betweenwickets scores runs, notsets/goals/frames. Actual MCC2026law18.1.1 crossing/makingground explicit. Replaced duck definition duplicated in old bank. No claim all attempted runs count or batters need physically touch stumps.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Running betweenwickets scores runs, notsets/goals/frames. Actual MCC2026law18.1.1 crossing/makingground explicit. Replaced duck definition duplicated in old bank. No claim all attempted runs count or batters need physically touch stumps.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 88,
+      "prompt": "In cricket, what is the wicketkeeper positioned behind?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Keeper behind striker wicket, notbowler'srunup/boundary/sightscreen. Actual MCC2026law27.3.1 read with after-delivery release conditions. Normally definition position, not claim keeper must remain there entire innings regardless ball state. Batter's wicket unambiguous strikerend here.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Keeper behind striker wicket, notbowler'srunup/boundary/sightscreen. Actual MCC2026law27.3.1 read with after-delivery release conditions. Normally definition position, not claim keeper must remain there entire innings regardless ball state. Batter's wicket unambiguous strikerend here.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 89,
+      "prompt": "In cricket, what does a batter normally use to protect their lower legs?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Batting pads protect lowerlegs, cap/visor/wristband other regions. Actual MCC2026AppendixA.2 identifies external legguards as battingpads. No exclusive claim only batters have pads or all recreational equipment mandatory. Grammar genderneutral batter.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Batting pads protect lowerlegs, cap/visor/wristband other regions. Actual MCC2026AppendixA.2 identifies external legguards as battingpads. No exclusive claim only batters have pads or all recreational equipment mandatory. Grammar genderneutral batter.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 90,
+      "prompt": "A cricket batter's shot bounces before crossing the boundary. What is the usual boundary allowance?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Ordinary boundary allowance4 after shot groundedinside, not2/6/8. Actual MCC2026law19.7.2/19.7.3 read. Reworded to usual boundaryallowance rather than totalrunsalways4 because completedruns can exceed allowance. No confusion sixfirstbounceoutside or boundary extras not bat.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Ordinary boundary allowance4 after shot groundedinside, not2/6/8. Actual MCC2026law19.7.2/19.7.3 read. Reworded to usual boundaryallowance rather than totalrunsalways4 because completedruns can exceed allowance. No confusion sixfirstbounceoutside or boundary extras not bat.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 91,
+      "prompt": "In tennis, what is a double fault?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Doublefault failing both serviceattempts for samepoint, notlets/doublebounces/sharedracket. USTA actual definition read. Changed consecutive faulty serves wording to avoid misleading let/retry sequence implication. Replaced love-zero fact overlapping old love-all question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Doublefault failing both serviceattempts for samepoint, notlets/doublebounces/sharedracket. USTA actual definition read. Changed consecutive faulty serves wording to avoid misleading let/retry sequence implication. Replaced love-zero fact overlapping old love-all question.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 92,
+      "prompt": "In an ordinary advantage-scoring tennis game, what score is called deuce?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Deuce40all under advantage scoring, not30all/15all/unansweredgamepoint. USTA actual dictionary deuce40all definition checked; repeated deuce allowed. Ordinaryadvantage qualifier excludes no-ad decidingpoint formats without claiming all tennis games identical.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Deuce40all under advantage scoring, not30all/15all/unansweredgamepoint. USTA actual dictionary deuce40all definition checked; repeated deuce allowed. Ordinaryadvantage qualifier excludes no-ad decidingpoint formats without claiming all tennis games identical.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 93,
+      "prompt": "What is a volley during a tennis rally?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Volley rallyshot beforebounce, notnetfault/twobounce/6allscore. Actual USTA volley definition read; added duringrally so airborne serve not misclassified. Volley need not mean winning shot or forehand-only; no implied netcontact.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Volley rallyshot beforebounce, notnetfault/twobounce/6allscore. Actual USTA volley definition read; added duringrally so airborne serve not misclassified. Volley need not mean winning shot or forehand-only; no implied netcontact.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 94,
+      "prompt": "In a standard tennis serve, which service box must the ball land in?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Serve diagonaloppositeservicebox, notarbitrarybox/ownbox/behindbaseline. USTA actual serving article says diagonalotherbox explicitly. Standardserve scope applies singles/doubles, does not confuse let that lands rightbox with fault. Current ITF PDF directstub not claimed as read.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Serve diagonaloppositeservicebox, notarbitrarybox/ownbox/behindbaseline. USTA actual serving article says diagonalotherbox explicitly. Standardserve scope applies singles/doubles, does not confuse let that lands rightbox with fault. Current ITF PDF directstub not claimed as read.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 95,
+      "prompt": "In tennis, what is an ace?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Ace untouchedlegalserve winningpoint, notlongrally/doublefaultaward/netposthit. Actual USTA ace definition inspected. Added winningpoint and legal explicit, no claim every unreturnedserve ace. Not relying on exaggerated speed or firstserve-only premise.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Ace untouchedlegalserve winningpoint, notlongrally/doublefaultaward/netposthit. Actual USTA ace definition inspected. Added winningpoint and legal explicit, no claim every unreturnedserve ace. Not relying on exaggerated speed or firstserve-only premise.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 96,
+      "prompt": "In golf, what does a birdie mean on a hole?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Birdie1underpar, not1over/2over/par. Actual USGA2026 terminology article indexed passage explicit; directfetchfailed honestly recorded. Existing birdie etymology question asks different fact, not same definition. No unsupported historical origin asserted.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Birdie1underpar, not1over/2over/par. Actual USGA2026 terminology article indexed passage explicit; directfetchfailed honestly recorded. Existing birdie etymology question asks different fact, not same definition. No unsupported historical origin asserted.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 97,
+      "prompt": "In golf, what does a bogey mean on a hole?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Bogey1overpar, not1under/2under/par. Same USGA article explicitly currentmeaning after historicaltargetscore discussion; checked correct temporal sense. Clear normalgolf context, no confusion doublebogey2over.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Bogey1overpar, not1under/2under/par. Same USGA article explicitly currentmeaning after historicaltargetscore discussion; checked correct temporal sense. Clear normalgolf context, no confusion doublebogey2over.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 98,
+      "prompt": "Which golf club is mainly designed for rolling the ball on the putting green?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Putter primarily puttinggreen, otherclubs driving/sand/wood different intendedroles. R&A actual EquipmentRules general defines putter for puttinggreen; not just random use in a rule example. Mainly permits putting from fringe/otherclubs sometimes used ongreen. No arbitrary loft-number trivia.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Putter primarily puttinggreen, otherclubs driving/sand/wood different intendedroles. R&A actual EquipmentRules general defines putter for puttinggreen; not just random use in a rule example. Mainly permits putting from fringe/otherclubs sometimes used ongreen. No arbitrary loft-number trivia.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 99,
+      "prompt": "In ordinary stroke-play golf, which total score wins?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Lowest totalstrokes wins regularstrokeplay, nothighest/ballsused/distancetravelled. R&A actual StrokePlay definition inspected, including penaltystrokes. Ordinary excludes Stableford/modifiedscoring/handicapformat nuance; better finalanswer explicitly includes penalties.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Lowest totalstrokes wins regularstrokeplay, nothighest/ballsused/distancetravelled. R&A actual StrokePlay definition inspected, including penaltystrokes. Ordinary excludes Stableford/modifiedscoring/handicapformat nuance; better finalanswer explicitly includes penalties.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    },
+    {
+      "row": 100,
+      "prompt": "What warning should a golfer shout if a struck ball may endanger someone?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Fore warning, nottennislove/let/crickethowzat. Actual R&A SpiritSafety paragraph explicitly dangerousball warningword. No source etymology guess or claim shout guarantees protection. Correct exclamation spelling and plain sensiblequestion.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Fore warning, nottennislove/let/crickethowzat. Actual R&A SpiritSafety paragraph explicitly dangerousball warningword. No source etymology guess or claim shout guarantees protection. Correct exclamation spelling and plain sensiblequestion.",
+      "sourceReview": "Explicit individual author judgment of meaning, all four offered options, sole correct offered answer, grammar, sport/format/variation scope and inspected relevant reference. Actual full-text passages, indexed passages and unavailable/stub responses distinguished. Not independent review."
+    }
+  ]
+}
