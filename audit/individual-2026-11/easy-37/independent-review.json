@@ -1,0 +1,847 @@
+{
+  "reviewer": "root (author second editorial pass)",
+  "independent": false,
+  "sourceAccessNote": "One hundred candidate references retrieved in five bounded groups; the individual definitions were inspected. Failed masher/baster/diabolo/playdough entries and the non-toy slinky sense were replaced using correct dictionary lemmas, Merriam-Webster and National Toy Hall of Fame records. Full polysemous slide/swing/top definitions inspected and four additional corrected entries retrieved. Original rationale is not counted as this second editorial pass. Overlap search found the zip concept, which was replaced. Source excerpts kept private; public access records contain hashes only.",
+  "rows": [
+    {
+      "row": 1,
+      "action": "keep",
+      "prompt": "Which kitchen item has holes that let water drain away from cooked pasta?",
+      "note": "Colander's holes drain pasta. Bowl/jug retain liquid and rolling pin is solid; no second draining utensil offered.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 2,
+      "action": "edit",
+      "prompt": "Which tool is designed to crush cooked potatoes into mash?",
+      "note": "Masher is purpose-built for potatoes. Peeler, brush and ladle perform different tasks; correct failed source slug to masher.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/masher"
+      }
+    },
+    {
+      "row": 3,
+      "action": "keep",
+      "prompt": "What is a citrus squeezer designed to extract from fruit?",
+      "note": "Citrus press extracts juice. Pips, dried peel and slices are not its designed output; all words are grammatical.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 4,
+      "action": "edit",
+      "prompt": "What does a kitchen baster draw up and release?",
+      "note": "A baster draws and ejects cooking liquid. Bread, peppercorns and pastry are solids; replace absent Cambridge entry with Merriam-Webster's explicit utensil definition.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.merriam-webster.com/dictionary/baster"
+      }
+    },
+    {
+      "row": 5,
+      "action": "keep",
+      "prompt": "Which kitchen tool has sharp-edged holes for shredding cheese?",
+      "note": "Grater has sharp-edged cutting holes. Board, teapot and strainer lack that cutting function; strainer's holes do not make it a second answer.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 6,
+      "action": "keep",
+      "prompt": "What is a vegetable peeler designed to remove?",
+      "note": "Peeler removes skin, not specifically seeds, stalk or whole centre. Use designed purpose rather than claiming no other possible use.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 7,
+      "action": "keep",
+      "prompt": "Which utensil has a deep bowl and long handle for serving soup?",
+      "note": "Ladle's deep bowl and handle fit soup service. Knife, fish slice and masher do not have this bowl structure.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 8,
+      "action": "keep",
+      "prompt": "Which kitchen utensil has two arms used together to grip food?",
+      "note": "Tongs have paired gripping arms. Whisk, ladle and sieve are structurally different utensils.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 9,
+      "action": "keep",
+      "prompt": "Which kitchen tool is especially useful for turning a pancake in a frying pan?",
+      "note": "Flat spatula turns pancakes. The other tools are liquid scoop, shredder and peeler, not flat turners.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 10,
+      "action": "keep",
+      "prompt": "What would you traditionally use with a pestle to crush spices?",
+      "note": "Mortar is the crushing bowl paired with pestle. Sieve, colander and measuring jug are not the traditional grinding vessel.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 11,
+      "action": "keep",
+      "prompt": "What is a trivet used for on a table or worktop?",
+      "note": "Trivet supports a hot vessel on the surface. Cutting, measuring and locking are not its purpose; no unsafe cooking instruction is implied.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 12,
+      "action": "keep",
+      "prompt": "What is the main purpose of a teapot?",
+      "note": "Teapot brews/serves tea. Coffee grinding, freezing juice and flour measuring are different tasks.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 13,
+      "action": "keep",
+      "prompt": "What does a kettle normally heat to boiling?",
+      "note": "Kettle normally boils water. Flour, butter and oil are wrong contents for its intended use; 'normally' is precise.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 14,
+      "action": "keep",
+      "prompt": "What is a vacuum flask designed to do?",
+      "note": "Vacuum insulation slows temperature change. It does not create instant ice, desalinate or measure sugar; no claim of indefinite heat retention.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 15,
+      "action": "keep",
+      "prompt": "What does a can opener remove or cut through?",
+      "note": "Can opener cuts/removes a can lid. Vegetable skin, bottle cork and melon rind are other removal tasks, not its purpose.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 16,
+      "action": "keep",
+      "prompt": "Which food is a pop-up toaster mainly designed to brown?",
+      "note": "Pop-up toaster browns sliced bread. Soup bowls, potatoes and pasta are not its intended food form.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 17,
+      "action": "keep",
+      "prompt": "What do oven gloves help protect while handling hot cookware?",
+      "note": "Oven gloves protect hands. Shoe, hair and hearing protection are different equipment; answer concerns designed use, not a guarantee against burns.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 18,
+      "action": "keep",
+      "prompt": "Which item is a flat metal sheet used to hold food in an oven?",
+      "note": "Baking tray is the flat metal oven holder. Colander, kettle and teapot are different vessels.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 19,
+      "action": "keep",
+      "prompt": "In a British kitchen, what is a tea towel mainly used to dry?",
+      "note": "British tea towel dries washed kitchenware. Hair, soil and wall paint do not describe its principal role.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 20,
+      "action": "edit",
+      "prompt": "What is a serving tray particularly useful for carrying?",
+      "note": "Replace awkward 'only' wrong answers with real kitchen objects. Serving tray is purpose-built for transport; chopping board cuts, sieve strains and breadbin stores.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review.",
+      "recommendedChanges": {
+        "prompt": "Which object is designed to carry cups and dishes together from the kitchen?",
+        "answers": [
+          "A serving tray",
+          "A chopping board",
+          "A sieve",
+          "A breadbin"
+        ]
+      }
+    },
+    {
+      "row": 21,
+      "action": "keep",
+      "prompt": "Which item collects the dirt swept up with a hand brush?",
+      "note": "Dustpan receives swept dirt. Watering can, washing basket and paint tray are different-purpose containers.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 22,
+      "action": "keep",
+      "prompt": "Which cleaning tool has an absorbent head for washing floors?",
+      "note": "Mop's absorbent head washes floors. Rake, feather duster and squeezer perform different tasks.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 23,
+      "action": "keep",
+      "prompt": "What is the main job of a duster in household cleaning?",
+      "note": "Duster removes surface dust. Opening, measuring and sharpening are wrong tasks; cleaning context excludes the clothing sense.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 24,
+      "action": "keep",
+      "prompt": "Which household appliance draws in dust using suction?",
+      "note": "Vacuum cleaner uses suction to collect dirt. Toaster, heater and sewing machine do not; this asks the whole-appliance purpose, unlike existing cyclone-component questions.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 25,
+      "action": "keep",
+      "prompt": "What does a clothes peg secure to a washing line?",
+      "note": "Clothes peg holds laundry on a line. Tiles, curtains and hinges are different household items, not line-hung washing.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 26,
+      "action": "edit",
+      "prompt": "What is a coat hanger designed to support in a wardrobe?",
+      "note": "Hanger supports garments in storage. Replace silly folded-leg answer and correct the citation to the full hanger definition; books, curtains and umbrellas are not its conventional wardrobe role.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/hanger",
+        "answers": [
+          "Clothing",
+          "Books",
+          "Curtains",
+          "Umbrellas"
+        ]
+      }
+    },
+    {
+      "row": 27,
+      "action": "keep",
+      "prompt": "What is an ironing board designed to provide?",
+      "note": "Ironing board supplies a pressing surface. Chopping, television support and dining are not its design functions.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 28,
+      "action": "keep",
+      "prompt": "What does a thimble protect during hand sewing?",
+      "note": "Thimble protects the pushing finger. Ankle, ear and elbow are not covered by that small sewing cap.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 29,
+      "action": "keep",
+      "prompt": "In sewing, what is a seam?",
+      "note": "Seam is a line of joined fabric. Button, reel and needle eye are separate sewing items, not joins.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 30,
+      "action": "keep",
+      "prompt": "What is the hole through which thread passes in a sewing needle called?",
+      "note": "Needle's thread hole is the eye. Heel, wing and lip are not its normal term; sewing context avoids anatomical ambiguity.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 31,
+      "action": "edit",
+      "prompt": "Which fastener joins two rows of teeth using a sliding part?",
+      "note": "Replace the zip-tooth question already in General Knowledge. Button is sewn to clothing and passed through a buttonhole; zip, buckle and hook-and-loop operate differently.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review.",
+      "recommendedChanges": {
+        "prompt": "Which small clothing fastener is usually sewn on and passed through a matching hole?",
+        "answers": [
+          "A button",
+          "A zip",
+          "A buckle",
+          "A hook-and-loop strip"
+        ],
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/button",
+        "rationale": "A sewn-on button passes through a buttonhole; the other fasteners do not work this way. Replaces an existing zip concept."
+      }
+    },
+    {
+      "row": 32,
+      "action": "keep",
+      "prompt": "What kind of fastening is sold under the brand name Velcro?",
+      "note": "Velcro is a hook-and-loop brand. Metal zip, press stud and belt buckle are distinct mechanisms; brand capitalisation retained.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 33,
+      "action": "edit",
+      "prompt": "What is a shoelace threaded through to fasten a typical lace-up shoe?",
+      "note": "Laces pass through eyelets. Sole, heel and insole are other shoe parts; use the actual eyelet definition as source.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/eyelet"
+      }
+    },
+    {
+      "row": 34,
+      "action": "keep",
+      "prompt": "Which fastening is commonly used to secure a belt?",
+      "note": "Buckle is a belt fastening. Thimble, peg and paper clip have other uses; 'commonly' permits other belt styles.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 35,
+      "action": "keep",
+      "prompt": "What does an open umbrella provide outdoors in the rain?",
+      "note": "Umbrella gives shelter from rain. It does not heat, measure wind or emit light; no claim of total waterproof enclosure.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 36,
+      "action": "keep",
+      "prompt": "What kind of clothing is an anorak?",
+      "note": "Anorak is a hooded jacket. Sock, belt and sleeveless vest are different garments; clothing context excludes slang meaning.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 37,
+      "action": "keep",
+      "prompt": "What are Wellington boots designed to keep dry?",
+      "note": "Wellington boots keep feet dry. Hands, neck and head are wrong body locations; use boot sense only, not the source's unrelated city definition.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 38,
+      "action": "keep",
+      "prompt": "How is a mitten different from a glove with separate fingers?",
+      "note": "Mitten groups four fingers and separates thumb. Wrist-only, separate-each-finger and metal requirements are false.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 39,
+      "action": "keep",
+      "prompt": "Around which part of the body is a scarf commonly worn for warmth?",
+      "note": "Neck is the conventional warm scarf location. Ankles, elbows and knees are not the usual winter scarf placement; 'commonly' allows head scarves.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 40,
+      "action": "edit",
+      "prompt": "What does a balaclava mainly cover?",
+      "note": "Tighten coverage to head and neck, because balaclava face openings vary. Other choices are body regions covered by different garments.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review.",
+      "recommendedChanges": {
+        "answers": [
+          "The head and neck",
+          "The hands and wrists",
+          "The feet and ankles",
+          "The waist and hips"
+        ],
+        "rationale": "A balaclava is a close-fitting head-and-neck covering; face coverage varies with its design."
+      }
+    },
+    {
+      "row": 41,
+      "action": "keep",
+      "prompt": "What do the numbered centimetre markings on a ruler measure?",
+      "note": "Centimetre scale measures length, not weight, temperature or time. Specifying markings excludes drawing-only use.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 42,
+      "action": "keep",
+      "prompt": "What is a protractor used to measure?",
+      "note": "Protractor measures angles. Rain, weight and temperature are different quantities measured by other tools.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 43,
+      "action": "keep",
+      "prompt": "Which drawing tool commonly has a triangular shape and a right angle?",
+      "note": "Set square is a triangular right-angle guide. Compasses, rubber and sharpener do not have this design.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 44,
+      "action": "edit",
+      "prompt": "What is an eraser mainly used to remove from paper?",
+      "note": "Ordinary eraser removes graphite most readily. Use parallel mark types rather than a long conditional print distractor; ballpoint, permanent ink and toner are not its intended marks.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review.",
+      "recommendedChanges": {
+        "prompt": "Which marks does an ordinary eraser remove from paper most easily?",
+        "answers": [
+          "Pencil marks",
+          "Ballpoint ink",
+          "Permanent-marker ink",
+          "Printer toner"
+        ]
+      }
+    },
+    {
+      "row": 45,
+      "action": "keep",
+      "prompt": "What does a pencil sharpener create at the end of a pencil?",
+      "note": "Sharpener makes a pointed pencil tip. Brush, loop and cap are not products of sharpening.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 46,
+      "action": "edit",
+      "prompt": "What does a stapler use to fasten sheets of paper together?",
+      "note": "Stapler inserts staples. Replace invented elastic paint and weak alternatives with real fastening materials; it does not dispense tape, string or cable ties.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review.",
+      "recommendedChanges": {
+        "answers": [
+          "Small metal staples",
+          "Strips of adhesive tape",
+          "Loops of string",
+          "Plastic cable ties"
+        ]
+      }
+    },
+    {
+      "row": 47,
+      "action": "keep",
+      "prompt": "Which item can hold sheets of paper together without piercing them?",
+      "note": "Paper clip grips without puncturing. Pin, needle and staple pierce the paper, so there is only one non-piercing answer.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 48,
+      "action": "keep",
+      "prompt": "What is a paper hole punch used to make?",
+      "note": "Hole punch makes binder holes. Pencil points, printed envelopes and paper boats are different outputs.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 49,
+      "action": "edit",
+      "prompt": "What feature holds paper to a clipboard?",
+      "note": "Rewrite the near-tautological clipboard description into identification of a portable writing support. Pencil case, punch and set square lack the board-and-clip function.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review.",
+      "recommendedChanges": {
+        "prompt": "Which stationery item provides a firm portable writing surface and holds loose sheets in place?",
+        "answers": [
+          "A clipboard",
+          "A pencil case",
+          "A hole punch",
+          "A set square"
+        ]
+      }
+    },
+    {
+      "row": 50,
+      "action": "keep",
+      "prompt": "What is the usual purpose of a pencil case?",
+      "note": "Pencil case stores stationery. Drying, rain measurement and refrigeration are unrelated functions; no claim it can contain only pencils.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 51,
+      "action": "keep",
+      "prompt": "What does a magnifying glass help you see more clearly?",
+      "note": "Magnifier enlarges nearby visual detail. Sound, smell and viewing through solid opaque walls are different/impossible functions for it.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 52,
+      "action": "keep",
+      "prompt": "What feature distinguishes ordinary binoculars from a single viewing tube?",
+      "note": "Binoculars have a tube for each eye. Screens, compasses and motors are not universal features, which the alternatives explicitly claim.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 53,
+      "action": "keep",
+      "prompt": "What do you see when looking through and turning a kaleidoscope?",
+      "note": "Kaleidoscope gives changing mirrored patterns. Road map, pressure measurement and voice recording are different observations.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 54,
+      "action": "keep",
+      "prompt": "What can a periscope help someone do?",
+      "note": "Periscope redirects the line of sight from above an obstacle. Hearing through walls, weighing and salinity measurement are not its functions.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 55,
+      "action": "keep",
+      "prompt": "Which part of binoculars do you place near your eyes to look through them?",
+      "note": "Eyepieces are the viewing lenses. Lens caps block the view; strap and case support/protect the instrument rather than form the image.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 56,
+      "action": "keep",
+      "prompt": "What does a magnetic compass help you find?",
+      "note": "Magnetic compass gives direction. Temperature, weight and rainfall are different measurements; do not equate magnetic north with true north.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 57,
+      "action": "keep",
+      "prompt": "What moves from one bulb to the other in a traditional hourglass?",
+      "note": "Traditional hourglass transfers sand. Pendulum, hand and beads are different time/counting mechanisms.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 58,
+      "action": "keep",
+      "prompt": "What is a stopwatch designed to measure?",
+      "note": "Stopwatch measures elapsed time. Pressure, map distance and roof angle are different quantities.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 59,
+      "action": "keep",
+      "prompt": "What does a metronome provide for someone practising music?",
+      "note": "Metronome supplies a regular beat. Lamp, network signal and review are unrelated outputs; it does not write the music.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 60,
+      "action": "keep",
+      "prompt": "What does a thermostat help control in a heating system?",
+      "note": "Thermostat regulates temperature. Calendar date, wall colour and TV volume are not heating-system controlled quantities.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 61,
+      "action": "keep",
+      "prompt": "What do the pieces of a jigsaw puzzle form when correctly assembled?",
+      "note": "Ordinary picture jigsaw assembles a complete image. Clock, audio recording and scales are not its result; existing border-piece question is a different fact.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 62,
+      "action": "keep",
+      "prompt": "Which toy consists of a spool that travels down and back up a string?",
+      "note": "Yo-yo travels on its attached string. Stringless top, marbles and hoop do not match that mechanism.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 63,
+      "action": "edit",
+      "prompt": "Which toy or juggling prop spins on a string held between two sticks?",
+      "note": "Diabolo spins on string between two handsticks. Other offered toys differ; replace missing Cambridge entry with Merriam-Webster's explicit definition.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.merriam-webster.com/dictionary/diabolo"
+      }
+    },
+    {
+      "row": 64,
+      "action": "keep",
+      "prompt": "What is a returning boomerang designed to do when thrown correctly?",
+      "note": "Only returning boomerangs are designed to curve back, and the prompt requires correct throwing. Hovering, ground penetration and straight-only flight are not the intended behaviour.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 65,
+      "action": "keep",
+      "prompt": "What keeps a traditional kite connected to the person flying it?",
+      "note": "Kite is tethered by a line/string. Rigid sky pole, mains lead and boat chain do not describe the conventional hand-flown kite.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 66,
+      "action": "keep",
+      "prompt": "Which toy is a flat disc thrown through the air between players?",
+      "note": "Flying disc is the flat throwing toy. Yo-yo, rope and pogo stick are other toys; avoid using the Frisbee trademark as a generic product claim.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 67,
+      "action": "keep",
+      "prompt": "In the traditional children's game of marbles, what are the playing pieces?",
+      "note": "Traditional marbles are small balls. Cards, rings and paper planes are distinct play pieces.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 68,
+      "action": "keep",
+      "prompt": "Which playground game involves hopping through a numbered pattern drawn on the ground?",
+      "note": "Hopscotch uses a ground-marked hopping course. Hiding, rope-pulling and musical chairs do not fit.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 69,
+      "action": "keep",
+      "prompt": "What do you jump over repeatedly when skipping with a rope?",
+      "note": "Skipping involves jumping over the rotating rope. Chairs, bench and bicycle are different obstacles, not normal rope-skipping.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 70,
+      "action": "keep",
+      "prompt": "What is a seesaw's board balanced on near its middle?",
+      "note": "Seesaw rocks about a central pivot. Wheels, straps and overhead ropes are different support mechanisms.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 71,
+      "action": "keep",
+      "prompt": "What does a traditional playground roundabout do?",
+      "note": "Playground roundabout rotates. Pure vertical, sloping and fixed-bouncing movements describe different equipment; playground qualifier excludes road traffic.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 72,
+      "action": "keep",
+      "prompt": "What is the main movement when using a playground slide?",
+      "note": "Slide descends along a chute. Spinning, spring bouncing and hanging-seat swinging are different play motions; the playground definition occurs later among the source's many senses.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 73,
+      "action": "keep",
+      "prompt": "How is the seat of a typical playground swing supported?",
+      "note": "Swing seat hangs from above on ropes/chains. Spring, wheeled track and balanced board are different mechanisms; relevant noun definition inspected beyond initial verb senses.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 74,
+      "action": "keep",
+      "prompt": "Which toy is often kept spinning around the waist?",
+      "note": "Hula hoop spins around the waist. Diabolo, yo-yo and marbles are not body hoops.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 75,
+      "action": "keep",
+      "prompt": "Which toy has a spring, footrests and a handle for bouncing upright?",
+      "note": "Pogo stick has handles, footrests and a spring for upright bouncing. Scooter, skateboard and balance bike use wheels instead.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 76,
+      "action": "keep",
+      "prompt": "Which piece of equipment has a stretched flexible surface for bouncing?",
+      "note": "Trampoline's stretched surface rebounds. Seesaw, climbing frame and roundabout do not have that flexible bed.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 77,
+      "action": "edit",
+      "prompt": "What form does the original Slinky toy take?",
+      "note": "Original Slinky was a metal coil spring. Ball, cube and doll are different forms; replace the unrelated dictionary adjective with the National Toy Hall of Fame's original toy account.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.museumofplay.org/toys/slinky/"
+      }
+    },
+    {
+      "row": 78,
+      "action": "keep",
+      "prompt": "What happens when a traditional jack-in-the-box opens?",
+      "note": "Jack-in-the-box contains a springing figure. Ramp ball, flying disc and colour-changing marbles are different mechanisms.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 79,
+      "action": "keep",
+      "prompt": "What is special about a set of nesting dolls?",
+      "note": "Nesting dolls fit smaller inside larger. Larger-than-container, string-linked and glass-only restrictions are false.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 80,
+      "action": "edit",
+      "prompt": "What does a spinning top balance on while it turns?",
+      "note": "A top spins on a narrow tip. Square base, two wheels and hanging seat do not describe it; cite the dedicated spinning-top entry rather than the ambiguous general word.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/spinning-top"
+      }
+    },
+    {
+      "row": 81,
+      "action": "keep",
+      "prompt": "What does it mean to fold paper like a concertina?",
+      "note": "Concertina folding alternates pleats. Rolling, tearing and spiral cutting are not folds; instrument bellows/verb sense support the term.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 82,
+      "action": "keep",
+      "prompt": "What allows an ordinary sticker to attach to a surface?",
+      "note": "Sticker adheres by a sticky backing. Sand, hinge and buckle are not its adhesive mechanism; ordinary excludes purely digital stickers.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 83,
+      "action": "keep",
+      "prompt": "What gives a craft pipe cleaner its bendable structure?",
+      "note": "Craft pipe cleaner's wire core allows bending. Glass, solid wood and stone cores are wrong; soft covering is distinct from core.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 84,
+      "action": "edit",
+      "prompt": "What is a pom-pom often used to decorate a woolly hat?",
+      "note": "Correct the missing punctuation/ambiguous question to ask what the hat pom-pom is. Fibre ball is correct; zip, strap and glass disc are different objects.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review.",
+      "recommendedChanges": {
+        "prompt": "What is the pom-pom on top of a woolly hat?"
+      }
+    },
+    {
+      "row": 85,
+      "action": "edit",
+      "prompt": "What is modelling dough mainly used for in children's crafts?",
+      "note": "Malleable modelling dough forms shapes by hand. Pencil sharpening, photo printing and window polishing are wrong functions; replace missing entry with the museum's Play-Doh account.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.museumofplay.org/toys/play-doh/"
+      }
+    },
+    {
+      "row": 86,
+      "action": "keep",
+      "prompt": "What is the main purpose of a glue stick?",
+      "note": "Glue stick is adhesive. Angle measurement, sharpening and cutting are different stationery tasks; the question does not require a particular dispenser.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 87,
+      "action": "edit",
+      "prompt": "How is felt fabric made?",
+      "note": "Specify non-woven felt and use four genuine textile processes. Matting/pressing is correct; weaving, knitting and crocheting alone do not form this non-woven structure.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review.",
+      "recommendedChanges": {
+        "prompt": "How is traditional non-woven felt formed?",
+        "answers": [
+          "By matting and pressing fibres together",
+          "By weaving threads over and under each other",
+          "By knitting loops of yarn into rows",
+          "By crocheting stitches with a hook"
+        ]
+      }
+    },
+    {
+      "row": 88,
+      "action": "keep",
+      "prompt": "What is an ordinary wax crayon used to do?",
+      "note": "Wax crayon draws coloured marks. Metal fastening, circle cutting and measuring need other tools.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 89,
+      "action": "keep",
+      "prompt": "What is carbon paper used to make when you write on the sheet above it?",
+      "note": "Carbon sheet copies writing onto the lower sheet by pressure. Sharpening, waterproofing and audio recording are different outcomes.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 90,
+      "action": "edit",
+      "prompt": "What does an apron help protect during cooking or messy crafts?",
+      "note": "Apron protects the clothes beneath it. Replace implausible ceiling/wiring distractors with nearby objects that it is not worn to cover.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review.",
+      "recommendedChanges": {
+        "answers": [
+          "The clothing underneath it",
+          "The furniture nearby",
+          "The floor beneath the table",
+          "The utensils being used"
+        ]
+      }
+    },
+    {
+      "row": 91,
+      "action": "keep",
+      "prompt": "What is a doorstop commonly used to do?",
+      "note": "Doorstop limits movement or holds a door open. Lock operation, polishing and speech alarm are unrelated functions.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 92,
+      "action": "keep",
+      "prompt": "What is a doormat mainly used for at an entrance?",
+      "note": "Doormat cleans dirt from shoes. Dish drying, coat hanging and height measuring do not define it.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 93,
+      "action": "keep",
+      "prompt": "What does a draught excluder help block under a door?",
+      "note": "Draught excluder reduces unwanted airflow through the gap. It is not perfect soundproofing, a pipe valve or a window blackout.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 94,
+      "action": "edit",
+      "prompt": "What lets a normal hinged door pivot open and closed?",
+      "note": "Remove the giveaway word hinged from the question. Hinges allow the pivot; letterbox, paint and doormat do not.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review.",
+      "recommendedChanges": {
+        "prompt": "Which fittings allow a normal door to pivot open and closed?"
+      }
+    },
+    {
+      "row": 95,
+      "action": "keep",
+      "prompt": "What feature is typical of a Venetian blind?",
+      "note": "Venetian blind has adjustable horizontal slats. Brick, bead curtain and paint are different window treatments/materials.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    },
+    {
+      "row": 96,
+      "action": "edit",
+      "prompt": "Where is a curtain pelmet usually fitted?",
+      "note": "Pelmet goes above curtains. Replace unrelated room locations with other plausible window positions; hem, glass centre and sill are wrong.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review.",
+      "recommendedChanges": {
+        "answers": [
+          "Above the curtain to hide its fittings",
+          "Along the bottom hem of the curtain",
+          "In the centre of the window glass",
+          "Below the window sill"
+        ]
+      }
+    },
+    {
+      "row": 97,
+      "action": "edit",
+      "prompt": "What is a duvet?",
+      "note": "Duvet is a soft filled bed cover. Replace absurd furniture/tile alternatives with bedding/furnishing covers; fitted sheet, pillowcase and sofa cover are not duvets.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review.",
+      "recommendedChanges": {
+        "answers": [
+          "A soft filled bed covering",
+          "A fitted sheet around a mattress",
+          "A case for one pillow",
+          "A cover made for a sofa"
+        ]
+      }
+    },
+    {
+      "row": 98,
+      "action": "edit",
+      "prompt": "What shape is a traditional bolster pillow?",
+      "note": "Traditional bolster is a long cylinder. Replace material-mismatched distractors with parallel geometric shapes; triangle, disc and square differ.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review.",
+      "recommendedChanges": {
+        "answers": [
+          "Long and cylindrical",
+          "Flat and triangular",
+          "Round and disc-shaped",
+          "Square with four equal sides"
+        ]
+      }
+    },
+    {
+      "row": 99,
+      "action": "edit",
+      "prompt": "Which piece of upholstered furniture often has storage beneath a lift-up seat?",
+      "note": "Storage ottoman has a padded lift-up top. Replace potentially storage-capable dining chair with a coat stand, mirror and dining table, none the intended upholstered storage seat.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review.",
+      "recommendedChanges": {
+        "answers": [
+          "An ottoman",
+          "A coat stand",
+          "A dressing mirror",
+          "A dining table"
+        ]
+      }
+    },
+    {
+      "row": 100,
+      "action": "keep",
+      "prompt": "What is a footstool mainly used to support?",
+      "note": "Footstool supports feet while seated. Beam, curtain and roof tile are other support jobs, not what a footstool is designed for.",
+      "sourceReview": "Individual author second pass of the question and all four options against the cited primary dictionary definition or museum toy record; relevant senses selected explicitly, failed entries corrected. Not an independent review."
+    }
+  ]
+}

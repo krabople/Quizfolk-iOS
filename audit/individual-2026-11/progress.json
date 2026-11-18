@@ -1,8 +1,8 @@
 {
   "updated": "2026-11-18",
   "targetNewEasy": 3100,
-  "reviewedAndValidated": 1300,
-  "localBankCount": 23217,
+  "reviewedAndValidated": 1400,
+  "localBankCount": 23317,
   "liveBankCount": 23217,
   "topics": [
     {
@@ -233,8 +233,8 @@
       "topicID": "37",
       "name": "Family Trivia",
       "targetNewEasy": 100,
-      "authored": 0,
-      "reviewedAndValidated": 0,
+      "authored": 100,
+      "reviewedAndValidated": 100,
       "deployedNewEasy": 0
     },
     {

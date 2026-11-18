@@ -1,0 +1,1602 @@
+[
+  {
+    "draftID": "easy-37-001",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "Which kitchen item has holes that let water drain away from cooked pasta?",
+    "answers": [
+      "A colander",
+      "A mixing bowl",
+      "A rolling pin",
+      "A measuring jug"
+    ],
+    "correctIndex": 0,
+    "rationale": "The perforated colander drains food; the other objects are not designed for this task.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/colander",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-002",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "Which tool is designed to crush cooked potatoes into mash?",
+    "answers": [
+      "A potato masher",
+      "A peeler",
+      "A pastry brush",
+      "A ladle"
+    ],
+    "correctIndex": 0,
+    "rationale": "A masher crushes softened potatoes; other utensils remove skin, brush or serve liquid.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/masher",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-003",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What is a citrus squeezer designed to extract from fruit?",
+    "answers": [
+      "Juice",
+      "Pips for planting",
+      "Dried peel",
+      "Slices of fruit"
+    ],
+    "correctIndex": 0,
+    "rationale": "A squeezer or citrus press extracts juice; other outputs are not its primary function.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/lemon-squeezer",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-004",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What does a kitchen baster draw up and release?",
+    "answers": [
+      "Cooking juices",
+      "Slices of bread",
+      "Whole peppercorns",
+      "Strips of pastry"
+    ],
+    "correctIndex": 0,
+    "rationale": "A baster transfers liquid to moisten food while cooking, not solid portions.",
+    "sourceURL": "https://www.merriam-webster.com/dictionary/baster",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-005",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "Which kitchen tool has sharp-edged holes for shredding cheese?",
+    "answers": [
+      "A grater",
+      "A chopping board",
+      "A teapot",
+      "A strainer"
+    ],
+    "correctIndex": 0,
+    "rationale": "A grater's cutting holes shred food; a strainer drains but is not designed to shred.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/grater",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-006",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What is a vegetable peeler designed to remove?",
+    "answers": [
+      "The thin outer skin",
+      "Only the seeds",
+      "Only the stalk",
+      "The whole centre"
+    ],
+    "correctIndex": 0,
+    "rationale": "A peeler removes outer skin, not specifically seeds, stalk or centre.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/peeler",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-007",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "Which utensil has a deep bowl and long handle for serving soup?",
+    "answers": [
+      "A ladle",
+      "A butter knife",
+      "A fish slice",
+      "A potato masher"
+    ],
+    "correctIndex": 0,
+    "rationale": "Ladles scoop and serve liquids; the others have different functions and shapes.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/ladle",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-008",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "Which kitchen utensil has two arms used together to grip food?",
+    "answers": [
+      "Tongs",
+      "A whisk",
+      "A ladle",
+      "A sieve"
+    ],
+    "correctIndex": 0,
+    "rationale": "The paired arms of tongs grip food; the other utensils do not have this structure.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/tongs",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-009",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "Which kitchen tool is especially useful for turning a pancake in a frying pan?",
+    "answers": [
+      "A flat spatula",
+      "A ladle",
+      "A grater",
+      "A peeler"
+    ],
+    "correctIndex": 0,
+    "rationale": "A flat spatula or turner slides under the pancake; the other tools do not serve that purpose.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/spatula",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-010",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What would you traditionally use with a pestle to crush spices?",
+    "answers": [
+      "A mortar",
+      "A sieve",
+      "A colander",
+      "A measuring jug"
+    ],
+    "correctIndex": 0,
+    "rationale": "Mortar is the bowl paired with the grinding pestle, unlike the other containers.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/mortar",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-011",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What is a trivet used for on a table or worktop?",
+    "answers": [
+      "Supporting a hot dish or pan",
+      "Cutting bread into slices",
+      "Measuring liquids",
+      "Keeping a cupboard locked"
+    ],
+    "correctIndex": 0,
+    "rationale": "A trivet is a stand placed beneath hot cookware; the other tasks are unrelated.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/trivet",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-012",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What is the main purpose of a teapot?",
+    "answers": [
+      "Brewing and serving tea",
+      "Grinding coffee beans",
+      "Freezing fruit juice",
+      "Measuring flour"
+    ],
+    "correctIndex": 0,
+    "rationale": "The teapot holds tea for steeping and serving; the other preparation tasks are wrong.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/teapot",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-013",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What does a kettle normally heat to boiling?",
+    "answers": [
+      "Water",
+      "Flour",
+      "Butter",
+      "Cooking oil"
+    ],
+    "correctIndex": 0,
+    "rationale": "A kettle is made to boil water, not the other ingredients.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/kettle",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-014",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What is a vacuum flask designed to do?",
+    "answers": [
+      "Keep its contents hot or cold for longer",
+      "Turn a hot drink into ice instantly",
+      "Filter all salt out of water",
+      "Measure a drink's sugar content"
+    ],
+    "correctIndex": 0,
+    "rationale": "Insulation reduces heat transfer; it neither creates instant ice nor analyses/filters liquids.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/vacuum-flask",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-015",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What does a can opener remove or cut through?",
+    "answers": [
+      "The lid of a sealed food can",
+      "The skin of a potato",
+      "The cork from a bottle",
+      "The rind of a melon"
+    ],
+    "correctIndex": 0,
+    "rationale": "A can opener opens metal cans, unlike the other removal tasks.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/can-opener",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-016",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "Which food is a pop-up toaster mainly designed to brown?",
+    "answers": [
+      "Slices of bread",
+      "Bowls of soup",
+      "Whole potatoes",
+      "Pasta shells"
+    ],
+    "correctIndex": 0,
+    "rationale": "Pop-up toasters brown sliced bread; the other foods do not suit the appliance.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/toaster",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-017",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What do oven gloves help protect while handling hot cookware?",
+    "answers": [
+      "Your hands",
+      "Your shoes",
+      "Your hair",
+      "Your hearing"
+    ],
+    "correctIndex": 0,
+    "rationale": "Insulating gloves protect hands, not other body areas or hearing.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/oven-glove",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-018",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "Which item is a flat metal sheet used to hold food in an oven?",
+    "answers": [
+      "A baking tray",
+      "A colander",
+      "A kettle",
+      "A teapot"
+    ],
+    "correctIndex": 0,
+    "rationale": "A baking tray holds food during oven cooking; the other vessels have different forms and uses.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/baking-tray",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-019",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "In a British kitchen, what is a tea towel mainly used to dry?",
+    "answers": [
+      "Dishes and cutlery",
+      "Freshly washed hair",
+      "Garden soil",
+      "Paint on a wall"
+    ],
+    "correctIndex": 0,
+    "rationale": "A tea towel dries washed kitchenware; the other uses do not define it.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/tea-towel",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-020",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "Which object is designed to carry cups and dishes together from the kitchen?",
+    "answers": [
+      "A serving tray",
+      "A chopping board",
+      "A sieve",
+      "A breadbin"
+    ],
+    "correctIndex": 0,
+    "rationale": "A tray provides a portable flat surface for multiple items; other tasks are not its role.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/tray",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-021",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "Which item collects the dirt swept up with a hand brush?",
+    "answers": [
+      "A dustpan",
+      "A watering can",
+      "A laundry basket",
+      "A paint tray"
+    ],
+    "correctIndex": 0,
+    "rationale": "A dustpan receives swept-up debris; the other containers are designed for different jobs.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/dustpan",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-022",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "Which cleaning tool has an absorbent head for washing floors?",
+    "answers": [
+      "A mop",
+      "A rake",
+      "A feather duster",
+      "A squeezer"
+    ],
+    "correctIndex": 0,
+    "rationale": "Mops wash floors with an absorbent head; other tools rake, dust or squeeze.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/mop",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-023",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What is the main job of a duster in household cleaning?",
+    "answers": [
+      "Removing dust from surfaces",
+      "Opening tins",
+      "Measuring windows",
+      "Sharpening pencils"
+    ],
+    "correctIndex": 0,
+    "rationale": "A duster removes dust, not the other household tasks.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/duster",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-024",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "Which household appliance draws in dust using suction?",
+    "answers": [
+      "A vacuum cleaner",
+      "A toaster",
+      "A fan heater",
+      "A sewing machine"
+    ],
+    "correctIndex": 0,
+    "rationale": "A vacuum cleaner sucks dusty air into a collection system; the other appliances have different functions.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/vacuum-cleaner",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-025",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What does a clothes peg secure to a washing line?",
+    "answers": [
+      "Laundry",
+      "Roof tiles",
+      "Curtains",
+      "Door hinges"
+    ],
+    "correctIndex": 0,
+    "rationale": "A peg holds washing on the line; the other objects are not secured there.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/clothes-peg",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-026",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What is a coat hanger designed to support in a wardrobe?",
+    "answers": [
+      "Clothing",
+      "Books",
+      "Curtains",
+      "Umbrellas"
+    ],
+    "correctIndex": 0,
+    "rationale": "A hanger supports garments on a rail; other objects are not its primary use.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/hanger",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-027",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What is an ironing board designed to provide?",
+    "answers": [
+      "A surface for pressing clothes",
+      "A surface for chopping vegetables",
+      "A stand for a television",
+      "A seat for eating meals"
+    ],
+    "correctIndex": 0,
+    "rationale": "It provides a padded ironing surface, not the other household functions.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/ironing-board",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-028",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What does a thimble protect during hand sewing?",
+    "answers": [
+      "A finger",
+      "An ankle",
+      "An ear",
+      "An elbow"
+    ],
+    "correctIndex": 0,
+    "rationale": "The small finger cap protects while pushing a needle; the other body parts are wrong.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/thimble",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-029",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "In sewing, what is a seam?",
+    "answers": [
+      "A line where pieces of fabric are joined",
+      "A decorative button by itself",
+      "A loose reel of thread",
+      "A hole in a needle"
+    ],
+    "correctIndex": 0,
+    "rationale": "A seam is a fabric join, not a button, thread supply or needle part.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/seam",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-030",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What is the hole through which thread passes in a sewing needle called?",
+    "answers": [
+      "The eye",
+      "The heel",
+      "The wing",
+      "The lip"
+    ],
+    "correctIndex": 0,
+    "rationale": "The needle's eye holds the thread; the other body-part labels are not its name.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/eye",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-031",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "Which small clothing fastener is usually sewn on and passed through a matching hole?",
+    "answers": [
+      "A button",
+      "A zip",
+      "A buckle",
+      "A hook-and-loop strip"
+    ],
+    "correctIndex": 0,
+    "rationale": "A sewn-on button passes through a buttonhole; the other fasteners do not work this way. Replaces an existing zip concept.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/button",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-032",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What kind of fastening is sold under the brand name Velcro?",
+    "answers": [
+      "Hook-and-loop fastening",
+      "A metal zip",
+      "A press-stud fastening",
+      "A belt buckle"
+    ],
+    "correctIndex": 0,
+    "rationale": "Velcro is the hook-and-loop brand, not a zip, stud or buckle.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/velcro",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-033",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What is a shoelace threaded through to fasten a typical lace-up shoe?",
+    "answers": [
+      "The eyelets",
+      "The soles",
+      "The heels",
+      "The insoles"
+    ],
+    "correctIndex": 0,
+    "rationale": "Laces pass through eyelets, not the shoe's supporting layers or heel.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/eyelet",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-034",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "Which fastening is commonly used to secure a belt?",
+    "answers": [
+      "A buckle",
+      "A thimble",
+      "A clothes peg",
+      "A paper clip"
+    ],
+    "correctIndex": 0,
+    "rationale": "A belt buckle fixes or adjusts the belt; the other objects are not its normal fastening.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/buckle",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-035",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What does an open umbrella provide outdoors in the rain?",
+    "answers": [
+      "Shelter from falling rain",
+      "Heat for drying clothes",
+      "A measurement of wind speed",
+      "Light for seeing in the dark"
+    ],
+    "correctIndex": 0,
+    "rationale": "Its canopy shelters the user; it is not a heater, wind gauge or lamp.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/umbrella",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-036",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What kind of clothing is an anorak?",
+    "answers": [
+      "A jacket with a hood",
+      "A long woollen sock",
+      "A leather belt",
+      "A sleeveless vest only"
+    ],
+    "correctIndex": 0,
+    "rationale": "Anorak denotes a hooded outdoor jacket, not the other garments.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/anorak",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-037",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What are Wellington boots designed to keep dry?",
+    "answers": [
+      "The feet",
+      "The hands",
+      "The neck",
+      "The head"
+    ],
+    "correctIndex": 0,
+    "rationale": "Waterproof boots protect feet, not hands or upper body.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/wellington",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-038",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "How is a mitten different from a glove with separate fingers?",
+    "answers": [
+      "It keeps the four fingers together in one section",
+      "It covers only the wrist",
+      "It has a separate opening for every finger",
+      "It is always made of metal"
+    ],
+    "correctIndex": 0,
+    "rationale": "A mitten groups fingers while separating the thumb; the other features do not define it.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/mitten",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-039",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "Around which part of the body is a scarf commonly worn for warmth?",
+    "answers": [
+      "The neck",
+      "The ankles",
+      "The elbows",
+      "The knees"
+    ],
+    "correctIndex": 0,
+    "rationale": "A winter scarf commonly wraps the neck; the other joints are not the conventional location.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/scarf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-040",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What does a balaclava mainly cover?",
+    "answers": [
+      "The head and neck",
+      "The hands and wrists",
+      "The feet and ankles",
+      "The waist and hips"
+    ],
+    "correctIndex": 0,
+    "rationale": "A balaclava is a close-fitting head-and-neck covering; face coverage varies with its design.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/balaclava",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-041",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What do the numbered centimetre markings on a ruler measure?",
+    "answers": [
+      "Length",
+      "Weight",
+      "Temperature",
+      "Time"
+    ],
+    "correctIndex": 0,
+    "rationale": "Its scale measures distance, not mass, temperature or elapsed time.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/ruler",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-042",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What is a protractor used to measure?",
+    "answers": [
+      "Angles",
+      "Rainfall",
+      "Weight",
+      "Temperature"
+    ],
+    "correctIndex": 0,
+    "rationale": "A protractor measures angles; the other quantities need different instruments.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/protractor",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-043",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "Which drawing tool commonly has a triangular shape and a right angle?",
+    "answers": [
+      "A set square",
+      "A drawing compass",
+      "An eraser",
+      "A pencil sharpener"
+    ],
+    "correctIndex": 0,
+    "rationale": "A set square is a triangular right-angle guide; the other tools are not.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/set-square",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-044",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "Which marks does an ordinary eraser remove from paper most easily?",
+    "answers": [
+      "Pencil marks",
+      "Ballpoint ink",
+      "Permanent-marker ink",
+      "Printer toner"
+    ],
+    "correctIndex": 0,
+    "rationale": "Rubber/eraser removes graphite marks; it does not remove metal fasteners or reliably erase print.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/eraser",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-045",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What does a pencil sharpener create at the end of a pencil?",
+    "answers": [
+      "A pointed tip",
+      "A soft brush",
+      "A metal loop",
+      "A rubber cap"
+    ],
+    "correctIndex": 0,
+    "rationale": "A sharpener exposes and points the writing core, not the other attachments.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/pencil-sharpener",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-046",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What does a stapler use to fasten sheets of paper together?",
+    "answers": [
+      "Small metal staples",
+      "Strips of adhesive tape",
+      "Loops of string",
+      "Plastic cable ties"
+    ],
+    "correctIndex": 0,
+    "rationale": "Staplers insert and clinch staples; ink, pegs and paint are not the mechanism.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/stapler",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-047",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "Which item can hold sheets of paper together without piercing them?",
+    "answers": [
+      "A paper clip",
+      "A drawing pin",
+      "A sewing needle",
+      "A staple"
+    ],
+    "correctIndex": 0,
+    "rationale": "A paper clip grips by spring pressure; the other three penetrate the sheets.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/paper-clip",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-048",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What is a paper hole punch used to make?",
+    "answers": [
+      "Holes for filing sheets in a binder",
+      "Pencil points",
+      "Printed envelopes",
+      "Folded paper boats"
+    ],
+    "correctIndex": 0,
+    "rationale": "A punch creates filing holes, not sharpened pencils, print or origami.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/hole-punch",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-049",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "Which stationery item provides a firm portable writing surface and holds loose sheets in place?",
+    "answers": [
+      "A clipboard",
+      "A pencil case",
+      "A hole punch",
+      "A set square"
+    ],
+    "correctIndex": 0,
+    "rationale": "A clipboard is a portable board and clip, not a bag, vehicle or cutting tool.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/clipboard",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-050",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What is the usual purpose of a pencil case?",
+    "answers": [
+      "Storing small writing and drawing tools",
+      "Drying wet clothes",
+      "Measuring rainfall",
+      "Keeping food frozen"
+    ],
+    "correctIndex": 0,
+    "rationale": "A pencil case holds stationery, not laundry, weather instruments or frozen food.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/pencil-case",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-051",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What does a magnifying glass help you see more clearly?",
+    "answers": [
+      "Small details on nearby objects",
+      "Sounds too quiet to hear",
+      "Smells too faint to notice",
+      "Objects behind a solid wall"
+    ],
+    "correctIndex": 0,
+    "rationale": "Its lens enlarges the apparent detail of close objects; it cannot amplify other senses or see through opaque walls.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/magnifying-glass",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-052",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What feature distinguishes ordinary binoculars from a single viewing tube?",
+    "answers": [
+      "A viewing tube for each eye",
+      "A built-in screen in every model",
+      "A compass in every model",
+      "A motor in every model"
+    ],
+    "correctIndex": 0,
+    "rationale": "Binoculars offer two-eye viewing; screens, compasses and motors are optional/not defining.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/binoculars",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-053",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What do you see when looking through and turning a kaleidoscope?",
+    "answers": [
+      "Changing symmetrical patterns",
+      "A map of the local roads",
+      "A measurement of air pressure",
+      "A recording of your voice"
+    ],
+    "correctIndex": 0,
+    "rationale": "Mirrors and coloured pieces produce changing repeated patterns; other observations belong to different devices.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/kaleidoscope",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-054",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What can a periscope help someone do?",
+    "answers": [
+      "Look over an obstacle while staying below it",
+      "Hear through a brick wall",
+      "Weigh a distant object",
+      "Measure the salt in seawater"
+    ],
+    "correctIndex": 0,
+    "rationale": "A periscope redirects the view from a different height; the other tasks are unrelated.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/periscope",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-055",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "Which part of binoculars do you place near your eyes to look through them?",
+    "answers": [
+      "The eyepieces",
+      "The lens caps",
+      "The carrying strap",
+      "The outer case"
+    ],
+    "correctIndex": 0,
+    "rationale": "Eyepieces are the viewing lenses; caps, strap and case do not form the view.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/eyepiece",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-056",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What does a magnetic compass help you find?",
+    "answers": [
+      "Direction",
+      "Temperature",
+      "Weight",
+      "Rainfall"
+    ],
+    "correctIndex": 0,
+    "rationale": "A compass indicates direction using its magnetic needle; it does not measure the other quantities.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/compass",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-057",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What moves from one bulb to the other in a traditional hourglass?",
+    "answers": [
+      "Sand",
+      "A metal pendulum",
+      "A clock hand",
+      "A row of beads"
+    ],
+    "correctIndex": 0,
+    "rationale": "Sand trickles through the neck; other mechanisms are not an hourglass.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/hourglass",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-058",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What is a stopwatch designed to measure?",
+    "answers": [
+      "Elapsed time",
+      "Air pressure",
+      "Distance on a map",
+      "The angle of a roof"
+    ],
+    "correctIndex": 0,
+    "rationale": "A stopwatch measures a time interval, not pressure, mapped distance or slope angle.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/stopwatch",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-059",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What does a metronome provide for someone practising music?",
+    "answers": [
+      "A regular beat",
+      "A brighter lamp",
+      "A stronger internet signal",
+      "A written review"
+    ],
+    "correctIndex": 0,
+    "rationale": "A metronome marks steady time; the other outputs are unrelated.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/metronome",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-060",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What does a thermostat help control in a heating system?",
+    "answers": [
+      "Temperature",
+      "The date",
+      "The colour of the walls",
+      "The television volume"
+    ],
+    "correctIndex": 0,
+    "rationale": "Thermostats regulate temperature, not calendars, decor or entertainment audio.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/thermostat",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-061",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What do the pieces of a jigsaw puzzle form when correctly assembled?",
+    "answers": [
+      "A complete picture",
+      "A working clock",
+      "A musical recording",
+      "A set of weighing scales"
+    ],
+    "correctIndex": 0,
+    "rationale": "Ordinary jigsaws join pieces into one picture; other functional devices are not the result.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/jigsaw-puzzle",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-062",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "Which toy consists of a spool that travels down and back up a string?",
+    "answers": [
+      "A yo-yo",
+      "A spinning top without a string",
+      "A set of marbles",
+      "A hula hoop"
+    ],
+    "correctIndex": 0,
+    "rationale": "The yo-yo's spool/string mechanism fits; the other toys operate differently.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/yo-yo",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-063",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "Which toy or juggling prop spins on a string held between two sticks?",
+    "answers": [
+      "A diabolo",
+      "A pogo stick",
+      "A jack-in-the-box",
+      "A skipping rope"
+    ],
+    "correctIndex": 0,
+    "rationale": "A diabolo balances/spins on the string linking handsticks; other objects are distinct.",
+    "sourceURL": "https://www.merriam-webster.com/dictionary/diabolo",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-064",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What is a returning boomerang designed to do when thrown correctly?",
+    "answers": [
+      "Curve around and return towards the thrower",
+      "Stay fixed in the air without moving",
+      "Sink straight into the ground",
+      "Travel only in a straight line"
+    ],
+    "correctIndex": 0,
+    "rationale": "The qualifier 'returning' excludes non-returning boomerangs; ideal correct flight curves back.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/boomerang",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-065",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What keeps a traditional kite connected to the person flying it?",
+    "answers": [
+      "A line or string",
+      "A rigid metal pole reaching into the sky",
+      "An electrical cable plugged into a socket",
+      "A chain fastened to a boat"
+    ],
+    "correctIndex": 0,
+    "rationale": "The kite line tethers it; the other connections are not the standard traditional arrangement.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/kite",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-066",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "Which toy is a flat disc thrown through the air between players?",
+    "answers": [
+      "A flying disc",
+      "A yo-yo",
+      "A skipping rope",
+      "A pogo stick"
+    ],
+    "correctIndex": 0,
+    "rationale": "A flying disc is the generic toy form; the other named toys are not thrown discs.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/frisbee",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-067",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "In the traditional children's game of marbles, what are the playing pieces?",
+    "answers": [
+      "Small balls",
+      "Flat playing cards",
+      "Wooden rings",
+      "Paper aeroplanes"
+    ],
+    "correctIndex": 0,
+    "rationale": "Marbles are small rounded balls, not the other game pieces/toys.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/marble",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-068",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "Which playground game involves hopping through a numbered pattern drawn on the ground?",
+    "answers": [
+      "Hopscotch",
+      "Hide-and-seek",
+      "Tug of war",
+      "Musical chairs"
+    ],
+    "correctIndex": 0,
+    "rationale": "Hopscotch uses the marked hopping course; other games have different actions.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/hopscotch",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-069",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What do you jump over repeatedly when skipping with a rope?",
+    "answers": [
+      "The rope as it turns",
+      "A line of chairs",
+      "A fixed wooden bench",
+      "A moving bicycle"
+    ],
+    "correctIndex": 0,
+    "rationale": "Skipping rotates the rope under the jumper; alternatives describe other activities.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/skipping-rope",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-070",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What is a seesaw's board balanced on near its middle?",
+    "answers": [
+      "A pivot",
+      "A spinning wheel at each end",
+      "A pair of shoulder straps",
+      "A hanging rope at each end"
+    ],
+    "correctIndex": 0,
+    "rationale": "A seesaw rocks about a central support/pivot, not the other support arrangements.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/seesaw",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-071",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What does a traditional playground roundabout do?",
+    "answers": [
+      "Rotates around a central point",
+      "Moves only straight up and down",
+      "Slides down a fixed slope",
+      "Stays fixed while its seats bounce"
+    ],
+    "correctIndex": 0,
+    "rationale": "A roundabout spins about its centre; the other motions describe different equipment.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/roundabout",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-072",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What is the main movement when using a playground slide?",
+    "answers": [
+      "Sliding down a sloping chute",
+      "Spinning around a central pole",
+      "Bouncing on a spring",
+      "Swinging from a hanging seat"
+    ],
+    "correctIndex": 0,
+    "rationale": "The descending slope defines the slide; other actions belong to other equipment.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/slide",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-073",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "How is the seat of a typical playground swing supported?",
+    "answers": [
+      "By ropes or chains hanging from above",
+      "By a single spring directly beneath it",
+      "By wheels running on a track",
+      "By a flat board balanced on a pivot"
+    ],
+    "correctIndex": 0,
+    "rationale": "A swing seat hangs from overhead supports; alternatives describe other mechanisms.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/swing",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-074",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "Which toy is often kept spinning around the waist?",
+    "answers": [
+      "A hula hoop",
+      "A diabolo",
+      "A yo-yo",
+      "A set of marbles"
+    ],
+    "correctIndex": 0,
+    "rationale": "The hoop rotates around the body; the other toys are not normally waist-spun.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/hula-hoop",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-075",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "Which toy has a spring, footrests and a handle for bouncing upright?",
+    "answers": [
+      "A pogo stick",
+      "A scooter",
+      "A skateboard",
+      "A balance bike"
+    ],
+    "correctIndex": 0,
+    "rationale": "Pogo sticks combine a vertical spring and footrests; the alternatives have wheels rather than this hopping mechanism.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/pogo-stick",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-076",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "Which piece of equipment has a stretched flexible surface for bouncing?",
+    "answers": [
+      "A trampoline",
+      "A seesaw",
+      "A climbing frame",
+      "A roundabout"
+    ],
+    "correctIndex": 0,
+    "rationale": "The tensioned bed gives rebound; the other equipment does not use that surface.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/trampoline",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-077",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What form does the original Slinky toy take?",
+    "answers": [
+      "A metal coil spring",
+      "A rubber ball",
+      "A wooden cube",
+      "A cloth doll"
+    ],
+    "correctIndex": 0,
+    "rationale": "The original Slinky is a coiled metal spring; later plastic versions do not change the original qualifier.",
+    "sourceURL": "https://www.museumofplay.org/toys/slinky/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-078",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What happens when a traditional jack-in-the-box opens?",
+    "answers": [
+      "A figure springs out",
+      "A ball rolls down a long ramp",
+      "A spinning disc flies away",
+      "A set of marbles changes colour"
+    ],
+    "correctIndex": 0,
+    "rationale": "The pop-up figure is its defining surprise; other effects are not standard.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/jack-in-the-box",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-079",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What is special about a set of nesting dolls?",
+    "answers": [
+      "Smaller dolls fit inside larger ones",
+      "Every doll is larger than its container",
+      "All the dolls are joined by a string",
+      "Each doll must be made of glass"
+    ],
+    "correctIndex": 0,
+    "rationale": "Nested figures fit one inside another; the other structural statements are false.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/russian-doll",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-080",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What does a spinning top balance on while it turns?",
+    "answers": [
+      "A point or narrow tip",
+      "A wide square base that stays flat",
+      "A pair of wheels",
+      "A hanging seat"
+    ],
+    "correctIndex": 0,
+    "rationale": "A top rotates about its tip; the alternative supports do not describe ordinary tops.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/spinning-top",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-081",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What does it mean to fold paper like a concertina?",
+    "answers": [
+      "Fold it back and forth into alternating pleats",
+      "Roll it into a smooth tube",
+      "Tear it into tiny squares",
+      "Cut it into a continuous spiral"
+    ],
+    "correctIndex": 0,
+    "rationale": "Concertina folding alternates direction to make pleats; rolling, tearing and spiral cutting are different techniques.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/concertina",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-082",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What allows an ordinary sticker to attach to a surface?",
+    "answers": [
+      "An adhesive backing",
+      "A layer of loose sand",
+      "A metal hinge",
+      "A sewn-on buckle"
+    ],
+    "correctIndex": 0,
+    "rationale": "The sticky backing bonds it to a surface; the other structures are not how stickers adhere.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/sticker",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-083",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What gives a craft pipe cleaner its bendable structure?",
+    "answers": [
+      "A thin wire inside the fluffy covering",
+      "A solid glass rod",
+      "A rigid wooden core",
+      "A hollow stone tube"
+    ],
+    "correctIndex": 0,
+    "rationale": "Chenille stems have a flexible wire core; the other cores are rigid/brittle and incorrect.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/pipe-cleaner",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-084",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What is the pom-pom on top of a woolly hat?",
+    "answers": [
+      "A fluffy ball of fibres",
+      "A metal zipper",
+      "A leather strap",
+      "A flat glass disc"
+    ],
+    "correctIndex": 0,
+    "rationale": "The pom-pom is the soft fibre ball, not the different fasteners/ornaments.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/pompom",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-085",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What is modelling dough mainly used for in children's crafts?",
+    "answers": [
+      "Shaping small models by hand",
+      "Sharpening pencils",
+      "Printing photographs",
+      "Polishing windows"
+    ],
+    "correctIndex": 0,
+    "rationale": "Malleable play dough is formed into shapes; the other tasks are not its purpose.",
+    "sourceURL": "https://www.museumofplay.org/toys/play-doh/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-086",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What is the main purpose of a glue stick?",
+    "answers": [
+      "Sticking paper and similar materials together",
+      "Measuring a right angle",
+      "Sharpening a drawing pencil",
+      "Cutting a straight line"
+    ],
+    "correctIndex": 0,
+    "rationale": "The solid adhesive joins materials; the other stationery tasks need different tools.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/glue-stick",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-087",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "How is traditional non-woven felt formed?",
+    "answers": [
+      "By matting and pressing fibres together",
+      "By weaving threads over and under each other",
+      "By knitting loops of yarn into rows",
+      "By crocheting stitches with a hook"
+    ],
+    "correctIndex": 0,
+    "rationale": "Felt is matted non-woven fibre fabric; other manufacturing descriptions do not define it.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/felt",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-088",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What is an ordinary wax crayon used to do?",
+    "answers": [
+      "Draw or colour on a surface",
+      "Fasten two sheets with metal",
+      "Cut circles out of paper",
+      "Measure a page's length"
+    ],
+    "correctIndex": 0,
+    "rationale": "A wax crayon makes coloured marks; it is not a fastener, cutter or measuring device.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/crayon",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-089",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What is carbon paper used to make when you write on the sheet above it?",
+    "answers": [
+      "A copy of the writing on the sheet below",
+      "A sharpened pencil point",
+      "A waterproof cover for a book",
+      "A sound recording of the words"
+    ],
+    "correctIndex": 0,
+    "rationale": "Pressure transfers a coating to reproduce marks on the lower sheet; other results are not its function.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/carbon-paper",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-090",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What does an apron help protect during cooking or messy crafts?",
+    "answers": [
+      "The clothing underneath it",
+      "The furniture nearby",
+      "The floor beneath the table",
+      "The utensils being used"
+    ],
+    "correctIndex": 0,
+    "rationale": "An apron covers the front of clothing; the other objects are not what it is worn to protect.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/apron",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-091",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What is a doorstop commonly used to do?",
+    "answers": [
+      "Keep a door from moving further",
+      "Turn a lock with a key",
+      "Polish a door handle",
+      "Sound an alarm whenever someone speaks"
+    ],
+    "correctIndex": 0,
+    "rationale": "Doorstops limit movement or hold a door open; other tasks belong to different objects.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/doorstop",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-092",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What is a doormat mainly used for at an entrance?",
+    "answers": [
+      "Wiping dirt from shoes",
+      "Drying dishes",
+      "Hanging coats",
+      "Measuring door height"
+    ],
+    "correctIndex": 0,
+    "rationale": "A doormat removes dirt before entry; other household tasks are unrelated.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/doormat",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-093",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What does a draught excluder help block under a door?",
+    "answers": [
+      "Unwanted air coming through the gap",
+      "All sound from every room",
+      "The flow of water in a pipe",
+      "The light from every window"
+    ],
+    "correctIndex": 0,
+    "rationale": "It reduces air movement through gaps; it is not a guarantee of soundproofing or a pipe/window device.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/draught-excluder",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-094",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "Which fittings allow a normal door to pivot open and closed?",
+    "answers": [
+      "Its hinges",
+      "Its letterbox",
+      "Its painted surface",
+      "Its doormat"
+    ],
+    "correctIndex": 0,
+    "rationale": "The hinged joint permits rotation; the other items do not provide it.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/hinge",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-095",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What feature is typical of a Venetian blind?",
+    "answers": [
+      "Adjustable horizontal slats",
+      "A single solid brick panel",
+      "A curtain made only of hanging beads",
+      "A permanent layer of paint on the glass"
+    ],
+    "correctIndex": 0,
+    "rationale": "Venetian blinds tilt horizontal slats to control light; the alternatives are different coverings.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/venetian-blind",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-096",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "Where is a curtain pelmet usually fitted?",
+    "answers": [
+      "Above the curtain to hide its fittings",
+      "Along the bottom hem of the curtain",
+      "In the centre of the window glass",
+      "Below the window sill"
+    ],
+    "correctIndex": 0,
+    "rationale": "A pelmet conceals the curtain rail/top fittings, not plumbing or floor structures.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/pelmet",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-097",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What is a duvet?",
+    "answers": [
+      "A soft filled bed covering",
+      "A fitted sheet around a mattress",
+      "A case for one pillow",
+      "A cover made for a sofa"
+    ],
+    "correctIndex": 0,
+    "rationale": "A duvet is filled bedding, not furniture fittings or building material.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/duvet",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-098",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What shape is a traditional bolster pillow?",
+    "answers": [
+      "Long and cylindrical",
+      "Flat and triangular",
+      "Round and disc-shaped",
+      "Square with four equal sides"
+    ],
+    "correctIndex": 0,
+    "rationale": "A bolster is a long rounded cushion; other shapes/materials do not define it.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/bolster",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-099",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "Which piece of upholstered furniture often has storage beneath a lift-up seat?",
+    "answers": [
+      "An ottoman",
+      "A coat stand",
+      "A dressing mirror",
+      "A dining table"
+    ],
+    "correctIndex": 0,
+    "rationale": "A storage ottoman provides a padded seat and compartment; the other conventional items do not.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/ottoman",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-37-100",
+    "categoryID": "37",
+    "difficulty": "easy",
+    "prompt": "What is a footstool mainly used to support?",
+    "answers": [
+      "A seated person's feet",
+      "A ceiling beam",
+      "A hanging curtain",
+      "A roof tile"
+    ],
+    "correctIndex": 0,
+    "rationale": "A low stool supports feet while sitting, not building or curtain structures.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/footstool",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  }
+]
