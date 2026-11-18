@@ -172,7 +172,7 @@ import java.util.UUID
             items(store.history, key = { it.id }) { match -> Panel(Modifier.clickable { store.push(Page("match", record = match)) }.testTag("history-match-${match.id}")) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Text(store.topic(match.topicID).emoji, fontSize = 31.sp, modifier = Modifier.padding(end = 12.dp))
-                    Column(Modifier.weight(1f)) { Text(store.topic(match.topicID).name, fontWeight = FontWeight.Bold); Hint("vs ${match.opponent}"); Hint(when (match.kind) { "challenge" -> "Asynchronous challenge"; "human" -> "Recorded human run"; "practice" -> "Offline practice"; else -> "Bot duel" }) }
+                    Column(Modifier.weight(1f)) { Text(store.topic(match.topicID).name, fontWeight = FontWeight.Bold); Hint("vs ${match.opponent}"); Hint(when (match.kind) { "challenge" -> "Asynchronous challenge"; "human" -> "Against a saved round"; "practice" -> "Offline practice"; else -> "Bot duel" }) }
                     Column(horizontalAlignment = Alignment.End) { Text("${match.score}–${match.opponentScore}", fontWeight = FontWeight.Bold); Text(if (match.pending) "WAITING" else if (match.tied) "DRAW" else if (match.won) "WON" else "LOST", color = if (match.won) Color(0xFF2CA65D) else Coral, fontSize = 11.sp, fontWeight = FontWeight.Bold) }
                 }
             } }

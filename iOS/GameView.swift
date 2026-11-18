@@ -37,7 +37,7 @@ private struct DuelScreen:View {
    NavigationLink("View \(game.opponent)’s player card"){PublicPlayerView(playerID:id)}.font(.subheadline.bold())
   }
   if !game.awaitingOpponent,game.opponentID != nil || !game.isHuman {
-   Button(rematching ? "Preparing rematch…":"Rematch"){Task{await startRematch()}}.buttonStyle(PrimaryButton(color:.coral)).disabled(rematching).accessibilityIdentifier("rematchDuel")
+   Button(rematching ? "Preparing rematch…":(game.isReplay ? "Challenge \(game.opponent)":"Rematch")){Task{await startRematch()}}.buttonStyle(PrimaryButton(color:.coral)).disabled(rematching).accessibilityIdentifier("rematchDuel")
   }
   if let rematchError {Text(rematchError).font(.caption).foregroundStyle(Color(hex:"FFD494"))}
  }
@@ -48,14 +48,14 @@ private struct DuelScreen:View {
  private var intro:some View {
   DuelStageScroll {VStack(spacing:26) {
    Image("BrandMark").resizable().frame(width:70,height:70).clipShape(RoundedRectangle(cornerRadius:18)).padding(.top,24)
-   Text("A NEW RIVALRY").font(.system(size:12,weight:.black)).tracking(3)
+   Text(game.isReplay ? "RECORDED ROUND":"A NEW RIVALRY").font(.system(size:12,weight:.black)).tracking(3)
    HStack(alignment:.top,spacing:12) {
     contestant(store.name,avatar:store.avatar,bot:false).offset(x:entered ? 0:-170)
     Text("VS").font(.system(size:25,weight:.black,design:.rounded)).foregroundStyle(Color(hex:"FFD494")).padding(.top,26)
     contestant(game.opponent,avatar:game.opponentAvatar,bot:!game.isHuman).offset(x:entered ? 0:170)
    }.accessibilityElement(children:.combine).accessibilityLabel("\(store.name) versus \(game.opponent)").accessibilityIdentifier("matchupTitle")
    Text(game.topic.emoji+" "+game.topic.name).font(.title3.bold())
-   Text(game.duelID != nil ? "A human challenge. Play now or later.\nThe result settles when both runs finish.":(game.isHuman ? "A recorded human run.\nSame seven questions. Your own pace.":(game.online ? "We couldn’t find a human opponent.\nYou have been matched with a bot instead.":"Seven questions. A friendly bot.\nSpeed and knowledge decide the winner."))).font(.subheadline).multilineTextAlignment(.center).opacity(0.8)
+   Text(game.duelID != nil ? "A human challenge. Play now or later.\nThe result settles when both runs finish.":(game.isHuman ? "Play against \(game.opponent)’s saved answers and score from an earlier game.\nFor a new game together, send them a challenge.":(game.online ? "We couldn’t find a human opponent.\nYou have been matched with a bot instead.":"Seven questions. A friendly bot.\nSpeed and knowledge decide the winner."))).font(.subheadline).multilineTextAlignment(.center).opacity(0.8)
    Spacer(minLength:0)
    if game.prepared {if game.introCounting {Text("\(game.introCount)").font(.system(size:58,weight:.heavy,design:.rounded)).contentTransition(.numericText())} else {Text("Ready for your duel?").font(.headline)};Button(game.introCounting ? "Get ready…":"Start duel"){Task{await game.countdownAndStart()}}.buttonStyle(PrimaryButton(color:.coral)).disabled(game.busy || game.introCounting)}
    else if game.busy {ProgressView("Preparing your duel…").tint(.white)}
@@ -222,7 +222,8 @@ private struct DuelScreen:View {
   return QuizPageScroll(maxWidth:960) {
    VStack(spacing:18) {
     Image(systemName:tied ? "equal.circle.fill":"trophy.fill").font(.system(size:68)).foregroundStyle(Color(hex:"FFD494")).symbolEffect(.bounce,value:game.finished).padding(.top,20)
-    Text(tied ? "IT’S A DRAW":(won ? "YOU WIN!":"\(game.opponent.uppercased()) WINS!")).font(.system(size:31,weight:.black,design:.rounded)).multilineTextAlignment(.center).accessibilityIdentifier("winnerAnnouncement")
+    Text(game.isReplay ? (tied ? "SAVED SCORE MATCHED!":(won ? "SAVED SCORE BEATEN!":"SAVED SCORE WINS")):(tied ? "IT’S A DRAW":(won ? "YOU WIN!":"\(game.opponent.uppercased()) WINS!"))).font(.system(size:31,weight:.black,design:.rounded)).multilineTextAlignment(.center).accessibilityIdentifier("winnerAnnouncement")
+    if game.isReplay {Text("Compared with \(game.opponent)’s saved round from an earlier game.").font(.subheadline.bold()).multilineTextAlignment(.center).accessibilityIdentifier("recordedOpponentNotice")}
     if let levelUp=game.levelUp {TopicLevelCelebration(topic:game.topic,advancement:levelUp)}
     HStack(alignment:.top,spacing:14){podium(store.name,avatar:store.avatar,score:game.score,winner:won,bot:false,playerID:store.profile?.id);Text("–").font(.system(size:36,weight:.bold)).padding(.top,60);podium(game.opponent,avatar:game.opponentAvatar,score:game.opponentScore,winner:!won && !tied,bot:!game.isHuman,playerID:game.opponentID)}
     VStack(spacing:8){Text("+\(Scoring.experience(score:game.score,opponentScore:game.opponentScore)) TOPIC XP").font(.system(size:25,weight:.black,design:.rounded));Text("\(game.score) score + 40 finish + \(bonus) \(tied ? "draw":"win") bonus").font(.caption);Text(game.online ? "Added to your \(game.topic.name) league":"Added to your \(game.topic.name) level on this device").font(.caption).opacity(0.7)}.padding(16).frame(maxWidth:.infinity).background(.white.opacity(0.1),in:RoundedRectangle(cornerRadius:18))

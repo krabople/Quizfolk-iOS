@@ -41,6 +41,7 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
     private var searchID:String?
     private var suppliedMatch:StartReply?
     var isHuman:Bool {online && kind != "bot"}
+    var isReplay:Bool {online && kind == "human"}
     var canCloseWithoutWarning:Bool {finished || rounds.count==7 || (showIntro && current==nil)}
     @Published var busy=false
     @Published var error:String?

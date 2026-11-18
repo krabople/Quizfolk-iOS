@@ -63,6 +63,7 @@ class GameSession(val store: QuizStore, val topic: Topic, val online: Boolean, p
     var opponentResults by mutableStateOf<List<Boolean?>>(emptyList())
     val survival get() = event != null
     val human get() = online && kind != "bot"
+    val replay get() = online && kind == "human"
     val canClose get() = finished || runEnded || (!survival && rounds.size == 7) || (intro && question == null)
 
     fun begin() = scope.launch {

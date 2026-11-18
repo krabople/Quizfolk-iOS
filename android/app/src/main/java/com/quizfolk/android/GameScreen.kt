@@ -89,14 +89,14 @@ import kotlin.math.*
     var visible by remember { mutableStateOf(false) }; LaunchedEffect(Unit) { visible = true }
     GameStage(spacing = 24.dp) {
         BrandMark(66.dp)
-        Text("A NEW RIVALRY", fontSize = 12.sp, fontWeight = FontWeight.Black, letterSpacing = 3.sp)
+        Text(if (game.replay) "RECORDED ROUND" else "A NEW RIVALRY", fontSize = 12.sp, fontWeight = FontWeight.Black, letterSpacing = 3.sp)
         Row(verticalAlignment = Alignment.Top, modifier = Modifier.fillMaxWidth().testTag("matchupTitle")) {
             AnimatedVisibility(visible, enter = slideInHorizontally { -it } + fadeIn(), modifier = Modifier.weight(1f)) { Contestant(game.store.name, game.store.avatar, false) }
             Text("VS", fontSize = 25.sp, fontWeight = FontWeight.Black, color = Gold, modifier = Modifier.padding(top = 25.dp, start = 8.dp, end = 8.dp))
             AnimatedVisibility(visible, enter = slideInHorizontally { it } + fadeIn(), modifier = Modifier.weight(1f)) { Contestant(game.opponent, game.opponentAvatar, !game.human) }
         }
         Text("${game.topic.emoji} ${game.topic.name}", fontSize = 20.sp, fontWeight = FontWeight.Bold)
-        Text(if (game.duelID != null) "A human challenge. Play now or later.\nThe result settles when both runs finish." else if (game.human) "A recorded human run.\nSame seven questions. Your own pace." else if (game.online) "We couldn’t find a human opponent.\nYou have been matched with a bot instead." else "Seven questions. A friendly bot.\nSpeed and knowledge decide the winner.", textAlign = TextAlign.Center, color = Color.White.copy(alpha = .8f), fontSize = 14.sp)
+        Text(if (game.duelID != null) "A human challenge. Play now or later.\nThe result settles when both runs finish." else if (game.human) "Play against ${game.opponent}’s saved answers and score from an earlier game.\nFor a new game together, send them a challenge." else if (game.online) "We couldn’t find a human opponent.\nYou have been matched with a bot instead." else "Seven questions. A friendly bot.\nSpeed and knowledge decide the winner.", textAlign = TextAlign.Center, color = Color.White.copy(alpha = .8f), fontSize = 14.sp)
         Spacer(Modifier.weight(1f))
         if (game.prepared) {
             Text(if (game.counting) "${game.countdown}" else "Ready for your duel?", fontSize = if (game.counting) 48.sp else 18.sp, fontWeight = FontWeight.Bold)
@@ -351,7 +351,7 @@ import kotlin.math.*
     Box(Modifier.fillMaxSize()) {
         Column(Modifier.align(Alignment.TopCenter).widthIn(max = 960.dp).fillMaxSize().verticalScroll(rememberScrollState()).padding(22.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(18.dp)) {
             Icon(if (!game.survival && tied) Icons.Default.PauseCircle else Icons.Default.EmojiEvents, null, Modifier.size(68.dp), tint = Gold)
-            Text(if (game.survival) "RUN COMPLETE" else if (tied) "IT’S A DRAW" else if (won) "YOU WIN!" else "${game.opponent.uppercase()} WINS!", Modifier.testTag("winnerAnnouncement"), fontSize = 31.sp, fontWeight = FontWeight.Black, textAlign = TextAlign.Center)
+            Text(if (game.survival) "RUN COMPLETE" else if (game.replay) { if (tied) "SAVED SCORE MATCHED!" else if (won) "SAVED SCORE BEATEN!" else "SAVED SCORE WINS" } else if (tied) "IT’S A DRAW" else if (won) "YOU WIN!" else "${game.opponent.uppercase()} WINS!", Modifier.testTag("winnerAnnouncement"), fontSize = 31.sp, fontWeight = FontWeight.Black, textAlign = TextAlign.Center)
             if (game.survival) {
                 Text("${game.score}", fontSize = 62.sp, fontWeight = FontWeight.Black)
                 Text("${game.streak} correct in a row", fontWeight = FontWeight.Bold, fontSize = 20.sp)
@@ -359,6 +359,7 @@ import kotlin.math.*
                 CoinAmount(game.store.coins)
                 Action("Back to tournament") { game.close() }
             } else {
+                if (game.replay) Text("Compared with ${game.opponent}’s saved round from an earlier game.", Modifier.testTag("recordedOpponentNotice"), fontWeight = FontWeight.Bold, textAlign = TextAlign.Center)
                 game.levelUp?.let { TopicLevelCelebration(game.topic, it) }
                 Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
                     Podium(game.store.name, game.store.avatar, game.score, won, false, game.store.selfID, Modifier.weight(1f), profile)
@@ -372,7 +373,7 @@ import kotlin.math.*
                 }
                 rivalry?.value?.o("headToHead")?.let { tally -> QuizfolkTheme { Rivalry(tally) } }
                 game.opponentID?.let { id -> TextButton({ profile(id) }) { Text("View ${game.opponent}’s player card", color = Color.White, fontWeight = FontWeight.Bold) } }
-                if (game.opponentID != null || !game.human) Action("Rematch", enabled = !game.store.busy, tag = "rematchDuel", onClick = rematch)
+                if (game.opponentID != null || !game.human) Action(if (game.replay) "Challenge ${game.opponent}" else "Rematch", enabled = !game.store.busy, tag = "rematchDuel", onClick = rematch)
                 Action("Back to topics") { game.close() }
                 Text("${game.rounds.count { it.points > 0 }} OF 7 CORRECT · DUEL REVIEW", fontSize = 11.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
                 game.rounds.forEachIndexed { index, round -> QuizfolkTheme { Panel {
