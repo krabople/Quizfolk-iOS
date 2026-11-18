@@ -1,8 +1,8 @@
 {
   "updated": "2026-11-18",
   "targetNewEasy": 3100,
-  "reviewedAndValidated": 1500,
-  "localBankCount": 23417,
+  "reviewedAndValidated": 1600,
+  "localBankCount": 23517,
   "liveBankCount": 23417,
   "topics": [
     {
@@ -225,8 +225,8 @@
       "topicID": "36",
       "name": "World Religions",
       "targetNewEasy": 100,
-      "authored": 0,
-      "reviewedAndValidated": 0,
+      "authored": 100,
+      "reviewedAndValidated": 100,
       "deployedNewEasy": 0
     },
     {

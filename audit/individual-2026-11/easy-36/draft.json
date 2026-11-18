@@ -1,0 +1,1602 @@
+[
+  {
+    "draftID": "easy-36-001",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "What is a journey made to a place for religious reasons called?",
+    "answers": [
+      "A pilgrimage",
+      "An ordination",
+      "A sermon",
+      "A fast"
+    ],
+    "correctIndex": 0,
+    "rationale": "Pilgrimage is the journey; the other terms describe entering ministry, a talk and abstaining from food.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/pilgrimage",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-002",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "What is a shrine?",
+    "answers": [
+      "A place associated with a holy person or object",
+      "A list of religious holidays",
+      "A rule about food",
+      "A religious song"
+    ],
+    "correctIndex": 0,
+    "rationale": "A shrine is a sacred place, not a calendar, dietary rule or song.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/shrine",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-003",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "In a place of worship, what is an altar?",
+    "answers": [
+      "A table or raised structure used for religious ceremonies",
+      "A book of hymns",
+      "A member of the congregation",
+      "A type of prayer bead"
+    ],
+    "correctIndex": 0,
+    "rationale": "Altar denotes the ceremonial table or structure; the alternatives are different religious items or people.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/altar",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-004",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "What does a religious relic usually consist of?",
+    "answers": [
+      "Physical remains or an object connected with a holy person",
+      "A newly written sermon",
+      "A list of annual festivals",
+      "An appointment to lead worship"
+    ],
+    "correctIndex": 0,
+    "rationale": "Relics are physical remains or associated objects; the alternatives are not relics.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/relic",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-005",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "What does the word scripture refer to?",
+    "answers": [
+      "Sacred religious writings",
+      "Religious buildings",
+      "Members of a choir",
+      "A pilgrimage route"
+    ],
+    "correctIndex": 0,
+    "rationale": "Scripture means sacred writings, not structures, singers or routes.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/scripture",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-006",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "In a church, what is the collective term for people ordained for religious duties?",
+    "answers": [
+      "Clergy",
+      "Laity",
+      "Congregation",
+      "Pilgrims"
+    ],
+    "correctIndex": 0,
+    "rationale": "Clergy denotes ordained religious ministers; the other terms identify different groups.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/clergy",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-007",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "In a church, who are the laity?",
+    "answers": [
+      "Members who are not clergy",
+      "Only the ordained priests",
+      "Only visiting bishops",
+      "Only the choir's professional singers"
+    ],
+    "correctIndex": 0,
+    "rationale": "Laity are non-clergy members; the alternatives wrongly restrict the group.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/laity",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-008",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "What is the role of a chaplain in a hospital?",
+    "answers": [
+      "Providing religious or spiritual care",
+      "Managing surgical instruments",
+      "Dispensing prescription medicines",
+      "Taking diagnostic X-rays"
+    ],
+    "correctIndex": 0,
+    "rationale": "Chaplaincy concerns spiritual care; the other responsibilities belong to clinical staff.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/chaplain",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-009",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "What is a monastery?",
+    "answers": [
+      "A place where monks live as a religious community",
+      "A list of religious laws",
+      "A vessel used for incense",
+      "A special kind of hymn"
+    ],
+    "correctIndex": 0,
+    "rationale": "Monastery names the community's residence; the other options are unrelated objects or texts.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/monastery",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-010",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "Which word commonly names a community or home of nuns?",
+    "answers": [
+      "Convent",
+      "Synod",
+      "Diocese",
+      "Parish"
+    ],
+    "correctIndex": 0,
+    "rationale": "Convent fits the residence or community; the others name a council or church district.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/convent",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-011",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "What is the title of the male head of an abbey?",
+    "answers": [
+      "Abbot",
+      "Novice",
+      "Deacon",
+      "Cantor"
+    ],
+    "correctIndex": 0,
+    "rationale": "An abbot heads an abbey; the other religious roles are distinct.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/abbot",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-012",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "What is the title of the female head of an abbey?",
+    "answers": [
+      "Abbess",
+      "Novice",
+      "Cantor",
+      "Verger"
+    ],
+    "correctIndex": 0,
+    "rationale": "Abbess is the female superior; the alternatives name other roles.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/abbess",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-013",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "In a religious community, what is a novice?",
+    "answers": [
+      "Someone beginning a period of training",
+      "The longest-serving member",
+      "A visiting bishop",
+      "The owner of the building"
+    ],
+    "correctIndex": 0,
+    "rationale": "A novice is a new trainee; age and ownership do not define it.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/novice",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-014",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "What is a sermon?",
+    "answers": [
+      "A talk giving religious teaching",
+      "A religious building",
+      "A string of prayer beads",
+      "A day without food"
+    ],
+    "correctIndex": 0,
+    "rationale": "A sermon is a religious address; the other options describe a building, object and fast.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/sermon",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-015",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "What is a congregation?",
+    "answers": [
+      "A group gathered for religious worship",
+      "A collection of sacred buildings",
+      "A set of ceremonial clothes",
+      "A list of permitted foods"
+    ],
+    "correctIndex": 0,
+    "rationale": "Congregation denotes the people assembled to worship.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/congregation",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-016",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "What is a hymn?",
+    "answers": [
+      "A song of religious praise",
+      "A place of pilgrimage",
+      "A type of prayer mat",
+      "A member of the clergy"
+    ],
+    "correctIndex": 0,
+    "rationale": "Hymn is a religious song, not a place, mat or minister.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/hymn",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-017",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "Which Bible book is especially known for sacred songs and prayers?",
+    "answers": [
+      "Psalms",
+      "Leviticus",
+      "Numbers",
+      "Nehemiah"
+    ],
+    "correctIndex": 0,
+    "rationale": "Psalms collects songs and prayers; the other books have different principal forms.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/psalm",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-018",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "What is incense burned for in many religious ceremonies?",
+    "answers": [
+      "To produce a fragrant smell",
+      "To ring like a bell",
+      "To project written words",
+      "To measure the congregation's size"
+    ],
+    "correctIndex": 0,
+    "rationale": "Incense releases fragrant smoke; the other actions do not describe its ceremonial use.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/incense",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-019",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "In Catholic practice, what is a rosary used for?",
+    "answers": [
+      "Keeping track of a sequence of prayers",
+      "Measuring the length of a sermon",
+      "Holding holy water",
+      "Lighting candles"
+    ],
+    "correctIndex": 0,
+    "rationale": "Rosary beads count prayers; the other uses are not what the beads are designed for.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/rosary",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-020",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "What is a mantra in religious practice?",
+    "answers": [
+      "A sacred word or phrase repeated in prayer or meditation",
+      "A building's main entrance",
+      "An item of ceremonial furniture",
+      "A list of festival dates"
+    ],
+    "correctIndex": 0,
+    "rationale": "A mantra is repeated sacred utterance; the other options are not utterances.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/mantra",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-021",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "What does monotheism mean?",
+    "answers": [
+      "Belief in one God",
+      "Belief in many gods",
+      "The study of ancient languages",
+      "A rule requiring silence"
+    ],
+    "correctIndex": 0,
+    "rationale": "Monotheism means belief in one deity; the alternatives differ.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/monotheism",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-022",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "What does polytheism mean?",
+    "answers": [
+      "Belief in more than one god",
+      "Belief in exactly one god",
+      "The study of sacred buildings",
+      "A period of fasting"
+    ],
+    "correctIndex": 0,
+    "rationale": "Polytheism is belief in multiple deities; the other options are distinct.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/polytheism",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-023",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "What does atheism refer to?",
+    "answers": [
+      "Absence of belief in gods",
+      "Belief in many gods",
+      "A particular kind of pilgrimage",
+      "The practice of singing hymns"
+    ],
+    "correctIndex": 0,
+    "rationale": "Atheism involves lack of belief in deities; the alternatives do not define it.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/atheism",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-024",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "Which description best fits an agnostic position about God's existence?",
+    "answers": [
+      "It is unknown or cannot be known",
+      "There must be exactly twelve gods",
+      "Everyone must join the same religion",
+      "Only religious buildings can be sacred"
+    ],
+    "correctIndex": 0,
+    "rationale": "Agnosticism concerns uncertainty or unknowability, not any of the other claims.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/agnostic",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-025",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "What is theology the study of?",
+    "answers": [
+      "God and religious beliefs",
+      "The structure of rocks",
+      "The movement of planets alone",
+      "The classification of insects"
+    ],
+    "correctIndex": 0,
+    "rationale": "Theology studies deity and religious belief; the other options are other fields.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/theology",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-026",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "What does an interfaith event bring together?",
+    "answers": [
+      "People from different religions",
+      "Only people from one congregation",
+      "Only members of one choir",
+      "Only newly ordained ministers"
+    ],
+    "correctIndex": 0,
+    "rationale": "Interfaith means involving different faiths, not restricting attendance to one religious group or role.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/interfaith",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-027",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "What does fasting involve in a religious context?",
+    "answers": [
+      "Going without food for a period of time",
+      "Singing a hymn more quickly",
+      "Walking around a building",
+      "Changing the date of a festival"
+    ],
+    "correctIndex": 0,
+    "rationale": "Fasting is abstention from food, sometimes drink too; alternatives do not define it.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/fast",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-028",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "In worship, what is an offering?",
+    "answers": [
+      "Something given to honour a deity or support religious work",
+      "A list of clergy members",
+      "A room reserved for a choir",
+      "A rule about building height"
+    ],
+    "correctIndex": 0,
+    "rationale": "An offering is a gift; the alternatives are not gifts.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/offering",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-029",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "Which activity is an example of religious worship?",
+    "answers": [
+      "Praying to or honouring a deity",
+      "Measuring a building's floor area",
+      "Counting chairs for delivery",
+      "Repairing a broken window for payment"
+    ],
+    "correctIndex": 0,
+    "rationale": "Prayer or reverence is worship; the alternatives are practical tasks without a stated devotional purpose.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/worship",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-030",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "In a religious setting, what is a blessing?",
+    "answers": [
+      "A prayer asking for divine favour or protection",
+      "A list of building repairs",
+      "A type of travel ticket",
+      "A measurement of time"
+    ],
+    "correctIndex": 0,
+    "rationale": "A blessing invokes divine favour; the other options are not prayers.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/blessing",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-031",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "According to Genesis, who builds the ark before the great flood?",
+    "answers": [
+      "Noah",
+      "Moses",
+      "David",
+      "Solomon"
+    ],
+    "correctIndex": 0,
+    "rationale": "Genesis 6 names Noah as the builder; the other biblical figures belong to other stories.",
+    "sourceURL": "https://www.biblegateway.com/passage/?search=Genesis+6%3A13-22&version=KJV",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-032",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "According to the Book of Daniel, into which animals' den is Daniel thrown?",
+    "answers": [
+      "Lions",
+      "Wolves",
+      "Bears",
+      "Leopards"
+    ],
+    "correctIndex": 0,
+    "rationale": "Daniel 6 describes a lions' den; the other animals are not named in this episode.",
+    "sourceURL": "https://www.biblegateway.com/passage/?search=Daniel+6%3A16-22&version=KJV",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-033",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "In 1 Samuel, what is the name of the giant defeated by David?",
+    "answers": [
+      "Goliath",
+      "Saul",
+      "Samuel",
+      "Jonathan"
+    ],
+    "correctIndex": 0,
+    "rationale": "Goliath is David's opponent; the other names identify different figures.",
+    "sourceURL": "https://www.biblegateway.com/passage/?search=1+Samuel+17%3A4-50&version=KJV",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-034",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "In the Exodus story, who is called to lead the Israelites out of Egypt?",
+    "answers": [
+      "Moses",
+      "Noah",
+      "Solomon",
+      "Daniel"
+    ],
+    "correctIndex": 0,
+    "rationale": "Moses receives the commission; the other figures do not lead this departure.",
+    "sourceURL": "https://www.biblegateway.com/passage/?search=Exodus+3%3A4-10&version=KJV",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-035",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "According to Numbers 26, what is the name of Moses and Aaron's sister?",
+    "answers": [
+      "Miriam",
+      "Ruth",
+      "Esther",
+      "Deborah"
+    ],
+    "correctIndex": 0,
+    "rationale": "Numbers 26:59 names Miriam as their sister; the other women are different biblical figures.",
+    "sourceURL": "https://www.biblegateway.com/passage/?search=Numbers+26%3A59&version=KJV",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-036",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "In Exodus, the Ten Commandments are written on tablets made of what?",
+    "answers": [
+      "Stone",
+      "Glass",
+      "Wax",
+      "Wood"
+    ],
+    "correctIndex": 0,
+    "rationale": "Exodus 31:18 describes stone tablets; the other materials are not used in this passage.",
+    "sourceURL": "https://www.biblegateway.com/passage/?search=Exodus+31%3A18&version=KJV",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-037",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "In Exodus 3, what unusual sight draws Moses's attention?",
+    "answers": [
+      "A bush burning without being consumed",
+      "A river turning to blood",
+      "A staff turning into a snake",
+      "A sea dividing into two parts"
+    ],
+    "correctIndex": 0,
+    "rationale": "The burning bush is the sight in this chapter; the alternatives are not events in the account.",
+    "sourceURL": "https://www.biblegateway.com/passage/?search=Exodus+3%3A1-3&version=KJV",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-038",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "In the Tower of Babel story, what prevents the builders from understanding one another?",
+    "answers": [
+      "Their language is confused",
+      "They all lose their hearing",
+      "They all fall asleep",
+      "Their voices become too quiet"
+    ],
+    "correctIndex": 0,
+    "rationale": "Genesis 11 attributes the confusion to language; the alternatives are not the narrative's explanation.",
+    "sourceURL": "https://www.biblegateway.com/passage/?search=Genesis+11%3A7-9&version=KJV",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-039",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "In Genesis 8, what does the dove bring back to Noah?",
+    "answers": [
+      "An olive leaf",
+      "A fig",
+      "A grape",
+      "A cedar cone"
+    ],
+    "correctIndex": 0,
+    "rationale": "The dove returns with an olive leaf; the other objects are not described in this episode.",
+    "sourceURL": "https://www.biblegateway.com/passage/?search=Genesis+8%3A11&version=KJV",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-040",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "What is the name of the garden in which Genesis places Adam and Eve?",
+    "answers": [
+      "Eden",
+      "Gethsemane",
+      "Babylon",
+      "Jericho"
+    ],
+    "correctIndex": 0,
+    "rationale": "Eden is the garden in Genesis; Gethsemane is another garden and the other names are cities.",
+    "sourceURL": "https://www.biblegateway.com/passage/?search=Genesis+2%3A8&version=KJV",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-041",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "In the New Testament, what is the name of Jesus's mother?",
+    "answers": [
+      "Mary",
+      "Martha",
+      "Elizabeth",
+      "Ruth"
+    ],
+    "correctIndex": 0,
+    "rationale": "Mary is named as Jesus's mother; the other women have different roles.",
+    "sourceURL": "https://www.biblegateway.com/passage/?search=Luke+1%3A30-31&version=KJV",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-042",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "How many apostles does Jesus choose in Luke 6?",
+    "answers": [
+      "Twelve",
+      "Seven",
+      "Ten",
+      "Forty"
+    ],
+    "correctIndex": 0,
+    "rationale": "Luke 6:13 specifies twelve; the alternatives are different biblical numbers.",
+    "sourceURL": "https://www.biblegateway.com/passage/?search=Luke+6%3A13&version=KJV",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-043",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "Which apostle is traditionally called 'Doubting' after questioning reports of Jesus's resurrection?",
+    "answers": [
+      "Thomas",
+      "Andrew",
+      "Philip",
+      "James"
+    ],
+    "correctIndex": 0,
+    "rationale": "John 20 describes Thomas's doubt; the other apostles do not have this traditional nickname.",
+    "sourceURL": "https://www.biblegateway.com/passage/?search=John+20%3A24-29&version=KJV",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-044",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "In Luke's Gospel, what bird calls after Peter has denied knowing Jesus three times?",
+    "answers": [
+      "A rooster",
+      "A dove",
+      "A raven",
+      "An eagle"
+    ],
+    "correctIndex": 0,
+    "rationale": "Luke 22 describes a rooster crowing; the other birds are not named in the denial scene.",
+    "sourceURL": "https://www.biblegateway.com/passage/?search=Luke+22%3A60-62&version=KJV",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-045",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "In Matthew's Gospel, what is Matthew doing when Jesus calls him to follow?",
+    "answers": [
+      "Collecting taxes",
+      "Catching fish",
+      "Herding sheep",
+      "Making pottery"
+    ],
+    "correctIndex": 0,
+    "rationale": "Matthew 9:9 places him at the tax booth; the alternatives are other occupations.",
+    "sourceURL": "https://www.biblegateway.com/passage/?search=Matthew+9%3A9&version=KJV",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-046",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "In Mark's Gospel, in which river does John baptise Jesus?",
+    "answers": [
+      "The Jordan",
+      "The Nile",
+      "The Tigris",
+      "The Euphrates"
+    ],
+    "correctIndex": 0,
+    "rationale": "Mark 1:9 names the Jordan; the other rivers are not the baptism location.",
+    "sourceURL": "https://www.biblegateway.com/passage/?search=Mark+1%3A9&version=KJV",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-047",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "In Jesus's Good Samaritan parable, whom does the Samaritan help?",
+    "answers": [
+      "A traveller attacked by robbers",
+      "A king seeking a new palace",
+      "A merchant seeking cheaper goods",
+      "A soldier looking for his sword"
+    ],
+    "correctIndex": 0,
+    "rationale": "Luke 10 describes aid to the injured traveller; the alternatives are not the person helped.",
+    "sourceURL": "https://www.biblegateway.com/passage/?search=Luke+10%3A30-35&version=KJV",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-048",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "In the parable of the prodigal son, to whom does the younger son return?",
+    "answers": [
+      "His father",
+      "His army commander",
+      "His childhood teacher",
+      "His prison guard"
+    ],
+    "correctIndex": 0,
+    "rationale": "Luke 15 describes the son's return to his father; the alternatives are absent from the parable.",
+    "sourceURL": "https://www.biblegateway.com/passage/?search=Luke+15%3A18-24&version=KJV",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-049",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "In John's account of feeding the five thousand, how many loaves does the boy have?",
+    "answers": [
+      "Five",
+      "Two",
+      "Seven",
+      "Twelve"
+    ],
+    "correctIndex": 0,
+    "rationale": "John 6:9 names five barley loaves and two fish; only five answers the loaf count.",
+    "sourceURL": "https://www.biblegateway.com/passage/?search=John+6%3A9&version=KJV",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-050",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "According to John 11, whom does Jesus call out of a tomb?",
+    "answers": [
+      "Lazarus",
+      "Zacchaeus",
+      "Nicodemus",
+      "Bartimaeus"
+    ],
+    "correctIndex": 0,
+    "rationale": "John 11 identifies Lazarus; the other people are associated with other episodes.",
+    "sourceURL": "https://www.biblegateway.com/passage/?search=John+11%3A43-44&version=KJV",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-051",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "In Luke 19, why does Zacchaeus climb a tree?",
+    "answers": [
+      "To see Jesus above the crowd",
+      "To escape a flood",
+      "To collect a bird's nest",
+      "To hide stolen coins"
+    ],
+    "correctIndex": 0,
+    "rationale": "Luke 19 says he climbs to see Jesus because he is short and the crowd blocks him.",
+    "sourceURL": "https://www.biblegateway.com/passage/?search=Luke+19%3A1-4&version=KJV",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-052",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "In Joshua 6, what happens to Jericho's walls after the people shout?",
+    "answers": [
+      "They collapse",
+      "They turn to gold",
+      "They grow taller",
+      "They float across a river"
+    ],
+    "correctIndex": 0,
+    "rationale": "Joshua 6 describes the walls falling; the other outcomes are absent.",
+    "sourceURL": "https://www.biblegateway.com/passage/?search=Joshua+6%3A20&version=KJV",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-053",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "In Genesis 9, what is the sign of God's covenant after the flood?",
+    "answers": [
+      "A rainbow",
+      "A comet",
+      "A solar eclipse",
+      "A pillar of smoke"
+    ],
+    "correctIndex": 0,
+    "rationale": "Genesis 9 names the bow in the clouds; the other phenomena are not this covenant sign.",
+    "sourceURL": "https://www.biblegateway.com/passage/?search=Genesis+9%3A13&version=KJV",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-054",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "In 1 Kings 3, what does Solomon ask God to give him so he can govern well?",
+    "answers": [
+      "Wisdom",
+      "A larger army",
+      "A longer coastline",
+      "More horses"
+    ],
+    "correctIndex": 0,
+    "rationale": "Solomon asks for an understanding heart to judge rightly, commonly summarised as wisdom; the alternatives are not his request.",
+    "sourceURL": "https://www.biblegateway.com/passage/?search=1+Kings+3%3A9-12&version=KJV",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-055",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "In Matthew 14, what does Jesus do on the lake as he approaches the disciples' boat?",
+    "answers": [
+      "Walks on the water",
+      "Builds a bridge",
+      "Freezes the water",
+      "Drains the lake"
+    ],
+    "correctIndex": 0,
+    "rationale": "The passage describes walking on the water; the alternatives are not in the account.",
+    "sourceURL": "https://www.biblegateway.com/passage/?search=Matthew+14%3A25&version=KJV",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-056",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "What is a Jewish place of communal worship called?",
+    "answers": [
+      "A synagogue",
+      "A mosque",
+      "A cathedral",
+      "A gurdwara"
+    ],
+    "correctIndex": 0,
+    "rationale": "Synagogue is the Jewish worship building; the others belong to other religious traditions.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/synagogue",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-057",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "Which day of the week is the Jewish Sabbath centred on?",
+    "answers": [
+      "Saturday",
+      "Sunday",
+      "Tuesday",
+      "Thursday"
+    ],
+    "correctIndex": 0,
+    "rationale": "Shabbat runs from Friday evening to Saturday night; Saturday is the day among the options.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/shabbat",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-058",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "At what age does a Jewish boy traditionally become bar mitzvah?",
+    "answers": [
+      "Thirteen",
+      "Ten",
+      "Sixteen",
+      "Eighteen"
+    ],
+    "correctIndex": 0,
+    "rationale": "Traditional bar mitzvah age is thirteen; the other ages are not the standard age.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/bar-mitzvah",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-059",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "Yom Kippur is commonly known in English as the Day of what?",
+    "answers": [
+      "Atonement",
+      "Harvest",
+      "Dedication",
+      "Liberation"
+    ],
+    "correctIndex": 0,
+    "rationale": "Yom Kippur is the Day of Atonement; the alternatives are different festival concepts.",
+    "sourceURL": "https://www.chabad.org/library/article_cdo/aid/177886/jewish/What-Is-Yom-Kippur.htm",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-060",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "What kind of object is a shofar used in Jewish worship?",
+    "answers": [
+      "A horn blown as a trumpet",
+      "A prayer shawl",
+      "A scroll pointer",
+      "A candle holder"
+    ],
+    "correctIndex": 0,
+    "rationale": "A shofar is an animal horn used as a wind instrument; the other ritual objects differ.",
+    "sourceURL": "https://www.chabad.org/library/article_cdo/aid/4837/jewish/Shofar.htm",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-061",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "For how many nights is the Jewish festival of Hanukkah celebrated?",
+    "answers": [
+      "Eight",
+      "Three",
+      "Six",
+      "Twelve"
+    ],
+    "correctIndex": 0,
+    "rationale": "Hanukkah lasts eight nights; the alternatives are not its duration.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/hanukkah",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-062",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "How many candle positions does a Hanukkah lamp have, including the helper light?",
+    "answers": [
+      "Nine",
+      "Seven",
+      "Eight",
+      "Ten"
+    ],
+    "correctIndex": 0,
+    "rationale": "There are eight festival lights and a separate shamash, totalling nine; specifying the helper removes ambiguity.",
+    "sourceURL": "https://www.chabad.org/holidays/chanukah/article_cdo/aid/105045/jewish/How-to-Light.htm",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-063",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "How many points does the Star of David have?",
+    "answers": [
+      "Six",
+      "Five",
+      "Seven",
+      "Eight"
+    ],
+    "correctIndex": 0,
+    "rationale": "The six-pointed star is the symbol; the alternatives are different stars.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/star-of-david",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-064",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "Where is a mezuzah traditionally attached in a Jewish home?",
+    "answers": [
+      "To a doorway's doorpost",
+      "To a dinner plate",
+      "To a prayer shawl",
+      "To a musical instrument"
+    ],
+    "correctIndex": 0,
+    "rationale": "A mezuzah is affixed to the doorpost; the other locations are not the prescribed placement.",
+    "sourceURL": "https://www.chabad.org/library/article_cdo/aid/5489978/jewish/19-Ritual-Items-Found-in-a-Jewish-Home.htm",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-065",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "What is a kippah, also called a yarmulke?",
+    "answers": [
+      "A small skullcap",
+      "A prayer shawl",
+      "A candle holder",
+      "A ceremonial cup"
+    ],
+    "correctIndex": 0,
+    "rationale": "Kippah and yarmulke name a head covering; the other objects differ.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/yarmulke",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-066",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "Ganesha is usually depicted with the head of which animal?",
+    "answers": [
+      "An elephant",
+      "A lion",
+      "A horse",
+      "An eagle"
+    ],
+    "correctIndex": 0,
+    "rationale": "Ganesha's elephant head is his familiar identifying feature; the other heads belong to other imagery.",
+    "sourceURL": "https://www.hinduamerican.org/wp-content/uploads/2019/12/WhoHindusWorship.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-067",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "Which Hindu deity is commonly depicted as a monkey and is devoted to Rama?",
+    "answers": [
+      "Hanuman",
+      "Ganesha",
+      "Indra",
+      "Agni"
+    ],
+    "correctIndex": 0,
+    "rationale": "Hanuman is the monkey deity devoted to Rama; the other deities differ.",
+    "sourceURL": "https://www.hinduamerican.org/blog/5-things-to-know-about-hanuman",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-068",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "Which Hindu goddess is especially associated with wealth and prosperity?",
+    "answers": [
+      "Lakshmi",
+      "Saraswati",
+      "Parvati",
+      "Kali"
+    ],
+    "correctIndex": 0,
+    "rationale": "Lakshmi is the prosperity goddess; the other goddesses have different principal associations.",
+    "sourceURL": "https://www.hinduamerican.org/wp-content/uploads/2019/12/WhoHindusWorship.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-069",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "Which Hindu goddess is especially associated with learning and the arts?",
+    "answers": [
+      "Saraswati",
+      "Lakshmi",
+      "Kali",
+      "Durga"
+    ],
+    "correctIndex": 0,
+    "rationale": "Saraswati is associated with knowledge and the arts; the other goddesses differ.",
+    "sourceURL": "https://www.hinduamerican.org/wp-content/uploads/2019/12/WhoHindusWorship.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-070",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "Which Hindu deity is particularly associated with a trident?",
+    "answers": [
+      "Shiva",
+      "Ganesha",
+      "Brahma",
+      "Hanuman"
+    ],
+    "correctIndex": 0,
+    "rationale": "Shiva's trishula is a familiar attribute; the other options are not the deity identified by this attribute.",
+    "sourceURL": "https://culturebridge.artsbma.org/resource/quick-guide-to-hindu-deities/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-071",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "Which Hindu deity is commonly shown with a third eye in the middle of his forehead?",
+    "answers": [
+      "Shiva",
+      "Ganesha",
+      "Brahma",
+      "Hanuman"
+    ],
+    "correctIndex": 0,
+    "rationale": "Shiva is characteristically shown with a third eye; the other deities do not have this identifying attribute in their usual depictions.",
+    "sourceURL": "https://www.hinduamerican.org/wp-content/uploads/2019/12/WhoHindusWorship.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-072",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "In the Bhagavad Gita, to which warrior does Krishna give his teaching?",
+    "answers": [
+      "Arjuna",
+      "Ravana",
+      "Hanuman",
+      "Bharata"
+    ],
+    "correctIndex": 0,
+    "rationale": "Arjuna is Krishna's dialogue partner; the others belong to other narrative roles.",
+    "sourceURL": "https://www.holy-bhagavad-gita.org/chapter/2/verse/7",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-073",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "Which Hindu epic tells the story of Rama and Sita?",
+    "answers": [
+      "The Ramayana",
+      "The Iliad",
+      "The Odyssey",
+      "The Aeneid"
+    ],
+    "correctIndex": 0,
+    "rationale": "The Ramayana is their epic; the other epics are Greek or Roman.",
+    "sourceURL": "https://www.hinduamerican.org/blog/5-things-to-know-about-hanuman",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-074",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "In the Ramayana, who is Rama's wife?",
+    "answers": [
+      "Sita",
+      "Radha",
+      "Rukmini",
+      "Draupadi"
+    ],
+    "correctIndex": 0,
+    "rationale": "Sita is Rama's wife; the others are associated with other figures.",
+    "sourceURL": "https://www.hinduamerican.org/wp-content/uploads/2019/12/WhoHindusWorship.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-075",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "Which Hindu deity is associated with the Sun?",
+    "answers": [
+      "Surya",
+      "Indra",
+      "Agni",
+      "Varuna"
+    ],
+    "correctIndex": 0,
+    "rationale": "Surya is the Sun deity; Indra is associated with thunder and rain, Agni with fire and Varuna with waters and cosmic order.",
+    "sourceURL": "https://www.hinduamerican.org/wp-content/uploads/2019/12/WhoHindusWorship.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-076",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "Which Hindu festival is widely known as the festival of lights?",
+    "answers": [
+      "Diwali",
+      "Holi",
+      "Navaratri",
+      "Raksha Bandhan"
+    ],
+    "correctIndex": 0,
+    "rationale": "Diwali is the festival of lights; the other festivals have different central associations.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/diwali",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-077",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "Which Hindu festival is especially associated with throwing coloured powders?",
+    "answers": [
+      "Holi",
+      "Diwali",
+      "Janmashtami",
+      "Maha Shivaratri"
+    ],
+    "correctIndex": 0,
+    "rationale": "Holi is the festival of colours; the alternatives do not name this festival.",
+    "sourceURL": "https://www.hinduamerican.org/holi",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-078",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "Which Hindu goddess is depicted defeating the buffalo demon Mahisha?",
+    "answers": [
+      "Durga",
+      "Lakshmi",
+      "Saraswati",
+      "Sita"
+    ],
+    "correctIndex": 0,
+    "rationale": "Durga's defeat of Mahishasura and lion/tiger mount distinguish this depiction.",
+    "sourceURL": "https://www.metmuseum.org/art/collection/search/38273",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-079",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "Which Hindu deity is commonly shown with four heads?",
+    "answers": [
+      "Brahma",
+      "Shiva",
+      "Ganesha",
+      "Hanuman"
+    ],
+    "correctIndex": 0,
+    "rationale": "Brahma is commonly four-headed; the other deities are not identified by that feature.",
+    "sourceURL": "https://www.hinduamerican.org/wp-content/uploads/2019/12/WhoHindusWorship.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-080",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "Which Hindu deity is commonly shown reclining on the serpent Shesha?",
+    "answers": [
+      "Vishnu",
+      "Brahma",
+      "Ganesha",
+      "Hanuman"
+    ],
+    "correctIndex": 0,
+    "rationale": "Vishnu reclines on Shesha; the alternatives are different deities.",
+    "sourceURL": "https://culturebridge.artsbma.org/resource/quick-guide-to-hindu-deities/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-081",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "What is a stupa in Buddhism?",
+    "answers": [
+      "A sacred Buddhist monument",
+      "A type of prayer shawl",
+      "A religious wind instrument",
+      "A special festival food"
+    ],
+    "correctIndex": 0,
+    "rationale": "A stupa is a sacred monument or reliquary; the alternatives are different ritual items.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/stupa",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-082",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "In Buddhism, what does sangha refer to?",
+    "answers": [
+      "The Buddhist community",
+      "A type of incense",
+      "A temple's roof",
+      "A festival meal"
+    ],
+    "correctIndex": 0,
+    "rationale": "Sangha denotes the community, especially the monastic community; the objects and meal do not fit.",
+    "sourceURL": "https://www.merriam-webster.com/dictionary/sangha",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-083",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "In Buddhism, nirvana is associated with liberation from what?",
+    "answers": [
+      "Craving and suffering",
+      "The need to learn languages",
+      "The passing of the seasons",
+      "The pull of gravity"
+    ],
+    "correctIndex": 0,
+    "rationale": "Nirvana is liberation associated with the extinguishing of craving and suffering, not a physical exemption.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/nirvana",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-084",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "Which practice involves training attention through focused awareness?",
+    "answers": [
+      "Meditation",
+      "Fasting",
+      "Pilgrimage",
+      "Ordination"
+    ],
+    "correctIndex": 0,
+    "rationale": "Meditation trains attention and awareness; the alternatives lack the stated contemplative purpose.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/meditation",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-085",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "Which Buddhist festival commemorates the Buddha's birth, enlightenment and death in many traditions?",
+    "answers": [
+      "Vesak",
+      "Diwali",
+      "Yom Kippur",
+      "Eid al-Fitr"
+    ],
+    "correctIndex": 0,
+    "rationale": "Vesak, also spelled Wesak, marks those events in many Buddhist traditions; the others belong to different religions.",
+    "sourceURL": "https://www.un.org/en/observances/vesak-day",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-086",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "The Buddhist name Tripitaka is commonly translated into English as what?",
+    "answers": [
+      "Three baskets",
+      "Four rivers",
+      "Five mountains",
+      "Seven gates"
+    ],
+    "correctIndex": 0,
+    "rationale": "Tripitaka means three baskets, referring to divisions of texts; other translations are wrong.",
+    "sourceURL": "https://www.edu.gov.mb.ca/k12/docs/support/world_religions/buddhism/texts-writings.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-087",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "In Tibetan Buddhism, what is a lama?",
+    "answers": [
+      "A religious teacher",
+      "A ceremonial drum",
+      "A temple gateway",
+      "A sacred lake"
+    ],
+    "correctIndex": 0,
+    "rationale": "A lama is a spiritual teacher; the other options are not people.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/lama",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-088",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "What is a bhikkhu in Buddhism?",
+    "answers": [
+      "A monk",
+      "A sacred tree",
+      "A prayer bell",
+      "A holy mountain"
+    ],
+    "correctIndex": 0,
+    "rationale": "Bhikkhu is a fully ordained male monastic; the other options are objects or places.",
+    "sourceURL": "https://www.edu.gov.mb.ca/k12/docs/support/world_religions/buddhism/texts-writings.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-089",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "What is a Muslim place of communal worship called?",
+    "answers": [
+      "A mosque",
+      "A synagogue",
+      "A gurdwara",
+      "A cathedral"
+    ],
+    "correctIndex": 0,
+    "rationale": "Mosque names the Muslim worship building; the others belong to other faiths.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/mosque",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-090",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "What is Islam's central sacred text called?",
+    "answers": [
+      "The Quran",
+      "The Torah",
+      "The Vedas",
+      "The Guru Granth Sahib"
+    ],
+    "correctIndex": 0,
+    "rationale": "The Quran is Islam's scripture; the other texts belong to other traditions.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/koran",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-091",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "What is the Arabic word Allah commonly translated as in English?",
+    "answers": [
+      "God",
+      "Temple",
+      "Prophet",
+      "Pilgrim"
+    ],
+    "correctIndex": 0,
+    "rationale": "Allah means God, and is also used by Arabic-speaking Christians; it does not mean the alternatives.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/allah",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-092",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "Which Islamic festival marks the end of Ramadan?",
+    "answers": [
+      "Eid al-Fitr",
+      "Eid al-Adha",
+      "Ashura",
+      "Mawlid"
+    ],
+    "correctIndex": 0,
+    "rationale": "Eid al-Fitr ends the fasting month; the other observances occur for different reasons.",
+    "sourceURL": "https://www.islamic-relief.org.uk/giving/islamic-giving/ramadan/memorable-ways-to-celebrate-eid-with-your-family/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-093",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "In Islamic dietary rules, what does halal mean?",
+    "answers": [
+      "Permitted",
+      "Forbidden",
+      "Always raw",
+      "Always sweet"
+    ],
+    "correctIndex": 0,
+    "rationale": "Halal means lawful or permitted; haram is forbidden and the other terms do not define it.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/halal",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-094",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "What is the role of a muezzin at a mosque?",
+    "answers": [
+      "Calling people to prayer",
+      "Issuing religious legal rulings",
+      "Leading the Friday sermon",
+      "Collecting charitable donations"
+    ],
+    "correctIndex": 0,
+    "rationale": "The muezzin gives the call to prayer; the other duties do not define the role.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/muezzin",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-095",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "According to Islamic tradition, in which language was the Quran originally revealed?",
+    "answers": [
+      "Arabic",
+      "Persian",
+      "Turkish",
+      "Urdu"
+    ],
+    "correctIndex": 0,
+    "rationale": "The Quran was revealed in Arabic; the other languages have translations but are not the original language.",
+    "sourceURL": "https://quran.com/12/2",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-096",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "Which of the Sikh Five Ks is a ceremonial sword?",
+    "answers": [
+      "Kirpan",
+      "Kara",
+      "Kanga",
+      "Kachera"
+    ],
+    "correctIndex": 0,
+    "rationale": "Kirpan names the sword; the other terms name bracelet, comb and shorts respectively.",
+    "sourceURL": "https://www.sikhcoalition.org/wp-content/uploads/2018/05/Sikh-Coalition-Letter-Colorado-Dept-of-Education.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-097",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "What does the word guru mean in a religious context?",
+    "answers": [
+      "A spiritual teacher",
+      "A prayer building",
+      "A ceremonial meal",
+      "A stringed instrument"
+    ],
+    "correctIndex": 0,
+    "rationale": "Guru is a teacher or spiritual guide; the other items are not people.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/guru",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-098",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "Which item of headwear is closely associated with Sikh identity?",
+    "answers": [
+      "A turban",
+      "A mitre",
+      "A zucchetto",
+      "A biretta"
+    ],
+    "correctIndex": 0,
+    "rationale": "Sikh dastar is a turban; the other headwear belongs to different religious roles.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/turban",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-099",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "Which of the Sikh Five Ks is a special undergarment?",
+    "answers": [
+      "Kachera",
+      "Kanga",
+      "Kara",
+      "Kirpan"
+    ],
+    "correctIndex": 0,
+    "rationale": "Kachera is the undergarment; the other terms name comb, bracelet and sword.",
+    "sourceURL": "https://www.sikhcoalition.org/wp-content/uploads/2018/05/Sikh-Coalition-Letter-Colorado-Dept-of-Education.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-36-100",
+    "categoryID": "36",
+    "difficulty": "easy",
+    "prompt": "In Sikh practice, what does seva mean?",
+    "answers": [
+      "Selfless service to others",
+      "A particular style of turban",
+      "A type of ceremonial sword",
+      "A fixed time of daily prayer"
+    ],
+    "correctIndex": 0,
+    "rationale": "Seva concerns voluntary service; the other options do not define it.",
+    "sourceURL": "https://www.sikhcoalition.org/our-work/empowering-the-community/national-day-of-seva/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  }
+]

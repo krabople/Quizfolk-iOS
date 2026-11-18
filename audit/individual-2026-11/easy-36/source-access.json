@@ -1,0 +1,546 @@
+{
+  "date": "2026-11-18",
+  "note": "Retrieval metadata is not an approval. Explicit item-by-item editorial judgments are in the review ledger. Extracts stay private. Failed direct requests retain their failure status; web inspection is stated separately.",
+  "references": [
+    {
+      "url": "https://culturebridge.artsbma.org/resource/quick-guide-to-hindu-deities/",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inspectionMethod": "Direct retrieval blocked; author inspected supporting content via web tool"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/abbess",
+      "sha256": "b9e55202f434da1e51098201ff9ec50d3136facc3e7998d6ff88d90f70e777e5",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/abbot",
+      "sha256": "54f82110caaf2bfd0c2c4c6286e825be14e4429269ba6a0eabb57d53fcd2b1f9",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/agnostic",
+      "sha256": "b23a18529a5a011d6f79cb496e9144378e2600d077f1b32d29319e2ef784b3d7",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/allah",
+      "sha256": "f974df5711cfd125fe5111fc7ab24ab6aeaf0c75087d12e4baf67a477db6a913",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/altar",
+      "sha256": "116d92b09c1e7d573090ef3febb2649be63857aa7f05b5fbf294c71449b65564",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/atheism",
+      "sha256": "eff266ec4f9b77693ebab7eaf649913f1f2772499fd4c873248613fc074687fa",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/bar-mitzvah",
+      "sha256": "3434da3b88aa2e684c2af77264a6da58c0760ce541abfc109221925ebbd72441",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/blessing",
+      "sha256": "77ff597e6846f476906acdb8a19d3bae415fd17285c85c393e5658008d03525c",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/chaplain",
+      "sha256": "c0a0c8cf185556bd413b2b13184b31e9c0ee231c620243c883e67e29cc31a445",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/clergy",
+      "sha256": "598d052f772b7b12f47b54d09af09beaccabca22cd8376e6ef00fb60c82a3549",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/congregation",
+      "sha256": "ae4eeb5e5cd1b8a66449cc8b77230f8baa8595974e1021b490a8ddb77eec270a",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/convent",
+      "sha256": "52a8eea29cb1ec0a4fc30e7f7b37fdfe331b049dc4f09a295d84259f5d80aa2c",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/diwali",
+      "sha256": "7874c6ff8877ae6040d8dcb5d2fffcaf36fcbbd8abf18eb89c3b0899b40b0e92",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/fast",
+      "sha256": "6010c97402984ccfecaa5a282371787dc3aa47aef0f727f6ca399903314b9a61",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/guru",
+      "sha256": "2a9b1e526e3fe7d801a268a5fa74d0cefb75afd7637ac05f35fdf6d5fdee5d4b",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/halal",
+      "sha256": "7b171e880bc5a5bc030803c54a95def2bbbd2a1565193db2c70e73ad69231308",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/hanukkah",
+      "sha256": "fea6908606636bf47edea39aa172af3d907c6eced67f7015db19d8569bac4b45",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/hymn",
+      "sha256": "304daf7fedb702880008cd2a4830c0b9f221799db04472e0dce72c7a483815c5",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/incense",
+      "sha256": "6b65b7f682ffcd5d84fe4d30e0f1c495f2108f9b1715f056aac04cb2d3afa656",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/interfaith",
+      "sha256": "579f1144a682ba69ca0fbc43b7eb80f22636bb318c4bf94482ce042cf4957d44",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/koran",
+      "sha256": "7944935bffda1626570fd0175e93e6fed1edb38577ea862562458662b60848f9",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/laity",
+      "sha256": "7111ca24560f2b93a25a17bea83f78f4910070566b0e561107f6ed02a3654b3d",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/lama",
+      "sha256": "254512dc48076f62d50524d1f5fa0f1c0147ca265c690dc8d6dea447b02c141f",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/mantra",
+      "sha256": "e3d1119e6a9cb4704225c7e7384ef07883dd62cc91d96c7cdd93bdb80877c7e7",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/meditation",
+      "sha256": "d0a1314d9e965e4f1ad80b99e651c7c6a8b7f835c4cddb8d9dc0fbf31518fac8",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/monastery",
+      "sha256": "8c5bfe3cfd3dd59092649110d582f315a83c441502699c4993d32b92ca752c25",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/monotheism",
+      "sha256": "62690b28e8d6b659d6863f20e573a5631de2a44cfa4ff9f7c16a56a0516bb437",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/mosque",
+      "sha256": "2291684b60bbefb42246aa505d30862970db226696e2b1f83cabd04962ad3363",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/muezzin",
+      "sha256": "a8c3e405435fa89058b31628b337d364933ca2bdd48fb3eff3bf3379f8071dd3",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/nirvana",
+      "sha256": "b72cc597a522af7132a5c7b663802c37a730a17cc98a85e559bbadffd62dff4f",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/novice",
+      "sha256": "f621b0f127db297943cc97295078251b3c6d6695e97e6851b98e7fb6a1023679",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/offering",
+      "sha256": "f2e0268f7a0cfc2e472ca4f517160e07eb33f07bf05080b40030d14626524c7f",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/pilgrimage",
+      "sha256": "c0b6f33d69a2457a620fe46cbb0f6f7962d1063ae76fe4add7e59fbaa6bf04e9",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/polytheism",
+      "sha256": "c5f4acf0d267e6b981f8cf99c9980b78ccd9a05d0086988122c159d1def78d69",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/psalm",
+      "sha256": "018960c4b5cf3b446b0e4173e08de568c36c80c21de322a0914ff53a99a8e3aa",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/relic",
+      "sha256": "fcc381222154bd5042859ef5b44e8915a029930dc25a6fa7b512489ce1e77a68",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/rosary",
+      "sha256": "4e4c2d845d6a55a47da4577f87e272d37505e1282a72c67b5c131ee3a6283240",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/scripture",
+      "sha256": "b57031cb10c5de3e27ff8c6d79af1edf2c875d735b5e0345532db0d87cb7d359",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/sermon",
+      "sha256": "5e2f3a047f8785c0019472333a17fba5f1bb4e537147d5a5093538b414def167",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/shabbat",
+      "sha256": "187f72696678f135cffa586f2d98710f1a86e3005f49ce790bf574a0ef2243cd",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/shrine",
+      "sha256": "ed12ad1fe7dec0bca979f9d389a21453f241c4bd50231af6818b90ea81be2c1c",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/star-of-david",
+      "sha256": "449668521f20b425e162f7b5076dca6ab4540de4b4d80b7143c95cfcc8432e7f",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/stupa",
+      "sha256": "5b94686f4235bd1ef00ffaf394125ef2b613afc902533e94d92b724310d38185",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/synagogue",
+      "sha256": "102ea68e907b80d8434b045d9be968c05c7f8c54071b80dfccc89bca54193c89",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/theology",
+      "sha256": "1aec19bbabdd9acb0d4dffd59005e6f536e11f99f2169470de445ddcaa2a5992",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/turban",
+      "sha256": "9801cf5da23c0c79d93d294722419cf71faa6ca4e2b3da41e1415105fec9c4a9",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/worship",
+      "sha256": "3e0de8301a418aaecb4081636c79731c8077bb0bd5c420ca9bdc4f4b13e33a47",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/yarmulke",
+      "sha256": "86dbd4d26c1fe2478ab0a55629a4714a62f108fdf484e09d21fca1606d69e289",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://quran.com/12/2",
+      "sha256": "69e4c71db47b4ad52769b68a8ea5d3d73ca4dcc8ba2d790d85c5103bbf794ae0",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://www.biblegateway.com/passage/?search=1+Kings+3%3A9-12&version=KJV",
+      "sha256": "d60398e00c0c7f588fe7a35f71b24b5c5b5e79bd10b708f54ff8c5005b49475f",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://www.biblegateway.com/passage/?search=1+Samuel+17%3A4-50&version=KJV",
+      "sha256": "625eec3a2c3e3a1c2ec2ba359aba5259f5f3463dc0fc0716a3824ffa265f3137",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://www.biblegateway.com/passage/?search=Daniel+6%3A16-22&version=KJV",
+      "sha256": "f8453bb20f3c78c381e7795f841991a14a18f74aa118fe764dd369548012e33c",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://www.biblegateway.com/passage/?search=Exodus+3%3A1-3&version=KJV",
+      "sha256": "15d1b5ee6519e3ce1a6cae234e4cd783f4e36d1065ab1c31270ea6ebdbbe9579",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://www.biblegateway.com/passage/?search=Exodus+3%3A4-10&version=KJV",
+      "sha256": "df6e9aee9bda6492514811eac64116663db8f5ddef9e434d762499a31a472764",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://www.biblegateway.com/passage/?search=Exodus+31%3A18&version=KJV",
+      "sha256": "0caf3573d6402b0cd636165c4f5263a883bce15c9b81a4675304e89863af1577",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://www.biblegateway.com/passage/?search=Genesis+11%3A7-9&version=KJV",
+      "sha256": "7489c0810358dce16f8a94be04ddaeb1ad9285483abf2b40db5c155a291742f3",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://www.biblegateway.com/passage/?search=Genesis+2%3A8&version=KJV",
+      "sha256": "595289879ced3ed7385a511b52f8b69fa2d13875c4389e28b1771cc581f98deb",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://www.biblegateway.com/passage/?search=Genesis+6%3A13-22&version=KJV",
+      "sha256": "a3c6757785b6727ed4579af6fea0ddb07859e1a598f5713c5b4fd2f956ffa740",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://www.biblegateway.com/passage/?search=Genesis+8%3A11&version=KJV",
+      "sha256": "c8e05bf64a4d22a35124304e1ba5532999f626ade3da0b657d4dca3e2a686afc",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://www.biblegateway.com/passage/?search=Genesis+9%3A13&version=KJV",
+      "sha256": "5ada6ff65dd40c51c1268b0ad180082774ae52c27dcaf8d3861e843bd34e8a3e",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://www.biblegateway.com/passage/?search=John+11%3A43-44&version=KJV",
+      "sha256": "885f0a9d658d1e5b5f0eb5c02a5a53ca789802839b74e5a77c84fbccf5792273",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://www.biblegateway.com/passage/?search=John+20%3A24-29&version=KJV",
+      "sha256": "38b4680dc82b121f89a33e9b30639b89dadd7c0385bc4d3813ca1ef2d566739e",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://www.biblegateway.com/passage/?search=John+6%3A9&version=KJV",
+      "sha256": "460f818afda2efaae9f21feb0f6a55b1d5bf89859e646068878b9b8515b90557",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://www.biblegateway.com/passage/?search=Joshua+6%3A20&version=KJV",
+      "sha256": "7f9cfd95b1ed79f8de7704008c9c47c17f9d297ad451afa3d69cc60fa5b07320",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://www.biblegateway.com/passage/?search=Luke+1%3A30-31&version=KJV",
+      "sha256": "374da4519f186df2b07a09771935b0424f83ea383b7f4962fd6e29ed19924cf1",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://www.biblegateway.com/passage/?search=Luke+10%3A30-35&version=KJV",
+      "sha256": "5342b841da2c40318ec3ec74c3131b35fb910ff9e28dd1fe79b58aa40d8aa864",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://www.biblegateway.com/passage/?search=Luke+15%3A18-24&version=KJV",
+      "sha256": "17fa23f61072da0dd5732cedf68f7c40592a7ef602b532db67f71376009c2b72",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://www.biblegateway.com/passage/?search=Luke+19%3A1-4&version=KJV",
+      "sha256": "78056bb25e9a6d942d49bdbcc0da239720d935f3a84a9fe09ef152f4dd878d6a",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://www.biblegateway.com/passage/?search=Luke+22%3A60-62&version=KJV",
+      "sha256": "87f982b8573a8998b949803b735fa654e043fed43bb25fefb5e24acb76c83be6",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://www.biblegateway.com/passage/?search=Luke+6%3A13&version=KJV",
+      "sha256": "9b5a6e9d88173d945cecb2db203c422cd2c6e742a6fac3bf7ed0938df2e928da",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://www.biblegateway.com/passage/?search=Mark+1%3A9&version=KJV",
+      "sha256": "dfc4e92b3786e2caba99d47073384591deaf2714ba9ae71b65f1778d342d82d8",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://www.biblegateway.com/passage/?search=Matthew+14%3A25&version=KJV",
+      "sha256": "0eae148e5e8fd9fd7c45893499eff00a90419e60a9c72a93670fc3f429a3cf79",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://www.biblegateway.com/passage/?search=Matthew+9%3A9&version=KJV",
+      "sha256": "68c50ac592e7c48b9e4d9190ad8978ebc171ed998f5b8203b893f35bb1c7ccb3",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://www.biblegateway.com/passage/?search=Numbers+26%3A59&version=KJV",
+      "sha256": "0ee77274eaddaf2a7d5f9f2587dc8e67af92d51b5b279661fe5be119602b45f2",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://www.chabad.org/holidays/chanukah/article_cdo/aid/105045/jewish/How-to-Light.htm",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inspectionMethod": "Direct retrieval blocked; author inspected supporting content via web tool"
+    },
+    {
+      "url": "https://www.chabad.org/library/article_cdo/aid/177886/jewish/What-Is-Yom-Kippur.htm",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inspectionMethod": "Direct retrieval blocked; author inspected supporting content via web tool"
+    },
+    {
+      "url": "https://www.chabad.org/library/article_cdo/aid/4837/jewish/Shofar.htm",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inspectionMethod": "Direct retrieval blocked; author inspected supporting content via web tool"
+    },
+    {
+      "url": "https://www.chabad.org/library/article_cdo/aid/5489978/jewish/19-Ritual-Items-Found-in-a-Jewish-Home.htm",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inspectionMethod": "Direct retrieval blocked; author inspected supporting content via web tool"
+    },
+    {
+      "url": "https://www.edu.gov.mb.ca/k12/docs/support/world_religions/buddhism/texts-writings.pdf",
+      "sha256": "9622280dbf7e4f5b905a9c0bddcc8c4a545574230ed3275a21b5dea8170850f5",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://www.hinduamerican.org/blog/5-things-to-know-about-hanuman",
+      "sha256": "b080b6f3600e0242cef5499e775a971c9531d6a1a49cfec7eb1a79c99e80fbc8",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://www.hinduamerican.org/holi",
+      "sha256": "18b4dd989ed6fdad23359c7e87523fef3fecdf408f59072f640f0230bda500bb",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://www.hinduamerican.org/wp-content/uploads/2019/12/WhoHindusWorship.pdf",
+      "sha256": "e17a4817f6fed32e284d30bc467ccc230e33492c4bd63ee85365dfe1c2804703",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://www.holy-bhagavad-gita.org/chapter/2/verse/7",
+      "sha256": "92dd5b5026b260d8e6f8dc85c3fbe56640eaee54b135cfc62ecdc73d3953ca48",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://www.islamic-relief.org.uk/giving/islamic-giving/ramadan/memorable-ways-to-celebrate-eid-with-your-family/",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inspectionMethod": "Direct retrieval blocked; author inspected supporting content via web tool"
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/sangha",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inspectionMethod": "Direct retrieval blocked; author inspected supporting content via web tool"
+    },
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/38273",
+      "status": "fetch_failed",
+      "error": "HTTP Error 429: Too Many Requests",
+      "inspectionMethod": "Direct retrieval blocked; author inspected supporting content via web tool"
+    },
+    {
+      "url": "https://www.sikhcoalition.org/our-work/empowering-the-community/national-day-of-seva/",
+      "sha256": "fee515d3bacb4d35376e0ac79e01dc665a4f83aa47c929391ed7d2249626a403",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://www.sikhcoalition.org/wp-content/uploads/2018/05/Sikh-Coalition-Letter-Colorado-Dept-of-Education.pdf",
+      "sha256": "85ed5e9443713e4532852f89f9b6607f6d0686c45427896f439371e24184dddd",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    },
+    {
+      "url": "https://www.un.org/en/observances/vesak-day",
+      "sha256": "814b266c71f075b4d929f8534d9db17987e79b98f836ac6d1adbba74f4a4f7de",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Author inspected the relevant extracted text"
+    }
+  ]
+}
