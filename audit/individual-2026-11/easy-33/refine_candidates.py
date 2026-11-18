@@ -1,0 +1,47 @@
+"""Replace weak candidates before final review. Does not authorise publication."""
+import json,pathlib
+HERE=pathlib.Path(__file__).parent
+q=json.loads((HERE/'draft.json').read_text(encoding='utf8'))
+rows='''41|A three-digit code uses only 2 and 5. It begins and ends with the same digit, but its middle digit is different. Which code fits?|252|225|255|522|252 alone has matching ends and a different middle; each other option fails one of the explicit conditions.
+51|A robot may move only right or up on a grid. Which destination can it reach from its start?|Two squares right and one up|One square left and one up|Two squares down|One square right and one down|Only a destination with no net left/down displacement is reachable by right/up moves alone.
+52|A marble stays on the table while two empty cups swap positions around it. Does swapping the empty cups move the marble?|No|Yes, to the left cup|Yes, to the right cup|Yes, into both cups|The explicit empty-cup/table distinction means the marble is not carried; replace the ambiguous covered-marble draft entirely.
+53|An open book shows pages 12 and 13. You turn one leaf forward. Which page numbers are now visible?|14 and 15|13 and 14|15 and 16|16 and 17|Turning one leaf replaces both visible pages with the next pair, 14 and 15; normal consecutively numbered book is intended.
+54|A shelf has three boxes marked A, B and C. Exactly one holds a toy. The toy is in a box after A but before C. Which is it?|B|A|C|No box fits|With the stated left-to-right order A,B,C, only B lies strictly between A and C.
+56|Three people can sit on a bench. Bea must sit between Ana and Cy. Which order is allowed, from left to right?|Ana, Bea, Cy|Bea, Ana, Cy|Ana, Cy, Bea|Cy, Ana, Bea|Only Ana,Bea,Cy has Bea in the middle; reversed Cy,Bea,Ana would also work but is not an option.
+57|Which word can be made by rearranging all six letters of SILENT, using each once?|LISTEN|SILVER|LITTER|LISTED|LISTEN has exactly S,I,L,E,N,T; SILVER replaces N/T, LITTER repeats T and R, and LISTED has D not N.
+58|Which option uses all five letters of HEART exactly once?|EARTH|THERE|HEARD|EARNS|EARTH has identical letter multiset; THERE duplicates E and lacks A, HEARD has D not T, EARNS differs.
+59|A notebook costs three coins. You have eight coins and must buy whole notebooks. How many can you buy at most?|Two|Three|Four|Eight|Two cost six and three cost nine, exceeding eight; exact integer budget bound.
+60|Three boxes each contain one of three different objects: a key, a coin and a ring. A has the key. B does not have the ring. What is in C?|The ring|The key|The coin|All three|A uses key; B must then use coin, leaving ring for C.
+61|A two-digit code has different digits. Both digits are even, and the first is greater than the second. Which code fits?|64|46|66|63|64 has two distinct even digits descending; 46 ascends, 66 repeats, 63 contains odd3.
+62|A game piece moves two squares at a time along a numbered line. It starts on 1. Which square can it never land on?|6|3|5|7|Every landing is odd because an even increment preserves oddness; six is even while other targets reachable.
+63|A code must contain exactly one A and exactly one B, in either order, with no other letters. How many codes are possible?|Two|One|Three|Four|Only AB and BA satisfy exactly-one-each; order matters explicitly.
+64|An arrow points right. A mirror reflects left and right but leaves up and down unchanged. Which way does the reflected arrow point?|Left|Right|Up|Down|The stated mirror rule maps right to left, avoiding orientation ambiguity.
+65|A sign alternates OPEN and CLOSED each minute. It shows OPEN at 10:00. What does it show at 10:03?|CLOSED|OPEN|Both words|Neither word|Three one-minute changes give CLOSED,OPEN,CLOSED; exact observation time specified.
+66|A container is labelled EMPTY but holds exactly one ball. Which statement is true?|The label is incorrect|The container has no contents|There must be a second ball|The ball is outside the container|Exactly one ball contradicts EMPTY but entails neither extra contents nor external location.
+67|A small box is inside a large box. A coin is inside the small box. You remove the unopened small box from the large one. Where is the coin?|Inside the small box, outside the large one|Inside both boxes|Outside both boxes|Inside the large box but outside the small one|Containment follows the small box out; coin remains inside it while no longer in large box.
+68|A map has roads A-B, B-C and A-D, with no others. Which town must you pass through to travel from A to C?|B|D|C before leaving A|None|C is connected only to B; every A-to-C route enters via B. Exclude C as an intermediate stop by wording.
+69|A board has squares 1 to 6 in a ring, followed in that order. From square 5, move forward three squares. Where do you land?|2|1|3|6|Steps are 5->6->1->2; wraparound explicitly defined.
+70|Four cards are labelled A, B, C and D. You must choose two different cards and include A. Which pair is not allowed?|B and C|A and B|A and C|A and D|Only B,C lacks the compulsory A; all pairs use different cards.
+71|A prize is in one of three boxes, A, B or C. The statement 'The prize is in A' is false, and 'The prize is not in C' is false. Where is it?|C|A|B|There is no possible box|False not-in-C means in C; A exclusion is consistent; B fails second clue.
+72|Two appointments are at 2 pm and 3 pm. The dentist visit is earlier than the haircut. When is the haircut?|3 pm|2 pm|Both times|Neither time|One event in each of the two slots puts dentist2 and haircut3; specify one appointment per slot in final check.
+76|A hidden number is from 1 to 6. It is even and greater than 4. What is it?|6|2|4|5|Candidate set and both clues uniquely select6; fifthigherbutodd.
+77|A number is one of 14, 24, 34 or 44. Its tens digit is one less than its units digit. Which is it?|34|14|24|44|All units4; tens must3, yielding34. Explicit digits rule supports sole answer.
+78|A lock has a three-digit code. The first and last digits are 4. The middle digit is one less than 4. What is the code?|434|343|444|443|Outer4 and middle3 produce434; all alternatives fail position or subtraction clue.
+79|A two-letter code uses X and Y exactly once each. It must come after XY in alphabetical order. What is it?|YX|XY|XX|YY|Only orders XY,YX; YX alphabetically later; repeated-letter distractors violate supply.
+80|Which three-digit code reads the same forwards and backwards and has 6 in the middle?|262|226|626|266|262 is palindrome with middle6; 626 is palindrome but middle2; other options not palindromes.
+84|Three siblings each have one sister and one brother. How many girls and boys are there?|Two girls and one boy|One girl and two boys|Three girls and no boys|No such group is possible|No three-child group gives each child exactly one sister and one brother: same-sex child would see two opposite-sex or no same-sex. Correct answer needs review and replacement.
+85|A parent and child share the same birthday. The parent is 30 years older today. How much older will the parent be in five years?|30 years|25 years|35 years|60 years|Equal elapsed time preserves the age difference; both ages increase5.
+86|Mina has two brothers. Each brother has exactly one sister. Assuming they all share the same parents, who is that sister?|Mina|A different girl for each brother|Two girls other than Mina|Nobody|Each boy's only sister is Mina, not a new sibling per brother; consistent full-sibling premise.
+89|A photograph shows exactly two people: a mother and her daughter. How many of the two could be mothers?|Both|Only one|Neither|Three|Daughter can also have a child not in picture, so both could be mothers; how many could not must.
+91|Four seats are numbered 1 to 4. Seats 1 and 4 are occupied. A pair of friends needs adjacent empty seats. Which pair can they use?|2 and 3|1 and 2|3 and 4|1 and 4|Only2,3 are both empty and adjacent; ends1,4occupied.
+92|Two shoes make a pair. A shelf has three complete pairs and one extra shoe. How many more shoes are needed to make four pairs?|One|Two|Three|Four|Seven shoes present; one matching extra shoe completes fourth pair. Matching availability needs explicit final wording.
+96|An entry code must be three letters long and contain no repeated letters. Which option fits?|CAT|CAA|CATS|CC|CAT has length3 and distinct letters; CAA repeats, CATS length4, CC length2 and repeated.
+97|Three guests each need one ticket. You have a pair of tickets and one single ticket, all valid. How many extra tickets do you need?|None|One|Two|Three|Pair2+single1=3 covers the three guests; distinguish pair from one ticket.
+98|Two boxes hold four balls each. You may move balls between boxes but add none. Can you put five balls in each box?|No, there are only eight balls|Yes, by moving two balls|Yes, by swapping the boxes|Yes, by moving one ball|Total8 invariant is less than required10; redistribution cannot create balls.
+100|In a race with exactly four finishers and no ties, you finish ahead of two people and behind one. What is your position?|Second|First|Third|Fourth|One ahead fixes rank2; two behind makes total4 and consistent.
+'''
+for line in rows.strip().splitlines():
+ n,prompt,correct,*rest=line.split('|');assert len(rest)==4
+ q[int(n)-1].update(prompt=prompt,answers=[correct,*rest[:3]],rationale=rest[3])
+(HERE/'draft.json').write_text(json.dumps(q,ensure_ascii=False,indent=2)+'\n',encoding='utf8',newline='\n')
+print('Weak candidates replaced; all 100 still await final approval.')

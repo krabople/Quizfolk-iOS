@@ -1,0 +1,16 @@
+{
+  "auditVersion": "2026-11-easy-33-v1",
+  "date": "2026-11-18",
+  "input": 100,
+  "reviewed": 100,
+  "remaining": 0,
+  "errors": [],
+  "complete": true,
+  "publishedCount": 100,
+  "publishedSHA256": "d64b8b07a9fba5e029567e885f3d0aa4a75012f63581e80fd184379df36b85d8",
+  "method": "Individual editorial checks of prompts, all four options, answer uniqueness, grammar, category and source relevance; recorded edits applied and final drafts fingerprint-matched.",
+  "independentReview": false,
+  "sources": [
+    "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+  ]
+}

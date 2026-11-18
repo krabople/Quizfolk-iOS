@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "94fd1622f1ad0fb31bc8",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A red train leaves before a blue train. A green train leaves after the blue train. Which leaves last?",
+    "answers": [
+      "The green train",
+      "The red train",
+      "The blue train",
+      "They all leave together"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "81d4b9e3bd0f29f8f44c",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A queue is Ava, Ben, Cara, Dan, from front to back. Ben leaves. Who is now second?",
+    "answers": [
+      "Ava",
+      "Ben",
+      "Dan",
+      "Cara"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "9ba57bfdace9efbdf5b5",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Four cards read L, M, N, P from left to right. Move P to the left end without changing the others' order. What is now third?",
+    "answers": [
+      "N",
+      "P",
+      "M",
+      "L"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "aaa0b64776fc4ce1ca34",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A stack has a red plate on top of a blue plate, above a green plate. Remove the top plate. Which colour is now on top?",
+    "answers": [
+      "The stack is empty",
+      "Blue",
+      "Red",
+      "Green"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "bd350fa32a3ada5bd555",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A coin is in exactly one of two boxes. The red box is empty. Where is the coin?",
+    "answers": [
+      "In the other box",
+      "In the red box",
+      "In both boxes",
+      "In neither box"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "841eb70e7716da97572c",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "I have exactly two keys: silver and brass. Only one opens a lock. The silver key does not open it. Which key does?",
+    "answers": [
+      "Silver",
+      "Both",
+      "Neither",
+      "Brass"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "9e837e62192378faeda2",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A door can be open only while its light is green. The door is open now. What must be true?",
+    "answers": [
+      "The light is off",
+      "The light is flashing blue",
+      "The light is green",
+      "The light is red"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "4417a806eceaf759853a",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A lamp is on if and only if a switch is up. The switch is down. What is the lamp's state?",
+    "answers": [
+      "It cannot be determined",
+      "Off",
+      "On",
+      "It must flash"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "596762342737106a5858",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A route must use either the bridge or the tunnel. The bridge is closed. Which route remains possible?",
+    "answers": [
+      "The tunnel",
+      "The bridge",
+      "Both routes",
+      "Neither route"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "8d3b313d7aabb7ea0dad",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Maya owns exactly one pet, either a rabbit or a turtle. It is not a turtle. What is it?",
+    "answers": [
+      "A turtle",
+      "Both animals",
+      "Neither animal",
+      "A rabbit"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "82213786b5108c14062a",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Every package with a red sticker is fragile. This package has a red sticker. What follows?",
+    "answers": [
+      "It has no sticker",
+      "It must be empty",
+      "It is fragile",
+      "It is not fragile"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "90253e7daf1e8d0ed6a9",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Every ticket in this drawer is entirely blue. A ticket is entirely yellow. What can you conclude?",
+    "answers": [
+      "The drawer is empty",
+      "It is not in this drawer",
+      "It is definitely in this drawer",
+      "It must be blue too"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "e1ceeb7b43a2e2024abe",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "No wooden blocks in a set are round. This block from the set is round. What follows?",
+    "answers": [
+      "It is not wooden",
+      "It is wooden",
+      "It must be red",
+      "It must be the largest block"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "5dd7e39595386dbdd58b",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Every member of a team wears a badge. Alex is a member. What must Alex wear?",
+    "answers": [
+      "A hat",
+      "A scarf",
+      "A uniform jacket",
+      "A badge"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "22376872db1978bbbf5b",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Some library volunteers are students. Every student has a locker. What must be true?",
+    "answers": [
+      "No volunteer has a locker",
+      "Every locker belongs to a volunteer",
+      "At least one volunteer has a locker",
+      "Every volunteer has a locker"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "e94187b0a886f4bb120d",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Whenever a bell is ringing, a red lamp is lit. The lamp is dark right now. What must be true?",
+    "answers": [
+      "The bell is broken",
+      "The bell is not ringing",
+      "The bell is ringing",
+      "A blue lamp is lit"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "893b68eee3bcce5be2ca",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A café serves tea or coffee with each breakfast, never both. Pat's breakfast includes tea. Does it also include coffee?",
+    "answers": [
+      "No",
+      "Yes, always",
+      "Only if the tea is hot",
+      "There is not enough information"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "fbbf9c51a3ba916075ba",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Exactly one of three doors, A, B and C, is unlocked. A and C are locked. Which is unlocked?",
+    "answers": [
+      "A",
+      "C",
+      "All three",
+      "B"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "c162f72a4e5902cc88ab",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "There are only apples and pears in a bowl. Every apple has been removed. At least one fruit remains. What must remain?",
+    "answers": [
+      "Oranges",
+      "Bananas",
+      "Pears",
+      "Apples"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "d9c4d04c1be69ce4f3e8",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A bag holds only circles and squares. You take out a shape that is not a circle. What is it?",
+    "answers": [
+      "A pentagon",
+      "A square",
+      "A triangle",
+      "A rectangle that is not a square"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "b665b39dcb43efd12403",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Four runners finish without ties: Jo ahead of Kim, Kim ahead of Lee, and Lee ahead of Mo. Who finishes second?",
+    "answers": [
+      "Kim",
+      "Jo",
+      "Lee",
+      "Mo"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "9821b08a1a1f81171f18",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Ava stands immediately behind Ben and immediately ahead of Cara. Who stands between the other two?",
+    "answers": [
+      "Ben",
+      "Cara",
+      "Nobody",
+      "Ava"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "4ce6bc1882766c63ba74",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A shelf has exactly three books. Art is left of Music; Music is left of Travel. Which is at the right end?",
+    "answers": [
+      "Music",
+      "There is no book at the right end",
+      "Travel",
+      "Art"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "a3f4f61f228cc71c068e",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Three boxes have different weights. Blue is heavier than red, and red is heavier than yellow. Which is lightest?",
+    "answers": [
+      "All weigh the same",
+      "Yellow",
+      "Red",
+      "Blue"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "d1695e7070e5934361ab",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Nia arrives before Omar. Pia arrives before Nia. Who arrives first among these three?",
+    "answers": [
+      "Pia",
+      "Nia",
+      "Omar",
+      "They arrive together"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "2099fe2c092f74898769",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Five beads are in the order red, blue, green, yellow, white. Which bead has exactly two beads on each side?",
+    "answers": [
+      "Blue",
+      "Yellow",
+      "White",
+      "Green"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "10d7d85d4e6245a981f6",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A queue contains four people. Sam joins at the back. Nobody leaves. What is Sam's position from the front?",
+    "answers": [
+      "Third",
+      "Sixth",
+      "Fifth",
+      "Fourth"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "879ef2c6634284bc12c0",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "In a queue, you are third from the front and second from the back. How many people are there?",
+    "answers": [
+      "Six",
+      "Four",
+      "Three",
+      "Five"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "00edbda7d80776a2014c",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A row reads A, B, C, D, E. Swap B and D. Which letter is immediately right of C?",
+    "answers": [
+      "B",
+      "A",
+      "D",
+      "E"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "733440bc8f29913172ef",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A red cube is below a blue cube. A green cube is above that blue cube. Which cube is in the middle of these three?",
+    "answers": [
+      "Red",
+      "Green",
+      "None of them",
+      "Blue"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "1ef1063af53be7fe3c71",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "You face east and make one quarter-turn to your left. Which direction do you face?",
+    "answers": [
+      "East",
+      "West",
+      "North",
+      "South"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "511513999631d5461aa9",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "You face south and turn halfway around. Which direction do you face?",
+    "answers": [
+      "West",
+      "North",
+      "East",
+      "South"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "4ca112e8371dc127bda6",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "You face west and make two quarter-turns to your right. Which way do you face?",
+    "answers": [
+      "East",
+      "North",
+      "South",
+      "West"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "dd1313a411651f4a3c46",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "You walk three equal steps north, then three equal steps south along the same line. Where do you finish?",
+    "answers": [
+      "Three steps north of it",
+      "Six steps south of it",
+      "Three steps east of it",
+      "At the starting point"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "e8b695caeead4019c304",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "On a square map, the library is directly east of the school. Which direction is the school from the library?",
+    "answers": [
+      "North",
+      "South",
+      "West",
+      "East"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "b4261675579e61f8d445",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A toy car points north. Rotate it a quarter-turn clockwise, then another quarter-turn clockwise. Where does it point?",
+    "answers": [
+      "West",
+      "South",
+      "North",
+      "East"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "c93ff8bfb33358656077",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A token moves one square up, one right, one down and one left on a grid. Where is it now?",
+    "answers": [
+      "On its starting square",
+      "One square above the start",
+      "One square right of the start",
+      "Two squares below the start"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "2e54857d746c8cb51693",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A clock's minute hand points at 12. Move it clockwise by a quarter-circle. Which number does it point at?",
+    "answers": [
+      "6",
+      "9",
+      "12",
+      "3"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "30ecddcce95ca0df2937",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "You face north. A person stands directly behind you. In which compass direction are they?",
+    "answers": [
+      "East",
+      "West",
+      "South",
+      "North"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "34aae34d2d23366bb4dc",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A row of arrows is up, right, down, left. Rotate every arrow a half-turn. What does the second arrow become?",
+    "answers": [
+      "Down",
+      "Left",
+      "Up",
+      "Right"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "cd8fdd29e472459f305b",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A three-digit code uses only 2 and 5. It begins and ends with the same digit, but its middle digit is different. Which code fits?",
+    "answers": [
+      "252",
+      "225",
+      "255",
+      "522"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "fe8acea43b8621be4dc1",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A machine doubles its input, then adds 1. You put in 3. What comes out?",
+    "answers": [
+      "6",
+      "8",
+      "9",
+      "7"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "0ab8905f61726bf6e0a6",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A code changes A to 1, B to 2 and C to 3. What does BCA become?",
+    "answers": [
+      "312",
+      "213",
+      "231",
+      "123"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "2f0bd74e9d876083f794",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A rule repeats red, blue, red, blue, forever. What is the seventh colour?",
+    "answers": [
+      "Yellow",
+      "Red",
+      "Blue",
+      "Green"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "1dc16b072f3ad9bd97a5",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A sequence starts at 5 and adds 2 each time. What is its third number?",
+    "answers": [
+      "9",
+      "7",
+      "10",
+      "11"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "0175ed56d0e63297bc46",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A sequence starts at 12 and subtracts 4 each time. What is its fourth number?",
+    "answers": [
+      "4",
+      "8",
+      "16",
+      "0"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "d0740de09720510e3482",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A code swaps every A for B and every B for A. What does ABBA become?",
+    "answers": [
+      "BBAA",
+      "AABB",
+      "BAAB",
+      "ABAB"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "50b4437f34dabbc620a2",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Reverse the order of the three words in 'cats chase mice', leaving each word unchanged. What do you get?",
+    "answers": [
+      "cats mice chase",
+      "mice chase cats",
+      "stac esahc ecim",
+      "chase cats mice"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "3720d29c0f4785d6e56b",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A rule says 'write the last letter first, then the others in their original order'. What does FROG become?",
+    "answers": [
+      "GFRO",
+      "GORF",
+      "ROGF",
+      "FGRO"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "f750e8a51d801584d421",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A machine halves a number. Its output is 6. What number went in?",
+    "answers": [
+      "3",
+      "6",
+      "18",
+      "12"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "adf09c1adcd48fbcf332",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A robot may move only right or up on a grid. Which destination can it reach from its start?",
+    "answers": [
+      "Two squares down",
+      "One square right and one down",
+      "Two squares right and one up",
+      "One square left and one up"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "e26cb9b95bf5c1be6ede",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Cups A, B and C stand left to right. A marble stays under the leftmost cup. Swap only the labels A and C, keeping the cups still. Which label is above the marble?",
+    "answers": [
+      "None of them",
+      "C",
+      "A",
+      "B"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "e45f1475f721ac5171ea",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A book has consecutively numbered pages. Open, it shows pages 12 and 13. Turn one leaf forward. Which pages are now visible?",
+    "answers": [
+      "14 and 15",
+      "13 and 14",
+      "15 and 16",
+      "16 and 17"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "304f57ae3054cf242e1c",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Three boxes stand left to right in the order A, B, C. Exactly one holds a toy, after A but before C. Which box holds it?",
+    "answers": [
+      "A",
+      "C",
+      "No box fits",
+      "B"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "0dd8ba07d6c336303a0f",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "You have three pairs of gloves, with one left and one right glove in each pair. How many gloves do you have?",
+    "answers": [
+      "Four",
+      "Nine",
+      "Six",
+      "Three"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "1350fa207442b49d6cbc",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Three people can sit on a bench. Bea must sit between Ana and Cy. Which order is allowed, from left to right?",
+    "answers": [
+      "Cy, Ana, Bea",
+      "Ana, Bea, Cy",
+      "Bea, Ana, Cy",
+      "Ana, Cy, Bea"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "14c3df461dfa9ff92195",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Which word can be made by rearranging all six letters of SILENT, using each once?",
+    "answers": [
+      "LISTEN",
+      "SILVER",
+      "LITTER",
+      "LISTED"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "64e324e6bbcf9c938fa1",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Which option uses all five letters of HEART exactly once?",
+    "answers": [
+      "THERE",
+      "HEARD",
+      "EARNS",
+      "EARTH"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "b040272509e38df855ec",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A notebook costs three coins. You have eight coins and must buy whole notebooks. How many can you buy at most?",
+    "answers": [
+      "Four",
+      "Eight",
+      "Two",
+      "Three"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "5275a1993c77f72356c4",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Three boxes each contain one of three different objects: a key, a coin and a ring. A has the key. B does not have the ring. What is in C?",
+    "answers": [
+      "All three",
+      "The ring",
+      "The key",
+      "The coin"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "4610c099379f4273384b",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A two-digit code has different digits. Both digits are even, and the first is greater than the second. Which code fits?",
+    "answers": [
+      "64",
+      "46",
+      "66",
+      "63"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "9fca9fc02198ea511489",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A game piece moves two squares at a time along a numbered line. It starts on 1. Which square can it never land on?",
+    "answers": [
+      "3",
+      "5",
+      "7",
+      "6"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "b7476a54adfc1e4df0bc",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A code must contain exactly one A and exactly one B, in either order, with no other letters. How many codes are possible?",
+    "answers": [
+      "Three",
+      "Four",
+      "Two",
+      "One"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "0c8264c5679a166b5d85",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "An arrow points right. A mirror reflects left and right but leaves up and down unchanged. Which way does the reflected arrow point?",
+    "answers": [
+      "Down",
+      "Left",
+      "Right",
+      "Up"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "c7c875cb131b488ea385",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A sign alternates OPEN and CLOSED each minute. It shows OPEN at 10:00. What does it show at 10:03?",
+    "answers": [
+      "CLOSED",
+      "OPEN",
+      "Both words",
+      "Neither word"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "2b0247c1293f17048d71",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A container is labelled EMPTY but holds exactly one ball. Which statement is true?",
+    "answers": [
+      "The container has no contents",
+      "There must be a second ball",
+      "The ball is outside the container",
+      "The label is incorrect"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "0bdd038d953e36436a6f",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A small box is inside a large box. A coin is inside the small box. You remove the unopened small box from the large one. Where is the coin?",
+    "answers": [
+      "Outside both boxes",
+      "Inside the large box but outside the small one",
+      "Inside the small box, outside the large one",
+      "Inside both boxes"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "03228dc79a69576cd649",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A map has roads A-B, B-C and A-D, with no others. Which town must be an intermediate stop when travelling from A to C?",
+    "answers": [
+      "None",
+      "B",
+      "D",
+      "A"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "59f827670035ba5b7f9b",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A board has squares 1 to 6 in a ring, followed in that order. From square 5, move forward three squares. Where do you land?",
+    "answers": [
+      "2",
+      "1",
+      "3",
+      "6"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "f6fc8be2e98149742415",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Four cards are labelled A, B, C and D. You must choose two different cards and include A. Which pair is not allowed?",
+    "answers": [
+      "A and B",
+      "A and C",
+      "A and D",
+      "B and C"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "85b3a89f126eef95cd55",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A prize is in one of three boxes, A, B or C. The statement 'The prize is in A' is false, and 'The prize is not in C' is false. Where is it?",
+    "answers": [
+      "B",
+      "There is no possible box",
+      "C",
+      "A"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "68ba7cf0c381d8f0fc2b",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A dentist visit and a haircut occupy the 2 pm and 3 pm slots, one appointment per slot. The dentist is earlier. When is the haircut?",
+    "answers": [
+      "Neither time",
+      "3 pm",
+      "2 pm",
+      "Both times"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "5a7c0a536ad4e49603be",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Two people choose different fruits from apple and pear, one fruit each. Lia chooses pear. What does Max choose?",
+    "answers": [
+      "Apple",
+      "Pear",
+      "Both",
+      "Neither"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "a7ab3ca7ea30aff0001d",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Ada, Bo and Cy have one hat each: red, blue and green, all different. Ada has red and Bo has green. What colour is Cy's hat?",
+    "answers": [
+      "Red",
+      "Green",
+      "Yellow",
+      "Blue"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "673d45cd38bada5b677b",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Three bags hold a book, a ball and a bell, one object each. Bag A has the bell; bag B has the book. What is in bag C?",
+    "answers": [
+      "The bell",
+      "All three objects",
+      "The ball",
+      "The book"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "d8e754bb4846f1e89bcc",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A hidden number is from 1 to 6. It is even and greater than 4. What is it?",
+    "answers": [
+      "5",
+      "6",
+      "2",
+      "4"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "3c062c00d1c17076bca2",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A number is one of 14, 24, 34 or 44. Its tens digit is one less than its units digit. Which is it?",
+    "answers": [
+      "34",
+      "14",
+      "24",
+      "44"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "3fba65837054b6420a96",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A lock has a three-digit code. The first and last digits are 4. The middle digit is one less than 4. What is the code?",
+    "answers": [
+      "343",
+      "444",
+      "443",
+      "434"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "7365f407ebc826bcd411",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A two-letter code uses X and Y exactly once each. It must come after XY in alphabetical order. What is it?",
+    "answers": [
+      "XX",
+      "YY",
+      "YX",
+      "XY"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "fe38e0cbe64adba4674f",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Which three-digit code reads the same forwards and backwards and has 6 in the middle?",
+    "answers": [
+      "266",
+      "262",
+      "226",
+      "626"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "e5d993f54d1f7cd28b33",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Anna is Bella's mother. Bella is Chris's mother. How is Anna related to Chris?",
+    "answers": [
+      "Grandmother",
+      "Sister",
+      "Aunt",
+      "Daughter"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "b197060e2557e4469d36",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Leo and Mina have the same two parents. Leo is a boy and Mina is a girl. How is Mina related to Leo?",
+    "answers": [
+      "Mother",
+      "Aunt",
+      "Daughter",
+      "Sister"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "6ddb7bb1c19046f67bb0",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Omar is Pia's father. Pia is a girl. How is Pia related to Omar?",
+    "answers": [
+      "Sister",
+      "Grandmother",
+      "Daughter",
+      "Mother"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "c4dab159482f45c8f8f7",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A family has exactly three children, all with the same parents. Each would need exactly one sister and one brother. Which group is possible?",
+    "answers": [
+      "Three girls and no boys",
+      "No such group is possible",
+      "Two girls and one boy",
+      "One girl and two boys"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "cbe213196d03d04e82fb",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A parent and child share the same birthday. The parent is 30 years older today. How much older will the parent be in five years?",
+    "answers": [
+      "30 years",
+      "25 years",
+      "35 years",
+      "60 years"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "3f680334124ae1f0bd27",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Mina has two brothers. Each brother has exactly one sister. Assuming they all share the same parents, who is that sister?",
+    "answers": [
+      "A different girl for each brother",
+      "Two girls other than Mina",
+      "Nobody",
+      "Mina"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "91d6d15bb2c7fc9eeca2",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Rosa is Sam's sister. Sam is Tom's father. How is Rosa related to Tom?",
+    "answers": [
+      "Mother",
+      "Daughter",
+      "Aunt",
+      "Sister"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "e379f37994faf1244b41",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Eli is Finn's son. Finn is Gia's son. How is Eli related to Gia?",
+    "answers": [
+      "Uncle",
+      "Grandson",
+      "Father",
+      "Brother"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "f9c51769f603119412a2",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A photograph shows exactly two people: a mother and her daughter. What is the greatest number of these two who could be mothers?",
+    "answers": [
+      "Two",
+      "One",
+      "Zero",
+      "Three"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "008ea40f17d7b5b8a7a6",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "June is Kai's daughter. Kai is Lee's brother. What is June to Lee?",
+    "answers": [
+      "A nephew",
+      "A mother",
+      "A grandmother",
+      "A niece"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "92b895f0509acf83c31a",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Four seats are numbered 1 to 4. Seats 1 and 4 are occupied. A pair of friends needs adjacent empty seats. Which pair can they use?",
+    "answers": [
+      "3 and 4",
+      "1 and 4",
+      "2 and 3",
+      "1 and 2"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "591f34807bf74c02a3b3",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A shelf has three complete pairs of shoes and one extra shoe. How many matching shoes must you add to make four complete pairs?",
+    "answers": [
+      "Four",
+      "One",
+      "Two",
+      "Three"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "1803b85ebce7067826c7",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "A calendar marker starts on Tuesday. Move it forward one day, then back two days. Where does it end?",
+    "answers": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "acc38ab5f21396361c56",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Yesterday was Sunday. What day is tomorrow?",
+    "answers": [
+      "Monday",
+      "Sunday",
+      "Wednesday",
+      "Tuesday"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "89887073d8f600f4b8ec",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "In a game, every move to a higher-numbered square is allowed, and no other move is. You are on square 5. Which move is allowed?",
+    "answers": [
+      "To square 5",
+      "To square 2",
+      "To square 8",
+      "To square 4"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "69b6655598217a441ef1",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "An entry code must be three letters long and contain no repeated letters. Which option fits?",
+    "answers": [
+      "CC",
+      "CAT",
+      "CAA",
+      "CATS"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "a15f4dbba473ecde4699",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Three guests each need one ticket. You have a pair of tickets and one single ticket, all valid. How many extra tickets do you need?",
+    "answers": [
+      "None",
+      "One",
+      "Two",
+      "Three"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "0b7375a0d21ef9409cf8",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "Two boxes hold four balls each. You may move balls between boxes but add none. Can you put five balls in each box?",
+    "answers": [
+      "Yes, by moving two balls",
+      "Yes, by swapping the boxes",
+      "Yes, by moving one ball",
+      "No, there are only eight balls"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "c55c11581411bb7b36df",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "You have a red pen, a blue pen and a green pen. You lend out every pen except the blue one. Which pen do you keep?",
+    "answers": [
+      "Green",
+      "None",
+      "Blue",
+      "Red"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  },
+  {
+    "id": "a5de2bf022c5517b1f4c",
+    "categoryID": "33",
+    "difficulty": "easy",
+    "prompt": "In a race with exactly four finishers and no ties, you finish ahead of two people and behind one. What is your position?",
+    "answers": [
+      "Fourth",
+      "Second",
+      "First",
+      "Third"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-33-v1"
+  }
+]

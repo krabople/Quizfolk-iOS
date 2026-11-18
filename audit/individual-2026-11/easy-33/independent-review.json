@@ -1,0 +1,1067 @@
+{
+  "reviewer": "root (author second editorial pass)",
+  "independent": false,
+  "sourceAccessNote": "These are newly authored, self-contained reasoning problems. Every problem and four options were checked individually by working through the supplied rules; this is not a retrieval-based or independent approval. Weak first drafts were rewritten, the ambiguous cup puzzle replaced, temporal implications made simultaneous, book/slot/order premises specified, a mistyped code fixed and the impossible sibling puzzle answer corrected. The exact final specification is linked as original provenance; no external fact source is invented.",
+  "rows": [
+    {
+      "row": 1,
+      "action": "edit",
+      "prompt": "A red train leaves before a blue train. A green train leaves after the blue train. Which leaves last?",
+      "note": "Red before blue before green uniquely puts green last. Red/blue cannot be last and together contradicts before/after. Three-train scope clear.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 2,
+      "action": "edit",
+      "prompt": "A queue is Ava, Ben, Cara, Dan, from front to back. Ben leaves. Who is now second?",
+      "note": "Delete Ben from Ava,Ben,Cara,Dan: Ava,Cara,Dan. Cara second; Ben no longer in queue, Ava first and Dan third. Front/back direction explicit.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 3,
+      "action": "edit",
+      "prompt": "Four cards read L, M, N, P from left to right. Move P to the left end without changing the others' order. What is now third?",
+      "note": "Moving P to front yields P,L,M,N. Third M, not L,N,P. Preserve remaining order is explicit; no reversal assumption.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 4,
+      "action": "edit",
+      "prompt": "A stack has a red plate on top of a blue plate, above a green plate. Remove the top plate. Which colour is now on top?",
+      "note": "Remove red from top-to-bottom red,blue,green: blue remains atop green. Not empty; red removed and green lower. Plate and colour referents clear.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 5,
+      "action": "edit",
+      "prompt": "A coin is in exactly one of two boxes. The red box is empty. Where is the coin?",
+      "note": "Exactly one of two boxes holds coin; red empty forces other. Red/both/neither violate the stated constraints. Simple elimination, no hidden extra box.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 6,
+      "action": "edit",
+      "prompt": "I have exactly two keys: silver and brass. Only one opens a lock. The silver key does not open it. Which key does?",
+      "note": "Only one of silver/brass works; silver fails, so brass works. Both and neither contradict exactly one. No assumption about a third key.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 7,
+      "action": "edit",
+      "prompt": "A door can be open only while its light is green. The door is open now. What must be true?",
+      "note": "Green is a necessary condition while the door is open. Tighten temporal wording so an earlier green light changing later cannot invalidate inference. Red/off/blue fail the explicit current-state rule.",
+      "recommendedChanges": {
+        "prompt": "A door can be open only while its light is green. The door is open now. What must be true?",
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 8,
+      "action": "edit",
+      "prompt": "A lamp is on if and only if a switch is up. The switch is down. What is the lamp's state?",
+      "note": "On iff up makes down imply off. On, blinking and unknown do not satisfy the two-state equivalence. Input specifies down rather than a third switch setting.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 9,
+      "action": "edit",
+      "prompt": "A route must use either the bridge or the tunnel. The bridge is closed. Which route remains possible?",
+      "note": "Bridge/tunnel are exhaustive route alternatives, bridge excluded. Tunnel remains the possible choice; no claim it has been independently confirmed open. Both/neither/bridge fail available facts.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 10,
+      "action": "edit",
+      "prompt": "Maya owns exactly one pet, either a rabbit or a turtle. It is not a turtle. What is it?",
+      "note": "Exactly one rabbit or turtle, not turtle, leaves rabbit. Both and neither contradict one pet; no inference about biology required.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 11,
+      "action": "edit",
+      "prompt": "Every package with a red sticker is fragile. This package has a red sticker. What follows?",
+      "note": "Red sticker implies fragile; named parcel has sticker, therefore fragile. Non-fragile contradicts rule; empty and no-sticker do not follow. Universal conditional correctly applied.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 12,
+      "action": "edit",
+      "prompt": "Every ticket in this drawer is entirely blue. A ticket is entirely yellow. What can you conclude?",
+      "note": "Make ticket colours entirely blue versus entirely yellow to exclude a multicoloured ticket. Yellow cannot be a drawer member; no conclusion drawer empty. Other options unsupported.",
+      "recommendedChanges": {
+        "prompt": "Every ticket in this drawer is entirely blue. A ticket is entirely yellow. What can you conclude?",
+        "answers": [
+          "It is not in this drawer",
+          "It is definitely in this drawer",
+          "It must be blue too",
+          "The drawer is empty"
+        ],
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 13,
+      "action": "edit",
+      "prompt": "No wooden blocks in a set are round. This block from the set is round. What follows?",
+      "note": "No wooden round blocks plus this block round implies not wooden. Colour and size unrestricted; wooden contradicts rule. Set membership explicitly included.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 14,
+      "action": "edit",
+      "prompt": "Every member of a team wears a badge. Alex is a member. What must Alex wear?",
+      "note": "Team membership implies badge; Alex member implies badge. Hat/scarf/jacket unrequired. What must be worn is distinct from what could also be worn.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 15,
+      "action": "edit",
+      "prompt": "Some library volunteers are students. Every student has a locker. What must be true?",
+      "note": "At least one volunteer is student and all students have lockers, so at least one volunteer has locker. Simplify ambiguous 'in that group'. All volunteers and ownership of every locker do not follow; none contradicts overlap.",
+      "recommendedChanges": {
+        "prompt": "Some library volunteers are students. Every student has a locker. What must be true?",
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 16,
+      "action": "edit",
+      "prompt": "Whenever a bell is ringing, a red lamp is lit. The lamp is dark right now. What must be true?",
+      "note": "Use simultaneous ringing/lit state rather than ambiguous past event. Dark lamp means bell not currently ringing; does not establish earlier events, blue lamp or broken bell. Contrapositive is valid.",
+      "recommendedChanges": {
+        "prompt": "Whenever a bell is ringing, a red lamp is lit. The lamp is dark right now. What must be true?",
+        "answers": [
+          "The bell is not ringing",
+          "The bell is ringing",
+          "A blue lamp is lit",
+          "The bell is broken"
+        ],
+        "rationale": "Bell ringing implies red lamp lit at that time. The currently dark lamp excludes a currently ringing bell; it says nothing about earlier ringing or a fault.",
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 17,
+      "action": "edit",
+      "prompt": "A café serves tea or coffee with each breakfast, never both. Pat's breakfast includes tea. Does it also include coffee?",
+      "note": "Exactly tea or coffee, never both; tea excludes coffee. Temperature irrelevant and information sufficient. No follows from the explicit mutually exclusive breakfast rule.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 18,
+      "action": "edit",
+      "prompt": "Exactly one of three doors, A, B and C, is unlocked. A and C are locked. Which is unlocked?",
+      "note": "Name the three doors A,B,C explicitly. A/C locked and exactly one unlocked selects B. All-three contradicts exactly-one; no unnamed door loophole.",
+      "recommendedChanges": {
+        "prompt": "Exactly one of three doors, A, B and C, is unlocked. A and C are locked. Which is unlocked?",
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 19,
+      "action": "edit",
+      "prompt": "There are only apples and pears in a bowl. Every apple has been removed. At least one fruit remains. What must remain?",
+      "note": "Only apples/pears; apples all removed; nonempty remainder consists of pears. Other fruit types disallowed and apples excluded. At least one avoids empty-bowl ambiguity.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 20,
+      "action": "edit",
+      "prompt": "A bag holds only circles and squares. You take out a shape that is not a circle. What is it?",
+      "note": "Only circles/squares and not circle forces square. Non-square rectangle explicitly excludes square; triangle and pentagon outside allowed types. Four options distinct.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 21,
+      "action": "edit",
+      "prompt": "Four runners finish without ties: Jo ahead of Kim, Kim ahead of Lee, and Lee ahead of Mo. Who finishes second?",
+      "note": "Jo<Kim<Lee<Mo yields Kim second. Other names occupy positions1,3,4. No ties specified and no additional runners implied by four runners.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 22,
+      "action": "edit",
+      "prompt": "Ava stands immediately behind Ben and immediately ahead of Cara. Who stands between the other two?",
+      "note": "Ben,Ava,Cara follows immediate behind/ahead clues. Ava between both. Ben/Cara are endpoints; nobody contradicts placement. Spatial order is fully defined.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 23,
+      "action": "edit",
+      "prompt": "A shelf has exactly three books. Art is left of Music; Music is left of Travel. Which is at the right end?",
+      "note": "Exactly three books and Art<Music<Travel puts Travel rightmost. Art/Music have books to their right. No-book option contradicts three-book shelf.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 24,
+      "action": "edit",
+      "prompt": "Three boxes have different weights. Blue is heavier than red, and red is heavier than yellow. Which is lightest?",
+      "note": "Blue heavier than red heavier than yellow makes yellow lightest. Other colours heavier; all equal contradicts inequalities. Weights need no numerical assumption.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 25,
+      "action": "edit",
+      "prompt": "Nia arrives before Omar. Pia arrives before Nia. Who arrives first among these three?",
+      "note": "Pia before Nia before Omar makes Pia first among three. Together contradicts before; other people not relevant due among-these-three scope.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 26,
+      "action": "edit",
+      "prompt": "Five beads are in the order red, blue, green, yellow, white. Which bead has exactly two beads on each side?",
+      "note": "Green at position3 in five has two on each side. Blue has1/3, yellow3/1, white4/0. Order and equal bead-count condition checked.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 27,
+      "action": "edit",
+      "prompt": "A queue contains four people. Sam joins at the back. Nobody leaves. What is Sam's position from the front?",
+      "note": "Four already queued plus Sam at back puts Sam fifth. Other positions imply departure/insertion not stated. Nobody leaves closes that loophole.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 28,
+      "action": "edit",
+      "prompt": "In a queue, you are third from the front and second from the back. How many people are there?",
+      "note": "Two ahead plus self plus one behind equals4. Three double-counts incorrectly, five/six too large. From-front and from-back rankings include the same person.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 29,
+      "action": "edit",
+      "prompt": "A row reads A, B, C, D, E. Swap B and D. Which letter is immediately right of C?",
+      "note": "Swap B,D in A,B,C,D,E gives A,D,C,B,E. Immediately right of C is B; A/D/E are elsewhere. Swap is simultaneous, not overwrite.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 30,
+      "action": "edit",
+      "prompt": "A red cube is below a blue cube. A green cube is above that blue cube. Which cube is in the middle of these three?",
+      "note": "Red below blue below green gives blue middle. Red/green are extremes and none conflicts with three-cube relation. Scope only these three.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 31,
+      "action": "edit",
+      "prompt": "You face east and make one quarter-turn to your left. Which direction do you face?",
+      "note": "Left quarter-turn from east is north. South is right, west half-turn and east no turn. Compass orientation and turn size clear.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 32,
+      "action": "edit",
+      "prompt": "You face south and turn halfway around. Which direction do you face?",
+      "note": "Half-turn south to north regardless of clockwise/anticlockwise choice. East/west are quarter-turns and south unchanged. No rotation ambiguity.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 33,
+      "action": "edit",
+      "prompt": "You face west and make two quarter-turns to your right. Which way do you face?",
+      "note": "Two right quarter-turns west->north->east. North is one turn, south is left turn and west unchanged. Each turn explicitly quarter.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 34,
+      "action": "edit",
+      "prompt": "You walk three equal steps north, then three equal steps south along the same line. Where do you finish?",
+      "note": "Equal steps north and south on same line cancel. Net position start; other displacement options wrong. Equal-length premise avoids stride-length assumption.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 35,
+      "action": "edit",
+      "prompt": "On a square map, the library is directly east of the school. Which direction is the school from the library?",
+      "note": "If library east of school, school west of library. East reverses incorrectly; north/south perpendicular. Map directional relationship is explicit.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 36,
+      "action": "edit",
+      "prompt": "A toy car points north. Rotate it a quarter-turn clockwise, then another quarter-turn clockwise. Where does it point?",
+      "note": "North->east->south through two clockwise quarter-turns. East intermediate only, north initial and west not on route. Toy rotation defined.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 37,
+      "action": "edit",
+      "prompt": "A token moves one square up, one right, one down and one left on a grid. Where is it now?",
+      "note": "Up/right/down/left forms closed unit square; starting square. Other displacements fail cancellation. No boundary or obstruction is stated for grid moves.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 38,
+      "action": "edit",
+      "prompt": "A clock's minute hand points at 12. Move it clockwise by a quarter-circle. Which number does it point at?",
+      "note": "Clock minute hand 12 plus clockwise quarter-circle lands3. Six half-circle, nine anticlockwise quarter and12 full/no turn. Ordinary numbered clock implied by prompt.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 39,
+      "action": "edit",
+      "prompt": "You face north. A person stands directly behind you. In which compass direction are they?",
+      "note": "Behind a north-facing person is south. North ahead and east/west sides. Directly removes diagonal position possibilities.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 40,
+      "action": "edit",
+      "prompt": "A row of arrows is up, right, down, left. Rotate every arrow a half-turn. What does the second arrow become?",
+      "note": "Second arrow starts right; half-turn makes left. Up/down quarter-turns; right unchanged. Transform each separately, not reorder list.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 41,
+      "action": "edit",
+      "prompt": "A three-digit code uses only 2 and 5. It begins and ends with the same digit, but its middle digit is different. Which code fits?",
+      "note": "252 alone has same end digits and different middle, drawn only from2/5. 225 ends differ,255 ends differ,522 ends differ. Fully stated code rule replaces plain addition draft.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 42,
+      "action": "edit",
+      "prompt": "A machine doubles its input, then adds 1. You put in 3. What comes out?",
+      "note": "Double3 then add1 gives7. Six omits addition,8 reverses operations and9 neither. Ordered machine rule prevents guessed-pattern ambiguity.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 43,
+      "action": "edit",
+      "prompt": "A code changes A to 1, B to 2 and C to 3. What does BCA become?",
+      "note": "BCA maps2,3,1 ->231. Other permutations wrong. All mapping entries needed are supplied; numeric string does not lose leading zero.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 44,
+      "action": "edit",
+      "prompt": "A rule repeats red, blue, red, blue, forever. What is the seventh colour?",
+      "note": "Specified alternating red/blue rule makes seventh red. Blue even positions; green/yellow excluded. Explicit forever rule avoids underdetermined sequence complaint.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 45,
+      "action": "edit",
+      "prompt": "A sequence starts at 5 and adds 2 each time. What is its third number?",
+      "note": "Specified add2 rule yields5,7,9. Seven second,11fourth,10not generated. Third includes initial term as first, normal sequence convention.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 46,
+      "action": "edit",
+      "prompt": "A sequence starts at 12 and subtracts 4 each time. What is its fourth number?",
+      "note": "Specified subtract4 gives12,8,4,0. Four third,eight second,16not generated. Fourth is zero; not a free pattern guess.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 47,
+      "action": "edit",
+      "prompt": "A code swaps every A for B and every B for A. What does ABBA become?",
+      "note": "Simultaneous substitutions yieldBAAB. ABAB,BBAA,AABB differ at some positions. Wording swaps every letter, not a sequential destructive replace operation.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 48,
+      "action": "edit",
+      "prompt": "Reverse the order of the three words in 'cats chase mice', leaving each word unchanged. What do you get?",
+      "note": "Reverse word order only: mice chase cats. Reversed letters and other permutations fail instructions. All supplied words remain intact and lower-case as source.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 49,
+      "action": "edit",
+      "prompt": "A rule says 'write the last letter first, then the others in their original order'. What does FROG become?",
+      "note": "FROG last letterG moved beforeFRO givesGFRO. GORF reverses,ROGF rotates wrong,FGRO different. Fix distractor 'FGR O' accidental space; arbitrary code strings need not form English words.",
+      "recommendedChanges": {
+        "answers": [
+          "GFRO",
+          "GORF",
+          "ROGF",
+          "FGRO"
+        ],
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 50,
+      "action": "edit",
+      "prompt": "A machine halves a number. Its output is 6. What number went in?",
+      "note": "Input/2=6 gives12. Three reverses operation wrongly,6unchanged,18would output9. Inverse reasoning and explicit halves rule checked.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 51,
+      "action": "edit",
+      "prompt": "A robot may move only right or up on a grid. Which destination can it reach from its start?",
+      "note": "Right/up moves allow net two right/one up. Every other option requires net left/down, impossible without such allowed moves. Empty infinite grid implicit; no obstacles asserted.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 52,
+      "action": "edit",
+      "prompt": "Cups A, B and C stand left to right. A marble stays under the leftmost cup. Swap only the labels A and C, keeping the cups still. Which label is above the marble?",
+      "note": "Replace ambiguous cup-motion scenario. Cups and marble stay still; only A/C labels swap, leaving C over marble on left. A moves to rightmost label; B middle; none wrong. Correct option changed to C with explanatory rationale.",
+      "recommendedChanges": {
+        "prompt": "Cups A, B and C stand left to right. A marble stays under the leftmost cup. Swap only the labels A and C, keeping the cups still. Which label is above the marble?",
+        "answers": [
+          "C",
+          "A",
+          "B",
+          "None of them"
+        ],
+        "rationale": "The marble and cup remain in the leftmost position. Only the labels move, so that cup now has label C.",
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 53,
+      "action": "edit",
+      "prompt": "A book has consecutively numbered pages. Open, it shows pages 12 and 13. Turn one leaf forward. Which pages are now visible?",
+      "note": "Normal consecutive book pages12/13 become14/15 after one leaf.13/14 overlap,15/16 shifted oddly,16/17 skips leaf. Explicit consecutive numbering added to exclude inserts/skipped pagination.",
+      "recommendedChanges": {
+        "prompt": "A book has consecutively numbered pages. Open, it shows pages 12 and 13. Turn one leaf forward. Which pages are now visible?",
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 54,
+      "action": "edit",
+      "prompt": "Three boxes stand left to right in the order A, B, C. Exactly one holds a toy, after A but before C. Which box holds it?",
+      "note": "Add explicit left-to-right A,B,C. Strictly afterA beforeC selectsB; endpoints fail. None wrong because B valid. Removes unstated shelf-order assumption.",
+      "recommendedChanges": {
+        "prompt": "Three boxes stand left to right in the order A, B, C. Exactly one holds a toy, after A but before C. Which box holds it?",
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 55,
+      "action": "edit",
+      "prompt": "You have three pairs of gloves, with one left and one right glove in each pair. How many gloves do you have?",
+      "note": "Three pairs each two gloves gives6;3counts pairs,4/9incorrect. Handedness explicitly one left/right each; no missing gloves or wearer assumption.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 56,
+      "action": "edit",
+      "prompt": "Three people can sit on a bench. Bea must sit between Ana and Cy. Which order is allowed, from left to right?",
+      "note": "Ana,Bea,Cy sole offered order with Bea between. Other options put Ana or Cy in middle. Reverse valid order exists generally but is not a second offered answer; options uniqueness checked.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 57,
+      "action": "edit",
+      "prompt": "Which word can be made by rearranging all six letters of SILENT, using each once?",
+      "note": "LISTEN exactly permutes SILENT. SILVER containsV/R notN/T; LITTER repeatsT and hasR; LISTED substitutesD forN. Each letter occurrence counted, not just membership.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 58,
+      "action": "edit",
+      "prompt": "Which option uses all five letters of HEART exactly once?",
+      "note": "EARTH is multiset HEART. THERE has twoEs/noA; HEARD hasD/noT; EARNS hasN/S insteadH/T. All answer strings standard words and exactly one anagram.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 59,
+      "action": "edit",
+      "prompt": "A notebook costs three coins. You have eight coins and must buy whole notebooks. How many can you buy at most?",
+      "note": "Budget8, unitprice3: two cost6, three cost9, so max2. Four/eight farther over budget. Whole notebooks explicit to exclude fractions.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 60,
+      "action": "edit",
+      "prompt": "Three boxes each contain one of three different objects: a key, a coin and a ring. A has the key. B does not have the ring. What is in C?",
+      "note": "A key uses key; B notring and cannotduplicatekey means Bcoin, Cring. Key/coin/all-three inC violate one-each constraints. Distinct objects and one per box clear.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 61,
+      "action": "edit",
+      "prompt": "A two-digit code has different digits. Both digits are even, and the first is greater than the second. Which code fits?",
+      "note": "64 distinct even digits descending.46ascending,66notdistinct,63odd digit. All three constraints stated; solely correct code no inferred pattern.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 62,
+      "action": "edit",
+      "prompt": "A game piece moves two squares at a time along a numbered line. It starts on 1. Which square can it never land on?",
+      "note": "Starting1 with +2 repeatedly reaches odd3,5,7, nevereven6. All distractor odd targets reachable. Forward moves intended; even if backwards allowed parity still excludes6.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 63,
+      "action": "edit",
+      "prompt": "A code must contain exactly one A and exactly one B, in either order, with no other letters. How many codes are possible?",
+      "note": "Exactly oneA and oneB yields AB,BA, two ordered strings. One omits arrangement,3/4include illegal codes. Either-order phrase makes order relevant.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 64,
+      "action": "edit",
+      "prompt": "An arrow points right. A mirror reflects left and right but leaves up and down unchanged. Which way does the reflected arrow point?",
+      "note": "Explicit reflection maps right to left and holds up/down. Right unchanged violates rule; up/downnotmapping. Avoid relying on unspecified physical mirror placement.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 65,
+      "action": "edit",
+      "prompt": "A sign alternates OPEN and CLOSED each minute. It shows OPEN at 10:00. What does it show at 10:03?",
+      "note": "OPEN10:00,CLOSED10:01,OPEN10:02,CLOSED10:03. Both/neither not allowed display states. Alternates once per minute; endpoints and three changes checked.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 66,
+      "action": "edit",
+      "prompt": "A container is labelled EMPTY but holds exactly one ball. Which statement is true?",
+      "note": "One ball inside contradicts EMPTY label. No-contents/secondball/outside statements contradict or are unsupported. Label can be false without requiring all real-world labels truthful.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 67,
+      "action": "edit",
+      "prompt": "A small box is inside a large box. A coin is inside the small box. You remove the unopened small box from the large one. Where is the coin?",
+      "note": "Coin remains in unopened small box, carried outside large box. Other containment alternatives fail one part. No dropping/moving coin separately allowed by stated actions.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 68,
+      "action": "edit",
+      "prompt": "A map has roads A-B, B-C and A-D, with no others. Which town must be an intermediate stop when travelling from A to C?",
+      "note": "C's sole road is B-C, so B must be intermediate. D dead-end, A start rather than necessary intermediate, none false. Tighten prompt/options to distinguish passing through from starting town.",
+      "recommendedChanges": {
+        "prompt": "A map has roads A-B, B-C and A-D, with no others. Which town must be an intermediate stop when travelling from A to C?",
+        "answers": [
+          "B",
+          "D",
+          "A",
+          "None"
+        ],
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 69,
+      "action": "edit",
+      "prompt": "A board has squares 1 to 6 in a ring, followed in that order. From square 5, move forward three squares. Where do you land?",
+      "note": "Ring1..6 then back1; from5 steps6,1,2. Other numeric options one/two/four steps away. Explicit ring order supplies wrap rule.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 70,
+      "action": "edit",
+      "prompt": "Four cards are labelled A, B, C and D. You must choose two different cards and include A. Which pair is not allowed?",
+      "note": "B,C lacks compulsoryA. A,B/A,C/A,D each satisfy two distinct cards withA. Pair order irrelevant but all offered pairs distinct.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 71,
+      "action": "edit",
+      "prompt": "A prize is in one of three boxes, A, B or C. The statement 'The prize is in A' is false, and 'The prize is not in C' is false. Where is it?",
+      "note": "False 'notinC' means inC; false 'inA' is consistent. A/B conflict with second clue; no-possible false becauseCworks. Two false claims can both hold without liar-paradox assumptions.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 72,
+      "action": "edit",
+      "prompt": "A dentist visit and a haircut occupy the 2 pm and 3 pm slots, one appointment per slot. The dentist is earlier. When is the haircut?",
+      "note": "Explicit one appointment per2/3pm slot; dentist earlier2, haircut3. Both/neither invalid and2belongsdentist. Adds assignment constraint rather than assuming bookings are one per slot.",
+      "recommendedChanges": {
+        "prompt": "A dentist visit and a haircut occupy the 2 pm and 3 pm slots, one appointment per slot. The dentist is earlier. When is the haircut?",
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 73,
+      "action": "edit",
+      "prompt": "Two people choose different fruits from apple and pear, one fruit each. Lia chooses pear. What does Max choose?",
+      "note": "Two different fruits one each: Lia pear leaves Max apple. Pear duplicates, both/neither violate one-each. Names and pronouns unambiguous.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 74,
+      "action": "edit",
+      "prompt": "Ada, Bo and Cy have one hat each: red, blue and green, all different. Ada has red and Bo has green. What colour is Cy's hat?",
+      "note": "Ada red,Bo green leaves Cy blue from all-different three colours. Red/greenused,yellowoutside supply. Each has exactly one hat.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 75,
+      "action": "edit",
+      "prompt": "Three bags hold a book, a ball and a bell, one object each. Bag A has the bell; bag B has the book. What is in bag C?",
+      "note": "BellA and bookB leave ballC. Book/bellrepeat and all-threeviolates one-per-bag. Distinct spelling book/ball/bell increases attention but remains readable.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 76,
+      "action": "edit",
+      "prompt": "A hidden number is from 1 to 6. It is even and greater than 4. What is it?",
+      "note": "Among1..6 even and >4 only6.2/4fail inequality,5odd. Both clues needed and all options in range.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 77,
+      "action": "edit",
+      "prompt": "A number is one of 14, 24, 34 or 44. Its tens digit is one less than its units digit. Which is it?",
+      "note": "Units4 and tens one less=>3, so34.14/24differences3/2,44difference0. Digit relation clear, not numeric value difference.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 78,
+      "action": "edit",
+      "prompt": "A lock has a three-digit code. The first and last digits are 4. The middle digit is one less than 4. What is the code?",
+      "note": "First/last4,middle3=>434.343wrongends,444middlewrong,443lastwrong. Full length and positions stated.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 79,
+      "action": "edit",
+      "prompt": "A two-letter code uses X and Y exactly once each. It must come after XY in alphabetical order. What is it?",
+      "note": "UsingX,Yonce givesXY,YX; onlyYXcomesafterXY. XX/YYillegal andXYnotafteritself. Ordinary alphabet ordering of supplied uppercaseletters sufficient.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 80,
+      "action": "edit",
+      "prompt": "Which three-digit code reads the same forwards and backwards and has 6 in the middle?",
+      "note": "262 palindrome withmiddle6.226and266notpalindromes;626palindrome butmiddle2. Both constraints used; all options three digits.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 81,
+      "action": "edit",
+      "prompt": "Anna is Bella's mother. Bella is Chris's mother. How is Anna related to Chris?",
+      "note": "Anna mother of Bella, Bella mother of Chris=>grandmother. Sister/aunt/daughter are not stated relation. Direct line of descent explicit.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 82,
+      "action": "edit",
+      "prompt": "Leo and Mina have the same two parents. Leo is a boy and Mina is a girl. How is Mina related to Leo?",
+      "note": "Same two parents makes Leo/Mina siblings; Mina girl=>sister. Mother/aunt/daughter not the relation established. No adoption/half-sibling caveats needed under given premises.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 83,
+      "action": "edit",
+      "prompt": "Omar is Pia's father. Pia is a girl. How is Pia related to Omar?",
+      "note": "Pia girl and Omar's child=>daughter. Mother/sister/grandmother reverse or change relation. Prompt direction 'Pia related to Omar' checked.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 84,
+      "action": "edit",
+      "prompt": "Three siblings each have one sister and one brother. How many girls and boys are there?",
+      "note": "Original candidate had wrong keyed answer; correct to no-such-group. Two girls/oneboy fails forboy, onegirl/twoboys fails forgirl, threegirlsfailsbrother condition. Threeboys also fails, so no three-child sex-count assignment works for every sibling. Exact one sister/brother reading retained.",
+      "recommendedChanges": {
+        "prompt": "A family has exactly three children, all with the same parents. Each would need exactly one sister and one brother. Which group is possible?",
+        "answers": [
+          "No such group is possible",
+          "Two girls and one boy",
+          "One girl and two boys",
+          "Three girls and no boys"
+        ],
+        "rationale": "With three siblings, two girls and one boy gives the boy two sisters and no brother; one girl and two boys gives the girl two brothers and no sister. Three of the same sex also fails. No arrangement gives every child one sister and one brother.",
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 85,
+      "action": "edit",
+      "prompt": "A parent and child share the same birthday. The parent is 30 years older today. How much older will the parent be in five years?",
+      "note": "Both age byfive, difference remains30.25/35mistakenly age only one;60doublesdifference. Same birthday handles integer-age-boundary ambiguity.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 86,
+      "action": "edit",
+      "prompt": "Mina has two brothers. Each brother has exactly one sister. Assuming they all share the same parents, who is that sister?",
+      "note": "Each brother's single sister is Mina. Different girls/twoothergirls would add sisters and nobody contradicts Mina. Same parents plus exact-one-sister rules exclude separate half-sibling families.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 87,
+      "action": "edit",
+      "prompt": "Rosa is Sam's sister. Sam is Tom's father. How is Rosa related to Tom?",
+      "note": "FatherSam's sisterRosa is Tom's aunt. Sister/mother/daughternotthisrelation. No need Tom's sex to identify an aunt.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 88,
+      "action": "edit",
+      "prompt": "Eli is Finn's son. Finn is Gia's son. How is Eli related to Gia?",
+      "note": "Finn sonofGia,Eli sonofFinn gives Gia's grandson. Father/brother/uncle wronggenerationaldirection. Son explicitly specifiesmale.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 89,
+      "action": "edit",
+      "prompt": "A photograph shows exactly two people: a mother and her daughter. What is the greatest number of these two who could be mothers?",
+      "note": "Mother and daughter can both be mothers because daughter's child can be off-camera. Change to greatest number and numeric options: max2.1mayactuallyoccur but is notmaximum;0contradictsmother;3exceedspicturedpeople.",
+      "recommendedChanges": {
+        "prompt": "A photograph shows exactly two people: a mother and her daughter. What is the greatest number of these two who could be mothers?",
+        "answers": [
+          "Two",
+          "One",
+          "Zero",
+          "Three"
+        ],
+        "rationale": "The daughter may also have her own child outside the photograph. Both pictured people could be mothers, so the maximum is two, not necessarily only one.",
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 90,
+      "action": "edit",
+      "prompt": "June is Kai's daughter. Kai is Lee's brother. What is June to Lee?",
+      "note": "Kai brotherofLee andJune daughterofKai=>Lee's niece. Nephewwrongsex,mother/grandmotherwronggeneration. Lee's sex irrelevant.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 91,
+      "action": "edit",
+      "prompt": "Four seats are numbered 1 to 4. Seats 1 and 4 are occupied. A pair of friends needs adjacent empty seats. Which pair can they use?",
+      "note": "Only2,3empty andadjacent.1,2and3,4includeoccupiedend;1,4bothoccupiedandnonadjacent. Fourconsecutive seatnumbers explicit.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 92,
+      "action": "edit",
+      "prompt": "A shelf has three complete pairs of shoes and one extra shoe. How many matching shoes must you add to make four complete pairs?",
+      "note": "Threepairs+extra=seven shoes; one matching shoe completesfourthpair. Add matching wording rather than allowing arbitrary nonmatching purchase. Two/three/fourmore exceed minimum required.",
+      "recommendedChanges": {
+        "prompt": "A shelf has three complete pairs of shoes and one extra shoe. How many matching shoes must you add to make four complete pairs?",
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 93,
+      "action": "edit",
+      "prompt": "A calendar marker starts on Tuesday. Move it forward one day, then back two days. Where does it end?",
+      "note": "Tuesdayforward1Wednesday,back2Monday. Otherweekdaysnotnetminus1. Calendar marker statesdaysteps, not dates/monthboundaries.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 94,
+      "action": "edit",
+      "prompt": "Yesterday was Sunday. What day is tomorrow?",
+      "note": "YesterdaySunday=>todayMonday=>tomorrowTuesday. Mondaytoday,Sundayyesterday,Wednesdaydayaftertomorrow. Similar old relative-day puzzle asks a different relationship and result, not exact duplicate.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 95,
+      "action": "edit",
+      "prompt": "In a game, every move to a higher-numbered square is allowed, and no other move is. You are on square 5. Which move is allowed?",
+      "note": "Make sufficiency explicit: everyhigherdestinationallowed and no others.8>5;4/2lower,5equalnotallowed. Original only-if wording alone could permit extra unstated restrictions.",
+      "recommendedChanges": {
+        "prompt": "In a game, every move to a higher-numbered square is allowed, and no other move is. You are on square 5. Which move is allowed?",
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 96,
+      "action": "edit",
+      "prompt": "An entry code must be three letters long and contain no repeated letters. Which option fits?",
+      "note": "CATlength3distinctletters. CAArepeatsA,CATSlength4,CC length2/repeats. Both conditions necessary; lowercase/uppercase consistent.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 97,
+      "action": "edit",
+      "prompt": "Three guests each need one ticket. You have a pair of tickets and one single ticket, all valid. How many extra tickets do you need?",
+      "note": "Pair2+single1=3validtickets for3guests. Noneextra; otheranswersovercount. Each requiresone; pairnotoneitemforticketcount.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 98,
+      "action": "edit",
+      "prompt": "Two boxes hold four balls each. You may move balls between boxes but add none. Can you put five balls in each box?",
+      "note": "Total8balls invariant; fivein eachrequires10. Everyyesoptionredistributesbutcannotcreate2missing. At-mostcapacitynotinvoked; simpleconservationpuzzle.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 99,
+      "action": "edit",
+      "prompt": "You have a red pen, a blue pen and a green pen. You lend out every pen except the blue one. Which pen do you keep?",
+      "note": "Exceptblue means red/greenlent, bluekept. Red/greenwrong,nonewrong. Scope threepens exactlylisted, no hiddenoriginalpensneeded.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    },
+    {
+      "row": 100,
+      "action": "edit",
+      "prompt": "In a race with exactly four finishers and no ties, you finish ahead of two people and behind one. What is your position?",
+      "note": "Onefinisheraheadmeanssecond; twobehindwithfourtotalconsistent. Firsthasnoneahead,thirdhastwoahead,fourthhasthreeahead. Completefinishingandnotiesexplicit.",
+      "recommendedChanges": {
+        "sourceURL": "https://github.com/krabople/Quizfolk-iOS/blob/main/audit/individual-2026-11/easy-33/draft.json"
+      },
+      "sourceReview": "Original self-contained puzzle, checked by solving its stated premises and comparing all four options. No external factual assertion is required; the source link identifies the final original problem specification. Author second pass, not independent review."
+    }
+  ]
+}
