@@ -1,0 +1,1493 @@
+{
+  "reviewer": "root (author second editorial pass)",
+  "independent": false,
+  "sourceAccessNote": "100 individually considered items. Placeholder rationales replaced with actual per-item decisions, civic distractors improved, parliamentary references substituted where dictionary senses were missing or too broad. Impeachment distinguished from removal; absolute majority from plurality; federalism checked with National Archives; missing head-of-government/absolute-monarchy/spoiled-ballot entries replaced with verified concrete questions. Private extracts remain private; indexed or web inspection distinguished from direct retrieval.",
+  "rows": [
+    {
+      "row": 1,
+      "prompt": "In politics, what does suffrage mean?",
+      "action": "edit",
+      "note": "Suffrage is voting right. Tax powers, military service and currency issue not synonyms. Election scope explicit, ordinary British wording correct; actual dictionary suffrage definition inspected.",
+      "recommendedChanges": {
+        "rationale": "Suffrage is voting right. Tax powers, military service and currency issue not synonyms. Election scope explicit, ordinary British wording correct; actual dictionary suffrage definition inspected."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 2,
+      "prompt": "What is a referendum?",
+      "action": "edit",
+      "note": "Referendum direct public question vote, not cabinet-only vote, judicial ruling or internal party leadership ballot. Improve distractors to real civic procedures. No claim all referendums are legally binding.",
+      "recommendedChanges": {
+        "answers": [
+          "A direct public vote on a particular question",
+          "A vote held only by cabinet ministers",
+          "A court ruling on a disputed law",
+          "A private vote to elect a party leader"
+        ],
+        "rationale": "Referendum direct public question vote, not cabinet-only vote, judicial ruling or internal party leadership ballot. Improve distractors to real civic procedures. No claim all referendums are legally binding."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 3,
+      "prompt": "What is a ballot paper used for in an election?",
+      "action": "edit",
+      "note": "Ballot-paper sense records voter's choice. Policy document, final results and expense return different documents. Read paper sense rather than investment-share allotment sense; apostrophe voter's correct.",
+      "recommendedChanges": {
+        "answers": [
+          "Recording a voter's choice",
+          "Listing the policies of every party",
+          "Showing the final result of the count",
+          "Recording a candidate's campaign expenses"
+        ],
+        "rationale": "Ballot-paper sense records voter's choice. Policy document, final results and expense return different documents. Read paper sense rather than investment-share allotment sense; apostrophe voter's correct."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 4,
+      "prompt": "Where do voters go to cast their votes in person on election day?",
+      "action": "edit",
+      "note": "Polling station is in-person voting place. Constituency surgery,cabinet,selection meeting not election-day voting site. No claim postal/proxy voters must attend; wording explicitly in person.",
+      "recommendedChanges": {
+        "answers": [
+          "A polling station",
+          "A constituency surgery",
+          "A cabinet meeting",
+          "A party selection meeting"
+        ],
+        "rationale": "Polling station is in-person voting place. Constituency surgery,cabinet,selection meeting not election-day voting site. No claim postal/proxy voters must attend; wording explicitly in person."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 5,
+      "prompt": "What does a political party's election manifesto usually set out?",
+      "action": "edit",
+      "note": "Manifesto sets policies/plans. Vote counts,confidential minutes,electoral roll different records. Usually permits parties publishing other material; possessive party's correct.",
+      "recommendedChanges": {
+        "answers": [
+          "Its policies and plans if elected",
+          "The final vote count in every constituency",
+          "A confidential record of cabinet discussions",
+          "A list of all eligible voters"
+        ],
+        "rationale": "Manifesto sets policies/plans. Vote counts,confidential minutes,electoral roll different records. Usually permits parties publishing other material; possessive party's correct."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 6,
+      "prompt": "What is an incumbent politician?",
+      "action": "edit",
+      "note": "Incumbent currently holds office. Vote counter,previous runner-up,reporter not definition. Relevant elected-position sense checked among duty/business meanings. Does not mean automatically seeking re-election.",
+      "recommendedChanges": {
+        "answers": [
+          "The person currently holding a particular office",
+          "The person selected to count votes",
+          "The candidate who finished second last time",
+          "The person reporting election news"
+        ],
+        "rationale": "Incumbent currently holds office. Vote counter,previous runner-up,reporter not definition. Relevant elected-position sense checked among duty/business meanings. Does not mean automatically seeking re-election."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 7,
+      "prompt": "What is a coalition government?",
+      "action": "edit",
+      "note": "Coalition joins parties in governing. No-minister,banned-election,courts-only alternatives wrong. Two or more permits more than two and does not confuse minority single-party administration with coalition.",
+      "recommendedChanges": {
+        "rationale": "Coalition joins parties in governing. No-minister,banned-election,courts-only alternatives wrong. Two or more permits more than two and does not confuse minority single-party administration with coalition."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 8,
+      "prompt": "In a parliamentary system, what is the main role of the opposition?",
+      "action": "edit",
+      "note": "Opposition scrutiny/challenge is a key role. It does not implement government's entire programme,act as judiciary or appoint all civil servants. Key role replaces main to avoid oversimplifying multiple legitimate functions.",
+      "recommendedChanges": {
+        "prompt": "In a parliamentary system, which is a key role of the opposition?",
+        "answers": [
+          "Challenging and scrutinising the government",
+          "Implementing the government's entire programme",
+          "Acting as the country's highest court",
+          "Appointing every civil servant"
+        ],
+        "rationale": "Opposition scrutiny/challenge is a key role. It does not implement government's entire programme,act as judiciary or appoint all civil servants. Key role replaces main to avoid oversimplifying multiple legitimate functions."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 9,
+      "prompt": "In government, what is a cabinet?",
+      "action": "edit",
+      "note": "Cabinet senior ministers, not judiciary,electorate or foreign diplomatic corps. Political noun sense rather than furniture. Size and membership vary, so no universal number specified.",
+      "recommendedChanges": {
+        "answers": [
+          "A group of senior ministers",
+          "All the judges in the highest court",
+          "All the registered voters in one district",
+          "A group of foreign ambassadors"
+        ],
+        "rationale": "Cabinet senior ministers, not judiciary,electorate or foreign diplomatic corps. Political noun sense rather than furniture. Size and membership vary, so no universal number specified."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 10,
+      "prompt": "In an election, what is a constituency?",
+      "action": "edit",
+      "note": "Constituency area electing representative. Budget,treaty,amendment list not geographic electoral units. Read area sense as well as voter/group meanings; question in an election supplies context.",
+      "recommendedChanges": {
+        "answers": [
+          "An area whose voters elect a representative",
+          "A government's annual spending plan",
+          "A formal agreement between countries",
+          "A list of proposed changes to a bill"
+        ],
+        "rationale": "Constituency area electing representative. Budget,treaty,amendment list not geographic electoral units. Read area sense as well as voter/group meanings; question in an election supplies context."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 11,
+      "prompt": "In an election, who is a candidate?",
+      "action": "edit",
+      "note": "Candidate seeks election. Supervisor,voter,reporter different roles; a candidate may also vote but a voter merely having voted does not define candidacy. Remove only-retired-judge distractor.",
+      "recommendedChanges": {
+        "answers": [
+          "Someone seeking election to office",
+          "The official supervising the count",
+          "A voter who has already voted",
+          "A reporter announcing the result"
+        ],
+        "rationale": "Candidate seeks election. Supervisor,voter,reporter different roles; a candidate may also vote but a voter merely having voted does not define candidacy. Remove only-retired-judge distractor."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 12,
+      "prompt": "What are campaigners doing when they canvass voters?",
+      "action": "edit",
+      "note": "Canvassing seeks support/opinions. Counting votes,boundary setting,swearing-in different acts. Dictionary supports support and survey senses; not canvas fabric spelling.",
+      "recommendedChanges": {
+        "answers": [
+          "Seeking their support or opinions",
+          "Counting completed ballot papers",
+          "Drawing constituency boundaries",
+          "Swearing elected members into office"
+        ],
+        "rationale": "Canvassing seeks support/opinions. Counting votes,boundary setting,swearing-in different acts. Dictionary supports support and survey senses; not canvas fabric spelling."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 13,
+      "prompt": "When is an exit poll conducted?",
+      "action": "edit",
+      "note": "Exit poll asks after vote as voters leave. Before ballot or candidate announcement wrong; only-after-final-count not exit polling. Change after voters leave to as they leave for precise timing.",
+      "recommendedChanges": {
+        "answers": [
+          "As voters leave the polling station after voting",
+          "Before the names of the candidates are announced",
+          "Only after the final official count is complete",
+          "Before a voter has cast a ballot"
+        ],
+        "rationale": "Exit poll asks after vote as voters leave. Before ballot or candidate announcement wrong; only-after-final-count not exit polling. Change after voters leave to as they leave for precise timing."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 14,
+      "prompt": "What does an opinion poll try to measure?",
+      "action": "edit",
+      "note": "Opinion poll samples views. It is not official complete count,certainty about future or cabinet membership. No claim sample is invariably representative or prediction accurate.",
+      "recommendedChanges": {
+        "answers": [
+          "The views of a sample of people",
+          "The official final count of every vote",
+          "The exact outcome of every future election",
+          "Only the membership of the cabinet"
+        ],
+        "rationale": "Opinion poll samples views. It is not official complete count,certainty about future or cabinet membership. No claim sample is invariably representative or prediction accurate."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 15,
+      "prompt": "What does bipartisan cooperation involve?",
+      "action": "edit",
+      "note": "Bipartisan means two parties/both sides. No-party government,one-party-only cooperation,court merger not meaning. Does not require parties to merge or govern together.",
+      "recommendedChanges": {
+        "answers": [
+          "Cooperation between two political parties",
+          "A government formed without political parties",
+          "Cooperation restricted to one party's members",
+          "The merger of two courts"
+        ],
+        "rationale": "Bipartisan means two parties/both sides. No-party government,one-party-only cooperation,court merger not meaning. Does not require parties to merge or govern together."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 16,
+      "prompt": "What is a hung parliament?",
+      "action": "edit",
+      "note": "Hung parliament means no single-party overall majority, not empty seats,one chamber or one party owning every seat. Parliamentary rather than furniture meaning; remove sitting-outdoors joke option.",
+      "recommendedChanges": {
+        "answers": [
+          "A parliament in which no party has an overall majority",
+          "A parliament in which every seat is vacant",
+          "A parliament with a single chamber",
+          "A parliament in which one party holds every seat"
+        ],
+        "rationale": "Hung parliament means no single-party overall majority, not empty seats,one chamber or one party owning every seat. Parliamentary rather than furniture meaning; remove sitting-outdoors joke option."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 17,
+      "prompt": "What is a UK parliamentary by-election normally held to do?",
+      "action": "edit",
+      "note": "UK by-election fills vacancy between generals. Monarch and Supreme Court judges not elected this way; all-MP election is general. Normally qualifies uncontested/administrative edge cases without changing central meaning.",
+      "recommendedChanges": {
+        "rationale": "UK by-election fills vacancy between generals. Monarch and Supreme Court judges not elected this way; all-MP election is general. Normally qualifies uncontested/administrative edge cases without changing central meaning."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 18,
+      "prompt": "In UK politics, what does devolution involve?",
+      "action": "edit",
+      "note": "UK devolution transfers powers away from centre to territorial institutions; reverse centralisation,privatisation,state merger distinct. Parliament glossary consulted because generic dictionary central-to-local wording too broad for precise UK devolved governments.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.parliament.uk/site-information/glossary/devolution/",
+        "answers": [
+          "Transferring powers from central government to governments in parts of the country",
+          "Transferring powers from regional governments back to the centre",
+          "Transferring ownership of public businesses to private investors",
+          "Merging several countries into one state"
+        ],
+        "rationale": "UK devolution transfers powers away from centre to territorial institutions; reverse centralisation,privatisation,state merger distinct. Parliament glossary consulted because generic dictionary central-to-local wording too broad for precise UK devolved governments."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 19,
+      "prompt": "What is a central feature of federalism?",
+      "action": "edit",
+      "note": "Federalism shares/divides authority among national and constituent levels. Only-local,no-national-authority and obligatory direct referendum not definitions. National Archives school lesson explicitly defines divided responsibilities; supersedes oversimplified dictionary first definition.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.archives.gov/legislative/resources/education/federalism",
+        "answers": [
+          "Power is divided between a national government and constituent states or regions",
+          "All governing powers belong exclusively to local councils",
+          "All decisions must be made by direct referendum",
+          "The national government has no authority of its own"
+        ],
+        "rationale": "Federalism shares/divides authority among national and constituent levels. Only-local,no-national-authority and obligatory direct referendum not definitions. National Archives school lesson explicitly defines divided responsibilities; supersedes oversimplified dictionary first definition."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 20,
+      "prompt": "What does it mean if a legislature is bicameral?",
+      "action": "edit",
+      "note": "Bicameral means two chambers. Two PMs,two yearly sittings,two voters unrelated counts. Parliament/congress scope explicit; not requirement that chambers have equal power.",
+      "recommendedChanges": {
+        "rationale": "Bicameral means two chambers. Two PMs,two yearly sittings,two voters unrelated counts. Parliament/congress scope explicit; not requirement that chambers have equal power."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 21,
+      "prompt": "How many chambers does a unicameral legislature have?",
+      "action": "edit",
+      "note": "Unicameral one chamber;two/three/four wrong. Dictionary says only one group of members. No conflation with one-party government.",
+      "recommendedChanges": {
+        "rationale": "Unicameral one chamber;two/three/four wrong. Dictionary says only one group of members. No conflation with one-party government."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 22,
+      "prompt": "What is the main function of a legislature?",
+      "action": "edit",
+      "note": "Legislature chiefly makes laws. Diplomacy,military command,criminal appeals are other functions. Main function qualifier accommodates oversight/tax approval and constitutional variations; replace retail/weather distractors.",
+      "recommendedChanges": {
+        "answers": [
+          "Making laws",
+          "Conducting foreign diplomacy",
+          "Commanding military operations",
+          "Hearing appeals against criminal convictions"
+        ],
+        "rationale": "Legislature chiefly makes laws. Diplomacy,military command,criminal appeals are other functions. Main function qualifier accommodates oversight/tax approval and constitutional variations; replace retail/weather distractors."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 23,
+      "prompt": "In government, what does the executive branch mainly do?",
+      "action": "edit",
+      "note": "Executive puts laws/policy into effect. Judicial judgments,legislative debating chamber,opposition campaign are different. Actual government noun sense inspected among corporate executive definitions.",
+      "recommendedChanges": {
+        "answers": [
+          "Puts laws and government policy into effect",
+          "Hears court cases and gives judgments",
+          "Acts as a chamber for debating proposed laws",
+          "Runs only the opposition's election campaign"
+        ],
+        "rationale": "Executive puts laws/policy into effect. Judicial judgments,legislative debating chamber,opposition campaign are different. Actual government noun sense inspected among corporate executive definitions."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 24,
+      "prompt": "What does the term judiciary refer to?",
+      "action": "edit",
+      "note": "Judiciary judges/courts, not cabinet,legislature,diplomatic staff. Dictionary explicitly legal-system branch. Replace sports-team distractor; no assertion judges can never have any other public roles.",
+      "recommendedChanges": {
+        "answers": [
+          "The judges and courts of a legal system",
+          "The senior ministers in the cabinet",
+          "The elected members of a legislature",
+          "The staff of diplomatic missions"
+        ],
+        "rationale": "Judiciary judges/courts, not cabinet,legislature,diplomatic staff. Dictionary explicitly legal-system branch. Replace sports-team distractor; no assertion judges can never have any other public roles."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 25,
+      "prompt": "What does it mean to veto a proposed measure?",
+      "action": "edit",
+      "note": "Veto official block/rejection, not approval,merely proposing amendment or advisory poll. Does not claim every veto is permanent or cannot be overridden; official power qualification important.",
+      "recommendedChanges": {
+        "answers": [
+          "Use an official power to reject or block it",
+          "Approve it without changes",
+          "Suggest a change while allowing it to proceed",
+          "Refer it to an opinion poll for advice"
+        ],
+        "rationale": "Veto official block/rejection, not approval,merely proposing amendment or advisory poll. Does not claim every veto is permanent or cannot be overridden; official power qualification important."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 26,
+      "prompt": "In US politics, impeachment of a federal official is what?",
+      "action": "edit",
+      "note": "US House impeachment accusation differs from conviction/removal. Senate official account explicitly separates charges from trial/conviction. General election and heredity wrong; federal scope excludes differing state procedures.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.senate.gov/about/powers-procedures/impeachment.htm",
+        "rationale": "US House impeachment accusation differs from conviction/removal. Senate official account explicitly separates charges from trial/conviction. General election and heredity wrong; federal scope excludes differing state procedures."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 27,
+      "prompt": "What is a term of office?",
+      "action": "edit",
+      "note": "Term period holding public office, not district,vote threshold or campaign cost. Relevant job/government period sense inspected among school/pregnancy/mathematical definitions; no universal fixed duration claimed.",
+      "recommendedChanges": {
+        "answers": [
+          "The period for which someone holds a public position",
+          "The area represented by an elected member",
+          "The number of votes needed to win a seat",
+          "The amount a candidate spends campaigning"
+        ],
+        "rationale": "Term period holding public office, not district,vote threshold or campaign cost. Relevant job/government period sense inspected among school/pregnancy/mathematical definitions; no universal fixed duration claimed."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 28,
+      "prompt": "What does it mean when a parliamentary meeting is adjourned?",
+      "action": "edit",
+      "note": "Adjourn pauses/temporarily ends meeting. Members losing seats,dissolution,automatic lawmaking not it. Until another time preserves temporary nature; distinguishes dissolution and recess.",
+      "recommendedChanges": {
+        "answers": [
+          "The meeting is suspended or ended until another time",
+          "Every member permanently loses their seat",
+          "The parliament is dissolved for a general election",
+          "A proposal automatically becomes law"
+        ],
+        "rationale": "Adjourn pauses/temporarily ends meeting. Members losing seats,dissolution,automatic lawmaking not it. Until another time preserves temporary nature; distinguishes dissolution and recess."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 29,
+      "prompt": "What is a parliamentary recess?",
+      "action": "edit",
+      "note": "Recess break in sitting, not end of Parliament,vote or cabinet meeting. Parliamentary noun sense checked, not school break/alcove. No claim members stop all constituency/committee work.",
+      "recommendedChanges": {
+        "answers": [
+          "A break when parliament is not sitting",
+          "The permanent end of a parliament before an election",
+          "A formal vote on a disputed motion",
+          "A meeting of the governing cabinet"
+        ],
+        "rationale": "Recess break in sitting, not end of Parliament,vote or cabinet meeting. Parliamentary noun sense checked, not school break/alcove. No claim members stop all constituency/committee work."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 30,
+      "prompt": "What is a quorum at a formal meeting?",
+      "action": "edit",
+      "note": "Quorum minimum required participants for valid business. Vote outcome,speech cap,largest-party seat count not meaning. No arbitrary universal numeric quorum invented.",
+      "recommendedChanges": {
+        "answers": [
+          "The minimum number of members required for valid business",
+          "The number of votes a proposal receives",
+          "The maximum number of speeches in a debate",
+          "The total number of seats held by the largest party"
+        ],
+        "rationale": "Quorum minimum required participants for valid business. Vote outcome,speech cap,largest-party seat count not meaning. No arbitrary universal numeric quorum invented."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 31,
+      "prompt": "What is an amendment to a proposed law?",
+      "action": "edit",
+      "note": "Amendment change to proposed text/provisions. Count,treaty,electorate list not it. Proposed-law qualifier narrows legal meaning; relevant draft-law dictionary sense checked.",
+      "recommendedChanges": {
+        "answers": [
+          "A change to its wording or provisions",
+          "The final official count of an election",
+          "A diplomatic agreement with another state",
+          "A list of people entitled to vote"
+        ],
+        "rationale": "Amendment change to proposed text/provisions. Count,treaty,electorate list not it. Proposed-law qualifier narrows legal meaning; relevant draft-law dictionary sense checked."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 32,
+      "prompt": "In a legislature, what is a bill?",
+      "action": "edit",
+      "note": "Bill proposed law, not treaty,judicial decision or manifesto. Legislative context excludes banknote,bird's bill,invoice and programme billing. More plausible civic distractors added.",
+      "recommendedChanges": {
+        "answers": [
+          "A proposal for a new law",
+          "A formal agreement between countries",
+          "A decision reached by a judge",
+          "A party's list of election promises"
+        ],
+        "rationale": "Bill proposed law, not treaty,judicial decision or manifesto. Legislative context excludes banknote,bird's bill,invoice and programme billing. More plausible civic distractors added."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 33,
+      "prompt": "What is a petition in public life?",
+      "action": "edit",
+      "note": "Petition formal request often signed. Election result,minister list,treaty not it. Often allows parliamentary petitions presented through representative and other lawful forms; avoids arbitrary minimum signatures.",
+      "recommendedChanges": {
+        "answers": [
+          "A formal request, often supported by signatures",
+          "A record of the final votes in an election",
+          "A list of government ministers",
+          "A formal agreement between states"
+        ],
+        "rationale": "Petition formal request often signed. Election result,minister list,treaty not it. Often allows parliamentary petitions presented through representative and other lawful forms; avoids arbitrary minimum signatures."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 34,
+      "prompt": "What does political lobbying involve?",
+      "action": "edit",
+      "note": "Lobbying seeks to influence decisions. Count supervision,judicial judgment,diplomatic appointments not definition. No suggestion lobbying necessarily illegal or always involves money.",
+      "recommendedChanges": {
+        "answers": [
+          "Trying to influence public decisions or decision-makers",
+          "Supervising the official count at an election",
+          "Delivering a court judgment",
+          "Appointing diplomatic staff"
+        ],
+        "rationale": "Lobbying seeks to influence decisions. Count supervision,judicial judgment,diplomatic appointments not definition. No suggestion lobbying necessarily illegal or always involves money."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 35,
+      "prompt": "What does a pressure group usually try to do?",
+      "action": "edit",
+      "note": "Pressure group aims to influence policy/interests, unlike election authority,court,civil service. Usually accommodates different tactics; not claimed every pressure group becomes electoral party.",
+      "recommendedChanges": {
+        "answers": [
+          "Influence policy on an issue or set of interests",
+          "Count ballots as the official election authority",
+          "Hear appeals as the highest court",
+          "Act as the government's permanent administration"
+        ],
+        "rationale": "Pressure group aims to influence policy/interests, unlike election authority,court,civil service. Usually accommodates different tactics; not claimed every pressure group becomes electoral party."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 36,
+      "prompt": "A grassroots political movement mainly develops from which level?",
+      "action": "edit",
+      "note": "Grassroots ordinary people/community, not exclusivelycabinet/judges/diplomats. Relevant people sense inspected. A politician may participate but top-down official control is not defining source.",
+      "recommendedChanges": {
+        "answers": [
+          "Ordinary people at the local or community level",
+          "Only the national cabinet",
+          "Only senior judges",
+          "Only career diplomats overseas"
+        ],
+        "rationale": "Grassroots ordinary people/community, not exclusivelycabinet/judges/diplomats. Relevant people sense inspected. A politician may participate but top-down official control is not defining source."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 37,
+      "prompt": "In parliamentary politics, what is one role of a party whip?",
+      "action": "edit",
+      "note": "Whip organises member attendance/party voting. Speaker,election counter,trial judge distinct. Actual political whip sense checked, not leather tool/food/car. One role qualifier allows welfare/communication duties.",
+      "recommendedChanges": {
+        "answers": [
+          "Helping organise party members' attendance and voting",
+          "Chairing the legislature impartially",
+          "Overseeing the national election count",
+          "Judging whether an accused official is guilty"
+        ],
+        "rationale": "Whip organises member attendance/party voting. Speaker,election counter,trial judge distinct. Actual political whip sense checked, not leather tool/food/car. One role qualifier allows welfare/communication duties."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 38,
+      "prompt": "In UK politics, what is a backbencher?",
+      "action": "edit",
+      "note": "Backbench MP lacks ministerial or opposition frontbench spokesperson role. Judge,party head,ambassador not meaning. Parliament party-system text directly inspected to refine dictionary broad no-official-position formulation.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.parliament.uk/about/mps-and-lords/members/partysystem/",
+        "rationale": "Backbench MP lacks ministerial or opposition frontbench spokesperson role. Judge,party head,ambassador not meaning. Parliament party-system text directly inspected to refine dictionary broad no-official-position formulation."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 39,
+      "prompt": "In the UK House of Lords, a Crossbencher is best described as what?",
+      "action": "edit",
+      "note": "Crossbencher non-party peer outside party groups. Multi-party minister,Commons MP,election counter wrong. Cambridge guessed crossbencher entry had no definition; replace with Parliament explicit Crossbench Peers description. Do not assert every unwhipped peer is automatically a Crossbencher.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.parliament.uk/site-information/glossary/crossbench-peers/",
+        "answers": [
+          "An independent peer outside the party groups",
+          "A minister who represents all political parties",
+          "An elected member of the House of Commons",
+          "The official responsible for counting general-election votes"
+        ],
+        "rationale": "Crossbencher non-party peer outside party groups. Multi-party minister,Commons MP,election counter wrong. Cambridge guessed crossbencher entry had no definition; replace with Parliament explicit Crossbench Peers description. Do not assert every unwhipped peer is automatically a Crossbencher."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 40,
+      "prompt": "What is a parliamentary Speaker primarily responsible for during debates?",
+      "action": "edit",
+      "note": "Speaker chairs debate/maintains order. Party-manifesto author,public election counter,diplomatic negotiator not defining job. Parliamentary sense checked beyond loudspeaker/orator; no claim all countries choose Speakers identically.",
+      "recommendedChanges": {
+        "answers": [
+          "Chairing proceedings and maintaining order",
+          "Writing the governing party's election manifesto",
+          "Counting votes at every public election",
+          "Leading negotiations with foreign governments"
+        ],
+        "rationale": "Speaker chairs debate/maintains order. Party-manifesto author,public election counter,diplomatic negotiator not defining job. Parliamentary sense checked beyond loudspeaker/orator; no claim all countries choose Speakers identically."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 41,
+      "prompt": "In the UK Parliament, what is a division?",
+      "action": "edit",
+      "note": "Division formal parliamentary vote. Poster,royal wedding,court sentence not it. Cambridge entry did not cover parliamentary division; Parliament glossary explicitly describes counting for/against through lobbies.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.parliament.uk/site-information/glossary/divisions/",
+        "rationale": "Division formal parliamentary vote. Poster,royal wedding,court sentence not it. Cambridge entry did not cover parliamentary division; Parliament glossary explicitly describes counting for/against through lobbies."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 42,
+      "prompt": "What is a filibuster intended to do?",
+      "action": "edit",
+      "note": "Filibuster delays/obstructs legislative business with speeches/rules. Automatic speed-through,candidate lottery,voter replacement wrong. Dictionary includes tactics as well as prolonged speeches; not overrestricted to one country.",
+      "recommendedChanges": {
+        "rationale": "Filibuster delays/obstructs legislative business with speeches/rules. Automatic speed-through,candidate lottery,voter replacement wrong. Dictionary includes tactics as well as prolonged speeches; not overrestricted to one country."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 43,
+      "prompt": "What is gerrymandering?",
+      "action": "edit",
+      "note": "Gerrymandering manipulates electoral boundaries for advantage. Alphabetical counting,weekend voting,same ballot paper not it. No partisan accusation or current boundary opinion included.",
+      "recommendedChanges": {
+        "rationale": "Gerrymandering manipulates electoral boundaries for advantage. Alphabetical counting,weekend voting,same ballot paper not it. No partisan accusation or current boundary opinion included."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 44,
+      "prompt": "What is proportional representation intended to make seats broadly reflect?",
+      "action": "edit",
+      "note": "PR seats broadly reflect vote shares, not party age,membership or advertising. Broadly accommodates thresholds/rounding/formula differences. No claim perfect exact proportionality in every implementation.",
+      "recommendedChanges": {
+        "answers": [
+          "Parties' shares of the vote",
+          "The length of time each party has existed",
+          "The total number of party members",
+          "The amount each party spends on posters"
+        ],
+        "rationale": "PR seats broadly reflect vote shares, not party age,membership or advertising. Broadly accommodates thresholds/rounding/formula differences. No claim perfect exact proportionality in every implementation."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 45,
+      "prompt": "Under first-past-the-post voting in a single-member constituency, who wins the seat?",
+      "action": "edit",
+      "note": "FPTP most votes in single-member seat. Not only first-time voters,named predecessor's pick or national winner regardless of local votes. Does not require more than half; specify local constituency to distinguish national totals.",
+      "recommendedChanges": {
+        "answers": [
+          "The candidate with the most votes",
+          "The candidate with the most first-time voters only",
+          "The candidate selected by the previous representative",
+          "The candidate whose party wins nationally, regardless of the local count"
+        ],
+        "rationale": "FPTP most votes in single-member seat. Not only first-time voters,named predecessor's pick or national winner regardless of local votes. Does not require more than half; specify local constituency to distinguish national totals."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 46,
+      "prompt": "What is a runoff election?",
+      "action": "edit",
+      "note": "Runoff further voting round, not recount of same ballots,preselection survey,inauguration. Relevant electoral sense checked beyond water runoff. No single worldwide qualification threshold imposed.",
+      "recommendedChanges": {
+        "answers": [
+          "A further round of voting to decide a winner",
+          "A recount of exactly the same ballot papers",
+          "An opinion poll before candidates are selected",
+          "A ceremony marking the start of a presidency"
+        ],
+        "rationale": "Runoff further voting round, not recount of same ballots,preselection survey,inauguration. Relevant electoral sense checked beyond water runoff. No single worldwide qualification threshold imposed."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 47,
+      "prompt": "In US elections, what is a party primary used to help choose?",
+      "action": "edit",
+      "note": "Primary helps choose party nominee, not automatically general-election winner,count supervisor or chief justice. Helps accommodates delegate/convention processes; relevant US political noun sense inspected beyond school/first/main.",
+      "recommendedChanges": {
+        "answers": [
+          "The party's candidate for an election",
+          "The final winner of the general election automatically",
+          "The official who supervises every ballot count",
+          "The person who chairs the Supreme Court"
+        ],
+        "rationale": "Primary helps choose party nominee, not automatically general-election winner,count supervisor or chief justice. Helps accommodates delegate/convention processes; relevant US political noun sense inspected beyond school/first/main."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 48,
+      "prompt": "In US presidential candidate selection, a caucus is typically what?",
+      "action": "edit",
+      "note": "Caucus candidate-selection meeting of party supporters,membership rules vary. Court,count,inauguration not it. Typically avoids claiming every caucus means only election meeting; legislative caucuses also exist.",
+      "recommendedChanges": {
+        "answers": [
+          "A meeting of party members or supporters to express their preferences",
+          "A court hearing to settle a disputed election",
+          "An official recount of general-election ballots",
+          "A ceremony to swear in the president"
+        ],
+        "rationale": "Caucus candidate-selection meeting of party supporters,membership rules vary. Court,count,inauguration not it. Typically avoids claiming every caucus means only election meeting; legislative caucuses also exist."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 49,
+      "prompt": "What is a president's inauguration?",
+      "action": "edit",
+      "note": "Inauguration formal start ceremony, not nomination,count or retirement announcement. No claim inauguration alone is legal source of term start in all constitutions. President possessive correct.",
+      "recommendedChanges": {
+        "answers": [
+          "The formal ceremony marking the start of the presidency",
+          "The selection of a party's election candidate",
+          "The official count on election night",
+          "The formal announcement of a president's retirement"
+        ],
+        "rationale": "Inauguration formal start ceremony, not nomination,count or retirement announcement. No claim inauguration alone is legal source of term start in all constitutions. President possessive correct."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 50,
+      "prompt": "In parliamentary politics, dissolution means what?",
+      "action": "edit",
+      "note": "UK dissolution formal Parliament end before general election. Temporary break,reshuffle,bill vote distinct. Jurisdiction narrowed and Parliament glossary used; avoid confusing prorogation/session end with entire Parliament end.",
+      "recommendedChanges": {
+        "prompt": "In UK politics, what is the dissolution of Parliament?",
+        "answers": [
+          "The formal end of a Parliament before a general election",
+          "A temporary break between parliamentary sittings",
+          "A reshuffle of cabinet ministers",
+          "A formal vote on a proposed law"
+        ],
+        "sourceURL": "https://www.parliament.uk/site-information/glossary/dissolution/",
+        "rationale": "UK dissolution formal Parliament end before general election. Temporary break,reshuffle,bill vote distinct. Jurisdiction narrowed and Parliament glossary used; avoid confusing prorogation/session end with entire Parliament end."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 51,
+      "prompt": "What is a head of state?",
+      "action": "edit",
+      "note": "Head of state formal highest representative;campaign organiser,editor,ward representative not definition. It can be monarch or president and executive or ceremonial, so no claim always powerless.",
+      "recommendedChanges": {
+        "answers": [
+          "The person who formally represents a country at the highest constitutional level",
+          "The chief organiser of every election campaign",
+          "The most senior newspaper editor",
+          "The representative of one local ward"
+        ],
+        "rationale": "Head of state formal highest representative;campaign organiser,editor,ward representative not definition. It can be monarch or president and executive or ceremonial, so no claim always powerless."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 52,
+      "prompt": "What is a head of government primarily responsible for?",
+      "action": "edit",
+      "note": "Guessed head-of-government dictionary entry lacked definition. Replace with concrete UK office: PM leads government. Speaker,opposition leader,Lord Chief Justice different roles. GOV.UK institutional description inspected; no current personal name used.",
+      "recommendedChanges": {
+        "prompt": "In the UK, which officeholder leads the government?",
+        "answers": [
+          "The Prime Minister",
+          "The Speaker of the House of Commons",
+          "The Leader of the Opposition",
+          "The Lord Chief Justice"
+        ],
+        "sourceURL": "https://www.gov.uk/government/how-government-works",
+        "rationale": "Guessed head-of-government dictionary entry lacked definition. Replace with concrete UK office: PM leads government. Speaker,opposition leader,Lord Chief Justice different roles. GOV.UK institutional description inspected; no current personal name used."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 53,
+      "prompt": "In a republic, the head of state is generally what?",
+      "action": "edit",
+      "note": "Republic's head of state not monarch. Hereditary king/queen and always religious leader wrong. Remove hereditary-only wording from correct choice because elective monarchies remain monarchies; generally allows complex historical terminology without claiming every republic democratic.",
+      "recommendedChanges": {
+        "answers": [
+          "A person who is not a monarch",
+          "Always a hereditary king",
+          "Always a hereditary queen",
+          "Always the leader of a religious institution"
+        ],
+        "rationale": "Republic's head of state not monarch. Hereditary king/queen and always religious leader wrong. Remove hereditary-only wording from correct choice because elective monarchies remain monarchies; generally allows complex historical terminology without claiming every republic democratic."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 54,
+      "prompt": "In a constitutional monarchy, the monarch's powers are governed by what?",
+      "action": "edit",
+      "note": "Constitutional framework limits monarch's powers. Monarch's wishes alone/private servant/company not source of constitutional restrictions. Royal official explanation specifies Parliament's legislative role; do not assert every constitution must be one codified written document.",
+      "recommendedChanges": {
+        "prompt": "In a constitutional monarchy, what limits the monarch's governing powers?",
+        "answers": [
+          "A constitutional framework",
+          "The monarch's wishes alone",
+          "The personal rules of a royal servant",
+          "The views of one private company"
+        ],
+        "sourceURL": "https://www.royal.uk/the-role-of-the-monarchy",
+        "rationale": "Constitutional framework limits monarch's powers. Monarch's wishes alone/private servant/company not source of constitutional restrictions. Royal official explanation specifies Parliament's legislative role; do not assert every constitution must be one codified written document."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 55,
+      "prompt": "What characterises an absolute monarchy?",
+      "action": "edit",
+      "note": "Absolute-monarchy guessed page only examples,no definition. Replace with political absolutism, dedicated Cambridge entry explicitly complete power by ruler/group/party. No-authority,direct-every-policy,equal citizen authority opposite concepts; do not confuse absolute with merely hereditary.",
+      "recommendedChanges": {
+        "prompt": "What characterises political absolutism?",
+        "answers": [
+          "A ruler or ruling group holds complete governing power",
+          "The national government has no authority",
+          "Every policy is decided by direct public vote",
+          "Political authority is divided equally among all citizens"
+        ],
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/absolutism",
+        "rationale": "Absolute-monarchy guessed page only examples,no definition. Replace with political absolutism, dedicated Cambridge entry explicitly complete power by ruler/group/party. No-authority,direct-every-policy,equal citizen authority opposite concepts; do not confuse absolute with merely hereditary."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 56,
+      "prompt": "In a democracy, political authority is ultimately meant to come from whom?",
+      "action": "edit",
+      "note": "Democratic authority meant to originate with people. Exclusivelydynasty,foreign ambassadors or corporation not principle. Ultimately meant to allows imperfect actual practice and avoids assessing disputed present-day regimes.",
+      "recommendedChanges": {
+        "rationale": "Democratic authority meant to originate with people. Exclusivelydynasty,foreign ambassadors or corporation not principle. Ultimately meant to allows imperfect actual practice and avoids assessing disputed present-day regimes."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 57,
+      "prompt": "What distinguishes direct democracy from representative democracy?",
+      "action": "edit",
+      "note": "Direct democracy citizens decide policies/laws directly. Representation-only,no-voting,cabinet-only not defining. Different from58's representative route; no claim systems cannot combine both forms.",
+      "recommendedChanges": {
+        "answers": [
+          "Citizens vote on policies or laws themselves",
+          "Citizens choose representatives to decide every policy for them",
+          "Citizens have no voting rights",
+          "Only the cabinet is allowed to vote"
+        ],
+        "rationale": "Direct democracy citizens decide policies/laws directly. Representation-only,no-voting,cabinet-only not defining. Different from58's representative route; no claim systems cannot combine both forms."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 58,
+      "prompt": "In a representative democracy, citizens normally make political choices by doing what?",
+      "action": "edit",
+      "note": "Representative democracy elects decision-makers. Every direct decision,monarch appointment,judge appointment alternatives not electoral representation. Normally accommodates referendums alongside representative institutions.",
+      "recommendedChanges": {
+        "answers": [
+          "Electing people to make decisions on their behalf",
+          "Voting directly on every government decision",
+          "Allowing a monarch to appoint every representative",
+          "Letting judges choose all legislative members"
+        ],
+        "rationale": "Representative democracy elects decision-makers. Every direct decision,monarch appointment,judge appointment alternatives not electoral representation. Normally accommodates referendums alongside representative institutions."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 59,
+      "prompt": "What is an autocracy?",
+      "action": "edit",
+      "note": "Cambridge autocracy allows ruler or small group, so expand original one-ruler-only answer. Unanimous-all,equal-power-all,no-government not meaning. Avoid confusing narrow common singular-ruler usage with universal claim.",
+      "recommendedChanges": {
+        "answers": [
+          "A system concentrating power in a ruler or small ruling group",
+          "A system requiring every citizen to agree to each decision",
+          "A system with no governing authority",
+          "A system that distributes power equally to all citizens"
+        ],
+        "rationale": "Cambridge autocracy allows ruler or small group, so expand original one-ruler-only answer. Unanimous-all,equal-power-all,no-government not meaning. Avoid confusing narrow common singular-ruler usage with universal claim."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 60,
+      "prompt": "A dictatorship is typically characterised by what?",
+      "action": "edit",
+      "note": "Dictatorship authoritarian concentrated power. Guaranteed open competition,no enforcing authority,mandatoryjury-for-all-laws not characteristics. Typically recognises varying institutional forms; no present country labelled.",
+      "recommendedChanges": {
+        "rationale": "Dictatorship authoritarian concentrated power. Guaranteed open competition,no enforcing authority,mandatoryjury-for-all-laws not characteristics. Typically recognises varying institutional forms; no present country labelled."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 61,
+      "prompt": "What is an oligarchy?",
+      "action": "edit",
+      "note": "Oligarchy small powerful group. Whole-population direct rule,no institutions,equalallcitizens not definition. All options inspected; remove random child comic distractor.",
+      "recommendedChanges": {
+        "answers": [
+          "Government or control by a small powerful group",
+          "Government through direct voting by the entire population",
+          "Government with no officials or institutions",
+          "Government controlled by every citizen equally"
+        ],
+        "rationale": "Oligarchy small powerful group. Whole-population direct rule,no institutions,equalallcitizens not definition. All options inspected; remove random child comic distractor."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 62,
+      "prompt": "In a theocracy, political authority is closely tied to what?",
+      "action": "edit",
+      "note": "Theocracy links political and religious authority. Sports bodies,stock exchange only,polls only wrong. Dictionary religious-leader rule checked; no assertion every religious country is theocracy.",
+      "recommendedChanges": {
+        "answers": [
+          "Religious authority",
+          "Independent sporting bodies",
+          "Only commercial stock exchanges",
+          "Only public opinion surveys"
+        ],
+        "rationale": "Theocracy links political and religious authority. Sports bodies,stock exchange only,polls only wrong. Dictionary religious-leader rule checked; no assertion every religious country is theocracy."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 63,
+      "prompt": "What is a plutocracy?",
+      "action": "edit",
+      "note": "Plutocracy wealthy dominance, not militaryrank/religiousoffice/randomcitizens as defining selection. Dominant influence permits informal as well as formal rule; no current political insinuation.",
+      "recommendedChanges": {
+        "answers": [
+          "Rule or dominant political influence by the wealthy",
+          "Rule based only on military rank",
+          "Rule based only on religious office",
+          "Rule by citizens selected at random"
+        ],
+        "rationale": "Plutocracy wealthy dominance, not militaryrank/religiousoffice/randomcitizens as defining selection. Dominant influence permits informal as well as formal rule; no current political insinuation."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 64,
+      "prompt": "What is diplomacy in international relations?",
+      "action": "edit",
+      "note": "Diplomacy manages interstate relations via communication/negotiation. Local boundaries,domestic counts,courtjudgments different. International relations scope excludes personal tact sense.",
+      "recommendedChanges": {
+        "answers": [
+          "Managing relations between states through negotiation and communication",
+          "Drawing boundaries between local electoral wards",
+          "Counting ballots in a domestic election",
+          "Passing judgment in a domestic criminal case"
+        ],
+        "rationale": "Diplomacy manages interstate relations via communication/negotiation. Local boundaries,domestic counts,courtjudgments different. International relations scope excludes personal tact sense."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 65,
+      "prompt": "What is an ambassador?",
+      "action": "edit",
+      "note": "Ambassador senior diplomatic representative. Not automaticroyalstatus,candidate in everydistrict or all-disputejudge. Broaden answer beyond only another-country posting to allow ambassadors to international organisations.",
+      "recommendedChanges": {
+        "answers": [
+          "A senior diplomatic representative of a state",
+          "A tourist automatically granted political office",
+          "A candidate seeking election in every district",
+          "A judge who hears all international disputes"
+        ],
+        "rationale": "Ambassador senior diplomatic representative. Not automaticroyalstatus,candidate in everydistrict or all-disputejudge. Broaden answer beyond only another-country posting to allow ambassadors to international organisations."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 66,
+      "prompt": "What is an embassy?",
+      "action": "edit",
+      "note": "Embassy diplomatic mission/building. Not all-domestic court,new sovereign country or party office. Mission or premises wording reflects both dictionary senses; embassy land not magically separate sovereign state.",
+      "recommendedChanges": {
+        "rationale": "Embassy diplomatic mission/building. Not all-domestic court,new sovereign country or party office. Mission or premises wording reflects both dictionary senses; embassy land not magically separate sovereign state."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 67,
+      "prompt": "What is a treaty?",
+      "action": "edit",
+      "note": "Treaty formal interstate agreement. Presenter opinion,individual ballot,internalleaflet not treaty. Simplify specialist subjects-of-international-law wording to states without claiming treaties can never involve international organisations.",
+      "recommendedChanges": {
+        "answers": [
+          "A formal agreement between states",
+          "An unofficial television opinion",
+          "A single voter's choice on a ballot",
+          "A political party's internal campaign leaflet"
+        ],
+        "rationale": "Treaty formal interstate agreement. Presenter opinion,individual ballot,internalleaflet not treaty. Simplify specialist subjects-of-international-law wording to states without claiming treaties can never involve international organisations."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 68,
+      "prompt": "What does an armistice agreement provide for?",
+      "action": "edit",
+      "note": "Armistice halt in fighting, not automaticmerger,leadershipchange or finalsettlementallissues. Dictionary explicitly temporary halt and possible peace talks. Distinguish armistice from permanent peace treaty.",
+      "recommendedChanges": {
+        "answers": [
+          "A halt in fighting",
+          "A compulsory merger of the states involved",
+          "An automatic change of national leadership",
+          "A final settlement of every disputed issue"
+        ],
+        "rationale": "Armistice halt in fighting, not automaticmerger,leadershipchange or finalsettlementallissues. Dictionary explicitly temporary halt and possible peace talks. Distinguish armistice from permanent peace treaty."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 69,
+      "prompt": "What are international sanctions generally intended to do?",
+      "action": "edit",
+      "note": "Sanctions pressure behaviour. Not necessarilyunrestrictedtrade,newstate recognition or universalseats. Relevant international punitive meaning inspected; sanction can mean approval in other contexts, hence international sanctions scope.",
+      "recommendedChanges": {
+        "answers": [
+          "Put pressure on a state or other target to change its behaviour",
+          "Guarantee unrestricted trade with the target",
+          "Recognise the target as a new sovereign state automatically",
+          "Give the target a seat in every international organisation"
+        ],
+        "rationale": "Sanctions pressure behaviour. Not necessarilyunrestrictedtrade,newstate recognition or universalseats. Relevant international punitive meaning inspected; sanction can mean approval in other contexts, hence international sanctions scope."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 70,
+      "prompt": "In politics, sovereignty concerns what?",
+      "action": "edit",
+      "note": "Sovereignty supreme governing authority. Party popularity,seatcount,delegationsize not it. Supreme authority wording within politics, not a claim no international obligations can exist.",
+      "recommendedChanges": {
+        "answers": [
+          "Supreme authority over a state or territory",
+          "The popularity of one governing party",
+          "The number of seats in a parliament",
+          "The size of a diplomatic delegation"
+        ],
+        "rationale": "Sovereignty supreme governing authority. Party popularity,seatcount,delegationsize not it. Supreme authority wording within politics, not a claim no international obligations can exist."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 71,
+      "prompt": "A multilateral agreement involves how many parties?",
+      "action": "edit",
+      "note": "Multilateral more than two participants, not one/two/none. Dictionary explicit more than two. Parties means participating states/entities, not necessarily political parties.",
+      "recommendedChanges": {
+        "rationale": "Multilateral more than two participants, not one/two/none. Dictionary explicit more than two. Parties means participating states/entities, not necessarily political parties."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 72,
+      "prompt": "A bilateral agreement is between how many parties?",
+      "action": "edit",
+      "note": "Bilateral two parties, not three/four/ten. Same international-agreement meaning distinct from multilateral. No claim parties must be countries rather than organisations.",
+      "recommendedChanges": {
+        "rationale": "Bilateral two parties, not three/four/ten. Same international-agreement meaning distinct from multilateral. No claim parties must be countries rather than organisations."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 73,
+      "prompt": "Domestic policy mainly concerns what?",
+      "action": "edit",
+      "note": "Domestic policy matters directly affecting people within country. Foreigngovernments-only,embassies-only,militarytreaties-only wrong. Direct-effects wording more faithful than rigid border claim; domestic policy may have external effects too.",
+      "recommendedChanges": {
+        "answers": [
+          "Matters directly affecting people within a country",
+          "Only relations with foreign governments",
+          "Only the work of embassies overseas",
+          "Only treaties between military allies"
+        ],
+        "rationale": "Domestic policy matters directly affecting people within country. Foreigngovernments-only,embassies-only,militarytreaties-only wrong. Direct-effects wording more faithful than rigid border claim; domestic policy may have external effects too."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 74,
+      "prompt": "Foreign policy concerns a state's approach to what?",
+      "action": "edit",
+      "note": "Foreign policy dealings with other states/international affairs. Onlylocalrefuse,domesticschooladmissions,libraryhours not definition. Scope avoids saying trade/defence are the only elements.",
+      "recommendedChanges": {
+        "answers": [
+          "Other countries and international affairs",
+          "Only the organisation of local refuse collection",
+          "Only the management of domestic school admissions",
+          "Only the opening hours of local libraries"
+        ],
+        "rationale": "Foreign policy dealings with other states/international affairs. Onlylocalrefuse,domesticschooladmissions,libraryhours not definition. Scope avoids saying trade/defence are the only elements."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 75,
+      "prompt": "Fiscal policy mainly concerns which government tools?",
+      "action": "edit",
+      "note": "Fiscal taxation/publicspending, not money-supply/interestrates alone,electoral maps,ambassadors. Dictionary fiscalplan checked. Government borrowing also fiscal but answer lists maintools, not exhaustivealltools.",
+      "recommendedChanges": {
+        "answers": [
+          "Taxation and public spending",
+          "Interest rates and money supply alone",
+          "The drawing of electoral boundaries",
+          "The appointment of ambassadors"
+        ],
+        "rationale": "Fiscal taxation/publicspending, not money-supply/interestrates alone,electoral maps,ambassadors. Dictionary fiscalplan checked. Government borrowing also fiscal but answer lists maintools, not exhaustivealltools."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 76,
+      "prompt": "Monetary policy mainly concerns what?",
+      "action": "edit",
+      "note": "Monetary policy money supply/costofborrowing. Constituencies,candidates,cabinetappointment not it. Does not claim politicians personally set rates everywhere; neutral financial-policy concept fits Politics.",
+      "recommendedChanges": {
+        "answers": [
+          "Money supply and the cost of borrowing",
+          "Only the boundaries of constituencies",
+          "Only the selection of election candidates",
+          "Only the appointment of cabinet ministers"
+        ],
+        "rationale": "Monetary policy money supply/costofborrowing. Constituencies,candidates,cabinetappointment not it. Does not claim politicians personally set rates everywhere; neutral financial-policy concept fits Politics."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 77,
+      "prompt": "What is a government budget?",
+      "action": "edit",
+      "note": "Government budget income/spending plan. Candidate list,treaty register,wardmap different. Relevant financial/UKgovernment senses inspected, not low-price adjective or time budget.",
+      "recommendedChanges": {
+        "answers": [
+          "A plan for public income and spending",
+          "A list of all election candidates",
+          "A record of treaties with other countries",
+          "A map of local government areas"
+        ],
+        "rationale": "Government budget income/spending plan. Candidate list,treaty register,wardmap different. Relevant financial/UKgovernment senses inspected, not low-price adjective or time budget."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 78,
+      "prompt": "A government budget deficit occurs when what happens?",
+      "action": "edit",
+      "note": "Deficit spending exceeds revenue. Opposite surplus,equalbalanced,nothingcollectedorspent wrong. Government budget context excludes trade/current-account deficits; not confused with total debt.",
+      "recommendedChanges": {
+        "rationale": "Deficit spending exceeds revenue. Opposite surplus,equalbalanced,nothingcollectedorspent wrong. Government budget context excludes trade/current-account deficits; not confused with total debt."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 79,
+      "prompt": "A government budget surplus occurs when what happens?",
+      "action": "edit",
+      "note": "Surplus revenue exceeds spending, unlike deficit/equality/abolitionofalltax. Budgetfinancial sense checked. No assertion surplus means government has no existing debt.",
+      "recommendedChanges": {
+        "rationale": "Surplus revenue exceeds spending, unlike deficit/equality/abolitionofalltax. Budgetfinancial sense checked. No assertion surplus means government has no existing debt."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 80,
+      "prompt": "What does the public sector include?",
+      "action": "edit",
+      "note": "Public sector government owned/controlled organisations. Privatelyownedbusinesses,foreignparties,independentfamilyfirms not defining. No claim every publicly accessible shop is public sector.",
+      "recommendedChanges": {
+        "answers": [
+          "Organisations owned or controlled by government",
+          "Only privately owned businesses",
+          "Only foreign political parties",
+          "Only independent family firms"
+        ],
+        "rationale": "Public sector government owned/controlled organisations. Privatelyownedbusinesses,foreignparties,independentfamilyfirms not defining. No claim every publicly accessible shop is public sector."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 81,
+      "prompt": "What does nationalisation involve?",
+      "action": "edit",
+      "note": "Nationalisation moves industry into public ownership. Oppositeprivatisation,devolution,citizenshiprulechange different. British spelling nationalisation retained though dictionary URLAmerican nationalization.",
+      "recommendedChanges": {
+        "answers": [
+          "Bringing an industry or business into public ownership",
+          "Selling a state-owned business to private owners",
+          "Moving powers from national to regional government",
+          "Changing the citizenship rules for workers"
+        ],
+        "rationale": "Nationalisation moves industry into public ownership. Oppositeprivatisation,devolution,citizenshiprulechange different. British spelling nationalisation retained though dictionary URLAmerican nationalization."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 82,
+      "prompt": "What does privatisation involve?",
+      "action": "edit",
+      "note": "Privatisation moves state-owned business to private ownership. Oppositenationalisation,centralisation,votingexpansion not it. British spelling; no claim every privatisation must transfer100percentatonce.",
+      "recommendedChanges": {
+        "answers": [
+          "Transferring a state-owned business into private ownership",
+          "Bringing a private company into state ownership",
+          "Moving authority from regional to central government",
+          "Extending voting rights to more people"
+        ],
+        "rationale": "Privatisation moves state-owned business to private ownership. Oppositenationalisation,centralisation,votingexpansion not it. British spelling; no claim every privatisation must transfer100percentatonce."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 83,
+      "prompt": "What does the idea of a welfare state involve?",
+      "action": "edit",
+      "note": "Welfare state public health/socialprovision. No-public-services,private-onlyfunding,military-only not principle. Does not promise everyone receives identical benefits or free services in every system.",
+      "recommendedChanges": {
+        "answers": [
+          "Public provision to support people's health and social well-being",
+          "A requirement that every public service be privately funded",
+          "A government with no social services",
+          "A system concerned only with military spending"
+        ],
+        "rationale": "Welfare state public health/socialprovision. No-public-services,private-onlyfunding,military-only not principle. Does not promise everyone receives identical benefits or free services in every system."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 84,
+      "prompt": "What is the civil service?",
+      "action": "edit",
+      "note": "Civil service civilian administrative staff/departments. Candidates,military-only,electedcabinet-only not it. Revise permanent-only wording because fixed-term civilian staff exist; relevant administrative senses checked.",
+      "recommendedChanges": {
+        "answers": [
+          "The civilian administrative departments and staff of government",
+          "All candidates competing in an election",
+          "Only members of the armed forces",
+          "Only the elected cabinet ministers"
+        ],
+        "rationale": "Civil service civilian administrative staff/departments. Candidates,military-only,electedcabinet-only not it. Revise permanent-only wording because fixed-term civilian staff exist; relevant administrative senses checked."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 85,
+      "prompt": "What does an ombudsman generally investigate?",
+      "action": "edit",
+      "note": "Ombudsman investigates complaints about organisations/administration. Pollresults,globalmilitarystrategy,allcandidate selection not job. Generally allows public/private schemes; no binding powers claimed universally.",
+      "recommendedChanges": {
+        "answers": [
+          "Complaints about organisations or public administration",
+          "The results of every public opinion poll",
+          "The military strategy of every country",
+          "The selection of every election candidate"
+        ],
+        "rationale": "Ombudsman investigates complaints about organisations/administration. Pollresults,globalmilitarystrategy,allcandidate selection not job. Generally allows public/private schemes; no binding powers claimed universally."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 86,
+      "prompt": "What does deputy mean in a political job title?",
+      "action": "edit",
+      "note": "Deputy acts for or assists seniorofficial. Hereditaryentitlement,permanentretirement,noauthority not meaning. Broaden act-in-place-only wording to include assisting while principal present.",
+      "recommendedChanges": {
+        "answers": [
+          "Someone authorised to act for or assist a more senior official",
+          "Someone automatically entitled to inherit a throne",
+          "Someone who has retired permanently from public office",
+          "Someone who can never exercise official authority"
+        ],
+        "rationale": "Deputy acts for or assists seniorofficial. Hereditaryentitlement,permanentretirement,noauthority not meaning. Broaden act-in-place-only wording to include assisting while principal present."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 87,
+      "prompt": "A mayor is most closely associated with governing which level of community?",
+      "action": "edit",
+      "note": "Mayor town/city office, not continent/UN/alllanguagecountries. Closelyassociated accommodates differing local titles and ceremonial/executive roles. No universal elected-vs-appointed assertion.",
+      "recommendedChanges": {
+        "answers": [
+          "A town or city",
+          "An entire continent",
+          "The United Nations as a whole",
+          "Every country sharing a language"
+        ],
+        "rationale": "Mayor town/city office, not continent/UN/alllanguagecountries. Closelyassociated accommodates differing local titles and ceremonial/executive roles. No universal elected-vs-appointed assertion."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 88,
+      "prompt": "What does an elected local councillor serve on?",
+      "action": "edit",
+      "note": "Councillor on local council. Not automatic nationalcabinet,court or diplomaticmission. Electedlocal qualifier avoids other historical councillor titles; double-l British spelling correct.",
+      "recommendedChanges": {
+        "answers": [
+          "A local council",
+          "The national cabinet automatically",
+          "The highest court automatically",
+          "A diplomatic mission abroad"
+        ],
+        "rationale": "Councillor on local council. Not automatic nationalcabinet,court or diplomaticmission. Electedlocal qualifier avoids other historical councillor titles; double-l British spelling correct."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 89,
+      "prompt": "In local elections, what is a ward?",
+      "action": "edit",
+      "note": "Electoral ward localauthority area. Embassy,manifesto,treaty not it. Local-election sense inspected among hospital/prison/guardianship meanings; no claim every country uses wards.",
+      "recommendedChanges": {
+        "answers": [
+          "An electoral area within a local authority",
+          "An overseas diplomatic mission",
+          "A national political party's manifesto",
+          "A formal agreement between states"
+        ],
+        "rationale": "Electoral ward localauthority area. Embassy,manifesto,treaty not it. Local-election sense inspected among hospital/prison/guardianship meanings; no claim every country uses wards."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 90,
+      "prompt": "What does municipal usually mean in government?",
+      "action": "edit",
+      "note": "Municipal town/city administration. Foreign treaties,royalsuccession,military-only not definition. Dictionary municipal government sense checked, not municipal-bond investment question.",
+      "recommendedChanges": {
+        "answers": [
+          "Relating to a town or city and its local administration",
+          "Relating only to international treaties",
+          "Relating only to royal succession",
+          "Relating only to military command"
+        ],
+        "rationale": "Municipal town/city administration. Foreign treaties,royalsuccession,military-only not definition. Dictionary municipal government sense checked, not municipal-bond investment question."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 91,
+      "prompt": "What is the electorate?",
+      "action": "edit",
+      "note": "Electorate entitled voters, not candidates,counters or onlythosewhovoted. Clear distinction from turnout. Read all allowed-to-vote definition; no particular voter-eligibility rule invented.",
+      "recommendedChanges": {
+        "answers": [
+          "The people entitled to vote in an election",
+          "Only the candidates seeking office",
+          "Only the people who count ballots",
+          "Only the people who actually voted"
+        ],
+        "rationale": "Electorate entitled voters, not candidates,counters or onlythosewhovoted. Clear distinction from turnout. Read all allowed-to-vote definition; no particular voter-eligibility rule invented."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 92,
+      "prompt": "What does voter turnout measure?",
+      "action": "edit",
+      "note": "Turnout number or proportion actually voting among eligible/registered population. Seatshare,campaignspend,candidatecount different. Denominators differ by reporting system, so expressly allow eligible or registered; does not count every eligible non-voter.",
+      "recommendedChanges": {
+        "answers": [
+          "The number or proportion of eligible or registered voters who actually vote",
+          "The proportion of seats won by the largest party",
+          "The amount spent by the winning candidate",
+          "The number of candidates standing for election"
+        ],
+        "rationale": "Turnout number or proportion actually voting among eligible/registered population. Seatshare,campaignspend,candidatecount different. Denominators differ by reporting system, so expressly allow eligible or registered; does not count every eligible non-voter."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 93,
+      "prompt": "What does it mean to abstain in a formal vote?",
+      "action": "edit",
+      "note": "Abstention decliningfor/against, not doublevote,veto or chairappointment. Formalvote context excludes abstaining from alcohol/work. No claim every jurisdiction formally records abstentions identically.",
+      "recommendedChanges": {
+        "rationale": "Abstention decliningfor/against, not doublevote,veto or chairappointment. Formalvote context excludes abstaining from alcohol/work. No claim every jurisdiction formally records abstentions identically."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 94,
+      "prompt": "What is the purpose of a secret ballot?",
+      "action": "edit",
+      "note": "Secret ballot protects choice privacy. Date/candidate-name secrecy and preventingcounting wrong. Secretvote sense clear; not claim officials cannot know who attendedpollingstation.",
+      "recommendedChanges": {
+        "rationale": "Secret ballot protects choice privacy. Date/candidate-name secrecy and preventingcounting wrong. Secretvote sense clear; not claim officials cannot know who attendedpollingstation."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 95,
+      "prompt": "What is a spoiled ballot?",
+      "action": "edit",
+      "note": "Spoiled-ballot guessed entry lacked definition; replace with official invalidballot handling in English local elections. Rejected vote not allocatedleader,twicecounted,equallyallocated. Electoral Commission actual rejection criteria inspected; no claim every unusual mark invalid.",
+      "recommendedChanges": {
+        "prompt": "At an English local election count, what happens to a ballot paper judged invalid?",
+        "answers": [
+          "It is rejected rather than counted for a candidate",
+          "It is automatically given to the leading candidate",
+          "It is counted twice to compensate for the error",
+          "It is counted for every candidate equally"
+        ],
+        "sourceURL": "https://www.electoralcommission.org.uk/guidance-returning-officers-administering-local-government-elections-england/verification-and-count/count/doubtful-ballot-papers",
+        "rationale": "Spoiled-ballot guessed entry lacked definition; replace with official invalidballot handling in English local elections. Rejected vote not allocatedleader,twicecounted,equallyallocated. Electoral Commission actual rejection criteria inspected; no claim every unusual mark invalid."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 96,
+      "prompt": "Universal adult suffrage is the principle that which people should be able to vote?",
+      "action": "edit",
+      "note": "Universal adult suffrage principle adultcitizensvote rather than landowners/graduates/partyonly. Generaleligibilityrules allows age/residence/other lawfulconditions. UNArticle21 universal/equalsuffrage inspected; conceptual principle, not advice about any person's eligibility.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+        "rationale": "Universal adult suffrage principle adultcitizensvote rather than landowners/graduates/partyonly. Generaleligibilityrules allows age/residence/other lawfulconditions. UNArticle21 universal/equalsuffrage inspected; conceptual principle, not advice about any person's eligibility."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 97,
+      "prompt": "In a vote, what does an absolute majority mean?",
+      "action": "edit",
+      "note": "Absolute majority more than half of relevant total. Quarter,pluralitylessthanhalf,oddnumber wrong. Absolute qualifier distinguishes British election majority-as-winningmargin sense in dictionary.",
+      "recommendedChanges": {
+        "rationale": "Absolute majority more than half of relevant total. Quarter,pluralitylessthanhalf,oddnumber wrong. Absolute qualifier distinguishes British election majority-as-winningmargin sense in dictionary."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 98,
+      "prompt": "What does a unanimous decision mean?",
+      "action": "edit",
+      "note": "Unanimous allparticipantsagree, not chaironly,exacthalf or nodecision. Relevant groupdecision definition checked. Takingpart avoids saying absentpersons must agree too.",
+      "recommendedChanges": {
+        "rationale": "Unanimous allparticipantsagree, not chaironly,exacthalf or nodecision. Relevant groupdecision definition checked. Takingpart avoids saying absentpersons must agree too."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 99,
+      "prompt": "What is an electoral mandate generally understood to be?",
+      "action": "edit",
+      "note": "Electoral mandate authority from voters for programme. Not legalexemption,cancelfutureelections,hereditarytitle. Generallyunderstood avoids suggesting every pledge has a legallybinding mandate; relevant electionauthority sense, not bank instruction/UNmandate.",
+      "recommendedChanges": {
+        "answers": [
+          "Authority voters give elected representatives to pursue their programme",
+          "A guarantee that every future election is cancelled",
+          "An automatic exemption from every law",
+          "A permanent hereditary title"
+        ],
+        "rationale": "Electoral mandate authority from voters for programme. Not legalexemption,cancelfutureelections,hereditarytitle. Generallyunderstood avoids suggesting every pledge has a legallybinding mandate; relevant electionauthority sense, not bank instruction/UNmandate."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    },
+    {
+      "row": 100,
+      "prompt": "What is a political party?",
+      "action": "edit",
+      "note": "Political party organised sharedpolicy/power group. Impartialelectionauthority,court,permanentadministration other institutions. Organisation's political nature explicit, not holidayparty. No claim every party necessarily wins or contests every available election.",
+      "recommendedChanges": {
+        "answers": [
+          "An organised group seeking political power to pursue shared policies",
+          "An impartial body that administers election counts",
+          "A court hearing disputes about an election",
+          "A permanent department that implements government policy"
+        ],
+        "rationale": "Political party organised sharedpolicy/power group. Impartialelectionauthority,court,permanentadministration other institutions. Organisation's political nature explicit, not holidayparty. No claim every party necessarily wins or contests every available election."
+      },
+      "sourceReview": "Author second editorial pass of this item and all four choices: meaning, sole correct answer, grammar and Politics relevance checked against the applicable dictionary sense or the specified parliamentary/government/electoral reference. Not independent review."
+    }
+  ]
+}

@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "d47a323bfeab62c134ff",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In politics, what does suffrage mean?",
+    "answers": [
+      "The right to vote",
+      "The power to collect taxes",
+      "The duty to serve in the army",
+      "The right to issue currency"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/suffrage",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "dd485cb82af484905286",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a referendum?",
+    "answers": [
+      "A vote held only by cabinet ministers",
+      "A court ruling on a disputed law",
+      "A private vote to elect a party leader",
+      "A direct public vote on a particular question"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/referendum",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "fee83cd3743d6f3a849f",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a ballot paper used for in an election?",
+    "answers": [
+      "Showing the final result of the count",
+      "Recording a candidate's campaign expenses",
+      "Recording a voter's choice",
+      "Listing the policies of every party"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/ballot",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "4def8377d67366eb82f7",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "Where do voters go to cast their votes in person on election day?",
+    "answers": [
+      "A party selection meeting",
+      "A polling station",
+      "A constituency surgery",
+      "A cabinet meeting"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/polling-station",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "25cafccf81a4bf705631",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does a political party's election manifesto usually set out?",
+    "answers": [
+      "Its policies and plans if elected",
+      "The final vote count in every constituency",
+      "A confidential record of cabinet discussions",
+      "A list of all eligible voters"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/manifesto",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "c1b1ffbef75db6a2fe04",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is an incumbent politician?",
+    "answers": [
+      "The person selected to count votes",
+      "The candidate who finished second last time",
+      "The person reporting election news",
+      "The person currently holding a particular office"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/incumbent",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "1f075a96589abe890d3e",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a coalition government?",
+    "answers": [
+      "A government that bans all elections",
+      "A government led by the courts alone",
+      "A government formed by two or more political parties working together",
+      "A government with no ministers"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/coalition",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "4fb1c98655e0cf74fdf9",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In a parliamentary system, which is a key role of the opposition?",
+    "answers": [
+      "Appointing every civil servant",
+      "Challenging and scrutinising the government",
+      "Implementing the government's entire programme",
+      "Acting as the country's highest court"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/opposition",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "97472c5f0ab0645f3177",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In government, what is a cabinet?",
+    "answers": [
+      "A group of senior ministers",
+      "All the judges in the highest court",
+      "All the registered voters in one district",
+      "A group of foreign ambassadors"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/cabinet",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "4e8ba838c2c90d1850f4",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In an election, what is a constituency?",
+    "answers": [
+      "A government's annual spending plan",
+      "A formal agreement between countries",
+      "A list of proposed changes to a bill",
+      "An area whose voters elect a representative"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/constituency",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "93f2d15b24fa809311ab",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In an election, who is a candidate?",
+    "answers": [
+      "A voter who has already voted",
+      "A reporter announcing the result",
+      "Someone seeking election to office",
+      "The official supervising the count"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/candidate",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "471a7fb84366c385387f",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What are campaigners doing when they canvass voters?",
+    "answers": [
+      "Swearing elected members into office",
+      "Seeking their support or opinions",
+      "Counting completed ballot papers",
+      "Drawing constituency boundaries"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/canvass",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "43cc6d4eabe85952754f",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "When is an exit poll conducted?",
+    "answers": [
+      "As voters leave the polling station after voting",
+      "Before the names of the candidates are announced",
+      "Only after the final official count is complete",
+      "Before a voter has cast a ballot"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/exit-poll",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "26d2d5878435313ac9f6",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does an opinion poll try to measure?",
+    "answers": [
+      "The official final count of every vote",
+      "The exact outcome of every future election",
+      "Only the membership of the cabinet",
+      "The views of a sample of people"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/opinion-poll",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "c7475506335fd0fe81fc",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does bipartisan cooperation involve?",
+    "answers": [
+      "Cooperation restricted to one party's members",
+      "The merger of two courts",
+      "Cooperation between two political parties",
+      "A government formed without political parties"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/bipartisan",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "f99af64328164ce4a956",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a hung parliament?",
+    "answers": [
+      "A parliament in which one party holds every seat",
+      "A parliament in which no party has an overall majority",
+      "A parliament in which every seat is vacant",
+      "A parliament with a single chamber"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/hung-parliament",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "198dc12be11e231a0f05",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a UK parliamentary by-election normally held to do?",
+    "answers": [
+      "Fill a seat that becomes vacant between general elections",
+      "Elect the monarch",
+      "Choose every MP at once",
+      "Appoint all Supreme Court judges"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/by-election",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "ed2a4639ece164865f5e",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In UK politics, what does devolution involve?",
+    "answers": [
+      "Transferring powers from regional governments back to the centre",
+      "Transferring ownership of public businesses to private investors",
+      "Merging several countries into one state",
+      "Transferring powers from central government to governments in parts of the country"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.parliament.uk/site-information/glossary/devolution/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "fc47fe441cead00dc7c9",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a central feature of federalism?",
+    "answers": [
+      "All decisions must be made by direct referendum",
+      "The national government has no authority of its own",
+      "Power is divided between a national government and constituent states or regions",
+      "All governing powers belong exclusively to local councils"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.archives.gov/legislative/resources/education/federalism",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "d215e10292f8ebc17103",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does it mean if a legislature is bicameral?",
+    "answers": [
+      "It represents only two voters",
+      "It has two chambers",
+      "It has two prime ministers",
+      "It sits only twice a year"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/bicameral",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "c2e7c6be5a69b4679f48",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "How many chambers does a unicameral legislature have?",
+    "answers": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/unicameral",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "8dfafce6dac7528b90e8",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is the main function of a legislature?",
+    "answers": [
+      "Conducting foreign diplomacy",
+      "Commanding military operations",
+      "Hearing appeals against criminal convictions",
+      "Making laws"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/legislature",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "d4d6c805aed109db8b12",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In government, what does the executive branch mainly do?",
+    "answers": [
+      "Acts as a chamber for debating proposed laws",
+      "Runs only the opposition's election campaign",
+      "Puts laws and government policy into effect",
+      "Hears court cases and gives judgments"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/executive",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "7564fd25256ec3e3771c",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does the term judiciary refer to?",
+    "answers": [
+      "The staff of diplomatic missions",
+      "The judges and courts of a legal system",
+      "The senior ministers in the cabinet",
+      "The elected members of a legislature"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/judiciary",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "d37c5f63fe1592007a2d",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does it mean to veto a proposed measure?",
+    "answers": [
+      "Use an official power to reject or block it",
+      "Approve it without changes",
+      "Suggest a change while allowing it to proceed",
+      "Refer it to an opinion poll for advice"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/veto",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "d5cf6a24569331a8b16b",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In US politics, impeachment of a federal official is what?",
+    "answers": [
+      "Automatic removal from office without any further process",
+      "An ordinary general election",
+      "A grant of hereditary office",
+      "A formal accusation of wrongdoing by the House of Representatives"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.senate.gov/about/powers-procedures/impeachment.htm",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "d5346c33a3097b1ef41a",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a term of office?",
+    "answers": [
+      "The number of votes needed to win a seat",
+      "The amount a candidate spends campaigning",
+      "The period for which someone holds a public position",
+      "The area represented by an elected member"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/term",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "fbb6fca9d6380d750c82",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does it mean when a parliamentary meeting is adjourned?",
+    "answers": [
+      "A proposal automatically becomes law",
+      "The meeting is suspended or ended until another time",
+      "Every member permanently loses their seat",
+      "The parliament is dissolved for a general election"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/adjourn",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "cfec5ec01553de159f08",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a parliamentary recess?",
+    "answers": [
+      "A break when parliament is not sitting",
+      "The permanent end of a parliament before an election",
+      "A formal vote on a disputed motion",
+      "A meeting of the governing cabinet"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/recess",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "e37691d7fbd07217d7ea",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a quorum at a formal meeting?",
+    "answers": [
+      "The number of votes a proposal receives",
+      "The maximum number of speeches in a debate",
+      "The total number of seats held by the largest party",
+      "The minimum number of members required for valid business"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/quorum",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "5e5eb544f5771ecbda35",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is an amendment to a proposed law?",
+    "answers": [
+      "A diplomatic agreement with another state",
+      "A list of people entitled to vote",
+      "A change to its wording or provisions",
+      "The final official count of an election"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/amendment",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "0ae532a5bf28bf9e43f4",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In a legislature, what is a bill?",
+    "answers": [
+      "A party's list of election promises",
+      "A proposal for a new law",
+      "A formal agreement between countries",
+      "A decision reached by a judge"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/bill",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "1d08f29bad3ab621cf1f",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a petition in public life?",
+    "answers": [
+      "A formal request, often supported by signatures",
+      "A record of the final votes in an election",
+      "A list of government ministers",
+      "A formal agreement between states"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/petition",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "0263f44b18b82a4d60a1",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does political lobbying involve?",
+    "answers": [
+      "Supervising the official count at an election",
+      "Delivering a court judgment",
+      "Appointing diplomatic staff",
+      "Trying to influence public decisions or decision-makers"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/lobbying",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "82e79563afd7544fbae5",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does a pressure group usually try to do?",
+    "answers": [
+      "Hear appeals as the highest court",
+      "Act as the government's permanent administration",
+      "Influence policy on an issue or set of interests",
+      "Count ballots as the official election authority"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/pressure-group",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "07522a3041b1e3508678",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "A grassroots political movement mainly develops from which level?",
+    "answers": [
+      "Only career diplomats overseas",
+      "Ordinary people at the local or community level",
+      "Only the national cabinet",
+      "Only senior judges"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/grass-roots",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "4a0e7057c32a967c4536",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In parliamentary politics, what is one role of a party whip?",
+    "answers": [
+      "Helping organise party members' attendance and voting",
+      "Chairing the legislature impartially",
+      "Overseeing the national election count",
+      "Judging whether an accused official is guilty"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/whip",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "7e6246553ea257d76ff6",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In UK politics, what is a backbencher?",
+    "answers": [
+      "The most senior judge",
+      "The head of every political party",
+      "An ambassador serving overseas",
+      "An MP who is not a minister or an opposition frontbench spokesperson"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.parliament.uk/about/mps-and-lords/members/partysystem/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "2056f7a6983ea3ce56fe",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In the UK House of Lords, a Crossbencher is best described as what?",
+    "answers": [
+      "An elected member of the House of Commons",
+      "The official responsible for counting general-election votes",
+      "An independent peer outside the party groups",
+      "A minister who represents all political parties"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.parliament.uk/site-information/glossary/crossbench-peers/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "79abc346bf4afd092a1d",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a parliamentary Speaker primarily responsible for during debates?",
+    "answers": [
+      "Leading negotiations with foreign governments",
+      "Chairing proceedings and maintaining order",
+      "Writing the governing party's election manifesto",
+      "Counting votes at every public election"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/speaker",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "d71db168a8d9397ee971",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In the UK Parliament, what is a division?",
+    "answers": [
+      "A formal vote",
+      "A party's election poster",
+      "A royal wedding",
+      "A judge's written sentence"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.parliament.uk/site-information/glossary/divisions/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "ce88c67e97ecb2ea75aa",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a filibuster intended to do?",
+    "answers": [
+      "Speed every proposal into law automatically",
+      "Select candidates by lottery",
+      "Replace every voter with a judge",
+      "Delay or obstruct legislative business through prolonged debate or other tactics"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/filibuster",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "d1ef9a4d59a1be4a91d8",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is gerrymandering?",
+    "answers": [
+      "Holding elections on a weekend",
+      "Giving every voter the same ballot paper",
+      "Manipulating electoral boundaries for political advantage",
+      "Counting votes in alphabetical order"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/gerrymandering",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "951be0a5b681c1a68292",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is proportional representation intended to make seats broadly reflect?",
+    "answers": [
+      "The amount each party spends on posters",
+      "Parties' shares of the vote",
+      "The length of time each party has existed",
+      "The total number of party members"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/proportional-representation",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "5946d3c6c269dc000400",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "Under first-past-the-post voting in a single-member constituency, who wins the seat?",
+    "answers": [
+      "The candidate with the most votes",
+      "The candidate with the most first-time voters only",
+      "The candidate selected by the previous representative",
+      "The candidate whose party wins nationally, regardless of the local count"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/first-past-the-post",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "5c3bd5af81bf1331b353",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a runoff election?",
+    "answers": [
+      "A recount of exactly the same ballot papers",
+      "An opinion poll before candidates are selected",
+      "A ceremony marking the start of a presidency",
+      "A further round of voting to decide a winner"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/runoff",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "53e8a26725973e6bab23",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In US elections, what is a party primary used to help choose?",
+    "answers": [
+      "The official who supervises every ballot count",
+      "The person who chairs the Supreme Court",
+      "The party's candidate for an election",
+      "The final winner of the general election automatically"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/primary",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "3f6df140d7c33fe05245",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In US presidential candidate selection, a caucus is typically what?",
+    "answers": [
+      "A ceremony to swear in the president",
+      "A meeting of party members or supporters to express their preferences",
+      "A court hearing to settle a disputed election",
+      "An official recount of general-election ballots"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/caucus",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "d0a4ce8afa8742e12876",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a president's inauguration?",
+    "answers": [
+      "The formal ceremony marking the start of the presidency",
+      "The selection of a party's election candidate",
+      "The official count on election night",
+      "The formal announcement of a president's retirement"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/inauguration",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "3bb978c8349ec3fafa9c",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In UK politics, what is the dissolution of Parliament?",
+    "answers": [
+      "A temporary break between parliamentary sittings",
+      "A reshuffle of cabinet ministers",
+      "A formal vote on a proposed law",
+      "The formal end of a Parliament before a general election"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.parliament.uk/site-information/glossary/dissolution/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "dce5e4c8f1b118134aea",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a head of state?",
+    "answers": [
+      "The most senior newspaper editor",
+      "The representative of one local ward",
+      "The person who formally represents a country at the highest constitutional level",
+      "The chief organiser of every election campaign"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/head-of-state",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "e0f90cdfd2c7006d7c37",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In the UK, which officeholder leads the government?",
+    "answers": [
+      "The Lord Chief Justice",
+      "The Prime Minister",
+      "The Speaker of the House of Commons",
+      "The Leader of the Opposition"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.gov.uk/government/how-government-works",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "114356267773131907b3",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In a republic, the head of state is generally what?",
+    "answers": [
+      "A person who is not a monarch",
+      "Always a hereditary king",
+      "Always a hereditary queen",
+      "Always the leader of a religious institution"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/republic",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "72b73919271075d8c77c",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In a constitutional monarchy, what limits the monarch's governing powers?",
+    "answers": [
+      "The monarch's wishes alone",
+      "The personal rules of a royal servant",
+      "The views of one private company",
+      "A constitutional framework"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.royal.uk/the-role-of-the-monarchy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "3eb17766bb7653b2c5ed",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What characterises political absolutism?",
+    "answers": [
+      "Every policy is decided by direct public vote",
+      "Political authority is divided equally among all citizens",
+      "A ruler or ruling group holds complete governing power",
+      "The national government has no authority"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/absolutism",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "25235c5c35a2519d0564",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In a democracy, political authority is ultimately meant to come from whom?",
+    "answers": [
+      "Only the wealthiest corporation",
+      "The people",
+      "Only one hereditary family",
+      "Only foreign ambassadors"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/democracy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "f66bfa88bb329e8ed7a0",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What distinguishes direct democracy from representative democracy?",
+    "answers": [
+      "Citizens vote on policies or laws themselves",
+      "Citizens choose representatives to decide every policy for them",
+      "Citizens have no voting rights",
+      "Only the cabinet is allowed to vote"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/direct-democracy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "ab5b0f017a40625a6ff9",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In a representative democracy, citizens normally make political choices by doing what?",
+    "answers": [
+      "Voting directly on every government decision",
+      "Allowing a monarch to appoint every representative",
+      "Letting judges choose all legislative members",
+      "Electing people to make decisions on their behalf"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/representative-democracy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "cb912d1a3d1e8a0fcad9",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is an autocracy?",
+    "answers": [
+      "A system with no governing authority",
+      "A system that distributes power equally to all citizens",
+      "A system concentrating power in a ruler or small ruling group",
+      "A system requiring every citizen to agree to each decision"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/autocracy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "f754f741c8c85496f4de",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "A dictatorship is typically characterised by what?",
+    "answers": [
+      "A requirement that every law be approved by a jury",
+      "Power concentrated in an authoritarian ruler or ruling group",
+      "Guaranteed open competition for every public office",
+      "No authority to enforce any rules"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/dictatorship",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "2bdd70b7c0eaf35646f8",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is an oligarchy?",
+    "answers": [
+      "Government or control by a small powerful group",
+      "Government through direct voting by the entire population",
+      "Government with no officials or institutions",
+      "Government controlled by every citizen equally"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/oligarchy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "bbbc8a64a1cee7c659af",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In a theocracy, political authority is closely tied to what?",
+    "answers": [
+      "Independent sporting bodies",
+      "Only commercial stock exchanges",
+      "Only public opinion surveys",
+      "Religious authority"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/theocracy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "aad7b889a5e13a293e7c",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a plutocracy?",
+    "answers": [
+      "Rule based only on religious office",
+      "Rule by citizens selected at random",
+      "Rule or dominant political influence by the wealthy",
+      "Rule based only on military rank"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/plutocracy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "6a81f0903d7aeda7babf",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is diplomacy in international relations?",
+    "answers": [
+      "Passing judgment in a domestic criminal case",
+      "Managing relations between states through negotiation and communication",
+      "Drawing boundaries between local electoral wards",
+      "Counting ballots in a domestic election"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/diplomacy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "1bf606de77fcf6192ffe",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is an ambassador?",
+    "answers": [
+      "A senior diplomatic representative of a state",
+      "A tourist automatically granted political office",
+      "A candidate seeking election in every district",
+      "A judge who hears all international disputes"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/ambassador",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "88717762d93dc4754175",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is an embassy?",
+    "answers": [
+      "A court that hears every domestic criminal trial",
+      "A place that automatically becomes a new sovereign country",
+      "A private political party's campaign office",
+      "A state's diplomatic mission or its premises in another country"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/embassy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "4a0aede78eb136a71c2d",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a treaty?",
+    "answers": [
+      "A single voter's choice on a ballot",
+      "A political party's internal campaign leaflet",
+      "A formal agreement between states",
+      "An unofficial television opinion"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/treaty",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "f4a094f667e397a1f665",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does an armistice agreement provide for?",
+    "answers": [
+      "A final settlement of every disputed issue",
+      "A halt in fighting",
+      "A compulsory merger of the states involved",
+      "An automatic change of national leadership"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/armistice",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "0527e88c2115dee4e976",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What are international sanctions generally intended to do?",
+    "answers": [
+      "Put pressure on a state or other target to change its behaviour",
+      "Guarantee unrestricted trade with the target",
+      "Recognise the target as a new sovereign state automatically",
+      "Give the target a seat in every international organisation"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/sanction",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "edc033eceae4be5141e0",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In politics, sovereignty concerns what?",
+    "answers": [
+      "The popularity of one governing party",
+      "The number of seats in a parliament",
+      "The size of a diplomatic delegation",
+      "Supreme authority over a state or territory"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/sovereignty",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "40995f9703db7d997d70",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "A multilateral agreement involves how many parties?",
+    "answers": [
+      "Exactly two",
+      "None",
+      "More than two",
+      "Exactly one"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/multilateral",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "32a6dcb89a1f30c1bf6d",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "A bilateral agreement is between how many parties?",
+    "answers": [
+      "Ten",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/bilateral",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "dc4eccd6fd1ff3b1b3bd",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "Domestic policy mainly concerns what?",
+    "answers": [
+      "Matters directly affecting people within a country",
+      "Only relations with foreign governments",
+      "Only the work of embassies overseas",
+      "Only treaties between military allies"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/domestic-policy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "ed025ce5f5b465d3370b",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "Foreign policy concerns a state's approach to what?",
+    "answers": [
+      "Only the organisation of local refuse collection",
+      "Only the management of domestic school admissions",
+      "Only the opening hours of local libraries",
+      "Other countries and international affairs"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/foreign-policy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "4452009176d30d1f6111",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "Fiscal policy mainly concerns which government tools?",
+    "answers": [
+      "The drawing of electoral boundaries",
+      "The appointment of ambassadors",
+      "Taxation and public spending",
+      "Interest rates and money supply alone"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/fiscal-policy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "17144f71c306bd88cb02",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "Monetary policy mainly concerns what?",
+    "answers": [
+      "Only the appointment of cabinet ministers",
+      "Money supply and the cost of borrowing",
+      "Only the boundaries of constituencies",
+      "Only the selection of election candidates"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/monetary-policy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "0da5a55e03796594db46",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a government budget?",
+    "answers": [
+      "A plan for public income and spending",
+      "A list of all election candidates",
+      "A record of treaties with other countries",
+      "A map of local government areas"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/budget",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "bbbf4e994342f2ce0f6f",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "A government budget deficit occurs when what happens?",
+    "answers": [
+      "Revenue exceeds spending",
+      "Spending and revenue are exactly equal",
+      "No public money is spent or collected",
+      "Spending exceeds revenue"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/deficit",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "1aef7f8878c0772cf1f7",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "A government budget surplus occurs when what happens?",
+    "answers": [
+      "Spending and revenue are exactly equal",
+      "All taxes are automatically abolished",
+      "Revenue exceeds spending",
+      "Spending exceeds revenue"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/surplus",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "1cfda1a77c82bd02f829",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does the public sector include?",
+    "answers": [
+      "Only independent family firms",
+      "Organisations owned or controlled by government",
+      "Only privately owned businesses",
+      "Only foreign political parties"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/public-sector",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "09ab13218fcda3fc48f1",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does nationalisation involve?",
+    "answers": [
+      "Bringing an industry or business into public ownership",
+      "Selling a state-owned business to private owners",
+      "Moving powers from national to regional government",
+      "Changing the citizenship rules for workers"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/nationalization",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "4fe9f0206bf395f959bf",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does privatisation involve?",
+    "answers": [
+      "Bringing a private company into state ownership",
+      "Moving authority from regional to central government",
+      "Extending voting rights to more people",
+      "Transferring a state-owned business into private ownership"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/privatization",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "a37eb61f4f3be256dac2",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does the idea of a welfare state involve?",
+    "answers": [
+      "A government with no social services",
+      "A system concerned only with military spending",
+      "Public provision to support people's health and social well-being",
+      "A requirement that every public service be privately funded"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/welfare-state",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "4e20d01c33be1b442e63",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is the civil service?",
+    "answers": [
+      "Only the elected cabinet ministers",
+      "The civilian administrative departments and staff of government",
+      "All candidates competing in an election",
+      "Only members of the armed forces"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/civil-service",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "38fdfcb02f8b01d52d27",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does an ombudsman generally investigate?",
+    "answers": [
+      "Complaints about organisations or public administration",
+      "The results of every public opinion poll",
+      "The military strategy of every country",
+      "The selection of every election candidate"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/ombudsman",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "fcb7c0d43b1e7b7d6acd",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does deputy mean in a political job title?",
+    "answers": [
+      "Someone automatically entitled to inherit a throne",
+      "Someone who has retired permanently from public office",
+      "Someone who can never exercise official authority",
+      "Someone authorised to act for or assist a more senior official"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/deputy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "fbab4709942947a6b1b3",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "A mayor is most closely associated with governing which level of community?",
+    "answers": [
+      "The United Nations as a whole",
+      "Every country sharing a language",
+      "A town or city",
+      "An entire continent"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/mayor",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "fa30e450f9f98b42aad5",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does an elected local councillor serve on?",
+    "answers": [
+      "A diplomatic mission abroad",
+      "A local council",
+      "The national cabinet automatically",
+      "The highest court automatically"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/councillor",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "40cc3309375a63467949",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In local elections, what is a ward?",
+    "answers": [
+      "An electoral area within a local authority",
+      "An overseas diplomatic mission",
+      "A national political party's manifesto",
+      "A formal agreement between states"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/ward",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "7b0523cc8ea2f836e67c",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does municipal usually mean in government?",
+    "answers": [
+      "Relating only to international treaties",
+      "Relating only to royal succession",
+      "Relating only to military command",
+      "Relating to a town or city and its local administration"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/municipal",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "ee1c2087082f70597ae0",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is the electorate?",
+    "answers": [
+      "Only the people who count ballots",
+      "Only the people who actually voted",
+      "The people entitled to vote in an election",
+      "Only the candidates seeking office"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/electorate",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "d3cf90becef66867ad52",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does voter turnout measure?",
+    "answers": [
+      "The number of candidates standing for election",
+      "The number or proportion of eligible or registered voters who actually vote",
+      "The proportion of seats won by the largest party",
+      "The amount spent by the winning candidate"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/turnout",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "e9e7e3abf0eea5024c00",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does it mean to abstain in a formal vote?",
+    "answers": [
+      "Choose not to vote for or against",
+      "Vote twice for the same proposal",
+      "Automatically veto the proposal",
+      "Become the chair of the meeting"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/abstain",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "a9c0b5a78fdd25fdf367",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is the purpose of a secret ballot?",
+    "answers": [
+      "Keeping the election date secret from every voter",
+      "Hiding every candidate's name until after voting",
+      "Preventing any vote from being counted",
+      "Protecting the privacy of each voter's choice"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/secret-ballot",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "2af815aae0cad4293b36",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "At an English local election count, what happens to a ballot paper judged invalid?",
+    "answers": [
+      "It is counted twice to compensate for the error",
+      "It is counted for every candidate equally",
+      "It is rejected rather than counted for a candidate",
+      "It is automatically given to the leading candidate"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.electoralcommission.org.uk/guidance-returning-officers-administering-local-government-elections-england/verification-and-count/count/doubtful-ballot-papers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "599ecbe47eb7a60515cd",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "Universal adult suffrage is the principle that which people should be able to vote?",
+    "answers": [
+      "Only members of the governing party",
+      "All adult citizens, subject to general eligibility rules",
+      "Only adults who own land",
+      "Only adults with university degrees"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "5f146e06394389c71bf5",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In a vote, what does an absolute majority mean?",
+    "answers": [
+      "More than half of the relevant total",
+      "Exactly one quarter",
+      "The largest share even if less than half",
+      "Any result containing an odd number"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/majority",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "54c283bd3eecab484699",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does a unanimous decision mean?",
+    "answers": [
+      "Only the chair agrees",
+      "Exactly half agree",
+      "No decision has been made",
+      "Everyone taking part in the decision agrees"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/unanimous",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "055a8c689f51b515e2ce",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is an electoral mandate generally understood to be?",
+    "answers": [
+      "An automatic exemption from every law",
+      "A permanent hereditary title",
+      "Authority voters give elected representatives to pursue their programme",
+      "A guarantee that every future election is cancelled"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/mandate",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  },
+  {
+    "id": "19c81a806431f9df9c97",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a political party?",
+    "answers": [
+      "A permanent department that implements government policy",
+      "An organised group seeking political power to pursue shared policies",
+      "An impartial body that administers election counts",
+      "A court hearing disputes about an election"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/political-party",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-24-v1"
+  }
+]

@@ -1,9 +1,9 @@
 {
   "updated": "2026-11-18",
   "targetNewEasy": 3100,
-  "reviewedAndValidated": 2000,
-  "localBankCount": 23917,
-  "liveBankCount": 23917,
+  "reviewedAndValidated": 2100,
+  "localBankCount": 24017,
+  "liveBankCount": 24017,
   "topics": [
     {
       "topicID": "9",
@@ -129,9 +129,9 @@
       "topicID": "24",
       "name": "Politics",
       "targetNewEasy": 100,
-      "authored": 0,
-      "reviewedAndValidated": 0,
-      "deployedNewEasy": 0
+      "authored": 100,
+      "reviewedAndValidated": 100,
+      "deployedNewEasy": 100
     },
     {
       "topicID": "25",

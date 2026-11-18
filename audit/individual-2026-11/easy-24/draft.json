@@ -1,0 +1,1602 @@
+[
+  {
+    "draftID": "easy-24-001",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In politics, what does suffrage mean?",
+    "answers": [
+      "The right to vote",
+      "The power to collect taxes",
+      "The duty to serve in the army",
+      "The right to issue currency"
+    ],
+    "correctIndex": 0,
+    "rationale": "Suffrage is voting right. Tax powers, military service and currency issue not synonyms. Election scope explicit, ordinary British wording correct; actual dictionary suffrage definition inspected.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/suffrage",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-002",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a referendum?",
+    "answers": [
+      "A direct public vote on a particular question",
+      "A vote held only by cabinet ministers",
+      "A court ruling on a disputed law",
+      "A private vote to elect a party leader"
+    ],
+    "correctIndex": 0,
+    "rationale": "Referendum direct public question vote, not cabinet-only vote, judicial ruling or internal party leadership ballot. Improve distractors to real civic procedures. No claim all referendums are legally binding.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/referendum",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-003",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a ballot paper used for in an election?",
+    "answers": [
+      "Recording a voter's choice",
+      "Listing the policies of every party",
+      "Showing the final result of the count",
+      "Recording a candidate's campaign expenses"
+    ],
+    "correctIndex": 0,
+    "rationale": "Ballot-paper sense records voter's choice. Policy document, final results and expense return different documents. Read paper sense rather than investment-share allotment sense; apostrophe voter's correct.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/ballot",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-004",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "Where do voters go to cast their votes in person on election day?",
+    "answers": [
+      "A polling station",
+      "A constituency surgery",
+      "A cabinet meeting",
+      "A party selection meeting"
+    ],
+    "correctIndex": 0,
+    "rationale": "Polling station is in-person voting place. Constituency surgery,cabinet,selection meeting not election-day voting site. No claim postal/proxy voters must attend; wording explicitly in person.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/polling-station",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-005",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does a political party's election manifesto usually set out?",
+    "answers": [
+      "Its policies and plans if elected",
+      "The final vote count in every constituency",
+      "A confidential record of cabinet discussions",
+      "A list of all eligible voters"
+    ],
+    "correctIndex": 0,
+    "rationale": "Manifesto sets policies/plans. Vote counts,confidential minutes,electoral roll different records. Usually permits parties publishing other material; possessive party's correct.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/manifesto",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-006",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is an incumbent politician?",
+    "answers": [
+      "The person currently holding a particular office",
+      "The person selected to count votes",
+      "The candidate who finished second last time",
+      "The person reporting election news"
+    ],
+    "correctIndex": 0,
+    "rationale": "Incumbent currently holds office. Vote counter,previous runner-up,reporter not definition. Relevant elected-position sense checked among duty/business meanings. Does not mean automatically seeking re-election.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/incumbent",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-007",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a coalition government?",
+    "answers": [
+      "A government formed by two or more political parties working together",
+      "A government with no ministers",
+      "A government that bans all elections",
+      "A government led by the courts alone"
+    ],
+    "correctIndex": 0,
+    "rationale": "Coalition joins parties in governing. No-minister,banned-election,courts-only alternatives wrong. Two or more permits more than two and does not confuse minority single-party administration with coalition.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/coalition",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-008",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In a parliamentary system, which is a key role of the opposition?",
+    "answers": [
+      "Challenging and scrutinising the government",
+      "Implementing the government's entire programme",
+      "Acting as the country's highest court",
+      "Appointing every civil servant"
+    ],
+    "correctIndex": 0,
+    "rationale": "Opposition scrutiny/challenge is a key role. It does not implement government's entire programme,act as judiciary or appoint all civil servants. Key role replaces main to avoid oversimplifying multiple legitimate functions.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/opposition",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-009",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In government, what is a cabinet?",
+    "answers": [
+      "A group of senior ministers",
+      "All the judges in the highest court",
+      "All the registered voters in one district",
+      "A group of foreign ambassadors"
+    ],
+    "correctIndex": 0,
+    "rationale": "Cabinet senior ministers, not judiciary,electorate or foreign diplomatic corps. Political noun sense rather than furniture. Size and membership vary, so no universal number specified.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/cabinet",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-010",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In an election, what is a constituency?",
+    "answers": [
+      "An area whose voters elect a representative",
+      "A government's annual spending plan",
+      "A formal agreement between countries",
+      "A list of proposed changes to a bill"
+    ],
+    "correctIndex": 0,
+    "rationale": "Constituency area electing representative. Budget,treaty,amendment list not geographic electoral units. Read area sense as well as voter/group meanings; question in an election supplies context.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/constituency",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-011",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In an election, who is a candidate?",
+    "answers": [
+      "Someone seeking election to office",
+      "The official supervising the count",
+      "A voter who has already voted",
+      "A reporter announcing the result"
+    ],
+    "correctIndex": 0,
+    "rationale": "Candidate seeks election. Supervisor,voter,reporter different roles; a candidate may also vote but a voter merely having voted does not define candidacy. Remove only-retired-judge distractor.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/candidate",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-012",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What are campaigners doing when they canvass voters?",
+    "answers": [
+      "Seeking their support or opinions",
+      "Counting completed ballot papers",
+      "Drawing constituency boundaries",
+      "Swearing elected members into office"
+    ],
+    "correctIndex": 0,
+    "rationale": "Canvassing seeks support/opinions. Counting votes,boundary setting,swearing-in different acts. Dictionary supports support and survey senses; not canvas fabric spelling.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/canvass",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-013",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "When is an exit poll conducted?",
+    "answers": [
+      "As voters leave the polling station after voting",
+      "Before the names of the candidates are announced",
+      "Only after the final official count is complete",
+      "Before a voter has cast a ballot"
+    ],
+    "correctIndex": 0,
+    "rationale": "Exit poll asks after vote as voters leave. Before ballot or candidate announcement wrong; only-after-final-count not exit polling. Change after voters leave to as they leave for precise timing.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/exit-poll",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-014",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does an opinion poll try to measure?",
+    "answers": [
+      "The views of a sample of people",
+      "The official final count of every vote",
+      "The exact outcome of every future election",
+      "Only the membership of the cabinet"
+    ],
+    "correctIndex": 0,
+    "rationale": "Opinion poll samples views. It is not official complete count,certainty about future or cabinet membership. No claim sample is invariably representative or prediction accurate.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/opinion-poll",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-015",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does bipartisan cooperation involve?",
+    "answers": [
+      "Cooperation between two political parties",
+      "A government formed without political parties",
+      "Cooperation restricted to one party's members",
+      "The merger of two courts"
+    ],
+    "correctIndex": 0,
+    "rationale": "Bipartisan means two parties/both sides. No-party government,one-party-only cooperation,court merger not meaning. Does not require parties to merge or govern together.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/bipartisan",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-016",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a hung parliament?",
+    "answers": [
+      "A parliament in which no party has an overall majority",
+      "A parliament in which every seat is vacant",
+      "A parliament with a single chamber",
+      "A parliament in which one party holds every seat"
+    ],
+    "correctIndex": 0,
+    "rationale": "Hung parliament means no single-party overall majority, not empty seats,one chamber or one party owning every seat. Parliamentary rather than furniture meaning; remove sitting-outdoors joke option.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/hung-parliament",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-017",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a UK parliamentary by-election normally held to do?",
+    "answers": [
+      "Fill a seat that becomes vacant between general elections",
+      "Elect the monarch",
+      "Choose every MP at once",
+      "Appoint all Supreme Court judges"
+    ],
+    "correctIndex": 0,
+    "rationale": "UK by-election fills vacancy between generals. Monarch and Supreme Court judges not elected this way; all-MP election is general. Normally qualifies uncontested/administrative edge cases without changing central meaning.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/by-election",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-018",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In UK politics, what does devolution involve?",
+    "answers": [
+      "Transferring powers from central government to governments in parts of the country",
+      "Transferring powers from regional governments back to the centre",
+      "Transferring ownership of public businesses to private investors",
+      "Merging several countries into one state"
+    ],
+    "correctIndex": 0,
+    "rationale": "UK devolution transfers powers away from centre to territorial institutions; reverse centralisation,privatisation,state merger distinct. Parliament glossary consulted because generic dictionary central-to-local wording too broad for precise UK devolved governments.",
+    "sourceURL": "https://www.parliament.uk/site-information/glossary/devolution/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-019",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a central feature of federalism?",
+    "answers": [
+      "Power is divided between a national government and constituent states or regions",
+      "All governing powers belong exclusively to local councils",
+      "All decisions must be made by direct referendum",
+      "The national government has no authority of its own"
+    ],
+    "correctIndex": 0,
+    "rationale": "Federalism shares/divides authority among national and constituent levels. Only-local,no-national-authority and obligatory direct referendum not definitions. National Archives school lesson explicitly defines divided responsibilities; supersedes oversimplified dictionary first definition.",
+    "sourceURL": "https://www.archives.gov/legislative/resources/education/federalism",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-020",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does it mean if a legislature is bicameral?",
+    "answers": [
+      "It has two chambers",
+      "It has two prime ministers",
+      "It sits only twice a year",
+      "It represents only two voters"
+    ],
+    "correctIndex": 0,
+    "rationale": "Bicameral means two chambers. Two PMs,two yearly sittings,two voters unrelated counts. Parliament/congress scope explicit; not requirement that chambers have equal power.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/bicameral",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-021",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "How many chambers does a unicameral legislature have?",
+    "answers": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "correctIndex": 0,
+    "rationale": "Unicameral one chamber;two/three/four wrong. Dictionary says only one group of members. No conflation with one-party government.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/unicameral",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-022",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is the main function of a legislature?",
+    "answers": [
+      "Making laws",
+      "Conducting foreign diplomacy",
+      "Commanding military operations",
+      "Hearing appeals against criminal convictions"
+    ],
+    "correctIndex": 0,
+    "rationale": "Legislature chiefly makes laws. Diplomacy,military command,criminal appeals are other functions. Main function qualifier accommodates oversight/tax approval and constitutional variations; replace retail/weather distractors.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/legislature",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-023",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In government, what does the executive branch mainly do?",
+    "answers": [
+      "Puts laws and government policy into effect",
+      "Hears court cases and gives judgments",
+      "Acts as a chamber for debating proposed laws",
+      "Runs only the opposition's election campaign"
+    ],
+    "correctIndex": 0,
+    "rationale": "Executive puts laws/policy into effect. Judicial judgments,legislative debating chamber,opposition campaign are different. Actual government noun sense inspected among corporate executive definitions.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/executive",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-024",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does the term judiciary refer to?",
+    "answers": [
+      "The judges and courts of a legal system",
+      "The senior ministers in the cabinet",
+      "The elected members of a legislature",
+      "The staff of diplomatic missions"
+    ],
+    "correctIndex": 0,
+    "rationale": "Judiciary judges/courts, not cabinet,legislature,diplomatic staff. Dictionary explicitly legal-system branch. Replace sports-team distractor; no assertion judges can never have any other public roles.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/judiciary",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-025",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does it mean to veto a proposed measure?",
+    "answers": [
+      "Use an official power to reject or block it",
+      "Approve it without changes",
+      "Suggest a change while allowing it to proceed",
+      "Refer it to an opinion poll for advice"
+    ],
+    "correctIndex": 0,
+    "rationale": "Veto official block/rejection, not approval,merely proposing amendment or advisory poll. Does not claim every veto is permanent or cannot be overridden; official power qualification important.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/veto",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-026",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In US politics, impeachment of a federal official is what?",
+    "answers": [
+      "A formal accusation of wrongdoing by the House of Representatives",
+      "Automatic removal from office without any further process",
+      "An ordinary general election",
+      "A grant of hereditary office"
+    ],
+    "correctIndex": 0,
+    "rationale": "US House impeachment accusation differs from conviction/removal. Senate official account explicitly separates charges from trial/conviction. General election and heredity wrong; federal scope excludes differing state procedures.",
+    "sourceURL": "https://www.senate.gov/about/powers-procedures/impeachment.htm",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-027",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a term of office?",
+    "answers": [
+      "The period for which someone holds a public position",
+      "The area represented by an elected member",
+      "The number of votes needed to win a seat",
+      "The amount a candidate spends campaigning"
+    ],
+    "correctIndex": 0,
+    "rationale": "Term period holding public office, not district,vote threshold or campaign cost. Relevant job/government period sense inspected among school/pregnancy/mathematical definitions; no universal fixed duration claimed.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/term",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-028",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does it mean when a parliamentary meeting is adjourned?",
+    "answers": [
+      "The meeting is suspended or ended until another time",
+      "Every member permanently loses their seat",
+      "The parliament is dissolved for a general election",
+      "A proposal automatically becomes law"
+    ],
+    "correctIndex": 0,
+    "rationale": "Adjourn pauses/temporarily ends meeting. Members losing seats,dissolution,automatic lawmaking not it. Until another time preserves temporary nature; distinguishes dissolution and recess.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/adjourn",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-029",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a parliamentary recess?",
+    "answers": [
+      "A break when parliament is not sitting",
+      "The permanent end of a parliament before an election",
+      "A formal vote on a disputed motion",
+      "A meeting of the governing cabinet"
+    ],
+    "correctIndex": 0,
+    "rationale": "Recess break in sitting, not end of Parliament,vote or cabinet meeting. Parliamentary noun sense checked, not school break/alcove. No claim members stop all constituency/committee work.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/recess",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-030",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a quorum at a formal meeting?",
+    "answers": [
+      "The minimum number of members required for valid business",
+      "The number of votes a proposal receives",
+      "The maximum number of speeches in a debate",
+      "The total number of seats held by the largest party"
+    ],
+    "correctIndex": 0,
+    "rationale": "Quorum minimum required participants for valid business. Vote outcome,speech cap,largest-party seat count not meaning. No arbitrary universal numeric quorum invented.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/quorum",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-031",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is an amendment to a proposed law?",
+    "answers": [
+      "A change to its wording or provisions",
+      "The final official count of an election",
+      "A diplomatic agreement with another state",
+      "A list of people entitled to vote"
+    ],
+    "correctIndex": 0,
+    "rationale": "Amendment change to proposed text/provisions. Count,treaty,electorate list not it. Proposed-law qualifier narrows legal meaning; relevant draft-law dictionary sense checked.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/amendment",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-032",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In a legislature, what is a bill?",
+    "answers": [
+      "A proposal for a new law",
+      "A formal agreement between countries",
+      "A decision reached by a judge",
+      "A party's list of election promises"
+    ],
+    "correctIndex": 0,
+    "rationale": "Bill proposed law, not treaty,judicial decision or manifesto. Legislative context excludes banknote,bird's bill,invoice and programme billing. More plausible civic distractors added.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/bill",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-033",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a petition in public life?",
+    "answers": [
+      "A formal request, often supported by signatures",
+      "A record of the final votes in an election",
+      "A list of government ministers",
+      "A formal agreement between states"
+    ],
+    "correctIndex": 0,
+    "rationale": "Petition formal request often signed. Election result,minister list,treaty not it. Often allows parliamentary petitions presented through representative and other lawful forms; avoids arbitrary minimum signatures.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/petition",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-034",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does political lobbying involve?",
+    "answers": [
+      "Trying to influence public decisions or decision-makers",
+      "Supervising the official count at an election",
+      "Delivering a court judgment",
+      "Appointing diplomatic staff"
+    ],
+    "correctIndex": 0,
+    "rationale": "Lobbying seeks to influence decisions. Count supervision,judicial judgment,diplomatic appointments not definition. No suggestion lobbying necessarily illegal or always involves money.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/lobbying",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-035",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does a pressure group usually try to do?",
+    "answers": [
+      "Influence policy on an issue or set of interests",
+      "Count ballots as the official election authority",
+      "Hear appeals as the highest court",
+      "Act as the government's permanent administration"
+    ],
+    "correctIndex": 0,
+    "rationale": "Pressure group aims to influence policy/interests, unlike election authority,court,civil service. Usually accommodates different tactics; not claimed every pressure group becomes electoral party.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/pressure-group",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-036",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "A grassroots political movement mainly develops from which level?",
+    "answers": [
+      "Ordinary people at the local or community level",
+      "Only the national cabinet",
+      "Only senior judges",
+      "Only career diplomats overseas"
+    ],
+    "correctIndex": 0,
+    "rationale": "Grassroots ordinary people/community, not exclusivelycabinet/judges/diplomats. Relevant people sense inspected. A politician may participate but top-down official control is not defining source.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/grass-roots",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-037",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In parliamentary politics, what is one role of a party whip?",
+    "answers": [
+      "Helping organise party members' attendance and voting",
+      "Chairing the legislature impartially",
+      "Overseeing the national election count",
+      "Judging whether an accused official is guilty"
+    ],
+    "correctIndex": 0,
+    "rationale": "Whip organises member attendance/party voting. Speaker,election counter,trial judge distinct. Actual political whip sense checked, not leather tool/food/car. One role qualifier allows welfare/communication duties.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/whip",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-038",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In UK politics, what is a backbencher?",
+    "answers": [
+      "An MP who is not a minister or an opposition frontbench spokesperson",
+      "The most senior judge",
+      "The head of every political party",
+      "An ambassador serving overseas"
+    ],
+    "correctIndex": 0,
+    "rationale": "Backbench MP lacks ministerial or opposition frontbench spokesperson role. Judge,party head,ambassador not meaning. Parliament party-system text directly inspected to refine dictionary broad no-official-position formulation.",
+    "sourceURL": "https://www.parliament.uk/about/mps-and-lords/members/partysystem/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-039",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In the UK House of Lords, a Crossbencher is best described as what?",
+    "answers": [
+      "An independent peer outside the party groups",
+      "A minister who represents all political parties",
+      "An elected member of the House of Commons",
+      "The official responsible for counting general-election votes"
+    ],
+    "correctIndex": 0,
+    "rationale": "Crossbencher non-party peer outside party groups. Multi-party minister,Commons MP,election counter wrong. Cambridge guessed crossbencher entry had no definition; replace with Parliament explicit Crossbench Peers description. Do not assert every unwhipped peer is automatically a Crossbencher.",
+    "sourceURL": "https://www.parliament.uk/site-information/glossary/crossbench-peers/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-040",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a parliamentary Speaker primarily responsible for during debates?",
+    "answers": [
+      "Chairing proceedings and maintaining order",
+      "Writing the governing party's election manifesto",
+      "Counting votes at every public election",
+      "Leading negotiations with foreign governments"
+    ],
+    "correctIndex": 0,
+    "rationale": "Speaker chairs debate/maintains order. Party-manifesto author,public election counter,diplomatic negotiator not defining job. Parliamentary sense checked beyond loudspeaker/orator; no claim all countries choose Speakers identically.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/speaker",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-041",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In the UK Parliament, what is a division?",
+    "answers": [
+      "A formal vote",
+      "A party's election poster",
+      "A royal wedding",
+      "A judge's written sentence"
+    ],
+    "correctIndex": 0,
+    "rationale": "Division formal parliamentary vote. Poster,royal wedding,court sentence not it. Cambridge entry did not cover parliamentary division; Parliament glossary explicitly describes counting for/against through lobbies.",
+    "sourceURL": "https://www.parliament.uk/site-information/glossary/divisions/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-042",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a filibuster intended to do?",
+    "answers": [
+      "Delay or obstruct legislative business through prolonged debate or other tactics",
+      "Speed every proposal into law automatically",
+      "Select candidates by lottery",
+      "Replace every voter with a judge"
+    ],
+    "correctIndex": 0,
+    "rationale": "Filibuster delays/obstructs legislative business with speeches/rules. Automatic speed-through,candidate lottery,voter replacement wrong. Dictionary includes tactics as well as prolonged speeches; not overrestricted to one country.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/filibuster",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-043",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is gerrymandering?",
+    "answers": [
+      "Manipulating electoral boundaries for political advantage",
+      "Counting votes in alphabetical order",
+      "Holding elections on a weekend",
+      "Giving every voter the same ballot paper"
+    ],
+    "correctIndex": 0,
+    "rationale": "Gerrymandering manipulates electoral boundaries for advantage. Alphabetical counting,weekend voting,same ballot paper not it. No partisan accusation or current boundary opinion included.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/gerrymandering",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-044",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is proportional representation intended to make seats broadly reflect?",
+    "answers": [
+      "Parties' shares of the vote",
+      "The length of time each party has existed",
+      "The total number of party members",
+      "The amount each party spends on posters"
+    ],
+    "correctIndex": 0,
+    "rationale": "PR seats broadly reflect vote shares, not party age,membership or advertising. Broadly accommodates thresholds/rounding/formula differences. No claim perfect exact proportionality in every implementation.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/proportional-representation",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-045",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "Under first-past-the-post voting in a single-member constituency, who wins the seat?",
+    "answers": [
+      "The candidate with the most votes",
+      "The candidate with the most first-time voters only",
+      "The candidate selected by the previous representative",
+      "The candidate whose party wins nationally, regardless of the local count"
+    ],
+    "correctIndex": 0,
+    "rationale": "FPTP most votes in single-member seat. Not only first-time voters,named predecessor's pick or national winner regardless of local votes. Does not require more than half; specify local constituency to distinguish national totals.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/first-past-the-post",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-046",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a runoff election?",
+    "answers": [
+      "A further round of voting to decide a winner",
+      "A recount of exactly the same ballot papers",
+      "An opinion poll before candidates are selected",
+      "A ceremony marking the start of a presidency"
+    ],
+    "correctIndex": 0,
+    "rationale": "Runoff further voting round, not recount of same ballots,preselection survey,inauguration. Relevant electoral sense checked beyond water runoff. No single worldwide qualification threshold imposed.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/runoff",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-047",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In US elections, what is a party primary used to help choose?",
+    "answers": [
+      "The party's candidate for an election",
+      "The final winner of the general election automatically",
+      "The official who supervises every ballot count",
+      "The person who chairs the Supreme Court"
+    ],
+    "correctIndex": 0,
+    "rationale": "Primary helps choose party nominee, not automatically general-election winner,count supervisor or chief justice. Helps accommodates delegate/convention processes; relevant US political noun sense inspected beyond school/first/main.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/primary",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-048",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In US presidential candidate selection, a caucus is typically what?",
+    "answers": [
+      "A meeting of party members or supporters to express their preferences",
+      "A court hearing to settle a disputed election",
+      "An official recount of general-election ballots",
+      "A ceremony to swear in the president"
+    ],
+    "correctIndex": 0,
+    "rationale": "Caucus candidate-selection meeting of party supporters,membership rules vary. Court,count,inauguration not it. Typically avoids claiming every caucus means only election meeting; legislative caucuses also exist.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/caucus",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-049",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a president's inauguration?",
+    "answers": [
+      "The formal ceremony marking the start of the presidency",
+      "The selection of a party's election candidate",
+      "The official count on election night",
+      "The formal announcement of a president's retirement"
+    ],
+    "correctIndex": 0,
+    "rationale": "Inauguration formal start ceremony, not nomination,count or retirement announcement. No claim inauguration alone is legal source of term start in all constitutions. President possessive correct.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/inauguration",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-050",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In UK politics, what is the dissolution of Parliament?",
+    "answers": [
+      "The formal end of a Parliament before a general election",
+      "A temporary break between parliamentary sittings",
+      "A reshuffle of cabinet ministers",
+      "A formal vote on a proposed law"
+    ],
+    "correctIndex": 0,
+    "rationale": "UK dissolution formal Parliament end before general election. Temporary break,reshuffle,bill vote distinct. Jurisdiction narrowed and Parliament glossary used; avoid confusing prorogation/session end with entire Parliament end.",
+    "sourceURL": "https://www.parliament.uk/site-information/glossary/dissolution/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-051",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a head of state?",
+    "answers": [
+      "The person who formally represents a country at the highest constitutional level",
+      "The chief organiser of every election campaign",
+      "The most senior newspaper editor",
+      "The representative of one local ward"
+    ],
+    "correctIndex": 0,
+    "rationale": "Head of state formal highest representative;campaign organiser,editor,ward representative not definition. It can be monarch or president and executive or ceremonial, so no claim always powerless.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/head-of-state",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-052",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In the UK, which officeholder leads the government?",
+    "answers": [
+      "The Prime Minister",
+      "The Speaker of the House of Commons",
+      "The Leader of the Opposition",
+      "The Lord Chief Justice"
+    ],
+    "correctIndex": 0,
+    "rationale": "Guessed head-of-government dictionary entry lacked definition. Replace with concrete UK office: PM leads government. Speaker,opposition leader,Lord Chief Justice different roles. GOV.UK institutional description inspected; no current personal name used.",
+    "sourceURL": "https://www.gov.uk/government/how-government-works",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-053",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In a republic, the head of state is generally what?",
+    "answers": [
+      "A person who is not a monarch",
+      "Always a hereditary king",
+      "Always a hereditary queen",
+      "Always the leader of a religious institution"
+    ],
+    "correctIndex": 0,
+    "rationale": "Republic's head of state not monarch. Hereditary king/queen and always religious leader wrong. Remove hereditary-only wording from correct choice because elective monarchies remain monarchies; generally allows complex historical terminology without claiming every republic democratic.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/republic",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-054",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In a constitutional monarchy, what limits the monarch's governing powers?",
+    "answers": [
+      "A constitutional framework",
+      "The monarch's wishes alone",
+      "The personal rules of a royal servant",
+      "The views of one private company"
+    ],
+    "correctIndex": 0,
+    "rationale": "Constitutional framework limits monarch's powers. Monarch's wishes alone/private servant/company not source of constitutional restrictions. Royal official explanation specifies Parliament's legislative role; do not assert every constitution must be one codified written document.",
+    "sourceURL": "https://www.royal.uk/the-role-of-the-monarchy",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-055",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What characterises political absolutism?",
+    "answers": [
+      "A ruler or ruling group holds complete governing power",
+      "The national government has no authority",
+      "Every policy is decided by direct public vote",
+      "Political authority is divided equally among all citizens"
+    ],
+    "correctIndex": 0,
+    "rationale": "Absolute-monarchy guessed page only examples,no definition. Replace with political absolutism, dedicated Cambridge entry explicitly complete power by ruler/group/party. No-authority,direct-every-policy,equal citizen authority opposite concepts; do not confuse absolute with merely hereditary.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/absolutism",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-056",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In a democracy, political authority is ultimately meant to come from whom?",
+    "answers": [
+      "The people",
+      "Only one hereditary family",
+      "Only foreign ambassadors",
+      "Only the wealthiest corporation"
+    ],
+    "correctIndex": 0,
+    "rationale": "Democratic authority meant to originate with people. Exclusivelydynasty,foreign ambassadors or corporation not principle. Ultimately meant to allows imperfect actual practice and avoids assessing disputed present-day regimes.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/democracy",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-057",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What distinguishes direct democracy from representative democracy?",
+    "answers": [
+      "Citizens vote on policies or laws themselves",
+      "Citizens choose representatives to decide every policy for them",
+      "Citizens have no voting rights",
+      "Only the cabinet is allowed to vote"
+    ],
+    "correctIndex": 0,
+    "rationale": "Direct democracy citizens decide policies/laws directly. Representation-only,no-voting,cabinet-only not defining. Different from58's representative route; no claim systems cannot combine both forms.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/direct-democracy",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-058",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In a representative democracy, citizens normally make political choices by doing what?",
+    "answers": [
+      "Electing people to make decisions on their behalf",
+      "Voting directly on every government decision",
+      "Allowing a monarch to appoint every representative",
+      "Letting judges choose all legislative members"
+    ],
+    "correctIndex": 0,
+    "rationale": "Representative democracy elects decision-makers. Every direct decision,monarch appointment,judge appointment alternatives not electoral representation. Normally accommodates referendums alongside representative institutions.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/representative-democracy",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-059",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is an autocracy?",
+    "answers": [
+      "A system concentrating power in a ruler or small ruling group",
+      "A system requiring every citizen to agree to each decision",
+      "A system with no governing authority",
+      "A system that distributes power equally to all citizens"
+    ],
+    "correctIndex": 0,
+    "rationale": "Cambridge autocracy allows ruler or small group, so expand original one-ruler-only answer. Unanimous-all,equal-power-all,no-government not meaning. Avoid confusing narrow common singular-ruler usage with universal claim.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/autocracy",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-060",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "A dictatorship is typically characterised by what?",
+    "answers": [
+      "Power concentrated in an authoritarian ruler or ruling group",
+      "Guaranteed open competition for every public office",
+      "No authority to enforce any rules",
+      "A requirement that every law be approved by a jury"
+    ],
+    "correctIndex": 0,
+    "rationale": "Dictatorship authoritarian concentrated power. Guaranteed open competition,no enforcing authority,mandatoryjury-for-all-laws not characteristics. Typically recognises varying institutional forms; no present country labelled.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/dictatorship",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-061",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is an oligarchy?",
+    "answers": [
+      "Government or control by a small powerful group",
+      "Government through direct voting by the entire population",
+      "Government with no officials or institutions",
+      "Government controlled by every citizen equally"
+    ],
+    "correctIndex": 0,
+    "rationale": "Oligarchy small powerful group. Whole-population direct rule,no institutions,equalallcitizens not definition. All options inspected; remove random child comic distractor.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/oligarchy",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-062",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In a theocracy, political authority is closely tied to what?",
+    "answers": [
+      "Religious authority",
+      "Independent sporting bodies",
+      "Only commercial stock exchanges",
+      "Only public opinion surveys"
+    ],
+    "correctIndex": 0,
+    "rationale": "Theocracy links political and religious authority. Sports bodies,stock exchange only,polls only wrong. Dictionary religious-leader rule checked; no assertion every religious country is theocracy.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/theocracy",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-063",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a plutocracy?",
+    "answers": [
+      "Rule or dominant political influence by the wealthy",
+      "Rule based only on military rank",
+      "Rule based only on religious office",
+      "Rule by citizens selected at random"
+    ],
+    "correctIndex": 0,
+    "rationale": "Plutocracy wealthy dominance, not militaryrank/religiousoffice/randomcitizens as defining selection. Dominant influence permits informal as well as formal rule; no current political insinuation.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/plutocracy",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-064",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is diplomacy in international relations?",
+    "answers": [
+      "Managing relations between states through negotiation and communication",
+      "Drawing boundaries between local electoral wards",
+      "Counting ballots in a domestic election",
+      "Passing judgment in a domestic criminal case"
+    ],
+    "correctIndex": 0,
+    "rationale": "Diplomacy manages interstate relations via communication/negotiation. Local boundaries,domestic counts,courtjudgments different. International relations scope excludes personal tact sense.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/diplomacy",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-065",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is an ambassador?",
+    "answers": [
+      "A senior diplomatic representative of a state",
+      "A tourist automatically granted political office",
+      "A candidate seeking election in every district",
+      "A judge who hears all international disputes"
+    ],
+    "correctIndex": 0,
+    "rationale": "Ambassador senior diplomatic representative. Not automaticroyalstatus,candidate in everydistrict or all-disputejudge. Broaden answer beyond only another-country posting to allow ambassadors to international organisations.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/ambassador",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-066",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is an embassy?",
+    "answers": [
+      "A state's diplomatic mission or its premises in another country",
+      "A court that hears every domestic criminal trial",
+      "A place that automatically becomes a new sovereign country",
+      "A private political party's campaign office"
+    ],
+    "correctIndex": 0,
+    "rationale": "Embassy diplomatic mission/building. Not all-domestic court,new sovereign country or party office. Mission or premises wording reflects both dictionary senses; embassy land not magically separate sovereign state.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/embassy",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-067",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a treaty?",
+    "answers": [
+      "A formal agreement between states",
+      "An unofficial television opinion",
+      "A single voter's choice on a ballot",
+      "A political party's internal campaign leaflet"
+    ],
+    "correctIndex": 0,
+    "rationale": "Treaty formal interstate agreement. Presenter opinion,individual ballot,internalleaflet not treaty. Simplify specialist subjects-of-international-law wording to states without claiming treaties can never involve international organisations.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/treaty",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-068",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does an armistice agreement provide for?",
+    "answers": [
+      "A halt in fighting",
+      "A compulsory merger of the states involved",
+      "An automatic change of national leadership",
+      "A final settlement of every disputed issue"
+    ],
+    "correctIndex": 0,
+    "rationale": "Armistice halt in fighting, not automaticmerger,leadershipchange or finalsettlementallissues. Dictionary explicitly temporary halt and possible peace talks. Distinguish armistice from permanent peace treaty.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/armistice",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-069",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What are international sanctions generally intended to do?",
+    "answers": [
+      "Put pressure on a state or other target to change its behaviour",
+      "Guarantee unrestricted trade with the target",
+      "Recognise the target as a new sovereign state automatically",
+      "Give the target a seat in every international organisation"
+    ],
+    "correctIndex": 0,
+    "rationale": "Sanctions pressure behaviour. Not necessarilyunrestrictedtrade,newstate recognition or universalseats. Relevant international punitive meaning inspected; sanction can mean approval in other contexts, hence international sanctions scope.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/sanction",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-070",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In politics, sovereignty concerns what?",
+    "answers": [
+      "Supreme authority over a state or territory",
+      "The popularity of one governing party",
+      "The number of seats in a parliament",
+      "The size of a diplomatic delegation"
+    ],
+    "correctIndex": 0,
+    "rationale": "Sovereignty supreme governing authority. Party popularity,seatcount,delegationsize not it. Supreme authority wording within politics, not a claim no international obligations can exist.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/sovereignty",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-071",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "A multilateral agreement involves how many parties?",
+    "answers": [
+      "More than two",
+      "Exactly one",
+      "Exactly two",
+      "None"
+    ],
+    "correctIndex": 0,
+    "rationale": "Multilateral more than two participants, not one/two/none. Dictionary explicit more than two. Parties means participating states/entities, not necessarily political parties.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/multilateral",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-072",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "A bilateral agreement is between how many parties?",
+    "answers": [
+      "Two",
+      "Three",
+      "Four",
+      "Ten"
+    ],
+    "correctIndex": 0,
+    "rationale": "Bilateral two parties, not three/four/ten. Same international-agreement meaning distinct from multilateral. No claim parties must be countries rather than organisations.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/bilateral",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-073",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "Domestic policy mainly concerns what?",
+    "answers": [
+      "Matters directly affecting people within a country",
+      "Only relations with foreign governments",
+      "Only the work of embassies overseas",
+      "Only treaties between military allies"
+    ],
+    "correctIndex": 0,
+    "rationale": "Domestic policy matters directly affecting people within country. Foreigngovernments-only,embassies-only,militarytreaties-only wrong. Direct-effects wording more faithful than rigid border claim; domestic policy may have external effects too.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/domestic-policy",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-074",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "Foreign policy concerns a state's approach to what?",
+    "answers": [
+      "Other countries and international affairs",
+      "Only the organisation of local refuse collection",
+      "Only the management of domestic school admissions",
+      "Only the opening hours of local libraries"
+    ],
+    "correctIndex": 0,
+    "rationale": "Foreign policy dealings with other states/international affairs. Onlylocalrefuse,domesticschooladmissions,libraryhours not definition. Scope avoids saying trade/defence are the only elements.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/foreign-policy",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-075",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "Fiscal policy mainly concerns which government tools?",
+    "answers": [
+      "Taxation and public spending",
+      "Interest rates and money supply alone",
+      "The drawing of electoral boundaries",
+      "The appointment of ambassadors"
+    ],
+    "correctIndex": 0,
+    "rationale": "Fiscal taxation/publicspending, not money-supply/interestrates alone,electoral maps,ambassadors. Dictionary fiscalplan checked. Government borrowing also fiscal but answer lists maintools, not exhaustivealltools.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/fiscal-policy",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-076",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "Monetary policy mainly concerns what?",
+    "answers": [
+      "Money supply and the cost of borrowing",
+      "Only the boundaries of constituencies",
+      "Only the selection of election candidates",
+      "Only the appointment of cabinet ministers"
+    ],
+    "correctIndex": 0,
+    "rationale": "Monetary policy money supply/costofborrowing. Constituencies,candidates,cabinetappointment not it. Does not claim politicians personally set rates everywhere; neutral financial-policy concept fits Politics.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/monetary-policy",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-077",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a government budget?",
+    "answers": [
+      "A plan for public income and spending",
+      "A list of all election candidates",
+      "A record of treaties with other countries",
+      "A map of local government areas"
+    ],
+    "correctIndex": 0,
+    "rationale": "Government budget income/spending plan. Candidate list,treaty register,wardmap different. Relevant financial/UKgovernment senses inspected, not low-price adjective or time budget.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/budget",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-078",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "A government budget deficit occurs when what happens?",
+    "answers": [
+      "Spending exceeds revenue",
+      "Revenue exceeds spending",
+      "Spending and revenue are exactly equal",
+      "No public money is spent or collected"
+    ],
+    "correctIndex": 0,
+    "rationale": "Deficit spending exceeds revenue. Opposite surplus,equalbalanced,nothingcollectedorspent wrong. Government budget context excludes trade/current-account deficits; not confused with total debt.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/deficit",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-079",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "A government budget surplus occurs when what happens?",
+    "answers": [
+      "Revenue exceeds spending",
+      "Spending exceeds revenue",
+      "Spending and revenue are exactly equal",
+      "All taxes are automatically abolished"
+    ],
+    "correctIndex": 0,
+    "rationale": "Surplus revenue exceeds spending, unlike deficit/equality/abolitionofalltax. Budgetfinancial sense checked. No assertion surplus means government has no existing debt.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/surplus",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-080",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does the public sector include?",
+    "answers": [
+      "Organisations owned or controlled by government",
+      "Only privately owned businesses",
+      "Only foreign political parties",
+      "Only independent family firms"
+    ],
+    "correctIndex": 0,
+    "rationale": "Public sector government owned/controlled organisations. Privatelyownedbusinesses,foreignparties,independentfamilyfirms not defining. No claim every publicly accessible shop is public sector.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/public-sector",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-081",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does nationalisation involve?",
+    "answers": [
+      "Bringing an industry or business into public ownership",
+      "Selling a state-owned business to private owners",
+      "Moving powers from national to regional government",
+      "Changing the citizenship rules for workers"
+    ],
+    "correctIndex": 0,
+    "rationale": "Nationalisation moves industry into public ownership. Oppositeprivatisation,devolution,citizenshiprulechange different. British spelling nationalisation retained though dictionary URLAmerican nationalization.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/nationalization",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-082",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does privatisation involve?",
+    "answers": [
+      "Transferring a state-owned business into private ownership",
+      "Bringing a private company into state ownership",
+      "Moving authority from regional to central government",
+      "Extending voting rights to more people"
+    ],
+    "correctIndex": 0,
+    "rationale": "Privatisation moves state-owned business to private ownership. Oppositenationalisation,centralisation,votingexpansion not it. British spelling; no claim every privatisation must transfer100percentatonce.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/privatization",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-083",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does the idea of a welfare state involve?",
+    "answers": [
+      "Public provision to support people's health and social well-being",
+      "A requirement that every public service be privately funded",
+      "A government with no social services",
+      "A system concerned only with military spending"
+    ],
+    "correctIndex": 0,
+    "rationale": "Welfare state public health/socialprovision. No-public-services,private-onlyfunding,military-only not principle. Does not promise everyone receives identical benefits or free services in every system.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/welfare-state",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-084",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is the civil service?",
+    "answers": [
+      "The civilian administrative departments and staff of government",
+      "All candidates competing in an election",
+      "Only members of the armed forces",
+      "Only the elected cabinet ministers"
+    ],
+    "correctIndex": 0,
+    "rationale": "Civil service civilian administrative staff/departments. Candidates,military-only,electedcabinet-only not it. Revise permanent-only wording because fixed-term civilian staff exist; relevant administrative senses checked.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/civil-service",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-085",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does an ombudsman generally investigate?",
+    "answers": [
+      "Complaints about organisations or public administration",
+      "The results of every public opinion poll",
+      "The military strategy of every country",
+      "The selection of every election candidate"
+    ],
+    "correctIndex": 0,
+    "rationale": "Ombudsman investigates complaints about organisations/administration. Pollresults,globalmilitarystrategy,allcandidate selection not job. Generally allows public/private schemes; no binding powers claimed universally.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/ombudsman",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-086",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does deputy mean in a political job title?",
+    "answers": [
+      "Someone authorised to act for or assist a more senior official",
+      "Someone automatically entitled to inherit a throne",
+      "Someone who has retired permanently from public office",
+      "Someone who can never exercise official authority"
+    ],
+    "correctIndex": 0,
+    "rationale": "Deputy acts for or assists seniorofficial. Hereditaryentitlement,permanentretirement,noauthority not meaning. Broaden act-in-place-only wording to include assisting while principal present.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/deputy",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-087",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "A mayor is most closely associated with governing which level of community?",
+    "answers": [
+      "A town or city",
+      "An entire continent",
+      "The United Nations as a whole",
+      "Every country sharing a language"
+    ],
+    "correctIndex": 0,
+    "rationale": "Mayor town/city office, not continent/UN/alllanguagecountries. Closelyassociated accommodates differing local titles and ceremonial/executive roles. No universal elected-vs-appointed assertion.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/mayor",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-088",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does an elected local councillor serve on?",
+    "answers": [
+      "A local council",
+      "The national cabinet automatically",
+      "The highest court automatically",
+      "A diplomatic mission abroad"
+    ],
+    "correctIndex": 0,
+    "rationale": "Councillor on local council. Not automatic nationalcabinet,court or diplomaticmission. Electedlocal qualifier avoids other historical councillor titles; double-l British spelling correct.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/councillor",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-089",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In local elections, what is a ward?",
+    "answers": [
+      "An electoral area within a local authority",
+      "An overseas diplomatic mission",
+      "A national political party's manifesto",
+      "A formal agreement between states"
+    ],
+    "correctIndex": 0,
+    "rationale": "Electoral ward localauthority area. Embassy,manifesto,treaty not it. Local-election sense inspected among hospital/prison/guardianship meanings; no claim every country uses wards.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/ward",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-090",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does municipal usually mean in government?",
+    "answers": [
+      "Relating to a town or city and its local administration",
+      "Relating only to international treaties",
+      "Relating only to royal succession",
+      "Relating only to military command"
+    ],
+    "correctIndex": 0,
+    "rationale": "Municipal town/city administration. Foreign treaties,royalsuccession,military-only not definition. Dictionary municipal government sense checked, not municipal-bond investment question.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/municipal",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-091",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is the electorate?",
+    "answers": [
+      "The people entitled to vote in an election",
+      "Only the candidates seeking office",
+      "Only the people who count ballots",
+      "Only the people who actually voted"
+    ],
+    "correctIndex": 0,
+    "rationale": "Electorate entitled voters, not candidates,counters or onlythosewhovoted. Clear distinction from turnout. Read all allowed-to-vote definition; no particular voter-eligibility rule invented.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/electorate",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-092",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does voter turnout measure?",
+    "answers": [
+      "The number or proportion of eligible or registered voters who actually vote",
+      "The proportion of seats won by the largest party",
+      "The amount spent by the winning candidate",
+      "The number of candidates standing for election"
+    ],
+    "correctIndex": 0,
+    "rationale": "Turnout number or proportion actually voting among eligible/registered population. Seatshare,campaignspend,candidatecount different. Denominators differ by reporting system, so expressly allow eligible or registered; does not count every eligible non-voter.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/turnout",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-093",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does it mean to abstain in a formal vote?",
+    "answers": [
+      "Choose not to vote for or against",
+      "Vote twice for the same proposal",
+      "Automatically veto the proposal",
+      "Become the chair of the meeting"
+    ],
+    "correctIndex": 0,
+    "rationale": "Abstention decliningfor/against, not doublevote,veto or chairappointment. Formalvote context excludes abstaining from alcohol/work. No claim every jurisdiction formally records abstentions identically.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/abstain",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-094",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is the purpose of a secret ballot?",
+    "answers": [
+      "Protecting the privacy of each voter's choice",
+      "Keeping the election date secret from every voter",
+      "Hiding every candidate's name until after voting",
+      "Preventing any vote from being counted"
+    ],
+    "correctIndex": 0,
+    "rationale": "Secret ballot protects choice privacy. Date/candidate-name secrecy and preventingcounting wrong. Secretvote sense clear; not claim officials cannot know who attendedpollingstation.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/secret-ballot",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-095",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "At an English local election count, what happens to a ballot paper judged invalid?",
+    "answers": [
+      "It is rejected rather than counted for a candidate",
+      "It is automatically given to the leading candidate",
+      "It is counted twice to compensate for the error",
+      "It is counted for every candidate equally"
+    ],
+    "correctIndex": 0,
+    "rationale": "Spoiled-ballot guessed entry lacked definition; replace with official invalidballot handling in English local elections. Rejected vote not allocatedleader,twicecounted,equallyallocated. Electoral Commission actual rejection criteria inspected; no claim every unusual mark invalid.",
+    "sourceURL": "https://www.electoralcommission.org.uk/guidance-returning-officers-administering-local-government-elections-england/verification-and-count/count/doubtful-ballot-papers",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-096",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "Universal adult suffrage is the principle that which people should be able to vote?",
+    "answers": [
+      "All adult citizens, subject to general eligibility rules",
+      "Only adults who own land",
+      "Only adults with university degrees",
+      "Only members of the governing party"
+    ],
+    "correctIndex": 0,
+    "rationale": "Universal adult suffrage principle adultcitizensvote rather than landowners/graduates/partyonly. Generaleligibilityrules allows age/residence/other lawfulconditions. UNArticle21 universal/equalsuffrage inspected; conceptual principle, not advice about any person's eligibility.",
+    "sourceURL": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-097",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "In a vote, what does an absolute majority mean?",
+    "answers": [
+      "More than half of the relevant total",
+      "Exactly one quarter",
+      "The largest share even if less than half",
+      "Any result containing an odd number"
+    ],
+    "correctIndex": 0,
+    "rationale": "Absolute majority more than half of relevant total. Quarter,pluralitylessthanhalf,oddnumber wrong. Absolute qualifier distinguishes British election majority-as-winningmargin sense in dictionary.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/majority",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-098",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What does a unanimous decision mean?",
+    "answers": [
+      "Everyone taking part in the decision agrees",
+      "Only the chair agrees",
+      "Exactly half agree",
+      "No decision has been made"
+    ],
+    "correctIndex": 0,
+    "rationale": "Unanimous allparticipantsagree, not chaironly,exacthalf or nodecision. Relevant groupdecision definition checked. Takingpart avoids saying absentpersons must agree too.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/unanimous",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-099",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is an electoral mandate generally understood to be?",
+    "answers": [
+      "Authority voters give elected representatives to pursue their programme",
+      "A guarantee that every future election is cancelled",
+      "An automatic exemption from every law",
+      "A permanent hereditary title"
+    ],
+    "correctIndex": 0,
+    "rationale": "Electoral mandate authority from voters for programme. Not legalexemption,cancelfutureelections,hereditarytitle. Generallyunderstood avoids suggesting every pledge has a legallybinding mandate; relevant electionauthority sense, not bank instruction/UNmandate.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/mandate",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-24-100",
+    "categoryID": "24",
+    "difficulty": "easy",
+    "prompt": "What is a political party?",
+    "answers": [
+      "An organised group seeking political power to pursue shared policies",
+      "An impartial body that administers election counts",
+      "A court hearing disputes about an election",
+      "A permanent department that implements government policy"
+    ],
+    "correctIndex": 0,
+    "rationale": "Political party organised sharedpolicy/power group. Impartialelectionauthority,court,permanentadministration other institutions. Organisation's political nature explicit, not holidayparty. No claim every party necessarily wins or contests every available election.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/political-party",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  }
+]
