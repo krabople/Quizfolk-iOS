@@ -1,0 +1,786 @@
+{
+  "reviewer": "root (author second editorial pass)",
+  "independent": false,
+  "sourceAccessNote": "Primary rights-holder, author, illustrator and publisher pages inspected in web tools. All twenty dictionary definition pages were retrieved and their definitions inspected individually; dictionary-access.json records access, not editorial approval. The original Potter story was inspected via the University of South Florida edition. Provisional URLs corrected as recorded. Automated checks never substitute for these per-row editorial decisions.",
+  "rows": [
+    {
+      "row": 1,
+      "action": "keep",
+      "prompt": "Who wrote the children's novel Matilda?",
+      "note": "Dahl wrote Matilda. Bond, Tolkien and Blyton are distinct authors; no title or answer ambiguity.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 2,
+      "action": "keep",
+      "prompt": "In Roald Dahl's Matilda, which teacher becomes Matilda's kind ally?",
+      "note": "Miss Honey is Matilda's kind teacher. Trunchbull is the bully, Wormwood her mother and Havisham a Dickens character.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 3,
+      "action": "keep",
+      "prompt": "Who is the bullying headmistress in Roald Dahl's Matilda?",
+      "note": "Trunchbull is the headmistress. Honey is not head; neither other fictional woman runs Matilda's school.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 4,
+      "action": "keep",
+      "prompt": "What does Matilda's father sell in Roald Dahl's novel?",
+      "note": "Wormwood sells used cars. Clocks, instruments and plants are different goods; wording and hyphenation checked.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 5,
+      "action": "keep",
+      "prompt": "In Matilda, what kind of cake is Bruce Bogtrotter forced to eat?",
+      "note": "Bruce's punishment involves chocolate cake. The three alternative cake flavours are not that cake.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 6,
+      "action": "edit",
+      "prompt": "Who illustrated the familiar Quentin Blake editions of Matilda?",
+      "note": "Remove the answer Quentin Blake from the question itself. Specify Puffin editions to allow for other editions and adaptations.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review.",
+      "recommendedChanges": {
+        "prompt": "Which artist illustrated the well-known Puffin editions of Roald Dahl's Matilda?"
+      }
+    },
+    {
+      "row": 7,
+      "action": "keep",
+      "prompt": "Who owns the factory in Charlie and the Chocolate Factory?",
+      "note": "Wonka owns this factory. McGregor, Tumnus and Bumble are unrelated fictional men, not alternate owners.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 8,
+      "action": "keep",
+      "prompt": "What colour are the tickets that admit children to Willy Wonka's factory?",
+      "note": "Golden Tickets are gold. Silver, blue and red are separate wrong colours; four parallel colour labels.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 9,
+      "action": "keep",
+      "prompt": "How many Golden Tickets does Willy Wonka hide in chocolate bars?",
+      "note": "There are five tickets, not three, seven or ten. The prompt specifies the original chocolate-bar contest.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 10,
+      "action": "edit",
+      "prompt": "Which workers sing songs in Willy Wonka's chocolate factory?",
+      "note": "Replace the Oompa-Loompa concept already asked in Film. Veruca's requested squirrel is supported by the rights-holder's character description; none of hamster, guinea pig or pony is that pet.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review.",
+      "recommendedChanges": {
+        "prompt": "Which animal does Veruca Salt demand as a pet inside Willy Wonka's factory?",
+        "answers": [
+          "A squirrel",
+          "A hamster",
+          "A guinea pig",
+          "A pony"
+        ],
+        "rationale": "Veruca demands a trained squirrel in the nut room. The other animals are not the pet she demands here."
+      }
+    },
+    {
+      "row": 11,
+      "action": "keep",
+      "prompt": "Which child is famous for chewing gum in Charlie and the Chocolate Factory?",
+      "note": "Violet is the gum chewer. Veruca, Mike and Charlie are other named ticket holders, making a fair single-answer set.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 12,
+      "action": "keep",
+      "prompt": "Which child is especially obsessed with television in Charlie and the Chocolate Factory?",
+      "note": "Mike Teavee is the TV enthusiast. Augustus, Charlie and Veruca have different defining traits.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 13,
+      "action": "keep",
+      "prompt": "In Charlie and the Chocolate Factory, what flows through the factory's famous river?",
+      "note": "The river contains chocolate, not juice, honey or milk. Question concerns the fictional factory, not manufacture generally.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 14,
+      "action": "keep",
+      "prompt": "What do the letters BFG stand for in Roald Dahl's novel?",
+      "note": "BFG expands to Big Friendly Giant. The three alternative expansions are invented and grammatically parallel.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 15,
+      "action": "keep",
+      "prompt": "What is the name of the girl who befriends the BFG?",
+      "note": "Sophie is his companion. Matilda, Lucy and Wendy belong to other tales; no second correct girl.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 16,
+      "action": "keep",
+      "prompt": "Which of these does the BFG eat instead of children?",
+      "note": "The official story summary names snozzcumbers as his food. Chocolate frogs, Turkish delight and marmalade sandwiches do not answer his diet here.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 17,
+      "action": "keep",
+      "prompt": "What is the BFG's fizzy drink called?",
+      "note": "Frobscottle is the fictional drink. Butterbeer, lemonade and pumpkin juice are not its name; spelling checked.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 18,
+      "action": "keep",
+      "prompt": "Which monarch helps Sophie and the BFG stop the other giants?",
+      "note": "The human Queen helps the pair. The other three rulers belong to different fictional settings and cannot be mistaken for her in this novel.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 19,
+      "action": "keep",
+      "prompt": "Who are James's cruel aunts in James and the Giant Peach?",
+      "note": "Sponge and Spiker are James's aunts. All offered pairs are distinct; possessive James's is grammatical.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 20,
+      "action": "keep",
+      "prompt": "Which of James's travelling companions in James and the Giant Peach has many shoes?",
+      "note": "Centipede has the many shoes. Earthworm, Ladybird and Glow-worm are different companions without that detail.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 21,
+      "action": "keep",
+      "prompt": "Which companion provides light inside the peach in James and the Giant Peach?",
+      "note": "Glow-worm supplies light. Other offered companions do not glow; this is a story detail rather than a zoology claim.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 22,
+      "action": "keep",
+      "prompt": "Which companion spins thread in James and the Giant Peach?",
+      "note": "Miss Spider supplies thread. Silkworm also spins silk in the book but is deliberately absent from the four options, leaving one correct answer.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 23,
+      "action": "keep",
+      "prompt": "In Fantastic Mr Fox, what do Boggis, Bunce and Bean do for a living?",
+      "note": "Boggis, Bunce and Bean are farmers. The other collective occupations are wrong and all four options complete the question naturally.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 24,
+      "action": "keep",
+      "prompt": "How many young foxes live with Mr and Mrs Fox in Fantastic Mr Fox?",
+      "note": "The opening specifies four Small Foxes. Two, six and eight are unambiguously different counts.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 25,
+      "action": "keep",
+      "prompt": "Where does Mr Fox's family live at the beginning of Fantastic Mr Fox?",
+      "note": "Their hole is under a tree. Lighthouse, castle tower and houseboat are wrong settings; initial scene specified to avoid later changes.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 26,
+      "action": "keep",
+      "prompt": "What kind of animal is Muggle-Wump in Roald Dahl's The Twits?",
+      "note": "Muggle-Wump is a monkey. Rabbit, badger and fox are distinct animal distractors; hyphenation checked.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 27,
+      "action": "keep",
+      "prompt": "Where does Mr Twit keep getting old bits of food stuck?",
+      "note": "Mr Twit's defining dirty feature is food caught in his beard. The other locations do not answer the described running detail.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 28,
+      "action": "keep",
+      "prompt": "Which bird helps the monkeys in Roald Dahl's The Twits?",
+      "note": "Roly-Poly Bird helps the captive monkeys. Hedwig, Dodo and Raven are unrelated named birds; one correct helper.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 29,
+      "action": "keep",
+      "prompt": "Which relative helps the boy face the witches in Roald Dahl's The Witches?",
+      "note": "Grandmother is the boy's ally. Uncle, sister and grandfather do not occupy that role in Dahl's novel.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 30,
+      "action": "keep",
+      "prompt": "What is the leader of the witches called in Roald Dahl's The Witches?",
+      "note": "Grand High Witch is the title. The other three witch titles come from different stories; no interchangeable title here.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 31,
+      "action": "keep",
+      "prompt": "Who wrote the rhyming picture book The Gruffalo?",
+      "note": "Donaldson wrote the text. Kerr, Potter and Hughes are plausible authors but did not write The Gruffalo.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 32,
+      "action": "keep",
+      "prompt": "Who illustrated Julia Donaldson's The Gruffalo?",
+      "note": "Scheffler drew The Gruffalo. Blake, Briggs and Hill are different illustrators; author versus illustrator distinction is clear.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 33,
+      "action": "keep",
+      "prompt": "Which small animal outwits the creatures in The Gruffalo?",
+      "note": "The small protagonist is a mouse. Rabbit, hedgehog and mole are different animals, absent as this protagonist.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 34,
+      "action": "keep",
+      "prompt": "Where does the mouse take its walk in The Gruffalo?",
+      "note": "The walk occurs in woodland. Desert, beach and castle are different settings, not additional correct descriptions.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 35,
+      "action": "keep",
+      "prompt": "What kind of person travels with a cat in Julia Donaldson's Room on the Broom?",
+      "note": "The central traveller is a witch with her cat. Pirate, knight and astronaut are distinct wrong character types.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 36,
+      "action": "keep",
+      "prompt": "Which creature threatens the witch in Room on the Broom?",
+      "note": "The danger is a hungry dragon. Troll, spider and wolf do not name the threat in this story.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 37,
+      "action": "keep",
+      "prompt": "In Room on the Broom, what breaks under the weight of the passengers?",
+      "note": "The broom snaps. Boat, ladder and carpet are not their vehicle; the title does not itself reveal that it breaks.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 38,
+      "action": "edit",
+      "prompt": "In The Snail and the Whale, which part of the whale carries the snail?",
+      "note": "The snail rides on the tail, not fin, tongue or blowhole. Replace the provisional ISBN URL with the verified official partnership account.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.gov.uk/government/news/go-on-a-coastal-adventure-with-the-snail-and-the-whale"
+      }
+    },
+    {
+      "row": 39,
+      "action": "edit",
+      "prompt": "In The Snail and the Whale, what does the snail long to do?",
+      "note": "The snail wants to explore the world; the other proposed ambitions are not its aim. Use the author's actual story page.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.juliadonaldson.co.uk/books/picture-books/the-snail-and-the-whale/"
+      }
+    },
+    {
+      "row": 40,
+      "action": "edit",
+      "prompt": "Who illustrates Julia Donaldson's The Snail and the Whale?",
+      "note": "Scheffler is credited on the author's page. Sharratt, Oxenbury and Potter are distinct illustrators, not co-illustrators here.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.juliadonaldson.co.uk/books/picture-books/the-snail-and-the-whale/"
+      }
+    },
+    {
+      "row": 41,
+      "action": "keep",
+      "prompt": "What kind of creature is Zog in Julia Donaldson's picture book?",
+      "note": "Zog is a dragon, not dinosaur, crocodile or griffin. Fictional species question remains clear despite dinosaur-like artwork.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 42,
+      "action": "edit",
+      "prompt": "What is Zog learning to be at Madam Dragon's school?",
+      "note": "Replace the redundant question about learning dragon skills with his gold-star goal. Other metal/jewel prizes are not that goal.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review.",
+      "recommendedChanges": {
+        "prompt": "What reward does Zog hope to win at dragon school?",
+        "answers": [
+          "A gold star",
+          "A silver crown",
+          "A bronze cup",
+          "A diamond ring"
+        ],
+        "rationale": "Zog aims to earn a gold star at school; the other prizes are not his goal."
+      }
+    },
+    {
+      "row": 43,
+      "action": "edit",
+      "prompt": "Who teaches Zog and the other young dragons?",
+      "note": "Madam Dragon teaches the class. Honey, Trunchbull and McGonagall belong to other schools; use the author's explicit Madam Dragon description.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.juliadonaldson.co.uk/books/picture-books/zog/"
+      }
+    },
+    {
+      "row": 44,
+      "action": "keep",
+      "prompt": "Where does Stick Man live with his family?",
+      "note": "The family tree is Stick Man's home. Cave, castle and burrow are wrong; plain 'tree' avoids copying the original couplet.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 45,
+      "action": "keep",
+      "prompt": "How many children do Stick Man and his Stick Lady Love have?",
+      "note": "The opening specifies three children. One, five and seven differ; his partner is not counted as a child.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 46,
+      "action": "keep",
+      "prompt": "In Julia Donaldson's Monkey Puzzle, who is the little monkey trying to find?",
+      "note": "Little Monkey seeks his mum. Teacher, brother and father are not the object of the search; father later appears but is not whom he originally seeks.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 47,
+      "action": "keep",
+      "prompt": "Which creature tries to help the little monkey in Monkey Puzzle?",
+      "note": "Butterfly offers help. Dragonfly, ladybird and honeybee are different insects; no helper ambiguity.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 48,
+      "action": "keep",
+      "prompt": "What does the greedy character in The Highway Rat steal from travellers?",
+      "note": "The rat steals others' food. Books, shoes and jewellery are not the defining theft; avoid asking an answer already contained in the title.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 49,
+      "action": "keep",
+      "prompt": "Which villain captures Superworm in Julia Donaldson's book?",
+      "note": "Wizard Lizard captures him. Crow assists but is not offered; Gruffalo, Highway Rat and Madam Dragon do not capture Superworm.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 50,
+      "action": "keep",
+      "prompt": "Who wrote Superworm, illustrated by Axel Scheffler?",
+      "note": "Donaldson wrote Superworm; Rosen, McKee and Ahlberg did not. The illustrator attribution is correct and not an author alternative.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 51,
+      "action": "keep",
+      "prompt": "Whose vegetable garden does Peter Rabbit sneak into in Beatrix Potter's story?",
+      "note": "McGregor owns the vegetable garden. Brown, Tumnus and Wonka are unrelated owners/characters; possessives consistent.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 52,
+      "action": "keep",
+      "prompt": "What colour is Peter Rabbit's jacket in Beatrix Potter's original illustrations?",
+      "note": "Peter's original illustrated jacket is blue. Red, green and purple are wrong; specify original art to exclude redesigns.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 53,
+      "action": "keep",
+      "prompt": "How are Flopsy, Mopsy and Cotton-tail related to Peter Rabbit?",
+      "note": "The three are his sisters. Cousins, daughters and aunts are different relationships and incorrect here.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 54,
+      "action": "keep",
+      "prompt": "How is Benjamin Bunny related to Peter Rabbit?",
+      "note": "Benjamin is Peter's cousin. Uncle, son and father are mutually distinct alternatives.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 55,
+      "action": "keep",
+      "prompt": "What kind of animal is Beatrix Potter's Mr Jeremy Fisher?",
+      "note": "Jeremy Fisher is a frog. Duck, otter and newt are different pond animals; none describes him.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 56,
+      "action": "keep",
+      "prompt": "What kind of animal is Beatrix Potter's Mrs Tiggy-winkle?",
+      "note": "Tiggy-winkle is a hedgehog. Mouse, squirrel and rabbit are distinct wrong mammals.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 57,
+      "action": "edit",
+      "prompt": "Which Beatrix Potter character is a duck?",
+      "note": "Replace a name-gives-away-the-duck question with Jemima's search for a nesting place. Primary story opening confirms her wish to hatch eggs; other choices are mammals.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review.",
+      "recommendedChanges": {
+        "prompt": "Which Beatrix Potter character leaves the farm to find a place to hatch her own eggs?",
+        "sourceURL": "https://etc.usf.edu/lit2go/148/peter-rabbit-and-other-stories/4905/the-tale-of-jemima-puddle-duck/",
+        "rationale": "Jemima wants to hatch her own eggs away from the farmer's wife. None of the other three named characters is a bird."
+      }
+    },
+    {
+      "row": 58,
+      "action": "keep",
+      "prompt": "In Beatrix Potter's story, which animal is Nutkin?",
+      "note": "Nutkin is a squirrel, not fox, badger or mouse. The prompt uses only his name, not the giveaway full book title.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 59,
+      "action": "keep",
+      "prompt": "Which author created Paddington Bear?",
+      "note": "Michael Bond created Paddington. Milne, Grahame and Lofting created different fictional animals; same first name is not a second creator.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 60,
+      "action": "keep",
+      "prompt": "Which London railway station gives Paddington Bear his name?",
+      "note": "The London station is Paddington. Victoria, Waterloo and Euston are distinct stations, not alternative names for the same place.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 61,
+      "action": "keep",
+      "prompt": "Which family takes Paddington Bear into their home?",
+      "note": "The Browns welcome him. Dursleys, Weasleys and Bankses are other fictional families; none is Paddington's host family.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 62,
+      "action": "keep",
+      "prompt": "Which preserve is Paddington Bear particularly fond of?",
+      "note": "Marmalade is the bear's signature preserve. Strawberry jam, blackcurrant jelly and lemon curd are different spreads.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 63,
+      "action": "keep",
+      "prompt": "Who wrote and illustrated The Very Hungry Caterpillar?",
+      "note": "Carle wrote and illustrated the Caterpillar. Hill is a different Eric; Blake and Scheffler have no creator credit here.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 64,
+      "action": "keep",
+      "prompt": "What does the caterpillar become at the end of The Very Hungry Caterpillar?",
+      "note": "The caterpillar ends as a butterfly. Bee, beetle and dragonfly are distinct insects and incorrect outcomes in this book.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 65,
+      "action": "keep",
+      "prompt": "Which fruit does the caterpillar eat on Monday in The Very Hungry Caterpillar?",
+      "note": "Monday is the single apple day. Pears, plums and oranges are assigned other days; grammatical articles match each fruit.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 66,
+      "action": "keep",
+      "prompt": "What does the caterpillar eat to feel better after its stomach ache in The Very Hungry Caterpillar?",
+      "note": "The leaf follows the overeating and relieves the ache. Cake, ice cream and lollipop belong to the earlier feast, so only one offered remedy fits.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 67,
+      "action": "keep",
+      "prompt": "Who writes and illustrates the Diary of a Wimpy Kid books?",
+      "note": "Kinney writes and illustrates Wimpy Kid. Pilkey, Walliams and Riordan are distinct authors of other series.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 68,
+      "action": "keep",
+      "prompt": "Which schoolboy tells his story in Diary of a Wimpy Kid?",
+      "note": "Greg Heffley is its central schoolboy narrator. Potter, Rider and Jackson belong to unrelated books.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 69,
+      "action": "keep",
+      "prompt": "Who is Greg Heffley's best friend in Diary of a Wimpy Kid?",
+      "note": "Rowley Jefferson is Greg's best friend. Rodrick is family; Ron and Tom Gates are other series' characters.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 70,
+      "action": "keep",
+      "prompt": "What dairy food gives its name to the dreaded playground touch in Diary of a Wimpy Kid?",
+      "note": "The playground curse is Cheese Touch. Butter, yoghurt and cream do not name that fictional curse; not a real hygiene claim.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 71,
+      "action": "keep",
+      "prompt": "Who created the Dog Man books?",
+      "note": "Dav Pilkey created Dog Man. Kinney, Smith and McKee are plausible contemporary authors but not this creator.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 72,
+      "action": "keep",
+      "prompt": "What is Dog Man's job in Dav Pilkey's books?",
+      "note": "Dog Man works as a police officer. Firefighter, teacher and train driver are different occupations; publisher corroborates police force.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 73,
+      "action": "edit",
+      "prompt": "Dog Man combines a human body with the head of which animal?",
+      "note": "Replace the animal-head question whose answer is obvious from the series title. Petey is the troublemaking cat; Garfield, Crookshanks and Tom Kitten are other fictional cats.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review.",
+      "recommendedChanges": {
+        "prompt": "What is the name of the troublesome cat in Dav Pilkey's Dog Man books?",
+        "answers": [
+          "Petey",
+          "Garfield",
+          "Crookshanks",
+          "Tom Kitten"
+        ],
+        "sourceURL": "https://www.scholastic.com/site/dav-pilkey-books/dog-man-books/dog-man-tale-of-two-kitties.html",
+        "rationale": "Petey the Cat is a Dog Man character; the other cats are from unrelated series."
+      }
+    },
+    {
+      "row": 74,
+      "action": "keep",
+      "prompt": "Who created the picture-book puppy Spot?",
+      "note": "Eric Hill created Spot, not Eric Carle. Bond and Ahlberg also did not; names and puppy description checked.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 75,
+      "action": "edit",
+      "prompt": "Which feature lets young readers look behind objects in Eric Hill's Where's Spot?",
+      "note": "Use concise, parallel interactive-format distractors and specify the original book. Its lift-up flaps, not pop-ups, scent patches or buttons, reveal the hiding places.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review.",
+      "recommendedChanges": {
+        "prompt": "Which interactive feature is central to Eric Hill's original Where's Spot?",
+        "answers": [
+          "Lift-up flaps",
+          "Pop-up buildings",
+          "Scratch-and-sniff patches",
+          "Sound buttons"
+        ]
+      }
+    },
+    {
+      "row": 76,
+      "action": "edit",
+      "prompt": "Who created Elmer the patchwork elephant?",
+      "note": "McKee created Elmer. Walliams, Hill and Burningham are different authors; use the official Elmer rights-holder page.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.elmer.co.uk/about-elmer/"
+      }
+    },
+    {
+      "row": 77,
+      "action": "edit",
+      "prompt": "How is Elmer's skin patterned in David McKee's picture books?",
+      "note": "His skin is multicoloured patchwork. Stripes, blue spots and solid grey are other patterns, not equivalent descriptions.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.elmer.co.uk/about-elmer/"
+      }
+    },
+    {
+      "row": 78,
+      "action": "keep",
+      "prompt": "Who wrote and illustrated The Tiger Who Came to Tea?",
+      "note": "Kerr wrote and illustrated Tiger. Donaldson, Hughes and Oxenbury are not its creators; avoid requiring publication-year trivia.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 79,
+      "action": "edit",
+      "prompt": "What kind of pet is Mog in Judith Kerr's picture books?",
+      "note": "Mog is a cat, not dog, rabbit or parrot. Replace the timing-out homepage citation with the publisher's actual book page.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://collins.co.uk/products/9780007171347"
+      }
+    },
+    {
+      "row": 80,
+      "action": "keep",
+      "prompt": "Who created the lift-the-flap book Dear Zoo?",
+      "note": "Rod Campbell created Dear Zoo. Roddy Doyle is a different writer despite the similar given name; Rosen and Browne did not create it.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 81,
+      "action": "keep",
+      "prompt": "Which part of a non-fiction book lists subjects alphabetically with the pages where they appear?",
+      "note": "Alphabetic subject-and-page lookup is the index. Contents follows chapter order; foreword and dedication have different purposes.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 82,
+      "action": "keep",
+      "prompt": "Where in a book would you look for explanations of unfamiliar specialist words?",
+      "note": "Glossary explains specialist words. Dedication, title page and acknowledgements are not definition lists.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 83,
+      "action": "keep",
+      "prompt": "What is an appendix in a non-fiction book?",
+      "note": "Appendix adds supporting information. Bookshops, protective wrapper and chapter-first-sentence options are not appendices; book context excludes anatomy.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 84,
+      "action": "keep",
+      "prompt": "What is a foreword in a book?",
+      "note": "Foreword is introductory material before the text. After-story scene, error list and word definitions describe other sections.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 85,
+      "action": "keep",
+      "prompt": "What is a prologue in a novel?",
+      "note": "Prologue is an opening section. Source list, jacket review and last-chapter summary are not prologues; novel context is explicit.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 86,
+      "action": "keep",
+      "prompt": "What is an epilogue in a novel?",
+      "note": "Epilogue concludes after the main narrative. Contents list, typeface note and reviewer introduction are distinct sections.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 87,
+      "action": "keep",
+      "prompt": "What is the usual term for the person who writes a book?",
+      "note": "Author is the role for writing the book. A person can hold several jobs, but the question asks the usual role term, not identity, so illustrator/bookseller/librarian are not equivalent answers.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 88,
+      "action": "keep",
+      "prompt": "What does a book's illustrator create?",
+      "note": "Illustrator supplies images. Translation, factory printing and receipts concern different roles; pronoun refers unambiguously to the book.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 89,
+      "action": "keep",
+      "prompt": "What does a book translator do?",
+      "note": "Translator conveys text in another language. Artwork, binding and pricing do not describe translation.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 90,
+      "action": "keep",
+      "prompt": "In a novel, what is the narrator's role?",
+      "note": "Narrator tells the story. Selling, type design and page repair are external book-production roles, not narrative functions.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 91,
+      "action": "edit",
+      "prompt": "What is a biography?",
+      "note": "Tighten biography's answer to distinguish it from autobiography. Maps, vocabulary and recipes are different book types; all options are complete noun phrases.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review.",
+      "recommendedChanges": {
+        "prompt": "What is a biography?",
+        "answers": [
+          "An account of someone's life written by another person",
+          "A collection of maps",
+          "A list of unfamiliar words",
+          "A book of recipes"
+        ],
+        "rationale": "A biography recounts another person's life, unlike the atlas, glossary and cookbook distractors."
+      }
+    },
+    {
+      "row": 92,
+      "action": "keep",
+      "prompt": "What distinguishes an autobiography from a biography written by someone else?",
+      "note": "Autobiography is the subject's own account. No requirement for poetry, photos only or imaginary people; self-authorship is the sole distinguishing choice.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 93,
+      "action": "keep",
+      "prompt": "Which book category is principally made up of invented stories?",
+      "note": "Fiction primarily presents invented stories. The reference/biography alternatives are factual categories; 'principally' allows invented stories to incorporate real facts.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 94,
+      "action": "keep",
+      "prompt": "What is a literary anthology?",
+      "note": "Literary anthology collects selected writings. Signature, errata and cover are different things; do not impose an incorrect one-author restriction.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 95,
+      "action": "keep",
+      "prompt": "How many works make up a trilogy?",
+      "note": "Trilogy has three works. Two, four and five are wrong; 'works' allows books, plays and films without changing the number.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 96,
+      "action": "keep",
+      "prompt": "What is a sequel to a novel?",
+      "note": "Sequel continues an earlier story. Translation, draft and advance review are not sequels; 'later' distinguishes a prequel's earlier story setting.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 97,
+      "action": "keep",
+      "prompt": "What is an e-book?",
+      "note": "An e-book is digital. Large print, wordless and metal-cover formats are not definitions of an e-book; no device-specific limitation.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 98,
+      "action": "keep",
+      "prompt": "What is an audiobook?",
+      "note": "Audiobook is a spoken reading. Sheet music, rhyme dictionary and radio repair manual are different books, not audio format definitions.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 99,
+      "action": "keep",
+      "prompt": "What characterises a hardback book?",
+      "note": "Hardback has a stiff cover. Flexible folded paper, screen-only pages and audio describe other formats; 'characterises' concerns binding.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    },
+    {
+      "row": 100,
+      "action": "keep",
+      "prompt": "What characterises a paperback book?",
+      "note": "Paperback has flexible paper/card covers. Wood, stone and recorded disc are not paperback bindings; British usage and parallel nouns checked.",
+      "sourceReview": "Individual author second pass of prompt and all four options against the cited primary author/publisher story account, original story, official partnership account or Cambridge definition. This record is not an independent review."
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 """Assemble completed fingerprint-matched editorial reviews, never unreviewed drafts."""
-import collections,hashlib,json,pathlib,re,sqlite3,sys
+import collections,datetime,hashlib,json,pathlib,re,sqlite3,sys
 HERE=pathlib.Path(__file__).resolve().parent
 ROOT=HERE.parents[1]
 sys.path.insert(0,str(ROOT/'audit'))
@@ -37,7 +37,7 @@ for name in names:
    'independentDraftID':draft['draftID'],'sourceRelevance':decision['sourceRelevance']})
  write(directory/'questions.json',questions)
  (directory/'decisions.jsonl').write_text(''.join(json.dumps(row,ensure_ascii=False)+'\n' for row in ledger),encoding='utf8',newline='\n')
- write(directory/'completion.json',{'auditVersion':version,'date':'2026-11-17','input':100,'reviewed':100,
+ write(directory/'completion.json',{'auditVersion':version,'date':datetime.date.today().isoformat(),'input':100,'reviewed':100,
   'remaining':0,'errors':[],'complete':True,'publishedCount':100,
   'publishedSHA256':hashlib.sha256((directory/'questions.json').read_bytes()).hexdigest(),
   'method':'Individual editorial checks of prompts, all four options, answer uniqueness, grammar, category and source relevance; recorded edits applied and final drafts fingerprint-matched.',

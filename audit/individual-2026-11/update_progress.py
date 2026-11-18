@@ -1,5 +1,5 @@
 """Recount actual completed local reviews; never infer deployment from a local file."""
-import collections,json,pathlib
+import collections,datetime,json,pathlib
 p=pathlib.Path(__file__).parent;root=p.parents[1]
 progress=json.loads((p/'progress.json').read_text(encoding='utf8'))
 bank=json.loads((root/'data/questions.json').read_text(encoding='utf8'))
@@ -10,6 +10,6 @@ for topic in progress['topics']:
  topic['reviewedAndValidated']=counts[topic['topicID']]
 progress['reviewedAndValidated']=sum(counts.values())
 progress['localBankCount']=len(bank)
-progress['updated']='2026-11-17'
+progress['updated']=datetime.date.today().isoformat()
 (p/'progress.json').write_text(json.dumps(progress,ensure_ascii=False,indent=2)+'\n',encoding='utf8',newline='\n')
 print(json.dumps({k:progress[k] for k in ('reviewedAndValidated','localBankCount','liveBankCount')}))

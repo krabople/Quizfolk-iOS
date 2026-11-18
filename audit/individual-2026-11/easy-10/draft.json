@@ -1,0 +1,1602 @@
+[
+  {
+    "draftID": "easy-10-001",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Who wrote the children's novel Matilda?",
+    "answers": [
+      "Roald Dahl",
+      "Michael Bond",
+      "J. R. R. Tolkien",
+      "Enid Blyton"
+    ],
+    "correctIndex": 0,
+    "rationale": "Dahl is the novelist; the other three are different children's authors.",
+    "sourceURL": "https://roalddahl.com/stories/matilda",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-002",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "In Roald Dahl's Matilda, which teacher becomes Matilda's kind ally?",
+    "answers": [
+      "Miss Honey",
+      "Miss Trunchbull",
+      "Mrs Wormwood",
+      "Miss Havisham"
+    ],
+    "correctIndex": 0,
+    "rationale": "Honey is her class teacher; Trunchbull is the head and Wormwood her mother; Havisham belongs to Dickens.",
+    "sourceURL": "https://roalddahl.com/stories/matilda",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-003",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Who is the bullying headmistress in Roald Dahl's Matilda?",
+    "answers": [
+      "Miss Trunchbull",
+      "Miss Honey",
+      "Mrs Tiggy-winkle",
+      "Miss Marple"
+    ],
+    "correctIndex": 0,
+    "rationale": "Trunchbull runs Crunchem Hall; the others are a kind teacher and characters from other books.",
+    "sourceURL": "https://roalddahl.com/stories/matilda",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-004",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What does Matilda's father sell in Roald Dahl's novel?",
+    "answers": [
+      "Second-hand cars",
+      "Antique clocks",
+      "Musical instruments",
+      "Garden plants"
+    ],
+    "correctIndex": 0,
+    "rationale": "Mr Wormwood is a dishonest used-car dealer, not any of the other traders.",
+    "sourceURL": "https://roalddahl.com/stories/matilda",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-005",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "In Matilda, what kind of cake is Bruce Bogtrotter forced to eat?",
+    "answers": [
+      "Chocolate cake",
+      "Carrot cake",
+      "Lemon cake",
+      "Coffee cake"
+    ],
+    "correctIndex": 0,
+    "rationale": "Trunchbull punishes Bruce with a whole chocolate cake; the other flavours do not fit.",
+    "sourceURL": "https://roalddahl.com/stories/matilda",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-006",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Which artist illustrated the well-known Puffin editions of Roald Dahl's Matilda?",
+    "answers": [
+      "Quentin Blake",
+      "Axel Scheffler",
+      "Eric Carle",
+      "E. H. Shepard"
+    ],
+    "correctIndex": 0,
+    "rationale": "Blake's illustration credit is explicit; this draft wording needs a less revealing final prompt.",
+    "sourceURL": "https://roalddahl.com/stories/matilda",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-007",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Who owns the factory in Charlie and the Chocolate Factory?",
+    "answers": [
+      "Willy Wonka",
+      "Mr McGregor",
+      "Mr Tumnus",
+      "Mr Bumble"
+    ],
+    "correctIndex": 0,
+    "rationale": "Wonka is the chocolate maker; the other men belong to unrelated books.",
+    "sourceURL": "https://roalddahl.com/stories/charlie-and-the-chocolate-factory",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-008",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What colour are the tickets that admit children to Willy Wonka's factory?",
+    "answers": [
+      "Gold",
+      "Silver",
+      "Blue",
+      "Red"
+    ],
+    "correctIndex": 0,
+    "rationale": "They are Golden Tickets; no other ticket colour is correct.",
+    "sourceURL": "https://roalddahl.com/stories/charlie-and-the-chocolate-factory",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-009",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "How many Golden Tickets does Willy Wonka hide in chocolate bars?",
+    "answers": [
+      "Five",
+      "Three",
+      "Seven",
+      "Ten"
+    ],
+    "correctIndex": 0,
+    "rationale": "There are five tickets in five bars; all numerical distractors differ.",
+    "sourceURL": "https://roalddahl.com/stories/charlie-and-the-chocolate-factory",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-010",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Which animal does Veruca Salt demand as a pet inside Willy Wonka's factory?",
+    "answers": [
+      "A squirrel",
+      "A hamster",
+      "A guinea pig",
+      "A pony"
+    ],
+    "correctIndex": 0,
+    "rationale": "Veruca demands a trained squirrel in the nut room. The other animals are not the pet she demands here.",
+    "sourceURL": "https://roalddahl.com/stories/charlie-and-the-chocolate-factory",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-011",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Which child is famous for chewing gum in Charlie and the Chocolate Factory?",
+    "answers": [
+      "Violet Beauregarde",
+      "Veruca Salt",
+      "Mike Teavee",
+      "Charlie Bucket"
+    ],
+    "correctIndex": 0,
+    "rationale": "Violet is the record-breaking gum chewer; the other ticket holders have different traits.",
+    "sourceURL": "https://roalddahl.com/stories/charlie-and-the-chocolate-factory",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-012",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Which child is especially obsessed with television in Charlie and the Chocolate Factory?",
+    "answers": [
+      "Mike Teavee",
+      "Augustus Gloop",
+      "Charlie Bucket",
+      "Veruca Salt"
+    ],
+    "correctIndex": 0,
+    "rationale": "Mike's TV fixation motivates his television-room mishap; other children are not this character.",
+    "sourceURL": "https://roalddahl.com/stories/charlie-and-the-chocolate-factory",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-013",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "In Charlie and the Chocolate Factory, what flows through the factory's famous river?",
+    "answers": [
+      "Chocolate",
+      "Orange juice",
+      "Honey",
+      "Milk"
+    ],
+    "correctIndex": 0,
+    "rationale": "The river is chocolate; the other liquids are not the river's contents.",
+    "sourceURL": "https://roalddahl.com/stories/charlie-and-the-chocolate-factory",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-014",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What do the letters BFG stand for in Roald Dahl's novel?",
+    "answers": [
+      "Big Friendly Giant",
+      "Brave Flying Giant",
+      "Big Fearless Guardian",
+      "Best Forest Guide"
+    ],
+    "correctIndex": 0,
+    "rationale": "The title abbreviates Big Friendly Giant; all alternative expansions are wrong.",
+    "sourceURL": "https://roalddahl.com/stories/the-bfg",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-015",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What is the name of the girl who befriends the BFG?",
+    "answers": [
+      "Sophie",
+      "Matilda",
+      "Lucy",
+      "Wendy"
+    ],
+    "correctIndex": 0,
+    "rationale": "Sophie is the BFG's friend; the other girls are protagonists of different stories.",
+    "sourceURL": "https://roalddahl.com/stories/the-bfg",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-016",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Which of these does the BFG eat instead of children?",
+    "answers": [
+      "Snozzcumbers",
+      "Chocolate frogs",
+      "Turkish delight",
+      "Marmalade sandwiches"
+    ],
+    "correctIndex": 0,
+    "rationale": "The BFG's diet includes snozzcumbers; the distractors are foods associated with other stories.",
+    "sourceURL": "https://roalddahl.com/stories/the-bfg",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-017",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What is the BFG's fizzy drink called?",
+    "answers": [
+      "Frobscottle",
+      "Butterbeer",
+      "Lemonade",
+      "Pumpkin juice"
+    ],
+    "correctIndex": 0,
+    "rationale": "Frobscottle is the named fictional drink; the other names do not identify it.",
+    "sourceURL": "https://roalddahl.com/stories/the-bfg",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-018",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Which monarch helps Sophie and the BFG stop the other giants?",
+    "answers": [
+      "The Queen",
+      "The White Witch",
+      "The Queen of Hearts",
+      "King Arthur"
+    ],
+    "correctIndex": 0,
+    "rationale": "They appeal to the human Queen; the other rulers are from different fictional settings.",
+    "sourceURL": "https://roalddahl.com/stories/the-bfg",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-019",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Who are James's cruel aunts in James and the Giant Peach?",
+    "answers": [
+      "Aunt Sponge and Aunt Spiker",
+      "Aunt Petunia and Aunt Marge",
+      "Aunt Polly and Aunt Sally",
+      "Aunt Em and Aunt Lucy"
+    ],
+    "correctIndex": 0,
+    "rationale": "Sponge and Spiker are the two aunts in this book; the other pairs are unrelated characters.",
+    "sourceURL": "https://roalddahl.com/stories/james-and-the-giant-peach",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-020",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Which of James's travelling companions in James and the Giant Peach has many shoes?",
+    "answers": [
+      "The Centipede",
+      "The Earthworm",
+      "The Ladybird",
+      "The Glow-worm"
+    ],
+    "correctIndex": 0,
+    "rationale": "The Centipede's many legs require many shoes; the other companions do not have this trait.",
+    "sourceURL": "https://roalddahl.com/stories/james-and-the-giant-peach",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-021",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Which companion provides light inside the peach in James and the Giant Peach?",
+    "answers": [
+      "The Glow-worm",
+      "The Centipede",
+      "The Earthworm",
+      "The Grasshopper"
+    ],
+    "correctIndex": 0,
+    "rationale": "The glowing character provides illumination; none of the others is the light source.",
+    "sourceURL": "https://roalddahl.com/stories/james-and-the-giant-peach",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-022",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Which companion spins thread in James and the Giant Peach?",
+    "answers": [
+      "Miss Spider",
+      "The Ladybird",
+      "The Centipede",
+      "The Earthworm"
+    ],
+    "correctIndex": 0,
+    "rationale": "Miss Spider supplies thread; excluding Silkworm from the options avoids a second correct answer.",
+    "sourceURL": "https://roalddahl.com/stories/james-and-the-giant-peach",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-023",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "In Fantastic Mr Fox, what do Boggis, Bunce and Bean do for a living?",
+    "answers": [
+      "They are farmers",
+      "They are teachers",
+      "They are sailors",
+      "They are bakers"
+    ],
+    "correctIndex": 0,
+    "rationale": "All three own farms; the other collective occupations are incorrect.",
+    "sourceURL": "https://roalddahl.com/stories/fantastic-mr-fox",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-024",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "How many young foxes live with Mr and Mrs Fox in Fantastic Mr Fox?",
+    "answers": [
+      "Four",
+      "Two",
+      "Six",
+      "Eight"
+    ],
+    "correctIndex": 0,
+    "rationale": "The opening specifies four Small Foxes; the numerical options are distinct.",
+    "sourceURL": "https://roalddahl.com/stories/fantastic-mr-fox",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-025",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Where does Mr Fox's family live at the beginning of Fantastic Mr Fox?",
+    "answers": [
+      "In a hole beneath a tree",
+      "In a lighthouse",
+      "In a castle tower",
+      "On a houseboat"
+    ],
+    "correctIndex": 0,
+    "rationale": "The opening locates their hole under a huge tree; the other homes do not apply.",
+    "sourceURL": "https://roalddahl.com/stories/fantastic-mr-fox",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-026",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What kind of animal is Muggle-Wump in Roald Dahl's The Twits?",
+    "answers": [
+      "A monkey",
+      "A rabbit",
+      "A badger",
+      "A fox"
+    ],
+    "correctIndex": 0,
+    "rationale": "Muggle-Wump and his captive family are monkeys; no other animal option fits.",
+    "sourceURL": "https://roalddahl.com/stories/the-twits",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-027",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Where does Mr Twit keep getting old bits of food stuck?",
+    "answers": [
+      "In his beard",
+      "In his boots",
+      "In his hat",
+      "In his pockets"
+    ],
+    "correctIndex": 0,
+    "rationale": "The book's description singles out his dirty beard; the other locations do not answer this detail.",
+    "sourceURL": "https://roalddahl.com/stories/the-twits",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-028",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Which bird helps the monkeys in Roald Dahl's The Twits?",
+    "answers": [
+      "The Roly-Poly Bird",
+      "Hedwig",
+      "The Dodo",
+      "The Raven"
+    ],
+    "correctIndex": 0,
+    "rationale": "The Roly-Poly Bird helps Muggle-Wump's family; the other named birds are not the helper.",
+    "sourceURL": "https://roalddahl.com/stories/the-twits",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-029",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Which relative helps the boy face the witches in Roald Dahl's The Witches?",
+    "answers": [
+      "His grandmother",
+      "His uncle",
+      "His older sister",
+      "His grandfather"
+    ],
+    "correctIndex": 0,
+    "rationale": "His grandmother is the experienced witch-hunter and ally; the other relatives are not that character.",
+    "sourceURL": "https://roalddahl.com/stories/the-witches",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-030",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What is the leader of the witches called in Roald Dahl's The Witches?",
+    "answers": [
+      "The Grand High Witch",
+      "The White Witch",
+      "The Wicked Witch of the West",
+      "The Sea Witch"
+    ],
+    "correctIndex": 0,
+    "rationale": "The Grand High Witch leads Dahl's witches; other titles belong to different stories.",
+    "sourceURL": "https://roalddahl.com/stories/the-witches",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-031",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Who wrote the rhyming picture book The Gruffalo?",
+    "answers": [
+      "Julia Donaldson",
+      "Judith Kerr",
+      "Beatrix Potter",
+      "Shirley Hughes"
+    ],
+    "correctIndex": 0,
+    "rationale": "Donaldson wrote it; the three other women are different picture-book authors.",
+    "sourceURL": "https://www.panmacmillan.com/authors/julia-donaldson/the-gruffalo/9781509804757",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-032",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Who illustrated Julia Donaldson's The Gruffalo?",
+    "answers": [
+      "Axel Scheffler",
+      "Quentin Blake",
+      "Raymond Briggs",
+      "Eric Hill"
+    ],
+    "correctIndex": 0,
+    "rationale": "Scheffler is credited as illustrator; the other artists did not illustrate this original book.",
+    "sourceURL": "https://www.panmacmillan.com/authors/julia-donaldson/the-gruffalo/9781509804757",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-033",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Which small animal outwits the creatures in The Gruffalo?",
+    "answers": [
+      "A mouse",
+      "A rabbit",
+      "A hedgehog",
+      "A mole"
+    ],
+    "correctIndex": 0,
+    "rationale": "The mouse is the quick-thinking protagonist; the three other small mammals are not.",
+    "sourceURL": "https://www.panmacmillan.com/authors/julia-donaldson/the-gruffalo/9781509804757",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-034",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Where does the mouse take its walk in The Gruffalo?",
+    "answers": [
+      "In a wood",
+      "In a desert",
+      "On a beach",
+      "Inside a castle"
+    ],
+    "correctIndex": 0,
+    "rationale": "The story's walk is through woodland, not the three alternative settings.",
+    "sourceURL": "https://www.panmacmillan.com/authors/julia-donaldson/the-gruffalo/9781509804757",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-035",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What kind of person travels with a cat in Julia Donaldson's Room on the Broom?",
+    "answers": [
+      "A witch",
+      "A pirate",
+      "A knight",
+      "An astronaut"
+    ],
+    "correctIndex": 0,
+    "rationale": "The central character is a witch; the other character types do not fit.",
+    "sourceURL": "https://www.panmacmillan.com/authors/julia-donaldson/room-on-the-broom/9781509804771",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-036",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Which creature threatens the witch in Room on the Broom?",
+    "answers": [
+      "A dragon",
+      "A troll",
+      "A giant spider",
+      "A wolf"
+    ],
+    "correctIndex": 0,
+    "rationale": "The greedy dragon wants a meal; the other creatures are not that threat.",
+    "sourceURL": "https://www.panmacmillan.com/authors/julia-donaldson/room-on-the-broom/9781509804771",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-037",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "In Room on the Broom, what breaks under the weight of the passengers?",
+    "answers": [
+      "The broomstick",
+      "A rowing boat",
+      "A ladder",
+      "A flying carpet"
+    ],
+    "correctIndex": 0,
+    "rationale": "Their broom snaps under the load; other vehicles/objects do not describe the scene.",
+    "sourceURL": "https://www.panmacmillan.com/authors/julia-donaldson/room-on-the-broom/9781509804771",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-038",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "In The Snail and the Whale, which part of the whale carries the snail?",
+    "answers": [
+      "Its tail",
+      "Its fin",
+      "Its tongue",
+      "Its blowhole"
+    ],
+    "correctIndex": 0,
+    "rationale": "The snail rides the whale's tail; the other body parts are wrong.",
+    "sourceURL": "https://www.gov.uk/government/news/go-on-a-coastal-adventure-with-the-snail-and-the-whale",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-039",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "In The Snail and the Whale, what does the snail long to do?",
+    "answers": [
+      "Travel around the world",
+      "Build a bigger shell",
+      "Become a pirate captain",
+      "Find a buried crown"
+    ],
+    "correctIndex": 0,
+    "rationale": "The little snail wants to explore; none of the other ambitions is the story's premise.",
+    "sourceURL": "https://www.juliadonaldson.co.uk/books/picture-books/the-snail-and-the-whale/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-040",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Who illustrates Julia Donaldson's The Snail and the Whale?",
+    "answers": [
+      "Axel Scheffler",
+      "Nick Sharratt",
+      "Helen Oxenbury",
+      "Beatrix Potter"
+    ],
+    "correctIndex": 0,
+    "rationale": "The author and publisher credit Scheffler; other children's illustrators are distractors.",
+    "sourceURL": "https://www.juliadonaldson.co.uk/books/picture-books/the-snail-and-the-whale/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-041",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What kind of creature is Zog in Julia Donaldson's picture book?",
+    "answers": [
+      "A dragon",
+      "A dinosaur",
+      "A crocodile",
+      "A griffin"
+    ],
+    "correctIndex": 0,
+    "rationale": "Zog attends dragon school; the other creature types are distinct and wrong.",
+    "sourceURL": "https://axelscheffler.com/books-with-julia-donaldson/zog",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-042",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What reward does Zog hope to win at dragon school?",
+    "answers": [
+      "A gold star",
+      "A silver crown",
+      "A bronze cup",
+      "A diamond ring"
+    ],
+    "correctIndex": 0,
+    "rationale": "Zog aims to earn a gold star at school; the other prizes are not his goal.",
+    "sourceURL": "https://axelscheffler.com/books-with-julia-donaldson/zog",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-043",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Who teaches Zog and the other young dragons?",
+    "answers": [
+      "Madam Dragon",
+      "Miss Honey",
+      "Miss Trunchbull",
+      "Professor McGonagall"
+    ],
+    "correctIndex": 0,
+    "rationale": "Madam Dragon is the dragon-school teacher; the others teach in unrelated books.",
+    "sourceURL": "https://www.juliadonaldson.co.uk/books/picture-books/zog/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-044",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Where does Stick Man live with his family?",
+    "answers": [
+      "In a tree",
+      "In a cave",
+      "In a castle",
+      "In a burrow"
+    ],
+    "correctIndex": 0,
+    "rationale": "The family tree is his home; the other dwellings are not.",
+    "sourceURL": "https://www.juliadonaldson.co.uk/books/picture-books/stick-man/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-045",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "How many children do Stick Man and his Stick Lady Love have?",
+    "answers": [
+      "Three",
+      "One",
+      "Five",
+      "Seven"
+    ],
+    "correctIndex": 0,
+    "rationale": "The opening specifies three children; other odd-number options are wrong.",
+    "sourceURL": "https://www.juliadonaldson.co.uk/books/picture-books/stick-man/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-046",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "In Julia Donaldson's Monkey Puzzle, who is the little monkey trying to find?",
+    "answers": [
+      "His mother",
+      "His teacher",
+      "His brother",
+      "His father"
+    ],
+    "correctIndex": 0,
+    "rationale": "The lost monkey seeks his mum; the other relationships are wrong.",
+    "sourceURL": "https://axelscheffler.com/books-with-julia-donaldson/monkey-puzzle",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-047",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Which creature tries to help the little monkey in Monkey Puzzle?",
+    "answers": [
+      "A butterfly",
+      "A dragonfly",
+      "A ladybird",
+      "A honeybee"
+    ],
+    "correctIndex": 0,
+    "rationale": "Butterfly is the helper who misinterprets his descriptions; other insects do not fill that role.",
+    "sourceURL": "https://axelscheffler.com/books-with-julia-donaldson/monkey-puzzle",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-048",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What does the greedy character in The Highway Rat steal from travellers?",
+    "answers": [
+      "Food",
+      "Books",
+      "Shoes",
+      "Jewellery"
+    ],
+    "correctIndex": 0,
+    "rationale": "The robber takes others' food; other goods are not the defining theft in this story.",
+    "sourceURL": "https://www.juliadonaldson.co.uk/books/picture-books/the-highway-rat/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-049",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Which villain captures Superworm in Julia Donaldson's book?",
+    "answers": [
+      "Wizard Lizard",
+      "The Gruffalo",
+      "The Highway Rat",
+      "Madam Dragon"
+    ],
+    "correctIndex": 0,
+    "rationale": "The publisher names Wizard Lizard; the other characters are from different Donaldson stories.",
+    "sourceURL": "https://shop.scholastic.co.uk/products/Superworm-9781407170725",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-050",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Who wrote Superworm, illustrated by Axel Scheffler?",
+    "answers": [
+      "Julia Donaldson",
+      "Michael Rosen",
+      "David McKee",
+      "Allan Ahlberg"
+    ],
+    "correctIndex": 0,
+    "rationale": "Donaldson is the writer; the other children's authors are not credited for this book.",
+    "sourceURL": "https://shop.scholastic.co.uk/products/Superworm-9781407170725",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-051",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Whose vegetable garden does Peter Rabbit sneak into in Beatrix Potter's story?",
+    "answers": [
+      "Mr McGregor's",
+      "Mr Brown's",
+      "Mr Tumnus's",
+      "Mr Wonka's"
+    ],
+    "correctIndex": 0,
+    "rationale": "McGregor owns the garden; the other characters do not.",
+    "sourceURL": "https://peterrabbit.com/characters/peter-rabbit/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-052",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What colour is Peter Rabbit's jacket in Beatrix Potter's original illustrations?",
+    "answers": [
+      "Blue",
+      "Red",
+      "Green",
+      "Purple"
+    ],
+    "correctIndex": 0,
+    "rationale": "His jacket is blue; the colour options are mutually exclusive.",
+    "sourceURL": "https://peterrabbit.com/characters/peter-rabbit/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-053",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "How are Flopsy, Mopsy and Cotton-tail related to Peter Rabbit?",
+    "answers": [
+      "They are his sisters",
+      "They are his cousins",
+      "They are his daughters",
+      "They are his aunts"
+    ],
+    "correctIndex": 0,
+    "rationale": "The three rabbits are Peter's sisters, not the other relationships.",
+    "sourceURL": "https://peterrabbit.com/characters/flopsy-mopsy-and-cotton-tail/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-054",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "How is Benjamin Bunny related to Peter Rabbit?",
+    "answers": [
+      "He is Peter's cousin",
+      "He is Peter's uncle",
+      "He is Peter's son",
+      "He is Peter's father"
+    ],
+    "correctIndex": 0,
+    "rationale": "Benjamin is Peter's cousin; each distractor is a different relationship.",
+    "sourceURL": "https://peterrabbit.com/characters/benjamin-bunny/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-055",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What kind of animal is Beatrix Potter's Mr Jeremy Fisher?",
+    "answers": [
+      "A frog",
+      "A duck",
+      "An otter",
+      "A newt"
+    ],
+    "correctIndex": 0,
+    "rationale": "Fisher is an anthropomorphic frog; the other pond animals do not describe him.",
+    "sourceURL": "https://peterrabbit.com/characters/mr-jeremy-fisher/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-056",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What kind of animal is Beatrix Potter's Mrs Tiggy-winkle?",
+    "answers": [
+      "A hedgehog",
+      "A mouse",
+      "A squirrel",
+      "A rabbit"
+    ],
+    "correctIndex": 0,
+    "rationale": "The washerwoman is a hedgehog; other mammals are wrong.",
+    "sourceURL": "https://peterrabbit.com/characters/mrs-tiggy-winkle/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-057",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Which Beatrix Potter character leaves the farm to find a place to hatch her own eggs?",
+    "answers": [
+      "Jemima Puddle-duck",
+      "Mrs Tiggy-winkle",
+      "Mrs Tittlemouse",
+      "Squirrel Nutkin"
+    ],
+    "correctIndex": 0,
+    "rationale": "Jemima wants to hatch her own eggs away from the farmer's wife. None of the other three named characters is a bird.",
+    "sourceURL": "https://etc.usf.edu/lit2go/148/peter-rabbit-and-other-stories/4905/the-tale-of-jemima-puddle-duck/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-058",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "In Beatrix Potter's story, which animal is Nutkin?",
+    "answers": [
+      "A squirrel",
+      "A fox",
+      "A badger",
+      "A mouse"
+    ],
+    "correctIndex": 0,
+    "rationale": "Nutkin is a red squirrel; the other woodland mammals are wrong.",
+    "sourceURL": "https://peterrabbit.com/characters/squirrel-nutkin/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-059",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Which author created Paddington Bear?",
+    "answers": [
+      "Michael Bond",
+      "A. A. Milne",
+      "Kenneth Grahame",
+      "Hugh Lofting"
+    ],
+    "correctIndex": 0,
+    "rationale": "Bond is the creator; the others created Pooh, the riverbank animals and Doctor Dolittle.",
+    "sourceURL": "https://shop.scholastic.co.uk/products/Paddington-9780007236336",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-060",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Which London railway station gives Paddington Bear his name?",
+    "answers": [
+      "Paddington",
+      "Victoria",
+      "Waterloo",
+      "Euston"
+    ],
+    "correctIndex": 0,
+    "rationale": "The bear is named after the station where he arrives; all four are different London stations.",
+    "sourceURL": "https://shop.scholastic.co.uk/products/Paddington-9780007236336",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-061",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Which family takes Paddington Bear into their home?",
+    "answers": [
+      "The Browns",
+      "The Dursleys",
+      "The Weasleys",
+      "The Bankses"
+    ],
+    "correctIndex": 0,
+    "rationale": "Paddington joins the Brown family; other fictional families do not take him in.",
+    "sourceURL": "https://paddingtonbearexperience.com/about-the-experience/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-062",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Which preserve is Paddington Bear particularly fond of?",
+    "answers": [
+      "Marmalade",
+      "Strawberry jam",
+      "Blackcurrant jelly",
+      "Lemon curd"
+    ],
+    "correctIndex": 0,
+    "rationale": "Marmalade is his signature favourite; the other spreads are not.",
+    "sourceURL": "https://shop.scholastic.co.uk/products/Paddington-9780007236336",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-063",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Who wrote and illustrated The Very Hungry Caterpillar?",
+    "answers": [
+      "Eric Carle",
+      "Eric Hill",
+      "Quentin Blake",
+      "Axel Scheffler"
+    ],
+    "correctIndex": 0,
+    "rationale": "Carle is both writer and illustrator; Hill is the different Eric who created Spot.",
+    "sourceURL": "https://www.youtube.com/watch?v=Q_axsM983nY",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-064",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What does the caterpillar become at the end of The Very Hungry Caterpillar?",
+    "answers": [
+      "A butterfly",
+      "A bee",
+      "A beetle",
+      "A dragonfly"
+    ],
+    "correctIndex": 0,
+    "rationale": "The story ends with metamorphosis into a butterfly; the other insects are wrong.",
+    "sourceURL": "https://www.youtube.com/watch?v=Q_axsM983nY",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-065",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Which fruit does the caterpillar eat on Monday in The Very Hungry Caterpillar?",
+    "answers": [
+      "An apple",
+      "A pear",
+      "A plum",
+      "An orange"
+    ],
+    "correctIndex": 0,
+    "rationale": "Monday's food is one apple; the other fruits occur on different days.",
+    "sourceURL": "https://www.youtube.com/watch?v=Q_axsM983nY",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-066",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What does the caterpillar eat to feel better after its stomach ache in The Very Hungry Caterpillar?",
+    "answers": [
+      "A green leaf",
+      "A slice of cake",
+      "An ice cream",
+      "A lollipop"
+    ],
+    "correctIndex": 0,
+    "rationale": "The following Sunday leaf relieves it; the other foods are from the previous feast.",
+    "sourceURL": "https://www.youtube.com/watch?v=Q_axsM983nY",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-067",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Who writes and illustrates the Diary of a Wimpy Kid books?",
+    "answers": [
+      "Jeff Kinney",
+      "Dav Pilkey",
+      "David Walliams",
+      "Rick Riordan"
+    ],
+    "correctIndex": 0,
+    "rationale": "Kinney is the author and illustrator; the other writers created different series.",
+    "sourceURL": "https://wimpykid.com/about/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-068",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Which schoolboy tells his story in Diary of a Wimpy Kid?",
+    "answers": [
+      "Greg Heffley",
+      "Harry Potter",
+      "Alex Rider",
+      "Percy Jackson"
+    ],
+    "correctIndex": 0,
+    "rationale": "Greg is the narrator; the others are protagonists of different book series.",
+    "sourceURL": "https://wimpykid.com/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-069",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Who is Greg Heffley's best friend in Diary of a Wimpy Kid?",
+    "answers": [
+      "Rowley Jefferson",
+      "Ron Weasley",
+      "Tom Gates",
+      "Rodrick Heffley"
+    ],
+    "correctIndex": 0,
+    "rationale": "Rowley is his best friend; Rodrick is his brother and the other boys belong to other series.",
+    "sourceURL": "https://wimpykid.com/about/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-070",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What dairy food gives its name to the dreaded playground touch in Diary of a Wimpy Kid?",
+    "answers": [
+      "Cheese",
+      "Butter",
+      "Yoghurt",
+      "Cream"
+    ],
+    "correctIndex": 0,
+    "rationale": "The Cheese Touch is the named playground curse; the other dairy foods do not name it.",
+    "sourceURL": "https://wimpykid.com/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-071",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Who created the Dog Man books?",
+    "answers": [
+      "Dav Pilkey",
+      "Jeff Kinney",
+      "Jim Smith",
+      "David McKee"
+    ],
+    "correctIndex": 0,
+    "rationale": "Pilkey created Dog Man; the other children's authors did not.",
+    "sourceURL": "https://www.scholastic.ca/our-books/book/dog-man-a-graphic-novel-dog-man-1-from-the-creator-of-captain-underpants-9780545581639",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-072",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What is Dog Man's job in Dav Pilkey's books?",
+    "answers": [
+      "Police officer",
+      "Firefighter",
+      "Schoolteacher",
+      "Train driver"
+    ],
+    "correctIndex": 0,
+    "rationale": "Dog Man is a crime-fighting police officer, not the other occupations.",
+    "sourceURL": "https://www.scholastic.ca/our-books/book/dog-man-a-graphic-novel-dog-man-1-from-the-creator-of-captain-underpants-9780545581639",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-073",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What is the name of the troublesome cat in Dav Pilkey's Dog Man books?",
+    "answers": [
+      "Petey",
+      "Garfield",
+      "Crookshanks",
+      "Tom Kitten"
+    ],
+    "correctIndex": 0,
+    "rationale": "Petey the Cat is a Dog Man character; the other cats are from unrelated series.",
+    "sourceURL": "https://www.scholastic.com/site/dav-pilkey-books/dog-man-books/dog-man-tale-of-two-kitties.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-074",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Who created the picture-book puppy Spot?",
+    "answers": [
+      "Eric Hill",
+      "Eric Carle",
+      "Michael Bond",
+      "Allan Ahlberg"
+    ],
+    "correctIndex": 0,
+    "rationale": "Hill created Spot; Carle is a separate author, and the others created different characters.",
+    "sourceURL": "https://www.penguin.co.uk/books/37420/wheres-spot-by-hill-eric/9780241426128",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-075",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Which interactive feature is central to Eric Hill's original Where's Spot?",
+    "answers": [
+      "Lift-up flaps",
+      "Pop-up buildings",
+      "Scratch-and-sniff patches",
+      "Sound buttons"
+    ],
+    "correctIndex": 0,
+    "rationale": "The classic is a lift-the-flap book; the alternatives are not its defining feature.",
+    "sourceURL": "https://www.penguin.co.uk/books/37420/wheres-spot-by-hill-eric/9780241426128",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-076",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Who created Elmer the patchwork elephant?",
+    "answers": [
+      "David McKee",
+      "David Walliams",
+      "Eric Hill",
+      "John Burningham"
+    ],
+    "correctIndex": 0,
+    "rationale": "McKee created Elmer; the other children's authors are not the creator.",
+    "sourceURL": "https://www.elmer.co.uk/about-elmer/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-077",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "How is Elmer's skin patterned in David McKee's picture books?",
+    "answers": [
+      "Multicoloured patchwork",
+      "Black and white stripes",
+      "Blue spots on white",
+      "Plain grey all over"
+    ],
+    "correctIndex": 0,
+    "rationale": "Elmer's multicoloured patches distinguish him from the grey elephants; each colour pattern differs.",
+    "sourceURL": "https://www.elmer.co.uk/about-elmer/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-078",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Who wrote and illustrated The Tiger Who Came to Tea?",
+    "answers": [
+      "Judith Kerr",
+      "Julia Donaldson",
+      "Shirley Hughes",
+      "Helen Oxenbury"
+    ],
+    "correctIndex": 0,
+    "rationale": "Kerr is both writer and illustrator; the other authors/artists did not create this book.",
+    "sourceURL": "https://harpercollinschildrensbooks.co.uk/products/the-tiger-who-came-to-tea-judith-kerr-9780007490967/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-079",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What kind of pet is Mog in Judith Kerr's picture books?",
+    "answers": [
+      "A cat",
+      "A dog",
+      "A rabbit",
+      "A parrot"
+    ],
+    "correctIndex": 0,
+    "rationale": "Mog is the forgetful family cat; other pets do not describe this character.",
+    "sourceURL": "https://collins.co.uk/products/9780007171347",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-080",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Who created the lift-the-flap book Dear Zoo?",
+    "answers": [
+      "Rod Campbell",
+      "Roddy Doyle",
+      "Michael Rosen",
+      "Anthony Browne"
+    ],
+    "correctIndex": 0,
+    "rationale": "Campbell is the creator; the other children's authors did not write this book.",
+    "sourceURL": "https://www.panmacmillan.com/dear-zoo",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-081",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Which part of a non-fiction book lists subjects alphabetically with the pages where they appear?",
+    "answers": [
+      "The index",
+      "The contents page",
+      "The foreword",
+      "The dedication"
+    ],
+    "correctIndex": 0,
+    "rationale": "An index organises subjects alphabetically; contents lists sections in order, foreword introduces and dedication honours someone.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/index",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-082",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Where in a book would you look for explanations of unfamiliar specialist words?",
+    "answers": [
+      "The glossary",
+      "The dedication",
+      "The title page",
+      "The acknowledgements"
+    ],
+    "correctIndex": 0,
+    "rationale": "A glossary defines specialist vocabulary; none of the other three sections serves that purpose.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/glossary",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-083",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What is an appendix in a non-fiction book?",
+    "answers": [
+      "An extra section of supporting information",
+      "A list of bookshops selling it",
+      "The protective paper cover",
+      "The first sentence of each chapter"
+    ],
+    "correctIndex": 0,
+    "rationale": "An appendix adds supporting material to the main text; the other options describe unrelated things.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/appendix",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-084",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What is a foreword in a book?",
+    "answers": [
+      "An introductory piece before the main text",
+      "A scene set after the story ends",
+      "A list of printing mistakes",
+      "A glossary of difficult words"
+    ],
+    "correctIndex": 0,
+    "rationale": "The foreword introduces the work, unlike an epilogue, errata or glossary.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/foreword",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-085",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What is a prologue in a novel?",
+    "answers": [
+      "An opening section before the main story",
+      "A list of sources at the end",
+      "A short review on the cover",
+      "A summary of the final chapter"
+    ],
+    "correctIndex": 0,
+    "rationale": "A prologue precedes the main narrative; the other options describe different book components.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/prologue",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-086",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What is an epilogue in a novel?",
+    "answers": [
+      "A concluding section after the main story",
+      "A list of chapter titles",
+      "A note about the typeface",
+      "An introduction by a reviewer"
+    ],
+    "correctIndex": 0,
+    "rationale": "An epilogue provides a final narrative section; none of the alternatives is that section.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/epilogue",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-087",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What is the usual term for the person who writes a book?",
+    "answers": [
+      "Author",
+      "Illustrator",
+      "Bookseller",
+      "Librarian"
+    ],
+    "correctIndex": 0,
+    "rationale": "An author writes the work; illustrations, retail and library roles are distinct functions.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/author",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-088",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What does a book's illustrator create?",
+    "answers": [
+      "Its pictures",
+      "Its translation into another language",
+      "Its printed copies in a factory",
+      "Its sales receipts"
+    ],
+    "correctIndex": 0,
+    "rationale": "Illustrators create images; translators, printers and shops perform the other tasks.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/illustrator",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-089",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What does a book translator do?",
+    "answers": [
+      "Renders its text in another language",
+      "Draws its cover picture",
+      "Binds its pages together",
+      "Sets its retail price"
+    ],
+    "correctIndex": 0,
+    "rationale": "Translation changes language while conveying meaning; the other production tasks are not translation.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/translator",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-090",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "In a novel, what is the narrator's role?",
+    "answers": [
+      "To tell the story",
+      "To sell the finished book",
+      "To design the typeface",
+      "To repair damaged pages"
+    ],
+    "correctIndex": 0,
+    "rationale": "The narrator is the storytelling voice, distinct from real-world retail, design and conservation roles.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/narrator",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-091",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What is a biography?",
+    "answers": [
+      "An account of someone's life written by another person",
+      "A collection of maps",
+      "A list of unfamiliar words",
+      "A book of recipes"
+    ],
+    "correctIndex": 0,
+    "rationale": "A biography recounts another person's life, unlike the atlas, glossary and cookbook distractors.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/biography",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-092",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What distinguishes an autobiography from a biography written by someone else?",
+    "answers": [
+      "The subject writes about their own life",
+      "It must be written as poetry",
+      "It can contain only photographs",
+      "It must describe an imaginary person"
+    ],
+    "correctIndex": 0,
+    "rationale": "Autobiography is a person's own life account; format and fictional-person restrictions are false.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/autobiography",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-093",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "Which book category is principally made up of invented stories?",
+    "answers": [
+      "Fiction",
+      "Biography",
+      "Travel reference",
+      "History reference"
+    ],
+    "correctIndex": 0,
+    "rationale": "Fiction is imaginative narrative; the alternatives primarily present factual accounts or information.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/fiction",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-094",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What is a literary anthology?",
+    "answers": [
+      "A collection of selected writings",
+      "A writer's handwritten signature",
+      "A list of spelling corrections",
+      "A book's protective cover"
+    ],
+    "correctIndex": 0,
+    "rationale": "An anthology collects works such as poems or stories; the others describe autograph, errata and cover.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/anthology",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-095",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "How many works make up a trilogy?",
+    "answers": [
+      "Three",
+      "Two",
+      "Four",
+      "Five"
+    ],
+    "correctIndex": 0,
+    "rationale": "The term specifies three linked works; each alternative count differs.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/trilogy",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-096",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What is a sequel to a novel?",
+    "answers": [
+      "A later work that continues its story",
+      "A translation of the same story",
+      "An earlier draft of the same book",
+      "A review written before publication"
+    ],
+    "correctIndex": 0,
+    "rationale": "A sequel continues an earlier work; translation, draft and review are distinct.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/sequel",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-097",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What is an e-book?",
+    "answers": [
+      "A book in digital form",
+      "A book printed only in very large type",
+      "A book with no written words",
+      "A book with a metal cover"
+    ],
+    "correctIndex": 0,
+    "rationale": "E-books are electronic digital books; the other formats are unrelated to electronic delivery.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/ebook",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-098",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What is an audiobook?",
+    "answers": [
+      "A recording of a book being read aloud",
+      "A book containing only musical notation",
+      "A dictionary of rhyming words",
+      "A printed manual for repairing radios"
+    ],
+    "correctIndex": 0,
+    "rationale": "Audiobooks present spoken readings, not sheet music, rhyming dictionaries or radio manuals.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/audiobook",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-099",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What characterises a hardback book?",
+    "answers": [
+      "A rigid cover",
+      "A cover made only of folded paper",
+      "Pages that can only be read on a screen",
+      "A recording with no printed pages"
+    ],
+    "correctIndex": 0,
+    "rationale": "Hardbacks have stiff covers; paper covers, digital pages and audio are different formats.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/hardback",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-10-100",
+    "categoryID": "10",
+    "difficulty": "easy",
+    "prompt": "What characterises a paperback book?",
+    "answers": [
+      "A flexible paper or card cover",
+      "A rigid wooden cover",
+      "Pages carved into stone",
+      "A recording on a disc"
+    ],
+    "correctIndex": 0,
+    "rationale": "A paperback has a flexible paper-based cover; the other alternatives do not define paperback binding.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/paperback",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  }
+]

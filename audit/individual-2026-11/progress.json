@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "targetNewEasy": 3100,
-  "reviewedAndValidated": 1100,
-  "localBankCount": 23017,
-  "liveBankCount": 21817,
+  "reviewedAndValidated": 1200,
+  "localBankCount": 23117,
+  "liveBankCount": 23017,
   "topics": [
     {
       "topicID": "9",
@@ -11,14 +11,14 @@
       "targetNewEasy": 100,
       "authored": 100,
       "reviewedAndValidated": 100,
-      "deployedNewEasy": 0
+      "deployedNewEasy": 100
     },
     {
       "topicID": "10",
       "name": "Books",
       "targetNewEasy": 100,
-      "authored": 0,
-      "reviewedAndValidated": 0,
+      "authored": 100,
+      "reviewedAndValidated": 100,
       "deployedNewEasy": 0
     },
     {
@@ -67,7 +67,7 @@
       "targetNewEasy": 100,
       "authored": 100,
       "reviewedAndValidated": 100,
-      "deployedNewEasy": 0
+      "deployedNewEasy": 100
     },
     {
       "topicID": "17",
@@ -75,7 +75,7 @@
       "targetNewEasy": 100,
       "authored": 100,
       "reviewedAndValidated": 100,
-      "deployedNewEasy": 0
+      "deployedNewEasy": 100
     },
     {
       "topicID": "18",
@@ -83,7 +83,7 @@
       "targetNewEasy": 100,
       "authored": 100,
       "reviewedAndValidated": 100,
-      "deployedNewEasy": 0
+      "deployedNewEasy": 100
     },
     {
       "topicID": "19",
@@ -91,7 +91,7 @@
       "targetNewEasy": 100,
       "authored": 100,
       "reviewedAndValidated": 100,
-      "deployedNewEasy": 0
+      "deployedNewEasy": 100
     },
     {
       "topicID": "20",
@@ -139,7 +139,7 @@
       "targetNewEasy": 100,
       "authored": 100,
       "reviewedAndValidated": 100,
-      "deployedNewEasy": 0
+      "deployedNewEasy": 100
     },
     {
       "topicID": "26",
@@ -155,7 +155,7 @@
       "targetNewEasy": 100,
       "authored": 100,
       "reviewedAndValidated": 100,
-      "deployedNewEasy": 0
+      "deployedNewEasy": 100
     },
     {
       "topicID": "28",
@@ -163,7 +163,7 @@
       "targetNewEasy": 100,
       "authored": 100,
       "reviewedAndValidated": 100,
-      "deployedNewEasy": 0
+      "deployedNewEasy": 100
     },
     {
       "topicID": "29",
@@ -211,7 +211,7 @@
       "targetNewEasy": 100,
       "authored": 100,
       "reviewedAndValidated": 100,
-      "deployedNewEasy": 0
+      "deployedNewEasy": 100
     },
     {
       "topicID": "35",
@@ -243,7 +243,7 @@
       "targetNewEasy": 100,
       "authored": 100,
       "reviewedAndValidated": 100,
-      "deployedNewEasy": 0
+      "deployedNewEasy": 100
     },
     {
       "topicID": "39",
@@ -251,13 +251,13 @@
       "targetNewEasy": 100,
       "authored": 100,
       "reviewedAndValidated": 100,
-      "deployedNewEasy": 0
+      "deployedNewEasy": 100
     }
   ],
   "stopAtRemainingPercent": 5,
   "additionalHarderPlants": {
     "reviewed": 100,
     "localBankIncluded": true,
-    "deployed": false
+    "deployed": true
   }
 }
