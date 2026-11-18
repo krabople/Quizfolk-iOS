@@ -1,0 +1,2754 @@
+{
+  "date": "2026-11-18",
+  "note": "Individual author fact/option/grammar/family-suitability pass, not independent review or a primary-only research claim. Reference excerpts and leads were actually inspected; candidate-match excerpts that selected incidental or later-adaptation material were supplemented with relevant opening/plot passages and targeted checks. Initial double-encoded apostrophe URLs for Alice and baker's yeast failed and were corrected before use. Slinky_Dog returned the broader Slinky toy article: actual dog-toy spring-body and Toy Story redesign passages were inspected, not merely the generic toy lead. Novel/film distinctions (Oz shoes, Kaa, dragon species), standard/variant game rules, uncommon biological exceptions and plant/food scope were explicitly considered. Existing exact bank stems were replaced with different practical facts, and the sole Family overlap candidate (Alice author versus NOT-a-character question) tests different information. Other categories can share basic subject knowledge with this mixed family category; global semantic uniqueness of every fact is not claimed. None of the new questions/options is about Harry Potter or Narnia. All 359 original Family questions are preserved and additions carry a dedicated auditVersion plus exact removal ID list.",
+  "references": [
+    {
+      "url": "https://en.wikipedia.org/wiki/A_Grand_Day_Out",
+      "resolvedURL": "https://en.wikipedia.org/wiki/A_Grand_Day_Out",
+      "sha256": "d1799f9806934b837688a64b8cfd6a8c4de71044bbffd588657f2ecebb239090",
+      "questionRows": [
+        303
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/A_cappella",
+      "resolvedURL": "https://en.wikipedia.org/wiki/A_cappella",
+      "sha256": "d17b10082af7d2c17d625a77cc9ba6a8e28aed2288061372b7086e382b007e90",
+      "questionRows": [
+        352
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Acorn",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Acorn",
+      "sha256": "0f29d71ee333502fff899a43cac448f8683b6568dd2d9ad1594a998c9afe74c0",
+      "questionRows": [
+        57
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Aesculus_hippocastanum",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Aesculus_hippocastanum",
+      "sha256": "875c4f7bc77ce4bdaef12ac7e3442fb26fec9a13718ad915a1001416cab766b0",
+      "questionRows": [
+        66
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Al_dente",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Al_dente",
+      "sha256": "19219a32fcc81548b5683e6bb030302e212bec88f90d6499cd2b171af32ab26b",
+      "questionRows": [
+        188
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Alice%27s_Adventures_in_Wonderland",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Alice%27s_Adventures_in_Wonderland",
+      "sha256": "a6b8d74cfc72b02eff2a971290c83b0ed857bb5907b3cc25e1d8697af1771fd1",
+      "questionRows": [
+        247
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Amazon_rainforest",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Amazon_rainforest",
+      "sha256": "3930fa4d60b78cfbd7de08b2fa2c4fa03da02ca417cd1a0c3677b603ccdb3d9f",
+      "questionRows": [
+        171
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Amsterdam",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Amsterdam",
+      "sha256": "4a1e5dfc795d4ac54c8a6b02d03f56f741b686b7b3d4d02094fe6931f8ab3bd8",
+      "questionRows": [
+        167
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ancient_Olympic_Games",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Ancient_Olympic_Games",
+      "sha256": "9f742f0e7288167a9567cd56c8c12b6cb95249ee221ab788f2fe0f862cd37010",
+      "questionRows": [
+        165
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Anemometer",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Anemometer",
+      "sha256": "1acd81244f2b524c26455607f53124f045d1110db57351a5e348075c9a03ff64",
+      "questionRows": [
+        133
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Asiatic_lion",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Asiatic_lion",
+      "sha256": "15cdee3d5b631c3c33c8ad0e07a343900c5b229e9b5b302cd8622dfa2d5b3a7d",
+      "questionRows": [
+        45
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Association_football",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Association_football",
+      "sha256": "f4c640bb34a8f7a0eb983d2432651217016d4d7a50c3ae32903dd55c5fd99e5e",
+      "questionRows": [
+        316
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Athens",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Athens",
+      "sha256": "a1f05269e44c23fd8a42a357363821248a15a8ca30fd0205d53e7ee968658b5a",
+      "questionRows": [
+        163
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Auckland",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Auckland",
+      "sha256": "8ac929cca519c4ace1be365b768553608e78e65108bcaa9743dfa81ba7d97e8e",
+      "questionRows": [
+        174
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Avocado",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Avocado",
+      "sha256": "6693e04b3423759ef62cfc4f37f56b51fd7d3153bbad5ccc8d388a65752bfbea",
+      "questionRows": [
+        204
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Backstroke",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Backstroke",
+      "sha256": "9a6bfb5ec08b6c1877f5758ebc8e762de98a562c394f0e3b5579ac5f10c9ecde",
+      "questionRows": [
+        324
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Badminton",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Badminton",
+      "sha256": "d0a449fdaaba1abcfec968944cdddbf7f92339801f376fe6386f89d82a666d77",
+      "questionRows": [
+        322
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bagel",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Bagel",
+      "sha256": "a64fda5a7a4997ff7ad8ecc4a07278de3cddafe023544624e410c8ecbd2aac84",
+      "questionRows": [
+        221
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Baguette",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Baguette",
+      "sha256": "4a8bed63716db82b4172b6e60d36f142340642add37d0c338382eed3dec815ca",
+      "questionRows": [
+        222
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Baker%27s_yeast",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Baker%27s_yeast",
+      "sha256": "82ce32673d3a7b54b456ffcb5a147a97d6d98f37719535f09144fedeeec3d04d",
+      "questionRows": [
+        182
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Baloo",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Baloo",
+      "sha256": "14c60e02ced8d5f84d51d741e626fada0b52be8c018f59c413a0cbc822be1f09",
+      "questionRows": [
+        254
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Basketball",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Basketball",
+      "sha256": "e7a916153b6c0896da37400cc0649be96e353eaa84330979c48c439640625587",
+      "questionRows": [
+        319,
+        320
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bat",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Bat",
+      "sha256": "e379686088babc3403d9ad95de485e25210aed33080215787a52ffb1f35fd129",
+      "questionRows": [
+        34,
+        35,
+        36
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Baton_%28conducting%29",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Baton_%28conducting%29",
+      "sha256": "bc0077420c269ddd8aff14d031779dc1761060b05300ac90359aef08ab6cdd7c",
+      "questionRows": [
+        347
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Beaver",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Beaver",
+      "sha256": "a97344a9288fcdff607cebc72a3787aba6f6480b53b80405c3c8c1b9f159875f",
+      "questionRows": [
+        16,
+        17,
+        18
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Betula_pendula",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Betula_pendula",
+      "sha256": "30374a1c6d72402ac02d22c82701b5a5a9ab1322c22584e0b937816dc28af173",
+      "questionRows": [
+        58
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Biennial_plant",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Biennial_plant",
+      "sha256": "657a6ec9bd010a765d6f91ef817103bbc0f13e40bc6080f981986bf927aba82b",
+      "questionRows": [
+        81
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Botany",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Botany",
+      "sha256": "9a53079419680c345a5d68a2394fac60e9c68886d51ba9b4b427f1e5ec5e6a2b",
+      "questionRows": [
+        73
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bread",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Bread",
+      "sha256": "8c82870ead027898049ee29332d460f0f9708e54ca746a07bd60303822f43565",
+      "questionRows": [
+        181,
+        183
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Butter",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Butter",
+      "sha256": "794785d1a1dd7c3ab2949052b69cce6950fe33376be9b4ce164e7df100dd4447",
+      "questionRows": [
+        195
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Butterfly",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Butterfly",
+      "sha256": "bf71fac0a967319e8480075e0ad5085cf8aaa31887a0c75930451c832cbdde3e",
+      "questionRows": [
+        22,
+        23,
+        24
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Canberra",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Canberra",
+      "sha256": "1452d541a130cb29bac4c24867f9e36adcf6752f730a7ed9cc71f1bf1c3d132a",
+      "questionRows": [
+        149
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Captain_Hook",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Captain_Hook",
+      "sha256": "91a059386e99aca0d375cfca6347de40d5de67902a422b34b501caf785ae7082",
+      "questionRows": [
+        258
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cardiff",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Cardiff",
+      "sha256": "53e2343bae10bd730f6c85e480a4fa775991116b6e5461217b2ff699e7892184",
+      "questionRows": [
+        153
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Carnivorous_plant",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Carnivorous_plant",
+      "sha256": "fefc59abad45378c8e3804d4a74a0f0a638e3f4388372f5cd32643d0111d0381",
+      "questionRows": [
+        62
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Carrot_cake",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Carrot_cake",
+      "sha256": "df0f54a0f59fe760c5a5162147b694d13d688489aded14849b150169b631ba1e",
+      "questionRows": [
+        215
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory",
+      "sha256": "47cb21c412b317b42475f2e6006af33978bada0209d73ae5deaf3c256a08e7a4",
+      "questionRows": [
+        244,
+        245,
+        246
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Checkmate",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Checkmate",
+      "sha256": "67c444a20df6eb6f9b64d31c9994d8d059d83dae80d0ccc789f8c509699ac2ce",
+      "questionRows": [
+        329
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cheshire_Cat",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Cheshire_Cat",
+      "sha256": "05777f6e18375a4fa478620fa8cbf220e25ffaf2dec75ee4e8b21948e2be9077",
+      "questionRows": [
+        248
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Chlorophyll",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Chlorophyll",
+      "sha256": "554e18849059be8015db33fd06b64a1ada349e113a6850c016a767b310725299",
+      "questionRows": [
+        49
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Chocolate",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Chocolate",
+      "sha256": "cd221fa06ff3d0fe0d173bc2359f4e64822cb94ea755fe44b4eea40521a2d42b",
+      "questionRows": [
+        205
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Choir",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Choir",
+      "sha256": "6ac6fe4b38b44cd986599ad71ee74c160e7f6dc91f6abaa3bab7372a2779d350",
+      "questionRows": [
+        351
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Christ_the_Redeemer_%28statue%29",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Christ_the_Redeemer_%28statue%29",
+      "sha256": "25489fb3b7fceaa9be7eb72c4d61254b2f934c1df7287daed9f9b2b024a10e71",
+      "questionRows": [
+        170
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cinderella",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Cinderella",
+      "sha256": "ebda4153267c9bc20947077911b8f8df643c8d11291d47fad97fd3cea54ddf00",
+      "questionRows": [
+        262,
+        263,
+        264
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Clarinet",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Clarinet",
+      "sha256": "5a0e6563c2d75ef7a9c469996c516d6efad050023ec3044e8b54e9a0dcd32ba9",
+      "questionRows": [
+        343
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cloud",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Cloud",
+      "sha256": "26c368910e4dd8f45a9dea62520337e32e3566d6f1afcda5c3359d792bb8e07b",
+      "questionRows": [
+        131
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cluedo",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Cluedo",
+      "sha256": "b49f746cdda350512df1f2e8b9081f462fbd61f65fa6bcc4466687f14f519d2d",
+      "questionRows": [
+        334
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cocoa_butter",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Cocoa_butter",
+      "sha256": "171486f1792e102e48c8e3754570c9626986f896359218869598ed7a6456b4a2",
+      "questionRows": [
+        206
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Colosseum",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Colosseum",
+      "sha256": "ffc1ad1c10a9c80da9d4f5e67cbd665a16810023c89ee36a194b8ef8e41a809c",
+      "questionRows": [
+        139
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Comet",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Comet",
+      "sha256": "a2489de883330ad78730c63a8d65602d9014f4b8d2082c06476488038bb82079",
+      "questionRows": [
+        104
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Compost",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Compost",
+      "sha256": "a0cf9b323b7a92d5dc644fe187f9e35e3aeaa0bf1509d5f02ce08d1583eb97be",
+      "questionRows": [
+        71
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Condensation",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Condensation",
+      "sha256": "ced3691164edc606c464d4678853cbf3c8ed85ee3b057b137c09ed33d9bbe3fb",
+      "questionRows": [
+        108
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Connect_Four",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Connect_Four",
+      "sha256": "4385e1b2fdd391a3607b0993d44326c09dc3e2fcee3a7f68699367aea43b6c63",
+      "questionRows": [
+        330
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cr%C3%AApe",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Cr%C3%AApe",
+      "sha256": "c270f58171243aa2195879f1862b4674a52f021c26cfd209c822c91ddb022ef1",
+      "questionRows": [
+        220
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Culture_of_the_Netherlands",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Culture_of_the_Netherlands",
+      "sha256": "715b8234a0004162f0575fa0dca59d9775be64b16092f216e8634231224df319",
+      "questionRows": [
+        166
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Curling",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Curling",
+      "sha256": "672396458474e953c59ac2ede08ae30559b797919f51837968073bae1b82cae8",
+      "questionRows": [
+        327
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Deadheading_%28flowers%29",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Deadheading_%28flowers%29",
+      "sha256": "74b7b71eb44a4618adfb1a1c85fa1232a597d411ffdc2adb9dddbf8fd221b27c",
+      "questionRows": [
+        88
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Deciduous",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Deciduous",
+      "sha256": "e5e2e5fc9eab88cf1694d40772cebc49893a90f8efff31567218e1dd11ad3aa2",
+      "questionRows": [
+        59
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Despicable_Me_%28film%29",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Despicable_Me_%28film%29",
+      "sha256": "7289342ee14c9aa4f907f507185882be57ce0a09a4e9bfb82e569e3ff3ebc56c",
+      "questionRows": [
+        298,
+        299,
+        300
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Drosera",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Drosera",
+      "sha256": "774b0f6c6cdc27a08a061ca0c0d13ec29a4080624dbfa447188942acff5f5bcb",
+      "questionRows": [
+        63
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Duet",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Duet",
+      "sha256": "0dcf2afd808832f59e9dc743f0a1644654c3cbd2c347368091b6b64aef8d2de7",
+      "questionRows": [
+        348
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Earthworm",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Earthworm",
+      "sha256": "cb3023c4cd4c549142358e6e7636aa8632de73be7bc18d48db124a6c620eded7",
+      "questionRows": [
+        67,
+        68,
+        69
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Echo",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Echo",
+      "sha256": "fefd62ef002b1ecd833d7f588c6f7ccae748814caee6a20857aee05c21ea81eb",
+      "questionRows": [
+        115
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Edinburgh",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Edinburgh",
+      "sha256": "5c20ea3660e0340a96d073ce3515dc8366015bdb7e6206e73e07fa5300bacfad",
+      "questionRows": [
+        152
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Eeyore",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Eeyore",
+      "sha256": "8d0d7c8cbeadff129cb3442e1e840d416e7fe25d5132402a12c4673eb24f0937",
+      "questionRows": [
+        226
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+      "sha256": "9bbe1e6d6b3cc1fe5ab9e906764e3f8bb8848b1f2e0a1b4dfe12b43008197ce7",
+      "questionRows": [
+        136
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Elastic_energy",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Elastic_energy",
+      "sha256": "d0fa990820ba4bb4c3b7170998debe02ae23d0adad6b605210e738ce88c0cb4a",
+      "questionRows": [
+        124
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Emperor_penguin",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Emperor_penguin",
+      "sha256": "eef991135b002211998913a1630c75d60d973a61c504234dc0639c9c7c7f77a5",
+      "questionRows": [
+        30
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Encanto",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Encanto",
+      "sha256": "e6b5e46419828b02234f0bd6f4fea23333c5d9b7badf90d66971c4cd284f5ab3",
+      "questionRows": [
+        283,
+        284,
+        285
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Entomology",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Entomology",
+      "sha256": "f9ff97604b5cdb41079966b63c60bbeadb95e182e2dfbd91421f6791cd66d267",
+      "questionRows": [
+        75
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/European_hedgehog",
+      "resolvedURL": "https://en.wikipedia.org/wiki/European_hedgehog",
+      "sha256": "3f36a4c2ce694b009d76d36b142d227b99b088d3f17965905aecd6b627c2781f",
+      "questionRows": [
+        13,
+        14,
+        15
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Evaporation",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Evaporation",
+      "sha256": "bfb4a75a0e68a8d65ae11c07dd9850361133d86c837af58cea675a85b22815d4",
+      "questionRows": [
+        110
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Evergreen",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Evergreen",
+      "sha256": "bbb20c50fb668346c0a529795d6e1dee677b6c549d7c79de97fb6f7dfd703f2b",
+      "questionRows": [
+        60
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Farfalle",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Farfalle",
+      "sha256": "cfcae85e991249ad9c5aae056558a7c3eab0972013418e8ef2b2cf26c4f55d7f",
+      "questionRows": [
+        189
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Finding_Nemo",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Finding_Nemo",
+      "sha256": "46a3ee73432652d90942276ac0264b5c86509d4002bd34e6661f541884ab04fc",
+      "questionRows": [
+        274,
+        275,
+        276
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Flag_of_Canada",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Flag_of_Canada",
+      "sha256": "abcfac06a676108a533467f9d16a13918556be849eff38a4c29ff83a94c3972d",
+      "questionRows": [
+        176
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Fog",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Fog",
+      "sha256": "42c372df97552d55ff00f718da8583c99c1a60e518143faf393faa68d6e17a23",
+      "questionRows": [
+        130
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Four-leaf_clover",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Four-leaf_clover",
+      "sha256": "397b1197614d3db6107459c158429569d886695d9ac0c74809d76b37d6f1b3dd",
+      "questionRows": [
+        85
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Freezing",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Freezing",
+      "sha256": "714f92b211168b4dc22780497a497be080005b170bca14f83a3e592761c932d4",
+      "questionRows": [
+        106
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/French_onion_soup",
+      "resolvedURL": "https://en.wikipedia.org/wiki/French_onion_soup",
+      "sha256": "c6fce03e8c455d268e07b1e811b776e58151e97ea82de5f70a82e894d576c24a",
+      "questionRows": [
+        210,
+        211
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Friction",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Friction",
+      "sha256": "01bd4043a6c92700a9a70ddbccb14f1262295bafa6e27693f1c8902702293aa6",
+      "questionRows": [
+        125
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Frog",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Frog",
+      "sha256": "e9c198171ea90c0c34abb289a78e86eff14ffa18e0b36fd80e9b95d5b7a618f6",
+      "questionRows": [
+        31,
+        33
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Frozen_%282013_film%29",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Frozen_%282013_film%29",
+      "sha256": "5f13f46dc42c8e3d48a75cfb12e311355801f48aa103b01c35b32c0b82f842b8",
+      "questionRows": [
+        277,
+        278
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Fruit",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Fruit",
+      "sha256": "5422cbff03a308d343effc53dab3ae65812b9167ed254c81f09cb4286214aba2",
+      "questionRows": [
+        53
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Fungus",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Fungus",
+      "sha256": "8fad9ff7949d0e5e4a7399d937919340331811ec98e98b10d5e160342d6157fb",
+      "questionRows": [
+        65
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Gazpacho",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Gazpacho",
+      "sha256": "b8a70213845d484180b5a96d88909800b9f5f9500867daa0361280ba4d53e25d",
+      "questionRows": [
+        212,
+        213
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Geppetto",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Geppetto",
+      "sha256": "f3be9dd61c590dafceb846be21dace828b7b05efc3b61f9a9752931a198e0a87",
+      "questionRows": [
+        261
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Germination",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Germination",
+      "sha256": "ca32a26be933c1dbd0eef66222203a7aa004cbd071c213d48f076abeca34eaed",
+      "questionRows": [
+        54
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Giraffe",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Giraffe",
+      "sha256": "2d9109a88ba8bbd31139e2900073d6fc20513b2c6fca84bfeec849b61ae60160",
+      "questionRows": [
+        4,
+        5,
+        6
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Giza_pyramid_complex",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Giza_pyramid_complex",
+      "sha256": "fece1a3c65ea05c356c6be6c7c250fa166acd3345b85105c43bc592748519007",
+      "questionRows": [
+        154
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Goalkeeper_%28association_football%29",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Goalkeeper_%28association_football%29",
+      "sha256": "a0c4004d9d79e52b4740658bd509231ddeddc07dd21e45ec19a010f6acb0b553",
+      "questionRows": [
+        317
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Golden_Gate_Bridge",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Golden_Gate_Bridge",
+      "sha256": "ceec3811741a0033e50e960bc3a693028690b8fabafe7ef2259424728499c9a3",
+      "questionRows": [
+        179
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Goldilocks_and_the_Three_Bears",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Goldilocks_and_the_Three_Bears",
+      "sha256": "cc1867d5f98dc45fa83530624645b4a91eb06e99209798f8178e6fe1f539a796",
+      "questionRows": [
+        268,
+        269,
+        270
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Grape",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Grape",
+      "sha256": "dc29387002f0b60d3a803a7f8454a081da5de7605e3859367b901d6089db334b",
+      "questionRows": [
+        198
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Great_Barrier_Reef",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Great_Barrier_Reef",
+      "sha256": "b48b8b76ed53a2b09f5ea15aab9d9da1c33dbce59fe7c4142de124164cee842e",
+      "questionRows": [
+        150
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Great_Sphinx_of_Giza",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Great_Sphinx_of_Giza",
+      "sha256": "22dee8019506188124648df919c76c113c1a2c05da7cdf748464ef2694ef437d",
+      "questionRows": [
+        155
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Greenhouse",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Greenhouse",
+      "sha256": "4c90a6ec1969794d46befdf7a4cf11a1863f8e49459f3a3c47e50343047e2fb0",
+      "questionRows": [
+        89
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Guacamole",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Guacamole",
+      "sha256": "45b86bcec944c07988d2bb110207f72f45547056de65e8c2a7942340348b580b",
+      "questionRows": [
+        202,
+        203
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Hail",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Hail",
+      "sha256": "f5b0d30d40eb4753aac5ff38cba97f1fdf8de055567de9812ad120dc36681da8",
+      "questionRows": [
+        129
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Harp",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Harp",
+      "sha256": "590d69167791d82043f78e3bc5600dc109a2934252c4513de5d8517e7a6f5609",
+      "questionRows": [
+        341
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Hazel",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Hazel",
+      "sha256": "c18a9f141ad94db44bc429a4e4610a4551f3ba62e64155553a44497c4ef3d179",
+      "questionRows": [
+        56
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Home_Alone",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Home_Alone",
+      "sha256": "c62bb8dd47993fb3f8a54c995abf9a27cf6dd20603c6c317cbd3d59d76fc666b",
+      "questionRows": [
+        313,
+        314,
+        315
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Honey_bee",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Honey_bee",
+      "sha256": "2cb0290abe4cf70bbe57ebc6fa8e788cf476ddb70396b4d55b7654435e0959a9",
+      "questionRows": [
+        19,
+        21
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Honeycomb",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Honeycomb",
+      "sha256": "e31dd4b93f57119f70ea35d307427569a8fb3652ab25dd1435e48f741269df15",
+      "questionRows": [
+        20
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/How_to_Train_Your_Dragon_%282010_film%29",
+      "resolvedURL": "https://en.wikipedia.org/wiki/How_to_Train_Your_Dragon_%282010_film%29",
+      "sha256": "1780a35e072e2915a1d87123118e387cd3fa5b9cf7cbed5e4d9e2e212999eca7",
+      "questionRows": [
+        295,
+        296,
+        297
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Hummus",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Hummus",
+      "sha256": "8e38ba133fb7713ca83dda0ee332f7b0015a045bfd6d74d387e4ba7c410e44bb",
+      "questionRows": [
+        190,
+        192
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Impact_crater",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Impact_crater",
+      "sha256": "71aed5a51837a042248c561433182562a9b1f80b5d872b58d88e9432b28c42ac",
+      "questionRows": [
+        96
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Inclined_plane",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Inclined_plane",
+      "sha256": "59c7c2b1b1afe486c34b2e5753cbfe11bc0f625922d4f4ff2c662029778445cb",
+      "questionRows": [
+        122
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Jenga",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Jenga",
+      "sha256": "44eca026a9b3e3f309aa553099817ea3d0235af0028a96065553bd98b08981c3",
+      "questionRows": [
+        337
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Jupiter",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Jupiter",
+      "sha256": "f7d2f2c8914a3ff1cea33866dde149f72cd3c68299877950fec4f2b7b3094dff",
+      "questionRows": [
+        100
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Kaa",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Kaa",
+      "sha256": "5e65bbc39893798b784bb2d370359c27813b54c7c7e0915e2600421d04a81b8a",
+      "questionRows": [
+        255
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Kangaroo",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Kangaroo",
+      "sha256": "c71a174bce8ae53ad602adf164242b163e6ad5fd8b3ec42c3052f6b91f232941",
+      "questionRows": [
+        7,
+        8,
+        9
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Kinetic_energy",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Kinetic_energy",
+      "sha256": "5c0f1bc5052652aaf0ff593b48eb6a88811133930904b46c386874c57919b57e",
+      "questionRows": [
+        123
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Knight_%28chess%29",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Knight_%28chess%29",
+      "sha256": "b6a99e7492acd08dbdea7cfa761ece2debcabb2396ac3d93f53cab93e1c0c300",
+      "questionRows": [
+        328
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Koala",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Koala",
+      "sha256": "24db97dc757db1647d5ac309e718e255b72a397f768ba38ad633407637ebcb4c",
+      "questionRows": [
+        10,
+        11,
+        12
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Kung_Fu_Panda_%28film%29",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Kung_Fu_Panda_%28film%29",
+      "sha256": "13ce3cb8164e32c5084baeb34bcf3ad29cc1bbe3c793a05abe0c8362a0b7d279",
+      "questionRows": [
+        292,
+        293,
+        294
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa",
+      "sha256": "4d1553fba1f13fb6df049c4e10e63068623c4761fd7afbbbc18048c1f13f51c6",
+      "questionRows": [
+        141
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lever",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Lever",
+      "sha256": "1423009c8cf552a2021df5955af06b552182b0bd3c490a52b179e21d32ad69be",
+      "questionRows": [
+        120
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lewis_Carroll",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Lewis_Carroll",
+      "sha256": "c2d44c633595acf63f712c87707330e4829278f130af55f1a5be7c17f1ace993",
+      "questionRows": [
+        249
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lightning",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Lightning",
+      "sha256": "3e3c99cb76fef7bb78d32e10acf6b902c3e09d2945b18434c0585c98fd8c864e",
+      "questionRows": [
+        127
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lima",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Lima",
+      "sha256": "2912f3d356b934c18c7d47c66e9fbbb0058606f722918e999f3633ee475ea1db",
+      "questionRows": [
+        159
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lion",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Lion",
+      "sha256": "2e0736092da66e3ba0a44d29828a0bee14788dd13c56957f9cc7159f1643b679",
+      "questionRows": [
+        43,
+        44
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ludo",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Ludo",
+      "sha256": "bedeba905a65a115cc2568294be2896d3b42d7297f338a7719620f2f13abfd9e",
+      "questionRows": [
+        331
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lullaby",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Lullaby",
+      "sha256": "f39a477d9bf5702a62697cab067e53f541ab37f63076c9b80bf95c0b12c17e1c",
+      "questionRows": [
+        353
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lunar_phase",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Lunar_phase",
+      "sha256": "b1a0d809a35345857bc67392783aacfb67350094a42a2da9252b115d441e1a6b",
+      "questionRows": [
+        95
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Machu_Picchu",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Machu_Picchu",
+      "sha256": "de04a41bfdbbcb85650d72269f17cffa3e68fafde8cc44941fd859399a961e83",
+      "questionRows": [
+        157,
+        158
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Madrid",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Madrid",
+      "sha256": "75e724c140a7957fc48d46640ea50fa0859c5ce5e07cba7384dec5de37301ddf",
+      "questionRows": [
+        142
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Magnet",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Magnet",
+      "sha256": "60b3a54c46d5583f12c95b3c1b1441fe9704583dcb5b708f7dca6c2a20aa5ee9",
+      "questionRows": [
+        111,
+        112,
+        113
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Maple_syrup",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Maple_syrup",
+      "sha256": "514621151ceb82eebe23e0022e01e72259f84085ed90a337263b2270701e1ee1",
+      "questionRows": [
+        219
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mars",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Mars",
+      "sha256": "aa86a5e405d06d2e13f2a73f002190bf5683abe88233cdfa7d354f840c22ac3b",
+      "questionRows": [
+        98
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mars_rover",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Mars_rover",
+      "sha256": "f9da67ff36a6bd52568e33243e4659d7f07530e7fa6e48eb9069619335352087",
+      "questionRows": [
+        99
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mary_Poppins_%28film%29",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Mary_Poppins_%28film%29",
+      "sha256": "9085149dbd0d8f1046233cc8cbdd0ed7fb274715195f218c5dff00fa3df54e93",
+      "questionRows": [
+        307,
+        308,
+        309
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Marzipan",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Marzipan",
+      "sha256": "1646485e28836f4d45e182d402f4501ba8d2ae1c5874ac6a67c9bfbf51c82c11",
+      "questionRows": [
+        216
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Matilda_%28novel%29",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Matilda_%28novel%29",
+      "sha256": "1d58c1d1b62be6449faece216a2df7dcbe064af8366b90e9a2ceb6c020e2a897",
+      "questionRows": [
+        241,
+        242,
+        243
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Melting",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Melting",
+      "sha256": "7183a7f0b6ca113f32594a7d48f1732257d9d2e732792448110da98eae51735f",
+      "questionRows": [
+        107
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mercury_%28planet%29",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Mercury_%28planet%29",
+      "sha256": "51a96852c4e432d64ab6b5cf1e9566fc9a68d0e58d96e235c3f0e6adaceb1d15",
+      "questionRows": [
+        97
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Meringue",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Meringue",
+      "sha256": "ffc5d116dbedb4c42e6976f20a432be9ffa45d0d81c922a638d80565dbebb1b6",
+      "questionRows": [
+        225
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Meteoroid",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Meteoroid",
+      "sha256": "20153708f475d1c637f1ae40e7509cdf4409a0fcb47ffab960109104d084822e",
+      "questionRows": [
+        105
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Milky_Way",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Milky_Way",
+      "sha256": "d31835dad9ab53907e9f986533ed07dad4fd1a61f74262476bb7cd84b46400c7",
+      "questionRows": [
+        103
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mint_sauce",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Mint_sauce",
+      "sha256": "de51849584465ae3be6b0c91e47c79cf3d9d9711fc1ecee1a448b8e00a53126b",
+      "questionRows": [
+        214
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Moana_%282016_film%29",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Moana_%282016_film%29",
+      "sha256": "07d25e54993acee382cabff2e2e14170b9fdaa1dd8bc900b068080ed1f8eef2e",
+      "questionRows": [
+        280,
+        281,
+        282
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Monopoly_%28game%29",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Monopoly_%28game%29",
+      "sha256": "57df1d031e070df94ad3de48746a726daf7cbbf1a5c71de5b7b729fa161c001a",
+      "questionRows": [
+        333
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Moon",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Moon",
+      "sha256": "f97382fb22325ea3521d069331fe3d99e6e1c5ed9d25204930779dd8b8375405",
+      "questionRows": [
+        94
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mount_Fuji",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Mount_Fuji",
+      "sha256": "8eea483582f213afde309efddab4681c3f05f9b16944a32dd07fb3413411e21a",
+      "questionRows": [
+        146
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mowgli",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Mowgli",
+      "sha256": "14f59ddfa1f046f8b413a82fe310c135a5a519e885e0e53225a23dffc9792953",
+      "questionRows": [
+        253
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mulch",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Mulch",
+      "sha256": "d164d344a0508a7bc6d3abe8d8a75c9fce67073ab4ab470fb000bc69a99dd3dc",
+      "questionRows": [
+        72
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mushroom",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Mushroom",
+      "sha256": "8f3133e9665bc17312479a98ebf69d3cff6f6d6b422bfb8ece16ee44ce143d54",
+      "questionRows": [
+        64
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Nectar",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Nectar",
+      "sha256": "ce05fb975933abb2bb0b83c9f28fa8c0177e49cb49b649347f5fca09d12e5773",
+      "questionRows": [
+        77
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Neptune",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Neptune",
+      "sha256": "f42a01b9f85b059d5d39aae89daf245e3b45056113e8f5a692a4318f30afa1ae",
+      "questionRows": [
+        102
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Neverland",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Neverland",
+      "sha256": "40c84630b2389fad45793f1e048958308f6e240191fdbf3663dec8dbda7a06c1",
+      "questionRows": [
+        256
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Niagara_Falls",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Niagara_Falls",
+      "sha256": "77bec7a36dc4c0c8b02e5cc60ac8408a7a329ce1b3829bde0b17fb9dff6456a4",
+      "questionRows": [
+        177
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Nile",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Nile",
+      "sha256": "80a91c69d68f50b420c45a17e825f214bf23ee2474adf62f48a8dfc284ba93a7",
+      "questionRows": [
+        156
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Oak",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Oak",
+      "sha256": "eb1ee0ae7d6a811b49f537945387f24f954316b21c783cf78f6dfab61d11ec5c",
+      "questionRows": [
+        55
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Octopus",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Octopus",
+      "sha256": "5ff89f58a22bcbb53e1530260b5be81c6002b709c88cbf91f9e23ba3d35d10e2",
+      "questionRows": [
+        25,
+        26,
+        27
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Old_Faithful",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Old_Faithful",
+      "sha256": "ade0633355bd6e85daca6a5a60531bd9a1378f47d181ffb46d626cfc9b5e159f",
+      "questionRows": [
+        180
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Onion",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Onion",
+      "sha256": "0a6edcad518f752049f86a3977f07f48ac1d73b35ddd66310c504f034b025345",
+      "questionRows": [
+        84
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Opacity_%28optics%29",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Opacity_%28optics%29",
+      "sha256": "b1d987f40eaccb1c31306933b82457fb3659aa6a0971e5a697f7bfbc37f5bc12",
+      "questionRows": [
+        117
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Orange_%28fruit%29",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Orange_%28fruit%29",
+      "sha256": "5ea2c974f242b0bd66532bd22c9955676f782d5d8bc621375e933b988a724c0e",
+      "questionRows": [
+        199,
+        201
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Orbit",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Orbit",
+      "sha256": "7e7d0525af85e1847ba4165c2bb8b6d646b8dcf862a255d575427492ddddc046",
+      "questionRows": [
+        93
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Origami",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Origami",
+      "sha256": "90148d90e76cfba230cd75099853a77b4b18d8018d9739e15c1b7351c31ac8e2",
+      "questionRows": [
+        358,
+        359
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ottawa",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Ottawa",
+      "sha256": "b2f82274ecc8fcba922f50a3094616ee80d99ce2b5408d5df19dc1ec4a707a27",
+      "questionRows": [
+        175
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Owl",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Owl",
+      "sha256": "694ba48369f587bd6b6f7f65785e69ba2d652b73e2942a5b18f8020be7e06889",
+      "questionRows": [
+        40,
+        41,
+        42
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Paddington_Bear",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Paddington_Bear",
+      "sha256": "f946076639f691dc388b25df7d1116d4df4fd7d79c82742ac89da0214b24432c",
+      "questionRows": [
+        229,
+        230,
+        231
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Palace_of_Versailles",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Palace_of_Versailles",
+      "sha256": "2314c9092c90e2eee56363bba2fa371b31b9f733b21200744a0529e5bf037459",
+      "questionRows": [
+        138
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Palette_(painting)",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Palette_(painting)",
+      "sha256": "52621a6e7af7f41232d086db3808669f310cac6a93ee31ad6614dce64f7aeec9",
+      "questionRows": [
+        355
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Parthenon",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Parthenon",
+      "sha256": "f34d1d0d443eb8c5bab2777651ebc0458040bff2fc81b9ca88033347f32211a0",
+      "questionRows": [
+        164
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Penguin",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Penguin",
+      "sha256": "33e8ddfee9625a5a0e413a101acb1a60b7507bb6d569a1802c525a70a2bc0e96",
+      "questionRows": [
+        28,
+        29
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Perennial",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Perennial",
+      "sha256": "929ed5f667346d02a11e6292857641ebecd96ed415eebde1d489a3b0506b1a52",
+      "questionRows": [
+        80
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pesto",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Pesto",
+      "sha256": "accfcc62b29651e9ff30ca1984b7365f621776f41dfc2c2c076021c2b41461ac",
+      "questionRows": [
+        208,
+        209
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Petal",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Petal",
+      "sha256": "4aa84a50a62b67435898dc846002040e381541efc0cba38e0f14656cb5e29fc4",
+      "questionRows": [
+        78
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Petra",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Petra",
+      "sha256": "96b5998253fc344cdd00740ac204446b4714ca1d622e3e76e372ec700a2511c8",
+      "questionRows": [
+        172
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Photosynthesis",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Photosynthesis",
+      "sha256": "ab3c51038d4050b051c938498be182c1757b611309f98876c8795c03a27efd3e",
+      "questionRows": [
+        50,
+        51
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Piano",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Piano",
+      "sha256": "ff8093e7a5fde6099c0247b0065fed5f9e2056a55b4a4ce66128e6e04acc69b1",
+      "questionRows": [
+        338
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pinocchio",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Pinocchio",
+      "sha256": "d26bf729ad6613b7fc82d851375f6088cccf0ba075dcc85f1e838156e404a9f7",
+      "questionRows": [
+        259,
+        260
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pizza_Margherita",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Pizza_Margherita",
+      "sha256": "689bcff67b8bd8241a13e72af6e1b0f85a5f234eb0c9080d30cc0782dabb4b5c",
+      "questionRows": [
+        224
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Plant_stem",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Plant_stem",
+      "sha256": "d1ae500885d88feb332200e18bfd3b97b70111275f17d5eeee7e3d812563ba0e",
+      "questionRows": [
+        47
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Plectrum",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Plectrum",
+      "sha256": "1a26e6dcb46be626c7ef41504d13ac1d39740abc530b0fe12ecce400e66fc2ed",
+      "questionRows": [
+        340
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pointe_shoe",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Pointe_shoe",
+      "sha256": "bdcecb0fc3c701cd6e662cda779757a9d9c2abb4ed631e45ee308dce95a605aa",
+      "questionRows": [
+        354
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Polder",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Polder",
+      "sha256": "ddfeae21b2759cd157437864b2b00717c0d51c1ffe9a43a0e66f87e6681d8de9",
+      "questionRows": [
+        168
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pollen",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Pollen",
+      "sha256": "b6ad9f7552fc6f3454a7026674103fb1168c9e8cdedb644d7af836a226c4a8e9",
+      "questionRows": [
+        76
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pollination",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Pollination",
+      "sha256": "90bf014211914232ad89f2df9cc3a2d7bf1c1ccd58a15827e8df8e9b2f917b0b",
+      "questionRows": [
+        52
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Popcorn",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Popcorn",
+      "sha256": "f11ed47abc3fa140171d1620f5e3d7446a6e3963b4edb640c446e215eb5e8eaf",
+      "questionRows": [
+        217,
+        218
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Potato",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Potato",
+      "sha256": "63da131d68f58774381155312b13e9335f60784df2d9a810c16f949497d4b5c8",
+      "questionRows": [
+        83
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Prune",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Prune",
+      "sha256": "a607da1cf74eab2a998b516d831f33f782e10b8dfed5bb9f348fedacc0a86e3d",
+      "questionRows": [
+        197
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pruning",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Pruning",
+      "sha256": "3a1753053338dbda9fa2d40a326b2c50a7a58822382bf1705c6c3178763e6ca3",
+      "questionRows": [
+        90
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pulley",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Pulley",
+      "sha256": "5c79391fd5284f35a4295b325c24824fc140ce3a813abf46bc7ec4337ab99c8d",
+      "questionRows": [
+        121
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pyrenees",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Pyrenees",
+      "sha256": "019d823b6b448f742dd9519dab3b903016e4f1833bf57aecc91d6585bb123168",
+      "questionRows": [
+        144
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Quartet",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Quartet",
+      "sha256": "2bff9ac046e5a88c0fbe2ba5f2c387a5b2086a3c27a166ae9e4831daac4fcf4f",
+      "questionRows": [
+        350
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Rabbit",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Rabbit",
+      "sha256": "44b4bea9f96dbae8c00471b38a7f730b2eaf8a719825da61904bfe83d91ccb49",
+      "questionRows": [
+        37,
+        38,
+        39
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Rain_gauge",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Rain_gauge",
+      "sha256": "5c2ad00713a0ad3e9b024e14035889709322429922f717b2ff85f95961e89d53",
+      "questionRows": [
+        132
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Rainbow",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Rainbow",
+      "sha256": "fa699d2be578316a70c05162b7c7b104ae4a3d83062ea586b87ca34483f832fd",
+      "questionRows": [
+        135
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Raisin",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Raisin",
+      "sha256": "0164e5a6b721e749115066d2f0e596461e2174e4a20ad46a3d504553f808a6aa",
+      "questionRows": [
+        196
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ravioli",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Ravioli",
+      "sha256": "6adcbd4a8d107097be339b1cba835c9118a47178313bd223eb291957fec4f619",
+      "questionRows": [
+        223
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Reflection_%28physics%29",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Reflection_%28physics%29",
+      "sha256": "ea3eaf85e849a5ea2841a35e7b31d166764509143875881da92acee909eec34f",
+      "questionRows": [
+        118
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Refraction",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Refraction",
+      "sha256": "c630255897225dc93da6e6874bf77cd3d88f831de92808fb398092e34bf7737c",
+      "questionRows": [
+        119
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Relay_race",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Relay_race",
+      "sha256": "206b1aa5a13b7893bbb48acfe4cbf9431ff9fdc4e2a01f6a2d36ac50a7413131",
+      "questionRows": [
+        325
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Repotting",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Repotting",
+      "sha256": "80dba4a0062579382bdc611623d9163083f6919b3e5a18e45ddf072959fd5681",
+      "questionRows": [
+        87
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "sha256": "ead648f9276d60b99559baea0dd616a50e1ae7592d93b348469ae4b81d1a2a40",
+      "questionRows": [
+        169
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Risotto",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Risotto",
+      "sha256": "ab1915d4594b224f75905aabdbb3c89905daa5aa0d54e55063afcdd1f5aac731",
+      "questionRows": [
+        184,
+        185,
+        186
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/River_Thames",
+      "resolvedURL": "https://en.wikipedia.org/wiki/River_Thames",
+      "sha256": "3bc139effc67b73a58ab6248ea0102c76fd4fba4d35cbb8b220de8030fab37f3",
+      "questionRows": [
+        151
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Root",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Root",
+      "sha256": "65fad65d8fcb1603992fe47206642f010938e162a0b98ce211195d8d53aca66d",
+      "questionRows": [
+        46,
+        48
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Rugby_union",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Rugby_union",
+      "sha256": "1ff9b345c3a8896dc9f647b7b5ef5926105e65b444bb10e55d014d1ad00f4fd4",
+      "questionRows": [
+        318
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia",
+      "sha256": "87bc36127e0f102feaa8feba5b2a14041860e48f5c6412e6c4b701441e60ad63",
+      "questionRows": [
+        143
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Saturn",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Saturn",
+      "sha256": "d67222349d2e4104b86f869bdc1fd62d10ba6f1dc7d5cb3fcad4421e01b4c101",
+      "questionRows": [
+        101
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Scrabble",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Scrabble",
+      "sha256": "fb7804ddb800de5753bc5d3b22450043b2a6f6372a4b33f41aa84531cbd18b2e",
+      "questionRows": [
+        335
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Seedling",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Seedling",
+      "sha256": "15f46b363efa08088a92e21c20248c28157cf9b41161d0addb84e0334743d2ea",
+      "questionRows": [
+        79
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Seine",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Seine",
+      "sha256": "6543c02f3d796c71f6d5f6176d95046eb5603770bae4b6ad4d32cee65f51f2dc",
+      "questionRows": [
+        137
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Shaun_the_Sheep",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Shaun_the_Sheep",
+      "sha256": "8b16e84aa8f3262f402b6debbe0bac019e38f9f731c00f3fadbccdd1f294e166",
+      "questionRows": [
+        304,
+        305
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Shinkansen",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Shinkansen",
+      "sha256": "96aa47f837896b5a886cb8007e90fd95dd3fc67a96f6c627d603acdaec65ed1a",
+      "questionRows": [
+        147
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Shrek",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Shrek",
+      "sha256": "ec34cb34d1e966f8b546b66c5d6bbba167bc247be785aef67aaff5133c06e4d9",
+      "questionRows": [
+        289
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Shrek_%28film%29",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Shrek_%28film%29",
+      "sha256": "5091eba35a7fe6b143f2759629271bbea5e56d9b7c9b997b7b16c9b562ae28db",
+      "questionRows": [
+        290,
+        291
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Slinky_Dog",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Slinky_Dog",
+      "sha256": "5c04a923abd0d1908028add466bc9cd1d80426d3c96e48936e67e77164d3014c",
+      "questionRows": [
+        271
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Snakes_and_ladders",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Snakes_and_ladders",
+      "sha256": "cedf7fc9635a5463874d2acf7db585b3a8439e326be0f7a369474b45902abdbb",
+      "questionRows": [
+        336
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Snare_drum",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Snare_drum",
+      "sha256": "da791fb862c19e2ea33ba28bd8711bee3411cb0c4800910628ffdbbed83e4f04",
+      "questionRows": [
+        345
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sound",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Sound",
+      "sha256": "604321e04e436ddda1b9536381219468a74cf85ecf2084a9f63e63bd1947d751",
+      "questionRows": [
+        114,
+        116
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Spaghetti",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Spaghetti",
+      "sha256": "d70578698c224f4e85093f63676e39fadbf2e708e13f0a908d625e00eb15c090",
+      "questionRows": [
+        187
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Statue_of_Liberty",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Statue_of_Liberty",
+      "sha256": "aa6714005d4c1dc5c0fbcaeae32904789cc5afd0d5827b803d66cbb85b52b920",
+      "questionRows": [
+        178
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Strawberry",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Strawberry",
+      "sha256": "b0a2449ec8052f94c0795036823ccf8cfa83215b061be99985813b99b97eaecd",
+      "questionRows": [
+        86
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Subtractive_color",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Subtractive_color",
+      "sha256": "29638dd740bb756e53190048806ccc5be35befbd528fddfa78cc7d9bcf33c279",
+      "questionRows": [
+        356
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sun",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Sun",
+      "sha256": "e6006b1cf9de81f24ac9176838b06df9931e975d2f0a160e830a6b34c74e758c",
+      "questionRows": [
+        91,
+        92
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sven_%28Frozen%29",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Sven_%28Frozen%29",
+      "sha256": "e12f7183ded111700cfa92ae700f83c0a2780eb0d5695f46bc5a75ca782d09f3",
+      "questionRows": [
+        279
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sydney_Opera_House",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Sydney_Opera_House",
+      "sha256": "1e626fa29011d82b7886e5c21380ab9b13396057cb030e287cceb3b03dc8d843",
+      "questionRows": [
+        148
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Table_tennis",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Table_tennis",
+      "sha256": "55ba3631a2bff19e97624401f20af271dbe83f944a200cb7182665dfa8200a1c",
+      "questionRows": [
+        323
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tadpole",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Tadpole",
+      "sha256": "5921ddd9dd6b70512e396242e75512103e7391b81fe700785d741c459369c472",
+      "questionRows": [
+        32
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tahini",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Tahini",
+      "sha256": "a2df714c8c6778c5dd27e62ac1e18d6505dfecbeeb205dacb2ef5ac3cf39e5bd",
+      "questionRows": [
+        191
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Taj_Mahal",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Taj_Mahal",
+      "sha256": "c24c3f81acedabbdc5134aded1ba3a17b45b7de9a6118da5ff00e290608b299d",
+      "questionRows": [
+        160,
+        161,
+        162
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ten-pin_bowling",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Ten-pin_bowling",
+      "sha256": "9f06381f2db4df0d7c34ecdc0ba99567abfd4c3f7dc83bfdc80453c47884d678",
+      "questionRows": [
+        326
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tendril",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Tendril",
+      "sha256": "b65e16746e187614e1dbc6d507f25804d524328ea481bb2334d0453828bf1ff5",
+      "questionRows": [
+        82
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tennis_scoring_system",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Tennis_scoring_system",
+      "sha256": "0884981144ac4092a8ee7a24b9824f67792a728d06d8cbe241ddf558fb6a4164",
+      "questionRows": [
+        321
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Gruffalo",
+      "resolvedURL": "https://en.wikipedia.org/wiki/The_Gruffalo",
+      "sha256": "08bc98f766d4f55b4834ddc965df7af3b16c2bc8781ea9dc624d3dac5f5d1053",
+      "questionRows": [
+        235,
+        236,
+        237
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Lion_King",
+      "resolvedURL": "https://en.wikipedia.org/wiki/The_Lion_King",
+      "sha256": "89c1ac5b0f5a7df2b09185a76776261c34d911112e158909032e434f8180c567",
+      "questionRows": [
+        286,
+        288
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Sound_of_Music_%28film%29",
+      "resolvedURL": "https://en.wikipedia.org/wiki/The_Sound_of_Music_%28film%29",
+      "sha256": "e8599239be0e08cb6a5c45a71243f1aa69f2f56e38b131c6b446ce6c98e82273",
+      "questionRows": [
+        310,
+        311,
+        312
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Tale_of_Peter_Rabbit",
+      "resolvedURL": "https://en.wikipedia.org/wiki/The_Tale_of_Peter_Rabbit",
+      "sha256": "4f9fa021c7134f13339c194e70587234d21100ea127f7bad41331ca6de9012a0",
+      "questionRows": [
+        232,
+        233,
+        234
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Three_Little_Pigs",
+      "resolvedURL": "https://en.wikipedia.org/wiki/The_Three_Little_Pigs",
+      "sha256": "a7f669ff0893ecf3735805c3d5bc35dbdb6a9d646d17f7435162dcd1a304f1e2",
+      "questionRows": [
+        265,
+        266,
+        267
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Very_Hungry_Caterpillar",
+      "resolvedURL": "https://en.wikipedia.org/wiki/The_Very_Hungry_Caterpillar",
+      "sha256": "fb1817dededda62b1fd6953de84f06be23e16dcc5e6366b2250b7eb8a8dbc428",
+      "questionRows": [
+        238,
+        239,
+        240
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Wonderful_Wizard_of_Oz",
+      "resolvedURL": "https://en.wikipedia.org/wiki/The_Wonderful_Wizard_of_Oz",
+      "sha256": "2a8cd78c27408b72cc9f60944d6e1789ff059b5cfee3632e8f924691d6875b3c",
+      "questionRows": [
+        251,
+        252
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Thunder",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Thunder",
+      "sha256": "71decac5f7585d543ce7c6eadfd5a7c81e3a65fea3a9371d0133d6717f13140a",
+      "questionRows": [
+        126,
+        128
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tigger",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Tigger",
+      "sha256": "c28248f74505cf4bdefda7cdc644080b582319b72a2550c6ff1676794d485d9f",
+      "questionRows": [
+        228
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Timmy_Time",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Timmy_Time",
+      "sha256": "d0a91200f62741e0e65afe1e308555faf206ad849946e588d948c18b6f3595ed",
+      "questionRows": [
+        306
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Timon_and_Pumbaa",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Timon_and_Pumbaa",
+      "sha256": "7965ca5a7bdec5361c969968e5f9dc352feba84750a4033f520a6b808a9d2dde",
+      "questionRows": [
+        287
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tinker_Bell",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Tinker_Bell",
+      "sha256": "0cb2dbf8269d9bab4f8a45aef86c0c2217de950745763a6afa3d1617f1d55534",
+      "questionRows": [
+        257
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tofu",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Tofu",
+      "sha256": "5addfa01296ab0b3922a973f707073a0efca34561a71a807bfb36f2544567d1a",
+      "questionRows": [
+        193
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tokyo",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Tokyo",
+      "sha256": "28f8c7e350f0ab39170f3bbf5a3fd6c932d2e69d113dc581d449e8c4b7fb4f9b",
+      "questionRows": [
+        145
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Toto_%28Oz%29",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Toto_%28Oz%29",
+      "sha256": "b7954ce6cf85a4df8d7837ccbf2a812d994ef68f468163b5d1e8d88612edca45",
+      "questionRows": [
+        250
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Toy_Story",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Toy_Story",
+      "sha256": "0a5996f5a383f83c911dc04123bef4a7f71afcac8f14d14e4ee6a8f6aaad95a7",
+      "questionRows": [
+        272,
+        273
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Trio_%28music%29",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Trio_%28music%29",
+      "sha256": "0304b90070356d6b73dc62a78684cb9c4e2fbe0eb8baff163a529cc7aaba1911",
+      "questionRows": [
+        349
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Trumpet",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Trumpet",
+      "sha256": "396b5f634665aeb6be1f1aed28a6000eae212edc7281c2f280ac2728807d860e",
+      "questionRows": [
+        342
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Uluru",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Uluru",
+      "sha256": "8876bf7772ac8e9a6bd9b66877cf8d3cda9def816f7c1d7e664c68f02859747d",
+      "questionRows": [
+        173
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Uno_%28card_game%29",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Uno_%28card_game%29",
+      "sha256": "e00f7fe3d801433336999d2711ea709641b42d200b89e9a062e0c97d341dd102",
+      "questionRows": [
+        332
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Venice",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Venice",
+      "sha256": "05b13a42823cb10dee35e13b39add2f62d87ef92e02de97a2b8bccbad9a1553a",
+      "questionRows": [
+        140
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Venus_flytrap",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Venus_flytrap",
+      "sha256": "9914a4e56327f84211643c3492f1ad500af14ce8319e60a12886e02f4ade7082",
+      "questionRows": [
+        61
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Violin",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Violin",
+      "sha256": "55f18e3d344d58f923c295fbf0af3c2e67916b7b179bd72390798fc9c24c5cee",
+      "questionRows": [
+        339
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wallace_and_Gromit",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Wallace_and_Gromit",
+      "sha256": "635bc676631f8fe0747e32ebc8c4550038a84c8acccf69c3356ca2508fe88c20",
+      "questionRows": [
+        301,
+        302
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Water_vapor",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Water_vapor",
+      "sha256": "e635bc472ceb3555c62f9f321ef7046b6ca604334ebdd05a384dec7751ccd350",
+      "questionRows": [
+        109
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Weather_vane",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Weather_vane",
+      "sha256": "ed8888d4fca51751022dec934fe20e556f1b8196444ff113525687e1b0db40c9",
+      "questionRows": [
+        134
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Weaving",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Weaving",
+      "sha256": "4a04b8b76d6a19e34dd344fe2ad08c4e36ed327fba9cf86c614139f37eedc469",
+      "questionRows": [
+        357
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Weed",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Weed",
+      "sha256": "9a2b7c1269170fa726ddaf5b60ae9c2678b19a2a0f14efd83577d7cc5e6acaf9",
+      "questionRows": [
+        70
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Western_concert_flute",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Western_concert_flute",
+      "sha256": "85e1a1d419fa47674434e537c810d35468433360b5e65af704d08d20891fcbd5",
+      "questionRows": [
+        344
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/White_chocolate",
+      "resolvedURL": "https://en.wikipedia.org/wiki/White_chocolate",
+      "sha256": "543462930bb2a4f329ef63b65c05d58e9e29fd1a96c554fe2c6c632e9295f396",
+      "questionRows": [
+        207
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Winnie-the-Pooh",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Winnie-the-Pooh",
+      "sha256": "154f3d858dd5e7137dee47717c199b0be48fed3139472d80518d2a53eb021ce9",
+      "questionRows": [
+        227
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Xylophone",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Xylophone",
+      "sha256": "53d248c165d6d5a492d7cb0af8141a639f6236668fe614b9546458d9649764e8",
+      "questionRows": [
+        346
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Yogurt",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Yogurt",
+      "sha256": "5eb296921b21098064bb5b0c5ca460eeb219b3f952a56415349cb284324036ef",
+      "questionRows": [
+        194
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Zebra",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Zebra",
+      "sha256": "b76e78876a5e50e2553cbd67680e96964b63cc442bd85993e4b4ecc12282e9dc",
+      "questionRows": [
+        1,
+        2,
+        3
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Zest_%28ingredient%29",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Zest_%28ingredient%29",
+      "sha256": "515572b87bee646108918a57d7de18bcb7df0d9a2d5b6bfb1e79051406d67b95",
+      "questionRows": [
+        200
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Zoology",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Zoology",
+      "sha256": "e48cf06642a57b48eab4d681734c316e91bb3d6cafe1c85665f0e42e1df70776",
+      "questionRows": [
+        74
+      ],
+      "kind": "secondary encyclopaedia reference",
+      "inspectionScope": "Selected relevant lead, definition, career/plot or explanatory excerpts inspected in the author pass, combined with stable general knowledge. Not every paragraph, citation or linked work read; retrieval alone does not establish fact support."
+    }
+  ],
+  "rejectedInitialURLs": [
+    "https://en.wikipedia.org/wiki/Alice%2527s_Adventures_in_Wonderland",
+    "https://en.wikipedia.org/wiki/Baker%2527s_yeast"
+  ]
+}

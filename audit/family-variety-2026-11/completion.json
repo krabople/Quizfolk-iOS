@@ -1,0 +1,34 @@
+{
+  "auditVersion": "2026-11-family-variety-v1",
+  "date": "2026-11-18",
+  "input": 359,
+  "reviewed": 359,
+  "remaining": 0,
+  "errors": [],
+  "complete": true,
+  "publishedCount": 359,
+  "publishedSHA256": "81cad1183046a62469256d7c86fe5d387e97377e1c2421d17dd793860d30cc78",
+  "independentReview": false,
+  "method": "Individual author checks of each question, all four options, answer uniqueness, grammar, family suitability and fact/reference relevance. Final question fingerprints matched before assembly. Exact existing stems replaced; original Family Trivia set unchanged. Author review, not independent review.",
+  "themes": {
+    "animals": 45,
+    "nature": 45,
+    "science": 45,
+    "places": 45,
+    "food": 45,
+    "stories": 45,
+    "entertainment": 45,
+    "games": 22,
+    "music_art": 22
+  },
+  "difficulty": {
+    "easy": 283,
+    "medium": 76
+  },
+  "correctOptionPositions": {
+    "0": 90,
+    "3": 90,
+    "2": 90,
+    "1": 89
+  }
+}

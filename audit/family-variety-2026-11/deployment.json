@@ -1,0 +1,17 @@
+{
+  "verified": true,
+  "bankCount": 25376,
+  "familyCount": 718,
+  "originalFamilyQuestionsPreserved": 359,
+  "newFamilyQuestionsLive": 359,
+  "batchID": "2026-11-family-variety-v1",
+  "exactIDsVerified": true,
+  "newQuestionsExcludeHarryPotterAndNarnia": true,
+  "revision": "9e3d1fb2adabf765724373a269f8fed2a49bf7147cc2ee8ee276d369f1fd98c7",
+  "date": "2026-11-18",
+  "serverBackup": "/home/nxecei8fyf2u/quizfolk-service/deploy-backups/20261118-221608-mobile-bank",
+  "archiveSHA256": "de8218a33b51cd3409544fcba1e20221df4d399e32304ee56a62ad054444e3e9",
+  "verifiedPublicGzipBytes": 1962681,
+  "bankUpdate": "Automatic hosted question bank update; no new native binary required.",
+  "reviewType": "Individual author editorial pass; not independent review."
+}

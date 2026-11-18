@@ -2,8 +2,8 @@
   "updated": "2026-11-18",
   "targetNewEasy": 3100,
   "reviewedAndValidated": 3100,
-  "localBankCount": 25017,
-  "liveBankCount": 25017,
+  "localBankCount": 25376,
+  "liveBankCount": 25376,
   "topics": [
     {
       "topicID": "9",
@@ -261,5 +261,13 @@
     "deployed": true
   },
   "status": "complete",
-  "completionNote": "All 3,100 easier additions (100 per topic) individually author-reviewed, validated and deployed; 25,017 live questions across 31 topics. Public bank revision/hash, gzip payload, category totals and API health verified. Author editorial review, not independent review."
+  "completionNote": "All 3,100 easier additions (100 per topic) individually author-reviewed, validated and deployed; 25,017 live questions across 31 topics. Public bank revision/hash, gzip payload, category totals and API health verified. Author editorial review, not independent review.",
+  "familyVarietyExpansion": {
+    "batchID": "2026-11-family-variety-v1",
+    "reviewed": 359,
+    "deployed": 359,
+    "familyBefore": 359,
+    "familyAfter": 718,
+    "separateFrom3100EasierTarget": true
+  }
 }
