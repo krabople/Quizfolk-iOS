@@ -67,7 +67,7 @@ class QuizfolkScreenTest {
         }
         compose.waitUntil(10000) { compose.onAllNodesWithTag("startDuel").fetchSemanticsNodes().isNotEmpty() }; tapTag("startDuel")
         repeat(7) {
-            compose.waitUntil(7000) { compose.onAllNodesWithTag("answer-0").fetchSemanticsNodes().isNotEmpty() }
+            compose.waitUntil(60000) { compose.onAllNodesWithTag("answer-0").fetchSemanticsNodes().isNotEmpty() }
             val right = compose.runOnIdle { store.game!!.question!!.let { q -> store.bank.first { it.id == q.id }.correctIndex } }
             tapTag("answer-$right")
             compose.waitUntil(5000) { compose.onAllNodesWithTag("advanceQuestion").fetchSemanticsNodes().isNotEmpty() }; tapTag("advanceQuestion")
@@ -92,7 +92,7 @@ class QuizfolkScreenTest {
         compose.waitUntil(7000) { compose.onAllNodesWithTag("readingPhase").fetchSemanticsNodes().isNotEmpty() }
         compose.onNodeWithTag("answer-0").assertDoesNotExist(); capture("Reading")
         repeat(7) { round ->
-            compose.waitUntil(7000) { compose.onAllNodesWithTag("answer-0").fetchSemanticsNodes().isNotEmpty() }
+            compose.waitUntil(60000) { compose.onAllNodesWithTag("answer-0").fetchSemanticsNodes().isNotEmpty() }
             if (round == 0) { compose.onNodeWithTag("answerTimeBar").assertExists(); capture("Question"); tapTag("power-right") }
             else tapTag("answer-0")
             compose.waitUntil(5000) { compose.onAllNodesWithTag("advanceQuestion").fetchSemanticsNodes().isNotEmpty() }

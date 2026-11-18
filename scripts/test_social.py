@@ -36,7 +36,7 @@ def finish(token,match,correct):
   req('answer',{'match':match['id'],'round':i,'answer':0},token,409)
   with sqlite3.connect(STATE) as db:
    assert db.execute('SELECT started FROM matches WHERE id=?',(match['id'],)).fetchone()[0] is None
-   db.execute('UPDATE matches SET preview_started=? WHERE id=?',(time.time()-3,match['id']))
+   db.execute('UPDATE matches SET preview_started=? WHERE id=?',(time.time()-120,match['id']))
   shown=req('reveal',{'match':match['id']},token);assert shown['phase']=='answer' and shown['remaining']>9
   q=shown['question'];assert q['prompt']==r['question']['prompt'];questions.append(q);assert 'correctIndex' not in q
   original=BANK[q['id']];right=q['answers'].index(original['answers'][original['correctIndex']]);choice=right if correct else (right+1)%4

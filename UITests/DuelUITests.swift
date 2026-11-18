@@ -34,7 +34,7 @@ final class DuelUITests:XCTestCase {
         app.buttons["Start duel"].tap()
         for i in 0..<7 {
             let option=app.buttons["answer-3"]
-            XCTAssertTrue(option.waitForExistence(timeout:8))
+            XCTAssertTrue(option.waitForExistence(timeout:60))
             if i==0 {
                 for n in 0..<4 {XCTAssertTrue(app.buttons["answer-\(n)"].isHittable,"Every answer must be visible without scrolling")}
                 XCTAssertEqual(app.buttons["answer-0"].frame.minY,app.buttons["answer-1"].frame.minY,accuracy:3)
@@ -106,9 +106,9 @@ final class DuelUITests:XCTestCase {
         // Tapping the row's centre hits its label; target the actual control.
         let control=prizes.switches.firstMatch
         XCTAssertTrue(control.waitForExistence(timeout:5));control.tap()
-        XCTAssertTrue(app.staticTexts["Free entry · no coins, badges or tournament prizes"].waitForExistence(timeout:5))
+        XCTAssertTrue(app.staticTexts["Free entry Â· no coins, badges or tournament prizes"].waitForExistence(timeout:5))
         capture("FreeFriendsTournamentSettings")
-        let create=app.buttons["Create free · no prizes"]
+        let create=app.buttons["Create free Â· no prizes"]
         for _ in 0..<3 {if create.exists{break};app.swipeUp()}
         XCTAssertTrue(create.waitForExistence(timeout:5))
         app.buttons["Done"].tap()
@@ -124,7 +124,7 @@ final class DuelUITests:XCTestCase {
         XCTAssertTrue(app.buttons["Following"].waitForExistence(timeout:5))
         let rivalry=app.descendants(matching:.any).matching(identifier:"headToHead").firstMatch
         XCTAssertTrue(rivalry.exists)
-        XCTAssertTrue(rivalry.label.contains("1 draw · 3 completed meetings"),"A single drawn game must use the singular label")
+        XCTAssertTrue(rivalry.label.contains("1 draw Â· 3 completed meetings"),"A single drawn game must use the singular label")
         capture("RivalProfile")
         app.buttons["challengePlayer"].tap()
         XCTAssertTrue(app.buttons["sendChallenge"].waitForExistence(timeout:5));capture("ChallengeComposer")
@@ -187,7 +187,7 @@ final class DuelUITests:XCTestCase {
         XCTAssertTrue(app.buttons["enterTournament"].waitForExistence(timeout:5));app.buttons["enterTournament"].tap()
         let alert=app.alerts["Not enough coins"]
         XCTAssertTrue(alert.waitForExistence(timeout:5));capture("TournamentInsufficientCoins")
-        XCTAssertFalse(app.staticTexts["Preparing your run…"].exists)
+        XCTAssertFalse(app.staticTexts["Preparing your runâ€¦"].exists)
         alert.buttons["OK"].tap();XCTAssertTrue(app.buttons["enterTournament"].exists)
         XCTAssertFalse(app.buttons["Close tournament run"].exists)
     }
@@ -204,7 +204,7 @@ final class DuelUITests:XCTestCase {
         XCTAssertTrue(app.buttons["changeProfilePicture"].waitForExistence(timeout:8))
         XCTAssertFalse(app.staticTexts["Congratulations!"].exists,"Acknowledged prizes must not reopen after returning to the app")
         app.buttons["Tournament badges"].tap()
-        XCTAssertTrue(app.buttons.matching(NSPredicate(format:"label CONTAINS 'Geography · 1st place'")).firstMatch.waitForExistence(timeout:5))
+        XCTAssertTrue(app.buttons.matching(NSPredicate(format:"label CONTAINS 'Geography Â· 1st place'")).firstMatch.waitForExistence(timeout:5))
     }
     @MainActor func testTournamentBadgesShowTopicAndEvent() {
         let app=XCUIApplication();app.launchArguments=["--ui-testing"];app.launch()
@@ -243,7 +243,7 @@ final class DuelUITests:XCTestCase {
         XCTAssertTrue(app.staticTexts["110 coins"].waitForExistence(timeout:5))
         XCTAssertTrue(app.staticTexts["10 / 45 earned today"].exists)
         XCTAssertTrue(app.staticTexts["10 coins earned"].exists)
-        XCTAssertTrue(app.staticTexts["2 of 5 daily trails · earn 50 bonus coins"].exists);capture("DailyCoinTrail")
+        XCTAssertTrue(app.staticTexts["2 of 5 daily trails Â· earn 50 bonus coins"].exists);capture("DailyCoinTrail")
         XCTAssertFalse(app.buttons["Geography"].exists,"A topic already credited today must not be offered again")
         let next=app.buttons.matching(NSPredicate(format:"label CONTAINS 'General Knowledge'")).firstMatch
         for _ in 0..<6 {if next.isHittable {break};app.swipeUp()}

@@ -54,7 +54,7 @@ try:
     # a redundant push for the result already returned by their answer request.
     for client,mid,score in [(a,duel['id'],114),(b,accepted['id'],60)]:
         change('UPDATE matches SET answers=?,score=? WHERE id=?',answers,score,mid)
-        client.get('round',{'match':mid});change('UPDATE matches SET preview_started=? WHERE id=?',time.time()-4,mid)
+        client.get('round',{'match':mid});change('UPDATE matches SET preview_started=? WHERE id=?',time.time()-120,mid)
         client.get('reveal',{'match':mid})
         packet=json.loads(rows('SELECT packet FROM matches WHERE id=?',mid)[0]['packet'])
         client.get('answer',{'match':mid,'round':6,'answer':packet[6]['correctIndex']})
@@ -62,7 +62,7 @@ try:
     assert drain()['sent']==1;assert drain()['sent']==0
     def finish_last(client,mid):
         change('UPDATE matches SET answers=?,score=114 WHERE id=?',answers,mid)
-        client.get('round',{'match':mid});change('UPDATE matches SET preview_started=? WHERE id=?',time.time()-4,mid)
+        client.get('round',{'match':mid});change('UPDATE matches SET preview_started=? WHERE id=?',time.time()-120,mid)
         client.get('reveal',{'match':mid})
         packet=json.loads(rows('SELECT packet FROM matches WHERE id=?',mid)[0]['packet'])
         return client.get('answer',{'match':mid,'round':6,'answer':packet[6]['correctIndex']})
