@@ -1,0 +1,1107 @@
+{
+  "reviewer": "root (author final editorial pass)",
+  "independent": false,
+  "sourceAccessNote": "100 History candidates individually considered for meaning, all four choices, sole correct offered answer, grammar and topic fit. 87 sets of implausible distractors replaced with historical alternatives and reconsidered before approval. Initial notes may describe earlier distractors; explicitly labelled final-distractor notes describe the final choices. Eleven initial redundant/duplicate concepts replaced, including existing cross-category definitions of illuminated manuscript, mosaic, armistice, treaty, relic, compass, hourglass, sarcophagus, abbess and overlapping daguerreotype; vellum repeated the new parchment material, so replaced. Proposed novice replacement rejected because it already existed. Final lexical overlap check found no candidates; additional cross-category exact-answer/term check identified the semantic replacements. Dictionary relevant senses read individually, not corpus snippets or unrelated homonyms. 93 initial references returned actual definitions, seven did not; incomplete senses replaced with actual primary museum/library/archive or institutional passages. Cambridge abolition ancillary US date example was erroneous and not used; only general ending-by-law definition relevant. Actual Getty codex/scriptorium, LOC cuneiform/source guidance, EnglishHeritage castle glossary, BritishLibrary wax-tablet explanation, WorldArchery bent-limb energy, Met crossbow and canopic-jar descriptions, HellenicNavy trireme, RMG caravel/logbook, Oxford astrolabe glossary, RCP movable-type, IWM rationing, NationalArchives blackout, GloucestershireArchives pillory and NPG magic-lantern passages inspected. Some primary passages inspected in indexed/parsed web output rather than downloaded full bodies; no full retrieval claim for failed pages. This is author review, not independent review.",
+  "rows": [
+    {
+      "row": 1,
+      "prompt": "What does archaeology mainly study?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Archaeology studies human past through physical remains, not weather forecasting, stellar chemistry or tides. Actual dictionary definitions list buildings/graves/tools and cultural study. Mainly avoids claiming written evidence never used. History fit and grammar sound. Final distractor pass: Forecasting political events; Tracing only royal family trees; Studying only written literary texts. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Archaeology studies human past through physical remains, not weather forecasting, stellar chemistry or tides. Actual dictionary definitions list buildings/graves/tools and cultural study. Mainly avoids claiming written evidence never used. History fit and grammar sound. Final distractor pass: Forecasting political events; Tracing only royal family trees; Studying only written literary texts. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 2,
+      "prompt": "In archaeology, what is an artefact?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Artefact is human-made/modified object; natural cloud/eruption and prediction are not archaeological artefacts. Dictionary archaeological sense selected, not experimental artefact or digital fault. Context prevents homonym confusion; made/modified broad wording appropriate. Final distractor pass: A naturally formed fossil; An unworked pebble; A natural mineral crystal. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Artefact is human-made/modified object; natural cloud/eruption and prediction are not archaeological artefacts. Dictionary archaeological sense selected, not experimental artefact or digital fault. Context prevents homonym confusion; made/modified broad wording appropriate. Final distractor pass: A naturally formed fossil; An unworked pebble; A natural mineral crystal. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 3,
+      "prompt": "What does an archaeological excavation involve?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Excavation carefully uncovers/records remains. Dictionary archaeological earth-removal definition read, not generic mechanical construction sense. Airport/weather/repainting are not its purpose. No suggestion all finds should be repainted or unrecorded; grammar sound. Final distractor pass: Rebuilding a ruined building in its original form; Collecting objects without recording where they were found; Removing all modern records about a site. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Excavation carefully uncovers/records remains. Dictionary archaeological earth-removal definition read, not generic mechanical construction sense. Airport/weather/repainting are not its purpose. No suggestion all finds should be repainted or unrecorded; grammar sound. Final distractor pass: Rebuilding a ruined building in its original form; Collecting objects without recording where they were found; Removing all modern records about a site. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 4,
+      "prompt": "What does a chronology arrange in order?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Chronology orders events by time. Actual dictionary ordering-of-events definition checked. Area/weight/alphabet length are different sorting principles. No unsupported claim exact dates always known; events time order sole offered answer. Final distractor pass: Events by their location; People by their occupation; Documents by their physical size. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Chronology orders events by time. Actual dictionary ordering-of-events definition checked. Area/weight/alphabet length are different sorting principles. No unsupported claim exact dates always known; events time order sole offered answer. Final distractor pass: Events by their location; People by their occupation; Documents by their physical size. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 5,
+      "prompt": "What is a historical archive mainly intended to preserve?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Historical archive preserves records/documents. Actual historical collection/place senses checked rather than computer compression sense. Animals/fruit/aircraft fuel not its intended archival collection. Includes records beyond paper; not a claim archives contain only written texts. Final distractor pass: Food reserves for a siege; Weapons ready for military use; Merchandise awaiting sale. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Historical archive preserves records/documents. Actual historical collection/place senses checked rather than computer compression sense. Animals/fruit/aircraft fuel not its intended archival collection. Includes records beyond paper; not a claim archives contain only written texts. Final distractor pass: Food reserves for a siege; Weapons ready for military use; Merchandise awaiting sale. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 6,
+      "prompt": "How was the text in a medieval manuscript usually produced?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Medieval manuscript text normally handwritten; Getty actual passage says scribes copied words by hand. Replaced awkward literally-suggest prompt and typographic distractors. Laser/film/electric typewriter anachronistic for medieval manuscript production. Usually avoids unsupported universal about all surviving textual additions. Final distractor pass: Printed from movable metal type; Reproduced on a mechanical typewriter; Impressed with a rolling cylinder seal. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Medieval manuscript text normally handwritten; Getty actual passage says scribes copied words by hand. Replaced awkward literally-suggest prompt and typographic distractors. Laser/film/electric typewriter anachronistic for medieval manuscript production. Usually avoids unsupported universal about all surviving textual additions. Final distractor pass: Printed from movable metal type; Reproduced on a mechanical typewriter; Impressed with a rolling cylinder seal. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 7,
+      "prompt": "Traditional parchment for writing was made from what?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Traditional parchment prepared animal skin; dictionary explicitly dried skin, modern imitation paper separate sense. Glass/copper/clay not this writing material. Traditional qualifier excludes present-day baking parchment; no confusion paper versus skin. Final distractor pass: Woven plant fibres; Thin sheets of wood; Baked clay. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Traditional parchment prepared animal skin; dictionary explicitly dried skin, modern imitation paper separate sense. Glass/copper/clay not this writing material. Traditional qualifier excludes present-day baking parchment; no confusion paper versus skin. Final distractor pass: Woven plant fibres; Thin sheets of wood; Baked clay. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 8,
+      "prompt": "In medieval Europe, a vassal owed loyalty and service to whom?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Vassal owes lord loyalty/service, actual medieval dictionary sense says loyal to lord in return protection and land. Replaced redundant vellum/skin item before approval. Architect/apprentice/merchant not superior roles in the feudal relationship. Does not call every peasant a vassal. Final distractor pass: A guild apprentice; A town's entire population; Every member of a monastery. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Vassal owes lord loyalty/service, actual medieval dictionary sense says loyal to lord in return protection and land. Replaced redundant vellum/skin item before approval. Architect/apprentice/merchant not superior roles in the feudal relationship. Does not call every peasant a vassal. Final distractor pass: A guild apprentice; A town's entire population; Every member of a monastery. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 9,
+      "prompt": "What distinguishes a codex from a scroll?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Codex bound pages vs scroll, Getty actual book-form/manuscript passage and page-flipping description inspected; dictionary alone lacked binding detail. Stone-only/maps-only/no-writing-surface false. Replaced existing illuminated-manuscript duplicate; no all-codices-European claim. Final distractor pass: It consists of one long rolled sheet; It must be inscribed on a single stone slab; It can contain pictures but no words. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Codex bound pages vs scroll, Getty actual book-form/manuscript passage and page-flipping description inspected; dictionary alone lacked binding detail. Stone-only/maps-only/no-writing-surface false. Replaced existing illuminated-manuscript duplicate; no all-codices-European claim. Final distractor pass: It consists of one long rolled sheet; It must be inscribed on a single stone slab; It can contain pictures but no words. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 10,
+      "prompt": "Before printing became widespread, what did a scribe do?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Scribe hand-writes/copies texts before widespread printing; dictionary actual copying profession checked. Locomotive/radio/photography alternatives later technologies. Widespread qualifier avoids false immediate disappearance of scribes when printing invented. Distinct from manuscript production by testing occupation. Final distractor pass: Bound wooden barrels; Cast bronze bells; Wove cloth on a loom. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Scribe hand-writes/copies texts before widespread printing; dictionary actual copying profession checked. Locomotive/radio/photography alternatives later technologies. Widespread qualifier avoids false immediate disappearance of scribes when printing invented. Distinct from manuscript production by testing occupation. Final distractor pass: Bound wooden barrels; Cast bronze bells; Wove cloth on a loom. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 11,
+      "prompt": "Which shape is characteristic of cuneiform writing?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Cuneiform characteristic wedge marks, LOC actual wedge-stylus/clay description and Latin cuneus explanation inspected. Barcode/perfect-circle-only/Braille six-dot cells not defining cuneiform. No false claim all earliest pictographic precursors already wedge-shaped or all signs depict complete words.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Cuneiform characteristic wedge marks, LOC actual wedge-stylus/clay description and Latin cuneus explanation inspected. Barcode/perfect-circle-only/Braille six-dot cells not defining cuneiform. No false claim all earliest pictographic precursors already wedge-shaped or all signs depict complete words.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 12,
+      "prompt": "Ancient Egyptian hieroglyphs were part of what?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Egyptian hieroglyphs a writing system of signs/pictures. Dictionary actual Egyptian writing sense read. Railway/computer/modern shorthand false. Not claiming every glyph pictures the thing its word denotes; phonetic signs included by broad signs wording. Final distractor pass: A set of military rank badges; A system of coin denominations; A collection of potters' ownership marks only. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Egyptian hieroglyphs a writing system of signs/pictures. Dictionary actual Egyptian writing sense read. Railway/computer/modern shorthand false. Not claiming every glyph pictures the thing its word denotes; phonetic signs included by broad signs wording. Final distractor pass: A set of military rank badges; A system of coin denominations; A collection of potters' ownership marks only. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 13,
+      "prompt": "Ancient Egyptian papyrus sheets were made from what?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Papyrus sheets from papyrus plant. Actual dictionary plant and paper-material definitions checked. Wool/iron/diamond not papyrus. Ancient Egyptian context avoids confusing word papyrus document with plant species in another setting. No invention-date claim. Final distractor pass: Linen cloth; Prepared animal skin; Thin sheets of tree bark. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Papyrus sheets from papyrus plant. Actual dictionary plant and paper-material definitions checked. Wool/iron/diamond not papyrus. Ancient Egyptian context avoids confusing word papyrus document with plant species in another setting. No invention-date claim. Final distractor pass: Linen cloth; Prepared animal skin; Thin sheets of tree bark. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 14,
+      "prompt": "What was an ancient amphora?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Amphora two-handled storage vessel, dictionary actual clay-container/oil-or-wine definition checked. Helmet/siege tower/flag not amphora. Does not claim only wine stored or every amphora identical size. All wording singular and grammatical.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Amphora two-handled storage vessel, dictionary actual clay-container/oil-or-wine definition checked. Helmet/siege tower/flag not amphora. Does not claim only wine stored or every amphora identical size. All wording singular and grammatical.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 15,
+      "prompt": "What is a palimpsest?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Palimpsest reused writing surface after erasure; dictionary old document with removed/replaced writing checked. Grain jar/coin tool/ship different object classes. Replaced cross-category mosaic duplicate. No assertion erasure leaves no recoverable earlier traces.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Palimpsest reused writing surface after erasure; dictionary old document with removed/replaced writing checked. Grain jar/coin tool/ship different object classes. Replaced cross-category mosaic duplicate. No assertion erasure leaves no recoverable earlier traces.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 16,
+      "prompt": "What was a Roman aqueduct built to carry?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Roman aqueduct carries water, actual dictionary water-carrying structure description. Rail mail/electricity/coal gas not historical function. Does not imply entire route always above ground or every segment arched. Clear historical engineering fit. Final distractor pass: Grain; Road traffic; Defensive troops. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Roman aqueduct carries water, actual dictionary water-carrying structure description. Rail mail/electricity/coal gas not historical function. Does not imply entire route always above ground or every segment arched. Clear historical engineering fit. Final distractor pass: Grain; Road traffic; Defensive troops. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 17,
+      "prompt": "What did a gladiator typically do in ancient Roman arenas?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Gladiator fights for public entertainment, dictionary actual Roman man/animal combat definition. Does not claim every bout ended in death. Printing/conducting modern orchestra/steam driving not gladiatorial role. Historical arena qualifier and typically correct. Final distractor pass: Serve as a religious priest; Record the proceedings of the Senate; Collect customs duties at a port. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Gladiator fights for public entertainment, dictionary actual Roman man/animal combat definition. Does not claim every bout ended in death. Printing/conducting modern orchestra/steam driving not gladiatorial role. Historical arena qualifier and typically correct. Final distractor pass: Serve as a religious priest; Record the proceedings of the Senate; Collect customs duties at a port. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 18,
+      "prompt": "Which description fits an ancient Egyptian obelisk?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Obelisk tapering pointed stone pillar, actual dictionary four-sloping-sides pointed-top monument definition. Ship/oven/chair not obelisk. Egyptian qualifier excludes dagger typographical symbol. No claim every example commemorates same deity/ruler. Final distractor pass: A flat engraved stone slab; A circular stone tomb; A low rectangular stone altar. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Obelisk tapering pointed stone pillar, actual dictionary four-sloping-sides pointed-top monument definition. Ship/oven/chair not obelisk. Egyptian qualifier excludes dagger typographical symbol. No claim every example commemorates same deity/ruler. Final distractor pass: A flat engraved stone slab; A circular stone tomb; A low rectangular stone altar. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 19,
+      "prompt": "What were ancient Egyptian canopic jars made to contain?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Canopic jars held removed organs, actual Met collection description explicitly lungs/liver/intestines/stomach. Grain/ink/lamp oil are plausible ancient container contents but not intended canopic function. Made to contain allows dummy/symbolic later examples; not every jar necessarily still holds organs. Replaces cross-category stone-coffin/sarcophagus definition duplicate.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Canopic jars held removed organs, actual Met collection description explicitly lungs/liver/intestines/stomach. Grain/ink/lamp oil are plausible ancient container contents but not intended canopic function. Made to contain allows dummy/symbolic later examples; not every jar necessarily still holds organs. Replaces cross-category stone-coffin/sarcophagus definition duplicate.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 20,
+      "prompt": "In ancient Egyptian history, what is a mummy?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Egyptian mummy preserved dead body, dictionary relevant sense checked rather than mother homonym. Crowned ruler/tax record/grain jar not mummy. Does not restrict all mummification to deliberate Egyptian technique; context only ancient Egyptian history. Final distractor pass: A statue made to resemble a ruler; An attendant at a royal funeral; A carved container for grave goods. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Egyptian mummy preserved dead body, dictionary relevant sense checked rather than mother homonym. Crowned ruler/tax record/grain jar not mummy. Does not restrict all mummification to deliberate Egyptian technique; context only ancient Egyptian history. Final distractor pass: A statue made to resemble a ruler; An attendant at a royal funeral; A carved container for grave goods. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 21,
+      "prompt": "In political history, what does suffrage mean?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Suffrage right to vote, dictionary election/right definition. Inherited crown/import tax/war declaration not suffrage. Political history context avoids religious prayer usage. Does not imply all historical societies provided universal suffrage. Final distractor pass: The obligation to serve in an army; The right to inherit a crown; A tax paid to a church. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Suffrage right to vote, dictionary election/right definition. Inherited crown/import tax/war declaration not suffrage. Political history context avoids religious prayer usage. Does not imply all historical societies provided universal suffrage. Final distractor pass: The obligation to serve in an army; The right to inherit a crown; A tax paid to a church. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 22,
+      "prompt": "What does a monarch do by abdicating?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Abdication gives up throne, actual dictionary formal monarch no-longer-reigning definition. Additional country/musician/census not abdication. General word can also mean responsibility abandonment but monarch context chooses throne sense. No assumption always voluntary rather than coerced. Final distractor pass: Formally accepts a crown; Appoints a temporary regent; Names a new royal heir. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Abdication gives up throne, actual dictionary formal monarch no-longer-reigning definition. Additional country/musician/census not abdication. General word can also mean responsibility abandonment but monarch context chooses throne sense. No assumption always voluntary rather than coerced. Final distractor pass: Formally accepts a crown; Appoints a temporary regent; Names a new royal heir. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 23,
+      "prompt": "What was a lance traditionally used for by mounted knights?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Mounted lance thrusting weapon, dictionary long sharp pole used by horseback soldiers. Cannon loading/moat measuring/manuscript copying not intended use. Replaced armistice duplicate from Politics. Traditionally qualifier no claim every cavalry weapon or every lance encounter fatal. Final distractor pass: Shooting a bolt; Cutting crops at harvest; Raising a castle drawbridge. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Mounted lance thrusting weapon, dictionary long sharp pole used by horseback soldiers. Cannon loading/moat measuring/manuscript copying not intended use. Replaced armistice duplicate from Politics. Traditionally qualifier no claim every cavalry weapon or every lance encounter fatal. Final distractor pass: Shooting a bolt; Cutting crops at harvest; Raising a castle drawbridge. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 24,
+      "prompt": "What did many historical royal charters formally grant?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Royal charter grants rights/privileges, dictionary ruler/government formal-rights statement checked. Weather/weight list/personal diary not charter. Many qualifier avoids claim every charter identical or always a royal grant. Replaced treaty duplicate; existing fief definition not reused. Final distractor pass: A list of daily palace expenses; An account of a royal journey; A private family diary. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Royal charter grants rights/privileges, dictionary ruler/government formal-rights statement checked. Weather/weight list/personal diary not charter. Many qualifier avoids claim every charter identical or always a royal grant. Replaced treaty duplicate; existing fief definition not reused. Final distractor pass: A list of daily palace expenses; An account of a royal journey; A private family diary. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 25,
+      "prompt": "What does the abolition of slavery mean?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Abolition of slavery ending by law/official action; dictionary general ending-custom-by-law sense checked. Avoided erroneous ancillary dictionary example implying all US slavery ended1863; no US date asked. Trade tax/monarchy/fort-building false. Wording historically meaningful. Final distractor pass: Changing the rate of a trade tax; Replacing a monarch with a regent; Establishing a new craft guild. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Abolition of slavery ending by law/official action; dictionary general ending-custom-by-law sense checked. Avoided erroneous ancillary dictionary example implying all US slavery ended1863; no US date asked. Trade tax/monarchy/fort-building false. Wording historically meaningful. Final distractor pass: Changing the rate of a trade tax; Replacing a monarch with a regent; Establishing a new craft guild. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 26,
+      "prompt": "In medieval Europe, a serf was generally what?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Serf peasant bound to lord's land, dictionary cannot-leave land/ruled-by-owner sense. Elected ruler/naval commander/ambassador false. Medieval Europe scope avoids claiming every peasant serf or all land-tenure systems identical. Generally qualifier appropriate. Final distractor pass: A landholding noble owing service to a lord; A travelling royal ambassador; A senior official of a craft guild. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Serf peasant bound to lord's land, dictionary cannot-leave land/ruled-by-owner sense. Elected ruler/naval commander/ambassador false. Medieval Europe scope avoids claiming every peasant serf or all land-tenure systems identical. Generally qualifier appropriate. Final distractor pass: A landholding noble owing service to a lord; A travelling royal ambassador; A senior official of a craft guild. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 27,
+      "prompt": "What was a medieval craft guild?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Craft guild association of same-craft workers, actual dictionary same-job organisation definition. Foreign kings' army/naval school/airline council not medieval craft guild. No restriction to one specific trade. Grammatical singular predicate. Final distractor pass: An assembly of bishops; A group of royal bodyguards; An alliance of ruling families. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Craft guild association of same-craft workers, actual dictionary same-job organisation definition. Foreign kings' army/naval school/airline council not medieval craft guild. No restriction to one specific trade. Grammatical singular predicate. Final distractor pass: An assembly of bishops; A group of royal bodyguards; An alliance of ruling families. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 28,
+      "prompt": "How did an apprentice traditionally learn a craft?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Apprentice learns by working with skilled practitioner; dictionary agreed work/expert learning definition. Royal inheritance/jury/import tax unrelated. Does not claim apprenticeship universally unpaid or modern apprentices no formal schooling. Historical learning fit. Final distractor pass: By inheriting membership of a royal family; By being elected to a town council; By paying only a toll at a city gate. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Apprentice learns by working with skilled practitioner; dictionary agreed work/expert learning definition. Royal inheritance/jury/import tax unrelated. Does not claim apprenticeship universally unpaid or modern apprentices no formal schooling. Historical learning fit. Final distractor pass: By inheriting membership of a royal family; By being elected to a town council; By paying only a toll at a city gate. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 29,
+      "prompt": "What is a monarchy?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Monarchy has monarch head of state, dictionary king/queen system definition. Citizen army/no head/ship captains not defining monarchy. Allows constitutional and absolute forms; doesn't falsely require hereditary or all political power held personally. Sole offered definition. Final distractor pass: A system without a monarch; A system ruled by a council of bishops; A system governed directly by an occupying army. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Monarchy has monarch head of state, dictionary king/queen system definition. Citizen army/no head/ship captains not defining monarchy. Allows constitutional and absolute forms; doesn't falsely require hereditary or all political power held personally. Sole offered definition. Final distractor pass: A system without a monarch; A system ruled by a council of bishops; A system governed directly by an occupying army. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 30,
+      "prompt": "Which feature distinguishes a republic from a hereditary monarchy?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Republic lacks hereditary monarch as head; actual dictionary no king/queen president senses read. Explicit comparison to hereditary monarchy, so no confusion with elective monarchy. One party/no laws/foreign king not required. Avoided false assertion all republics democratic. Final distractor pass: It must have only one political party; Its head of state must inherit a throne; Its laws must be made by a foreign monarch. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Republic lacks hereditary monarch as head; actual dictionary no king/queen president senses read. Explicit comparison to hereditary monarchy, so no confusion with elective monarchy. One party/no laws/foreign king not required. Avoided false assertion all republics democratic. Final distractor pass: It must have only one political party; Its head of state must inherit a throne; Its laws must be made by a foreign monarch. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 31,
+      "prompt": "What is a ruling dynasty?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Dynasty succession from same family, actual dictionary rulers-family definition. Weather/truce/road tax not dynasty. Ruling qualifier excludes business-family metaphor while not demanding every member same surname. No country-specific disputed chronology. Final distractor pass: An alliance between unrelated kingdoms; A succession of elected city councils; A group of military units under one commander. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Dynasty succession from same family, actual dictionary rulers-family definition. Weather/truce/road tax not dynasty. Ruling qualifier excludes business-family metaphor while not demanding every member same surname. No country-specific disputed chronology. Final distractor pass: An alliance between unrelated kingdoms; A succession of elected city councils; A group of military units under one commander. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 32,
+      "prompt": "What does a regent do?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Regent rules for monarch unable/absent/too young, dictionary actual temporary-rule definition. Judge/election counter/foreign-army command not role. Does not automatically inherit crown; university-regent homonym excluded by context and correct answer. Present-tense general grammar sound. Final distractor pass: Acts as an ambassador to a foreign court; Records the monarch's family tree; Organises a craft guild's apprentices. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Regent rules for monarch unable/absent/too young, dictionary actual temporary-rule definition. Judge/election counter/foreign-army command not role. Does not automatically inherit crown; university-regent homonym excluded by context and correct answer. Present-tense general grammar sound. Final distractor pass: Acts as an ambassador to a foreign court; Records the monarch's family tree; Organises a craft guild's apprentices. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 33,
+      "prompt": "In a royal succession, who is an heir?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Royal heir entitled/expected to succeed, dictionary inheritance-of-title sense. Palace repair/customs collection/map translation not succession position. Expected accommodates heir presumptive displaced later. Does not imply heir must already rule or a fixed gender. Final distractor pass: Someone appointed to record court proceedings; Someone charged with collecting harbour taxes; Someone hired to educate the monarch's children. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Royal heir entitled/expected to succeed, dictionary inheritance-of-title sense. Palace repair/customs collection/map translation not succession position. Expected accommodates heir presumptive displaced later. Does not imply heir must already rule or a fixed gender. Final distractor pass: Someone appointed to record court proceedings; Someone charged with collecting harbour taxes; Someone hired to educate the monarch's children. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 34,
+      "prompt": "What happens at a coronation?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Coronation formal crowning ceremony. Dictionary king/queen ceremony checked; answer avoids claiming reign necessarily begins that day. Abolishing parliament/declaring war/railway grant not coronation. No universal assertion every monarch actually undergoes coronation. Final distractor pass: A monarch formally gives up the throne; A temporary regent is dismissed; An heir's birth is registered. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Coronation formal crowning ceremony. Dictionary king/queen ceremony checked; answer avoids claiming reign necessarily begins that day. Abolishing parliament/declaring war/railway grant not coronation. No universal assertion every monarch actually undergoes coronation. Final distractor pass: A monarch formally gives up the throne; A temporary regent is dismissed; An heir's birth is registered. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 35,
+      "prompt": "What does a country's constitution set out?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Constitution basic government rules/principles, actual dictionary political principles/state rights definitions. Weather/tourist/rail fares not its purpose. Allows uncodified constitutional arrangements; doesn't require single written document. Politics overlaps as subject but not existing specific US constitutional facts. Final distractor pass: The order of ceremonies at a coronation; A register of a royal family's marriages; A list of taxes collected on one day. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Constitution basic government rules/principles, actual dictionary political principles/state rights definitions. Weather/tourist/rail fares not its purpose. Allows uncodified constitutional arrangements; doesn't require single written document. Politics overlaps as subject but not existing specific US constitutional facts. Final distractor pass: The order of ceremonies at a coronation; A register of a royal family's marriages; A list of taxes collected on one day. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 36,
+      "prompt": "What is the main purpose of a population census?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Population census counts/records people, dictionary officialcount/general-information definition. Electing monarch/festival/mountain heights not purpose. No incorrect claim census always every10years, always citizenship-based or always includes every resident perfectly. Final distractor pass: To survey the boundaries of private estates; To register the designs of coats of arms; To record only a royal family's marriages. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Population census counts/records people, dictionary officialcount/general-information definition. Electing monarch/festival/mountain heights not purpose. No incorrect claim census always every10years, always citizenship-based or always includes every resident perfectly. Final distractor pass: To survey the boundaries of private estates; To register the designs of coats of arms; To record only a royal family's marriages. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 37,
+      "prompt": "Heraldry is especially concerned with which historical symbols?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Heraldry concerns coats of arms, dictionary explicit field/arms/family-history definition. Timetables/formulae/speedlimits unrelated. Especially avoids excluding flags/badges and broader heraldic responsibilities. Distinct from specificroyal-coat-quarter old question. Final distractor pass: Designs on archaeological pottery; Arrangements of military camps; Patterns used in woven textiles. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Heraldry concerns coats of arms, dictionary explicit field/arms/family-history definition. Timetables/formulae/speedlimits unrelated. Especially avoids excluding flags/badges and broader heraldic responsibilities. Distinct from specificroyal-coat-quarter old question. Final distractor pass: Designs on archaeological pottery; Arrangements of military camps; Patterns used in woven textiles. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 38,
+      "prompt": "What is a coat of arms?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Coat of arms heraldic identifying design, dictionary family/university/city/company shield-pattern sense. Metal coat/weaponslist/bread not meaning. Person/family/institution broad and accurate; not claim all surnames share arms or anyone may appropriate personal arms. Final distractor pass: A list of weapons in an army's stores; A written record of a soldier's service; A set of rules for a knightly tournament. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Coat of arms heraldic identifying design, dictionary family/university/city/company shield-pattern sense. Metal coat/weaponslist/bread not meaning. Person/family/institution broad and accurate; not claim all surnames share arms or anyone may appropriate personal arms. Final distractor pass: A list of weapons in an army's stores; A written record of a soldier's service; A set of rules for a knightly tournament. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 39,
+      "prompt": "What is a siege?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Siege surrounds place to force surrender, dictionary armed-surrounding definition and EnglishHeritage glossary actual supplies-cutoff aim checked. Ship ceremony/pilgrimage/marriage agreement not siege. Attacking broad military pressure, doesn't require immediate storming. Final distractor pass: A formal agreement to stop fighting; A religious procession through a city; A ceremony marking a ruler's accession. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question. Final correct answer drops attacking to avoid implying a siege always involves storming or direct assault; surrounding to force surrender is sufficient.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Siege surrounds place to force surrender, dictionary armed-surrounding definition and EnglishHeritage glossary actual supplies-cutoff aim checked. Ship ceremony/pilgrimage/marriage agreement not siege. Attacking broad military pressure, doesn't require immediate storming. Final distractor pass: A formal agreement to stop fighting; A religious procession through a city; A ceremony marking a ruler's accession. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question. Final correct answer drops attacking to avoid implying a siege always involves storming or direct assault; surrounding to force surrender is sufficient.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 40,
+      "prompt": "What is a rampart?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Rampart defensive wall/bank, dictionary protection-wall sense inspected. Instrument/wine tax/marriage contract false. Includes earthworks as banks, not stone-only and not necessarily full fortifiedcity circuit. History/grammar sound. Final distractor pass: An ornamental garden terrace; A channel carrying water into a town; A raised platform inside a theatre. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Rampart defensive wall/bank, dictionary protection-wall sense inspected. Instrument/wine tax/marriage contract false. Includes earthworks as banks, not stone-only and not necessarily full fortifiedcity circuit. History/grammar sound. Final distractor pass: An ornamental garden terrace; A channel carrying water into a town; A raised platform inside a theatre. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 41,
+      "prompt": "What is a castle moat?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Moat ditch around castle, often waterfilled; actual dictionary dug-hole usually water definition. Towerroom/table/chimney wrong. Often qualifier essential since dry moats exist. Does not assert every castle had one. Final distractor pass: A passage inside a castle wall; A courtyard enclosed by walls; A strong tower used as a refuge. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Moat ditch around castle, often waterfilled; actual dictionary dug-hole usually water definition. Towerroom/table/chimney wrong. Often qualifier essential since dry moats exist. Does not assert every castle had one. Final distractor pass: A passage inside a castle wall; A courtyard enclosed by walls; A strong tower used as a refuge. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 42,
+      "prompt": "What could a castle drawbridge do?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Drawbridge raises to block access, dictionary castlebridge-raised sense plus EnglishHeritage hinged moatbridge checked. Timekeeping/waterlifting/distant messaging not function. Does not assume modern opening bridges exist only at castles. Final distractor pass: Carry a water channel across a valley; Link two rooms inside a tower; Channel smoke out of a kitchen. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Drawbridge raises to block access, dictionary castlebridge-raised sense plus EnglishHeritage hinged moatbridge checked. Timekeeping/waterlifting/distant messaging not function. Does not assume modern opening bridges exist only at castles. Final distractor pass: Carry a water channel across a valley; Link two rooms inside a tower; Channel smoke out of a kitchen. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 43,
+      "prompt": "What was a portcullis used for?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Portcullis sliding grille closes gateway; dictionary heavybarredgate lowered description and EnglishHeritage heavywood/iron grille actualtext checked. Waterlighting/depthmeasurement false. No false claim every example irononly or hinged like a modern door. Final distractor pass: Lifting water from a deep well; Launching stones over a wall; Supporting a wooden roof. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Portcullis sliding grille closes gateway; dictionary heavybarredgate lowered description and EnglishHeritage heavywood/iron grille actualtext checked. Waterlighting/depthmeasurement false. No false claim every example irononly or hinged like a modern door. Final distractor pass: Lifting water from a deep well; Launching stones over a wall; Supporting a wooden roof. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 44,
+      "prompt": "What were battlements designed to provide?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Battlements provide cover/gaps on defensive walltop; actual EnglishHeritage glossary gaps for missile discharge read. Theatre seats/irrigation/storage false. Intended defensive role qualifier avoids later ornamental exceptions. No unsupported claim every crenellation actually used in combat. Final distractor pass: Storage space under a gatehouse; Channels for draining a courtyard; Platforms for loading ships. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Battlements provide cover/gaps on defensive walltop; actual EnglishHeritage glossary gaps for missile discharge read. Theatre seats/irrigation/storage false. Intended defensive role qualifier avoids later ornamental exceptions. No unsupported claim every crenellation actually used in combat. Final distractor pass: Storage space under a gatehouse; Channels for draining a courtyard; Platforms for loading ships. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 45,
+      "prompt": "What defensive purpose did narrow arrow slits serve in medieval castles?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Arrow slits permit shooting with protection; EnglishHeritage actual narrowwindow-for-arrows passage checked. Changed to defensive purpose to avoid later decorative castle arrowloops. Cavalryentry/moatfill/bells not narrow-slits' intended function. No claim every decorative arrow slit usable. Final distractor pass: To admit mounted soldiers through a wall; To drain rainwater from a roof; To hoist supplies into a storeroom. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Arrow slits permit shooting with protection; EnglishHeritage actual narrowwindow-for-arrows passage checked. Changed to defensive purpose to avoid later decorative castle arrowloops. Cavalryentry/moatfill/bells not narrow-slits' intended function. No claim every decorative arrow slit usable. Final distractor pass: To admit mounted soldiers through a wall; To drain rainwater from a roof; To hoist supplies into a storeroom. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 46,
+      "prompt": "In a medieval castle, what was the keep?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Keep strong main tower/building, dictionary relevant castle noun found after unrelated keep verb definitions. Moat/drawbridge/canvasroof different features. Main-central general castle vocabulary, not assertion every keep geometrically central. Historical qualifier disambiguates. Final wording main rather than central avoids a geometric-centre implication. Final distractor pass: A ditch surrounding the walls; A bridge that could be raised; An enclosed outer courtyard. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Keep strong main tower/building, dictionary relevant castle noun found after unrelated keep verb definitions. Moat/drawbridge/canvasroof different features. Main-central general castle vocabulary, not assertion every keep geometrically central. Historical qualifier disambiguates. Final wording main rather than central avoids a geometric-centre implication. Final distractor pass: A ditch surrounding the walls; A bridge that could be raised; An enclosed outer courtyard. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 47,
+      "prompt": "In a medieval castle, what was a bailey?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Bailey enclosed courtyard, dictionary openarea insidecastleouterwall. Helmet/window/horn unrelated. Doesn't require one bailey only or always roundshape. Existing OldBailey legal venue facts distinct from medievalcastleterm. Final distractor pass: A strong central tower; A ditch surrounding the walls; A narrow firing opening. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Bailey enclosed courtyard, dictionary openarea insidecastleouterwall. Helmet/window/horn unrelated. Doesn't require one bailey only or always roundshape. Existing OldBailey legal venue facts distinct from medievalcastleterm. Final distractor pass: A strong central tower; A ditch surrounding the walls; A narrow firing opening. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 48,
+      "prompt": "In a motte-and-bailey castle, what was the motte?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Motte fortified-tower mound, dictionary smallhill/fort definition checked. Well/drawbridge/table not motte. Motte-and-bailey scope clear, no claim every hill artificial or every castle timber. Singular appropriate. Final distractor pass: The enclosed courtyard beside the tower; The ditch around the outer defences; The main gateway through the wall. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Motte fortified-tower mound, dictionary smallhill/fort definition checked. Well/drawbridge/table not motte. Motte-and-bailey scope clear, no claim every hill artificial or every castle timber. Singular appropriate. Final distractor pass: The enclosed courtyard beside the tower; The ditch around the outer defences; The main gateway through the wall. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 49,
+      "prompt": "A traditional tithe was based on what fraction?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Tithe one tenth, actual dictionary tenth-of-produce/income-toChurch definition. Half/quarter/hundredth false. Traditional fraction qualifier avoids trying to calculate variable specifictax law or assume universal current duty.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Tithe one tenth, actual dictionary tenth-of-produce/income-toChurch definition. Half/quarter/hundredth false. Traditional fraction qualifier avoids trying to calculate variable specifictax law or assume universal current duty.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 50,
+      "prompt": "What is a pilgrim?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Pilgrim journeys to holyplace, dictionary religiousjourney definition inspected. Shiprepair/vote counting/mintguard false. General religious sense distinct from specificMayflower group/Thanksgiving events already inbank. No claim only one religion has pilgrims. Final distractor pass: Someone appointed to guard a royal mint; Someone learning a craft from a master; Someone representing a king at a foreign court. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Pilgrim journeys to holyplace, dictionary religiousjourney definition inspected. Shiprepair/vote counting/mintguard false. General religious sense distinct from specificMayflower group/Thanksgiving events already inbank. No claim only one religion has pilgrims. Final distractor pass: Someone appointed to guard a royal mint; Someone learning a craft from a master; Someone representing a king at a foreign court. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 51,
+      "prompt": "A friar belongs to which kind of community?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Friar belongs to religious order, actual dictionary RomanCatholicreligiousgroup definition. Armourer guild/cavalry company/heraldhousehold false. Replaced religiousrelic duplicate fromothercategory. Doesnot imply allfriars monksinclosedmonasteries or allpoorpeoplefriars.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Friar belongs to religious order, actual dictionary RomanCatholicreligiousgroup definition. Armourer guild/cavalry company/heraldhousehold false. Replaced religiousrelic duplicate fromothercategory. Doesnot imply allfriars monksinclosedmonasteries or allpoorpeoplefriars.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 52,
+      "prompt": "What is a monastery primarily associated with?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Monastery communityofmonks, dictionary buildingswhere monkslive/worship definition. Parliamentary/fire/naval alternatives not itsprimaryassociation. Primarily qualifierallows modernrepurposing; noallreligiouscommunitiesmale claim. Historical sense distinct fromabbessrole nextitem. Final distractor pass: A community of craft apprentices; A council of elected town officials; A garrison of professional soldiers. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Monastery communityofmonks, dictionary buildingswhere monkslive/worship definition. Parliamentary/fire/naval alternatives not itsprimaryassociation. Primarily qualifierallows modernrepurposing; noallreligiouscommunitiesmale claim. Historical sense distinct fromabbessrole nextitem. Final distractor pass: A community of craft apprentices; A council of elected town officials; A garrison of professional soldiers. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 53,
+      "prompt": "What was the traditional purpose of an almshouse?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Almshouse charitable accommodation for needy people; actual Cambridge old/poor rent-free housing definition and Almshouse Association charitable residential accommodation meaning inspected. Tollhouse/arsenal/mint activities are other historical institutions, not almshouse purpose. Traditional qualifier avoids claiming all modern rules identical or requiring residents to work like workhouse. Replaced abbess duplicate; novice replacement rejected because already in Religion.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Almshouse charitable accommodation for needy people; actual Cambridge old/poor rent-free housing definition and Almshouse Association charitable residential accommodation meaning inspected. Tollhouse/arsenal/mint activities are other historical institutions, not almshouse purpose. Traditional qualifier avoids claiming all modern rules identical or requiring residents to work like workhouse. Replaced abbess duplicate; novice replacement rejected because already in Religion.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 54,
+      "prompt": "In a medieval monastery, what was a scriptorium used for?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Scriptorium manuscriptwriting/copying, Getty actual place-for-writing/books-copied-and-illuminated passage read, not justexhibitiontitle. Iron/horse/grain functions false. Monastery scopehistoricallyfits thoughnotallscriptoria monastic. Directdictionary404 notcalledretrievalsuccess.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Scriptorium manuscriptwriting/copying, Getty actual place-for-writing/books-copied-and-illuminated passage read, not justexhibitiontitle. Iron/horse/grain functions false. Monastery scopehistoricallyfits thoughnotallscriptoria monastic. Directdictionary404 notcalledretrievalsuccess.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 55,
+      "prompt": "Why was a wax seal attached to many historical documents?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Waxseal helpsauthenticateorclose document; actualdictionaryofficialwaxmarkandletterclosing senses read. Invisibleforever/turnmetal/weigh false. Many qualifier avoidsallsealswax/allattachedseals physicallycloseparchment. No falseassumptionallsealedtextssecret. Final distractor pass: To record the document's monetary value; To show the number of pages in the document; To indicate the age of its parchment. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Waxseal helpsauthenticateorclose document; actualdictionaryofficialwaxmarkandletterclosing senses read. Invisibleforever/turnmetal/weigh false. Many qualifier avoidsallsealswax/allattachedseals physicallycloseparchment. No falseassumptionallsealedtextssecret. Final distractor pass: To record the document's monetary value; To show the number of pages in the document; To indicate the age of its parchment. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 56,
+      "prompt": "How could a wax writing tablet be reused?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Waxtablet reusedbysmoothingwax. Actual BritishLibrary writingequipment passage explains warming/smoothingwithstylus, notunsupportedguessfromtabletname. Photo-development/burningstone/battery false. No claimancientwax survivesundamagedtoday oralltabletmaterialsreusablethisway. Final distractor pass: By scraping away a layer of stone; By replacing its wooden frame after every word; By washing ink out of woven cloth. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Waxtablet reusedbysmoothingwax. Actual BritishLibrary writingequipment passage explains warming/smoothingwithstylus, notunsupportedguessfromtabletname. Photo-development/burningstone/battery false. No claimancientwax survivesundamagedtoday oralltabletmaterialsreusablethisway. Final distractor pass: By scraping away a layer of stone; By replacing its wooden frame after every word; By washing ink out of woven cloth. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 57,
+      "prompt": "What was an ancient chariot?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Chariot wheeledhorse-drawn vehicle, dictionary ancient2wheel racing/fightingdescription. Ship/tower/watertunnel wrong. Usuallyhorses avoidsexclusiveanimalclaim, answerbroadbutaccurate. No claimallancientvehicleschariots. Final distractor pass: A narrow rowing warship; A stone siege tower; A wheeled plough drawn through soil. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Chariot wheeledhorse-drawn vehicle, dictionary ancient2wheel racing/fightingdescription. Ship/tower/watertunnel wrong. Usuallyhorses avoidsexclusiveanimalclaim, answerbroadbutaccurate. No claimallancientvehicleschariots. Final distractor pass: A narrow rowing warship; A stone siege tower; A wheeled plough drawn through soil. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 58,
+      "prompt": "What provides the energy that launches an arrow from a traditional longbow?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Storedenergyinbentbow launchesarrow. WorldArchery actual barebowphysics saysbentlimbsstoreenergytransferredthroughstring. Replaced loose tensionwordingwithbentbowenergy toavoidstring-onlyenergy misconception. Motor/steam/gunpowder nottraditionalbow. Stablephysicalprinciple applies tolongbow, notclaimlongbowmodernbarebowcompetitioncategory. Final distractor pass: A gunpowder charge; Air compressed in a chamber; A wound metal spring in the arrowhead. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Storedenergyinbentbow launchesarrow. WorldArchery actual barebowphysics saysbentlimbsstoreenergytransferredthroughstring. Replaced loose tensionwordingwithbentbowenergy toavoidstring-onlyenergy misconception. Motor/steam/gunpowder nottraditionalbow. Stablephysicalprinciple applies tolongbow, notclaimlongbowmodernbarebowcompetitioncategory. Final distractor pass: A gunpowder charge; Air compressed in a chamber; A wound metal spring in the arrowhead. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 59,
+      "prompt": "How is a crossbow's bow positioned?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Crossbow bowmountedacrossstock. ActualMetmuseumpublication introductionexplicitlyhorizontal/rightangle tosupportcalledtillerorstock. Dictionaryshortarrowdefinitionalonewasinsufficientandnotusedtoproveorientation. Mast/cannonbarrel/saddle wrong. No operationalconstructioninstructions orcontroversialinventioncountryclaim. Final distractor pass: Vertically along a spear shaft; Inside a cylindrical metal barrel; Along the length of a sword blade. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Crossbow bowmountedacrossstock. ActualMetmuseumpublication introductionexplicitlyhorizontal/rightangle tosupportcalledtillerorstock. Dictionaryshortarrowdefinitionalonewasinsufficientandnotusedtoproveorientation. Mast/cannonbarrel/saddle wrong. No operationalconstructioninstructions orcontroversialinventioncountryclaim. Final distractor pass: Vertically along a spear shaft; Inside a cylindrical metal barrel; Along the length of a sword blade. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 60,
+      "prompt": "Traditional mail armour was made mainly from what?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Mailarmourinterlinkedmetalrings, dictionary exactringsjoinedlikeclothprotectsoldier. Glass/paper/stone nottraditionalmail. No falseclaimmailwasmadeofchainsdanglingorallarmourmail. Traditionalqualifierexcludesdecorativecostumefabrics. Final distractor pass: Overlapping solid plates of glass; Layers of quilted cloth without metal; Large carved pieces of bone. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Mailarmourinterlinkedmetalrings, dictionary exactringsjoinedlikeclothprotectsoldier. Glass/paper/stone nottraditionalmail. No falseclaimmailwasmadeofchainsdanglingorallarmourmail. Traditionalqualifierexcludesdecorativecostumefabrics. Final distractor pass: Overlapping solid plates of glass; Layers of quilted cloth without metal; Large carved pieces of bone. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 61,
+      "prompt": "What was the main purpose of armour in battle?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Armourprotectsbody, dictionary protectivecoveringbody sense. Wind/waterdelivery/telegraph false. Not modernarmouredvehicleshomonym. Mainpurpose qualifierdoesnotexclude prestige/display, notpromiseinvulnerability. Final distractor pass: Identifying the boundaries of a camp; Signalling the start of a battle; Carrying a soldier's food supplies. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Armourprotectsbody, dictionary protectivecoveringbody sense. Wind/waterdelivery/telegraph false. Not modernarmouredvehicleshomonym. Mainpurpose qualifierdoesnotexclude prestige/display, notpromiseinvulnerability. Final distractor pass: Identifying the boundaries of a camp; Signalling the start of a battle; Carrying a soldier's food supplies. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 62,
+      "prompt": "What was a military catapult designed to do?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Militarycatapult launchesprojectiles, dictionary highspeedthrowingdevice inspected. Underwatertransport/paperprinting/Sunmeasurement notcatapult. Military scopeavoidsmetaphoricalcareerlaunch oronlychild'sslingshot. No exactinventor/dateclaim. Final distractor pass: Carry troops across a river; Break enemy codes; Signal with reflected sunlight. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Militarycatapult launchesprojectiles, dictionary highspeedthrowingdevice inspected. Underwatertransport/paperprinting/Sunmeasurement notcatapult. Military scopeavoidsmetaphoricalcareerlaunch oronlychild'sslingshot. No exactinventor/dateclaim. Final distractor pass: Carry troops across a river; Break enemy codes; Signal with reflected sunlight. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 63,
+      "prompt": "What was a battering ram used to attack?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Batteringram attacksdoors/gates/walls, dictionary longheavypoleusedbreakcastledoors. Navigationcharts/filterwatersupply/legalclaim notintendedphysicaltarget. Broad gatesorwalls valid, doesn't assert allrams effectiveagainsteverystonewall. Noinstructionforforcedentry. Final distractor pass: An enemy's supply records; A ship's navigation equipment; A messenger's coded letters. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Batteringram attacksdoors/gates/walls, dictionary longheavypoleusedbreakcastledoors. Navigationcharts/filterwatersupply/legalclaim notintendedphysicaltarget. Broad gatesorwalls valid, doesn't assert allrams effectiveagainsteverystonewall. Noinstructionforforcedentry. Final distractor pass: An enemy's supply records; A ship's navigation equipment; A messenger's coded letters. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 64,
+      "prompt": "What characterised an ancient trireme?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Triremethreelevelsrowers, actualHellenicNavymuseum description3rowsoarsoneachside andeachoarrower; Greekculturemuseum also listsupper/middle/lower rows. Steamengines/railtracks/gunturrets notancienttrireme. Doesnot confuse threepeopleeachoarwiththreerowingbanks. Final distractor pass: Three complete decks of cannons; Three separate hulls; Three large lateen sails. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Triremethreelevelsrowers, actualHellenicNavymuseum description3rowsoarsoneachside andeachoarrower; Greekculturemuseum also listsupper/middle/lower rows. Steamengines/railtracks/gunturrets notancienttrireme. Doesnot confuse threepeopleeachoarwiththreerowingbanks. Final distractor pass: Three complete decks of cannons; Three separate hulls; Three large lateen sails. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 65,
+      "prompt": "What mainly propelled a traditional rowing galley?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Rowinggalleypropelledbyoars, actualdictionary rowedshipdefinition read. Jet/turbine/steampiston false. Rowing qualifierimportantbecausegalleysalsousedsails; no falseallrowersslaves claimfromdictionary stereotype. Historicalshipnotkitchenhomonym. Final distractor pass: Steam-powered paddle wheels; A screw propeller; A horse towing it from the shore. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Rowinggalleypropelledbyoars, actualdictionary rowedshipdefinition read. Jet/turbine/steampiston false. Rowing qualifierimportantbecausegalleysalsousedsails; no falseallrowersslaves claimfromdictionary stereotype. Historicalshipnotkitchenhomonym. Final distractor pass: Steam-powered paddle wheels; A screw propeller; A horse towing it from the shore. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 66,
+      "prompt": "What was a galleon?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Galleonlargesailingshiptrade/war, dictionary explicitlargesailingvesseldefinition. Railwaywagon/siegetower/farmtoolnotgalleon. No fixednumbermastsorcountryexclusiveclaim. Historical nounclearlydistinguishedfromgallonvolumemeasure. Final distractor pass: A shallow river barge without sails; A single-oared racing boat; A covered horse-drawn carriage. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Galleonlargesailingshiptrade/war, dictionary explicitlargesailingvesseldefinition. Railwaywagon/siegetower/farmtoolnotgalleon. No fixednumbermastsorcountryexclusiveclaim. Historical nounclearlydistinguishedfromgallonvolumemeasure. Final distractor pass: A shallow river barge without sails; A single-oared racing boat; A covered horse-drawn carriage. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 67,
+      "prompt": "A caravel was a type of what?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Caravelsailingship, actualRMGPortugueseCaravelcollectionmodel descriptionexplicitlycargoandsailingvessel. Siegeengine/newspaper/crownfalse. Usesonlyshipclass, notassumeeverycaravel had4mastslikethismodel. Cambridgefailedreference replaced. Final distractor pass: Siege engine; Horse-drawn carriage; Grain-grinding machine. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Caravelsailingship, actualRMGPortugueseCaravelcollectionmodel descriptionexplicitlycargoandsailingvessel. Siegeengine/newspaper/crownfalse. Usesonlyshipclass, notassumeeverycaravel had4mastslikethismodel. Cambridgefailedreference replaced. Final distractor pass: Siege engine; Horse-drawn carriage; Grain-grinding machine. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 68,
+      "prompt": "What did a ship's logbook traditionally record?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Shiplogbookvoyagedetails, RMGactualRobertSmall1837-38objectdescriptionrecordsoutbound/returnvoyage,crewlists,charts. OriginalCambridgelogbookpageonlycarregistration andnotusedtosupportmaritimesense. Familytrees/royalrecipes/localelections-onlynotshiplogbookpurpose. Notclaimingalllogsidentical. Final distractor pass: Only the construction costs of its harbour; Only the family trees of its crew; Only the prices of fish in its home port. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Shiplogbookvoyagedetails, RMGactualRobertSmall1837-38objectdescriptionrecordsoutbound/returnvoyage,crewlists,charts. OriginalCambridgelogbookpageonlycarregistration andnotusedtosupportmaritimesense. Familytrees/royalrecipes/localelections-onlynotshiplogbookpurpose. Notclaimingalllogsidentical. Final distractor pass: Only the construction costs of its harbour; Only the family trees of its crew; Only the prices of fish in its home port. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 69,
+      "prompt": "What could a historical astrolabe help measure?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Astrolabecouldmeasurecelestialaltitude, dictionary actualstarsposition/navigationdefinition inspected. Cannonballweight/oventemperature/locomotivespeedfalse. Couldqualifieravoidsrestrictinginstrumenttoonlythisfunction. No claimeveryastrolabemeasureslongitudealone. Oxford History of Science Museum actual glossary explicitly defines celestial altitude above horizon and alidade sighting function; final source changed to that primary reference. Final distractor pass: The weight of a ship's cargo; The depth of water below a ship; The pressure inside a boiler. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Astrolabecouldmeasurecelestialaltitude, dictionary actualstarsposition/navigationdefinition inspected. Cannonballweight/oventemperature/locomotivespeedfalse. Couldqualifieravoidsrestrictinginstrumenttoonlythisfunction. No claimeveryastrolabemeasureslongitudealone. Oxford History of Science Museum actual glossary explicitly defines celestial altitude above horizon and alidade sighting function; final source changed to that primary reference. Final distractor pass: The weight of a ship's cargo; The depth of water below a ship; The pressure inside a boiler. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 70,
+      "prompt": "How does a traditional water clock measure time?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Waterclocktimebycontrolledwaterflow, dictionary directflowingwaterdefinitionchecked. Needle/moltenmetal/oceanwaveheightfalse. Replaced oldhourglasssandduplicatedincrosscategorybank. No needprecisetimecalibrationorassumeconstantflowwithoutcontrol. Final distractor pass: By the burning length of a candle; By the angle of a shadow; By sand falling between two bulbs. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Waterclocktimebycontrolledwaterflow, dictionary directflowingwaterdefinitionchecked. Needle/moltenmetal/oceanwaveheightfalse. Replaced oldhourglasssandduplicatedincrosscategorybank. No needprecisetimecalibrationorassumeconstantflowwithoutcontrol. Final distractor pass: By the burning length of a candle; By the angle of a shadow; By sand falling between two bulbs. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 71,
+      "prompt": "What does a sundial use to indicate the time?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Sundialtimefromsunlightshadow, dictionary actualmetalshadowonnumericalsurface sense. Underwaterbell/boilingpressure/motorfalse. No claimworksatnightorlocalapparenttimealwaysequalsclocktime. Time-measuringhistoricalobjectfitscategory. Final distractor pass: The flow of water between containers; The burning length of a candle; The swing of a pendulum. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Sundialtimefromsunlightshadow, dictionary actualmetalshadowonnumericalsurface sense. Underwaterbell/boilingpressure/motorfalse. No claimworksatnightorlocalapparenttimealwaysequalsclocktime. Time-measuringhistoricalobjectfitscategory. Final distractor pass: The flow of water between containers; The burning length of a candle; The swing of a pendulum. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 72,
+      "prompt": "What did a spinning wheel help produce?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Spinningwheelmakesyarn/thread, dictionary threadfromfibresturnedwheeldefinition. Nails/banknotes/bottlesfalse. Doesnot confuseweavingalreadyspunthreadwithspinningfibres; no claimallmodelsfootpowered. Adjacentloomdifferentmanufacturingstage. Final distractor pass: Cloth woven from finished yarn; Flour ground from grain; Metal wire drawn through a plate. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Spinningwheelmakesyarn/thread, dictionary threadfromfibresturnedwheeldefinition. Nails/banknotes/bottlesfalse. Doesnot confuseweavingalreadyspunthreadwithspinningfibres; no claimallmodelsfootpowered. Adjacentloomdifferentmanufacturingstage. Final distractor pass: Cloth woven from finished yarn; Flour ground from grain; Metal wire drawn through a plate. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 73,
+      "prompt": "What is a loom used to do?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Loomweavescloth, dictionary actualequipmentthreadwoven definitionfoundafterloomverbhomonyms. Grainmilling/depthsounding/mintingfalse. DistinctfromoldSuzukibusinessoriginquestion. No claimonlymechanisedloomscanweavecloth. Final distractor pass: Spin raw fibres into yarn; Grind grain into flour; Press oil from seeds. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Loomweavescloth, dictionary actualequipmentthreadwoven definitionfoundafterloomverbhomonyms. Grainmilling/depthsounding/mintingfalse. DistinctfromoldSuzukibusinessoriginquestion. No claimonlymechanisedloomscanweavecloth. Final distractor pass: Spin raw fibres into yarn; Grind grain into flour; Press oil from seeds. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 74,
+      "prompt": "A traditional writing quill was made from what?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Writingquillbirdfeather, dictionary penmadebirdfeatherdefinitioninspected notporcupinequill sense. Copperpipe/glassstrip/whaletoothfalse. Traditionalwritingqualifierimportant; doesn'trequireaspecificbirdspecies. ComicPeterQuillunrelatedoldbankhit. Final distractor pass: A strip of prepared animal skin; A sharpened piece of flint; A length of twisted plant fibre. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Writingquillbirdfeather, dictionary penmadebirdfeatherdefinitioninspected notporcupinequill sense. Copperpipe/glassstrip/whaletoothfalse. Traditionalwritingqualifierimportant; doesn'trequireaspecificbirdspecies. ComicPeterQuillunrelatedoldbankhit. Final distractor pass: A strip of prepared animal skin; A sharpened piece of flint; A length of twisted plant fibre. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 75,
+      "prompt": "What does a printing press do?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Printingpresstransfersinkedtext/imagesontosurface, dictionary machineprintbooks/images. Buildingmeasurement/waterpump/goldfilter notitsfunction. Broadsurfaceallowsnotpaperalone, nofalseassertionGutenberginventedallprintingworldwide. Categoryhistoryofcommunicationfit. Final distractor pass: Copies text by tracing it with a pen; Produces sheets of blank parchment; Binds loose pages into a book. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Printingpresstransfersinkedtext/imagesontosurface, dictionary machineprintbooks/images. Buildingmeasurement/waterpump/goldfilter notitsfunction. Broadsurfaceallowsnotpaperalone, nofalseassertionGutenberginventedallprintingworldwide. Categoryhistoryofcommunicationfit. Final distractor pass: Copies text by tracing it with a pen; Produces sheets of blank parchment; Binds loose pages into a book. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 76,
+      "prompt": "What made movable type reusable in printing?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Movabletypeindividualcharactersrearrange, actualRCPmuseummakingbooks text describesarrangingindividualmetalcharactersintowords/pages. Newmountaincarving/selferasingink/liveplantsfalse. No Europe-firstprintingclaim fromincompletehistoricalV&Awording; no restrictionallmovabletypemetal. Final distractor pass: Whole pages were carved as single fixed blocks; Each page needed a new handwritten copy; Letters were permanently painted onto the paper before printing. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Movabletypeindividualcharactersrearrange, actualRCPmuseummakingbooks text describesarrangingindividualmetalcharactersintowords/pages. Newmountaincarving/selferasingink/liveplantsfalse. No Europe-firstprintingclaim fromincompletehistoricalV&Awording; no restrictionallmovabletypemetal. Final distractor pass: Whole pages were carved as single fixed blocks; Each page needed a new handwritten copy; Letters were permanently painted onto the paper before printing. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 77,
+      "prompt": "What did an electric telegraph transmit over wires?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Electrictelegraphcodedmessagesbyelecsignals, dictionary actualelectric-signalcommunication sense. Parcels/colourpictures-only/waterfalse. ElectricqualifierexcludesoldChappeopticaltelegraphquestion. DoesnotassumeallsystemsMorseorallmessagestransoceanic. Final distractor pass: Written pages physically pulled along a wire; Spoken words through a purely acoustic tube; Images projected through a line of mirrors. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Electrictelegraphcodedmessagesbyelecsignals, dictionary actualelectric-signalcommunication sense. Parcels/colourpictures-only/waterfalse. ElectricqualifierexcludesoldChappeopticaltelegraphquestion. DoesnotassumeallsystemsMorseorallmessagestransoceanic. Final distractor pass: Written pages physically pulled along a wire; Spoken words through a purely acoustic tube; Images projected through a line of mirrors. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 78,
+      "prompt": "What did a traditional gramophone play?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Gramophoneplaysrecordeddiscs, dictionary recordplayerdefinition checked. LiveTV/photos/newspapersnotgramophonefunction. Historicaltraditionaldiscphonographscope, no cylinder-onlyclaim. ExistingNippertrademarkquestiondistinctdogfact, notsamefunction. Final distractor pass: Punched paper piano rolls; Sound stored on wax cylinders only; Written musical notation without a recording. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Gramophoneplaysrecordeddiscs, dictionary recordplayerdefinition checked. LiveTV/photos/newspapersnotgramophonefunction. Historicaltraditionaldiscphonographscope, no cylinder-onlyclaim. ExistingNippertrademarkquestiondistinctdogfact, notsamefunction. Final distractor pass: Punched paper piano rolls; Sound stored on wax cylinders only; Written musical notation without a recording. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 79,
+      "prompt": "What did a magic lantern project?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Magic lantern projects transparent images/glass slides. Actual National Portrait Gallery glossary full parsed passage explicitly transparency on glass projected on wall/screen; Science and Media Museum collection corroborates historical projectors/slides. Cylinder sound/player piano rolls/live TV other media technologies. No claim all projected lantern images photographic rather than hand painted. Replaced broad daguerreotype definition overlapping existing Art process item.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Magic lantern projects transparent images/glass slides. Actual National Portrait Gallery glossary full parsed passage explicitly transparency on glass projected on wall/screen; Science and Media Museum collection corroborates historical projectors/slides. Cylinder sound/player piano rolls/live TV other media technologies. No claim all projected lantern images photographic rather than hand painted. Replaced broad daguerreotype definition overlapping existing Art process item.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 80,
+      "prompt": "What does a navigator's sextant measure?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Sextantmeasuresanglebetweentwovisibleobjects, dictionary ship/aircraftanglebetweenstarsorSunhorizon definition. Mass/salinity/mastthicknessfalse. Doesnotclaimsextantdirectlyreadsfulllatitude/longitudewithoutotherevidence. Navigatorscopehistoricallyappropriate. Final distractor pass: The weight of its cargo; The depth of water below the keel; The pressure of the surrounding air. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Sextantmeasuresanglebetweentwovisibleobjects, dictionary ship/aircraftanglebetweenstarsorSunhorizon definition. Mass/salinity/mastthicknessfalse. Doesnotclaimsextantdirectlyreadsfulllatitude/longitudewithoutotherevidence. Navigatorscopehistoricallyappropriate. Final distractor pass: The weight of its cargo; The depth of water below the keel; The pressure of the surrounding air. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 81,
+      "prompt": "What is an abacus used for?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Abacuscounting/arithmetic, dictionary slidingballsframecalculations sense. Wind/radio/spicegrindingfalse. Avoidsarchitecturecolumn-capitalhomonym withfunctioncontext. Doesnotclaimonlyoneabacusdesignworldwide orrequireelectricity. Final distractor pass: Measuring the height of stars; Weighing coins; Measuring elapsed time. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Abacuscounting/arithmetic, dictionary slidingballsframecalculations sense. Wind/radio/spicegrindingfalse. Avoidsarchitecturecolumn-capitalhomonym withfunctioncontext. Doesnotclaimonlyoneabacusdesignworldwide orrequireelectricity. Final distractor pass: Measuring the height of stars; Weighing coins; Measuring elapsed time. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 82,
+      "prompt": "What were the stocks used for as a historical punishment?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Stockshistoricalwoodenrestraintpunishment, dictionary bodyrestraintpublicpunishment senseincludesfeet. Correctanswerfeetrestrainednotfeetonly, avoidsfalseuniversalnogirdle/handsvariants. Steeringwheel/press/gatesnotpunishment. Nodetailofindividualhumiliationorinjuryrequested. Final distractor pass: Holding a prisoner by the waist on horseback; Locking a ship's rudder in place; Closing a city's main gates. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Stockshistoricalwoodenrestraintpunishment, dictionary bodyrestraintpublicpunishment senseincludesfeet. Correctanswerfeetrestrainednotfeetonly, avoidsfalseuniversalnogirdle/handsvariants. Steeringwheel/press/gatesnotpunishment. Nodetailofindividualhumiliationorinjuryrequested. Final distractor pass: Holding a prisoner by the waist on horseback; Locking a ship's rudder in place; Closing a city's main gates. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 83,
+      "prompt": "A pillory typically restrained which parts of a person's body?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Pillorytypicallyheadandhands, actualGloucestershireArchives councilpageexplicitlyhead/handsheldinframe inspected. Cambridgepageonlyfigurativeverb notsufficientandnotlabelledvalidnounproof. Feet-only/waist-knees/shoulders-anklesnottypicalpillory. Doesnotconfusewithstocksvaryingforms.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Pillorytypicallyheadandhands, actualGloucestershireArchives councilpageexplicitlyhead/handsheldinframe inspected. Cambridgepageonlyfigurativeverb notsufficientandnotlabelledvalidnounproof. Feet-only/waist-knees/shoulders-anklesnottypicalpillory. Doesnotconfusewithstocksvaryingforms.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 84,
+      "prompt": "In Britain's Poor Law system, what was a workhouse?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: PoorLawworkhouseinstitutionreliefwithworkfromablepeople; dictionary poorpeoplefood/shelterinexchangework definition. Correctanswerqualifieraccountschildren/illpeopleunablework. Royaljeweller/navalschool/ownersholidayhousefalse. Doesn'tromanticisecoerciveconditionsorclaimallresidentswereadultworkers.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: PoorLawworkhouseinstitutionreliefwithworkfromablepeople; dictionary poorpeoplefood/shelterinexchangework definition. Correctanswerqualifieraccountschildren/illpeopleunablework. Royaljeweller/navalschool/ownersholidayhousefalse. Doesn'tromanticisecoerciveconditionsorclaimallresidentswereadultworkers.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 85,
+      "prompt": "During wartime rationing, what did a ration book help control?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Rationbookcontrolledentitlementsforcertainitems, actualIWMteacherresource couponsusedregisteredshops andshortages, rationingdictionarylimitingquantities. Surname/growth/languagefalse. No claimcouponsguaranteedstockavailableorallfoodrationed. Wartimecontextnotmodernrationexercise. Final distractor pass: Which military rank a civilian held; Which surname a household could use; Which trade an apprentice could learn. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Rationbookcontrolledentitlementsforcertainitems, actualIWMteacherresource couponsusedregisteredshops andshortages, rationingdictionarylimitingquantities. Surname/growth/languagefalse. No claimcouponsguaranteedstockavailableorallfoodrationed. Wartimecontextnotmodernrationexercise. Final distractor pass: Which military rank a civilian held; Which surname a household could use; Which trade an apprentice could learn. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 86,
+      "prompt": "Why were lights hidden during wartime blackouts?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Blackoutconcealslightfromenemyaircraft, NationalArchivesactualwartimeexplanation saysstoppinggroundlightshowingareasbomb. Originaldictionaryonlyhidinglightsnotreason, replacedwithprimaryeducationsource. Helpingbombers/brighterlamps/shipsseeinginland oppositepurpose. No allblackoutspowerfailuresclaim.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Blackoutconcealslightfromenemyaircraft, NationalArchivesactualwartimeexplanation saysstoppinggroundlightshowingareasbomb. Originaldictionaryonlyhidinglightsnotreason, replacedwithprimaryeducationsource. Helpingbombers/brighterlamps/shipsseeinginland oppositepurpose. No allblackoutspowerfailuresclaim.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 87,
+      "prompt": "In wartime Britain, what was an evacuee?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Evacueemovedawaydanger, dictionary evacuateddangerousplaceespeciallywar. Commander/customsofficer/enginebuildernotdefinition. Doesn'tsayallchildrenevacuatedoronlychildrenevacuees. WartimeBritaincontextclear; no specificfamilydetailsused. Final distractor pass: A person responsible for collecting customs duties; A soldier transferred to a different regiment; A civilian appointed to organise an election. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Evacueemovedawaydanger, dictionary evacuateddangerousplaceespeciallywar. Commander/customsofficer/enginebuildernotdefinition. Doesn'tsayallchildrenevacuatedoronlychildrenevacuees. WartimeBritaincontextclear; no specificfamilydetailsused. Final distractor pass: A person responsible for collecting customs duties; A soldier transferred to a different regiment; A civilian appointed to organise an election. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 88,
+      "prompt": "What was a front-line trench mainly intended to give soldiers?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Frontlinetrenchprotectedfightingpositionbelowground, dictionary soldierdugholeattackwhilehidden. Passengerrail/shiplaunch/raisedcavalryplatformfalse. Protectedrelative notinvulnerable; depth/positiondistinguishesfortifieddugline. No assumptionallWWIcombatonlytrenches. Final distractor pass: A raised position for cavalry charges; A paved route for supply wagons; A sheltered harbour for troopships. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Frontlinetrenchprotectedfightingpositionbelowground, dictionary soldierdugholeattackwhilehidden. Passengerrail/shiplaunch/raisedcavalryplatformfalse. Protectedrelative notinvulnerable; depth/positiondistinguishesfortifieddugline. No assumptionallWWIcombatonlytrenches. Final distractor pass: A raised position for cavalry charges; A paved route for supply wagons; A sheltered harbour for troopships. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 89,
+      "prompt": "What is propaganda intended to influence?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Propagandainfluencesopinions/behaviour, actualdictionary influencingopinionsorganisedinformation. Moon/ironmelting/rockageunrelatedphysicalquantities. Doesn'tequateallpropagandawithfalseinformationorrequiregovernmentorigin. Historicalcommunicationsfit. Final distractor pass: The legal weight of a coin; The mechanical speed of a printing press; The measured age of an inscription. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Propagandainfluencesopinions/behaviour, actualdictionary influencingopinionsorganisedinformation. Moon/ironmelting/rockageunrelatedphysicalquantities. Doesn'tequateallpropagandawithfalseinformationorrequiregovernmentorigin. Historicalcommunicationsfit. Final distractor pass: The legal weight of a coin; The mechanical speed of a printing press; The measured age of an inscription. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 90,
+      "prompt": "In Egyptian hieroglyphs, what did a cartouche often enclose?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Egyptiancartoucheoftenroyalname, dictionary explicitroyalnamehieroglyphicframe sense. Oceanmap/postaddress/timetablefalse. Oftenallowsotheruses, contextavoidsarchitecturaldecorativeframehomonym. Notclaimingeveryhieroglyph enclosedincartouche. Final distractor pass: A calculation of the year's harvest; A map of an entire province; A table of military formations. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Egyptiancartoucheoftenroyalname, dictionary explicitroyalnamehieroglyphicframe sense. Oceanmap/postaddress/timetablefalse. Oftenallowsotheruses, contextavoidsarchitecturaldecorativeframehomonym. Notclaimingeveryhieroglyph enclosedincartouche. Final distractor pass: A calculation of the year's harvest; A map of an entire province; A table of military formations. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 91,
+      "prompt": "The word terracotta refers to what material?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Terracottafiredclay, dictionary bakedclaymaterialmeaning. Granite/linen/bronzeothermaterials. Promptmaterialdistinguishescolourword; no assumptionallclayunfiredterracottaorrestrictallarttoChina. Oldterracottaarmyhistorydifferentfrommaterialtermifencountered.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Terracottafiredclay, dictionary bakedclaymaterialmeaning. Granite/linen/bronzeothermaterials. Promptmaterialdistinguishescolourword; no assumptionallclayunfiredterracottaorrestrictallarttoChina. Oldterracottaarmyhistorydifferentfrommaterialtermifencountered.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 92,
+      "prompt": "Numismatics is the study or collecting of what?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Numismaticsstudy/collectcoinsrelatedcurrency, dictionary coins/papermoney/medalsdefinition. Weather/insects/fossilplantsnotfield. Changedawkwardfielditselfcollectswordingto studyorcollectingofwhat. Relatedcurrencyobjectsanswerbroadbutnotclaimcoinssoleinterest. Final distractor pass: Ancient maps; Pottery styles; Old handwriting. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Numismaticsstudy/collectcoinsrelatedcurrency, dictionary coins/papermoney/medalsdefinition. Weather/insects/fossilplantsnotfield. Changedawkwardfielditselfcollectswordingto studyorcollectingofwhat. Relatedcurrencyobjectsanswerbroadbutnotclaimcoinssoleinterest. Final distractor pass: Ancient maps; Pottery styles; Old handwriting. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 93,
+      "prompt": "What does genealogy study?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Genealogystudiesfamilydescent/relationships, dictionary familyhistorymembersdefinition. Rocks/tides/orbitsdifferentfields. No claimallfamilyrecordscertainorbiologicalparentagerequired; notgeneticdatacollection. Historyoffamiliesfit. Final distractor pass: Changes in coin designs; The development of fortifications; The shapes of ancient pottery. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Genealogystudiesfamilydescent/relationships, dictionary familyhistorymembersdefinition. Rocks/tides/orbitsdifferentfields. No claimallfamilyrecordscertainorbiologicalparentagerequired; notgeneticdatacollection. Historyoffamiliesfit. Final distractor pass: Changes in coin designs; The development of fortifications; The shapes of ancient pottery. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 94,
+      "prompt": "What does palaeography study?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Palaeographyoldhandwriting, dictionary writingusedpastdefinition. Earthquakes/currents/meteoritesnotdiscipline. Britishpalaeographyspellingconsistent. Distinguishespalaeontology, notclaimingalloldwritingalphabetic. Final distractor pass: Ancient coin designs; Family descent; The dating of buildings from tree rings. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Palaeographyoldhandwriting, dictionary writingusedpastdefinition. Earthquakes/currents/meteoritesnotdiscipline. Britishpalaeographyspellingconsistent. Distinguishespalaeontology, notclaimingalloldwritingalphabetic. Final distractor pass: Ancient coin designs; Family descent; The dating of buildings from tree rings. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 95,
+      "prompt": "What does epigraphy study?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Epigraphystudiesinscriptions, dictionary wordscutorwrittenhardmaterials definition. Forecasts/migrations/starsnotfield. No restrictionstonenevermetal; answerinscriptionsbroad. Clearhistoryevidencecategory, grammarcorrect. Final distractor pass: Coins and banknotes; Family descent; The construction of sailing ships. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Epigraphystudiesinscriptions, dictionary wordscutorwrittenhardmaterials definition. Forecasts/migrations/starsnotfield. No restrictionstonenevermetal; answerinscriptionsbroad. Clearhistoryevidencecategory, grammarcorrect. Final distractor pass: Coins and banknotes; Family descent; The construction of sailing ships. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 96,
+      "prompt": "How are oral histories mainly recorded?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Oralhistorycollectedspokenmemories/experiences, dictionary recordedpastinformationfrompeoplethere. Oceanmeasurement/museumcoin-count-only/timetablecopyingnotmethod. Doesn'tclaimmemoryalwaysaccurateorrequirewrittenrecords; legitimatehistoricalevidence. Final distractor pass: By measuring only the foundations of buildings; By cataloguing only the coins found at a site; By copying only the dates on gravestones. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Oralhistorycollectedspokenmemories/experiences, dictionary recordedpastinformationfrompeoplethere. Oceanmeasurement/museumcoin-count-only/timetablecopyingnotmethod. Doesn'tclaimmemoryalwaysaccurateorrequirewrittenrecords; legitimatehistoricalevidence. Final distractor pass: By measuring only the foundations of buildings; By cataloguing only the coins found at a site; By copying only the dates on gravestones. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 97,
+      "prompt": "Which is a primary source for studying a soldier's own wartime experience?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Soldier'scontemporarydiaryprimarysourceforownexperience; LOC actualoriginalinformationdefinition corroboratesdictionarysame-time/eyewitnesssense. Inventednovel/filmcharacters/textbookcenturieslaternotfirsthandexperience. Specificresearchquestionavoidsblanketclassifyingallfilms/booksneverprimary.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Soldier'scontemporarydiaryprimarysourceforownexperience; LOC actualoriginalinformationdefinition corroboratesdictionarysame-time/eyewitnesssense. Inventednovel/filmcharacters/textbookcenturieslaternotfirsthandexperience. Specificresearchquestionavoidsblanketclassifyingallfilms/booksneverprimary.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 98,
+      "prompt": "Which is a secondary source about a medieval battle?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Modernhistoriananalysisofmedievalbattleissecondary; LOCstudentguideexplicitretell/analyse/interpretusuallydistanttime/place. Eyewitnessletter/contemporarydiary/originalbattleorderprimaryforbattle. No claimsecondarysourcesinferior/unreliable, scopebattlehistoryclear.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Modernhistoriananalysisofmedievalbattleissecondary; LOCstudentguideexplicitretell/analyse/interpretusuallydistanttime/place. Eyewitnessletter/contemporarydiary/originalbattleorderprimaryforbattle. No claimsecondarysourcesinferior/unreliable, scopebattlehistoryclear.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 99,
+      "prompt": "What does prehistory generally refer to?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Prehistorybeforewrittenrecordsinregion/societystudied, dictionary beforewrittenrecordsdefinition. Radio/oneking/postWWIIincorrect. Regionalqualifieressentialbecausewritingintroducedatdifferenttimes. Doesnotclaimpeoplewithoutwritinghadnohistory. Final distractor pass: The period after the first printed newspapers; Only the reigns of medieval monarchs; Only the period after the first steam railways. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Prehistorybeforewrittenrecordsinregion/societystudied, dictionary beforewrittenrecordsdefinition. Radio/oneking/postWWIIincorrect. Regionalqualifieressentialbecausewritingintroducedatdifferenttimes. Doesnotclaimpeoplewithoutwritinghadnohistory. Final distractor pass: The period after the first printed newspapers; Only the reigns of medieval monarchs; Only the period after the first steam railways. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    },
+    {
+      "row": 100,
+      "prompt": "What change is central to industrialisation?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Initial individual author check: Industrialisationgrowthmanufacturing/factorymachinery, dictionary developingindustriesdefinition. Endalltrade/allcityfarmland/endminingnotindustrialisation. Centralchangebroadallowsminingandotherindustry; nofalseclaimstartedatsameyeargloballyorinoneinventor'sworkshop. Final distractor pass: A shift from factories back to household hand production; A growing reliance on farming with hand tools alone; A decline in manufacturing and machine production. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Initial individual author check: Industrialisationgrowthmanufacturing/factorymachinery, dictionary developingindustriesdefinition. Endalltrade/allcityfarmland/endminingnotindustrialisation. Centralchangebroadallowsminingandotherindustry; nofalseclaimstartedatsameyeargloballyorinoneinventor'sworkshop. Final distractor pass: A shift from factories back to household hand production; A growing reliance on farming with hand tools alone; A decline in manufacturing and machine production. Each describes a different object, activity, material or historical relationship from the specified correct definition; no alternative correctly answers this scoped question.",
+      "sourceReview": "Individual author judgment, including final offered options after revisions; actual relevant reference passages distinguished from unavailable or insufficient sources. Not independent review."
+    }
+  ]
+}

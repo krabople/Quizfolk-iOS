@@ -1,0 +1,870 @@
+{
+  "date": "2026-11-18",
+  "note": "100 History candidates individually considered for meaning, all four choices, sole correct offered answer, grammar and topic fit. 87 sets of implausible distractors replaced with historical alternatives and reconsidered before approval. Initial notes may describe earlier distractors; explicitly labelled final-distractor notes describe the final choices. Eleven initial redundant/duplicate concepts replaced, including existing cross-category definitions of illuminated manuscript, mosaic, armistice, treaty, relic, compass, hourglass, sarcophagus, abbess and overlapping daguerreotype; vellum repeated the new parchment material, so replaced. Proposed novice replacement rejected because it already existed. Final lexical overlap check found no candidates; additional cross-category exact-answer/term check identified the semantic replacements. Dictionary relevant senses read individually, not corpus snippets or unrelated homonyms. 93 initial references returned actual definitions, seven did not; incomplete senses replaced with actual primary museum/library/archive or institutional passages. Cambridge abolition ancillary US date example was erroneous and not used; only general ending-by-law definition relevant. Actual Getty codex/scriptorium, LOC cuneiform/source guidance, EnglishHeritage castle glossary, BritishLibrary wax-tablet explanation, WorldArchery bent-limb energy, Met crossbow and canopic-jar descriptions, HellenicNavy trireme, RMG caravel/logbook, Oxford astrolabe glossary, RCP movable-type, IWM rationing, NationalArchives blackout, GloucestershireArchives pillory and NPG magic-lantern passages inspected. Some primary passages inspected in indexed/parsed web output rather than downloaded full bodies; no full retrieval claim for failed pages. This is author review, not independent review.",
+  "references": [
+    {
+      "url": "https://ask.loc.gov/faq/303148",
+      "questionRows": [
+        97
+      ],
+      "status": "relevant_primary_or_lexicographic_passage_inspected_in_web_output",
+      "inspectionMethod": "Relevant parsed or indexed passage inspected; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://averof.hellenicnavy.gr/en/trireme-olympias/history-of-ancient-trireme/",
+      "questionRows": [
+        64
+      ],
+      "status": "relevant_primary_or_lexicographic_passage_inspected_in_web_output",
+      "inspectionMethod": "Relevant parsed or indexed passage inspected; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/abacus",
+      "questionRows": [
+        81
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "da4660a4daee655a75448948b00935ade12b49adf58bbc13f8de3bf72a95bf49",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/abdication",
+      "questionRows": [
+        22
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "3e864adf558909c56f9f45b9ca7ec8d1f1875d24843546f0d77bba5212d4644b",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/abolition",
+      "questionRows": [
+        25
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "25b59f5840c1c2e8f9c005463519c2050aa38069d6734d75e154c81d5c7bf9d2",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/amphora",
+      "questionRows": [
+        14
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "00be66c591ccf66fd36b46f4d6ddc4cd03fa745b0f4d01c90b7d09a2c388937a",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/apprentice",
+      "questionRows": [
+        28
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "57014423420951e2ce3124b4355c9c66cb0cf30cf799183514b7fe8a2d496b21",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/aqueduct",
+      "questionRows": [
+        16
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "49434be139d2f940c54e6ecfc283720fd162dfd70887c54a38eabfe8ae9f17ee",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/archaeology",
+      "questionRows": [
+        1
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "3aa957695cf900957c927fc76a58f042420f1292910b4258051d9320707c988e",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/archive",
+      "questionRows": [
+        5
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "110892d831135b65b73d15eb00ac5f8bad7a0f93afaf87ea85b0879f9e86a0ac",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/armour",
+      "questionRows": [
+        61
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "c8ee23848f432e56dcf8e925abec40c58a8a81fceb1c4b8059ef3986f5814104",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/artefact",
+      "questionRows": [
+        2
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "c322942fa9d25c288096c4689f93e89e077cf01048e2500e21162d58660b7839",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/bailey",
+      "questionRows": [
+        47
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "d2f4adc545515a3960b0569f54dcdc98cc6051763d208bd3a638b6ab0c95392a",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/battering-ram",
+      "questionRows": [
+        63
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "d6439c94030877d2040687b89cd377176c8385a57272b261c9635243e9acbdf6",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/cartouche",
+      "questionRows": [
+        90
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "e3829c708755af932635809082bb5980539bc4fd9dd784cf0d1a6c080cf32bbf",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/catapult",
+      "questionRows": [
+        62
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "bfd625c4205e2aeae487283f6168187f4e61de087022cd876269d29634c7bd58",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/census",
+      "questionRows": [
+        36
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "457d759e09e5827d94358eb10f71d62f1318384468be5624f4ce05688af8dce3",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/chain-mail",
+      "questionRows": [
+        60
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "bd1feb84c17092f3c8b6b7fe2b8ad9cb146eedac79ff13d73086d9938f31bb17",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/chariot",
+      "questionRows": [
+        57
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "93e1476270ffe5cecdcc268679c9b85e9573fb652fc482aa0a4dcaa36d0884d3",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/charter",
+      "questionRows": [
+        24
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "860627a54a755ccc8af1441500ca4d65b7fb84e7beb472457761a96fe7f6e767",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/chronology",
+      "questionRows": [
+        4
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "51af842e1c190b13f027a8edb25181e8f7f6103561c4276172763030db68f711",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/coat-of-arms",
+      "questionRows": [
+        38
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "c7b07fc03cdb60448aa8705b39c1276c885a81a0bc00982942dfacdf15ab4a54",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/constitution",
+      "questionRows": [
+        35
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "db4de196c205b33ed3aa73fe87f16621f5099af769420201799bb667b29fee46",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/coronation",
+      "questionRows": [
+        34
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "7953e3c8d6157cc6aafa1d63e90658d62f054c4fec7f0a9fed275bd24b13ef84",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/drawbridge",
+      "questionRows": [
+        42
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "6bdc79fd52254c425eab3dc2af0c082f82ac18cd79663ab915d380d1d85fc6f5",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/dynasty",
+      "questionRows": [
+        31
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "a3d0958c39df89349080048b3d910f8cba78bdf13359cfaaf4a8d69bdaa78713",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/epigraphy",
+      "questionRows": [
+        95
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "c3b2301a02fff985ba56a41ae2fb0cf78358c19618da21d126536517ed69c6a2",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/evacuee",
+      "questionRows": [
+        87
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "53deb1b84859eedf48ae5b026281ec2bc30c8c38b15be67fc3b2e70b4a56b18c",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/excavation",
+      "questionRows": [
+        3
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "1a6eeea3db9afb4c775d398a3f27abb96548902f2e02a8a45a9854d49ef9b45f",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/friar",
+      "questionRows": [
+        51
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "9adc9667e17cea0c8181548239a8c743747b9d825de901d37629f93fbc422d94",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/galleon",
+      "questionRows": [
+        66
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "98c6eaa1e0a4c86c04f3f1b6add295ee438a2557f12f9e88d62463aa4d97edfa",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/galley",
+      "questionRows": [
+        65
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "0790fde18cfc2383fd2760a752f56ac497278c73ba93f386c632439c8b18a10e",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/genealogy",
+      "questionRows": [
+        93
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "27864a9468c9bf5263249a14fd4ae4428d65d48eb851d3de0b3c47a74d07b972",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/gladiator",
+      "questionRows": [
+        17
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "dc7241d970b9738b6299dc55dbc06b86f80f0593dd88c10a71a4e98e7c433c62",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/gramophone",
+      "questionRows": [
+        78
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "8b07b7977409620f0a3699db7bb6556ee01b8f5c47feeba42400a436e7b55117",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/guild",
+      "questionRows": [
+        27
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "a645d6b212e5e77b0ec8fbe331999b74c2483352d7f5f65d948950eb7772b6e5",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/heir",
+      "questionRows": [
+        33
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "87f6cb4018234a367da913b3022ee3af86f7826fdfcb6c42ac6bb58bad01619e",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/heraldry",
+      "questionRows": [
+        37
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "85c704bd96f143c0ae67b03a087f7b119d0d21e0e2b920dd34ff57083090de56",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/hieroglyph",
+      "questionRows": [
+        12
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "ffc6b4d8f0ea86025496b226e43f9123024f23a9d8b19c628569b6a907cb0e10",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/industrialisation",
+      "questionRows": [
+        100
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "7914b4f54c8c920f6ee8073b0b569588982da51b8e4848bd9c06339c40099799",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/keep",
+      "questionRows": [
+        46
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "43e3abb02e32f909f7500b4a82404f8d8f52a4480a1293aec8aaf64f54630685",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/lance",
+      "questionRows": [
+        23
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "b4dfc43fca1bfb20e939a60edc7e633f63119a5f2f61abdc6608fa8a97954861",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/loom",
+      "questionRows": [
+        73
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "9d3e668441f8c88f65f7e37b5507431dfbcbe97bb4218e3aa5a21602537a64aa",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/moat",
+      "questionRows": [
+        41
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "f8ee6e1fa626540b149c050a90c49144f5d3a7758b4c967160e47b0345df955f",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/monarchy",
+      "questionRows": [
+        29
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "2ea17507cacaacac59c7c99437a9239a4b5bbe0911a45b08f38620777be82c9f",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/monastery",
+      "questionRows": [
+        52
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "01a263a9d606dace35ffc1af4f439eabeaf8886df96a40ad69a78a138f9903e5",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/motte",
+      "questionRows": [
+        48
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "b33f00136c0b2c1ff42614a31dbc00da5fef37f5b3fe3a67f8dee0c4aee12cdb",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/mummy",
+      "questionRows": [
+        20
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "9534b125e86d751c7aaa9b45dc4ff7e86892dae3cecf21675bd9334daa1d03e8",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/numismatics",
+      "questionRows": [
+        92
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "f3622b6d9f736e29705c7439e33ce7693ad9dcb7e49271aa93321770afa0e921",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/obelisk",
+      "questionRows": [
+        18
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "62a0501aecc76a87357b060ce6c4498b1606b8ab1c893f70308b83f4d498e5d3",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/oral-history",
+      "questionRows": [
+        96
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "a2c2fa23098da1e0f3f715876795e50d3ee854195e64e1637f780838f2f68390",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/palaeography",
+      "questionRows": [
+        94
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "2e091709b6c5db6c65ffc625bcc566ee7cb37860d40e97cd6690ea0e33ca21fe",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/palimpsest",
+      "questionRows": [
+        15
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "7a632cf0c10511023c5bb8f1bed1f05ee5e84ad335ec6ad40c6fa6e22b5aebc3",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/papyrus",
+      "questionRows": [
+        13
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "654edadce73ff42b8a25e219b004c4d2a505407a61c8a350b85914c2fd936d6e",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/parchment",
+      "questionRows": [
+        7
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "c4380a2d244563ff08382fb32059b4ac4b7637ab9f5a68c07f77fc3c100c7754",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/pilgrim",
+      "questionRows": [
+        50
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "b87c7bb72bb22234faffedf76fbbc60233d1addc1b337c82b93b6868be72841e",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/portcullis",
+      "questionRows": [
+        43
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "1ca6472fa7bd9721077bd94a9ef0df8749f1fdcfd98057f737ca6c0592449075",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/prehistory",
+      "questionRows": [
+        99
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "2b1c7a52a359a4bef5d3adc6ff502e7aed2db26bcab2de389d7e529369ce93cb",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/printing-press",
+      "questionRows": [
+        75
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "90425eaf7479e8d14631ac0248b2793fb1b29a9b3b35323879075628c7c09aed",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/propaganda",
+      "questionRows": [
+        89
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "ba1bd26a491303e0a053ad708aa8ce86292c21e034f5f46ffa1e0845c74cf189",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/quill",
+      "questionRows": [
+        74
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "99174e8ca8f104aa6348c4e4dba36690d5a2c86cc148ee105238dad65b66205d",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/rampart",
+      "questionRows": [
+        40
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "c189a69f6634c024f3623c5dcf2e4f040dc3f3be34e528f41c9ec5ed9bd38168",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/regent",
+      "questionRows": [
+        32
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "95f191839faade94f01268606a48e13032af974e377ba61adb8b55753789f3bb",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/republic",
+      "questionRows": [
+        30
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "3294a1ab7aadac0355320f49e18effb437d85cad873842066bc2477b99d50fec",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/scribe",
+      "questionRows": [
+        10
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "dcf60b955427a74f0bb1f3808dc0e0c975bd6e43938453bd45d1d4756316d896",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/seal",
+      "questionRows": [
+        55
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "0d14550d6d89727ac65bc61d754cb860bb801bec429298fda9ed45cf6ad2ad64",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/serf",
+      "questionRows": [
+        26
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "1d81bf523404e399478e82505e81128520bc451f9da6c5504bdceb54b33d893a",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/sextant",
+      "questionRows": [
+        80
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "d7a9b7c80a44d49f08861b14186075df54b3f4c636004f40d3de21fa091ae610",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/siege",
+      "questionRows": [
+        39
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "fa6c6a88bd98778b3d6ecd8335c84b12797f42601d84b4d792eed614e59ffbe2",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/spinning-wheel",
+      "questionRows": [
+        72
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "0ee0ed7294ab5ac5b183457980b5ec3d3cf6154a9e005b63621940a2347e69db",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/stocks",
+      "questionRows": [
+        82
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "f7d765591e0cb4114086ce3b1b0f576489c2e3bffe2a5fb95da0cd50d982102f",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/suffrage",
+      "questionRows": [
+        21
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "a0b2d0ad0b2170c240225baa157bbb4fb0dd7797af8e7d64c35659e1b7a12c5e",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/sundial",
+      "questionRows": [
+        71
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "a5d5caa16a732f646c0425a39af201681d267fc52b1cbb1da547f1c8e960b0e3",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/telegraph",
+      "questionRows": [
+        77
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "7b92e56503b126c00c1d0840d881bdc8b2e2175b5fd0898961b56b7ff7bea1de",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/terracotta",
+      "questionRows": [
+        91
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "c7668466531e0146a9b10d488c0c69a15c01388f53041799b648fb10b96e17f3",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/tithe",
+      "questionRows": [
+        49
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "7748bd0f69fe075833e8fec28484a9065acdc10a704667887653da11e7543e88",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/trench",
+      "questionRows": [
+        88
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "726747c5cb763e6c941fdca2d001a349abc4811f9f7a3b973e9ed8046ffd33be",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/vassal",
+      "questionRows": [
+        8
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "aa3c5dcae6925b375bc58dc20a07fdffc1e6b910e41eabca0d09b1d32056afef",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/water-clock",
+      "questionRows": [
+        70
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "70d68fcdae4f4ede348b56c4a40110f17647654c91f6e9aa1588b80927902004",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/workhouse",
+      "questionRows": [
+        84
+      ],
+      "status": "retrieved_for_inspection",
+      "sha256": "7ef9030626c247310bdb078dc46b0c039e4311e6e1a83d55760f4321a16bc011",
+      "inspectionMethod": "Relevant actual dictionary sense inspected; individual editorial judgments recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/almshouse",
+      "questionRows": [
+        53
+      ],
+      "status": "relevant_primary_or_lexicographic_passage_inspected_in_web_output",
+      "inspectionMethod": "Relevant parsed or indexed passage inspected; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://guides.loc.gov/student-resources/secondary-sources",
+      "questionRows": [
+        98
+      ],
+      "status": "relevant_primary_or_lexicographic_passage_inspected_in_web_output",
+      "inspectionMethod": "Relevant parsed or indexed passage inspected; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://history.rcp.ac.uk/exhibitions/body-knowledge/making-of-books",
+      "questionRows": [
+        76
+      ],
+      "status": "relevant_primary_or_lexicographic_passage_inspected_in_web_output",
+      "inspectionMethod": "Relevant parsed or indexed passage inspected; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/A_Deadly_Art_European_Crossbows_1250_1850.pdf",
+      "questionRows": [
+        59
+      ],
+      "status": "relevant_primary_or_lexicographic_passage_inspected_in_web_output",
+      "inspectionMethod": "Relevant parsed or indexed passage inspected; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://www.bl.uk/stories/blogs/posts/keep-taking-the-wax-tablets",
+      "questionRows": [
+        56
+      ],
+      "status": "relevant_primary_or_lexicographic_passage_inspected_in_web_output",
+      "inspectionMethod": "Relevant parsed or indexed passage inspected; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://www.english-heritage.org.uk/siteassets/home/visit/places-to-visit/goodrich-castle/school-visits/goodrich-castle-glossary.pdf",
+      "questionRows": [
+        44,
+        45
+      ],
+      "status": "relevant_primary_or_lexicographic_passage_inspected_in_web_output",
+      "inspectionMethod": "Relevant parsed or indexed passage inspected; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://www.getty.edu/art/exhibitions/scriptorium/",
+      "questionRows": [
+        6,
+        54
+      ],
+      "status": "relevant_primary_or_lexicographic_passage_inspected_in_web_output",
+      "inspectionMethod": "Relevant parsed or indexed passage inspected; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://www.getty.edu/news/what-is-a-codex/",
+      "questionRows": [
+        9
+      ],
+      "status": "relevant_primary_or_lexicographic_passage_inspected_in_web_output",
+      "inspectionMethod": "Relevant parsed or indexed passage inspected; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://www.gloucestershire.gov.uk/archives/learning-for-all/online-exhibitions/a-brief-history-of-gloucesters-civic-buildings-aka-you-have-no-authority-here/a-brief-history-of-gloucesters-civic-buildings-aka-you-have-no-authority-here-display/display-19-of-19/",
+      "questionRows": [
+        83
+      ],
+      "status": "relevant_primary_or_lexicographic_passage_inspected_in_web_output",
+      "inspectionMethod": "Relevant parsed or indexed passage inspected; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://www.iwm.org.uk/sites/default/files/files/2021-01/Health%20and%20Wellbeing%20-%20Food%20and%20Nutrition-%20Teacher%20Notes.pdf",
+      "questionRows": [
+        85
+      ],
+      "status": "relevant_primary_or_lexicographic_passage_inspected_in_web_output",
+      "inspectionMethod": "Relevant parsed or indexed passage inspected; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://www.loc.gov/collections/cuneiform-tablets/about-this-collection/",
+      "questionRows": [
+        11
+      ],
+      "status": "relevant_primary_or_lexicographic_passage_inspected_in_web_output",
+      "inspectionMethod": "Relevant parsed or indexed passage inspected; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/550773",
+      "questionRows": [
+        19
+      ],
+      "status": "relevant_primary_or_lexicographic_passage_inspected_in_web_output",
+      "inspectionMethod": "Relevant parsed or indexed passage inspected; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://www.mhs.ox.ac.uk/astrolabe/catalogue/Glossary/glossary.html",
+      "questionRows": [
+        69
+      ],
+      "status": "relevant_primary_or_lexicographic_passage_inspected_in_web_output",
+      "inspectionMethod": "Relevant parsed or indexed passage inspected; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://www.nationalarchives.gov.uk/education/resources/home-front-1939-1945-part-one/look-out-in-the-blackout/",
+      "questionRows": [
+        86
+      ],
+      "status": "relevant_primary_or_lexicographic_passage_inspected_in_web_output",
+      "inspectionMethod": "Relevant parsed or indexed passage inspected; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://www.npg.org.uk/collections/explore/glossary-of-art-terms/glass-magic-lantern-slide",
+      "questionRows": [
+        79
+      ],
+      "status": "relevant_primary_or_lexicographic_passage_inspected_in_web_output",
+      "inspectionMethod": "Relevant parsed or indexed passage inspected; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-465105",
+      "questionRows": [
+        68
+      ],
+      "status": "relevant_primary_or_lexicographic_passage_inspected_in_web_output",
+      "inspectionMethod": "Relevant parsed or indexed passage inspected; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-66267",
+      "questionRows": [
+        67
+      ],
+      "status": "relevant_primary_or_lexicographic_passage_inspected_in_web_output",
+      "inspectionMethod": "Relevant parsed or indexed passage inspected; full direct retrieval not claimed."
+    },
+    {
+      "url": "https://www.worldarchery.sport/sport/equipment/barebow",
+      "questionRows": [
+        58
+      ],
+      "status": "relevant_primary_or_lexicographic_passage_inspected_in_web_output",
+      "inspectionMethod": "Relevant parsed or indexed passage inspected; full direct retrieval not claimed."
+    }
+  ]
+}
