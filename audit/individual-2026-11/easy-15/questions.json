@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "890851902c736c666043",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does NPC stand for in a video-game world?",
+    "answers": [
+      "Non-player character",
+      "New playable character",
+      "Network player code",
+      "Next power challenge"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.playstation.com/en-ca/editorial/playstation-ultimate-gaming-glossary/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "1ac1b00f39838ed30b44",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "In video games, DLC stands for what?",
+    "answers": [
+      "Digital level counter",
+      "Direct local connection",
+      "Dual language control",
+      "Downloadable content"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://partner.steamgames.com/doc/store/application/dlc",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "28675c79cc9b217cd6fe",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does an HP bar usually represent in a game?",
+    "answers": [
+      "Distance across the map",
+      "Frames displayed per second",
+      "Health or hit points",
+      "Internet connection speed"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.playstation.com/en-ca/editorial/playstation-ultimate-gaming-glossary/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "aca74f105cb4339536b0",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does XP usually stand for when a character progresses through levels?",
+    "answers": [
+      "Extreme performance",
+      "Experience points",
+      "Extra powers",
+      "Exclusive player"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.playstation.com/en-ca/editorial/playstation-ultimate-gaming-glossary/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "ebd8c53d3b0579e130a2",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "When a game-performance display reports FPS, what is it measuring?",
+    "answers": [
+      "Frames per second",
+      "Files per save",
+      "Fights per session",
+      "Friends per server"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/fps",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "3c2d4a0c5d34ad016fd6",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "As a video-game genre, RPG stands for what?",
+    "answers": [
+      "Racing performance guide",
+      "Random player group",
+      "Realistic puzzle generator",
+      "Role-playing game"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.playstation.com/en-ca/editorial/playstation-ultimate-gaming-glossary/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "170b37bab9693ec0ec6e",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is the MMO part of MMORPG short for?",
+    "answers": [
+      "Multiple maps offline",
+      "Maximum mission order",
+      "Massively multiplayer online",
+      "Manual movement only"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/mmorpg",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "82205310ca49ed7a9b0d",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "In video games, co-op is short for which word?",
+    "answers": [
+      "Computerised",
+      "Cooperative",
+      "Competitive",
+      "Commercial"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/co-op",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "6bacda42a4be11a1b5f8",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does cross-play allow in a multiplayer game?",
+    "answers": [
+      "People on different supported platforms to play together",
+      "A player to transfer saved progress between devices",
+      "Several people to take turns on one controller",
+      "The computer to play the game automatically"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/cross-play",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "0a396ef48fd5e015dcd0",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is the main purpose of a checkpoint in many video games?",
+    "answers": [
+      "Changing the game's language",
+      "Adjusting the screen resolution",
+      "Installing a game update",
+      "Providing a recent point to restart from after failure"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://epix.xbox.com/shaXam/0201/22/21/22216d0d-ec10-4d34-9ced-4c1f2244927c.PDF?v=1",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "1adc2adbb2d49183a72d",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does it mean for a character to respawn?",
+    "answers": [
+      "Move to the next story chapter",
+      "Start downloading a game update",
+      "Reappear in the game world after being defeated",
+      "Lose all saved progress permanently"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/respawn",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "24f6a425f8f8efeb1bed",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is the main purpose of a game's tutorial?",
+    "answers": [
+      "Adjusting the graphics settings automatically",
+      "Teaching the basic controls and mechanics",
+      "Listing the production staff",
+      "Showing highlights from a previous match"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/tutorial",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "f7949e5e765afe9e8030",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is a common feature of an open-world game?",
+    "answers": [
+      "A large environment that players can explore relatively freely",
+      "A sequence of levels that must always be completed in one fixed order",
+      "A mode restricted to watching computer-controlled players",
+      "A competition decided entirely by one timed race"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/open-world",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "eaa174c08e2c84922d81",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is a save-game file mainly used to preserve?",
+    "answers": [
+      "A recording of the microphone input",
+      "A list of downloaded game installers",
+      "Only a captured image of the screen",
+      "The player's progress or game state"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://epix.xbox.com/shaXam/0201/22/21/22216d0d-ec10-4d34-9ced-4c1f2244927c.PDF?v=1",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "f6adbe34ad377fb7cccf",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Which feature records game progress without the player manually choosing Save?",
+    "answers": [
+      "Fast travel",
+      "Split-screen",
+      "Autosave",
+      "Photo mode"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_3ds_2/bravely_default/ElectronicManual_BravelyDefault_EN.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "0df9dd86cc748963e096",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "When customising a PC game, what does a mod usually mean?",
+    "answers": [
+      "A competitive ranking earned in matches",
+      "A modification that changes or adds to the game",
+      "A monthly multiplayer subscription",
+      "A standard controller button layout"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/mod",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "63c60ad10a2a005c1969",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "An item described as purely cosmetic is intended to change what?",
+    "answers": [
+      "Appearance",
+      "Attack damage",
+      "Maximum health",
+      "The number of levels available"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/cosmetic",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "1c0ed0c1fba92f97b1f5",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does an avatar's emote usually do?",
+    "answers": [
+      "Permanently increase attack power",
+      "Download a new map",
+      "Change the game's difficulty setting",
+      "Perform an expressive gesture or animation"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://feedback.minecraft.net/hc/en-us/articles/360044928311-Minecraft-Nether-Update-1-16-0-Bedrock",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "d9b5d2d937d6c5e59824",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does a quest log usually help a player track?",
+    "answers": [
+      "Friends currently online",
+      "Installed game updates",
+      "Tasks and objectives",
+      "Graphics and sound settings"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://worldofwarcraft.blizzard.com/en-us/news/24315280",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "74cb14ac935d6c64f7ef",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does split-screen multiplayer usually let people do?",
+    "answers": [
+      "Move saved progress from one console to another",
+      "Play using separate views on the same display",
+      "Take turns using one full-screen view",
+      "Watch another player through a streamed broadcast"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_8/Manual_Nintendo64_WaveRace64_EN.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "2dd21d9024553167f5c3",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "In Among Us, which role is secretly trying to eliminate the crew?",
+    "answers": [
+      "The Impostor",
+      "The Crewmate",
+      "The Scientist",
+      "The Guardian Angel"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.innersloth.com/games/among-us/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "b089b283b2e4ff352e92",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What do Crewmates complete around the map in Among Us?",
+    "answers": [
+      "Race laps",
+      "Crafting recipes",
+      "League fixtures",
+      "Tasks"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.innersloth.com/games/among-us/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "8c996830243af962b984",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "After discussing suspicions in Among Us, how can the group eject a suspected Impostor?",
+    "answers": [
+      "By collecting a hidden weapon",
+      "By reaching an escape pod",
+      "By voting",
+      "By completing a repair task"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.innersloth.com/games/among-us/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "febd4b20870b9f34297d",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What can Impostors use to move quickly between connected locations in Among Us?",
+    "answers": [
+      "Racing vehicles",
+      "Vents",
+      "Ladders on every map",
+      "Teleportation potions"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.innersloth.com/games/among-us/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "b8e192f356d69140732c",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What kind of challenges are central to Fall Guys?",
+    "answers": [
+      "Colourful obstacle courses",
+      "Realistic flight missions",
+      "Historical war campaigns",
+      "Deep-sea diving expeditions"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.fallguys.com/en-US",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "3f30712edf52b3efc736",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does Fall Guys Creative let players design?",
+    "answers": [
+      "Real-world driving licences",
+      "Music albums for a rhythm game",
+      "Turn-based card decks",
+      "Their own obstacle courses"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.fallguys.com/en-US",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "ca5516b4b16d3bccd118",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is the main goal in a standard Fall Guys race round?",
+    "answers": [
+      "Be the last player standing on a shrinking platform",
+      "Match a displayed pattern of fruit",
+      "Reach the finish line",
+      "Score goals against another team"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dev.epicgames.com/documentation/en-us/fortnite/how-to-design-a-game-in-fortnite-creative",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "f83eecc4f7e8b6b93683",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Which of these is a premium currency used in Fall Guys?",
+    "answers": [
+      "Minecoins",
+      "Show-Bucks",
+      "Robux",
+      "V-Bucks"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.fallguys.com/news/upcoming-fall-guys-currency-changes?lang=en-US",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "2097b2ed9cb44952591b",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "In Fortnite Battle Royale, what is the usual aim for a player or team?",
+    "answers": [
+      "Be the last one remaining",
+      "Earn the most points by completing race laps",
+      "Capture every flag before a fixed time expires",
+      "Collect every item on the map"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.fortnite.com/@epic/battle-royale",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "fa6494d797cd883cf20f",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What happens to the safe area as the Storm advances in a standard Fortnite Battle Royale match?",
+    "answers": [
+      "It steadily expands",
+      "It remains the same size throughout",
+      "It disappears before the fighting begins",
+      "It becomes smaller"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.fortnite.com/patch-notes/v4-5",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "037fb23580f6e76c4f79",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is Fortnite's virtual currency called?",
+    "answers": [
+      "Minecoins",
+      "Bells",
+      "V-Bucks",
+      "Robux"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://store.epicgames.com/p/fortnite--extinction-code-pack",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "d72f36d6d085d8873f2a",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "In Fortnite's building modes, what is a pickaxe mainly used to harvest?",
+    "answers": [
+      "Vehicle fuel",
+      "Building materials",
+      "Ammunition",
+      "Shield potions"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dev.epicgames.com/documentation/en-us/fortnite/pickaxe",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "ed26d7457b851b32b55d",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Which Minecraft tool is particularly suited to chopping wood?",
+    "answers": [
+      "An axe",
+      "A shovel",
+      "A hoe",
+      "A fishing rod"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.minecraft.net/fr-fr/article/how-survive-your-first-day",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "366f99f1bc7dba392ad3",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Which Minecraft block is used to smelt ore using fuel?",
+    "answers": [
+      "A chest",
+      "A bookshelf",
+      "A loom",
+      "A furnace"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.minecraft.net/fr-fr/article/how-survive-your-first-day",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "f14ec8b3379bfe488c1c",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Which item can a player use to sleep and set a respawn point in Minecraft's Overworld?",
+    "answers": [
+      "A crafting table",
+      "A cauldron",
+      "A regular wool bed",
+      "A chest"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.minecraft.net/en-us/article/spawning-and-dying",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "f92829f6716fa7afafb6",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Which of these Minecraft animals can normally be sheared for wool?",
+    "answers": [
+      "A chicken",
+      "A sheep",
+      "A pig",
+      "A cow"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.minecraft.net/es-mx/article/taking-inventory--shears",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "7124507676fc71d1b165",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is Roblox's virtual currency called?",
+    "answers": [
+      "Robux",
+      "V-Bucks",
+      "Bells",
+      "Minecoins"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://cms-media.roblox.com/cgZgr42gQCmFiElxawyc",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "b63ade5bf1ca6479df2b",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is Roblox Studio mainly used for?",
+    "answers": [
+      "Editing only the sound volume of other games",
+      "Buying a console subscription",
+      "Scanning a computer for viruses",
+      "Creating Roblox games and experiences"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://prod.docsiteassets.roblox.com/assets/education/legacy/Handout_-_Roblox_Glossary.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "9c5540c861a323bd2926",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "On Roblox, what is a player's avatar?",
+    "answers": [
+      "The code identifying an experience creator",
+      "Their list of online friends",
+      "Their in-game representation",
+      "Their saved progress in every game"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://devforum.roblox.com/t/linguistic-resources-for-translators/3051605",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "244e99c924ae482536ea",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Much of the playable content on Roblox is created by whom?",
+    "answers": [
+      "Only licensed film-production companies",
+      "Its community of creators",
+      "Only its official in-house game studio",
+      "Only the makers of console hardware"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://ir.roblox.com/files/doc_financials/2023/ar/roblox-2024-proxy-and-2023-annual-report.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "e0e7283ad847a58e74f9",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "At the start of Stardew Valley, the player inherits a farm from which relative?",
+    "answers": [
+      "Their grandfather",
+      "Their aunt",
+      "Their cousin",
+      "Their sister"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.stardewvalley.net/about/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "6439c2b1ff27391a3214",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is the name of the main nearby town in Stardew Valley?",
+    "answers": [
+      "Pallet Town",
+      "Pewter City",
+      "Raccoon City",
+      "Pelican Town"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://stardewvalleywiki.com/Pelican_Town",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "2e46810bddbe6b9ed1fa",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Which hand-held tool is used to water crops in Stardew Valley?",
+    "answers": [
+      "An axe",
+      "A pickaxe",
+      "A watering can",
+      "A hoe"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://stardewvalleywiki.com/Watering_Cans",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "26ecb561eba2611a21f0",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What can the player catch with a fishing rod in Stardew Valley?",
+    "answers": [
+      "Rabbits",
+      "Fish",
+      "Insects",
+      "Birds"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.stardewvalley.net/about/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "de0d1cb2e5cb3bacdc18",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Where does the player begin building a community in Animal Crossing: New Horizons?",
+    "answers": [
+      "On a deserted island",
+      "On a space station",
+      "Inside a medieval castle",
+      "On a submarine"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://animalcrossing.nintendo.com/new-horizons/nintendo-switch-2-edition/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "5b4434377cd21ce30622",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Which company runs the airport in Animal Crossing: New Horizons?",
+    "answers": [
+      "Nook Railways",
+      "K.K. Airways",
+      "Able Sisters Aviation",
+      "Dodo Airlines"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://animalcrossing.nintendo.com/new-horizons/create/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "6f60558131d77111828f",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What are Nook Miles used as in Animal Crossing: New Horizons?",
+    "answers": [
+      "A record of a tool's remaining durability",
+      "A rating of each villager's friendship",
+      "A reward currency earned for activities",
+      "A measurement of island size"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://animalcrossing.nintendo.com/new-horizons/explore/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "f79fd34af8bc0cc4ed3d",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What lets players make tools and furniture from recipes in Animal Crossing: New Horizons?",
+    "answers": [
+      "The daily island broadcast",
+      "DIY crafting",
+      "Mystery Island Tours",
+      "Fishing tournaments"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://animalcrossing.nintendo.com/new-horizons/explore/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "c7afdb3f9677193d2c05",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is the main job of players acting as chefs in Overcooked 2?",
+    "answers": [
+      "Prepare and serve dishes",
+      "Grow and harvest crops",
+      "Design restaurant floor plans",
+      "Deliver groceries around a town"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.team17.com/games/overcooked-2/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "1e56a719e65a2f5cc96a",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Overcooked 2 is best known for which style of multiplayer?",
+    "answers": [
+      "Competitive kart racing",
+      "Military team shooting",
+      "Turn-based card battles",
+      "Cooperative cooking"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.team17.com/games/overcooked-2/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "e94a6fdc87360560d679",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is the maximum normal number of players in an Overcooked 2 co-op session?",
+    "answers": [
+      "Up to six",
+      "Up to eight",
+      "Up to four",
+      "Up to two"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.team17.com/games/overcooked-2/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "db1ce88d2c5f87a4933f",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Which action can help chefs pass ingredients across a gap in Overcooked 2?",
+    "answers": [
+      "Building a bridge from kitchen furniture",
+      "Throwing ingredients",
+      "Ordering a delivery vehicle",
+      "Hiring an extra computer-controlled chef"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.team17.com/games/overcooked-2/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "de65819f660fee84305a",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "The main setting of Untitled Goose Game is what kind of place?",
+    "answers": [
+      "A village",
+      "A space station",
+      "An underwater city",
+      "A military bunker"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://goose.game/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "0407a509ef5dead4c303",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Which of these activities is typical of the goose's mischief in Untitled Goose Game?",
+    "answers": [
+      "Racing cars on a circuit",
+      "Building a large medieval settlement",
+      "Breeding and selling farm animals",
+      "Stealing and moving people's possessions"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://store.steampowered.com/app/837470/Untitled_Goose_Game/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "b564c09c77a811975d23",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Untitled Goose Game combines puzzles with which broad style of play?",
+    "answers": [
+      "Military flight simulation",
+      "Competitive card collecting",
+      "Stealth and mischief",
+      "Realistic motor racing"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://store.steampowered.com/app/837470/Untitled_Goose_Game/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "b2cda30e3a2584dc37d0",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "How many geese can players control together in Untitled Goose Game's local co-op mode?",
+    "answers": [
+      "Six",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://store.steampowered.com/app/837470/Untitled_Goose_Game/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "0ae3a5825057d3d087cf",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Which fictional town is a main setting of PowerWash Simulator?",
+    "answers": [
+      "Muckingham",
+      "Raccoon City",
+      "Silent Hill",
+      "Pallet Town"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://store.steampowered.com/app/1290000/PowerWash_Simulator/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "f1295d923b76d807849f",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "In PowerWash Simulator, what removes dirt from surfaces?",
+    "answers": [
+      "Abrasive sand",
+      "Laser beams",
+      "A magnetic field",
+      "Pressurised water"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://store.steampowered.com/app/1290000/PowerWash_Simulator/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "d7119c2add9f3c5674d6",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is Free Play mode mainly for in PowerWash Simulator?",
+    "answers": [
+      "Competing only for the lowest water usage",
+      "Completing every job against a strict timer",
+      "Replaying completed cleaning jobs at your own pace",
+      "Progressing through new Career Mode assignments"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://store.steampowered.com/app/1290000/PowerWash_Simulator/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "0698421323ac477c3de8",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "In PowerWash Simulator's co-op mode, players can work together to do what?",
+    "answers": [
+      "Manage a football league",
+      "Clean locations",
+      "Race motorbikes",
+      "Construct space stations"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://store.steampowered.com/app/1290000/PowerWash_Simulator/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "01ea4e66b6bf712533cd",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What kind of animal does the player control in Stray?",
+    "answers": [
+      "A cat",
+      "A dog",
+      "A fox",
+      "A rabbit"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://store.steampowered.com/app/1332010/Stray/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "e0cce6201a595deed4b2",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Which small drone befriends the cat in Stray?",
+    "answers": [
+      "R2-D2",
+      "WALL-E",
+      "Clank",
+      "B-12"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://store.steampowered.com/app/1332010/Stray/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "48c7afaaeee0be15e0d6",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Many of the inhabitants of the city in Stray are what?",
+    "answers": [
+      "Giants",
+      "Mermaids",
+      "Robots",
+      "Dinosaurs"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://store.steampowered.com/app/1332010/Stray/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "21ffb791b1e1a497035c",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is the cat ultimately trying to escape from in Stray?",
+    "answers": [
+      "A medieval fortress",
+      "A forgotten city",
+      "A remote island",
+      "A research station in space"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://store.steampowered.com/app/1332010/Stray/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "96bf3ea9bbff9aa86187",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "How many players is It Takes Two designed to be played by?",
+    "answers": [
+      "Two",
+      "One",
+      "Three",
+      "Four"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.ea.com/games/it-takes-two",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "a611be226a9447b02c03",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What are the names of the main playable couple in It Takes Two?",
+    "answers": [
+      "Joel and Ellie",
+      "Mario and Peach",
+      "Nathan and Elena",
+      "Cody and May"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.ea.com/games/it-takes-two",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "c2857399db31fb91a97d",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What are Cody and May transformed into in It Takes Two?",
+    "answers": [
+      "Race cars",
+      "Spaceships",
+      "Dolls",
+      "Dragons"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://store.steampowered.com/app/1426210/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "7c61efec49e4211c7370",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What must the two players repeatedly do to overcome challenges in It Takes Two?",
+    "answers": [
+      "Control only one character in alternating turns",
+      "Cooperate",
+      "Compete for a single winning position",
+      "Play unrelated single-player campaigns"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.ea.com/games/it-takes-two",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "4b36f0cb7bf4da58e7fe",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is the name of the fallen kingdom explored in Hollow Knight?",
+    "answers": [
+      "Hallownest",
+      "Hyrule",
+      "Azeroth",
+      "Tamriel"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.nintendo.com/US/store/products/hollow-knight-switch/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "fdb07e48942fea35d50e",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "The player character's main weapon in Hollow Knight is called what?",
+    "answers": [
+      "A lightsaber",
+      "A rocket launcher",
+      "A trident",
+      "A Nail"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.teamcherry.com.au/blog/introducing-hollow-knight",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "5ae10b33d9902ef17dfa",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Many inhabitants of Hollow Knight's world resemble which creatures?",
+    "answers": [
+      "Farm cattle",
+      "Birds of prey",
+      "Insects and other bugs",
+      "Large sea mammals"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://store.steampowered.com/app/367520",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "01d6afe48359515a5ac0",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Hollow Knight is primarily presented from which viewpoint?",
+    "answers": [
+      "Through a fixed vehicle cockpit",
+      "Side-on in 2D",
+      "From a first-person viewpoint",
+      "From directly overhead in 3D"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.nintendo.com/US/store/products/hollow-knight-switch/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "eb564a676401e93f1fa8",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Cuphead's visual style was strongly inspired by cartoons from which decade?",
+    "answers": [
+      "The 1930s",
+      "The 1960s",
+      "The 1980s",
+      "The 2000s"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.cupheadgame.com/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "3aa463f4ade09b02a1c9",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Who is Cuphead's playable partner in the original game's two-player mode?",
+    "answers": [
+      "Luigi",
+      "Tails",
+      "Diddy Kong",
+      "Mugman"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.cupheadgame.com/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "efbfdd117391973b9782",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "A major part of Cuphead involves fighting what?",
+    "answers": [
+      "Turn-based card battles",
+      "Professional racing seasons",
+      "Boss enemies",
+      "Military strategy campaigns"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.cupheadgame.com/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "1da89c60f66ce4d4073f",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "To whom do Cuphead and Mugman owe a debt in the game's main story?",
+    "answers": [
+      "King Dedede",
+      "The Devil",
+      "Bowser",
+      "Dr. Eggman"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.cupheadgame.com/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "cb01350ffc00eff24fef",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Which company runs the testing facilities in Portal 2?",
+    "answers": [
+      "Aperture Science",
+      "Black Mesa",
+      "Umbrella Corporation",
+      "Abstergo Industries"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://store.steampowered.com/app/620/Portal_2/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "ea97f286394a92cd200d",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does the portal gun mainly create in Portal 2?",
+    "answers": [
+      "A force field around the player",
+      "A swarm of repair drones",
+      "A permanent bridge between any two platforms",
+      "Two connected portals"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://en.wikipedia.org/wiki/Portal_2",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "900e4dca88aa6c3fda67",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Who is the main human player character in Portal 2's single-player story?",
+    "answers": [
+      "Samus Aran",
+      "Lara Croft",
+      "Chell",
+      "Alyx Vance"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://en.wikipedia.org/wiki/Portal_2",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "f53a199bcf0a52362dea",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What are the names of the two playable robots in Portal 2's co-op campaign?",
+    "answers": [
+      "Wallace and Gromit",
+      "Atlas and P-body",
+      "Ratchet and Clank",
+      "C-3PO and R2-D2"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.thinkwithportals.com/blog.php?id=6430",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "a92691ec982319ff3c0b",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "In Beat Saber, players mainly slice blocks in time with what?",
+    "answers": [
+      "Music",
+      "A spoken navigation guide",
+      "A commentary on a sports match",
+      "A recorded language lesson"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://store.steampowered.com/app/620980/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "568223dbdcd5314ca3c5",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does a direction arrow on a standard Beat Saber block tell the player?",
+    "answers": [
+      "Which track to select next",
+      "Which way to turn the volume control",
+      "Which menu to open",
+      "Which direction to cut it"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://store.steampowered.com/app/620980/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "7a3e0d9d698b4467e4c8",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "In a standard two-colour Beat Saber level, what should players normally match to a block's colour?",
+    "answers": [
+      "The title of the next song",
+      "The remaining battery indicator",
+      "The corresponding saber",
+      "The chosen difficulty level"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://store.steampowered.com/app/620980/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "2c4978574dc657b137c9",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Beat Saber is designed primarily for which type of gaming hardware?",
+    "answers": [
+      "Flight-simulator throttles",
+      "Virtual-reality headsets",
+      "Steering-wheel controllers",
+      "Fishing-rod controllers"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.beatsaber.com/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "bc70e27a975fa851c642",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "In a standard Turf War in Splatoon 3, teams mainly compete to cover ground with what?",
+    "answers": [
+      "Their own colour of ink",
+      "Sand",
+      "Snow",
+      "Grass seeds"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.nintendo.com/us/store/products/splatoon-3-switch/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "a88b2b59ec896e2d1346",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "In Splatoon 3, changing into swim form helps players move through what?",
+    "answers": [
+      "Only clean water",
+      "Only enemy ink",
+      "Only bare concrete",
+      "Their own team's ink"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://splatoon.nintendo.com/ca/gameplay/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "06b8226c6ee8685c7197",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "The main playable characters in Splatoon 3 include Inklings and which other group?",
+    "answers": [
+      "Koopas",
+      "Gorons",
+      "Octolings",
+      "Goombas"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.nintendo.com/us/store/products/splatoon-3-switch/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "52f3135251fdce70eb4c",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What kind of game is Splatoon 3 primarily?",
+    "answers": [
+      "A card-based solitaire game",
+      "A colourful team shooter",
+      "A realistic driving simulator",
+      "A farming simulator"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.nintendo.com/us/store/products/splatoon-3-switch/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "2d861131ebf812ba3f34",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does a banana item usually make another kart do on contact in Mario Kart 8 Deluxe?",
+    "answers": [
+      "Spin out",
+      "Become invincible",
+      "Steal an item",
+      "Shrink in size"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.nintendo.com/ph/switch/aabp/item/index.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "9394b274d691f3b5c180",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is a key feature of a green shell in Mario Kart 8 Deluxe?",
+    "answers": [
+      "It always seeks the racer in first place",
+      "It makes the user invisible",
+      "It shrinks every rival kart",
+      "It travels without automatically homing in on a racer"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.nintendo.com/ph/switch/aabp/item/index.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "600d30870cb2bd50fba5",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does a red shell usually do when thrown forwards in Mario Kart 8 Deluxe?",
+    "answers": [
+      "Shrink every rival kart",
+      "Give the user a speed boost",
+      "Home in on a racer ahead",
+      "Shield the kart from all attacks"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.nintendo.com/ph/switch/aabp/item/index.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "a22e88f83cfcc27c6eed",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Which racer does the blue Spiny Shell mainly target in Mario Kart 8 Deluxe?",
+    "answers": [
+      "Only a racer using a motorbike",
+      "The racer in first place",
+      "The racer in last place",
+      "Only the racer carrying the most coins"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.nintendo.com/ph/switch/aabp/item/index.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "5128e8352ef7d7a79c2d",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does Ultrahand let Link do in Tears of the Kingdom?",
+    "answers": [
+      "Move and attach objects to build things",
+      "Reverse a moving object's path",
+      "Pass upwards through a ceiling",
+      "Combine material with an equipped weapon"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.nintendo.com/us/whatsnew/an-epic-adventure-awaits-in-the-legend-of-zelda-tears-of-the-kingdom/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "9776afc464f34fa34ce4",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does Fuse let Link do in Tears of the Kingdom?",
+    "answers": [
+      "Pass upwards through a ceiling",
+      "Reverse a moving object's path",
+      "Move and attach objects to build vehicles",
+      "Combine materials with weapons or shields"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.nintendo.com/us/whatsnew/an-epic-adventure-awaits-in-the-legend-of-zelda-tears-of-the-kingdom/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "90cb4303f0d2f19dcc4c",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does Ascend let Link do in Tears of the Kingdom?",
+    "answers": [
+      "Bind material to an equipped shield",
+      "Rotate and attach objects to build vehicles",
+      "Pass upwards through a suitable ceiling",
+      "Reverse an object's recent movement"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.nintendo.com/us/whatsnew/an-epic-adventure-awaits-in-the-legend-of-zelda-tears-of-the-kingdom/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "5e42d3260b3e3a1cece2",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does Recall do to a selected moving object in Tears of the Kingdom?",
+    "answers": [
+      "Turns it into a platform Link can pass upwards through",
+      "Reverses its movement through time",
+      "Permanently fuses it to a weapon",
+      "Attaches it to another object for building"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.nintendo.com/us/whatsnew/an-epic-adventure-awaits-in-the-legend-of-zelda-tears-of-the-kingdom/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "e81962bc1fc988deded3",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Which region is the main setting of Pokémon Scarlet and Violet?",
+    "answers": [
+      "Paldea",
+      "Kanto",
+      "Johto",
+      "Sinnoh"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.nintendo.com/us/store/products/pokemon-scarlet-114549/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "53a9a4d9a8a3b821477f",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is Sprigatito's type as a first partner in Pokémon Scarlet and Violet?",
+    "answers": [
+      "Fire",
+      "Water",
+      "Electric",
+      "Grass"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.pokemon.com/us/pokedex/floragato",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "51c99db505473bccf10a",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "The first-partner Pokémon Quaxly resembles which bird?",
+    "answers": [
+      "A penguin",
+      "An eagle",
+      "A duck",
+      "An owl"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://press.pokemon.com/en/RELEASE-DATE-REVEALED-FOR-POKEMON-SCARLET-AND-POKEMON-VIOLET",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  },
+  {
+    "id": "0c5630bfa038e1c62d37",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Which legendary Pokémon is the main ride companion in Pokémon Scarlet?",
+    "answers": [
+      "Lugia",
+      "Koraidon",
+      "Miraidon",
+      "Rayquaza"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.nintendo.com/us/store/products/pokemon-scarlet-114549/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-15-v1"
+  }
+]

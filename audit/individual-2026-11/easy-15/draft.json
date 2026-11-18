@@ -1,0 +1,1602 @@
+[
+  {
+    "draftID": "easy-15-001",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does NPC stand for in a video-game world?",
+    "answers": [
+      "Non-player character",
+      "New playable character",
+      "Network player code",
+      "Next power challenge"
+    ],
+    "correctIndex": 0,
+    "rationale": "NPC expansion accepted as non-player character; non-playable is also valid but deliberately absent from other options. Invented alternative expansions do not overlap. Sony actual glossary inspected; ignored its overly restrictive non-combative claim. Original dictionary URL had no relevant entry, replaced.",
+    "sourceURL": "https://www.playstation.com/en-ca/editorial/playstation-ultimate-gaming-glossary/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-002",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "In video games, DLC stands for what?",
+    "answers": [
+      "Downloadable content",
+      "Digital level counter",
+      "Direct local connection",
+      "Dual language control"
+    ],
+    "correctIndex": 0,
+    "rationale": "Downloadable content is Steamworks documentation heading and expansion. Dictionary DLC was unrelated financial abbreviation, rejected. Other offered expansions not established game meaning. Clear gaming context, grammar correct.",
+    "sourceURL": "https://partner.steamgames.com/doc/store/application/dlc",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-003",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does an HP bar usually represent in a game?",
+    "answers": [
+      "Health or hit points",
+      "Internet connection speed",
+      "Distance across the map",
+      "Frames displayed per second"
+    ],
+    "correctIndex": 0,
+    "rationale": "HP can mean health or hit points, explicitly both accepted together. Other options measure network, distance and frame rate. Sony glossary actual HP paragraph checked. Not saying every game uses identical damage systems.",
+    "sourceURL": "https://www.playstation.com/en-ca/editorial/playstation-ultimate-gaming-glossary/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-004",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does XP usually stand for when a character progresses through levels?",
+    "answers": [
+      "Experience points",
+      "Extra powers",
+      "Exclusive player",
+      "Extreme performance"
+    ],
+    "correctIndex": 0,
+    "rationale": "XP experience points in levelling context, not alternative invented expansions. Sony actual XP entry checked. Avoided claiming all RPG progression requires XP.",
+    "sourceURL": "https://www.playstation.com/en-ca/editorial/playstation-ultimate-gaming-glossary/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-005",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "When a game-performance display reports FPS, what is it measuring?",
+    "answers": [
+      "Frames per second",
+      "Files per save",
+      "Fights per session",
+      "Friends per server"
+    ],
+    "correctIndex": 0,
+    "rationale": "FPS performance display measures frames per second. Context excludes equally real first-person-shooter genre abbreviation. Files, fights and friends are not frame-rate units. Actual dictionary definition inspected.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/fps",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-006",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "As a video-game genre, RPG stands for what?",
+    "answers": [
+      "Role-playing game",
+      "Racing performance guide",
+      "Random player group",
+      "Realistic puzzle generator"
+    ],
+    "correctIndex": 0,
+    "rationale": "RPG role-playing game, not other offered invented expansions. Dedicated RPG dictionary source replaces possibly tabletop-only full-term definitions; Sony actual RPG expansion also corroborated. Game genre context clear.",
+    "sourceURL": "https://www.playstation.com/en-ca/editorial/playstation-ultimate-gaming-glossary/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-007",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is the MMO part of MMORPG short for?",
+    "answers": [
+      "Massively multiplayer online",
+      "Manual movement only",
+      "Multiple maps offline",
+      "Maximum mission order"
+    ],
+    "correctIndex": 0,
+    "rationale": "MMO expansion massively multiplayer online, first part of MMORPG. Other invented acronym expansions wrong. Actual dictionary MMORPG full form checked. Does not assert all MMO games are RPGs or require subscription.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/mmorpg",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-008",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "In video games, co-op is short for which word?",
+    "answers": [
+      "Cooperative",
+      "Competitive",
+      "Commercial",
+      "Computerised"
+    ],
+    "correctIndex": 0,
+    "rationale": "Changed from ambiguous shared-goal alternatives: turn-taking could also be cooperative. Now asks co-op's cooperative expansion, with three distinct words; only one correct. Actual dictionary gaming definition and abbreviated cooperative form inspected.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/co-op",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-009",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does cross-play allow in a multiplayer game?",
+    "answers": [
+      "People on different supported platforms to play together",
+      "A player to transfer saved progress between devices",
+      "Several people to take turns on one controller",
+      "The computer to play the game automatically"
+    ],
+    "correctIndex": 0,
+    "rationale": "Cross-play connects supported platforms. Cross-progression distractor concerns transferring saves, turn-taking local mode and autoplay do not define cross-play. Actual dictionary gaming definition inspected. Supported qualification avoids universal platform promise.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/cross-play",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-010",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is the main purpose of a checkpoint in many video games?",
+    "answers": [
+      "Providing a recent point to restart from after failure",
+      "Changing the game's language",
+      "Adjusting the screen resolution",
+      "Installing a game update"
+    ],
+    "correctIndex": 0,
+    "rationale": "Checkpoint resumes near recent progress after failure. Other software operations not restart points. Replaced police-border-only dictionary source with indexed actual Xbox game manual passage. Direct PDF fetch failed, not represented as full reading.",
+    "sourceURL": "https://epix.xbox.com/shaXam/0201/22/21/22216d0d-ec10-4d34-9ced-4c1f2244927c.PDF?v=1",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-011",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does it mean for a character to respawn?",
+    "answers": [
+      "Reappear in the game world after being defeated",
+      "Lose all saved progress permanently",
+      "Move to the next story chapter",
+      "Start downloading a game update"
+    ],
+    "correctIndex": 0,
+    "rationale": "Respawn reappearance after defeat. Progress deletion, chapter advance and download update different. Actual dictionary gaming sense includes character reappearing. Usually question avoids claims every game has revival.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/respawn",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-012",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is the main purpose of a game's tutorial?",
+    "answers": [
+      "Teaching the basic controls and mechanics",
+      "Listing the production staff",
+      "Showing highlights from a previous match",
+      "Adjusting the graphics settings automatically"
+    ],
+    "correctIndex": 0,
+    "rationale": "Tutorial teaches controls/mechanics. Credits, match highlights and automatic graphics adjustment do not serve that main purpose. Replaced absurd finance/advertising choices with game features. Dictionary instructional sense inspected.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/tutorial",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-013",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is a common feature of an open-world game?",
+    "answers": [
+      "A large environment that players can explore relatively freely",
+      "A sequence of levels that must always be completed in one fixed order",
+      "A mode restricted to watching computer-controlled players",
+      "A competition decided entirely by one timed race"
+    ],
+    "correctIndex": 0,
+    "rationale": "Open world relatively free exploration. Linear-only levels, spectator mode and a timed-race-only competition do not define it. Actual gaming adjective definition checked. Relatively permits locked regions/tutorial restrictions, not universal freedom.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/open-world",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-014",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is a save-game file mainly used to preserve?",
+    "answers": [
+      "The player's progress or game state",
+      "A recording of the microphone input",
+      "A list of downloaded game installers",
+      "Only a captured image of the screen"
+    ],
+    "correctIndex": 0,
+    "rationale": "Save file stores game state/progress. Microphone recording, installers list and screenshot are different file contents. Xbox indexed manual explicitly resumes saved game; generic computing-save definition also checked. Replaced irrelevant controller condition/purchase receipt options.",
+    "sourceURL": "https://epix.xbox.com/shaXam/0201/22/21/22216d0d-ec10-4d34-9ced-4c1f2244927c.PDF?v=1",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-015",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Which feature records game progress without the player manually choosing Save?",
+    "answers": [
+      "Autosave",
+      "Photo mode",
+      "Fast travel",
+      "Split-screen"
+    ],
+    "correctIndex": 0,
+    "rationale": "Autosave automatic game progress recording. Photo mode, fast travel and split-screen are other features. Nintendo Bravely Default manual indexed actual text explicitly contrasts automatic saving after events; no assumption all titles enable it by default.",
+    "sourceURL": "https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_3ds_2/bravely_default/ElectronicManual_BravelyDefault_EN.pdf",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-016",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "When customising a PC game, what does a mod usually mean?",
+    "answers": [
+      "A modification that changes or adds to the game",
+      "A monthly multiplayer subscription",
+      "A standard controller button layout",
+      "A competitive ranking earned in matches"
+    ],
+    "correctIndex": 0,
+    "rationale": "Mod modification changes/adds content. Subscription, button layout and earned rank do not define software modification. Actual dictionary gaming sense checked. Did not restrict authorship to fans; official mods also possible.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/mod",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-017",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "An item described as purely cosmetic is intended to change what?",
+    "answers": [
+      "Appearance",
+      "Attack damage",
+      "Maximum health",
+      "The number of levels available"
+    ],
+    "correctIndex": 0,
+    "rationale": "Purely cosmetic intended appearance change, not damage, health or access to levels. Actual adjective sense appearance without basic change checked. Intended qualification avoids claims every implemented cosmetic is guaranteed bug-free or mechanically identical.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/cosmetic",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-018",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does an avatar's emote usually do?",
+    "answers": [
+      "Perform an expressive gesture or animation",
+      "Permanently increase attack power",
+      "Download a new map",
+      "Change the game's difficulty setting"
+    ],
+    "correctIndex": 0,
+    "rationale": "Emote expressive avatar animation. Attack stat, map download and difficulty setting do not fit. Generic emotion dictionary inadequate; Minecraft official patch notes explicitly emote animations and wheel inspected instead. Usually permits stationary gestures and dances.",
+    "sourceURL": "https://feedback.minecraft.net/hc/en-us/articles/360044928311-Minecraft-Nether-Update-1-16-0-Bedrock",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-019",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does a quest log usually help a player track?",
+    "answers": [
+      "Tasks and objectives",
+      "Graphics and sound settings",
+      "Friends currently online",
+      "Installed game updates"
+    ],
+    "correctIndex": 0,
+    "rationale": "Quest log tasks/objectives. Graphics settings, online friends and installed updates are different menus. Replaced generic search definition and absurd electricity/screws distractors. Blizzard actual starter guide explicitly quest log/story/objectives/progress, inspected; no current-keybinding trivia.",
+    "sourceURL": "https://worldofwarcraft.blizzard.com/en-us/news/24315280",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-020",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does split-screen multiplayer usually let people do?",
+    "answers": [
+      "Play using separate views on the same display",
+      "Take turns using one full-screen view",
+      "Watch another player through a streamed broadcast",
+      "Move saved progress from one console to another"
+    ],
+    "correctIndex": 0,
+    "rationale": "Split-screen separate player views one display. Hot-seat, streamed spectating and save transfer distinct. Nintendo Wave Race manual indexed actual text explicitly top half P1/bottom P2 and split-screen layout. Replaced empty dictionary entry. Does not confuse all local co-op with split-screen.",
+    "sourceURL": "https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_8/Manual_Nintendo64_WaveRace64_EN.pdf",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-021",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "In Among Us, which role is secretly trying to eliminate the crew?",
+    "answers": [
+      "The Impostor",
+      "The Crewmate",
+      "The Scientist",
+      "The Guardian Angel"
+    ],
+    "correctIndex": 0,
+    "rationale": "Impostor secretly eliminates crew. Crewmate, Scientist and Guardian Angel crew-side roles not killers. Publisher actual premise checked. No claim only one Impostor per match; article singular role name fine.",
+    "sourceURL": "https://www.innersloth.com/games/among-us/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-022",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What do Crewmates complete around the map in Among Us?",
+    "answers": [
+      "Tasks",
+      "Race laps",
+      "Crafting recipes",
+      "League fixtures"
+    ],
+    "correctIndex": 0,
+    "rationale": "Crewmates complete tasks; race laps, crafting recipes and league fixtures not Among Us crew objectives. Publisher explicit task bar. Replaced off-topic restaurant/football options with game-system alternatives. Category and grammar sound.",
+    "sourceURL": "https://www.innersloth.com/games/among-us/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-023",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "After discussing suspicions in Among Us, how can the group eject a suspected Impostor?",
+    "answers": [
+      "By voting",
+      "By completing a repair task",
+      "By collecting a hidden weapon",
+      "By reaching an escape pod"
+    ],
+    "correctIndex": 0,
+    "rationale": "Voting ejects suspect. Repairing, weapons and escape pod don't perform group ejection. Actual Innersloth gameplay explicitly vote to eject inspected. Does not imply votes always identify an Impostor.",
+    "sourceURL": "https://www.innersloth.com/games/among-us/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-024",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What can Impostors use to move quickly between connected locations in Among Us?",
+    "answers": [
+      "Vents",
+      "Ladders on every map",
+      "Teleportation potions",
+      "Racing vehicles"
+    ],
+    "correctIndex": 0,
+    "rationale": "Replaced Skeld spaceship candidate because found official passage referred to VR Skeld II, not original map. New vents question directly verified Innersloth how-to. Other options not Impostor movement systems. Some Crewmates can also vent, so does not call venting exclusive to Impostors.",
+    "sourceURL": "https://www.innersloth.com/games/among-us/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-025",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What kind of challenges are central to Fall Guys?",
+    "answers": [
+      "Colourful obstacle courses",
+      "Realistic flight missions",
+      "Historical war campaigns",
+      "Deep-sea diving expeditions"
+    ],
+    "correctIndex": 0,
+    "rationale": "Obstacle courses defining Fall Guys, unlike flight/war/diving campaigns. Actual official homepage title explicitly battle-royale obstacle-course game. Broad main challenge description, not all rounds identical.",
+    "sourceURL": "https://www.fallguys.com/en-US",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-026",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does Fall Guys Creative let players design?",
+    "answers": [
+      "Their own obstacle courses",
+      "Real-world driving licences",
+      "Music albums for a rhythm game",
+      "Turn-based card decks"
+    ],
+    "correctIndex": 0,
+    "rationale": "Replaced uncorroborated jelly-bean-sweets comparison. Actual official homepage explicitly Fall Guys Creative course construction. Other real activities are distinct game types. Does not imply all players must build or only developer can publish.",
+    "sourceURL": "https://www.fallguys.com/en-US",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-027",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is the main goal in a standard Fall Guys race round?",
+    "answers": [
+      "Reach the finish line",
+      "Score goals against another team",
+      "Be the last player standing on a shrinking platform",
+      "Match a displayed pattern of fruit"
+    ],
+    "correctIndex": 0,
+    "rationale": "Epic actual design guide specifically states Fall Guys navigate obstacles to finish line. Standard race qualifier excludes survival/team/puzzle rounds. Other goals fit different round types, not racing. Changed arbitrary hospital/courtroom destinations.",
+    "sourceURL": "https://dev.epicgames.com/documentation/en-us/fortnite/how-to-design-a-game-in-fortnite-creative",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-028",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Which of these is a premium currency used in Fall Guys?",
+    "answers": [
+      "Show-Bucks",
+      "Robux",
+      "V-Bucks",
+      "Minecoins"
+    ],
+    "correctIndex": 0,
+    "rationale": "Replaced elimination-format candidate which needed qualification and could confuse revival modes. Official currency announcement explicitly Show-Bucks, current homepage still lists its pricing. Other real currency names belong other games; no Kudos offered, no obsolete price/earning amount claimed.",
+    "sourceURL": "https://www.fallguys.com/news/upcoming-fall-guys-currency-changes?lang=en-US",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-029",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "In Fortnite Battle Royale, what is the usual aim for a player or team?",
+    "answers": [
+      "Be the last one remaining",
+      "Earn the most points by completing race laps",
+      "Capture every flag before a fixed time expires",
+      "Collect every item on the map"
+    ],
+    "correctIndex": 0,
+    "rationale": "Standard Fortnite BR seeks last surviving player/team. Fixed race score, flag capture and collecting all map items other modes, not standard win condition. Publisher-owned Epic island actual description inspected; not creator-authored fan island.",
+    "sourceURL": "https://www.fortnite.com/@epic/battle-royale",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-030",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What happens to the safe area as the Storm advances in a standard Fortnite Battle Royale match?",
+    "answers": [
+      "It becomes smaller",
+      "It steadily expands",
+      "It remains the same size throughout",
+      "It disappears before the fighting begins"
+    ],
+    "correctIndex": 0,
+    "rationale": "Standard BR storm makes safe area smaller. Expansion, unchanged area and pre-fight disappearance wrong. Official Final Fight patch compares exception stopping early with standard circles closing in. Scoped standard avoids creative and special event rules.",
+    "sourceURL": "https://www.fortnite.com/patch-notes/v4-5",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-031",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is Fortnite's virtual currency called?",
+    "answers": [
+      "V-Bucks",
+      "Robux",
+      "Minecoins",
+      "Bells"
+    ],
+    "correctIndex": 0,
+    "rationale": "V-Bucks Fortnite currency, Robux/Minecoins/Bells belong other games. Epic's own product description explicitly defines in-game currency. No outdated price or platform-transfer claim included.",
+    "sourceURL": "https://store.epicgames.com/p/fortnite--extinction-code-pack",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-032",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "In Fortnite's building modes, what is a pickaxe mainly used to harvest?",
+    "answers": [
+      "Building materials",
+      "Ammunition",
+      "Shield potions",
+      "Vehicle fuel"
+    ],
+    "correctIndex": 0,
+    "rationale": "Epic actual pickaxe glossary explicitly harvesting materials/resources and possible melee use. Building-modes context avoids Fortnite Festival and Zero Build exceptions. Ammo/potions/fuel different loot, not main harvesting purpose.",
+    "sourceURL": "https://dev.epicgames.com/documentation/en-us/fortnite/pickaxe",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-033",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Which Minecraft tool is particularly suited to chopping wood?",
+    "answers": [
+      "An axe",
+      "A shovel",
+      "A hoe",
+      "A fishing rod"
+    ],
+    "correctIndex": 0,
+    "rationale": "Axe appropriate wood tool; shovel soil, hoe farming, fishing rod angling. Official Minecraft beginner guide explicitly wood using stone axe. Does not say only axes can break wood or require a particular material.",
+    "sourceURL": "https://www.minecraft.net/fr-fr/article/how-survive-your-first-day",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-034",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Which Minecraft block is used to smelt ore using fuel?",
+    "answers": [
+      "A furnace",
+      "A chest",
+      "A bookshelf",
+      "A loom"
+    ],
+    "correctIndex": 0,
+    "rationale": "Furnace smelts using fuel. Chest/bookshelf/loom different functions. Official beginner guide smelting and coal fuel checked. Blast furnace omitted because also valid ore-smelting answer.",
+    "sourceURL": "https://www.minecraft.net/fr-fr/article/how-survive-your-first-day",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-035",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Which item can a player use to sleep and set a respawn point in Minecraft's Overworld?",
+    "answers": [
+      "A regular wool bed",
+      "A chest",
+      "A crafting table",
+      "A cauldron"
+    ],
+    "correctIndex": 0,
+    "rationale": "Regular wool bed sleeps and sets respawn in Overworld; chest/table/cauldron do not. Minecraft official respawning guide explicitly changing spawn with bed, original beginner guide sleep. Explicit regular wool bed avoids new straw-bed exception, Overworld avoids explosive Nether/End.",
+    "sourceURL": "https://www.minecraft.net/en-us/article/spawning-and-dying",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-036",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Which of these Minecraft animals can normally be sheared for wool?",
+    "answers": [
+      "A sheep",
+      "A pig",
+      "A cow",
+      "A chicken"
+    ],
+    "correctIndex": 0,
+    "rationale": "Sheep sheared for wool; pig/cow/chicken not wool-producing options. Official shears article actual text explicitly sheep and wool. Normally allows already-sheared lamb exceptions; no claim shears work exclusively on sheep.",
+    "sourceURL": "https://www.minecraft.net/es-mx/article/taking-inventory--shears",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-037",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is Roblox's virtual currency called?",
+    "answers": [
+      "Robux",
+      "V-Bucks",
+      "Bells",
+      "Minecoins"
+    ],
+    "correctIndex": 0,
+    "rationale": "Robux Roblox currency. Other three real currencies from other titles. Actual indexed Roblox parent/caregiver guide explicitly official currency checked; direct unrelated parents-controls page not sufficient and replaced.",
+    "sourceURL": "https://cms-media.roblox.com/cgZgr42gQCmFiElxawyc",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-038",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is Roblox Studio mainly used for?",
+    "answers": [
+      "Creating Roblox games and experiences",
+      "Editing only the sound volume of other games",
+      "Buying a console subscription",
+      "Scanning a computer for viruses"
+    ],
+    "correctIndex": 0,
+    "rationale": "Studio creates experiences. Other options software operations not its main purpose. Official educational glossary indexed actual definition checked; direct PDF fetch unsupported content-type honestly retained. Does not imply authors need pay for Studio.",
+    "sourceURL": "https://prod.docsiteassets.roblox.com/assets/education/legacy/Handout_-_Roblox_Glossary.pdf",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-039",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "On Roblox, what is a player's avatar?",
+    "answers": [
+      "Their in-game representation",
+      "Their saved progress in every game",
+      "The code identifying an experience creator",
+      "Their list of online friends"
+    ],
+    "correctIndex": 0,
+    "rationale": "Roblox staff actual glossary explicitly avatar visual representation of user, not save file/creator identifier/list of friends. Replaced electricity/serial-number distractions. Not implying avatar must resemble real person.",
+    "sourceURL": "https://devforum.roblox.com/t/linguistic-resources-for-translators/3051605",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-040",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Much of the playable content on Roblox is created by whom?",
+    "answers": [
+      "Its community of creators",
+      "Only its official in-house game studio",
+      "Only the makers of console hardware",
+      "Only licensed film-production companies"
+    ],
+    "correctIndex": 0,
+    "rationale": "Community creators build much of platform content. Exclusively internal studio/hardware makers/film companies false. Roblox own annual-report indexed developer/creator paragraph corroborates. Much avoids unsupported claim every single experience is independent community content.",
+    "sourceURL": "https://ir.roblox.com/files/doc_financials/2023/ar/roblox-2024-proxy-and-2023-annual-report.pdf",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-041",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "At the start of Stardew Valley, the player inherits a farm from which relative?",
+    "answers": [
+      "Their grandfather",
+      "Their aunt",
+      "Their cousin",
+      "Their sister"
+    ],
+    "correctIndex": 0,
+    "rationale": "Grandfather inherited farm, aunt/cousin/sister not opening benefactor. Actual Stardew creator about page inspected. No need claim relative still alive or exact date.",
+    "sourceURL": "https://www.stardewvalley.net/about/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-042",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is the name of the main nearby town in Stardew Valley?",
+    "answers": [
+      "Pelican Town",
+      "Pallet Town",
+      "Pewter City",
+      "Raccoon City"
+    ],
+    "correctIndex": 0,
+    "rationale": "Community game wiki actual opening explicitly main town and villagers. Pallet/Pewter/Raccoon different game towns. Secondary reference identified honestly, not called official primary. Near farm wording reflects mapped geography.",
+    "sourceURL": "https://stardewvalleywiki.com/Pelican_Town",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-043",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Which hand-held tool is used to water crops in Stardew Valley?",
+    "answers": [
+      "A watering can",
+      "A hoe",
+      "An axe",
+      "A pickaxe"
+    ],
+    "correctIndex": 0,
+    "rationale": "Replaced daily watering absolute with tool identification. Actual community wiki opening directly watering-can tool crops; rain/sprinklers/retaining-soil and mature-crop exceptions make previous question poor. Hoe/axe/pickaxe other normal tools, no sprinkler offered.",
+    "sourceURL": "https://stardewvalleywiki.com/Watering_Cans",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-044",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What can the player catch with a fishing rod in Stardew Valley?",
+    "answers": [
+      "Fish",
+      "Insects",
+      "Birds",
+      "Rabbits"
+    ],
+    "correctIndex": 0,
+    "rationale": "Fishing rod catches fish, not insects/birds/rabbits. Creator about page explicitly fishing, fish, bait and bobbers. Removed repeated only wording. Fish wording doesn't falsely imply rods never hook trash/treasure.",
+    "sourceURL": "https://www.stardewvalley.net/about/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-045",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Where does the player begin building a community in Animal Crossing: New Horizons?",
+    "answers": [
+      "On a deserted island",
+      "On a space station",
+      "Inside a medieval castle",
+      "On a submarine"
+    ],
+    "correctIndex": 0,
+    "rationale": "Official same-game enhanced edition premise explicitly deserted island community. Space station/castle/submarine wrong. Begins qualifier avoids claim island remains deserted as villagers arrive. No exclusive Switch2-only setting assertion.",
+    "sourceURL": "https://animalcrossing.nintendo.com/new-horizons/nintendo-switch-2-edition/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-046",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Which company runs the airport in Animal Crossing: New Horizons?",
+    "answers": [
+      "Dodo Airlines",
+      "Nook Railways",
+      "K.K. Airways",
+      "Able Sisters Aviation"
+    ],
+    "correctIndex": 0,
+    "rationale": "Official Dodo Airlines island-airport tours passage inspected. Other options use familiar franchise names but are invented airlines/railways, no second actual airport operator. Correct plural company name.",
+    "sourceURL": "https://animalcrossing.nintendo.com/new-horizons/create/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-047",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What are Nook Miles used as in Animal Crossing: New Horizons?",
+    "answers": [
+      "A reward currency earned for activities",
+      "A measurement of island size",
+      "A record of a tool's remaining durability",
+      "A rating of each villager's friendship"
+    ],
+    "correctIndex": 0,
+    "rationale": "Official explore page explicitly Miles earned via activities and spent recipes/pockets. Reward currency answer accurate, no claim replaces Bells. Replaced real-bank/clock nonsense with different in-game quantities.",
+    "sourceURL": "https://animalcrossing.nintendo.com/new-horizons/explore/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-048",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What lets players make tools and furniture from recipes in Animal Crossing: New Horizons?",
+    "answers": [
+      "DIY crafting",
+      "Mystery Island Tours",
+      "Fishing tournaments",
+      "The daily island broadcast"
+    ],
+    "correctIndex": 0,
+    "rationale": "Official workbench crafting plus DIY recipe tracker supports making tools/furniture. Other in-game features do not construct them. Replaced sport/audition distractors with distinct island activities.",
+    "sourceURL": "https://animalcrossing.nintendo.com/new-horizons/explore/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-049",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is the main job of players acting as chefs in Overcooked 2?",
+    "answers": [
+      "Prepare and serve dishes",
+      "Grow and harvest crops",
+      "Design restaurant floor plans",
+      "Deliver groceries around a town"
+    ],
+    "correctIndex": 0,
+    "rationale": "Overcooked chefs prepare/serve dishes. Farming, floor design and town delivery different sim activities. Team17 actual cooking/recipes/service setting inspected. Can do ancillary tasks but main job clause disambiguates.",
+    "sourceURL": "https://www.team17.com/games/overcooked-2/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-050",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Overcooked 2 is best known for which style of multiplayer?",
+    "answers": [
+      "Cooperative cooking",
+      "Competitive kart racing",
+      "Military team shooting",
+      "Turn-based card battles"
+    ],
+    "correctIndex": 0,
+    "rationale": "Cooperative cooking recognised core multiplayer, unlike kart racing/shooting/card battles. Team17 explicitly couch/online co-op. Best known wording does not deny competitive versus mode exists.",
+    "sourceURL": "https://www.team17.com/games/overcooked-2/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-051",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is the maximum normal number of players in an Overcooked 2 co-op session?",
+    "answers": [
+      "Up to four",
+      "Up to two",
+      "Up to six",
+      "Up to eight"
+    ],
+    "correctIndex": 0,
+    "rationale": "Up to four normal co-op participants, not maximum two/six/eight. Publisher explicitly up to four. To avoid up-to-two subset interpretation, maximum wording should be explicit in final prompt.",
+    "sourceURL": "https://www.team17.com/games/overcooked-2/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-052",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Which action can help chefs pass ingredients across a gap in Overcooked 2?",
+    "answers": [
+      "Throwing ingredients",
+      "Ordering a delivery vehicle",
+      "Hiring an extra computer-controlled chef",
+      "Building a bridge from kitchen furniture"
+    ],
+    "correctIndex": 0,
+    "rationale": "Throw ingredients across shifting kitchens, publisher explicitly inspected. Other actions invented alternatives. Across gap can help, not blanket claim every item can be thrown or every gap traversed.",
+    "sourceURL": "https://www.team17.com/games/overcooked-2/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-053",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "The main setting of Untitled Goose Game is what kind of place?",
+    "answers": [
+      "A village",
+      "A space station",
+      "An underwater city",
+      "A military bunker"
+    ],
+    "correctIndex": 0,
+    "rationale": "Village setting explicit developer homepage. Space station/underwater city/bunker incorrect. No England claim inferred from aesthetics. Main setting normal scope permits several village areas.",
+    "sourceURL": "https://goose.game/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-054",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Which of these activities is typical of the goose's mischief in Untitled Goose Game?",
+    "answers": [
+      "Stealing and moving people's possessions",
+      "Racing cars on a circuit",
+      "Building a large medieval settlement",
+      "Breeding and selling farm animals"
+    ],
+    "correctIndex": 0,
+    "rationale": "Publisher actual description explicitly pranks/stealing hats/possessions. Other options games involving vehicle racing, building settlements and raising farm animals, not goose mischief. No implied violence or country claim.",
+    "sourceURL": "https://store.steampowered.com/app/837470/Untitled_Goose_Game/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-055",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Untitled Goose Game combines puzzles with which broad style of play?",
+    "answers": [
+      "Stealth and mischief",
+      "Realistic motor racing",
+      "Military flight simulation",
+      "Competitive card collecting"
+    ],
+    "correctIndex": 0,
+    "rationale": "Publisher calls slapstick-stealth-sandbox. Stealth and mischief fits puzzles; racing, military flight and card collecting wrong core styles. Does not assert every encounter requires stealth or game only has one genre.",
+    "sourceURL": "https://store.steampowered.com/app/837470/Untitled_Goose_Game/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-056",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "How many geese can players control together in Untitled Goose Game's local co-op mode?",
+    "answers": [
+      "Two",
+      "Three",
+      "Four",
+      "Six"
+    ],
+    "correctIndex": 0,
+    "rationale": "Publisher explicitly two horrible geese and two-player cooperative update. Three/four/six not supported normal local co-op count. Scoped local coop, not unsupported global player statistics.",
+    "sourceURL": "https://store.steampowered.com/app/837470/Untitled_Goose_Game/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-057",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Which fictional town is a main setting of PowerWash Simulator?",
+    "answers": [
+      "Muckingham",
+      "Raccoon City",
+      "Silent Hill",
+      "Pallet Town"
+    ],
+    "correctIndex": 0,
+    "rationale": "Publisher actual Career Mode paragraph explicitly dusty town of Muckingham inspected, beyond ambiguous DLC titles. Raccoon/SilentHill/Pallet other fictional towns. Main setting wording allows crossover locations/DLC.",
+    "sourceURL": "https://store.steampowered.com/app/1290000/PowerWash_Simulator/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-058",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "In PowerWash Simulator, what removes dirt from surfaces?",
+    "answers": [
+      "Pressurised water",
+      "Abrasive sand",
+      "Laser beams",
+      "A magnetic field"
+    ],
+    "correctIndex": 0,
+    "rationale": "High-pressure water removes grime, not sand/laser/magnetism. Publisher Steam actual narrative explicitly water washer cleaning. Other cleaning media physically possible in reality but not core simulator tool. No unsupported claim chemicals never assist.",
+    "sourceURL": "https://store.steampowered.com/app/1290000/PowerWash_Simulator/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-059",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is Free Play mode mainly for in PowerWash Simulator?",
+    "answers": [
+      "Replaying completed cleaning jobs at your own pace",
+      "Progressing through new Career Mode assignments",
+      "Competing only for the lowest water usage",
+      "Completing every job against a strict timer"
+    ],
+    "correctIndex": 0,
+    "rationale": "Replaced nozzle-pattern candidate whose fetched publisher source only listed nozzles without explaining spray angles. Publisher actual text explicitly replay favourite jobs in Free Play; challenge timer/low-water scoring separate modes. Career new assignments different purpose. No unsupported nozzle claim approved.",
+    "sourceURL": "https://store.steampowered.com/app/1290000/PowerWash_Simulator/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-060",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "In PowerWash Simulator's co-op mode, players can work together to do what?",
+    "answers": [
+      "Clean locations",
+      "Race motorbikes",
+      "Construct space stations",
+      "Manage a football league"
+    ],
+    "correctIndex": 0,
+    "rationale": "Co-op clean locations together, not race/build/football. Publisher explicit online co-op combined cleaning premise. Scope cooperative mode, not offline or local split-screen promise.",
+    "sourceURL": "https://store.steampowered.com/app/1290000/PowerWash_Simulator/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-061",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What kind of animal does the player control in Stray?",
+    "answers": [
+      "A cat",
+      "A dog",
+      "A fox",
+      "A rabbit"
+    ],
+    "correctIndex": 0,
+    "rationale": "Cat protagonist, not dog/fox/rabbit. Publisher Steam synopsis explicit. Distinct from later drone/escape goal questions, not a duplicated release-year fact.",
+    "sourceURL": "https://store.steampowered.com/app/1332010/Stray/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-062",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Which small drone befriends the cat in Stray?",
+    "answers": [
+      "B-12",
+      "R2-D2",
+      "WALL-E",
+      "Clank"
+    ],
+    "correctIndex": 0,
+    "rationale": "B-12 companion drone, other named robots not Stray. Actual publisher narrative paragraph explicit. Hyphen spelling correct and no claim all characters know its backstory.",
+    "sourceURL": "https://store.steampowered.com/app/1332010/Stray/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-063",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Many of the inhabitants of the city in Stray are what?",
+    "answers": [
+      "Robots",
+      "Dinosaurs",
+      "Giants",
+      "Mermaids"
+    ],
+    "correctIndex": 0,
+    "rationale": "Robots many inhabitants. Publisher actual narrative says curious droids, not merely user-assigned Steam tags. Dinosaurs/giants/mermaids absent as main citizens. Many allows dangerous creatures and protagonist cat also living there.",
+    "sourceURL": "https://store.steampowered.com/app/1332010/Stray/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-064",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is the cat ultimately trying to escape from in Stray?",
+    "answers": [
+      "A forgotten city",
+      "A remote island",
+      "A research station in space",
+      "A medieval fortress"
+    ],
+    "correctIndex": 0,
+    "rationale": "Escape forgotten cybercity to reach home. Other confined settings false. Actual publisher overview explicit. Improved irrelevant race/sports distractors into places; avoids naming city if not officially given.",
+    "sourceURL": "https://store.steampowered.com/app/1332010/Stray/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-065",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "How many players is It Takes Two designed to be played by?",
+    "answers": [
+      "Two",
+      "One",
+      "Three",
+      "Four"
+    ],
+    "correctIndex": 0,
+    "rationale": "Two players by design; one/three/four not core game. Actual EA purely-for-two couch/online passage inspected. Does not assert both players must buy full copies.",
+    "sourceURL": "https://www.ea.com/games/it-takes-two",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-066",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What are the names of the main playable couple in It Takes Two?",
+    "answers": [
+      "Cody and May",
+      "Joel and Ellie",
+      "Mario and Peach",
+      "Nathan and Elena"
+    ],
+    "correctIndex": 0,
+    "rationale": "Cody and May named playable couple, other familiar pairs different games. Actual EA passage explicit. No claim other pairs share same relationship dynamics.",
+    "sourceURL": "https://www.ea.com/games/it-takes-two",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-067",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What are Cody and May transformed into in It Takes Two?",
+    "answers": [
+      "Dolls",
+      "Dragons",
+      "Race cars",
+      "Spaceships"
+    ],
+    "correctIndex": 0,
+    "rationale": "Publisher Steam description explicitly two humans turned into dolls by spell. Dragons/cars/spaceships other fictional transformations. No specific material assumption about each doll.",
+    "sourceURL": "https://store.steampowered.com/app/1426210/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-068",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What must the two players repeatedly do to overcome challenges in It Takes Two?",
+    "answers": [
+      "Cooperate",
+      "Compete for a single winning position",
+      "Play unrelated single-player campaigns",
+      "Control only one character in alternating turns"
+    ],
+    "correctIndex": 0,
+    "rationale": "Players cooperate through connected abilities. Single-winner competition, unrelated campaigns and one-character turn-taking not designed play. Actual EA pure co-op and connected abilities inspected. Removed uninstall joke; distinct teamwork concept from numeric player count.",
+    "sourceURL": "https://www.ea.com/games/it-takes-two",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-069",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is the name of the fallen kingdom explored in Hollow Knight?",
+    "answers": [
+      "Hallownest",
+      "Hyrule",
+      "Azeroth",
+      "Tamriel"
+    ],
+    "correctIndex": 0,
+    "rationale": "Hallownest explicitly kingdom in Nintendo official description. Hyrule/Azeroth/Tamriel different fantasy game worlds. Fallen/ruined setting corroborated developer premise. Correct proper noun, no hidden ending lore.",
+    "sourceURL": "https://www.nintendo.com/US/store/products/hollow-knight-switch/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-070",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "The player character's main weapon in Hollow Knight is called what?",
+    "answers": [
+      "A Nail",
+      "A lightsaber",
+      "A rocket launcher",
+      "A trident"
+    ],
+    "correctIndex": 0,
+    "rationale": "Developer introducing-game blog explicitly old nail primary weapon. Lightsaber/rocket/trident false names. Early development text corroborates stable weapon term; no prerelease visual detail promoted into current gameplay claim.",
+    "sourceURL": "https://www.teamcherry.com.au/blog/introducing-hollow-knight",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-071",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Many inhabitants of Hollow Knight's world resemble which creatures?",
+    "answers": [
+      "Insects and other bugs",
+      "Large sea mammals",
+      "Farm cattle",
+      "Birds of prey"
+    ],
+    "correctIndex": 0,
+    "rationale": "Publisher description explicitly insects and bizarre bugs. Other mammal/bird groups not primary visual inspiration. Many/and-other-bugs wording avoids false taxonomy of every creature, since fungi and other arthropods exist.",
+    "sourceURL": "https://store.steampowered.com/app/367520",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-072",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Hollow Knight is primarily presented from which viewpoint?",
+    "answers": [
+      "Side-on in 2D",
+      "From a first-person viewpoint",
+      "From directly overhead in 3D",
+      "Through a fixed vehicle cockpit"
+    ],
+    "correctIndex": 0,
+    "rationale": "Side-on 2D action-adventure, alternatives other viewpoints. Developer actual 2D description plus Nintendo official store explicit side-scrolling feature checked. No screenshot inspection claimed. Replaced spreadsheet/news-desk nonsense with game viewpoints. Does not claim all art has no depth effects.",
+    "sourceURL": "https://www.nintendo.com/US/store/products/hollow-knight-switch/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-073",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Cuphead's visual style was strongly inspired by cartoons from which decade?",
+    "answers": [
+      "The 1930s",
+      "The 1960s",
+      "The 1980s",
+      "The 2000s"
+    ],
+    "correctIndex": 0,
+    "rationale": "1930s cartoons official inspiration, other decades incorrect. Studio actual animation paragraph inspected. Decade question not release year, traditional animation/jazz not overextended to every frame's production technique.",
+    "sourceURL": "https://www.cupheadgame.com/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-074",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Who is Cuphead's playable partner in the original game's two-player mode?",
+    "answers": [
+      "Mugman",
+      "Luigi",
+      "Tails",
+      "Diddy Kong"
+    ],
+    "correctIndex": 0,
+    "rationale": "Original two-player partner Mugman. Luigi/Tails/Diddy different franchises; original qualifier avoids DLC Ms. Chalice alternate. Actual Studio premise names Cuphead and Mugman and local co-op.",
+    "sourceURL": "https://www.cupheadgame.com/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-075",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "A major part of Cuphead involves fighting what?",
+    "answers": [
+      "Boss enemies",
+      "Military strategy campaigns",
+      "Turn-based card battles",
+      "Professional racing seasons"
+    ],
+    "correctIndex": 0,
+    "rationale": "Boss battles prominent, other game formats not central. Studio explicit screen-filling bosses inspected. Does not imply no run-and-gun platform stages.",
+    "sourceURL": "https://www.cupheadgame.com/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-076",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "To whom do Cuphead and Mugman owe a debt in the game's main story?",
+    "answers": [
+      "The Devil",
+      "Bowser",
+      "Dr. Eggman",
+      "King Dedede"
+    ],
+    "correctIndex": 0,
+    "rationale": "Debt to Devil after casino, not Bowser/Eggman/Dedede. Actual Studio plot explicitly debts/souls at Devil casino. Fictional story question not a real gambling instruction.",
+    "sourceURL": "https://www.cupheadgame.com/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-077",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Which company runs the testing facilities in Portal 2?",
+    "answers": [
+      "Aperture Science",
+      "Black Mesa",
+      "Umbrella Corporation",
+      "Abstergo Industries"
+    ],
+    "correctIndex": 0,
+    "rationale": "Aperture Science testing labs, not Black Mesa/Umbrella/Abstergo. Actual Valve Steam description explicitly lab name. Black Mesa shared universe distractor remains wrong facility operator here.",
+    "sourceURL": "https://store.steampowered.com/app/620/Portal_2/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-078",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does the portal gun mainly create in Portal 2?",
+    "answers": [
+      "Two connected portals",
+      "A force field around the player",
+      "A swarm of repair drones",
+      "A permanent bridge between any two platforms"
+    ],
+    "correctIndex": 0,
+    "rationale": "Actual encyclopaedia gameplay explicitly portal device pair of two connected traversable portals. Other options different plausible sci-fi tool effects, not portal gun. Secondary reference openly identified, not called Valve source.",
+    "sourceURL": "https://en.wikipedia.org/wiki/Portal_2",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-079",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Who is the main human player character in Portal 2's single-player story?",
+    "answers": [
+      "Chell",
+      "Alyx Vance",
+      "Samus Aran",
+      "Lara Croft"
+    ],
+    "correctIndex": 0,
+    "rationale": "Actual encyclopaedia gameplay explicitly Chell single-player protagonist, robots in cooperative campaign. Alyx/Samus/Lara other familiar characters. Avoided relying on official LEGO Dimensions blog crossover text to prove original campaign.",
+    "sourceURL": "https://en.wikipedia.org/wiki/Portal_2",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-080",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What are the names of the two playable robots in Portal 2's co-op campaign?",
+    "answers": [
+      "Atlas and P-body",
+      "Ratchet and Clank",
+      "C-3PO and R2-D2",
+      "Wallace and Gromit"
+    ],
+    "correctIndex": 0,
+    "rationale": "Valve official Portal 2 blog names Atlas and P-Body co-op science partners. Other robot/fiction pairs not this campaign. Correct hyphenation; does not confuse separate Chell single-player story.",
+    "sourceURL": "https://www.thinkwithportals.com/blog.php?id=6430",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-081",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "In Beat Saber, players mainly slice blocks in time with what?",
+    "answers": [
+      "Music",
+      "A spoken navigation guide",
+      "A commentary on a sports match",
+      "A recorded language lesson"
+    ],
+    "correctIndex": 0,
+    "rationale": "Blocks sliced in time with music. Other recordings not rhythm gameplay source. Actual publisher Steam slash-the-beats/music matching passage plus official VR-rhythm title checked. Revised irrelevant forecast/news examples into audio alternatives.",
+    "sourceURL": "https://store.steampowered.com/app/620980/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-082",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does a direction arrow on a standard Beat Saber block tell the player?",
+    "answers": [
+      "Which direction to cut it",
+      "Which track to select next",
+      "Which way to turn the volume control",
+      "Which menu to open"
+    ],
+    "correctIndex": 0,
+    "rationale": "Directional arrow indicates cut direction, not song/menu/volume. Publisher explicitly match direction. Standard directional block qualifier excludes dot/no-arrow notes and some alternate modes. Grammar correct.",
+    "sourceURL": "https://store.steampowered.com/app/620980/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-083",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "In a standard two-colour Beat Saber level, what should players normally match to a block's colour?",
+    "answers": [
+      "The corresponding saber",
+      "The chosen difficulty level",
+      "The title of the next song",
+      "The remaining battery indicator"
+    ],
+    "correctIndex": 0,
+    "rationale": "Match block colour with corresponding saber, not difficulty/song title/battery. Publisher explicitly match colour, standard two-colour qualifier avoids one-saber/custom-mode exceptions. Removed postcode/shoe-size nonsense.",
+    "sourceURL": "https://store.steampowered.com/app/620980/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-084",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Beat Saber is designed primarily for which type of gaming hardware?",
+    "answers": [
+      "Virtual-reality headsets",
+      "Steering-wheel controllers",
+      "Fishing-rod controllers",
+      "Flight-simulator throttles"
+    ],
+    "correctIndex": 0,
+    "rationale": "VR headsets core hardware, not racing/fishing/flight peripherals. Actual official site VR-rhythm description and named Quest/Steam/PlayStation VR availability checked. Primarily avoids unsupported absolute accessory incompatibility.",
+    "sourceURL": "https://www.beatsaber.com/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-085",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "In a standard Turf War in Splatoon 3, teams mainly compete to cover ground with what?",
+    "answers": [
+      "Their own colour of ink",
+      "Sand",
+      "Snow",
+      "Grass seeds"
+    ],
+    "correctIndex": 0,
+    "rationale": "Turf War covers ground in team ink, not sand/snow/seeds. Nintendo explicit Turf War description inspected. Scope standard Turf War, not kills win every mode.",
+    "sourceURL": "https://www.nintendo.com/us/store/products/splatoon-3-switch/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-086",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "In Splatoon 3, changing into swim form helps players move through what?",
+    "answers": [
+      "Their own team's ink",
+      "Only clean water",
+      "Only enemy ink",
+      "Only bare concrete"
+    ],
+    "correctIndex": 0,
+    "rationale": "Nintendo actual how-to explicitly Swim Form through own ink, climb ink-covered walls/refill. Clean water/enemy ink/bare concrete incorrect movement-medium options. Own team colour shared; not saying only player personally fired that ink.",
+    "sourceURL": "https://splatoon.nintendo.com/ca/gameplay/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-087",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "The main playable characters in Splatoon 3 include Inklings and which other group?",
+    "answers": [
+      "Octolings",
+      "Goombas",
+      "Koopas",
+      "Gorons"
+    ],
+    "correctIndex": 0,
+    "rationale": "Octolings alongside Inklings playable, not Goombas/Koopas/Gorons from other Nintendo worlds. Actual Nintendo playable-characters paragraph explicit. Include wording permits story characters too.",
+    "sourceURL": "https://www.nintendo.com/us/store/products/splatoon-3-switch/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-088",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What kind of game is Splatoon 3 primarily?",
+    "answers": [
+      "A colourful team shooter",
+      "A realistic driving simulator",
+      "A farming simulator",
+      "A card-based solitaire game"
+    ],
+    "correctIndex": 0,
+    "rationale": "Colourful team shooter main format, not driving/farming/solitaire. Nintendo actual Turf War/team ink battles description checked. Primarily permits solo story and cooperative modes.",
+    "sourceURL": "https://www.nintendo.com/us/store/products/splatoon-3-switch/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-089",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does a banana item usually make another kart do on contact in Mario Kart 8 Deluxe?",
+    "answers": [
+      "Spin out",
+      "Become invincible",
+      "Steal an item",
+      "Shrink in size"
+    ],
+    "correctIndex": 0,
+    "rationale": "Banana spins karts driving over it, not invincibility/theft/shrinking. Nintendo item guide explicit. Usually permits invulnerable/protected racer exceptions; not guaranteed effect against Star.",
+    "sourceURL": "https://www.nintendo.com/ph/switch/aabp/item/index.html",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-090",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is a key feature of a green shell in Mario Kart 8 Deluxe?",
+    "answers": [
+      "It travels without automatically homing in on a racer",
+      "It always seeks the racer in first place",
+      "It makes the user invisible",
+      "It shrinks every rival kart"
+    ],
+    "correctIndex": 0,
+    "rationale": "Green shell no homing, unlike leader-seeking shell. Invisibility and shrinking other items. Nintendo explicitly straight travel/first kart hit. No claim never bounces or always hits intended rival.",
+    "sourceURL": "https://www.nintendo.com/ph/switch/aabp/item/index.html",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-091",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does a red shell usually do when thrown forwards in Mario Kart 8 Deluxe?",
+    "answers": [
+      "Home in on a racer ahead",
+      "Shield the kart from all attacks",
+      "Shrink every rival kart",
+      "Give the user a speed boost"
+    ],
+    "correctIndex": 0,
+    "rationale": "Forward red shell homes on kart ahead. Shield/shrinking/boost other mechanics. Nintendo item guide exact homing statement checked. Usually avoids obstacle/defence exceptions; forward qualifier distinguishes backward throw.",
+    "sourceURL": "https://www.nintendo.com/ph/switch/aabp/item/index.html",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-092",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Which racer does the blue Spiny Shell mainly target in Mario Kart 8 Deluxe?",
+    "answers": [
+      "The racer in first place",
+      "The racer in last place",
+      "Only the racer carrying the most coins",
+      "Only a racer using a motorbike"
+    ],
+    "correctIndex": 0,
+    "rationale": "Spiny shell mainly lead kart. Last-place/coin-rich/motorbike-only wrong targets. Nintendo explicit lead-kart description. Mainly accommodates hitting other racers along route and position changes.",
+    "sourceURL": "https://www.nintendo.com/ph/switch/aabp/item/index.html",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-093",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does Ultrahand let Link do in Tears of the Kingdom?",
+    "answers": [
+      "Move and attach objects to build things",
+      "Reverse a moving object's path",
+      "Pass upwards through a ceiling",
+      "Combine material with an equipped weapon"
+    ],
+    "correctIndex": 0,
+    "rationale": "Ultrahand moves/rotates/attaches objects; others describe Recall/Ascend/Fuse. Actual Nintendo ability guide checked. Replaced automatic shrine/language nonsense with other real Link abilities; moving/building core clear.",
+    "sourceURL": "https://www.nintendo.com/us/whatsnew/an-epic-adventure-awaits-in-the-legend-of-zelda-tears-of-the-kingdom/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-094",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does Fuse let Link do in Tears of the Kingdom?",
+    "answers": [
+      "Combine materials with weapons or shields",
+      "Pass upwards through a ceiling",
+      "Reverse a moving object's path",
+      "Move and attach objects to build vehicles"
+    ],
+    "correctIndex": 0,
+    "rationale": "Fuse combines objects to equipped weapon/shield, not Ascend/Recall/Ultrahand. Actual Nintendo guide also arrows, no claim limited to two equipment types. Other alternatives unique functions.",
+    "sourceURL": "https://www.nintendo.com/us/whatsnew/an-epic-adventure-awaits-in-the-legend-of-zelda-tears-of-the-kingdom/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-095",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does Ascend let Link do in Tears of the Kingdom?",
+    "answers": [
+      "Pass upwards through a suitable ceiling",
+      "Reverse an object's recent movement",
+      "Bind material to an equipped shield",
+      "Rotate and attach objects to build vehicles"
+    ],
+    "correctIndex": 0,
+    "rationale": "Ascend passes suitable objects/ceilings above, not Recall/Fuse/Ultrahand functions. Actual Nintendo guide explicitly above/ceilings/hills. Suitable qualifier avoids promise arbitrary height/thickness works.",
+    "sourceURL": "https://www.nintendo.com/us/whatsnew/an-epic-adventure-awaits-in-the-legend-of-zelda-tears-of-the-kingdom/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-096",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What does Recall do to a selected moving object in Tears of the Kingdom?",
+    "answers": [
+      "Reverses its movement through time",
+      "Permanently fuses it to a weapon",
+      "Attaches it to another object for building",
+      "Turns it into a platform Link can pass upwards through"
+    ],
+    "correctIndex": 0,
+    "rationale": "Recall reverses chosen object's movement. Fuse/Ultrahand and upward traversal do not reverse path. Actual Nintendo guide explicitly reversal with examples. No claim reverses all world history or player's entire save.",
+    "sourceURL": "https://www.nintendo.com/us/whatsnew/an-epic-adventure-awaits-in-the-legend-of-zelda-tears-of-the-kingdom/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-097",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Which region is the main setting of Pokémon Scarlet and Violet?",
+    "answers": [
+      "Paldea",
+      "Kanto",
+      "Johto",
+      "Sinnoh"
+    ],
+    "correctIndex": 0,
+    "rationale": "Nintendo actual Scarlet description explicitly both Scarlet and Violet Paldea adventure. Kanto/Johto/Sinnoh other regions. Main setting qualifier permits expansions elsewhere.",
+    "sourceURL": "https://www.nintendo.com/us/store/products/pokemon-scarlet-114549/",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-098",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "What is Sprigatito's type as a first partner in Pokémon Scarlet and Violet?",
+    "answers": [
+      "Grass",
+      "Fire",
+      "Water",
+      "Electric"
+    ],
+    "correctIndex": 0,
+    "rationale": "Official Pokedex evolution row explicitly Sprigatito number0906 Grass, separate from Floragato and dual-type final evolution. Fire/water/electric wrong for unevolved first partner. No inference that all later evolutions remain single type.",
+    "sourceURL": "https://www.pokemon.com/us/pokedex/floragato",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-099",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "The first-partner Pokémon Quaxly resembles which bird?",
+    "answers": [
+      "A duck",
+      "An owl",
+      "A penguin",
+      "An eagle"
+    ],
+    "correctIndex": 0,
+    "rationale": "Official press release explicitly Quaxly Duckling Pokemon. Owl/penguin/eagle different birds. Resembles avoids assertion fictional species is biologically a real duck, and first-partner wording correct.",
+    "sourceURL": "https://press.pokemon.com/en/RELEASE-DATE-REVEALED-FOR-POKEMON-SCARLET-AND-POKEMON-VIOLET",
+    "reviewStatus": "author_final_checked"
+  },
+  {
+    "draftID": "easy-15-100",
+    "categoryID": "15",
+    "difficulty": "easy",
+    "prompt": "Which legendary Pokémon is the main ride companion in Pokémon Scarlet?",
+    "answers": [
+      "Koraidon",
+      "Miraidon",
+      "Rayquaza",
+      "Lugia"
+    ],
+    "correctIndex": 0,
+    "rationale": "Nintendo explicit Koraidon Scarlet/Miraidon Violet ride companion. Scarlet version specified prevents two valid offered version mascots. Rayquaza/Lugia other legendaries not main ride companion. No false claim all legendary species unavailable through trading.",
+    "sourceURL": "https://www.nintendo.com/us/store/products/pokemon-scarlet-114549/",
+    "reviewStatus": "author_final_checked"
+  }
+]

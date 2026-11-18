@@ -1,9 +1,9 @@
 {
   "updated": "2026-11-18",
   "targetNewEasy": 3100,
-  "reviewedAndValidated": 2400,
-  "localBankCount": 24317,
-  "liveBankCount": 24317,
+  "reviewedAndValidated": 2500,
+  "localBankCount": 24417,
+  "liveBankCount": 24417,
   "topics": [
     {
       "topicID": "9",
@@ -57,9 +57,9 @@
       "topicID": "15",
       "name": "Video Games",
       "targetNewEasy": 100,
-      "authored": 0,
-      "reviewedAndValidated": 0,
-      "deployedNewEasy": 0
+      "authored": 100,
+      "reviewedAndValidated": 100,
+      "deployedNewEasy": 100
     },
     {
       "topicID": "16",

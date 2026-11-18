@@ -1,0 +1,574 @@
+{
+  "date": "2026-11-18",
+  "note": "100 individual author judgments consolidated from explicit partial checks. Incorrect dictionary meanings and unsupported publisher homepage claims rejected. Roblox official staff/educational/financial material, Epic and Nintendo gameplay documentation, developer/publisher descriptions and inspected dictionary senses used. Three community/encyclopaedia references (Pelican Town, Watering Cans, Portal 2) honestly identified as secondary. Direct failures/stubs are not full-content inspection. Source retrieval itself grants no approval. No private source extracts republished.",
+  "references": [
+    {
+      "url": "https://animalcrossing.nintendo.com/new-horizons/create/",
+      "questionRows": [
+        46
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://animalcrossing.nintendo.com/new-horizons/explore/",
+      "questionRows": [
+        47,
+        48
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://animalcrossing.nintendo.com/new-horizons/nintendo-switch-2-edition/",
+      "questionRows": [
+        45
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://cms-media.roblox.com/cgZgr42gQCmFiElxawyc",
+      "questionRows": [
+        37
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://dev.epicgames.com/documentation/en-us/fortnite/how-to-design-a-game-in-fortnite-creative",
+      "questionRows": [
+        27
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://dev.epicgames.com/documentation/en-us/fortnite/pickaxe",
+      "questionRows": [
+        32
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://devforum.roblox.com/t/linguistic-resources-for-translators/3051605",
+      "questionRows": [
+        39
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/co-op",
+      "questionRows": [
+        8
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/co-op",
+      "sha256": "14e21f3351a2f7e9a177a2d2386ffa72bcd6f0bba974f84f186f3544556a8ad8",
+      "inspectionMethod": "Relevant actual body or dictionary sense inspected; per-item judgments identify the supporting meaning."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/cosmetic",
+      "questionRows": [
+        17
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/cosmetic",
+      "sha256": "f02a21a83200197c224360f8721575744c137a3e39a2c37b837232e83fd11940",
+      "inspectionMethod": "Relevant actual body or dictionary sense inspected; per-item judgments identify the supporting meaning."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/cross-play",
+      "questionRows": [
+        9
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/cross-play",
+      "sha256": "d6e6698ef9af731c380f0d10910db6d06b9cdeeb68a8dc055009aac31f1dc16a",
+      "inspectionMethod": "Relevant actual body or dictionary sense inspected; per-item judgments identify the supporting meaning."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/fps",
+      "questionRows": [
+        5
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/fps",
+      "sha256": "30132c067edbc559f4899711f94de5977aa56216cc6dd1096e4e9d9693ad34f4",
+      "inspectionMethod": "Relevant actual body or dictionary sense inspected; per-item judgments identify the supporting meaning."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/mmorpg",
+      "questionRows": [
+        7
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/mmorpg",
+      "sha256": "c1b4215a5d6a0f257c958996b34da8b16dac199bc70a38c4c0560007400f3290",
+      "inspectionMethod": "Relevant actual body or dictionary sense inspected; per-item judgments identify the supporting meaning."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/mod",
+      "questionRows": [
+        16
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/mod",
+      "sha256": "47b2feb88d3af15e391e14a2eb37643bdf2d8cc8fe4278d84f723432486ccd44",
+      "inspectionMethod": "Relevant actual body or dictionary sense inspected; per-item judgments identify the supporting meaning."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/open-world",
+      "questionRows": [
+        13
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/open-world",
+      "sha256": "330961899444ff051bc2f0a176139e93791465d36abe9511f95036c1e76c2ecb",
+      "inspectionMethod": "Relevant actual body or dictionary sense inspected; per-item judgments identify the supporting meaning."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/respawn",
+      "questionRows": [
+        11
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/respawn",
+      "sha256": "7d53379a5902cb239bd4d5732281c950643c58e6f66b1df64569dae04c47a3b6",
+      "inspectionMethod": "Relevant actual body or dictionary sense inspected; per-item judgments identify the supporting meaning."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/tutorial",
+      "questionRows": [
+        12
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/tutorial",
+      "sha256": "5f98feca20dedac5b860e6096c7d06c74107523587475b0f8da4f7ce1a7db4af",
+      "inspectionMethod": "Relevant actual body or dictionary sense inspected; per-item judgments identify the supporting meaning."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Portal_2",
+      "questionRows": [
+        78,
+        79
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed.",
+      "referenceType": "secondary encyclopaedia/community game reference"
+    },
+    {
+      "url": "https://epix.xbox.com/shaXam/0201/22/21/22216d0d-ec10-4d34-9ced-4c1f2244927c.PDF?v=1",
+      "questionRows": [
+        10,
+        14
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed.",
+      "directFetchStatus": "fetch_failed"
+    },
+    {
+      "url": "https://feedback.minecraft.net/hc/en-us/articles/360044928311-Minecraft-Nether-Update-1-16-0-Bedrock",
+      "questionRows": [
+        18
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://goose.game/",
+      "questionRows": [
+        53
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://goose.game/",
+      "sha256": "bea643af4f1ee23925d07acf7f3cbe0945f9837b2d3408be10e89bdaa49f42d2",
+      "inspectionMethod": "Relevant actual body or dictionary sense inspected; per-item judgments identify the supporting meaning."
+    },
+    {
+      "url": "https://ir.roblox.com/files/doc_financials/2023/ar/roblox-2024-proxy-and-2023-annual-report.pdf",
+      "questionRows": [
+        40
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://partner.steamgames.com/doc/store/application/dlc",
+      "questionRows": [
+        2
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://press.pokemon.com/en/RELEASE-DATE-REVEALED-FOR-POKEMON-SCARLET-AND-POKEMON-VIOLET",
+      "questionRows": [
+        99
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://prod.docsiteassets.roblox.com/assets/education/legacy/Handout_-_Roblox_Glossary.pdf",
+      "questionRows": [
+        38
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://splatoon.nintendo.com/ca/gameplay/",
+      "questionRows": [
+        86
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://stardewvalleywiki.com/Pelican_Town",
+      "questionRows": [
+        42
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed.",
+      "referenceType": "secondary encyclopaedia/community game reference"
+    },
+    {
+      "url": "https://stardewvalleywiki.com/Watering_Cans",
+      "questionRows": [
+        43
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed.",
+      "referenceType": "secondary encyclopaedia/community game reference"
+    },
+    {
+      "url": "https://store.epicgames.com/p/fortnite--extinction-code-pack",
+      "questionRows": [
+        31
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://store.steampowered.com/app/1290000/PowerWash_Simulator/",
+      "questionRows": [
+        57,
+        58,
+        59,
+        60
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://store.steampowered.com/app/1290000/PowerWash_Simulator/",
+      "sha256": "f5ab855ecaa3861a510ed63501dc822e9269f41703002353261cc217cd2b5eee",
+      "inspectionMethod": "Relevant actual body or dictionary sense inspected; per-item judgments identify the supporting meaning."
+    },
+    {
+      "url": "https://store.steampowered.com/app/1332010/Stray/",
+      "questionRows": [
+        61,
+        62,
+        63,
+        64
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://store.steampowered.com/app/1332010/Stray/",
+      "sha256": "19bf1e6bd2e7c1384f2fb2bc993896454682a14412c970f58f5c335840f012e3",
+      "inspectionMethod": "Relevant actual body or dictionary sense inspected; per-item judgments identify the supporting meaning."
+    },
+    {
+      "url": "https://store.steampowered.com/app/1426210/",
+      "questionRows": [
+        67
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://store.steampowered.com/app/367520",
+      "questionRows": [
+        71
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://store.steampowered.com/app/620/Portal_2/",
+      "questionRows": [
+        77
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://store.steampowered.com/app/620/Portal_2/",
+      "sha256": "db735ef5a6118137069659bf1d3c19276bcdf46aec65130495b60bad2ad32ab9",
+      "inspectionMethod": "Relevant actual body or dictionary sense inspected; per-item judgments identify the supporting meaning."
+    },
+    {
+      "url": "https://store.steampowered.com/app/620980/",
+      "questionRows": [
+        81,
+        82,
+        83
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://store.steampowered.com/app/837470/Untitled_Goose_Game/",
+      "questionRows": [
+        54,
+        55,
+        56
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://worldofwarcraft.blizzard.com/en-us/news/24315280",
+      "questionRows": [
+        19
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://www.beatsaber.com/",
+      "questionRows": [
+        84
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://www.beatsaber.com/",
+      "sha256": "2aacd36b1c8a5709e88e0b720d6d85b2f265dbba28a2fd4bd84f93a33c3de486",
+      "inspectionMethod": "Relevant actual body or dictionary sense inspected; per-item judgments identify the supporting meaning."
+    },
+    {
+      "url": "https://www.cupheadgame.com/",
+      "questionRows": [
+        73,
+        74,
+        75,
+        76
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://www.cupheadgame.com/",
+      "sha256": "88819f7b968cf89ecb244d32411308a6e14ff83306083c8cff28ff719c4ad96b",
+      "inspectionMethod": "Relevant actual body or dictionary sense inspected; per-item judgments identify the supporting meaning."
+    },
+    {
+      "url": "https://www.ea.com/games/it-takes-two",
+      "questionRows": [
+        65,
+        66,
+        68
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://www.ea.com/games/it-takes-two/it-takes-two",
+      "sha256": "b276da019f6b93a887bfd7036769fece1f84aa6b434c35d4ab6d01be919ac426",
+      "inspectionMethod": "Relevant actual body or dictionary sense inspected; per-item judgments identify the supporting meaning."
+    },
+    {
+      "url": "https://www.fallguys.com/en-US",
+      "questionRows": [
+        25,
+        26
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://www.fallguys.com/?lang=en-US",
+      "sha256": "8c0a341fa4f02c0350985e1155ef838ce61daa03fb4cfcebc134578b14692db3",
+      "inspectionMethod": "Relevant actual body or dictionary sense inspected; per-item judgments identify the supporting meaning."
+    },
+    {
+      "url": "https://www.fallguys.com/news/upcoming-fall-guys-currency-changes?lang=en-US",
+      "questionRows": [
+        28
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://www.fortnite.com/@epic/battle-royale",
+      "questionRows": [
+        29
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://www.fortnite.com/patch-notes/v4-5",
+      "questionRows": [
+        30
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://www.innersloth.com/games/among-us/",
+      "questionRows": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://www.innersloth.com/games/among-us/",
+      "sha256": "08be574f090dd118daa16c5af0680a08c65861669440b76d5b2a70bcca054b77",
+      "inspectionMethod": "Relevant actual body or dictionary sense inspected; per-item judgments identify the supporting meaning."
+    },
+    {
+      "url": "https://www.minecraft.net/en-us/article/spawning-and-dying",
+      "questionRows": [
+        35
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://www.minecraft.net/es-mx/article/taking-inventory--shears",
+      "questionRows": [
+        36
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://www.minecraft.net/fr-fr/article/how-survive-your-first-day",
+      "questionRows": [
+        33,
+        34
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://www.nintendo.com/US/store/products/hollow-knight-switch/",
+      "questionRows": [
+        69,
+        72
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_3ds_2/bravely_default/ElectronicManual_BravelyDefault_EN.pdf",
+      "questionRows": [
+        15
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_8/Manual_Nintendo64_WaveRace64_EN.pdf",
+      "questionRows": [
+        20
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://www.nintendo.com/ph/switch/aabp/item/index.html",
+      "questionRows": [
+        89,
+        90,
+        91,
+        92
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://www.nintendo.com/us/store/products/pokemon-scarlet-114549/",
+      "questionRows": [
+        97,
+        100
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://www.nintendo.com/us/store/products/splatoon-3-switch/",
+      "questionRows": [
+        85,
+        87,
+        88
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://www.nintendo.com/us/store/products/splatoon-3-switch/",
+      "sha256": "666d3da68986d8c9157ee327ff89493af695b16186ac1a0c04f1e4297c19a9c6",
+      "inspectionMethod": "Relevant actual body or dictionary sense inspected; per-item judgments identify the supporting meaning."
+    },
+    {
+      "url": "https://www.nintendo.com/us/whatsnew/an-epic-adventure-awaits-in-the-legend-of-zelda-tears-of-the-kingdom/",
+      "questionRows": [
+        93,
+        94,
+        95,
+        96
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://www.playstation.com/en-ca/editorial/playstation-ultimate-gaming-glossary/",
+      "questionRows": [
+        1,
+        3,
+        4,
+        6
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://www.playstation.com/en-ca/editorial/playstation-ultimate-gaming-glossary/",
+      "sha256": "fe3681a08528b9497d52edb02f336735bf4ef40b58eb859238280a79109289d4",
+      "inspectionMethod": "Relevant actual body or dictionary sense inspected; per-item judgments identify the supporting meaning."
+    },
+    {
+      "url": "https://www.pokemon.com/us/pokedex/floragato",
+      "questionRows": [
+        98
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://www.stardewvalley.net/about/",
+      "questionRows": [
+        41,
+        44
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://www.stardewvalley.net/about/",
+      "sha256": "3dbbf729fe2a502fb77d5ac610c16eee84f9e8056bb99033ed4e6b18242bd078",
+      "inspectionMethod": "Relevant actual body or dictionary sense inspected; per-item judgments identify the supporting meaning."
+    },
+    {
+      "url": "https://www.team17.com/games/overcooked-2/",
+      "questionRows": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "status": "retrieved_for_inspection",
+      "resolvedURL": "https://www.team17.com/games/overcooked-2",
+      "sha256": "d197f664441cb0d0c06d076f67f23cfd45539c3136876057b1a9d03380cfd92f",
+      "inspectionMethod": "Relevant actual body or dictionary sense inspected; per-item judgments identify the supporting meaning."
+    },
+    {
+      "url": "https://www.teamcherry.com.au/blog/introducing-hollow-knight",
+      "questionRows": [
+        70
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    },
+    {
+      "url": "https://www.thinkwithportals.com/blog.php?id=6430",
+      "questionRows": [
+        80
+      ],
+      "status": "indexed_relevant_passage_inspected",
+      "inspectionMethod": "Relevant actual passage inspected through web output; full direct page/PDF retrieval not claimed."
+    }
+  ]
+}
