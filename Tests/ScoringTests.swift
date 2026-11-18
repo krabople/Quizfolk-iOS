@@ -116,7 +116,7 @@ final class ScoringTests:XCTestCase {
         await game.usePower(.right);XCTAssertFalse(game.power.used)
         // The reading task and this test share MainActor. Await the phase
         // change rather than assuming both tasks were scheduled together.
-        let readingDeadline=ContinuousClock.now.advanced(by:.seconds(6))
+        let readingDeadline=ContinuousClock.now.advanced(by:.seconds(QuestionReadingTime.seconds(for:game.current!.prompt)+2))
         while game.reading && ContinuousClock.now<readingDeadline {
             try await Task.sleep(for:.milliseconds(50))
         }
