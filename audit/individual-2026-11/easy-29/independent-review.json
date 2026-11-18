@@ -1,0 +1,1233 @@
+{
+  "reviewer": "root (author second editorial pass)",
+  "independent": false,
+  "sourceAccessNote": "100 explicit author judgments. Original profile-path guesses blocked or obsolete; actual publisher biographies, indexed comics descriptions, official character sheets and authorised educational references used as applicable. Indexed passages are not claimed to be full-text retrieval. Revised several questions to text-verifiable alternatives; corrected Obelix small-boy age, Dennis jumper grammar, borderless panels, and repeated Books anthology concept. Private excerpts not republished.",
+  "rows": [
+    {
+      "row": 1,
+      "prompt": "Which Marvel superhero is Peter Parker?",
+      "action": "edit",
+      "note": "Peter Parker is Spider-Man. Stark's Iron Man,Murdock's Daredevil,Barton's Hawkeye wrong. Comics identity differs from prior question about radioactive origin. Publisher Spider-Man biography inspected through index.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.marvel.com/characters/spider-man-peter-parker/in-comics",
+        "rationale": "Peter Parker is Spider-Man. Stark's Iron Man,Murdock's Daredevil,Barton's Hawkeye wrong. Comics identity differs from prior question about radioactive origin. Publisher Spider-Man biography inspected through index."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 2,
+      "prompt": "Which Marvel superhero is Steve Rogers best known as?",
+      "action": "edit",
+      "note": "Steve Rogers is Captain America, not Strange,Ant-Man,Panther. Familiar identity, not claim only Rogers ever carries title. Publisher multiverse guide explicitly identifies original Steve Rogers.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.marvel.com/comics/discover/2376/captain-americas-of-the-multiverse",
+        "rationale": "Steve Rogers is Captain America, not Strange,Ant-Man,Panther. Familiar identity, not claim only Rogers ever carries title. Publisher multiverse guide explicitly identifies original Steve Rogers."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 3,
+      "prompt": "Which Marvel superhero uses the civilian name Matt Murdock?",
+      "action": "edit",
+      "note": "Matt Murdock is Daredevil. Iron Fist,Luke Cage,Moon Knight different people. Publisher Daredevil Legacy names blind lawyer; distinct from existing hair-colour and nickname questions.",
+      "recommendedChanges": {
+        "sourceURL": "https://latency.marvel.com/comics/discover/877/daredevil-legacy",
+        "rationale": "Matt Murdock is Daredevil. Iron Fist,Luke Cage,Moon Knight different people. Publisher Daredevil Legacy names blind lawyer; distinct from existing hair-colour and nickname questions."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 4,
+      "prompt": "Which scientist was Marvel's original Ant-Man?",
+      "action": "edit",
+      "note": "Hank Pym original Ant-Man; Banner Hulk,Richards Mister Fantastic,Stark Iron Man. Original qualifier needed because Scott Lang also Ant-Man. Avengers history explicitly pairs Hank Pym/Ant-Man.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.marvel.com/teams-and-groups/avengers/in-comics",
+        "rationale": "Hank Pym original Ant-Man; Banner Hulk,Richards Mister Fantastic,Stark Iron Man. Original qualifier needed because Scott Lang also Ant-Man. Avengers history explicitly pairs Hank Pym/Ant-Man."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 5,
+      "prompt": "Which Marvel archer is Clint Barton?",
+      "action": "edit",
+      "note": "Clint Barton is Hawkeye. Falcon,Vision,Quicksilver other heroes. Publisher reveal names archer; no claim Kate Bishop cannot also use title.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.marvel.com/articles/games/marvel-rivals-announces-hawkeye-joining-launch-roster-new-map-wakanda",
+        "rationale": "Clint Barton is Hawkeye. Falcon,Vision,Quicksilver other heroes. Publisher reveal names archer; no claim Kate Bishop cannot also use title."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 6,
+      "prompt": "Natasha Romanoff is best known by which superhero name?",
+      "action": "edit",
+      "note": "Natasha Romanoff is Black Widow, not Wanda's Scarlet Witch,Janet's Wasp,Sue's Invisible Woman. Actual Comics biography uses Romanova/Romanoff variants; supplied familiar form is valid.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.marvel.com/characters/black-widow-natasha-romanova/in-comics",
+        "rationale": "Natasha Romanoff is Black Widow, not Wanda's Scarlet Witch,Janet's Wasp,Sue's Invisible Woman. Actual Comics biography uses Romanova/Romanoff variants; supplied familiar form is valid."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 7,
+      "prompt": "Before becoming Captain America, Sam Wilson was best known as whom?",
+      "action": "edit",
+      "note": "Sam Wilson originally Falcon before Captain America; others unrelated identities. Publisher Captain Americas guide explicitly former Falcon. Does not imply Wilson never returns to Falcon identity later.",
+      "recommendedChanges": {
+        "prompt": "Under which superhero name was Sam Wilson best known before becoming Captain America?",
+        "sourceURL": "https://www.marvel.com/comics/discover/2376/captain-americas-of-the-multiverse",
+        "rationale": "Sam Wilson originally Falcon before Captain America; others unrelated identities. Publisher Captain Americas guide explicitly former Falcon. Does not imply Wilson never returns to Falcon identity later."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 8,
+      "prompt": "Bucky Barnes is associated with which identity after his time as Captain America's wartime partner?",
+      "action": "edit",
+      "note": "Bucky Barnes later Winter Soldier. Surfer,Strange,Rider other characters. Namor comics biography explicitly Bucky later Winter Soldier; no claim this was his only later identity, since he also became Captain America.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.marvel.com/characters/namor/in-comics",
+        "rationale": "Bucky Barnes later Winter Soldier. Surfer,Strange,Rider other characters. Namor comics biography explicitly Bucky later Winter Soldier; no claim this was his only later identity, since he also became Captain America."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 9,
+      "prompt": "Which Marvel vigilante is Frank Castle?",
+      "action": "edit",
+      "note": "Frank Castle is Punisher. Murdock,Spector,Rand other offered vigilantes. Publisher Nick Fury biography identifies Frank Castle AKA Punisher; term vigilante avoids debating superhero vs antihero.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.marvel.com/characters/nick-fury-sr",
+        "rationale": "Frank Castle is Punisher. Murdock,Spector,Rand other offered vigilantes. Publisher Nick Fury biography identifies Frank Castle AKA Punisher; term vigilante avoids debating superhero vs antihero."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 10,
+      "prompt": "Which of these names is one of Moon Knight's identities?",
+      "action": "edit",
+      "note": "Marc Spector one Moon Knight identity. Matt,Clint,Reed not his other identities. One of qualifier respects Steven Grant/Jake Lockley rather than falsely reducing dissociative identity to one alias.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.marvel.com/teams-and-groups/avengers/in-comics",
+        "rationale": "Marc Spector one Moon Knight identity. Matt,Clint,Reed not his other identities. One of qualifier respects Steven Grant/Jake Lockley rather than falsely reducing dissociative identity to one alias."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 11,
+      "prompt": "Besides his claws, Wolverine is especially known for which ability?",
+      "action": "edit",
+      "note": "Wolverine healing factor supports rapid recovery. Underwater breathing,sand transformation,weather control not signature abilities. Publisher adamantium account and character sheet healing factor checked; not invulnerability to every injury.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.marvel.com/items/adamantium",
+        "rationale": "Wolverine healing factor supports rapid recovery. Underwater breathing,sand transformation,weather control not signature abilities. Publisher adamantium account and character sheet healing factor checked; not invulnerability to every injury."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 12,
+      "prompt": "Magneto's powers especially involve controlling what?",
+      "action": "edit",
+      "note": "Magneto magnetic powers/metal. Dreams,fire,tides not principal power. X-Men official history explicitly mastery of magnetism; does not assert only ferromagnetic real-world physics applies in fiction.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.marvel.com/teams-and-groups/x-men/in-comics",
+        "rationale": "Magneto magnetic powers/metal. Dreams,fire,tides not principal power. X-Men official history explicitly mastery of magnetism; does not assert only ferromagnetic real-world physics applies in fiction."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 13,
+      "prompt": "Which X-Men founder is especially known for telepathy?",
+      "action": "edit",
+      "note": "Professor X telepathic founder. Cyclops optic blasts,Colossus metal,Iceman ice do not provide this answer. X-Men official history identifies Xavier's telepathy/founding role.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.marvel.com/teams-and-groups/x-men/in-comics",
+        "rationale": "Professor X telepathic founder. Cyclops optic blasts,Colossus metal,Iceman ice do not provide this answer. X-Men official history identifies Xavier's telepathy/founding role."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 14,
+      "prompt": "What is Mystique's signature ability in Marvel Comics?",
+      "action": "edit",
+      "note": "Mystique shapeshifts appearance, not ice,earthquakes,fire. Publisher biography explicitly shape-shifting mutant. No appearance-only limit asserted on every continuity or current expanded powers.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.marvel.com/characters/mystique",
+        "rationale": "Mystique shapeshifts appearance, not ice,earthquakes,fire. Publisher biography explicitly shape-shifting mutant. No appearance-only limit asserted on every continuity or current expanded powers."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 15,
+      "prompt": "What is Nightcrawler especially known for doing?",
+      "action": "edit",
+      "note": "Nightcrawler teleportation, not Storm's weather control,growinggiant,archery. Publisher X-Men character sheet explicitly Teleport; classic ability rather than invented maximum distance.",
+      "recommendedChanges": {
+        "sourceURL": "https://cdn.marvel.com/u/prod/marvel/i/pdf/MMRPG_XMen97_20240517.pdf",
+        "rationale": "Nightcrawler teleportation, not Storm's weather control,growinggiant,archery. Publisher X-Men character sheet explicitly Teleport; classic ability rather than invented maximum distance."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 16,
+      "prompt": "Colossus can transform his body into a form resembling what?",
+      "action": "edit",
+      "note": "Colossus metal form, not glass,sand,wood. Publisher Colossus introduction explicitly describes steel; metal keeps accessible and avoids overtechnical organic-steel mechanism.",
+      "recommendedChanges": {
+        "sourceURL": "https://share.marvel.com/comics/discover/445/colossus",
+        "rationale": "Colossus metal form, not glass,sand,wood. Publisher Colossus introduction explicitly describes steel; metal keeps accessible and avoids overtechnical organic-steel mechanism."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 17,
+      "prompt": "The X-Man Bobby Drake is best known by which superhero name?",
+      "action": "edit",
+      "note": "Bobby Drake Iceman, not Scott's Cyclops,Hank's Beast,Remy's Gambit. Publisher Iceman biography explicitly names Bobby. Different from a general superhero ice-power prompt.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.marvel.com/characters/Iceman",
+        "rationale": "Bobby Drake Iceman, not Scott's Cyclops,Hank's Beast,Remy's Gambit. Publisher Iceman biography explicitly names Bobby. Different from a general superhero ice-power prompt."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 18,
+      "prompt": "What are Gambit's most famous energy-charged throwing weapons?",
+      "action": "edit",
+      "note": "Gambit charges playing cards;chess pieces,tennis balls,paper money not iconic thrown objects. Publisher X-Men character sheet charged cards checked. Famously allows his power to charge other objects too.",
+      "recommendedChanges": {
+        "prompt": "What are Gambit's most famous energy-charged throwing weapons?",
+        "answers": [
+          "Playing cards",
+          "Chess pieces",
+          "Tennis balls",
+          "Paper money"
+        ],
+        "sourceURL": "https://cdn.marvel.com/u/prod/marvel/i/pdf/MMRPG_XMen97_20240517.pdf",
+        "rationale": "Gambit charges playing cards;chess pieces,tennis balls,paper money not iconic thrown objects. Publisher X-Men character sheet charged cards checked. Famously allows his power to charge other objects too."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 19,
+      "prompt": "What size-changing ability gives Ant-Man his name?",
+      "action": "edit",
+      "note": "Ant-Man shrinks. Intangibility,invisibility,mind-reading are other powers, replacing always-growing and bizarre flat-picture options. Official Disney/Marvel activity account explicitly describes Lang shrinking; not claim he cannot grow too.",
+      "recommendedChanges": {
+        "answers": [
+          "Shrinking to a tiny size",
+          "Passing through solid walls",
+          "Turning completely invisible",
+          "Reading other people's thoughts"
+        ],
+        "sourceURL": "https://impact.disney.com/app/uploads/2022/01/Ant-Man-and-the-Wasp-Activity-Packet-Final.pdf",
+        "rationale": "Ant-Man shrinks. Intangibility,invisibility,mind-reading are other powers, replacing always-growing and bizarre flat-picture options. Official Disney/Marvel activity account explicitly describes Lang shrinking; not claim he cannot grow too."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 20,
+      "prompt": "Janet van Dyne is best known by which superhero name?",
+      "action": "edit",
+      "note": "Janet van Dyne Wasp. Storm,Natasha's Widow,Carol's Captain Marvel wrong. Publisher oral history explicitly Janet AKA Wasp; no universal claim no other Wasps exist.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.marvel.com/articles/comics/an-oral-history-of-secret-invasion",
+        "rationale": "Janet van Dyne Wasp. Storm,Natasha's Widow,Carol's Captain Marvel wrong. Publisher oral history explicitly Janet AKA Wasp; no universal claim no other Wasps exist."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 21,
+      "prompt": "What gives Steve Rogers his enhanced abilities in Captain America's classic comic-book origin?",
+      "action": "edit",
+      "note": "Shield-star detail replaced with text-verified origin: super-soldier treatment. Spider bite,cosmic rays,symbiote other Marvel mechanisms. Captain Americas publisher guide explicitly Steve recipient of serum. Avoid treating uninspected cover artwork as reviewed visual evidence.",
+      "recommendedChanges": {
+        "prompt": "What gives Steve Rogers his enhanced abilities in Captain America's classic comic-book origin?",
+        "answers": [
+          "A super-soldier treatment",
+          "A radioactive spider bite",
+          "Exposure to cosmic rays",
+          "An alien symbiote"
+        ],
+        "rationale": "Shield-star detail replaced with text-verified origin: super-soldier treatment. Spider bite,cosmic rays,symbiote other Marvel mechanisms. Captain Americas publisher guide explicitly Steve recipient of serum. Avoid treating uninspected cover artwork as reviewed visual evidence.",
+        "sourceURL": "https://www.marvel.com/comics/discover/2376/captain-americas-of-the-multiverse"
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 22,
+      "prompt": "What weapon is Hawkeye most closely associated with?",
+      "action": "edit",
+      "note": "Hawkeye bow/arrows;trident,hammer,sword not signature archery equipment. Publisher reveal quiver/arrows and official RPG Hawkeye arrow discussion support. Most closely associated allows occasional use of other weapons.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.marvel.com/articles/games/marvel-rivals-announces-hawkeye-joining-launch-roster-new-map-wakanda",
+        "rationale": "Hawkeye bow/arrows;trident,hammer,sword not signature archery equipment. Publisher reveal quiver/arrows and official RPG Hawkeye arrow discussion support. Most closely associated allows occasional use of other weapons."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 23,
+      "prompt": "What does Spider-Man's spider-sense chiefly warn him about?",
+      "action": "edit",
+      "note": "Spider-sense warns impending danger. Not general mind-reading,lie detection or exact universal-distance measurement. Publisher biography explicit; replace stock-market/food-freshness joke options with distinguishable powers.",
+      "recommendedChanges": {
+        "answers": [
+          "Danger",
+          "Other people's private thoughts",
+          "Whether any speaker is lying",
+          "The precise distance to every object in space"
+        ],
+        "sourceURL": "https://www.marvel.com/characters/spider-man-peter-parker/in-comics",
+        "rationale": "Spider-sense warns impending danger. Not general mind-reading,lie detection or exact universal-distance measurement. Publisher biography explicit; replace stock-market/food-freshness joke options with distinguishable powers."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 24,
+      "prompt": "Which rare metal is especially associated with Wakanda in Marvel Comics?",
+      "action": "edit",
+      "note": "Wakanda vibranium, not Wolverine's adamantium,Asgardian uru,DC promethium. Publisher Panther villains account explicitly stolen precious vibranium in Wakanda. No claim found nowhere else in every later continuity.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.marvel.com/articles/comics/the-villains-of-black-panther",
+        "rationale": "Wakanda vibranium, not Wolverine's adamantium,Asgardian uru,DC promethium. Publisher Panther villains account explicitly stolen precious vibranium in Wakanda. No claim found nowhere else in every later continuity."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 25,
+      "prompt": "Which sense did Matt Murdock lose in the accident in Daredevil's origin?",
+      "action": "edit",
+      "note": "Murdock loses sight, retains enhanced other senses. Hearing,smell,touch not lost in origin. Publisher Daredevil first-issue description explicitly blinded; not a real-world medical claim about radiation.",
+      "recommendedChanges": {
+        "sourceURL": "https://latency.marvel.com/comics/discover/877/daredevil-legacy",
+        "rationale": "Murdock loses sight, retains enhanced other senses. Hearing,smell,touch not lost in origin. Publisher Daredevil first-issue description explicitly blinded; not a real-world medical claim about radiation."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 26,
+      "prompt": "What colour is Bruce Banner's Hulk form most commonly depicted as?",
+      "action": "edit",
+      "note": "Banner Hulk most commonly green. Blue,pink,purple wrong for familiar form. Most commonly necessary because original grey Hulk and other incarnations exist. Publisher sheet explicitly green; no false always-green claim.",
+      "recommendedChanges": {
+        "sourceURL": "https://cdn.marvel.com/u/prod/marvel/i/pdf/MMRPG_MarvelRivals_20241220.pdf",
+        "rationale": "Banner Hulk most commonly green. Blue,pink,purple wrong for familiar form. Most commonly necessary because original grey Hulk and other incarnations exist. Publisher sheet explicitly green; no false always-green claim."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 27,
+      "prompt": "Which Fantastic Four heroine is especially known for becoming invisible?",
+      "action": "edit",
+      "note": "Sue Storm Invisible Woman. Jean,Natasha,Ororo other heroines. Publisher powers guide checked; no claim invisibility is her only ability, since force fields also central.",
+      "recommendedChanges": {
+        "sourceURL": "https://share.marvel.com/comics/discover/2509/sue-storms-coolest-powers",
+        "rationale": "Sue Storm Invisible Woman. Jean,Natasha,Ororo other heroines. Publisher powers guide checked; no claim invisibility is her only ability, since force fields also central."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 28,
+      "prompt": "Johnny Storm's powers allow him to cover his body in what?",
+      "action": "edit",
+      "note": "Johnny's body aflame, not ice,stone,sand. Official Human Torch flame-form profile. Human Torch name given but question asks power, not a physics assertion human skin can safely burn.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.marvel.com/characters/human-torch-johnny-storm/in-comics/profile/",
+        "rationale": "Johnny's body aflame, not ice,stone,sand. Official Human Torch flame-form profile. Human Torch name given but question asks power, not a physics assertion human skin can safely burn."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 29,
+      "prompt": "The Thing's familiar orange skin resembles what material?",
+      "action": "edit",
+      "note": "Thing rock-like skin, not glass,wood,water. Fantastic Four publisher history explicitly rock-like body. Resembles avoids uncertain literal geological composition.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.marvel.com/teams-and-groups/fantastic-four/in-comics",
+        "rationale": "Thing rock-like skin, not glass,wood,water. Fantastic Four publisher history explicitly rock-like body. Resembles avoids uncertain literal geological composition."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 30,
+      "prompt": "Which Marvel superhero is Stephen Strange?",
+      "action": "edit",
+      "note": "Cloak flight claim replaced with straightforward identity: Stephen Strange is Doctor Strange. Hawkeye,Iron Man,Cap different people. Publisher Avengers roster explicitly pairs identity; distinct from existing former-surgeon question.",
+      "recommendedChanges": {
+        "prompt": "Which Marvel superhero is Stephen Strange?",
+        "answers": [
+          "Doctor Strange",
+          "Hawkeye",
+          "Iron Man",
+          "Captain America"
+        ],
+        "sourceURL": "https://www.marvel.com/teams-and-groups/avengers/in-comics",
+        "rationale": "Cloak flight claim replaced with straightforward identity: Stephen Strange is Doctor Strange. Hawkeye,Iron Man,Cap different people. Publisher Avengers roster explicitly pairs identity; distinct from existing former-surgeon question."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 31,
+      "prompt": "Which character is a longstanding ally of Doctor Strange in Marvel Comics?",
+      "action": "edit",
+      "note": "Wong longstanding Strange ally. Alfred,Gordon DC;Jameson Spider-Man editor. Official Wong comics history describes joint adventures. No servant-only stereotype or current office assumed.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.marvel.com/characters/wong/in-comics",
+        "rationale": "Wong longstanding Strange ally. Alfred,Gordon DC;Jameson Spider-Man editor. Official Wong comics history describes joint adventures. No servant-only stereotype or current office assumed."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 32,
+      "prompt": "Peter Quill uses which superhero name?",
+      "action": "edit",
+      "note": "Peter Quill Star-Lord. Surfer,Nova,Moon Knight different identities. Publisher character comics listing explicitly pairs name. Hyphen in Star-Lord correct.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.marvel.com/comics/characters/1010733/starlord_peter_quill",
+        "rationale": "Peter Quill Star-Lord. Surfer,Nova,Moon Knight different identities. Publisher character comics listing explicitly pairs name. Hyphen in Star-Lord correct."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 33,
+      "prompt": "What kind of being is Groot in Marvel Comics?",
+      "action": "edit",
+      "note": "Groot tree-like alien/Flora colossus, not human,robot,undersea king. Publisher character sheet explicitly PlanetX plant-being/regrowth. Avoid claiming ordinary Earth tree.",
+      "recommendedChanges": {
+        "sourceURL": "https://cdn.marvel.com/u/prod/marvel/i/pdf/MMRPG_MarvelRivals_20241220.pdf",
+        "rationale": "Groot tree-like alien/Flora colossus, not human,robot,undersea king. Publisher character sheet explicitly PlanetX plant-being/regrowth. Avoid claiming ordinary Earth tree."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 34,
+      "prompt": "Rocket of the Guardians of the Galaxy resembles which animal?",
+      "action": "edit",
+      "note": "Rocket resembles raccoon, not fox,otter,badger. Publisher Rocket Raccoon character sheet. Resembles avoids conflating engineered extraterrestrial origin with ordinary terrestrial animal.",
+      "recommendedChanges": {
+        "sourceURL": "https://cdn.marvel.com/u/prod/marvel/i/pdf/MMRPG_MarvelRivals_20241220.pdf",
+        "rationale": "Rocket resembles raccoon, not fox,otter,badger. Publisher Rocket Raccoon character sheet. Resembles avoids conflating engineered extraterrestrial origin with ordinary terrestrial animal."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 35,
+      "prompt": "Gamora is best known as a member of which Marvel superhero team?",
+      "action": "edit",
+      "note": "Adoptive-daughter prompt changed to readily verifiable team membership: Gamora best known as Guardian. FF,X-Men,New Mutants wrong core association. Official top-ten Guardians explicitly lists her; no claim exclusive membership in every story.",
+      "recommendedChanges": {
+        "prompt": "Gamora is best known as a member of which Marvel superhero team?",
+        "answers": [
+          "The Guardians of the Galaxy",
+          "The Fantastic Four",
+          "The X-Men",
+          "The New Mutants"
+        ],
+        "sourceURL": "https://www.marvel.com/articles/comics/10-greatest-guardians-of-the-galaxy",
+        "rationale": "Adoptive-daughter prompt changed to readily verifiable team membership: Gamora best known as Guardian. FF,X-Men,New Mutants wrong core association. Official top-ten Guardians explicitly lists her; no claim exclusive membership in every story."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 36,
+      "prompt": "Which title is closely associated with the Guardians character Drax?",
+      "action": "edit",
+      "note": "Drax the Destroyer, not Strange's Sorcerer Supreme,Daredevil's Man Without Fear,Aquaman's king title. Publisher Drax issue description explicitly Destroyer. No MCU literal-idiom personality generalisation.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.marvel.com/comics/issue/56862/drax-2015-1",
+        "rationale": "Drax the Destroyer, not Strange's Sorcerer Supreme,Daredevil's Man Without Fear,Aquaman's king title. Publisher Drax issue description explicitly Destroyer. No MCU literal-idiom personality generalisation."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 37,
+      "prompt": "Which Avenger is an android with a synthetic body?",
+      "action": "edit",
+      "note": "Vision android/syntheticbody, other offered heroes human. Publisher Avengers history explicitly creation of android Vision. No claim every subsequent reconstructed body identical.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.marvel.com/teams-and-groups/avengers/in-comics",
+        "rationale": "Vision android/syntheticbody, other offered heroes human. Publisher Avengers history explicitly creation of android Vision. No claim every subsequent reconstructed body identical."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 38,
+      "prompt": "What is Quicksilver's best-known superpower?",
+      "action": "edit",
+      "note": "Quicksilver super speed, not plants,metalbody,underwater breathing. Publisher Young Avengers compares Speed's powers to Pietro. Best-known qualifier accommodates unusual temporary powers.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.marvel.com/teams-and-groups/young-avengers",
+        "rationale": "Quicksilver super speed, not plants,metalbody,underwater breathing. Publisher Young Avengers compares Speed's powers to Pietro. Best-known qualifier accommodates unusual temporary powers."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 39,
+      "prompt": "Quicksilver and Scarlet Witch are related in what way?",
+      "action": "edit",
+      "note": "Pietro/Wanda twins, not fatherdaughter/uncleniece/married. Publisher Quicksilver fast facts explicitly Wanda's twin. Avoid disputed/retconned parentage entirely.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.marvel.com/articles/comics/pietro-maximoff-quicksilver-comics-history?linkId=112067650",
+        "rationale": "Pietro/Wanda twins, not fatherdaughter/uncleniece/married. Publisher Quicksilver fast facts explicitly Wanda's twin. Avoid disputed/retconned parentage entirely."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 40,
+      "prompt": "Which Marvel cosmic hero travels on a silvery board?",
+      "action": "edit",
+      "note": "Silver Surfer cosmic surfboard, not Nova,Quill,Warlock's characteristic transport. Publisher Silver Surfer issue describes Dawn joining his board to explore universe and facsimile specifically his board. No numeric speed claim.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.marvel.com/comics/issue/48333/silver_surfer_2014_6",
+        "rationale": "Silver Surfer cosmic surfboard, not Nova,Quill,Warlock's characteristic transport. Publisher Silver Surfer issue describes Dawn joining his board to explore universe and facsimile specifically his board. No numeric speed claim."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 41,
+      "prompt": "Which Marvel character is famously known as the Devourer of Worlds?",
+      "action": "edit",
+      "note": "Galactus Devourer of Worlds, not Doom,Kingpin,Goblin. Replace diet question with silly only-books/sandwiches alternatives. Official Galactus/world-devouring publisher account supports title; no physical cosmology claim.",
+      "recommendedChanges": {
+        "prompt": "Which Marvel character is famously known as the Devourer of Worlds?",
+        "answers": [
+          "Galactus",
+          "Doctor Doom",
+          "Kingpin",
+          "Green Goblin"
+        ],
+        "sourceURL": "https://www.marvel.com/characters/galactus/",
+        "rationale": "Galactus Devourer of Worlds, not Doom,Kingpin,Goblin. Replace diet question with silly only-books/sandwiches alternatives. Official Galactus/world-devouring publisher account supports title; no physical cosmology claim."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 42,
+      "prompt": "Doctor Doom rules which fictional country in Marvel Comics?",
+      "action": "edit",
+      "note": "Doom Latveria, not Wakanda,Genosha,Sokovia. Publisher Doom2025 issue places his rule behind Latverian borders; classic fictional-country association not claim he never rules other territories.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.marvel.com/comics/issue/123518/one_world_under_doom_2025_1_variant/variant",
+        "rationale": "Doom Latveria, not Wakanda,Genosha,Sokovia. Publisher Doom2025 issue places his rule behind Latverian borders; classic fictional-country association not claim he never rules other territories."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 43,
+      "prompt": "In Marvel's Thor stories, Loki is Thor's what?",
+      "action": "edit",
+      "note": "Loki adopted brother, not biological father,son,grandfather. Publisher Loki comics history explicit adopted sibling; scope Marvel Thor, not inconsistent real-world myth genealogy.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.marvel.com/characters/loki/in-comics",
+        "rationale": "Loki adopted brother, not biological father,son,grandfather. Publisher Loki comics history explicit adopted sibling; scope Marvel Thor, not inconsistent real-world myth genealogy."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 44,
+      "prompt": "Who is the original Green Goblin in the Spider-Man comics?",
+      "action": "edit",
+      "note": "Norman Osborn original Green Goblin. Octavius DocOck,Fisk Kingpin,Connors Lizard. Original qualifier avoids Harry/other later Goblins. Publisher Goblin reading guide and history checked.",
+      "recommendedChanges": {
+        "sourceURL": "https://share.marvel.com/comics/discover/984/green-goblin",
+        "rationale": "Norman Osborn original Green Goblin. Octavius DocOck,Fisk Kingpin,Connors Lizard. Original qualifier avoids Harry/other later Goblins. Publisher Goblin reading guide and history checked."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 45,
+      "prompt": "Doctor Octopus is especially known for having what mechanical equipment?",
+      "action": "edit",
+      "note": "Doctor Octopus four mechanical tentacles;wing harness,wheel,robotspider other gear. Publisher bio explicitly four mechanical tentacle-like arms. Distinguish mechanical count from his four natural limbs; better alternatives replace joke glove option.",
+      "recommendedChanges": {
+        "answers": [
+          "Four mechanical tentacles",
+          "A pair of powered mechanical wings",
+          "A giant armoured wheel",
+          "A robotic spider-shaped vehicle"
+        ],
+        "sourceURL": "https://www.marvel.com/characters/doctor-octopus-otto-octavius/in-comics",
+        "rationale": "Doctor Octopus four mechanical tentacles;wing harness,wheel,robotspider other gear. Publisher bio explicitly four mechanical tentacle-like arms. Distinguish mechanical count from his four natural limbs; better alternatives replace joke glove option."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 46,
+      "prompt": "What is the civilian name of the Marvel crime boss Kingpin?",
+      "action": "edit",
+      "note": "Kingpin Wilson Fisk, not Osborn,Doom,Brock. Publisher Kingpin profile explicitly identity. Question not nickname-of-every-crime-boss terminology.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.marvel.com/characters/kingpin/",
+        "rationale": "Kingpin Wilson Fisk, not Osborn,Doom,Brock. Publisher Kingpin profile explicitly identity. Question not nickname-of-every-crime-boss terminology."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 47,
+      "prompt": "Which of these characters is famously a host of the Venom symbiote?",
+      "action": "edit",
+      "note": "Eddie Brock famous Venom host. Alfred,Gordon,Clark different DC characters. Publisher Venom reading guide explicitly Eddie bond; not first living thing or only host, since Peter and others also hosted symbiote.",
+      "recommendedChanges": {
+        "sourceURL": "https://share.marvel.com/comics/discover/713/venom-eddie-brock",
+        "rationale": "Eddie Brock famous Venom host. Alfred,Gordon,Clark different DC characters. Publisher Venom reading guide explicitly Eddie bond; not first living thing or only host, since Peter and others also hosted symbiote."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 48,
+      "prompt": "The stunt rider Johnny Blaze is associated with which Marvel identity?",
+      "action": "edit",
+      "note": "Johnny Blaze Ghost Rider, not MoonKnight,IronFist,Daredevil. Publisher Spirits of Vengeance history calls him motorcycle stunt rider and Rider. Multiple Ghost Riders permitted, no unique-only claim.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.marvel.com/teams-and-groups/spirits-of-vengeance",
+        "rationale": "Johnny Blaze Ghost Rider, not MoonKnight,IronFist,Daredevil. Publisher Spirits of Vengeance history calls him motorcycle stunt rider and Rider. Multiple Ghost Riders permitted, no unique-only claim."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 49,
+      "prompt": "Luke Cage is especially known for super strength and what other physical feature?",
+      "action": "edit",
+      "note": "Cage strength and tough skin. Elasticlimbs,claws,electric skin other abilities. Publisher reading guide explicit strength/unbreakable skin; bullet-resistant rather than absolute immunity keeps reasonable fictional qualification.",
+      "recommendedChanges": {
+        "answers": [
+          "Extremely tough, bullet-resistant skin",
+          "Elastic limbs",
+          "Retractable claws",
+          "Electrically charged skin"
+        ],
+        "sourceURL": "https://share.marvel.com/comics/discover/433/luke-cage",
+        "rationale": "Cage strength and tough skin. Elasticlimbs,claws,electric skin other abilities. Publisher reading guide explicit strength/unbreakable skin; bullet-resistant rather than absolute immunity keeps reasonable fictional qualification."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 50,
+      "prompt": "Which Marvel martial artist is Danny Rand?",
+      "action": "edit",
+      "note": "Danny Rand Iron Fist. Luke,Murdock,Castle different martial/street heroes. Publisher IronFist1975 issue explicitly Danny AKA Iron Fist. No claim Rand only historical bearer.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.marvel.com/comics/issue/22628/iron_fist_1975_2",
+        "rationale": "Danny Rand Iron Fist. Luke,Murdock,Castle different martial/street heroes. Publisher IronFist1975 issue explicitly Danny AKA Iron Fist. No claim Rand only historical bearer."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 51,
+      "prompt": "Which billionaire is Batman's best-known civilian identity?",
+      "action": "edit",
+      "note": "Bruce Wayne Batman, not Kent,Queen,Luthor. DC biography and history explicit. Best-known qualifier accommodates other Batmen/continuities.",
+      "recommendedChanges": {
+        "rationale": "Bruce Wayne Batman, not Kent,Queen,Luthor. DC biography and history explicit. Best-known qualifier accommodates other Batmen/continuities."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 52,
+      "prompt": "What is Batman's famous customised car called?",
+      "action": "edit",
+      "note": "Batmobile car;InvisibleJet aircraft,Quinjet aircraft,SpiderMobile another hero. DC history explicitly customised Batmobile. Not falsely named every vehicle used by Batman.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.dc.com/blog/2014/07/22/batman-at-75-highlights-in-the-life-of-the-caped-crusader",
+        "rationale": "Batmobile car;InvisibleJet aircraft,Quinjet aircraft,SpiderMobile another hero. DC history explicitly customised Batmobile. Not falsely named every vehicle used by Batman."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 53,
+      "prompt": "A batarang is Batman's version of which kind of weapon?",
+      "action": "edit",
+      "note": "Batarang bat-shaped thrown weapon, not torpedo,wristlaser,sword. DC Batman biography identifies utility-belt Batarangs; distinct from ordinary biological bat. No claim every version returns like a real boomerang.",
+      "recommendedChanges": {
+        "answers": [
+          "A bat-shaped throwing weapon",
+          "An explosive submarine missile",
+          "A laser cannon worn on the wrist",
+          "A ceremonial sword"
+        ],
+        "rationale": "Batarang bat-shaped thrown weapon, not torpedo,wristlaser,sword. DC Batman biography identifies utility-belt Batarangs; distinct from ordinary biological bat. No claim every version returns like a real boomerang."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 54,
+      "prompt": "Which fictional mineral is Superman famously vulnerable to?",
+      "action": "edit",
+      "note": "Kryptonite famous vulnerability, not quartz/granite/diamond. Official DC kryptonite discussion inspected. No colour-specific claim that could confuse green/gold/red variants or other weaknesses such as magic.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.dc.com/blog/2025/05/29/crushed-by-color-a-kryptonite-catalogue",
+        "rationale": "Kryptonite famous vulnerability, not quartz/granite/diamond. Official DC kryptonite discussion inspected. No colour-specific claim that could confuse green/gold/red variants or other weaknesses such as magic."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 55,
+      "prompt": "Superman can produce intense heat beams from which part of his body?",
+      "action": "edit",
+      "note": "Heat vision from eyes;ears,knees,feet wrong. DC heat-vision history explicit eye-based visual power. No false claim actual x-rays work this way.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.dc.com/blog/2023/05/10/ask-the-question-when-did-superman-get-his-heat-vision",
+        "rationale": "Heat vision from eyes;ears,knees,feet wrong. DC heat-vision history explicit eye-based visual power. No false claim actual x-rays work this way."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 56,
+      "prompt": "Kara Zor-El is best known as which DC superhero?",
+      "action": "edit",
+      "note": "Kara Zor-El Supergirl, not WonderWoman,Batgirl,Canary. DC Supergirl comics description explicitly names Kara. Proper spelling excludes Kara Zor-L/Power Girl of another Earth.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.dc.com/graphic-novels/supergirl-2005/supergirl-vol-1-the-girl-of-steel",
+        "rationale": "Kara Zor-El Supergirl, not WonderWoman,Batgirl,Canary. DC Supergirl comics description explicitly names Kara. Proper spelling excludes Kara Zor-L/Power Girl of another Earth."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 57,
+      "prompt": "In the usual DC Comics continuity, Kara Zor-El is Superman's what?",
+      "action": "edit",
+      "note": "Kara usual Superman cousin, not mother/daughter/grandmother. DC Girl of Steel collection explicit cousin. Usual continuity avoids unrelated Supergirl versions and different origin timelines.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.dc.com/graphic-novels/supergirl-2005/supergirl-vol-1-the-girl-of-steel",
+        "rationale": "Kara usual Superman cousin, not mother/daughter/grandmother. DC Girl of Steel collection explicit cousin. Usual continuity avoids unrelated Supergirl versions and different origin timelines."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 58,
+      "prompt": "What is Wonder Woman's famous truth-compelling rope called?",
+      "action": "edit",
+      "note": "Lasso of Truth correct;GoldenWeb,RopeDreams,SilverSnare wrong. DC defining WonderWoman moments explicitly iconic Lasso of Truth. Traditional name, not claim she cannot own other ropes/artifacts.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.dc.com/blog/2026-10-21/all-the-world-s-waiting-twelve-moments-that-defined-wonder-woman",
+        "rationale": "Lasso of Truth correct;GoldenWeb,RopeDreams,SilverSnare wrong. DC defining WonderWoman moments explicitly iconic Lasso of Truth. Traditional name, not claim she cannot own other ropes/artifacts."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 59,
+      "prompt": "Barry Allen is best known as which DC superhero?",
+      "action": "edit",
+      "note": "Barry Allen Flash, not Lantern,Arrow,Aquaman. DC Flash biography explicitly Jay,Barry,Wally as title bearers. No only-Flash or first-Flash assertion.",
+      "recommendedChanges": {
+        "rationale": "Barry Allen Flash, not Lantern,Arrow,Aquaman. DC Flash biography explicitly Jay,Barry,Wally as title bearers. No only-Flash or first-Flash assertion."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 60,
+      "prompt": "Roy Harper first became Green Arrow's sidekick under which name?",
+      "action": "edit",
+      "note": "Roy's first sidekick identity Speedy. Robin/KidFlash/Aqualad belong elsewhere. DC Arsenal biography explicitly former Speedy,Arrow sidekick; later Arsenal/Red Arrow not offered.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.dc.com/characters/arsenal",
+        "rationale": "Roy's first sidekick identity Speedy. Robin/KidFlash/Aqualad belong elsewhere. DC Arsenal biography explicitly former Speedy,Arrow sidekick; later Arsenal/Red Arrow not offered."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 61,
+      "prompt": "Which Batman villain is nicknamed the Clown Prince of Crime?",
+      "action": "edit",
+      "note": "Joker Clown Prince of Crime, not Penguin,TwoFace,Bane. DC biography uses epithet. Fictional criminal title, not real formal royal rank.",
+      "recommendedChanges": {
+        "rationale": "Joker Clown Prince of Crime, not Penguin,TwoFace,Bane. DC biography uses epithet. Fictional criminal title, not real formal royal rank."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 62,
+      "prompt": "Which Batman villain is Oswald Cobblepot?",
+      "action": "edit",
+      "note": "Oswald Cobblepot Penguin, not Joker,Riddler,Scarecrow. Official DC Penguin biography explicit. Comic scope avoids altered surname in some screen adaptations.",
+      "recommendedChanges": {
+        "rationale": "Oswald Cobblepot Penguin, not Joker,Riddler,Scarecrow. Official DC Penguin biography explicit. Comic scope avoids altered surname in some screen adaptations."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 63,
+      "prompt": "Which Batman villain uses the civilian name Victor Fries?",
+      "action": "edit",
+      "note": "Victor Fries Mr.Freeze, not Dent's TwoFace,Bane,Cobblepot. Initial mr-freeze URL wrong; actual DC entry mister-freeze checked. Fries spelling correct, not Fries/Freeze conflation.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.dc.com/characters/mister-freeze",
+        "rationale": "Victor Fries Mr.Freeze, not Dent's TwoFace,Bane,Cobblepot. Initial mr-freeze URL wrong; actual DC entry mister-freeze checked. Fries spelling correct, not Fries/Freeze conflation."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 64,
+      "prompt": "Which Batman villain is Pamela Isley?",
+      "action": "edit",
+      "note": "Pamela Isley Poison Ivy. Harleen,Selina,Talia other characters. DC PoisonIvyThorns publisher description explicitly Pamela. No assertion current stories always define her purely villain rather than antihero.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.dc.com/graphic-novels/poison-ivy-thorns",
+        "rationale": "Pamela Isley Poison Ivy. Harleen,Selina,Talia other characters. DC PoisonIvyThorns publisher description explicitly Pamela. No assertion current stories always define her purely villain rather than antihero."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 65,
+      "prompt": "Which former Robin is best known for taking the identity Red Hood?",
+      "action": "edit",
+      "note": "Former Robin JasonTodd RedHood;Dick Nightwing,Tim/ Damian otherRobins. DC RedHood biography explicit. Best-known avoids claiming nobody else ever wore RedHood identity, including Joker predecessor.",
+      "recommendedChanges": {
+        "rationale": "Former Robin JasonTodd RedHood;Dick Nightwing,Tim/ Damian otherRobins. DC RedHood biography explicit. Best-known avoids claiming nobody else ever wore RedHood identity, including Joker predecessor."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 66,
+      "prompt": "Barbara Gordon is closely associated with which costumed identity?",
+      "action": "edit",
+      "note": "Barbara associated Batgirl, not Supergirl,Diana,Starfire. DC Batgirl description explicitly Barbara. Associated allows her Oracle role and Cassandra/Stephanie as other Batgirls.",
+      "recommendedChanges": {
+        "rationale": "Barbara associated Batgirl, not Supergirl,Diana,Starfire. DC Batgirl description explicitly Barbara. Associated allows her Oracle role and Cassandra/Stephanie as other Batgirls."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 67,
+      "prompt": "What is Robin's usual role alongside Batman?",
+      "action": "edit",
+      "note": "Robin usually Batman crime-fighting partner, not father,Metropolis mayor,editor. DC Batman history original sidekick. Not claim every Robin biologically related or always a child.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.dc.com/characters/batman",
+        "rationale": "Robin usually Batman crime-fighting partner, not father,Metropolis mayor,editor. DC Batman history original sidekick. Not claim every Robin biologically related or always a child."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 68,
+      "prompt": "Which DC superhero identity is associated with Jaime Reyes?",
+      "action": "edit",
+      "note": "Jaime Reyes BlueBeetle, not BoosterGold,Atom,PlasticMan. DC biography explicitly thirdBlueBeetle. No mistake calling Jaime first, given Garrett/Kord predecessors.",
+      "recommendedChanges": {
+        "rationale": "Jaime Reyes BlueBeetle, not BoosterGold,Atom,PlasticMan. DC biography explicitly thirdBlueBeetle. No mistake calling Jaime first, given Garrett/Kord predecessors."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 69,
+      "prompt": "Plastic Man's signature power allows him to do what?",
+      "action": "edit",
+      "note": "PlasticMan stretches/reshapes, not weather/sea-onlyspeech/iceproduction. DC biography and original archive collection explicit. Does not reduce all his transformations to one body size.",
+      "recommendedChanges": {
+        "rationale": "PlasticMan stretches/reshapes, not weather/sea-onlyspeech/iceproduction. DC biography and original archive collection explicit. Does not reduce all his transformations to one body size."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 70,
+      "prompt": "Superman, Batman and Wonder Woman are closely associated with which superhero team?",
+      "action": "edit",
+      "note": "Trinity closely associated JusticeLeague. FF,XMen,Guardians Marvel groups. Official DC League introduction names Superman,Batman,WonderWoman. Not an assertion every era has identical founders or membership.",
+      "recommendedChanges": {
+        "rationale": "Trinity closely associated JusticeLeague. FF,XMen,Guardians Marvel groups. Official DC League introduction names Superman,Batman,WonderWoman. Not an assertion every era has identical founders or membership."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 71,
+      "prompt": "Asterix is a member of which ancient people?",
+      "action": "edit",
+      "note": "Asterix a Gaul;Viking,Aztec,Spartan different ancient peoples. Official character biography citizenship Gaul. Fictional story not historical claim he actually existed.",
+      "recommendedChanges": {
+        "rationale": "Asterix a Gaul;Viking,Aztec,Spartan different ancient peoples. Official character biography citizenship Gaul. Fictional story not historical claim he actually existed."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 72,
+      "prompt": "What gives Asterix temporary superhuman strength?",
+      "action": "edit",
+      "note": "Strength comes from magic potion;spiderbite,armour,ring other superhero mechanisms. Official Asterix/Getafix text confirms potion. Temporary distinguishes Asterix from Obelix's sustained effect.",
+      "recommendedChanges": {
+        "rationale": "Strength comes from magic potion;spiderbite,armour,ring other superhero mechanisms. Official Asterix/Getafix text confirms potion. Temporary distinguishes Asterix from Obelix's sustained effect."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 73,
+      "prompt": "Why does Obelix normally not need a dose of the strength-giving potion?",
+      "action": "edit",
+      "note": "Official Obelix bio says small boy, so correct too-specific baby to small boy. Potioncauldron explains persistent strength;newrecipe,poweredhelmet,Romangod false. Normally accounts for special-story exceptions.",
+      "recommendedChanges": {
+        "answers": [
+          "He fell into a cauldron of it as a small boy",
+          "He invents a new potion every morning",
+          "His helmet supplies his strength",
+          "He is secretly a Roman god"
+        ],
+        "rationale": "Official Obelix bio says small boy, so correct too-specific baby to small boy. Potioncauldron explains persistent strength;newrecipe,poweredhelmet,Romangod false. Normally accounts for special-story exceptions."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 74,
+      "prompt": "Obelix is especially associated with carrying which large stone objects?",
+      "action": "edit",
+      "note": "Obelix famous menhir deliverer;goldobelisks,bathtubs,wheeledmillstones wrong iconic carried objects. Official Getafix text explicitly menhir deliverer and Asterix author-page menhirs. No conflation menhir vs obelisk despite punning name.",
+      "recommendedChanges": {
+        "sourceURL": "https://asterix.com/en/characters/getafix",
+        "rationale": "Obelix famous menhir deliverer;goldobelisks,bathtubs,wheeledmillstones wrong iconic carried objects. Official Getafix text explicitly menhir deliverer and Asterix author-page menhirs. No conflation menhir vs obelisk despite punning name."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 75,
+      "prompt": "What is the English name of Obelix's small dog?",
+      "action": "edit",
+      "note": "Dogmatix Obelix dog, not Tintin's Snowy,BeanoGnasher,PeanutsSnoopy. Official Dogmatix history explicitly Obelixwelcominglittle dog. English qualifier distinguishes French Idéfix.",
+      "recommendedChanges": {
+        "rationale": "Dogmatix Obelix dog, not Tintin's Snowy,BeanoGnasher,PeanutsSnoopy. Official Dogmatix history explicitly Obelixwelcominglittle dog. English qualifier distinguishes French Idéfix."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 76,
+      "prompt": "Which druid brews the magic potion in the English-language Asterix books?",
+      "action": "edit",
+      "note": "Getafix potion-brewing druid;Cacofonix bard,Vitalstatistix chief,Unhygienix fishmonger. Official Getafix druid/potion biography. English-name qualification avoids Panoramix translations.",
+      "recommendedChanges": {
+        "rationale": "Getafix potion-brewing druid;Cacofonix bard,Vitalstatistix chief,Unhygienix fishmonger. Official Getafix druid/potion biography. English-name qualification avoids Panoramix translations."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 77,
+      "prompt": "What is Cacofonix's role in Asterix's village?",
+      "action": "edit",
+      "note": "Cacofonix bard, not blacksmith,fishmonger,chief. Official bio calls bard and schoolteacher; question does not deny his second role. No qualitative opinion that music bad posed as fact.",
+      "recommendedChanges": {
+        "rationale": "Cacofonix bard, not blacksmith,fishmonger,chief. Official bio calls bard and schoolteacher; question does not deny his second role. No qualitative opinion that music bad posed as fact."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 78,
+      "prompt": "Who is the chief of Asterix's village in the English-language books?",
+      "action": "edit",
+      "note": "Vitalstatistix chief, not other named villagers. Official character bio explicitly chief. English-language names and spelling checked.",
+      "recommendedChanges": {
+        "rationale": "Vitalstatistix chief, not other named villagers. Official character bio explicitly chief. English-language names and spelling checked."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 79,
+      "prompt": "What colour are the Smurfs usually depicted as?",
+      "action": "edit",
+      "note": "Smurfs normally blue, not green/orange/purple. Official Smurf homepage explicitly blue and small. Usually accommodates purple/black transformations without pretending exceptions never exist.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.smurf.com/",
+        "rationale": "Smurfs normally blue, not green/orange/purple. Official Smurf homepage explicitly blue and small. Usually accommodates purple/black transformations without pretending exceptions never exist."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 80,
+      "prompt": "Which Smurf is the wise elder who leads the village?",
+      "action": "edit",
+      "note": "Replace colour requiring uninspected picture with verified role. Papa wise elder/leader;Brainy,Hefty,Clumsy not village leader. Official homepage oldest/wisest/bigcheese description checked; no exact-age question.",
+      "recommendedChanges": {
+        "prompt": "Which Smurf is the wise elder who leads the village?",
+        "answers": [
+          "Papa Smurf",
+          "Brainy Smurf",
+          "Hefty Smurf",
+          "Clumsy Smurf"
+        ],
+        "sourceURL": "https://www.smurf.com/",
+        "rationale": "Replace colour requiring uninspected picture with verified role. Papa wise elder/leader;Brainy,Hefty,Clumsy not village leader. Official homepage oldest/wisest/bigcheese description checked; no exact-age question."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 81,
+      "prompt": "Who is the wizard who repeatedly tries to capture the Smurfs?",
+      "action": "edit",
+      "note": "Gargamel wizard pursuingSmurfs;Merlin,Getafix,Strange different fictionalmagicians. Official Smurf character text explicitly obsession with capture. Repeatedly allows failures and other story motives.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.smurf.com/",
+        "rationale": "Gargamel wizard pursuingSmurfs;Merlin,Getafix,Strange different fictionalmagicians. Official Smurf character text explicitly obsession with capture. Repeatedly allows failures and other story motives."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 82,
+      "prompt": "What is the name of Gargamel's cat in the Smurfs stories?",
+      "action": "edit",
+      "note": "Gargamel cat Azrael, not Garfield,Felix,Tom. Official homepage explicitly Azraelthecat companion. No spelling confusion with DC Azrael hero due Smurf scope.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.smurf.com/",
+        "rationale": "Gargamel cat Azrael, not Garfield,Felix,Tom. Official homepage explicitly Azraelthecat companion. No spelling confusion with DC Azrael hero due Smurf scope."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 83,
+      "prompt": "Which Smurf did Gargamel originally create?",
+      "action": "edit",
+      "note": "Replace uninspected costume detail with Smurfette created by Gargamel, not Papa,Brainy,Hefty. Official bio explicitly creation then Papa magic. Does not confuse creator with later transformation into kind Smurf.",
+      "recommendedChanges": {
+        "prompt": "Which Smurf did Gargamel originally create?",
+        "answers": [
+          "Smurfette",
+          "Papa Smurf",
+          "Brainy Smurf",
+          "Hefty Smurf"
+        ],
+        "sourceURL": "https://www.smurf.com/",
+        "rationale": "Replace uninspected costume detail with Smurfette created by Gargamel, not Papa,Brainy,Hefty. Official bio explicitly creation then Papa magic. Does not confuse creator with later transformation into kind Smurf."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 84,
+      "prompt": "In the British Beano comic, what is Dennis's dog called?",
+      "action": "edit",
+      "note": "British Dennis dog Gnasher, not Snowy,Snoopy,Odie. Official Beano Schools CustardCaper explicitly DoggyBFF. British qualifier essential because American Dennis different character and dog.",
+      "recommendedChanges": {
+        "sourceURL": "https://schools.beano.com/lesson-plans/dennis-gnasher-custard-caper/",
+        "rationale": "British Dennis dog Gnasher, not Snowy,Snoopy,Odie. Official Beano Schools CustardCaper explicitly DoggyBFF. British qualifier essential because American Dennis different character and dog."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 85,
+      "prompt": "Which two colours feature on Dennis's striped jumper in the British Beano comic?",
+      "action": "edit",
+      "note": "Dennis red/black stripedjumper. Bluewhite,greenyellow,purpleorange wrong. Official Beano WashingMachine description explicitly colours. Fix grammar by asking which two colours feature rather than what colours are jumper.",
+      "recommendedChanges": {
+        "prompt": "Which two colours feature on Dennis's striped jumper in the British Beano comic?",
+        "sourceURL": "https://schools.beano.com/lesson-plans/dennis-and-the-washing-machine/",
+        "rationale": "Dennis red/black stripedjumper. Bluewhite,greenyellow,purpleorange wrong. Official Beano WashingMachine description explicitly colours. Fix grammar by asking which two colours feature rather than what colours are jumper."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 86,
+      "prompt": "Which Beano character is known as Minnie the what?",
+      "action": "edit",
+      "note": "Minnie the Minx, not Magician,Mermaid,Mechanic. Authorised Beano educator resource character list explicitly name. Proper title, no factual judgment about a child's behaviour.",
+      "recommendedChanges": {
+        "sourceURL": "https://d3ddkgxe55ca6c.cloudfront.net/assets/t1426862669/a/c0/65/dennis-resourcepack-teacher-resource-1341480.pdf",
+        "rationale": "Minnie the Minx, not Magician,Mermaid,Mechanic. Authorised Beano educator resource character list explicitly name. Proper title, no factual judgment about a child's behaviour."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 87,
+      "prompt": "Which company publishes the Beano comic?",
+      "action": "edit",
+      "note": "Roger chores reference missing, replace with verified publisher DCThomson. Marvel,Panini,Rebellion other comics publishers. DCThomson own Beano brand page checked; distinguish DCThomson from DC Comics.",
+      "recommendedChanges": {
+        "prompt": "Which company publishes the Beano comic?",
+        "answers": [
+          "DC Thomson",
+          "Marvel Comics",
+          "Panini",
+          "Rebellion"
+        ],
+        "sourceURL": "https://www.dcthomson.co.uk/brands/beano/",
+        "rationale": "Roger chores reference missing, replace with verified publisher DCThomson. Marvel,Panini,Rebellion other comics publishers. DCThomson own Beano brand page checked; distinguish DCThomson from DC Comics."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 88,
+      "prompt": "The Bash Street Kids are especially associated with which setting?",
+      "action": "edit",
+      "note": "BashStreetKids schoolsetting, not space,pirates,royalcourt. Official Beano school lesson and character education pack. Especiallyassociated avoids asserting adventures never leave school.",
+      "recommendedChanges": {
+        "sourceURL": "https://schools.beano.com/lesson-plans/battle-of-bash-street-school/",
+        "rationale": "BashStreetKids schoolsetting, not space,pirates,royalcourt. Official Beano school lesson and character education pack. Especiallyassociated avoids asserting adventures never leave school."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 89,
+      "prompt": "What is the name of Lucky Luke's horse?",
+      "action": "edit",
+      "note": "JollyJumper LuckyLukehorse. BlackBeauty,Silver,Bucephalus other horses. Original publisher Dargaud explicitly sonchevalJollyJumper; exact source replaces unavailable guessed English official URL.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.dargaud.com/bd/lucky-luke",
+        "rationale": "JollyJumper LuckyLukehorse. BlackBeauty,Silver,Bucephalus other horses. Original publisher Dargaud explicitly sonchevalJollyJumper; exact source replaces unavailable guessed English official URL."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 90,
+      "prompt": "Lucky Luke's adventures are mainly set in which kind of world?",
+      "action": "edit",
+      "note": "LuckyLuke OldWest, not ancientEgypt,futurespace,medievalJapan. Licensed English publisher Cinebook catalogue explicitly classicWestern/OldWest. Mainly allows travel stories and historical fantasy humour.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.cinebook.co.uk/uploads/files/catalogues/Catalogue_36_web.pdf",
+        "rationale": "LuckyLuke OldWest, not ancientEgypt,futurespace,medievalJapan. Licensed English publisher Cinebook catalogue explicitly classicWestern/OldWest. Mainly allows travel stories and historical fantasy humour."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 91,
+      "prompt": "What is a graphic novel?",
+      "action": "edit",
+      "note": "Graphic novel book-length sequentialart/textstory, not prose-only,script-only,audio. Cambridge explicit longstorymostlypictures with writing. No false requirement all graphic novels fiction or originally one volume.",
+      "recommendedChanges": {
+        "answers": [
+          "A book-length story told through sequential artwork and text",
+          "A prose novel with no illustrations",
+          "A book made entirely of screenplay instructions",
+          "An audio performance without pictures"
+        ],
+        "rationale": "Graphic novel book-length sequentialart/textstory, not prose-only,script-only,audio. Cambridge explicit longstorymostlypictures with writing. No false requirement all graphic novels fiction or originally one volume."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 92,
+      "prompt": "What is a comic strip?",
+      "action": "edit",
+      "note": "Comicstrip sequentialdrawingsstory, not proseeditorial,stage scene,audiodrama. Cambridge definition checked, but don't require all strips funny despite introductory wording. Replace unrelated pricing/index alternatives with actual narrative formats.",
+      "recommendedChanges": {
+        "answers": [
+          "A sequence of drawings telling a story",
+          "A prose-only newspaper editorial",
+          "A single scene performed on stage",
+          "An audio-only dramatisation"
+        ],
+        "rationale": "Comicstrip sequentialdrawingsstory, not proseeditorial,stage scene,audiodrama. Cambridge definition checked, but don't require all strips funny despite introductory wording. Replace unrelated pricing/index alternatives with actual narrative formats."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 93,
+      "prompt": "In comics, what does a speech bubble usually contain?",
+      "action": "edit",
+      "note": "Speechbubble usuallyspokenwords, not credits,gutter,address. Dictionary and Scholasticdialogue examples checked; usually allows nonstandard artistic usage. Distinct from thoughtballoon94.",
+      "recommendedChanges": {
+        "answers": [
+          "A character's spoken words",
+          "A list of the production credits",
+          "The space between two panels",
+          "Only the publisher's address"
+        ],
+        "rationale": "Speechbubble usuallyspokenwords, not credits,gutter,address. Dictionary and Scholasticdialogue examples checked; usually allows nonstandard artistic usage. Distinct from thoughtballoon94."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 94,
+      "prompt": "In comics, what does a thought bubble usually show?",
+      "action": "edit",
+      "note": "Thoughtbubble thoughts, not spokenaloud,authorname,price. Dedicated Cambridge definition checked rather than ordinary thought-bubble politicalidea meaning. No claim thoughts must be voiced to audience.",
+      "recommendedChanges": {
+        "answers": [
+          "What a character is thinking",
+          "Words spoken aloud to another character",
+          "Only the author's name",
+          "Only the comic's retail price"
+        ],
+        "rationale": "Thoughtbubble thoughts, not spokenaloud,authorname,price. Dedicated Cambridge definition checked rather than ordinary thought-bubble politicalidea meaning. No claim thoughts must be voiced to audience."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 95,
+      "prompt": "In a comic, what is a panel?",
+      "action": "edit",
+      "note": "Panel individualpicture/section. Gutter,dialoguewords,entireseries otherunits. Generic panel dictionary lacked comic sense, so use Scholastic educatorguide; remove framed requirement because guide explicitly notes borderless panels.",
+      "recommendedChanges": {
+        "answers": [
+          "One individual picture or section of the sequence",
+          "The empty space between pictures",
+          "A character's spoken words alone",
+          "The entire series of published issues"
+        ],
+        "sourceURL": "https://www.scholastic.com/content/dam/scholastic/educators/discussion-guides/guide-to-using-graphic-novels.pdf",
+        "rationale": "Panel individualpicture/section. Gutter,dialoguewords,entireseries otherunits. Generic panel dictionary lacked comic sense, so use Scholastic educatorguide; remove framed requirement because guide explicitly notes borderless panels."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 96,
+      "prompt": "What is a caption box usually used for in a comic?",
+      "action": "edit",
+      "note": "Inker mechanism not established by ink dictionary. Replace with caption narration/descriptivebox using Scholastic text explicitly wordsinboxesnotspoken. Gutter,pageoutline,retailprice not usualcaption purpose. Usually allows internalmonologue/othercaption conventions.",
+      "recommendedChanges": {
+        "prompt": "What is a caption box usually used for in a comic?",
+        "answers": [
+          "Narration or descriptive text",
+          "The empty space separating panels",
+          "The outline around the whole page",
+          "Only the retail price"
+        ],
+        "sourceURL": "https://www.scholastic.com/content/dam/scholastic/educators/discussion-guides/guide-to-using-graphic-novels.pdf",
+        "rationale": "Inker mechanism not established by ink dictionary. Replace with caption narration/descriptivebox using Scholastic text explicitly wordsinboxesnotspoken. Gutter,pageoutline,retailprice not usualcaption purpose. Usually allows internalmonologue/othercaption conventions."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 97,
+      "prompt": "In comics, lettering mainly concerns what?",
+      "action": "edit",
+      "note": "Lettering words/visualstyle. Pencilart,colour,binding distinctproductionaspects. Cambridge lettering writing in particularstyle/colour; no assertion letterer necessarilyauthorsscript.",
+      "recommendedChanges": {
+        "answers": [
+          "The written words and their visual presentation",
+          "The pencilled character drawings",
+          "The colours added to the artwork",
+          "The physical binding of the book"
+        ],
+        "rationale": "Lettering words/visualstyle. Pencilart,colour,binding distinctproductionaspects. Cambridge lettering writing in particularstyle/colour; no assertion letterer necessarilyauthorsscript."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 98,
+      "prompt": "Words such as BANG and SPLASH in a comic are examples of what?",
+      "action": "edit",
+      "note": "BANG/SPLASH imitate sounds, so onomatopoeia;anagram,palindrome,acronym do not define these examples. Actual Cambridge sound-imitation definition. Original prompt remains clear with both examples ordinary English soundwords.",
+      "recommendedChanges": {
+        "rationale": "BANG/SPLASH imitate sounds, so onomatopoeia;anagram,palindrome,acronym do not define these examples. Actual Cambridge sound-imitation definition. Original prompt remains clear with both examples ordinary English soundwords."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 99,
+      "prompt": "What is the space between panels in a comic called?",
+      "action": "edit",
+      "note": "Anthology repeated Books definition, replace with gutter betweenpanels. Speechballoon,caption,splashpage differentcomic elements. Scholastic explicitly defines spacesbetweenpanels as gutters. Space need not white or uniformlywide.",
+      "recommendedChanges": {
+        "prompt": "What is the space between panels in a comic called?",
+        "answers": [
+          "A gutter",
+          "A speech balloon",
+          "A caption",
+          "A splash page"
+        ],
+        "sourceURL": "https://www.scholastic.com/content/dam/scholastic/educators/discussion-guides/guide-to-using-graphic-novels.pdf",
+        "rationale": "Anthology repeated Books definition, replace with gutter betweenpanels. Speechballoon,caption,splashpage differentcomic elements. Scholastic explicitly defines spacesbetweenpanels as gutters. Space need not white or uniformlywide."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    },
+    {
+      "row": 100,
+      "prompt": "What is manga?",
+      "action": "edit",
+      "note": "Manga Japanesecomics, unlike animeJapaneseanimation,Koreandrama,Chinesemartialarts. Cambridge Japanesecomicbooks definition checked. Distinguishes manga from anime without claiming all manga published in English remain in Japanese language.",
+      "recommendedChanges": {
+        "answers": [
+          "Japanese comics",
+          "Japanese animated television programmes",
+          "Korean live-action dramas",
+          "Chinese martial arts"
+        ],
+        "rationale": "Manga Japanesecomics, unlike animeJapaneseanimation,Koreandrama,Chinesemartialarts. Cambridge Japanesecomicbooks definition checked. Distinguishes manga from anime without claiming all manga published in English remain in Japanese language."
+      },
+      "sourceReview": "Explicit author second pass of the question, all four options, single correct offered answer, grammar, comic continuity/translation scope and category relevance. Source retrieval failures are retained; applicable indexed publisher passages or retrieved reference text identified in source-access metadata. Not independent review."
+    }
+  ]
+}

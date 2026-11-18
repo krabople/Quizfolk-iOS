@@ -1,0 +1,1029 @@
+{
+  "date": "2026-11-18",
+  "note": "Access metadata does not automatically approve questions. Author decisions cover all100 items/options. Primary publisher references and authorised education texts used; private copyrighted extracts are not republished. Indexed passage inspection, adaptation corroboration and direct fetch failures distinguished.",
+  "references": [
+    {
+      "url": "https://asterix.com/en/characters/asterix",
+      "resolvedURL": "https://asterix.com/en/characters/asterix/",
+      "status": "retrieved_for_inspection",
+      "sha256": "939f0f0431d0b8e9c40a3132da82ef03f78ded0593a2e0f176a408f6971ee2cc",
+      "inspectionMethod": "Relevant private reference passage/definition inspected; see individual author judgments.",
+      "questionRows": [
+        71,
+        72
+      ]
+    },
+    {
+      "url": "https://asterix.com/en/characters/cacofonix",
+      "resolvedURL": "https://asterix.com/en/characters/cacofonix/",
+      "status": "retrieved_for_inspection",
+      "sha256": "a16c4f5c4a6a1aac91e0e8879c8ec791d4ab4832835261d64e63e49f5dd79e8f",
+      "inspectionMethod": "Relevant private reference passage/definition inspected; see individual author judgments.",
+      "questionRows": [
+        77
+      ]
+    },
+    {
+      "url": "https://asterix.com/en/characters/dogmatix",
+      "resolvedURL": "https://asterix.com/en/characters/dogmatix/",
+      "status": "retrieved_for_inspection",
+      "sha256": "f4cb5712c3458a93239464ad4bb81c476e3b939b00e5239abd7c4ff64dbd99d8",
+      "inspectionMethod": "Relevant private reference passage/definition inspected; see individual author judgments.",
+      "questionRows": [
+        75
+      ]
+    },
+    {
+      "url": "https://asterix.com/en/characters/getafix",
+      "resolvedURL": "https://asterix.com/en/characters/getafix/",
+      "status": "retrieved_for_inspection",
+      "sha256": "0bcc36296feca309e8908e227863a74282961aa416a68a21915365b61b52515e",
+      "inspectionMethod": "Relevant private reference passage/definition inspected; see individual author judgments.",
+      "questionRows": [
+        74,
+        76
+      ]
+    },
+    {
+      "url": "https://asterix.com/en/characters/obelix",
+      "resolvedURL": "https://asterix.com/en/characters/obelix/",
+      "status": "retrieved_for_inspection",
+      "sha256": "822ec9b02b4b1c7caa6f655563ebc33b4ab19aaf02b72807c4f7ffba15c59d6f",
+      "inspectionMethod": "Relevant private reference passage/definition inspected; see individual author judgments.",
+      "questionRows": [
+        73
+      ]
+    },
+    {
+      "url": "https://asterix.com/en/characters/vitalstatistix",
+      "resolvedURL": "https://asterix.com/en/characters/vitalstatistix/",
+      "status": "retrieved_for_inspection",
+      "sha256": "8f3f022c9c246e7effdf3ad0614a4dd04a13800fb1663a0c58e13a97e4f13013",
+      "inspectionMethod": "Relevant private reference passage/definition inspected; see individual author judgments.",
+      "questionRows": [
+        78
+      ]
+    },
+    {
+      "url": "https://cdn.marvel.com/u/prod/marvel/i/pdf/MMRPG_MarvelRivals_20241220.pdf",
+      "resolvedURL": "https://cdn.marvel.com/u/prod/marvel/i/pdf/MMRPG_MarvelRivals_20241220.pdf",
+      "status": "retrieved_for_inspection",
+      "sha256": "82de5bfd8b6b6a13145cb90a632c6aeacb281526ea09cddceff1b563330b5296",
+      "pages": 18,
+      "inspectionMethod": "Relevant private reference passage/definition inspected; see individual author judgments.",
+      "scopeNote": "Only familiar colour, biological appearance and plant nature checked; alternate-world game histories/statistics not generalised to comic continuity.",
+      "questionRows": [
+        26,
+        33,
+        34
+      ]
+    },
+    {
+      "url": "https://cdn.marvel.com/u/prod/marvel/i/pdf/MMRPG_XMen97_20240517.pdf",
+      "resolvedURL": "https://cdn.marvel.com/u/prod/marvel/i/pdf/MMRPG_XMen97_20240517.pdf",
+      "status": "retrieved_for_inspection",
+      "sha256": "85501a2e2f5a3a10898d3b847709178839e44ccb5c703b9e30e6a12a7ef1fc23",
+      "pages": 12,
+      "inspectionMethod": "Relevant private reference passage/definition inspected; see individual author judgments.",
+      "scopeNote": "Official adaptation character sheets corroborate the classic Nightcrawler teleportation and Gambit card abilities, without treating game statistics as universal comic continuity.",
+      "questionRows": [
+        15,
+        18
+      ]
+    },
+    {
+      "url": "https://d3ddkgxe55ca6c.cloudfront.net/assets/t1426862669/a/c0/65/dennis-resourcepack-teacher-resource-1341480.pdf",
+      "resolvedURL": "https://d3ddkgxe55ca6c.cloudfront.net/assets/t1426862669/a/c0/65/dennis-resourcepack-teacher-resource-1341480.pdf",
+      "status": "retrieved_for_inspection",
+      "sha256": "18ed7b96820412a8abaf0125a3b3c183de090e694a78640cb9a51ec49255a4c0",
+      "pages": 19,
+      "inspectionMethod": "Relevant private reference passage/definition inspected; see individual author judgments.",
+      "questionRows": [
+        86
+      ]
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/comic-strip",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/comic-strip",
+      "status": "retrieved_for_inspection",
+      "sha256": "bd9976fe8d19aea83237a50c81652138581b2b4fa8b4176a0e8d22918dcbfad1",
+      "inspectionMethod": "Relevant private reference passage/definition inspected; see individual author judgments.",
+      "questionRows": [
+        92
+      ]
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/graphic-novel",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/graphic-novel",
+      "status": "retrieved_for_inspection",
+      "sha256": "806bbb001d7e2f0e2e5bda759bcebef64666128d142d06f3ca783049681afd24",
+      "inspectionMethod": "Relevant private reference passage/definition inspected; see individual author judgments.",
+      "questionRows": [
+        91
+      ]
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/lettering",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/lettering",
+      "status": "retrieved_for_inspection",
+      "sha256": "171f9d87e974b33cebd8d815f746fb4da1e7aa59a628cd41417c70ce08eb9a89",
+      "inspectionMethod": "Relevant private reference passage/definition inspected; see individual author judgments.",
+      "questionRows": [
+        97
+      ]
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/manga",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/manga",
+      "status": "retrieved_for_inspection",
+      "sha256": "e78ae43260b0b734f39003943b1b2fe0d90f08be91577087bacc01ad10881a20",
+      "inspectionMethod": "Relevant private reference passage/definition inspected; see individual author judgments.",
+      "questionRows": [
+        100
+      ]
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/onomatopoeia",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/onomatopoeia",
+      "status": "retrieved_for_inspection",
+      "sha256": "21c612491ef00c4852abe342dce89a0cb70f50a72659970b254ecf5d893d3746",
+      "inspectionMethod": "Relevant private reference passage/definition inspected; see individual author judgments.",
+      "questionRows": [
+        98
+      ]
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/speech-bubble",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/speech-bubble",
+      "status": "retrieved_for_inspection",
+      "sha256": "cc932e9253078638271f3b7810474bb34d1bfcd7263006fc7c34b785a64af05e",
+      "inspectionMethod": "Relevant private reference passage/definition inspected; see individual author judgments.",
+      "questionRows": [
+        93
+      ]
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/thought-bubble",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/thought-bubble",
+      "status": "retrieved_for_inspection",
+      "sha256": "c7abd3019b0ab9b4d22229542756414ef9e727a54c01f826ae8270ebc7ef0df4",
+      "inspectionMethod": "Relevant private reference passage/definition inspected; see individual author judgments.",
+      "questionRows": [
+        94
+      ]
+    },
+    {
+      "url": "https://impact.disney.com/app/uploads/2022/01/Ant-Man-and-the-Wasp-Activity-Packet-Final.pdf",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "scopeNote": "Official screen-adaptation education packet corroborates the shared shrinking ability; no MCU-specific event or mechanics asserted as comics history.",
+      "questionRows": [
+        19
+      ]
+    },
+    {
+      "url": "https://latency.marvel.com/comics/discover/877/daredevil-legacy",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        3,
+        25
+      ]
+    },
+    {
+      "url": "https://schools.beano.com/lesson-plans/battle-of-bash-street-school/",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inspectionMethod": "Direct retrieval failed; applicable indexed publisher description inspected instead. Failure retained; full article retrieval not claimed.",
+      "questionRows": [
+        88
+      ]
+    },
+    {
+      "url": "https://schools.beano.com/lesson-plans/dennis-and-the-washing-machine/",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inspectionMethod": "Direct retrieval failed; applicable indexed publisher description inspected instead. Failure retained; full article retrieval not claimed.",
+      "questionRows": [
+        85
+      ]
+    },
+    {
+      "url": "https://schools.beano.com/lesson-plans/dennis-gnasher-custard-caper/",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inspectionMethod": "Direct retrieval failed; applicable indexed publisher description inspected instead. Failure retained; full article retrieval not claimed.",
+      "questionRows": [
+        84
+      ]
+    },
+    {
+      "url": "https://share.marvel.com/comics/discover/2509/sue-storms-coolest-powers",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        27
+      ]
+    },
+    {
+      "url": "https://share.marvel.com/comics/discover/433/luke-cage",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        49
+      ]
+    },
+    {
+      "url": "https://share.marvel.com/comics/discover/445/colossus",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        16
+      ]
+    },
+    {
+      "url": "https://share.marvel.com/comics/discover/713/venom-eddie-brock",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        47
+      ]
+    },
+    {
+      "url": "https://share.marvel.com/comics/discover/984/green-goblin",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        44
+      ]
+    },
+    {
+      "url": "https://www.cinebook.co.uk/uploads/files/catalogues/Catalogue_36_web.pdf",
+      "resolvedURL": "https://www.cinebook.co.uk/uploads/files/catalogues/Catalogue_36_web.pdf",
+      "status": "retrieved_for_inspection",
+      "sha256": "80babe352d1a633d1277904e8642a72727a43beb8e9e49bf5b7ad06f3a8b17a2",
+      "pages": 17,
+      "inspectionMethod": "Relevant private reference passage/definition inspected; see individual author judgments.",
+      "questionRows": [
+        90
+      ]
+    },
+    {
+      "url": "https://www.dargaud.com/bd/lucky-luke",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        89
+      ]
+    },
+    {
+      "url": "https://www.dc.com/blog/2014/07/22/batman-at-75-highlights-in-the-life-of-the-caped-crusader",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        52
+      ]
+    },
+    {
+      "url": "https://www.dc.com/blog/2023/05/10/ask-the-question-when-did-superman-get-his-heat-vision",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        55
+      ]
+    },
+    {
+      "url": "https://www.dc.com/blog/2025/05/29/crushed-by-color-a-kryptonite-catalogue",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        54
+      ]
+    },
+    {
+      "url": "https://www.dc.com/blog/2026-10-21/all-the-world-s-waiting-twelve-moments-that-defined-wonder-woman",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        58
+      ]
+    },
+    {
+      "url": "https://www.dc.com/characters/arsenal",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        60
+      ]
+    },
+    {
+      "url": "https://www.dc.com/characters/batgirl",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inspectionMethod": "Direct retrieval failed; applicable indexed publisher description inspected instead. Failure retained; full article retrieval not claimed.",
+      "questionRows": [
+        66
+      ]
+    },
+    {
+      "url": "https://www.dc.com/characters/batman",
+      "resolvedURL": "https://www.dc.com/characters/batman",
+      "status": "retrieved_for_inspection",
+      "sha256": "b8e8e73310ea9cce2deb6c9036a98f83d3ef520c390a1b2b038246498d8b9cc9",
+      "inspectionMethod": "Relevant private reference passage/definition inspected; see individual author judgments.",
+      "scopeNote": "DC profile explicitly identifies Bruce Wayne, utility-belt Batarangs and Robin sidekick. Batarang object description additionally checked in author editorial judgment; no uninspected cover-image review claimed.",
+      "questionRows": [
+        51,
+        53,
+        67
+      ]
+    },
+    {
+      "url": "https://www.dc.com/characters/blue-beetle",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inspectionMethod": "Direct retrieval failed; applicable indexed publisher description inspected instead. Failure retained; full article retrieval not claimed.",
+      "questionRows": [
+        68
+      ]
+    },
+    {
+      "url": "https://www.dc.com/characters/justice-league",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inspectionMethod": "Direct retrieval failed; applicable indexed publisher description inspected instead. Failure retained; full article retrieval not claimed.",
+      "questionRows": [
+        70
+      ]
+    },
+    {
+      "url": "https://www.dc.com/characters/mister-freeze",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        63
+      ]
+    },
+    {
+      "url": "https://www.dc.com/characters/plastic-man",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inspectionMethod": "Direct retrieval failed; applicable indexed publisher description inspected instead. Failure retained; full article retrieval not claimed.",
+      "questionRows": [
+        69
+      ]
+    },
+    {
+      "url": "https://www.dc.com/characters/red-hood",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inspectionMethod": "Direct retrieval failed; applicable indexed publisher description inspected instead. Failure retained; full article retrieval not claimed.",
+      "questionRows": [
+        65
+      ]
+    },
+    {
+      "url": "https://www.dc.com/characters/the-flash",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inspectionMethod": "Direct retrieval failed; applicable indexed publisher description inspected instead. Failure retained; full article retrieval not claimed.",
+      "questionRows": [
+        59
+      ]
+    },
+    {
+      "url": "https://www.dc.com/characters/the-joker",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inspectionMethod": "Direct retrieval failed; applicable indexed publisher description inspected instead. Failure retained; full article retrieval not claimed.",
+      "questionRows": [
+        61
+      ]
+    },
+    {
+      "url": "https://www.dc.com/characters/the-penguin",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inspectionMethod": "Direct retrieval failed; applicable indexed publisher description inspected instead. Failure retained; full article retrieval not claimed.",
+      "questionRows": [
+        62
+      ]
+    },
+    {
+      "url": "https://www.dc.com/graphic-novels/poison-ivy-thorns",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        64
+      ]
+    },
+    {
+      "url": "https://www.dc.com/graphic-novels/supergirl-2005/supergirl-vol-1-the-girl-of-steel",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        56,
+        57
+      ]
+    },
+    {
+      "url": "https://www.dcthomson.co.uk/brands/beano/",
+      "resolvedURL": "https://www.dcthomson.co.uk/brands/beano/",
+      "status": "retrieved_for_inspection",
+      "sha256": "63847b59502eadfa66bb12245cf8bb1bf7948a7d59e38256a515a91997d73d70",
+      "inspectionMethod": "Relevant private reference passage/definition inspected; see individual author judgments.",
+      "questionRows": [
+        87
+      ]
+    },
+    {
+      "url": "https://www.marvel.com/articles/comics/10-greatest-guardians-of-the-galaxy",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        35
+      ]
+    },
+    {
+      "url": "https://www.marvel.com/articles/comics/an-oral-history-of-secret-invasion",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        20
+      ]
+    },
+    {
+      "url": "https://www.marvel.com/articles/comics/pietro-maximoff-quicksilver-comics-history?linkId=112067650",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        39
+      ]
+    },
+    {
+      "url": "https://www.marvel.com/articles/comics/the-villains-of-black-panther",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        24
+      ]
+    },
+    {
+      "url": "https://www.marvel.com/articles/games/marvel-rivals-announces-hawkeye-joining-launch-roster-new-map-wakanda",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        5,
+        22
+      ]
+    },
+    {
+      "url": "https://www.marvel.com/characters/Iceman",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        17
+      ]
+    },
+    {
+      "url": "https://www.marvel.com/characters/black-widow-natasha-romanova/in-comics",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        6
+      ]
+    },
+    {
+      "url": "https://www.marvel.com/characters/doctor-octopus-otto-octavius/in-comics",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        45
+      ]
+    },
+    {
+      "url": "https://www.marvel.com/characters/galactus/",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        41
+      ]
+    },
+    {
+      "url": "https://www.marvel.com/characters/human-torch-johnny-storm/in-comics/profile/",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        28
+      ]
+    },
+    {
+      "url": "https://www.marvel.com/characters/kingpin/",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        46
+      ]
+    },
+    {
+      "url": "https://www.marvel.com/characters/loki/in-comics",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        43
+      ]
+    },
+    {
+      "url": "https://www.marvel.com/characters/mystique",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        14
+      ]
+    },
+    {
+      "url": "https://www.marvel.com/characters/namor/in-comics",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        8
+      ]
+    },
+    {
+      "url": "https://www.marvel.com/characters/nick-fury-sr",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        9
+      ]
+    },
+    {
+      "url": "https://www.marvel.com/characters/spider-man-peter-parker/in-comics",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        1,
+        23
+      ]
+    },
+    {
+      "url": "https://www.marvel.com/characters/wong/in-comics",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        31
+      ]
+    },
+    {
+      "url": "https://www.marvel.com/comics/characters/1010733/starlord_peter_quill",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        32
+      ]
+    },
+    {
+      "url": "https://www.marvel.com/comics/discover/2376/captain-americas-of-the-multiverse",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        2,
+        7,
+        21
+      ]
+    },
+    {
+      "url": "https://www.marvel.com/comics/issue/123518/one_world_under_doom_2025_1_variant/variant",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        42
+      ]
+    },
+    {
+      "url": "https://www.marvel.com/comics/issue/22628/iron_fist_1975_2",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        50
+      ]
+    },
+    {
+      "url": "https://www.marvel.com/comics/issue/48333/silver_surfer_2014_6",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        40
+      ]
+    },
+    {
+      "url": "https://www.marvel.com/comics/issue/56862/drax-2015-1",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        36
+      ]
+    },
+    {
+      "url": "https://www.marvel.com/items/adamantium",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        11
+      ]
+    },
+    {
+      "url": "https://www.marvel.com/teams-and-groups/avengers/in-comics",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        4,
+        10,
+        30,
+        37
+      ]
+    },
+    {
+      "url": "https://www.marvel.com/teams-and-groups/fantastic-four/in-comics",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        29
+      ]
+    },
+    {
+      "url": "https://www.marvel.com/teams-and-groups/spirits-of-vengeance",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        48
+      ]
+    },
+    {
+      "url": "https://www.marvel.com/teams-and-groups/x-men/in-comics",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        12,
+        13
+      ]
+    },
+    {
+      "url": "https://www.marvel.com/teams-and-groups/young-avengers",
+      "status": "indexed_publisher_passage_inspected",
+      "inspectionMethod": "Relevant publisher index biography, comics issue/collection synopsis, character description or educational reference passage inspected with web search; no successful direct full-text request claimed.",
+      "questionRows": [
+        38
+      ]
+    },
+    {
+      "url": "https://www.scholastic.com/content/dam/scholastic/educators/discussion-guides/guide-to-using-graphic-novels.pdf",
+      "resolvedURL": "https://www.scholastic.com/content/dam/scholastic/educators/discussion-guides/guide-to-using-graphic-novels.pdf",
+      "status": "retrieved_for_inspection",
+      "sha256": "65007d59d42f6c9ee8633ba5598259400d2c3d1cd8a3490ce8cf81642ac02b53",
+      "pages": 12,
+      "inspectionMethod": "Relevant private reference passage/definition inspected; see individual author judgments.",
+      "questionRows": [
+        95,
+        96,
+        99
+      ]
+    },
+    {
+      "url": "https://www.smurf.com/",
+      "resolvedURL": "https://www.smurf.com/",
+      "status": "retrieved_for_inspection",
+      "sha256": "b455fcb9b2dd3dbdbff22c857eb2c92f5b0af3ba6f43d19359c7d4ced45080ac",
+      "inspectionMethod": "Relevant private reference passage/definition inspected; see individual author judgments.",
+      "questionRows": [
+        79,
+        80,
+        81,
+        82,
+        83
+      ]
+    }
+  ],
+  "unusedFailedInitialPaths": [
+    {
+      "url": "https://www.beano.com/characters/bash-street-kids",
+      "status": "fetch_failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.beano.com/characters/dennis",
+      "status": "fetch_failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.beano.com/characters/minnie",
+      "status": "fetch_failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.beano.com/characters/roger",
+      "status": "fetch_failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.dc.com/characters/green-arrow",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.dc.com/characters/mr-freeze",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.dc.com/characters/poison-ivy",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.dc.com/characters/robin",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.dc.com/characters/supergirl",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.dc.com/characters/superman",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.dc.com/characters/wonder-woman",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.lucky-luke.com/en/lucky-luke",
+      "status": "fetch_failed",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.lucky-luke.com'. (_ssl.c:1010)>"
+    },
+    {
+      "url": "https://www.marvel.com/characters/ant-man-hank-pym/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/ant-man-scott-lang/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/black-panther-t-challa/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/black-widow-natasha-romanoff/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/captain-america-steve-rogers/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/colossus/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/daredevil-matthew-murdock/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/doctor-doom-victor-von-doom/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/doctor-octopus-otto-octavius/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/doctor-strange-stephen-strange/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/drax/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/falcon-sam-wilson/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/galactus/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/gambit/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/gamora/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/ghost-rider-johnny-blaze/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/green-goblin-norman-osborn/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/groot/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/hawkeye-clint-barton/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/hulk-bruce-banner/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/human-torch-johnny-storm/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/iceman/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/invisible-woman-susan-storm/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/iron-fist-danny-rand/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/kingpin/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/loki/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/luke-cage/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/magneto-max-eisenhardt/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/moon-knight-marc-spector/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/mystique/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/nightcrawler/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/professor-x/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/punisher-frank-castle/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/quicksilver/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/rocket/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/scarlet-witch-wanda-maximoff/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/silver-surfer/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/spider-man-peter-parker/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/star-lord-peter-quill/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/thing-benjamin-grimm/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/venom-eddie-brock/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/vision/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/wasp-janet-van-dyne/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/winter-soldier-bucky-barnes/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/wolverine-james-howlett/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.marvel.com/characters/wong/in-comics/profile",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.smurf.com/characters/azrael",
+      "status": "fetch_failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.smurf.com/characters/gargamel",
+      "status": "fetch_failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.smurf.com/characters/papa-smurf",
+      "status": "fetch_failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.smurf.com/characters/smurfette",
+      "status": "fetch_failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.smurf.com/characters/smurfs",
+      "status": "fetch_failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://cdn.marvel.com/u/prod/marvel/i/pdf/FRPGDMARRPG2024001_fullbook_LR.pdf",
+      "status": "fetch_failed",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ]
+}

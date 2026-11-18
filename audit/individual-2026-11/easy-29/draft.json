@@ -1,0 +1,1602 @@
+[
+  {
+    "draftID": "easy-29-001",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Marvel superhero is Peter Parker?",
+    "answers": [
+      "Spider-Man",
+      "Iron Man",
+      "Daredevil",
+      "Hawkeye"
+    ],
+    "correctIndex": 0,
+    "rationale": "Peter Parker is Spider-Man. Stark's Iron Man,Murdock's Daredevil,Barton's Hawkeye wrong. Comics identity differs from prior question about radioactive origin. Publisher Spider-Man biography inspected through index.",
+    "sourceURL": "https://www.marvel.com/characters/spider-man-peter-parker/in-comics",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-002",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Marvel superhero is Steve Rogers best known as?",
+    "answers": [
+      "Captain America",
+      "Doctor Strange",
+      "Ant-Man",
+      "Black Panther"
+    ],
+    "correctIndex": 0,
+    "rationale": "Steve Rogers is Captain America, not Strange,Ant-Man,Panther. Familiar identity, not claim only Rogers ever carries title. Publisher multiverse guide explicitly identifies original Steve Rogers.",
+    "sourceURL": "https://www.marvel.com/comics/discover/2376/captain-americas-of-the-multiverse",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-003",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Marvel superhero uses the civilian name Matt Murdock?",
+    "answers": [
+      "Daredevil",
+      "Iron Fist",
+      "Luke Cage",
+      "Moon Knight"
+    ],
+    "correctIndex": 0,
+    "rationale": "Matt Murdock is Daredevil. Iron Fist,Luke Cage,Moon Knight different people. Publisher Daredevil Legacy names blind lawyer; distinct from existing hair-colour and nickname questions.",
+    "sourceURL": "https://latency.marvel.com/comics/discover/877/daredevil-legacy",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-004",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which scientist was Marvel's original Ant-Man?",
+    "answers": [
+      "Hank Pym",
+      "Bruce Banner",
+      "Reed Richards",
+      "Tony Stark"
+    ],
+    "correctIndex": 0,
+    "rationale": "Hank Pym original Ant-Man; Banner Hulk,Richards Mister Fantastic,Stark Iron Man. Original qualifier needed because Scott Lang also Ant-Man. Avengers history explicitly pairs Hank Pym/Ant-Man.",
+    "sourceURL": "https://www.marvel.com/teams-and-groups/avengers/in-comics",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-005",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Marvel archer is Clint Barton?",
+    "answers": [
+      "Hawkeye",
+      "Falcon",
+      "Vision",
+      "Quicksilver"
+    ],
+    "correctIndex": 0,
+    "rationale": "Clint Barton is Hawkeye. Falcon,Vision,Quicksilver other heroes. Publisher reveal names archer; no claim Kate Bishop cannot also use title.",
+    "sourceURL": "https://www.marvel.com/articles/games/marvel-rivals-announces-hawkeye-joining-launch-roster-new-map-wakanda",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-006",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Natasha Romanoff is best known by which superhero name?",
+    "answers": [
+      "Black Widow",
+      "Scarlet Witch",
+      "Wasp",
+      "Invisible Woman"
+    ],
+    "correctIndex": 0,
+    "rationale": "Natasha Romanoff is Black Widow, not Wanda's Scarlet Witch,Janet's Wasp,Sue's Invisible Woman. Actual Comics biography uses Romanova/Romanoff variants; supplied familiar form is valid.",
+    "sourceURL": "https://www.marvel.com/characters/black-widow-natasha-romanova/in-comics",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-007",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Under which superhero name was Sam Wilson best known before becoming Captain America?",
+    "answers": [
+      "Falcon",
+      "Hawkeye",
+      "Ant-Man",
+      "Black Bolt"
+    ],
+    "correctIndex": 0,
+    "rationale": "Sam Wilson originally Falcon before Captain America; others unrelated identities. Publisher Captain Americas guide explicitly former Falcon. Does not imply Wilson never returns to Falcon identity later.",
+    "sourceURL": "https://www.marvel.com/comics/discover/2376/captain-americas-of-the-multiverse",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-008",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Bucky Barnes is associated with which identity after his time as Captain America's wartime partner?",
+    "answers": [
+      "Winter Soldier",
+      "Silver Surfer",
+      "Doctor Strange",
+      "Ghost Rider"
+    ],
+    "correctIndex": 0,
+    "rationale": "Bucky Barnes later Winter Soldier. Surfer,Strange,Rider other characters. Namor comics biography explicitly Bucky later Winter Soldier; no claim this was his only later identity, since he also became Captain America.",
+    "sourceURL": "https://www.marvel.com/characters/namor/in-comics",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-009",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Marvel vigilante is Frank Castle?",
+    "answers": [
+      "The Punisher",
+      "Daredevil",
+      "Moon Knight",
+      "Iron Fist"
+    ],
+    "correctIndex": 0,
+    "rationale": "Frank Castle is Punisher. Murdock,Spector,Rand other offered vigilantes. Publisher Nick Fury biography identifies Frank Castle AKA Punisher; term vigilante avoids debating superhero vs antihero.",
+    "sourceURL": "https://www.marvel.com/characters/nick-fury-sr",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-010",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which of these names is one of Moon Knight's identities?",
+    "answers": [
+      "Marc Spector",
+      "Matt Murdock",
+      "Clint Barton",
+      "Reed Richards"
+    ],
+    "correctIndex": 0,
+    "rationale": "Marc Spector one Moon Knight identity. Matt,Clint,Reed not his other identities. One of qualifier respects Steven Grant/Jake Lockley rather than falsely reducing dissociative identity to one alias.",
+    "sourceURL": "https://www.marvel.com/teams-and-groups/avengers/in-comics",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-011",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Besides his claws, Wolverine is especially known for which ability?",
+    "answers": [
+      "Rapid healing",
+      "Breathing underwater",
+      "Turning into sand",
+      "Controlling the weather"
+    ],
+    "correctIndex": 0,
+    "rationale": "Wolverine healing factor supports rapid recovery. Underwater breathing,sand transformation,weather control not signature abilities. Publisher adamantium account and character sheet healing factor checked; not invulnerability to every injury.",
+    "sourceURL": "https://www.marvel.com/items/adamantium",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-012",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Magneto's powers especially involve controlling what?",
+    "answers": [
+      "Magnetic fields and metal",
+      "Dreams",
+      "Fire",
+      "Ocean tides"
+    ],
+    "correctIndex": 0,
+    "rationale": "Magneto magnetic powers/metal. Dreams,fire,tides not principal power. X-Men official history explicitly mastery of magnetism; does not assert only ferromagnetic real-world physics applies in fiction.",
+    "sourceURL": "https://www.marvel.com/teams-and-groups/x-men/in-comics",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-013",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which X-Men founder is especially known for telepathy?",
+    "answers": [
+      "Professor X",
+      "Cyclops",
+      "Colossus",
+      "Iceman"
+    ],
+    "correctIndex": 0,
+    "rationale": "Professor X telepathic founder. Cyclops optic blasts,Colossus metal,Iceman ice do not provide this answer. X-Men official history identifies Xavier's telepathy/founding role.",
+    "sourceURL": "https://www.marvel.com/teams-and-groups/x-men/in-comics",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-014",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is Mystique's signature ability in Marvel Comics?",
+    "answers": [
+      "Changing her appearance",
+      "Producing ice",
+      "Generating earthquakes",
+      "Breathing fire"
+    ],
+    "correctIndex": 0,
+    "rationale": "Mystique shapeshifts appearance, not ice,earthquakes,fire. Publisher biography explicitly shape-shifting mutant. No appearance-only limit asserted on every continuity or current expanded powers.",
+    "sourceURL": "https://www.marvel.com/characters/mystique",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-015",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is Nightcrawler especially known for doing?",
+    "answers": [
+      "Teleporting",
+      "Controlling the weather",
+      "Becoming a giant",
+      "Shooting arrows"
+    ],
+    "correctIndex": 0,
+    "rationale": "Nightcrawler teleportation, not Storm's weather control,growinggiant,archery. Publisher X-Men character sheet explicitly Teleport; classic ability rather than invented maximum distance.",
+    "sourceURL": "https://cdn.marvel.com/u/prod/marvel/i/pdf/MMRPG_XMen97_20240517.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-016",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Colossus can transform his body into a form resembling what?",
+    "answers": [
+      "Metal",
+      "Glass",
+      "Sand",
+      "Wood"
+    ],
+    "correctIndex": 0,
+    "rationale": "Colossus metal form, not glass,sand,wood. Publisher Colossus introduction explicitly describes steel; metal keeps accessible and avoids overtechnical organic-steel mechanism.",
+    "sourceURL": "https://share.marvel.com/comics/discover/445/colossus",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-017",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "The X-Man Bobby Drake is best known by which superhero name?",
+    "answers": [
+      "Iceman",
+      "Cyclops",
+      "Beast",
+      "Gambit"
+    ],
+    "correctIndex": 0,
+    "rationale": "Bobby Drake Iceman, not Scott's Cyclops,Hank's Beast,Remy's Gambit. Publisher Iceman biography explicitly names Bobby. Different from a general superhero ice-power prompt.",
+    "sourceURL": "https://www.marvel.com/characters/Iceman",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-018",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What are Gambit's most famous energy-charged throwing weapons?",
+    "answers": [
+      "Playing cards",
+      "Chess pieces",
+      "Tennis balls",
+      "Paper money"
+    ],
+    "correctIndex": 0,
+    "rationale": "Gambit charges playing cards;chess pieces,tennis balls,paper money not iconic thrown objects. Publisher X-Men character sheet charged cards checked. Famously allows his power to charge other objects too.",
+    "sourceURL": "https://cdn.marvel.com/u/prod/marvel/i/pdf/MMRPG_XMen97_20240517.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-019",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What size-changing ability gives Ant-Man his name?",
+    "answers": [
+      "Shrinking to a tiny size",
+      "Passing through solid walls",
+      "Turning completely invisible",
+      "Reading other people's thoughts"
+    ],
+    "correctIndex": 0,
+    "rationale": "Ant-Man shrinks. Intangibility,invisibility,mind-reading are other powers, replacing always-growing and bizarre flat-picture options. Official Disney/Marvel activity account explicitly describes Lang shrinking; not claim he cannot grow too.",
+    "sourceURL": "https://impact.disney.com/app/uploads/2022/01/Ant-Man-and-the-Wasp-Activity-Packet-Final.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-020",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Janet van Dyne is best known by which superhero name?",
+    "answers": [
+      "The Wasp",
+      "Storm",
+      "Black Widow",
+      "Captain Marvel"
+    ],
+    "correctIndex": 0,
+    "rationale": "Janet van Dyne Wasp. Storm,Natasha's Widow,Carol's Captain Marvel wrong. Publisher oral history explicitly Janet AKA Wasp; no universal claim no other Wasps exist.",
+    "sourceURL": "https://www.marvel.com/articles/comics/an-oral-history-of-secret-invasion",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-021",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What gives Steve Rogers his enhanced abilities in Captain America's classic comic-book origin?",
+    "answers": [
+      "A super-soldier treatment",
+      "A radioactive spider bite",
+      "Exposure to cosmic rays",
+      "An alien symbiote"
+    ],
+    "correctIndex": 0,
+    "rationale": "Shield-star detail replaced with text-verified origin: super-soldier treatment. Spider bite,cosmic rays,symbiote other Marvel mechanisms. Captain Americas publisher guide explicitly Steve recipient of serum. Avoid treating uninspected cover artwork as reviewed visual evidence.",
+    "sourceURL": "https://www.marvel.com/comics/discover/2376/captain-americas-of-the-multiverse",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-022",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What weapon is Hawkeye most closely associated with?",
+    "answers": [
+      "A bow and arrows",
+      "A trident",
+      "A hammer",
+      "A sword"
+    ],
+    "correctIndex": 0,
+    "rationale": "Hawkeye bow/arrows;trident,hammer,sword not signature archery equipment. Publisher reveal quiver/arrows and official RPG Hawkeye arrow discussion support. Most closely associated allows occasional use of other weapons.",
+    "sourceURL": "https://www.marvel.com/articles/games/marvel-rivals-announces-hawkeye-joining-launch-roster-new-map-wakanda",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-023",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What does Spider-Man's spider-sense chiefly warn him about?",
+    "answers": [
+      "Danger",
+      "Other people's private thoughts",
+      "Whether any speaker is lying",
+      "The precise distance to every object in space"
+    ],
+    "correctIndex": 0,
+    "rationale": "Spider-sense warns impending danger. Not general mind-reading,lie detection or exact universal-distance measurement. Publisher biography explicit; replace stock-market/food-freshness joke options with distinguishable powers.",
+    "sourceURL": "https://www.marvel.com/characters/spider-man-peter-parker/in-comics",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-024",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which rare metal is especially associated with Wakanda in Marvel Comics?",
+    "answers": [
+      "Vibranium",
+      "Adamantium",
+      "Uru",
+      "Promethium"
+    ],
+    "correctIndex": 0,
+    "rationale": "Wakanda vibranium, not Wolverine's adamantium,Asgardian uru,DC promethium. Publisher Panther villains account explicitly stolen precious vibranium in Wakanda. No claim found nowhere else in every later continuity.",
+    "sourceURL": "https://www.marvel.com/articles/comics/the-villains-of-black-panther",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-025",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which sense did Matt Murdock lose in the accident in Daredevil's origin?",
+    "answers": [
+      "Sight",
+      "Hearing",
+      "Smell",
+      "Touch"
+    ],
+    "correctIndex": 0,
+    "rationale": "Murdock loses sight, retains enhanced other senses. Hearing,smell,touch not lost in origin. Publisher Daredevil first-issue description explicitly blinded; not a real-world medical claim about radiation.",
+    "sourceURL": "https://latency.marvel.com/comics/discover/877/daredevil-legacy",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-026",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What colour is Bruce Banner's Hulk form most commonly depicted as?",
+    "answers": [
+      "Green",
+      "Blue",
+      "Pink",
+      "Purple"
+    ],
+    "correctIndex": 0,
+    "rationale": "Banner Hulk most commonly green. Blue,pink,purple wrong for familiar form. Most commonly necessary because original grey Hulk and other incarnations exist. Publisher sheet explicitly green; no false always-green claim.",
+    "sourceURL": "https://cdn.marvel.com/u/prod/marvel/i/pdf/MMRPG_MarvelRivals_20241220.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-027",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Fantastic Four heroine is especially known for becoming invisible?",
+    "answers": [
+      "Sue Storm",
+      "Jean Grey",
+      "Natasha Romanoff",
+      "Ororo Munroe"
+    ],
+    "correctIndex": 0,
+    "rationale": "Sue Storm Invisible Woman. Jean,Natasha,Ororo other heroines. Publisher powers guide checked; no claim invisibility is her only ability, since force fields also central.",
+    "sourceURL": "https://share.marvel.com/comics/discover/2509/sue-storms-coolest-powers",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-028",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Johnny Storm's powers allow him to cover his body in what?",
+    "answers": [
+      "Flames",
+      "Ice",
+      "Stone",
+      "Sand"
+    ],
+    "correctIndex": 0,
+    "rationale": "Johnny's body aflame, not ice,stone,sand. Official Human Torch flame-form profile. Human Torch name given but question asks power, not a physics assertion human skin can safely burn.",
+    "sourceURL": "https://www.marvel.com/characters/human-torch-johnny-storm/in-comics/profile/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-029",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "The Thing's familiar orange skin resembles what material?",
+    "answers": [
+      "Rock",
+      "Glass",
+      "Wood",
+      "Water"
+    ],
+    "correctIndex": 0,
+    "rationale": "Thing rock-like skin, not glass,wood,water. Fantastic Four publisher history explicitly rock-like body. Resembles avoids uncertain literal geological composition.",
+    "sourceURL": "https://www.marvel.com/teams-and-groups/fantastic-four/in-comics",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-030",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Marvel superhero is Stephen Strange?",
+    "answers": [
+      "Doctor Strange",
+      "Hawkeye",
+      "Iron Man",
+      "Captain America"
+    ],
+    "correctIndex": 0,
+    "rationale": "Cloak flight claim replaced with straightforward identity: Stephen Strange is Doctor Strange. Hawkeye,Iron Man,Cap different people. Publisher Avengers roster explicitly pairs identity; distinct from existing former-surgeon question.",
+    "sourceURL": "https://www.marvel.com/teams-and-groups/avengers/in-comics",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-031",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which character is a longstanding ally of Doctor Strange in Marvel Comics?",
+    "answers": [
+      "Wong",
+      "Alfred Pennyworth",
+      "Commissioner Gordon",
+      "J. Jonah Jameson"
+    ],
+    "correctIndex": 0,
+    "rationale": "Wong longstanding Strange ally. Alfred,Gordon DC;Jameson Spider-Man editor. Official Wong comics history describes joint adventures. No servant-only stereotype or current office assumed.",
+    "sourceURL": "https://www.marvel.com/characters/wong/in-comics",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-032",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Peter Quill uses which superhero name?",
+    "answers": [
+      "Star-Lord",
+      "Silver Surfer",
+      "Nova",
+      "Moon Knight"
+    ],
+    "correctIndex": 0,
+    "rationale": "Peter Quill Star-Lord. Surfer,Nova,Moon Knight different identities. Publisher character comics listing explicitly pairs name. Hyphen in Star-Lord correct.",
+    "sourceURL": "https://www.marvel.com/comics/characters/1010733/starlord_peter_quill",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-033",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What kind of being is Groot in Marvel Comics?",
+    "answers": [
+      "A tree-like alien",
+      "A human astronaut",
+      "A talking robot",
+      "An underwater king"
+    ],
+    "correctIndex": 0,
+    "rationale": "Groot tree-like alien/Flora colossus, not human,robot,undersea king. Publisher character sheet explicitly PlanetX plant-being/regrowth. Avoid claiming ordinary Earth tree.",
+    "sourceURL": "https://cdn.marvel.com/u/prod/marvel/i/pdf/MMRPG_MarvelRivals_20241220.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-034",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Rocket of the Guardians of the Galaxy resembles which animal?",
+    "answers": [
+      "A raccoon",
+      "A fox",
+      "An otter",
+      "A badger"
+    ],
+    "correctIndex": 0,
+    "rationale": "Rocket resembles raccoon, not fox,otter,badger. Publisher Rocket Raccoon character sheet. Resembles avoids conflating engineered extraterrestrial origin with ordinary terrestrial animal.",
+    "sourceURL": "https://cdn.marvel.com/u/prod/marvel/i/pdf/MMRPG_MarvelRivals_20241220.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-035",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Gamora is best known as a member of which Marvel superhero team?",
+    "answers": [
+      "The Guardians of the Galaxy",
+      "The Fantastic Four",
+      "The X-Men",
+      "The New Mutants"
+    ],
+    "correctIndex": 0,
+    "rationale": "Adoptive-daughter prompt changed to readily verifiable team membership: Gamora best known as Guardian. FF,X-Men,New Mutants wrong core association. Official top-ten Guardians explicitly lists her; no claim exclusive membership in every story.",
+    "sourceURL": "https://www.marvel.com/articles/comics/10-greatest-guardians-of-the-galaxy",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-036",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which title is closely associated with the Guardians character Drax?",
+    "answers": [
+      "The Destroyer",
+      "The Sorcerer Supreme",
+      "The Man Without Fear",
+      "The King of Atlantis"
+    ],
+    "correctIndex": 0,
+    "rationale": "Drax the Destroyer, not Strange's Sorcerer Supreme,Daredevil's Man Without Fear,Aquaman's king title. Publisher Drax issue description explicitly Destroyer. No MCU literal-idiom personality generalisation.",
+    "sourceURL": "https://www.marvel.com/comics/issue/56862/drax-2015-1",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-037",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Avenger is an android with a synthetic body?",
+    "answers": [
+      "Vision",
+      "Hawkeye",
+      "Falcon",
+      "Ant-Man"
+    ],
+    "correctIndex": 0,
+    "rationale": "Vision android/syntheticbody, other offered heroes human. Publisher Avengers history explicitly creation of android Vision. No claim every subsequent reconstructed body identical.",
+    "sourceURL": "https://www.marvel.com/teams-and-groups/avengers/in-comics",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-038",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is Quicksilver's best-known superpower?",
+    "answers": [
+      "Super speed",
+      "Controlling plants",
+      "Turning into metal",
+      "Breathing underwater"
+    ],
+    "correctIndex": 0,
+    "rationale": "Quicksilver super speed, not plants,metalbody,underwater breathing. Publisher Young Avengers compares Speed's powers to Pietro. Best-known qualifier accommodates unusual temporary powers.",
+    "sourceURL": "https://www.marvel.com/teams-and-groups/young-avengers",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-039",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Quicksilver and Scarlet Witch are related in what way?",
+    "answers": [
+      "They are twin siblings",
+      "They are father and daughter",
+      "They are uncle and niece",
+      "They are married"
+    ],
+    "correctIndex": 0,
+    "rationale": "Pietro/Wanda twins, not fatherdaughter/uncleniece/married. Publisher Quicksilver fast facts explicitly Wanda's twin. Avoid disputed/retconned parentage entirely.",
+    "sourceURL": "https://www.marvel.com/articles/comics/pietro-maximoff-quicksilver-comics-history?linkId=112067650",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-040",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Marvel cosmic hero travels on a silvery board?",
+    "answers": [
+      "Silver Surfer",
+      "Nova",
+      "Star-Lord",
+      "Adam Warlock"
+    ],
+    "correctIndex": 0,
+    "rationale": "Silver Surfer cosmic surfboard, not Nova,Quill,Warlock's characteristic transport. Publisher Silver Surfer issue describes Dawn joining his board to explore universe and facsimile specifically his board. No numeric speed claim.",
+    "sourceURL": "https://www.marvel.com/comics/issue/48333/silver_surfer_2014_6",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-041",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Marvel character is famously known as the Devourer of Worlds?",
+    "answers": [
+      "Galactus",
+      "Doctor Doom",
+      "Kingpin",
+      "Green Goblin"
+    ],
+    "correctIndex": 0,
+    "rationale": "Galactus Devourer of Worlds, not Doom,Kingpin,Goblin. Replace diet question with silly only-books/sandwiches alternatives. Official Galactus/world-devouring publisher account supports title; no physical cosmology claim.",
+    "sourceURL": "https://www.marvel.com/characters/galactus/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-042",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Doctor Doom rules which fictional country in Marvel Comics?",
+    "answers": [
+      "Latveria",
+      "Wakanda",
+      "Genosha",
+      "Sokovia"
+    ],
+    "correctIndex": 0,
+    "rationale": "Doom Latveria, not Wakanda,Genosha,Sokovia. Publisher Doom2025 issue places his rule behind Latverian borders; classic fictional-country association not claim he never rules other territories.",
+    "sourceURL": "https://www.marvel.com/comics/issue/123518/one_world_under_doom_2025_1_variant/variant",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-043",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "In Marvel's Thor stories, Loki is Thor's what?",
+    "answers": [
+      "Adopted brother",
+      "Biological father",
+      "Son",
+      "Grandfather"
+    ],
+    "correctIndex": 0,
+    "rationale": "Loki adopted brother, not biological father,son,grandfather. Publisher Loki comics history explicit adopted sibling; scope Marvel Thor, not inconsistent real-world myth genealogy.",
+    "sourceURL": "https://www.marvel.com/characters/loki/in-comics",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-044",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Who is the original Green Goblin in the Spider-Man comics?",
+    "answers": [
+      "Norman Osborn",
+      "Otto Octavius",
+      "Wilson Fisk",
+      "Curt Connors"
+    ],
+    "correctIndex": 0,
+    "rationale": "Norman Osborn original Green Goblin. Octavius DocOck,Fisk Kingpin,Connors Lizard. Original qualifier avoids Harry/other later Goblins. Publisher Goblin reading guide and history checked.",
+    "sourceURL": "https://share.marvel.com/comics/discover/984/green-goblin",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-045",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Doctor Octopus is especially known for having what mechanical equipment?",
+    "answers": [
+      "Four mechanical tentacles",
+      "A pair of powered mechanical wings",
+      "A giant armoured wheel",
+      "A robotic spider-shaped vehicle"
+    ],
+    "correctIndex": 0,
+    "rationale": "Doctor Octopus four mechanical tentacles;wing harness,wheel,robotspider other gear. Publisher bio explicitly four mechanical tentacle-like arms. Distinguish mechanical count from his four natural limbs; better alternatives replace joke glove option.",
+    "sourceURL": "https://www.marvel.com/characters/doctor-octopus-otto-octavius/in-comics",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-046",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is the civilian name of the Marvel crime boss Kingpin?",
+    "answers": [
+      "Wilson Fisk",
+      "Norman Osborn",
+      "Victor von Doom",
+      "Eddie Brock"
+    ],
+    "correctIndex": 0,
+    "rationale": "Kingpin Wilson Fisk, not Osborn,Doom,Brock. Publisher Kingpin profile explicitly identity. Question not nickname-of-every-crime-boss terminology.",
+    "sourceURL": "https://www.marvel.com/characters/kingpin/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-047",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which of these characters is famously a host of the Venom symbiote?",
+    "answers": [
+      "Eddie Brock",
+      "Alfred Pennyworth",
+      "Commissioner Gordon",
+      "Clark Kent"
+    ],
+    "correctIndex": 0,
+    "rationale": "Eddie Brock famous Venom host. Alfred,Gordon,Clark different DC characters. Publisher Venom reading guide explicitly Eddie bond; not first living thing or only host, since Peter and others also hosted symbiote.",
+    "sourceURL": "https://share.marvel.com/comics/discover/713/venom-eddie-brock",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-048",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "The stunt rider Johnny Blaze is associated with which Marvel identity?",
+    "answers": [
+      "Ghost Rider",
+      "Moon Knight",
+      "Iron Fist",
+      "Daredevil"
+    ],
+    "correctIndex": 0,
+    "rationale": "Johnny Blaze Ghost Rider, not MoonKnight,IronFist,Daredevil. Publisher Spirits of Vengeance history calls him motorcycle stunt rider and Rider. Multiple Ghost Riders permitted, no unique-only claim.",
+    "sourceURL": "https://www.marvel.com/teams-and-groups/spirits-of-vengeance",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-049",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Luke Cage is especially known for super strength and what other physical feature?",
+    "answers": [
+      "Extremely tough, bullet-resistant skin",
+      "Elastic limbs",
+      "Retractable claws",
+      "Electrically charged skin"
+    ],
+    "correctIndex": 0,
+    "rationale": "Cage strength and tough skin. Elasticlimbs,claws,electric skin other abilities. Publisher reading guide explicit strength/unbreakable skin; bullet-resistant rather than absolute immunity keeps reasonable fictional qualification.",
+    "sourceURL": "https://share.marvel.com/comics/discover/433/luke-cage",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-050",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Marvel martial artist is Danny Rand?",
+    "answers": [
+      "Iron Fist",
+      "Luke Cage",
+      "Daredevil",
+      "The Punisher"
+    ],
+    "correctIndex": 0,
+    "rationale": "Danny Rand Iron Fist. Luke,Murdock,Castle different martial/street heroes. Publisher IronFist1975 issue explicitly Danny AKA Iron Fist. No claim Rand only historical bearer.",
+    "sourceURL": "https://www.marvel.com/comics/issue/22628/iron_fist_1975_2",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-051",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which billionaire is Batman's best-known civilian identity?",
+    "answers": [
+      "Bruce Wayne",
+      "Clark Kent",
+      "Oliver Queen",
+      "Lex Luthor"
+    ],
+    "correctIndex": 0,
+    "rationale": "Bruce Wayne Batman, not Kent,Queen,Luthor. DC biography and history explicit. Best-known qualifier accommodates other Batmen/continuities.",
+    "sourceURL": "https://www.dc.com/characters/batman",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-052",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is Batman's famous customised car called?",
+    "answers": [
+      "The Batmobile",
+      "The Invisible Jet",
+      "The Quinjet",
+      "The Spider-Mobile"
+    ],
+    "correctIndex": 0,
+    "rationale": "Batmobile car;InvisibleJet aircraft,Quinjet aircraft,SpiderMobile another hero. DC history explicitly customised Batmobile. Not falsely named every vehicle used by Batman.",
+    "sourceURL": "https://www.dc.com/blog/2014/07/22/batman-at-75-highlights-in-the-life-of-the-caped-crusader",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-053",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "A batarang is Batman's version of which kind of weapon?",
+    "answers": [
+      "A bat-shaped throwing weapon",
+      "An explosive submarine missile",
+      "A laser cannon worn on the wrist",
+      "A ceremonial sword"
+    ],
+    "correctIndex": 0,
+    "rationale": "Batarang bat-shaped thrown weapon, not torpedo,wristlaser,sword. DC Batman biography identifies utility-belt Batarangs; distinct from ordinary biological bat. No claim every version returns like a real boomerang.",
+    "sourceURL": "https://www.dc.com/characters/batman",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-054",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which fictional mineral is Superman famously vulnerable to?",
+    "answers": [
+      "Kryptonite",
+      "Quartz",
+      "Granite",
+      "Diamond"
+    ],
+    "correctIndex": 0,
+    "rationale": "Kryptonite famous vulnerability, not quartz/granite/diamond. Official DC kryptonite discussion inspected. No colour-specific claim that could confuse green/gold/red variants or other weaknesses such as magic.",
+    "sourceURL": "https://www.dc.com/blog/2025/05/29/crushed-by-color-a-kryptonite-catalogue",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-055",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Superman can produce intense heat beams from which part of his body?",
+    "answers": [
+      "His eyes",
+      "His ears",
+      "His knees",
+      "His feet"
+    ],
+    "correctIndex": 0,
+    "rationale": "Heat vision from eyes;ears,knees,feet wrong. DC heat-vision history explicit eye-based visual power. No false claim actual x-rays work this way.",
+    "sourceURL": "https://www.dc.com/blog/2023/05/10/ask-the-question-when-did-superman-get-his-heat-vision",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-056",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Kara Zor-El is best known as which DC superhero?",
+    "answers": [
+      "Supergirl",
+      "Wonder Woman",
+      "Batgirl",
+      "Black Canary"
+    ],
+    "correctIndex": 0,
+    "rationale": "Kara Zor-El Supergirl, not WonderWoman,Batgirl,Canary. DC Supergirl comics description explicitly names Kara. Proper spelling excludes Kara Zor-L/Power Girl of another Earth.",
+    "sourceURL": "https://www.dc.com/graphic-novels/supergirl-2005/supergirl-vol-1-the-girl-of-steel",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-057",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "In the usual DC Comics continuity, Kara Zor-El is Superman's what?",
+    "answers": [
+      "Cousin",
+      "Mother",
+      "Daughter",
+      "Grandmother"
+    ],
+    "correctIndex": 0,
+    "rationale": "Kara usual Superman cousin, not mother/daughter/grandmother. DC Girl of Steel collection explicit cousin. Usual continuity avoids unrelated Supergirl versions and different origin timelines.",
+    "sourceURL": "https://www.dc.com/graphic-novels/supergirl-2005/supergirl-vol-1-the-girl-of-steel",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-058",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is Wonder Woman's famous truth-compelling rope called?",
+    "answers": [
+      "The Lasso of Truth",
+      "The Golden Web",
+      "The Rope of Dreams",
+      "The Silver Snare"
+    ],
+    "correctIndex": 0,
+    "rationale": "Lasso of Truth correct;GoldenWeb,RopeDreams,SilverSnare wrong. DC defining WonderWoman moments explicitly iconic Lasso of Truth. Traditional name, not claim she cannot own other ropes/artifacts.",
+    "sourceURL": "https://www.dc.com/blog/2026-10-21/all-the-world-s-waiting-twelve-moments-that-defined-wonder-woman",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-059",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Barry Allen is best known as which DC superhero?",
+    "answers": [
+      "The Flash",
+      "Green Lantern",
+      "Green Arrow",
+      "Aquaman"
+    ],
+    "correctIndex": 0,
+    "rationale": "Barry Allen Flash, not Lantern,Arrow,Aquaman. DC Flash biography explicitly Jay,Barry,Wally as title bearers. No only-Flash or first-Flash assertion.",
+    "sourceURL": "https://www.dc.com/characters/the-flash",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-060",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Roy Harper first became Green Arrow's sidekick under which name?",
+    "answers": [
+      "Speedy",
+      "Robin",
+      "Kid Flash",
+      "Aqualad"
+    ],
+    "correctIndex": 0,
+    "rationale": "Roy's first sidekick identity Speedy. Robin/KidFlash/Aqualad belong elsewhere. DC Arsenal biography explicitly former Speedy,Arrow sidekick; later Arsenal/Red Arrow not offered.",
+    "sourceURL": "https://www.dc.com/characters/arsenal",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-061",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Batman villain is nicknamed the Clown Prince of Crime?",
+    "answers": [
+      "The Joker",
+      "The Penguin",
+      "Two-Face",
+      "Bane"
+    ],
+    "correctIndex": 0,
+    "rationale": "Joker Clown Prince of Crime, not Penguin,TwoFace,Bane. DC biography uses epithet. Fictional criminal title, not real formal royal rank.",
+    "sourceURL": "https://www.dc.com/characters/the-joker",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-062",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Batman villain is Oswald Cobblepot?",
+    "answers": [
+      "The Penguin",
+      "The Joker",
+      "The Riddler",
+      "Scarecrow"
+    ],
+    "correctIndex": 0,
+    "rationale": "Oswald Cobblepot Penguin, not Joker,Riddler,Scarecrow. Official DC Penguin biography explicit. Comic scope avoids altered surname in some screen adaptations.",
+    "sourceURL": "https://www.dc.com/characters/the-penguin",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-063",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Batman villain uses the civilian name Victor Fries?",
+    "answers": [
+      "Mr. Freeze",
+      "Two-Face",
+      "Bane",
+      "The Penguin"
+    ],
+    "correctIndex": 0,
+    "rationale": "Victor Fries Mr.Freeze, not Dent's TwoFace,Bane,Cobblepot. Initial mr-freeze URL wrong; actual DC entry mister-freeze checked. Fries spelling correct, not Fries/Freeze conflation.",
+    "sourceURL": "https://www.dc.com/characters/mister-freeze",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-064",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Batman villain is Pamela Isley?",
+    "answers": [
+      "Poison Ivy",
+      "Harley Quinn",
+      "Catwoman",
+      "Talia al Ghul"
+    ],
+    "correctIndex": 0,
+    "rationale": "Pamela Isley Poison Ivy. Harleen,Selina,Talia other characters. DC PoisonIvyThorns publisher description explicitly Pamela. No assertion current stories always define her purely villain rather than antihero.",
+    "sourceURL": "https://www.dc.com/graphic-novels/poison-ivy-thorns",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-065",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which former Robin is best known for taking the identity Red Hood?",
+    "answers": [
+      "Jason Todd",
+      "Dick Grayson",
+      "Tim Drake",
+      "Damian Wayne"
+    ],
+    "correctIndex": 0,
+    "rationale": "Former Robin JasonTodd RedHood;Dick Nightwing,Tim/ Damian otherRobins. DC RedHood biography explicit. Best-known avoids claiming nobody else ever wore RedHood identity, including Joker predecessor.",
+    "sourceURL": "https://www.dc.com/characters/red-hood",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-066",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Barbara Gordon is closely associated with which costumed identity?",
+    "answers": [
+      "Batgirl",
+      "Supergirl",
+      "Wonder Woman",
+      "Starfire"
+    ],
+    "correctIndex": 0,
+    "rationale": "Barbara associated Batgirl, not Supergirl,Diana,Starfire. DC Batgirl description explicitly Barbara. Associated allows her Oracle role and Cassandra/Stephanie as other Batgirls.",
+    "sourceURL": "https://www.dc.com/characters/batgirl",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-067",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is Robin's usual role alongside Batman?",
+    "answers": [
+      "His crime-fighting partner",
+      "His biological father",
+      "The mayor of Metropolis",
+      "His chief newspaper editor"
+    ],
+    "correctIndex": 0,
+    "rationale": "Robin usually Batman crime-fighting partner, not father,Metropolis mayor,editor. DC Batman history original sidekick. Not claim every Robin biologically related or always a child.",
+    "sourceURL": "https://www.dc.com/characters/batman",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-068",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which DC superhero identity is associated with Jaime Reyes?",
+    "answers": [
+      "Blue Beetle",
+      "Booster Gold",
+      "The Atom",
+      "Plastic Man"
+    ],
+    "correctIndex": 0,
+    "rationale": "Jaime Reyes BlueBeetle, not BoosterGold,Atom,PlasticMan. DC biography explicitly thirdBlueBeetle. No mistake calling Jaime first, given Garrett/Kord predecessors.",
+    "sourceURL": "https://www.dc.com/characters/blue-beetle",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-069",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Plastic Man's signature power allows him to do what?",
+    "answers": [
+      "Stretch and reshape his body",
+      "Control the weather",
+      "Speak only to sea creatures",
+      "Create ice from the air"
+    ],
+    "correctIndex": 0,
+    "rationale": "PlasticMan stretches/reshapes, not weather/sea-onlyspeech/iceproduction. DC biography and original archive collection explicit. Does not reduce all his transformations to one body size.",
+    "sourceURL": "https://www.dc.com/characters/plastic-man",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-070",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Superman, Batman and Wonder Woman are closely associated with which superhero team?",
+    "answers": [
+      "The Justice League",
+      "The Fantastic Four",
+      "The X-Men",
+      "The Guardians of the Galaxy"
+    ],
+    "correctIndex": 0,
+    "rationale": "Trinity closely associated JusticeLeague. FF,XMen,Guardians Marvel groups. Official DC League introduction names Superman,Batman,WonderWoman. Not an assertion every era has identical founders or membership.",
+    "sourceURL": "https://www.dc.com/characters/justice-league",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-071",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Asterix is a member of which ancient people?",
+    "answers": [
+      "The Gauls",
+      "The Vikings",
+      "The Aztecs",
+      "The Spartans"
+    ],
+    "correctIndex": 0,
+    "rationale": "Asterix a Gaul;Viking,Aztec,Spartan different ancient peoples. Official character biography citizenship Gaul. Fictional story not historical claim he actually existed.",
+    "sourceURL": "https://asterix.com/en/characters/asterix",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-072",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What gives Asterix temporary superhuman strength?",
+    "answers": [
+      "A magic potion",
+      "A radioactive spider bite",
+      "A robotic suit",
+      "A power ring"
+    ],
+    "correctIndex": 0,
+    "rationale": "Strength comes from magic potion;spiderbite,armour,ring other superhero mechanisms. Official Asterix/Getafix text confirms potion. Temporary distinguishes Asterix from Obelix's sustained effect.",
+    "sourceURL": "https://asterix.com/en/characters/asterix",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-073",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Why does Obelix normally not need a dose of the strength-giving potion?",
+    "answers": [
+      "He fell into a cauldron of it as a small boy",
+      "He invents a new potion every morning",
+      "His helmet supplies his strength",
+      "He is secretly a Roman god"
+    ],
+    "correctIndex": 0,
+    "rationale": "Official Obelix bio says small boy, so correct too-specific baby to small boy. Potioncauldron explains persistent strength;newrecipe,poweredhelmet,Romangod false. Normally accounts for special-story exceptions.",
+    "sourceURL": "https://asterix.com/en/characters/obelix",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-074",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Obelix is especially associated with carrying which large stone objects?",
+    "answers": [
+      "Menhirs",
+      "Obelisks covered in gold",
+      "Marble bathtubs",
+      "Millstones on wheels"
+    ],
+    "correctIndex": 0,
+    "rationale": "Obelix famous menhir deliverer;goldobelisks,bathtubs,wheeledmillstones wrong iconic carried objects. Official Getafix text explicitly menhir deliverer and Asterix author-page menhirs. No conflation menhir vs obelisk despite punning name.",
+    "sourceURL": "https://asterix.com/en/characters/getafix",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-075",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is the English name of Obelix's small dog?",
+    "answers": [
+      "Dogmatix",
+      "Snowy",
+      "Gnasher",
+      "Snoopy"
+    ],
+    "correctIndex": 0,
+    "rationale": "Dogmatix Obelix dog, not Tintin's Snowy,BeanoGnasher,PeanutsSnoopy. Official Dogmatix history explicitly Obelixwelcominglittle dog. English qualifier distinguishes French Idéfix.",
+    "sourceURL": "https://asterix.com/en/characters/dogmatix",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-076",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which druid brews the magic potion in the English-language Asterix books?",
+    "answers": [
+      "Getafix",
+      "Cacofonix",
+      "Vitalstatistix",
+      "Unhygienix"
+    ],
+    "correctIndex": 0,
+    "rationale": "Getafix potion-brewing druid;Cacofonix bard,Vitalstatistix chief,Unhygienix fishmonger. Official Getafix druid/potion biography. English-name qualification avoids Panoramix translations.",
+    "sourceURL": "https://asterix.com/en/characters/getafix",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-077",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is Cacofonix's role in Asterix's village?",
+    "answers": [
+      "Bard",
+      "Blacksmith",
+      "Fishmonger",
+      "Chief"
+    ],
+    "correctIndex": 0,
+    "rationale": "Cacofonix bard, not blacksmith,fishmonger,chief. Official bio calls bard and schoolteacher; question does not deny his second role. No qualitative opinion that music bad posed as fact.",
+    "sourceURL": "https://asterix.com/en/characters/cacofonix",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-078",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Who is the chief of Asterix's village in the English-language books?",
+    "answers": [
+      "Vitalstatistix",
+      "Getafix",
+      "Cacofonix",
+      "Unhygienix"
+    ],
+    "correctIndex": 0,
+    "rationale": "Vitalstatistix chief, not other named villagers. Official character bio explicitly chief. English-language names and spelling checked.",
+    "sourceURL": "https://asterix.com/en/characters/vitalstatistix",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-079",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What colour are the Smurfs usually depicted as?",
+    "answers": [
+      "Blue",
+      "Green",
+      "Orange",
+      "Purple"
+    ],
+    "correctIndex": 0,
+    "rationale": "Smurfs normally blue, not green/orange/purple. Official Smurf homepage explicitly blue and small. Usually accommodates purple/black transformations without pretending exceptions never exist.",
+    "sourceURL": "https://www.smurf.com/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-080",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Smurf is the wise elder who leads the village?",
+    "answers": [
+      "Papa Smurf",
+      "Brainy Smurf",
+      "Hefty Smurf",
+      "Clumsy Smurf"
+    ],
+    "correctIndex": 0,
+    "rationale": "Replace colour requiring uninspected picture with verified role. Papa wise elder/leader;Brainy,Hefty,Clumsy not village leader. Official homepage oldest/wisest/bigcheese description checked; no exact-age question.",
+    "sourceURL": "https://www.smurf.com/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-081",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Who is the wizard who repeatedly tries to capture the Smurfs?",
+    "answers": [
+      "Gargamel",
+      "Merlin",
+      "Getafix",
+      "Doctor Strange"
+    ],
+    "correctIndex": 0,
+    "rationale": "Gargamel wizard pursuingSmurfs;Merlin,Getafix,Strange different fictionalmagicians. Official Smurf character text explicitly obsession with capture. Repeatedly allows failures and other story motives.",
+    "sourceURL": "https://www.smurf.com/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-082",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is the name of Gargamel's cat in the Smurfs stories?",
+    "answers": [
+      "Azrael",
+      "Garfield",
+      "Felix",
+      "Tom"
+    ],
+    "correctIndex": 0,
+    "rationale": "Gargamel cat Azrael, not Garfield,Felix,Tom. Official homepage explicitly Azraelthecat companion. No spelling confusion with DC Azrael hero due Smurf scope.",
+    "sourceURL": "https://www.smurf.com/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-083",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Smurf did Gargamel originally create?",
+    "answers": [
+      "Smurfette",
+      "Papa Smurf",
+      "Brainy Smurf",
+      "Hefty Smurf"
+    ],
+    "correctIndex": 0,
+    "rationale": "Replace uninspected costume detail with Smurfette created by Gargamel, not Papa,Brainy,Hefty. Official bio explicitly creation then Papa magic. Does not confuse creator with later transformation into kind Smurf.",
+    "sourceURL": "https://www.smurf.com/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-084",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "In the British Beano comic, what is Dennis's dog called?",
+    "answers": [
+      "Gnasher",
+      "Snowy",
+      "Snoopy",
+      "Odie"
+    ],
+    "correctIndex": 0,
+    "rationale": "British Dennis dog Gnasher, not Snowy,Snoopy,Odie. Official Beano Schools CustardCaper explicitly DoggyBFF. British qualifier essential because American Dennis different character and dog.",
+    "sourceURL": "https://schools.beano.com/lesson-plans/dennis-gnasher-custard-caper/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-085",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which two colours feature on Dennis's striped jumper in the British Beano comic?",
+    "answers": [
+      "Red and black",
+      "Blue and white",
+      "Green and yellow",
+      "Purple and orange"
+    ],
+    "correctIndex": 0,
+    "rationale": "Dennis red/black stripedjumper. Bluewhite,greenyellow,purpleorange wrong. Official Beano WashingMachine description explicitly colours. Fix grammar by asking which two colours feature rather than what colours are jumper.",
+    "sourceURL": "https://schools.beano.com/lesson-plans/dennis-and-the-washing-machine/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-086",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Beano character is known as Minnie the what?",
+    "answers": [
+      "Minx",
+      "Magician",
+      "Mermaid",
+      "Mechanic"
+    ],
+    "correctIndex": 0,
+    "rationale": "Minnie the Minx, not Magician,Mermaid,Mechanic. Authorised Beano educator resource character list explicitly name. Proper title, no factual judgment about a child's behaviour.",
+    "sourceURL": "https://d3ddkgxe55ca6c.cloudfront.net/assets/t1426862669/a/c0/65/dennis-resourcepack-teacher-resource-1341480.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-087",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which company publishes the Beano comic?",
+    "answers": [
+      "DC Thomson",
+      "Marvel Comics",
+      "Panini",
+      "Rebellion"
+    ],
+    "correctIndex": 0,
+    "rationale": "Roger chores reference missing, replace with verified publisher DCThomson. Marvel,Panini,Rebellion other comics publishers. DCThomson own Beano brand page checked; distinguish DCThomson from DC Comics.",
+    "sourceURL": "https://www.dcthomson.co.uk/brands/beano/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-088",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "The Bash Street Kids are especially associated with which setting?",
+    "answers": [
+      "A school",
+      "A spaceship",
+      "A pirate ship",
+      "A royal palace"
+    ],
+    "correctIndex": 0,
+    "rationale": "BashStreetKids schoolsetting, not space,pirates,royalcourt. Official Beano school lesson and character education pack. Especiallyassociated avoids asserting adventures never leave school.",
+    "sourceURL": "https://schools.beano.com/lesson-plans/battle-of-bash-street-school/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-089",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is the name of Lucky Luke's horse?",
+    "answers": [
+      "Jolly Jumper",
+      "Black Beauty",
+      "Silver",
+      "Bucephalus"
+    ],
+    "correctIndex": 0,
+    "rationale": "JollyJumper LuckyLukehorse. BlackBeauty,Silver,Bucephalus other horses. Original publisher Dargaud explicitly sonchevalJollyJumper; exact source replaces unavailable guessed English official URL.",
+    "sourceURL": "https://www.dargaud.com/bd/lucky-luke",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-090",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Lucky Luke's adventures are mainly set in which kind of world?",
+    "answers": [
+      "The American Old West",
+      "Ancient Egypt",
+      "A futuristic space empire",
+      "Medieval Japan"
+    ],
+    "correctIndex": 0,
+    "rationale": "LuckyLuke OldWest, not ancientEgypt,futurespace,medievalJapan. Licensed English publisher Cinebook catalogue explicitly classicWestern/OldWest. Mainly allows travel stories and historical fantasy humour.",
+    "sourceURL": "https://www.cinebook.co.uk/uploads/files/catalogues/Catalogue_36_web.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-091",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is a graphic novel?",
+    "answers": [
+      "A book-length story told through sequential artwork and text",
+      "A prose novel with no illustrations",
+      "A book made entirely of screenplay instructions",
+      "An audio performance without pictures"
+    ],
+    "correctIndex": 0,
+    "rationale": "Graphic novel book-length sequentialart/textstory, not prose-only,script-only,audio. Cambridge explicit longstorymostlypictures with writing. No false requirement all graphic novels fiction or originally one volume.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/graphic-novel",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-092",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is a comic strip?",
+    "answers": [
+      "A sequence of drawings telling a story",
+      "A prose-only newspaper editorial",
+      "A single scene performed on stage",
+      "An audio-only dramatisation"
+    ],
+    "correctIndex": 0,
+    "rationale": "Comicstrip sequentialdrawingsstory, not proseeditorial,stage scene,audiodrama. Cambridge definition checked, but don't require all strips funny despite introductory wording. Replace unrelated pricing/index alternatives with actual narrative formats.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/comic-strip",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-093",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "In comics, what does a speech bubble usually contain?",
+    "answers": [
+      "A character's spoken words",
+      "A list of the production credits",
+      "The space between two panels",
+      "Only the publisher's address"
+    ],
+    "correctIndex": 0,
+    "rationale": "Speechbubble usuallyspokenwords, not credits,gutter,address. Dictionary and Scholasticdialogue examples checked; usually allows nonstandard artistic usage. Distinct from thoughtballoon94.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/speech-bubble",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-094",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "In comics, what does a thought bubble usually show?",
+    "answers": [
+      "What a character is thinking",
+      "Words spoken aloud to another character",
+      "Only the author's name",
+      "Only the comic's retail price"
+    ],
+    "correctIndex": 0,
+    "rationale": "Thoughtbubble thoughts, not spokenaloud,authorname,price. Dedicated Cambridge definition checked rather than ordinary thought-bubble politicalidea meaning. No claim thoughts must be voiced to audience.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/thought-bubble",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-095",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "In a comic, what is a panel?",
+    "answers": [
+      "One individual picture or section of the sequence",
+      "The empty space between pictures",
+      "A character's spoken words alone",
+      "The entire series of published issues"
+    ],
+    "correctIndex": 0,
+    "rationale": "Panel individualpicture/section. Gutter,dialoguewords,entireseries otherunits. Generic panel dictionary lacked comic sense, so use Scholastic educatorguide; remove framed requirement because guide explicitly notes borderless panels.",
+    "sourceURL": "https://www.scholastic.com/content/dam/scholastic/educators/discussion-guides/guide-to-using-graphic-novels.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-096",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is a caption box usually used for in a comic?",
+    "answers": [
+      "Narration or descriptive text",
+      "The empty space separating panels",
+      "The outline around the whole page",
+      "Only the retail price"
+    ],
+    "correctIndex": 0,
+    "rationale": "Inker mechanism not established by ink dictionary. Replace with caption narration/descriptivebox using Scholastic text explicitly wordsinboxesnotspoken. Gutter,pageoutline,retailprice not usualcaption purpose. Usually allows internalmonologue/othercaption conventions.",
+    "sourceURL": "https://www.scholastic.com/content/dam/scholastic/educators/discussion-guides/guide-to-using-graphic-novels.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-097",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "In comics, lettering mainly concerns what?",
+    "answers": [
+      "The written words and their visual presentation",
+      "The pencilled character drawings",
+      "The colours added to the artwork",
+      "The physical binding of the book"
+    ],
+    "correctIndex": 0,
+    "rationale": "Lettering words/visualstyle. Pencilart,colour,binding distinctproductionaspects. Cambridge lettering writing in particularstyle/colour; no assertion letterer necessarilyauthorsscript.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/lettering",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-098",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Words such as BANG and SPLASH in a comic are examples of what?",
+    "answers": [
+      "Onomatopoeia",
+      "Anagrams",
+      "Palindromes",
+      "Acronyms"
+    ],
+    "correctIndex": 0,
+    "rationale": "BANG/SPLASH imitate sounds, so onomatopoeia;anagram,palindrome,acronym do not define these examples. Actual Cambridge sound-imitation definition. Original prompt remains clear with both examples ordinary English soundwords.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/onomatopoeia",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-099",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is the space between panels in a comic called?",
+    "answers": [
+      "A gutter",
+      "A speech balloon",
+      "A caption",
+      "A splash page"
+    ],
+    "correctIndex": 0,
+    "rationale": "Anthology repeated Books definition, replace with gutter betweenpanels. Speechballoon,caption,splashpage differentcomic elements. Scholastic explicitly defines spacesbetweenpanels as gutters. Space need not white or uniformlywide.",
+    "sourceURL": "https://www.scholastic.com/content/dam/scholastic/educators/discussion-guides/guide-to-using-graphic-novels.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-29-100",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is manga?",
+    "answers": [
+      "Japanese comics",
+      "Japanese animated television programmes",
+      "Korean live-action dramas",
+      "Chinese martial arts"
+    ],
+    "correctIndex": 0,
+    "rationale": "Manga Japanesecomics, unlike animeJapaneseanimation,Koreandrama,Chinesemartialarts. Cambridge Japanesecomicbooks definition checked. Distinguishes manga from anime without claiming all manga published in English remain in Japanese language.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/manga",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  }
+]

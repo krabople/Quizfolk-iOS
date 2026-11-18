@@ -1,9 +1,9 @@
 {
   "updated": "2026-11-18",
   "targetNewEasy": 3100,
-  "reviewedAndValidated": 2100,
-  "localBankCount": 24017,
-  "liveBankCount": 24017,
+  "reviewedAndValidated": 2200,
+  "localBankCount": 24117,
+  "liveBankCount": 24117,
   "topics": [
     {
       "topicID": "9",
@@ -169,9 +169,9 @@
       "topicID": "29",
       "name": "Comics",
       "targetNewEasy": 100,
-      "authored": 0,
-      "reviewedAndValidated": 0,
-      "deployedNewEasy": 0
+      "authored": 100,
+      "reviewedAndValidated": 100,
+      "deployedNewEasy": 100
     },
     {
       "topicID": "30",

@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "e12701fbc1f4c0a0fe7e",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Marvel superhero is Peter Parker?",
+    "answers": [
+      "Spider-Man",
+      "Iron Man",
+      "Daredevil",
+      "Hawkeye"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/characters/spider-man-peter-parker/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "75e11ca6af11d8fd0518",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Marvel superhero is Steve Rogers best known as?",
+    "answers": [
+      "Doctor Strange",
+      "Ant-Man",
+      "Black Panther",
+      "Captain America"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/comics/discover/2376/captain-americas-of-the-multiverse",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "8ec5de4af2614a40f78f",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Marvel superhero uses the civilian name Matt Murdock?",
+    "answers": [
+      "Luke Cage",
+      "Moon Knight",
+      "Daredevil",
+      "Iron Fist"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://latency.marvel.com/comics/discover/877/daredevil-legacy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "023314dc513b3f419fea",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which scientist was Marvel's original Ant-Man?",
+    "answers": [
+      "Tony Stark",
+      "Hank Pym",
+      "Bruce Banner",
+      "Reed Richards"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/teams-and-groups/avengers/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "d27637d9ef198802d879",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Marvel archer is Clint Barton?",
+    "answers": [
+      "Hawkeye",
+      "Falcon",
+      "Vision",
+      "Quicksilver"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/articles/games/marvel-rivals-announces-hawkeye-joining-launch-roster-new-map-wakanda",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "7cf33f8cd3c698336483",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Natasha Romanoff is best known by which superhero name?",
+    "answers": [
+      "Scarlet Witch",
+      "Wasp",
+      "Invisible Woman",
+      "Black Widow"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/characters/black-widow-natasha-romanova/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "6f98ddcdca19b8a95a0d",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Under which superhero name was Sam Wilson best known before becoming Captain America?",
+    "answers": [
+      "Ant-Man",
+      "Black Bolt",
+      "Falcon",
+      "Hawkeye"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/comics/discover/2376/captain-americas-of-the-multiverse",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "838ed3c2e878ee95cbd7",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Bucky Barnes is associated with which identity after his time as Captain America's wartime partner?",
+    "answers": [
+      "Ghost Rider",
+      "Winter Soldier",
+      "Silver Surfer",
+      "Doctor Strange"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/characters/namor/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "58711a56ee7be820137d",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Marvel vigilante is Frank Castle?",
+    "answers": [
+      "The Punisher",
+      "Daredevil",
+      "Moon Knight",
+      "Iron Fist"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/characters/nick-fury-sr",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "e7f6441f6be95505cec9",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which of these names is one of Moon Knight's identities?",
+    "answers": [
+      "Matt Murdock",
+      "Clint Barton",
+      "Reed Richards",
+      "Marc Spector"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/teams-and-groups/avengers/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "0c0a8336f22150a09d8f",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Besides his claws, Wolverine is especially known for which ability?",
+    "answers": [
+      "Turning into sand",
+      "Controlling the weather",
+      "Rapid healing",
+      "Breathing underwater"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/items/adamantium",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "0239a97c85d99e9126a2",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Magneto's powers especially involve controlling what?",
+    "answers": [
+      "Ocean tides",
+      "Magnetic fields and metal",
+      "Dreams",
+      "Fire"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/teams-and-groups/x-men/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "b4a9effa842d724d31b3",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which X-Men founder is especially known for telepathy?",
+    "answers": [
+      "Professor X",
+      "Cyclops",
+      "Colossus",
+      "Iceman"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/teams-and-groups/x-men/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "6e6ab0892001a9cb2cd3",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is Mystique's signature ability in Marvel Comics?",
+    "answers": [
+      "Producing ice",
+      "Generating earthquakes",
+      "Breathing fire",
+      "Changing her appearance"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/characters/mystique",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "e42101d72d7b1247af26",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is Nightcrawler especially known for doing?",
+    "answers": [
+      "Becoming a giant",
+      "Shooting arrows",
+      "Teleporting",
+      "Controlling the weather"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://cdn.marvel.com/u/prod/marvel/i/pdf/MMRPG_XMen97_20240517.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "688d8f3248dc102469e7",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Colossus can transform his body into a form resembling what?",
+    "answers": [
+      "Wood",
+      "Metal",
+      "Glass",
+      "Sand"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://share.marvel.com/comics/discover/445/colossus",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "c8f3abb321d5ed59c522",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "The X-Man Bobby Drake is best known by which superhero name?",
+    "answers": [
+      "Iceman",
+      "Cyclops",
+      "Beast",
+      "Gambit"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/characters/Iceman",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "4b1b621d2c8285720e4c",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What are Gambit's most famous energy-charged throwing weapons?",
+    "answers": [
+      "Chess pieces",
+      "Tennis balls",
+      "Paper money",
+      "Playing cards"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://cdn.marvel.com/u/prod/marvel/i/pdf/MMRPG_XMen97_20240517.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "a289bfe15f6efa93a78e",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What size-changing ability gives Ant-Man his name?",
+    "answers": [
+      "Turning completely invisible",
+      "Reading other people's thoughts",
+      "Shrinking to a tiny size",
+      "Passing through solid walls"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://impact.disney.com/app/uploads/2022/01/Ant-Man-and-the-Wasp-Activity-Packet-Final.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "5e0fa7216527c7b21adf",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Janet van Dyne is best known by which superhero name?",
+    "answers": [
+      "Captain Marvel",
+      "The Wasp",
+      "Storm",
+      "Black Widow"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/articles/comics/an-oral-history-of-secret-invasion",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "45386ae1098284f09b5a",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What gives Steve Rogers his enhanced abilities in Captain America's classic comic-book origin?",
+    "answers": [
+      "A super-soldier treatment",
+      "A radioactive spider bite",
+      "Exposure to cosmic rays",
+      "An alien symbiote"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/comics/discover/2376/captain-americas-of-the-multiverse",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "e24f0abe695928d56e4d",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What weapon is Hawkeye most closely associated with?",
+    "answers": [
+      "A trident",
+      "A hammer",
+      "A sword",
+      "A bow and arrows"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/articles/games/marvel-rivals-announces-hawkeye-joining-launch-roster-new-map-wakanda",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "d32eb4f044fa13137ff0",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What does Spider-Man's spider-sense chiefly warn him about?",
+    "answers": [
+      "Whether any speaker is lying",
+      "The precise distance to every object in space",
+      "Danger",
+      "Other people's private thoughts"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/characters/spider-man-peter-parker/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "ea754dba7f0b48219457",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which rare metal is especially associated with Wakanda in Marvel Comics?",
+    "answers": [
+      "Promethium",
+      "Vibranium",
+      "Adamantium",
+      "Uru"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/articles/comics/the-villains-of-black-panther",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "ead011400097570f6983",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which sense did Matt Murdock lose in the accident in Daredevil's origin?",
+    "answers": [
+      "Sight",
+      "Hearing",
+      "Smell",
+      "Touch"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://latency.marvel.com/comics/discover/877/daredevil-legacy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "c33cb4fa0dc70554243e",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What colour is Bruce Banner's Hulk form most commonly depicted as?",
+    "answers": [
+      "Blue",
+      "Pink",
+      "Purple",
+      "Green"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://cdn.marvel.com/u/prod/marvel/i/pdf/MMRPG_MarvelRivals_20241220.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "bf5e114d5ce82bb70bcb",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Fantastic Four heroine is especially known for becoming invisible?",
+    "answers": [
+      "Natasha Romanoff",
+      "Ororo Munroe",
+      "Sue Storm",
+      "Jean Grey"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://share.marvel.com/comics/discover/2509/sue-storms-coolest-powers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "d59268915dfc26272b6b",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Johnny Storm's powers allow him to cover his body in what?",
+    "answers": [
+      "Sand",
+      "Flames",
+      "Ice",
+      "Stone"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/characters/human-torch-johnny-storm/in-comics/profile/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "ff9c03409263eeb16941",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "The Thing's familiar orange skin resembles what material?",
+    "answers": [
+      "Rock",
+      "Glass",
+      "Wood",
+      "Water"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/teams-and-groups/fantastic-four/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "8ebd9ecc1941d0592d33",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Marvel superhero is Stephen Strange?",
+    "answers": [
+      "Hawkeye",
+      "Iron Man",
+      "Captain America",
+      "Doctor Strange"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/teams-and-groups/avengers/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "0ff442804c37bb15df79",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which character is a longstanding ally of Doctor Strange in Marvel Comics?",
+    "answers": [
+      "Commissioner Gordon",
+      "J. Jonah Jameson",
+      "Wong",
+      "Alfred Pennyworth"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/characters/wong/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "e75f8489acd0ebebfc42",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Peter Quill uses which superhero name?",
+    "answers": [
+      "Moon Knight",
+      "Star-Lord",
+      "Silver Surfer",
+      "Nova"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/comics/characters/1010733/starlord_peter_quill",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "73d479c5f239ce691446",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What kind of being is Groot in Marvel Comics?",
+    "answers": [
+      "A tree-like alien",
+      "A human astronaut",
+      "A talking robot",
+      "An underwater king"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://cdn.marvel.com/u/prod/marvel/i/pdf/MMRPG_MarvelRivals_20241220.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "08643158c91de735a1d0",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Rocket of the Guardians of the Galaxy resembles which animal?",
+    "answers": [
+      "A fox",
+      "An otter",
+      "A badger",
+      "A raccoon"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://cdn.marvel.com/u/prod/marvel/i/pdf/MMRPG_MarvelRivals_20241220.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "81d099243e3d214b9cf5",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Gamora is best known as a member of which Marvel superhero team?",
+    "answers": [
+      "The X-Men",
+      "The New Mutants",
+      "The Guardians of the Galaxy",
+      "The Fantastic Four"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/articles/comics/10-greatest-guardians-of-the-galaxy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "9012f4f1d0d40aefd8c5",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which title is closely associated with the Guardians character Drax?",
+    "answers": [
+      "The King of Atlantis",
+      "The Destroyer",
+      "The Sorcerer Supreme",
+      "The Man Without Fear"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/comics/issue/56862/drax-2015-1",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "4f32448cd349e38399aa",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Avenger is an android with a synthetic body?",
+    "answers": [
+      "Vision",
+      "Hawkeye",
+      "Falcon",
+      "Ant-Man"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/teams-and-groups/avengers/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "48c4273bd9d25037f160",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is Quicksilver's best-known superpower?",
+    "answers": [
+      "Controlling plants",
+      "Turning into metal",
+      "Breathing underwater",
+      "Super speed"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/teams-and-groups/young-avengers",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "706408a2b72f883dfdb9",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Quicksilver and Scarlet Witch are related in what way?",
+    "answers": [
+      "They are uncle and niece",
+      "They are married",
+      "They are twin siblings",
+      "They are father and daughter"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/articles/comics/pietro-maximoff-quicksilver-comics-history?linkId=112067650",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "022493f04bfeadea0150",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Marvel cosmic hero travels on a silvery board?",
+    "answers": [
+      "Adam Warlock",
+      "Silver Surfer",
+      "Nova",
+      "Star-Lord"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/comics/issue/48333/silver_surfer_2014_6",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "92371fce0cd049683933",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Marvel character is famously known as the Devourer of Worlds?",
+    "answers": [
+      "Galactus",
+      "Doctor Doom",
+      "Kingpin",
+      "Green Goblin"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/characters/galactus/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "e4a5804b282ccaf96f79",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Doctor Doom rules which fictional country in Marvel Comics?",
+    "answers": [
+      "Wakanda",
+      "Genosha",
+      "Sokovia",
+      "Latveria"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/comics/issue/123518/one_world_under_doom_2025_1_variant/variant",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "5a1e8d0cd5a350a9a8fe",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "In Marvel's Thor stories, Loki is Thor's what?",
+    "answers": [
+      "Son",
+      "Grandfather",
+      "Adopted brother",
+      "Biological father"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/characters/loki/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "9043998ceb7067768f91",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Who is the original Green Goblin in the Spider-Man comics?",
+    "answers": [
+      "Curt Connors",
+      "Norman Osborn",
+      "Otto Octavius",
+      "Wilson Fisk"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://share.marvel.com/comics/discover/984/green-goblin",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "ebec9714c65434b29361",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Doctor Octopus is especially known for having what mechanical equipment?",
+    "answers": [
+      "Four mechanical tentacles",
+      "A pair of powered mechanical wings",
+      "A giant armoured wheel",
+      "A robotic spider-shaped vehicle"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/characters/doctor-octopus-otto-octavius/in-comics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "330b4d4f657440ca3bfd",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is the civilian name of the Marvel crime boss Kingpin?",
+    "answers": [
+      "Norman Osborn",
+      "Victor von Doom",
+      "Eddie Brock",
+      "Wilson Fisk"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/characters/kingpin/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "b49f5b5bb08f70b409b8",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which of these characters is famously a host of the Venom symbiote?",
+    "answers": [
+      "Commissioner Gordon",
+      "Clark Kent",
+      "Eddie Brock",
+      "Alfred Pennyworth"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://share.marvel.com/comics/discover/713/venom-eddie-brock",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "4f26222ca727a7ffbe97",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "The stunt rider Johnny Blaze is associated with which Marvel identity?",
+    "answers": [
+      "Daredevil",
+      "Ghost Rider",
+      "Moon Knight",
+      "Iron Fist"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/teams-and-groups/spirits-of-vengeance",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "4e33947c41329d4a851c",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Luke Cage is especially known for super strength and what other physical feature?",
+    "answers": [
+      "Extremely tough, bullet-resistant skin",
+      "Elastic limbs",
+      "Retractable claws",
+      "Electrically charged skin"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://share.marvel.com/comics/discover/433/luke-cage",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "080abc0d3dca2301120d",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Marvel martial artist is Danny Rand?",
+    "answers": [
+      "Luke Cage",
+      "Daredevil",
+      "The Punisher",
+      "Iron Fist"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.marvel.com/comics/issue/22628/iron_fist_1975_2",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "1dc884874b5737f83bda",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which billionaire is Batman's best-known civilian identity?",
+    "answers": [
+      "Oliver Queen",
+      "Lex Luthor",
+      "Bruce Wayne",
+      "Clark Kent"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.dc.com/characters/batman",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "c31dc58c2dbb143685b5",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is Batman's famous customised car called?",
+    "answers": [
+      "The Spider-Mobile",
+      "The Batmobile",
+      "The Invisible Jet",
+      "The Quinjet"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.dc.com/blog/2014/07/22/batman-at-75-highlights-in-the-life-of-the-caped-crusader",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "67b7ba520fe244a1690f",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "A batarang is Batman's version of which kind of weapon?",
+    "answers": [
+      "A bat-shaped throwing weapon",
+      "An explosive submarine missile",
+      "A laser cannon worn on the wrist",
+      "A ceremonial sword"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.dc.com/characters/batman",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "f1e8f9c41771c8cf6e05",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which fictional mineral is Superman famously vulnerable to?",
+    "answers": [
+      "Quartz",
+      "Granite",
+      "Diamond",
+      "Kryptonite"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.dc.com/blog/2025/05/29/crushed-by-color-a-kryptonite-catalogue",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "be55858d3cdfd4832f10",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Superman can produce intense heat beams from which part of his body?",
+    "answers": [
+      "His knees",
+      "His feet",
+      "His eyes",
+      "His ears"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.dc.com/blog/2023/05/10/ask-the-question-when-did-superman-get-his-heat-vision",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "9e5692becfafda8e3351",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Kara Zor-El is best known as which DC superhero?",
+    "answers": [
+      "Black Canary",
+      "Supergirl",
+      "Wonder Woman",
+      "Batgirl"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.dc.com/graphic-novels/supergirl-2005/supergirl-vol-1-the-girl-of-steel",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "2a96a0c1e791d3c17635",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "In the usual DC Comics continuity, Kara Zor-El is Superman's what?",
+    "answers": [
+      "Cousin",
+      "Mother",
+      "Daughter",
+      "Grandmother"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.dc.com/graphic-novels/supergirl-2005/supergirl-vol-1-the-girl-of-steel",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "693aa52b3490e0aeb804",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is Wonder Woman's famous truth-compelling rope called?",
+    "answers": [
+      "The Golden Web",
+      "The Rope of Dreams",
+      "The Silver Snare",
+      "The Lasso of Truth"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.dc.com/blog/2026-10-21/all-the-world-s-waiting-twelve-moments-that-defined-wonder-woman",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "8d6509d920b85b76873a",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Barry Allen is best known as which DC superhero?",
+    "answers": [
+      "Green Arrow",
+      "Aquaman",
+      "The Flash",
+      "Green Lantern"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.dc.com/characters/the-flash",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "264c819a8fa2aa2df784",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Roy Harper first became Green Arrow's sidekick under which name?",
+    "answers": [
+      "Aqualad",
+      "Speedy",
+      "Robin",
+      "Kid Flash"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.dc.com/characters/arsenal",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "55c844df267e589913bf",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Batman villain is nicknamed the Clown Prince of Crime?",
+    "answers": [
+      "The Joker",
+      "The Penguin",
+      "Two-Face",
+      "Bane"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.dc.com/characters/the-joker",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "cc673e0a9152661f00f5",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Batman villain is Oswald Cobblepot?",
+    "answers": [
+      "The Joker",
+      "The Riddler",
+      "Scarecrow",
+      "The Penguin"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.dc.com/characters/the-penguin",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "7ab4bebfbfb105802617",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Batman villain uses the civilian name Victor Fries?",
+    "answers": [
+      "Bane",
+      "The Penguin",
+      "Mr. Freeze",
+      "Two-Face"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.dc.com/characters/mister-freeze",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "74686fe9902be23eff46",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Batman villain is Pamela Isley?",
+    "answers": [
+      "Talia al Ghul",
+      "Poison Ivy",
+      "Harley Quinn",
+      "Catwoman"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.dc.com/graphic-novels/poison-ivy-thorns",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "106c7be628dae65c5416",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which former Robin is best known for taking the identity Red Hood?",
+    "answers": [
+      "Jason Todd",
+      "Dick Grayson",
+      "Tim Drake",
+      "Damian Wayne"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.dc.com/characters/red-hood",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "f014bd6cf76a90b66528",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Barbara Gordon is closely associated with which costumed identity?",
+    "answers": [
+      "Supergirl",
+      "Wonder Woman",
+      "Starfire",
+      "Batgirl"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.dc.com/characters/batgirl",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "70762515c8f4acbc6dd0",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is Robin's usual role alongside Batman?",
+    "answers": [
+      "The mayor of Metropolis",
+      "His chief newspaper editor",
+      "His crime-fighting partner",
+      "His biological father"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.dc.com/characters/batman",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "2158673fab081875598b",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which DC superhero identity is associated with Jaime Reyes?",
+    "answers": [
+      "Plastic Man",
+      "Blue Beetle",
+      "Booster Gold",
+      "The Atom"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.dc.com/characters/blue-beetle",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "f9f0b5766233701ebbf9",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Plastic Man's signature power allows him to do what?",
+    "answers": [
+      "Stretch and reshape his body",
+      "Control the weather",
+      "Speak only to sea creatures",
+      "Create ice from the air"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.dc.com/characters/plastic-man",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "785824db471c520ff7aa",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Superman, Batman and Wonder Woman are closely associated with which superhero team?",
+    "answers": [
+      "The Fantastic Four",
+      "The X-Men",
+      "The Guardians of the Galaxy",
+      "The Justice League"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.dc.com/characters/justice-league",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "3bc541bdda22353406c0",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Asterix is a member of which ancient people?",
+    "answers": [
+      "The Aztecs",
+      "The Spartans",
+      "The Gauls",
+      "The Vikings"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://asterix.com/en/characters/asterix",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "b0a93315881761233f82",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What gives Asterix temporary superhuman strength?",
+    "answers": [
+      "A power ring",
+      "A magic potion",
+      "A radioactive spider bite",
+      "A robotic suit"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://asterix.com/en/characters/asterix",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "4403e91fa90af123215c",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Why does Obelix normally not need a dose of the strength-giving potion?",
+    "answers": [
+      "He fell into a cauldron of it as a small boy",
+      "He invents a new potion every morning",
+      "His helmet supplies his strength",
+      "He is secretly a Roman god"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://asterix.com/en/characters/obelix",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "6ad8c850e91e938fd841",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Obelix is especially associated with carrying which large stone objects?",
+    "answers": [
+      "Obelisks covered in gold",
+      "Marble bathtubs",
+      "Millstones on wheels",
+      "Menhirs"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://asterix.com/en/characters/getafix",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "743c27ffc897459ecdef",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is the English name of Obelix's small dog?",
+    "answers": [
+      "Gnasher",
+      "Snoopy",
+      "Dogmatix",
+      "Snowy"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://asterix.com/en/characters/dogmatix",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "de5c40759236feefefde",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which druid brews the magic potion in the English-language Asterix books?",
+    "answers": [
+      "Unhygienix",
+      "Getafix",
+      "Cacofonix",
+      "Vitalstatistix"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://asterix.com/en/characters/getafix",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "6b22e19c010ad6fa1c4b",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is Cacofonix's role in Asterix's village?",
+    "answers": [
+      "Bard",
+      "Blacksmith",
+      "Fishmonger",
+      "Chief"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://asterix.com/en/characters/cacofonix",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "43fda3e6ee6bca325370",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Who is the chief of Asterix's village in the English-language books?",
+    "answers": [
+      "Getafix",
+      "Cacofonix",
+      "Unhygienix",
+      "Vitalstatistix"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://asterix.com/en/characters/vitalstatistix",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "eddf2f4fd27d807656e7",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What colour are the Smurfs usually depicted as?",
+    "answers": [
+      "Orange",
+      "Purple",
+      "Blue",
+      "Green"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.smurf.com/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "3238dc9e04c7f8928f5c",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Smurf is the wise elder who leads the village?",
+    "answers": [
+      "Clumsy Smurf",
+      "Papa Smurf",
+      "Brainy Smurf",
+      "Hefty Smurf"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.smurf.com/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "5bbd617b0210f6257d4c",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Who is the wizard who repeatedly tries to capture the Smurfs?",
+    "answers": [
+      "Gargamel",
+      "Merlin",
+      "Getafix",
+      "Doctor Strange"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.smurf.com/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "ed2ad16ee4b13600195f",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is the name of Gargamel's cat in the Smurfs stories?",
+    "answers": [
+      "Garfield",
+      "Felix",
+      "Tom",
+      "Azrael"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.smurf.com/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "d5bdbf32a6841caa2064",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Smurf did Gargamel originally create?",
+    "answers": [
+      "Brainy Smurf",
+      "Hefty Smurf",
+      "Smurfette",
+      "Papa Smurf"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.smurf.com/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "9d2549df7d3ee129d604",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "In the British Beano comic, what is Dennis's dog called?",
+    "answers": [
+      "Odie",
+      "Gnasher",
+      "Snowy",
+      "Snoopy"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://schools.beano.com/lesson-plans/dennis-gnasher-custard-caper/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "623bc3ec2032f336c25a",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which two colours feature on Dennis's striped jumper in the British Beano comic?",
+    "answers": [
+      "Red and black",
+      "Blue and white",
+      "Green and yellow",
+      "Purple and orange"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://schools.beano.com/lesson-plans/dennis-and-the-washing-machine/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "7d95c5c6bd6d8062eaa4",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which Beano character is known as Minnie the what?",
+    "answers": [
+      "Magician",
+      "Mermaid",
+      "Mechanic",
+      "Minx"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://d3ddkgxe55ca6c.cloudfront.net/assets/t1426862669/a/c0/65/dennis-resourcepack-teacher-resource-1341480.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "d9c98e1c668a5a7ec242",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Which company publishes the Beano comic?",
+    "answers": [
+      "Panini",
+      "Rebellion",
+      "DC Thomson",
+      "Marvel Comics"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.dcthomson.co.uk/brands/beano/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "be4f005b6a2721cc3cde",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "The Bash Street Kids are especially associated with which setting?",
+    "answers": [
+      "A royal palace",
+      "A school",
+      "A spaceship",
+      "A pirate ship"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://schools.beano.com/lesson-plans/battle-of-bash-street-school/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "f84433aea5d27ed61097",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is the name of Lucky Luke's horse?",
+    "answers": [
+      "Jolly Jumper",
+      "Black Beauty",
+      "Silver",
+      "Bucephalus"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.dargaud.com/bd/lucky-luke",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "b60fd8f60da16aed4907",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Lucky Luke's adventures are mainly set in which kind of world?",
+    "answers": [
+      "Ancient Egypt",
+      "A futuristic space empire",
+      "Medieval Japan",
+      "The American Old West"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.cinebook.co.uk/uploads/files/catalogues/Catalogue_36_web.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "e4406640bba1a297cc61",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is a graphic novel?",
+    "answers": [
+      "A book made entirely of screenplay instructions",
+      "An audio performance without pictures",
+      "A book-length story told through sequential artwork and text",
+      "A prose novel with no illustrations"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/graphic-novel",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "1b56e591b62594e2d280",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is a comic strip?",
+    "answers": [
+      "An audio-only dramatisation",
+      "A sequence of drawings telling a story",
+      "A prose-only newspaper editorial",
+      "A single scene performed on stage"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/comic-strip",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "dac574efa3fd3cae332a",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "In comics, what does a speech bubble usually contain?",
+    "answers": [
+      "A character's spoken words",
+      "A list of the production credits",
+      "The space between two panels",
+      "Only the publisher's address"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/speech-bubble",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "98235420083e540d32b7",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "In comics, what does a thought bubble usually show?",
+    "answers": [
+      "Words spoken aloud to another character",
+      "Only the author's name",
+      "Only the comic's retail price",
+      "What a character is thinking"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/thought-bubble",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "1019b155a82216084a19",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "In a comic, what is a panel?",
+    "answers": [
+      "A character's spoken words alone",
+      "The entire series of published issues",
+      "One individual picture or section of the sequence",
+      "The empty space between pictures"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.scholastic.com/content/dam/scholastic/educators/discussion-guides/guide-to-using-graphic-novels.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "5549341e1f80ae78c5e3",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is a caption box usually used for in a comic?",
+    "answers": [
+      "Only the retail price",
+      "Narration or descriptive text",
+      "The empty space separating panels",
+      "The outline around the whole page"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.scholastic.com/content/dam/scholastic/educators/discussion-guides/guide-to-using-graphic-novels.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "a470afc1bd8e6c1df8a3",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "In comics, lettering mainly concerns what?",
+    "answers": [
+      "The written words and their visual presentation",
+      "The pencilled character drawings",
+      "The colours added to the artwork",
+      "The physical binding of the book"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/lettering",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "4557e1efba7f6984d98f",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "Words such as BANG and SPLASH in a comic are examples of what?",
+    "answers": [
+      "Anagrams",
+      "Palindromes",
+      "Acronyms",
+      "Onomatopoeia"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/onomatopoeia",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "84afb95f16ad4b13f1dc",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is the space between panels in a comic called?",
+    "answers": [
+      "A caption",
+      "A splash page",
+      "A gutter",
+      "A speech balloon"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.scholastic.com/content/dam/scholastic/educators/discussion-guides/guide-to-using-graphic-novels.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  },
+  {
+    "id": "6364e2e8869579ffccea",
+    "categoryID": "29",
+    "difficulty": "easy",
+    "prompt": "What is manga?",
+    "answers": [
+      "Chinese martial arts",
+      "Japanese comics",
+      "Japanese animated television programmes",
+      "Korean live-action dramas"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/manga",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-29-v1"
+  }
+]
