@@ -1,0 +1,328 @@
+{
+  "date": "2026-11-18",
+  "note": "100 original anime candidates individually author-checked for meaning, grammar of stem and all four options, sole correct offered answer, topic fit and actual relevant reference passages, then all final stems/options reread. Twenty candidate reference bodies retrieved; relevant lead/plot paragraphs actually inspected, not every paragraph or every adaptation. Most references are secondary encyclopaedic plot/credit descriptions, honestly labelled as such. Current/future release announcements, rankings and adaptation rumours were not used as question facts. PenguinHighway encyclopaedia page primarily concerns the novel, so its five film-specific facts were confirmed with actual primary ElevenArts/FujiCreative/JFDB film descriptions and production fields; no assumption all novel plot details shared by anime. Actual Yamaha partner material explicitly confirms Hitori guitar. Gorou removed as an incorrect Aqua alternative because previous incarnation could make it ambiguous. Ambiguous exact-activity-at-meeting wording changed to Tsuneo student status; redundant title-gives-answer Josee question replaced with Osaka setting. Implausible distractors improved, Bubble2022 distinguished from unrelated2005film, Belle2021 and Dragon/Beast translation scope explicit. Kudo/Kudou and Taro/Tarō variants not offered as competing answers. Full-bank lexical-overlap check found no candidates; title/character checks distinguished unrelated Belle/Bubble/imaginary maths matches. Per-item author pass, not independent review; scripts only consolidate these recorded judgments and validate structure.",
+  "references": [
+    {
+      "url": "https://en.wikipedia.org/wiki/A_Whisker_Away",
+      "questionRows": [
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_lead_plot_credit_paragraphs_inspected",
+      "sha256": "15870b8ed82a7e0296e983e921cfed1a75d9332dc49f7cf8a7352d845cd71042",
+      "resolvedURL": "https://en.wikipedia.org/wiki/A_Whisker_Away",
+      "inspectionMethod": "Relevant actual paragraphs read for the specific facts, not full page or every adaptation."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Belle_%282021_film%29",
+      "questionRows": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_lead_plot_credit_paragraphs_inspected",
+      "sha256": "9f009bfe1d584ca72ee16634a474670a63398e3fd8779192569b6d6cc1e0e48f",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Belle_%282021_film%29",
+      "inspectionMethod": "Relevant actual paragraphs read for the specific facts, not full page or every adaptation."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bocchi_the_Rock%21",
+      "questionRows": [
+        6,
+        8,
+        9,
+        10
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_lead_plot_credit_paragraphs_inspected",
+      "sha256": "408755432fb7b91e278ca142871912bf413c6104950dc28a7a9476df4572c418",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Bocchi_the_Rock%21",
+      "inspectionMethod": "Relevant actual paragraphs read for the specific facts, not full page or every adaptation."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bubble_%282022_film%29",
+      "questionRows": [
+        81,
+        82,
+        83,
+        84,
+        85
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_lead_plot_credit_paragraphs_inspected",
+      "sha256": "5d0be6b347034c890ac02e88f5f61543e59c2bc19c8a2da27a2b21d0ee12048e",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Bubble_%282022_film%29",
+      "inspectionMethod": "Relevant actual paragraphs read for the specific facts, not full page or every adaptation."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Drifting_Home",
+      "questionRows": [
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_lead_plot_credit_paragraphs_inspected",
+      "sha256": "eef50a61235e020adc6ba3dad38fbb2c5891c42dde9a192aeaf6510338d560d4",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Drifting_Home",
+      "inspectionMethod": "Relevant actual paragraphs read for the specific facts, not full page or every adaptation."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Hell%27s_Paradise%3A_Jigokuraku",
+      "questionRows": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_lead_plot_credit_paragraphs_inspected",
+      "sha256": "f9e363d401e69923e948ed3cea47c864de02bacc14edb1c2f005040ff1345ea4",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Hell%27s_Paradise%3A_Jigokuraku",
+      "inspectionMethod": "Relevant actual paragraphs read for the specific facts, not full page or every adaptation."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Josee%2C_the_Tiger_and_the_Fish_%282020_film%29",
+      "questionRows": [
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_lead_plot_credit_paragraphs_inspected",
+      "sha256": "189e1f91b179b43686f69132340f5166b821b47d489d5589707ec2ad846e8ca8",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Josee%2C_the_Tiger_and_the_Fish_%282020_film%29",
+      "inspectionMethod": "Relevant actual paragraphs read for the specific facts, not full page or every adaptation."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lu_Over_the_Wall",
+      "questionRows": [
+        96,
+        97,
+        98,
+        99,
+        100
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_lead_plot_credit_paragraphs_inspected",
+      "sha256": "eacf3a1c328f10c3eb30aeac2b1729a32d58542f3f3dd5a7663bb2b50540f489",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Lu_Over_the_Wall",
+      "inspectionMethod": "Relevant actual paragraphs read for the specific facts, not full page or every adaptation."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mary_and_the_Witch%27s_Flower",
+      "questionRows": [
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_lead_plot_credit_paragraphs_inspected",
+      "sha256": "35c19aac66e636c46a0bc328fbf4ec73ac477207950cbf20920f0b2712308ac0",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Mary_and_the_Witch%27s_Flower",
+      "inspectionMethod": "Relevant actual paragraphs read for the specific facts, not full page or every adaptation."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/My_Happy_Marriage",
+      "questionRows": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_lead_plot_credit_paragraphs_inspected",
+      "sha256": "159d5fa5014f8de1481d46d5a55d1e0d4156cf37545f091c4a376dd49d0ab6cd",
+      "resolvedURL": "https://en.wikipedia.org/wiki/My_Happy_Marriage",
+      "inspectionMethod": "Relevant actual paragraphs read for the specific facts, not full page or every adaptation."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Oshi_no_Ko",
+      "questionRows": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_lead_plot_credit_paragraphs_inspected",
+      "sha256": "f8466c038f8dc3800fc519d00ae501f89ae3d21733cb7f879d40da14236ae92b",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Oshi_no_Ko",
+      "inspectionMethod": "Relevant actual paragraphs read for the specific facts, not full page or every adaptation."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ride_Your_Wave",
+      "questionRows": [
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_lead_plot_credit_paragraphs_inspected",
+      "sha256": "6b7ac51415caf5bc38304f65df05b412af0ebb97504a9ad388be8f58086fbb6c",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Ride_Your_Wave",
+      "inspectionMethod": "Relevant actual paragraphs read for the specific facts, not full page or every adaptation."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Suzume",
+      "questionRows": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_lead_plot_credit_paragraphs_inspected",
+      "sha256": "f3a1784048cb207ec0c2b5b3fa81be311dbca82f30bcd21f26d1b143858ac5a2",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Suzume",
+      "inspectionMethod": "Relevant actual paragraphs read for the specific facts, not full page or every adaptation."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Apothecary_Diaries",
+      "questionRows": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_lead_plot_credit_paragraphs_inspected",
+      "sha256": "bbe666b188ad575c84634ed39f4e490f3b83b26477a16c2419fae45927e1f0c3",
+      "resolvedURL": "https://en.wikipedia.org/wiki/The_Apothecary_Diaries",
+      "inspectionMethod": "Relevant actual paragraphs read for the specific facts, not full page or every adaptation."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Boy_and_the_Heron",
+      "questionRows": [
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_lead_plot_credit_paragraphs_inspected",
+      "sha256": "874ca664b26862912233633f3b9ad76a0ce6d8167f726d0a7c1407a46e2275f4",
+      "resolvedURL": "https://en.wikipedia.org/wiki/The_Boy_and_the_Heron",
+      "inspectionMethod": "Relevant actual paragraphs read for the specific facts, not full page or every adaptation."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Imaginary_%28film%29",
+      "questionRows": [
+        71,
+        72,
+        73,
+        74,
+        75
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_lead_plot_credit_paragraphs_inspected",
+      "sha256": "d5f70c83c4f278540d6dfe0453a6861b7459b28abd0db3e345d12a05c1a3e0fb",
+      "resolvedURL": "https://en.wikipedia.org/wiki/The_Imaginary_%28film%29",
+      "inspectionMethod": "Relevant actual paragraphs read for the specific facts, not full page or every adaptation."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Weathering_with_You",
+      "questionRows": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_lead_plot_credit_paragraphs_inspected",
+      "sha256": "e5a57574e100c62f4ace0bcf839afce1cd54a2476a49862c463b10bd5e80708b",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Weathering_with_You",
+      "inspectionMethod": "Relevant actual paragraphs read for the specific facts, not full page or every adaptation."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Words_Bubble_Up_Like_Soda_Pop",
+      "questionRows": [
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_lead_plot_credit_paragraphs_inspected",
+      "sha256": "760169d765cdb20b4e0c1618fbeb1585717e299ddea36a52e54ab3e046081409",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Words_Bubble_Up_Like_Soda_Pop",
+      "inspectionMethod": "Relevant actual paragraphs read for the specific facts, not full page or every adaptation."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Zom_100",
+      "questionRows": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_lead_plot_credit_paragraphs_inspected",
+      "sha256": "1b93c99b5e7bd5ed859ef0e279424af5b600dc7bdb85ab7426f3ff5a8696e793",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Zom_100",
+      "inspectionMethod": "Relevant actual paragraphs read for the specific facts, not full page or every adaptation."
+    },
+    {
+      "url": "https://fujicreative.co.jp/forBuyers/animation/penguin-highway/",
+      "questionRows": [
+        93
+      ],
+      "sourceKind": "primary film distributor, film database or licensed instrument partner",
+      "status": "relevant_actual_web_parsed_passage_inspected",
+      "inspectionMethod": "Relevant actual film synopsis/production field or character instrument passage inspected through web output; full direct download not claimed."
+    },
+    {
+      "url": "https://jfdb.jp/en/title/8167",
+      "questionRows": [
+        94,
+        95
+      ],
+      "sourceKind": "primary film distributor, film database or licensed instrument partner",
+      "status": "relevant_actual_web_parsed_passage_inspected",
+      "inspectionMethod": "Relevant actual film synopsis/production field or character instrument passage inspected through web output; full direct download not claimed."
+    },
+    {
+      "url": "https://mea.yamaha.com/en/news/2026/20260202-bocchi-the-rock-2026.html",
+      "questionRows": [
+        7
+      ],
+      "sourceKind": "primary film distributor, film database or licensed instrument partner",
+      "status": "relevant_actual_web_parsed_passage_inspected",
+      "inspectionMethod": "Relevant actual film synopsis/production field or character instrument passage inspected through web output; full direct download not claimed."
+    },
+    {
+      "url": "https://www.elevenarts.net/titles/penguin-highway",
+      "questionRows": [
+        91,
+        92
+      ],
+      "sourceKind": "primary film distributor, film database or licensed instrument partner",
+      "status": "relevant_actual_web_parsed_passage_inspected",
+      "inspectionMethod": "Relevant actual film synopsis/production field or character instrument passage inspected through web output; full direct download not claimed."
+    }
+  ]
+}

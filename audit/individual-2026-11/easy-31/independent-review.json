@@ -1,0 +1,1107 @@
+{
+  "reviewer": "root (author final editorial pass)",
+  "independent": false,
+  "sourceAccessNote": "100 original anime candidates individually author-checked for meaning, grammar of stem and all four options, sole correct offered answer, topic fit and actual relevant reference passages, then all final stems/options reread. Twenty candidate reference bodies retrieved; relevant lead/plot paragraphs actually inspected, not every paragraph or every adaptation. Most references are secondary encyclopaedic plot/credit descriptions, honestly labelled as such. Current/future release announcements, rankings and adaptation rumours were not used as question facts. PenguinHighway encyclopaedia page primarily concerns the novel, so its five film-specific facts were confirmed with actual primary ElevenArts/FujiCreative/JFDB film descriptions and production fields; no assumption all novel plot details shared by anime. Actual Yamaha partner material explicitly confirms Hitori guitar. Gorou removed as an incorrect Aqua alternative because previous incarnation could make it ambiguous. Ambiguous exact-activity-at-meeting wording changed to Tsuneo student status; redundant title-gives-answer Josee question replaced with Osaka setting. Implausible distractors improved, Bubble2022 distinguished from unrelated2005film, Belle2021 and Dragon/Beast translation scope explicit. Kudo/Kudou and Taro/Tarō variants not offered as competing answers. Full-bank lexical-overlap check found no candidates; title/character checks distinguished unrelated Belle/Bubble/imaginary maths matches. Per-item author pass, not independent review; scripts only consolidate these recorded judgments and validate structure.",
+  "rows": [
+    {
+      "row": 1,
+      "prompt": "Who is the young heroine of The Apothecary Diaries?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Maomao, not Hina/Suzu/Natsume, is this series' heroine. Actual encyclopaedia lead/plot name and medicine-trained background inspected. Named series disambiguates other anime heroines; no nickname/translation conflict.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Maomao, not Hina/Suzu/Natsume, is this series' heroine. Actual encyclopaedia lead/plot name and medicine-trained background inspected. Named series disambiguates other anime heroines; no nickname/translation conflict.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 2,
+      "prompt": "Where does Maomao work after being sold into service in The Apothecary Diaries?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Maomao sold into imperial palace service, not lighthouse/monastery/circus. Actual premise explicitly palace indentured servant. Does not imply she was born there or freely chose employment; historical-fiction location fits question.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Maomao sold into imperial palace service, not lighthouse/monastery/circus. Actual premise explicitly palace indentured servant. Does not imply she was born there or freely chose employment; historical-fiction location fits question.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 3,
+      "prompt": "The fictional setting of The Apothecary Diaries is inspired mainly by which country?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Fictional setting inspired by China, not France/Egypt/Brazil. Actual author/setting passages explicitly say not technically set in real China; inspired qualifier retained and no false historical-location assertion.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Fictional setting inspired by China, not France/Egypt/Brazil. Actual author/setting passages explicitly say not technically set in real China; inspired qualifier retained and no false historical-location assertion.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 4,
+      "prompt": "Which field of knowledge helps Maomao solve mysteries in The Apothecary Diaries?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Medicine is the relevant expertise, not shipbuilding/astronomy/military engineering. Actual premise apothecary training and illness investigations read. Does not claim every mystery medical or real-world medical advice valid from fiction.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Medicine is the relevant expertise, not shipbuilding/astronomy/military engineering. Actual premise apothecary training and illness investigations read. Does not claim every mystery medical or real-world medical advice valid from fiction.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 5,
+      "prompt": "Which influential palace figure takes notice of Maomao in The Apothecary Diaries?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Jinshi notices Maomao's skill, not Gabimaru/Hodaka/Tsuneo. Actual plot anonymous investigation attracts Jinshi. Avoided asking whether his presented eunuch identity is literally true, which would introduce spoiler/canon ambiguity.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Jinshi notices Maomao's skill, not Gabimaru/Hodaka/Tsuneo. Actual plot anonymous investigation attracts Jinshi. Avoided asking whether his presented eunuch identity is literally true, which would introduce spoiler/canon ambiguity.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 6,
+      "prompt": "What is the name of the shy heroine nicknamed Bocchi in Bocchi the Rock!?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Hitori Gotoh is Bocchi, not Ai/Miyo/Maomao. Actual lead/plot full name and nickname read. Gotoh/Gotō are romanisation variants of same person, not separate options. Main-character knowledge rather than obscure staff date.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Hitori Gotoh is Bocchi, not Ai/Miyo/Maomao. Actual lead/plot full name and nickname read. Gotoh/Gotō are romanisation variants of same person, not separate options. Main-character knowledge rather than obscure staff date.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 7,
+      "prompt": "Which instrument does Hitori play in Bocchi the Rock!?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Hitori plays guitar, not trumpet/harp/accordion. Actual Yamaha collaboration passage explicitly Hitori guitar model and introverted guitar-playing student; relevant manufacturer partnered material corroborates anime character. No unsupported model/specification quiz.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Hitori plays guitar, not trumpet/harp/accordion. Actual Yamaha collaboration passage explicitly Hitori guitar model and introverted guitar-playing student; relevant manufacturer partnered material corroborates anime character. No unsupported model/specification quiz.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 8,
+      "prompt": "What is Hitori's band called in Bocchi the Rock!?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Hitori's band Kessoku, not B-Komachi/SickHack/Sideros. Actual central-band paragraph and plot read; other Bocchi bands are genuine separate groups, so membership relation matters. Capitalisation/romanisation standard.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Hitori's band Kessoku, not B-Komachi/SickHack/Sideros. Actual central-band paragraph and plot read; other Bocchi bands are genuine separate groups, so membership relation matters. Capitalisation/romanisation standard.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 9,
+      "prompt": "Which personal difficulty is central to Hitori's story in Bocchi the Rock!?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Social anxiety central to Hitori, not amnesia/ocean phobia/deafness. Actual anime overview and plot explicitly anxious/socially awkward. Framed fictional character struggle, no diagnosis/advice about real people or claim anxiety instantly cured by music.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Social anxiety central to Hitori, not amnesia/ocean phobia/deafness. Actual anime overview and plot explicitly anxious/socially awkward. Framed fictional character struggle, no diagnosis/advice about real people or claim anxiety instantly cured by music.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 10,
+      "prompt": "Who invites Hitori into her band in Bocchi the Rock!?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Nijika Ijichi recruits Hitori, not Ai/Miyo/Hina. Actual plot gives invitation/taking-in by Nijika. Does not confuse Nijika's invitation with founding every later band or Hitori's own wish to join one.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Nijika Ijichi recruits Hitori, not Ai/Miyo/Hina. Actual plot gives invitation/taking-in by Nijika. Does not confuse Nijika's invitation with founding every later band or Hitori's own wish to join one.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 11,
+      "prompt": "What is Ai Hoshino's profession in Oshi no Ko?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Ai Hoshino pop idol, not detective/tennis player/biologist. Actual Oshi premise idol and career context inspected. No confusion with doctor Gorou or other entertainers in franchise; non-spoiler central occupation.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Ai Hoshino pop idol, not detective/tennis player/biologist. Actual Oshi premise idol and career context inspected. No confusion with doctor Gorou or other entertainers in franchise; non-spoiler central occupation.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 12,
+      "prompt": "How are Aqua and Ruby related in Oshi no Ko?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Aqua and Ruby are twins, not cousins/stepsiblings/aunt-nephew. Actual plot fraternal twins to Ai. Different reincarnated prior lives do not alter their biological relationship as Hoshino children; no claim identical twins.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Aqua and Ruby are twins, not cousins/stepsiblings/aunt-nephew. Actual plot fraternal twins to Ai. Different reincarnated prior lives do not alter their biological relationship as Hoshino children; no claim identical twins.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 13,
+      "prompt": "Which Oshi no Ko character is also called Aqua?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Aqua expands to Aquamarine Hoshino, not Ichigo/Taiki/Hikaru. Removed Gorou from wrong options before approval because he is Aqua's previous incarnation and could also be considered same character. Final alternatives are distinct individuals.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Aqua expands to Aquamarine Hoshino, not Ichigo/Taiki/Hikaru. Removed Gorou from wrong options before approval because he is Aqua's previous incarnation and could also be considered same character. Final alternatives are distinct individuals.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 14,
+      "prompt": "What career does Ruby pursue in Oshi no Ko?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Ruby pursues idol career, not surgeon/judge/astronaut. Actual plot forming new B-Komachi read. Does not confuse her with Aqua's previous doctor life or claim only one career forever. Clear aspirational wording.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Ruby pursues idol career, not surgeon/judge/astronaut. Actual plot forming new B-Komachi read. Does not confuse her with Aqua's previous doctor life or claim only one career forever. Clear aspirational wording.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 15,
+      "prompt": "What is the name of the idol group associated with Ai and later Ruby in Oshi no Ko?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "B-Komachi name used by Ai's group and Ruby's new group, not Kessoku/SickHack/Sideros. Actual plot Ai's B-Komachi and later new group inspected. Associated wording avoids implying original lineup unchanged through generations.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "B-Komachi name used by Ai's group and Ruby's new group, not Kessoku/SickHack/Sideros. Actual plot Ai's B-Komachi and later new group inspected. Associated wording avoids implying original lineup unchanged through generations.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 16,
+      "prompt": "Who is the main character of Zom 100: Bucket List of the Dead?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Akira Tendo protagonist, not Kafka/Denji/Yuji. Actual Zom100 premise/plot names office worker Akira. Tendo/Tendō romanisation variants not alternatives; no confusion with live-action actor names.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Akira Tendo protagonist, not Kafka/Denji/Yuji. Actual Zom100 premise/plot names office worker Akira. Tendo/Tendō romanisation variants not alternatives; no confusion with live-action actor names.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 17,
+      "prompt": "What kind of job is Akira desperate to escape at the start of Zom 100?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Exploitative office job, not lighthouse/zoo/ski instruction, traps Akira initially. Actual marketing-firm abusive-work paragraph inspected. Type-of-job question avoids obscure company name or employer chronology.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Exploitative office job, not lighthouse/zoo/ski instruction, traps Akira initially. Actual marketing-firm abusive-work paragraph inspected. Type-of-job question avoids obscure company name or employer chronology.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 18,
+      "prompt": "What disaster gives Akira an unexpected sense of freedom in Zom 100?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Zombie outbreak creates unexpected freedom, not eruption/meteor shower/flood. Actual premise contrasts release from abusive workplace with apocalypse. No real-world disaster advice or assertion zombies scientifically possible.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Zombie outbreak creates unexpected freedom, not eruption/meteor shower/flood. Actual premise contrasts release from abusive workplace with apocalypse. No real-world disaster advice or assertion zombies scientifically possible.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 19,
+      "prompt": "What does Akira make to guide his adventures in Zom 100?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Bucket list guides Akira, not returning-to-work schedule/boss task list/avoid-every-risk rules. Actual premise list of things to experience before zombification. Replaced implausible family-tree/planet distractors with sensible alternative motivations.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Bucket list guides Akira, not returning-to-work schedule/boss task list/avoid-every-risk rules. Actual premise list of things to experience before zombification. Replaced implausible family-tree/planet distractors with sensible alternative motivations.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 20,
+      "prompt": "Which Zom 100 companion comes from Germany?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Beatrix from Germany, not Shizuka/Kencho/Akira. Actual companion paragraph explicitly German graduate interested in Japanese culture. Not asking uncertain ethnicity or actor nationality; straightforward fictional origin.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Beatrix from Germany, not Shizuka/Kencho/Akira. Actual companion paragraph explicitly German graduate interested in Japanese culture. Not asking uncertain ethnicity or actor nationality; straightforward fictional origin.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 21,
+      "prompt": "Who is the heroine of My Happy Marriage?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Miyo Saimori heroine, not Maomao/Hitori/Hina. Actual MyHappyMarriage premise identifies Miyo. Uses familiar birth name, not treating changing married surname as separate character. No claim she truly lacks all latent supernatural talent.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Miyo Saimori heroine, not Maomao/Hitori/Hina. Actual MyHappyMarriage premise identifies Miyo. Uses familiar birth name, not treating changing married surname as separate character. No claim she truly lacks all latent supernatural talent.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 22,
+      "prompt": "To whom is Miyo engaged in My Happy Marriage?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Miyo engaged to Kiyoka Kudo, not Jinshi/Hodaka/Gabimaru. Actual plot husband-to-be commander; Kudo/Kudou same romanised name. Arranged engagement relation central, no title-only tautology.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Miyo engaged to Kiyoka Kudo, not Jinshi/Hodaka/Gabimaru. Actual plot husband-to-be commander; Kudo/Kudou same romanised name. Arranged engagement relation central, no title-only tautology.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 23,
+      "prompt": "What is Kiyoka's occupation in My Happy Marriage?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Kiyoka military commander, not newspaper editor/baker/conductor. Actual inspected premise explicitly commander. No need precise regiment/rank or unstable later title; broad role valid across opening anime.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Kiyoka military commander, not newspaper editor/baker/conductor. Actual inspected premise explicitly commander. No need precise regiment/rank or unstable later title; broad role valid across opening anime.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 24,
+      "prompt": "How is Miyo treated by her stepmother at the start of My Happy Marriage?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Stepmother forces Miyo into servitude, not favoured inheritance/privileged overseas education/business leadership. Actual opening premise abusive servitude checked. Replaced implausible empress/naval-captain distractors. No suggestion fictional abuse is acceptable.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Stepmother forces Miyo into servitude, not favoured inheritance/privileged overseas education/business leadership. Actual opening premise abusive servitude checked. Replaced implausible empress/naval-captain distractors. No suggestion fictional abuse is acceptable.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 25,
+      "prompt": "My Happy Marriage takes place in a fantasy version of which country?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Fantasy Japan, not Italy/India/Mexico. Actual setting alternative Taisho era with supernatural elements. Fantasy-version qualifier important, no false claim events actual Japanese history or every depicted custom historically accurate.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Fantasy Japan, not Italy/India/Mexico. Actual setting alternative Taisho era with supernatural elements. Fantasy-version qualifier important, no false claim events actual Japanese history or every depicted custom historically accurate.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 26,
+      "prompt": "What is Gabimaru's occupation in Hell's Paradise?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Gabimaru ninja, not sailor/musician/blacksmith. Actual Hell'sParadise lead and opening execution plot inspected. Fictional profession, not actor identity or inference from appearance alone.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Gabimaru ninja, not sailor/musician/blacksmith. Actual Hell'sParadise lead and opening execution plot inspected. Fictional profession, not actor identity or inference from appearance alone.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 27,
+      "prompt": "Who accompanies Gabimaru as his executioner in Hell's Paradise?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Yamada Asaemon Sagiri executioner accompanying Gabimaru; Miyo/Hina/Anya other characters. Actual premise named monitor/executioner read. No confusion between condemned criminal and executioner roles; named series clear.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Yamada Asaemon Sagiri executioner accompanying Gabimaru; Miyo/Hina/Anya other characters. Actual premise named monitor/executioner read. No confusion between condemned criminal and executioner roles; named series clear.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 28,
+      "prompt": "What substance are the convicts sent to find in Hell's Paradise?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Search for immortality elixir, not gold conversion/amnesia/future-predicting ink. Actual lead and shogunate mission explicit. Fictional potion purpose unambiguous; no real-world health or longevity claim.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Search for immortality elixir, not gold conversion/amnesia/future-predicting ink. Actual lead and shogunate mission explicit. Fictional potion purpose unambiguous; no real-world health or longevity claim.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 29,
+      "prompt": "Where are the convicts sent to search in Hell's Paradise?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Mysterious island mission, not mountain fortress/abandoned city/underground palace. Actual premise Shinsenkyo/Kotaku island inspected. General location avoids competing translated proper names; implausible space-station option removed.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Mysterious island mission, not mountain fortress/abandoned city/underground palace. Actual premise Shinsenkyo/Kotaku island inspected. General location avoids competing translated proper names; implausible space-station option removed.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 30,
+      "prompt": "What reward is offered to Gabimaru for completing the mission in Hell's Paradise?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Pardon offered, not royal title/fleet/mint ownership. Actual plot shogunate criminal-pardon deal. Completing mission wording expresses offered reward, not claiming every entrant actually receives one or survives.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Pardon offered, not royal title/fleet/mint ownership. Actual plot shogunate criminal-pardon deal. Completing mission wording expresses offered reward, not claiming every entrant actually receives one or survives.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 31,
+      "prompt": "What object is Souta transformed into in Suzume?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Souta becomes chair, not umbrella/bicycle/lantern. Actual Suzume plot cat transforming him into chair read. Does not confuse keystone's cat form with Souta's temporary form; visual central premise.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Souta becomes chair, not umbrella/bicycle/lantern. Actual Suzume plot cat transforming him into chair read. Does not confuse keystone's cat form with Souta's temporary form; visual central premise.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 32,
+      "prompt": "What must Suzume and Souta close to prevent disasters in Suzume?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Mysterious doors must be closed, not railway tunnels/dam floodgates/palace windows. Actual lead and Closer explanation inspected. No literal safety instruction for earthquakes; fictional supernatural mechanism.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Mysterious doors must be closed, not railway tunnels/dam floodgates/palace windows. Actual lead and Closer explanation inspected. No literal safety instruction for earthquakes; fictional supernatural mechanism.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 33,
+      "prompt": "What kind of disaster can the supernatural worm cause in Suzume?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Worm causes earthquakes, not avalanche/blizzard/volcanic eruption. Actual film lead/plot explicit earthquake disaster. Question scoped supernatural worm, no inaccurate real-world earthquake causation implied.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Worm causes earthquakes, not avalanche/blizzard/volcanic eruption. Actual film lead/plot explicit earthquake disaster. Question scoped supernatural worm, no inaccurate real-world earthquake causation implied.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 34,
+      "prompt": "Who has raised Suzume after her mother's death?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Suzume raised by aunt, not brother/grandfather/troupe. Actual plot living with aunt Tamaki after mother loss. Does not ask whether guardian is biological mother; no unnecessary death details.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Suzume raised by aunt, not brother/grandfather/troupe. Actual plot living with aunt Tamaki after mother loss. Does not ask whether guardian is biological mother; no unnecessary death details.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 35,
+      "prompt": "Suzume's journey takes her across which country?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Journey across Japan, not China/Korea/Thailand. Actual film lead doors across Japan; Kyushu/Ehime passages corroborate. No obsolete borders or current travel claim; geographically clear choices.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Journey across Japan, not China/Korea/Thailand. Actual film lead doors across Japan; Kyushu/Ehime passages corroborate. No obsolete borders or current travel claim; geographically clear choices.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 36,
+      "prompt": "To which city does Hodaka run away in Weathering with You?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Hodaka runs to Tokyo, not Kyoto/Osaka/Sapporo. Actual Weathering lead and ferry sequence inspected. Country city scope clear; origin rural home not asked as destination.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Hodaka runs to Tokyo, not Kyoto/Osaka/Sapporo. Actual Weathering lead and ferry sequence inspected. Country city scope clear; origin rural home not asked as destination.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 37,
+      "prompt": "What unusual ability does Hina have in Weathering with You?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Hina can clear rain/bring sunshine, not tree speech/time travel/gold conversion. Actual SunshineGirl legend and prayer demonstration read. Does not overstate control of every weather type or claim no cost to her power.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Hina can clear rain/bring sunshine, not tree speech/time travel/gold conversion. Actual SunshineGirl legend and prayer demonstration read. Does not overstate control of every weather type or claim no cost to her power.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 38,
+      "prompt": "What is Hina's younger brother called in Weathering with You?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Nagi is Hina's younger brother, not Aqua/Hibiki/Rudger. Actual plot younger brother named Nagi. Not confusing surname Amano or other film protagonists. Family relation stable fictional fact.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Nagi is Hina's younger brother, not Aqua/Hibiki/Rudger. Actual plot younger brother named Nagi. Not confusing surname Amano or other film protagonists. Family relation stable fictional fact.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 39,
+      "prompt": "Which boy befriends Hina in Weathering with You?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Hodaka befriends Hina, not Tsuneo/Kai/Akira. Actual lead and joint weather business inspected. No vague real-world celebrity resemblance or dubbing-role issue.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Hodaka befriends Hina, not Tsuneo/Kai/Akira. Actual lead and joint weather business inspected. No vague real-world celebrity resemblance or dubbing-role issue.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 40,
+      "prompt": "Who directed Weathering with You?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Makoto Shinkai directed Weathering, not Miyazaki/Hosoda/Yuasa. Actual film credits lead read. No date/box-office instability; familiar director identification distinct from character/power questions.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Makoto Shinkai directed Weathering, not Miyazaki/Hosoda/Yuasa. Actual film credits lead read. No date/box-office instability; familiar director identification distinct from character/power questions.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 41,
+      "prompt": "What is Belle's real-world first name in the anime film Belle?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Belle's real-world first name Suzu, not Miyo/Hinako/Natsume. Actual film plot Suzu Naito/virtual avatar read. First-name scope avoids confusing Suzu with Belle/Bell avatar spelling; explicitly anime film, not Disney heroine.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Belle's real-world first name Suzu, not Miyo/Hinako/Natsume. Actual film plot Suzu Naito/virtual avatar read. First-name scope avoids confusing Suzu with Belle/Bell avatar spelling; explicitly anime film, not Disney heroine.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 42,
+      "prompt": "What is the virtual world called in the anime film Belle?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Virtual world U, not Eden/Oasis/Arcadia. Actual plot login and naming described. Single-letter proper name capitalised; no requirement to infer it from a generic internet platform.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Virtual world U, not Eden/Oasis/Arcadia. Actual plot login and naming described. Single-letter proper name capitalised; no requirement to infer it from a generic internet platform.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 43,
+      "prompt": "What talent makes Belle famous in the virtual world?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Singing makes Belle famous, not chess/racing/sword making. Actual film virtual musical success passage read. Does not imply real-world Suzu always able to perform confidently; central contrast retained.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Singing makes Belle famous, not chess/racing/sword making. Actual film virtual musical success passage read. Does not imply real-world Suzu always able to perform confidently; central contrast retained.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 44,
+      "prompt": "In the 2021 anime film Belle, which intimidating avatar does Belle try to understand?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Dragon/Beast avatar, not Phoenix/Kraken/Griffin. Actual plot explicitly both names; final answer includes both to accommodate translation/dub variations. Avoids confusion with Disney Beast character by specifying anime film elsewhere in sequence/prompt.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Dragon/Beast avatar, not Phoenix/Kraken/Griffin. Actual plot explicitly both names; final answer includes both to accommodate translation/dub variations. Avoids confusion with Disney Beast character by specifying anime film elsewhere in sequence/prompt.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 45,
+      "prompt": "Who directed the 2021 anime film Belle?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Mamoru Hosoda directed2021Belle, not Shinkai/Miyazaki/Yonebayashi. Actual lead credits inspected; year and anime qualifier distinguish same-title films. Not claiming he directed DisneyBeautyBeast source.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Mamoru Hosoda directed2021Belle, not Shinkai/Miyazaki/Yonebayashi. Actual lead credits inspected; year and anime qualifier distinguish same-title films. Not claiming he directed DisneyBeautyBeast source.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 46,
+      "prompt": "What animal can Miyo become in A Whisker Away?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Miyo becomes cat, not fox/rabbit/bird. Actual Whisker plot magical cat-mask transformation read. Miyo Sasaki distinct from Miyo Saimori in other franchise; title scopes same first-name characters.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Miyo becomes cat, not fox/rabbit/bird. Actual Whisker plot magical cat-mask transformation read. Miyo Sasaki distinct from Miyo Saimori in other franchise; title scopes same first-name characters.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 47,
+      "prompt": "What magical object allows Miyo's transformation in A Whisker Away?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Mask causes transformation, not ring/comb/bracelet. Actual Noh-mask premise inspected. No claim ordinary masks cause physical changes; fictional magic object.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Mask causes transformation, not ring/comb/bracelet. Actual Noh-mask premise inspected. No claim ordinary masks cause physical changes; fictional magic object.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 48,
+      "prompt": "Which boy does Miyo hope to get closer to in A Whisker Away?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Kento Hinode crush, not Hodaka/Hibiki/Tsuneo. Actual opening Miyo/Hinode plot read. Exact series avoids cross-franchise romance confusion; no assumptions about real actors' relationships.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Kento Hinode crush, not Hodaka/Hibiki/Tsuneo. Actual opening Miyo/Hinode plot read. Exact series avoids cross-franchise romance confusion; no assumptions about real actors' relationships.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 49,
+      "prompt": "What is Miyo called when she visits Hinode as a cat in A Whisker Away?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Cat alias Taro/Tarō, not Tib/Daijin/Zinzan. Actual plot explicitly asTaro with Hinode. Other named cats from different films not alternate aliases. Macron retained as a spelling variant, not a separate answer choice.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Cat alias Taro/Tarō, not Tib/Daijin/Zinzan. Actual plot explicitly asTaro with Hinode. Other named cats from different films not alternate aliases. Macron retained as a spelling variant, not a separate answer choice.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 50,
+      "prompt": "Which craft does Hinode practise in A Whisker Away?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Hinode practises pottery, not glassblowing/bookbinding/engraving. Actual plot studying pottery and family pottery-shop closure read. Craft knowledge central to his story, no claim father instead only practitioner.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Hinode practises pottery, not glassblowing/bookbinding/engraving. Actual plot studying pottery and family pottery-shop closure read. Craft knowledge central to his story, no claim father instead only practitioner.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 51,
+      "prompt": "What is Tsuneo's educational status at the start of the 2020 anime film Josee, the Tiger and the Fish?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Tsuneo university student; other offered educational roles false. Actual film lead/plot university student checked. Reworded away from what-he-was-doing-at-meeting, which could misleadingly ask his exact physical activity on the road.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Tsuneo university student; other offered educational roles false. Actual film lead/plot university student checked. Reworded away from what-he-was-doing-at-meeting, which could misleadingly ask his exact physical activity on the road.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 52,
+      "prompt": "What mobility aid does Josee use in the 2020 anime film Josee, the Tiger and the Fish?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Josee uses wheelchair, not walking frame/white cane/prosthetic leg. Actual film plot repeated wheelchair scenes inspected. Mobility-aid question neutral, no disability stereotypes or claim every wheelchair user same condition.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Josee uses wheelchair, not walking frame/white cane/prosthetic leg. Actual film plot repeated wheelchair scenes inspected. Mobility-aid question neutral, no disability stereotypes or claim every wheelchair user same condition.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 53,
+      "prompt": "In which Japanese city is the 2020 anime film Josee, the Tiger and the Fish set?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Osaka setting, not Tokyo/Sapporo/Nagoya. Actual film plot explicitly Osaka. Replaced title-gives-away-Josee-name question with meaningful setting fact; explicitly2020anime avoids liveaction adaptation differences.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Osaka setting, not Tokyo/Sapporo/Nagoya. Actual film plot explicitly Osaka. Replaced title-gives-away-Josee-name question with meaningful setting fact; explicitly2020anime avoids liveaction adaptation differences.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 54,
+      "prompt": "What creative career does Josee hope to pursue in the 2020 anime film Josee, the Tiger and the Fish?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Storybook illustrator ambition, not opera/fashion photography/composition. Actual film plot final ambition and illustrated story read. Not implying her only interest or all disability stories same outcome.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Storybook illustrator ambition, not opera/fashion photography/composition. Actual film plot final ambition and illustrated story read. Not implying her only interest or all disability stories same outcome.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 55,
+      "prompt": "Which country does Tsuneo hope to study in during the 2020 anime film Josee, the Tiger and the Fish?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Mexico study destination, not Norway/Egypt/India. Actual scholarship/travel and final return paragraphs inspected. Removed awkward consecutive in-in wording; aspiration rather than claiming story initially set in Mexico.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Mexico study destination, not Norway/Egypt/India. Actual scholarship/travel and final return paragraphs inspected. Removed awkward consecutive in-in wording; aspiration rather than claiming story initially set in Mexico.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 56,
+      "prompt": "Which water sport does Hinako love in Ride Your Wave?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Hinako loves surfing, not rowing/water polo/diving. Actual RideYourWave opening seaside college/surfing premise. No unsupported exact competition rank, visual central hobby clear.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Hinako loves surfing, not rowing/water polo/diving. Actual RideYourWave opening seaside college/surfing premise. No unsupported exact competition rank, visual central hobby clear.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 57,
+      "prompt": "What is Minato's job in Ride Your Wave?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Minato firefighter, not biologist/chef/architect. Actual opening rescue/firefighter role explicit. No confusion with Hinako's later lifeguard training; job belongs specified character.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Minato firefighter, not biologist/chef/architect. Actual opening rescue/firefighter role explicit. No confusion with Hinako's later lifeguard training; job belongs specified character.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 58,
+      "prompt": "What emergency first brings Hinako and Minato together in Ride Your Wave?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Apartment fire brings them together, not train collision/landslide/ship grounding. Actual plot fireworks igniting Hinako's building and rescue checked. No unsafe fire-response advice offered.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Apartment fire brings them together, not train collision/landslide/ship grounding. Actual plot fireworks igniting Hinako's building and rescue checked. No unsafe fire-response advice offered.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 59,
+      "prompt": "In what does Hinako see Minato after his death in Ride Your Wave?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Minato appears in water, not mirrors/photos/clouds. Actual postdeath supernatural appearance paragraph. Story-scoped fictional premise, no general claim about bereavement or seeing deceased people.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Minato appears in water, not mirrors/photos/clouds. Actual postdeath supernatural appearance paragraph. Story-scoped fictional premise, no general claim about bereavement or seeing deceased people.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 60,
+      "prompt": "What does Hinako do to make Minato appear in Ride Your Wave?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Hinako sings their shared song to summon him, not bell/candle/drum. Actual plot BrandNewStory trigger checked. Different fact from medium-water question, no need obscure soundtrack artist knowledge.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Hinako sings their shared song to summon him, not bell/candle/drum. Actual plot BrandNewStory trigger checked. Different fact from medium-water question, no need obscure soundtrack artist knowledge.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 61,
+      "prompt": "What type of poetry does Cherry write in Words Bubble Up Like Soda Pop?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Cherry writes haiku, not sonnets/limericks/epicpoetry. Actual WordsBubble lead and plot repeatedly haiku. Does not use rigid syllable-count claim for translated haiku; central communication habit.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Cherry writes haiku, not sonnets/limericks/epicpoetry. Actual WordsBubble lead and plot repeatedly haiku. Does not use rigid syllable-count claim for translated haiku; central communication habit.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 62,
+      "prompt": "Why does Smile cover her mouth in Words Bubble Up Like Soda Pop?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Smile self-conscious about teeth/braces, not birthmark/speech inability/tattoo. Actual lead/plot mouth covering inspected. Neutral self-conscious wording, no assertion her appearance objectively unattractive or inability permanent.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Smile self-conscious about teeth/braces, not birthmark/speech inability/tattoo. Actual lead/plot mouth covering inspected. Neutral self-conscious wording, no assertion her appearance objectively unattractive or inability permanent.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 63,
+      "prompt": "Where do Cherry and Smile first meet in Words Bubble Up Like Soda Pop?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Shopping mall firstmeeting, not airport/shrine/railwaymuseum. Actual lead and phone-swap scene at OdaNouvelleMall. General location avoids obscure exact mall name.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Shopping mall firstmeeting, not airport/shrine/railwaymuseum. Actual lead and phone-swap scene at OdaNouvelleMall. General location avoids obscure exact mall name.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 64,
+      "prompt": "What do Cherry and Smile accidentally swap in Words Bubble Up Like Soda Pop?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Phones accidentally swapped, not bikes/uniforms/keys. Actual mall chase/meeting paragraph. Independent detail from where meeting occurs; ordinary objects and clear plural possessive.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Phones accidentally swapped, not bikes/uniforms/keys. Actual mall chase/meeting paragraph. Independent detail from where meeting occurs; ordinary objects and clear plural possessive.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 65,
+      "prompt": "What lost item do Cherry and Smile help an older man find in Words Bubble Up Like Soda Pop?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Lost music record, not watch/photo/baseball. Actual Fujiyama wish/Yamazakura record search read. Item-level premise avoids spoiler exact location or obscure singer/date.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Lost music record, not watch/photo/baseball. Actual Fujiyama wish/Yamazakura record search read. Item-level premise avoids spoiler exact location or obscure singer/date.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 66,
+      "prompt": "What is the boy's first name in The Boy and the Heron?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Mahito boy, not Souta/Hodaka/Rudger. Actual BoyHeron lead/plot full name MahitoMaki checked. First-name scope clear; titles/protagonists of other movies not alternate aliases.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Mahito boy, not Souta/Hodaka/Rudger. Actual BoyHeron lead/plot full name MahitoMaki checked. First-name scope clear; titles/protagonists of other movies not alternate aliases.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 67,
+      "prompt": "Which studio made The Boy and the Heron?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "StudioGhibli, not Ponoc/Colorido/ScienceSaru. Actual film production lead. Different real studios plausible alternatives; no assertion all handdrawn Japanese films Ghibli.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "StudioGhibli, not Ponoc/Colorido/ScienceSaru. Actual film production lead. Different real studios plausible alternatives; no assertion all handdrawn Japanese films Ghibli.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 68,
+      "prompt": "Who directed The Boy and the Heron?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "HayaoMiyazaki director, not Shinkai/Hosoda/Yuasa. Actual lead credits read. No unstable retirement/newest-film claim or dubious award ranking.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "HayaoMiyazaki director, not Shinkai/Hosoda/Yuasa. Actual lead credits read. No unstable retirement/newest-film claim or dubious award ranking.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 69,
+      "prompt": "What structure leads Mahito into a fantastical world in The Boy and the Heron?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Tower passage to fantasy world, not temple/station/mine. Actual lead and tower-entry sequence checked. Replaced odd lighthouse-on-ship distractor with plausible fantasy portals; no claim tower only object anywhere in film.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Tower passage to fantasy world, not temple/station/mine. Actual lead and tower-entry sequence checked. Replaced odd lighthouse-on-ship distractor with plausible fantasy portals; no claim tower only object anywhere in film.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 70,
+      "prompt": "Which war forms the backdrop to the beginning of The Boy and the Heron?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "PacificWar/WWII backdrop, not Korea/WWI/NapoleonicWars. Actual opening war context. Answer pairs theatre and largerwar to avoid presenting PacificWar andWorldWarII as competing correct options.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "PacificWar/WWII backdrop, not Korea/WWI/NapoleonicWars. Actual opening war context. Answer pairs theatre and largerwar to avoid presenting PacificWar andWorldWarII as competing correct options.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 71,
+      "prompt": "What is Rudger in the anime film The Imaginary?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Rudger imaginary friend, not prince/robot/ghosthunter. Actual film-specific2023lead/plot inspected. Not applying novel-only differences to anime; imaginary nature central premise.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Rudger imaginary friend, not prince/robot/ghosthunter. Actual film-specific2023lead/plot inspected. Not applying novel-only differences to anime; imaginary nature central premise.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 72,
+      "prompt": "Which girl creates Rudger in The Imaginary?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Amanda createsRudger, not Miyo/Hina/Suzu. Actual film opening and creator relationship. Clear fictional creation, not writer/director authorship of film.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Amanda createsRudger, not Miyo/Hina/Suzu. Actual film opening and creator relationship. Clear fictional creation, not writer/director authorship of film.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 73,
+      "prompt": "What threatens an Imaginary's existence in The Imaginary?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Forgetting by creator threatens Imaginary, not music/sea/mirrors. Actual film premise and sanctuary explanation read. Does not equate temporary physical separation with certain instant nonexistence.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Forgetting by creator threatens Imaginary, not music/sea/mirrors. Actual film premise and sanctuary explanation read. Does not equate temporary physical separation with certain instant nonexistence.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 74,
+      "prompt": "What kind of building shelters other Imaginaries in The Imaginary?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Library sheltersImaginaries, not depot/stadium/lab. Actual film plot sanctuary/library/bookscreativeenergy. No unsupported real-world supernatural statement.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Library sheltersImaginaries, not depot/stadium/lab. Actual film plot sanctuary/library/bookscreativeenergy. No unsupported real-world supernatural statement.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 75,
+      "prompt": "Which character hunts Imaginaries in The Imaginary?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "MrBunting huntsImaginaries, not Jinshi/Kiyoka/Minato. Actual film villain pursuit read. Names distinguish different franchises; no unnecessary graphic details of villain's methods. Kudo spelling unified with row22; Kudou is a romanisation variant, not another character.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "MrBunting huntsImaginaries, not Jinshi/Kiyoka/Minato. Actual film villain pursuit read. Names distinguish different franchises; no unnecessary graphic details of villain's methods. Kudo spelling unified with row22; Kudou is a romanisation variant, not another character.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 76,
+      "prompt": "What kind of building drifts across the sea in Drifting Home?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Apartment block drifts, not castle/lighthouse/mall. Actual DriftingHome lead/plot flooded complex. Does not assert physically plausible real-world floating buildings or include construction advice.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Apartment block drifts, not castle/lighthouse/mall. Actual DriftingHome lead/plot flooded complex. Does not assert physically plausible real-world floating buildings or include construction advice.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 77,
+      "prompt": "How do Kosuke and Natsume know each other in Drifting Home?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Kosuke/Natsume grew up together, not flightmeeting/newspapercolleagues/athletes. Actual plot childhood like-siblings relationship. Answer avoids falsely stating biological siblings.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Kosuke/Natsume grew up together, not flightmeeting/newspapercolleagues/athletes. Actual plot childhood like-siblings relationship. Answer avoids falsely stating biological siblings.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 78,
+      "prompt": "What was planned for the old apartment complex in Drifting Home?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Oldcomplex planned demolition, not tenant renovation/hotel conversion/museum preservation. Actual plot first entry explicit. Replaced implausible stadium/airport/royalpalace options with plausible redevelopment alternatives.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Oldcomplex planned demolition, not tenant renovation/hotel conversion/museum preservation. Actual plot first entry explicit. Replaced implausible stadium/airport/royalpalace options with plausible redevelopment alternatives.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 79,
+      "prompt": "What is the mysterious boy in the old complex called in Drifting Home?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Noppo mysterious boy, not Nagi/Hibiki/Souta. Actual plot Natsume introduces mysterious boy byname. No reveal of exact supernatural identity or minor ending spoiler.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Noppo mysterious boy, not Nagi/Hibiki/Souta. Actual plot Natsume introduces mysterious boy byname. No reveal of exact supernatural identity or minor ending spoiler.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 80,
+      "prompt": "What do the children build to leave the flooding building in Drifting Home?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Children buildraft, not balloon/submarine/cablecar. Actual film plot building flooding and raft constructed fromfoundobjects. Ordinary escape-method choices, no realworld safety instructions.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Children buildraft, not balloon/submarine/cablecar. Actual film plot building flooding and raft constructed fromfoundobjects. Ordinary escape-method choices, no realworld safety instructions.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 81,
+      "prompt": "Which city is the setting of the 2022 anime film Bubble?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Tokyo setting, not Kyoto/Osaka/Sapporo. Actual2022Bubblelead/plot TokyoTower/gravityzone. Year/anime qualifiers distinguish unrelated2005liveactionBubble in oldfilm questions.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Tokyo setting, not Kyoto/Osaka/Sapporo. Actual2022Bubblelead/plot TokyoTower/gravityzone. Year/anime qualifiers distinguish unrelated2005liveactionBubble in oldfilm questions.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 82,
+      "prompt": "Which activity is central to the young people's competitions in Bubble?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Parkour central competition, not sumo/icehockey/horseracing. Actual plot barter competitions and exceptional talent read. Does not describe all real parkour as competitive or safe inruins.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Parkour central competition, not sumo/icehockey/horseracing. Actual plot barter competitions and exceptional talent read. Does not describe all real parkour as competitive or safe inruins.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 83,
+      "prompt": "What is the name of the talented parkour boy in Bubble?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Hibiki talentedboy, not Hodaka/Akira/Kosuke. Actual BlueBlazes parkour protagonist. No assumption every character identical hearing ability; simple namedcharacter fact.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Hibiki talentedboy, not Hodaka/Akira/Kosuke. Actual BlueBlazes parkour protagonist. No assumption every character identical hearing ability; simple namedcharacter fact.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 84,
+      "prompt": "What does Hibiki call the mysterious girl in Bubble?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Uta name given to girl, not Hina/Miyo/Suzu. Actual Hibiki namesher Uta/song passage. No need Japanese etymology to chooseanswer; not implying realactressnameUta.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Uta name given to girl, not Hina/Miyo/Suzu. Actual Hibiki namesher Uta/song passage. No need Japanese etymology to chooseanswer; not implying realactressnameUta.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 85,
+      "prompt": "What do the bubbles disrupt in the 2022 anime film Bubble?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Bubbles altergravity, not universalmetalmagnetism/lightspeed/Earthrotation. Actual lead/plot gravityanomalies. Replaced silly weekdays/name-spelling options with physical alternatives; fictional anomaly notscience claim.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Bubbles altergravity, not universalmetalmagnetism/lightspeed/Earthrotation. Actual lead/plot gravityanomalies. Replaced silly weekdays/name-spelling options with physical alternatives; fictional anomaly notscience claim.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 86,
+      "prompt": "What colour is Mary's hair in Mary and the Witch's Flower?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Mary redhair, not blue/green/silver. Actual plot teasedforwildredhair and college significance read. Anime character colours plausible alternatives; basic visible feature instead of obscure production trivia.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Mary redhair, not blue/green/silver. Actual plot teasedforwildredhair and college significance read. Anime character colours plausible alternatives; basic visible feature instead of obscure production trivia.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 87,
+      "prompt": "What gives Mary temporary magical powers in Mary and the Witch's Flower?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Rareflower temporarily grantsmagic, not crown/necklace/sword. Actual lead fly-by-night giveswitchpower checked. Does not claim Mary permanently bornwitch or ordinary realflower causesmagic.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Rareflower temporarily grantsmagic, not crown/necklace/sword. Actual lead fly-by-night giveswitchpower checked. Does not claim Mary permanently bornwitch or ordinary realflower causesmagic.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 88,
+      "prompt": "What does Mary ride to Endor College in Mary and the Witch's Flower?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Broomstick takesMarytoEndor, not carpet/horse/swan. Actual discovery/broomride narrative. Specifictransport question, titleflowerdoesnotgiveanswer; spellings correct.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Broomstick takesMarytoEndor, not carpet/horse/swan. Actual discovery/broomride narrative. Specifictransport question, titleflowerdoesnotgiveanswer; spellings correct.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 89,
+      "prompt": "What kind of school is Endor College in Mary and the Witch's Flower?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Endor schoolforwitches, not navy/ballet/royalguards. Actual plot college in clouds/witches read. Does not conflate StarWarsEndor with thisfictionalschool; namedfilminprompt.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Endor schoolforwitches, not navy/ballet/royalguards. Actual plot college in clouds/witches read. Does not conflate StarWarsEndor with thisfictionalschool; namedfilminprompt.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 90,
+      "prompt": "What kind of animal is Tib in Mary and the Witch's Flower?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Tib cat, not fox/owl/rabbit. Actual Peter'scatsTib/Gib and familiar scenes inspected. No assumption everywitchfamiliarcat; character-specificonly.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Tib cat, not fox/owl/rabbit. Actual Peter'scatsTib/Gib and familiar scenes inspected. No assumption everywitchfamiliarcat; character-specificonly.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 91,
+      "prompt": "Which boy investigates the penguin mystery in the anime film Penguin Highway?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Aoyama investigator, not Hibiki/Rudger/Hodaka. Actual ElevenArts film synopsis nameshim investigating penguins. Film-specific primary check because encyclopaedia page primarily a novel article.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Aoyama investigator, not Hibiki/Rudger/Hodaka. Actual ElevenArts film synopsis nameshim investigating penguins. Film-specific primary check because encyclopaedia page primarily a novel article.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 92,
+      "prompt": "Where does the mysterious woman work in Penguin Highway?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Womanfromdentaloffice, not ticketoffice/bakery/firestation. Actual ElevenArts explicit dentist'soffice. Avoids Fuji's awkward dental-school translation; doesnot inventprecise dentist-versus-assistant professionalqualification.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Womanfromdentaloffice, not ticketoffice/bakery/firestation. Actual ElevenArts explicit dentist'soffice. Avoids Fuji's awkward dental-school translation; doesnot inventprecise dentist-versus-assistant professionalqualification.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 93,
+      "prompt": "What everyday object does the woman turn into a penguin in Penguin Highway?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Sodacan turnsintopenguin, not pencil/watch/bag. Actual FujiCreative film synopsis and JFDBstory both explicitcola/sodacan. Independentprimaryconfirmation, not assumption every shared novel event inanime.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Sodacan turnsintopenguin, not pencil/watch/bag. Actual FujiCreative film synopsis and JFDBstory both explicitcola/sodacan. Independentprimaryconfirmation, not assumption every shared novel event inanime.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 94,
+      "prompt": "Where does Aoyama record his observations in Penguin Highway?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Notebook recordsobservations, not blackboard/postcards/cassette. Actual JFDBfilmstory explicitly writingwhathelearnsinnotebook. Replaced shiplog distractor to avoid notebook/log conceptualoverlap; sensible recordingmedium alternatives.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Notebook recordsobservations, not blackboard/postcards/cassette. Actual JFDBfilmstory explicitly writingwhathelearnsinnotebook. Replaced shiplog distractor to avoid notebook/log conceptualoverlap; sensible recordingmedium alternatives.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 95,
+      "prompt": "Which studio animated the film Penguin Highway?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "StudioColorido animatedPenguinHighway, notGhibli/Ponoc/ScienceSaru. Actual JFDB productionstudiofield and filmstory read. Final sourceprimaryJFDB ratherthan novelarticlelead alone; notconflating novelpublisher withanimationstudio.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "StudioColorido animatedPenguinHighway, notGhibli/Ponoc/ScienceSaru. Actual JFDB productionstudiofield and filmstory read. Final sourceprimaryJFDB ratherthan novelarticlelead alone; notconflating novelpublisher withanimationstudio.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 96,
+      "prompt": "What kind of creature is Lu in Lu Over the Wall?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Lu mermaid/ningyo, notforestspirit/dragon/talkingfox. Actual LuOverWall lead and plot merfolkgirl. Englishmermaid appropriate broadtranslation; no claim allJapanese ningyo myths identical.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Lu mermaid/ningyo, notforestspirit/dragon/talkingfox. Actual LuOverWall lead and plot merfolkgirl. Englishmermaid appropriate broadtranslation; no claim allJapanese ningyo myths identical.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 97,
+      "prompt": "Which boy becomes friends with Lu in Lu Over the Wall?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Kai befriendsLu, notHodaka/Hibiki/Rudger. Actual plot protagonistKaiAshimoto meetsher. Simplefirst-name question, noactornamemixup.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Kai befriendsLu, notHodaka/Hibiki/Rudger. Actual plot protagonistKaiAshimoto meetsher. Simplefirst-name question, noactornamemixup.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 98,
+      "prompt": "What helps Lu's fish fin turn into human legs in Lu Over the Wall?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Music turnsLu'sfinintolegs, notsnow/moonlightalone/ring. Actual plot musicbeattransformation. Onlyofferedcorrecttrigger; doesn'tassert ordinaryrealcreaturesrespondthisway.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Music turnsLu'sfinintolegs, notsnow/moonlightalone/ring. Actual plot musicbeattransformation. Onlyofferedcorrecttrigger; doesn'tassert ordinaryrealcreaturesrespondthisway.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 99,
+      "prompt": "What is dangerous to Lu in Lu Over the Wall?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Directsunlight dangerous, notsinging/seawater/sightofboat. Actual plot sunlightfire danger andumbrella protection. Althoughboatscausedeathofmother, merelyseeingboatnot statedharmful; alternatives deliberatelydistinguish plotcausation.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Directsunlight dangerous, notsinging/seawater/sightofboat. Actual plot sunlightfire danger andumbrella protection. Althoughboatscausedeathofmother, merelyseeingboatnot statedharmful; alternatives deliberatelydistinguish plotcausation.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    },
+    {
+      "row": 100,
+      "prompt": "What is Kai's band called in Lu Over the Wall?",
+      "action": "edit",
+      "recommendedChanges": {
+        "rationale": "Kai'sbandSEIREN, notKessoku/B-Komachi/SickHack. Actual plot bandnameformedbyfriendsread. AccentSEIREN/SEIRENromanisationnotseparatechoices; allofferednamesactualotherbands, centralmembershipfact.",
+        "reviewStatus": "author_final_checked"
+      },
+      "note": "Kai'sbandSEIREN, notKessoku/B-Komachi/SickHack. Actual plot bandnameformedbyfriendsread. AccentSEIREN/SEIRENromanisationnotseparatechoices; allofferednamesactualotherbands, centralmembershipfact.",
+      "sourceReview": "Individual author judgment of final stem/all four choices and actual relevant lead/plot or primary production-reference passage. Secondary sources labelled; not independent review."
+    }
+  ]
+}

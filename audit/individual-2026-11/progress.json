@@ -1,9 +1,9 @@
 {
   "updated": "2026-11-18",
   "targetNewEasy": 3100,
-  "reviewedAndValidated": 2800,
-  "localBankCount": 24717,
-  "liveBankCount": 24717,
+  "reviewedAndValidated": 2900,
+  "localBankCount": 24817,
+  "liveBankCount": 24817,
   "topics": [
     {
       "topicID": "9",
@@ -185,9 +185,9 @@
       "topicID": "31",
       "name": "Anime & Manga",
       "targetNewEasy": 100,
-      "authored": 0,
-      "reviewedAndValidated": 0,
-      "deployedNewEasy": 0
+      "authored": 100,
+      "reviewedAndValidated": 100,
+      "deployedNewEasy": 100
     },
     {
       "topicID": "32",
