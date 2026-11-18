@@ -1,9 +1,9 @@
 {
   "updated": "2026-11-18",
   "targetNewEasy": 3100,
-  "reviewedAndValidated": 1900,
-  "localBankCount": 23817,
-  "liveBankCount": 23617,
+  "reviewedAndValidated": 2000,
+  "localBankCount": 23917,
+  "liveBankCount": 23917,
   "topics": [
     {
       "topicID": "9",
@@ -25,9 +25,9 @@
       "topicID": "11",
       "name": "Film",
       "targetNewEasy": 100,
-      "authored": 0,
-      "reviewedAndValidated": 0,
-      "deployedNewEasy": 0
+      "authored": 100,
+      "reviewedAndValidated": 100,
+      "deployedNewEasy": 100
     },
     {
       "topicID": "12",
@@ -35,7 +35,7 @@
       "targetNewEasy": 100,
       "authored": 100,
       "reviewedAndValidated": 100,
-      "deployedNewEasy": 0
+      "deployedNewEasy": 100
     },
     {
       "topicID": "13",
@@ -99,7 +99,7 @@
       "targetNewEasy": 100,
       "authored": 100,
       "reviewedAndValidated": 100,
-      "deployedNewEasy": 0
+      "deployedNewEasy": 100
     },
     {
       "topicID": "21",

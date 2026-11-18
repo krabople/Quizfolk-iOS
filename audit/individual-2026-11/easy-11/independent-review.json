@@ -1,0 +1,1118 @@
+{
+  "reviewer": "root (author second editorial pass)",
+  "independent": false,
+  "sourceAccessNote": "One explicit judgment per question and all options. Repeated target facts and title giveaways replaced, exact versions specified, unrelated filmmaking distractors replaced. Sources inspected as actual studio/official character texts, specialist film references or educational definitions; retrieval alone never approves. Blocked requests and indexed web/caption inspection distinguished in source-access metadata. Private reference extracts are not republished.",
+  "rows": [
+    {
+      "row": 1,
+      "action": "edit",
+      "prompt": "In Toy Story, what kind of toy is Woody?",
+      "note": "Woody is the cowboy doll with a pull-string voice box. Soldier, robot and racing car are other toy types. Pixar character text checked, ordinary grammar and clear Film relevance.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.pixar.com/toy-story"
+      }
+    },
+    {
+      "row": 2,
+      "action": "edit",
+      "prompt": "In Toy Story, Buzz Lightyear believes he is what?",
+      "note": "Buzz believes he is a Space Ranger on a Star Command mission. Pirate, sheriff and driver are different roles. Pixar text distinguishes his belief from being an actual working ranger; question retains believes.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.pixar.com/toy-story"
+      }
+    },
+    {
+      "row": 3,
+      "action": "edit",
+      "prompt": "In Finding Nemo, what kind of fish is Nemo?",
+      "note": "Nemo and Marlin are clownfish. Goldfish, swordfish and angelfish are different fish types. Pixar opening explicitly identifies clownfish; no taxonomic-species overprecision.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.pixar.com/finding-nemo"
+      }
+    },
+    {
+      "row": 4,
+      "action": "edit",
+      "prompt": "In Finding Nemo, what is Marlin's relationship to Nemo?",
+      "note": "Marlin is Nemo's father, not brother, uncle or grandfather. Pixar character and synopsis text both support. Existing bank asks mother Coral and Marlin's voice, different target facts.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.pixar.com/finding-nemo"
+      }
+    },
+    {
+      "row": 5,
+      "action": "edit",
+      "prompt": "What difficulty does Dory famously have in Finding Nemo?",
+      "note": "Dory experiences short-term memory loss. She swims and speaks, and fear of every fish is not her defining difficulty. Pixar character paragraph directly checked; retain hyphenated short-term modifier.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.pixar.com/finding-nemo"
+      }
+    },
+    {
+      "row": 6,
+      "action": "edit",
+      "prompt": "In Ratatouille, what kind of animal is Remy?",
+      "note": "Remy is a rat; mouse, rabbit and squirrel are not interchangeable species. Pixar states rat in opening. Remy name spelling and article choices correct.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.pixar.com/ratatouille"
+      }
+    },
+    {
+      "row": 7,
+      "action": "edit",
+      "prompt": "In which city is most of Ratatouille set?",
+      "note": "Paris is the main city setting, not Rome, London or Madrid. Pixar explicitly places Remy in Paris's sewers beneath restaurant. Most allows introductory countryside sequence rather than asserting entire film occurs there.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.pixar.com/ratatouille"
+      }
+    },
+    {
+      "row": 8,
+      "action": "edit",
+      "prompt": "In WALL-E, what task was the title robot built to do?",
+      "note": "WALL-E cleans waste into cubes, hence compacts rubbish. Mail delivery, racing and restaurant cooking not his designed job. Pixar robot description checked; British rubbish wording natural.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.pixar.com/wall-e"
+      }
+    },
+    {
+      "row": 9,
+      "action": "edit",
+      "prompt": "In Up, what lifts Carl's house into the sky?",
+      "note": "Thousands of balloons lift Carl's house. Helicopter, dragons and rocket engine do not. Pixar synopsis explicitly gives balloons attached to roof; no invented exact balloon count.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.pixar.com/upfilm"
+      }
+    },
+    {
+      "row": 10,
+      "action": "edit",
+      "prompt": "What kind of vehicle is Lightning McQueen in Cars?",
+      "note": "Lightning McQueen is a racing car; fire engine, tractor, bus are different Cars vehicle roles. Pixar explicitly identifies rookie race car. No uncertain real-world make/model asserted.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.pixar.com/cars"
+      }
+    },
+    {
+      "row": 11,
+      "action": "edit",
+      "prompt": "In Cars, what kind of vehicle is Mater?",
+      "note": "Mater is a tow truck, not racing car, fire engine or bus. Pixar character description directly checked. Proper name rather than British mater word avoids ambiguity through film scope.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.pixar.com/cars"
+      }
+    },
+    {
+      "row": 12,
+      "action": "edit",
+      "prompt": "In Monsters, Inc., how many eyes does Mike Wazowski have?",
+      "note": "Mike has one eye, not two/three/four. Pixar page's one-eyed text actually describes Celia, so change citation to Disney Movies' Mike description, which explicitly says one-eyed green sphere. Do not pretend the first keyword match proved Mike.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.pixar.com/monsters-inc"
+      }
+    },
+    {
+      "row": 13,
+      "action": "edit",
+      "prompt": "In Monsters, Inc., what is Boo?",
+      "note": "Boo is a human child. Robot, cat and pet bird wrong. Pixar synopsis explicitly says little human girl; question identifies Boo rather than confusing her costume with her nature.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.pixar.com/monsters-inc"
+      }
+    },
+    {
+      "row": 14,
+      "action": "edit",
+      "prompt": "In Inside Out, Joy and Sadness are emotions inside whose mind?",
+      "note": "Joy and Sadness operate within Riley's mind. Andy, Miguel and Merida are other Pixar children. Pixar Inside Out synopsis states Riley guided by emotions; possessive answer forms fit whose mind.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.pixar.com/inside-out"
+      }
+    },
+    {
+      "row": 15,
+      "action": "edit",
+      "prompt": "Coco draws especially on the Day of the Dead traditions of which country?",
+      "note": "Mexican Day of the Dead traditions underpin Coco. Italy/Japan/Greece wrong. Pixar production material describes research in Mexico and Día de Muertos; cultural scope rather than saying the tradition is exclusive to one country worldwide.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.pixar.com/coco"
+      }
+    },
+    {
+      "row": 16,
+      "action": "edit",
+      "prompt": "In Coco, what does Miguel dream of becoming?",
+      "note": "Miguel wants to be a musician, not racing driver, doctor or astronaut. Pixar opening and music production text support. Dream qualifier does not confuse his family's shoemaking work with his ambition.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.pixar.com/coco"
+      }
+    },
+    {
+      "row": 17,
+      "action": "edit",
+      "prompt": "In Brave, Princess Merida is especially skilled at which sport?",
+      "note": "Merida's characteristic sport is archery, not tennis, skating or swimming. Pixar identifies skilled archer/swordfighter. Especially avoids claiming it is her only physical skill.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.pixar.com/brave"
+      }
+    },
+    {
+      "row": 18,
+      "action": "edit",
+      "prompt": "What secret identity does the Parr family share in The Incredibles?",
+      "note": "The Parrs secretly are superheroes, not aliens, pirates or robots. Revise secret identity wording, which could ask for the family's ordinary civilian names instead. Pixar family/superhero descriptions support the new direct question.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "prompt": "In The Incredibles, what are the Parr family secretly?",
+        "answers": [
+          "Superheroes",
+          "Aliens",
+          "Pirates",
+          "Robots"
+        ],
+        "sourceURL": "https://www.pixar.com/the-incredibles"
+      }
+    },
+    {
+      "row": 19,
+      "action": "edit",
+      "prompt": "In The Incredibles, what is Dash's main superpower?",
+      "note": "Dash has super speed. Invisibility is Violet's; underwater breathing/stone transformation not his powers. Pixar Dash description explicitly says super-speed, clear unique offered answer.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.pixar.com/the-incredibles"
+      }
+    },
+    {
+      "row": 20,
+      "action": "edit",
+      "prompt": "In Turning Red, Mei transforms into a giant version of which animal?",
+      "note": "Mei transforms into a giant red panda. Polar bear, tiger, fox wrong. Pixar opening and Red Panda Mei section checked. Red panda is the actual animal rather than a colour variant of a giant panda.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.pixar.com/turning-red"
+      }
+    },
+    {
+      "row": 21,
+      "action": "edit",
+      "prompt": "In Disney's animated The Lion King (1994), what kind of animal is Simba?",
+      "note": "Replace Simba animal identification cued by Lion King title. Mufasa is his father; Scar uncle, Rafiki adviser, Zazu majordomo. Disney film page explicitly calls Mufasa his dad. Proper version excludes unrelated adaptation continuity.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "prompt": "In Disney's animated The Lion King (1994), who is Simba's father?",
+        "answers": [
+          "Mufasa",
+          "Scar",
+          "Rafiki",
+          "Zazu"
+        ],
+        "rationale": "Mufasa is Simba's father; Scar is his uncle, Rafiki a mandrill adviser and Zazu a hornbill. Replace animal question cued by the title."
+      }
+    },
+    {
+      "row": 22,
+      "action": "edit",
+      "prompt": "In The Lion King (1994), how is Scar related to Mufasa?",
+      "note": "Scar/Mufasa relationship repeats Stage & Musicals fact, so replace with Zazu bird type. Official Lion King character guide names hornbill; parrot, ostrich, flamingo wrong. Direct request blocked, indexed official guide inspected instead; failure retained.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "prompt": "In The Lion King (1994), what kind of bird is Zazu?",
+        "answers": [
+          "A hornbill",
+          "A parrot",
+          "An ostrich",
+          "A flamingo"
+        ],
+        "sourceURL": "https://lionking.com/familynight/",
+        "rationale": "Zazu is a hornbill. Replace Scar/Mufasa relationship already covered by Stage & Musicals."
+      }
+    },
+    {
+      "row": 23,
+      "action": "edit",
+      "prompt": "In The Lion King (1994), what kind of animal is Timon?",
+      "note": "Timon is a meerkat, not mongoose, otter or rabbit. D23 explicitly names meerkat in account of characters originating in Lion King. Existing bank's Shenzi hyena question concerns a different character.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://d23.com/this-day/the-lion-kings-timon-and-pumbaa-debuts-in-syndication/"
+      }
+    },
+    {
+      "row": 24,
+      "action": "edit",
+      "prompt": "In The Lion King (1994), what kind of animal is Pumbaa?",
+      "note": "Pumbaa is a warthog, not rhinoceros, hippopotamus or buffalo. Disney character PDF could not be retrieved, so replace with D23 Pumbaa entry explicitly saying warthog. No common-vs-desert-warthog taxonomic claim; Pumbaa spelling correct.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://d23.com/a-to-z/pumbaa/"
+      }
+    },
+    {
+      "row": 25,
+      "action": "edit",
+      "prompt": "In Disney's animated Aladdin (1992), the Genie is released from what object?",
+      "note": "Film Genie emerges from a lamp. Mirror, ring and sword are wrong for the specified animated film; other Aladdin folklore sometimes has a ring genie. D23 synopsis explicitly links lamp and Genie.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://d23.com/a-to-z/aladdin-film/"
+      }
+    },
+    {
+      "row": 26,
+      "action": "edit",
+      "prompt": "What is the name of the princess in Disney's animated Aladdin (1992)?",
+      "note": "Jasmine identification repeated Stage & Musicals, so replace with evil vizier Jafar. Gaston, Scar, Hook are villains in different films. D23 synopsis identifies Jafar's role; adviser British spelling and villainous qualifier unambiguous.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "prompt": "Who is the villainous royal adviser in Disney's animated Aladdin (1992)?",
+        "answers": [
+          "Jafar",
+          "Gaston",
+          "Scar",
+          "Captain Hook"
+        ],
+        "sourceURL": "https://d23.com/a-to-z/aladdin-film/",
+        "rationale": "Jafar is the evil vizier. The other offered villains belong to different Disney stories; replaces Jasmine fact already covered by Stage & Musicals."
+      }
+    },
+    {
+      "row": 27,
+      "action": "edit",
+      "prompt": "In Disney's animated Aladdin (1992), what kind of animal is Abu?",
+      "note": "Abu is a monkey. Rajah tiger/Iago parrot differ; snake wrong for Abu's usual character. D23 explicitly names monkey Abu. No claim he never temporarily transforms into another creature.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://d23.com/a-to-z/aladdin-film/"
+      }
+    },
+    {
+      "row": 28,
+      "action": "keep",
+      "prompt": "In Frozen, Elsa has magical powers especially involving what?",
+      "note": "Elsa's magic concerns ice and snow, not fire/lava, sand/dust, electricity/metal. Disney Frozen synopsis describes icy powers and winter. Especially avoids exhaustive scientific description of magic.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review."
+    },
+    {
+      "row": 29,
+      "action": "keep",
+      "prompt": "In Frozen, who is Anna's sister?",
+      "note": "Anna's sister is Elsa, not Rapunzel, Ariel or Merida. Disney synopsis explicitly states sister. No ambiguity about adopted or metaphorical sisters introduced.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review."
+    },
+    {
+      "row": 30,
+      "action": "keep",
+      "prompt": "In Frozen, what is Olaf?",
+      "note": "Olaf is a snowman, not reindeer/wolf/polar bear. Disney synopsis explicitly names hilarious snowman Olaf. Living snowman still a snowman in fictional context.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review."
+    },
+    {
+      "row": 31,
+      "action": "keep",
+      "prompt": "In Frozen, what kind of animal is Sven?",
+      "note": "Sven is a reindeer, not moose, horse or wolf. Disney synopsis gives Kristoff's reindeer Sven. Correct article before reindeer and name spelling checked.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review."
+    },
+    {
+      "row": 32,
+      "action": "keep",
+      "prompt": "In Disney's animated The Little Mermaid (1989), what is Ariel at the beginning of the story?",
+      "note": "Ariel begins as a mermaid. Fairy/witch/human princess wrong at that stage. Beginning qualifier necessary because she becomes human later; Disney synopsis identifies mermaid princess.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review."
+    },
+    {
+      "row": 33,
+      "action": "edit",
+      "prompt": "Who is the sea witch in Disney's animated The Little Mermaid (1989)?",
+      "note": "Ursula identity was already in Cartoons. Replace with Ariel's payment: voice, not crown, memories or hair. Disney Animation synopsis explicitly gives bargain. Fins also change, so do not put fins among options and make two defensible answers.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "prompt": "In Disney's animated The Little Mermaid (1989), what does Ariel give Ursula in exchange for becoming human?",
+        "answers": [
+          "Her voice",
+          "Her crown",
+          "Her memories",
+          "Her hair"
+        ],
+        "sourceURL": "https://disneyanimation.com/films/the-little-mermaid/",
+        "rationale": "Ariel trades her voice as part of Ursula's bargain. Her fins are transformed, not one of the offered payment options; replaces sea-witch identity already covered in Cartoons."
+      }
+    },
+    {
+      "row": 34,
+      "action": "keep",
+      "prompt": "What is the name of the heroine in Disney's animated Beauty and the Beast (1991)?",
+      "note": "Belle is heroine of the 1991 animation. Jasmine, Aurora, Ariel belong to other stories. Disney film page introduces Belle as central heroine; specify animation and year to delimit version.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review."
+    },
+    {
+      "row": 35,
+      "action": "edit",
+      "prompt": "In Disney's animated Beauty and the Beast (1991), what enchanted object is Mrs Potts?",
+      "note": "Mrs Potts becomes a teapot; clock, candlestick and wardrobe are different characters. D23 compares animated/live-action enchanted objects and explicitly states 1991 teapot. Keep Mrs without unnecessary American full stop consistently.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://d23.com/then-and-now-the-enchanting-cast-of-magical-objects-in-beauty-and-the-beast/"
+      }
+    },
+    {
+      "row": 36,
+      "action": "edit",
+      "prompt": "In Disney's animated Beauty and the Beast (1991), Lumiere takes the form of what object?",
+      "note": "Lumière becomes branched candle holder, precisely a candelabrum. Clock/teapot/mirror wrong. D23 explicit candelabra description checked; singular candelabrum and name accent corrected instead of imprecise plain candlestick.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "prompt": "In Disney's animated Beauty and the Beast (1991), Lumière takes the form of what object?",
+        "answers": [
+          "A candelabrum",
+          "A clock",
+          "A teapot",
+          "A mirror"
+        ],
+        "sourceURL": "https://d23.com/then-and-now-the-enchanting-cast-of-magical-objects-in-beauty-and-the-beast/",
+        "rationale": "Lumière is a branched candle holder, a candelabrum. Use precise singular rather than imprecise candlestick; other castle objects are different characters."
+      }
+    },
+    {
+      "row": 37,
+      "action": "edit",
+      "prompt": "In Disney's animated Mulan (1998), Mulan joins the army disguised as whom?",
+      "note": "Mulan impersonates male soldier Ping to replace father. Princess/merchant's wife/foreign queen wrong. Disney synopsis explicit; revise disguised as whom answer a man to natural disguised as what answer a male soldier.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "prompt": "In Disney's animated Mulan (1998), Mulan disguises herself as what to take her father's place?",
+        "answers": [
+          "A male soldier",
+          "A royal princess",
+          "A merchant's wife",
+          "A foreign queen"
+        ]
+      }
+    },
+    {
+      "row": 38,
+      "action": "keep",
+      "prompt": "In Disney's animated Mulan (1998), what kind of creature is Mushu?",
+      "note": "Mushu is a dragon, not phoenix, tiger or crane. Disney synopsis identifies guardian dragon. Original animation/year qualifier prevents confusing remake's phoenix with Mushu.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review."
+    },
+    {
+      "row": 39,
+      "action": "edit",
+      "prompt": "In Disney's animated Cinderella (1950), what are Cinderella's famous slippers made of?",
+      "note": "Glass slippers, not gold/silver/silk. D23 Cinderella synopsis explicitly gives glass slipper. Film/year qualifier avoids footwear differences in other folk-tale versions.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://d23.com/a-to-z/cinderella-film/"
+      }
+    },
+    {
+      "row": 40,
+      "action": "keep",
+      "prompt": "In Disney's Snow White and the Seven Dwarfs (1937), which poisoned fruit does the Queen offer Snow White?",
+      "note": "Queen offers apple, not pear, peach or plum. Disney synopsis explicitly describes enchanted apple; poisoned fruit wording accurate in film. Existing bank asks Queen's misleading wishing-apple label, a distinct target rather than same question.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review."
+    },
+    {
+      "row": 41,
+      "action": "edit",
+      "prompt": "In the Shrek films, what kind of creature is Shrek?",
+      "note": "Shrek is an ogre, not troll, giant or goblin. DreamWorks page lacked explicit species, so use Universal's synopsis identifying ogre. No speculative biological definition of fictional species.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.universalpicturesathome.com/movies/shrek"
+      }
+    },
+    {
+      "row": 42,
+      "action": "keep",
+      "prompt": "Who voices Donkey in the original English-language Shrek (2001)?",
+      "note": "Eddie Murphy voices Donkey in original English Shrek. Myers Shrek, Lithgow Farquaad, Banderas later Puss do not answer. DreamWorks synopsis explicitly pairs actor/role; English qualification excludes translated casts.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review."
+    },
+    {
+      "row": 43,
+      "action": "edit",
+      "prompt": "What is the name of the panda hero in Kung Fu Panda (2008)?",
+      "note": "Po is panda hero; Shifu, Tai Lung, Oogway other characters. DreamWorks URL now presents fourth film, and guessed original-film path404s. Frame question around film series, which current official synopsis explicitly identifies as Po's continuing adventures; do not pretend unavailable original-specific page was inspected.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "prompt": "What is the name of the panda hero of the Kung Fu Panda films?",
+        "sourceURL": "https://www.dreamworks.com/movies/kung-fu-panda"
+      }
+    },
+    {
+      "row": 44,
+      "action": "keep",
+      "prompt": "What is the name of Hiccup's dragon in How to Train Your Dragon (2010)?",
+      "note": "Toothless is Hiccup's dragon, other named dragons belong to other riders. DreamWorks 2010 synopsis explicitly pairs Hiccup and Toothless. Year avoids live-action remake ambiguity.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review."
+    },
+    {
+      "row": 45,
+      "action": "edit",
+      "prompt": "In Madagascar (2005), what kind of animal is Alex?",
+      "note": "Alex is lion, not tiger/zebra/giraffe. Authorised Madagascar reader character sheet explicitly labels Alex the lion. Original generic film synopsis alone did not establish species; citation made precise. Matching-game PDF retrieved but not used as text evidence of labels.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://d3ddkgxe55ca6c.cloudfront.net/assets/a/fc/31/madagascar1-spread-844944.pdf"
+      }
+    },
+    {
+      "row": 46,
+      "action": "edit",
+      "prompt": "In Madagascar (2005), what kind of animal is Melman?",
+      "note": "Melman is giraffe, not hippo/zebra/lion. Authorised Madagascar reader explicitly identifies Melman the giraffe. Name rather than actor question supplies accessible film knowledge.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://d3ddkgxe55ca6c.cloudfront.net/assets/a/fc/31/madagascar1-spread-844944.pdf"
+      }
+    },
+    {
+      "row": 47,
+      "action": "edit",
+      "prompt": "In Madagascar (2005), what kind of animal is Marty?",
+      "note": "Marty is zebra, not giraffe/lion/hippo. Authorised Madagascar reader character spread inspected. These three test different friends; none duplicates earlier bank facts or one another's target.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://d3ddkgxe55ca6c.cloudfront.net/assets/a/fc/31/madagascar1-spread-844944.pdf"
+      }
+    },
+    {
+      "row": 48,
+      "action": "edit",
+      "prompt": "Which DreamWorks film features the characters Poppy and Branch?",
+      "note": "Poppy and Branch belong to Trolls. Shrek/Croods/Boss Baby feature other protagonists. Official franchise page identifies characters; use that rather than generic first-film synopsis omitting their names.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.dreamworks.com/trolls"
+      }
+    },
+    {
+      "row": 49,
+      "action": "edit",
+      "prompt": "The Croods (2013) follows a family living in which kind of setting?",
+      "note": "Croods family lives in fictional prehistoric world, not future station/modern office/medieval court. Natural History Museum/Universal partnership describes prehistoric Croods characters. No false claim fantasy creatures portray one scientifically accurate geological age.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://nhm.org/press/universal-pictures-home-entertainment-launches-nationwide-camp-croods-partnership-la-brea-tar"
+      }
+    },
+    {
+      "row": 50,
+      "action": "edit",
+      "prompt": "What colour is Megamind's skin in the animated film Megamind (2010)?",
+      "note": "Replace colour item with credited voice: Will Ferrell as Megamind, Pitt Metro Man, Hill rival, Stiller not character. DreamWorks synopsis explicitly pairs roles. Original English/version/year delimit alternate dubbing and later TV cast.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "prompt": "Who voices Megamind in the original English-language Megamind (2010)?",
+        "answers": [
+          "Will Ferrell",
+          "Brad Pitt",
+          "Jonah Hill",
+          "Ben Stiller"
+        ],
+        "rationale": "DreamWorks explicitly credits Ferrell as Megamind; Pitt is Metro Man, Hill Hal. Replace colour question to rely on an explicit cast credit, rather than an uninspected illustration."
+      }
+    },
+    {
+      "row": 51,
+      "action": "keep",
+      "prompt": "Which 1993 film features a theme park stocked with cloned dinosaurs?",
+      "note": "Jurassic Park is the 1993 cloned-dinosaur park film. Jaws shark, E.T. alien, Raiders archaeology wrong. Universal synopsis describes revived dinosaurs and theme park; familiar premise rather than obscure production detail.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review."
+    },
+    {
+      "row": 52,
+      "action": "edit",
+      "prompt": "Who directed Jaws, E.T. the Extra-Terrestrial and Jurassic Park?",
+      "note": "Spielberg-director item duplicated earlier E.T. fact, so replace with Amity community in Jaws. Universal synopsis directly names Amity. Gotham, Hill Valley and Springfield are different fictional communities; existing filming-location Martha's Vineyard fact distinct.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "prompt": "In Jaws (1975), which seaside community is threatened by the shark?",
+        "answers": [
+          "Amity",
+          "Gotham City",
+          "Hill Valley",
+          "Springfield"
+        ],
+        "sourceURL": "https://www.universalpicturesathome.com/movies/jaws",
+        "rationale": "Universal identifies Amity as the attacked community. Other fictional towns are unrelated; replaces Spielberg director fact already present."
+      }
+    },
+    {
+      "row": 53,
+      "action": "edit",
+      "prompt": "In E.T. the Extra-Terrestrial (1982), what kind of being is E.T.?",
+      "note": "Replace being-an-alien giveaway in Extra-Terrestrial title. Elliott is boy befriending E.T., not Kevin/Marty/Charlie. Universal synopsis explicitly names Elliott; existing deleted-principal casting question does not ask boy's name.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "prompt": "What is the first name of the boy who befriends E.T. in E.T. the Extra-Terrestrial (1982)?",
+        "answers": [
+          "Elliott",
+          "Kevin",
+          "Marty",
+          "Charlie"
+        ],
+        "rationale": "Elliott befriends E.T.; other offered boy names are not his. Replace alien question made trivial by Extra-Terrestrial in title."
+      }
+    },
+    {
+      "row": 54,
+      "action": "edit",
+      "prompt": "Which car model is turned into a time machine in Back to the Future (1985)?",
+      "note": "Replace DeLorean maker fact already in Vehicles. Time travel requires 88 mph, not 55/100/120. Official Back to Future news explicitly uses 88 miles per hour; same units in each answer. Speed necessary, not claimed alone sufficient without working time circuits/power.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "prompt": "In Back to the Future (1985), what speed must the DeLorean reach to travel through time?",
+        "answers": [
+          "88 miles per hour",
+          "55 miles per hour",
+          "100 miles per hour",
+          "120 miles per hour"
+        ],
+        "sourceURL": "https://www.backtothefuture.com/news",
+        "rationale": "The required speed is 88 mph. Correct explicit units across choices and replaces car-maker fact already in Vehicles."
+      }
+    },
+    {
+      "row": 55,
+      "action": "keep",
+      "prompt": "Who plays Peter Venkman in Ghostbusters (1984)?",
+      "note": "Bill Murray plays Peter Venkman. Aykroyd Ray, Ramis Egon, Hudson Winston. Sony Ghostbusters synopsis explicitly pairs all four roles; original 1984 scope excludes remake characters.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review."
+    },
+    {
+      "row": 56,
+      "action": "edit",
+      "prompt": "In The Wizard of Oz (1939), what does the Tin Man hope to receive?",
+      "note": "Tin Man hopes for heart, not Scarecrow's brain, Lion's courage or wand. AFI synopsis describes requests. Hopes to receive avoids inaccurate claim Wizard literally provides a biological organ rather than testimonial/token.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://catalog.afi.com/Film/7892-THE-WIZARD-OF-OZ"
+      }
+    },
+    {
+      "row": 57,
+      "action": "edit",
+      "prompt": "In The Wizard of Oz (1939), what does the Scarecrow hope to receive?",
+      "note": "Scarecrow seeks brain, not heart/courage/crown. AFI synopsis checked alongside Tin Man. Request, not literal proof he lacks reasoning; film deliberately shows existing intelligence.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://catalog.afi.com/Film/7892-THE-WIZARD-OF-OZ"
+      }
+    },
+    {
+      "row": 58,
+      "action": "edit",
+      "prompt": "In The Wizard of Oz (1939), what does the Cowardly Lion hope to gain?",
+      "note": "Replace courage giveaway from Cowardly Lion. Yellow Brick Road leads towards Emerald City, not Kansas City/Camelot/Narnia. AFI explicit Glinda directions inspected. Towards allows adventures and interruptions on journey.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "prompt": "In The Wizard of Oz (1939), Dorothy follows the Yellow Brick Road towards which city?",
+        "answers": [
+          "The Emerald City",
+          "Kansas City",
+          "Camelot",
+          "Narnia"
+        ],
+        "sourceURL": "https://catalog.afi.com/Film/7892-THE-WIZARD-OF-OZ",
+        "rationale": "Glinda directs Dorothy along the road to the Emerald City. Kansas City is not that destination; Camelot and Narnia belong to other settings. Replaces courage question cued by Cowardly Lion."
+      }
+    },
+    {
+      "row": 59,
+      "action": "edit",
+      "prompt": "What is the name of Dorothy's dog in The Wizard of Oz (1939)?",
+      "note": "Dorothy's dog is Toto. Lassie/Snoopy/Pluto other fictional dogs. AFI opening identifies little dog Toto. Existing Dorothy Gale surname item targets different fact.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://catalog.afi.com/Film/7892-THE-WIZARD-OF-OZ"
+      }
+    },
+    {
+      "row": 60,
+      "action": "keep",
+      "prompt": "What job does Mary Poppins do in the 1964 Disney film?",
+      "note": "Mary Poppins is nanny, not police officer/doctor/headteacher. Disney synopsis explicitly calls nanny. Specify 1964 film; no need exact employment-contract claim.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review."
+    },
+    {
+      "row": 61,
+      "action": "edit",
+      "prompt": "Who plays Kevin McCallister in Home Alone (1990)?",
+      "note": "Macaulay Culkin plays Kevin, not Wood/Radcliffe/Osment. AFI cast and character pairing checked. Home Alone 1990 excludes recasting in later sequels.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://catalog.afi.com/Film/58544-HOME-ALONE"
+      }
+    },
+    {
+      "row": 62,
+      "action": "edit",
+      "prompt": "In Home Alone (1990), Kevin's family flies to which city for Christmas?",
+      "note": "McCallisters fly to Paris; Rome/Madrid/Berlin wrong. AFI synopsis says family gathering for Paris trip, later telephone call from Paris confirms. Original-film qualifier avoids New York sequel.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://catalog.afi.com/Film/58544-HOME-ALONE"
+      }
+    },
+    {
+      "row": 63,
+      "action": "edit",
+      "prompt": "Who plays Jack Dawson in Titanic (1997)?",
+      "note": "Leonardo DiCaprio plays Jack Dawson, not Pitt/Damon/Depp. Paramount film page explicitly pairs DiCaprio and Jack. Direct request blocked but indexed studio page inspected; replace obsolete 20th Century URL that returned404.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.paramountpictures.com/movies/titanic"
+      }
+    },
+    {
+      "row": 64,
+      "action": "keep",
+      "prompt": "What is Indiana Jones's profession?",
+      "note": "Indiana Jones is archaeologist, not astronaut/marine biologist/journalist. Lucasfilm Raiders synopsis explicitly identifies profession. Does not claim all his adventures are scientifically realistic archaeology.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review."
+    },
+    {
+      "row": 65,
+      "action": "edit",
+      "prompt": "What is James Bond's agent number?",
+      "note": "Bond is famously agent007;001/008/009 not his familiar number. Reword to famously known by because Nomi uses007 after Bond retires in No Time to Die. Official franchise homepage supports identification without insisting number is exclusive forever.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "prompt": "What agent number is James Bond famously known by?",
+        "sourceURL": "https://www.007.com/"
+      }
+    },
+    {
+      "row": 66,
+      "action": "edit",
+      "prompt": "In Rocky (1976), Rocky Balboa competes in which sport?",
+      "note": "Rocky Balboa boxes, not wrestling/judo/fencing. AFI 100 Cheers Rocky synopsis explicitly boxer. Original film year and exact character avoid ambiguous Rocky nickname in other sports.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.afi.com/afis-100-years-100-cheers/"
+      }
+    },
+    {
+      "row": 67,
+      "action": "edit",
+      "prompt": "In The Matrix (1999), which coloured pill does Neo choose to learn the truth?",
+      "note": "Neo chooses red pill;blue offered alternative,green/yellow not choices. AFI Matrix synopsis confirms which reveals truth. Question asks colour rather than whether later pill analogies are medical facts.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://catalog.afi.com/Film/61230-THE-MATRIX"
+      }
+    },
+    {
+      "row": 68,
+      "action": "edit",
+      "prompt": "Who plays Stanley Ipkiss in The Mask (1994)?",
+      "note": "Jim Carrey plays Stanley Ipkiss, not Williams/Sandler/Stiller. AFI Silver synopsis explicitly pairs role and actor. Replace Warner landing page containing no relevant cast information.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://silver.afi.com/movies/detail/0100004557/"
+      }
+    },
+    {
+      "row": 69,
+      "action": "keep",
+      "prompt": "Who plays Captain Jack Sparrow in Pirates of the Caribbean: The Curse of the Black Pearl (2003)?",
+      "note": "Johnny Depp plays Jack Sparrow. Bloom Will,Rush Barbossa,Bardem later Salazar. Disney/D23 original-film cast reference checked; precise original title and year avoid generic all-franchise actor query.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review."
+    },
+    {
+      "row": 70,
+      "action": "edit",
+      "prompt": "Who plays the title character in Forrest Gump (1994)?",
+      "note": "Exact duplicate Forrest casting question replaced. US China visit is table tennis, not badminton/fencing/wrestling. AFI synopsis supports US team visit. Specify trip because Forrest also succeeds in football and running; neither is an alternative here.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "prompt": "In Forrest Gump (1994), Forrest represents the United States in China in which sport?",
+        "answers": [
+          "Table tennis",
+          "Badminton",
+          "Fencing",
+          "Wrestling"
+        ],
+        "sourceURL": "https://catalog.afi.com/Film/55201-FORREST-GUMP",
+        "rationale": "Forrest joins the US table-tennis team and visits China. Other sports do not describe that trip; excludes his separate American football and running achievements. Replaces exact duplicate Tom Hanks casting question."
+      }
+    },
+    {
+      "row": 71,
+      "action": "keep",
+      "prompt": "What is the name of the school Harry attends in the Harry Potter films?",
+      "note": "Harry attends Hogwarts, not Durmstrang/Beauxbatons/Ilvermorny. Official Hogwarts description identifies his school/home. Other schools real within fictional world but not Harry's school.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review."
+    },
+    {
+      "row": 72,
+      "action": "edit",
+      "prompt": "What shape is Harry Potter's scar in the films?",
+      "note": "Scar lightning bolt, not crescent/star/triangle. Initial Harry fact file omitted scar; official feature specifically describes thin lightning bolt. Change source instead of claiming generic character bio established visual detail.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.harrypotter.com/features/web-harrys-relationship-with-scar"
+      }
+    },
+    {
+      "row": 73,
+      "action": "edit",
+      "prompt": "What is the name of Harry Potter's owl in the films?",
+      "note": "Hedwig is Harry's owl; Errol/Pigwidgeon other owls, Fawkes phoenix. Official Hedwig biography explicitly gift/companion. Source changed to dedicated bird entry rather than incomplete Harry biography.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.harrypotter.com/fact-file/characters-and-pets/hedwig"
+      }
+    },
+    {
+      "row": 74,
+      "action": "edit",
+      "prompt": "What is Ron's surname in the Harry Potter films?",
+      "note": "Replace Ron surname already inferable from existing full-name question. Rupert Grint plays Ron in original eight films; Radcliffe Harry,Felton Draco,Lewis Neville. Official cast feature checked, original-eight qualifier excludes new television or stage casting.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "prompt": "Who plays Ron Weasley in the eight original Harry Potter films?",
+        "answers": [
+          "Rupert Grint",
+          "Daniel Radcliffe",
+          "Tom Felton",
+          "Matthew Lewis"
+        ],
+        "sourceURL": "https://www.harrypotter.com/features/actors-of-the-wizarding-world-part-one-the-stars-that-rose",
+        "rationale": "Grint plays Ron; Radcliffe Harry, Felton Draco, Lewis Neville. Replaces surname partly duplicated by existing full-name question."
+      }
+    },
+    {
+      "row": 75,
+      "action": "edit",
+      "prompt": "Who plays Hermione Granger in the Harry Potter films?",
+      "note": "Emma Watson plays Hermione, not Roberts/Ronan/Fanning. Official actors feature explicitly associates Watson and Hermione. Original eight films qualifier protects against future television actor changes.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "prompt": "Who plays Hermione Granger in the eight original Harry Potter films?",
+        "sourceURL": "https://www.harrypotter.com/features/actors-of-the-wizarding-world-part-one-the-stars-that-rose"
+      }
+    },
+    {
+      "row": 76,
+      "action": "edit",
+      "prompt": "Who is Hogwarts's headmaster in Harry Potter and the Philosopher's Stone (2001)?",
+      "note": "First-year Dumbledore headmaster was already in Family Trivia. Replace with adult Snape actor Alan Rickman. Oldman Sirius,Fiennes Voldemort,Gambon Dumbledore wrong. Adult and original-eight delimit flashback and television recast possibilities.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "prompt": "Who plays the adult Severus Snape in the eight original Harry Potter films?",
+        "answers": [
+          "Alan Rickman",
+          "Gary Oldman",
+          "Ralph Fiennes",
+          "Michael Gambon"
+        ],
+        "sourceURL": "https://www.harrypotter.com/features/actors-of-the-wizarding-world-part-three-the-household-names",
+        "rationale": "Rickman plays adult Snape; others Sirius, Voldemort, later Dumbledore. Adult qualifier excludes actors in childhood flashbacks. Replaces first-year headmaster fact already in Family Trivia."
+      }
+    },
+    {
+      "row": 77,
+      "action": "edit",
+      "prompt": "Which magical item assigns new Hogwarts pupils to houses in the Harry Potter films?",
+      "note": "Sorting Hat assigns houses. Goblet selects tournament champions,map locates people,cloak conceals. Official object entry/ceremony reference identifies function. Wrong guessed magical-miscellany URL404 corrected to objects path.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.harrypotter.com/fact-file/objects/the-sorting-hat"
+      }
+    },
+    {
+      "row": 78,
+      "action": "edit",
+      "prompt": "In the Harry Potter films, what do Quidditch players usually ride?",
+      "note": "Quidditch players ride broomsticks, not dragons/carpets/eagles. Official Quidditch fact file explicitly says broomsticks. Usually allows disrupted/unusual moments without forcing every player permanently on a broom.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.harrypotter.com/fact-file/magical-miscellany/quidditch"
+      }
+    },
+    {
+      "row": 79,
+      "action": "keep",
+      "prompt": "In the Harry Potter films, Hagrid is half human and half what?",
+      "note": "Hagrid half human/half giant, not goblin/elf/centaur. Official character description explicitly half-man half-giant. No claim fictional ancestry is a real human taxonomy.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review."
+    },
+    {
+      "row": 80,
+      "action": "keep",
+      "prompt": "What kind of magical creature is Dobby in the Harry Potter films?",
+      "note": "Dobby is house-elf, not goblin/troll/centaur. Official Dobby fact file explicitly identifies him. Hyphen and article a house-elf correct; different from existing question asking which elf warned Harry.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review."
+    },
+    {
+      "row": 81,
+      "action": "edit",
+      "prompt": "In The Empire Strikes Back (1980), Darth Vader reveals that he is whose father?",
+      "note": "Vader paternity repeated existing reveal quote, so replace with Leia actor. Carrie Fisher plays Leia original trilogy; Portman Padmé,Ridley Rey,Jones Jyn. Official Lucasfilm memorial explicitly identifies casting; original trilogy avoids later digital/newer interpretations.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "prompt": "Who plays Princess Leia in the original Star Wars film trilogy?",
+        "answers": [
+          "Carrie Fisher",
+          "Natalie Portman",
+          "Daisy Ridley",
+          "Felicity Jones"
+        ],
+        "sourceURL": "https://www.starwars.com/news/carrie-fisher-our-princess-passes-away",
+        "rationale": "Fisher plays Leia; others Padmé, Rey, Jyn. Replaces Vader paternity fact already tested by existing reveal quotation."
+      }
+    },
+    {
+      "row": 82,
+      "action": "keep",
+      "prompt": "What is the glowing-bladed weapon used by Jedi in the Star Wars films called?",
+      "note": "Jedi glowing blade weapon is lightsaber. Blaster projectile-energy gun,vibro-axe and bowcaster other weapons. Official Databank identifies energy blade; no claim only Jedi can ever use one.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review."
+    },
+    {
+      "row": 83,
+      "action": "keep",
+      "prompt": "Which Jedi Master trains Luke Skywalker on Dagobah in The Empire Strikes Back?",
+      "note": "Yoda trains Luke on Dagobah. Windu,Qui-Gon,Dooku are not that trainer. Official Yoda history supports Luke's training/exile; specific planet/film excludes Luke's earlier lessons with Obi-Wan.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review."
+    },
+    {
+      "row": 84,
+      "action": "keep",
+      "prompt": "What species is Chewbacca in the Star Wars films?",
+      "note": "Chewbacca is Wookiee, not Ewok/Hutt/Gungan. Official Databank opening explicit. Double-e Wookiee spelling correct and no human ethnic analogy.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review."
+    },
+    {
+      "row": 85,
+      "action": "keep",
+      "prompt": "In Star Wars, what kind of character is R2-D2?",
+      "note": "R2-D2 is an astromech droid, not Wookiee/Jedi/Sith. Official Databank opening explicit. Character type rather than claim about Force sensitivity of every possible droid.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review."
+    },
+    {
+      "row": 86,
+      "action": "keep",
+      "prompt": "What is the name of Han Solo's famous ship in the original Star Wars trilogy?",
+      "note": "Han's ship is Millennium Falcon, not Star Destroyer/Razor Crest/Ghost. Official Databank explicitly links Falcon owners Han/Chewbacca. Famous ship qualifier rather than claim he only ever pilots one craft.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review."
+    },
+    {
+      "row": 87,
+      "action": "keep",
+      "prompt": "What is the Death Star in Star Wars: A New Hope?",
+      "note": "Death Star is space/battle station, not natural moon/planet/lightsaber. Databank explicitly moon-sized space station. Natural modifier prevents moon-sized nickname becoming second correct answer.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review."
+    },
+    {
+      "row": 88,
+      "action": "keep",
+      "prompt": "Which Star Wars character is Luke Skywalker's twin sister?",
+      "note": "Leia is Luke's twin. Padmé mother,Rey/Ahsoka unrelated offered characters. Official Leia history identifies twins Luke and Leia; no adoptive-parent confusion.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review."
+    },
+    {
+      "row": 89,
+      "action": "edit",
+      "prompt": "What was Darth Vader's name before he became a Sith Lord?",
+      "note": "Vader birth name exact duplicate removed. Obi-Wan adopts name Ben on Tatooine;Han/Luke/Bail different people. Official biography-gallery indexed caption inspected, while direct text extraction misses image captions; do not equate missing text with corroboration.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "prompt": "In Star Wars: A New Hope (1977), Obi-Wan Kenobi is also known by which first name?",
+        "answers": [
+          "Ben",
+          "Han",
+          "Luke",
+          "Bail"
+        ],
+        "sourceURL": "https://www.starwars.com/databank/obi-wan-kenobi-biography-gallery",
+        "rationale": "Obi-Wan uses the alias Ben Kenobi on Tatooine. Other names are different characters. Replaces duplicate Darth Vader birth-name fact."
+      }
+    },
+    {
+      "row": 90,
+      "action": "keep",
+      "prompt": "On which desert planet does Luke Skywalker grow up?",
+      "note": "Luke grows up on Tatooine, not Naboo/Coruscant/Hoth. Databank identifies both Skywalkers calling it home; Luke history qualifies upbringing. Existing Anakin upbringing question concerns different person, but no birthplace claim about Luke.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review."
+    },
+    {
+      "row": 91,
+      "action": "edit",
+      "prompt": "Cinematography mainly concerns which aspect of filmmaking?",
+      "note": "Cinematography camera/visual photography, not screenplay/soundtrack/costumes. Cambridge definition explicitly film photography. Replace snack/ticket/lyrics distractors with real production departments; unique answer still easy.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "answers": [
+          "Camera work and visual photography",
+          "Writing the screenplay",
+          "Editing the soundtrack",
+          "Designing the costumes"
+        ]
+      }
+    },
+    {
+      "row": 92,
+      "action": "edit",
+      "prompt": "What is a storyboard used for when planning a film?",
+      "note": "Storyboard drawings plan shot/event sequence. Cast list/audio recording/ticket sales not storyboard. Cambridge definition checked. Replace shoe-cleaning/catering distractors with credible production artefacts.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "answers": [
+          "Showing planned shots as a sequence of drawings",
+          "Listing the cast in billing order",
+          "Recording the dialogue as sound",
+          "Calculating the cinema ticket sales"
+        ]
+      }
+    },
+    {
+      "row": 93,
+      "action": "edit",
+      "prompt": "What is a clapperboard's clap especially useful for in filmmaking?",
+      "note": "Original clap synchronisation statement exceeded retrieved dictionary definition. Revise to identify hinged snapped device as clapperboard; teleprompter,boom microphone,light meter distinct. Cambridge describes two board parts hit together; no unsupported precise mechanism asserted.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "prompt": "What is the hinged device snapped shut at the start of a film take called?",
+        "answers": [
+          "A clapperboard",
+          "A teleprompter",
+          "A boom microphone",
+          "A light meter"
+        ],
+        "rationale": "The hinged board is a clapperboard; the other filmmaking tools prompt dialogue, capture sound and measure light. Revised to the directly verified dictionary definition rather than asserting unverified technical synchronisation detail."
+      }
+    },
+    {
+      "row": 94,
+      "action": "edit",
+      "prompt": "What does a close-up shot usually show?",
+      "note": "Close-up frames subject/detail prominently, not wide landscape/aerial buildings/crowd. Relevant photographic sense checked. Remove title-card choice and small-subject requirement: subject can be a face or physically large object, so its actual size is not decisive.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "answers": [
+          "A subject or detail filling much of the frame",
+          "An entire landscape seen from far away",
+          "Several complete buildings viewed from the air",
+          "A wide view of a large crowd"
+        ]
+      }
+    },
+    {
+      "row": 95,
+      "action": "edit",
+      "prompt": "In camera work, what is a pan?",
+      "note": "Use Screen Scotland/Screening Shorts camera-movement teaching definition: horizontal swivel is pan;vertical tilt,physical dolly movement,lens focal-length change distinct. Cambridge uses pan more broadly including up/down, so replace with explicit filmmaking source rather than ignoring discrepancy.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://screeningshorts.org.uk/teaching-activities/camera-movements/",
+        "answers": [
+          "Turning the camera horizontally from a fixed position",
+          "Tilting the camera vertically from a fixed position",
+          "Moving the whole camera towards the subject",
+          "Changing the lens focal length without turning the camera"
+        ]
+      }
+    },
+    {
+      "row": 96,
+      "action": "edit",
+      "prompt": "What does zooming a camera lens do?",
+      "note": "Zoom lens changes subject's apparent frame size from fixed camera position. Actor loudness/physical speed/costume actual colour not controlled by lens focal length. Dedicated zoom-lens definition checked; bare zoom entry only cross-reference was insufficient alone.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "prompt": "What does using a zoom lens allow a filmmaker to change without moving the camera closer to the subject?",
+        "answers": [
+          "How large the subject appears in the frame",
+          "How loudly the actors speak",
+          "How quickly the actors physically move",
+          "The actual colour of the actors' costumes"
+        ],
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/zoom-lens"
+      }
+    },
+    {
+      "row": 97,
+      "action": "edit",
+      "prompt": "A traditional silent film typically lacks what?",
+      "note": "Silent-film distinction is lack of synchronised recorded spoken dialogue, not absence of action/story/live music. Trinity Cambridge educational description explicitly explains music-only soundtracks and spoken dialogue transition. Retain typically and traditional for historical edge cases/part-talkies.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://lib-filmcollection.trin.cam.ac.uk/spotlight/silent-film/",
+        "answers": [
+          "Recorded spoken dialogue synchronised with the picture",
+          "Visible action on the screen",
+          "A story told through images",
+          "Musical accompaniment during a screening"
+        ]
+      }
+    },
+    {
+      "row": 98,
+      "action": "edit",
+      "prompt": "What are subtitles in a film?",
+      "note": "Film subtitles are written dialogue/translation on screen, not production-company opening logos,lens settings,script directions. Relevant Cambridge film sense inspected, distinct from a book's subtitle. Replace cinema-seat/music distractors with visual-production terms.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "answers": [
+          "Written words on screen representing dialogue",
+          "The list of production companies before the story",
+          "The settings displayed on a camera lens",
+          "Directions for the actors printed in a script"
+        ]
+      }
+    },
+    {
+      "row": 99,
+      "action": "edit",
+      "prompt": "How is stop-motion animation made?",
+      "note": "Stop-motion repositions objects between photographed frames. Continuous live action,voice prerecording,continuous camera move not defining technique. Cambridge definition explicit; remove silly no-images/entire-one-photo options, do not require all stop-motion be clay.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "answers": [
+          "Moving objects slightly between photographed frames",
+          "Filming live actors continuously at normal speed",
+          "Recording actors' dialogue before drawing backgrounds",
+          "Moving the camera continuously during one live-action take"
+        ]
+      }
+    },
+    {
+      "row": 100,
+      "action": "edit",
+      "prompt": "What does a voice actor mainly provide for an animated film?",
+      "note": "Animated character voice actor supplies spoken performance. Backgrounds,camera movement,scene editing other roles. Cambridge specifically includes character in animated film. Mainly allows actors occasionally holding other credits without making them additional correct job definitions.",
+      "sourceReview": "Explicit author second pass of this question, all four options, sole correct answer, grammar, Film relevance and cited reference context. Not independent review.",
+      "recommendedChanges": {
+        "answers": [
+          "A character's spoken performance",
+          "The design of the backgrounds",
+          "The movement of the camera",
+          "The editing of the finished scenes"
+        ]
+      }
+    }
+  ]
+}

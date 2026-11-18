@@ -1,0 +1,829 @@
+{
+  "date": "2026-11-18",
+  "note": "Retrieval is not editorial approval. Private copyrighted reference text is not republished. Indexed/caption inspection is distinguished from successful full-text retrieval. Individual decisions document corrections and option review.",
+  "references": [
+    {
+      "url": "https://catalog.afi.com/Film/55201-FORREST-GUMP",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inspectionMethod": "AFI web synopsis2585-2587: ping-pong championship in China and US team. Direct403 retained.",
+      "questionRows": [
+        70
+      ]
+    },
+    {
+      "url": "https://catalog.afi.com/Film/58544-HOME-ALONE",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inspectionMethod": "AFI web cast and synopsis inspected, including Christmas Paris trip at1303. Direct403 retained.",
+      "questionRows": [
+        61,
+        62
+      ]
+    },
+    {
+      "url": "https://catalog.afi.com/Film/61230-THE-MATRIX",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inspectionMethod": "AFI indexed synopsis explicitly pairs red pill with learning truth, blue with ordinary life. Supplemented by official Warner Bros red/blue scene reference; direct403 retained.",
+      "questionRows": [
+        67
+      ]
+    },
+    {
+      "url": "https://catalog.afi.com/Film/7892-THE-WIZARD-OF-OZ",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inspectionMethod": "AFI web synopsis inspected at1880-1894: Toto, Yellow Brick Road/Emerald City and companions requests. Direct403 retained.",
+      "questionRows": [
+        56,
+        57,
+        58,
+        59
+      ]
+    },
+    {
+      "url": "https://d23.com/a-to-z/aladdin-film/",
+      "resolvedURL": "https://d23.com/a-to-z/aladdin-film/",
+      "status": "retrieved_for_inspection",
+      "sha256": "ab75db944aff695ac1d0621ece0d8cb6563e88da0a8fc6228606513b9bbc4e7d",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "url": "https://d23.com/a-to-z/cinderella-film/",
+      "resolvedURL": "https://d23.com/a-to-z/cinderella-film/",
+      "status": "retrieved_for_inspection",
+      "sha256": "90cea0b035e320f856907689d81f26229d9df294d57d9714b8fbc7dfe45f1307",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        39
+      ]
+    },
+    {
+      "url": "https://d23.com/a-to-z/pumbaa/",
+      "status": "web_inspected_no_direct_cache",
+      "inspectionMethod": "D23 entry opened in web tool, explicit Pumbaa warthog description inspected; no direct-cache retrieval claimed.",
+      "questionRows": [
+        24
+      ]
+    },
+    {
+      "url": "https://d23.com/then-and-now-the-enchanting-cast-of-magical-objects-in-beauty-and-the-beast/",
+      "resolvedURL": "https://d23.com/then-and-now-the-enchanting-cast-of-magical-objects-in-beauty-and-the-beast/",
+      "status": "retrieved_for_inspection",
+      "sha256": "e7c687fea4175cdaca16186b09c6f96ea4f121e192d004aac637a01e4daf9f18",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        35,
+        36
+      ]
+    },
+    {
+      "url": "https://d23.com/this-day/the-lion-kings-timon-and-pumbaa-debuts-in-syndication/",
+      "resolvedURL": "https://d23.com/this-day/the-lion-kings-timon-and-pumbaa-debuts-in-syndication/",
+      "status": "retrieved_for_inspection",
+      "sha256": "2be0874ce985d1a53369259c0f795366143abbe0713f6290b54ac60ee4511c9a",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        23
+      ]
+    },
+    {
+      "url": "https://d3ddkgxe55ca6c.cloudfront.net/assets/a/fc/31/madagascar1-spread-844944.pdf",
+      "resolvedURL": "https://d3ddkgxe55ca6c.cloudfront.net/assets/a/fc/31/madagascar1-spread-844944.pdf",
+      "status": "retrieved_for_inspection",
+      "sha256": "34de4d9ad2b2aedff921460426b5aef1f6f7d18a508f0a0ecbf335dd4a3b5594",
+      "pages": 1,
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/cinematography",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/cinematography",
+      "status": "retrieved_for_inspection",
+      "sha256": "62207e4ab01387bfefb1a40e5c229e316b0e8998f5dc624ef761046c7393739d",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        91
+      ]
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/clapperboard",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/clapperboard",
+      "status": "retrieved_for_inspection",
+      "sha256": "9dd4e28e51cbd914c597e57c518eaebacfb06de0abd38645217d4d21022a4388",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        93
+      ]
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/close-up",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/close-up",
+      "status": "retrieved_for_inspection",
+      "sha256": "040ff0e816fbb37b3ca43b3804840dfcd4d96c526698850585a8464a2cb9ce06",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        94
+      ]
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/stop-motion",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/stop-motion",
+      "status": "retrieved_for_inspection",
+      "sha256": "4e5bb129abe224f5fa97f9123d888dd220b8ce1cb0e9848f862dc80cdffa654c",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        99
+      ]
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/storyboard",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/storyboard",
+      "status": "retrieved_for_inspection",
+      "sha256": "f02dbd09fa729acb427b5b19a4644b53ceaf88e67637093552e1023873efdb22",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        92
+      ]
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/subtitle",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/subtitle",
+      "status": "retrieved_for_inspection",
+      "sha256": "352d1fd7d5c2c6047091c0b1d23a566162764c25c52ce6201b7f27fe02a92823",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        98
+      ]
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/voice-actor",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/voice-actor",
+      "status": "retrieved_for_inspection",
+      "sha256": "77611e11d0f755f9c92f92943599ee1d3599efd9569c94aee3f959538cadb152",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        100
+      ]
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/zoom-lens",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/zoom-lens",
+      "status": "retrieved_for_inspection",
+      "sha256": "f6262917ded312bf5f1d119356871addb54234ce4ffd8a0fc47bc3ac3a693620",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        96
+      ]
+    },
+    {
+      "url": "https://disneyanimation.com/films/the-little-mermaid/",
+      "resolvedURL": "https://disneyanimation.com/films/the-little-mermaid/",
+      "status": "retrieved_for_inspection",
+      "sha256": "04cdb59f1aba56d0c94ff260be038bd5d5eb772e07ec1415f88eda41d5a7ae14",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        33
+      ]
+    },
+    {
+      "url": "https://lib-filmcollection.trin.cam.ac.uk/spotlight/silent-film/",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inspectionMethod": "Trinity Cambridge educational indexed description inspected: music-only soundtrack instead of dialogue, transition to synchronised spoken sound. Direct403 and web-open cache-miss retained; full article retrieval not claimed.",
+      "questionRows": [
+        97
+      ]
+    },
+    {
+      "url": "https://lionking.com/familynight/",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inspectionMethod": "Official Lion King character guide indexed passage explicitly identifies Zazu as hornbill; direct request403 retained.",
+      "questionRows": [
+        22
+      ]
+    },
+    {
+      "url": "https://movies.disney.com/beauty-and-the-beast",
+      "resolvedURL": "https://movies.disney.com/beauty-and-the-beast",
+      "status": "retrieved_for_inspection",
+      "sha256": "e834d179ee7f0236e2311d78639ee6988bab09a030895f8e4e095e144eec8ed1",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        34
+      ]
+    },
+    {
+      "url": "https://movies.disney.com/frozen",
+      "resolvedURL": "https://movies.disney.com/frozen",
+      "status": "retrieved_for_inspection",
+      "sha256": "3dd5713a600ce087d7913a424925e035470bb5e6aa7d30ec00c3fee7b7841afe",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        28,
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "url": "https://movies.disney.com/mary-poppins",
+      "resolvedURL": "https://movies.disney.com/mary-poppins",
+      "status": "retrieved_for_inspection",
+      "sha256": "2a1425136511deb148e3fa5188c382bbc7425d6742fe8eef3c10be41f79e7332",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        60
+      ]
+    },
+    {
+      "url": "https://movies.disney.com/mulan",
+      "resolvedURL": "https://movies.disney.com/mulan",
+      "status": "retrieved_for_inspection",
+      "sha256": "7325909bde7e2b805a9be3f7d0a013ad8b6ce2bf57fbd6dbcab68ff2eed5ca5c",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        37,
+        38
+      ]
+    },
+    {
+      "url": "https://movies.disney.com/pirates-of-the-caribbean-the-curse-of-the-black-pearl",
+      "resolvedURL": "https://movies.disney.com/pirates-of-the-caribbean-the-curse-of-the-black-pearl",
+      "status": "retrieved_for_inspection",
+      "sha256": "de77b27f96a1604613a4707055057df6522e9f59aacd5ad46ee2e32ee300defe",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        69
+      ]
+    },
+    {
+      "url": "https://movies.disney.com/snow-white-and-the-seven-dwarfs",
+      "resolvedURL": "https://movies.disney.com/snow-white-and-the-seven-dwarfs",
+      "status": "retrieved_for_inspection",
+      "sha256": "521238652c789f373204943260d0d2ab37a9b7dc8c150b0b09c0458e4d0faedd",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        40
+      ]
+    },
+    {
+      "url": "https://movies.disney.com/the-lion-king",
+      "resolvedURL": "https://movies.disney.com/the-lion-king",
+      "status": "retrieved_for_inspection",
+      "sha256": "204604080052a2e30199412e9aa6c839f112cc4cfc7d445b47ecc79463c7226f",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        21
+      ]
+    },
+    {
+      "url": "https://movies.disney.com/the-little-mermaid",
+      "resolvedURL": "https://movies.disney.com/the-little-mermaid",
+      "status": "retrieved_for_inspection",
+      "sha256": "eedded94b4bd98d0663269913eef6ff5e94b46930ce0f3f69b7782210d6601ed",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        32
+      ]
+    },
+    {
+      "url": "https://nhm.org/press/universal-pictures-home-entertainment-launches-nationwide-camp-croods-partnership-la-brea-tar",
+      "resolvedURL": "https://nhm.org/press/universal-pictures-home-entertainment-launches-nationwide-camp-croods-partnership-la-brea-tar",
+      "status": "retrieved_for_inspection",
+      "sha256": "8c2b99a2353fdbe2f5a50e6bac7709e6a65754421d28bef28f9146507d092e83",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        49
+      ]
+    },
+    {
+      "url": "https://screeningshorts.org.uk/teaching-activities/camera-movements/",
+      "resolvedURL": "https://screeningshorts.org.uk/teaching-activities/camera-movements/",
+      "status": "retrieved_for_inspection",
+      "sha256": "0a7b3909024bf3b25d1852670076a091a5d291942d2912ca014f0ca3d22cf4ab",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        95
+      ]
+    },
+    {
+      "url": "https://silver.afi.com/movies/detail/0100004557/",
+      "resolvedURL": "https://silver.afi.com/movies/detail/0100004557/",
+      "status": "retrieved_for_inspection",
+      "sha256": "b5ce7a3a698b686d975b6a52da7327160c182d4fee6c91e65f4804893e6469af",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        68
+      ]
+    },
+    {
+      "url": "https://www.007.com/",
+      "status": "web_inspected_no_direct_cache",
+      "inspectionMethod": "Official James Bond007 brand identity inspected via web result; no readable article text returned. Used only for familiar agent number, not current casting or exclusivity.",
+      "questionRows": [
+        65
+      ]
+    },
+    {
+      "url": "https://www.afi.com/afis-100-years-100-cheers/",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inspectionMethod": "AFI indexed Rocky synopsis explicitly identifies Rocky Balboa as boxer; direct403 retained.",
+      "questionRows": [
+        66
+      ]
+    },
+    {
+      "url": "https://www.backtothefuture.com/news",
+      "resolvedURL": "https://www.backtothefuture.com/news",
+      "status": "retrieved_for_inspection",
+      "sha256": "4789f03a24a836bcec01c992f843b02de121080d5f73cdae2f877ffcb7b42225",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        54
+      ]
+    },
+    {
+      "url": "https://www.dreamworks.com/movies/how-to-train-your-dragon",
+      "resolvedURL": "https://www.dreamworks.com/movies/how-to-train-your-dragon",
+      "status": "retrieved_for_inspection",
+      "sha256": "c59cae3568ad1347cb2da6b1ee453952454a15f476165343f2568bbb2f8a536b",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        44
+      ]
+    },
+    {
+      "url": "https://www.dreamworks.com/movies/kung-fu-panda",
+      "resolvedURL": "https://www.dreamworks.com/movies/kung-fu-panda-4",
+      "status": "retrieved_for_inspection",
+      "sha256": "18163f1a07013521fb5e381a53c0c75527ef5a6d21891363bc73c75728b61552",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        43
+      ]
+    },
+    {
+      "url": "https://www.dreamworks.com/movies/megamind",
+      "resolvedURL": "https://www.dreamworks.com/movies/megamind",
+      "status": "retrieved_for_inspection",
+      "sha256": "b97248b183ecc271b8f60008e0b010e4503fc9efcb137f898a5bc9728e6153ce",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        50
+      ]
+    },
+    {
+      "url": "https://www.dreamworks.com/movies/shrek",
+      "resolvedURL": "https://www.dreamworks.com/movies/shrek",
+      "status": "retrieved_for_inspection",
+      "sha256": "01c9ee579178b8da7238194961133eeb957409981f98930728474a7a5ce4d9ad",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        42
+      ]
+    },
+    {
+      "url": "https://www.dreamworks.com/trolls",
+      "resolvedURL": "https://www.dreamworks.com/trolls",
+      "status": "retrieved_for_inspection",
+      "sha256": "24da17c3945bcb006f1da9c9fd315f3c05654f1ecf69e1b8ad61b8c936085afb",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        48
+      ]
+    },
+    {
+      "url": "https://www.harrypotter.com/fact-file/characters-and-pets/dobby",
+      "resolvedURL": "https://www.harrypotter.com/fact-file/characters-and-pets/dobby",
+      "status": "retrieved_for_inspection",
+      "sha256": "d6c5c318919f3d172c46e92bba3ad586d456175625f71dcce9eb8562ba08e92c",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        80
+      ]
+    },
+    {
+      "url": "https://www.harrypotter.com/fact-file/characters-and-pets/hedwig",
+      "resolvedURL": "https://www.harrypotter.com/fact-file/characters-and-pets/hedwig",
+      "status": "retrieved_for_inspection",
+      "sha256": "39de2c2e5838bcbb50762cb68960321c9f1bc6582b3ad4f14c3c824bc6fa2038",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        73
+      ]
+    },
+    {
+      "url": "https://www.harrypotter.com/fact-file/characters-and-pets/rubeus-hagrid",
+      "resolvedURL": "https://www.harrypotter.com/fact-file/characters-and-pets/rubeus-hagrid",
+      "status": "retrieved_for_inspection",
+      "sha256": "63afefc97f9641f167cc73164ed253c120f8b995a2f4a790a53346dba3dd638e",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        79
+      ]
+    },
+    {
+      "url": "https://www.harrypotter.com/fact-file/locations/hogwarts",
+      "resolvedURL": "https://www.harrypotter.com/fact-file/locations/hogwarts",
+      "status": "retrieved_for_inspection",
+      "sha256": "29c3afe0f883942c2f41cf005f74a85dd8d17098ed6d8db848aa6a5bdddc20a0",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        71
+      ]
+    },
+    {
+      "url": "https://www.harrypotter.com/fact-file/magical-miscellany/quidditch",
+      "resolvedURL": "https://www.harrypotter.com/fact-file/magical-miscellany/quidditch",
+      "status": "retrieved_for_inspection",
+      "sha256": "7c41f9159e7e3bfe69a64ffccf1dadfcb06609d59e1a1914ff8f937fe4a954d7",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        78
+      ]
+    },
+    {
+      "url": "https://www.harrypotter.com/fact-file/objects/the-sorting-hat",
+      "resolvedURL": "https://www.harrypotter.com/fact-file/objects/the-sorting-hat",
+      "status": "retrieved_for_inspection",
+      "sha256": "b94d3f75cc0bae4c5cf094d71f41e0fa702229c21edcb52097a9e088055974fe",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        77
+      ]
+    },
+    {
+      "url": "https://www.harrypotter.com/features/actors-of-the-wizarding-world-part-one-the-stars-that-rose",
+      "resolvedURL": "https://www.harrypotter.com/features/actors-of-the-wizarding-world-part-one-the-stars-that-rose",
+      "status": "retrieved_for_inspection",
+      "sha256": "18b14c203f86b931fef48e306822cf2ef0aad1445a60d335d7797353e4f52f76",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        74,
+        75
+      ]
+    },
+    {
+      "url": "https://www.harrypotter.com/features/actors-of-the-wizarding-world-part-three-the-household-names",
+      "resolvedURL": "https://www.harrypotter.com/features/actors-of-the-wizarding-world-part-three-the-household-names",
+      "status": "retrieved_for_inspection",
+      "sha256": "373be056aa65dd197803a41f7de0388869f04fe78cea1b96fae5e5d8da4064f3",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        76
+      ]
+    },
+    {
+      "url": "https://www.harrypotter.com/features/web-harrys-relationship-with-scar",
+      "resolvedURL": "https://www.harrypotter.com/features/web-harrys-relationship-with-scar",
+      "status": "retrieved_for_inspection",
+      "sha256": "77c2340448b4c79eb90f63a87e85d5ed6892781392900c1cdfba1bc7979fcbdb",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        72
+      ]
+    },
+    {
+      "url": "https://www.lucasfilm.com/productions/raiders-of-the-lost-ark/",
+      "resolvedURL": "https://www.lucasfilm.com/productions/raiders-of-the-lost-ark/",
+      "status": "retrieved_for_inspection",
+      "sha256": "567a9f1d3dccfb37b730eb95596cf548fba400b8a5cbaf7f7fc4bc6a3db1ecc9",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        64
+      ]
+    },
+    {
+      "url": "https://www.paramountpictures.com/movies/titanic",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inspectionMethod": "Paramount indexed film description explicitly pairs DiCaprio and Jack; direct403 retained.",
+      "questionRows": [
+        63
+      ]
+    },
+    {
+      "url": "https://www.pixar.com/brave",
+      "resolvedURL": "https://www.pixar.com/brave",
+      "status": "retrieved_for_inspection",
+      "sha256": "be755241b424bcb1f5ef9df2e34af264ba3dc0edb9c8b48bd01565f77211d4b3",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        17
+      ]
+    },
+    {
+      "url": "https://www.pixar.com/cars",
+      "resolvedURL": "https://www.pixar.com/cars",
+      "status": "retrieved_for_inspection",
+      "sha256": "ccdd8740375713a99663ed061c652196c0924ab0acb9dedf58efcd29502bac2e",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        10,
+        11
+      ]
+    },
+    {
+      "url": "https://www.pixar.com/coco",
+      "resolvedURL": "https://www.pixar.com/coco",
+      "status": "retrieved_for_inspection",
+      "sha256": "5da14f2c78ae0f9cc31e4470f4ba331cadd8889a6915199b02044310f0e9541c",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        15,
+        16
+      ]
+    },
+    {
+      "url": "https://www.pixar.com/finding-nemo",
+      "resolvedURL": "https://www.pixar.com/finding-nemo",
+      "status": "retrieved_for_inspection",
+      "sha256": "9b6c016cb4cc7bd03146f2ca7b7930d782b93f6e9e7b2c74cab23bc53435a39a",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "url": "https://www.pixar.com/inside-out",
+      "resolvedURL": "https://www.pixar.com/inside-out",
+      "status": "retrieved_for_inspection",
+      "sha256": "2c0ea32e5dee87f3788ee4def3e0a7850e8f3b89c0a1fe31428e8e9732f8d3a5",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        14
+      ]
+    },
+    {
+      "url": "https://www.pixar.com/monsters-inc",
+      "resolvedURL": "https://www.pixar.com/monsters-inc",
+      "status": "retrieved_for_inspection",
+      "sha256": "89038f7c0156e2ab715ce2a274ffe46535a307114b32a900835714ba2ef5a0ed",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        12,
+        13
+      ]
+    },
+    {
+      "url": "https://www.pixar.com/ratatouille",
+      "resolvedURL": "https://www.pixar.com/ratatouille",
+      "status": "retrieved_for_inspection",
+      "sha256": "1561aa045fda32879227daadbe0b78e6fd5d0b25f085f4017a2254dbbc82f024",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        6,
+        7
+      ]
+    },
+    {
+      "url": "https://www.pixar.com/the-incredibles",
+      "resolvedURL": "https://www.pixar.com/the-incredibles",
+      "status": "retrieved_for_inspection",
+      "sha256": "44a3e02f7778d1afa7f9fe5d7cc88bf0a695bffe198c45cd8377edad774d5775",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        18,
+        19
+      ]
+    },
+    {
+      "url": "https://www.pixar.com/toy-story",
+      "resolvedURL": "https://www.pixar.com/toy-story",
+      "status": "retrieved_for_inspection",
+      "sha256": "3500f5f9913d5a1e784eca6a2b1da3d33755e6dffe99c7abadb530c45a040134",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        1,
+        2
+      ]
+    },
+    {
+      "url": "https://www.pixar.com/turning-red",
+      "resolvedURL": "https://www.pixar.com/turning-red",
+      "status": "retrieved_for_inspection",
+      "sha256": "1d464dde2bd843a94c32a3601f42b79fc307158acac3078cf51579bb2627cd90",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        20
+      ]
+    },
+    {
+      "url": "https://www.pixar.com/upfilm",
+      "resolvedURL": "https://www.pixar.com/upfilm",
+      "status": "retrieved_for_inspection",
+      "sha256": "c5c095a9d0f438ad71ce10173cd539926187b3dc7c2570a16e8bd3c5ec4d82e9",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        9
+      ]
+    },
+    {
+      "url": "https://www.pixar.com/wall-e",
+      "resolvedURL": "https://www.pixar.com/wall-e",
+      "status": "retrieved_for_inspection",
+      "sha256": "7c14ceafb99aa8a88c8472ae83fae2ae0346fd0e6517c5ab78c7722362cb2cbd",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        8
+      ]
+    },
+    {
+      "url": "https://www.sonypictures.com/movies/ghostbusters",
+      "resolvedURL": "https://www.sonypictures.com/movies/ghostbusters",
+      "status": "retrieved_for_inspection",
+      "sha256": "14f779fd703e3577481c7f4e659f2a80e39cdd1efaf1bf5b466aea84e8e0b47b",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        55
+      ]
+    },
+    {
+      "url": "https://www.starwars.com/databank/chewbacca",
+      "resolvedURL": "https://www.starwars.com/databank/chewbacca",
+      "status": "retrieved_for_inspection",
+      "sha256": "d72e41368a14af87f72c8e79082f420d03a3153d7f842fa845e7f4d98893f67c",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        84
+      ]
+    },
+    {
+      "url": "https://www.starwars.com/databank/death-star",
+      "resolvedURL": "https://www.starwars.com/databank/death-star",
+      "status": "retrieved_for_inspection",
+      "sha256": "1c18101d3b785bd1e41e8d274d4915d7d79f87e4eb1fd6213844bcddd472d2be",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        87
+      ]
+    },
+    {
+      "url": "https://www.starwars.com/databank/leia-organa",
+      "resolvedURL": "https://www.starwars.com/databank/leia-organa",
+      "status": "retrieved_for_inspection",
+      "sha256": "6491ac3db2e54014fa3d36991ad96498e019d8333bb76c8659ae89143f9ec847",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        88
+      ]
+    },
+    {
+      "url": "https://www.starwars.com/databank/lightsaber",
+      "resolvedURL": "https://www.starwars.com/databank/lightsaber",
+      "status": "retrieved_for_inspection",
+      "sha256": "3e4b9ce16b858f98de573d2907ec6959324928dc41ee2f8434348ca5dd2d5871",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        82
+      ]
+    },
+    {
+      "url": "https://www.starwars.com/databank/millennium-falcon",
+      "resolvedURL": "https://www.starwars.com/databank/millennium-falcon",
+      "status": "retrieved_for_inspection",
+      "sha256": "29cd6a1b8fc3231423398b0fa7c9221087e2f52b3afe7995ae8cc68678e163fd",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        86
+      ]
+    },
+    {
+      "url": "https://www.starwars.com/databank/obi-wan-kenobi-biography-gallery",
+      "resolvedURL": "https://www.starwars.com/databank/obi-wan-kenobi-biography-gallery",
+      "status": "retrieved_for_inspection",
+      "sha256": "3eda8ccc38344a05448d8d7b4bab911a63e1dc8ed833bd84d244c5d3d5db5a4d",
+      "inspectionMethod": "Official indexed biography-gallery caption says Obi-Wan adopted Ben. Direct plain-text cache omits image captions; indexed caption inspection distinguished.",
+      "questionRows": [
+        89
+      ]
+    },
+    {
+      "url": "https://www.starwars.com/databank/r2-d2",
+      "resolvedURL": "https://www.starwars.com/databank/r2-d2",
+      "status": "retrieved_for_inspection",
+      "sha256": "b530df1b2fa1a2f8d37e3f8eae079ade9981556b2a86dc423cc7b47bb54028b9",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        85
+      ]
+    },
+    {
+      "url": "https://www.starwars.com/databank/tatooine",
+      "resolvedURL": "https://www.starwars.com/databank/tatooine",
+      "status": "retrieved_for_inspection",
+      "sha256": "56d7de0558711f8654bf1b74d86126077347687034c62df09a7f99325f831293",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        90
+      ]
+    },
+    {
+      "url": "https://www.starwars.com/databank/yoda",
+      "resolvedURL": "https://www.starwars.com/databank/yoda",
+      "status": "retrieved_for_inspection",
+      "sha256": "d720d9694b66f8b3c72e184f4966eedac8d9d8d00fe20da05e293564f829d6e4",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        83
+      ]
+    },
+    {
+      "url": "https://www.starwars.com/news/carrie-fisher-our-princess-passes-away",
+      "resolvedURL": "https://www.starwars.com/news/carrie-fisher-our-princess-passes-away",
+      "status": "retrieved_for_inspection",
+      "sha256": "c274e9619b00b0497ad9a8143bd54e7186433da93a837adb9edd2050b9175fac",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        81
+      ]
+    },
+    {
+      "url": "https://www.universalpicturesathome.com/movies/et-the-extra-terrestrial",
+      "resolvedURL": "https://www.universalpicturesathome.com/movies/et-the-extra-terrestrial",
+      "status": "retrieved_for_inspection",
+      "sha256": "25ec8cfea0b0fb19588b379929027edea93188689fde20e7a849fd1d15e33971",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        53
+      ]
+    },
+    {
+      "url": "https://www.universalpicturesathome.com/movies/jaws",
+      "resolvedURL": "https://www.universalpicturesathome.com/movies/jaws",
+      "status": "retrieved_for_inspection",
+      "sha256": "443d9b0e2becf38137220a91675fba7f58d69b436df9829142b32c8611e4ef86",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        52
+      ]
+    },
+    {
+      "url": "https://www.universalpicturesathome.com/movies/jurassic-park",
+      "resolvedURL": "https://www.universalpicturesathome.com/movies/jurassic-park",
+      "status": "retrieved_for_inspection",
+      "sha256": "3e7c24632ab71e6117e091b9bd093df5b67fc58d7260dd00b80bf22455bc1eec",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        51
+      ]
+    },
+    {
+      "url": "https://www.universalpicturesathome.com/movies/shrek",
+      "resolvedURL": "https://www.universalpicturesathome.com/movies/shrek",
+      "status": "retrieved_for_inspection",
+      "sha256": "82e9fa59e3a94679367ffe3a40bbd235560ca748b30b52b9baa10f0bb8cb3768",
+      "inspectionMethod": "Relevant studio character/synopsis text, authorised character-reader extract or applicable film/photography dictionary sense inspected in private cache; see individual author decision.",
+      "questionRows": [
+        41
+      ]
+    }
+  ],
+  "unusedFailedRetrievalAttempts": [
+    {
+      "url": "https://www.20thcenturystudios.com/movies/titanic",
+      "status": "fetch_failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.paramountmovies.com/movies/forrest-gump",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.harrypotter.com/fact-file/magical-miscellany/the-sorting-hat",
+      "status": "fetch_failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://userhome.brooklyn.cuny.edu/anthro/jbeatty/COURSES/glossary.htm",
+      "status": "fetch_failed",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
+    },
+    {
+      "url": "https://a.dolimg.com/franchise/lionking/media/printables/LKD_Characters.pdf",
+      "status": "fetch_failed",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.dreamworks.com/movies/kung-fu-panda-2008",
+      "status": "fetch_failed",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ]
+}

@@ -1,0 +1,1602 @@
+[
+  {
+    "draftID": "easy-11-001",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Toy Story, what kind of toy is Woody?",
+    "answers": [
+      "A cowboy doll",
+      "A toy soldier",
+      "A robot",
+      "A racing car"
+    ],
+    "correctIndex": 0,
+    "rationale": "Woody is a pull-string cowboy doll; alternatives describe other toy types.",
+    "sourceURL": "https://www.pixar.com/toy-story",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-002",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Toy Story, Buzz Lightyear believes he is what?",
+    "answers": [
+      "A Space Ranger",
+      "A pirate captain",
+      "A cowboy sheriff",
+      "A racing driver"
+    ],
+    "correctIndex": 0,
+    "rationale": "Buzz believes he is an actual Space Ranger rather than a toy.",
+    "sourceURL": "https://www.pixar.com/toy-story",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-003",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Finding Nemo, what kind of fish is Nemo?",
+    "answers": [
+      "Clownfish",
+      "Goldfish",
+      "Swordfish",
+      "Angelfish"
+    ],
+    "correctIndex": 0,
+    "rationale": "Nemo is a clownfish, not the other fish types.",
+    "sourceURL": "https://www.pixar.com/finding-nemo",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-004",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Finding Nemo, what is Marlin's relationship to Nemo?",
+    "answers": [
+      "His father",
+      "His brother",
+      "His uncle",
+      "His grandfather"
+    ],
+    "correctIndex": 0,
+    "rationale": "Marlin is Nemo's father; other family relations are wrong.",
+    "sourceURL": "https://www.pixar.com/finding-nemo",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-005",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "What difficulty does Dory famously have in Finding Nemo?",
+    "answers": [
+      "Short-term memory loss",
+      "An inability to swim",
+      "A fear of every fish",
+      "An inability to speak"
+    ],
+    "correctIndex": 0,
+    "rationale": "Dory has short-term memory loss, not the alternatives.",
+    "sourceURL": "https://www.pixar.com/finding-nemo",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-006",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Ratatouille, what kind of animal is Remy?",
+    "answers": [
+      "A rat",
+      "A mouse",
+      "A rabbit",
+      "A squirrel"
+    ],
+    "correctIndex": 0,
+    "rationale": "Remy is a rat and aspiring chef; mouse is a plausible but wrong near alternative.",
+    "sourceURL": "https://www.pixar.com/ratatouille",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-007",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In which city is most of Ratatouille set?",
+    "answers": [
+      "Paris",
+      "Rome",
+      "London",
+      "Madrid"
+    ],
+    "correctIndex": 0,
+    "rationale": "The restaurant adventure takes place in Paris.",
+    "sourceURL": "https://www.pixar.com/ratatouille",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-008",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In WALL-E, what task was the title robot built to do?",
+    "answers": [
+      "Compact rubbish",
+      "Deliver the mail",
+      "Pilot racing cars",
+      "Cook restaurant meals"
+    ],
+    "correctIndex": 0,
+    "rationale": "WALL-E compacts abandoned waste on Earth.",
+    "sourceURL": "https://www.pixar.com/wall-e",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-009",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Up, what lifts Carl's house into the sky?",
+    "answers": [
+      "Thousands of balloons",
+      "A giant helicopter",
+      "A team of dragons",
+      "A rocket engine"
+    ],
+    "correctIndex": 0,
+    "rationale": "Balloons lift the house; the alternatives do not cause its flight.",
+    "sourceURL": "https://www.pixar.com/upfilm",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-010",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "What kind of vehicle is Lightning McQueen in Cars?",
+    "answers": [
+      "A racing car",
+      "A fire engine",
+      "A farm tractor",
+      "A school bus"
+    ],
+    "correctIndex": 0,
+    "rationale": "Lightning McQueen is a racing car, not the other vehicle types.",
+    "sourceURL": "https://www.pixar.com/cars",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-011",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Cars, what kind of vehicle is Mater?",
+    "answers": [
+      "A tow truck",
+      "A racing car",
+      "A fire engine",
+      "A bus"
+    ],
+    "correctIndex": 0,
+    "rationale": "Mater is a rusty tow truck, not the alternatives.",
+    "sourceURL": "https://www.pixar.com/cars",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-012",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Monsters, Inc., how many eyes does Mike Wazowski have?",
+    "answers": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "correctIndex": 0,
+    "rationale": "Mike has one large central eye.",
+    "sourceURL": "https://www.pixar.com/monsters-inc",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-013",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Monsters, Inc., what is Boo?",
+    "answers": [
+      "A human child",
+      "A robot",
+      "A talking cat",
+      "A monster's pet bird"
+    ],
+    "correctIndex": 0,
+    "rationale": "Boo is a young human girl who enters the monster world.",
+    "sourceURL": "https://www.pixar.com/monsters-inc",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-014",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Inside Out, Joy and Sadness are emotions inside whose mind?",
+    "answers": [
+      "Riley's",
+      "Andy's",
+      "Miguel's",
+      "Merida's"
+    ],
+    "correctIndex": 0,
+    "rationale": "Riley is the child whose emotions drive the film; the others belong to other Pixar stories.",
+    "sourceURL": "https://www.pixar.com/inside-out",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-015",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "Coco draws especially on the Day of the Dead traditions of which country?",
+    "answers": [
+      "Mexico",
+      "Italy",
+      "Japan",
+      "Greece"
+    ],
+    "correctIndex": 0,
+    "rationale": "Coco is rooted in Mexican Dia de los Muertos traditions.",
+    "sourceURL": "https://www.pixar.com/coco",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-016",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Coco, what does Miguel dream of becoming?",
+    "answers": [
+      "A musician",
+      "A racing driver",
+      "A doctor",
+      "An astronaut"
+    ],
+    "correctIndex": 0,
+    "rationale": "Miguel dreams of being a musician despite the family's music ban.",
+    "sourceURL": "https://www.pixar.com/coco",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-017",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Brave, Princess Merida is especially skilled at which sport?",
+    "answers": [
+      "Archery",
+      "Tennis",
+      "Ice skating",
+      "Swimming"
+    ],
+    "correctIndex": 0,
+    "rationale": "Merida's signature skill is archery.",
+    "sourceURL": "https://www.pixar.com/brave",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-018",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In The Incredibles, what are the Parr family secretly?",
+    "answers": [
+      "Superheroes",
+      "Aliens",
+      "Pirates",
+      "Robots"
+    ],
+    "correctIndex": 0,
+    "rationale": "The Parr family are superheroes living under ordinary identities.",
+    "sourceURL": "https://www.pixar.com/the-incredibles",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-019",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In The Incredibles, what is Dash's main superpower?",
+    "answers": [
+      "Super speed",
+      "Invisibility",
+      "Breathing underwater",
+      "Turning into stone"
+    ],
+    "correctIndex": 0,
+    "rationale": "Dash can run at superhuman speed; invisibility belongs to Violet.",
+    "sourceURL": "https://www.pixar.com/the-incredibles",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-020",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Turning Red, Mei transforms into a giant version of which animal?",
+    "answers": [
+      "Red panda",
+      "Polar bear",
+      "Tiger",
+      "Fox"
+    ],
+    "correctIndex": 0,
+    "rationale": "Mei transforms into a giant red panda when strongly emotional.",
+    "sourceURL": "https://www.pixar.com/turning-red",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-021",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Disney's animated The Lion King (1994), who is Simba's father?",
+    "answers": [
+      "Mufasa",
+      "Scar",
+      "Rafiki",
+      "Zazu"
+    ],
+    "correctIndex": 0,
+    "rationale": "Mufasa is Simba's father; Scar is his uncle, Rafiki a mandrill adviser and Zazu a hornbill. Replace animal question cued by the title.",
+    "sourceURL": "https://movies.disney.com/the-lion-king",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-022",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In The Lion King (1994), what kind of bird is Zazu?",
+    "answers": [
+      "A hornbill",
+      "A parrot",
+      "An ostrich",
+      "A flamingo"
+    ],
+    "correctIndex": 0,
+    "rationale": "Zazu is a hornbill. Replace Scar/Mufasa relationship already covered by Stage & Musicals.",
+    "sourceURL": "https://lionking.com/familynight/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-023",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In The Lion King (1994), what kind of animal is Timon?",
+    "answers": [
+      "A meerkat",
+      "A mongoose",
+      "An otter",
+      "A rabbit"
+    ],
+    "correctIndex": 0,
+    "rationale": "Timon is a meerkat; other small mammals are wrong.",
+    "sourceURL": "https://d23.com/this-day/the-lion-kings-timon-and-pumbaa-debuts-in-syndication/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-024",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In The Lion King (1994), what kind of animal is Pumbaa?",
+    "answers": [
+      "A warthog",
+      "A rhinoceros",
+      "A hippopotamus",
+      "A buffalo"
+    ],
+    "correctIndex": 0,
+    "rationale": "Pumbaa is a warthog, not the other large African mammals.",
+    "sourceURL": "https://d23.com/a-to-z/pumbaa/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-025",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Disney's animated Aladdin (1992), the Genie is released from what object?",
+    "answers": [
+      "A lamp",
+      "A mirror",
+      "A ring",
+      "A sword"
+    ],
+    "correctIndex": 0,
+    "rationale": "The Genie featured in the film emerges from the magic lamp; ring-genies in other tales are excluded.",
+    "sourceURL": "https://d23.com/a-to-z/aladdin-film/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-026",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "Who is the villainous royal adviser in Disney's animated Aladdin (1992)?",
+    "answers": [
+      "Jafar",
+      "Gaston",
+      "Scar",
+      "Captain Hook"
+    ],
+    "correctIndex": 0,
+    "rationale": "Jafar is the evil vizier. The other offered villains belong to different Disney stories; replaces Jasmine fact already covered by Stage & Musicals.",
+    "sourceURL": "https://d23.com/a-to-z/aladdin-film/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-027",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Disney's animated Aladdin (1992), what kind of animal is Abu?",
+    "answers": [
+      "A monkey",
+      "A tiger",
+      "A parrot",
+      "A snake"
+    ],
+    "correctIndex": 0,
+    "rationale": "Abu is Aladdin's monkey companion; Rajah is tiger and Iago parrot.",
+    "sourceURL": "https://d23.com/a-to-z/aladdin-film/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-028",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Frozen, Elsa has magical powers especially involving what?",
+    "answers": [
+      "Ice and snow",
+      "Fire and lava",
+      "Sand and dust",
+      "Electricity and metal"
+    ],
+    "correctIndex": 0,
+    "rationale": "Elsa controls ice and snow; alternatives not her powers.",
+    "sourceURL": "https://movies.disney.com/frozen",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-029",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Frozen, who is Anna's sister?",
+    "answers": [
+      "Elsa",
+      "Rapunzel",
+      "Ariel",
+      "Merida"
+    ],
+    "correctIndex": 0,
+    "rationale": "Elsa is Anna's older sister; other Disney princesses are different characters.",
+    "sourceURL": "https://movies.disney.com/frozen",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-030",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Frozen, what is Olaf?",
+    "answers": [
+      "A snowman",
+      "A reindeer",
+      "A wolf",
+      "A polar bear"
+    ],
+    "correctIndex": 0,
+    "rationale": "Olaf is an animated snowman, not an animal.",
+    "sourceURL": "https://movies.disney.com/frozen",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-031",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Frozen, what kind of animal is Sven?",
+    "answers": [
+      "A reindeer",
+      "A moose",
+      "A horse",
+      "A wolf"
+    ],
+    "correctIndex": 0,
+    "rationale": "Sven is Kristoff's reindeer companion.",
+    "sourceURL": "https://movies.disney.com/frozen",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-032",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Disney's animated The Little Mermaid (1989), what is Ariel at the beginning of the story?",
+    "answers": [
+      "A mermaid",
+      "A fairy",
+      "A witch",
+      "A human princess"
+    ],
+    "correctIndex": 0,
+    "rationale": "Ariel begins as mermaid and later becomes human; timing qualifier necessary.",
+    "sourceURL": "https://movies.disney.com/the-little-mermaid",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-033",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Disney's animated The Little Mermaid (1989), what does Ariel give Ursula in exchange for becoming human?",
+    "answers": [
+      "Her voice",
+      "Her crown",
+      "Her memories",
+      "Her hair"
+    ],
+    "correctIndex": 0,
+    "rationale": "Ariel trades her voice as part of Ursula's bargain. Her fins are transformed, not one of the offered payment options; replaces sea-witch identity already covered in Cartoons.",
+    "sourceURL": "https://disneyanimation.com/films/the-little-mermaid/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-034",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "What is the name of the heroine in Disney's animated Beauty and the Beast (1991)?",
+    "answers": [
+      "Belle",
+      "Jasmine",
+      "Aurora",
+      "Ariel"
+    ],
+    "correctIndex": 0,
+    "rationale": "Belle is the heroine, not other Disney princesses.",
+    "sourceURL": "https://movies.disney.com/beauty-and-the-beast",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-035",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Disney's animated Beauty and the Beast (1991), what enchanted object is Mrs Potts?",
+    "answers": [
+      "A teapot",
+      "A clock",
+      "A candlestick",
+      "A wardrobe"
+    ],
+    "correctIndex": 0,
+    "rationale": "Mrs Potts is the teapot; other object characters are distinct.",
+    "sourceURL": "https://d23.com/then-and-now-the-enchanting-cast-of-magical-objects-in-beauty-and-the-beast/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-036",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Disney's animated Beauty and the Beast (1991), Lumière takes the form of what object?",
+    "answers": [
+      "A candelabrum",
+      "A clock",
+      "A teapot",
+      "A mirror"
+    ],
+    "correctIndex": 0,
+    "rationale": "Lumière is a branched candle holder, a candelabrum. Use precise singular rather than imprecise candlestick; other castle objects are different characters.",
+    "sourceURL": "https://d23.com/then-and-now-the-enchanting-cast-of-magical-objects-in-beauty-and-the-beast/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-037",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Disney's animated Mulan (1998), Mulan disguises herself as what to take her father's place?",
+    "answers": [
+      "A male soldier",
+      "A royal princess",
+      "A merchant's wife",
+      "A foreign queen"
+    ],
+    "correctIndex": 0,
+    "rationale": "Mulan disguises herself as a male soldier to serve in her father's place.",
+    "sourceURL": "https://movies.disney.com/mulan",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-038",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Disney's animated Mulan (1998), what kind of creature is Mushu?",
+    "answers": [
+      "A dragon",
+      "A phoenix",
+      "A tiger",
+      "A crane"
+    ],
+    "correctIndex": 0,
+    "rationale": "Mushu is the small dragon guardian, not the other creatures.",
+    "sourceURL": "https://movies.disney.com/mulan",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-039",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Disney's animated Cinderella (1950), what are Cinderella's famous slippers made of?",
+    "answers": [
+      "Glass",
+      "Gold",
+      "Silver",
+      "Silk"
+    ],
+    "correctIndex": 0,
+    "rationale": "Glass slippers are the film's iconic footwear; other Cinderella traditions can differ so version specified.",
+    "sourceURL": "https://d23.com/a-to-z/cinderella-film/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-040",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Disney's Snow White and the Seven Dwarfs (1937), which poisoned fruit does the Queen offer Snow White?",
+    "answers": [
+      "An apple",
+      "A pear",
+      "A peach",
+      "A plum"
+    ],
+    "correctIndex": 0,
+    "rationale": "The poisoned apple is the Queen's device in the specified animated film.",
+    "sourceURL": "https://movies.disney.com/snow-white-and-the-seven-dwarfs",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-041",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In the Shrek films, what kind of creature is Shrek?",
+    "answers": [
+      "An ogre",
+      "A troll",
+      "A giant",
+      "A goblin"
+    ],
+    "correctIndex": 0,
+    "rationale": "Shrek is an ogre, not the related fantasy creatures.",
+    "sourceURL": "https://www.universalpicturesathome.com/movies/shrek",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-042",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "Who voices Donkey in the original English-language Shrek (2001)?",
+    "answers": [
+      "Eddie Murphy",
+      "Mike Myers",
+      "Antonio Banderas",
+      "John Lithgow"
+    ],
+    "correctIndex": 0,
+    "rationale": "Eddie Murphy voices Donkey; Myers Shrek, Banderas later Puss and Lithgow Farquaad.",
+    "sourceURL": "https://www.dreamworks.com/movies/shrek",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-043",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "What is the name of the panda hero of the Kung Fu Panda films?",
+    "answers": [
+      "Po",
+      "Shifu",
+      "Tai Lung",
+      "Oogway"
+    ],
+    "correctIndex": 0,
+    "rationale": "Po is the panda protagonist; alternatives name other characters.",
+    "sourceURL": "https://www.dreamworks.com/movies/kung-fu-panda",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-044",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "What is the name of Hiccup's dragon in How to Train Your Dragon (2010)?",
+    "answers": [
+      "Toothless",
+      "Stormfly",
+      "Hookfang",
+      "Meatlug"
+    ],
+    "correctIndex": 0,
+    "rationale": "Toothless is Hiccup's Night Fury; other dragons belong to other riders.",
+    "sourceURL": "https://www.dreamworks.com/movies/how-to-train-your-dragon",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-045",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Madagascar (2005), what kind of animal is Alex?",
+    "answers": [
+      "A lion",
+      "A tiger",
+      "A zebra",
+      "A giraffe"
+    ],
+    "correctIndex": 0,
+    "rationale": "Alex is the Central Park lion, not the other zoo animals.",
+    "sourceURL": "https://d3ddkgxe55ca6c.cloudfront.net/assets/a/fc/31/madagascar1-spread-844944.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-046",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Madagascar (2005), what kind of animal is Melman?",
+    "answers": [
+      "A giraffe",
+      "A hippopotamus",
+      "A zebra",
+      "A lion"
+    ],
+    "correctIndex": 0,
+    "rationale": "Melman is a giraffe; other types identify his friends.",
+    "sourceURL": "https://d3ddkgxe55ca6c.cloudfront.net/assets/a/fc/31/madagascar1-spread-844944.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-047",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Madagascar (2005), what kind of animal is Marty?",
+    "answers": [
+      "A zebra",
+      "A giraffe",
+      "A lion",
+      "A hippopotamus"
+    ],
+    "correctIndex": 0,
+    "rationale": "Marty is the zebra; other animals are his friends.",
+    "sourceURL": "https://d3ddkgxe55ca6c.cloudfront.net/assets/a/fc/31/madagascar1-spread-844944.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-048",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "Which DreamWorks film features the characters Poppy and Branch?",
+    "answers": [
+      "Trolls",
+      "Shrek",
+      "The Croods",
+      "The Boss Baby"
+    ],
+    "correctIndex": 0,
+    "rationale": "Poppy and Branch are the central Trolls characters.",
+    "sourceURL": "https://www.dreamworks.com/trolls",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-049",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "The Croods (2013) follows a family living in which kind of setting?",
+    "answers": [
+      "A prehistoric world",
+      "A futuristic space station",
+      "A modern office block",
+      "A medieval royal court"
+    ],
+    "correctIndex": 0,
+    "rationale": "The Croods are a prehistoric cave-dwelling family; other settings wrong.",
+    "sourceURL": "https://nhm.org/press/universal-pictures-home-entertainment-launches-nationwide-camp-croods-partnership-la-brea-tar",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-050",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "Who voices Megamind in the original English-language Megamind (2010)?",
+    "answers": [
+      "Will Ferrell",
+      "Brad Pitt",
+      "Jonah Hill",
+      "Ben Stiller"
+    ],
+    "correctIndex": 0,
+    "rationale": "DreamWorks explicitly credits Ferrell as Megamind; Pitt is Metro Man, Hill Hal. Replace colour question to rely on an explicit cast credit, rather than an uninspected illustration.",
+    "sourceURL": "https://www.dreamworks.com/movies/megamind",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-051",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "Which 1993 film features a theme park stocked with cloned dinosaurs?",
+    "answers": [
+      "Jurassic Park",
+      "Jaws",
+      "E.T. the Extra-Terrestrial",
+      "Raiders of the Lost Ark"
+    ],
+    "correctIndex": 0,
+    "rationale": "Jurassic Park's central premise is cloned-dinosaur theme park.",
+    "sourceURL": "https://www.universalpicturesathome.com/movies/jurassic-park",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-052",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Jaws (1975), which seaside community is threatened by the shark?",
+    "answers": [
+      "Amity",
+      "Gotham City",
+      "Hill Valley",
+      "Springfield"
+    ],
+    "correctIndex": 0,
+    "rationale": "Universal identifies Amity as the attacked community. Other fictional towns are unrelated; replaces Spielberg director fact already present.",
+    "sourceURL": "https://www.universalpicturesathome.com/movies/jaws",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-053",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "What is the first name of the boy who befriends E.T. in E.T. the Extra-Terrestrial (1982)?",
+    "answers": [
+      "Elliott",
+      "Kevin",
+      "Marty",
+      "Charlie"
+    ],
+    "correctIndex": 0,
+    "rationale": "Elliott befriends E.T.; other offered boy names are not his. Replace alien question made trivial by Extra-Terrestrial in title.",
+    "sourceURL": "https://www.universalpicturesathome.com/movies/et-the-extra-terrestrial",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-054",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Back to the Future (1985), what speed must the DeLorean reach to travel through time?",
+    "answers": [
+      "88 miles per hour",
+      "55 miles per hour",
+      "100 miles per hour",
+      "120 miles per hour"
+    ],
+    "correctIndex": 0,
+    "rationale": "The required speed is 88 mph. Correct explicit units across choices and replaces car-maker fact already in Vehicles.",
+    "sourceURL": "https://www.backtothefuture.com/news",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-055",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "Who plays Peter Venkman in Ghostbusters (1984)?",
+    "answers": [
+      "Bill Murray",
+      "Dan Aykroyd",
+      "Harold Ramis",
+      "Ernie Hudson"
+    ],
+    "correctIndex": 0,
+    "rationale": "Murray plays Venkman; others play Ray, Egon, Winston.",
+    "sourceURL": "https://www.sonypictures.com/movies/ghostbusters",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-056",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In The Wizard of Oz (1939), what does the Tin Man hope to receive?",
+    "answers": [
+      "A heart",
+      "A brain",
+      "Courage",
+      "A magic wand"
+    ],
+    "correctIndex": 0,
+    "rationale": "Tin Man seeks heart; Scarecrow brain,Lion courage.",
+    "sourceURL": "https://catalog.afi.com/Film/7892-THE-WIZARD-OF-OZ",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-057",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In The Wizard of Oz (1939), what does the Scarecrow hope to receive?",
+    "answers": [
+      "A brain",
+      "A heart",
+      "Courage",
+      "A crown"
+    ],
+    "correctIndex": 0,
+    "rationale": "Scarecrow wants brain; other companions' requests differ.",
+    "sourceURL": "https://catalog.afi.com/Film/7892-THE-WIZARD-OF-OZ",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-058",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In The Wizard of Oz (1939), Dorothy follows the Yellow Brick Road towards which city?",
+    "answers": [
+      "The Emerald City",
+      "Kansas City",
+      "Camelot",
+      "Narnia"
+    ],
+    "correctIndex": 0,
+    "rationale": "Glinda directs Dorothy along the road to the Emerald City. Kansas City is not that destination; Camelot and Narnia belong to other settings. Replaces courage question cued by Cowardly Lion.",
+    "sourceURL": "https://catalog.afi.com/Film/7892-THE-WIZARD-OF-OZ",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-059",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "What is the name of Dorothy's dog in The Wizard of Oz (1939)?",
+    "answers": [
+      "Toto",
+      "Lassie",
+      "Snoopy",
+      "Pluto"
+    ],
+    "correctIndex": 0,
+    "rationale": "Toto is Dorothy's dog; others different famous fictional dogs.",
+    "sourceURL": "https://catalog.afi.com/Film/7892-THE-WIZARD-OF-OZ",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-060",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "What job does Mary Poppins do in the 1964 Disney film?",
+    "answers": [
+      "Nanny",
+      "Police officer",
+      "Doctor",
+      "School headteacher"
+    ],
+    "correctIndex": 0,
+    "rationale": "Mary Poppins is the magical nanny of the Banks children.",
+    "sourceURL": "https://movies.disney.com/mary-poppins",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-061",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "Who plays Kevin McCallister in Home Alone (1990)?",
+    "answers": [
+      "Macaulay Culkin",
+      "Elijah Wood",
+      "Daniel Radcliffe",
+      "Haley Joel Osment"
+    ],
+    "correctIndex": 0,
+    "rationale": "Culkin plays Kevin; other child actors did not.",
+    "sourceURL": "https://catalog.afi.com/Film/58544-HOME-ALONE",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-062",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Home Alone (1990), Kevin's family flies to which city for Christmas?",
+    "answers": [
+      "Paris",
+      "Rome",
+      "Madrid",
+      "Berlin"
+    ],
+    "correctIndex": 0,
+    "rationale": "The family holiday destination is Paris; film later New York sequel excluded.",
+    "sourceURL": "https://catalog.afi.com/Film/58544-HOME-ALONE",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-063",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "Who plays Jack Dawson in Titanic (1997)?",
+    "answers": [
+      "Leonardo DiCaprio",
+      "Brad Pitt",
+      "Matt Damon",
+      "Johnny Depp"
+    ],
+    "correctIndex": 0,
+    "rationale": "DiCaprio plays Jack; other actors wrong.",
+    "sourceURL": "https://www.paramountpictures.com/movies/titanic",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-064",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "What is Indiana Jones's profession?",
+    "answers": [
+      "Archaeologist",
+      "Astronaut",
+      "Marine biologist",
+      "Journalist"
+    ],
+    "correctIndex": 0,
+    "rationale": "Indiana Jones is archaeology professor/adventurer; alternatives wrong profession.",
+    "sourceURL": "https://www.lucasfilm.com/productions/raiders-of-the-lost-ark/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-065",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "What agent number is James Bond famously known by?",
+    "answers": [
+      "007",
+      "001",
+      "008",
+      "009"
+    ],
+    "correctIndex": 0,
+    "rationale": "Bond is agent007; other numbers refer to other possible agents, not Bond.",
+    "sourceURL": "https://www.007.com/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-066",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Rocky (1976), Rocky Balboa competes in which sport?",
+    "answers": [
+      "Boxing",
+      "Wrestling",
+      "Judo",
+      "Fencing"
+    ],
+    "correctIndex": 0,
+    "rationale": "Rocky is a boxer; other combat sports wrong.",
+    "sourceURL": "https://www.afi.com/afis-100-years-100-cheers/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-067",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In The Matrix (1999), which coloured pill does Neo choose to learn the truth?",
+    "answers": [
+      "Red",
+      "Blue",
+      "Green",
+      "Yellow"
+    ],
+    "correctIndex": 0,
+    "rationale": "Neo takes red pill; blue would return him to apparent ordinary life.",
+    "sourceURL": "https://catalog.afi.com/Film/61230-THE-MATRIX",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-068",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "Who plays Stanley Ipkiss in The Mask (1994)?",
+    "answers": [
+      "Jim Carrey",
+      "Robin Williams",
+      "Adam Sandler",
+      "Ben Stiller"
+    ],
+    "correctIndex": 0,
+    "rationale": "Carrey stars as Stanley; other comic actors wrong.",
+    "sourceURL": "https://silver.afi.com/movies/detail/0100004557/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-069",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "Who plays Captain Jack Sparrow in Pirates of the Caribbean: The Curse of the Black Pearl (2003)?",
+    "answers": [
+      "Johnny Depp",
+      "Orlando Bloom",
+      "Geoffrey Rush",
+      "Javier Bardem"
+    ],
+    "correctIndex": 0,
+    "rationale": "Depp plays Jack; Bloom Will,Rush Barbossa,Bardem later Salazar.",
+    "sourceURL": "https://movies.disney.com/pirates-of-the-caribbean-the-curse-of-the-black-pearl",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-070",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Forrest Gump (1994), Forrest represents the United States in China in which sport?",
+    "answers": [
+      "Table tennis",
+      "Badminton",
+      "Fencing",
+      "Wrestling"
+    ],
+    "correctIndex": 0,
+    "rationale": "Forrest joins the US table-tennis team and visits China. Other sports do not describe that trip; excludes his separate American football and running achievements. Replaces exact duplicate Tom Hanks casting question.",
+    "sourceURL": "https://catalog.afi.com/Film/55201-FORREST-GUMP",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-071",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "What is the name of the school Harry attends in the Harry Potter films?",
+    "answers": [
+      "Hogwarts",
+      "Durmstrang",
+      "Beauxbatons",
+      "Ilvermorny"
+    ],
+    "correctIndex": 0,
+    "rationale": "Harry attends Hogwarts; other wizard schools not his school.",
+    "sourceURL": "https://www.harrypotter.com/fact-file/locations/hogwarts",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-072",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "What shape is Harry Potter's scar in the films?",
+    "answers": [
+      "A lightning bolt",
+      "A crescent moon",
+      "A star",
+      "A triangle"
+    ],
+    "correctIndex": 0,
+    "rationale": "Lightning-shaped scar identifies Harry, not other symbols.",
+    "sourceURL": "https://www.harrypotter.com/features/web-harrys-relationship-with-scar",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-073",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "What is the name of Harry Potter's owl in the films?",
+    "answers": [
+      "Hedwig",
+      "Errol",
+      "Pigwidgeon",
+      "Fawkes"
+    ],
+    "correctIndex": 0,
+    "rationale": "Hedwig is Harry's snowy owl; others different magical birds.",
+    "sourceURL": "https://www.harrypotter.com/fact-file/characters-and-pets/hedwig",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-074",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "Who plays Ron Weasley in the eight original Harry Potter films?",
+    "answers": [
+      "Rupert Grint",
+      "Daniel Radcliffe",
+      "Tom Felton",
+      "Matthew Lewis"
+    ],
+    "correctIndex": 0,
+    "rationale": "Grint plays Ron; Radcliffe Harry, Felton Draco, Lewis Neville. Replaces surname partly duplicated by existing full-name question.",
+    "sourceURL": "https://www.harrypotter.com/features/actors-of-the-wizarding-world-part-one-the-stars-that-rose",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-075",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "Who plays Hermione Granger in the eight original Harry Potter films?",
+    "answers": [
+      "Emma Watson",
+      "Emma Roberts",
+      "Saoirse Ronan",
+      "Dakota Fanning"
+    ],
+    "correctIndex": 0,
+    "rationale": "Emma Watson plays Hermione; others did not.",
+    "sourceURL": "https://www.harrypotter.com/features/actors-of-the-wizarding-world-part-one-the-stars-that-rose",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-076",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "Who plays the adult Severus Snape in the eight original Harry Potter films?",
+    "answers": [
+      "Alan Rickman",
+      "Gary Oldman",
+      "Ralph Fiennes",
+      "Michael Gambon"
+    ],
+    "correctIndex": 0,
+    "rationale": "Rickman plays adult Snape; others Sirius, Voldemort, later Dumbledore. Adult qualifier excludes actors in childhood flashbacks. Replaces first-year headmaster fact already in Family Trivia.",
+    "sourceURL": "https://www.harrypotter.com/features/actors-of-the-wizarding-world-part-three-the-household-names",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-077",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "Which magical item assigns new Hogwarts pupils to houses in the Harry Potter films?",
+    "answers": [
+      "The Sorting Hat",
+      "The Goblet of Fire",
+      "The Marauder's Map",
+      "The Invisibility Cloak"
+    ],
+    "correctIndex": 0,
+    "rationale": "Sorting Hat allocates houses; other magical objects have different functions.",
+    "sourceURL": "https://www.harrypotter.com/fact-file/objects/the-sorting-hat",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-078",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In the Harry Potter films, what do Quidditch players usually ride?",
+    "answers": [
+      "Broomsticks",
+      "Dragons",
+      "Flying carpets",
+      "Giant eagles"
+    ],
+    "correctIndex": 0,
+    "rationale": "Quidditch is played on broomsticks; other fantasy transport not game equipment.",
+    "sourceURL": "https://www.harrypotter.com/fact-file/magical-miscellany/quidditch",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-079",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In the Harry Potter films, Hagrid is half human and half what?",
+    "answers": [
+      "Giant",
+      "Goblin",
+      "Elf",
+      "Centaur"
+    ],
+    "correctIndex": 0,
+    "rationale": "Hagrid is half-giant; alternatives wrong ancestry.",
+    "sourceURL": "https://www.harrypotter.com/fact-file/characters-and-pets/rubeus-hagrid",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-080",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "What kind of magical creature is Dobby in the Harry Potter films?",
+    "answers": [
+      "A house-elf",
+      "A goblin",
+      "A troll",
+      "A centaur"
+    ],
+    "correctIndex": 0,
+    "rationale": "Dobby is a house-elf, not the other beings.",
+    "sourceURL": "https://www.harrypotter.com/fact-file/characters-and-pets/dobby",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-081",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "Who plays Princess Leia in the original Star Wars film trilogy?",
+    "answers": [
+      "Carrie Fisher",
+      "Natalie Portman",
+      "Daisy Ridley",
+      "Felicity Jones"
+    ],
+    "correctIndex": 0,
+    "rationale": "Fisher plays Leia; others Padmé, Rey, Jyn. Replaces Vader paternity fact already tested by existing reveal quotation.",
+    "sourceURL": "https://www.starwars.com/news/carrie-fisher-our-princess-passes-away",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-082",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "What is the glowing-bladed weapon used by Jedi in the Star Wars films called?",
+    "answers": [
+      "A lightsaber",
+      "A blaster",
+      "A vibro-axe",
+      "A bowcaster"
+    ],
+    "correctIndex": 0,
+    "rationale": "Lightsaber is the energy-bladed Jedi weapon; other Star Wars weapons differ.",
+    "sourceURL": "https://www.starwars.com/databank/lightsaber",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-083",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "Which Jedi Master trains Luke Skywalker on Dagobah in The Empire Strikes Back?",
+    "answers": [
+      "Yoda",
+      "Mace Windu",
+      "Qui-Gon Jinn",
+      "Count Dooku"
+    ],
+    "correctIndex": 0,
+    "rationale": "Yoda trains Luke on Dagobah; other Jedi/Sith not that trainer.",
+    "sourceURL": "https://www.starwars.com/databank/yoda",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-084",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "What species is Chewbacca in the Star Wars films?",
+    "answers": [
+      "Wookiee",
+      "Ewok",
+      "Hutt",
+      "Gungan"
+    ],
+    "correctIndex": 0,
+    "rationale": "Chewbacca is a Wookiee, not the other species.",
+    "sourceURL": "https://www.starwars.com/databank/chewbacca",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-085",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Star Wars, what kind of character is R2-D2?",
+    "answers": [
+      "A droid",
+      "A Wookiee",
+      "A Jedi Knight",
+      "A Sith Lord"
+    ],
+    "correctIndex": 0,
+    "rationale": "R2-D2 is an astromech droid, not organic species or Force order title.",
+    "sourceURL": "https://www.starwars.com/databank/r2-d2",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-086",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "What is the name of Han Solo's famous ship in the original Star Wars trilogy?",
+    "answers": [
+      "Millennium Falcon",
+      "Star Destroyer",
+      "Razor Crest",
+      "Ghost"
+    ],
+    "correctIndex": 0,
+    "rationale": "Han flies Millennium Falcon; others are different classes/ships.",
+    "sourceURL": "https://www.starwars.com/databank/millennium-falcon",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-087",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "What is the Death Star in Star Wars: A New Hope?",
+    "answers": [
+      "A space station",
+      "A natural moon",
+      "A desert planet",
+      "A lightsaber"
+    ],
+    "correctIndex": 0,
+    "rationale": "Death Star is an armed battle station; famously mistaken for moon but artificial.",
+    "sourceURL": "https://www.starwars.com/databank/death-star",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-088",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "Which Star Wars character is Luke Skywalker's twin sister?",
+    "answers": [
+      "Leia Organa",
+      "Padme Amidala",
+      "Rey",
+      "Ahsoka Tano"
+    ],
+    "correctIndex": 0,
+    "rationale": "Leia is Luke's twin; Padme mother, others different characters.",
+    "sourceURL": "https://www.starwars.com/databank/leia-organa",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-089",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In Star Wars: A New Hope (1977), Obi-Wan Kenobi is also known by which first name?",
+    "answers": [
+      "Ben",
+      "Han",
+      "Luke",
+      "Bail"
+    ],
+    "correctIndex": 0,
+    "rationale": "Obi-Wan uses the alias Ben Kenobi on Tatooine. Other names are different characters. Replaces duplicate Darth Vader birth-name fact.",
+    "sourceURL": "https://www.starwars.com/databank/obi-wan-kenobi-biography-gallery",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-090",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "On which desert planet does Luke Skywalker grow up?",
+    "answers": [
+      "Tatooine",
+      "Naboo",
+      "Coruscant",
+      "Hoth"
+    ],
+    "correctIndex": 0,
+    "rationale": "Luke raised on Tatooine; Naboo verdant,Coruscant city,Hoth ice.",
+    "sourceURL": "https://www.starwars.com/databank/tatooine",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-091",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "Cinematography mainly concerns which aspect of filmmaking?",
+    "answers": [
+      "Camera work and visual photography",
+      "Writing the screenplay",
+      "Editing the soundtrack",
+      "Designing the costumes"
+    ],
+    "correctIndex": 0,
+    "rationale": "Cinematography is motion-picture photography/camera-lighting craft, not other duties.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/cinematography",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-092",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "What is a storyboard used for when planning a film?",
+    "answers": [
+      "Showing planned shots as a sequence of drawings",
+      "Listing the cast in billing order",
+      "Recording the dialogue as sound",
+      "Calculating the cinema ticket sales"
+    ],
+    "correctIndex": 0,
+    "rationale": "Storyboard visually plans scenes/shots before filming.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/storyboard",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-093",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "What is the hinged device snapped shut at the start of a film take called?",
+    "answers": [
+      "A clapperboard",
+      "A teleprompter",
+      "A boom microphone",
+      "A light meter"
+    ],
+    "correctIndex": 0,
+    "rationale": "The hinged board is a clapperboard; the other filmmaking tools prompt dialogue, capture sound and measure light. Revised to the directly verified dictionary definition rather than asserting unverified technical synchronisation detail.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/clapperboard",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-094",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "What does a close-up shot usually show?",
+    "answers": [
+      "A subject or detail filling much of the frame",
+      "An entire landscape seen from far away",
+      "Several complete buildings viewed from the air",
+      "A wide view of a large crowd"
+    ],
+    "correctIndex": 0,
+    "rationale": "Close-up frames a subject/detail closely, not wide establishing landscape.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/close-up",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-095",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "In camera work, what is a pan?",
+    "answers": [
+      "Turning the camera horizontally from a fixed position",
+      "Tilting the camera vertically from a fixed position",
+      "Moving the whole camera towards the subject",
+      "Changing the lens focal length without turning the camera"
+    ],
+    "correctIndex": 0,
+    "rationale": "Pan rotates horizontally, not tilt vertical or unrelated departments.",
+    "sourceURL": "https://screeningshorts.org.uk/teaching-activities/camera-movements/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-096",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "What does using a zoom lens allow a filmmaker to change without moving the camera closer to the subject?",
+    "answers": [
+      "How large the subject appears in the frame",
+      "How loudly the actors speak",
+      "How quickly the actors physically move",
+      "The actual colour of the actors' costumes"
+    ],
+    "correctIndex": 0,
+    "rationale": "Optical zoom changes focal length/image size without camera-position change.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/zoom-lens",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-097",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "A traditional silent film typically lacks what?",
+    "answers": [
+      "Recorded spoken dialogue synchronised with the picture",
+      "Visible action on the screen",
+      "A story told through images",
+      "Musical accompaniment during a screening"
+    ],
+    "correctIndex": 0,
+    "rationale": "Silent films lack synchronised recorded spoken dialogue, not all sounds in exhibition.",
+    "sourceURL": "https://lib-filmcollection.trin.cam.ac.uk/spotlight/silent-film/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-098",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "What are subtitles in a film?",
+    "answers": [
+      "Written words on screen representing dialogue",
+      "The list of production companies before the story",
+      "The settings displayed on a camera lens",
+      "Directions for the actors printed in a script"
+    ],
+    "correctIndex": 0,
+    "rationale": "Subtitles display dialogue/translation on screen; other options unrelated.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/subtitle",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-099",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "How is stop-motion animation made?",
+    "answers": [
+      "Moving objects slightly between photographed frames",
+      "Filming live actors continuously at normal speed",
+      "Recording actors' dialogue before drawing backgrounds",
+      "Moving the camera continuously during one live-action take"
+    ],
+    "correctIndex": 0,
+    "rationale": "Frame-by-frame repositioning creates apparent movement.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/stop-motion",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-11-100",
+    "categoryID": "11",
+    "difficulty": "easy",
+    "prompt": "What does a voice actor mainly provide for an animated film?",
+    "answers": [
+      "A character's spoken performance",
+      "The design of the backgrounds",
+      "The movement of the camera",
+      "The editing of the finished scenes"
+    ],
+    "correctIndex": 0,
+    "rationale": "Voice actor provides vocal character performance, not the other production/commercial tasks.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/voice-actor",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  }
+]
