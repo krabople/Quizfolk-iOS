@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "2f0d2bfd007fc1df5e9b",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "In music, what does tempo describe?",
+    "answers": [
+      "How fast or slowly the music moves",
+      "How high or low its notes are",
+      "How loud or quiet it is",
+      "How beats are grouped into bars"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/tempo",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "7c00e15fd9d055af0ac0",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What is a melody?",
+    "answers": [
+      "The loudness of a performance",
+      "Several notes sounded as a chord",
+      "The instrument used to keep time",
+      "A sequence of notes forming a tune"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/melody",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "b2fa95b8864871589a4e",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "In music, harmony especially concerns what?",
+    "answers": [
+      "The words of a song",
+      "The length of each note",
+      "Notes sounding together",
+      "The speed of a piece"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/harmony",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "3c10848ac61c59de3f48",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What does musical rhythm concern?",
+    "answers": [
+      "The sharps or flats in the key signature",
+      "The pattern of sounds and silences in time",
+      "The range from lowest to highest pitch",
+      "The size of the orchestra"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/rhythm",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "b57cf86d73ec744e0673",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What is a musical chord?",
+    "answers": [
+      "A group of notes sounded together",
+      "One player performing alone",
+      "A tune played one note at a time",
+      "The words of a song"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/chord",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "393ed95b280689b7e73b",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "How are a chord's notes played in an arpeggio?",
+    "answers": [
+      "All at exactly the same time",
+      "Only by a drummer",
+      "Without making any sound",
+      "One after another"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/arpeggio",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "7f6aa89429d6f1cafa09",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What does pitch describe about a musical note?",
+    "answers": [
+      "How long it lasts",
+      "Which instrument makes it",
+      "How high or low it sounds",
+      "How loud or quiet it sounds"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/pitch",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "0935b790eda3514ae209",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "In music, what do dynamics concern?",
+    "answers": [
+      "The number of bars in the piece",
+      "Loudness and changes in loudness",
+      "The pattern of note pitches",
+      "The speed of the beat"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/dynamics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "5f199e617f5238736be1",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "Which musical term describes a sound's distinctive tone quality?",
+    "answers": [
+      "Timbre",
+      "Tempo",
+      "Metre",
+      "Duration"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/timbre",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "8c92d4be21a39aebcfed",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "How many lines are in a standard musical stave?",
+    "answers": [
+      "Three",
+      "Four",
+      "Six",
+      "Five"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/stave",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "f6b160a903eb6076861a",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What does a clef help identify on a musical stave?",
+    "answers": [
+      "The words sung by the choir",
+      "The duration of each written note",
+      "The pitches represented by its lines and spaces",
+      "The number of beats in each bar"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/clef",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "b26cc73dc6fc446248d7",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "In standard Western notation, what does a sharp sign normally do to a note?",
+    "answers": [
+      "Makes it silent",
+      "Raises it by a semitone",
+      "Lowers it by a semitone",
+      "Makes it twice as long"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/sharp",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "a5825319c57238ed1494",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "In standard Western notation, what does a flat sign normally do to a note?",
+    "answers": [
+      "Lowers it by a semitone",
+      "Raises it by a semitone",
+      "Doubles its length",
+      "Makes it louder"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/flat",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "c7b682fa846594f38754",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "In music notation, what does a natural sign do?",
+    "answers": [
+      "Makes every note louder",
+      "Adds an extra beat to a bar",
+      "Makes every note twice as long",
+      "Cancels a sharp or flat for the affected note"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/natural",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "0f3df04ea8b038e883f0",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What does the musical instruction forte mean?",
+    "answers": [
+      "Slow",
+      "Detached",
+      "Loud",
+      "Quiet"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/forte",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "e20ad75901b8932562fa",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What does piano mean as an instruction in a musical score?",
+    "answers": [
+      "With no pause",
+      "Quietly",
+      "Loudly",
+      "Quickly"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/piano",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "468de8c9f944d10bb2bc",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What does the musical instruction crescendo ask performers to do?",
+    "answers": [
+      "Gradually get louder",
+      "Gradually get quieter",
+      "Gradually speed up",
+      "Gradually slow down"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/crescendo",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "93b7d168a3cdb0e0d7cf",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What does diminuendo ask musicians to do?",
+    "answers": [
+      "Gradually get louder",
+      "Immediately double the speed",
+      "Stop reading the score",
+      "Gradually get quieter"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/diminuendo",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "0914aac7eb4cc65c8d89",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "How are notes marked staccato usually played?",
+    "answers": [
+      "As loudly as possible",
+      "Always twice as slowly",
+      "Short and detached",
+      "Smoothly joined together"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/staccato",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "414209f7b50a731a843f",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What does legato mean in music?",
+    "answers": [
+      "Very fast",
+      "Smoothly joined",
+      "Short and detached",
+      "Very loud"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/legato",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "c181a848b006de78bf5b",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What does adagio generally mean as a tempo instruction?",
+    "answers": [
+      "Slowly",
+      "Very quickly",
+      "Loudly",
+      "Without instruments"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/adagio",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "52dd3a95ff91c95cea58",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "Which tempo marking is commonly described as a walking pace?",
+    "answers": [
+      "Presto",
+      "Prestissimo",
+      "Vivace",
+      "Andante"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/andante",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "f389e3f96a86c0bb21c5",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What does presto mean as a tempo instruction?",
+    "answers": [
+      "Very quiet",
+      "Without singing",
+      "Very fast",
+      "Very slow"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.oxfordlearnersdictionaries.com/definition/english/presto_2",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "92c377673aa450f49c73",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What does ritardando ask a performer to do?",
+    "answers": [
+      "Sing without words",
+      "Gradually slow down",
+      "Gradually speed up",
+      "Play only the highest notes"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/ritardando",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "35a1ff68a106aeafad48",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What does accelerando ask musicians to do?",
+    "answers": [
+      "Gradually speed up",
+      "Gradually slow down",
+      "Immediately stop",
+      "Play without a steady beat"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/accelerando",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "af127dcbc1a0b12bf29a",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What does a fermata usually tell a musician to do?",
+    "answers": [
+      "Play the whole piece twice",
+      "Change instruments",
+      "Play every note quietly",
+      "Hold a note or pause longer than its written value"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/fermata",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "9171f13e68e4b733b501",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What does fortissimo mean?",
+    "answers": [
+      "Very slow",
+      "Very short",
+      "Very loud",
+      "Very quiet"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/fortissimo",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "56d69f038b0817b5372a",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What does mezzo-forte mean?",
+    "answers": [
+      "Extremely slow",
+      "Moderately loud",
+      "As loud as possible",
+      "Completely silent"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/mezzo-forte",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "91b8441bf4c4187c54e9",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What does da capo tell a musician to do?",
+    "answers": [
+      "Return to the beginning",
+      "Skip to the last note",
+      "Repeat only the previous bar",
+      "Change to a different key"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/da-capo",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "2cc526085d29e738ef24",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "In British musical terminology, what is the American name for a crotchet?",
+    "answers": [
+      "Eighth note",
+      "Half note",
+      "Whole note",
+      "Quarter note"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/quarter-note",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "e6235aa99a9c4b5772ce",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "In British musical terminology, what is the American name for a quaver?",
+    "answers": [
+      "Half note",
+      "Whole note",
+      "Eighth note",
+      "Quarter note"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/eighth-note",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "cfe164c7e3c8b89070f6",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "In British musical terminology, what is the American name for a minim?",
+    "answers": [
+      "Whole note",
+      "Half note",
+      "Quarter note",
+      "Eighth note"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/half-note",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "34f4192b220d254a2ae5",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "In British musical terminology, what is the American name for a semibreve?",
+    "answers": [
+      "Whole note",
+      "Half note",
+      "Quarter note",
+      "Eighth note"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/whole-note",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "f0c481053838df88bd30",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What does a rest indicate in a musical score?",
+    "answers": [
+      "A louder note",
+      "A change of singer",
+      "The start of a new key",
+      "A period of silence"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/rest",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "b0073d5ce200669df12a",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "In musical notation, what is a bar also called in American English?",
+    "answers": [
+      "A chord",
+      "An octave",
+      "A measure",
+      "A verse"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/bar",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "0b5898a2dc3d9c0e6757",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What does a time signature primarily indicate?",
+    "answers": [
+      "Which instruments perform each part",
+      "How beats are grouped into bars",
+      "Which sharps and flats belong to the key",
+      "How loudly the music should be played"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/time-signature",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "ddb1846efc9b19bddd2d",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What does a key signature show at the start of a stave?",
+    "answers": [
+      "The sharps or flats normally used in the music",
+      "The number of beats in each bar",
+      "The speed of the performance",
+      "The number of movements"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/key-signature",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "f6455010ec0c3a29a850",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What are a song's lyrics?",
+    "answers": [
+      "Its main melody without words",
+      "Its chord changes alone",
+      "Its instructions for loudness",
+      "Its words"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/lyrics",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "8c646e57f4a9fe4e47af",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "In music, what is a score?",
+    "answers": [
+      "The words of a song without its music",
+      "A method of tuning strings",
+      "Written notation showing the music to be performed",
+      "A device that keeps a steady beat"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/score",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "6ebeb6d67c9c0947317a",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What does tuning an instrument involve?",
+    "answers": [
+      "Removing bars from the score",
+      "Adjusting it to produce the intended pitches",
+      "Doubling the length of every note",
+      "Changing the written time signature"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/tuning",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "bee558558b7b684081b2",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What is a capo used for on a guitar?",
+    "answers": [
+      "Clamping across the strings to raise their pitches",
+      "Amplifying sound through a speaker",
+      "Keeping a steady beat for practice",
+      "Bowing the strings instead of plucking them"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/capo",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "46f580a19ddda3e11413",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "In music, what is an interval between two notes?",
+    "answers": [
+      "The speed of the beat",
+      "The loudness of a chord",
+      "The number of players in an ensemble",
+      "The distance between their pitches"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/interval",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "4c5c34e88007089207bb",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "Which keyboard instrument usually makes sound when hammers strike strings?",
+    "answers": [
+      "Accordion",
+      "Harpsichord",
+      "Piano",
+      "Organ"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.yamaha.com/en/musical_instrument_guide/piano/index.html",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "23d8110a7b9988a67aa9",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "How many strings does a standard guitar usually have?",
+    "answers": [
+      "Eight",
+      "Six",
+      "Four",
+      "Five"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/guitar",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "dd82084e5d4cc2b69465",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "Which of these instruments is normally played with a bow drawn across strings?",
+    "answers": [
+      "Violin",
+      "Trumpet",
+      "Flute",
+      "Cymbals"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/violin",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "4865d457dad9833dfe91",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "Which of these orchestral instruments is normally played by blowing across an opening rather than through a reed?",
+    "answers": [
+      "Oboe",
+      "Clarinet",
+      "Bassoon",
+      "Flute"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/flute",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "5ff76b2850a3ad5619ea",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "Which brass instrument is especially known for its long movable slide?",
+    "answers": [
+      "Tuba",
+      "French horn",
+      "Trombone",
+      "Trumpet"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/trombone",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "67c534d83658655e2f60",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "Which of these is normally the lowest-pitched orchestral brass instrument?",
+    "answers": [
+      "Cornet",
+      "Tuba",
+      "Trumpet",
+      "French horn"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://philharmonia.co.uk/resources/instruments/tuba/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "216e8550c769289ded69",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "Despite usually being made of brass, the saxophone belongs to which instrument family?",
+    "answers": [
+      "Woodwind",
+      "Brass",
+      "Strings",
+      "Unpitched percussion"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://hub.yamaha.com/winds/wood/the-woodwind-family-explained/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "aa9502612744fe85986b",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "Which of these woodwind instruments uses a single reed?",
+    "answers": [
+      "Oboe",
+      "Bassoon",
+      "Flute",
+      "Clarinet"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/clarinet",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "5781b55c6a01cdc68f98",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "Which of these woodwind instruments uses a double reed?",
+    "answers": [
+      "Saxophone",
+      "Flute",
+      "Oboe",
+      "Clarinet"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/oboe",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "0ea6fa7de61b8d22fd27",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "Which bowed string instrument is normally played seated, held between the player's knees?",
+    "answers": [
+      "Trumpet",
+      "Cello",
+      "Violin",
+      "Viola"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/cello",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "d2bf89ce7c7bb885e3b5",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "Which is normally the largest and lowest-pitched instrument in an orchestra's bowed string section?",
+    "answers": [
+      "Double bass",
+      "Cello",
+      "Viola",
+      "Violin"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/double-bass",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "64ab2f532579bd66498e",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "Compared with a violin, a viola is usually what?",
+    "answers": [
+      "Smaller and higher-pitched",
+      "Made without strings",
+      "Played only by blowing",
+      "Larger and lower-pitched"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://philharmonia.co.uk/resources/instruments/viola/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "435cf82aac07f8067e5a",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "Which instrument is played by plucking many strings stretched across a large frame?",
+    "answers": [
+      "Trombone",
+      "Snare drum",
+      "Harp",
+      "Oboe"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/harp",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "67c2b2e06b6449e0efca",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "Which instrument uses bellows and is commonly played with keys or buttons?",
+    "answers": [
+      "Triangle",
+      "Accordion",
+      "Violin",
+      "Trumpet"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/accordion",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "57b9419650cb1ae0dcb6",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "Which small instrument is played by blowing and drawing air through holes held to the mouth?",
+    "answers": [
+      "Harmonica",
+      "Tuba",
+      "Harp",
+      "Gong"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/harmonica",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "fcb33b4a5ccc120bd75e",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "How many strings does a standard ukulele normally have?",
+    "answers": [
+      "Six",
+      "Seven",
+      "Eight",
+      "Four"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/ukulele",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "9d55e76af1e48704cb56",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "Which instrument uses a bag of air to supply several pipes?",
+    "answers": [
+      "Clarinet",
+      "Harmonica",
+      "Bagpipes",
+      "Trombone"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/bagpipes",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "938f40de14ce593ddb82",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What are the bars of a traditional xylophone made from?",
+    "answers": [
+      "Steel",
+      "Wood",
+      "Glass",
+      "Stone"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/xylophone",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "4cb4c45d4c5a6e59c212",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What are the bars of an orchestral glockenspiel made from?",
+    "answers": [
+      "Metal",
+      "Wood",
+      "Leather",
+      "Paper"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/glockenspiel",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "3608ecfcb2ffe0214a0d",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What are cymbals?",
+    "answers": [
+      "Wooden pipes with finger holes",
+      "Strings bowed with horsehair",
+      "Bellows filled with air",
+      "Metal plates struck or clashed to make sound"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/cymbal",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "15ccee77f95c9a1b9ea3",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What produces a snare drum's characteristic rattling sound?",
+    "answers": [
+      "Air blown through a reed",
+      "A keyboard striking metal bars",
+      "Wires stretched against its lower drumhead",
+      "A single plucked string above it"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/snare-drum",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "ff3da08d48b466828cf8",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What are timpani also commonly called?",
+    "answers": [
+      "Cymbals",
+      "Kettledrums",
+      "Maracas",
+      "Castanets"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/timpani",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "645eee420cf4ca371cdd",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What kind of instruments are maracas?",
+    "answers": [
+      "Rattles shaken by hand",
+      "Bowed string instruments",
+      "Brass instruments with valves",
+      "Keyboard instruments with bellows"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/maraca",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "0b23a0a334c21ea2cf7e",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "How are castanets typically sounded?",
+    "answers": [
+      "By bowing strings",
+      "By blowing across a mouth hole",
+      "By pressing piano pedals",
+      "By clicking small shells or pieces together"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/castanets",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "e22ce36d6ae779f7f56f",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "Which percussion instrument is a metal rod bent into a three-sided shape and struck with a beater?",
+    "answers": [
+      "Tambourine",
+      "Maraca",
+      "Triangle",
+      "Gong"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/triangle",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "40f80a1f6cf6e056d2c7",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "Which percussion instrument is typically a large metal disc suspended and struck with a mallet?",
+    "answers": [
+      "Accordion",
+      "Gong",
+      "Clarinet",
+      "Violin"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/gong",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "2ca48de12412118c1c4d",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "Which instrument has a hand-held frame with small metal jingles?",
+    "answers": [
+      "Tambourine",
+      "Tuba",
+      "Bassoon",
+      "Harp"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/tambourine",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "f20d5f0b1f973f189190",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "Unlike a piano's hammers, what usually makes a harpsichord's strings sound?",
+    "answers": [
+      "A player blowing across them",
+      "A bow moving along them",
+      "A spinning metal disc",
+      "A plucking mechanism"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.bate.ox.ac.uk/harpsichord",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "8d1636ba60219699d4bc",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "In a standard four-part choir with soprano, alto, tenor and bass parts, which part is highest?",
+    "answers": [
+      "Tenor",
+      "Bass",
+      "Soprano",
+      "Alto"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/soprano",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "db30cdd51c5c7458ddaf",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "In a standard four-part choir with soprano, alto, tenor and bass parts, which part is lowest?",
+    "answers": [
+      "Soprano",
+      "Bass",
+      "Tenor",
+      "Alto"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/bass",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "9c742064f28486de7912",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "Among the usual adult male classical voice types, which is generally higher than baritone and bass?",
+    "answers": [
+      "Tenor",
+      "Bass",
+      "Baritone",
+      "Contrabass"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/tenor",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "675477fbd2013e96ca17",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "Which adult male classical voice type normally lies between tenor and bass?",
+    "answers": [
+      "Soprano",
+      "Contralto",
+      "Treble",
+      "Baritone"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/baritone",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "31073ca34dbb5471f08e",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What does falsetto describe in singing?",
+    "answers": [
+      "Singing as loudly as possible",
+      "Always singing below the normal range",
+      "A high, light vocal register",
+      "Singing with no lyrics at all"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/falsetto",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "2739f6363212deab88b7",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What does a cappella mean in common musical usage?",
+    "answers": [
+      "Singing only in Latin",
+      "Singing without instrumental accompaniment",
+      "Playing a solo drum",
+      "Playing twice as fast"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/a-cappella",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "349b38b9a23f5581502e",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "How many performers are featured in a solo?",
+    "answers": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/solo",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "56de7b34d1161ad7519b",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "How many featured performers does a duet have?",
+    "answers": [
+      "One",
+      "Three",
+      "Four",
+      "Two"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/duet",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "11bb9247ef117e280def",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What does pizzicato tell string players to do?",
+    "answers": [
+      "Play every note as loudly as possible",
+      "Gradually slow down",
+      "Pluck the strings with their fingers",
+      "Bow the strings smoothly"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/pizzicato",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "2e6066244071ea5a12d0",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "How many performers make up a quartet?",
+    "answers": [
+      "Six",
+      "Four",
+      "Three",
+      "Five"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/quartet",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "d8e8b271f7ca3a5ecb0c",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "How many performers make up a quintet?",
+    "answers": [
+      "Five",
+      "Four",
+      "Six",
+      "Seven"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/quintet",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "0fca727fd419d9a1a366",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "How many performers make up a sextet?",
+    "answers": [
+      "Four",
+      "Five",
+      "Seven",
+      "Six"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/sextet",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "2a153c3f28bb8be987ae",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "In choral music, what is a choir?",
+    "answers": [
+      "A quartet of bowed string players",
+      "A group of drummers",
+      "A group of singers",
+      "A group of brass players"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/choir",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "ee2fe5cfde43fa26f25e",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What does an orchestral conductor primarily do?",
+    "answers": [
+      "Plays all the percussion instruments",
+      "Directs the performers during the music",
+      "Writes every piece performed",
+      "Performs every solo part"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/conductor",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "0822ed14807b0956457a",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What does it mean when musicians play the same melody in unison?",
+    "answers": [
+      "They perform the same melody together, at the same pitch or in octaves",
+      "They all play different tunes",
+      "They alternate one note each",
+      "They all stop at different times"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/unison",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "caaf6360eec05f016502",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What is a lullaby traditionally intended to do?",
+    "answers": [
+      "Signal the start of a battle",
+      "Make dancers speed up",
+      "Announce a sports result",
+      "Soothe a child to sleep"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/lullaby",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "5713c2187d0caf359a3a",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "Which art form tells a staged story primarily through singing with instrumental accompaniment?",
+    "answers": [
+      "Stand-up comedy",
+      "Silent cinema",
+      "Opera",
+      "Mime"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/opera",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "1bd0e840966ffe6d3f17",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "Reggae originated in which country?",
+    "answers": [
+      "Greece",
+      "Jamaica",
+      "Sweden",
+      "Japan"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/reggae",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "5c5da8e533025e58d592",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "Flamenco music and dance are especially associated with which country?",
+    "answers": [
+      "Spain",
+      "Norway",
+      "Canada",
+      "Thailand"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/flamenco",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "c36681806f13290d22cb",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "Gospel music is especially associated with which tradition?",
+    "answers": [
+      "Ancient Greek epic recitation",
+      "Traditional military bugle calls",
+      "Medieval court jousting",
+      "Christian worship"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/gospel",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "c32016bf4f078d5b085c",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "Which style especially features rhythmic spoken or chanted words over a beat?",
+    "answers": [
+      "A wordless lullaby",
+      "A solo flute piece",
+      "Rap",
+      "Gregorian chant"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/rap",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "5527985bf5b340e89e17",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "A traditional waltz is usually counted in groups of how many beats?",
+    "answers": [
+      "Five",
+      "Three",
+      "Two",
+      "Four"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/waltz",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "9ec774ec603312eeac2d",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "Which type of music is traditionally written with a strong regular beat for people to walk in step?",
+    "answers": [
+      "A march",
+      "A lullaby",
+      "A free cadenza",
+      "A recitative"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/march",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "e4b9aa71dbbe0189f03b",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What is an overture in an opera or musical?",
+    "answers": [
+      "The audience's final applause",
+      "The printed cast list",
+      "A solo speech after the show",
+      "An opening instrumental piece"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/overture",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "d73c6ca25b0d1e19f899",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "A standard string quartet has two violins, a viola and which other instrument?",
+    "answers": [
+      "Harp",
+      "Guitar",
+      "Cello",
+      "Double bass"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.berliner-philharmoniker.de/en/about-us/orchestra/ensembles/philharmonisches-streichquintett/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "bbeb5dc8e8f9083d2530",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What does vibrato add to a sustained musical note?",
+    "answers": [
+      "A steady drumbeat",
+      "A slight, regular wavering",
+      "An abrupt silence",
+      "A second melody played backwards"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/vibrato",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "f3e8118638c2f9b4023f",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What does improvising in music involve?",
+    "answers": [
+      "Creating music during the performance",
+      "Only copying a recording exactly",
+      "Only playing from a fully fixed score",
+      "Always performing without an audience"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/improvise",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "f6cf394ff46c226e7954",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What is musical accompaniment?",
+    "answers": [
+      "The audience leaving the hall",
+      "A list of ticket prices",
+      "The silence after the final note",
+      "Music supporting a main melody or performer"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/accompaniment",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "bcff0aa69c7387cb0d02",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "In a typical verse-chorus song, which section returns with the same main words and tune?",
+    "answers": [
+      "The spoken introduction only",
+      "The final applause",
+      "The chorus",
+      "The changing verses"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/chorus",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  },
+  {
+    "id": "199acf91ab5c8a433f6c",
+    "categoryID": "12",
+    "difficulty": "easy",
+    "prompt": "What does transposing a piece of music mean?",
+    "answers": [
+      "Changing every rest into a loud note",
+      "Playing or writing it in a different key",
+      "Reversing the order of its lyrics",
+      "Doubling the number of performers"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/transpose",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-12-v1"
+  }
+]

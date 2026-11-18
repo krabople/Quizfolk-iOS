@@ -28,7 +28,7 @@ for name in names:
   answers=draft['answers'][rotation:]+draft['answers'][:rotation]
   qid=hashlib.sha256(('Quizfolk '+version+'\0'+draft['prompt']).encode()).hexdigest()[:20]
   q={'id':qid,'categoryID':draft['categoryID'],'difficulty':'easy','prompt':draft['prompt'],
-     'answers':answers,'correctIndex':answers.index(correct),'source':'Quizfolk original; primary-source fact check',
+     'answers':answers,'correctIndex':answers.index(correct),'source':'Quizfolk original; reference-checked',
      'sourceURL':draft['sourceURL'],'license':'CC BY-SA 4.0','reviewStatus':'individually_reviewed','auditVersion':version}
   questions.append(q)
   ledger.append({'id':qid,'questionSHA256':fingerprint(q),'action':'keep','meaning':decision['meaning'],

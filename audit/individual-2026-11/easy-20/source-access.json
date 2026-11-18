@@ -1,0 +1,408 @@
+{
+  "date": "2026-11-18",
+  "note": "Reference retrieval is not approval; individual author judgments are recorded separately. Private extracts are not republished.",
+  "references": [
+    {
+      "url": "https://art.thewalters.org/object/23.40/",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inspectionMethod": "Direct retrieval blocked; relevant web result/page inspected instead. Failure status retained."
+    },
+    {
+      "url": "https://art.thewalters.org/object/54.1037/",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inspectionMethod": "Direct retrieval blocked; relevant web result/page inspected instead. Failure status retained."
+    },
+    {
+      "url": "https://ces.ufl.edu/wp-content/uploads/sites/416/Baba-Yaga-informational-material-1.pdf",
+      "sha256": "d74dc9bc94eae141dc38a69d33d54012f80a6c48884d65f91a5fa6e1757d5ae2",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://classics.mit.edu/Virgil/aeneid.8.viii.html",
+      "sha256": "24dbfdc242ce5b7acca98441e1864227a1c818092811137fbc621290630a5d4d",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://d.lib.rochester.edu/camelot/text/frequently-asked-questions.html",
+      "sha256": "ffb1ac9363cbfab3e24461de5ac37ff5c312b6830dd5b167ddb6f52afcda84ce",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/ambrosia",
+      "sha256": "21d7c4ad5b11d0755b979538fde39968efb051879bc428d9f9f47eb65fe39d8b",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/ankh",
+      "sha256": "e78560e3e4aab64a630a6d0744277cee47a4b2232e944235217e0939d9bf54fb",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/cupid",
+      "sha256": "da05c86a6aad53c63d5f54a6c8fcc642958e285e9753de69873def400a6eae81",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/dragon",
+      "sha256": "5be4ceb3e7a66ab10145cf77b1763d0e6e078cb9c61cdf3ffbb3b122d6b15036",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/griffin",
+      "sha256": "c5a914fd7180e9ffcd754955e6b573bcec7c13e45a7a653c02d1a51fac28d2c3",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/janus",
+      "sha256": "47fbdba4a1fb0878cc0f92b85f1eea9702d35a97fd768eb1e177fd68477508a1",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/kelpie",
+      "sha256": "36653131e235cc1dbd147e8bb5773cbec72bfa6a1048d3d0a25d12f9761a6e3b",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/kraken",
+      "sha256": "16b8e3ace492c652fae035bd1f97fbb15b3e60a62144456370a6b9da43294ca2",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/mermaid",
+      "sha256": "e04a5ff79b446b7be4c3935365bd6f63d7b17501d7be288ca164e3ec3ed4e20b",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/mount-olympus",
+      "sha256": "4f71e5f25a64462950912cf3db0e289568b22fadb50022e4068e0811e7f7d05d",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/nectar",
+      "sha256": "67b671f8a2b24f2d26dede1e99d77de31fb7579080c04ba862f5f9c62e653a75",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/phoenix",
+      "sha256": "4395e657d16c4777df3e84fa3926a43cf909bcd8e562f31564f0422342c5c20c",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/selkie",
+      "sha256": "03ba24b5185e8e253011affd888984d5b95515104155c305c4bc7bcb93af4546",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/unicorn",
+      "sha256": "8c32aa9fba96ce5024df456eaf9ae3f9c1144b7996e39bb33f37375591f18175",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/vampire",
+      "sha256": "b08fd30678ec608dbb41f897daf57db8a7e3eb8ddf67c43f6011795435839188",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/vesta",
+      "sha256": "e0b48da9ca9eb8ec73c9b2a9ea7e8e1a492473c8ed9b387f4e60a421b043c540",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/werewolf",
+      "sha256": "c9f533d05e5d9211d404734d0293f3dc0d891e24e35c4fdcbfacff9d1b317626",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Loki",
+      "sha256": "d017bb706d37013d4e8e9877a9d2850f96cd5cb89fb172d9f130a66d41b63934",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Round_Table",
+      "sha256": "4bdfc82fdd7eecdf7ba0aa76c965e531046e0ad793aabdfb079b5b77435e2246",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://fitzmuseum.cam.ac.uk/explore-our-collection/highlights/E221955",
+      "status": "fetch_failed",
+      "error": "HTTP Error 503: Service Unavailable",
+      "inspectionMethod": "Direct retrieval blocked; relevant web result/page inspected instead. Failure status retained."
+    },
+    {
+      "url": "https://fitzmuseum.cam.ac.uk/learn-with-us/look-think-do/the-scarab-beetle",
+      "sha256": "1efbccec6ba04bcabfb8ea73379c9f9810b2e7deb9d4a06cf2c2267a1b40581f",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://guides.uflib.ufl.edu/classics/godsandgoddesses",
+      "sha256": "c31fb91472f5b95d127da8d57a5be5d539084cc9933cdeb6a316a714bf04359b",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://historiska.se/en/explore-history/history-hub/freyja-goddess-of-fertility-and-war/",
+      "sha256": "8b02470b7e40f8c1842a4274ab6d624f37eecc41b1c26c4f58f37486b9ee31cc",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://historiska.se/en/explore-history/history-hub/odin-leader-of-the-gods/",
+      "sha256": "03e3023565e28a39f3b927d7f59899b841ccbcd4e86d648a3bdccb9dffe5f15c",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://idp.bl.uk/discover/learning/chinese-astronomy/articles/astrology-and-myth/chang-e-or-the-archer-and-the-moon-goddess/",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inspectionMethod": "Direct retrieval blocked; relevant web result/page inspected instead. Failure status retained."
+    },
+    {
+      "url": "https://jameelcentre.ashmolean.org/collection/921/object/12708",
+      "sha256": "8a9305b93e1fa626187ff26c1bff5cd5c926ed70bdded29fc10f9c2634380803",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://morikami.org/online-exhibitions/masquerade/",
+      "sha256": "5dff3aac44784da58dd1500247555518d32279b2fc70321dd0a99d9fbb37a399",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://myndir.uvic.ca/Nks1867-098v.html",
+      "status": "fetch_failed",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+      "inspectionMethod": "Direct retrieval blocked; relevant web result/page inspected instead. Failure status retained."
+    },
+    {
+      "url": "https://read.gov/aesop/091.html",
+      "sha256": "69eb6aa14da5f4d15ea6ffb5cccf39974ede1d1bdd6736f86f96e0c4662217e2",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://routledgetextbooks.com/textbooks/9781138543898/chapter-5.php",
+      "sha256": "aa8adafe9bd8fb0e9293850e415ddbbd562759f8e48ec19af1f114b92d1fc0fe",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://visitsherwood.co.uk/about-robin-hood/",
+      "sha256": "2293df252186b282bc1b940fe6205f11d0e73e7702a4299389440986852d08b3",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://www.collezionegalleriaborghese.it/en/opere/relief-of-remus-and-romulus",
+      "sha256": "f740a8f7369d07c1fba29613049c6c353fb561e35b6f8aad1135495e4b42ecb7",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://www.collinsdictionary.com/dictionary/english/excalibur",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inspectionMethod": "Direct retrieval blocked; relevant web result/page inspected instead. Failure status retained."
+    },
+    {
+      "url": "https://www.etymonline.com/word/Valkyrie",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inspectionMethod": "Direct retrieval blocked; relevant web result/page inspected instead. Failure status retained."
+    },
+    {
+      "url": "https://www.getty.edu/cona/CONAIconographyRecord.aspx?iconid=901001704",
+      "sha256": "dfd573be12fab78f80f5c7a6b2a4e3cd754d3cf428f41c6095a892d43841b6cc",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://www.historiskmuseum.no/english/exhibitions/midgardr/index.html",
+      "status": "fetch_failed",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+      "inspectionMethod": "Direct retrieval blocked; relevant web result/page inspected instead. Failure status retained."
+    },
+    {
+      "url": "https://www.loc.gov/exhibits/dreamofflight/dream-dream.html?loclr=blogadm",
+      "sha256": "eae81d3b70434a329e3a5a7f2054c472f16330ed299389329fc4b29e769ec3bb",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/545969",
+      "status": "fetch_failed",
+      "error": "HTTP Error 429: Too Many Requests",
+      "inspectionMethod": "Direct retrieval blocked; relevant web result/page inspected instead. Failure status retained."
+    },
+    {
+      "url": "https://www.metmuseum.org/de/perspectives/seven-necessary-dragons",
+      "status": "fetch_failed",
+      "error": "HTTP Error 429: Too Many Requests",
+      "inspectionMethod": "Direct retrieval blocked; relevant web result/page inspected instead. Failure status retained."
+    },
+    {
+      "url": "https://www.nma.gov.au/about/media/media-releases-listing-by-year/2023/adam-duncan-bunyip-stars-book",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inspectionMethod": "Direct retrieval blocked; relevant web result/page inspected instead. Failure status retained."
+    },
+    {
+      "url": "https://www.theoi.com/Daimon/Hypnos.html",
+      "sha256": "272635475b4403fbc6ece598538c1e47f0f2084cfd516db56dc64fcc378c24b3",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://www.theoi.com/Daimon/Tykhe.html",
+      "sha256": "177e8e3194ac135ab2248677c74da222e0392e3cacd8295bb2bfb5328047d732",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://www.theoi.com/Gigante/GigantesKyklopes.html",
+      "sha256": "ee6a3bf96b5b466c958203361eac9a1a0d46e0170e8775d5fe672f34f4fdc98b",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://www.theoi.com/Heroine/Pandora.html",
+      "sha256": "ac473cdfd0ab3aa26ae88cadb704c945c21a6ee2ccb7f634ca20c9e8e3ff5e01",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://www.theoi.com/Heros/Midas.html",
+      "sha256": "66a015395c1b13df3740e38873272e137374da4ef0811aeb1b3cf5bb9c99cda4",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://www.theoi.com/Khthonios/Haides.html",
+      "sha256": "d901df1a24b95ac2a80ec84f7c6039bffc24ae8840cff34db1c461a30dc0a8ca",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://www.theoi.com/Khthonios/Kharon.html",
+      "sha256": "ea498cb5a3eaca08205812c4cbf9f6d2fa03c3a5c7891b5b3b3acb063b529872",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://www.theoi.com/Khthonios/PotamosStyx.html",
+      "sha256": "40abee1f73d45b339f688ef891f632293b5281c9fb0d6a4d8fc4f488e411bb9c",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://www.theoi.com/Kosmos/Tartaros.html",
+      "sha256": "35ec11b3bfb0fe76997990c51c4ec5d56b5e691d046ce512a15179bd4cec6211",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://www.theoi.com/Nymphe/NympheEkho.html",
+      "sha256": "4b290c10be3f3383d4ed81c6fcae130f2e81deb5cbb264534766e3dab8eada2b",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://www.theoi.com/Olympios/Aphrodite.html",
+      "sha256": "b8f24c6d89db030621b6c5fcfbd6466722c2e8fc1e70b25e56ebe28a6b0fed9c",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://www.theoi.com/Olympios/Demeter.html",
+      "sha256": "6b0697a4686959dcce7139530f6f9ee3ae1e8bada0810de8a0d5c05902a40207",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://www.theoi.com/Olympios/Hera.html",
+      "sha256": "d7384656a4e84b2307f6862c68dd3d99b9e5fb5c681043b76261576644399b84",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://www.theoi.com/Olympios/Hermes.html",
+      "sha256": "3e7c17dbd6b513e11873ba7b57fb82153732129084636e8237a5f21fed23ad35",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://www.theoi.com/Pontios/Gorgones.html",
+      "sha256": "cc0ffa0bbc9297c1db53ae95e4f1d26d7a4ed0f5c835b63f328877ad05c7a53d",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://www.theoi.com/Ther/DrakonHydra.html",
+      "sha256": "32cdc2824028e93450382f609313552a37b88c1a314f4bf0477ca6e738ef66ba",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://www.theoi.com/Titan/Eos.html",
+      "sha256": "5b0d93bace47bf1c3f3c365927538110e5761d0350636c4dc2780c761d242a53",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://www.theoi.com/Titan/Phaethon.html",
+      "sha256": "b6f3793ee14643440114e4a4e9761891bfc8fa80c8e25cf32822bc4953a258e1",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://www.theoi.com/Titan/TitanAtlas.html",
+      "sha256": "3fec0b354caf1e55c391fcd311c0c5a177c0d9e5f4659b123a1456e2cc419f6a",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://www.theoi.com/greek-mythology/heroes.html",
+      "sha256": "313a0d30c97d1b3e75749859fb67f9a8ec8e1762f56d81d966a2ed563805069c",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://www.theoi.com/greek-mythology/underworld-gods.html",
+      "sha256": "2362c3811b9372fbce7aadf861bf35099d2cc0f0f05124605a281491f3123748",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant extracted definition, passage or object description inspected"
+    },
+    {
+      "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/religion/deitiesplaces.html",
+      "status": "fetch_failed",
+      "error": "HTTP Error 403: Forbidden",
+      "inspectionMethod": "Direct retrieval blocked; relevant web result/page inspected instead. Failure status retained."
+    }
+  ]
+}

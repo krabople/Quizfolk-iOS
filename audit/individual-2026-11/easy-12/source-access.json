@@ -1,0 +1,606 @@
+{
+  "date": "2026-11-18",
+  "note": "Retrieval hashes identify reference material, not approval. Definitions-only cache hashes are explicitly labelled; whole-response hashes used where available. Private text stays outside public repository.",
+  "references": [
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/a-cappella",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "28b9312b02f7790740bf1b8e31209fc47076859cc7abffaa52b47155e6ccb35e",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/accelerando",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "f69faaca2ab06bd18e8dd60adf0c57e5acdd78c5e72a462c044c937a90fc5b16",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/accompaniment",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "59f0a030dcb304eacd8e80a569c250df0151b9e983d6b7a00f8716e802e5998c",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/accordion",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "22c6adfc74849331a6f65cf23e7d5863a816e2bfa212a0299f126e01479462b5",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/adagio",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "e5bff00f3b84751250571a0fe0723b0255b22f9b0678d674d7dc858c2832a84a",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/andante",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "8a40482ca6a6f4bc6cb91f7437dc60c3ec31ab10d1fdf08c180694a4bed91c03",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/arpeggio",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "47aca98e7962fd92cd75d76b5e47e2a13491df024edae4efee058ad3f0cc6acd",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/bagpipes",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "18d19e32e9dfc841f8b313431781c0426395e7d74d39ee31b1956f3f88e0a813",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/bar",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "f9ca7ae1e828c85aa4645ecffe60e3018c2c6f190d1af4eb52ffd012ed17ff47",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/baritone",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "dc0b5d124750b92dcc48f79d12c8e3a646b37d1e9e3aa23efc03cd621b8dd9a0",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/bass",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "4d32090e5db41c2585cd4c34f61db1fc70769804df7fa906806c470d52de57bd",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/capo",
+      "sha256": "ef2f57074e0a19d10b1c843db254b3cddb9ec2f6721492cfa6c270f0cd20956c",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/castanets",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "5f839fe16275e2e70792965739b109a440960b16a54b4c5f85d35e069b260a02",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/cello",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "ac8705b43ac04629b932118c5f2556b8c9828afe271dd03407b57873f46d43db",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/choir",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "5026aa33e583332fb73e4de96b88e5c916e6191e42e5385fe007e91cb68fb8cb",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/chord",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "56e4456cabfd3635aba0c2b3d18a0344c7f6e591555dff2d0671d7f1a913ba78",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/chorus",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "bd90a6c62376d10f5099f2c77b529f34232d24afd1de0a3a7d570b197886360a",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/clarinet",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "bc9b10a4fb725e7e270940beaa2343de388915969329e44703d941f9c56d0360",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/clef",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "3fb5c76a4a7e6018228da69ad279f88dc1329ebfd5fba00ed5cce1f184b99472",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/conductor",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "b8d18736f84b9d5b57bc6c849341389c358e84a367e1c0735ce29a1eebc45639",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/crescendo",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "f53156a6a9b0e4d85d056e4a52ca366f51fc503c825484374b842fe37710c2ca",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/cymbal",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "94d61eda1deabdc9d86dd2ddff019b23aa471e919fc5c5e4d617c4be4555d1be",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/da-capo",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "880cdce60067fc29758f9bc3e2b32390609e4351658fd26b71c4c4e58689662e",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/diminuendo",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "dd4ff476f4b331ede664dadf6f9ade3a7a8663d9a7452eaeb8f9487a40c70f68",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/double-bass",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "b5e03de049175842de2b5c10fe6a227b51cd8122a7c126b8a5d91a5eff0a82d4",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/duet",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "9db83f6ce7fbe821a8379b092bec6509fb5b104cd7d90de41b4a0ddf789e6814",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/dynamics",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "e93bec177c454f746aa72e5114ef963586fea65a4fa79e5b7c952a0fb5d70361",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/eighth-note",
+      "sha256": "43abd4868255f57face5f76314d05ba4282f463b5d951dd702f8e1d7e76dcf65",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/falsetto",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "17c9d716e8feedd279fcc0df10e26141a374fdb57cd017f7ef55f2779105159f",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/fermata",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "3678a5e3b77e0be1e6691a3c1012e9bc7b596b6534720b83f47e25bd5cbb78ed",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/flamenco",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "5ea700ed6612dea3dcaa0bf37fb6b63829a6c371c08381b408bf41aa599b7616",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/flat",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "4ed13119524fa90275c4fd73bcdc88dc17d5aaa384da67be3ed8d47d55a02c7d",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/flute",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "69793720698077f3a4385d72cc5c8db93a8e4b921ef8310733705c3dbecfca0e",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/forte",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "cff6c8f9fa4e000b42cb636d0254215565936a9c20485dcde22a65061ba5c894",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/fortissimo",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "949a0a04ae1bb45b4fc81d1a80f3fbfa8a5fceb95caf9c50cda50c10ba30fa36",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/glockenspiel",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "d27403f9fbc7024c3bb544cb315ecc79e887a26c3700a1a59d820d49c8915447",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/gong",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "59f0db158c5ec4154b6adf6e8ef44a47a59adb424385c5311a40ddd8ab0c975a",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/gospel",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "fd0ba749234d405597f85fea3ba25d36edb1897d4eaf0aaba5d69d40749ee584",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/guitar",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "2c3c22bf4044c49cd5d124356cadddd4a227668af7fc007c23308e4151dc9dc7",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/half-note",
+      "sha256": "7d90610871b08cb9274447fa40d4e710aad7f78158e33dab156beb60f204ced8",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/harmonica",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "6367d5cbfe79122564688bb3df99d43866dae906c22f77fca8c666dd4eb8c51d",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/harmony",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "1cd255b3865fa6f9d3376df0e0c29d3a9cb2fda50a312abea32d6e61423c513d",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/harp",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "7db02fe8fef242693f6792934459b7750a2343084bccfda6952e1592aa3b905f",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/improvise",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "ac995bdb1f82d7d6aa0f3adcce8e638e5e48d88794c64ca2c7430f5c86ae23b9",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/interval",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "40de260d3778ce8b0c0ef4220fcb875bc5238ab734d4395db00fbaf8311146fb",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/key-signature",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "3517a58e218fe2aafc7d58043396e86e1b320998ad3a541469bf5ca54709c905",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/legato",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "5d64772e025a9f0d91367d495ceed42d9e4eb0a3039f9d7143b76c4ed968a617",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/lullaby",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "4ffd3980dd3363739db148d7583df166846176d659a951a62240830aca0c0c25",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/lyrics",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "23f04a477bc5decd7c1110c70849da8e2c735c895903c6eb50fc94d4b6b59f65",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/maraca",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "089626cdfeecdaf4281232a8df8c21a100111297b43e6f70863b55a42ec497cd",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/march",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "2d69965af0b3a8180bebb5f88771772a71d31add0dd1d38883b313bfaecc717e",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/melody",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "f9cfd748e3184b3a54fc8a20f2ebc741aa626eae1044b158d602481bf26d2190",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/mezzo-forte",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "dc7e19f8c6ec51bd421dd45554259bf14964bdd6499e94845fe84de94fdfbf42",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/natural",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "5758d4ceb766aa761d7631da2739370ef306a50c14ebe97374f04fe57715ac9d",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/oboe",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "2bbfad172ba30e98146dfdcd1474cdae19278b8b048ddeba0ee4bf5f60f02299",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/opera",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "9b5401dcdcf88cf01b448416cd38dc2f8d1bec342b937f6dc022f91f33755b23",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/overture",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "5471569aa929b8e7a8de5c1a987d1410906488d2b942e2230cc75b49b9e5854c",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/piano",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "d4f0d46d3a519dcf7a125135cfc461bfda6412ebef5e60f306de6355581a27e3",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/pitch",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "175bdf981feb2b40f0050727ad90802442265ae97c6252f65244bbe9e6c6e358",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/pizzicato",
+      "sha256": "7d0b7a1962b50315e2134d6eafbad19699b73667634649263cdfe942b4381e53",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/quarter-note",
+      "sha256": "eb8225d7d92161a35fabdef5ff37947302e3ecbfd8671e34960fded4bb3f8db1",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/quartet",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "5d3f7dd0ec37cc6258f4178e9ee2cde03dd0ad90d41b1ecf7fe50ad0f5ea5128",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/quintet",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "824e7bf5df4fa151087956cf7964c0dca6bd0844cc5eedc7faf84d93088739c4",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/rap",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "45de7091cd50704a2ab4f2dcfc0e3517a806b1d304995574ceac6e81e8c974d5",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/reggae",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "91fba2a660f258a9222214cc3766c71da141836f5616bb62f83a1ca4aa17a3ba",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/rest",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "6c25a0949bc9b35665eda5e84f8c9a28b512ae0e452a3fa25229cfcc03e5261a",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/rhythm",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "be98357d2c9382f26af87c7742d2f9bfa09405ff4870bb87ba7b2ca8997318e6",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/ritardando",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "fa59632361266340aa9e56379513611b54a7472dcce5fb2fe0ed1674ac844f81",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/score",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "7ba6350fc519e538c7e1b03d2d0ebf986d80401f69a07ed9d6aba27814d4b4cc",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/sextet",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "702d0681a0d614f58d5ab5c9408005f067baeed3ff8339a450faf7059a1e8e21",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/sharp",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "43837f2e1168b94cd04fb8829d575d7e7b0e3e6d9a304ae5917c7fb33ab163fa",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/snare-drum",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "82739a233b4ed8969808ecdbe57460e2a7ce6b8a41988e464fa30720d64439fa",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/solo",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "eeabd21842c3f0d1fc087b2d60754faf00baf7bd089ad6103353dc5b61cc32ce",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/soprano",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "57e76a2b79640ab2301b1570d7b392086c501797c10a845dbd63bb373420f1cd",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/staccato",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "3d8b94bac69dbeaf13482716b3a5ba1d5eb89686fb145dbc2d21b6cd58d93df0",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/stave",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "cb2e0b91d9cab0ff656a17a1a7e3492a67250c9968de09995b5ceaa7d4b8e283",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/tambourine",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "d58feb7162b46e31dee47f463bbfbb6765fa81d7b7aaaba879a847af4694ae12",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/tempo",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "632b6e14de5d4f5b4fc53c87bf766254cf058a01e6d8cec6fa5f29f4a9636f45",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/tenor",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "b499f5b8535158676a281cda1640682fec93f953d77e119851e7f19fba7434dc",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/timbre",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "24b8a9e396736821477bdee0c54e7ca147150cfabc16cd21cf20c021cec0f461",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/time-signature",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "e015990921aa465cdf106e85f5a95d963f011865ac75b8ceb093ef2263d7532d",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/timpani",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "bd0ebf9ba432c55546ebdec69f1361e7c1cb0721d4afd048384600ecbdefda42",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/transpose",
+      "sha256": "dd5823ddead0bd4bd7195f0f8dab6d7ae0981ab5a90702aab70d83388b464414",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/triangle",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "bf424f185b01ead6feb6b002cb31296f24ec3d7625d8b8399f469056174ae4b2",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/trombone",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "0db49b713b24ac4edffbcbf2625e538824141f96239434dd98aad83432be0cdb",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/tuning",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "d27310018844b15b0c1a5eaf27dc1fbefb60e9a2b9baf464d09dadf7cffdce11",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/ukulele",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "bbc1c5de27bed7d96eca21881f0b94b44a2beaeb7b98691cac53faed9c29819b",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/unison",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "748e48d3ea18c7add65ec29e1b9673d54ba3794588320810895f0b2966ccef27",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/vibrato",
+      "sha256": "2ecbecdf89d377945bb08b3c848704bed3e8f8c1dd4fe04c4bfa8c2ece0c8541",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/violin",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "d90d325a5d6b033c0b6df294a5fd829f385c864a28e804e8a114d819959cc962",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/waltz",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "4bfe189701d4f242167b1c6818cf101db8570b6a6693749a0ba7d8c66659bd09",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/whole-note",
+      "sha256": "62f3bbcd5e4d6e09cb928b3fd4feca1908166f2e68267c8f7418da64f233217f",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/xylophone",
+      "status": "retrieved_for_inspection",
+      "extractedDefinitionsSHA256": "d054bf0d15f923379b6868a067961fb4e947ed34d7dae1c24f6623c926ce29c5",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://hub.yamaha.com/winds/wood/the-woodwind-family-explained/",
+      "sha256": "d8d82dac82c6129ff91d8fdd39a1a30f8e5dccd339f7e193551a470a2f068490",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://philharmonia.co.uk/resources/instruments/tuba/",
+      "sha256": "f18e974ffd52dba1f4f911dd6a06a610bbff6b47ec6339819541c26644d849c3",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://philharmonia.co.uk/resources/instruments/viola/",
+      "sha256": "5b896805c21175d3e3855e3870097a24cf32a0f8675a3eb5b030182e87e74c4d",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://www.bate.ox.ac.uk/harpsichord",
+      "sha256": "bbb0b398c25f20fa09904471531d7e589d0fa9875a891a9d1556b70335a852a5",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://www.berliner-philharmoniker.de/en/about-us/orchestra/ensembles/philharmonisches-streichquintett/",
+      "sha256": "ffe033a585f5b34c8cd2152c278548aaccb71f32e53129a588002f6f61d1ee78",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/presto_2",
+      "sha256": "535c54e0ae9619253846176dda7a86ec028bebd092a7920b936fe698d43e3f8f",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    },
+    {
+      "url": "https://www.yamaha.com/en/musical_instrument_guide/piano/index.html",
+      "sha256": "4cbcd99d06eb636f70cfa1f427218d2dd5f09744775a31858d747bf6d63e0d28",
+      "status": "retrieved_for_inspection",
+      "inspectionMethod": "Relevant musical definitions or instrument-guide passages inspected; item-specific judgment recorded separately."
+    }
+  ]
+}

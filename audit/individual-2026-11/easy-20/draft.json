@@ -1,0 +1,1602 @@
+[
+  {
+    "draftID": "easy-20-001",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which Greek goddess is especially associated with love and beauty?",
+    "answers": [
+      "Aphrodite",
+      "Demeter",
+      "Hestia",
+      "Artemis"
+    ],
+    "correctIndex": 0,
+    "rationale": "Aphrodite is goddess of love and beauty; the other goddesses have different principal associations.",
+    "sourceURL": "https://art.thewalters.org/object/23.40/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-002",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which Greek goddess is especially associated with hunting?",
+    "answers": [
+      "Artemis",
+      "Aphrodite",
+      "Hestia",
+      "Demeter"
+    ],
+    "correctIndex": 0,
+    "rationale": "Artemis is goddess of the hunt; the alternatives concern love, hearth and agriculture.",
+    "sourceURL": "https://art.thewalters.org/object/23.40/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-003",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which Greek goddess is especially associated with agriculture and the harvest?",
+    "answers": [
+      "Demeter",
+      "Hestia",
+      "Hera",
+      "Aphrodite"
+    ],
+    "correctIndex": 0,
+    "rationale": "Demeter concerns agriculture; Hestia hearth, Hera marriage and Aphrodite love.",
+    "sourceURL": "https://art.thewalters.org/object/23.40/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-004",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which Greek goddess is associated with the hearth and home?",
+    "answers": [
+      "Hestia",
+      "Artemis",
+      "Aphrodite",
+      "Athena"
+    ],
+    "correctIndex": 0,
+    "rationale": "Hestia is the hearth goddess; other goddesses differ.",
+    "sourceURL": "https://art.thewalters.org/object/23.40/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-005",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which Greek god is the messenger of the gods?",
+    "answers": [
+      "Hermes",
+      "Ares",
+      "Hephaestus",
+      "Dionysus"
+    ],
+    "correctIndex": 0,
+    "rationale": "Hermes is the divine messenger; alternatives are war, metalworking and wine gods.",
+    "sourceURL": "https://art.thewalters.org/object/23.40/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-006",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which Greek god rules the underworld?",
+    "answers": [
+      "Hades",
+      "Zeus",
+      "Apollo",
+      "Hermes"
+    ],
+    "correctIndex": 0,
+    "rationale": "Hades rules the underworld; Hermes guides souls but is not its ruler.",
+    "sourceURL": "https://www.theoi.com/Khthonios/Haides.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-007",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which mountain is traditionally the home of the Olympian gods?",
+    "answers": [
+      "Mount Olympus",
+      "Mount Etna",
+      "Mount Vesuvius",
+      "Mount Sinai"
+    ],
+    "correctIndex": 0,
+    "rationale": "Olympus is their traditional home; other mountains are not the Olympian seat.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/mount-olympus",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-008",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which three-pronged weapon is a familiar attribute of Poseidon?",
+    "answers": [
+      "A trident",
+      "A bow",
+      "A sling",
+      "A spear with one point"
+    ],
+    "correctIndex": 0,
+    "rationale": "Poseidon's trident has three prongs; other weapons do not match.",
+    "sourceURL": "https://art.thewalters.org/object/23.40/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-009",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which weapon is especially associated with Zeus in Greek art?",
+    "answers": [
+      "A thunderbolt",
+      "A trident",
+      "A bow",
+      "A hammer"
+    ],
+    "correctIndex": 0,
+    "rationale": "Zeus wields a thunderbolt; the alternatives are associated with other deities or heroes.",
+    "sourceURL": "https://art.thewalters.org/object/23.40/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-010",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which bird is especially associated with Athena?",
+    "answers": [
+      "The owl",
+      "The swan",
+      "The peacock",
+      "The dove"
+    ],
+    "correctIndex": 0,
+    "rationale": "Athena's familiar bird is the owl; other birds have other associations.",
+    "sourceURL": "https://art.thewalters.org/object/23.40/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-011",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "What feature of Hermes's sandals is often shown in Greek and Roman art?",
+    "answers": [
+      "Wings",
+      "Wheels",
+      "Claws",
+      "Hooves"
+    ],
+    "correctIndex": 0,
+    "rationale": "Winged sandals indicate the messenger's speed; the other features do not describe the usual attribute.",
+    "sourceURL": "https://www.theoi.com/Olympios/Hermes.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-012",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which bird is especially associated with Hera in classical mythology?",
+    "answers": [
+      "The peacock",
+      "The owl",
+      "The eagle",
+      "The swallow"
+    ],
+    "correctIndex": 0,
+    "rationale": "Hera is associated with the peacock, unlike Athena's owl and Zeus's eagle.",
+    "sourceURL": "https://www.theoi.com/Olympios/Hera.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-013",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "In a familiar account of Aphrodite's birth, she emerges from what?",
+    "answers": [
+      "Sea foam",
+      "A burning tree",
+      "A mountain cave",
+      "A rain cloud"
+    ],
+    "correctIndex": 0,
+    "rationale": "The Hesiodic account has her arise from sea foam; variants of parentage are excluded by scope.",
+    "sourceURL": "https://www.theoi.com/Olympios/Aphrodite.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-014",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Who is Persephone's mother in Greek mythology?",
+    "answers": [
+      "Demeter",
+      "Hera",
+      "Hestia",
+      "Artemis"
+    ],
+    "correctIndex": 0,
+    "rationale": "Demeter is Persephone's mother; the other goddesses are not.",
+    "sourceURL": "https://www.theoi.com/Olympios/Demeter.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-015",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Who ferries souls across a river to the Greek underworld?",
+    "answers": [
+      "Charon",
+      "Chiron",
+      "Cronus",
+      "Cerberus"
+    ],
+    "correctIndex": 0,
+    "rationale": "Charon is the ferryman; Chiron a centaur, Cronus a Titan and Cerberus the guard dog.",
+    "sourceURL": "https://www.theoi.com/Khthonios/Kharon.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-016",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which of these rivers belongs to the Greek mythological underworld?",
+    "answers": [
+      "The Styx",
+      "The Thames",
+      "The Nile",
+      "The Tiber"
+    ],
+    "correctIndex": 0,
+    "rationale": "Styx is an underworld river; the other rivers are real-world alternatives, not the named mythic boundary here.",
+    "sourceURL": "https://www.theoi.com/Khthonios/PotamosStyx.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-017",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "In the most familiar depictions, how many heads does Cerberus have?",
+    "answers": [
+      "Three",
+      "One",
+      "Two",
+      "Seven"
+    ],
+    "correctIndex": 0,
+    "rationale": "Cerberus commonly has three heads; ancient variants exist, so prompt qualifies the familiar depiction.",
+    "sourceURL": "https://www.theoi.com/greek-mythology/underworld-gods.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-018",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "In familiar Greek depictions, what grows on Medusa's head in place of hair?",
+    "answers": [
+      "Snakes",
+      "Feathers",
+      "Flowers",
+      "Antlers"
+    ],
+    "correctIndex": 0,
+    "rationale": "Medusa has snake hair in familiar versions; the other features are not the traditional motif.",
+    "sourceURL": "https://www.theoi.com/Pontios/Gorgones.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-019",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "What happens to people who look directly at Medusa in the familiar Greek story?",
+    "answers": [
+      "They turn to stone",
+      "They become invisible",
+      "They turn into birds",
+      "They lose their shadows"
+    ],
+    "correctIndex": 0,
+    "rationale": "Medusa's gaze petrifies; the other magical effects are not hers.",
+    "sourceURL": "https://www.theoi.com/Pontios/Gorgones.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-020",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "What is the distinctive eye arrangement of a Cyclops?",
+    "answers": [
+      "One eye in the centre of the forehead",
+      "Three eyes around the head",
+      "Two eyes on long stalks",
+      "No eyes at all"
+    ],
+    "correctIndex": 0,
+    "rationale": "Cyclopes are one-eyed; other arrangements do not describe the mythic beings.",
+    "sourceURL": "https://www.theoi.com/Gigante/GigantesKyklopes.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-021",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "What kind of monster is the Lernaean Hydra?",
+    "answers": [
+      "A many-headed serpent",
+      "A winged horse",
+      "A one-eyed giant",
+      "A half-human horse"
+    ],
+    "correctIndex": 0,
+    "rationale": "Hydra is a many-headed serpent; Pegasus, Cyclops and centaur descriptions are alternatives.",
+    "sourceURL": "https://www.theoi.com/Ther/DrakonHydra.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-022",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which Greek hero kills the Minotaur in the Labyrinth?",
+    "answers": [
+      "Theseus",
+      "Jason",
+      "Orpheus",
+      "Perseus"
+    ],
+    "correctIndex": 0,
+    "rationale": "Theseus slays the Minotaur; the other heroes have different adventures.",
+    "sourceURL": "https://www.theoi.com/greek-mythology/heroes.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-023",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "In Greek legend, who is Icarus's father and the maker of their wings?",
+    "answers": [
+      "Daedalus",
+      "Minos",
+      "Theseus",
+      "Midas"
+    ],
+    "correctIndex": 0,
+    "rationale": "Daedalus makes the wings and is Icarus's father; others are different figures.",
+    "sourceURL": "https://art.thewalters.org/object/54.1037/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-024",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "In the story of Icarus, what happens when he flies too close to the Sun?",
+    "answers": [
+      "The wax holding his wings melts",
+      "His wings turn to stone",
+      "He becomes a god",
+      "The Sun stops moving"
+    ],
+    "correctIndex": 0,
+    "rationale": "Heat melts the wax, causing the artificial wings to fail.",
+    "sourceURL": "https://www.loc.gov/exhibits/dreamofflight/dream-dream.html?loclr=blogadm",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-025",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "What does King Midas's famous touch turn things into?",
+    "answers": [
+      "Gold",
+      "Silver",
+      "Stone",
+      "Ice"
+    ],
+    "correctIndex": 0,
+    "rationale": "The golden touch changes contacted objects to gold, not the other materials.",
+    "sourceURL": "https://www.theoi.com/Heros/Midas.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-026",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "In Greek myth, Narcissus falls in love with whose reflection?",
+    "answers": [
+      "His own",
+      "His father's",
+      "Zeus's",
+      "Apollo's"
+    ],
+    "correctIndex": 0,
+    "rationale": "Narcissus is captivated by his own reflected image; other people are wrong.",
+    "sourceURL": "https://www.theoi.com/greek-mythology/heroes.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-027",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "What is the nymph Echo left able to repeat in the familiar Greek story?",
+    "answers": [
+      "The last words spoken by others",
+      "Only birdsong",
+      "Only her own name",
+      "Only the first word of a sentence"
+    ],
+    "correctIndex": 0,
+    "rationale": "Echo can repeat another's final words, not freely speak complete new thoughts.",
+    "sourceURL": "https://www.theoi.com/Nymphe/NympheEkho.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-028",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "In the traditional story of Pandora's jar, what remains inside after its lid is closed?",
+    "answers": [
+      "Hope",
+      "Youth",
+      "Gold",
+      "Victory"
+    ],
+    "correctIndex": 0,
+    "rationale": "Hope, Elpis, remains; interpretations of its meaning vary but the named thing is hope.",
+    "sourceURL": "https://www.theoi.com/Heroine/Pandora.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-029",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Into what creature is the weaver Arachne transformed?",
+    "answers": [
+      "A spider",
+      "A bee",
+      "A butterfly",
+      "A scorpion"
+    ],
+    "correctIndex": 0,
+    "rationale": "Arachne becomes a spider, continuing the weaving association.",
+    "sourceURL": "https://www.theoi.com/greek-mythology/heroes.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-030",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "In Hesiod's account of Greek myth, what does Atlas hold up?",
+    "answers": [
+      "The sky",
+      "The Earth",
+      "The Moon",
+      "The sea"
+    ],
+    "correctIndex": 0,
+    "rationale": "Atlas bears the heavens; popular pictures of a globe can cause the Earth misconception.",
+    "sourceURL": "https://www.theoi.com/Titan/TitanAtlas.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-031",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which vehicle does Phaethon unsuccessfully try to drive in Greek myth?",
+    "answers": [
+      "The chariot of the Sun",
+      "Poseidon's boat",
+      "Hermes's wagon",
+      "Hades's coach"
+    ],
+    "correctIndex": 0,
+    "rationale": "Phaethon drives the solar chariot and loses control; other vehicles are not his story.",
+    "sourceURL": "https://www.theoi.com/Titan/Phaethon.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-032",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "In Greek mythology, what is nectar?",
+    "answers": [
+      "The drink of the gods",
+      "The gods' armour",
+      "A river in the underworld",
+      "A sacred weapon"
+    ],
+    "correctIndex": 0,
+    "rationale": "Nectar is divine drink in the ordinary classical distinction; other categories are wrong.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/nectar",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-033",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "In Greek mythology, what is ambrosia commonly described as?",
+    "answers": [
+      "The food of the gods",
+      "A king's crown",
+      "A hero's shield",
+      "A sea monster"
+    ],
+    "correctIndex": 0,
+    "rationale": "Ambrosia is divine food in the familiar distinction from nectar.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/ambrosia",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-034",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "What is Tartarus in Greek mythology?",
+    "answers": [
+      "A deep place of imprisonment and punishment",
+      "A mountain where the Muses sing",
+      "A flying horse",
+      "A magical cloak"
+    ],
+    "correctIndex": 0,
+    "rationale": "Tartarus is the deep underworld prison, not a mountain, animal or garment.",
+    "sourceURL": "https://www.theoi.com/Kosmos/Tartaros.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-035",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which Greek deity personifies sleep?",
+    "answers": [
+      "Hypnos",
+      "Thanatos",
+      "Eros",
+      "Ares"
+    ],
+    "correctIndex": 0,
+    "rationale": "Hypnos is sleep; Thanatos death, Eros love/desire and Ares war.",
+    "sourceURL": "https://www.theoi.com/Daimon/Hypnos.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-036",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Who is king of the gods in Roman mythology?",
+    "answers": [
+      "Jupiter",
+      "Mercury",
+      "Mars",
+      "Vulcan"
+    ],
+    "correctIndex": 0,
+    "rationale": "Jupiter is the chief Roman deity; the others have different roles.",
+    "sourceURL": "https://guides.uflib.ufl.edu/classics/godsandgoddesses",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-037",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which Roman goddess is especially associated with marriage and is Jupiter's wife?",
+    "answers": [
+      "Juno",
+      "Venus",
+      "Diana",
+      "Minerva"
+    ],
+    "correctIndex": 0,
+    "rationale": "Juno is Jupiter's consort and marriage goddess; alternatives differ.",
+    "sourceURL": "https://guides.uflib.ufl.edu/classics/godsandgoddesses",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-038",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which Roman god is especially associated with the sea?",
+    "answers": [
+      "Neptune",
+      "Jupiter",
+      "Mercury",
+      "Vulcan"
+    ],
+    "correctIndex": 0,
+    "rationale": "Neptune is the sea god; the others concern sky, messages/trade and fire.",
+    "sourceURL": "https://guides.uflib.ufl.edu/classics/godsandgoddesses",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-039",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which Roman goddess is especially associated with love and beauty?",
+    "answers": [
+      "Venus",
+      "Minerva",
+      "Diana",
+      "Ceres"
+    ],
+    "correctIndex": 0,
+    "rationale": "Venus is the love/beauty goddess; others concern wisdom, hunt and agriculture.",
+    "sourceURL": "https://guides.uflib.ufl.edu/classics/godsandgoddesses",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-040",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which Roman god is the messenger of the gods?",
+    "answers": [
+      "Mercury",
+      "Mars",
+      "Neptune",
+      "Vulcan"
+    ],
+    "correctIndex": 0,
+    "rationale": "Mercury is the messenger; alternatives are other Roman deities.",
+    "sourceURL": "https://guides.uflib.ufl.edu/classics/godsandgoddesses",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-041",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which Roman goddess is especially associated with hunting?",
+    "answers": [
+      "Diana",
+      "Venus",
+      "Juno",
+      "Ceres"
+    ],
+    "correctIndex": 0,
+    "rationale": "Diana is the hunt goddess; alternatives have different principal roles.",
+    "sourceURL": "https://guides.uflib.ufl.edu/classics/godsandgoddesses",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-042",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which Roman goddess is especially associated with wisdom?",
+    "answers": [
+      "Minerva",
+      "Venus",
+      "Diana",
+      "Juno"
+    ],
+    "correctIndex": 0,
+    "rationale": "Minerva is wisdom and crafts goddess; the others differ.",
+    "sourceURL": "https://guides.uflib.ufl.edu/classics/godsandgoddesses",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-043",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which Roman goddess is especially associated with agriculture and grain?",
+    "answers": [
+      "Ceres",
+      "Diana",
+      "Juno",
+      "Venus"
+    ],
+    "correctIndex": 0,
+    "rationale": "Ceres is the grain/agriculture goddess, linked with Demeter.",
+    "sourceURL": "https://guides.uflib.ufl.edu/classics/godsandgoddesses",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-044",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which Roman god is especially associated with wine?",
+    "answers": [
+      "Bacchus",
+      "Mercury",
+      "Mars",
+      "Neptune"
+    ],
+    "correctIndex": 0,
+    "rationale": "Bacchus is the wine deity; the others have different domains.",
+    "sourceURL": "https://guides.uflib.ufl.edu/classics/godsandgoddesses",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-045",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which Roman goddess is associated with the hearth and its sacred fire?",
+    "answers": [
+      "Vesta",
+      "Venus",
+      "Diana",
+      "Juno"
+    ],
+    "correctIndex": 0,
+    "rationale": "Vesta is the hearth goddess, distinct from the alternatives.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/vesta",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-046",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which Roman god is associated with ruling the underworld?",
+    "answers": [
+      "Pluto",
+      "Jupiter",
+      "Mercury",
+      "Mars"
+    ],
+    "correctIndex": 0,
+    "rationale": "Pluto rules the underworld in the familiar Greco-Roman pairing; Mercury guides souls but does not rule.",
+    "sourceURL": "https://guides.uflib.ufl.edu/classics/godsandgoddesses",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-047",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which weapons does Cupid commonly carry in classical art?",
+    "answers": [
+      "A bow and arrows",
+      "A hammer and tongs",
+      "A trident and net",
+      "A sword and shield"
+    ],
+    "correctIndex": 0,
+    "rationale": "Cupid's arrows inspire love; alternatives describe other symbolic equipment.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/cupid",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-048",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "How many faces is the Roman god Janus usually shown with?",
+    "answers": [
+      "Two",
+      "One",
+      "Three",
+      "Four"
+    ],
+    "correctIndex": 0,
+    "rationale": "Janus is usually two-faced, looking in opposite directions.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/janus",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-049",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which Roman god is traditionally associated with sowing and agriculture?",
+    "answers": [
+      "Saturn",
+      "Neptune",
+      "Mercury",
+      "Vulcan"
+    ],
+    "correctIndex": 0,
+    "rationale": "Saturn is an agricultural deity; Ceres is deliberately not offered as another plausible agricultural answer.",
+    "sourceURL": "https://routledgetextbooks.com/textbooks/9781138543898/chapter-5.php",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-050",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Aurora is the Roman goddess of what?",
+    "answers": [
+      "The dawn",
+      "The deep sea",
+      "The hearth",
+      "The harvest"
+    ],
+    "correctIndex": 0,
+    "rationale": "Aurora personifies dawn; the other domains belong to other deities.",
+    "sourceURL": "https://www.theoi.com/Titan/Eos.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-051",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Flora is the Roman goddess especially associated with what?",
+    "answers": [
+      "Flowers and flowering plants",
+      "Storms at sea",
+      "Blacksmithing",
+      "Warfare"
+    ],
+    "correctIndex": 0,
+    "rationale": "Flora is the flowering goddess; alternatives are other domains.",
+    "sourceURL": "https://www.getty.edu/cona/CONAIconographyRecord.aspx?iconid=901001704",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-052",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which Roman goddess personifies luck and fortune?",
+    "answers": [
+      "Fortuna",
+      "Diana",
+      "Juno",
+      "Vesta"
+    ],
+    "correctIndex": 0,
+    "rationale": "Fortuna personifies fortune; the alternatives differ.",
+    "sourceURL": "https://www.theoi.com/Daimon/Tykhe.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-053",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "In the Roman foundation legend, which animal suckles Romulus and Remus?",
+    "answers": [
+      "A she-wolf",
+      "A lioness",
+      "A mare",
+      "A doe"
+    ],
+    "correctIndex": 0,
+    "rationale": "A she-wolf nurses the twins in the familiar legend.",
+    "sourceURL": "https://www.collezionegalleriaborghese.it/en/opere/relief-of-remus-and-romulus",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-054",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which of these legendary figures is associated with the founding of Rome?",
+    "answers": [
+      "Romulus",
+      "Castor",
+      "Pollux",
+      "Achilles"
+    ],
+    "correctIndex": 0,
+    "rationale": "Romulus is the traditional founder; Remus dies in the foundation narrative, Castor/Pollux are other twins.",
+    "sourceURL": "https://www.collezionegalleriaborghese.it/en/opere/relief-of-remus-and-romulus",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-055",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which Trojan hero is the central figure of Virgil's Aeneid?",
+    "answers": [
+      "Aeneas",
+      "Achilles",
+      "Theseus",
+      "Jason"
+    ],
+    "correctIndex": 0,
+    "rationale": "Aeneas is the epic's protagonist; the others belong to different Greek stories.",
+    "sourceURL": "https://classics.mit.edu/Virgil/aeneid.8.viii.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-056",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "In Norse mythology, Thor is especially associated with what?",
+    "answers": [
+      "Thunder",
+      "The harvest Moon",
+      "The underworld's dead",
+      "Writing laws"
+    ],
+    "correctIndex": 0,
+    "rationale": "Thor is the thunder god; other options are not his defining association.",
+    "sourceURL": "https://www.historiskmuseum.no/english/exhibitions/midgardr/index.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-057",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "In familiar Norse tradition, how many eyes does Odin have after his sacrifice for wisdom?",
+    "answers": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "correctIndex": 0,
+    "rationale": "Odin sacrifices one of his two eyes, leaving one.",
+    "sourceURL": "https://historiska.se/en/explore-history/history-hub/odin-leader-of-the-gods/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-058",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "How many legs does Odin's horse Sleipnir have?",
+    "answers": [
+      "Eight",
+      "Four",
+      "Six",
+      "Ten"
+    ],
+    "correctIndex": 0,
+    "rationale": "The museum describes Sleipnir as eight-legged; other counts are wrong.",
+    "sourceURL": "https://www.historiskmuseum.no/english/exhibitions/midgardr/index.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-059",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "What kind of creature is Fenrir in Norse mythology?",
+    "answers": [
+      "A wolf",
+      "A horse",
+      "An eagle",
+      "A dragon"
+    ],
+    "correctIndex": 0,
+    "rationale": "Fenrir is the giant wolf, not the other creatures.",
+    "sourceURL": "https://www.historiskmuseum.no/english/exhibitions/midgardr/index.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-060",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "What kind of creature is Jormungandr in Norse mythology?",
+    "answers": [
+      "A huge snake",
+      "A giant eagle",
+      "A three-headed dog",
+      "A winged horse"
+    ],
+    "correctIndex": 0,
+    "rationale": "Jormungandr is the world serpent; the named epithet and standard description agree.",
+    "sourceURL": "https://www.historiskmuseum.no/english/exhibitions/midgardr/index.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-061",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "In Norse mythology, Valhalla is especially associated with which people after death?",
+    "answers": [
+      "Warriors killed in battle",
+      "Only sailors lost at sea",
+      "Only children",
+      "Only farmers"
+    ],
+    "correctIndex": 0,
+    "rationale": "Valhalla is Odin's hall of chosen battle-slain warriors; prompt avoids claiming all dead people go there.",
+    "sourceURL": "https://historiska.se/en/explore-history/history-hub/odin-leader-of-the-gods/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-062",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "What role do Valkyries have in Norse mythology?",
+    "answers": [
+      "Choosing warriors slain in battle",
+      "Guarding the apples of youth",
+      "Forging Thor's hammer",
+      "Holding up the sky"
+    ],
+    "correctIndex": 0,
+    "rationale": "Valkyries choose the slain; other tasks belong elsewhere.",
+    "sourceURL": "https://www.etymonline.com/word/Valkyrie",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-063",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "In Norse mythology, Midgard is the realm especially associated with whom?",
+    "answers": [
+      "Human beings",
+      "Only giants",
+      "Only dwarfs",
+      "Only dragons"
+    ],
+    "correctIndex": 0,
+    "rationale": "Midgard is the human world; other beings inhabit other mythic places.",
+    "sourceURL": "https://www.historiskmuseum.no/english/exhibitions/midgardr/index.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-064",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "In Norse mythology, Asgard is the home of which group?",
+    "answers": [
+      "The Aesir gods",
+      "Only mortal kings",
+      "Only sea monsters",
+      "Only ordinary farmers"
+    ],
+    "correctIndex": 0,
+    "rationale": "Asgard houses the Aesir; naming them avoids treating every divine group as exclusively based there.",
+    "sourceURL": "https://www.historiskmuseum.no/english/exhibitions/midgardr/index.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-065",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which Norse figure is especially known as a trickster and shapeshifter?",
+    "answers": [
+      "Loki",
+      "Thor",
+      "Baldr",
+      "Heimdall"
+    ],
+    "correctIndex": 0,
+    "rationale": "Loki is the familiar trickster/shapeshifter; the alternatives are not chiefly characterised that way.",
+    "sourceURL": "https://en.wikipedia.org/wiki/Loki",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-066",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "In Norse myth, which god loses a hand when the wolf Fenrir is bound?",
+    "answers": [
+      "Tyr",
+      "Thor",
+      "Baldr",
+      "Njord"
+    ],
+    "correctIndex": 0,
+    "rationale": "Tyr places his hand in Fenrir's mouth and loses it.",
+    "sourceURL": "https://myndir.uvic.ca/Nks1867-098v.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-067",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "What kind of weapon is Odin's Gungnir?",
+    "answers": [
+      "A spear",
+      "A hammer",
+      "A bow",
+      "An axe"
+    ],
+    "correctIndex": 0,
+    "rationale": "Gungnir is Odin's spear; hammer is Thor's weapon instead.",
+    "sourceURL": "https://historiska.se/en/explore-history/history-hub/odin-leader-of-the-gods/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-068",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "In Norse mythology, which animals pull Freyja's chariot?",
+    "answers": [
+      "Cats",
+      "Goats",
+      "Wolves",
+      "Horses"
+    ],
+    "correctIndex": 0,
+    "rationale": "Freyja's chariot is cat-drawn; Thor's is drawn by goats.",
+    "sourceURL": "https://historiska.se/en/explore-history/history-hub/freyja-goddess-of-fertility-and-war/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-069",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which ancient Egyptian god is especially associated with the Sun?",
+    "answers": [
+      "Ra",
+      "Osiris",
+      "Anubis",
+      "Sobek"
+    ],
+    "correctIndex": 0,
+    "rationale": "Ra/Re is the solar deity; other options have different main associations.",
+    "sourceURL": "https://www.ucl.ac.uk/museums-static/digitalegypt/religion/deitiesplaces.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-070",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "In the Egyptian Osiris myth, who is Osiris's wife?",
+    "answers": [
+      "Isis",
+      "Nut",
+      "Sekhmet",
+      "Bastet"
+    ],
+    "correctIndex": 0,
+    "rationale": "Isis is his wife; alternatives are other Egyptian goddesses.",
+    "sourceURL": "https://www.metmuseum.org/art/collection/search/545969",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-071",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which bird's head is Horus commonly shown with in Egyptian art?",
+    "answers": [
+      "A falcon's",
+      "An owl's",
+      "A swan's",
+      "A peacock's"
+    ],
+    "correctIndex": 0,
+    "rationale": "Horus is falcon-headed in familiar imagery; other birds do not identify him.",
+    "sourceURL": "https://www.ucl.ac.uk/museums-static/digitalegypt/religion/deitiesplaces.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-072",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which animal is especially associated with the Egyptian god Sobek?",
+    "answers": [
+      "The crocodile",
+      "The cat",
+      "The ibis",
+      "The ram"
+    ],
+    "correctIndex": 0,
+    "rationale": "Sobek is the crocodile deity, not the other animal associations.",
+    "sourceURL": "https://www.ucl.ac.uk/museums-static/digitalegypt/religion/deitiesplaces.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-073",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "The Egyptian goddess Taweret is commonly shown with the body of which animal?",
+    "answers": [
+      "A hippopotamus",
+      "A cow",
+      "A lioness",
+      "An eagle"
+    ],
+    "correctIndex": 0,
+    "rationale": "Taweret is principally hippopotamus-shaped, with additional composite details; not purely one animal.",
+    "sourceURL": "https://fitzmuseum.cam.ac.uk/explore-our-collection/highlights/E221955",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-074",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which insect is especially associated with the Egyptian god Khepri?",
+    "answers": [
+      "The scarab beetle",
+      "The butterfly",
+      "The dragonfly",
+      "The mosquito"
+    ],
+    "correctIndex": 0,
+    "rationale": "Scarab beetle represents Khepri, linked to the rising Sun.",
+    "sourceURL": "https://fitzmuseum.cam.ac.uk/learn-with-us/look-think-do/the-scarab-beetle",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-075",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which Egyptian god is especially associated with ruling the realm of the dead?",
+    "answers": [
+      "Osiris",
+      "Sobek",
+      "Khnum",
+      "Bes"
+    ],
+    "correctIndex": 0,
+    "rationale": "Osiris rules the dead; other deities are different even though some protect funerary rituals.",
+    "sourceURL": "https://www.ucl.ac.uk/museums-static/digitalegypt/religion/deitiesplaces.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-076",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "What does the ankh symbol represent in ancient Egyptian tradition?",
+    "answers": [
+      "Life",
+      "War",
+      "Silence",
+      "Winter"
+    ],
+    "correctIndex": 0,
+    "rationale": "The ankh is the life sign; the other abstractions are not its meaning.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/ankh",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-077",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "How many horns does the unicorn of familiar European legend have?",
+    "answers": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "correctIndex": 0,
+    "rationale": "A unicorn has one horn, not the other counts.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/unicorn",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-078",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "In familiar legend, what does a phoenix rise from after it dies?",
+    "answers": [
+      "Its own ashes",
+      "A block of ice",
+      "A stone egg buried underground",
+      "A whirlpool"
+    ],
+    "correctIndex": 0,
+    "rationale": "Phoenix rebirth from ashes is the familiar later legendary account.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/phoenix",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-079",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "A griffin traditionally combines an eagle's head and wings with the body of which animal?",
+    "answers": [
+      "A lion",
+      "A horse",
+      "A bull",
+      "A deer"
+    ],
+    "correctIndex": 0,
+    "rationale": "Griffin is eagle/lion composite, not the other mammals.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/griffin",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-080",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "A mermaid is commonly shown with a human upper body and the tail of what?",
+    "answers": [
+      "A fish",
+      "A horse",
+      "A lion",
+      "A bird"
+    ],
+    "correctIndex": 0,
+    "rationale": "The familiar mermaid has a fish tail; other animal tails describe different creatures.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/mermaid",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-081",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "In folklore, a werewolf changes between human form and which animal form?",
+    "answers": [
+      "Wolf",
+      "Bear",
+      "Fox",
+      "Bat"
+    ],
+    "correctIndex": 0,
+    "rationale": "Werewolf is human/wolf shapeshifter; a bat belongs to some vampire lore instead.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/werewolf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-082",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "What do vampires feed on in familiar European folklore?",
+    "answers": [
+      "Blood",
+      "Nectar",
+      "Tree sap",
+      "Honey"
+    ],
+    "correctIndex": 0,
+    "rationale": "Vampire is a blood-drinking revenant in the familiar tradition.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/vampire",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-083",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "What are many European dragons said to breathe?",
+    "answers": [
+      "Fire",
+      "Snow",
+      "Glass",
+      "Sand"
+    ],
+    "correctIndex": 0,
+    "rationale": "Fire-breathing is familiar European dragon trait; not claimed universal to all world dragons.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/dragon",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-084",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "The kraken is traditionally a monster of which environment?",
+    "answers": [
+      "The sea",
+      "The desert",
+      "A volcano",
+      "An underground mine"
+    ],
+    "correctIndex": 0,
+    "rationale": "Kraken is a gigantic sea monster of northern folklore.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/kraken",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-085",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "What kind of object is Excalibur in Arthurian legend?",
+    "answers": [
+      "A sword",
+      "A crown",
+      "A shield",
+      "A cup"
+    ],
+    "correctIndex": 0,
+    "rationale": "Excalibur is Arthur's sword, not the other royal or quest objects.",
+    "sourceURL": "https://www.collinsdictionary.com/dictionary/english/excalibur",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-086",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "In Arthurian legend, Guinevere is the wife of which king?",
+    "answers": [
+      "Arthur",
+      "Mark",
+      "Uther",
+      "Pellinore"
+    ],
+    "correctIndex": 0,
+    "rationale": "Guinevere is Arthur's queen; other Arthurian kings have different roles.",
+    "sourceURL": "https://d.lib.rochester.edu/camelot/text/frequently-asked-questions.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-087",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Why is Arthur's Round Table commonly interpreted as a symbol of equality among his knights?",
+    "answers": [
+      "It has no privileged seat at its head",
+      "It is made of gold",
+      "It belongs to every king",
+      "It has only one chair"
+    ],
+    "correctIndex": 0,
+    "rationale": "A circular table has no head seat, giving equal seating status in the traditional explanation.",
+    "sourceURL": "https://en.wikipedia.org/wiki/Round_Table",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-088",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which English forest is especially associated with Robin Hood?",
+    "answers": [
+      "Sherwood Forest",
+      "The New Forest",
+      "Epping Forest",
+      "Ashdown Forest"
+    ],
+    "correctIndex": 0,
+    "rationale": "Sherwood is the familiar legendary setting; other forests are not the conventional answer.",
+    "sourceURL": "https://visitsherwood.co.uk/about-robin-hood/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-089",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Which sheriff is Robin Hood's traditional enemy?",
+    "answers": [
+      "The Sheriff of Nottingham",
+      "The Sheriff of York",
+      "The Sheriff of Exeter",
+      "The Sheriff of Dover"
+    ],
+    "correctIndex": 0,
+    "rationale": "The Nottingham sheriff is the familiar antagonist in Robin Hood tales.",
+    "sourceURL": "https://visitsherwood.co.uk/about-robin-hood/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-090",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "In Aesop's fable about a goose killed by its greedy owner, what had the goose been laying?",
+    "answers": [
+      "Golden eggs",
+      "Silver apples",
+      "Diamond feathers",
+      "Bronze coins"
+    ],
+    "correctIndex": 0,
+    "rationale": "The goose lays golden eggs; other treasures do not match the fable.",
+    "sourceURL": "https://read.gov/aesop/091.html",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-091",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Sun Wukong, the magical hero of Journey to the West, is what kind of animal?",
+    "answers": [
+      "A monkey",
+      "A tiger",
+      "A dragon",
+      "A crane"
+    ],
+    "correctIndex": 0,
+    "rationale": "Sun Wukong is the supernatural monkey hero of Journey to the West.",
+    "sourceURL": "https://jameelcentre.ashmolean.org/collection/921/object/12708",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-092",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "In Chinese legend, Chang'e is especially associated with which celestial body?",
+    "answers": [
+      "The Moon",
+      "Mars",
+      "Saturn",
+      "The Sun"
+    ],
+    "correctIndex": 0,
+    "rationale": "Chang'e is the moon goddess; alternatives are different celestial bodies.",
+    "sourceURL": "https://idp.bl.uk/discover/learning/chinese-astronomy/articles/astrology-and-myth/chang-e-or-the-archer-and-the-moon-goddess/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-093",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "In Chinese legend, Hou Yi is famous for using which weapon?",
+    "answers": [
+      "A bow and arrows",
+      "A trident",
+      "A war hammer",
+      "A sling"
+    ],
+    "correctIndex": 0,
+    "rationale": "Hou Yi is the legendary archer who shoots excess suns.",
+    "sourceURL": "https://idp.bl.uk/discover/learning/chinese-astronomy/articles/astrology-and-myth/chang-e-or-the-archer-and-the-moon-goddess/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-094",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "In Japanese folklore, a kitsune is what kind of animal?",
+    "answers": [
+      "A fox",
+      "A badger",
+      "A cat",
+      "A crane"
+    ],
+    "correctIndex": 0,
+    "rationale": "Kitsune are foxes, often supernatural shapeshifters in folklore.",
+    "sourceURL": "https://morikami.org/online-exhibitions/masquerade/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-095",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "In Japanese folklore, the kappa is especially associated with which habitat?",
+    "answers": [
+      "Rivers and ponds",
+      "Desert dunes",
+      "Volcanic craters",
+      "High mountain snowfields"
+    ],
+    "correctIndex": 0,
+    "rationale": "Kappa are water beings, not creatures of the other environments.",
+    "sourceURL": "https://morikami.org/online-exhibitions/masquerade/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-096",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "In Scottish folklore, what animal form does a kelpie commonly take?",
+    "answers": [
+      "A horse",
+      "A lion",
+      "An eagle",
+      "A wolf"
+    ],
+    "correctIndex": 0,
+    "rationale": "Kelpie is a water spirit commonly taking horse form; shape-changing variants acknowledged.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/kelpie",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-097",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "In Scottish and Irish folklore, selkies change between human form and which animal form?",
+    "answers": [
+      "Seal",
+      "Dolphin",
+      "Otter",
+      "Whale"
+    ],
+    "correctIndex": 0,
+    "rationale": "Selkies are seal folk who shed their skins to take human form.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/selkie",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-098",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "In familiar Russian tales, Baba Yaga's hut stands on what?",
+    "answers": [
+      "Chicken legs",
+      "Wagon wheels",
+      "Giant mushrooms",
+      "Golden pillars"
+    ],
+    "correctIndex": 0,
+    "rationale": "Chicken-legged hut is a familiar Baba Yaga motif; other supports do not fit.",
+    "sourceURL": "https://ces.ufl.edu/wp-content/uploads/sites/416/Baba-Yaga-informational-material-1.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-099",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "Bunyip stories originate in Aboriginal traditions in which country?",
+    "answers": [
+      "Australia",
+      "Norway",
+      "Japan",
+      "Peru"
+    ],
+    "correctIndex": 0,
+    "rationale": "Bunyip is an Aboriginal Australian water-being tradition; alternatives are other regions.",
+    "sourceURL": "https://www.nma.gov.au/about/media/media-releases-listing-by-year/2023/adam-duncan-bunyip-stars-book",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-20-100",
+    "categoryID": "20",
+    "difficulty": "easy",
+    "prompt": "The name Quetzalcoatl is commonly translated as what?",
+    "answers": [
+      "Feathered serpent",
+      "Golden eagle",
+      "Jaguar king",
+      "Moon rabbit"
+    ],
+    "correctIndex": 0,
+    "rationale": "Quetzalcoatl is the feathered/precious serpent; other phrases identify different symbolic animals.",
+    "sourceURL": "https://www.metmuseum.org/de/perspectives/seven-necessary-dragons",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  }
+]

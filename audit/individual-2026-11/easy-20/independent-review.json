@@ -1,0 +1,756 @@
+{
+  "reviewer": "root (author second editorial pass)",
+  "independent": false,
+  "sourceAccessNote": "One hundred explicit author second-pass judgments, not an independent review or automated approval. Checked actual dictionary senses (planet Pluto/Saturn, generic flora/aurora/change and Greek kappa were unsuitable references), replaced failed or irrelevant initial targets, inspected classical quotations and museum descriptions, and qualified traditions with alternate versions. Corrected giveaway wording, plausible Mars agricultural distractor and Romulus/Remus founder ambiguity. Full extracted reference text stays private; public metadata retains failed retrievals honestly. Loki and Round Table use explicitly identified encyclopaedic entries alongside predominantly museum/classical/dictionary/academic references.",
+  "rows": [
+    {
+      "row": 1,
+      "action": "keep",
+      "prompt": "Which Greek goddess is especially associated with love and beauty?",
+      "note": "Aphrodite alone is the conventional love/beauty goddess among Demeter,Hestia,Artemis. Walters object identifies all their roles; no overlapping love deity offered. Prompt and four names spelled correctly.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 2,
+      "action": "keep",
+      "prompt": "Which Greek goddess is especially associated with hunting?",
+      "note": "Artemis is goddess of hunting, unlike Aphrodite,Hestia,Demeter. Walters hunt identification and UF table agree. Especially associated avoids claiming each deity has only one sphere.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 3,
+      "action": "keep",
+      "prompt": "Which Greek goddess is especially associated with agriculture and the harvest?",
+      "note": "Demeter is agriculture/harvest, unlike Hestia hearth,Hera marriage,Aphrodite love. Museum wheat-sheaf description supports grain/harvest association. Similar wording to an existing Hera question asks a different deity/domain fact.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 4,
+      "action": "keep",
+      "prompt": "Which Greek goddess is associated with the hearth and home?",
+      "note": "Hestia is hearth/home. Artemis,Aphrodite,Athena have other principal roles. Museum and UF table explicitly support; no Roman Vesta in Greek answer choices.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 5,
+      "action": "keep",
+      "prompt": "Which Greek god is the messenger of the gods?",
+      "note": "Hermes is divine messenger; Ares war,Hephaestus metalwork,Dionysus wine. Museum and UF definitions agree. All options Greek gods and exactly one standard messenger.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 6,
+      "action": "keep",
+      "prompt": "Which Greek god rules the underworld?",
+      "note": "Hades rules lower world, as Theoi's classical-source entry states. Zeus and Apollo do not; Hermes guides souls but is not ruler. Ruling wording prevents psychopomp overlap.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 7,
+      "action": "keep",
+      "prompt": "Which mountain is traditionally the home of the Olympian gods?",
+      "note": "Mount Olympus is the Olympians' home in Cambridge's mythological sense. Etna,Vesuvius,Sinai are other named mountains. Highest-mountain geography is not the queried fact.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 8,
+      "action": "keep",
+      "prompt": "Which three-pronged weapon is a familiar attribute of Poseidon?",
+      "note": "Poseidon carries trident with three prongs. Bow,sling,one-point spear differ. Museum object explicitly identifies trident; the one-point qualifier avoids arguing a trident is broadly a spear.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 9,
+      "action": "keep",
+      "prompt": "Which weapon is especially associated with Zeus in Greek art?",
+      "note": "Zeus's thunderbolt is the museum's stated attribute. Trident,bow,hammer identify other divine weapons. Familiar-attribute framing does not claim he could never use other weapons.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 10,
+      "action": "keep",
+      "prompt": "Which bird is especially associated with Athena?",
+      "note": "Athena's owl is explicit in museum object. Swan,peacock,dove are other deity associations. No second owl-associated deity is asked; question names Athena.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 11,
+      "action": "keep",
+      "prompt": "What feature of Hermes's sandals is often shown in Greek and Roman art?",
+      "note": "Theoi distinguishes Homer's golden sandals from later artistic winged ankle/sandal depictions. Prompt explicitly asks art and says often; wings only offered matching attribute. Wheels,claws,hooves not the common sandals feature.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 12,
+      "action": "keep",
+      "prompt": "Which bird is especially associated with Hera in classical mythology?",
+      "note": "Theoi lists peacock as Hera's ordinary attribute. Owl,eagle,swallow are not her familiar identifying bird. Classical includes later Greek/Roman imagery, avoiding assertion that every early Greek representation had a peacock.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 13,
+      "action": "keep",
+      "prompt": "In a familiar account of Aphrodite's birth, she emerges from what?",
+      "note": "Theoi's Hesiodic account has Aphrodite emerge from sea foam. Burning tree,cave,raincloud wrong. 'A familiar account' preserves alternate Zeus/Dione parentage traditions.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 14,
+      "action": "keep",
+      "prompt": "Who is Persephone's mother in Greek mythology?",
+      "note": "Demeter is Persephone's mother in the inspected Theoi entry. Hera,Hestia,Artemis are different goddesses. Similar spelling to Perseus does not duplicate the existing Danae question; possessive correctly placed.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 15,
+      "action": "keep",
+      "prompt": "Who ferries souls across a river to the Greek underworld?",
+      "note": "Charon is ferryman of shades. Chiron centaur,Cronus Titan,Cerberus hound. A river avoids falsely insisting every source uses Styx rather than Acheron; all names distinct.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 16,
+      "action": "keep",
+      "prompt": "Which of these rivers belongs to the Greek mythological underworld?",
+      "note": "Theoi explicitly calls Styx the underworld river. Thames,Nile,Tiber are not that mythic river. Real rivers can appear in stories but wording asks the mythological underworld, making one appropriate answer.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 17,
+      "action": "keep",
+      "prompt": "In the most familiar depictions, how many heads does Cerberus have?",
+      "note": "Theoi underworld list says three-headed Cerberus. Other head counts occur in ancient variants, so familiar-depictions qualifier is necessary and retained. One,two,seven are not the standard familiar portrayal.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 18,
+      "action": "keep",
+      "prompt": "In familiar Greek depictions, what grows on Medusa's head in place of hair?",
+      "note": "Theoi describes Medusa's serpentine hair. Feathers,flowers,antlers not the familiar Gorgon appearance. Prompt qualifies familiar Greek depictions rather than claiming an invariant appearance in every source.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 19,
+      "action": "keep",
+      "prompt": "What happens to people who look directly at Medusa in the familiar Greek story?",
+      "note": "Theoi gives petrification of those who look at Medusa. Invisibility,birds,shadow loss not the effect. Direct viewing distinguishes Perseus's reflected image method already queried elsewhere; the new question asks the danger itself.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 20,
+      "action": "keep",
+      "prompt": "What is the distinctive eye arrangement of a Cyclops?",
+      "note": "Theoi identifies a single eye in the forehead, particularly Polyphemus. Three eyes,two stalked eyes,no eyes do not identify Cyclops. Singular Cyclops and plural beings not conflated.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 21,
+      "action": "keep",
+      "prompt": "What kind of monster is the Lernaean Hydra?",
+      "note": "Lernaean Hydra is many-headed serpent, directly supported by Theoi's Hydra entry and nine-head primary passages. Winged horse,one-eyed giant,centaur descriptions are different monsters. No fixed head count required across variants.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 22,
+      "action": "keep",
+      "prompt": "Which Greek hero kills the Minotaur in the Labyrinth?",
+      "note": "Theoi heroes list calls Theseus slayer of Minotaur. Jason,Orpheus,Perseus have other quests. This asks slayer, unlike existing bull-head/parent/Ariadne questions.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 23,
+      "action": "keep",
+      "prompt": "In Greek legend, who is Icarus's father and the maker of their wings?",
+      "note": "Walters Daidalos/Ikaros object describes Daedalus making feather/wax wings for himself and son Icarus. Minos,Theseus,Midas not father/inventor. Familiar English spelling Daedalus retained.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 24,
+      "action": "keep",
+      "prompt": "In the story of Icarus, what happens when he flies too close to the Sun?",
+      "note": "Library of Congress describes Icarus's fatal near-Sun flight and wax wings. Melting wax is the familiar failure, not stone wings,divinity or halted Sun. No real-world physics claim is made; myth scope explicit.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 25,
+      "action": "keep",
+      "prompt": "What does King Midas's famous touch turn things into?",
+      "note": "Theoi Midas account describes golden touch and food becoming gold. Silver,stone,ice not the granted transformation. King's possessive correctly formed.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 26,
+      "action": "keep",
+      "prompt": "In Greek myth, Narcissus falls in love with whose reflection?",
+      "note": "Theoi states Narcissus loves his own reflection. Father,Zeus,Apollo wrong. Whose reflection wording unambiguous; the answer 'His own' has clear antecedent.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 27,
+      "action": "keep",
+      "prompt": "What is the nymph Echo left able to repeat in the familiar Greek story?",
+      "note": "Ovid passage on Theoi explicitly limits Echo to repeating others' final words. Birdsong,own name,first word are wrong. Last words does not claim only last single syllable across all retellings.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 28,
+      "action": "keep",
+      "prompt": "In the traditional story of Pandora's jar, what remains inside after its lid is closed?",
+      "note": "Theoi quotes and summary identify Elpis/Hope remaining inside jar. Youth,gold,victory not named remainder. Jar is historically preferable to later box; no disputed interpretation of hope's value is tested.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 29,
+      "action": "keep",
+      "prompt": "Into what creature is the weaver Arachne transformed?",
+      "note": "Theoi heroes list says Arachne becomes a spider. Bee,butterfly,scorpion differ. Weaving clue meaningful and grammar correct; no claim the myth is zoological history.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 30,
+      "action": "edit",
+      "prompt": "In classical Greek myth, what is Atlas condemned to hold up?",
+      "note": "Theoi notes different Atlas traditions, including heaven and earth interpretations. Scope final question explicitly to Hesiod's heaven-bearing account, making sky uniquely correct over Earth,Moon,sea. This is a substantive ambiguity correction.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection.",
+      "recommendedChanges": {
+        "prompt": "In Hesiod's account of Greek myth, what does Atlas hold up?"
+      }
+    },
+    {
+      "row": 31,
+      "action": "edit",
+      "prompt": "Which vehicle does Phaethon unsuccessfully try to drive in Greek myth?",
+      "note": "Theoi Phaethon account identifies Sun's chariot. Other divine vehicles not his attempted ride. Standardise all possessives to Hermes's/Hades's; vehicle relation and Sun capitalisation checked.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection.",
+      "recommendedChanges": {
+        "answers": [
+          "The chariot of the Sun",
+          "Poseidon's boat",
+          "Hermes's wagon",
+          "Hades's coach"
+        ]
+      }
+    },
+    {
+      "row": 32,
+      "action": "keep",
+      "prompt": "In Greek mythology, what is nectar?",
+      "note": "Cambridge's mythological nectar sense is divine drink. Armour,underworld river,weapon are distinct categories. Botanical nectar sense excluded by Greek mythology scope.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 33,
+      "action": "keep",
+      "prompt": "In Greek mythology, what is ambrosia commonly described as?",
+      "note": "Cambridge defines ambrosia as gods' food. Crown,shield,monster not possible definitions. Commonly described acknowledges literary variation without offering another food/drink as competing answer.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 34,
+      "action": "keep",
+      "prompt": "What is Tartarus in Greek mythology?",
+      "note": "Theoi Tartarus entry describes deep cosmic pit and prison, later punitive realm. Singing mountain,horse,cloak not Tartarus. Definition covers shared core of ancient variants rather than conflating all Hades with eternal punishment.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 35,
+      "action": "keep",
+      "prompt": "Which Greek deity personifies sleep?",
+      "note": "Theoi Hypnos identifies sleep, distinguished from Thanatos death,Eros desire,Ares war. Existing Thanatos question is a different personification. Hypnos transliteration familiar and consistent.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 36,
+      "action": "keep",
+      "prompt": "Who is king of the gods in Roman mythology?",
+      "note": "UF comparison identifies Zeus/Jupiter king of gods. Mercury,Mars,Vulcan have other principal functions. Roman scope distinguishes existing Greek Zeus kingship question.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 37,
+      "action": "keep",
+      "prompt": "Which Roman goddess is especially associated with marriage and is Jupiter's wife?",
+      "note": "UF identifies Juno with Hera and marriage; familiar Jupiter consort relationship also follows classical pairing. Venus,Diana,Minerva not Jupiter's wife. Both clues align; no claim Juno only marriage goddess.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 38,
+      "action": "keep",
+      "prompt": "Which Roman god is especially associated with the sea?",
+      "note": "UF Neptune/Poseidon domain seas. Jupiter,Mercury,Vulcan not sea ruler. Existing Greek-counterpart question mentions Neptune but this asks Roman deity/domain, a new primary fact query.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 39,
+      "action": "keep",
+      "prompt": "Which Roman goddess is especially associated with love and beauty?",
+      "note": "UF Venus/Aphrodite love/beauty. Minerva wisdom,Diana hunt,Ceres harvest different. Roman name required, no Greek synonym option.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 40,
+      "action": "keep",
+      "prompt": "Which Roman god is the messenger of the gods?",
+      "note": "UF Mercury/Hermes messenger. Mars,Neptune,Vulcan other roles. Travel/trade overlap among gods does not offer second divine messenger here.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 41,
+      "action": "keep",
+      "prompt": "Which Roman goddess is especially associated with hunting?",
+      "note": "UF Diana/Artemis hunting. Venus,Juno,Ceres different principal roles. All are Roman goddesses and source table directly supports sole intended answer.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 42,
+      "action": "keep",
+      "prompt": "Which Roman goddess is especially associated with wisdom?",
+      "note": "UF Minerva/Athena wisdom. Venus,Diana,Juno other domains. Especially qualifier allows deities with many functions; no competing conventional wisdom deity offered.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 43,
+      "action": "keep",
+      "prompt": "Which Roman goddess is especially associated with agriculture and grain?",
+      "note": "UF Ceres/Demeter harvest/agriculture. Diana,Juno,Venus do not conventionally identify grain goddess. Grain clue sharpens domain and grammar.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 44,
+      "action": "keep",
+      "prompt": "Which Roman god is especially associated with wine?",
+      "note": "UF Bacchus/Dionysus wine. Mercury,Mars,Neptune not conventional wine god. Roman Bacchus name and alternatives spelled correctly.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 45,
+      "action": "keep",
+      "prompt": "Which Roman goddess is associated with the hearth and its sacred fire?",
+      "note": "Cambridge Vesta definition explicitly hearth/home. Venus,Diana,Juno are not hearth goddess. Sacred-fire wording matches cult context; not generic every ritual fire.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 46,
+      "action": "keep",
+      "prompt": "Which Roman god is associated with ruling the underworld?",
+      "note": "Replace astronomy-only Cambridge Pluto reference with UF's Hades/Pluto underworld table. Mercury may guide souls but does not rule; Jupiter/Mars not underworld ruler. Only one option fits ruling role.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 47,
+      "action": "edit",
+      "prompt": "Which weapons is Cupid commonly shown carrying?",
+      "note": "Cambridge Cupid describes winged boy shooting arrows, supporting bow/arrows. Hammer/tongs,trident/net,sword/shield differ. Rephrase prompt to clearer 'Which weapons does Cupid commonly carry' while keeping scope classical art.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection.",
+      "recommendedChanges": {
+        "prompt": "Which weapons does Cupid commonly carry in classical art?"
+      }
+    },
+    {
+      "row": 48,
+      "action": "keep",
+      "prompt": "How many faces is the Roman god Janus usually shown with?",
+      "note": "Cambridge Janus definition says two faces looking forward/back. Other depictions can be four-faced, so usually qualifier retained. One,three,four not the conventional two-faced image.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 49,
+      "action": "edit",
+      "prompt": "Which Roman god is traditionally associated with sowing and agriculture?",
+      "note": "Routledge textbook explicitly calls Saturn god of sowing. Mars has agricultural associations too, so replace Mars distractor with Neptune; Mercury/Vulcan not sowing deity. Ceres deliberately not offered. This removes a plausible second answer.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection.",
+      "recommendedChanges": {
+        "answers": [
+          "Saturn",
+          "Neptune",
+          "Mercury",
+          "Vulcan"
+        ]
+      }
+    },
+    {
+      "row": 50,
+      "action": "keep",
+      "prompt": "Aurora is the Roman goddess of what?",
+      "note": "Theoi Eos page lists Roman name Aurora and dawn translation. Deep sea,hearth,harvest other domains. Replace physical polar-aurora dictionary sense with the proper deity reference.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 51,
+      "action": "keep",
+      "prompt": "Flora is the Roman goddess especially associated with what?",
+      "note": "Getty iconography record explicitly identifies Flora as goddess of flowering plants. Sea storms,blacksmithing,warfare wrong. Replace generic plant-flora dictionary entry; proper-name capitalisation preserved.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 52,
+      "action": "keep",
+      "prompt": "Which Roman goddess personifies luck and fortune?",
+      "note": "Theoi Tykhe page lists Roman Fortuna and fortune/chance. Diana,Juno,Vesta not personification of fortune. Luck/fortune wording is a paraphrase, not speculative cult history.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 53,
+      "action": "keep",
+      "prompt": "In the Roman foundation legend, which animal suckles Romulus and Remus?",
+      "note": "Borghese relief account directly describes she-wolf nursing twins. Lioness,mare,doe wrong. Roman foundation legend explicitly identifies narrative rather than asserting zoological/historical event.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 54,
+      "action": "edit",
+      "prompt": "Which legendary twin is said to have founded Rome?",
+      "note": "Borghese account treats both twins as foundation figures. Remove Remus from competing options and ask which offered legendary figure is associated with founding Rome. Romulus fits; Castor,Pollux,Achilles do not. Avoids disputed sole-founder phrasing.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection.",
+      "recommendedChanges": {
+        "prompt": "Which of these legendary figures is associated with the founding of Rome?",
+        "answers": [
+          "Romulus",
+          "Castor",
+          "Pollux",
+          "Achilles"
+        ]
+      }
+    },
+    {
+      "row": 55,
+      "action": "keep",
+      "prompt": "Which Trojan hero is the central figure of Virgil's Aeneid?",
+      "note": "MIT's Virgil Aeneid text identifies Aeneas and his Trojan/Latian journey, consistent with epic protagonist. Achilles,Theseus,Jason other heroes. Replace heroes list that lacked Aeneas with primary epic text.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 56,
+      "action": "keep",
+      "prompt": "In Norse mythology, Thor is especially associated with what?",
+      "note": "Oslo museum describes Thor's sky journey producing thunder/lightning. Moon,underworld dead,law-writing not his defining domain. Especially associated qualifier retained; Norse scope avoids Marvel powers.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 57,
+      "action": "keep",
+      "prompt": "In familiar Norse tradition, how many eyes does Odin have after his sacrifice for wisdom?",
+      "note": "Stockholm museum calls Odin one-eyed after wisdom sacrifice. Two original eyes before sacrifice but one after; three/four wrong. Temporal phrase essential and retained.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 58,
+      "action": "keep",
+      "prompt": "How many legs does Odin's horse Sleipnir have?",
+      "note": "Oslo and Stockholm museums both call Sleipnir eight-legged. Four,six,ten incorrect. Existing question asks rider Odin; new one asks extraordinary leg count.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 59,
+      "action": "keep",
+      "prompt": "What kind of creature is Fenrir in Norse mythology?",
+      "note": "Oslo identifies Fenrir as wolf. Horse,eagle,dragon wrong. Existing Loki offspring question did not ask the animal form; giant adjective not needed for sole answer.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 60,
+      "action": "edit",
+      "prompt": "What kind of creature is Jormungandr, the Midgard Serpent?",
+      "note": "Oslo identifies Jormungandr/Midgard Serpent as enormous serpent. Eagle,dog,horse wrong. Remove explanatory 'the Midgard Serpent' from prompt because it gave away the answer.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection.",
+      "recommendedChanges": {
+        "prompt": "What kind of creature is Jormungandr in Norse mythology?"
+      }
+    },
+    {
+      "row": 61,
+      "action": "keep",
+      "prompt": "In Norse mythology, Valhalla is especially associated with which people after death?",
+      "note": "Stockholm says battle-slain warriors go to Valhalla, not only sea-lost sailors,children or farmers. 'Especially associated' avoids asserting every warrior/all dead go there; other halls/traditions exist.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 62,
+      "action": "keep",
+      "prompt": "What role do Valkyries have in Norse mythology?",
+      "note": "Etymonline derives Valkyrie as chooser of slain and describes escorting battle-dead to Valhalla. Apples,forging hammer,holding sky are different tasks. No claim all women warriors were Valkyries.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 63,
+      "action": "keep",
+      "prompt": "In Norse mythology, Midgard is the realm especially associated with whom?",
+      "note": "Oslo says humans live in Midgard. Only giants,dwarfs,dragons do not define human realm. Human beings is the sole group associated with its standard meaning.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 64,
+      "action": "keep",
+      "prompt": "In Norse mythology, Asgard is the home of which group?",
+      "note": "Oslo says gods live in Asgard. Answer specifies Aesir rather than implying all divine beings exclusively live there. Mortal kings,sea monsters,farmers do not define its inhabitants.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 65,
+      "action": "keep",
+      "prompt": "Which Norse figure is especially known as a trickster and shapeshifter?",
+      "note": "Inspected Loki article discusses shapeshifting forms and trickster interpretation. Thor,Baldr,Heimdall not chiefly characterised as the trickster. Norse framing excludes Marvel biography; especially known phrasing recognises scholarly complexity.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 66,
+      "action": "keep",
+      "prompt": "In Norse myth, which god loses a hand when the wolf Fenrir is bound?",
+      "note": "UVic MyNDIR illustration/caption explicitly depicts Fenrir with Tyr's severed hand during binding. Thor,Baldr,Njord not the hand-sacrificing god. Does not specify which hand, avoiding unnecessary variant detail.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 67,
+      "action": "keep",
+      "prompt": "What kind of weapon is Odin's Gungnir?",
+      "note": "Stockholm museum calls Gungnir Odin's spear. Hammer,bow,axe wrong. Object-type question unambiguous and distinct from Thor's existing hammer-name question.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 68,
+      "action": "keep",
+      "prompt": "In Norse mythology, which animals pull Freyja's chariot?",
+      "note": "Stockholm explicitly says Freyja's chariot pulled by cats. Goats are Thor's, wolves/horses other animals. No invented names for cats or claim every portrayal identical.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 69,
+      "action": "keep",
+      "prompt": "Which ancient Egyptian god is especially associated with the Sun?",
+      "note": "UCL calls Ra sun-god. Osiris,Anubis,Sobek not conventional Sun deity among options. Ra/Re spelling variation does not create second option.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 70,
+      "action": "keep",
+      "prompt": "In the Egyptian Osiris myth, who is Osiris's wife?",
+      "note": "Met Isis/Horus object says Isis wife of Osiris and mother of Horus. Nut,Sekhmet,Bastet not Osiris's wife in this narrative. Existing Horus parent question is different fact emphasis, not same prompt/answer.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 71,
+      "action": "keep",
+      "prompt": "Which bird's head is Horus commonly shown with in Egyptian art?",
+      "note": "UCL shows Horus falcon and describes celestial kingship. Owl,swan,peacock not his usual head. Possessive bird answers read correctly after 'which bird's head'.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 72,
+      "action": "keep",
+      "prompt": "Which animal is especially associated with the Egyptian god Sobek?",
+      "note": "UCL directly identifies crocodile power with Sobek. Cat,ibis,ram other deities. Distinct from existing Bastet-cat question despite same template.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 73,
+      "action": "keep",
+      "prompt": "The Egyptian goddess Taweret is commonly shown with the body of which animal?",
+      "note": "Fitzwilliam Taweret description identifies hippopotamus head/body, lion legs and crocodile tail. Asking body selects hippopotamus, not lioness/cow/eagle. Composite nature acknowledged, not misleadingly called a pure hippo.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 74,
+      "action": "keep",
+      "prompt": "Which insect is especially associated with the Egyptian god Khepri?",
+      "note": "Fitzwilliam beetle learning page names Khepri scarab beetle god. Butterfly,dragonfly,mosquito wrong. Source confirms specific insect, not a generic scarab good-luck claim.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 75,
+      "action": "keep",
+      "prompt": "Which Egyptian god is especially associated with ruling the realm of the dead?",
+      "note": "UCL identifies Osiris god of dead, the familiar ruler of their realm. Sobek,Khnum,Bes other functions. Anubis not offered to blur funerary associations with rulership.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 76,
+      "action": "keep",
+      "prompt": "What does the ankh symbol represent in ancient Egyptian tradition?",
+      "note": "Cambridge ankh is ancient Egyptian life sign. War,silence,winter not its meaning. Cross-with-loop shape not necessary to answer and not confused with modern religious cross.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 77,
+      "action": "keep",
+      "prompt": "How many horns does the unicorn of familiar European legend have?",
+      "note": "Cambridge familiar unicorn has single horn. Two,three,four wrong. European/familiar qualifiers avoid applying description to every Asian unicorn-like being.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 78,
+      "action": "keep",
+      "prompt": "In familiar legend, what does a phoenix rise from after it dies?",
+      "note": "Cambridge phoenix rises from ashes. Ice,buried stone egg,whirlpool wrong. Familiar legend qualification avoids disputed ancient accounts of burial rather than fiery rebirth.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 79,
+      "action": "keep",
+      "prompt": "A griffin traditionally combines an eagle's head and wings with the body of which animal?",
+      "note": "Cambridge griffin combines eagle head/wings and lion body. Horse,bull,deer differ. Spelling griffin accepted English; not confused with hippogriff's horse hindquarters.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 80,
+      "action": "keep",
+      "prompt": "A mermaid is commonly shown with a human upper body and the tail of what?",
+      "note": "Cambridge mermaid human upper/fish lower body. Horse,lion,bird tails wrong. Commonly shown qualifier permits artistic variation and distinguishes existing question about mermaid singing.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 81,
+      "action": "keep",
+      "prompt": "In folklore, a werewolf changes between human form and which animal form?",
+      "note": "Cambridge werewolf transforms human/wolf. Bear,fox,bat wrong. Does not insist every version needs full moon; that unnecessary restriction omitted from new question.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 82,
+      "action": "keep",
+      "prompt": "What do vampires feed on in familiar European folklore?",
+      "note": "Cambridge folklore vampire drinks blood. Nectar,sap,honey wrong. Folklore qualifier distinguishes real vampire bats and modern metaphorical energy vampires.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 83,
+      "action": "keep",
+      "prompt": "What are many European dragons said to breathe?",
+      "note": "Cambridge dragon definition includes fire from mouth. Snow,glass,sand not familiar European trait. Many European qualifier prevents universalising over Chinese water/rain dragons.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 84,
+      "action": "keep",
+      "prompt": "The kraken is traditionally a monster of which environment?",
+      "note": "Cambridge kraken is enormous octopus/squid-like sea monster. Desert,volcano,mine wrong habitats. Type of sea monster deliberately not narrowed to one modern species.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 85,
+      "action": "edit",
+      "prompt": "What kind of object is Excalibur in Arthurian legend?",
+      "note": "Collins explicitly calls Excalibur Arthur's magic sword. Crown,shield,cup wrong. Replace failed Cambridge headword/nonmatching English Heritage extraction with exact dictionary reference; no sword-in-stone versus lake origin claim.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection.",
+      "recommendedChanges": {
+        "sourceURL": "https://www.collinsdictionary.com/dictionary/english/excalibur"
+      }
+    },
+    {
+      "row": 86,
+      "action": "keep",
+      "prompt": "In Arthurian legend, Guinevere is the wife of which king?",
+      "note": "Rochester Camelot FAQ explicitly calls Guinevere Arthur's wife/queen. Mark,Uther,Pellinore wrong. Romances have variants but the conventional Guinevere relationship unambiguous among these choices.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 87,
+      "action": "edit",
+      "prompt": "Why is Arthur's Round Table commonly interpreted as a symbol of equality among his knights?",
+      "note": "Round Table reference explains no head seat and equal status, unlike rectangular ranking. Gold,every-king ownership,one-chair not equality rationale. Replace Core Knowledge excerpt that discussed chivalry but did not directly explain this geometry.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection.",
+      "recommendedChanges": {
+        "sourceURL": "https://en.wikipedia.org/wiki/Round_Table"
+      }
+    },
+    {
+      "row": 88,
+      "action": "keep",
+      "prompt": "Which English forest is especially associated with Robin Hood?",
+      "note": "Sherwood visitor site's history traces Robin Hood in Sherwood and local tradition. New Forest,Epping,Ashdown not the conventional setting. Especially allows broader ballad settings without changing the famous association.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 89,
+      "action": "keep",
+      "prompt": "Which sheriff is Robin Hood's traditional enemy?",
+      "note": "Same site's historical-ballad account calls Sheriff of Nottingham sworn enemy. York,Exeter,Dover not this traditional antagonist. Existing Merry Men questions concern companions, so new target distinct.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 90,
+      "action": "edit",
+      "prompt": "In the familiar fable, what valuable objects does the goose lay?",
+      "note": "Library of Congress Aesop text gives goose laying golden eggs before greedy owner kills it. Specify this fable, avoiding Grimm's different Golden Goose tale and generic financial metaphor. Silver apples,diamond feathers,bronze coins wrong.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection.",
+      "recommendedChanges": {
+        "prompt": "In Aesop's fable about a goose killed by its greedy owner, what had the goose been laying?"
+      }
+    },
+    {
+      "row": 91,
+      "action": "edit",
+      "prompt": "Which animal is Sun Wukong, the Monkey King of Chinese literature?",
+      "note": "Ashmolean identifies Sun Wukong as Monkey King in Journey to the West. Remove Monkey King epithet from prompt so question no longer states answer. Monkey fits; tiger,dragon,crane wrong.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection.",
+      "recommendedChanges": {
+        "prompt": "Sun Wukong, the magical hero of Journey to the West, is what kind of animal?"
+      }
+    },
+    {
+      "row": 92,
+      "action": "keep",
+      "prompt": "In Chinese legend, Chang'e is especially associated with which celestial body?",
+      "note": "British Library Chang E narrative explicitly settles her on Moon. Mars,Saturn,Sun wrong for goddess; Sun is associated with husband in some variants, not her home. Standard Chang'e spelling preserved.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 93,
+      "action": "keep",
+      "prompt": "In Chinese legend, Hou Yi is famous for using which weapon?",
+      "note": "British Library calls Hou Yi archer and describes raising his bow. Trident,hammer,sling not his defining weapon. Legend scope and familiar spelling correct; no unstated exact sun count asked.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 94,
+      "action": "keep",
+      "prompt": "In Japanese folklore, a kitsune is what kind of animal?",
+      "note": "Morikami mask text identifies fox/kitsune. Badger,cat,crane different folklore creatures. Japanese folklore scope excludes Greek-letter or zoological mistranslation.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 95,
+      "action": "keep",
+      "prompt": "In Japanese folklore, the kappa is especially associated with which habitat?",
+      "note": "Morikami identifies kappa as water-dwelling. Rivers/ponds fits; desert,volcanic craters,snowfields do not. Replace Greek-alphabet kappa dictionary sense with relevant Japanese museum reference.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 96,
+      "action": "keep",
+      "prompt": "In Scottish folklore, what animal form does a kelpie commonly take?",
+      "note": "Cambridge kelpie entry describes Scottish river/lake shapeshifting horse. Lion,eagle,wolf not its common form. Commonly qualifier necessary because kelpies also assume human forms.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 97,
+      "action": "keep",
+      "prompt": "In Scottish and Irish folklore, selkies change between human form and which animal form?",
+      "note": "Cambridge selkie sheds seal skin to become human. Dolphin,otter,whale wrong. Scottish/Irish folklore phrasing covers Celtic seal-person tradition without claiming a single local version.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 98,
+      "action": "keep",
+      "prompt": "In familiar Russian tales, Baba Yaga's hut stands on what?",
+      "note": "UF folklore notes describe chicken-legged hut, also acknowledging other variants. Familiar Russian tales qualifier means standard chicken-leg motif, not every story. Wheels,mushrooms,golden pillars not familiar answer.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    },
+    {
+      "row": 99,
+      "action": "edit",
+      "prompt": "The bunyip belongs to the traditional stories of Indigenous peoples of which country?",
+      "note": "National Museum of Australia's Biripi-author context and bunyip exhibit locate tradition in Aboriginal Australia. Rephrase to Aboriginal traditions, avoiding implication every Indigenous Australian people tells one identical story. Norway,Japan,Peru wrong.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection.",
+      "recommendedChanges": {
+        "prompt": "Bunyip stories originate in Aboriginal traditions in which country?"
+      }
+    },
+    {
+      "row": 100,
+      "action": "keep",
+      "prompt": "The name Quetzalcoatl is commonly translated as what?",
+      "note": "Met's Quetzalcoatl discussion breaks name into quetzal bird and coatl snake, supporting feathered serpent. Golden eagle,jaguar king,moon rabbit wrong. Commonly translated allows precious/plumed renderings not offered as competing correct answers.",
+      "sourceReview": "Author second editorial pass of prompt, all four answers, unique correct choice, grammar, tradition/variant scope and topic relevance. Relevant museum, classical-text, dictionary, academic or specified encyclopaedic reference inspected; blocked direct requests were distinguished from web-source inspection."
+    }
+  ]
+}

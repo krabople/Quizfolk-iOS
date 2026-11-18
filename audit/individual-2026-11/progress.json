@@ -1,8 +1,8 @@
 {
   "updated": "2026-11-18",
   "targetNewEasy": 3100,
-  "reviewedAndValidated": 1700,
-  "localBankCount": 23617,
+  "reviewedAndValidated": 1900,
+  "localBankCount": 23817,
   "liveBankCount": 23617,
   "topics": [
     {
@@ -33,8 +33,8 @@
       "topicID": "12",
       "name": "Music",
       "targetNewEasy": 100,
-      "authored": 0,
-      "reviewedAndValidated": 0,
+      "authored": 100,
+      "reviewedAndValidated": 100,
       "deployedNewEasy": 0
     },
     {
@@ -97,8 +97,8 @@
       "topicID": "20",
       "name": "Mythology",
       "targetNewEasy": 100,
-      "authored": 0,
-      "reviewedAndValidated": 0,
+      "authored": 100,
+      "reviewedAndValidated": 100,
       "deployedNewEasy": 0
     },
     {
