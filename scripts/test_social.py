@@ -76,7 +76,7 @@ req('block',{'player':bid,'enabled':True},a);req('player&id='+bid,token=a,status
 req('challenge',{'player':aid,'topic':'17','requestID':str(uuid.uuid4())},b,404)
 assert req('people&mode=following',token=a)['players']==[]
 req('block',{'player':bid,'enabled':False},a)
-# Matching checks real runs, pairs two searchers, and enforces a genuine six-second bot wait.
+# Matching pairs two actual searchers and enforces a genuine six-second bot wait.
 k1=str(uuid.uuid4());s=req('match-search',{'topic':'38','requestID':k1},a);assert s['state']=='searching' and s['match'] is None
 s2=req('match-search',{'topic':'38','requestID':str(uuid.uuid4())},b);assert s2['match']['kind']=='challenge'
 s1=req('match-search',{'topic':'38','requestID':k1},a);assert s1['match']['duelID']==s2['match']['duelID']

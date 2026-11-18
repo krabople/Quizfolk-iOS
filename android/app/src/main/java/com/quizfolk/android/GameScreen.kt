@@ -82,7 +82,7 @@ import kotlin.math.*
     Text("Finding a human rival", fontSize = 28.sp, fontWeight = FontWeight.Bold, textAlign = TextAlign.Center)
     Text("Looking for players in ${game.topic.name}…", textAlign = TextAlign.Center)
     if (game.error == null) CircularProgressIndicator(color = Color.White)
-    Text("We check other searchers and recorded human runs before a bot is offered.", textAlign = TextAlign.Center, color = Color.White.copy(alpha = .75f))
+    Text("We look for another player to start a new duel. A bot is offered after six seconds if nobody is available.", textAlign = TextAlign.Center, color = Color.White.copy(alpha = .75f))
     GameError(game)
 }
 @Composable private fun IntroScreen(game: GameSession) {

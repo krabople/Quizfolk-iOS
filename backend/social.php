@@ -69,6 +69,9 @@ function fresh_packet(PDO $db,string $pid,string $topic,?PDO $qdb=null):array {
     foreach($packet as &$q){$i=[0,1,2,3];shuffle($i);$q['answers']=array_map(fn($n)=>$q['answers'][$n],$i);$q['correctIndex']=array_search($q['correctIndex'],$i,true);}unset($q);return $packet;
 }
 function insert_match(PDO $db,string $pid,string $topic,string $kind,string $opponent,?string $otherID,array $packet,array $points,?string $duelID=null,?string $replayID=null,bool $party=false):string {
+    // A played round already has an opponent. Never turn it into another
+    // person's opponent, even once or when its original opponent was a bot.
+    if($replayID!==null || $kind==='human')fail('Saved rounds cannot be reused as opponents.',409);
     if(count($packet)!==7 || count(unique_questions($packet))!==7)fail('This duel does not have seven different questions. Please start a new duel.',410);
     $id=bin2hex(random_bytes(12));sql($db,'INSERT INTO matches(id,player_id,topic,kind,opponent,opponent_id,duel_id,opponent_match,packet,opponent_points,created) VALUES(?,?,?,?,?,?,?,?,?,?,?)',[$id,$pid,$topic,$kind,$opponent,$otherID,$duelID,$replayID,json_encode($packet,JSON_UNESCAPED_UNICODE),json_encode($points),time()]);return $id;
 }
@@ -78,11 +81,6 @@ function start_info(PDO $db,array $m):array {
     foreach($a as $i=>$r)$played[]=['question'=>$packet[$i],'selected'=>$r['selected'],'elapsed'=>$r['elapsed'],'points'=>$r['points'],'opponentPoints'=>$op[$i]];
     $party=$m['duel_id'] ? sql($db,'SELECT p.powers FROM party_fixtures f JOIN parties p ON p.id=f.party_id WHERE f.duel_id=?',[$m['duel_id']])->fetch():false;
     return ['powerAllowed'=>!$party || (bool)$party['powers'],'id'=>$m['id'],'kind' =>$m['kind'],'opponent'=>$p ? $p['name']:$m['opponent'],'opponentID'=>$p ? $p['id']:null,'opponentAvatar'=>$p ? $p['avatar']:null,'duelID'=>$m['duel_id'],'pending'=>$m['duel_id']!==null && $m['completed']===null,'played'=>$played,'score'=>(int)$m['score'],'opponentScore'=>(int)$m['opponent_score']];
-}
-function replay_candidate(PDO $db,string $pid,string $topic,array $config):array|false {
-    $candidates=sql($db,'SELECT m.*,p.name,p.avatar FROM matches m JOIN players p ON p.id=m.player_id WHERE m.kind<>"party" AND m.topic=? AND m.player_id<>? AND m.completed>? AND m.created>=? AND NOT EXISTS(SELECT 1 FROM matches used WHERE used.player_id=? AND used.opponent_match=m.id) AND NOT EXISTS(SELECT 1 FROM blocks b WHERE (b.player_id=? AND b.target_id=p.id) OR (b.player_id=p.id AND b.target_id=?)) ORDER BY m.completed DESC LIMIT 50',[$topic,$pid,time()-2592000,(int)($config['minimum_replay_created'] ?? 0),$pid,$pid,$pid])->fetchAll();
-    foreach($candidates as $candidate)if(packet_is_current(json_decode($candidate['packet'],true)))return $candidate;
-    return false;
 }
 // Stored duels retain their history, but corrected/withdrawn questions must not
 // return through an old replay. Answer shuffling alone is not a content change.
@@ -98,15 +96,16 @@ function packet_is_current(array $packet,?PDO $bank=null):bool {
     }
     return true;
 }
-function create_random_match(PDO $db,string $pid,string $topic,array $config,bool $humanOnly=false,bool $botOnly=false):?array {
-    $replay=$botOnly?false:replay_candidate($db,$pid,$topic,$config);
-    if($replay){$packet=json_decode($replay['packet'],true);$other=array_column(json_decode($replay['answers'],true),'points');$id=insert_match($db,$pid,$topic,'human',$replay['name'],$replay['player_id'],$packet,$other,null,$replay['id']);}
-    else {
-        if($humanOnly)return null;$packet=fresh_packet($db,$pid,$topic);$other=[];
-        foreach($packet as $i=>$q){$chance=match($q['difficulty']){'easy'=>83,'hard'=>45,default=>65};$other[]=points(random_int(1,100)<=$chance,random_int(1200,9800)/1000,$i);}
-        $id=insert_match($db,$pid,$topic,'bot',next_bot_name($db,$pid),null,$packet,$other);
-    }
+function create_bot_match(PDO $db,string $pid,string $topic):array {
+    $packet=fresh_packet($db,$pid,$topic);$other=[];
+    foreach($packet as $i=>$q){$chance=match($q['difficulty']){'easy'=>83,'hard'=>45,default=>65};$other[]=points(random_int(1,100)<=$chance,random_int(1200,9800)/1000,$i);}
+    $id=insert_match($db,$pid,$topic,'bot',next_bot_name($db,$pid),null,$packet,$other);
     return start_info($db,sql($db,'SELECT * FROM matches WHERE id=?',[$id])->fetch());
+}
+// Compatibility for an older front controller during an atomic file rollout.
+// Even that code path can only create a fresh bot game, never a human replay.
+function create_random_match(PDO $db,string $pid,string $topic,array $config,bool $humanOnly=false,bool $botOnly=false):?array {
+    return $humanOnly ? null:create_bot_match($db,$pid,$topic);
 }
 function create_duel(PDO $db,string $creator,string $target,string $topic,string $requestKey,bool $paired=false):array {
     if($creator===$target)fail('Choose another player');$a=visible_player($db,$creator,$creator);$b=visible_player($db,$creator,$target);
@@ -217,7 +216,7 @@ function social_routes(string $route,PDO $db,string $pid,array $player,array $bo
         if(!$m){
             $waiting=sql($db,'SELECT s.* FROM searches s WHERE s.topic=? AND s.player_id<>? AND s.cancelled=0 AND s.match_id IS NULL AND s.expires>? AND NOT EXISTS(SELECT 1 FROM blocks b WHERE (b.player_id=? AND b.target_id=s.player_id) OR (b.player_id=s.player_id AND b.target_id=?)) ORDER BY s.created LIMIT 1',[$topic,$pid,microtime(true),$pid,$pid])->fetch();
             if($waiting){$d=create_duel($db,$waiting['player_id'],$pid,$topic,'queue:'.$waiting['id'].':'.$id,true);sql($db,'UPDATE searches SET match_id=? WHERE id=?',[$d['creator_match'],$waiting['id']]);sql($db,'UPDATE searches SET match_id=? WHERE id=?',[$d['target_match'],$id]);$m=sql($db,'SELECT * FROM matches WHERE id=?',[$d['target_match']])->fetch();}
-            else {$r=create_random_match($db,$pid,$topic,$config,true);if(!$r && microtime(true)-(float)$s['created']>=6)$r=create_random_match($db,$pid,$topic,$config);if($r){sql($db,'UPDATE searches SET match_id=? WHERE id=?',[$r['id'],$id]);$m=sql($db,'SELECT * FROM matches WHERE id=?',[$r['id']])->fetch();}}
+            elseif(microtime(true)-(float)$s['created']>=6){$r=create_bot_match($db,$pid,$topic);sql($db,'UPDATE searches SET match_id=? WHERE id=?',[$r['id'],$id]);$m=sql($db,'SELECT * FROM matches WHERE id=?',[$r['id']])->fetch();}
         }
         $db->exec('COMMIT');out(['searchID'=>$id,'state'=>$m?'matched':'searching','elapsed'=>max(0,microtime(true)-(float)$s['created']),'match'=>$m?start_info($db,$m):null]);
     }

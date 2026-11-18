@@ -55,10 +55,11 @@ for i in range(7):
  total+=result['points']
 p=req('profile',token=a);assert p['matches']==1 and p['xp']==total+40+(100 if total>result['opponentScore'] else (50 if total==result['opponentScore'] else 0)) and p['correct']==6
 req('round',{'match':m['id']},a,409)
-ghost=req('match',{'topic':'22'},b,201);assert ghost['kind']=='human' and ghost['opponentAvatar'] is not None
+ghost=req('match',{'topic':'22'},b,201);assert ghost['kind']=='bot' and ghost['opponentID'] is None and ghost['opponentAvatar'] is None
+with sqlite3.connect(STATE) as db:assert db.execute('SELECT opponent_match FROM matches WHERE id=?',(ghost['id'],)).fetchone()[0] is None
 assert req('match-progress',{'match':ghost['id']},b)['opponentResults']==[None]*7
 for i in range(7):
- r=req('round',{'match':ghost['id']},b);assert r['question']==first[i]
+ r=req('round',{'match':ghost['id']},b);assert len(r['question']['answers'])==4
  req('answer',{'match':ghost['id'],'round':i,'answer':-1},b)
 board=req('leaderboard&topic=22&period=month',token=a)['entries'];assert len(board)==2
 rematch=req('match',{'topic':'22','botOnly':True},a,201)
@@ -84,4 +85,4 @@ assert req('profile',token=a)['avatar'] is None
 req('report',{'question':first[0]['id'],'reason':'Contract test report'},a)
 req('delete-account',{},a);req('delete-account',{},b)
 req('profile',token=a,status=401)
-print('PASS: authentication, ownership, seven rounds, answer secrecy, timing, timeout, idempotence, human replay, stats, monthly topic XP, unique names, avatar validation/sharing/removal, reports and account deletion')
+print('PASS: authentication, ownership, seven rounds, answer secrecy, timing, timeout, idempotence, no reused rounds, stats, monthly topic XP, unique names, avatar validation/sharing/removal, reports and account deletion')

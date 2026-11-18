@@ -130,7 +130,7 @@ try {
         sql($db,'INSERT INTO reports VALUES(?,?,?,?,?)',[bin2hex(random_bytes(12)),$pid,$qid,$reason,time()]);out(['ok'=>true]);
     }
     if($route==='match') {
-        $db->exec('BEGIN IMMEDIATE');$reply=create_random_match($db,$pid,(string)($body['topic'] ?? ''),$config,false,($body['botOnly'] ?? false)===true);$db->exec('COMMIT');out($reply,201);
+        $db->exec('BEGIN IMMEDIATE');$reply=create_bot_match($db,$pid,(string)($body['topic'] ?? ''));$db->exec('COMMIT');out($reply,201);
     }
     if($route==='round' || $route==='reveal' || $route==='answer' || $route==='power' || $route==='match-progress') {
         $id=(string)($body['match'] ?? '');$db->exec('BEGIN IMMEDIATE');
@@ -140,6 +140,7 @@ try {
         if($m['duel_id']) {$duel=sql($db,'SELECT * FROM duels WHERE id=?',[$m['duel_id']])->fetch();if(!$duel || !in_array($duel['status'],['invited','accepted','complete'],true))fail('This challenge is no longer available',410);}
         if((int)$m['created']<time()-($m['duel_id'] ? 1209600:86400)) fail('This duel has expired',410);
         $packet=json_decode($m['packet'],true);$answers=json_decode($m['answers'],true);$op=json_decode($m['opponent_points'],true);$round=count($answers);
+        if($round<7 && ($m['kind']==='human' || $m['opponent_match']!==null))fail('Saved-round matchmaking has been retired. Please start a new duel. Your completed results are kept.',410);
         $autoPower=$route==='power' && ($body['type'] ?? '')==='right' && ($body['autoAnswer'] ?? false)===true;$autoPowerReply=null;
         if($round<7 && !packet_is_current($packet))fail('A question in this duel has been corrected or withdrawn. Please start a new duel. Your completed results are kept.',410);
         $askedRound=$autoPower?($body['turn'] ?? null):($body['round'] ?? null);

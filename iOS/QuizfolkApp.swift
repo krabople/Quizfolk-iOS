@@ -177,7 +177,7 @@ struct TopicView:View {
                 PersonalTopicLevelProgress(topic:topic)
                 Button{store.toggle(topic)}label:{Label(store.favourites.contains(topic.id) ? "Following topic":"Follow topic",systemImage:store.favourites.contains(topic.id) ? "heart.fill":"heart")}.tint(topic.tint)
                 HStack(spacing:0){stat("7","questions");stat("3s","to read");stat("10s","to answer")}.padding(.vertical,18).background(.white,in:RoundedRectangle(cornerRadius:18))
-                Text("We search for a human first. You can meet another searcher or face a recorded human run. A labelled bot is offered after six seconds when nobody is available. Play your own questions on your own schedule.").font(.subheadline).foregroundStyle(.secondary)
+                Text("We search for another player first. You both play the same seven questions and can finish at different times. A bot is offered after six seconds if nobody is available.").font(.subheadline).foregroundStyle(.secondary)
                 Button("Find a duel"){session=GameSession(topic:topic,store:store,online:true)}.buttonStyle(PrimaryButton(color:topic.tint))
                 Button("Practise against a bot"){session=GameSession(topic:topic,store:store,online:false)}.font(.headline).padding(12).tint(topic.tint)
                 Text("Practice earns topic XP saved on this device. Choose Find a duel to earn online league XP and public titles.").font(.caption).foregroundStyle(.secondary)

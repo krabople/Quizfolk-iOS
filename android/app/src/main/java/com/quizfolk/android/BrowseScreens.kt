@@ -72,7 +72,7 @@ import java.util.UUID
         if (section == 0) {
             Panel { PersonalTopicLevel(store, topic) }
             Heading("A rival is waiting.")
-            Hint("We search for a human first, including recorded human runs. A bot is offered after six seconds when nobody is available. Play at your own pace.")
+            Hint("We search for another player first. You both play the same seven questions and can finish at different times. A bot is offered after six seconds if nobody is available.")
             Action("Find a duel", color = tint(topic.color)) { store.game = GameSession(store, topic, true) }
             OutlinedButton({ store.game = GameSession(store, topic, false) }, Modifier.fillMaxWidth().testTag("practice"), shape = RoundedCornerShape(14.dp)) { Text("Practise against a bot", fontWeight = FontWeight.Bold) }
             Hint("Practice earns topic XP saved on this device. Choose Find a duel to earn online league XP and public titles.")
