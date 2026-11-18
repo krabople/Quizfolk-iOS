@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "a5580495589738532f4b",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is a television miniseries?",
+    "answers": [
+      "A story told over a limited number of television episodes",
+      "An ongoing serial with no planned ending",
+      "A live broadcast of a single sporting event",
+      "A collection of unrelated music videos"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/miniseries",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "3c1387c787bea29eee2a",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is a cliffhanger at the end of a television episode?",
+    "answers": [
+      "A list of the programme's production staff",
+      "A summary that resolves every storyline",
+      "A recap of events from earlier episodes",
+      "An unresolved situation that creates suspense about what happens next"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/cliffhanger",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "631e1971aeabb7d68aa4",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is a television spin-off?",
+    "answers": [
+      "A new season of the same programme",
+      "A trailer advertising a future episode",
+      "A new programme developed from an existing programme or its characters",
+      "An unchanged repeat of a previously broadcast episode"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/spin-off",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "4102f8c6ba8c23c7a8e5",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is a rerun of a television programme?",
+    "answers": [
+      "A trailer for a future series",
+      "A repeat showing of an episode already broadcast",
+      "The first public showing of a brand-new episode",
+      "A rehearsal that is never recorded"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/rerun",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "8b71a67764490739dd40",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What does television syndication primarily involve?",
+    "answers": [
+      "Licensing a programme to multiple broadcasters",
+      "Editing an episode into a short trailer",
+      "Recording the action with several cameras",
+      "Adding subtitles to an episode"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/syndication",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "bc9e277b84295556657b",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "The word sitcom is short for what?",
+    "answers": [
+      "Silent commentary",
+      "Simultaneous competition",
+      "Single-camera communication",
+      "Situation comedy"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/sitcom",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "78094b099f41565cad0c",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Which description best fits a television soap opera?",
+    "answers": [
+      "A weekly competitive cooking show",
+      "A daily news bulletin",
+      "An ongoing drama following the lives and relationships of recurring characters",
+      "A one-off fictional film"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/soap-opera",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "065519a54b22d51fe492",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is a docuseries?",
+    "answers": [
+      "A live weekly quiz show",
+      "A documentary presented as a series of episodes",
+      "A scripted drama about hospital doctors",
+      "A series of stand-up comedy performances"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/docuseries",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "051366ae4b4ea1d31565",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What does it mean to telecast an event?",
+    "answers": [
+      "To broadcast it on television",
+      "To adapt it for the stage",
+      "To describe it in a printed magazine",
+      "To record its sound for radio only"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/telecast",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "86cb867afac672ed23fb",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "In UK television scheduling, what does the watershed concern?",
+    "answers": [
+      "Which channels must provide subtitles",
+      "When broadcasting licences need renewing",
+      "How often advertisement breaks occur",
+      "When programmes unsuitable for children may start being shown"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.ofcom.org.uk/tv-radio-and-on-demand/broadcast-standards/what-is-the-watershed?language=en",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "fee7cf0836f003266458",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What does prime time generally refer to in television?",
+    "answers": [
+      "The scheduled time for transmitter maintenance",
+      "Only programmes shown before sunrise",
+      "The period when the largest audiences are expected to watch",
+      "Only the first minute of any programme"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/prime-time",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "dea938eb3a231392076a",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What does closed captioning provide for television viewers?",
+    "answers": [
+      "A list of the cast at the end of a programme",
+      "Optional on-screen text representing speech and relevant sounds",
+      "Spoken descriptions of what is happening visually",
+      "A sign-language interpreter shown beside the picture"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://docs.fcc.gov/public/attachments/fcc-11-138a1.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "e36057577efce31dc61d",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is a television showrunner generally responsible for?",
+    "answers": [
+      "Overseeing a series' creative direction and production",
+      "Applying the cast's make-up",
+      "Operating one particular camera",
+      "Recording background sound effects"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/showrunner",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "f62a42083eef45989e34",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is a season finale?",
+    "answers": [
+      "The first episode of a television season",
+      "A short trailer for a forthcoming season",
+      "An unaired rehearsal before filming",
+      "The final episode of a television season"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/finale",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "529801769a1064ac203c",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is a television season premiere?",
+    "answers": [
+      "A repeat showing of the previous season",
+      "A private costume fitting before filming",
+      "The first episode shown in a new season",
+      "The final episode of the previous season"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/premiere",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "9f4ad23167b5a1c8a138",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is a talk show mainly built around?",
+    "answers": [
+      "Live athletic competition",
+      "Conversations and interviews led by a host",
+      "A continuing scripted story about fictional characters",
+      "Narrated footage of wildlife"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/talk-show",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "6c261afbafe52207fadd",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What do contestants normally do on a television game show?",
+    "answers": [
+      "Compete in games or answer questions",
+      "Present the daily news",
+      "Act out a scripted drama",
+      "Review newly released films"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/game-show",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "0d79f0c5700b9c9475a5",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is an infomercial?",
+    "answers": [
+      "A news bulletin with no commercial content",
+      "An emergency announcement from the police",
+      "A programme's list of cast members",
+      "A television advertisement presented like a longer programme"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/infomercial",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "e37e25e66e4a2e8218cf",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is a simulcast on radio and television?",
+    "answers": [
+      "An unaired rehearsal for a future programme",
+      "A short trailer edited from a longer programme",
+      "The same programme broadcast on both at the same time",
+      "A repeat shown on television a year later"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/simulcast",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "ce2407bc9a7cbf818573",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What lets a viewer change television channels without touching the television itself?",
+    "answers": [
+      "A surge protector",
+      "A remote control",
+      "An aerial amplifier",
+      "A wall mount"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/remote-control",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "3cd81225d81fe6e77274",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays the title character in Ted Lasso?",
+    "answers": [
+      "Jason Sudeikis",
+      "Steve Carell",
+      "Paul Rudd",
+      "Will Ferrell"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://tv.apple.com/us/show/ted-lasso/umc.cmc.vtoh0mn0xn7t3c643xqonfzy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "3b0c892d5e6a0291a442",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Before moving to England in Ted Lasso, Ted coached which sport in the United States?",
+    "answers": [
+      "Ice hockey",
+      "Baseball",
+      "Basketball",
+      "American football"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://tv.apple.com/us/show/ted-lasso/umc.cmc.vtoh0mn0xn7t3c643xqonfzy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "f254db4c1b5604eaa053",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Which sport does AFC Richmond play in Ted Lasso?",
+    "answers": [
+      "Cricket",
+      "Basketball",
+      "Football (soccer)",
+      "Rugby union"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://tv.apple.com/us/show/ted-lasso/umc.cmc.vtoh0mn0xn7t3c643xqonfzy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "f0c63fc62ca530349698",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is the name of the fictional club Ted is hired to manage at the start of Ted Lasso?",
+    "answers": [
+      "Crystal Palace",
+      "AFC Richmond",
+      "AFC Wimbledon",
+      "West Ham United"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://tv.apple.com/us/show/ted-lasso/umc.cmc.vtoh0mn0xn7t3c643xqonfzy",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "07cf315bda796e0e0677",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Which company employs Mark Scout in Severance?",
+    "answers": [
+      "Lumon Industries",
+      "Waystar Royco",
+      "Dunder Mifflin",
+      "Pied Piper"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.apple.com/tv-pr/originals/severance/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "5f34584f75524ca073d8",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays Mark Scout in Severance?",
+    "answers": [
+      "Paul Rudd",
+      "Jason Bateman",
+      "Bill Hader",
+      "Adam Scott"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.apple.com/tv-pr/originals/severance/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "de766593db6f016f562d",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "In Severance, the severance procedure separates employees' memories of which two parts of life?",
+    "answers": [
+      "Dreams and nightmares",
+      "Weekdays and weekends",
+      "Work and personal life",
+      "Childhood and adulthood"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.apple.com/tv-pr/originals/severance/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "cf0eb7f752602874b2aa",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Which comedy star is an executive producer of Severance?",
+    "answers": [
+      "Will Ferrell",
+      "Ben Stiller",
+      "Adam Sandler",
+      "Jim Carrey"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.apple.com/tv-pr/originals/severance/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "3a7cf4454071a1f13d38",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays Wednesday Addams in Netflix's Wednesday?",
+    "answers": [
+      "Jenna Ortega",
+      "Millie Bobby Brown",
+      "Sadie Sink",
+      "Anya Taylor-Joy"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.netflix.com/tudum/articles/wednesday-character-cast-guide-season-1",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "963c8707f18411c4f784",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Which school does Wednesday attend in Netflix's Wednesday?",
+    "answers": [
+      "Hogwarts",
+      "Moordale Secondary",
+      "Sunnydale High",
+      "Nevermore Academy"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.netflix.com/tudum/articles/wednesday-character-cast-guide-season-1",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "8e56ea1ad8a8e84ead76",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays Morticia Addams in Netflix's Wednesday?",
+    "answers": [
+      "Christina Ricci",
+      "Carolyn Jones",
+      "Catherine Zeta-Jones",
+      "Anjelica Huston"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.netflix.com/tudum/articles/wednesday-character-cast-guide-season-1",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "3df45a8d368afbc408f9",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Wednesday's roommate Enid Sinclair is which supernatural creature?",
+    "answers": [
+      "A gorgon",
+      "A werewolf",
+      "A vampire",
+      "A siren"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.netflix.com/tudum/articles/wednesday-character-cast-guide-season-1",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "6e621c7e7657b0c4e545",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Squid Game was originally produced in which country?",
+    "answers": [
+      "South Korea",
+      "Japan",
+      "Thailand",
+      "China"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.korea.net/K-InfoHub/SubMainDetail/view?articleId=4036&headwordCd=57&headwordGroupCd=24&pageIndex=1",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "2e98347a383228e09a20",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What player number does Seong Gi-hun wear in Squid Game?",
+    "answers": [
+      "001",
+      "067",
+      "218",
+      "456"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.netflix.com/tudum/articles/squid-game-season-2-cast",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "da69fa9cd14f19658a44",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What colour tracksuits do the contestants wear in the original Squid Game?",
+    "answers": [
+      "Yellow",
+      "Purple",
+      "Green",
+      "Red"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.netflix.com/tudum/articles/squid-game-season-2-merch-products",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "f518805208aa944d1abd",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Which game do contestants first play inside the competition arena in season one of Squid Game?",
+    "answers": [
+      "Hopscotch",
+      "Red Light, Green Light",
+      "Musical Chairs",
+      "Hide-and-Seek"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.netflix.com/tudum/squid-game",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "d39878cfbd2c88c03b49",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "In which city do the Bridgerton family mainly take part in the social season?",
+    "answers": [
+      "London",
+      "Paris",
+      "Vienna",
+      "Rome"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.netflix.com/tudum/articles/meet-bridgerton-cast-season-1",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "dbe1d4f8cea3f70b11c7",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Bridgerton's first season is set during which period of British history?",
+    "answers": [
+      "The Tudor period",
+      "The Elizabethan era",
+      "The Second World War",
+      "The Regency"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.netflix.com/tudum/articles/meet-bridgerton-cast-season-1",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "cbf4726b13c13bfcdb7c",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Which pen name appears on the scandal sheets in Bridgerton?",
+    "answers": [
+      "Lady Danbury",
+      "Lady Grantham",
+      "Lady Whistledown",
+      "Lady Featherington"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.netflix.com/tudum/articles/meet-bridgerton-cast-season-1",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "2c19891d4fd5c42e037e",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Whose novels were adapted into the television series Bridgerton?",
+    "answers": [
+      "Philippa Gregory",
+      "Julia Quinn",
+      "Jane Austen",
+      "Georgette Heyer"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.netflix.com/tudum/articles/meet-bridgerton-cast-season-1",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "9337aa13b33264ad2015",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "At the start of The Good Place, Eleanor discovers she has arrived in what kind of setting?",
+    "answers": [
+      "An afterlife",
+      "A boarding school",
+      "A military base",
+      "A space colony"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.peacocktv.com/stream-tv/the-good-place",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "fc6873b9ee741bca72a1",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays Eleanor Shellstrop in The Good Place?",
+    "answers": [
+      "Tina Fey",
+      "Amy Poehler",
+      "Zooey Deschanel",
+      "Kristen Bell"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.peacocktv.com/stream-tv/the-good-place",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "b85a6243bf1ca561e714",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays Michael in The Good Place?",
+    "answers": [
+      "John Lithgow",
+      "Steve Martin",
+      "Ted Danson",
+      "Kelsey Grammer"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.peacocktv.com/stream-tv/the-good-place",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "ead939070cc4c65d27c7",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "In The Good Place, Chidi gives Eleanor lessons in which subject?",
+    "answers": [
+      "Music",
+      "Ethics",
+      "Chemistry",
+      "Architecture"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.peacocktv.com/stream-tv/the-good-place",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "ef94516a5934a4f83531",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who created the graphic novels on which Heartstopper is based?",
+    "answers": [
+      "Alice Oseman",
+      "Suzanne Collins",
+      "Malorie Blackman",
+      "Holly Jackson"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.netflix.com/tudum/articles/heartstopper-movie-alice-oseman-plot-news",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "cf152ca426a3c4835b2c",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays Nick Nelson in Heartstopper?",
+    "answers": [
+      "Joe Locke",
+      "Asa Butterfield",
+      "Louis Partridge",
+      "Kit Connor"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.netflix.com/tudum/articles/heartstopper-movie-alice-oseman-plot-news",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "13f7d94febc52da789f7",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays Charlie Spring in Heartstopper?",
+    "answers": [
+      "Tom Holland",
+      "Freddie Highmore",
+      "Joe Locke",
+      "Kit Connor"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.netflix.com/tudum/articles/heartstopper-movie-alice-oseman-plot-news",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "6d2e9451190848a53af5",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Nick Nelson plays for his school's team in which sport in Heartstopper?",
+    "answers": [
+      "Ice hockey",
+      "Rugby",
+      "Basketball",
+      "Cricket"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.netflix.com/tudum/heartstopper",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "cfc2b7d81ceb993e3f2b",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Derry Girls is set in which part of the United Kingdom?",
+    "answers": [
+      "Northern Ireland",
+      "Wales",
+      "Scotland",
+      "England"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.channel4.com/press/news/channel-4-commissions-sitcom-set-nineties-northern-ireland",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "abef37f85f5c7cb14012",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Derry Girls is mainly set during which decade?",
+    "answers": [
+      "The 1960s",
+      "The 1970s",
+      "The 2010s",
+      "The 1990s"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.channel4.com/press/news/channel-4-commissions-sitcom-set-nineties-northern-ireland",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "50b78d9702fdb4e073d4",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who created and wrote Derry Girls?",
+    "answers": [
+      "Phoebe Waller-Bridge",
+      "Michaela Coel",
+      "Lisa McGee",
+      "Sharon Horgan"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.channel4.com/press/news/channel-4-commissions-sitcom-set-nineties-northern-ireland",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "a9dc0a2317720c13dca1",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "The central young characters in Derry Girls are primarily what?",
+    "answers": [
+      "Law-firm partners",
+      "School friends",
+      "Hospital doctors",
+      "Police detectives"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.channel4.com/press/news/channel-4-commissions-sitcom-set-nineties-northern-ireland",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "e8f1a63ab2112ff48bb0",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "In which US city is Abbott Elementary set?",
+    "answers": [
+      "Philadelphia",
+      "Chicago",
+      "Boston",
+      "Seattle"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://abc.com/shows/abbott-elementary/about-the-show/1000",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "42076731a4298511d30c",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is the main occupation of the central staff in Abbott Elementary?",
+    "answers": [
+      "Nursing",
+      "Policing",
+      "Journalism",
+      "Teaching"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://abc.com/shows/abbott-elementary/about-the-show/1000",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "22316ffe0c7cf48f48a0",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays Janine Teagues in Abbott Elementary?",
+    "answers": [
+      "Janelle James",
+      "Ayo Edebiri",
+      "Quinta Brunson",
+      "Issa Rae"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://abc.com/shows/abbott-elementary/about-the-show/1000",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "be5d13460b9392111f46",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who is the school principal in Abbott Elementary?",
+    "answers": [
+      "Melissa Schemmenti",
+      "Ava Coleman",
+      "Janine Teagues",
+      "Barbara Howard"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://abc.com/news/1d5cf5c4-c3be-4748-930f-aad20aeeaae0/category/3746341",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "3bdb07ffc37867893e2f",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "In which US city is The Bear mainly set?",
+    "answers": [
+      "Chicago",
+      "New York City",
+      "Los Angeles",
+      "Miami"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://shop.fxnetworks.com/collections/the-bear",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "b28ce23dd63685ef2092",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is Carmy's profession at the start of The Bear?",
+    "answers": [
+      "Architect",
+      "Lawyer",
+      "Journalist",
+      "Chef"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.fxnetworks.com/shows/the-bear",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "f44519bdebff0d3df536",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays Carmy in The Bear?",
+    "answers": [
+      "Austin Butler",
+      "Aaron Taylor-Johnson",
+      "Jeremy Allen White",
+      "Paul Mescal"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.fxnetworks.com/shows/the-bear/cast",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "787b9487e660f145e0e7",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays Sydney Adamu in The Bear?",
+    "answers": [
+      "Janelle James",
+      "Ayo Edebiri",
+      "Quinta Brunson",
+      "Issa Rae"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.fxnetworks.com/shows/the-bear/cast",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "66adab26df1e34888cfd",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Brooklyn Nine-Nine is set in which city?",
+    "answers": [
+      "New York City",
+      "Chicago",
+      "Boston",
+      "San Francisco"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.peacocktv.com/stream-tv/brooklyn-nine-nine",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "b37c6425fb18e5b5fcc8",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "The main characters in Brooklyn Nine-Nine work in which profession?",
+    "answers": [
+      "Medicine",
+      "Journalism",
+      "Firefighting",
+      "Police work"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.peacocktv.com/stream-tv/brooklyn-nine-nine",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "5d5b276119a5249ebae9",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays Jake Peralta in Brooklyn Nine-Nine?",
+    "answers": [
+      "Jason Sudeikis",
+      "Adam Scott",
+      "Andy Samberg",
+      "Bill Hader"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.peacocktv.com/stream-tv/brooklyn-nine-nine",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "1dd0ff0387c467e1dca6",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is Captain Holt's first name in Brooklyn Nine-Nine?",
+    "answers": [
+      "David",
+      "Raymond",
+      "Michael",
+      "Richard"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.peacocktv.com/stream-tv/brooklyn-nine-nine",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "dac8d0e978b7628fe9f4",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is the name of the main apartment building in the first season of Only Murders in the Building?",
+    "answers": [
+      "The Arconia",
+      "The Dakota",
+      "The Plaza",
+      "The Savoy"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://en.wikipedia.org/wiki/Only_Murders_in_the_Building",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "d0a99d254d23db7e41ea",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays the adult Mabel Mora in Only Murders in the Building?",
+    "answers": [
+      "Demi Lovato",
+      "Miley Cyrus",
+      "Ariana Grande",
+      "Selena Gomez"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://en.wikipedia.org/wiki/Only_Murders_in_the_Building",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "4eeea4e45f5504f43595",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What do the central trio create together in Only Murders in the Building?",
+    "answers": [
+      "A travel vlog",
+      "A gardening television show",
+      "A true-crime podcast",
+      "A restaurant review magazine"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://press.hulu.com/storage/uploads/7C/99/7C994039-F184-B1E7-3929-179CB50E0F6F/Only_Murders_in_the_Building_S2_Lead_Sheet_2025.pdf",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "8037e724eb9ec2931ec6",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "In which city is the first season of Only Murders in the Building mainly set?",
+    "answers": [
+      "San Francisco",
+      "New York City",
+      "Boston",
+      "Chicago"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://en.wikipedia.org/wiki/Only_Murders_in_the_Building",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "7a20a1ea670b391ead45",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Which museum is targeted by Assane Diop in the opening episode of Lupin?",
+    "answers": [
+      "The Louvre",
+      "The Prado",
+      "The Uffizi",
+      "The Rijksmuseum"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.netflix.com/tudum/articles/lupin-part-4-release-date-photos-news",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "93c4bb3619af25cfb12a",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays Assane Diop in Lupin?",
+    "answers": [
+      "Idris Elba",
+      "Daniel Kaluuya",
+      "John Boyega",
+      "Omar Sy"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.netflix.com/tudum/articles/lupin-part-4-release-date-photos-news",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "48b592030fc30e3c8301",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Netflix's Lupin is primarily set in which country?",
+    "answers": [
+      "Germany",
+      "Portugal",
+      "France",
+      "Italy"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.netflix.com/tudum/articles/lupin-part-4-release-date-photos-news",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "ce9772b5801f07518acd",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "How is Assane Diop's criminal role best described in Lupin?",
+    "answers": [
+      "A counterfeiter of banknotes",
+      "A gentleman thief",
+      "A drug kingpin",
+      "A contract killer"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.netflix.com/tudum/articles/lupin-part-4-release-date-photos-news",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "0897bec42e4a19561cad",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who is the Taskmaster in the original UK television series?",
+    "answers": [
+      "Greg Davies",
+      "Alex Horne",
+      "Richard Ayoade",
+      "David Mitchell"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.channel4.com/press/press-pack/taskmaster-series-22-press-pack",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "1211017ffc8fa27beb23",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who acts as the Taskmaster's assistant in the original UK series?",
+    "answers": [
+      "Greg Davies",
+      "Lee Mack",
+      "Bob Mortimer",
+      "Alex Horne"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.channel4.com/press/press-pack/taskmaster-series-22-press-pack",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "f51b4e2b4e9f1d5a8326",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "How many contestants usually compete in a regular full series of the UK Taskmaster?",
+    "answers": [
+      "Four",
+      "Six",
+      "Five",
+      "Three"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.channel4.com/press/press-pack/taskmaster-series-22-press-pack",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "d6e57fa5cddffe6010b8",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "The main trophy in the UK Taskmaster is a golden sculpture of which part of Greg Davies?",
+    "answers": [
+      "His knee",
+      "His head",
+      "His hand",
+      "His foot"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.channel4.com/press/press-pack/taskmaster-series-22-press-pack",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "61cc8145dae865419da6",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who hosts the original BBC version of The Traitors?",
+    "answers": [
+      "Claudia Winkleman",
+      "Davina McCall",
+      "Emma Willis",
+      "Alison Hammond"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://studiolambert.com/project/awards-the-traitors/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "9611ba5dad1f88c0dedd",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "The BBC version of The Traitors is mainly filmed in which part of the United Kingdom?",
+    "answers": [
+      "Wales",
+      "England",
+      "Northern Ireland",
+      "Scotland"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://studiolambert.com/project/take-part-the-traitors-uk/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "0b740f409def6df44b41",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "In The Traitors, what is the official collective name for players who are not Traitors?",
+    "answers": [
+      "The Innocent",
+      "The Trusted",
+      "The Faithful",
+      "The Loyal"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://studiolambert.com/project/take-part-the-traitors-uk/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "7c3add48be1c3702d984",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "How do contestants normally choose someone to banish at the Round Table in The Traitors?",
+    "answers": [
+      "By answering a trivia question",
+      "By voting",
+      "By drawing lots",
+      "By racing"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.peacocktv.com/blog/the-traitors-season-4-cast-premiere-date-details",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "883eff726b858d84f315",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Which monarch's reign is the main focus of The Crown?",
+    "answers": [
+      "Elizabeth II",
+      "Victoria",
+      "Elizabeth I",
+      "Mary I"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.netflix.com/tudum/articles/the-crown-season-1-recap",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "87cf08477a69cd534577",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "The Crown mainly follows the royal family of which country?",
+    "answers": [
+      "Sweden",
+      "Spain",
+      "Denmark",
+      "The United Kingdom"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.netflix.com/tudum/articles/the-crown-season-1-recap",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "3cf3dfcdec2385d9abb6",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays the young Elizabeth in the first season of The Crown?",
+    "answers": [
+      "Imelda Staunton",
+      "Vanessa Kirby",
+      "Claire Foy",
+      "Olivia Colman"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.netflix.com/tudum/articles/the-crown-season-1-recap",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "8b96c573dc6e63a346dc",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays Prince Philip in the first season of The Crown?",
+    "answers": [
+      "Jared Harris",
+      "Matt Smith",
+      "Tobias Menzies",
+      "Jonathan Pryce"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.netflix.com/tudum/articles/the-crown-season-1-recap",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "3067b4e27c99aa807708",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "The television series The Last of Us was adapted from what?",
+    "answers": [
+      "A video game",
+      "A stage musical",
+      "A radio comedy",
+      "A newspaper comic strip"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://press.wbd.com/na/media-release/hbo-0/hbo-original-drama-series-last-us-debuts-january-15",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "683f640b2607ffb9da52",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays Joel in the first season of The Last of Us?",
+    "answers": [
+      "Oscar Isaac",
+      "Diego Luna",
+      "Javier Bardem",
+      "Pedro Pascal"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://press.wbd.com/na/media-release/hbo-0/hbo-original-drama-series-last-us-debuts-january-15",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "2815df732cf5bfd16560",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays Ellie in the first season of The Last of Us?",
+    "answers": [
+      "Kaitlyn Dever",
+      "Millie Bobby Brown",
+      "Bella Ramsey",
+      "Maisie Williams"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://press.wbd.com/na/media-release/hbo-0/hbo-original-drama-series-last-us-debuts-january-15",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "8200edda744e5fd61d19",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Joel and Ellie travel across which country in the first season of The Last of Us?",
+    "answers": [
+      "Japan",
+      "The United States",
+      "Canada",
+      "Australia"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://press.wbd.com/na/media-release/hbo-0/hbo-original-drama-series-last-us-debuts-january-15",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "dc05fd09e91c67404add",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What colour jumpsuits are worn by the main heist crew in the original Money Heist?",
+    "answers": [
+      "Red",
+      "Green",
+      "Yellow",
+      "Blue"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.netflix.com/tudum/articles/bts-watch-list",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "bf2e3668d7f7fd50c10c",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "The masks in the original Money Heist are modelled on which artist?",
+    "answers": [
+      "Pablo Picasso",
+      "Vincent van Gogh",
+      "Andy Warhol",
+      "Salvador Dalí"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.netflix.com/tudum/articles/bts-watch-list",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "c97191c984bac79bf613",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What title is used by the mastermind who organises the original Money Heist?",
+    "answers": [
+      "The Baron",
+      "The Judge",
+      "The Professor",
+      "The Captain"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.netflix.com/tudum/articles/bts-watch-list",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "ffb7e0f016e9f0e6db4a",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Tokyo, Berlin and Denver are used as character code names in Money Heist. What do these names have in common?",
+    "answers": [
+      "They are mountains",
+      "They are cities",
+      "They are rivers",
+      "They are planets"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.netflix.com/tudum/articles/bts-watch-list",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "53d7eecad0d6ee0d350c",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is the surname of the aristocratic family at the centre of Downton Abbey?",
+    "answers": [
+      "Crawley",
+      "Bridgerton",
+      "Shelby",
+      "Roy"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.pbs.org/about/about-pbs/blogs/news/downton-abbey-revisited-premieres-sunday-november-25-2012-on-pbs/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "31d1fab04c158a21bcf7",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "The fictional Downton Abbey estate is in which English county?",
+    "answers": [
+      "Cornwall",
+      "Kent",
+      "Devon",
+      "Yorkshire"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.pbs.org/about/about-pbs/blogs/news/downton-abbey-revisited-premieres-sunday-november-25-2012-on-pbs/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "1727bd0e46fb90ca3ae6",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Alongside the aristocratic family, whose lives are a major focus of Downton Abbey?",
+    "answers": [
+      "Rival police forces",
+      "Presidential advisers",
+      "Their household staff",
+      "A hospital's doctors"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.pbs.org/about/about-pbs/blogs/news/downton-abbey-revisited-premieres-sunday-november-25-2012-on-pbs/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "827d8bcec3dce69bdbf8",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays Violet, the Dowager Countess of Grantham, in Downton Abbey?",
+    "answers": [
+      "Julie Andrews",
+      "Maggie Smith",
+      "Judi Dench",
+      "Helen Mirren"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.pbs.org/about/about-pbs/blogs/news/downton-abbey-revisited-premieres-sunday-november-25-2012-on-pbs/",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "858c72b5aad8f9fa3db6",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is the personal name of the title character in The Mandalorian?",
+    "answers": [
+      "Din Djarin",
+      "Cassian Andor",
+      "Poe Dameron",
+      "Boba Fett"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.starwars.com/databank/the-mandalorian",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "839e2d355cfcc739fa22",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is Din Djarin's main occupation when The Mandalorian begins?",
+    "answers": [
+      "Senator",
+      "Moisture farmer",
+      "Starfighter mechanic",
+      "Bounty hunter"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.starwars.com/databank/the-mandalorian",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "8548cd8c8817c52b40c9",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Which young foundling does Din Djarin protect in The Mandalorian?",
+    "answers": [
+      "Ezra",
+      "Jacen",
+      "Grogu",
+      "Omega"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.starwars.com/databank/the-mandalorian",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  },
+  {
+    "id": "b70c1f0bfab75ba7926b",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Which metal is used for Din Djarin's distinctive armour in The Mandalorian?",
+    "answers": [
+      "Unobtainium",
+      "Beskar",
+      "Vibranium",
+      "Adamantium"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; reference-checked",
+    "sourceURL": "https://www.starwars.com/databank/the-mandalorian",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-14-v1"
+  }
+]

@@ -1,0 +1,1602 @@
+[
+  {
+    "draftID": "easy-14-001",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is a television miniseries?",
+    "answers": [
+      "A story told over a limited number of television episodes",
+      "An ongoing serial with no planned ending",
+      "A live broadcast of a single sporting event",
+      "A collection of unrelated music videos"
+    ],
+    "correctIndex": 0,
+    "rationale": "Miniseries planned limited episodic story. Ongoing open-ended serial, single live event and unrelated videos are distinct formats. Cambridge short-period multipart TV definition inspected; not claiming every programme later renewed ceases retroactively to have been a miniseries.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/miniseries",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-002",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is a cliffhanger at the end of a television episode?",
+    "answers": [
+      "An unresolved situation that creates suspense about what happens next",
+      "A list of the programme's production staff",
+      "A summary that resolves every storyline",
+      "A recap of events from earlier episodes"
+    ],
+    "correctIndex": 0,
+    "rationale": "Cliffhanger unresolved suspense, not credits, total resolution or recap. Revised faulty audio alternative into a genuine narrative device. Dictionary uncertainty/suspense sense checked; episode ending need not literally involve danger or a cliff.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/cliffhanger",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-003",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is a television spin-off?",
+    "answers": [
+      "A new programme developed from an existing programme or its characters",
+      "An unchanged repeat of a previously broadcast episode",
+      "A new season of the same programme",
+      "A trailer advertising a future episode"
+    ],
+    "correctIndex": 0,
+    "rationale": "Spin-off new programme from existing property/characters. Repeat, new season of same show and trailer are distinct. Dedicated programme sense checked beyond corporate spin-off. Lexical overlaps with NCIS/JAG and MaryTylerMoore trivia are different target facts.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/spin-off",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-004",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is a rerun of a television programme?",
+    "answers": [
+      "A repeat showing of an episode already broadcast",
+      "The first public showing of a brand-new episode",
+      "A rehearsal that is never recorded",
+      "A trailer for a future series"
+    ],
+    "correctIndex": 0,
+    "rationale": "Rerun repeat broadcast. New premiere, never-aired rehearsal and trailer not a rerun. Dictionary TV-show-again sense inspected, excluding repeat event generally. No claim broadcast must use identical channel/time.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/rerun",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-005",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What does television syndication primarily involve?",
+    "answers": [
+      "Licensing a programme to multiple broadcasters",
+      "Editing an episode into a short trailer",
+      "Recording the action with several cameras",
+      "Adding subtitles to an episode"
+    ],
+    "correctIndex": 0,
+    "rationale": "Syndication licensing to multiple broadcasters; not trailer editing, multicamera recording or subtitling. Changed broad 'allows' to primary meaning to avoid incidental rights permitting other production activities. Dictionary television-distribution sense checked rather than loan syndication.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/syndication",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-006",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "The word sitcom is short for what?",
+    "answers": [
+      "Situation comedy",
+      "Silent commentary",
+      "Simultaneous competition",
+      "Single-camera communication"
+    ],
+    "correctIndex": 0,
+    "rationale": "Sitcom short for situation comedy. Other expansions not that word's derivation. Dictionary explicitly situation comedy. Not implying all sitcoms use studio audiences or multiple cameras.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/sitcom",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-007",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Which description best fits a television soap opera?",
+    "answers": [
+      "An ongoing drama following the lives and relationships of recurring characters",
+      "A one-off fictional film",
+      "A weekly competitive cooking show",
+      "A daily news bulletin"
+    ],
+    "correctIndex": 0,
+    "rationale": "Soap ongoing drama about recurring characters' lives/relationships. One-off film, cooking competition and news different formats. Removed name-based soap-making giveaway. Dictionary continuity/group-of-characters sense checked, without insisting every soap airs daily forever.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/soap-opera",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-008",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is a docuseries?",
+    "answers": [
+      "A documentary presented as a series of episodes",
+      "A scripted drama about hospital doctors",
+      "A series of stand-up comedy performances",
+      "A live weekly quiz show"
+    ],
+    "correctIndex": 0,
+    "rationale": "Docuseries documentary in episodes. Scripted medical drama, stand-up series and live quiz are different genres. Dedicated documentary-series definition inspected, not inferring medical meaning from doc. Television scope allows dictionary's additional radio use.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/docuseries",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-009",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What does it mean to telecast an event?",
+    "answers": [
+      "To broadcast it on television",
+      "To adapt it for the stage",
+      "To describe it in a printed magazine",
+      "To record its sound for radio only"
+    ],
+    "correctIndex": 0,
+    "rationale": "Telecast broadcast by television, not stage, print or radio-only. Verb sense explicitly checked, not merely noun programme. Revised irrelevant performance-without-audience option to actual media adaptation.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/telecast",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-010",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "In UK television scheduling, what does the watershed concern?",
+    "answers": [
+      "When programmes unsuitable for children may start being shown",
+      "Which channels must provide subtitles",
+      "When broadcasting licences need renewing",
+      "How often advertisement breaks occur"
+    ],
+    "correctIndex": 0,
+    "rationale": "UK watershed concerns scheduling content unsuitable for children, not captions, licence renewals or ad-break frequency. Ofcom consumer explanation explicitly verifies meaning. Broad question doesn't give absolute ban for every service or precise legal advice; platform exceptions not denied.",
+    "sourceURL": "https://www.ofcom.org.uk/tv-radio-and-on-demand/broadcast-standards/what-is-the-watershed?language=en",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-011",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What does prime time generally refer to in television?",
+    "answers": [
+      "The period when the largest audiences are expected to watch",
+      "Only the first minute of any programme",
+      "The scheduled time for transmitter maintenance",
+      "Only programmes shown before sunrise"
+    ],
+    "correctIndex": 0,
+    "rationale": "Prime time expected largest audience period. First minute, maintenance slot and pre-dawn-only definitions false. Relevant broadcasting dictionary sense checked; no fixed international clock hours asserted.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/prime-time",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-012",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What does closed captioning provide for television viewers?",
+    "answers": [
+      "Optional on-screen text representing speech and relevant sounds",
+      "Spoken descriptions of what is happening visually",
+      "A sign-language interpreter shown beside the picture",
+      "A list of the cast at the end of a programme"
+    ],
+    "correctIndex": 0,
+    "rationale": "Closed captions optional text for speech and relevant sounds. Spoken visual description, sign-language interpreter and end credits different features. FCC passage explicitly toggle on/off plus speaker/sound-effect/music/laughter identification; dictionary alone only specified speech. No claim all subtitles always include sound effects.",
+    "sourceURL": "https://docs.fcc.gov/public/attachments/fcc-11-138a1.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-013",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is a television showrunner generally responsible for?",
+    "answers": [
+      "Overseeing a series' creative direction and production",
+      "Applying the cast's make-up",
+      "Operating one particular camera",
+      "Recording background sound effects"
+    ],
+    "correctIndex": 0,
+    "rationale": "Showrunner creative/management oversight. Make-up application, one-camera operation and sound effects are separate specialist roles. Dedicated dictionary explicitly creative/management decisions. Replaced absurd delivering-TVs/running-speed options; generally avoids claims nobody ever combines roles.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/showrunner",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-014",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is a season finale?",
+    "answers": [
+      "The final episode of a television season",
+      "The first episode of a television season",
+      "A short trailer for a forthcoming season",
+      "An unaired rehearsal before filming"
+    ],
+    "correctIndex": 0,
+    "rationale": "Season finale final episode. Opening episode, forthcoming trailer and unaired rehearsal not definition. Dictionary TV sense explicitly last episode checked, not only stage musical ending. No assumption finale always resolves every storyline.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/finale",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-015",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is a television season premiere?",
+    "answers": [
+      "The first episode shown in a new season",
+      "The final episode of the previous season",
+      "A repeat showing of the previous season",
+      "A private costume fitting before filming"
+    ],
+    "correctIndex": 0,
+    "rationale": "Season premiere opening episode. Previous finale/repeat season/private fitting different. First-public-showing dictionary sense scoped to the season's first episode. Not assuming every premiere is also series pilot.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/premiere",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-016",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is a talk show mainly built around?",
+    "answers": [
+      "Conversations and interviews led by a host",
+      "A continuing scripted story about fictional characters",
+      "Narrated footage of wildlife",
+      "Live athletic competition"
+    ],
+    "correctIndex": 0,
+    "rationale": "Talk show hosted conversations/interviews. Scripted serial, wildlife documentary and athletics are different main formats. Dictionary guests/questions sense inspected; mainly allows music/comedy segments too.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/talk-show",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-017",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What do contestants normally do on a television game show?",
+    "answers": [
+      "Compete in games or answer questions",
+      "Present the daily news",
+      "Act out a scripted drama",
+      "Review newly released films"
+    ],
+    "correctIndex": 0,
+    "rationale": "Game-show contestants play games/answer questions. News presentation, scripted acting and film reviewing are other TV roles. Dictionary points/questions/activities definition checked. No unsupported assertion every game show awards money.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/game-show",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-018",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is an infomercial?",
+    "answers": [
+      "A television advertisement presented like a longer programme",
+      "A news bulletin with no commercial content",
+      "An emergency announcement from the police",
+      "A programme's list of cast members"
+    ],
+    "correctIndex": 0,
+    "rationale": "Infomercial long advert styled like programme. Noncommercial news, police emergency notice and cast list do not fit. Dictionary long-advert/information/programme-like definition inspected. Clear word article/grammar and category.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/infomercial",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-019",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is a simulcast on radio and television?",
+    "answers": [
+      "The same programme broadcast on both at the same time",
+      "A repeat shown on television a year later",
+      "An unaired rehearsal for a future programme",
+      "A short trailer edited from a longer programme"
+    ],
+    "correctIndex": 0,
+    "rationale": "Simulcast explicitly same programme on radio and TV simultaneously. Later repeat, rehearsal and edited trailer not this process. Narrowed generic outlet wording to the exact dictionary scope rather than assuming every modern streaming distribution arrangement.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/simulcast",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-020",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What lets a viewer change television channels without touching the television itself?",
+    "answers": [
+      "A remote control",
+      "An aerial amplifier",
+      "A wall mount",
+      "A surge protector"
+    ],
+    "correctIndex": 0,
+    "rationale": "Remote control changes channel from distance. Aerial amplifier, wall mount and surge protector are accessories without that command function. Dictionary handheld TV-control sense inspected. Avoided phones/smart speakers as false choices because they could legitimately act as remotes.",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/remote-control",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-021",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays the title character in Ted Lasso?",
+    "answers": [
+      "Jason Sudeikis",
+      "Steve Carell",
+      "Paul Rudd",
+      "Will Ferrell"
+    ],
+    "correctIndex": 0,
+    "rationale": "Jason Sudeikis title role, not Carell/Rudd/Ferrell. Apple TV synopsis explicitly identifies actor and character. Similar phrasing to old Mannix actor question is not same fact. No unsupported claim he is solely responsible for writing series.",
+    "sourceURL": "https://tv.apple.com/us/show/ted-lasso/umc.cmc.vtoh0mn0xn7t3c643xqonfzy",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-022",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Before moving to England in Ted Lasso, Ted coached which sport in the United States?",
+    "answers": [
+      "American football",
+      "Ice hockey",
+      "Baseball",
+      "Basketball"
+    ],
+    "correctIndex": 0,
+    "rationale": "Ted originally American-football coach in US. Ice hockey/baseball/basketball not his stated prior coaching sport. Apple premise explicit. Distinguishes American football from English association football; before-moving context anchors original setup.",
+    "sourceURL": "https://tv.apple.com/us/show/ted-lasso/umc.cmc.vtoh0mn0xn7t3c643xqonfzy",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-023",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Which sport does AFC Richmond play in Ted Lasso?",
+    "answers": [
+      "Football (soccer)",
+      "Rugby union",
+      "Cricket",
+      "Basketball"
+    ],
+    "correctIndex": 0,
+    "rationale": "Richmond plays association football/soccer, not rugby/cricket/basketball. Apple pilot/synopsis explicitly English soccer team. Parenthetical soccer prevents regional football terminology ambiguity. Not conflating Ted's old coaching job with new sport.",
+    "sourceURL": "https://tv.apple.com/us/show/ted-lasso/umc.cmc.vtoh0mn0xn7t3c643xqonfzy",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-024",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is the name of the fictional club Ted is hired to manage at the start of Ted Lasso?",
+    "answers": [
+      "AFC Richmond",
+      "AFC Wimbledon",
+      "West Ham United",
+      "Crystal Palace"
+    ],
+    "correctIndex": 0,
+    "rationale": "AFC Richmond fictional club initially hired to manage. Wimbledon/WestHam/Palace are other clubs, not Ted's initial job. Apple pilot episode text explicitly AFC Richmond. At-start qualifier avoids later career speculation; fiction qualifier clear.",
+    "sourceURL": "https://tv.apple.com/us/show/ted-lasso/umc.cmc.vtoh0mn0xn7t3c643xqonfzy",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-025",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Which company employs Mark Scout in Severance?",
+    "answers": [
+      "Lumon Industries",
+      "Waystar Royco",
+      "Dunder Mifflin",
+      "Pied Piper"
+    ],
+    "correctIndex": 0,
+    "rationale": "Lumon Industries employs Mark. WaystarRoyco/DunderMifflin/PiedPiper other fictional companies. Apple synopsis exact employer. Question doesn't claim Mark owns company or knows its entire purpose.",
+    "sourceURL": "https://www.apple.com/tv-pr/originals/severance/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-026",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays Mark Scout in Severance?",
+    "answers": [
+      "Adam Scott",
+      "Paul Rudd",
+      "Jason Bateman",
+      "Bill Hader"
+    ],
+    "correctIndex": 0,
+    "rationale": "Adam Scott plays Mark Scout. Rudd/Bateman/Hader other actors. Apple explicit actor-character parenthesis. Uses full character name, not potentially ambiguous several Marks.",
+    "sourceURL": "https://www.apple.com/tv-pr/originals/severance/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-027",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "In Severance, the severance procedure separates employees' memories of which two parts of life?",
+    "answers": [
+      "Work and personal life",
+      "Childhood and adulthood",
+      "Dreams and nightmares",
+      "Weekdays and weekends"
+    ],
+    "correctIndex": 0,
+    "rationale": "Procedure divides work/personal memories. Childhood/adulthood, dreams/nightmares and weekday/weekend divisions not premise. Apple explicit surgical separation. Fictional procedure not medical instruction or real-world effectiveness claim.",
+    "sourceURL": "https://www.apple.com/tv-pr/originals/severance/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-028",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Which comedy star is an executive producer of Severance?",
+    "answers": [
+      "Ben Stiller",
+      "Adam Sandler",
+      "Jim Carrey",
+      "Will Ferrell"
+    ],
+    "correctIndex": 0,
+    "rationale": "Ben Stiller executive producer as explicitly listed by Apple. Sandler/Carrey/Ferrell not offered credited executive producer. Replaces inadequately text-supported generic-office setting with a directly verifiable production credit. Doesn't claim Stiller stars in the show.",
+    "sourceURL": "https://www.apple.com/tv-pr/originals/severance/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-029",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays Wednesday Addams in Netflix's Wednesday?",
+    "answers": [
+      "Jenna Ortega",
+      "Millie Bobby Brown",
+      "Sadie Sink",
+      "Anya Taylor-Joy"
+    ],
+    "correctIndex": 0,
+    "rationale": "Jenna Ortega Wednesday, not Millie/Sadie/Anya. Netflix cast guide explicit lead actress. Netflix-series scope distinguishes older screen incarnations. Proper apostrophe on Netflix's and actress names checked.",
+    "sourceURL": "https://www.netflix.com/tudum/articles/wednesday-character-cast-guide-season-1",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-030",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Which school does Wednesday attend in Netflix's Wednesday?",
+    "answers": [
+      "Nevermore Academy",
+      "Hogwarts",
+      "Moordale Secondary",
+      "Sunnydale High"
+    ],
+    "correctIndex": 0,
+    "rationale": "Nevermore Academy school. Hogwarts/Moordale/Sunnydale other fictional schools. Netflix guide explicitly halls of Nevermore Academy and student setting. Not mixing location Jericho with academy name.",
+    "sourceURL": "https://www.netflix.com/tudum/articles/wednesday-character-cast-guide-season-1",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-031",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays Morticia Addams in Netflix's Wednesday?",
+    "answers": [
+      "Catherine Zeta-Jones",
+      "Anjelica Huston",
+      "Christina Ricci",
+      "Carolyn Jones"
+    ],
+    "correctIndex": 0,
+    "rationale": "Original Addams-family identification duplicated existing CousinItt/Thing family question. Replace with Netflix Morticia role Catherine Zeta-Jones, explicitly named in guide's Weems/Morticia paragraph. Huston/Jones older incarnations and Ricci older Wednesday make plausible wrong options; Netflix scope leaves one correct answer.",
+    "sourceURL": "https://www.netflix.com/tudum/articles/wednesday-character-cast-guide-season-1",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-032",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Wednesday's roommate Enid Sinclair is which supernatural creature?",
+    "answers": [
+      "A werewolf",
+      "A vampire",
+      "A siren",
+      "A gorgon"
+    ],
+    "correctIndex": 0,
+    "rationale": "Replace unsupported Thing-hand candidate with Enid's werewolf identity. Netflix explicit Wednesday roommate and werewolf. Vampire/siren/gorgon other supernatural types represented in school, not Enid. Avoids another generic Addams-family fact; no claim Enid has already transformed in every episode.",
+    "sourceURL": "https://www.netflix.com/tudum/articles/wednesday-character-cast-guide-season-1",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-033",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Squid Game was originally produced in which country?",
+    "answers": [
+      "South Korea",
+      "Japan",
+      "Thailand",
+      "China"
+    ],
+    "correctIndex": 0,
+    "rationale": "South Korea production origin. Japan/Thailand/China not originating country. Official Republic of Korea cultural profile explicitly South Korean series. Irrelevant TYGO search result not accepted as verification. Original series, not later reality-format spin-off.",
+    "sourceURL": "https://www.korea.net/K-InfoHub/SubMainDetail/view?articleId=4036&headwordCd=57&headwordGroupCd=24&pageIndex=1",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-034",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What player number does Seong Gi-hun wear in Squid Game?",
+    "answers": [
+      "456",
+      "001",
+      "067",
+      "218"
+    ],
+    "correctIndex": 0,
+    "rationale": "Gi-hun Player456. 001/067/218 other player numbers, not his. Netflix cast guide explicitly Gi-hun also known as Player456. Does not confuse total initial contestant count with his identity despite same number.",
+    "sourceURL": "https://www.netflix.com/tudum/articles/squid-game-season-2-cast",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-035",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What colour tracksuits do the contestants wear in the original Squid Game?",
+    "answers": [
+      "Green",
+      "Red",
+      "Yellow",
+      "Purple"
+    ],
+    "correctIndex": 0,
+    "rationale": "Contestants' tracksuits green; not red/yellow/purple. Netflix official merchandise description/character caption explicitly green tracksuit. Publisher text inspected, not claimed manual colour inspection of an unseen image. Original drama scope, not arbitrary fan merchandise colours.",
+    "sourceURL": "https://www.netflix.com/tudum/articles/squid-game-season-2-merch-products",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-036",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Which game do contestants first play inside the competition arena in season one of Squid Game?",
+    "answers": [
+      "Red Light, Green Light",
+      "Musical Chairs",
+      "Hide-and-Seek",
+      "Hopscotch"
+    ],
+    "correctIndex": 0,
+    "rationale": "First arena game season1 RedLightGreenLight. MusicalChairs/HideAndSeek/Hopscotch not first arena contest. Official Netflix episode1 title/logline corroborates first round. Added arena qualifier so recruiter's earlier ddakji is not a counterexample.",
+    "sourceURL": "https://www.netflix.com/tudum/squid-game",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-037",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "In which city do the Bridgerton family mainly take part in the social season?",
+    "answers": [
+      "London",
+      "Paris",
+      "Vienna",
+      "Rome"
+    ],
+    "correctIndex": 0,
+    "rationale": "Social-season city London, not Paris/Vienna/Rome. Netflix guide explicitly London high society1813. Mainly allows countryside/AubreyHall episodes. Fictional show setting not locations where filming took place.",
+    "sourceURL": "https://www.netflix.com/tudum/articles/meet-bridgerton-cast-season-1",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-038",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Bridgerton's first season is set during which period of British history?",
+    "answers": [
+      "The Regency",
+      "The Tudor period",
+      "The Elizabethan era",
+      "The Second World War"
+    ],
+    "correctIndex": 0,
+    "rationale": "First-season Regency, not Tudor/Elizabethan/WWII. Netflix explicitly Regency England/1813. First-season scope avoids unsupported universal statement about every flashback; correct historical era independently clear.",
+    "sourceURL": "https://www.netflix.com/tudum/articles/meet-bridgerton-cast-season-1",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-039",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Which pen name appears on the scandal sheets in Bridgerton?",
+    "answers": [
+      "Lady Whistledown",
+      "Lady Featherington",
+      "Lady Danbury",
+      "Lady Grantham"
+    ],
+    "correctIndex": 0,
+    "rationale": "Scandal-sheet pen name LadyWhistledown. Featherington/Danbury/Grantham other titled names, not that byline. Netflix description explicitly notorious columnist. Does not reveal or confuse in-story secret author's identity with pen name.",
+    "sourceURL": "https://www.netflix.com/tudum/articles/meet-bridgerton-cast-season-1",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-040",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Whose novels were adapted into the television series Bridgerton?",
+    "answers": [
+      "Julia Quinn",
+      "Jane Austen",
+      "Georgette Heyer",
+      "Philippa Gregory"
+    ],
+    "correctIndex": 0,
+    "rationale": "Julia Quinn novels adapted. Austen/Heyer/Gregory other historical-fiction authors, not Bridgerton novelist. Netflix explicitly based on Quinn's novels. Regency setting not mistaken as proof of Austen authorship.",
+    "sourceURL": "https://www.netflix.com/tudum/articles/meet-bridgerton-cast-season-1",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-041",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "At the start of The Good Place, Eleanor discovers she has arrived in what kind of setting?",
+    "answers": [
+      "An afterlife",
+      "A boarding school",
+      "A military base",
+      "A space colony"
+    ],
+    "correctIndex": 0,
+    "rationale": "Eleanor arrives after death in afterlife. School/base/space colony not opening premise. Peacock indexed synopsis explicit heaven-like afterlife and episode1 newly-deceased Eleanor. At-start permits later revelations; not making religious truth claim.",
+    "sourceURL": "https://www.peacocktv.com/stream-tv/the-good-place",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-042",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays Eleanor Shellstrop in The Good Place?",
+    "answers": [
+      "Kristen Bell",
+      "Tina Fey",
+      "Amy Poehler",
+      "Zooey Deschanel"
+    ],
+    "correctIndex": 0,
+    "rationale": "Kristen Bell Eleanor. Fey/Poehler/Deschanel other comedy actresses. Peacock indexed show synopsis explicit pairing. Full name Shellstrop distinguishes character from historical people.",
+    "sourceURL": "https://www.peacocktv.com/stream-tv/the-good-place",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-043",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays Michael in The Good Place?",
+    "answers": [
+      "Ted Danson",
+      "Kelsey Grammer",
+      "John Lithgow",
+      "Steve Martin"
+    ],
+    "correctIndex": 0,
+    "rationale": "Ted Danson Michael. Grammer/Lithgow/Martin not this role. Peacock indexed synopsis explicitly Michael(TedDanson). Doesn't equate architect character with actor's other well-known parts.",
+    "sourceURL": "https://www.peacocktv.com/stream-tv/the-good-place",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-044",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "In The Good Place, Chidi gives Eleanor lessons in which subject?",
+    "answers": [
+      "Ethics",
+      "Chemistry",
+      "Architecture",
+      "Music"
+    ],
+    "correctIndex": 0,
+    "rationale": "Chidi teaches ethics. Chemistry/architecture/music not these lessons. Official Peacock season1 episode3 explicitly lessons in ethics. More specific offered subject avoids an overlapping broader philosophy option.",
+    "sourceURL": "https://www.peacocktv.com/stream-tv/the-good-place",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-045",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who created the graphic novels on which Heartstopper is based?",
+    "answers": [
+      "Alice Oseman",
+      "Suzanne Collins",
+      "Malorie Blackman",
+      "Holly Jackson"
+    ],
+    "correctIndex": 0,
+    "rationale": "Alice Oseman created source graphic novels. Collins/Blackman/Jackson other YA writers. Netflix creator interview identifies graphic novelist and her final Heartstopper graphic novel; series guide corroborates adaptation. Film article's later publication not treated as first-series release date.",
+    "sourceURL": "https://www.netflix.com/tudum/articles/heartstopper-movie-alice-oseman-plot-news",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-046",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays Nick Nelson in Heartstopper?",
+    "answers": [
+      "Kit Connor",
+      "Joe Locke",
+      "Asa Butterfield",
+      "Louis Partridge"
+    ],
+    "correctIndex": 0,
+    "rationale": "Kit Connor Nick Nelson. Locke/Butterfield/Partridge other actors. Netflix explicitly NickNelson(KitConnor), series index caption corroborates same role. Not confusing actor with character's age or biography.",
+    "sourceURL": "https://www.netflix.com/tudum/articles/heartstopper-movie-alice-oseman-plot-news",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-047",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays Charlie Spring in Heartstopper?",
+    "answers": [
+      "Joe Locke",
+      "Kit Connor",
+      "Tom Holland",
+      "Freddie Highmore"
+    ],
+    "correctIndex": 0,
+    "rationale": "Joe Locke Charlie Spring. Connor/Holland/Highmore not that role. Netflix explicit CharlieSpring(JoeLocke). Different role from previous question, not same actor-character association reversed.",
+    "sourceURL": "https://www.netflix.com/tudum/articles/heartstopper-movie-alice-oseman-plot-news",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-048",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Nick Nelson plays for his school's team in which sport in Heartstopper?",
+    "answers": [
+      "Rugby",
+      "Basketball",
+      "Cricket",
+      "Ice hockey"
+    ],
+    "correctIndex": 0,
+    "rationale": "Nick school's rugby team, not basketball/cricket/icehockey. Official Heartstopper series episode1 synopsis calls him school's popular rugby star. Revised wording to identify depicted team rather than every sport a pupil might ever play. Film-finale article alone lacked rugby and not used for this fact.",
+    "sourceURL": "https://www.netflix.com/tudum/heartstopper",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-049",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Derry Girls is set in which part of the United Kingdom?",
+    "answers": [
+      "Northern Ireland",
+      "Wales",
+      "Scotland",
+      "England"
+    ],
+    "correctIndex": 0,
+    "rationale": "Northern Ireland, not Wales/Scotland/England. Channel4 commissioning release explicitly nineties Northern Ireland/1994 Troubles context. Part-of-UK wording geographically clear without equating NorthernIreland with Republic of Ireland.",
+    "sourceURL": "https://www.channel4.com/press/news/channel-4-commissions-sitcom-set-nineties-northern-ireland",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-050",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Derry Girls is mainly set during which decade?",
+    "answers": [
+      "The 1990s",
+      "The 1960s",
+      "The 1970s",
+      "The 2010s"
+    ],
+    "correctIndex": 0,
+    "rationale": "Main decade1990s, not1960s/1970s/2010s. Channel4 explicitly1994. Mainly allows parents' older flashback and later epilogue; doesn't imply every scene in every instalment within same exact year.",
+    "sourceURL": "https://www.channel4.com/press/news/channel-4-commissions-sitcom-set-nineties-northern-ireland",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-051",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who created and wrote Derry Girls?",
+    "answers": [
+      "Lisa McGee",
+      "Sharon Horgan",
+      "Phoebe Waller-Bridge",
+      "Michaela Coel"
+    ],
+    "correctIndex": 0,
+    "rationale": "Lisa McGee creator/writer. Horgan/WallerBridge/Coel other writers. Channel4 explicitly written by McGee and conceived from her own experiences. Correct hyphenation of alternatives' names applied in original draft.",
+    "sourceURL": "https://www.channel4.com/press/news/channel-4-commissions-sitcom-set-nineties-northern-ireland",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-052",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "The central young characters in Derry Girls are primarily what?",
+    "answers": [
+      "School friends",
+      "Hospital doctors",
+      "Police detectives",
+      "Law-firm partners"
+    ],
+    "correctIndex": 0,
+    "rationale": "Central young group school friends. Doctors/detectives/law partners other ensemble premises. Channel4 Erin16 and friends with schoolteachers supports school-age group. Primarily avoids insisting all friends in identical gender-specific school year.",
+    "sourceURL": "https://www.channel4.com/press/news/channel-4-commissions-sitcom-set-nineties-northern-ireland",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-053",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "In which US city is Abbott Elementary set?",
+    "answers": [
+      "Philadelphia",
+      "Chicago",
+      "Boston",
+      "Seattle"
+    ],
+    "correctIndex": 0,
+    "rationale": "Philadelphia, not Chicago/Boston/Seattle. ABC official synopsis explicitly Philadelphia public school. Fictional school setting not production filming location. US city qualifier clear.",
+    "sourceURL": "https://abc.com/shows/abbott-elementary/about-the-show/1000",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-054",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is the main occupation of the central staff in Abbott Elementary?",
+    "answers": [
+      "Teaching",
+      "Nursing",
+      "Policing",
+      "Journalism"
+    ],
+    "correctIndex": 0,
+    "rationale": "Teaching main staff occupation. Nursing/policing/journalism different work. ABC dedicated teachers description explicit; main allows principal/custodian support characters without pretending entire cast holds identical classroom job.",
+    "sourceURL": "https://abc.com/shows/abbott-elementary/about-the-show/1000",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-055",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays Janine Teagues in Abbott Elementary?",
+    "answers": [
+      "Quinta Brunson",
+      "Issa Rae",
+      "Janelle James",
+      "Ayo Edebiri"
+    ],
+    "correctIndex": 0,
+    "rationale": "Quinta Brunson Janine Teagues. Issa/Janelle/Ayo not Janine. ABC exact cast mapping. Janelle plays another Abbott character, so distractor relevant but single role correct.",
+    "sourceURL": "https://abc.com/shows/abbott-elementary/about-the-show/1000",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-056",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who is the school principal in Abbott Elementary?",
+    "answers": [
+      "Ava Coleman",
+      "Janine Teagues",
+      "Barbara Howard",
+      "Melissa Schemmenti"
+    ],
+    "correctIndex": 0,
+    "rationale": "Principal Ava Coleman, not teachers Janine/Barbara/Melissa. ABC StorySoFar explicitly identifies Ava as principal. Base cast-name list alone didn't establish job, so more specific source assigned. No actor/character conflation.",
+    "sourceURL": "https://abc.com/news/1d5cf5c4-c3be-4748-930f-aad20aeeaae0/category/3746341",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-057",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "In which US city is The Bear mainly set?",
+    "answers": [
+      "Chicago",
+      "New York City",
+      "Los Angeles",
+      "Miami"
+    ],
+    "correctIndex": 0,
+    "rationale": "TheBear mainly Chicago, not NYC/LA/Miami. Official FX collection explicitly references series' Chicago deli, corroborating original workplace setting. Mainly allows flashbacks/culinary travel elsewhere. Does not claim actual bear-animal setting.",
+    "sourceURL": "https://shop.fxnetworks.com/collections/the-bear",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-058",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is Carmy's profession at the start of The Bear?",
+    "answers": [
+      "Chef",
+      "Architect",
+      "Lawyer",
+      "Journalist"
+    ],
+    "correctIndex": 0,
+    "rationale": "Carmy starts as chef, not architect/lawyer/journalist. FX official show description calls Carmen 'HeadChef'; initial-profession scope avoids later season plot about leaving industry. No inference from actor's unrelated roles.",
+    "sourceURL": "https://www.fxnetworks.com/shows/the-bear",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-059",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays Carmy in The Bear?",
+    "answers": [
+      "Jeremy Allen White",
+      "Paul Mescal",
+      "Austin Butler",
+      "Aaron Taylor-Johnson"
+    ],
+    "correctIndex": 0,
+    "rationale": "Jeremy Allen White Carmy. Mescal/Butler/TaylorJohnson not that role. FX indexed cast guide explicitly Carmen(Carmy)Berzatto. Proper spelling, nickname and actor surname verified; not claimed full fetch after403.",
+    "sourceURL": "https://www.fxnetworks.com/shows/the-bear/cast",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-060",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays Sydney Adamu in The Bear?",
+    "answers": [
+      "Ayo Edebiri",
+      "Quinta Brunson",
+      "Issa Rae",
+      "Janelle James"
+    ],
+    "correctIndex": 0,
+    "rationale": "Ayo Edebiri Sydney Adamu. Brunson/Rae/James other actresses. FX indexed guide exact role pairing. Sydney spelling checked, distinct from Australian city spelling and other fictional Sydneys.",
+    "sourceURL": "https://www.fxnetworks.com/shows/the-bear/cast",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-061",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Brooklyn Nine-Nine is set in which city?",
+    "answers": [
+      "New York City",
+      "Chicago",
+      "Boston",
+      "San Francisco"
+    ],
+    "correctIndex": 0,
+    "rationale": "NewYorkCity, not Chicago/Boston/SanFrancisco. Brooklyn borough setting and Peacock original precinct premise identify city. Does not substitute shooting location LosAngeles for story location.",
+    "sourceURL": "https://www.peacocktv.com/stream-tv/brooklyn-nine-nine",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-062",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "The main characters in Brooklyn Nine-Nine work in which profession?",
+    "answers": [
+      "Police work",
+      "Medicine",
+      "Journalism",
+      "Firefighting"
+    ],
+    "correctIndex": 0,
+    "rationale": "Police work main squad profession. Medicine/journalism/firefighting other services. Peacock description squad/captain/detective roles supports professional context. Broad police work includes civilian station staff without falsely calling every character a sworn officer.",
+    "sourceURL": "https://www.peacocktv.com/stream-tv/brooklyn-nine-nine",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-063",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays Jake Peralta in Brooklyn Nine-Nine?",
+    "answers": [
+      "Andy Samberg",
+      "Bill Hader",
+      "Jason Sudeikis",
+      "Adam Scott"
+    ],
+    "correctIndex": 0,
+    "rationale": "Andy Samberg JakePeralta. Hader/Sudeikis/Scott other comedy leads. Peacock explicitly pairing. Not assuming every colleague also came from SaturdayNightLive.",
+    "sourceURL": "https://www.peacocktv.com/stream-tv/brooklyn-nine-nine",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-064",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is Captain Holt's first name in Brooklyn Nine-Nine?",
+    "answers": [
+      "Raymond",
+      "Michael",
+      "Richard",
+      "David"
+    ],
+    "correctIndex": 0,
+    "rationale": "CaptainHolt first name Raymond. Michael/Richard/David not his first name. Peacock synopsis explicitly RaymondHolt. Revised from actor-name clue; avoids copying its incidental 'AndrewBraugher' cast-list typo and makes target more accessible.",
+    "sourceURL": "https://www.peacocktv.com/stream-tv/brooklyn-nine-nine",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-065",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is the name of the main apartment building in the first season of Only Murders in the Building?",
+    "answers": [
+      "The Arconia",
+      "The Dakota",
+      "The Plaza",
+      "The Savoy"
+    ],
+    "correctIndex": 0,
+    "rationale": "Arconia central first-season apartment building. Dakota/Plaza/Savoy different buildings. Encyclopaedic series premise explicitly Arconia/Manhattan; official Hulu first-season synopsis corroborates exclusive UpperWestSide building. First-season qualifier avoids later London setting. Peacock-style full retrieval not falsely claimed.",
+    "sourceURL": "https://en.wikipedia.org/wiki/Only_Murders_in_the_Building",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-066",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays the adult Mabel Mora in Only Murders in the Building?",
+    "answers": [
+      "Selena Gomez",
+      "Demi Lovato",
+      "Miley Cyrus",
+      "Ariana Grande"
+    ],
+    "correctIndex": 0,
+    "rationale": "Selena Gomez adult MabelMora. Lovato/Cyrus/Grande not role. Encyclopaedic cast list explicit, Hulu press confirms main trio actors. Adult qualifier excludes named child flashback actresses. This secondary-source corroboration identified honestly rather than claiming unpublished primary cast biography.",
+    "sourceURL": "https://en.wikipedia.org/wiki/Only_Murders_in_the_Building",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-067",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What do the central trio create together in Only Murders in the Building?",
+    "answers": [
+      "A true-crime podcast",
+      "A restaurant review magazine",
+      "A travel vlog",
+      "A gardening television show"
+    ],
+    "correctIndex": 0,
+    "rationale": "Trio creates true-crime podcast, not magazine/travel vlog/gardening show. Official one-page Hulu lead sheet explicitly recording podcast to document case. Genuine in-story project, not external companion podcast about production.",
+    "sourceURL": "https://press.hulu.com/storage/uploads/7C/99/7C994039-F184-B1E7-3929-179CB50E0F6F/Only_Murders_in_the_Building_S2_Lead_Sheet_2025.pdf",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-068",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "In which city is the first season of Only Murders in the Building mainly set?",
+    "answers": [
+      "New York City",
+      "Boston",
+      "Chicago",
+      "San Francisco"
+    ],
+    "correctIndex": 0,
+    "rationale": "First-season NYC. Boston/Chicago/SanFrancisco not its setting. Encyclopaedic Manhattan/UpperWestSide and Hulu official plot location corroborate. Explicit first season avoids new London-season title and future-setting ambiguity.",
+    "sourceURL": "https://en.wikipedia.org/wiki/Only_Murders_in_the_Building",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-069",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Which museum is targeted by Assane Diop in the opening episode of Lupin?",
+    "answers": [
+      "The Louvre",
+      "The Prado",
+      "The Uffizi",
+      "The Rijksmuseum"
+    ],
+    "correctIndex": 0,
+    "rationale": "Original draft reversed the same OmarSy/Assane association as row70. Replace with opening Louvre heist, explicitly described in Netflix recap. Prado/Uffizi/Rijksmuseum other museums, not first target. Opening episode anchors later travelling theft stories.",
+    "sourceURL": "https://www.netflix.com/tudum/articles/lupin-part-4-release-date-photos-news",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-070",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays Assane Diop in Lupin?",
+    "answers": [
+      "Omar Sy",
+      "Idris Elba",
+      "Daniel Kaluuya",
+      "John Boyega"
+    ],
+    "correctIndex": 0,
+    "rationale": "Omar Sy AssaneDiop, not Elba/Kaluuya/Boyega. Netflix exact reprise of role. Proper given/surname and character spelling checked. Actor-role fact now occurs only once in this new batch.",
+    "sourceURL": "https://www.netflix.com/tudum/articles/lupin-part-4-release-date-photos-news",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-071",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Netflix's Lupin is primarily set in which country?",
+    "answers": [
+      "France",
+      "Italy",
+      "Germany",
+      "Portugal"
+    ],
+    "correctIndex": 0,
+    "rationale": "Lupin primarily France. Italy/Germany/Portugal not main national setting. Netflix recap explicitly Paris backdrop/Louvre; French production context supports country. Primarily permits Senegal backstory and occasional travel.",
+    "sourceURL": "https://www.netflix.com/tudum/articles/lupin-part-4-release-date-photos-news",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-072",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "How is Assane Diop's criminal role best described in Lupin?",
+    "answers": [
+      "A gentleman thief",
+      "A drug kingpin",
+      "A contract killer",
+      "A counterfeiter of banknotes"
+    ],
+    "correctIndex": 0,
+    "rationale": "Assane gentleman thief, not drug kingpin/contract killer/banknote counterfeiter. Netflix explicitly suave gentleman thief. Role best-described qualifier avoids claiming he never uses deception or any forged prop.",
+    "sourceURL": "https://www.netflix.com/tudum/articles/lupin-part-4-release-date-photos-news",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-073",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who is the Taskmaster in the original UK television series?",
+    "answers": [
+      "Greg Davies",
+      "Alex Horne",
+      "Richard Ayoade",
+      "David Mitchell"
+    ],
+    "correctIndex": 0,
+    "rationale": "Greg Davies UK Taskmaster. Horne assistant, Ayoade/Mitchell other comedians. Channel4 press pack explicitly Taskmaster GregDavies. Original UK scope avoids international-format presenters.",
+    "sourceURL": "https://www.channel4.com/press/press-pack/taskmaster-series-22-press-pack",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-074",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who acts as the Taskmaster's assistant in the original UK series?",
+    "answers": [
+      "Alex Horne",
+      "Greg Davies",
+      "Lee Mack",
+      "Bob Mortimer"
+    ],
+    "correctIndex": 0,
+    "rationale": "Alex Horne assistant. Davies Taskmaster, Mack/Mortimer guest contestants. Channel4 exact assistant role. Does not mistake creator role for the in-show Taskmaster character.",
+    "sourceURL": "https://www.channel4.com/press/press-pack/taskmaster-series-22-press-pack",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-075",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "How many contestants usually compete in a regular full series of the UK Taskmaster?",
+    "answers": [
+      "Five",
+      "Three",
+      "Four",
+      "Six"
+    ],
+    "correctIndex": 0,
+    "rationale": "Five contestants regular full UK series, not3/4/6. Channel4 fantastic-five cast list confirms normal format. Usually/regular scope excludes unusual charity configurations or future specials without overclaiming immutable format.",
+    "sourceURL": "https://www.channel4.com/press/press-pack/taskmaster-series-22-press-pack",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-076",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "The main trophy in the UK Taskmaster is a golden sculpture of which part of Greg Davies?",
+    "answers": [
+      "His head",
+      "His hand",
+      "His foot",
+      "His knee"
+    ],
+    "correctIndex": 0,
+    "rationale": "Golden head, not hand/foot/knee. Channel4 winning Greg's golden bonce refers to main head trophy. Question main trophy avoids treating every contestant prize brought to studio as identical. Head meaning of British bonce clear in context.",
+    "sourceURL": "https://www.channel4.com/press/press-pack/taskmaster-series-22-press-pack",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-077",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who hosts the original BBC version of The Traitors?",
+    "answers": [
+      "Claudia Winkleman",
+      "Davina McCall",
+      "Emma Willis",
+      "Alison Hammond"
+    ],
+    "correctIndex": 0,
+    "rationale": "Claudia Winkleman BBC host. McCall/Willis/Hammond other UK presenters. Producer awards association and indexed UK-format description corroborate Winkleman; not the US host AlanCumming. Source slug ambiguity in another producer page not treated as evidence Claudia hosts US version.",
+    "sourceURL": "https://studiolambert.com/project/awards-the-traitors/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-078",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "The BBC version of The Traitors is mainly filmed in which part of the United Kingdom?",
+    "answers": [
+      "Scotland",
+      "Wales",
+      "England",
+      "Northern Ireland"
+    ],
+    "correctIndex": 0,
+    "rationale": "Main filming Scottish Highlands, so Scotland, not Wales/England/NI. StudioLambert explicit filming region. Removed unneeded castle clause not established in this particular retrieved description; mainly allows ancillary segments elsewhere.",
+    "sourceURL": "https://studiolambert.com/project/take-part-the-traitors-uk/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-079",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "In The Traitors, what is the official collective name for players who are not Traitors?",
+    "answers": [
+      "The Faithful",
+      "The Loyal",
+      "The Innocent",
+      "The Trusted"
+    ],
+    "correctIndex": 0,
+    "rationale": "Non-Traitors officially Faithful. Loyal/Innocent/Trusted plausible synonyms but not official group label. StudioLambert explicitly fellow players known as Faithful. Replaces stem that gave away its answer by repeating show's title.",
+    "sourceURL": "https://studiolambert.com/project/take-part-the-traitors-uk/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-080",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "How do contestants normally choose someone to banish at the Round Table in The Traitors?",
+    "answers": [
+      "By voting",
+      "By drawing lots",
+      "By racing",
+      "By answering a trivia question"
+    ],
+    "correctIndex": 0,
+    "rationale": "RoundTable banishment by voting, not lots/race/trivia. Official Peacock format guide explicitly debate then vote to banish. Generic franchise question, no claim the US cast/host is BBC cast/host; normally allows format twists without redefining main banishment procedure.",
+    "sourceURL": "https://www.peacocktv.com/blog/the-traitors-season-4-cast-premiere-date-details",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-081",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Which monarch's reign is the main focus of The Crown?",
+    "answers": [
+      "Elizabeth II",
+      "Victoria",
+      "Elizabeth I",
+      "Mary I"
+    ],
+    "correctIndex": 0,
+    "rationale": "ElizabethII reign, not Victoria/ElizabethI/MaryI. Netflix synopsis explicitly fictional dramatisation of QueenElizabethII. No assertion dramatised dialogue is historically exact. Other monarchs don't become competing answers merely through references in show.",
+    "sourceURL": "https://www.netflix.com/tudum/articles/the-crown-season-1-recap",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-082",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "The Crown mainly follows the royal family of which country?",
+    "answers": [
+      "The United Kingdom",
+      "Sweden",
+      "Spain",
+      "Denmark"
+    ],
+    "correctIndex": 0,
+    "rationale": "UK royal family. Swedish/Spanish/Danish families not main family. Netflix recap British succession/Commonwealth/England, plus identifiable ElizabethII context. Mainly allows visits abroad and other royal guest characters.",
+    "sourceURL": "https://www.netflix.com/tudum/articles/the-crown-season-1-recap",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-083",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays the young Elizabeth in the first season of The Crown?",
+    "answers": [
+      "Claire Foy",
+      "Olivia Colman",
+      "Imelda Staunton",
+      "Vanessa Kirby"
+    ],
+    "correctIndex": 0,
+    "rationale": "Claire Foy first-season young Elizabeth. Colman/Staunton later Elizabeth; Kirby early Margaret. Netflix exact actor-character parenthesis. First-season scope essential because three offered actresses play Elizabeth across whole series.",
+    "sourceURL": "https://www.netflix.com/tudum/articles/the-crown-season-1-recap",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-084",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays Prince Philip in the first season of The Crown?",
+    "answers": [
+      "Matt Smith",
+      "Tobias Menzies",
+      "Jonathan Pryce",
+      "Jared Harris"
+    ],
+    "correctIndex": 0,
+    "rationale": "Matt Smith first-season Philip. Menzies/Pryce later Philip; Harris GeorgeVI. Netflix first-season recap exact pairing. Version/season qualifier supplies one correct offered option rather than ambiguous whole-series casting question.",
+    "sourceURL": "https://www.netflix.com/tudum/articles/the-crown-season-1-recap",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-085",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "The television series The Last of Us was adapted from what?",
+    "answers": [
+      "A video game",
+      "A stage musical",
+      "A radio comedy",
+      "A newspaper comic strip"
+    ],
+    "correctIndex": 0,
+    "rationale": "Adapted video game, not stage musical/radio comedy/newspaper strip. WBD official credits explicitly NaughtyDog PlayStation video game. Not same fact as existing game character Sarah trivia or old PrivateBenjamin film-adaptation question.",
+    "sourceURL": "https://press.wbd.com/na/media-release/hbo-0/hbo-original-drama-series-last-us-debuts-january-15",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-086",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays Joel in the first season of The Last of Us?",
+    "answers": [
+      "Pedro Pascal",
+      "Oscar Isaac",
+      "Diego Luna",
+      "Javier Bardem"
+    ],
+    "correctIndex": 0,
+    "rationale": "Pedro Pascal first-season Joel. Isaac/Luna/Bardem other actors. WBD first-season cast exact pairing. First-season scope protects historical wording from later narrative developments.",
+    "sourceURL": "https://press.wbd.com/na/media-release/hbo-0/hbo-original-drama-series-last-us-debuts-january-15",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-087",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays Ellie in the first season of The Last of Us?",
+    "answers": [
+      "Bella Ramsey",
+      "Maisie Williams",
+      "Kaitlyn Dever",
+      "Millie Bobby Brown"
+    ],
+    "correctIndex": 0,
+    "rationale": "Bella Ramsey first-season Ellie. Williams/Dever/Brown not Ellie; Dever later Abby. WBD exact role. Added first-season qualifier; doesn't confuse game voice actress AshleyJohnson's different television appearance.",
+    "sourceURL": "https://press.wbd.com/na/media-release/hbo-0/hbo-original-drama-series-last-us-debuts-january-15",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-088",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Joel and Ellie travel across which country in the first season of The Last of Us?",
+    "answers": [
+      "The United States",
+      "Canada",
+      "Australia",
+      "Japan"
+    ],
+    "correctIndex": 0,
+    "rationale": "Story traverses UnitedStates. Canada/Australia/Japan not first-season road journey. WBD logline explicitly traverse U.S. Distinguishes story geography from Canadian production locations, without making universal claim all later seasons stay in one country.",
+    "sourceURL": "https://press.wbd.com/na/media-release/hbo-0/hbo-original-drama-series-last-us-debuts-january-15",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-089",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What colour jumpsuits are worn by the main heist crew in the original Money Heist?",
+    "answers": [
+      "Red",
+      "Green",
+      "Yellow",
+      "Blue"
+    ],
+    "correctIndex": 0,
+    "rationale": "Original heist crew red jumpsuits, notgreen/yellow/blue. Netflix BTS recommendation paragraph explicitly original Spanish-series uniform. Doesn't substitute SquidGame's green or assume all remakes use identical masks.",
+    "sourceURL": "https://www.netflix.com/tudum/articles/bts-watch-list",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-090",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "The masks in the original Money Heist are modelled on which artist?",
+    "answers": [
+      "Salvador Dalí",
+      "Pablo Picasso",
+      "Vincent van Gogh",
+      "Andy Warhol"
+    ],
+    "correctIndex": 0,
+    "rationale": "Masks SalvadorDalí. Picasso/VanGogh/Warhol other artists, not face depicted. Same Netflix original-series synopsis explicit Dali masks. Original-series qualifier avoids Korean Hahoe-mask distinction; accent retained in Dalí.",
+    "sourceURL": "https://www.netflix.com/tudum/articles/bts-watch-list",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-091",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What title is used by the mastermind who organises the original Money Heist?",
+    "answers": [
+      "The Professor",
+      "The Captain",
+      "The Baron",
+      "The Judge"
+    ],
+    "correctIndex": 0,
+    "rationale": "Mastermind Professor, not Captain/Baron/Judge. Netflix explicitly criminal mastermind known as Professor(AlvaroMorte). Character title, not actor's academic qualification. Original series scope clear.",
+    "sourceURL": "https://www.netflix.com/tudum/articles/bts-watch-list",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-092",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Tokyo, Berlin and Denver are used as character code names in Money Heist. What do these names have in common?",
+    "answers": [
+      "They are cities",
+      "They are rivers",
+      "They are planets",
+      "They are mountains"
+    ],
+    "correctIndex": 0,
+    "rationale": "Tokyo/Berlin/Denver city-inspired aliases. Not rivers/planets/mountains as category for all three. Netflix explicitly city-inspired code names and lists characters. Accessible self-contained pattern, not a question whose answer is stated literally in stem.",
+    "sourceURL": "https://www.netflix.com/tudum/articles/bts-watch-list",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-093",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is the surname of the aristocratic family at the centre of Downton Abbey?",
+    "answers": [
+      "Crawley",
+      "Bridgerton",
+      "Shelby",
+      "Roy"
+    ],
+    "correctIndex": 0,
+    "rationale": "Crawley aristocratic family. Bridgerton/Shelby/Roy other TV families. PBS announcement explicitly noble Crawley family. No confusion with servants' surnames or real Highclere ownership.",
+    "sourceURL": "https://www.pbs.org/about/about-pbs/blogs/news/downton-abbey-revisited-premieres-sunday-november-25-2012-on-pbs/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-094",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "The fictional Downton Abbey estate is in which English county?",
+    "answers": [
+      "Yorkshire",
+      "Cornwall",
+      "Kent",
+      "Devon"
+    ],
+    "correctIndex": 0,
+    "rationale": "Fictional estate Yorkshire, not Cornwall/Kent/Devon. PBS explicitly sumptuous Yorkshire estate. Fictional-location wording distinguishes Highclere's actual filming county Hampshire. Historic Yorkshire usage appropriate to series period.",
+    "sourceURL": "https://www.pbs.org/about/about-pbs/blogs/news/downton-abbey-revisited-premieres-sunday-november-25-2012-on-pbs/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-095",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Alongside the aristocratic family, whose lives are a major focus of Downton Abbey?",
+    "answers": [
+      "Their household staff",
+      "A hospital's doctors",
+      "Rival police forces",
+      "Presidential advisers"
+    ],
+    "correctIndex": 0,
+    "rationale": "Household staff, not hospital/police/presidential ensembles. PBS explicitly family and staff who serve them. Replaced no facts; other alternatives clear different workplace dramas. Does not imply servants and family have equal status.",
+    "sourceURL": "https://www.pbs.org/about/about-pbs/blogs/news/downton-abbey-revisited-premieres-sunday-november-25-2012-on-pbs/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-096",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Who plays Violet, the Dowager Countess of Grantham, in Downton Abbey?",
+    "answers": [
+      "Maggie Smith",
+      "Judi Dench",
+      "Helen Mirren",
+      "Julie Andrews"
+    ],
+    "correctIndex": 0,
+    "rationale": "Maggie Smith VioletDowagerCountessGrantham. Dench/Mirren/Andrews other recognised actresses. PBS explicitly Emmy portrayal Violet and title. Correct actor spelling and character title, not confusing Downton films' other guest stars.",
+    "sourceURL": "https://www.pbs.org/about/about-pbs/blogs/news/downton-abbey-revisited-premieres-sunday-november-25-2012-on-pbs/",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-097",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is the personal name of the title character in The Mandalorian?",
+    "answers": [
+      "Din Djarin",
+      "Cassian Andor",
+      "Poe Dameron",
+      "Boba Fett"
+    ],
+    "correctIndex": 0,
+    "rationale": "Din Djarin title Mandalorian personal name. Cassian/Poe/Boba other StarWars characters. Official databank heading/name explicit. Not assuming every Mandalorian is Din or conflating actor PedroPascal with character.",
+    "sourceURL": "https://www.starwars.com/databank/the-mandalorian",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-098",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "What is Din Djarin's main occupation when The Mandalorian begins?",
+    "answers": [
+      "Bounty hunter",
+      "Senator",
+      "Moisture farmer",
+      "Starfighter mechanic"
+    ],
+    "correctIndex": 0,
+    "rationale": "Begins bountyhunter, not senator/moisturefarmer/mechanic. Official databank battle-worn bountyhunter. At-beginning qualifier permits later fatherhood/alliances and evolving roles.",
+    "sourceURL": "https://www.starwars.com/databank/the-mandalorian",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-099",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Which young foundling does Din Djarin protect in The Mandalorian?",
+    "answers": [
+      "Grogu",
+      "Omega",
+      "Ezra",
+      "Jacen"
+    ],
+    "correctIndex": 0,
+    "rationale": "Grogu young foundling protected. Omega/Ezra/Jacen other StarWars younger characters. Databank explicitly foundling Grogu protected by DinDjarin. No generic BabyYoda-name duplicate found in global bank search.",
+    "sourceURL": "https://www.starwars.com/databank/the-mandalorian",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  },
+  {
+    "draftID": "easy-14-100",
+    "categoryID": "14",
+    "difficulty": "easy",
+    "prompt": "Which metal is used for Din Djarin's distinctive armour in The Mandalorian?",
+    "answers": [
+      "Beskar",
+      "Vibranium",
+      "Adamantium",
+      "Unobtainium"
+    ],
+    "correctIndex": 0,
+    "rationale": "Beskar armour metal. Vibranium/adamantium/unobtainium from other franchises not this armour. Official databank narrative explicitly beskar helmet and later forged armour. Doesn't claim every component of his equipment in every episode is pure beskar.",
+    "sourceURL": "https://www.starwars.com/databank/the-mandalorian",
+    "reviewStatus": "draft_awaiting_author_final_check"
+  }
+]

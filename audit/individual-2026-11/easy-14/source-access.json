@@ -1,0 +1,562 @@
+{
+  "date": "2026-11-18",
+  "note": "100 explicit author editorial judgments, not independent review. Source retrieval itself never grants approval. Dictionary senses, official publisher/producer descriptions, partial HTML, indexed passages, inaccessible stubs, and three encyclopaedic corroborations differentiated. No private source extracts republished.",
+  "references": [
+    {
+      "url": "https://abc.com/news/1d5cf5c4-c3be-4748-930f-aad20aeeaae0/category/3746341",
+      "status": "indexed_official_passage_inspected",
+      "inspectionMethod": "Applicable official broadcaster/producer/standards/education/cultural passage inspected through web output. Full direct page retrieval not claimed.",
+      "questionRows": [
+        56
+      ]
+    },
+    {
+      "url": "https://abc.com/shows/abbott-elementary/about-the-show/1000",
+      "resolvedURL": "https://abc.com/shows/abbott-elementary/about-the-show/1000",
+      "status": "retrieved_for_inspection",
+      "sha256": "19d5eca4e7a399f1d338d48948ba0cfe6171f13d10603e4873835f69af54d9a6",
+      "inspectionMethod": "Relevant actual definition, synopsis, character/cast or production-credit passage inspected. Netflix partial-response status retained; received-byte hash is not a full-page hash.",
+      "questionRows": [
+        53,
+        54,
+        55
+      ]
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/cliffhanger",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/cliffhanger",
+      "status": "retrieved_for_inspection",
+      "sha256": "ee19965fab5b1ab08c72eb02514bb574cbd5a635feb1ece16d6ff15cdef86a86",
+      "inspectionMethod": "Relevant actual definition, synopsis, character/cast or production-credit passage inspected. Netflix partial-response status retained; received-byte hash is not a full-page hash.",
+      "questionRows": [
+        2
+      ]
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/docuseries",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/docuseries",
+      "status": "retrieved_for_inspection",
+      "sha256": "6d18f7a93f99c45b0a57e632da8bbb182773786e8e4d1d77a3b49a076a32fdcc",
+      "inspectionMethod": "Relevant actual definition, synopsis, character/cast or production-credit passage inspected. Netflix partial-response status retained; received-byte hash is not a full-page hash.",
+      "questionRows": [
+        8
+      ]
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/finale",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/finale",
+      "status": "retrieved_for_inspection",
+      "sha256": "1b08532ff8b780ac19bdc9e92ec1727abc749572537d7e43acf76ae19929f545",
+      "inspectionMethod": "Relevant actual definition, synopsis, character/cast or production-credit passage inspected. Netflix partial-response status retained; received-byte hash is not a full-page hash.",
+      "questionRows": [
+        14
+      ]
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/game-show",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/game-show",
+      "status": "retrieved_for_inspection",
+      "sha256": "8fb3941079f76ae7fb6e3e7f2018e4b46945d6e012700dffe857cb6732308cbb",
+      "inspectionMethod": "Relevant actual definition, synopsis, character/cast or production-credit passage inspected. Netflix partial-response status retained; received-byte hash is not a full-page hash.",
+      "questionRows": [
+        17
+      ]
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/infomercial",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/infomercial",
+      "status": "retrieved_for_inspection",
+      "sha256": "154411a2d6b3c4fd40d15a7f2f0d880f9b32005195fb076a554707ca220fcdff",
+      "inspectionMethod": "Relevant actual definition, synopsis, character/cast or production-credit passage inspected. Netflix partial-response status retained; received-byte hash is not a full-page hash.",
+      "questionRows": [
+        18
+      ]
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/miniseries",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/miniseries",
+      "status": "retrieved_for_inspection",
+      "sha256": "2b4134ecc1ec170327b5fd960fa8acf025e70ce06d9d4ee119e6bb9c8961fa25",
+      "inspectionMethod": "Relevant actual definition, synopsis, character/cast or production-credit passage inspected. Netflix partial-response status retained; received-byte hash is not a full-page hash.",
+      "questionRows": [
+        1
+      ]
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/premiere",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/premiere",
+      "status": "retrieved_for_inspection",
+      "sha256": "059a25e9d86f044e3e0ab87e6368b0ea7916c87e09cedc12467f31f8edd8a86e",
+      "inspectionMethod": "Relevant actual definition, synopsis, character/cast or production-credit passage inspected. Netflix partial-response status retained; received-byte hash is not a full-page hash.",
+      "questionRows": [
+        15
+      ]
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/prime-time",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/prime-time",
+      "status": "retrieved_for_inspection",
+      "sha256": "5025af2e232ad5a863be74bdb6faddc0fbb5a022dfd159b98611f3e281813fff",
+      "inspectionMethod": "Relevant actual definition, synopsis, character/cast or production-credit passage inspected. Netflix partial-response status retained; received-byte hash is not a full-page hash.",
+      "questionRows": [
+        11
+      ]
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/remote-control",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/remote-control",
+      "status": "retrieved_for_inspection",
+      "sha256": "966c525e6ce4458756bc3b96eb4526df91dd370582f016fe70a03e3d2838b674",
+      "inspectionMethod": "Relevant actual definition, synopsis, character/cast or production-credit passage inspected. Netflix partial-response status retained; received-byte hash is not a full-page hash.",
+      "questionRows": [
+        20
+      ]
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/rerun",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/rerun",
+      "status": "retrieved_for_inspection",
+      "sha256": "b84947ac4dbf7f06262f15f0b296586df91c2d5f6cb2c39e203d21fdf804014c",
+      "inspectionMethod": "Relevant actual definition, synopsis, character/cast or production-credit passage inspected. Netflix partial-response status retained; received-byte hash is not a full-page hash.",
+      "questionRows": [
+        4
+      ]
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/showrunner",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/showrunner",
+      "status": "retrieved_for_inspection",
+      "sha256": "1a6a096dd0f3b77714136bd184912af6ea1527228dcc3ec84fdcf7c58e53aa39",
+      "inspectionMethod": "Relevant actual definition, synopsis, character/cast or production-credit passage inspected. Netflix partial-response status retained; received-byte hash is not a full-page hash.",
+      "questionRows": [
+        13
+      ]
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/simulcast",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/simulcast",
+      "status": "retrieved_for_inspection",
+      "sha256": "f73e37f806d068afef7f40094f03f85a730e4f64bc7d8fc1781a2231d7e3497f",
+      "inspectionMethod": "Relevant actual definition, synopsis, character/cast or production-credit passage inspected. Netflix partial-response status retained; received-byte hash is not a full-page hash.",
+      "questionRows": [
+        19
+      ]
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/sitcom",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/sitcom",
+      "status": "retrieved_for_inspection",
+      "sha256": "8042e9b278adfd544397c14f634b10c95e5ab6a6e7a66069a5928f5d9344b92b",
+      "inspectionMethod": "Relevant actual definition, synopsis, character/cast or production-credit passage inspected. Netflix partial-response status retained; received-byte hash is not a full-page hash.",
+      "questionRows": [
+        6
+      ]
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/soap-opera",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/soap-opera",
+      "status": "retrieved_for_inspection",
+      "sha256": "4a9d9f3131bae22a4b5653435bb61707d40066baf74f6738a7ae40d396a22c6e",
+      "inspectionMethod": "Relevant actual definition, synopsis, character/cast or production-credit passage inspected. Netflix partial-response status retained; received-byte hash is not a full-page hash.",
+      "questionRows": [
+        7
+      ]
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/spin-off",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/spin-off",
+      "status": "retrieved_for_inspection",
+      "sha256": "84ec27d26c45cd88e71d71c278aac540dfa58e0fff62d3ee54528efb9045c68f",
+      "inspectionMethod": "Relevant actual definition, synopsis, character/cast or production-credit passage inspected. Netflix partial-response status retained; received-byte hash is not a full-page hash.",
+      "questionRows": [
+        3
+      ]
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/syndication",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/syndication",
+      "status": "retrieved_for_inspection",
+      "sha256": "2eff2bf70257e37f58ae684a3f0f0cbf15a9f00af1a39338501ec72a703509bd",
+      "inspectionMethod": "Relevant actual definition, synopsis, character/cast or production-credit passage inspected. Netflix partial-response status retained; received-byte hash is not a full-page hash.",
+      "questionRows": [
+        5
+      ]
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/talk-show",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/talk-show",
+      "status": "retrieved_for_inspection",
+      "sha256": "9386f0075f596fbecf26075061f30e25c13435ac4e2bfde30e4bae2a2eb038dd",
+      "inspectionMethod": "Relevant actual definition, synopsis, character/cast or production-credit passage inspected. Netflix partial-response status retained; received-byte hash is not a full-page hash.",
+      "questionRows": [
+        16
+      ]
+    },
+    {
+      "url": "https://dictionary.cambridge.org/dictionary/english/telecast",
+      "resolvedURL": "https://dictionary.cambridge.org/dictionary/english/telecast",
+      "status": "retrieved_for_inspection",
+      "sha256": "e0ea8e1349ff15e022469c75169c7670703308e82cf02f1caef27e3c7d1f9255",
+      "inspectionMethod": "Relevant actual definition, synopsis, character/cast or production-credit passage inspected. Netflix partial-response status retained; received-byte hash is not a full-page hash.",
+      "questionRows": [
+        9
+      ]
+    },
+    {
+      "url": "https://docs.fcc.gov/public/attachments/fcc-11-138a1.pdf",
+      "status": "indexed_official_passage_inspected",
+      "inspectionMethod": "Applicable official broadcaster/producer/standards/education/cultural passage inspected through web output. Full direct page retrieval not claimed.",
+      "questionRows": [
+        12
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Only_Murders_in_the_Building",
+      "status": "encyclopaedic_passages_inspected_via_web",
+      "inspectionMethod": "Arconia/Manhattan premise and adult Mabel/Selena casting paragraphs inspected; secondary corroboration alongside official Hulu plot. Not a primary-publisher biography claim.",
+      "questionRows": [
+        65,
+        66,
+        68
+      ]
+    },
+    {
+      "url": "https://press.hulu.com/storage/uploads/7C/99/7C994039-F184-B1E7-3929-179CB50E0F6F/Only_Murders_in_the_Building_S2_Lead_Sheet_2025.pdf",
+      "status": "indexed_official_passage_inspected",
+      "inspectionMethod": "Applicable official broadcaster/producer/standards/education/cultural passage inspected through web output. Full direct page retrieval not claimed.",
+      "questionRows": [
+        67
+      ]
+    },
+    {
+      "url": "https://press.wbd.com/na/media-release/hbo-0/hbo-original-drama-series-last-us-debuts-january-15",
+      "status": "indexed_official_passage_inspected",
+      "inspectionMethod": "Applicable official broadcaster/producer/standards/education/cultural passage inspected through web output. Full direct page retrieval not claimed.",
+      "directAccess": {
+        "url": "https://press.wbd.com/na/media-release/hbo-0/hbo-original-drama-series-last-us-debuts-january-15",
+        "status": "fetch_failed",
+        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+      },
+      "questionRows": [
+        85,
+        86,
+        87,
+        88
+      ]
+    },
+    {
+      "url": "https://shop.fxnetworks.com/collections/the-bear",
+      "status": "indexed_official_passage_inspected",
+      "inspectionMethod": "Applicable official broadcaster/producer/standards/education/cultural passage inspected through web output. Full direct page retrieval not claimed.",
+      "questionRows": [
+        57
+      ]
+    },
+    {
+      "url": "https://studiolambert.com/project/awards-the-traitors/",
+      "status": "indexed_official_passage_inspected",
+      "inspectionMethod": "Applicable official broadcaster/producer/standards/education/cultural passage inspected through web output. Full direct page retrieval not claimed.",
+      "questionRows": [
+        77
+      ],
+      "scopeNote": "UK host only. Producer awards association and UK-format description corroborate Claudia Winkleman; misleading US slug on a separate indexed producer page is not used to assert she hosts US edition."
+    },
+    {
+      "url": "https://studiolambert.com/project/take-part-the-traitors-uk/",
+      "resolvedURL": "https://studiolambert.com/project/take-part-the-traitors-uk/",
+      "status": "retrieved_for_inspection",
+      "sha256": "30c6c4988ad08f2fd358346f68b026c45c7f12f5ad2f94ef09abd3268063be66",
+      "inspectionMethod": "Relevant actual definition, synopsis, character/cast or production-credit passage inspected. Netflix partial-response status retained; received-byte hash is not a full-page hash.",
+      "questionRows": [
+        78,
+        79
+      ]
+    },
+    {
+      "url": "https://tv.apple.com/us/show/ted-lasso/umc.cmc.vtoh0mn0xn7t3c643xqonfzy",
+      "resolvedURL": "https://tv.apple.com/us/show/ted-lasso/umc.cmc.vtoh0mn0xn7t3c643xqonfzy",
+      "status": "retrieved_for_inspection",
+      "sha256": "63f2f71b86c1b684a52044ba477cf7028b1728dac670219094ba78b33a7661cb",
+      "inspectionMethod": "Relevant actual definition, synopsis, character/cast or production-credit passage inspected. Netflix partial-response status retained; received-byte hash is not a full-page hash.",
+      "questionRows": [
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "url": "https://www.apple.com/tv-pr/originals/severance/",
+      "resolvedURL": "https://www.apple.com/tv-pr/originals/severance/",
+      "status": "retrieved_for_inspection",
+      "sha256": "11cf411bcd60e50c441fffc510294c9db792d0c23dba1110cb9eddba46f5bdbc",
+      "inspectionMethod": "Relevant actual definition, synopsis, character/cast or production-credit passage inspected. Netflix partial-response status retained; received-byte hash is not a full-page hash.",
+      "questionRows": [
+        25,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "url": "https://www.channel4.com/press/news/channel-4-commissions-sitcom-set-nineties-northern-ireland",
+      "resolvedURL": "https://www.channel4.com/press/news/channel-4-commissions-sitcom-set-nineties-northern-ireland",
+      "status": "retrieved_for_inspection",
+      "sha256": "9cfe293a483a52cc9aae2c9bb6c57f3058c85b99d16314324c97b33c4d8fce0c",
+      "inspectionMethod": "Relevant actual definition, synopsis, character/cast or production-credit passage inspected. Netflix partial-response status retained; received-byte hash is not a full-page hash.",
+      "questionRows": [
+        49,
+        50,
+        51,
+        52
+      ]
+    },
+    {
+      "url": "https://www.channel4.com/press/press-pack/taskmaster-series-22-press-pack",
+      "resolvedURL": "https://www.channel4.com/press/press-pack/taskmaster-series-22-press-pack",
+      "status": "retrieved_for_inspection",
+      "sha256": "19dff064d1094d8a7c95376c6ba1871ed7e5b438b28af2123ba6892b31531d7c",
+      "inspectionMethod": "Relevant actual definition, synopsis, character/cast or production-credit passage inspected. Netflix partial-response status retained; received-byte hash is not a full-page hash.",
+      "questionRows": [
+        73,
+        74,
+        75,
+        76
+      ]
+    },
+    {
+      "url": "https://www.fxnetworks.com/shows/the-bear",
+      "status": "indexed_official_passage_inspected",
+      "inspectionMethod": "Applicable official broadcaster/producer/standards/education/cultural passage inspected through web output. Full direct page retrieval not claimed.",
+      "questionRows": [
+        58
+      ]
+    },
+    {
+      "url": "https://www.fxnetworks.com/shows/the-bear/cast",
+      "status": "indexed_official_passage_inspected",
+      "inspectionMethod": "Applicable official broadcaster/producer/standards/education/cultural passage inspected through web output. Full direct page retrieval not claimed.",
+      "directAccess": {
+        "url": "https://www.fxnetworks.com/shows/the-bear/cast",
+        "status": "fetch_failed",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "questionRows": [
+        59,
+        60
+      ]
+    },
+    {
+      "url": "https://www.korea.net/K-InfoHub/SubMainDetail/view?articleId=4036&headwordCd=57&headwordGroupCd=24&pageIndex=1",
+      "status": "indexed_official_passage_inspected",
+      "inspectionMethod": "Applicable official broadcaster/producer/standards/education/cultural passage inspected through web output. Full direct page retrieval not claimed.",
+      "questionRows": [
+        33
+      ]
+    },
+    {
+      "url": "https://www.netflix.com/tudum/articles/bts-watch-list",
+      "status": "indexed_official_passage_inspected",
+      "inspectionMethod": "Applicable official broadcaster/producer/standards/education/cultural passage inspected through web output. Full direct page retrieval not claimed.",
+      "questionRows": [
+        89,
+        90,
+        91,
+        92
+      ]
+    },
+    {
+      "url": "https://www.netflix.com/tudum/articles/heartstopper-movie-alice-oseman-plot-news",
+      "resolvedURL": "https://www.netflix.com/tudum/articles/heartstopper-movie-alice-oseman-plot-news",
+      "status": "partial_response_for_inspection",
+      "sha256OfReceivedBytes": "97408e17852158151351954d43f99d2e22ee35e653fc3bc34e0fc0fda63c491b",
+      "receivedBytes": 2408448,
+      "inspectionMethod": "Relevant actual definition, synopsis, character/cast or production-credit passage inspected. Netflix partial-response status retained; received-byte hash is not a full-page hash.",
+      "questionRows": [
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "url": "https://www.netflix.com/tudum/articles/lupin-part-4-release-date-photos-news",
+      "resolvedURL": "https://www.netflix.com/tudum/articles/lupin-part-4-release-date-photos-news",
+      "status": "partial_response_for_inspection",
+      "sha256OfReceivedBytes": "fa2d9e66edacd08167e63acf679425b06fc3b3d2b29adf66ec213b7ec3f17e06",
+      "receivedBytes": 2162688,
+      "inspectionMethod": "Relevant actual definition, synopsis, character/cast or production-credit passage inspected. Netflix partial-response status retained; received-byte hash is not a full-page hash.",
+      "questionRows": [
+        69,
+        70,
+        71,
+        72
+      ]
+    },
+    {
+      "url": "https://www.netflix.com/tudum/articles/meet-bridgerton-cast-season-1",
+      "resolvedURL": "https://www.netflix.com/tudum/articles/meet-bridgerton-cast-season-1",
+      "status": "partial_response_for_inspection",
+      "sha256OfReceivedBytes": "8caa10486c06c2423fbc047f04555af3be097a10eb85f3f3687dc9a7b2f1ee61",
+      "receivedBytes": 2277376,
+      "inspectionMethod": "Relevant actual definition, synopsis, character/cast or production-credit passage inspected. Netflix partial-response status retained; received-byte hash is not a full-page hash.",
+      "questionRows": [
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "url": "https://www.netflix.com/tudum/articles/squid-game-season-2-cast",
+      "resolvedURL": "https://www.netflix.com/tudum/articles/squid-game-season-2-cast",
+      "status": "partial_response_for_inspection",
+      "sha256OfReceivedBytes": "6d68e9b7c61226294c0697633be0df18a44743eb8472aad705d3efdf9a94ca40",
+      "receivedBytes": 2408448,
+      "inspectionMethod": "Relevant actual definition, synopsis, character/cast or production-credit passage inspected. Netflix partial-response status retained; received-byte hash is not a full-page hash.",
+      "questionRows": [
+        34
+      ]
+    },
+    {
+      "url": "https://www.netflix.com/tudum/articles/squid-game-season-2-merch-products",
+      "status": "indexed_official_passage_inspected",
+      "inspectionMethod": "Applicable official broadcaster/producer/standards/education/cultural passage inspected through web output. Full direct page retrieval not claimed.",
+      "questionRows": [
+        35
+      ],
+      "scopeNote": "Publisher caption/product description explicitly calls tracksuit green; no claim of visual inspection of a source photograph."
+    },
+    {
+      "url": "https://www.netflix.com/tudum/articles/the-crown-season-1-recap",
+      "resolvedURL": "https://www.netflix.com/tudum/articles/the-crown-season-1-recap",
+      "status": "partial_response_for_inspection",
+      "sha256OfReceivedBytes": "9064c5fc7028e9d90e4dc757fc40ca08dd44f703bbad274eaf9e559196585a86",
+      "receivedBytes": 2179072,
+      "inspectionMethod": "Relevant actual definition, synopsis, character/cast or production-credit passage inspected. Netflix partial-response status retained; received-byte hash is not a full-page hash.",
+      "questionRows": [
+        81,
+        82,
+        83,
+        84
+      ]
+    },
+    {
+      "url": "https://www.netflix.com/tudum/articles/wednesday-character-cast-guide-season-1",
+      "resolvedURL": "https://www.netflix.com/tudum/articles/wednesday-character-cast-guide-season-1",
+      "status": "partial_response_for_inspection",
+      "sha256OfReceivedBytes": "71ef4ce82660e15e0a9c2c787eea8aa21d3ed18ca87384e4f15477c3a2a01693",
+      "receivedBytes": 2211840,
+      "inspectionMethod": "Relevant actual definition, synopsis, character/cast or production-credit passage inspected. Netflix partial-response status retained; received-byte hash is not a full-page hash.",
+      "questionRows": [
+        29,
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "url": "https://www.netflix.com/tudum/heartstopper",
+      "status": "indexed_official_passage_inspected",
+      "inspectionMethod": "Applicable official broadcaster/producer/standards/education/cultural passage inspected through web output. Full direct page retrieval not claimed.",
+      "questionRows": [
+        48
+      ]
+    },
+    {
+      "url": "https://www.netflix.com/tudum/squid-game",
+      "status": "indexed_official_passage_inspected",
+      "inspectionMethod": "Applicable official broadcaster/producer/standards/education/cultural passage inspected through web output. Full direct page retrieval not claimed.",
+      "questionRows": [
+        36
+      ]
+    },
+    {
+      "url": "https://www.ofcom.org.uk/tv-radio-and-on-demand/broadcast-standards/what-is-the-watershed?language=en",
+      "status": "indexed_official_passage_inspected",
+      "inspectionMethod": "Applicable official broadcaster/producer/standards/education/cultural passage inspected through web output. Full direct page retrieval not claimed.",
+      "questionRows": [
+        10
+      ]
+    },
+    {
+      "url": "https://www.pbs.org/about/about-pbs/blogs/news/downton-abbey-revisited-premieres-sunday-november-25-2012-on-pbs/",
+      "status": "indexed_official_passage_inspected",
+      "inspectionMethod": "Applicable official broadcaster/producer/standards/education/cultural passage inspected through web output. Full direct page retrieval not claimed.",
+      "questionRows": [
+        93,
+        94,
+        95,
+        96
+      ]
+    },
+    {
+      "url": "https://www.peacocktv.com/blog/the-traitors-season-4-cast-premiere-date-details",
+      "status": "indexed_official_passage_inspected",
+      "inspectionMethod": "Applicable official broadcaster/producer/standards/education/cultural passage inspected through web output. Full direct page retrieval not claimed.",
+      "questionRows": [
+        80
+      ],
+      "scopeNote": "Official US-format guide verifies generic RoundTable voting mechanic; UK-specific host/cast not inferred from US guide."
+    },
+    {
+      "url": "https://www.peacocktv.com/stream-tv/brooklyn-nine-nine",
+      "status": "indexed_official_passage_inspected",
+      "inspectionMethod": "Applicable official broadcaster/producer/standards/education/cultural passage inspected through web output. Full direct page retrieval not claimed.",
+      "directAccess": {
+        "url": "https://www.peacocktv.com/stream-tv/brooklyn-nine-nine",
+        "resolvedURL": "https://www.peacocktv.com/unavailable",
+        "status": "returned_error_stub_not_article_evidence",
+        "sha256": "49de1085688f51528c049982e3f8e8fd1f367b5153dff406639b6f311a882e57"
+      },
+      "questionRows": [
+        61,
+        62,
+        63,
+        64
+      ]
+    },
+    {
+      "url": "https://www.peacocktv.com/stream-tv/the-good-place",
+      "status": "indexed_official_passage_inspected",
+      "inspectionMethod": "Applicable official broadcaster/producer/standards/education/cultural passage inspected through web output. Full direct page retrieval not claimed.",
+      "directAccess": {
+        "url": "https://www.peacocktv.com/stream-tv/the-good-place",
+        "resolvedURL": "https://www.peacocktv.com/unavailable",
+        "status": "returned_error_stub_not_article_evidence",
+        "sha256": "49de1085688f51528c049982e3f8e8fd1f367b5153dff406639b6f311a882e57"
+      },
+      "questionRows": [
+        41,
+        42,
+        43,
+        44
+      ]
+    },
+    {
+      "url": "https://www.starwars.com/databank/the-mandalorian",
+      "resolvedURL": "https://www.starwars.com/databank/the-mandalorian",
+      "status": "retrieved_for_inspection",
+      "sha256": "2625aca4fe01261994958b644e76d93239cdb48ba99f3102b58bf190c7dc50ec",
+      "inspectionMethod": "Relevant actual definition, synopsis, character/cast or production-credit passage inspected. Netflix partial-response status retained; received-byte hash is not a full-page hash.",
+      "questionRows": [
+        97,
+        98,
+        99,
+        100
+      ]
+    }
+  ],
+  "unusedFailedOrStubAccess": [
+    {
+      "url": "https://press.hulu.com/shows/only-murders-in-the-building/",
+      "status": "fetch_failed",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    },
+    {
+      "url": "https://www.peacocktv.com/watch-online/tv/downton-abbey/7560296579355862112/seasons/1",
+      "resolvedURL": "https://www.peacocktv.com/unavailable",
+      "status": "retrieved_for_inspection",
+      "sha256": "49de1085688f51528c049982e3f8e8fd1f367b5153dff406639b6f311a882e57"
+    }
+  ]
+}
