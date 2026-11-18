@@ -1,9 +1,9 @@
 {
   "updated": "2026-11-18",
   "targetNewEasy": 3100,
-  "reviewedAndValidated": 1400,
-  "localBankCount": 23317,
-  "liveBankCount": 23217,
+  "reviewedAndValidated": 1500,
+  "localBankCount": 23417,
+  "liveBankCount": 23417,
   "topics": [
     {
       "topicID": "9",
@@ -217,9 +217,9 @@
       "topicID": "35",
       "name": "Language & Culture",
       "targetNewEasy": 100,
-      "authored": 0,
-      "reviewedAndValidated": 0,
-      "deployedNewEasy": 0
+      "authored": 100,
+      "reviewedAndValidated": 100,
+      "deployedNewEasy": 100
     },
     {
       "topicID": "36",
@@ -235,7 +235,7 @@
       "targetNewEasy": 100,
       "authored": 100,
       "reviewedAndValidated": 100,
-      "deployedNewEasy": 0
+      "deployedNewEasy": 100
     },
     {
       "topicID": "38",

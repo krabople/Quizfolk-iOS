@@ -1,0 +1,813 @@
+{
+  "reviewer": "root (author second editorial pass)",
+  "independent": false,
+  "sourceAccessNote": "All source groups retrieved and inspected in small batches. Shared grammar pages reused rather than repeatedly read as new evidence; exact headword inflections checked separately for twelve irregular forms. Forty bilingual entries inspected, preserving animal/colour/conversation context where a word has multiple senses. Template-word overlap hits are different vocabulary items, not repeated facts. Source excerpts remain private; this file records explicit final-pass judgments and edits, not automated approval.",
+  "rows": [
+    {
+      "row": 1,
+      "action": "keep",
+      "prompt": "Which word is a noun in 'The rabbit hops quickly'?",
+      "note": "Rabbit is the only noun in this sentence. Hops is finite verb, quickly adverb and the article; capitalised answer labels do not change their classes.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 2,
+      "action": "keep",
+      "prompt": "Which word is the verb in 'Those birds sing beautifully'?",
+      "note": "Sing expresses the birds' action. Those is determiner, birds noun and beautifully adverb; all four appear in the sentence.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 3,
+      "action": "keep",
+      "prompt": "Which word is the adjective in 'A bright star shines'?",
+      "note": "Bright describes star. A is article, star noun and shines verb; exactly one adjective.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 4,
+      "action": "keep",
+      "prompt": "Which word is the adverb in 'The dog barked loudly'?",
+      "note": "Loudly modifies barked. The is article, dog noun and barked verb; exactly one adverb.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 5,
+      "action": "edit",
+      "prompt": "Which pronoun can replace Maya in 'Maya is reading'?",
+      "note": "She is the subject form, unlike her/hers/herself. Replace name-only reference with explicit 'the girl' to keep the substitution clear.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review.",
+      "recommendedChanges": {
+        "prompt": "Which pronoun can replace 'the girl' in 'The girl is reading'?"
+      }
+    },
+    {
+      "row": 6,
+      "action": "keep",
+      "prompt": "Which word is a preposition in 'The keys are under the mat'?",
+      "note": "Under is the spatial preposition. Keys/mat are nouns and are a verb; the sentence supplies a clear relationship.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 7,
+      "action": "keep",
+      "prompt": "Which word joins the names in 'Sam and Jo laughed'?",
+      "note": "And coordinates Sam and Jo. The two names and laughed do not join the names; punctuation and quoting checked.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 8,
+      "action": "keep",
+      "prompt": "Which indefinite article completes 'I ate ___ apple'?",
+      "note": "An precedes apple's vowel sound. A is wrong in this position; plural these/those cannot qualify singular apple. Do not offer the, which would also fit grammatically.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 9,
+      "action": "edit",
+      "prompt": "What is the standard plural of child?",
+      "note": "Children is the standard plural. Childs, childes and childrens are incorrect; replace generic reference with child entry showing plural children.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/child"
+      }
+    },
+    {
+      "row": 10,
+      "action": "edit",
+      "prompt": "What is the usual plural of mouse when referring to the animal?",
+      "note": "Mice is animal plural. Mouses can occur for computer devices, explicitly excluded; mousees/mices are nonstandard. Use mouse's animal entry.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/mouse"
+      }
+    },
+    {
+      "row": 11,
+      "action": "edit",
+      "prompt": "What is the standard plural of tooth?",
+      "note": "Teeth is noun plural. Tooths/toothes are wrong and teethe a verb; direct tooth headword confirms the form.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/tooth"
+      }
+    },
+    {
+      "row": 12,
+      "action": "edit",
+      "prompt": "What is the standard plural of foot when referring to the body part?",
+      "note": "Feet is the body-part plural. Foots/footes/feets are not standard here; body-part context excludes special technical forms.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/foot"
+      }
+    },
+    {
+      "row": 13,
+      "action": "edit",
+      "prompt": "What is the standard plural of thief?",
+      "note": "Thieves is the standard spelling. Thiefs/thiefes/thievs are wrong; exact thief headword inspected rather than a generic plurals page.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/thief"
+      }
+    },
+    {
+      "row": 14,
+      "action": "edit",
+      "prompt": "What is the simple past form of go?",
+      "note": "Went is simple past, gone a participle and going an ing-form. Goed is nonstandard; direct go entry confirms went/gone distinction.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/go"
+      }
+    },
+    {
+      "row": 15,
+      "action": "edit",
+      "prompt": "What is the simple past form of eat?",
+      "note": "Ate is simple past, eaten participle and eating ing-form. Eated is nonstandard; exact eat forms inspected.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/eat"
+      }
+    },
+    {
+      "row": 16,
+      "action": "edit",
+      "prompt": "What is the simple past form of write?",
+      "note": "Wrote is simple past. Written is participle, writing ing-form and writed nonstandard; headword gives wrote/written.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/write"
+      }
+    },
+    {
+      "row": 17,
+      "action": "edit",
+      "prompt": "What is the simple past form of see?",
+      "note": "Saw is simple past. Seen and seeing are other forms; seed is not this verb's past. Direct headword inspected.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/see"
+      }
+    },
+    {
+      "row": 18,
+      "action": "edit",
+      "prompt": "What is the simple past form of bring?",
+      "note": "Brought is the standard past, not brang/bringed/bringing. Direct bring entry confirms brought for past and participle.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/bring"
+      }
+    },
+    {
+      "row": 19,
+      "action": "edit",
+      "prompt": "What is the standard comparative form of good?",
+      "note": "Better is good's comparative. Best is superlative; gooder/more good are not its normal standard comparative. Direct good entry confirms forms.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/good"
+      }
+    },
+    {
+      "row": 20,
+      "action": "edit",
+      "prompt": "What is the standard superlative form of bad?",
+      "note": "Worst is bad's superlative. Worse is comparative, baddest nonstandard in this ordinary sense and more bad not superlative. Direct bad entry inspected.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/bad"
+      }
+    },
+    {
+      "row": 21,
+      "action": "edit",
+      "prompt": "Which word completes 'There are ___ books on this shelf than on that one' in standard English?",
+      "note": "Fewer is traditionally preferred for countable books. Acknowledge colloquial less by specifying the traditional rule; least/little do not fit this comparative construction.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review.",
+      "recommendedChanges": {
+        "prompt": "Under the traditional rule for countable nouns, which word completes 'There are ___ books on this shelf than on that one'?"
+      }
+    },
+    {
+      "row": 22,
+      "action": "keep",
+      "prompt": "Which word completes '___ coats are hanging by the door' to show that the coats belong to them?",
+      "note": "Their expresses possession. There/they're/they do not fill the possessive determiner slot; plural coats does not change their.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 23,
+      "action": "keep",
+      "prompt": "What does they're stand for?",
+      "note": "They're expands to they are. They were, their and there differ; apostrophe spelling checked.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 24,
+      "action": "keep",
+      "prompt": "In 'It's cold today', what does it's stand for?",
+      "note": "It's is it is in this exact sentence. It has is a valid expansion elsewhere but cannot form 'It has cold today'; its/it was also wrong.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 25,
+      "action": "keep",
+      "prompt": "In 'You're welcome', what does you're stand for?",
+      "note": "You're is you are. You were/you have are not this contraction and your is possessive; context fixes the phrase.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 26,
+      "action": "keep",
+      "prompt": "What does the apostrophe show in 'the cat's bowl'?",
+      "note": "Cat's bowl shows singular ownership. Several cats would require cats'; neither shortening nor material is intended.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 27,
+      "action": "edit",
+      "prompt": "Which mark normally ends a direct written question?",
+      "note": "Question mark normally closes a direct question. Exclamation, comma and semicolon do not; change to exact dictionary entry so the source is not hidden deep in a long general punctuation article.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/question-mark"
+      }
+    },
+    {
+      "row": 28,
+      "action": "edit",
+      "prompt": "Which punctuation mark is used after Stop to show a forceful command, as in 'Stop!'?",
+      "note": "The displayed forceful-command mark is an exclamation mark. Question, comma and colon are different symbols; use exact entry.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/exclamation-mark"
+      }
+    },
+    {
+      "row": 29,
+      "action": "edit",
+      "prompt": "Which mark normally follows a complete clause to introduce a list in the same sentence?",
+      "note": "Colon introduces a list after a complete clause. The other three marks terminate/question rather than introduce this same-sentence list; exact colon sense is the source.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/colon"
+      }
+    },
+    {
+      "row": 30,
+      "action": "edit",
+      "prompt": "What punctuation mark joins the two words in well-known?",
+      "note": "Hyphen is the mark in well-known. Apostrophe, semicolon and comma are different marks; exact hyphen entry replaces a broad article.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review.",
+      "recommendedChanges": {
+        "sourceURL": "https://dictionary.cambridge.org/dictionary/english/hyphen"
+      }
+    },
+    {
+      "row": 31,
+      "action": "keep",
+      "prompt": "What does the prefix un- do to happy in the word unhappy?",
+      "note": "Un- negates happy. It does not mark noun number, verb tense or a question; context avoids unrelated un- words.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 32,
+      "action": "keep",
+      "prompt": "What does -less mean in careless?",
+      "note": "-less means without in careless. Full of, before and again belong to other meanings; do not generalise every spelling ending less as an affix.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 33,
+      "action": "keep",
+      "prompt": "What does re- mean in reread?",
+      "note": "Re- makes reread 'read again'. Not/under/before do not describe this prefix in the chosen word.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 34,
+      "action": "keep",
+      "prompt": "What does -ful suggest in hopeful?",
+      "note": "-ful indicates having/full of hope in hopeful. Without/after/against are wrong in this word; 'suggest' avoids claiming a literal physical container.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 35,
+      "action": "keep",
+      "prompt": "Which word is closest in meaning to begin?",
+      "note": "Start is begin's synonym. Finish/stop/pause end or interrupt an activity, so none is a second close match.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 36,
+      "action": "keep",
+      "prompt": "Which word is closest to the opposite of ancient?",
+      "note": "Modern is closest opposite of ancient. Old/historic/aged all concern age or past times; relative wording avoids a rigid historical date boundary.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 37,
+      "action": "keep",
+      "prompt": "Which word is closest in meaning to rapid?",
+      "note": "Fast is closest to rapid. Slow/late/quiet describe different speed, timing or sound qualities.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 38,
+      "action": "keep",
+      "prompt": "Which word is closest to the opposite of generous?",
+      "note": "Stingy contrasts with generous. Charitable/giving/kind align with giving rather than its opposite; intended adjective senses are clear.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 39,
+      "action": "keep",
+      "prompt": "Which word is closest in meaning to enormous?",
+      "note": "Huge matches enormous. Tiny/slight/narrow do not mean extremely large; all choices are adjectives.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 40,
+      "action": "keep",
+      "prompt": "Which word is closest to the opposite of expand?",
+      "note": "Contract is opposite of expand. Grow/stretch/enlarge increase extent rather than reduce it.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 41,
+      "action": "keep",
+      "prompt": "Which word is closest in meaning to quiet?",
+      "note": "Silent is closest to quiet among these choices. Loud/noisy/deafening all concern high noise; not a claim that quiet always means absolute silence.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 42,
+      "action": "keep",
+      "prompt": "Which verb means giving something to someone temporarily, expecting it back?",
+      "note": "Lend is temporary giving from the owner's perspective. Borrow is receiving, buy purchase and keep retaining; expecting return is explicit.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 43,
+      "action": "keep",
+      "prompt": "Which pair of English words sounds the same in standard pronunciation?",
+      "note": "Sea and see are homophones. Cat/coat, pen/pan and ship/sheep have different vowels in ordinary standard pronunciation.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 44,
+      "action": "edit",
+      "prompt": "What tense is walked in 'Yesterday I walked home'?",
+      "note": "Walked is simple past with Yesterday. Use four parallel tense labels; present, continuous and future forms do not fit this finite verb phrase.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review.",
+      "recommendedChanges": {
+        "answers": [
+          "Past simple",
+          "Present simple",
+          "Present continuous",
+          "Future simple"
+        ]
+      }
+    },
+    {
+      "row": 45,
+      "action": "keep",
+      "prompt": "Which word can mean both an animal and 'to tolerate'?",
+      "note": "Bear can be the mammal or tolerate. Deer, fox and hare lack that second meaning; any unrelated verb senses do not answer it.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 46,
+      "action": "keep",
+      "prompt": "Which word is formed by joining two whole words?",
+      "note": "Toothbrush joins free words tooth and brush. Quickly/unkind/helpful use affixes, not two whole words; compound definition inspected.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 47,
+      "action": "edit",
+      "prompt": "What does can't stand for?",
+      "note": "Can't expands to cannot. Replace awkward 'can not ever' with standard negative phrases; could/will/would change the auxiliary.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review.",
+      "recommendedChanges": {
+        "answers": [
+          "Cannot",
+          "Could not",
+          "Will not",
+          "Would not"
+        ]
+      }
+    },
+    {
+      "row": 48,
+      "action": "keep",
+      "prompt": "What does won't stand for?",
+      "note": "Won't is will not. Would not, was not and want not are not its expansion.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 49,
+      "action": "keep",
+      "prompt": "Which word can mean both a flying mammal and a piece of sports equipment?",
+      "note": "Bat is both mammal and striking implement. Rat, hare and mole do not satisfy both descriptions.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 50,
+      "action": "edit",
+      "prompt": "What does break the ice mean when people meet?",
+      "note": "Ice-breaking idiom relaxes first meetings. Make idiomatic sense explicit; ending a meeting, revealing secrets and staying silent are different meanings.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review.",
+      "recommendedChanges": {
+        "prompt": "What does the idiom 'break the ice' mean when people meet?"
+      }
+    },
+    {
+      "row": 51,
+      "action": "edit",
+      "prompt": "What does it's raining cats and dogs mean?",
+      "note": "Cats-and-dogs expression means heavy rain. Light snow, sunshine and literal falling animals are not the figurative meaning; name it an expression.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review.",
+      "recommendedChanges": {
+        "prompt": "What does the expression 'it's raining cats and dogs' mean?"
+      }
+    },
+    {
+      "row": 52,
+      "action": "keep",
+      "prompt": "If someone says a task is a piece of cake, what do they mean?",
+      "note": "Piece of cake means easy in a task context. Dangerous/impossible/expensive are not this idiom's meaning.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 53,
+      "action": "edit",
+      "prompt": "What does feeling under the weather mean?",
+      "note": "Under the weather means unwell. Energetic/hungry/proud are different states; explicitly ask for the idiom.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review.",
+      "recommendedChanges": {
+        "prompt": "What does the idiom 'feeling under the weather' mean?"
+      }
+    },
+    {
+      "row": 54,
+      "action": "edit",
+      "prompt": "What does hit the books mean?",
+      "note": "Hit the books means study. Damage is a literal decoy; sleep and shopping list do not fit. Add idiom wording to exclude a literal interpretation.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review.",
+      "recommendedChanges": {
+        "prompt": "What does the idiom 'hit the books' mean?"
+      }
+    },
+    {
+      "row": 55,
+      "action": "edit",
+      "prompt": "What does spill the beans mean?",
+      "note": "Spill the beans reveals a secret. Cooking, hiding the truth and losing are different; explicitly figurative.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review.",
+      "recommendedChanges": {
+        "prompt": "What does the idiom 'spill the beans' mean?"
+      }
+    },
+    {
+      "row": 56,
+      "action": "edit",
+      "prompt": "If something costs an arm and a leg, what does that mean?",
+      "note": "Arm-and-leg cost means expensive. Free, portable and wooden are not the figurative meaning; explicitly identify idiom.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review.",
+      "recommendedChanges": {
+        "prompt": "If something 'costs an arm and a leg', what does that idiom mean?"
+      }
+    },
+    {
+      "row": 57,
+      "action": "edit",
+      "prompt": "What does being on cloud nine mean?",
+      "note": "Cloud nine means very happy/excited. Illness, navigation confusion and hunger are wrong; make idiom context explicit.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review.",
+      "recommendedChanges": {
+        "prompt": "What does the idiom 'being on cloud nine' mean?"
+      }
+    },
+    {
+      "row": 58,
+      "action": "edit",
+      "prompt": "How often does something happen if it happens once in a blue moon?",
+      "note": "Blue moon expression means rarely. Morning/hourly/weekend intervals are all frequent regular schedules, not rare occurrences.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review.",
+      "recommendedChanges": {
+        "prompt": "How often does something happen if it happens 'once in a blue moon'?"
+      }
+    },
+    {
+      "row": 59,
+      "action": "edit",
+      "prompt": "What does getting cold feet mean before an important event?",
+      "note": "Cold feet idiom is nervous hesitation. Growth, memorising a route and winning are different; exclude literal cold-temperature interpretation.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review.",
+      "recommendedChanges": {
+        "prompt": "What does the idiom 'getting cold feet' mean before an important event?"
+      }
+    },
+    {
+      "row": 60,
+      "action": "edit",
+      "prompt": "If someone says 'I'm pulling your leg', what do they mean?",
+      "note": "Pulling a leg means joking/teasing. Rewrite answer forms to fit the new explicit idiom question; hurry, serious promise and directions do not fit.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review.",
+      "recommendedChanges": {
+        "prompt": "What does the idiom 'pulling your leg' mean?",
+        "answers": [
+          "Joking or teasing you",
+          "Asking you to hurry",
+          "Making a serious promise",
+          "Giving you directions"
+        ]
+      }
+    },
+    {
+      "row": 61,
+      "action": "keep",
+      "prompt": "What does the French word fromage mean?",
+      "note": "French fromage is cheese. Chicken/butter/bread have different names; bilingual entry gives cheese.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 62,
+      "action": "keep",
+      "prompt": "What does the French word pain mean?",
+      "note": "French pain is bread. Cheese/rice/meat are wrong; language qualifier excludes the English false friend.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 63,
+      "action": "keep",
+      "prompt": "What animal does the French word chien mean?",
+      "note": "Animal chien is dog. Cat/horse/rabbit are different animals; specifying animal excludes figurative derogatory senses.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 64,
+      "action": "keep",
+      "prompt": "What animal does the French word cheval mean?",
+      "note": "Cheval is horse. Dog/cow/sheep differ; bilingual horse translation inspected.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 65,
+      "action": "keep",
+      "prompt": "What does the French word maison mean?",
+      "note": "Maison is house/home. School/shop/bridge are not offered synonyms; no second valid home answer.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 66,
+      "action": "keep",
+      "prompt": "What does the French word jardin mean?",
+      "note": "Jardin is garden/yard. Kitchen/street/beach do not fit; not a claim that garden is the only translation in every context.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 67,
+      "action": "keep",
+      "prompt": "Which colour does the French word rouge mean?",
+      "note": "Colour rouge is red. Blue/green/yellow are wrong; colour qualifier excludes red-wine usage.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 68,
+      "action": "keep",
+      "prompt": "Which colour does the French word bleu mean?",
+      "note": "Colour bleu is blue. Red/black/white differ; colour qualifier excludes rare-cooked meat sense.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 69,
+      "action": "keep",
+      "prompt": "Which colour does the French word vert mean?",
+      "note": "Colour vert is green. Purple/orange/pink are wrong; none duplicates a figurative sense offered.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 70,
+      "action": "keep",
+      "prompt": "Which day is lundi in French?",
+      "note": "Lundi is Monday. Tuesday/Friday/Sunday are different named days; day question is unambiguous.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 71,
+      "action": "keep",
+      "prompt": "What does the Spanish word agua mean?",
+      "note": "Agua is water. Milk/bread/salt are distinct Spanish nouns; ordinary food/drink sense is clear.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 72,
+      "action": "keep",
+      "prompt": "What animal does the Spanish word perro mean?",
+      "note": "Animal perro is dog. Cat/horse/duck differ; animal qualifier excludes colloquial insults.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 73,
+      "action": "keep",
+      "prompt": "What animal does the Spanish word gato mean?",
+      "note": "Animal gato is cat. Dog/rabbit/goat are wrong; gato can mean a mechanical jack but that sense is excluded and not offered.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 74,
+      "action": "keep",
+      "prompt": "What does the Spanish word casa mean?",
+      "note": "Casa means house/home. School/church/shop are different buildings; no alternate home translation offered.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 75,
+      "action": "keep",
+      "prompt": "What does the Spanish word pan mean?",
+      "note": "Spanish pan is bread. Milk/rice/egg are wrong; explicitly Spanish avoids English cooking-pan sense.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 76,
+      "action": "keep",
+      "prompt": "What does the Spanish word leche mean?",
+      "note": "Leche is milk. Water/salt/sugar differ; no second offered food translation fits.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 77,
+      "action": "keep",
+      "prompt": "What does the Spanish word libro mean?",
+      "note": "Libro means book. Table/door/chair are distinct objects; ordinary noun sense tested.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 78,
+      "action": "keep",
+      "prompt": "What greeting can buenas noches express in Spanish?",
+      "note": "Buenas noches is evening greeting/night farewell. Both senses are grouped in one answer; morning-only, thanks and please are incorrect.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 79,
+      "action": "keep",
+      "prompt": "What does the Spanish phrase por favor mean?",
+      "note": "Por favor means please. Thank you/goodbye/good morning are different social expressions.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 80,
+      "action": "keep",
+      "prompt": "What does the Spanish word gracias mean?",
+      "note": "Gracias means thank you/thanks. Hello/please/goodbye are not equivalents; only one thanks choice offered.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 81,
+      "action": "keep",
+      "prompt": "What does the Italian word grazie mean?",
+      "note": "Italian grazie means thank you. Goodbye/hello/please differ; not confused with Spanish gracias spelling.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 82,
+      "action": "keep",
+      "prompt": "When someone replies prego after being thanked in Italian, what do they mean?",
+      "note": "Prego has several uses, so specify a response to thanks. You're welcome fits; night/apology/farewell do not fit that conversational context.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 83,
+      "action": "keep",
+      "prompt": "What greeting does the Italian word buongiorno express?",
+      "note": "Buongiorno is the daytime greeting. Group morning/day rather than force a single time-specific translation; night/thanks/goodbye are wrong.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 84,
+      "action": "keep",
+      "prompt": "What does the Italian word arrivederci mean?",
+      "note": "Arrivederci means goodbye. Thanks/please/morning greeting are different; ordinary leave-taking sense used.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 85,
+      "action": "keep",
+      "prompt": "What does the Italian word acqua mean?",
+      "note": "Acqua is water. Milk/wine/juice are other liquids with different Italian words.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 86,
+      "action": "keep",
+      "prompt": "What animal does the Italian word cane mean?",
+      "note": "Animal cane is dog. Cat/horse/bird differ; language qualifier avoids English cane walking-stick ambiguity.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 87,
+      "action": "keep",
+      "prompt": "What animal does the Italian word gatto mean?",
+      "note": "Gatto is cat. Dog/mouse/fish differ; animal context pins the noun.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 88,
+      "action": "keep",
+      "prompt": "What does the Italian word pane mean?",
+      "note": "Pane is bread. Cheese/meat/salt are different foods; Italian qualifier excludes English pane of glass.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 89,
+      "action": "keep",
+      "prompt": "What does the Italian word luna mean?",
+      "note": "Luna is moon. Sun/star/cloud differ; ordinary sky-word meaning and capitalisation checked.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 90,
+      "action": "keep",
+      "prompt": "What does the Italian word sole mean in the sky?",
+      "note": "Sky context fixes sole as sun. Moon/star/cloud are other celestial/weather words; other grammatical forms of sole cannot make another choice correct.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 91,
+      "action": "keep",
+      "prompt": "What does the German word danke mean?",
+      "note": "Danke expresses thanks. Farewell/please/night greeting are distinct; no thanks synonym offered separately.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 92,
+      "action": "keep",
+      "prompt": "In a polite request, what does the German word bitte mean?",
+      "note": "Bitte in a polite request means please. Its welcome sense exists but is excluded by context and not offered; other greetings are wrong.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 93,
+      "action": "keep",
+      "prompt": "What does Guten Morgen mean in German?",
+      "note": "Guten Morgen is good morning. Night/thanks/farewell differ; German phrase capitalisation correct.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 94,
+      "action": "keep",
+      "prompt": "What does Auf Wiedersehen mean in German?",
+      "note": "Auf Wiedersehen is goodbye. Please/thanks/morning greeting differ; capitalised nominal Wiedersehen preserved.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 95,
+      "action": "keep",
+      "prompt": "What animal does the German word Hund mean?",
+      "note": "Hund is dog. Cat/horse/rabbit differ; noun begins with a capital in German.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 96,
+      "action": "keep",
+      "prompt": "What animal does the German word Katze mean?",
+      "note": "Katze is cat. Dog/cow/duck differ; noun capitalisation checked.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 97,
+      "action": "keep",
+      "prompt": "What does the German word Haus mean?",
+      "note": "Haus is house/home. School/shop/bridge differ; Home not offered as a second correct translation.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 98,
+      "action": "keep",
+      "prompt": "What does the German word Brot mean?",
+      "note": "Brot is bread. Cheese/milk/butter differ; noun begins with capital B.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 99,
+      "action": "keep",
+      "prompt": "What does the German word Wasser mean?",
+      "note": "Wasser is water. Milk/juice/wine differ; noun capitalisation preserved.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    },
+    {
+      "row": 100,
+      "action": "keep",
+      "prompt": "What does the German word Milch mean?",
+      "note": "Milch is milk. Water/salt/sugar differ; noun capitalisation and ordinary literal sense checked.",
+      "sourceReview": "Individual author second pass of prompt, all four answers, contextual meaning, spelling/grammar and sole correct option. Relevant Cambridge grammar, exact headword/inflection or bilingual translation inspected; not independent review."
+    }
+  ]
+}

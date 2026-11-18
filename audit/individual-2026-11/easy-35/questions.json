@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "2ccc879391c0a2613a19",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "Which word is a noun in 'The rabbit hops quickly'?",
+    "answers": [
+      "Rabbit",
+      "Hops",
+      "Quickly",
+      "The"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/grammar/british-grammar/word-classes-and-phrase-classes",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "2612369b9add43293844",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "Which word is the verb in 'Those birds sing beautifully'?",
+    "answers": [
+      "Those",
+      "Birds",
+      "Beautifully",
+      "Sing"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/grammar/british-grammar/word-classes-and-phrase-classes",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "bfd262de20ff8bfab6ba",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "Which word is the adjective in 'A bright star shines'?",
+    "answers": [
+      "Star",
+      "Shines",
+      "Bright",
+      "A"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/grammar/british-grammar/word-classes-and-phrase-classes",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "55211f821d24ba7a0183",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "Which word is the adverb in 'The dog barked loudly'?",
+    "answers": [
+      "Barked",
+      "Loudly",
+      "The",
+      "Dog"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/grammar/british-grammar/word-classes-and-phrase-classes",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "d89d6eed3d781bd138a4",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "Which pronoun can replace 'the girl' in 'The girl is reading'?",
+    "answers": [
+      "She",
+      "Her",
+      "Hers",
+      "Herself"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/grammar/british-grammar/word-classes-and-phrase-classes",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "75b11fbf66eed0dcc224",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "Which word is a preposition in 'The keys are under the mat'?",
+    "answers": [
+      "Keys",
+      "Are",
+      "Mat",
+      "Under"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/grammar/british-grammar/word-classes-and-phrase-classes",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "f11a739f1d20767ab97c",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "Which word joins the names in 'Sam and Jo laughed'?",
+    "answers": [
+      "Jo",
+      "Laughed",
+      "And",
+      "Sam"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/grammar/british-grammar/word-classes-and-phrase-classes",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "d0ddc2a85a59a7e0536a",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "Which indefinite article completes 'I ate ___ apple'?",
+    "answers": [
+      "Those",
+      "An",
+      "A",
+      "These"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/grammar/british-grammar/a-an-and-the",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "3c9a76fd26f160f52531",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What is the standard plural of child?",
+    "answers": [
+      "Children",
+      "Childs",
+      "Childes",
+      "Childrens"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/child",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "8c84bb245064a1640cda",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What is the usual plural of mouse when referring to the animal?",
+    "answers": [
+      "Mouses",
+      "Mousees",
+      "Mices",
+      "Mice"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/mouse",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "59d9edf9bbce40b18a4f",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What is the standard plural of tooth?",
+    "answers": [
+      "Toothes",
+      "Teethe",
+      "Teeth",
+      "Tooths"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/tooth",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "d6745bc3b321721695a5",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What is the standard plural of foot when referring to the body part?",
+    "answers": [
+      "Feets",
+      "Feet",
+      "Foots",
+      "Footes"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/foot",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "0834a8e0487f2ac30a67",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What is the standard plural of thief?",
+    "answers": [
+      "Thieves",
+      "Thiefs",
+      "Thiefes",
+      "Thievs"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/thief",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "3592c1eb5814f8f119f6",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What is the simple past form of go?",
+    "answers": [
+      "Gone",
+      "Going",
+      "Goed",
+      "Went"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/go",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "a87b5982796213734172",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What is the simple past form of eat?",
+    "answers": [
+      "Eating",
+      "Eated",
+      "Ate",
+      "Eaten"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/eat",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "c626d0e3b33efc57c44b",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What is the simple past form of write?",
+    "answers": [
+      "Writed",
+      "Wrote",
+      "Written",
+      "Writing"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/write",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "1c41842a00c191995dbf",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What is the simple past form of see?",
+    "answers": [
+      "Saw",
+      "Seen",
+      "Seeing",
+      "Seed"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/see",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "ac1bd66cfec3bca71f74",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What is the simple past form of bring?",
+    "answers": [
+      "Brang",
+      "Bringed",
+      "Bringing",
+      "Brought"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/bring",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "d3a2fce27da0f6c7e589",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What is the standard comparative form of good?",
+    "answers": [
+      "Gooder",
+      "More good",
+      "Better",
+      "Best"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/good",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "762313d1c23d58945a36",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What is the standard superlative form of bad?",
+    "answers": [
+      "More bad",
+      "Worst",
+      "Worse",
+      "Baddest"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/bad",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "3a468197558fb70b1ffe",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "Under the traditional rule for countable nouns, which word completes 'There are ___ books on this shelf than on that one'?",
+    "answers": [
+      "Fewer",
+      "Less",
+      "Least",
+      "Little"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/grammar/british-grammar/less-or-fewer",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "956db5176c836f9e398c",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "Which word completes '___ coats are hanging by the door' to show that the coats belong to them?",
+    "answers": [
+      "There",
+      "They're",
+      "They",
+      "Their"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/grammar/british-grammar/there-their-or-they-re",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "0fd2624f41b50df523c3",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does they're stand for?",
+    "answers": [
+      "Their",
+      "There",
+      "They are",
+      "They were"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/grammar/british-grammar/contractions",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "952ddd7e4297c4ff9e43",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "In 'It's cold today', what does it's stand for?",
+    "answers": [
+      "It was",
+      "It is",
+      "It has",
+      "Its"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/grammar/british-grammar/contractions",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "d0e9e6b882cbce04e78b",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "In 'You're welcome', what does you're stand for?",
+    "answers": [
+      "You are",
+      "You were",
+      "You have",
+      "Your"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/grammar/british-grammar/contractions",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "3c0556cb479fd2d29a3f",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does the apostrophe show in 'the cat's bowl'?",
+    "answers": [
+      "There are several cats",
+      "The word cat is shortened",
+      "The bowl is made from a cat",
+      "The bowl belongs to one cat"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/grammar/british-grammar/apostrophe",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "33f695f0396151c0aa04",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "Which mark normally ends a direct written question?",
+    "answers": [
+      ",",
+      ";",
+      "?",
+      "!"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/question-mark",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "364ab091d327703ee3bf",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "Which punctuation mark is used after Stop to show a forceful command, as in 'Stop!'?",
+    "answers": [
+      "A colon",
+      "An exclamation mark",
+      "A question mark",
+      "A comma"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/exclamation-mark",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "b0f4dec1995503a1f378",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "Which mark normally follows a complete clause to introduce a list in the same sentence?",
+    "answers": [
+      "A colon",
+      "A question mark",
+      "An exclamation mark",
+      "A full stop"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/colon",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "b5fb43757c4d87cc514c",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What punctuation mark joins the two words in well-known?",
+    "answers": [
+      "An apostrophe",
+      "A semicolon",
+      "A comma",
+      "A hyphen"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/hyphen",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "6ff53d97637ca4762c03",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does the prefix un- do to happy in the word unhappy?",
+    "answers": [
+      "Makes it past tense",
+      "Turns it into a question",
+      "Gives it the opposite meaning",
+      "Makes it a plural noun"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/grammar/british-grammar/prefixes",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "2e756eb78d114587d9af",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does -less mean in careless?",
+    "answers": [
+      "Again",
+      "Without",
+      "Full of",
+      "Before"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/grammar/british-grammar/suffixes",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "df74f587ee5b8a5e0a82",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does re- mean in reread?",
+    "answers": [
+      "Again",
+      "Not",
+      "Under",
+      "Before"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/grammar/british-grammar/prefixes",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "24425cadb001a10b8ed5",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does -ful suggest in hopeful?",
+    "answers": [
+      "Without",
+      "After",
+      "Against",
+      "Full of"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/grammar/british-grammar/suffixes",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "c067cb462b8d666207fc",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "Which word is closest in meaning to begin?",
+    "answers": [
+      "Stop",
+      "Pause",
+      "Start",
+      "Finish"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/begin",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "96953441ecf7dcb7da87",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "Which word is closest to the opposite of ancient?",
+    "answers": [
+      "Aged",
+      "Modern",
+      "Old",
+      "Historic"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/ancient",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "821f43ad06dd143a4ac2",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "Which word is closest in meaning to rapid?",
+    "answers": [
+      "Fast",
+      "Slow",
+      "Late",
+      "Quiet"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/rapid",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "c977aa475fe0bf55583e",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "Which word is closest to the opposite of generous?",
+    "answers": [
+      "Charitable",
+      "Giving",
+      "Kind",
+      "Stingy"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/generous",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "963a92aa93cc61a2e7fb",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "Which word is closest in meaning to enormous?",
+    "answers": [
+      "Slight",
+      "Narrow",
+      "Huge",
+      "Tiny"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/enormous",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "7047d98828563b1631b0",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "Which word is closest to the opposite of expand?",
+    "answers": [
+      "Enlarge",
+      "Contract",
+      "Grow",
+      "Stretch"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/expand",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "bf6bdf4dcfbac25710ad",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "Which word is closest in meaning to quiet?",
+    "answers": [
+      "Silent",
+      "Loud",
+      "Noisy",
+      "Deafening"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/quiet",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "f4cf80dbacb35b581c19",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "Which verb means giving something to someone temporarily, expecting it back?",
+    "answers": [
+      "Borrow",
+      "Buy",
+      "Keep",
+      "Lend"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/lend",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "dc028ddb02951466ca18",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "Which pair of English words sounds the same in standard pronunciation?",
+    "answers": [
+      "Pen and pan",
+      "Ship and sheep",
+      "Sea and see",
+      "Cat and coat"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/homophone",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "65b645d18f196004c5cc",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What tense is walked in 'Yesterday I walked home'?",
+    "answers": [
+      "Future simple",
+      "Past simple",
+      "Present simple",
+      "Present continuous"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/grammar/british-grammar/past-simple-i-worked",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "1f55e61ebd429c509581",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "Which word can mean both an animal and 'to tolerate'?",
+    "answers": [
+      "Bear",
+      "Deer",
+      "Fox",
+      "Hare"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/bear",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "9d0b4fbc74917f6270d8",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "Which word is formed by joining two whole words?",
+    "answers": [
+      "Quickly",
+      "Unkind",
+      "Helpful",
+      "Toothbrush"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/compound",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "f43d53112f9dccd6471f",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does can't stand for?",
+    "answers": [
+      "Will not",
+      "Would not",
+      "Cannot",
+      "Could not"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/grammar/british-grammar/contractions",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "e4743779b87b996d3842",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does won't stand for?",
+    "answers": [
+      "Want not",
+      "Will not",
+      "Would not",
+      "Was not"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/grammar/british-grammar/contractions",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "1da8c057ab1ad0b523d3",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "Which word can mean both a flying mammal and a piece of sports equipment?",
+    "answers": [
+      "Bat",
+      "Rat",
+      "Hare",
+      "Mole"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/bat",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "2799cf36dd738b0baded",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does the idiom 'break the ice' mean when people meet?",
+    "answers": [
+      "End the meeting immediately",
+      "Reveal a secret",
+      "Refuse to speak to anyone",
+      "Make people feel more relaxed and start talking"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/break-the-ice",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "bcb50161697cff7baaed",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does the expression 'it's raining cats and dogs' mean?",
+    "answers": [
+      "It is becoming sunny",
+      "Animals are falling from the sky",
+      "It is raining very heavily",
+      "It is snowing lightly"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/rain-cats-and-dogs",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "65ad904d01050ee3c5e0",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "If someone says a task is a piece of cake, what do they mean?",
+    "answers": [
+      "It is very expensive",
+      "It is easy",
+      "It is dangerous",
+      "It is impossible"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/a-piece-of-cake",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "6ca474ae70cf40b49144",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does the idiom 'feeling under the weather' mean?",
+    "answers": [
+      "Feeling unwell",
+      "Feeling very energetic",
+      "Feeling extremely hungry",
+      "Feeling proud of a success"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/under-the-weather",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "6436339de3513ce135c0",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does the idiom 'hit the books' mean?",
+    "answers": [
+      "Damage a book",
+      "Go to sleep",
+      "Write a shopping list",
+      "Study"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/hit-the-books",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "850426c7210c27864358",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does the idiom 'spill the beans' mean?",
+    "answers": [
+      "Hide the truth",
+      "Lose a race",
+      "Reveal a secret",
+      "Cook a meal"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/spill-the-beans",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "2a64575b3d027cebb13c",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "If something 'costs an arm and a leg', what does that idiom mean?",
+    "answers": [
+      "It is made of wood",
+      "It is very expensive",
+      "It is completely free",
+      "It is easy to carry"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/cost-an-arm-and-a-leg",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "70ebfde9559548ae733b",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does the idiom 'being on cloud nine' mean?",
+    "answers": [
+      "Being very happy",
+      "Being very ill",
+      "Being confused about directions",
+      "Being impatient for a meal"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/on-cloud-nine",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "851d19c3229fa72b839e",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "How often does something happen if it happens 'once in a blue moon'?",
+    "answers": [
+      "Every morning",
+      "Several times an hour",
+      "Every weekend",
+      "Very rarely"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/once-in-a-blue-moon",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "c9a00ded6fc38f8e3d77",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does the idiom 'getting cold feet' mean before an important event?",
+    "answers": [
+      "Learning the route by heart",
+      "Winning a prize",
+      "Becoming nervous and hesitant",
+      "Growing taller"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/get-cold-feet",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "02a45cbd66cf0dbe83fd",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does the idiom 'pulling your leg' mean?",
+    "answers": [
+      "Giving you directions",
+      "Joking or teasing you",
+      "Asking you to hurry",
+      "Making a serious promise"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/english/pull-someone-s-leg",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "88084183b40bd67aaa00",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does the French word fromage mean?",
+    "answers": [
+      "Cheese",
+      "Chicken",
+      "Butter",
+      "Bread"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/french-english/fromage",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "bd1a7b508ffb87f73402",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does the French word pain mean?",
+    "answers": [
+      "Cheese",
+      "Rice",
+      "Meat",
+      "Bread"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/french-english/pain",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "9fad05e4f447aafffd3c",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What animal does the French word chien mean?",
+    "answers": [
+      "Horse",
+      "Rabbit",
+      "Dog",
+      "Cat"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/french-english/chien",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "13530bb8e66aeb59c961",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What animal does the French word cheval mean?",
+    "answers": [
+      "Sheep",
+      "Horse",
+      "Dog",
+      "Cow"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/french-english/cheval",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "91c0e7cddcb08b8aaa65",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does the French word maison mean?",
+    "answers": [
+      "House",
+      "School",
+      "Shop",
+      "Bridge"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/french-english/maison",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "48ca0a064e77f542fd25",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does the French word jardin mean?",
+    "answers": [
+      "Kitchen",
+      "Street",
+      "Beach",
+      "Garden"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/french-english/jardin",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "02b07d9fd7c189199c41",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "Which colour does the French word rouge mean?",
+    "answers": [
+      "Green",
+      "Yellow",
+      "Red",
+      "Blue"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/french-english/rouge",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "06cb30091af13fd418ec",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "Which colour does the French word bleu mean?",
+    "answers": [
+      "White",
+      "Blue",
+      "Red",
+      "Black"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/french-english/bleu",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "6966af3936d750691176",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "Which colour does the French word vert mean?",
+    "answers": [
+      "Green",
+      "Purple",
+      "Orange",
+      "Pink"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/french-english/vert",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "03ef2f6db01c7838b294",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "Which day is lundi in French?",
+    "answers": [
+      "Tuesday",
+      "Friday",
+      "Sunday",
+      "Monday"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/french-english/lundi",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "d97fed4107bd7af62fee",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does the Spanish word agua mean?",
+    "answers": [
+      "Bread",
+      "Salt",
+      "Water",
+      "Milk"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/spanish-english/agua",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "025a8151de514b392c1f",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What animal does the Spanish word perro mean?",
+    "answers": [
+      "Duck",
+      "Dog",
+      "Cat",
+      "Horse"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/spanish-english/perro",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "8a3eb249f56d9737a112",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What animal does the Spanish word gato mean?",
+    "answers": [
+      "Cat",
+      "Dog",
+      "Rabbit",
+      "Goat"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/spanish-english/gato",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "de081dde0e03a36e8189",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does the Spanish word casa mean?",
+    "answers": [
+      "School",
+      "Church",
+      "Shop",
+      "House"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/spanish-english/casa",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "3e404e2952ceb3c2b766",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does the Spanish word pan mean?",
+    "answers": [
+      "Rice",
+      "Egg",
+      "Bread",
+      "Milk"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/spanish-english/pan",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "29ca615f16cc19fb2427",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does the Spanish word leche mean?",
+    "answers": [
+      "Sugar",
+      "Milk",
+      "Water",
+      "Salt"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/spanish-english/leche",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "23955154d6dda8bacfec",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does the Spanish word libro mean?",
+    "answers": [
+      "Book",
+      "Table",
+      "Door",
+      "Chair"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/spanish-english/libro",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "eb4d3cb9b3253cabfe90",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What greeting can buenas noches express in Spanish?",
+    "answers": [
+      "Good morning only",
+      "Thank you",
+      "Please",
+      "Good evening or good night"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/spanish-english/buenas-noches",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "6016f383d3482aa58e41",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does the Spanish phrase por favor mean?",
+    "answers": [
+      "Goodbye",
+      "Good morning",
+      "Please",
+      "Thank you"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/spanish-english/por-favor",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "0721ed830324db5a8b41",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does the Spanish word gracias mean?",
+    "answers": [
+      "Goodbye",
+      "Thank you",
+      "Hello",
+      "Please"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/spanish-english/gracias",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "f460ba4d4b89b10d2aa8",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does the Italian word grazie mean?",
+    "answers": [
+      "Thank you",
+      "Goodbye",
+      "Hello",
+      "Please"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/italian-english/grazie",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "72083f3ada590f27e379",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "When someone replies prego after being thanked in Italian, what do they mean?",
+    "answers": [
+      "Good night",
+      "I'm sorry",
+      "Goodbye",
+      "You're welcome"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/italian-english/prego",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "7d2665614db570524be7",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What greeting does the Italian word buongiorno express?",
+    "answers": [
+      "Thank you",
+      "Goodbye",
+      "Good morning or good day",
+      "Good night"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/italian-english/buongiorno",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "5d348655193c2ef1bd7f",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does the Italian word arrivederci mean?",
+    "answers": [
+      "Good morning",
+      "Goodbye",
+      "Thank you",
+      "Please"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/italian-english/arrivederci",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "7793d8f49000be3c820d",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does the Italian word acqua mean?",
+    "answers": [
+      "Water",
+      "Milk",
+      "Wine",
+      "Juice"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/italian-english/acqua",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "c26b751e85808112e000",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What animal does the Italian word cane mean?",
+    "answers": [
+      "Cat",
+      "Horse",
+      "Bird",
+      "Dog"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/italian-english/cane",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "adecf3453b74d9b5aba3",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What animal does the Italian word gatto mean?",
+    "answers": [
+      "Mouse",
+      "Fish",
+      "Cat",
+      "Dog"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/italian-english/gatto",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "306fb6c08ba79445fdb9",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does the Italian word pane mean?",
+    "answers": [
+      "Salt",
+      "Bread",
+      "Cheese",
+      "Meat"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/italian-english/pane",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "56711c1ac2f6c649b073",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does the Italian word luna mean?",
+    "answers": [
+      "Moon",
+      "Sun",
+      "Star",
+      "Cloud"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/italian-english/luna",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "6a02680e7c878db96f49",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does the Italian word sole mean in the sky?",
+    "answers": [
+      "Moon",
+      "Star",
+      "Cloud",
+      "Sun"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/italian-english/sole",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "2569aca9bb578ef2f31c",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does the German word danke mean?",
+    "answers": [
+      "Please",
+      "Good night",
+      "Thank you",
+      "Goodbye"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/german-english/danke",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "3ab5ebbb9f0ce717e9a6",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "In a polite request, what does the German word bitte mean?",
+    "answers": [
+      "Good night",
+      "Please",
+      "Goodbye",
+      "Good morning"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/german-english/bitte",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "decab4c006dcb51ef6f3",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does Guten Morgen mean in German?",
+    "answers": [
+      "Good morning",
+      "Good night",
+      "Thank you",
+      "Goodbye"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/german-english/guten-morgen",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "21500ee856949405261d",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does Auf Wiedersehen mean in German?",
+    "answers": [
+      "Please",
+      "Thank you",
+      "Good morning",
+      "Goodbye"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/german-english/auf-wiedersehen",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "6af3860511d2cd3372fb",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What animal does the German word Hund mean?",
+    "answers": [
+      "Horse",
+      "Rabbit",
+      "Dog",
+      "Cat"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/german-english/Hund",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "de9c11313f877e64b287",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What animal does the German word Katze mean?",
+    "answers": [
+      "Duck",
+      "Cat",
+      "Dog",
+      "Cow"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/german-english/Katze",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "008155a9c26222eee27c",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does the German word Haus mean?",
+    "answers": [
+      "House",
+      "School",
+      "Shop",
+      "Bridge"
+    ],
+    "correctIndex": 0,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/german-english/Haus",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "223716fdb0d4df28f6bf",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does the German word Brot mean?",
+    "answers": [
+      "Cheese",
+      "Milk",
+      "Butter",
+      "Bread"
+    ],
+    "correctIndex": 3,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/german-english/Brot",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "985e88ced3f827bfc41c",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does the German word Wasser mean?",
+    "answers": [
+      "Juice",
+      "Wine",
+      "Water",
+      "Milk"
+    ],
+    "correctIndex": 2,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/german-english/Wasser",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  },
+  {
+    "id": "c49a7c38967772cdb564",
+    "categoryID": "35",
+    "difficulty": "easy",
+    "prompt": "What does the German word Milch mean?",
+    "answers": [
+      "Sugar",
+      "Milk",
+      "Water",
+      "Salt"
+    ],
+    "correctIndex": 1,
+    "source": "Quizfolk original; primary-source fact check",
+    "sourceURL": "https://dictionary.cambridge.org/dictionary/german-english/Milch",
+    "license": "CC BY-SA 4.0",
+    "reviewStatus": "individually_reviewed",
+    "auditVersion": "2026-11-easy-35-v1"
+  }
+]
