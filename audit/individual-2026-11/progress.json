@@ -1,9 +1,9 @@
 {
   "updated": "2026-11-18",
   "targetNewEasy": 3100,
-  "reviewedAndValidated": 2900,
-  "localBankCount": 24817,
-  "liveBankCount": 24817,
+  "reviewedAndValidated": 3000,
+  "localBankCount": 24917,
+  "liveBankCount": 24917,
   "topics": [
     {
       "topicID": "9",
@@ -193,9 +193,9 @@
       "topicID": "32",
       "name": "Cartoons",
       "targetNewEasy": 100,
-      "authored": 0,
-      "reviewedAndValidated": 0,
-      "deployedNewEasy": 0
+      "authored": 100,
+      "reviewedAndValidated": 100,
+      "deployedNewEasy": 100
     },
     {
       "topicID": "33",

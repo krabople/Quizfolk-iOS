@@ -1,0 +1,324 @@
+{
+  "date": "2026-11-18",
+  "note": "100 cartoon questions individually author-considered and checked against relevant actual lead/plot passages; all final stems and all four choices reread. Sole correct offered answer, meaning, grammar, story/film scope and topic fit assessed per item. Twenty actual cartoon reference pages used; three initial URLs returned disambiguation content and were rejected, then canonical animated BlueyTVseries/SeaBeast2022/Breadwinner2017 pages retrieved and inspected. Most references are secondary encyclopaedia plot/character summaries, not independent review or primary-only research. Primary official Bluey character page explicitly corroborates breed, little sister and parents; official DragonPrince character page corroborates character setting but did not contain half-brother phrase, so that exact relation remains based on actual secondary story description. GKIDS Breadwinner confirms family arrest/disguise/support/storytelling; exact brother-comfort detail separately inspected in actual film plot and indexed CornellCinema description. Netflix filmmaker/character material corroborates SeaBeast setting/characters and ferocious-to-friendly creatures, not a claim every monster harmless. Avoided ambiguous King demon/titan identity, generic brothers alongside half-brothers, AustralianCattleDog alongside BlueHeeler and later-Xibalba-rule alongside initialLaMuerte without timing. Parvana protagonist-name item replaced because existing Books question already tested inverse novel/protagonist association. Trivial RedBluster-to-Red nickname replaced with supported Maisie belief; six drafts refined before approval. Current/future broadcast rankings, licensing and release announcements not used as quiz facts. Final lexical overlap check no candidates; additional cross-bank named-character check distinguished unrelated BartFink/Lilithactress substring matches. Author pass explicitly not independent; scripts consolidate recorded judgments and validate fingerprints/structure.",
+  "references": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Big_City_Greens",
+      "questionRows": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_actual_lead_plot_paragraphs_inspected",
+      "sha256": "fcab09d6390f2425bb4e98f8338f2ab7c2b4e1dc713aaa021060a590b93e0bfa",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Big_City_Greens",
+      "inspectionMethod": "Relevant passages actually read, not every paragraph or every adaptation. Disambiguation pages not accepted as fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bluey_%28TV_series%29",
+      "questionRows": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_actual_lead_plot_paragraphs_inspected",
+      "sha256": "142a008adc69d812fe655574ac6de8352804ce6a6ad76a7aabd7763937a2a359",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Bluey_%28TV_series%29",
+      "inspectionMethod": "Relevant passages actually read, not every paragraph or every adaptation. Disambiguation pages not accepted as fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Encanto",
+      "questionRows": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_actual_lead_plot_paragraphs_inspected",
+      "sha256": "e6b5e46419828b02234f0bd6f4fea23333c5d9b7badf90d66971c4cd284f5ab3",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Encanto",
+      "inspectionMethod": "Relevant passages actually read, not every paragraph or every adaptation. Disambiguation pages not accepted as fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Gravity_Falls",
+      "questionRows": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_actual_lead_plot_paragraphs_inspected",
+      "sha256": "5798f4a1f879ed27ac60b25d8f2f69bcb7e410f685778c312bcb11cf48749f40",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Gravity_Falls",
+      "inspectionMethod": "Relevant passages actually read, not every paragraph or every adaptation. Disambiguation pages not accepted as fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Kipo_and_the_Age_of_Wonderbeasts",
+      "questionRows": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_actual_lead_plot_paragraphs_inspected",
+      "sha256": "f9778aefe14e63b79690d1c2c15ffe971ecd36cd6c6e2488a2460e1164c82348",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Kipo_and_the_Age_of_Wonderbeasts",
+      "inspectionMethod": "Relevant passages actually read, not every paragraph or every adaptation. Disambiguation pages not accepted as fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Nimona_%28film%29",
+      "questionRows": [
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_actual_lead_plot_paragraphs_inspected",
+      "sha256": "3002ad4afdbc308604c9146c01ee0902b12668710621afd5dc8b9bee2ffa41e6",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Nimona_%28film%29",
+      "inspectionMethod": "Relevant passages actually read, not every paragraph or every adaptation. Disambiguation pages not accepted as fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Over_the_Garden_Wall",
+      "questionRows": [
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_actual_lead_plot_paragraphs_inspected",
+      "sha256": "ed3c7b5f450672f3013615b87c1b3a375c592aed1b8ff62467521e4635908c8b",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Over_the_Garden_Wall",
+      "inspectionMethod": "Relevant passages actually read, not every paragraph or every adaptation. Disambiguation pages not accepted as fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ron%27s_Gone_Wrong",
+      "questionRows": [
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_actual_lead_plot_paragraphs_inspected",
+      "sha256": "525fc7d69dc2731a624990d4c09a5939eff18a3f6d97988a27be19ad727a25bf",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Ron%27s_Gone_Wrong",
+      "inspectionMethod": "Relevant passages actually read, not every paragraph or every adaptation. Disambiguation pages not accepted as fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Song_of_the_Sea_%282014_film%29",
+      "questionRows": [
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_actual_lead_plot_paragraphs_inspected",
+      "sha256": "264f65d5876e2d5a3137a9a0dc2ae5d7b66b2d8cc8f8aa0217a0ee965ef18232",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Song_of_the_Sea_%282014_film%29",
+      "inspectionMethod": "Relevant passages actually read, not every paragraph or every adaptation. Disambiguation pages not accepted as fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Star_vs._the_Forces_of_Evil",
+      "questionRows": [
+        96,
+        97,
+        98,
+        99,
+        100
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_actual_lead_plot_paragraphs_inspected",
+      "sha256": "ca753c540383edebb7ddc1a810b6757556db13292697889565180847084dd395",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Star_vs._the_Forces_of_Evil",
+      "inspectionMethod": "Relevant passages actually read, not every paragraph or every adaptation. Disambiguation pages not accepted as fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Bad_Guys_%28film%29",
+      "questionRows": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_actual_lead_plot_paragraphs_inspected",
+      "sha256": "e16eeeaa194dab43c5b4a18c4099ae970f83dbc42795a038f98c9323fed352d1",
+      "resolvedURL": "https://en.wikipedia.org/wiki/The_Bad_Guys_%28film%29",
+      "inspectionMethod": "Relevant passages actually read, not every paragraph or every adaptation. Disambiguation pages not accepted as fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Book_of_Life_%282014_film%29",
+      "questionRows": [
+        81,
+        82,
+        83,
+        84,
+        85
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_actual_lead_plot_paragraphs_inspected",
+      "sha256": "f8e2587cb5e175c4b100b58bdbe66eebfefa8e310cb13bac75c896e402cb87ec",
+      "resolvedURL": "https://en.wikipedia.org/wiki/The_Book_of_Life_%282014_film%29",
+      "inspectionMethod": "Relevant passages actually read, not every paragraph or every adaptation. Disambiguation pages not accepted as fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Breadwinner_%282017_film%29",
+      "questionRows": [
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_actual_lead_plot_paragraphs_inspected",
+      "sha256": "66aa7ce876a2246b2b9a232e8040261ea06957807564889ccbbb1f73f57dc38c",
+      "resolvedURL": "https://en.wikipedia.org/wiki/The_Breadwinner_%282017_film%29",
+      "inspectionMethod": "Relevant passages actually read, not every paragraph or every adaptation. Disambiguation pages not accepted as fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Dragon_Prince",
+      "questionRows": [
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_actual_lead_plot_paragraphs_inspected",
+      "sha256": "042fc69cda2ec71ff7c41e76876a8d9643acd3f9a0853cf57eb8a1fbc25d983d",
+      "resolvedURL": "https://en.wikipedia.org/wiki/The_Dragon_Prince",
+      "inspectionMethod": "Relevant passages actually read, not every paragraph or every adaptation. Disambiguation pages not accepted as fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Mitchells_vs._the_Machines",
+      "questionRows": [
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_actual_lead_plot_paragraphs_inspected",
+      "sha256": "92eb723fa1d2e874bf34c0ec3f19455de9afc508bc4cbd0e3f5f463c313205f2",
+      "resolvedURL": "https://en.wikipedia.org/wiki/The_Mitchells_vs._the_Machines",
+      "inspectionMethod": "Relevant passages actually read, not every paragraph or every adaptation. Disambiguation pages not accepted as fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Owl_House",
+      "questionRows": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_actual_lead_plot_paragraphs_inspected",
+      "sha256": "146fac9454d03371ed45def6219b1263b83346e93a140803e77cf92b819aad62",
+      "resolvedURL": "https://en.wikipedia.org/wiki/The_Owl_House",
+      "inspectionMethod": "Relevant passages actually read, not every paragraph or every adaptation. Disambiguation pages not accepted as fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Sea_Beast_%282022_film%29",
+      "questionRows": [
+        71,
+        72,
+        73,
+        74,
+        75
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_actual_lead_plot_paragraphs_inspected",
+      "sha256": "84ba3ee083c97c96054c2cb55b920419902a2c80f031d694fd75a79b182a9584",
+      "resolvedURL": "https://en.wikipedia.org/wiki/The_Sea_Beast_%282022_film%29",
+      "inspectionMethod": "Relevant passages actually read, not every paragraph or every adaptation. Disambiguation pages not accepted as fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Wild_Robot",
+      "questionRows": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_actual_lead_plot_paragraphs_inspected",
+      "sha256": "2074f3b27b997ff3b98cc6e1ffa23b829d29a2e195cf8bb961df4dd902062db4",
+      "resolvedURL": "https://en.wikipedia.org/wiki/The_Wild_Robot",
+      "inspectionMethod": "Relevant passages actually read, not every paragraph or every adaptation. Disambiguation pages not accepted as fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/We_Bare_Bears",
+      "questionRows": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_actual_lead_plot_paragraphs_inspected",
+      "sha256": "053087182e5957473f65739b5bd0eda52d291cc29a250402b52dda7d89d13854",
+      "resolvedURL": "https://en.wikipedia.org/wiki/We_Bare_Bears",
+      "inspectionMethod": "Relevant passages actually read, not every paragraph or every adaptation. Disambiguation pages not accepted as fact support."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wolfwalkers",
+      "questionRows": [
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "sourceKind": "secondary encyclopaedia",
+      "status": "relevant_actual_lead_plot_paragraphs_inspected",
+      "sha256": "5fd29a1a255efb359142c52184f597b05d03c642ad4743e2cf86975d0f68f014",
+      "resolvedURL": "https://en.wikipedia.org/wiki/Wolfwalkers",
+      "inspectionMethod": "Relevant passages actually read, not every paragraph or every adaptation. Disambiguation pages not accepted as fact support."
+    }
+  ],
+  "supplementalReferences": [
+    {
+      "url": "https://www.bluey.tv/characters/bluey/",
+      "scope": "Actual primary breed/family passages inspected, rows1-4."
+    },
+    {
+      "url": "https://thedragonprince.com/characters/",
+      "scope": "Actual/indexed primary character profiles; half phrase not found, not claimed primary confirmation of exact half-sibling relation."
+    },
+    {
+      "url": "https://gkids.com/films/the-breadwinner/",
+      "scope": "Actual primary family/disguise/storytelling synopsis; exact brother story also inspected in secondary plot/Cornell description."
+    },
+    {
+      "url": "https://www.netflix.com/tudum/articles/a-guide-to-the-beasts-of-the-sea-beast",
+      "scope": "Actual primary filmmaker creature/character material, range ferocious-to-friendly; specific Maisie belief supported by inspected secondary film plot."
+    }
+  ]
+}
