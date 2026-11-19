@@ -1,6 +1,7 @@
 <?php
 declare(strict_types=1);
 const QUIZFOLK_REWARDED_COINS=5;
+const QUIZFOLK_IOS_TEST_UNIT='ca-app-pub-3940256099942544/1712485313';
 
 final class RewardedError extends RuntimeException {
     public function __construct(string $message,public readonly int $status=400){parent::__construct($message);}
@@ -24,7 +25,17 @@ function rewarded_settings(array $config):array {
     return ['enabled'=>($c['enabled'] ?? false)===true,'units'=>is_array($c['units'] ?? null)?$c['units']:[],
         'cooldown'=>max(0,min(3600,(int)($c['cooldown_seconds'] ?? 0))),
         'duration'=>max(60,min(3600,(int)($c['attempt_seconds'] ?? 600))),
-        'grace'=>max(3600,min(604800,(int)($c['callback_grace_seconds'] ?? 259200)))];
+        'grace'=>max(3600,min(604800,(int)($c['callback_grace_seconds'] ?? 259200))),
+        'testMode'=>false,'iosTestEnabled'=>($c['ios_test_enabled'] ?? false)===true,
+        'testPlayerIDs'=>is_array($c['ios_test_player_ids'] ?? null)?$c['ios_test_player_ids']:[]];
+}
+
+// Temporary, explicitly allowlisted testing. Never enables Android or live ads.
+function rewarded_player_settings(array $settings,string $pid,string $platform):array {
+    if($platform==='ios' && $settings['iosTestEnabled'] && in_array($pid,$settings['testPlayerIDs'],true)) {
+        $settings['testMode']=true;$settings['enabled']=true;$settings['units']['ios']=QUIZFOLK_IOS_TEST_UNIT;
+    }
+    return $settings;
 }
 
 function rewarded_platform(mixed $value):string {
@@ -34,6 +45,7 @@ function rewarded_platform(mixed $value):string {
 
 function rewarded_unit(array $settings,string $platform):?string {
     $unit=$settings['units'][$platform] ?? '';
+    if($platform==='ios' && ($settings['testMode'] ?? false) && $unit===QUIZFOLK_IOS_TEST_UNIT)return $unit;
     if(!is_string($unit) || !preg_match('/^ca-app-pub-\d{16}\/\d{10}$/D',$unit) || str_starts_with($unit,'ca-app-pub-3940256099942544/'))return null;
     return $unit;
 }
@@ -65,7 +77,7 @@ function rewarded_status(PDO $db,string $pid,string $platform,array $settings,in
     $enabled=$settings['enabled'] && rewarded_unit($settings,$platform)!==null;
     $reason=!$enabled?'disabled':($pending?'pending':($next!==null?'cooldown':'ready'));
     $wallet=tournament_wallet($db,$pid);
-    return ['enabled'=>$enabled,'available'=>$reason==='ready','reason'=>$reason,'reward'=>QUIZFOLK_REWARDED_COINS,
+    return ['enabled'=>$enabled,'available'=>$reason==='ready','reason'=>$reason,'reward'=>QUIZFOLK_REWARDED_COINS,'testMode'=>(bool)($settings['testMode'] ?? false),
         'dailyLimit'=>null,'earnedToday'=>$earned,'remainingToday'=>null,'resets'=>$day+86400,
         'nextAvailableAt'=>$next,'wallet'=>['coins'=>$wallet['coins']],'attempt'=>rewarded_attempt_card($selected)];
 }
@@ -94,17 +106,34 @@ function rewarded_cancel(PDO $db,string $pid,string $platform,array $settings,in
 }
 
 function rewarded_routes(string $route,PDO $db,string $pid,array $body,array $config):void {
-    if(!in_array($route,['rewarded-status','rewarded-start','rewarded-cancel'],true))return;
+    if(!in_array($route,['rewarded-status','rewarded-start','rewarded-cancel','rewarded-test-complete'],true))return;
     try {
         $platform=rewarded_platform($route==='rewarded-status'?($_GET['platform'] ?? null):($body['platform'] ?? null));
-        $settings=rewarded_settings($config);rewarded_schema($db);$db->exec('BEGIN IMMEDIATE');$now=time();
+        $settings=rewarded_player_settings(rewarded_settings($config),$pid,$platform);rewarded_schema($db);$db->exec('BEGIN IMMEDIATE');$now=time();
         $reply=match($route){
             'rewarded-start'=>rewarded_start($db,$pid,$platform,$settings,$now,$body['requestKey'] ?? null),
             'rewarded-cancel'=>rewarded_cancel($db,$pid,$platform,$settings,$now,$body['attempt'] ?? null),
+            'rewarded-test-complete'=>rewarded_test_complete($db,$pid,$platform,$settings,$now,$body['attempt'] ?? null),
             default=>rewarded_status($db,$pid,$platform,$settings,$now,isset($_GET['attempt'])?(string)$_GET['attempt']:null),
         };
         $db->exec('COMMIT');out($reply,isset($reply['error'])?409:200);
     } catch(RewardedError $e) {if($db->inTransaction())$db->rollBack();out(['error'=>$e->getMessage()],$e->status);}
+}
+
+// Google demo units cannot call our configured SSV URL. Only approved accounts
+// may use this temporary SDK-completion path; production rewards still use SSV.
+// Caller holds BEGIN IMMEDIATE, making retries and concurrent completions safe.
+function rewarded_test_complete(PDO $db,string $pid,string $platform,array $settings,int $now,mixed $attempt):array {
+    if($platform!=='ios' || !($settings['testMode'] ?? false) || !$settings['iosTestEnabled'] || !in_array($pid,$settings['testPlayerIDs'],true))throw new RewardedError('Test rewards are not enabled for this account.',403);
+    if(!is_string($attempt))throw new RewardedError('Choose a test ad attempt.');
+    $status=rewarded_status($db,$pid,$platform,$settings,$now,$attempt);
+    $row=sql($db,'SELECT * FROM rewarded_attempts WHERE id=? AND player_id=?',[$attempt,$pid])->fetch();
+    if($row['platform']!=='ios' || $row['ad_unit']!==QUIZFOLK_IOS_TEST_UNIT)throw new RewardedError('This is not an iOS test ad.',403);
+    if($row['state']==='awarded')return $status;
+    if($row['state']!=='pending' || $row['cancelled']!==null || $now>=(int)$row['expires'])throw new RewardedError('This test ad is no longer available.',409);
+    sql($db,'UPDATE rewarded_attempts SET state="awarded",rewarded=?,transaction_hash=? WHERE id=?',[$now,'test:'.$attempt,$attempt]);
+    tournament_credit($db,$pid,'rewarded-test:'.$attempt,QUIZFOLK_REWARDED_COINS,0);
+    return rewarded_status($db,$pid,$platform,$settings,$now,$attempt);
 }
 
 // Keep the signed bytes exactly as received. Do not parse_str/reorder/decode

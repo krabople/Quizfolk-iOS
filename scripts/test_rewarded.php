@@ -189,4 +189,25 @@ check((int)sql($db,'SELECT COUNT(*) FROM rewarded_attempts WHERE player_id="alic
 check((int)$db->query('SELECT COUNT(*) FROM rewarded_receipts')->fetchColumn()===$receiptCount,'Deletion removed global replay protection');
 check(complete($db,$p,$ec,$pem,$midnight+3000)['duplicate'],'Deleted-account duplicate was not harmless');
 check((int)$db->query('SELECT COUNT(*) FROM tournament_wallet WHERE player_id="alice"')->fetchColumn()===0,'Deleted account recreated by callback');
-echo "PASS: raw-query ECDSA, strict binding, key rotation/cache, idempotency, cross-platform reservation, no-fill/cancel races, expiry/late delivery/UTC rollover, unlimited rewards, parallel reservation+callback, account deletion\n";
+// Demo ads can credit real coins only for explicitly approved iOS accounts.
+$tdb=database();$tdb->exec('CREATE TABLE players(id TEXT PRIMARY KEY);INSERT INTO players VALUES("tester"),("outsider");');tournament_schema($tdb);rewarded_schema($tdb);
+$rawTest=rewarded_settings(['rewarded'=>['enabled'=>false,'ios_test_enabled'=>true,'ios_test_player_ids'=>['tester']]]);
+$test=rewarded_player_settings($rawTest,'tester','ios');
+$outsider=rewarded_player_settings($rawTest,'outsider','ios');$android=rewarded_player_settings($rawTest,'tester','android');
+check(rewarded_unit($test,'ios')===QUIZFOLK_IOS_TEST_UNIT,'Wrong Google demo unit');
+check(!start($tdb,$outsider,$now,'outsider')['enabled'],'Unlisted player enabled');
+check(!start($tdb,$android,$now,'tester','android')['enabled'],'Android enabled');
+$testAttempt=start($tdb,$test,$now,'tester')['attempt']['id'];
+rejected(fn()=>atomic($tdb,fn()=>rewarded_test_complete($tdb,'outsider','ios',$outsider,$now+1,$testAttempt)),'unlisted test reward');
+rejected(fn()=>atomic($tdb,fn()=>rewarded_test_complete($tdb,'tester','android',$android,$now+1,$testAttempt)),'Android test reward');
+rejected(fn()=>atomic($tdb,fn()=>rewarded_test_complete($tdb,'tester','ios',rewarded_settings([]),$now+1,$testAttempt)),'disabled test reward');
+for($i=0;$i<2;$i++)$credited=atomic($tdb,fn()=>rewarded_test_complete($tdb,'tester','ios',$test,$now+1,$testAttempt));
+check($credited['wallet']['coins']===105,'Retry minted duplicate test coins');
+check((int)$tdb->query('SELECT COUNT(*) FROM rewarded_receipts')->fetchColumn()===0,'Test reward forged an SSV receipt');
+for($i=0;$i<30;$i++){$attempt=start($tdb,$test,$now+2+$i,'tester')['attempt']['id'];atomic($tdb,fn()=>rewarded_test_complete($tdb,'tester','ios',$test,$now+2+$i,$attempt));}
+check(tournament_wallet($tdb,'tester')['coins']===255,'Wrong amount or capped test rewards');
+$cancelled=start($tdb,$test,$now+100,'tester')['attempt']['id'];atomic($tdb,fn()=>rewarded_cancel($tdb,'tester','ios',$test,$now+101,$cancelled));
+rejected(fn()=>atomic($tdb,fn()=>rewarded_test_complete($tdb,'tester','ios',$test,$now+102,$cancelled)),'cancelled test reward');
+$expired=start($tdb,$test,$now+110,'tester')['attempt']['id'];
+rejected(fn()=>atomic($tdb,fn()=>rewarded_test_complete($tdb,'tester','ios',$test,$now+711,$expired)),'expired test reward');
+echo "PASS: signed production rewards plus allowlisted iOS-only test ads, real five-coin credits, idempotence, no daily cap, cancellation/expiry and disabled/unlisted/Android rejection\n";

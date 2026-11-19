@@ -33,6 +33,10 @@ disabled = api('rewarded-status&platform=ios', token=alice)
 assert disabled['reason'] == 'disabled' and disabled['dailyLimit'] is None and disabled['remainingToday'] is None
 assert disabled['reward'] == 5
 assert disabled['wallet']['coins'] == 100
+api('rewarded-test-complete', {'platform':'ios','attempt':'0'*64}, status=401)
+api('rewarded-test-complete', {'platform':'ios','attempt':'0'*64}, alice, 403)
+api('rewarded-test-complete', {'platform':'android','attempt':'0'*64}, alice, 403)
+assert api('coins',token=alice)['wallet']['coins']==100
 api('rewarded-start', {'platform': 'ios', 'requestKey': secrets.token_hex(16), 'reward': 999999}, alice, 409)
 api('rewarded-status&platform=web', token=alice, status=400)
 

@@ -1,16 +1,16 @@
 # Optional rewarded ads
 
-## Temporary iOS release pause
+## Temporary iOS test-ad release
 
-`RewardedConfiguration.enabledInThisRelease` in `iOS/RewardedAds.swift` is currently `false`. The iOS release hides the entire video-reward card, keeps daily login and trail rewards, and neither creates the Google provider nor updates consent, initializes the advertising SDK, reserves a new reward, or loads/presents an ad. Previously saved reward attempts can still settle through Quizfolk's authenticated backend, preserving coins already earned before an upgrade.
+`RewardedConfiguration.enabledInThisRelease` and `testAdsInThisRelease` are currently `true`. Both Debug and Release request only Google's iOS demo rewarded unit (`ca-app-pub-3940256099942544/1712485313`). The card labels this test mode explicitly. Daily rewards remain unchanged. Android is unchanged and live server ad serving remains disabled.
 
-To restore the feature, change that one constant to `true`, update the pause-specific release assertions in `RewardedAvailabilityTests` and `testReleaseExperienceKeepsDailyCoinsAndHidesVideoControls`, run the existing rewarded-ad tests plus an approved-provider device test, and submit the new build through App Review. Also check AdMob app readiness after the public App Store listing is linked; account approval alone is not sufficient. The server callback and reward configuration are retained. There is no hidden remote switch that enables an unreviewed feature in the published app.
+The user requested real wallet credits while viewing test ads. Because demo units belong to Google rather than our configured SSV unit, a separate temporary `rewarded-test-complete` route credits exactly five coins after the SDK completion callback. Eligibility requires private `ios_test_enabled=true` and the authenticated player's exact ID in `ios_test_player_ids`. Initially only Bon is approved. This is a testing concession: the server trusts an allowlisted tester's completion assertion, not a Google-signed impression. It is deliberately unavailable to general accounts, Android, cancelled/expired attempts and production ad reservations. Concurrent requests/retries credit once using the existing atomic coin ledger; there is no daily cap. It does not forge Google SSV receipts. The client persists SDK completion separately from presentation so relaunch alone cannot trigger credit.
 
-Debug UI tests opt into the isolated fake provider using both `--ui-testing` and `--rewarded-fixture`. Release builds ignore these arguments. Normal UI test launches exercise the same disabled presentation as the release. The test suite covers both the paused UI and the preserved rewarded-ad flow.
+Debug UI tests opt into the isolated fake provider using both `--ui-testing` and `--rewarded-fixture`. Release builds ignore these arguments. Tests never click live ads. Before live release, disable `ios_test_enabled`, switch the reviewed iOS build's `testAdsInThisRelease` to false and enable the real iOS unit only after verifying app readiness, consent and the signed SSV callback on approved test devices. No public App Store submission is part of this test release.
 
 ## Enabled behavior
 
-Rewarded ads are optional, initiated only from **Earn coins**, and award exactly 5 coins after the PHP server verifies AdMob's signed completion callback. Both platforms use the same account wallet. There is no daily cap and no client API that grants a reward.
+Production rewarded ads are optional, initiated only from **Earn coins**, and award exactly 5 coins after the PHP server verifies AdMob's signed completion callback. Both platforms use the same account wallet. There is no daily cap. The explicitly allowlisted iOS test-only exception is described above; ordinary clients cannot mint coins.
 
 ## Client contract
 

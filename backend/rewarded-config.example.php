@@ -4,6 +4,10 @@
 // HTTPS /quizfolk-api/rewarded-callback.php URL (no existing query parameters).
 return [
     'enabled'=>false,
+    // Temporary real-coin rewards from Google test videos, iOS allowlist only.
+    // Keep live serving off while testing. Empty IDs disable test credits.
+    'ios_test_enabled'=>false,
+    'ios_test_player_ids'=>[],
     'units'=>['ios'=>'','android'=>''],
     // Rewards have no daily cap. Users may continue when the previous ad settles.
     'cooldown_seconds'=>0,

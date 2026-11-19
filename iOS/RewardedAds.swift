@@ -12,14 +12,19 @@ struct RewardedStatus:Decodable {
     let enabled:Bool;let available:Bool;let reason:String;let reward:Int
     let dailyLimit:Int?;let earnedToday:Int;let remainingToday:Int?;let resets:Double;let nextAvailableAt:Double?
     let wallet:RewardedWallet;let attempt:RewardedAttempt?
+    var testMode:Bool?=nil
 }
 private struct SavedRewardedAttempt:Codable {
     let account:String;let endpoint:String;let requestKey:String
     var attemptID:String?;var mayHaveEarned:Bool=false
+    var testCompletionReceived:Bool?=nil
 }
 enum RewardedConfiguration {
-    // Re-enable in a reviewed app update after AdMob account/app approval and device verification.
-    static let enabledInThisRelease=false
+    // TestFlight testing only. Live ad serving remains disabled on the server.
+    static let enabledInThisRelease=true
+    static let testAdsInThisRelease=true
+    static let testUnit="ca-app-pub-3940256099942544/1712485313"
+    static var requestedUnit:String {testAdsInThisRelease ? testUnit:productionUnit}
     static var enabled:Bool {
         #if DEBUG
         let arguments=ProcessInfo.processInfo.arguments
@@ -137,9 +142,9 @@ struct AdLoadFailure:LocalizedError {
             initialized=true
         }
         #if DEBUG
-        let requestedUnit="ca-app-pub-3940256099942544/1712485313"
+        let requestedUnit=RewardedConfiguration.testUnit
         #else
-        let requestedUnit=unit
+        let requestedUnit=RewardedConfiguration.testAdsInThisRelease ? RewardedConfiguration.testUnit:unit
         #endif
         let request=Request()
         let extras=Extras();extras.additionalParameters=["npa":"1"];request.register(extras)
@@ -204,6 +209,12 @@ struct AdLoadFailure:LocalizedError {
     var canPrepare:Bool {RewardedConfiguration.enabled && !busy && phase != .ready && phase != .checking && status?.available == true}
     var hasPending:Bool {saved?.attemptID != nil && status?.attempt?.status == "pending"}
     var canCancel:Bool {hasPending && saved?.mayHaveEarned == false && !busy}
+    var isTestMode:Bool {
+        #if DEBUG
+        if fixture != nil {return false}
+        #endif
+        return RewardedConfiguration.testAdsInThisRelease
+    }
 
     func setAnchor(_ controller:UIViewController) {anchor=controller}
     private func presenter() throws -> UIViewController {
@@ -227,7 +238,7 @@ struct AdLoadFailure:LocalizedError {
             saved=UserDefaults.standard.data(forKey:persistenceKey).flatMap{try? JSONDecoder().decode(SavedRewardedAttempt.self,from:$0)}
             if saved?.account != account || saved?.endpoint != store.apiURL {saved=nil}
             #if DEBUG
-            if RewardedConfiguration.enabled,store.isUITesting {
+            if RewardedConfiguration.enabled,store.isUITesting,ProcessInfo.processInfo.arguments.contains("--rewarded-fixture") {
                 let fake=RewardedFixture()
                 fixture=fake;provider=FixtureRewardedAdProvider(fixture:fake)
                 if ProcessInfo.processInfo.arguments.contains("--rewarded-resume"),let id=saved?.attemptID {fake.restoreVerifiedAttempt(id:id)}
@@ -305,7 +316,11 @@ struct AdLoadFailure:LocalizedError {
         // An upgrade must still settle an already-earned reward without loading ads or consent.
         guard RewardedConfiguration.enabled || saved?.attemptID != nil else{return}
         guard store != nil,!busy,phase != .ready else{return}
-        do {apply(try await request("rewarded-status",attempt:saved?.attemptID))}
+        do {
+            if isTestMode,saved?.testCompletionReceived == true,let attempt=saved?.attemptID {
+                apply(try await request("rewarded-test-complete",body:["platform":"ios","attempt":attempt]))
+            } else {apply(try await request("rewarded-status",attempt:saved?.attemptID))}
+        }
         catch is CancellationError {return}
         catch {if phase != .presenting {message=hasPending ? "Your reward is still pending. Check again when you’re connected.":"Ads are unavailable right now. Please try again later."}}
     }
@@ -320,6 +335,7 @@ struct AdLoadFailure:LocalizedError {
         do {
             let current=try await request("rewarded-status",attempt:saved?.attemptID);apply(current)
             guard current.available else {phase=hasPending ? .checking:.idle;return}
+            guard !isTestMode || current.testMode == true else {throw APIError.message("Test ads are not enabled for this account.")}
             phase = .loading
             await consentTask?.value
             guard scope == expectedScope else{return}
@@ -336,7 +352,7 @@ struct AdLoadFailure:LocalizedError {
             #else
             let usesFixture=false
             #endif
-            guard usesFixture || attempt.adUnitId == RewardedConfiguration.productionUnit else {throw APIError.message("This ad is not available for this version of Quizfolk.")}
+            guard usesFixture || attempt.adUnitId == RewardedConfiguration.requestedUnit else {throw APIError.message("This ad is not available for this version of Quizfolk.")}
             try await provider.load(unit:attempt.adUnitId,customData:attempt.customData)
             guard scope == expectedScope,saved?.attemptID == attempt.id else{provider.discard();return}
             phase = .ready;message="Your video is ready. Complete it to earn 5 coins."
@@ -362,6 +378,7 @@ struct AdLoadFailure:LocalizedError {
             try provider.present(from:controller,reward:{ [weak self] in
                 guard let self,self.scope == expectedScope,self.saved?.attemptID == attempt.id else{return}
                 self.saved?.mayHaveEarned=true;self.persist()
+                if self.isTestMode {self.saved?.testCompletionReceived=true;self.persist()}
                 #if DEBUG
                 self.fixture?.receiveCompletion()
                 #endif
@@ -436,6 +453,7 @@ struct RewardedAdCard:View {
     private var card:some View {
         VStack(alignment:.leading,spacing:14) {
             HStack(spacing:12){Image(systemName:"play.rectangle.fill").font(.title).foregroundStyle(Color.coral);VStack(alignment:.leading,spacing:4){Text("A video, 5 coins").font(.title3.bold());Text("An optional way to top up.").font(.subheadline).foregroundStyle(.secondary)}}
+            if ads.isTestMode {Text("TEST ADS · REAL 5-COIN REWARDS").font(.caption.bold()).foregroundStyle(Color.coral).accessibilityIdentifier("rewardedTestMode");Text("Google test videos only. Available to approved test accounts; completed videos add 5 coins to your real wallet.").font(.caption).foregroundStyle(.secondary)}
             Text("Complete a short ad to earn 5 coins. It’s always your choice.").font(.subheadline)
             if let remaining=ads.status?.remainingToday,let limit=ads.status?.dailyLimit {Text("\(remaining) of \(limit) videos available today").font(.caption).foregroundStyle(.secondary)}
             if ads.phase == .loading {ProgressView("Getting your ad ready…").accessibilityIdentifier("rewardedLoading")}
