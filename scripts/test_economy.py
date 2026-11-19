@@ -54,15 +54,13 @@ assert inbox['selected']['rank']==1
 assert req('player',token=a)['displayBadge']==inbox['selected']
 # Achievement labels are live API text, including old awards. Assert exact UTF-8
 # separators so mojibake in a PHP literal cannot silently reach either app.
-badges=[badge for badge in req('player',token=a)['badges'] if badge['id'].startswith('tournament:')]
-assert len(badges)==3
+badges=[badge for badge in req('player',token=a)['badges'] if badge['id'].startswith('tournament-best:')]
+assert len(badges)==1 and badges[0]['rank']==1
 topics={topic['id']:topic['name'] for topic in json.loads((ROOT/'data/categories.json').read_text(encoding='utf-8'))}
-with sqlite3.connect(STATE) as db:
-    for badge in badges:
-        topic,started=db.execute('SELECT topic,starts FROM tournament_events WHERE id=?',(badge['id'].removeprefix('tournament:'),)).fetchone()
-        date=datetime.datetime.fromtimestamp(started,datetime.timezone.utc)
-        expected=f"{topics[topic]} \u00b7 #{badge['rank']} \u00b7 {date.day} {date:%b %Y}"
-        assert badge['name']==expected,(badge['name'],expected)
+for badge in badges:
+    topic=badge['id'].removeprefix('tournament-best:')
+    expected=f"{topics[topic]} \u00b7 Best #{badge['rank']}"
+    assert badge['name']==expected and badge['description'] and badge['progressLabel'],(badge['name'],expected)
 req('prize-seen',{'event':'prize-test-0'},b,403)
 req('select-badge',{'event':'prize-test-0'},b,403)
 req('select-badge',{'event':123},a,400)

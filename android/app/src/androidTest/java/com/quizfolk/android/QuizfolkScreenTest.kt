@@ -49,6 +49,19 @@ class QuizfolkScreenTest {
             resolver.openOutputStream(uri).use { bitmap.compress(Bitmap.CompressFormat.PNG,100,requireNotNull(it)) }
         }
     }
+    @Test fun lockedAndUnlockedAchievementDetails() {
+        ready(); compose.runOnUiThread { store.push(Page("player", "test-self")) }
+        compose.waitUntil(10000) { compose.onAllNodesWithTag("achievement-perfect").fetchSemanticsNodes().isNotEmpty() }
+        compose.onNodeWithTag("achievement-perfect").performScrollTo().performClick()
+        compose.onNodeWithTag("achievementRequirement").assertTextContains("all seven questions correctly", substring = true)
+        text("Not unlocked yet").assertExists(); capture("LockedAchievementDetails")
+        text("Done").performClick()
+        compose.onNodeWithTag("achievement-filter-Unlocked").performScrollTo().performClick()
+        compose.onNodeWithTag("achievement-perfect").assertDoesNotExist()
+        compose.onNodeWithTag("achievement-first").performScrollTo().performClick()
+        compose.onNodeWithTag("achievementRequirement").assertTextEquals("Complete your first online duel.")
+        capture("UnlockedAchievementDetails")
+    }
     @Test fun discoverMixedRandomAndTopicLeague() {
         ready(); compose.onNodeWithTag("randomTopic").assertExists(); compose.onNodeWithTag("mixedTopic").assertExists(); capture("Discover")
         tapTag("topicSearch"); compose.onNodeWithTag("topicSearch").performTextInput("Geography"); tapTag("topic-22")

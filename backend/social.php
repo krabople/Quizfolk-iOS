@@ -3,6 +3,7 @@ declare(strict_types=1);
 require_once __DIR__.'/questions.php';
 require_once __DIR__.'/levels.php';
 require_once __DIR__.'/bots.php';
+require_once __DIR__.'/achievements.php';
 
 function social_schema(PDO $db):void {
     $columns=array_column($db->query('PRAGMA table_info(matches)')->fetchAll(),'name');if(in_array('duel_id',$columns,true) && in_array('preview_started',$columns,true))return;
@@ -39,7 +40,7 @@ function online_stats(PDO $db,string $id):array {
     $s=sql($db,'SELECT COUNT(*) matches,COALESCE(SUM(score>opponent_score),0) wins,COALESCE(SUM(score=opponent_score),0) draws,COALESCE(SUM(score+40+CASE WHEN score>opponent_score THEN 100 WHEN score=opponent_score THEN 50 ELSE 0 END),0) xp FROM matches WHERE player_id=? AND completed IS NOT NULL',[$id])->fetch();
     foreach($s as &$v)$v=(int)$v;unset($v);$s['correct']=0;$s['answered']=0;$s['perfect']=0;
     foreach(sql($db,'SELECT answers FROM matches WHERE player_id=? AND completed IS NOT NULL',[$id])->fetchAll() as $row) {
-        $a=json_decode($row['answers'],true);$right=count(array_filter($a,fn($x)=>$x['correct']));$s['correct']+=$right;$s['answered']+=count($a);if($right===7)$s['perfect']++;
+        $a=json_decode($row['answers'],true);$right=count(array_filter($a,fn($x)=>$x['correct']));$s['correct']+=$right;$s['answered']+=count($a);if(count($a)===7 && $right===7)$s['perfect']++;
     }
     return $s;
 }
@@ -166,11 +167,8 @@ function social_routes(string $route,PDO $db,string $pid,array $player,array $bo
             foreach($rows as $v){$h['games']++;$h[$v['own']>$v['other']?'wins':($v['own']===$v['other']?'draws':'losses')]++;}
         }
         $card['headToHead']=$h;
-        $st=$card['stats'];$card['badges']=[['id'=>'first','name'=>'First duel','symbol'=>'bolt.fill','earned'=>$st['matches']>=1],['id'=>'winner','name'=>'First victory','symbol'=>'trophy.fill','earned'=>$st['wins']>=1],['id'=>'perfect','name'=>'Seven of seven','symbol'=>'checkmark.seal.fill','earned'=>$st['perfect']>=1],['id'=>'ten','name'=>'Tenacious','symbol'=>'flame.fill','earned'=>$st['matches']>=10],['id'=>'explorer','name'=>'Topic explorer','symbol'=>'globe','earned'=>count($card['topics'])>=5]];
         $topicNames=array_column(play_topics(),'name','id');
-        foreach(sql($db,'SELECT p.event_id,p.rank,e.topic,e.kind,e.starts FROM tournament_places p JOIN tournament_events e ON e.id=p.event_id WHERE p.player_id=? AND p.rank BETWEEN 1 AND 3 ORDER BY e.ends DESC LIMIT 20',[$id])->fetchAll() as $trophy) {
-            $card['badges'][]=['id'=>'tournament:'.$trophy['event_id'],'name'=>($topicNames[$trophy['topic']] ?? 'Tournament')." \u{00B7} #".$trophy['rank']." \u{00B7} ".gmdate('j M Y',(int)$trophy['starts']),'symbol'=>'trophy.fill','earned'=>true,'topicID'=>$trophy['topic'],'kind'=>$trophy['kind'],'rank'=>(int)$trophy['rank']];
-        }
+        $card['badges']=player_achievements($db,$id,$card,$topicNames);
         out($card);
     }
     if($route==='social-settings') {

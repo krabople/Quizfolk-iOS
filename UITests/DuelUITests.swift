@@ -1,5 +1,25 @@
 import XCTest
 final class DuelUITests:XCTestCase {
+    @MainActor func testLockedAndUnlockedAchievementDetails() {
+        let app=XCUIApplication();app.launchArguments=["--ui-testing"];app.launch()
+        if app.buttons["Done"].waitForExistence(timeout:8){app.buttons["Done"].tap()}
+        app.tabBars.buttons["You"].tap()
+        let profile=app.buttons["publicProfile"]
+        for _ in 0..<6 {if profile.isHittable{break};app.swipeUp()}
+        XCTAssertTrue(profile.waitForExistence(timeout:5));profile.tap()
+        let perfect=app.buttons["achievement-perfect"]
+        for _ in 0..<12 {if perfect.isHittable{break};app.swipeUp()}
+        XCTAssertTrue(perfect.waitForExistence(timeout:8));perfect.tap()
+        let requirement=app.staticTexts["achievementRequirement"]
+        XCTAssertTrue(requirement.waitForExistence(timeout:5));XCTAssertTrue(requirement.label.contains("all seven questions correctly"))
+        XCTAssertEqual(app.staticTexts["achievementStatus"].label,"Not unlocked yet");capture("LockedAchievementDetails")
+        app.buttons["Done"].tap()
+        let first=app.buttons["achievement-first"]
+        for _ in 0..<6 {if first.isHittable{break};app.swipeDown()}
+        XCTAssertTrue(first.isHittable);first.tap()
+        XCTAssertTrue(requirement.waitForExistence(timeout:5));XCTAssertEqual(requirement.label,"Complete your first online duel.")
+        XCTAssertEqual(app.staticTexts["achievementStatus"].label,"Unlocked");capture("UnlockedAchievementDetails")
+    }
     @MainActor func testNotificationPreferencesAreSeparateAndHonestAboutDelivery() {
         let app=XCUIApplication();app.launchArguments=["--ui-testing"];app.launch()
         if app.buttons["Done"].waitForExistence(timeout:8) {app.buttons["Done"].tap()}

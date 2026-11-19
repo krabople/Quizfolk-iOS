@@ -127,14 +127,7 @@ import java.util.UUID
                 val progress = card.a("topics").objects(); if (progress.isEmpty()) Hint("Complete an online duel to start your first topic level.")
                 progress.forEach { p -> Column(Modifier.fillMaxWidth().clickable { navigate(Page("topic", p.s("topicID"))) }.padding(vertical = 7.dp)) { TopicLevel(store.topic(p.s("topicID")), p.n("xp")) } }
             }
-            Panel {
-                Heading("Titles & achievements")
-                card.a("badges").objects().forEach { badge -> Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(13.dp), modifier = Modifier.fillMaxWidth().padding(vertical = 6.dp)) {
-                    if (badge.s("kind").isNotEmpty()) Medal(badge, store) else Icon(when (badge.s("symbol")) { "bolt.fill" -> Icons.Default.Bolt; "target" -> Icons.Default.Adjust; "flame.fill" -> Icons.Default.LocalFireDepartment; else -> Icons.Default.EmojiEvents }, null, tint = if (badge.b("earned")) Coral else Color.Gray, modifier = Modifier.size(36.dp))
-                    Column(Modifier.weight(1f)) { Text(badge.s("name"), fontWeight = FontWeight.SemiBold); Hint(if (badge.b("earned")) "Earned" else "Keep playing to unlock") }
-                    if (badge.b("earned")) Icon(Icons.Default.CheckCircle, null, tint = Color(0xFF30A66B))
-                } }
-            }
+            AchievementPanel(card.a("badges").objects(), store)
             if (id != store.selfID) TextButton({ store.notice = Notice("Block this player?", "Following links will be removed and unfinished challenges between you will be cancelled.", "Block", { store.perform { store.api("block", json("player" to id, "enabled" to true)); store.refreshSocial(); onBlocked() } }, true) }) { Text("Block player", color = Coral) }
         }
         if (result.loading) Busy("Loading player card…")

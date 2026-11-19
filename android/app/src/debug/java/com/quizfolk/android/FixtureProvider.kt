@@ -34,11 +34,14 @@ class FixtureTransport(private val questions: List<Question>) : Transport {
     private fun card(id: String = "test-rival"): J = json("id" to id, "name" to if (id == "test-self") name else "Sample Rival", "avatar" to if (id == "test-self") avatar else null,
         "title" to "Newcomer", "interests" to JSONArray(listOf("22","17")), "sharedTopics" to JSONArray(listOf("22")), "following" to following,
         "followers" to if (following) 1 else 0, "followingCount" to 0, "canChallenge" to (id != "test-self"),
-        "stats" to json("matches" to 4, "wins" to 2, "draws" to 1, "xp" to topicXP, "correct" to 20, "answered" to 28, "perfect" to 1),
+        "stats" to json("matches" to 4, "wins" to 2, "draws" to 1, "xp" to topicXP, "correct" to 20, "answered" to 28, "perfect" to 0),
         "topics" to JSONArray(listOf(json("topicID" to "22", "xp" to topicXP, "level" to TopicLevelling.progress(topicXP).level, "matches" to 4, "wins" to 2))),
         "titles" to JSONArray(listOf(json("id" to "newcomer", "name" to "Newcomer"))), "selectedTitle" to "newcomer", "discoverable" to true,
         "challengesOpen" to true, "headToHead" to json("games" to 3, "wins" to 1, "draws" to 1, "losses" to 1),
-        "badges" to JSONArray(listOf(json("id" to "first", "name" to "First duel", "symbol" to "bolt.fill", "earned" to true))), "displayBadge" to if (id == "test-self") selectedBadge else null)
+        "badges" to JSONArray(listOf(json("id" to "first", "name" to "First duel", "symbol" to "bolt.fill", "earned" to true, "group" to "Duels", "description" to "Complete your first online duel.", "progress" to 4, "target" to 1, "progressLabel" to "1 / 1"),
+            json("id" to "duels:10000", "name" to "10,000 duels", "symbol" to "bolt.fill", "earned" to false, "group" to "Duels", "description" to "Complete 10,000 online duels. Only completed online duels count.", "progress" to 4, "target" to 10000, "progressLabel" to "4 / 10,000"),
+            json("id" to "perfect", "name" to "Seven of seven", "symbol" to "checkmark.seal.fill", "earned" to false, "group" to "Perfect games", "description" to "Answer all seven questions correctly in one completed online duel.", "progress" to 0, "target" to 1, "progressLabel" to "0 / 1"),
+            json("id" to "tournament-best:22", "name" to "Geography · Best #1", "symbol" to "trophy.fill", "earned" to true, "group" to "Best tournament finishes", "description" to "Your highest public tournament placing in Geography. Only the best placing is shown here.", "progress" to 1, "target" to 1, "progressLabel" to "Best finish: 1st", "topicID" to "22", "kind" to "daily", "rank" to 1))), "displayBadge" to if (id == "test-self") selectedBadge else null)
     private fun event(index: Int = 0, weekly: Boolean = false): J = json("id" to "test-event-${if (weekly) "weekly" else "daily"}-$index", "topicID" to "22", "kind" to if (weekly) "weekly" else "daily", "starts" to 1793830000,
         "ends" to 1893836800, "coins" to if (weekly) 50 else 25, "tickets" to 0, "closed" to false, "best" to score, "streak" to streak, "attempts" to entries,
         "players" to 1, "activeRun" to null, "rank" to null, "reward" to 0, "featured" to true, "prizePool" to if (weekly) 1750 else 875,

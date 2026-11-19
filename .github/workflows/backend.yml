@@ -31,6 +31,7 @@ jobs:
           php scripts/test_tournament_schedule.php
           php scripts/test_economy.php
           php scripts/test_levels.php
+          php scripts/test_achievements.php
       - name: Run isolated API contract tests
         run: |
           python3 scripts/run_contracts.py

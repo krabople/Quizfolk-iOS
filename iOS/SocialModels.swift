@@ -3,7 +3,27 @@ import Foundation
 struct PlayerStats:Decodable {let matches:Int;let wins:Int;let draws:Int;let xp:Int;let correct:Int;let answered:Int;let perfect:Int}
 struct TopicProgress:Decodable,Identifiable {var id:String{topicID};let topicID:String;let xp:Int;let level:Int;let matches:Int;let wins:Int}
 struct EarnedTitle:Decodable,Identifiable {let id:String;let name:String}
-struct PlayerBadge:Decodable,Identifiable {let id:String;let name:String;let symbol:String;let earned:Bool;var topicID:String?=nil;var kind:String?=nil;var rank:Int?=nil}
+struct PlayerBadge:Decodable,Identifiable {
+ let id:String;let name:String;let symbol:String;let earned:Bool
+ var topicID:String?=nil;var kind:String?=nil;var rank:Int?=nil
+ var description:String?=nil;var progress:Int?=nil;var target:Int?=nil;var progressLabel:String?=nil;var group:String?=nil
+ var requirementText:String {
+  if let description,!description.isEmpty{return description}
+  switch id {
+  case "first":return "Complete your first online duel."
+  case "winner":return "Win your first completed online duel."
+  case "perfect":return "Answer all seven questions correctly in one completed online duel."
+  case "ten":return "Complete ten online duels."
+  case "explorer":return "Complete online duels in five different topics."
+  default:return topicID == nil ? "Complete this milestone through online play.":"Earn a podium finish in a tournament in this topic."
+  }
+ }
+ var groupName:String {group ?? (topicID == nil ? "Milestones":"Best tournament finishes")}
+ var progressFraction:Double? {
+  guard let progress,let target,target>0 else{return nil}
+  return min(1,max(0,Double(progress)/Double(target)))
+ }
+}
 struct HeadToHead:Decodable {let games:Int;let wins:Int;let draws:Int;let losses:Int}
 struct PlayerCard:Decodable,Identifiable {
  let id:String;let name:String;let avatar:String?;let title:String;let interests:[String];let sharedTopics:[String]
