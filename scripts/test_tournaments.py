@@ -123,7 +123,12 @@ with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_events SET ends=
 rows=req('tournament-board&event='+second['id'],token=a)['entries']
 assert len(rows)==2 and all(r['rank']==1 and r['reward']==375 for r in rows)
 # A sole entrant receives the guaranteed first prize, independently of entry fees.
-sparse=next(e for e in listing['events'] if e['kind']=='daily' and e['id'] not in [event['id'],second['id']])
+# Use an isolated fixture rather than requiring a third public daily slot.
+sparse={'id':'sole-entrant-test'}
+with sqlite3.connect(STATE) as db:
+ day=int(time.time()//86400)*86400
+ db.execute('INSERT INTO tournament_events VALUES(?,?,?,?,?,?,?,?)',(sparse['id'],'22','daily',day,day+86400,25,0,0))
+ db.execute('UPDATE tournament_daily_schedule SET event_ids=? WHERE day=?',(json.dumps([sparse['id'],second['id']]),day))
 before=req('tournaments',token=a)['wallet']['coins']
 r=req('tournament-enter',{'event':sparse['id'],'requestID':str(uuid.uuid4())},a,201)
 assert req('tournaments',token=a)['wallet']['coins']==before-25
