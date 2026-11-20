@@ -11,6 +11,7 @@ fun readQuestionArray(reader: JsonReader): List<Question> {
     reader.beginArray()
     while (reader.hasNext()) {
         var id = ""; var category = ""; var difficulty = "mixed"; var prompt = ""; var correct = -1
+        var image: String? = null; var imageSHA: String? = null; var group: String? = null
         val answers = ArrayList<String>(4)
         reader.beginObject()
         while (reader.hasNext()) when (reader.nextName()) {
@@ -18,13 +19,16 @@ fun readQuestionArray(reader: JsonReader): List<Question> {
             "categoryID" -> category = reader.nextString()
             "difficulty" -> difficulty = reader.nextString()
             "prompt" -> prompt = reader.nextString()
+            "imagePng" -> image = reader.nextString()
+            "imageSHA256" -> imageSHA = reader.nextString()
+            "questionGroup" -> group = reader.nextString()
             "correctIndex" -> correct = reader.nextInt()
             "answers" -> { reader.beginArray(); while (reader.hasNext()) answers.add(reader.nextString()); reader.endArray() }
             else -> reader.skipValue()
         }
         reader.endObject()
         require(answers.size == 4 && correct in 0..3 && id.isNotEmpty() && prompt.isNotBlank()) { "A bundled question is damaged." }
-        result.add(Question(id, category, difficulty, prompt, answers, correct))
+        result.add(Question(id, category, difficulty, prompt, answers, correct, image, imageSHA, group))
     }
     reader.endArray(); return result
 }

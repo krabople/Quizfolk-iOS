@@ -10,10 +10,11 @@ struct MobileQuestionBank: Decodable, Sendable {
         guard data.count<=50_000_000 else {throw CocoaError(.coderReadCorrupt)}
         let bank=try JSONDecoder().decode(Self.self,from:data)
         let ids=Set(bank.categories.map(\.id))
-        guard bank.format==1,!ids.isEmpty,ids.count==bank.categories.count,!ids.contains("mixed"),
+        guard (bank.format==1 || bank.format==2),!ids.isEmpty,ids.count==bank.categories.count,!ids.contains("mixed"),
               Set(bank.questions.map(\.id)).count==bank.questions.count else {throw CocoaError(.coderReadCorrupt)}
         var counts:[String:Int]=[:]
         for q in bank.questions {
+            if q.imagePng != nil,QuestionImageData.decode(q.imagePng,sha:q.imageSHA256)==nil {throw CocoaError(.coderReadCorrupt)}
             guard !q.id.isEmpty,!q.prompt.trimmingCharacters(in:.whitespacesAndNewlines).isEmpty,
                   ids.contains(q.categoryID),q.answers.count==4,Set(q.answers).count==4,
                   q.answers.allSatisfy({!$0.trimmingCharacters(in:.whitespacesAndNewlines).isEmpty}),
@@ -30,12 +31,12 @@ enum QuestionBankUpdates {
     static func sha(_ data:Data)->String {SHA256.hash(data:data).map{String(format:"%02x",$0)}.joined()}
     static func directory(_ endpoint:String)throws->URL {
         guard let api=URL(string:endpoint),api.scheme=="https",api.host != nil else {throw CocoaError(.fileReadUnsupportedScheme)}
-        return api.deletingLastPathComponent().appendingPathComponent("bank",isDirectory:true)
+        return api.deletingLastPathComponent().appendingPathComponent("bank-v2",isDirectory:true)
     }
     static func cacheURL(_ endpoint:String)throws->URL {
         let root=try FileManager.default.url(for:.applicationSupportDirectory,in:.userDomainMask,appropriateFor:nil,create:true).appendingPathComponent("QuestionBanks",isDirectory:true)
         try FileManager.default.createDirectory(at:root,withIntermediateDirectories:true)
-        return root.appendingPathComponent(sha(Data(endpoint.utf8))+".json")
+        return root.appendingPathComponent(sha(Data((endpoint+"|images-v2").utf8))+".json")
     }
     static func cached(_ endpoint:String)->MobileQuestionBank? {
         guard let url=try? cacheURL(endpoint),let data=try? Data(contentsOf:url) else {return nil}
@@ -49,7 +50,7 @@ enum QuestionBankUpdates {
         let (metadata,response)=try await URLSession.shared.data(for:request)
         guard let http=response as? HTTPURLResponse,http.statusCode==200,http.url?.scheme=="https",http.url?.host==base.host,metadata.count<=65_536 else {throw CocoaError(.coderReadCorrupt)}
         let manifest=try JSONDecoder().decode(Manifest.self,from:metadata)
-        guard manifest.format==1,manifest.revision.range(of:"^[a-f0-9]{64}$",options:.regularExpression) != nil,
+        guard (manifest.format==1 || manifest.format==2),manifest.revision.range(of:"^[a-f0-9]{64}$",options:.regularExpression) != nil,
               manifest.file=="bank-"+manifest.revision+".json",(1...50_000_000).contains(manifest.bytes) else {throw CocoaError(.coderReadCorrupt)}
         let cache=try cacheURL(endpoint)
         if let saved=try? Data(contentsOf:cache),sha(saved)==manifest.revision,(try? MobileQuestionBank.decode(saved)) != nil {return nil}

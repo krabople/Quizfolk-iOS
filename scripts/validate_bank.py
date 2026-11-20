@@ -1,4 +1,4 @@
-import pathlib,json,collections,hashlib,sys
+import pathlib,json,collections,hashlib,sys,base64,struct
 p=pathlib.Path(__file__).resolve().parents[1]/'data'
 q=json.loads((p/'questions.json').read_text(encoding='utf-8'))
 c=json.loads((p/'categories.json').read_text(encoding='utf-8'))
@@ -41,12 +41,17 @@ else:
  assert all((x['id'] in active)==(x['action']!='quarantined') for x in ledger)
  minimum=7
 assert len({x['id'] for x in q})==len(q)
-assert len({x['prompt'].casefold() for x in q})==len(q)
+assert len({(x['prompt'].casefold(),x.get('imageSHA256')) for x in q})==len(q)
 counts=collections.Counter(x['categoryID'] for x in q)
 for x in q:
  assert len(x['answers'])==4 and len({a.casefold() for a in x['answers']})==4
  assert 0<=x['correctIndex']<4 and x['license']=='CC BY-SA 4.0'
  assert x['categoryID'] in {a['id'] for a in c}
+ if 'imagePng' in x:
+  raw=base64.b64decode(x['imagePng'],validate=True)
+  assert len(raw)<=65536 and raw[:8]==b'\x89PNG\r\n\x1a\n'
+  assert all(1<=n<=512 for n in struct.unpack('>II',raw[16:24]))
+  assert hashlib.sha256(raw).hexdigest()==x['imageSHA256']
 for x in c: assert x['questionCount']==counts[x['id']] and counts[x['id']]>=minimum
 # The server's SQLite copy must be the same reviewed bank as the mobile assets.
 import sqlite3

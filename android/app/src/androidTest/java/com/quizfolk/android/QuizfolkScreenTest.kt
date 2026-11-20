@@ -49,6 +49,29 @@ class QuizfolkScreenTest {
             resolver.openOutputStream(uri).use { bitmap.compress(Bitmap.CompressFormat.PNG,100,requireNotNull(it)) }
         }
     }
+    @Test fun pictureTopicsKeepImagesAndAnswersVisible() {
+        ready()
+        for(id in listOf("41","42")) {
+            compose.runOnUiThread { store.game=GameSession(store,store.topic(id),false) }
+            compose.waitUntil(15000) { compose.onAllNodesWithTag("startDuel").fetchSemanticsNodes().isNotEmpty() };tapTag("startDuel")
+            compose.waitUntil(15000) { compose.onAllNodesWithTag("answer-0").fetchSemanticsNodes().isNotEmpty() }
+            compose.onNodeWithTag("questionImage").assertIsDisplayed();compose.onNodeWithTag("answer-0").assertIsDisplayed();capture("PictureTopic-$id")
+            compose.runOnUiThread { store.game=null }
+        }
+    }
+    @Test fun pictureTopicsKeepImagesAndAnswersVisible() {
+        ready()
+        for(id in listOf("41","42")) {
+            compose.runOnUiThread { store.game=GameSession(store,store.topic(id),false) }
+            compose.waitUntil(15000) { compose.onAllNodesWithTag("startDuel").fetchSemanticsNodes().isNotEmpty() }
+            tapTag("startDuel")
+            compose.waitUntil(15000) { compose.onAllNodesWithTag("answer-0").fetchSemanticsNodes().isNotEmpty() }
+            compose.onNodeWithTag("questionImage").assertIsDisplayed()
+            compose.onNodeWithTag("answer-0").assertIsDisplayed()
+            capture("PictureTopic-$id")
+            compose.runOnUiThread { store.game?.close();store.game=null }
+        }
+    }
     @Test fun lockedAndUnlockedAchievementDetails() {
         ready(); compose.runOnUiThread { store.push(Page("player", "test-self")) }
         compose.waitUntil(10000) { compose.onAllNodesWithTag("achievement-perfect").fetchSemanticsNodes().isNotEmpty() }
@@ -207,7 +230,7 @@ class QuizfolkScreenTest {
     }
     @Test fun bundledBankAndSecureCredentialStorage() {
         ready(); compose.runOnIdle {
-            assertTrue(store.bank.size >= 21817); assertEquals(32,store.topics.size)
+            assertTrue(store.bank.size >= 26332); assertEquals(36,store.topics.size)
             assertEquals("Plants & flowers",store.topic("39").name)
             store.topics.filter { it.id != "mixed" }.forEach { assertTrue(it.count >= 150); assertEquals(it.count,store.bank.count { q -> q.categoryID == it.id }) }
         }

@@ -1,0 +1,1381 @@
+[
+  {
+    "code": "AD",
+    "name": "Andorra",
+    "capital": "Andorra la Vella",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "AE",
+    "name": "United Arab Emirates",
+    "capital": "Abu Dhabi",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "AF",
+    "name": "Afghanistan",
+    "capital": "Kabul",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "AG",
+    "name": "Antigua and Barbuda",
+    "capital": "St. John's",
+    "continent": "NA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "AL",
+    "name": "Albania",
+    "capital": "Tirana",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "AM",
+    "name": "Armenia",
+    "capital": "Yerevan",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "AO",
+    "name": "Angola",
+    "capital": "Luanda",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "AR",
+    "name": "Argentina",
+    "capital": "Buenos Aires",
+    "continent": "SA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "AT",
+    "name": "Austria",
+    "capital": "Vienna",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "AU",
+    "name": "Australia",
+    "capital": "Canberra",
+    "continent": "OC",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "AZ",
+    "name": "Azerbaijan",
+    "capital": "Baku",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "BA",
+    "name": "Bosnia and Herzegovina",
+    "capital": "Sarajevo",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "BB",
+    "name": "Barbados",
+    "capital": "Bridgetown",
+    "continent": "NA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "BD",
+    "name": "Bangladesh",
+    "capital": "Dhaka",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "BE",
+    "name": "Belgium",
+    "capital": "Brussels",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "BF",
+    "name": "Burkina Faso",
+    "capital": "Ouagadougou",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "BG",
+    "name": "Bulgaria",
+    "capital": "Sofia",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "BH",
+    "name": "Bahrain",
+    "capital": "Manama",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "BI",
+    "name": "Burundi",
+    "capital": "Gitega",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "BJ",
+    "name": "Benin",
+    "capital": "Porto-Novo",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "BN",
+    "name": "Brunei",
+    "capital": "Bandar Seri Begawan",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "BO",
+    "name": "Bolivia",
+    "capital": "Sucre",
+    "continent": "SA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "BR",
+    "name": "Brazil",
+    "capital": "Brasília",
+    "continent": "SA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "BS",
+    "name": "Bahamas",
+    "capital": "Nassau",
+    "continent": "NA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "BT",
+    "name": "Bhutan",
+    "capital": "Thimphu",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "BW",
+    "name": "Botswana",
+    "capital": "Gaborone",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "BY",
+    "name": "Belarus",
+    "capital": "Minsk",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "BZ",
+    "name": "Belize",
+    "capital": "Belmopan",
+    "continent": "NA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "CA",
+    "name": "Canada",
+    "capital": "Ottawa",
+    "continent": "NA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "CD",
+    "name": "Democratic Republic of the Congo",
+    "capital": "Kinshasa",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "CF",
+    "name": "Central African Republic",
+    "capital": "Bangui",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "CG",
+    "name": "Republic of the Congo",
+    "capital": "Brazzaville",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "CH",
+    "name": "Switzerland",
+    "capital": "Bern",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "CI",
+    "name": "Côte d'Ivoire (Ivory Coast)",
+    "capital": "Yamoussoukro",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "CL",
+    "name": "Chile",
+    "capital": "Santiago",
+    "continent": "SA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "CM",
+    "name": "Cameroon",
+    "capital": "Yaoundé",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "CN",
+    "name": "China",
+    "capital": "Beijing",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "CO",
+    "name": "Colombia",
+    "capital": "Bogotá",
+    "continent": "SA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "CR",
+    "name": "Costa Rica",
+    "capital": "San José",
+    "continent": "NA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "CU",
+    "name": "Cuba",
+    "capital": "Havana",
+    "continent": "NA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "CV",
+    "name": "Cabo Verde",
+    "capital": "Praia",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "CY",
+    "name": "Cyprus",
+    "capital": "Nicosia",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "CZ",
+    "name": "Czechia",
+    "capital": "Prague",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "DE",
+    "name": "Germany",
+    "capital": "Berlin",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "DJ",
+    "name": "Djibouti",
+    "capital": "Djibouti",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "DK",
+    "name": "Denmark",
+    "capital": "Copenhagen",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "DM",
+    "name": "Dominica",
+    "capital": "Roseau",
+    "continent": "NA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "DO",
+    "name": "Dominican Republic",
+    "capital": "Santo Domingo",
+    "continent": "NA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "DZ",
+    "name": "Algeria",
+    "capital": "Algiers",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "EC",
+    "name": "Ecuador",
+    "capital": "Quito",
+    "continent": "SA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "EE",
+    "name": "Estonia",
+    "capital": "Tallinn",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "EG",
+    "name": "Egypt",
+    "capital": "Cairo",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "ER",
+    "name": "Eritrea",
+    "capital": "Asmara",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "ES",
+    "name": "Spain",
+    "capital": "Madrid",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "ET",
+    "name": "Ethiopia",
+    "capital": "Addis Ababa",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "FI",
+    "name": "Finland",
+    "capital": "Helsinki",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "FJ",
+    "name": "Fiji",
+    "capital": "Suva",
+    "continent": "OC",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "FM",
+    "name": "Federated States of Micronesia",
+    "capital": "Palikir",
+    "continent": "OC",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "FR",
+    "name": "France",
+    "capital": "Paris",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "GA",
+    "name": "Gabon",
+    "capital": "Libreville",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "GB",
+    "name": "United Kingdom",
+    "capital": "London",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "GD",
+    "name": "Grenada",
+    "capital": "St. George's",
+    "continent": "NA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "GE",
+    "name": "Georgia",
+    "capital": "Tbilisi",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "GH",
+    "name": "Ghana",
+    "capital": "Accra",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "GM",
+    "name": "Gambia",
+    "capital": "Banjul",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "GN",
+    "name": "Guinea",
+    "capital": "Conakry",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "GQ",
+    "name": "Equatorial Guinea",
+    "capital": "Ciudad de la Paz",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "GR",
+    "name": "Greece",
+    "capital": "Athens",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "GT",
+    "name": "Guatemala",
+    "capital": "Guatemala City",
+    "continent": "NA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "GW",
+    "name": "Guinea-Bissau",
+    "capital": "Bissau",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "GY",
+    "name": "Guyana",
+    "capital": "Georgetown",
+    "continent": "SA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "HN",
+    "name": "Honduras",
+    "capital": "Tegucigalpa",
+    "continent": "NA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "HR",
+    "name": "Croatia",
+    "capital": "Zagreb",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "HT",
+    "name": "Haiti",
+    "capital": "Port-au-Prince",
+    "continent": "NA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "HU",
+    "name": "Hungary",
+    "capital": "Budapest",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "ID",
+    "name": "Indonesia",
+    "capital": "Jakarta",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "IE",
+    "name": "Ireland",
+    "capital": "Dublin",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "IL",
+    "name": "Israel",
+    "capital": "Jerusalem",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "IN",
+    "name": "India",
+    "capital": "New Delhi",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "IQ",
+    "name": "Iraq",
+    "capital": "Baghdad",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "IR",
+    "name": "Iran",
+    "capital": "Tehran",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "IS",
+    "name": "Iceland",
+    "capital": "Reykjavík",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "IT",
+    "name": "Italy",
+    "capital": "Rome",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "JM",
+    "name": "Jamaica",
+    "capital": "Kingston",
+    "continent": "NA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "JO",
+    "name": "Jordan",
+    "capital": "Amman",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "JP",
+    "name": "Japan",
+    "capital": "Tokyo",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "KE",
+    "name": "Kenya",
+    "capital": "Nairobi",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "KG",
+    "name": "Kyrgyzstan",
+    "capital": "Bishkek",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "KH",
+    "name": "Cambodia",
+    "capital": "Phnom Penh",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "KI",
+    "name": "Kiribati",
+    "capital": "South Tarawa",
+    "continent": "OC",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "KM",
+    "name": "Comoros",
+    "capital": "Moroni",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "KN",
+    "name": "Saint Kitts and Nevis",
+    "capital": "Basseterre",
+    "continent": "NA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "KP",
+    "name": "North Korea",
+    "capital": "Pyongyang",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "KR",
+    "name": "South Korea",
+    "capital": "Seoul",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "KW",
+    "name": "Kuwait",
+    "capital": "Kuwait City",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "KZ",
+    "name": "Kazakhstan",
+    "capital": "Astana",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "LA",
+    "name": "Laos",
+    "capital": "Vientiane",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "LB",
+    "name": "Lebanon",
+    "capital": "Beirut",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "LC",
+    "name": "Saint Lucia",
+    "capital": "Castries",
+    "continent": "NA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "LI",
+    "name": "Liechtenstein",
+    "capital": "Vaduz",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "LK",
+    "name": "Sri Lanka",
+    "capital": "Sri Jayawardenepura Kotte",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "LR",
+    "name": "Liberia",
+    "capital": "Monrovia",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "LS",
+    "name": "Lesotho",
+    "capital": "Maseru",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "LT",
+    "name": "Lithuania",
+    "capital": "Vilnius",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "LU",
+    "name": "Luxembourg",
+    "capital": "Luxembourg",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "LV",
+    "name": "Latvia",
+    "capital": "Riga",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "LY",
+    "name": "Libya",
+    "capital": "Tripoli",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "MA",
+    "name": "Morocco",
+    "capital": "Rabat",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "MC",
+    "name": "Monaco",
+    "capital": "Monaco",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "MD",
+    "name": "Moldova",
+    "capital": "Chișinău",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "ME",
+    "name": "Montenegro",
+    "capital": "Podgorica",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "MG",
+    "name": "Madagascar",
+    "capital": "Antananarivo",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "MH",
+    "name": "Marshall Islands",
+    "capital": "Majuro",
+    "continent": "OC",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "MK",
+    "name": "North Macedonia",
+    "capital": "Skopje",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "ML",
+    "name": "Mali",
+    "capital": "Bamako",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "MM",
+    "name": "Myanmar",
+    "capital": "Naypyidaw",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "MN",
+    "name": "Mongolia",
+    "capital": "Ulaanbaatar",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "MR",
+    "name": "Mauritania",
+    "capital": "Nouakchott",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "MT",
+    "name": "Malta",
+    "capital": "Valletta",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "MU",
+    "name": "Mauritius",
+    "capital": "Port Louis",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "MV",
+    "name": "Maldives",
+    "capital": "Malé",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "MW",
+    "name": "Malawi",
+    "capital": "Lilongwe",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "MX",
+    "name": "Mexico",
+    "capital": "Mexico City",
+    "continent": "NA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "MY",
+    "name": "Malaysia",
+    "capital": "Kuala Lumpur",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "MZ",
+    "name": "Mozambique",
+    "capital": "Maputo",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "NA",
+    "name": "Namibia",
+    "capital": "Windhoek",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "NE",
+    "name": "Niger",
+    "capital": "Niamey",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "NG",
+    "name": "Nigeria",
+    "capital": "Abuja",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "NI",
+    "name": "Nicaragua",
+    "capital": "Managua",
+    "continent": "NA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "NL",
+    "name": "Netherlands",
+    "capital": "Amsterdam",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "NO",
+    "name": "Norway",
+    "capital": "Oslo",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "NP",
+    "name": "Nepal",
+    "capital": "Kathmandu",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "NR",
+    "name": "Nauru",
+    "capital": "Yaren",
+    "continent": "OC",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "NZ",
+    "name": "New Zealand",
+    "capital": "Wellington",
+    "continent": "OC",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "OM",
+    "name": "Oman",
+    "capital": "Muscat",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "PA",
+    "name": "Panama",
+    "capital": "Panama City",
+    "continent": "NA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "PE",
+    "name": "Peru",
+    "capital": "Lima",
+    "continent": "SA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "PG",
+    "name": "Papua New Guinea",
+    "capital": "Port Moresby",
+    "continent": "OC",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "PH",
+    "name": "Philippines",
+    "capital": "Manila",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "PK",
+    "name": "Pakistan",
+    "capital": "Islamabad",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "PL",
+    "name": "Poland",
+    "capital": "Warsaw",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "PS",
+    "name": "Palestine",
+    "capital": "East Jerusalem",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "PT",
+    "name": "Portugal",
+    "capital": "Lisbon",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "PW",
+    "name": "Palau",
+    "capital": "Ngerulmud",
+    "continent": "OC",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "PY",
+    "name": "Paraguay",
+    "capital": "Asunción",
+    "continent": "SA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "QA",
+    "name": "Qatar",
+    "capital": "Doha",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "RO",
+    "name": "Romania",
+    "capital": "Bucharest",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "RS",
+    "name": "Serbia",
+    "capital": "Belgrade",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "RU",
+    "name": "Russia",
+    "capital": "Moscow",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "RW",
+    "name": "Rwanda",
+    "capital": "Kigali",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "SA",
+    "name": "Saudi Arabia",
+    "capital": "Riyadh",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "SB",
+    "name": "Solomon Islands",
+    "capital": "Honiara",
+    "continent": "OC",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "SC",
+    "name": "Seychelles",
+    "capital": "Victoria",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "SD",
+    "name": "Sudan",
+    "capital": "Khartoum",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "SE",
+    "name": "Sweden",
+    "capital": "Stockholm",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "SG",
+    "name": "Singapore",
+    "capital": "Singapore",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "SI",
+    "name": "Slovenia",
+    "capital": "Ljubljana",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "SK",
+    "name": "Slovakia",
+    "capital": "Bratislava",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "SL",
+    "name": "Sierra Leone",
+    "capital": "Freetown",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "SM",
+    "name": "San Marino",
+    "capital": "San Marino",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "SN",
+    "name": "Senegal",
+    "capital": "Dakar",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "SO",
+    "name": "Somalia",
+    "capital": "Mogadishu",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "SR",
+    "name": "Suriname",
+    "capital": "Paramaribo",
+    "continent": "SA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "SS",
+    "name": "South Sudan",
+    "capital": "Juba",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "ST",
+    "name": "São Tomé and Príncipe",
+    "capital": "São Tomé",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "SV",
+    "name": "El Salvador",
+    "capital": "San Salvador",
+    "continent": "NA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "SY",
+    "name": "Syria",
+    "capital": "Damascus",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "SZ",
+    "name": "Eswatini",
+    "capital": "Mbabane",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "TD",
+    "name": "Chad",
+    "capital": "N'Djamena",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "TG",
+    "name": "Togo",
+    "capital": "Lomé",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "TH",
+    "name": "Thailand",
+    "capital": "Bangkok",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "TJ",
+    "name": "Tajikistan",
+    "capital": "Dushanbe",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "TL",
+    "name": "Timor-Leste",
+    "capital": "Dili",
+    "continent": "OC",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "TM",
+    "name": "Turkmenistan",
+    "capital": "Ashgabat",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "TN",
+    "name": "Tunisia",
+    "capital": "Tunis",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "TO",
+    "name": "Tonga",
+    "capital": "Nukuʻalofa",
+    "continent": "OC",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "TR",
+    "name": "Türkiye",
+    "capital": "Ankara",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "TT",
+    "name": "Trinidad and Tobago",
+    "capital": "Port of Spain",
+    "continent": "NA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "TV",
+    "name": "Tuvalu",
+    "capital": "Funafuti",
+    "continent": "OC",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "TW",
+    "name": "Taiwan",
+    "capital": "Taipei",
+    "continent": "AS",
+    "source": "https://www.geonames.org/countries/"
+  },
+  {
+    "code": "TZ",
+    "name": "Tanzania",
+    "capital": "Dodoma",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "UA",
+    "name": "Ukraine",
+    "capital": "Kyiv",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "UG",
+    "name": "Uganda",
+    "capital": "Kampala",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "US",
+    "name": "United States",
+    "capital": "Washington, D.C.",
+    "continent": "NA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "UY",
+    "name": "Uruguay",
+    "capital": "Montevideo",
+    "continent": "SA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "UZ",
+    "name": "Uzbekistan",
+    "capital": "Tashkent",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "VA",
+    "name": "Vatican City",
+    "capital": "Vatican City",
+    "continent": "EU",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "VC",
+    "name": "Saint Vincent and the Grenadines",
+    "capital": "Kingstown",
+    "continent": "NA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "VE",
+    "name": "Venezuela",
+    "capital": "Caracas",
+    "continent": "SA",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "VN",
+    "name": "Vietnam",
+    "capital": "Hanoi",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "VU",
+    "name": "Vanuatu",
+    "capital": "Port Vila",
+    "continent": "OC",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "WS",
+    "name": "Samoa",
+    "capital": "Apia",
+    "continent": "OC",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "XK",
+    "name": "Kosovo",
+    "capital": "Pristina",
+    "continent": "EU",
+    "source": "https://www.geonames.org/countries/"
+  },
+  {
+    "code": "YE",
+    "name": "Yemen",
+    "capital": "Sana'a",
+    "continent": "AS",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "ZA",
+    "name": "South Africa",
+    "capital": "Pretoria",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "ZM",
+    "name": "Zambia",
+    "capital": "Lusaka",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  },
+  {
+    "code": "ZW",
+    "name": "Zimbabwe",
+    "capital": "Harare",
+    "continent": "AF",
+    "source": "https://data.unesco.org/explore/dataset/cou001/"
+  }
+]

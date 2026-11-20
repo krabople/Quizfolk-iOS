@@ -1,5 +1,21 @@
 import XCTest
 final class DuelUITests:XCTestCase {
+    @MainActor func testFlagsAndLogosHaveReadablePicturesWithAnswerChoices() {
+        for (id,name) in [("41","Flags of the World"),("42","Brand Logos")] {
+            let app=XCUIApplication();app.launchArguments=["--ui-testing","-didChooseInterests","YES"];app.launch()
+            if app.buttons["Done"].waitForExistence(timeout:3){app.buttons["Done"].tap()}
+            let search=app.textFields["Search categories"];XCTAssertTrue(search.waitForExistence(timeout:8));search.tap();search.typeText(name)
+            let topic=app.descendants(matching:.any).matching(identifier:"topic-"+id).firstMatch
+            XCTAssertTrue(topic.waitForExistence(timeout:5));topic.tap()
+            let practice=app.buttons["Practise against a bot"]
+            for _ in 0..<5 {if practice.isHittable{break};app.swipeUp()};XCTAssertTrue(practice.isHittable);practice.tap()
+            XCTAssertTrue(app.buttons["Start duel"].waitForExistence(timeout:6));app.buttons["Start duel"].tap()
+            let picture=app.images["questionImage"];XCTAssertTrue(picture.waitForExistence(timeout:6))
+            XCTAssertTrue(app.buttons["answer-0"].waitForExistence(timeout:12))
+            XCTAssertGreaterThanOrEqual(picture.frame.height,60)
+            XCTAssertTrue(app.buttons["answer-0"].isHittable);capture("PictureTopic-"+id);app.terminate()
+        }
+    }
     @MainActor func testLockedAndUnlockedAchievementDetails() {
         let app=XCUIApplication();app.launchArguments=["--ui-testing"];app.launch()
         if app.buttons["Done"].waitForExistence(timeout:8){app.buttons["Done"].tap()}

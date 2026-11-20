@@ -82,7 +82,7 @@ private struct DuelScreen:View {
     HStack {VStack(alignment:.leading,spacing:5){Text(game.round==6 ? "FINAL ROUND":"ROUND \(game.round+1) OF 7").font(.system(size:12,weight:.black)).tracking(1);Text(game.round==6 ? "DOUBLE POINTS":"FASTER = MORE POINTS").font(.system(size:9,weight:.bold)).foregroundStyle(Color(hex:"FFD494"))};Spacer();if game.reading {Image(systemName:"book.fill").font(.system(size:35)).foregroundStyle(Color(hex:"FFD494")).frame(width:74,height:74)}else{timer}}.frame(height:game.revealed ? 50:60)
     if let q=game.current {
      QuestionTimeBar(remaining:game.remaining,reading:game.reading)
-     Text(q.prompt).font(.system(size:25,weight:.bold,design:.rounded)).accessibilityIdentifier("quizQuestion").multilineTextAlignment(.center).lineLimit(7).minimumScaleFactor(0.6).frame(maxWidth:.infinity,maxHeight:.infinity).layoutPriority(1)
+     QuizQuestionContent(prompt:q.prompt,png:q.imagePng,sha:q.imageSHA256).layoutPriority(1)
      if game.reading {Text("Read the question").font(.subheadline.bold()).multilineTextAlignment(.center).accessibilityIdentifier("readingPhase").transition(.opacity)}
      LazyVGrid(columns:[GridItem(.flexible(),spacing:9),GridItem(.flexible(),spacing:9)],spacing:9){if !game.reading {ForEach(q.answers.indices,id:\.self){i in answer(q,index:i).frame(height:max(80,(size.height*(game.revealed ? 0.32:0.38)-9)/2))}}}
       .frame(height:game.reading ? 0:size.height*(game.revealed ? 0.32:0.38)).opacity(game.reading ? 0:1).clipped().accessibilityHidden(game.reading)
@@ -166,9 +166,7 @@ private struct DuelScreen:View {
   }.frame(height:80)
  }
  private func tabletQuestion(_ question:Question)->some View {
-  Text(question.prompt).font(.system(size:34,weight:.bold,design:.rounded)).multilineTextAlignment(.center)
-   .lineLimit(10).minimumScaleFactor(0.65).frame(maxWidth:.infinity)
-   .accessibilityIdentifier("quizQuestion")
+  QuizQuestionContent(prompt:question.prompt,png:question.imagePng,sha:question.imageSHA256,fontSize:34).frame(minHeight:question.imagePng == nil ? 0:220)
  }
  private var readingNotice:some View {
   Text("Read the question").font(.headline).multilineTextAlignment(.center)
@@ -231,7 +229,7 @@ private struct DuelScreen:View {
     Button("Back to topics"){dismiss()}.buttonStyle(PrimaryButton(color:.coral))
     Text("\(game.rounds.filter{$0.points>0}.count) OF 7 CORRECT · DUEL REVIEW").font(.system(size:11,weight:.heavy)).tracking(1).padding(.top,10)
     ForEach(Array(game.rounds.enumerated()),id:\.element.id){index,r in
-     VStack(alignment:.leading,spacing:8){HStack{Image(systemName:r.points>0 ? "checkmark.circle.fill":"xmark.circle.fill").foregroundStyle(r.points>0 ? Color.green:Color.coral);Text("QUESTION \(index+1)").font(.system(size:10,weight:.heavy));Spacer();Text("+\(r.points)").bold()};Text(r.question.prompt).font(.subheadline.bold());Text("Answer: \(r.question.answers[r.question.correctIndex])").font(.caption)}.padding(16).frame(maxWidth:.infinity,alignment:.leading).foregroundStyle(Color.ink).background(.white,in:RoundedRectangle(cornerRadius:16))
+     VStack(alignment:.leading,spacing:8){HStack{Image(systemName:r.points>0 ? "checkmark.circle.fill":"xmark.circle.fill").foregroundStyle(r.points>0 ? Color.green:Color.coral);Text("QUESTION \(index+1)").font(.system(size:10,weight:.heavy));Spacer();Text("+\(r.points)").bold()};Text(r.question.prompt).font(.subheadline.bold());if r.question.imagePng != nil {QuestionPicture(png:r.question.imagePng,sha:r.question.imageSHA256).frame(height:140)};Text("Answer: \(r.question.answers[r.question.correctIndex])").font(.caption)}.padding(16).frame(maxWidth:.infinity,alignment:.leading).foregroundStyle(Color.ink).background(.white,in:RoundedRectangle(cornerRadius:16))
     }
    }.padding(22)
   }.overlay(alignment:.top){if !reduceMotion {VictoryConfetti().allowsHitTesting(false)}}

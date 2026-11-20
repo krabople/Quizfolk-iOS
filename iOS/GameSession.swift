@@ -1,7 +1,7 @@
 import Foundation
 import SwiftUI
 
-struct PublicQuestion:Decodable {let id:String;let prompt:String;let answers:[String];let difficulty:String;let source:String?;let sourceURL:String?}
+struct PublicQuestion:Decodable {let id:String;let prompt:String;let answers:[String];let difficulty:String;let source:String?;let sourceURL:String?;var imagePng:String?=nil;var imageSHA256:String?=nil;var questionGroup:String?=nil}
 struct StartReply:Decodable {let id:String;let kind:String;let opponent:String;let opponentAvatar:String?;var opponentID:String?=nil;var duelID:String?=nil;var played:[PlayedRound]?=nil;var score:Int?=nil;var opponentScore:Int?=nil;var pending:Bool?=nil;var powerAllowed:Bool?=nil}
 struct RoundReply:Decodable {let round:Int;let question:PublicQuestion;let remaining:Double;let readingRemaining:Double?;let phase:String?;var power:PowerState?=nil}
 struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPoints:Int;let finished:Bool;let score:Int;let opponentScore:Int;let pending:Bool?;var retry:Bool?=nil;var remaining:Double?=nil;var power:PowerState?=nil;var selectedIndex:Int?=nil}
@@ -160,7 +160,7 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
     }
     private func applyQuestion(_ reply:RoundReply) {
         round=reply.round;power=reply.power ?? power.nextQuestion();powerError=nil
-        current=Question(id:reply.question.id,categoryID:topic.id,difficulty:reply.question.difficulty,prompt:reply.question.prompt,answers:reply.question.answers,correctIndex:-1,source:reply.question.source,sourceURL:reply.question.sourceURL)
+        current=Question(id:reply.question.id,categoryID:topic.id,difficulty:reply.question.difficulty,prompt:reply.question.prompt,answers:reply.question.answers,correctIndex:-1,imagePng:reply.question.imagePng,imageSHA256:reply.question.imageSHA256,questionGroup:reply.question.questionGroup,source:reply.question.source,sourceURL:reply.question.sourceURL)
         if reply.phase=="reading" {
             timer?.cancel();reading=true;remaining=10;readingTask?.cancel()
             readingTask=Task{[weak self] in
@@ -226,7 +226,7 @@ struct AnswerReply:Decodable {let points:Int;let correctIndex:Int;let opponentPo
     }
     private func completeAnswer(q:Question,index:Int,elapsed:Double,correct:Int,points:Int,other:Int) {
         guard !revealed else{return};timer?.cancel();selected=index
-        let shown=Question(id:q.id,categoryID:q.categoryID,difficulty:q.difficulty,prompt:q.prompt,answers:q.answers,correctIndex:correct,source:q.source,sourceURL:q.sourceURL)
+        let shown=Question(id:q.id,categoryID:q.categoryID,difficulty:q.difficulty,prompt:q.prompt,answers:q.answers,correctIndex:correct,imagePng:q.imagePng,imageSHA256:q.imageSHA256,questionGroup:q.questionGroup,source:q.source,sourceURL:q.sourceURL)
         current=shown;lastPoints=points;score+=points;opponentScore+=other
         rounds.append(PlayedRound(question:shown,selected:index,elapsed:elapsed,points:points,opponentPoints:other))
         revealed=true;pendingAnswer=nil;if !online || kind=="bot"{opponentAnswered=rounds.count}

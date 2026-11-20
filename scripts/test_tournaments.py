@@ -5,7 +5,7 @@ BASE=os.environ.get('QUIZFOLK_TEST_URL','http://127.0.0.1:8770/index.php?r=')
 STATE=pathlib.Path(os.environ.get('QUIZFOLK_STATE_DIR',ROOT/'backend/private'))/'quizfolk.sqlite'
 BANK={q['id']:q for q in json.loads((ROOT/'data/questions.json').read_text(encoding='utf-8'))}
 def req(route,body=None,token=None,status=200):
- h={'Content-Type':'application/json','X-Quizfolk-Client':'3'}
+ h={'Content-Type':'application/json','X-Quizfolk-Client':'4'}
  if token:h['Authorization']='Bearer '+token
  r=urllib.request.Request(BASE+route,data=None if body is None else json.dumps(body).encode(),headers=h)
  try:

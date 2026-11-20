@@ -246,5 +246,39 @@
     "color": "568A69",
     "emoji": "🌷",
     "questionCount": 350
+  },
+  {
+    "id": "40",
+    "name": "Biology",
+    "symbol": "microbe.fill",
+    "color": "458C79",
+    "emoji": "🧬",
+    "questionCount": 150
+  },
+  {
+    "id": "41",
+    "name": "Flags of the World",
+    "symbol": "flag.fill",
+    "color": "428EAE",
+    "emoji": "🏳️",
+    "questionCount": 197,
+    "requiresImages": true
+  },
+  {
+    "id": "42",
+    "name": "Brand Logos",
+    "symbol": "tag.fill",
+    "color": "9D6AAF",
+    "emoji": "🏷️",
+    "questionCount": 215,
+    "requiresImages": true
+  },
+  {
+    "id": "43",
+    "name": "World Capitals",
+    "symbol": "building.2.fill",
+    "color": "D2884A",
+    "emoji": "🌍",
+    "questionCount": 394
   }
 ]

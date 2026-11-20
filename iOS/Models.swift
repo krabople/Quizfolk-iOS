@@ -18,19 +18,23 @@ struct Question: Codable, Identifiable, Sendable {
     let prompt: String
     let answers: [String]
     let correctIndex: Int
+    var imagePng:String?=nil
+    var imageSHA256:String?=nil
+    var questionGroup:String?=nil
     var source: String? = nil
     var sourceURL: String? = nil
     var promptKey: String {
+        if let questionGroup {return "group:"+questionGroup}
         var key=prompt.precomposedStringWithCompatibilityMapping.folding(options:.caseInsensitive,locale:Locale(identifier:"en_US_POSIX"))
         for (from,to) in [("‘","'"),("’","'"),("“","\""),("”","\"")] {key=key.replacingOccurrences(of:from,with:to)}
         key=key.replacingOccurrences(of:#"[\p{Z}\p{C}\s]+"#,with:" ",options:.regularExpression).trimmingCharacters(in:.whitespacesAndNewlines)
         key=key.replacingOccurrences(of:#"\?+$"#,with:"",options:.regularExpression)
-        return key.replacingOccurrences(of:#"(?<=\p{L})[.!]+$"#,with:"",options:.regularExpression)
+        return key.replacingOccurrences(of:#"(?<=\p{L})[.!]+$"#,with:"",options:.regularExpression)+(imageSHA256.map{"|image:"+$0} ?? "")
     }
     func shuffled() -> Question {
         let indices = Array(answers.indices).shuffled()
         return Question(id:id, categoryID:categoryID, difficulty:difficulty, prompt:prompt,
-                        answers:indices.map { answers[$0] }, correctIndex:indices.firstIndex(of:correctIndex)!,source:source,sourceURL:sourceURL)
+                        answers:indices.map { answers[$0] }, correctIndex:indices.firstIndex(of:correctIndex)!,imagePng:imagePng,imageSHA256:imageSHA256,questionGroup:questionGroup,source:source,sourceURL:sourceURL)
     }
 }
 struct PlayedRound: Codable, Identifiable {

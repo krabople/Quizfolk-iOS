@@ -40,6 +40,8 @@ targets:
         buildPhase: resources
       - path: data/bots.json
         buildPhase: resources
+      - path: data/question-image-notices.txt
+        buildPhase: resources
     dependencies:
       - package: GoogleMobileAds
         product: GoogleMobileAds

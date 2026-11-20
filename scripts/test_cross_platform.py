@@ -12,7 +12,7 @@ class Client:
         self.token=self.request('register',{'name':'Cross-platform '+platform},201)['token']
         self.id=self.request('profile')['id']
     def request(self,route,body=None,status=200):
-        headers={'Content-Type':'application/json','X-Quizfolk-Client':'3','User-Agent':'Quizfolk-'+self.platform+'/0.3.2'}
+        headers={'Content-Type':'application/json','X-Quizfolk-Client':'4','User-Agent':'Quizfolk-'+self.platform+'/0.3.2'}
         if self.token:headers['Authorization']='Bearer '+self.token
         request=urllib.request.Request(BASE+route,data=None if body is None else json.dumps(body).encode(),headers=headers)
         try:
@@ -108,6 +108,20 @@ try:
     match=android.request('match',{'topic':'39','botOnly':True},201)
     q=android.question(match['id'])
     assert BANK[q['id']]['categoryID']=='39'
+    # Picture packets are identical across platforms, including image bytes.
+    import base64,hashlib
+    for topic in ['41','42']:
+        first=ios.request('challenge',{'player':android.id,'topic':topic,'requestID':str(uuid.uuid4())},201)
+        second=android.request('duel-open',{'duel':first['duelID']})
+        hashes=[]
+        for turn in range(7):
+            left=ios.question(first['id']);right_question=android.question(second['id'])
+            assert left==right_question and 'sourceURL' not in left
+            assert hashlib.sha256(base64.b64decode(left['imagePng'])).hexdigest()==left['imageSHA256']
+            hashes.append(left['imageSHA256'])
+            for client,mid in [(ios,first['id']),(android,second['id'])]:
+                client.request('answer',{'match':mid,'round':turn,'answer':right(left)})
+        assert len(set(hashes))==7
 finally:
     for client in [ios,android]:client.request('delete-account',{})
 print('PASS: Android/iOS discovery, follows, delayed challenges, identical packets, atomic Right Answer, shared settlement/XP/head-to-head/leagues, rematches, public events/prizes/badges, private mixed-platform home/away tournaments and daily coin caps')

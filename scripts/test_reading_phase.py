@@ -33,8 +33,12 @@ req('answer',{'match':m,'round':0,'answer':q['correctIndex']},409)
 with sqlite3.connect(STATE) as db:db.execute('UPDATE matches SET preview_started=? WHERE id=?',(time.time()-duration-1,m))
 r=req('reveal',{'match':m});assert r['phase']=='answer' and len(r['question']['answers'])==4 and r['remaining']>9.8
 assert req('answer',{'match':m,'round':0,'answer':q['correctIndex']})['points']==20
-events=req('tournaments')['events'];e=next(e for e in events if e['kind']=='daily')
-q=max((q for q in bank if q['categoryID']==e['topicID']),key=lambda q:allowance(q['prompt']));duration=allowance(q['prompt']);assert duration>5
+# An isolated event in the already-selected long-question topic makes this
+# reading-clock contract independent of today's rotating tournament subjects.
+req('tournaments');e={'id':'reading-clock-fixture','topicID':q['categoryID']}
+with sqlite3.connect(STATE) as db:
+ db.execute('INSERT INTO tournament_events(id,topic,kind,starts,ends,coins,tickets) VALUES(?,?,"weekly",?,?,50,0)',(e['id'],e['topicID'],int(time.time())-10,int(time.time())+3600))
+duration=allowance(q['prompt']);assert duration>5
 run=req('tournament-enter',{'event':e['id'],'requestID':str(uuid.uuid4())},201)['id']
 with sqlite3.connect(STATE) as db:db.execute('UPDATE tournament_runs SET deck=?,question_keys=? WHERE id=?',(json.dumps([q['id']]),'{}',run))
 r=req('tournament-round',{'run':run});assert duration-.5<r['readingRemaining']<=duration and not r['question']['answers']

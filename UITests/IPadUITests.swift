@@ -4,6 +4,19 @@ import UIKit
 /// Exercises the normal app views and existing isolated API fixtures on a native iPad.
 /// The App Store fixture is intentionally not enabled in this regression suite.
 final class IPadUITests:XCTestCase {
+    @MainActor func testPictureTopicsInPortraitAndLandscape() {
+        for (id,name,orientation) in [("41","Flags of the World",UIDeviceOrientation.portrait),("42","Brand Logos",UIDeviceOrientation.landscapeLeft)] {
+            let app=launch(orientation)
+            let search=app.textFields["Search categories"];search.tap();search.typeText(name)
+            let topic=app.descendants(matching:.any).matching(identifier:"topic-"+id).firstMatch
+            XCTAssertTrue(topic.waitForExistence(timeout:5));topic.tap()
+            let practice=app.buttons["Practise against a bot"];reveal(practice,in:app);practice.tap()
+            XCTAssertTrue(app.buttons["Start duel"].waitForExistence(timeout:6));app.buttons["Start duel"].tap()
+            let picture=app.images["questionImage"];XCTAssertTrue(picture.waitForExistence(timeout:6))
+            XCTAssertTrue(app.buttons["answer-0"].waitForExistence(timeout:12));XCTAssertGreaterThan(picture.frame.height,100)
+            XCTAssertTrue(app.buttons["answer-0"].isHittable);capture("iPad-PictureTopic-"+id);app.terminate()
+        }
+    }
     @MainActor override func setUpWithError() throws {
         continueAfterFailure=false
         try XCTSkipUnless(UIDevice.current.userInterfaceIdiom == .pad,"Native iPad layout checks run in the dedicated iPad job")

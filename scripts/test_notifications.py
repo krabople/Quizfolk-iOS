@@ -4,7 +4,7 @@ ROOT=pathlib.Path(__file__).resolve().parents[1]
 BASE=os.environ['QUIZFOLK_TEST_URL'];assert BASE.startswith('http://127.0.0.1:')
 STATE=pathlib.Path(os.environ['QUIZFOLK_STATE_DIR'])/'quizfolk.sqlite'
 def request(route,body=None,token=None,status=200):
-    headers={'Content-Type':'application/json','X-Quizfolk-Client':'3'}
+    headers={'Content-Type':'application/json','X-Quizfolk-Client':'4'}
     if token:headers['Authorization']='Bearer '+token
     req=urllib.request.Request(BASE+route,data=None if body is None else json.dumps(body).encode(),headers=headers)
     try:

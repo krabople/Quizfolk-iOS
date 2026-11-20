@@ -50,7 +50,7 @@ try {
     $readRoutes=['health','categories','profile','leaderboard','people','player','duels','activity','tournaments','tournament-board','coins','prizes','parties','party-board','notification-settings','rewarded-status'];
     if(!in_array($route,$readRoutes,true) && $method!=='POST') fail('Use POST',405);
     if($route==='health') out(['ok'=>true,'version'=>'0.3.3']);
-    if($route==='categories') out(['categories'=>play_topics()]);
+    if($route==='categories') out(['categories'=>visible_topics()]);
     if($route==='register') {
         // Account creation is protected separately. Authenticated play has no
         // hourly match/run/request quota, including players sharing one IP.
@@ -80,7 +80,7 @@ try {
     tournament_routes($route,$db,$pid,$body);
     social_routes($route,$db,$pid,$player,$body,$config);
     if($route==='update-profile') {
-        if(!in_array(($_SERVER['HTTP_X_QUIZFOLK_CLIENT'] ?? ''),['2','3'],true) && ($body['name'] ?? '')==='Quiz explorer')out(['ok'=>true,'name'=>$player['name']]);
+        if(!in_array(($_SERVER['HTTP_X_QUIZFOLK_CLIENT'] ?? ''),['2','3','4'],true) && ($body['name'] ?? '')==='Quiz explorer')out(['ok'=>true,'name'=>$player['name']]);
         $name=clean_name((string)($body['name'] ?? ''));
         try {sql($db,'UPDATE players SET name=?,name_key=? WHERE id=?',[$name,name_key($name),$pid]);}
         catch(PDOException $e){if($e->getCode()==='23000')fail('That player name is already in use. Please choose another.',409);throw $e;}
@@ -163,7 +163,7 @@ try {
             $db->exec('COMMIT');out(['ownAnswered'=>$round,'opponentAnswered'=>$count,'opponentResults'=>$results]);
         }
         if($round>=7) fail('Match is complete',409);
-        $q=$packet[$round];$context='match:'.$id;
+        $q=$packet[$round];require_image_client($q);$context='match:'.$id;
         if($route==='power') {
             $party=$m['duel_id'] ? sql($db,'SELECT p.powers FROM party_fixtures f JOIN parties p ON p.id=f.party_id WHERE f.duel_id=?',[$m['duel_id']])->fetch():false;
             $reply=power_activate($db,$pid,$context,$round,$q,$m['started']===null?null:(float)$m['started'],$body,!$party || (bool)$party['powers']);
@@ -171,15 +171,15 @@ try {
             $autoPowerReply=$reply;$body['round']=$round;$body['answer']=$q['correctIndex'];$route='answer';
         }
         if($route==='round' || $route==='reveal') {
-            $reading=($_SERVER['HTTP_X_QUIZFOLK_CLIENT'] ?? '')==='3';$preview=$m['preview_started']===null ? microtime(true):(float)$m['preview_started'];
+            $reading=(int)($_SERVER['HTTP_X_QUIZFOLK_CLIENT'] ?? 0)>=3;$preview=$m['preview_started']===null ? microtime(true):(float)$m['preview_started'];
             if($reading && $m['started']===null) {
                 if($m['preview_started']===null)sql($db,'UPDATE matches SET preview_started=? WHERE id=?',[$preview,$id]);
                 $left=max(0,question_reading_seconds($q['prompt'])-(microtime(true)-$preview));
-                if($route==='round' || $left>0) {$db->exec('COMMIT');out(['round'=>$round,'question'=>['id'=>$q['id'],'prompt'=>$q['prompt'],'answers'=>[],'difficulty'=>$q['difficulty'],'source'=>$q['source'] ?? 'Open trivia contributors','sourceURL'=>$q['sourceURL'] ?? null],'remaining'=>10,'readingRemaining'=>$left,'phase'=>'reading']);}
+                if($route==='round' || $left>0) {$db->exec('COMMIT');out(['round'=>$round,'question'=>public_question($q,true),'remaining'=>10,'readingRemaining'=>$left,'phase'=>'reading']);}
             }
             $started=$m['started']===null ? microtime(true):(float)$m['started'];
             if($m['started']===null)sql($db,'UPDATE matches SET started=? WHERE id=?',[$started,$id]);
-            $db->exec('COMMIT');out(['round'=>$round,'question'=>['id'=>$q['id'],'prompt'=>$q['prompt'],'answers'=>$q['answers'],'difficulty'=>$q['difficulty'],'source'=>$q['source'] ?? 'Open Trivia Database','sourceURL'=>$q['sourceURL'] ?? 'https://opentdb.com/'],'remaining'=>max(0,10-(microtime(true)-$started)),'readingRemaining'=>0,'phase'=>'answer','power'=>power_state($db,$context,$round,$q)]);
+            $db->exec('COMMIT');out(['round'=>$round,'question'=>public_question($q),'remaining'=>max(0,10-(microtime(true)-$started)),'readingRemaining'=>0,'phase'=>'answer','power'=>power_state($db,$context,$round,$q)]);
         }
         if($m['started']===null || !isset($body['round']) || $body['round']!==$round || !isset($body['answer']) || !is_int($body['answer']) || $body['answer']<-1 || $body['answer']>3) fail('Invalid round or answer',409);
         $elapsed=$autoPowerReply!==null ? $autoPowerReply['acceptedElapsed']:microtime(true)-(float)$m['started'];

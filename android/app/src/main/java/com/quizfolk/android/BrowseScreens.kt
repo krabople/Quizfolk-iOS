@@ -219,6 +219,7 @@ import java.util.UUID
         }
         match.rounds.forEachIndexed { index, r -> Panel {
             Text("${index + 1}. ${r.question.prompt}", fontWeight = FontWeight.Bold)
+            if(r.question.imagePng != null) QuestionPicture(r.question,Modifier.fillMaxWidth().height(140.dp))
             Text("Correct: ${r.question.answers.getOrNull(r.question.correctIndex) ?: "Unavailable"}")
             Hint("Your answer: ${r.question.answers.getOrNull(r.selected) ?: "Timed out"}")
             Hint("${r.points} points · %.1f seconds".format(r.elapsed))

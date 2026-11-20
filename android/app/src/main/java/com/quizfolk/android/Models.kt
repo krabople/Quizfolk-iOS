@@ -21,14 +21,14 @@ fun JSONArray.strings(): List<String> = (0 until length()).map { getString(it) }
 data class Topic(val id: String, val name: String, val color: String, val emoji: String, val count: Int) {
     companion object { fun parse(j: J) = Topic(j.s("id"), j.s("name"), j.s("color"), j.s("emoji"), j.n("questionCount")) }
 }
-data class Question(val id: String, val categoryID: String, val difficulty: String, val prompt: String, val answers: List<String>, val correctIndex: Int) {
-    val key: String by lazy(LazyThreadSafetyMode.PUBLICATION) { promptKey(prompt) }
+data class Question(val id: String, val categoryID: String, val difficulty: String, val prompt: String, val answers: List<String>, val correctIndex: Int, val imagePng: String? = null, val imageSHA256: String? = null, val questionGroup: String? = null) {
+    val key: String by lazy(LazyThreadSafetyMode.PUBLICATION) { questionGroup?.let { "group:$it" } ?: (promptKey(prompt) + (imageSHA256?.let { "|image:$it" } ?: "")) }
     fun shuffled(): Question {
         val order = answers.indices.shuffled()
         return copy(answers = order.map { answers[it] }, correctIndex = order.indexOf(correctIndex))
     }
-    fun json() = json("id" to id, "categoryID" to categoryID, "difficulty" to difficulty, "prompt" to prompt, "answers" to JSONArray(answers), "correctIndex" to correctIndex)
-    companion object { fun parse(j: J, topic: String = "") = Question(j.s("id"), j.s("categoryID", topic), j.s("difficulty", "mixed"), j.s("prompt"), j.a("answers").strings(), j.n("correctIndex", -1)) }
+    fun json() = json("id" to id, "categoryID" to categoryID, "difficulty" to difficulty, "prompt" to prompt, "answers" to JSONArray(answers), "correctIndex" to correctIndex, "imagePng" to imagePng, "imageSHA256" to imageSHA256, "questionGroup" to questionGroup)
+    companion object { fun parse(j: J, topic: String = "") = Question(j.s("id"), j.s("categoryID", topic), j.s("difficulty", "mixed"), j.s("prompt"), j.a("answers").strings(), j.n("correctIndex", -1), j.s("imagePng").ifEmpty { null }, j.s("imageSHA256").ifEmpty { null }, j.s("questionGroup").ifEmpty { null }) }
 }
 private val keySpaces = Regex("[\\p{Z}\\p{C}\\s]+")
 private val keyQuestionMarks = Regex("\\?+$")

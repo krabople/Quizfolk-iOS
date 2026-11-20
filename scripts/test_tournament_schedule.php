@@ -16,6 +16,10 @@ check((int)$db->query('SELECT COUNT(*) FROM tournament_events WHERE kind="weekly
 $freshSchedule=json_decode($db->query('SELECT event_ids FROM tournament_daily_schedule')->fetchColumn(),true);
 check(count(array_unique($freshSchedule))===3,'Uniform daily prices produced duplicate featured IDs');
 tournament_seed($db);check((int)$db->query('SELECT COUNT(*) FROM tournament_events')->fetchColumn()===6,'Repeat seed duplicated events');
+$preserved=fixture();$week=strtotime('monday this week 00:00 UTC');
+foreach(['9','10','11'] as $topic)sql($preserved,'INSERT INTO tournament_events(id,topic,kind,starts,ends,coins,tickets) VALUES(?,?,"weekly",?,?,50,0)',['existing-week-'.$topic,$topic,$week,$week+604800]);
+tournament_seed($preserved);
+check((int)$preserved->query('SELECT COUNT(*) FROM tournament_events WHERE kind="weekly"')->fetchColumn()===3,'Category expansion changed an already published weekly schedule');
 $start=(int)floor(time()/86400)*86400;
 $db=fixture();
 for($i=0;$i<6;$i++) {

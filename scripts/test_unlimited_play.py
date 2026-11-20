@@ -6,7 +6,7 @@ STATE=pathlib.Path(os.environ['QUIZFOLK_STATE_DIR'])/'quizfolk.sqlite'
 assert BASE.startswith('http://127.0.0.1:') and STATE.resolve().is_relative_to((ROOT/'build/contract-state').resolve())
 
 def req(route,body=None,token=None,status=200):
- headers={'Content-Type':'application/json','X-Quizfolk-Client':'3'}
+ headers={'Content-Type':'application/json','X-Quizfolk-Client':'4'}
  if token:headers['Authorization']='Bearer '+token
  request=urllib.request.Request(BASE+route,data=None if body is None else json.dumps(body).encode(),headers=headers)
  try:

@@ -36,8 +36,9 @@ fun readMobileQuestionBank(input: Reader): MobileQuestionBank = JsonReader(input
         else -> reader.skipValue()
     }
     reader.endObject()
+    require(questions.all { it.imagePng == null || questionImageBytes(it.imagePng,it.imageSHA256) != null })
     val ids=topics.map { it.id }.toSet(); val counts=questions.groupingBy { it.categoryID }.eachCount()
-    require(reader.peek()==JsonToken.END_DOCUMENT && format==1 && ids.isNotEmpty() && ids.size==topics.size && "mixed" !in ids)
+    require(reader.peek()==JsonToken.END_DOCUMENT && (format==1 || format==2) && ids.isNotEmpty() && ids.size==topics.size && "mixed" !in ids)
     require(questions.map { it.id }.toSet().size==questions.size)
     require(questions.all { it.categoryID in ids && it.answers.size==4 && it.answers.toSet().size==4 && it.answers.all { answer -> answer.isNotBlank() } && it.correctIndex in 0..3 })
     require(topics.all { it.id.isNotBlank() && it.name.isNotBlank() && it.count>=7 && counts[it.id]==it.count })
@@ -49,7 +50,7 @@ object QuestionBankUpdates {
     private fun cache(context: Context, endpoint: String): AtomicFile {
         val root=File(context.noBackupFilesDir,"question-banks")
         check(root.isDirectory || root.mkdirs())
-        return AtomicFile(File(root,sha(endpoint.toByteArray(Charsets.UTF_8))+".json"))
+        return AtomicFile(File(root,sha((endpoint+"|images-v2").toByteArray(Charsets.UTF_8))+".json"))
     }
     fun cached(context: Context, endpoint: String): MobileQuestionBank? = try {
         cache(context,endpoint).openRead().bufferedReader(Charsets.UTF_8).use(::readMobileQuestionBank)
@@ -73,10 +74,10 @@ object QuestionBankUpdates {
     }
     fun fetch(context: Context, endpoint: String): MobileQuestionBank? {
         val api=URI(endpoint);require(api.scheme=="https" && !api.host.isNullOrEmpty())
-        val directory=api.resolve("bank/")
+        val directory=api.resolve("bank-v2/")
         val manifest=J(String(download(directory.resolve("manifest.json"),65536),Charsets.UTF_8))
         val revision=manifest.s("revision"); val filename=manifest.s("file"); val bytes=manifest.n("bytes")
-        require(manifest.n("format")==1 && revision.matches(Regex("[a-f0-9]{64}")) && filename=="bank-$revision.json" && bytes in 1..50_000_000)
+        require(manifest.n("format") in 1..2 && revision.matches(Regex("[a-f0-9]{64}")) && filename=="bank-$revision.json" && bytes in 1..50_000_000)
         val file=cache(context,endpoint)
         val saved=try { file.openRead().use { it.readBytes() } } catch (_: Exception) { null }
         if(saved!=null && sha(saved)==revision && cached(context,endpoint)!=null) return null

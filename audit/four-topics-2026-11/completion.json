@@ -1,0 +1,23 @@
+{
+  "complete": true,
+  "remaining": 0,
+  "errors": [],
+  "publishedCount": 956,
+  "reviewed": 956,
+  "publishedSHA256": "cda23ce764b1d14c2304c3d4547d6793ce3b43358ca8bc0580bdd2c6eda18bc1",
+  "auditVersion": "2026-11-four-topics-v1",
+  "reviewType": "Individual author factual, wording, option and visual pass; not independent expert review",
+  "visualReview": {
+    "flags": 197,
+    "logos": 215,
+    "complete": true,
+    "fixes": [
+      "Historic wording for Afghan tricolour",
+      "Current Syrian independence flag",
+      "Native flag proportions preserved",
+      "Low-contrast marks given contrasting background",
+      "Elastic Beats replaced with Beats by Dre",
+      "Ambiguous Hermes logo omitted"
+    ]
+  }
+}

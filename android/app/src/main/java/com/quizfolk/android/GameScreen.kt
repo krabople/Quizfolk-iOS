@@ -141,7 +141,7 @@ import kotlin.math.*
             TimeBar(game.remaining, game.reading)
             val question = game.question
             if (question != null) {
-                Box(Modifier.weight(1f).fillMaxWidth().testTag("questionPrompt"), contentAlignment = Alignment.Center) { AutoText(question.prompt, 25, 10, Color.White) }
+                Box(Modifier.weight(1f).fillMaxWidth().testTag("questionPrompt"), contentAlignment = Alignment.Center) { QuizQuestionContent(question) }
                 if (game.reading) Text("Read the question", Modifier.fillMaxWidth().testTag("readingPhase"), fontWeight = FontWeight.Bold, textAlign = TextAlign.Center, fontSize = 14.sp)
                 Column(Modifier.fillMaxWidth().height(answersHeight).clip(RectangleShape), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                     if (!game.reading && question.answers.size == 4) (0..1).forEach { row -> Row(Modifier.weight(1f), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -176,7 +176,7 @@ import kotlin.math.*
                 TabletRoundHeader(game)
                 TimeBar(game.remaining, game.reading, 12.dp)
                 Box(Modifier.weight(1f).fillMaxWidth().testTag("questionPrompt"), contentAlignment = Alignment.Center) {
-                    game.question?.let { AutoText(it.prompt, 34, 10, Color.White) }
+                    game.question?.let { QuizQuestionContent(it,34) }
                 }
                 if (game.reading) ReadingNotice()
                 GameError(game)
@@ -194,7 +194,7 @@ import kotlin.math.*
             TabletRoundHeader(game)
             TimeBar(game.remaining, game.reading, 12.dp)
             Box(Modifier.weight(1f).fillMaxWidth().testTag("questionPrompt"), contentAlignment = Alignment.Center) {
-                game.question?.let { AutoText(it.prompt, 34, 10, Color.White) }
+                game.question?.let { QuizQuestionContent(it,34) }
             }
             if (game.reading) ReadingNotice()
             TabletAnswers(game, answersHeight)
@@ -258,7 +258,7 @@ import kotlin.math.*
         }
     }
 }
-@Composable private fun AutoText(text: String, base: Int, lines: Int, color: Color) {
+@Composable fun AutoText(text: String, base: Int, lines: Int, color: Color) {
     val measurer = rememberTextMeasurer(); val density = LocalDensity.current
     BoxWithConstraints(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
         val width = with(density) { maxWidth.roundToPx() }.coerceAtLeast(1); val height = with(density) { maxHeight.roundToPx() }.coerceAtLeast(1)
@@ -379,6 +379,7 @@ import kotlin.math.*
                 game.rounds.forEachIndexed { index, round -> QuizfolkTheme { Panel {
                     Row(verticalAlignment = Alignment.CenterVertically) { Icon(if (round.points > 0) Icons.Default.CheckCircle else Icons.Default.Cancel, null, tint = if (round.points > 0) Color(0xFF30A66B) else Coral); Text("QUESTION ${index+1}", Modifier.weight(1f).padding(start = 8.dp), fontSize = 10.sp, fontWeight = FontWeight.Bold); Text("+${round.points}", fontWeight = FontWeight.Bold) }
                     Text(round.question.prompt, fontWeight = FontWeight.Bold, fontSize = 14.sp)
+                    if(round.question.imagePng != null) QuestionPicture(round.question,Modifier.fillMaxWidth().height(140.dp))
                     Text("Answer: ${round.question.answers.getOrNull(round.question.correctIndex) ?: "Unavailable"}", fontSize = 13.sp)
                 } } }
             }

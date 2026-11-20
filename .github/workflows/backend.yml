@@ -27,11 +27,14 @@ jobs:
           php scripts/test_power_migration.php
           php scripts/test_bank_revisions.php
           php scripts/test_question_dedup.php
+          php scripts/test_picture_questions.php
+          php scripts/test_picture_questions.php
           php scripts/test_reading_time.php
           php scripts/test_tournament_schedule.php
           php scripts/test_economy.php
           php scripts/test_levels.php
           php scripts/test_achievements.php
+          php scripts/test_picture_questions.php
       - name: Run isolated API contract tests
         run: |
           python3 scripts/run_contracts.py

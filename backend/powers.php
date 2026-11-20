@@ -22,7 +22,7 @@ function power_schema(PDO $db):void {
         } catch(Throwable $e) { $db->exec('ROLLBACK');throw $e; }
     }
 }
-function power_question_key(array $q):string {return hash('sha256',json_encode([$q['id'],$q['prompt'],$q['answers'],$q['correctIndex']]));}
+function power_question_key(array $q):string {$parts=[$q['id'],$q['prompt'],$q['answers'],$q['correctIndex']];if(isset($q['imageSHA256']))$parts[]=$q['imageSHA256'];return hash('sha256',json_encode($parts));}
 function power_state(PDO $db,string $context,int $turn,?array $q=null):array {
     $uses=sql($db,'SELECT * FROM power_uses WHERE context=? ORDER BY created,rowid',[$context])->fetchAll();
     $active=array_values(array_filter($uses,fn($p)=>(int)$p['turn']===$turn && (!$q || $p['question_key']===power_question_key($q))));

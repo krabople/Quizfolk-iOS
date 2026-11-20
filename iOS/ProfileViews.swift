@@ -41,7 +41,7 @@ struct MatchDetailView:View {
                 }
             }
             Section(match.pending==true ? "\(match.score) points · waiting for \(match.opponent)":"\(match.score) – \(match.opponentScore) vs \(match.opponent)") {
-                ForEach(Array(match.rounds.enumerated()),id:\.element.id){i,r in VStack(alignment:.leading,spacing:8){Text("\(i+1). \(r.question.prompt)").font(.headline);Text("Correct: \(r.question.answers[r.question.correctIndex])");Text("Your answer: \(r.selected>=0 && r.selected<4 ? r.question.answers[r.selected]:"Timed out")").foregroundStyle(.secondary);Text("\(r.points) points · \(r.elapsed, specifier:"%.1f") seconds").font(.caption)}}
+                ForEach(Array(match.rounds.enumerated()),id:\.element.id){i,r in VStack(alignment:.leading,spacing:8){Text("\(i+1). \(r.question.prompt)").font(.headline);if r.question.imagePng != nil {QuestionPicture(png:r.question.imagePng,sha:r.question.imageSHA256).frame(height:140)};Text("Correct: \(r.question.answers[r.question.correctIndex])");Text("Your answer: \(r.selected>=0 && r.selected<4 ? r.question.answers[r.selected]:"Timed out")").foregroundStyle(.secondary);Text("\(r.points) points · \(r.elapsed, specifier:"%.1f") seconds").font(.caption)}}
             }
         }.navigationTitle("Duel review")
             .fullScreenCover(item:$session,onDismiss:{requestID=UUID().uuidString}){GameView(game:$0).environmentObject(store)}

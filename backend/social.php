@@ -59,6 +59,10 @@ function player_summary(PDO $db,string $viewer,array $p):array {
 function fresh_packet(PDO $db,string $pid,string $topic,?PDO $qdb=null):array {
     $qdb ??= new PDO('sqlite:'.dirname(__DIR__).'/data/question-bank.sqlite',null,null,[PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION,PDO::ATTR_DEFAULT_FETCH_MODE=>PDO::FETCH_ASSOC]);
     $bank=array_map(fn($r)=>json_decode($r['payload'],true),sql($qdb,$topic==='mixed'?'SELECT payload FROM questions':'SELECT payload FROM questions WHERE category_id=?',$topic==='mixed'?[]:[$topic])->fetchAll());
+    if(!image_client()) {
+        if(in_array($topic,['41','42'],true))fail('Please update Quizfolk to play picture topics.',426);
+        $bank=array_values(array_filter($bank,fn($q)=>empty($q['imagePng'])));
+    }
     $seen=tournament_seen_ids($db,$pid,$topic);
     $deck=question_deck($bank,$seen);
     if($topic==='mixed') {
@@ -90,7 +94,7 @@ function packet_is_current(array $packet,?PDO $bank=null):bool {
     $bank ??= new PDO('sqlite:'.dirname(__DIR__).'/data/question-bank.sqlite',null,null,[PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION]);
     foreach($packet as $old) {
         $current=json_decode((string)sql($bank,'SELECT payload FROM questions WHERE id=?',[$old['id'] ?? ''])->fetchColumn(),true);
-        if(!$current || ($old['prompt'] ?? null)!==$current['prompt'] || ($old['categoryID'] ?? null)!==$current['categoryID'])return false;
+        if(!$current || ($old['imageSHA256'] ?? null)!==($current['imageSHA256'] ?? null) || ($old['prompt'] ?? null)!==$current['prompt'] || ($old['categoryID'] ?? null)!==$current['categoryID'])return false;
         $oldChoices=$old['answers'] ?? [];$currentChoices=$current['answers'];
         if(($oldChoices[$old['correctIndex'] ?? -1] ?? null)!==$currentChoices[$current['correctIndex']])return false;
         sort($oldChoices);sort($currentChoices);if($oldChoices!==$currentChoices)return false;

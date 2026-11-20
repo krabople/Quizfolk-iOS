@@ -10,7 +10,7 @@ with zipfile.ZipFile(apk) as package:
     assert package.read('assets/bots.json')==(root/'data/bots.json').read_bytes()
     assert bank==expected
     questions=json.loads(bank)
-    assert len(questions)>=21817 and len(topics)==31 and min(t['questionCount'] for t in topics)>=150
+    assert len(questions)>=26332 and len(topics)==35 and min(t['questionCount'] for t in topics)>=150
     assert next(t for t in topics if t['id']=='39')['name']=='Plants & flowers'
     assert all(b'emulator-only-token' not in package.read(f) for f in package.namelist() if re.fullmatch(r'classes\d*\.dex',f))
     assert not any(f.endswith(('.p12','.jks','.keystore')) for f in package.namelist())

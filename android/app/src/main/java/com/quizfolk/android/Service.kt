@@ -58,7 +58,7 @@ class HttpTransport(private val endpoint: () -> String, private val token: () ->
         val connection = URL(uri.toString()).openConnection() as HttpURLConnection
         try {
             connection.connectTimeout = 20000; connection.readTimeout = 20000
-            connection.setRequestProperty("X-Quizfolk-Client", "3")
+            connection.setRequestProperty("X-Quizfolk-Client", "4")
             connection.setRequestProperty("Accept", "application/json")
             requestToken?.let { connection.setRequestProperty("Authorization", "Bearer $it") }
             if (body != null) {

@@ -215,7 +215,7 @@ struct TournamentPlayView:View {
     }
     if let question=game.question {
      QuestionTimeBar(remaining:game.remaining,reading:game.reading)
-     Text(question.prompt).font(.system(size:25,weight:.bold,design:.rounded)).accessibilityIdentifier("tournamentQuestion").multilineTextAlignment(.center).lineLimit(7).minimumScaleFactor(0.6).frame(maxWidth:.infinity,maxHeight:.infinity)
+     QuizQuestionContent(prompt:question.prompt,png:question.imagePng,sha:question.imageSHA256,identifier:"tournamentQuestion")
      if game.reading {Text("Read the question").font(.subheadline.bold()).multilineTextAlignment(.center).accessibilityIdentifier("tournamentReadingPhase").transition(.opacity)}
      LazyVGrid(columns:[GridItem(.flexible(),spacing:9),GridItem(.flexible(),spacing:9)],spacing:9){if !game.reading {ForEach(question.answers.indices,id:\.self){i in answer(question.answers[i],index:i).frame(height:max(80,(size.height*0.38-9)/2))}}}
       .frame(height:game.reading ? 0:size.height*0.38).opacity(game.reading ? 0:1).clipped().accessibilityHidden(game.reading)
@@ -287,8 +287,7 @@ struct TournamentPlayView:View {
   }
  }
  private func tabletQuestion(_ question:PublicQuestion)->some View {
-  Text(question.prompt).font(.system(size:34,weight:.bold,design:.rounded)).multilineTextAlignment(.center)
-   .lineLimit(10).minimumScaleFactor(0.65).frame(maxWidth:.infinity).accessibilityIdentifier("tournamentQuestion")
+  QuizQuestionContent(prompt:question.prompt,png:question.imagePng,sha:question.imageSHA256,fontSize:34,identifier:"tournamentQuestion").frame(minHeight:question.imagePng == nil ? 0:220)
  }
  private var readingNotice:some View {
   Text("Read the question").font(.headline).multilineTextAlignment(.center)

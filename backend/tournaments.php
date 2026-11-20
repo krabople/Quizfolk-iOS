@@ -88,9 +88,12 @@ function tournament_seed(PDO $db,?int $now=null):void {
         sql($db,'INSERT INTO tournament_daily_schedule VALUES(?,?)',[$start,json_encode($featured)]);
     }
     $week=strtotime('monday this week 00:00 UTC',$now);
-    for($i=0;$i<3;$i++) {
-        $topic=$topics[((int)floor($week/604800)*3+$i)%$n]['id'];
+    // A category expansion must not add a second set of weekly events midweek.
+    $existing=sql($db,'SELECT topic FROM tournament_events WHERE kind="weekly" AND starts=?',[$week])->fetchAll(PDO::FETCH_COLUMN);
+    for($i=count($existing);$i<3;$i++) {
+        for($j=0;$j<$n;$j++) {$topic=$topics[((int)floor($week/604800)*3+$i+$j)%$n]['id'];if(!in_array($topic,$existing,true))break;}
         sql($db,'INSERT OR IGNORE INTO tournament_events(id,topic,kind,starts,ends,coins,tickets) VALUES(?,?,?,?,?,?,?)',['week:'.gmdate('Ymd',$week).':'.$topic,$topic,'weekly',$week,$week+604800,50,0]);
+        $existing[]=$topic;
     }
     tournament_apply_public_policy($db,$now);
 }
@@ -196,7 +199,7 @@ function tournament_question(PDO $db,array &$r,?PDO $qdb=null):?array {
     $bank=[];foreach(sql($qdb,'SELECT payload FROM questions WHERE category_id=?',[$topic])->fetchAll(PDO::FETCH_COLUMN) as $payload){$item=json_decode($payload,true);$bank[$item['id']]=$item;}
     $usedIDs=[];$usedPrompts=[];$unknownPast=false;
     foreach(array_slice($deck,0,$turn) as $qid) {
-        $key=$keys[$qid] ?? (isset($bank[$qid]) ? question_prompt_key($bank[$qid]['prompt']):null);
+        $key=$keys[$qid] ?? (isset($bank[$qid]) ? question_content_key($bank[$qid]):null);
         if($key===null){$unknownPast=true;break;}
         $keys[$qid]=$key;$usedIDs[$qid]=true;$usedPrompts[$key]=true;
     }
@@ -207,7 +210,7 @@ function tournament_question(PDO $db,array &$r,?PDO $qdb=null):?array {
     $pending=[];
     if(!$unknownPast)foreach(array_slice($deck,$turn) as $qid) {
         if(!isset($bank[$qid]))continue;
-        $key=question_prompt_key($bank[$qid]['prompt']);
+        $key=question_content_key($bank[$qid]);
         if($key==='' || isset($usedIDs[$qid]) || isset($usedPrompts[$key]))continue;
         $usedIDs[$qid]=true;$usedPrompts[$key]=true;$keys[$qid]=$key;$pending[]=$qid;
     }
@@ -246,12 +249,13 @@ function tournament_routes(string $route,PDO $db,string $pid,array $body):void {
         $e=sql($db,'SELECT * FROM tournament_events WHERE id=? AND starts<=? AND ends>?',[$event,time(),time()+30])->fetch();if(!$e)fail('Entries have closed. Choose another tournament.',410);if($e['kind']==='party')fail('Join this friends tournament with its invitation code.',403);
         $active=sql($db,'SELECT * FROM tournament_runs WHERE event_id=? AND player_id=? AND state="playing"',[$event,$pid])->fetch();if($active){$db->exec('COMMIT');out(tournament_run_reply($active));}
         if(!tournament_featured($db,$e))fail('New entries have closed for this earlier tournament. Your existing scores are kept. Choose one of today\'s three tournaments.',410);
+        if(!image_client() && in_array($e['topic'],['41','42'],true))fail('Please update Quizfolk to enter picture tournaments.',426);
         $w=tournament_wallet($db,$pid);
         if($w['coins']<(int)$e['coins'])fail('Not enough coins. This entry costs '.$e['coins'].' coins and your balance is '.$w['coins'].'. Open Earn coins to complete your Daily Trail.',409);
         $qdb=new PDO('sqlite:'.dirname(__DIR__).'/data/question-bank.sqlite');
         $bank=array_map(fn($payload)=>json_decode($payload,true),sql($qdb,'SELECT payload FROM questions WHERE category_id=?',[$e['topic']])->fetchAll(PDO::FETCH_COLUMN));
         $deck=question_deck($bank,tournament_seen_ids($db,$pid,$e['topic']));if(!$deck)fail('This topic is unavailable',410);
-        $ids=array_column($deck,'id');$keys=[];foreach($deck as $q)$keys[$q['id']]=question_prompt_key($q['prompt']);
+        $ids=array_column($deck,'id');$keys=[];foreach($deck as $q)$keys[$q['id']]=question_content_key($q);
         $id=bin2hex(random_bytes(12));sql($db,'INSERT INTO tournament_runs(id,event_id,player_id,request_key,deck,question_keys,created) VALUES(?,?,?,?,?,?,?)',[$id,$event,$pid,$key,json_encode($ids),json_encode($keys),time()]);
         tournament_credit($db,$pid,'entry:'.$id,-(int)$e['coins'],-(int)$e['tickets']);$r=sql($db,'SELECT * FROM tournament_runs WHERE id=?',[$id])->fetch();$db->exec('COMMIT');out(tournament_run_reply($r),201);
     }
@@ -267,6 +271,7 @@ function tournament_routes(string $route,PDO $db,string $pid,array $body):void {
     if($r['state']!=='playing'){$db->exec('COMMIT');out(tournament_run_reply($r));}
     $q=tournament_question($db,$r);
     if(!$q){$db->exec('COMMIT');out(tournament_run_reply($r));}
+    require_image_client($q);
     if($route==='tournament-answer' && (!empty($r['_questionChanged']) || ($r['started']===null && $r['preview']===null && ($body['turn'] ?? null)===(int)$r['turn']))){$db->exec('COMMIT');out(tournament_run_reply($r)+['questionChanged'=>true]);}
     if($route==='tournament-power') {
         $reply=power_activate($db,$pid,'run:'.$id,(int)$r['turn'],$q,$r['started']===null?null:(float)$r['started'],$body);
@@ -278,7 +283,7 @@ function tournament_routes(string $route,PDO $db,string $pid,array $body):void {
         $preview=$r['preview']===null ? microtime(true):(float)$r['preview'];$left=max(0,question_reading_seconds($q['prompt'])-(microtime(true)-$preview));$reading=$r['started']===null && ($route==='tournament-round' || $left>0);
         if($r['preview']===null)sql($db,'UPDATE tournament_runs SET preview=? WHERE id=?',[$preview,$id]);
         if(!$reading && $r['started']===null){$r['started']=microtime(true);sql($db,'UPDATE tournament_runs SET started=? WHERE id=?',[$r['started'],$id]);}
-        $powerState=power_state($db,'run:'.$id,(int)$r['turn'],$q);unset($q['correctIndex']);if($reading)$q['answers']=[];
+        $powerState=power_state($db,'run:'.$id,(int)$r['turn'],$q);$q=public_question($q,$reading);
         $reply=tournament_run_reply($r)+['question'=>$q,'remaining'=>$reading ? 10:max(0,10-(microtime(true)-(float)$r['started'])),'readingRemaining'=>$reading ? $left:0,'phase'=>$reading?'reading':'answer','power'=>$powerState];$db->exec('COMMIT');out($reply);
     }
     if($route==='tournament-answer') {

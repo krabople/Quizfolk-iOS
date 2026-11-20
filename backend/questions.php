@@ -27,10 +27,29 @@ function question_prompt_key(string $prompt):string {
     $prompt=preg_replace('/\?+$/u','',$prompt) ?? '';
     return preg_replace('/(?<=\p{L})[.!]+$/u','',$prompt) ?? '';
 }
+function question_content_key(array $q):string {
+    if(!empty($q['questionGroup']))return 'group:'.$q['questionGroup'];
+    return question_prompt_key($q['prompt']).(!empty($q['imageSHA256'])?'|image:'.$q['imageSHA256']:'');
+}
+function image_client():bool {return (int)($_SERVER['HTTP_X_QUIZFOLK_CLIENT'] ?? 0)>=4;}
+function require_image_client(array $q):void {
+    if(!empty($q['imagePng']) && !image_client())fail('Please update Quizfolk to play picture questions.',426);
+}
+function public_question(array $q,bool $reading=false):array {
+    $out=['id'=>$q['id'],'categoryID'=>$q['categoryID'],'prompt'=>$q['prompt'],'answers'=>$reading?[]:$q['answers'],'difficulty'=>$q['difficulty']];
+    foreach(['imagePng','imageSHA256','questionGroup'] as $key)if(isset($q[$key]))$out[$key]=$q[$key];
+    return $out;
+}
+function visible_topics():array {
+    $topics=array_values(array_filter(play_topics(),fn($t)=>image_client() || empty($t['requiresImages'])));
+    $count=array_sum(array_column(array_filter($topics,fn($t)=>$t['id']!=='mixed'),'questionCount'));
+    foreach($topics as &$topic)if($topic['id']==='mixed')$topic['questionCount']=$count;unset($topic);
+    return $topics;
+}
 function unique_questions(array $questions):array {
     $ids=[];$prompts=[];$unique=[];
     foreach($questions as $q) {
-        $key=question_prompt_key($q['prompt']);
+        $key=question_content_key($q);
         if($key==='' || isset($ids[$q['id']]) || isset($prompts[$key]))continue;
         $ids[$q['id']]=true;$prompts[$key]=true;$unique[]=$q;
     }
@@ -38,10 +57,10 @@ function unique_questions(array $questions):array {
 }
 function question_deck(array $bank,array $seenIDs=[]):array {
     $seenPrompts=[];
-    foreach($bank as $q)if(isset($seenIDs[$q['id']]))$seenPrompts[question_prompt_key($q['prompt'])]=true;
+    foreach($bank as $q)if(isset($seenIDs[$q['id']]))$seenPrompts[question_content_key($q)]=true;
     $fresh=[];$repeated=[];
     foreach($bank as $q) {
-        if(isset($seenIDs[$q['id']]) || isset($seenPrompts[question_prompt_key($q['prompt'])]))$repeated[]=$q;
+        if(isset($seenIDs[$q['id']]) || isset($seenPrompts[question_content_key($q)]))$repeated[]=$q;
         else $fresh[]=$q;
     }
     shuffle($fresh);shuffle($repeated);

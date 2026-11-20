@@ -21,6 +21,17 @@ import org.junit.runner.RunWith
 /** Runs only in the dedicated tablet CI job, with isolated debug fixture data. */
 @RunWith(AndroidJUnit4::class)
 class TabletLayoutTest {
+    @Test fun pictureTopicsInBothOrientations() {
+        ready()
+        for((id,landscape) in listOf("41" to false,"42" to true)) {
+            rotate(landscape)
+            compose.runOnUiThread { store.game=GameSession(store,store.topic(id),false) }
+            waitFor("startDuel",15000);tap("startDuel");waitFor("answer-0",15000)
+            compose.onNodeWithTag("questionImage").assertIsDisplayed()
+            compose.onNodeWithTag("answer-0").assertIsDisplayed();capture("Tablet-PictureTopic-$id")
+            compose.runOnUiThread { store.game?.close();store.game=null }
+        }
+    }
     @get:Rule(order=0) val compose = AndroidComposeTestRule(
         ActivityScenarioRule<MainActivity>(Intent(ApplicationProvider.getApplicationContext<android.content.Context>(), MainActivity::class.java).putExtra("ui_test", true)),
         { rule -> var activity: MainActivity? = null; rule.scenario.onActivity { activity = it }; requireNotNull(activity) }
