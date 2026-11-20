@@ -118,7 +118,9 @@ import kotlin.math.*
 }
 @Composable private fun CompactPlayScreen(game: GameSession, modifier: Modifier) {
     BoxWithConstraints(modifier.padding(horizontal = 16.dp, vertical = 8.dp)) {
-        val tileTarget = if (game.reading) 0.dp else maxHeight * if (game.revealed) .32f else .38f
+        val pictureQuestion = game.question?.imagePng != null
+        val answerFraction = if (pictureQuestion) { if (game.revealed) .24f else .28f } else { if (game.revealed) .32f else .38f }
+        val tileTarget = if (game.reading) 0.dp else maxHeight * answerFraction
         val answersHeight by animateDpAsState(tileTarget, tween(450), label = "answerSpace")
         Column(Modifier.fillMaxSize(), verticalArrangement = Arrangement.spacedBy(if (game.revealed) 5.dp else 7.dp)) {
             if (game.survival) Row(Modifier.fillMaxWidth().height(46.dp), verticalAlignment = Alignment.CenterVertically) {

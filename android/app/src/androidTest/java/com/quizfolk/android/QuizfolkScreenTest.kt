@@ -57,6 +57,7 @@ class QuizfolkScreenTest {
             tapTag("startDuel")
             compose.waitUntil(15000) { compose.onAllNodesWithTag("answer-0").fetchSemanticsNodes().isNotEmpty() }
             compose.onNodeWithTag("questionImage").assertIsDisplayed()
+            compose.onNodeWithTag("questionImage").assertHeightIsAtLeast(60.dp)
             compose.onNodeWithTag("answer-0").assertIsDisplayed()
             capture("PictureTopic-$id")
             compose.runOnUiThread { store.game?.close();store.game=null }
