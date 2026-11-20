@@ -37,3 +37,5 @@ Deploy immutable snapshots before their manifests. Player state remains separate
 All additions have auditVersion2026-11-four-topics-v1 and a frozen ID/fingerprint
 ledger in audit/four-topics-2026-11, so this batch can be removed independently.
 Image rights and attributions are distributed in data/question-image-notices.txt.
+
+During the TestFlight rollout, public daily/weekly rotations stay on text topics so current App Store clients retain three playable events. Private friends tournaments and direct picture duels work with protocol4. Once the picture-capable native release is public, private server configuration public_image_tournaments=true enables those subjects in the normal public rotation. Existing daily/weekly selections are preserved mid-period.

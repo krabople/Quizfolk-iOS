@@ -21,3 +21,5 @@ The export contains questions and category metadata, not code, credentials or pl
 records. Requests for the public bank assets do not contain a player token. HTTP
 compression is enabled only within the bank asset directory when supported by Apache.
 Do not modify the Ways2Earn site's root configuration or files during publication.
+
+Picture questions require the image-capable native release (protocol4) once. Thereafter picture questions can also change without another app update. Export BOTH compatibility feeds: python scripts/export_mobile_bank.py --format 1 writes build/mobile-bank (text-only, deployed to bank/); python scripts/export_mobile_bank.py --format 2 --output build/mobile-bank-v2 writes the full image bank (deployed to bank-v2/). Publish immutable snapshots before either manifest. The private canonical bank always contains all questions. Older clients keep the text feed and do not receive unrenderable image questions. New clients verify the inline PNG hashes and dimensions and keep images available offline.
