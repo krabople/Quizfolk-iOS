@@ -68,7 +68,11 @@ function tournament_apply_public_policy(PDO $db,int $now):void {
     }
 }
 function tournament_seed(PDO $db,?int $now=null):void {
-    $now ??= time();$topics=json_decode(file_get_contents(dirname(__DIR__).'/data/categories.json'),true);$n=count($topics);$day=intdiv($now,86400);$start=$day*86400;
+    $now ??= time();$topics=json_decode(file_get_contents(dirname(__DIR__).'/data/categories.json'),true);
+    // Picture categories launch in native test builds first. Keep the public
+    // rotation playable by current App Store clients until that rollout ends.
+    if(($GLOBALS['config']['public_image_tournaments'] ?? false)!==true)$topics=array_values(array_filter($topics,fn($t)=>empty($t['requiresImages'])));
+    $n=count($topics);$day=intdiv($now,86400);$start=$day*86400;
     // Preserve a small promised prize for already-entered free legacy events.
     // New tournaments always have entry coins and never receive this subsidy.
     sql($db,'INSERT OR IGNORE INTO tournament_legacy_prize_floor SELECT id,25 FROM tournament_events e WHERE kind IN ("daily","weekly") AND settled=0 AND coins=0 AND tickets=0 AND EXISTS(SELECT 1 FROM tournament_runs r WHERE r.event_id=e.id)');
