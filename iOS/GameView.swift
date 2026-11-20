@@ -122,7 +122,7 @@ private struct DuelScreen:View {
     tabletRoundHeader
     QuestionTimeBar(remaining:game.remaining,reading:game.reading,thickness:12)
     if let question=game.current {
-     tabletQuestion(question).frame(minHeight:game.reading ? max(200,layout.contentHeight-450):max(100,layout.contentHeight-layout.answerHeight*2-(game.revealed ? 502:430)))
+     tabletQuestion(question).frame(height:game.reading ? max(220,layout.contentHeight-450):max(220,layout.contentHeight-layout.answerHeight*2-(game.revealed ? 502:430)))
      if game.reading {readingNotice}
      tabletAnswers(question,height:layout.answerHeight)
     }

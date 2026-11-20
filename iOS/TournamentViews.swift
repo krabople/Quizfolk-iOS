@@ -259,7 +259,7 @@ struct TournamentPlayView:View {
     tabletHeader
     QuestionTimeBar(remaining:game.remaining,reading:game.reading,thickness:12)
     if let question=game.question {
-     tabletQuestion(question).frame(minHeight:game.reading ? max(200,layout.contentHeight-320):max(140,layout.contentHeight-layout.answerHeight*2-(game.revealed ? 365:300)))
+     tabletQuestion(question).frame(height:game.reading ? max(220,layout.contentHeight-320):max(220,layout.contentHeight-layout.answerHeight*2-(game.revealed ? 365:300)))
      if game.reading {readingNotice}
      tabletAnswers(question,height:layout.answerHeight)
     }

@@ -14,7 +14,12 @@ final class IPadUITests:XCTestCase {
             XCTAssertTrue(app.buttons["Start duel"].waitForExistence(timeout:6));app.buttons["Start duel"].tap()
             let picture=app.images["questionImage"];XCTAssertTrue(picture.waitForExistence(timeout:6))
             XCTAssertTrue(app.buttons["answer-0"].waitForExistence(timeout:12));XCTAssertGreaterThan(picture.frame.height,100)
-            XCTAssertTrue(app.buttons["answer-0"].isHittable);capture("iPad-PictureTopic-"+id);app.terminate()
+            for index in 0..<4 {
+                let answer=app.buttons["answer-\(index)"]
+                XCTAssertTrue(answer.isHittable,"Every answer must be visible with the picture")
+                XCTAssertLessThanOrEqual(answer.frame.maxY,app.frame.maxY,"The image must leave room for both answer rows")
+            }
+            capture("iPad-PictureTopic-"+id);app.terminate()
         }
     }
     @MainActor override func setUpWithError() throws {
