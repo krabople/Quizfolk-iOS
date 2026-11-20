@@ -20,6 +20,25 @@ $preserved=fixture();$week=strtotime('monday this week 00:00 UTC');
 foreach(['9','10','11'] as $topic)sql($preserved,'INSERT INTO tournament_events(id,topic,kind,starts,ends,coins,tickets) VALUES(?,?,"weekly",?,?,50,0)',['existing-week-'.$topic,$topic,$week,$week+604800]);
 tournament_seed($preserved);
 check((int)$preserved->query('SELECT COUNT(*) FROM tournament_events WHERE kind="weekly"')->fetchColumn()===3,'Category expansion changed an already published weekly schedule');
+$legacyWeekly=fixture();
+for($i=0;$i<6;$i++) {
+    $id='legacy-week-'.$i;
+    sql($legacyWeekly,'INSERT INTO tournament_events(id,topic,kind,starts,ends,coins,tickets) VALUES(?,?,"weekly",?,?,50,0)',[$id,(string)(9+$i),$week,$week+604800]);
+    sql($legacyWeekly,'INSERT INTO tournament_runs(id,event_id,player_id,request_key,deck,score,state,created) VALUES(?,?,"alice",?,"[]",?,"playing",?)',['paid-week-'.$i,$id,'paid-key-'.$i,100+$i,time()]);
+}
+$weeklyRuns=$legacyWeekly->query('SELECT * FROM tournament_runs ORDER BY id')->fetchAll();
+tournament_seed($legacyWeekly);
+$weeklySelection=$legacyWeekly->query('SELECT event_ids FROM tournament_weekly_schedule')->fetchColumn();
+check(count(array_unique(json_decode($weeklySelection,true)))===3,'Six legacy weeklies must feature exactly three');
+check((int)$legacyWeekly->query('SELECT COUNT(*) FROM tournament_events WHERE kind="weekly"')->fetchColumn()===6,'Legacy weekly events/prizes must not be deleted');
+check($legacyWeekly->query('SELECT * FROM tournament_runs ORDER BY id')->fetchAll()===$weeklyRuns,'Weekly selection changed paid runs or scores');
+$weeklyCards=array_map(fn($e)=>tournament_card($legacyWeekly,'alice',$e),$legacyWeekly->query('SELECT * FROM tournament_events WHERE kind="weekly"')->fetchAll());
+check(count(array_filter($weeklyCards,fn($e)=>$e['featured']))===3,'Weekly cards must expose three current slots');
+check(count(array_filter($weeklyCards,fn($e)=>!$e['featured'] && $e['activeRun']!==null))===3,'Earlier weekly entries must remain resumable');
+tournament_seed($legacyWeekly);
+check($legacyWeekly->query('SELECT event_ids FROM tournament_weekly_schedule')->fetchColumn()===$weeklySelection,'Weekly slots drifted on repeat seed');
+tournament_seed($legacyWeekly,$week+604800+1);
+check((int)sql($legacyWeekly,'SELECT COUNT(*) FROM tournament_events WHERE kind="weekly" AND starts=?',[$week+604800])->fetchColumn()===3,'Next week must create exactly three events');
 $start=(int)floor(time()/86400)*86400;
 $db=fixture();
 for($i=0;$i<6;$i++) {

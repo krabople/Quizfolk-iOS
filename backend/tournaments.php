@@ -19,6 +19,7 @@ function tournament_schema(PDO $db):void {
       CREATE INDEX IF NOT EXISTS tournament_run_player ON tournament_runs(player_id,event_id);
       CREATE TABLE IF NOT EXISTS tournament_places(event_id TEXT REFERENCES tournament_events(id),player_id TEXT REFERENCES players(id) ON DELETE CASCADE,rank INTEGER NOT NULL,score INTEGER NOT NULL,streak INTEGER NOT NULL,reward INTEGER NOT NULL,PRIMARY KEY(event_id,player_id));
       CREATE TABLE IF NOT EXISTS tournament_daily_schedule(day INTEGER PRIMARY KEY,event_ids TEXT NOT NULL);
+      CREATE TABLE IF NOT EXISTS tournament_weekly_schedule(week INTEGER PRIMARY KEY,event_ids TEXT NOT NULL);
       CREATE TABLE IF NOT EXISTS question_seen(player_id TEXT REFERENCES players(id) ON DELETE CASCADE,question_id TEXT NOT NULL,topic TEXT NOT NULL,PRIMARY KEY(player_id,question_id));
       CREATE TABLE IF NOT EXISTS tournament_legacy_prize_floor(event_id TEXT PRIMARY KEY REFERENCES tournament_events(id),coins INTEGER NOT NULL);');
     $db->exec('CREATE TABLE IF NOT EXISTS tournament_fixed_prizes_v1(event_id TEXT PRIMARY KEY REFERENCES tournament_events(id),applied INTEGER NOT NULL);
@@ -101,16 +102,26 @@ function tournament_seed(PDO $db,?int $now=null):void {
         sql($db,'INSERT INTO tournament_daily_schedule VALUES(?,?)',[$start,json_encode($featured)]);
     }
     $week=strtotime('monday this week 00:00 UTC',$now);
-    // A category expansion must not add a second set of weekly events midweek.
-    $existing=sql($db,'SELECT topic FROM tournament_events WHERE kind="weekly" AND starts=?',[$week])->fetchAll(PDO::FETCH_COLUMN);
-    for($i=count($existing);$i<3;$i++) {
-        for($j=0;$j<$n;$j++) {$topic=$topics[((int)floor($week/604800)*3+$i+$j)%$n]['id'];if(!in_array($topic,$existing,true))break;}
-        sql($db,'INSERT OR IGNORE INTO tournament_events(id,topic,kind,starts,ends,coins,tickets) VALUES(?,?,?,?,?,?,?)',['week:'.gmdate('Ymd',$week).':'.$topic,$topic,'weekly',$week,$week+604800,50,0]);
-        $existing[]=$topic;
+    // Adopt only three public weekly slots, including when older code already
+    // created six. Keep every extra event and its paid runs/prizes in history.
+    if(!sql($db,'SELECT 1 FROM tournament_weekly_schedule WHERE week=?',[$week])->fetchColumn()) {
+        $events=sql($db,'SELECT e.id,e.topic FROM tournament_events e WHERE kind="weekly" AND starts=? ORDER BY (SELECT COUNT(*) FROM tournament_runs r WHERE r.event_id=e.id) DESC,e.id LIMIT 3',[$week])->fetchAll();
+        $featured=array_column($events,'id');$existing=array_column($events,'topic');
+        for($i=count($featured);$i<3;$i++) {
+            for($j=0;$j<$n;$j++) {$topic=$topics[((int)floor($week/604800)*3+$i+$j)%$n]['id'];if(!in_array($topic,$existing,true))break;}
+            $id='week:'.gmdate('Ymd',$week).':'.$topic;
+            sql($db,'INSERT OR IGNORE INTO tournament_events(id,topic,kind,starts,ends,coins,tickets) VALUES(?,?,?,?,?,?,?)',[$id,$topic,'weekly',$week,$week+604800,50,0]);
+            $existing[]=$topic;$featured[]=$id;
+        }
+        sql($db,'INSERT INTO tournament_weekly_schedule VALUES(?,?)',[$week,json_encode($featured)]);
     }
     tournament_apply_public_policy($db,$now);
 }
 function tournament_featured(PDO $db,array $e):bool {
+    if($e['kind']==='weekly') {
+        $row=sql($db,'SELECT event_ids FROM tournament_weekly_schedule WHERE week=?',[(int)$e['starts']])->fetchColumn();
+        return $row===false || in_array($e['id'],json_decode((string)$row,true) ?? [],true);
+    }
     if($e['kind']!=='daily')return true;
     $ids=json_decode((string)sql($db,'SELECT event_ids FROM tournament_daily_schedule WHERE day=?',[(int)$e['starts']])->fetchColumn(),true) ?? [];
     return in_array($e['id'],$ids,true);
@@ -261,7 +272,7 @@ function tournament_routes(string $route,PDO $db,string $pid,array $body):void {
         $old=sql($db,'SELECT * FROM tournament_runs WHERE request_key=?',[$key])->fetch();if($old){if($old['event_id']!==$event)fail('This entry request was already used',409);$db->exec('COMMIT');out(tournament_run_reply($old));}
         $e=sql($db,'SELECT * FROM tournament_events WHERE id=? AND starts<=? AND ends>?',[$event,time(),time()+30])->fetch();if(!$e)fail('Entries have closed. Choose another tournament.',410);if($e['kind']==='party')fail('Join this friends tournament with its invitation code.',403);
         $active=sql($db,'SELECT * FROM tournament_runs WHERE event_id=? AND player_id=? AND state="playing"',[$event,$pid])->fetch();if($active){$db->exec('COMMIT');out(tournament_run_reply($active));}
-        if(!tournament_featured($db,$e))fail('New entries have closed for this earlier tournament. Your existing scores are kept. Choose one of today\'s two tournaments.',410);
+        if(!tournament_featured($db,$e))fail('New entries have closed for this earlier tournament. Your existing scores are kept. Choose one of the current '.($e['kind']==='weekly'?'three weekly':'two daily').' tournaments.',410);
         if(!image_client() && in_array($e['topic'],['41','42'],true))fail('Please update Quizfolk to enter picture tournaments.',426);
         $w=tournament_wallet($db,$pid);
         if($w['coins']<(int)$e['coins'])fail('Not enough coins. This entry costs '.$e['coins'].' coins and your balance is '.$w['coins'].'. Open Earn coins to complete your Daily Trail.',409);
