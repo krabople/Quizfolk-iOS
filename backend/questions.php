@@ -37,7 +37,7 @@ function require_image_client(array $q):void {
 }
 function public_question(array $q,bool $reading=false):array {
     $out=['id'=>$q['id'],'categoryID'=>$q['categoryID'],'prompt'=>$q['prompt'],'answers'=>$reading?[]:$q['answers'],'difficulty'=>$q['difficulty']];
-    foreach(['imagePng','imageSHA256','questionGroup'] as $key)if(isset($q[$key]))$out[$key]=$q[$key];
+    foreach(['imagePng','imageSHA256'] as $key)if(isset($q[$key]))$out[$key]=$q[$key];
     return $out;
 }
 function visible_topics():array {

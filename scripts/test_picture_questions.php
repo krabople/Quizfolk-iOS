@@ -15,6 +15,7 @@ foreach($flags as $q) {
  $pub=public_question($q,true);check($pub['answers']===[] && !isset($pub['correctIndex']) && !isset($pub['countryCode']) && !isset($pub['sourceURL']),'Preview leaked answers');
 }
 $_SERVER['HTTP_X_QUIZFOLK_CLIENT']='3';
+foreach($caps as $q)check(!isset(public_question($q)['questionGroup']),'Internal country grouping leaked into a capital question');
 check(count(visible_topics())===34,'Old clients should receive only text categories plus Mixed');
 try{require_image_client($flags[0]);throw new RuntimeException('Legacy client received image');}catch(RuntimeException $e){check($e->getCode()===426,'Missing update message');}
 $_SERVER['HTTP_X_QUIZFOLK_CLIENT']='4';require_image_client($flags[0]);check(count(visible_topics())===36,'Modern client missed new topics');
