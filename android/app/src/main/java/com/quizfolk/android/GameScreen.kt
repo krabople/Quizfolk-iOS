@@ -119,7 +119,7 @@ import kotlin.math.*
 @Composable private fun CompactPlayScreen(game: GameSession, modifier: Modifier) {
     BoxWithConstraints(modifier.padding(horizontal = 16.dp, vertical = 8.dp)) {
         val pictureQuestion = game.question?.imagePng != null
-        val answerFraction = if (pictureQuestion) { if (game.revealed) .24f else .28f } else { if (game.revealed) .32f else .38f }
+        val answerFraction = if (pictureQuestion) .24f else { if (game.revealed) .32f else .38f }
         val tileTarget = if (game.reading) 0.dp else maxHeight * answerFraction
         val answersHeight by animateDpAsState(tileTarget, tween(450), label = "answerSpace")
         Column(Modifier.fillMaxSize(), verticalArrangement = Arrangement.spacedBy(if (game.revealed) 5.dp else 7.dp)) {
@@ -294,7 +294,7 @@ import kotlin.math.*
     ProgressRow(game.opponent, game.opponentAnswered, if (game.kind == "bot" || !game.online || game.kind == "human") game.rounds.map { it.opponentPoints > 0 } else game.opponentResults, null, "opponentRoundMarker", spacious)
 }
 @Composable private fun ProgressRow(name: String, answered: Int, results: List<Boolean?>, current: Int?, tag: String, spacious: Boolean = false) = Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(4.dp)) {
-    Text(name, Modifier.width(if (spacious) 130.dp else 92.dp), fontSize = if (spacious) 13.sp else 9.sp, fontWeight = FontWeight.SemiBold, maxLines = 1)
+    Text(name, Modifier.width(if (spacious) 130.dp else 92.dp), fontSize = if (spacious) 13.sp else 9.sp, lineHeight = if (spacious) 18.sp else 13.sp, fontWeight = FontWeight.SemiBold, maxLines = 1)
     (0..6).forEach { i -> val result = if (i < answered) results.getOrNull(i) else null
         val label = if (result == true) "correct" else if (result == false) "incorrect" else if (i < answered) "answered, result pending" else if (i == current) "current" else "upcoming"
         Box(Modifier.weight(1f).height(if (spacious) 16.dp else 12.dp).background(if (result == true) Color(0xFF32C778) else if (result == false) Coral else if (i == current && i >= answered) Gold else Color.White.copy(alpha = if (i < answered) .32f else .17f), CircleShape)
@@ -302,7 +302,7 @@ import kotlin.math.*
             if (result != null) Icon(if (result) Icons.Default.Check else Icons.Default.Close, null, tint = Color.White, modifier = Modifier.size(9.dp))
         }
     }
-    Text("$answered/7", fontSize = if (spacious) 13.sp else 10.sp, fontWeight = FontWeight.Bold)
+    Text("$answered/7", fontSize = if (spacious) 13.sp else 10.sp, lineHeight = if (spacious) 18.sp else 13.sp, fontWeight = FontWeight.Bold)
 }
 @Composable private fun TimeBar(seconds: Double, reading: Boolean, thickness: Dp = 9.dp) {
     val fraction = if (reading) 1f else (seconds / 10).toFloat().coerceIn(0f,1f)
