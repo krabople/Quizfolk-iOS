@@ -9,13 +9,13 @@ function fixture():PDO {
     tournament_schema($db);return $db;
 }
 $db=fixture();tournament_seed($db);
-check((int)$db->query('SELECT COUNT(*) FROM tournament_events WHERE kind="daily"')->fetchColumn()===3,'A fresh day must have three daily events');
+check((int)$db->query('SELECT COUNT(*) FROM tournament_events WHERE kind="daily"')->fetchColumn()===2,'A fresh day must have two daily events');
 check((int)$db->query('SELECT COUNT(*) FROM tournament_events WHERE kind="weekly"')->fetchColumn()===3,'Weekly schedule changed');
-check((int)$db->query('SELECT COUNT(*) FROM tournament_events WHERE kind="daily" AND coins=25 AND tickets=0')->fetchColumn()===3,'All fresh daily entries must cost25 coins');
+check((int)$db->query('SELECT COUNT(*) FROM tournament_events WHERE kind="daily" AND coins=25 AND tickets=0')->fetchColumn()===2,'All fresh daily entries must cost25 coins');
 check((int)$db->query('SELECT COUNT(*) FROM tournament_events WHERE kind="weekly" AND coins=50 AND tickets=0')->fetchColumn()===3,'All fresh weekly entries must cost50 coins');
 $freshSchedule=json_decode($db->query('SELECT event_ids FROM tournament_daily_schedule')->fetchColumn(),true);
-check(count(array_unique($freshSchedule))===3,'Uniform daily prices produced duplicate featured IDs');
-tournament_seed($db);check((int)$db->query('SELECT COUNT(*) FROM tournament_events')->fetchColumn()===6,'Repeat seed duplicated events');
+check(count(array_unique($freshSchedule))===2,'Uniform daily prices produced duplicate featured IDs');
+tournament_seed($db);check((int)$db->query('SELECT COUNT(*) FROM tournament_events')->fetchColumn()===5,'Repeat seed duplicated events');
 $preserved=fixture();$week=strtotime('monday this week 00:00 UTC');
 foreach(['9','10','11'] as $topic)sql($preserved,'INSERT INTO tournament_events(id,topic,kind,starts,ends,coins,tickets) VALUES(?,?,"weekly",?,?,50,0)',['existing-week-'.$topic,$topic,$week,$week+604800]);
 tournament_seed($preserved);
@@ -36,7 +36,7 @@ check(tournament_wallet($db,'alice')===$wallet,'Ticket conversion was applied tw
 tournament_seed($db);
 $cards=array_map(fn($e)=>tournament_card($db,'alice',$e),$db->query('SELECT * FROM tournament_events WHERE kind="daily" ORDER BY id')->fetchAll());
 $featured=array_values(array_filter($cards,fn($e)=>$e['featured']));
-check(count($featured)===3,'An old six-event day must feature exactly three');
+check(count($featured)===2,'An old six-event day must feature exactly two');
 check(count(array_filter($cards,fn($e)=>!$e['featured'] && $e['activeRun']!==null && $e['attempts']===1))>=3,'Earlier active entries must remain resumable');
 check(tournament_wallet($db,'alice')===$wallet,'Migration changed credits');
 check($db->query('SELECT * FROM tournament_runs ORDER BY id')->fetchAll()===$runs,'Migration changed paid runs');
@@ -84,7 +84,7 @@ check((int)$db->query('SELECT COUNT(*) FROM tournament_ledger WHERE reference LI
 check($db->query('SELECT * FROM tournament_runs ORDER BY id')->fetchAll()===$beforeRuns,'Price migration changed runs/scores/decks/IDs');
 check($db->query('SELECT * FROM tournament_ledger WHERE reference LIKE "entry:%" ORDER BY reference')->fetchAll()===$beforeEntries,'Price migration rewrote entry history');
 check($db->query('SELECT * FROM tournament_events WHERE id IN ("private-paid","private-free","ended-daily","settled-weekly") ORDER BY id')->fetchAll()===$unchanged,'Ended/settled/private entry terms changed');
-check(json_decode(sql($db,'SELECT event_ids FROM tournament_daily_schedule WHERE day=?',[$start])->fetchColumn(),true)===$published,'Persisted daily selection changed');
+check(json_decode(sql($db,'SELECT event_ids FROM tournament_daily_schedule WHERE day=?',[$start])->fetchColumn(),true)===array_slice($published,0,2),'Existing daily selection did not shrink to its first two slots');
 check((int)sql($db,'SELECT coins FROM tournament_events WHERE id="future-daily"')->fetchColumn()===25,'Upcoming daily entry price not changed');
 foreach([['daily50',[500,250,125]],['weekly100',[1000,500,250]],['ended-daily',[150,100,50]],['settled-weekly',[500,250,125]]] as [$id,$prizes]) {
  $event=sql($db,'SELECT * FROM tournament_events WHERE id=?',[$id])->fetch();
@@ -121,11 +121,11 @@ check($db->query('SELECT * FROM tournament_ledger ORDER BY player_id,reference')
 check((int)sql($db,'SELECT reward FROM tournament_places WHERE event_id="settled-weekly"')->fetchColumn()===500,'Historical weekly prize was relabelled');
 
 // Tomorrow adopts existing upcoming events without price tiers, then fills only
-// missing slots. A second future seed must leave exactly3 unique persistedIDs.
+// missing slots. A second future seed must leave exactly2 unique persistedIDs.
 $tomorrow=$start+86400+1;tournament_seed($db,$tomorrow);tournament_seed($db,$tomorrow);
 $next=json_decode(sql($db,'SELECT event_ids FROM tournament_daily_schedule WHERE day=?',[$start+86400])->fetchColumn(),true);
-check(count($next)===3 && count(array_unique($next))===3 && in_array('future-daily',$next,true),'Future day selection duplicated/lost an existing event');
-check((int)sql($db,'SELECT COUNT(*) FROM tournament_events WHERE kind="daily" AND starts=?',[$start+86400])->fetchColumn()===3,'Future seed created duplicate daily events');
+check(count($next)===2 && count(array_unique($next))===2 && in_array('future-daily',$next,true),'Future day selection duplicated/lost an existing event');
+check((int)sql($db,'SELECT COUNT(*) FROM tournament_events WHERE kind="daily" AND starts=?',[$start+86400])->fetchColumn()===2,'Future seed created duplicate daily events');
 foreach([
     [25,[1],[25]], [75,[1,2],[45,30]], [150,[1,2,3],[75,45,30]],
     [150,[1,1,3],[60,60,30]], [100,[1,2,3,3],[50,30,10,10]], [101,[1,1,1],[33,33,33]]
@@ -142,4 +142,4 @@ foreach([
  $rows=array_map(fn($rank)=>['rank'=>$rank],$ranks);
  check(array_map(fn($rank)=>tournament_fixed_reward(tournament_fixed_prizes($kind),$rows,$rank),$ranks)===$expected,'Fixed podium/tie awards changed');
 }
-echo "PASS:25/50 public entries, idempotent actual-debit refunds, stable three-event schedules, versioned current/legacy prizes and settlement, preserved runs/history/receipts, unchanged private pools\n";
+echo "PASS:25/50 public entries, idempotent actual-debit refunds, stable two-event daily schedules, versioned current/legacy prizes and settlement, preserved runs/history/receipts, unchanged private pools\n";

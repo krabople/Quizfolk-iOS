@@ -16,10 +16,10 @@ a=req('register',{'name':'Tournament Alice'},status=201)['token']
 b=req('register',{'name':'Tournament Bob'},status=201)['token']
 aid=req('profile',token=a)['id'];bid=req('profile',token=b)['id']
 listing=req('tournaments',token=a)
-assert len([e for e in listing['events'] if e['kind']=='daily' and e['featured']])==3
+assert len([e for e in listing['events'] if e['kind']=='daily' and e['featured']])==2
 assert len([e for e in listing['events'] if e['kind']=='weekly'])==3
 assert listing['wallet']=={'coins':100,'tickets':0,'dailyClaimed':False}
-assert sorted(e['coins'] for e in listing['events'] if e['kind']=='daily')==[25,25,25]
+assert sorted(e['coins'] for e in listing['events'] if e['kind']=='daily')==[25,25]
 assert all(e['coins']==50 for e in listing['events'] if e['kind']=='weekly')
 assert all(e['tickets']==0 for e in listing['events'])
 assert all(e['prizes']==([500,250,125] if e['kind']=='daily' else [1000,500,250]) and e['prizePool']==(875 if e['kind']=='daily' else 1750) and e['prizePolicy']=='fixed' for e in listing['events'])
@@ -200,7 +200,7 @@ with sqlite3.connect(STATE) as db:
  assert db.execute('SELECT COUNT(*),SUM(coins) FROM tournament_ledger WHERE reference LIKE "public-entry-v2:%"').fetchone()==(3,125)
  assert db.execute('SELECT * FROM tournament_runs WHERE id IN ("old-d1","old-d2","old-w1","closed-no-refund","private-no-refund") ORDER BY id').fetchall()==old_runs
  assert db.execute('SELECT event_ids FROM tournament_daily_schedule WHERE day=?',(day,)).fetchone()[0]==old_schedule
- assert len(set(json.loads(old_schedule)))==3
+ assert len(set(json.loads(old_schedule)))==2
  assert db.execute('SELECT coins FROM tournament_events WHERE id="old-closed-daily"').fetchone()[0]==75
  assert db.execute('SELECT coins FROM tournament_events WHERE id="private-unchanged"').fetchone()[0]==10
  assert db.execute('SELECT * FROM tournament_prize_receipts WHERE event_id="old-closed-daily"').fetchall()==old_receipt

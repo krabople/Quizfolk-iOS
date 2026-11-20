@@ -76,13 +76,22 @@ function tournament_seed(PDO $db,?int $now=null):void {
     // Preserve a small promised prize for already-entered free legacy events.
     // New tournaments always have entry coins and never receive this subsidy.
     sql($db,'INSERT OR IGNORE INTO tournament_legacy_prize_floor SELECT id,25 FROM tournament_events e WHERE kind IN ("daily","weekly") AND settled=0 AND coins=0 AND tickets=0 AND EXISTS(SELECT 1 FROM tournament_runs r WHERE r.event_id=e.id)');
-    if(!sql($db,'SELECT 1 FROM tournament_daily_schedule WHERE day=?',[$start])->fetch()) {
+    $published=sql($db,'SELECT event_ids FROM tournament_daily_schedule WHERE day=?',[$start])->fetchColumn();
+    if($published!==false) {
+        $selected=json_decode((string)$published,true) ?? [];
+        if(count($selected)>2) {
+            // Retire the extra featured slot without deleting paid runs, scores,
+            // prize promises or history. Existing active runs remain resumable.
+            sql($db,'UPDATE tournament_daily_schedule SET event_ids=? WHERE day=?',[json_encode(array_slice($selected,0,2)),$start]);
+        }
+    }
+    if($published===false) {
         // Select existing IDs once, independently of price. Repeated tier
-        // queries would now select the same25-coin event three times.
-        $featured=sql($db,'SELECT e.id FROM tournament_events e WHERE kind="daily" AND starts=? ORDER BY (SELECT COUNT(*) FROM tournament_runs r WHERE r.event_id=e.id) DESC,e.id LIMIT 3',[$start])->fetchAll(PDO::FETCH_COLUMN);
-        for($i=count($featured);$i<3;$i++) {
+        // queries would now select the same25-coin event repeatedly.
+        $featured=sql($db,'SELECT e.id FROM tournament_events e WHERE kind="daily" AND starts=? ORDER BY (SELECT COUNT(*) FROM tournament_runs r WHERE r.event_id=e.id) DESC,e.id LIMIT 2',[$start])->fetchAll(PDO::FETCH_COLUMN);
+        for($i=count($featured);$i<2;$i++) {
             for($j=0;$j<$n;$j++) {
-                $topic=$topics[($day*3+$i+$j)%$n]['id'];$id=gmdate('Ymd',$start).':'.$topic;
+                $topic=$topics[($day*2+$i+$j)%$n]['id'];$id=gmdate('Ymd',$start).':'.$topic;
                 if(!sql($db,'SELECT 1 FROM tournament_events WHERE id=?',[$id])->fetch())break;
             }
             sql($db,'INSERT INTO tournament_events(id,topic,kind,starts,ends,coins,tickets) VALUES(?,?,?,?,?,?,?)',[$id,$topic,'daily',$start,$start+86400,25,0]);
@@ -252,7 +261,7 @@ function tournament_routes(string $route,PDO $db,string $pid,array $body):void {
         $old=sql($db,'SELECT * FROM tournament_runs WHERE request_key=?',[$key])->fetch();if($old){if($old['event_id']!==$event)fail('This entry request was already used',409);$db->exec('COMMIT');out(tournament_run_reply($old));}
         $e=sql($db,'SELECT * FROM tournament_events WHERE id=? AND starts<=? AND ends>?',[$event,time(),time()+30])->fetch();if(!$e)fail('Entries have closed. Choose another tournament.',410);if($e['kind']==='party')fail('Join this friends tournament with its invitation code.',403);
         $active=sql($db,'SELECT * FROM tournament_runs WHERE event_id=? AND player_id=? AND state="playing"',[$event,$pid])->fetch();if($active){$db->exec('COMMIT');out(tournament_run_reply($active));}
-        if(!tournament_featured($db,$e))fail('New entries have closed for this earlier tournament. Your existing scores are kept. Choose one of today\'s three tournaments.',410);
+        if(!tournament_featured($db,$e))fail('New entries have closed for this earlier tournament. Your existing scores are kept. Choose one of today\'s two tournaments.',410);
         if(!image_client() && in_array($e['topic'],['41','42'],true))fail('Please update Quizfolk to enter picture tournaments.',426);
         $w=tournament_wallet($db,$pid);
         if($w['coins']<(int)$e['coins'])fail('Not enough coins. This entry costs '.$e['coins'].' coins and your balance is '.$w['coins'].'. Open Earn coins to complete your Daily Trail.',409);
