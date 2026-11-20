@@ -53,16 +53,6 @@ class QuizfolkScreenTest {
         ready()
         for(id in listOf("41","42")) {
             compose.runOnUiThread { store.game=GameSession(store,store.topic(id),false) }
-            compose.waitUntil(15000) { compose.onAllNodesWithTag("startDuel").fetchSemanticsNodes().isNotEmpty() };tapTag("startDuel")
-            compose.waitUntil(15000) { compose.onAllNodesWithTag("answer-0").fetchSemanticsNodes().isNotEmpty() }
-            compose.onNodeWithTag("questionImage").assertIsDisplayed();compose.onNodeWithTag("answer-0").assertIsDisplayed();capture("PictureTopic-$id")
-            compose.runOnUiThread { store.game=null }
-        }
-    }
-    @Test fun pictureTopicsKeepImagesAndAnswersVisible() {
-        ready()
-        for(id in listOf("41","42")) {
-            compose.runOnUiThread { store.game=GameSession(store,store.topic(id),false) }
             compose.waitUntil(15000) { compose.onAllNodesWithTag("startDuel").fetchSemanticsNodes().isNotEmpty() }
             tapTag("startDuel")
             compose.waitUntil(15000) { compose.onAllNodesWithTag("answer-0").fetchSemanticsNodes().isNotEmpty() }
