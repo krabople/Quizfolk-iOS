@@ -21,15 +21,16 @@ final class RewardedAdUITests:XCTestCase {
         for _ in 0..<8 {if element.isHittable{return};app.swipeUp(velocity:500)}
         XCTAssertTrue(element.isHittable,"Rewarded control must remain reachable")
     }
-    @MainActor func testReleaseExperienceShowsTestAdsAndKeepsDailyCoins() {
+    @MainActor func testPublicReleaseHidesAdsAndKeepsDailyCoins() {
         let app=launch(rewardedFixture:false)
         XCTAssertTrue(app.staticTexts["50 coins for opening Quizfolk each day"].waitForExistence(timeout:6))
         XCTAssertTrue(app.staticTexts["DAILY TRAIL · EXTRA COINS"].exists)
-        let label=app.staticTexts["rewardedTestMode"]
-        XCTAssertTrue(label.waitForExistence(timeout:6));reveal(label,in:app)
-        XCTAssertTrue(app.buttons["rewardedLoad"].exists)
-        XCTAssertTrue(app.staticTexts["A video, 5 coins"].exists)
-        capture(app,"DailyTrail-TestAdsOnly")
+        app.swipeUp(velocity:500)
+        XCTAssertFalse(app.staticTexts["rewardedTestMode"].exists)
+        XCTAssertFalse(app.buttons["rewardedLoad"].exists)
+        XCTAssertFalse(app.buttons["rewardedShow"].exists)
+        XCTAssertFalse(app.staticTexts["A video, 5 coins"].exists)
+        capture(app,"DailyTrail-PublicRelease-NoAds")
     }
     @MainActor private func loadAndShow(_ app:XCUIApplication) {
         let load=app.buttons["rewardedLoad"]
