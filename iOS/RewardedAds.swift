@@ -20,8 +20,9 @@ private struct SavedRewardedAttempt:Codable {
     var testCompletionReceived:Bool?=nil
 }
 enum RewardedConfiguration {
-    // TestFlight testing only. Live ad serving remains disabled on the server.
-    static let enabledInThisRelease=true
+    // Public release: keep video rewards hidden until live advertising is enabled.
+    // The coordinator can still reconcile an already-earned TestFlight reward.
+    static let enabledInThisRelease=false
     static let testAdsInThisRelease=true
     static let testUnit="ca-app-pub-3940256099942544/1712485313"
     static var requestedUnit:String {testAdsInThisRelease ? testUnit:productionUnit}

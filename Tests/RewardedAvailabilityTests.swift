@@ -2,8 +2,8 @@ import XCTest
 @testable import Quizfolk
 
 @MainActor final class RewardedAvailabilityTests:XCTestCase {
-    func testReleaseRequestsOnlyGoogleDemoUnit() {
-        XCTAssertTrue(RewardedConfiguration.enabledInThisRelease)
+    func testPublicReleaseHidesVideoRewardsAndRetainsDemoConfiguration() {
+        XCTAssertFalse(RewardedConfiguration.enabledInThisRelease)
         XCTAssertTrue(RewardedConfiguration.testAdsInThisRelease)
         XCTAssertEqual(RewardedConfiguration.requestedUnit,"ca-app-pub-3940256099942544/1712485313")
     }
@@ -28,7 +28,7 @@ import XCTest
         XCTAssertEqual(store.coinBalance,115)
         XCTAssertEqual(ads.phase,.awarded)
         XCTAssertNil(UserDefaults.standard.data(forKey:key))
-        XCTAssertTrue(ads.canPrepare)
+        XCTAssertFalse(ads.canPrepare,"The public release must not start a new test ad")
     }
     func testPresentingVideoAloneDoesNotRequestTestCoins() async throws {
         let store=QuizStore();await store.connect()
